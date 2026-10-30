@@ -420,6 +420,99 @@
       ]
     },
     {
+      "@id": "kt:application-lifecycle-management",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Application Lifecycle Management",
+      "skos:definition": "The set of tools and methodologies that carry a Salesforce change from requirement to production and beyond, organised as plan, build, test, deploy and monitor phases and shaped by the team's chosen development model (org-based or package-based).",
+      "kto:domain": "devops-and-alm",
+      "dcterms:created": "2026-10-30",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Learn About Salesforce Application Lifecycle Management",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/salesforce-application-lifecycle-management-quick-look/learn-about-salesforce-application-lifecycle-management",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Imagine a New Source of Truth (Salesforce DX Development Model)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/sfdx_dev_model/sfdx_dev_model_neworganization",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Say Hello to Lifecycle Center (DevOps Center Quick Look)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/devops-center-quick-look/say-hello-to-devops-center",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Salesforce DX Developer Guide: Unlocked Packages",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.254.0.sfdx_dev.meta/sfdx_dev/sfdx_dev_unlocked_pkg_intro.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Org Development Model (Salesforce Extensions for VS Code)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/platform/sfvscode-extensions/guide/orgdev.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Make Solutions Adaptable (Salesforce Well-Architected module)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/salesforce-well-architected/make-solutions-adaptable",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/devops-and-alm/application-lifecycle-management.md",
+      "skos:altLabel": [
+        "ALM",
+        "Salesforce ALM",
+        "Salesforce application lifecycle"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:well-architected-framework"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:sandbox-types"
+        },
+        {
+          "@id": "kt:unlocked-packages"
+        },
+        {
+          "@id": "kt:scratch-orgs"
+        },
+        {
+          "@id": "kt:environment-strategy"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:source-tracking"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:devops-center"
+        }
+      ],
+      "kto:enables": [
+        {
+          "@id": "kt:salesforce-dx"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:agent-development-lifecycle"
+        }
+      ]
+    },
+    {
       "@id": "kt:governor-limits",
       "@type": "kto:Limit",
       "skos:prefLabel": "Governor Limits",

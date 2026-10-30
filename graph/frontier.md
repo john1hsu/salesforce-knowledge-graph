@@ -7,12 +7,14 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:agentforce` | `kt:well-architected-framework`, `kt:omni-channel`, `kt:omni-channel`, `kt:agent-development-lifecycle` |
 | `kt:apex-triggers` | `kt:flow-builder`, `kt:governor-limits` |
 | `kt:salesforce-architect` | `kt:well-architected-framework`, `kt:agent-development-lifecycle` |
+| `kt:sandbox-types` | `kt:agent-development-lifecycle`, `kt:application-lifecycle-management` |
 | `kt:service-cloud` | `kt:omni-channel`, `kt:omni-channel` |
 | `kt:agentforce-dx` | `kt:agent-development-lifecycle` |
 | `kt:agentforce-testing-center` | `kt:agent-development-lifecycle` |
-| `kt:application-lifecycle-management` | `kt:agent-development-lifecycle` |
 | `kt:asynchronous-apex` | `kt:governor-limits` |
 | `kt:data-skew` | `kt:lookup-vs-master-detail` |
+| `kt:devops-center` | `kt:application-lifecycle-management` |
+| `kt:environment-strategy` | `kt:application-lifecycle-management` |
 | `kt:junction-object` | `kt:lookup-vs-master-detail` |
 | `kt:limit-exception` | `kt:governor-limits` |
 | `kt:limits-class` | `kt:governor-limits` |
@@ -28,10 +30,13 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:record-triggered-flow` | `kt:flow-builder` |
 | `kt:roll-up-summary-field` | `kt:lookup-vs-master-detail` |
 | `kt:salesforce-architecture-center` | `kt:well-architected-framework` |
+| `kt:salesforce-dx` | `kt:application-lifecycle-management` |
 | `kt:salesforce-sharing-model` | `kt:lookup-vs-master-detail` |
-| `kt:sandbox-types` | `kt:agent-development-lifecycle` |
+| `kt:scratch-orgs` | `kt:application-lifecycle-management` |
 | `kt:screen-flow` | `kt:flow-builder` |
 | `kt:skills-based-routing` | `kt:omni-channel` |
 | `kt:solution-design-tradeoffs` | `kt:well-architected-framework` |
+| `kt:source-tracking` | `kt:application-lifecycle-management` |
 | `kt:technical-debt-in-salesforce` | `kt:well-architected-framework` |
+| `kt:unlocked-packages` | `kt:application-lifecycle-management` |
 | `kt:workflow-rules` | `kt:flow-builder` |
