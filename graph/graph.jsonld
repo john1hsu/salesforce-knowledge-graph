@@ -260,6 +260,85 @@
       ]
     },
     {
+      "@id": "kt:agent-development-lifecycle",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Agent Development Lifecycle",
+      "skos:definition": "Salesforce's five-phase methodology for designing, building, testing, deploying and continuously tuning Agentforce agents, extending traditional application lifecycle management to cope with non-deterministic, natural-language driven agent behaviour.",
+      "kto:domain": "data-cloud-and-ai",
+      "dcterms:created": "2026-10-30",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "The Agent Development Lifecycle",
+          "dcterms:publisher": "Salesforce Architects",
+          "schema:url": "https://architect.salesforce.com/fundamentals/agent-development-lifecycle",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Trust Your Agents (Agentforce Agent Testing module)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/agentforce-agent-testing/trust-your-agents",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Master the Agentic Development Lifecycle for Agentforce",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2026/06/master-the-agentic-development-lifecycle-for-agentforce",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Exploring the Agentforce Development Lifecycle",
+          "dcterms:publisher": "Salesforce Blog",
+          "schema:url": "https://www.salesforce.com/blog/exploring-the-agentforce-development-lifecycle/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "The Agent Development Lifecycle",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/agentforce/agent-development-lifecycle/",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/data-cloud-and-ai/agent-development-lifecycle.md",
+      "skos:altLabel": [
+        "ADLC",
+        "Agentforce Development Lifecycle",
+        "Agentic Development Lifecycle"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:agentforce"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:agentforce-testing-center"
+        },
+        {
+          "@id": "kt:agentforce-dx"
+        },
+        {
+          "@id": "kt:sandbox-types"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:well-architected-framework"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:application-lifecycle-management"
+        }
+      ],
+      "kto:usedBy": [
+        {
+          "@id": "kt:salesforce-architect"
+        }
+      ]
+    },
+    {
       "@id": "kt:governor-limits",
       "@type": "kto:Limit",
       "skos:prefLabel": "Governor Limits",
