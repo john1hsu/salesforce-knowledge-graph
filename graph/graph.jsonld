@@ -163,6 +163,83 @@
           "@id": "kt:governor-limits"
         }
       ]
+    },
+    {
+      "@id": "kt:governor-limits",
+      "@type": "kto:Limit",
+      "skos:prefLabel": "Governor Limits",
+      "skos:definition": "Runtime limits that the Salesforce platform enforces on every Apex and flow transaction (queries, DML, CPU time, heap, callouts and more) so that one tenant's code cannot monopolize shared multitenant resources.",
+      "kto:domain": "platform-architecture",
+      "dcterms:created": "2026-10-30",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Apex Developer Guide: Execution Governors and Limits",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexref/apex_gov_limits.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Apex Reference Guide: Limits Class",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_methods_system_limits.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Per-Transaction Flow Limits",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/apex/HTViewHelpDoc?id=platform.flow_considerations_limit_transaction.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Apex Triggers: Bulk Apex Triggers",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/apex_triggers/apex_triggers_bulk",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Apex Basics for .NET Developers: Understand Execution Context",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/en/apex_basics_dotnet/execution_context",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/platform-architecture/governor-limits.md",
+      "skos:altLabel": [
+        "Apex governor limits",
+        "execution governors and limits",
+        "per-transaction limits"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:multitenancy"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:apex-triggers"
+        },
+        {
+          "@id": "kt:flow-builder"
+        },
+        {
+          "@id": "kt:asynchronous-apex"
+        },
+        {
+          "@id": "kt:order-of-execution"
+        }
+      ],
+      "kto:queriedWith": [
+        {
+          "@id": "kt:limits-class"
+        }
+      ],
+      "kto:causes": [
+        {
+          "@id": "kt:limit-exception"
+        }
+      ]
     }
   ]
 }

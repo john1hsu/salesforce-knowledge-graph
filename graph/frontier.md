@@ -4,10 +4,14 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:governor-limits` | `kt:well-architected-framework`, `kt:flow-builder` |
+| `kt:apex-triggers` | `kt:flow-builder`, `kt:governor-limits` |
 | `kt:agent-development-lifecycle` | `kt:well-architected-framework` |
 | `kt:agentforce` | `kt:well-architected-framework` |
-| `kt:apex-triggers` | `kt:flow-builder` |
+| `kt:asynchronous-apex` | `kt:governor-limits` |
+| `kt:limit-exception` | `kt:governor-limits` |
+| `kt:limits-class` | `kt:governor-limits` |
+| `kt:multitenancy` | `kt:governor-limits` |
+| `kt:order-of-execution` | `kt:governor-limits` |
 | `kt:process-automation` | `kt:flow-builder` |
 | `kt:process-builder` | `kt:flow-builder` |
 | `kt:record-triggered-flow` | `kt:flow-builder` |
