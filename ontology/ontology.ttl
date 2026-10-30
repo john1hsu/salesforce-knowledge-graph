@@ -1,0 +1,90 @@
+@prefix kt:   <https://github.com/john1hsu/salesforce-knowledge-graph/id/> .
+@prefix kto:  <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix schema: <https://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+# ---------------------------------------------------------------------------
+# Salesforce Knowledge Graph ontology
+# Every article is a node. Its class comes from frontmatter `type`; its edges
+# come from `broader` (skos:broader), `related` (skos:related) and `relations`
+# (the typed predicates below). Provenance uses PROV-O.
+# Add a class or property here BEFORE using it in an article. Reuse first.
+# ---------------------------------------------------------------------------
+
+kto: a owl:Ontology ;
+    rdfs:label "Salesforce Knowledge Graph ontology" ;
+    owl:versionInfo "1.0.0" .
+
+# ---- Classes ---------------------------------------------------------------
+kto:Entity          a owl:Class ; rdfs:label "Entity" .
+kto:Product         a owl:Class ; rdfs:subClassOf kto:Entity , schema:SoftwareApplication ;
+    rdfs:comment "A cloud, product or licensable offering: Sales Cloud, Data Cloud, MuleSoft Anypoint, Tableau, Slack." .
+kto:Feature         a owl:Class ; rdfs:subClassOf kto:Entity ;
+    rdfs:comment "A capability inside a product: Flow Builder, Omni-Channel, Einstein Activity Capture, Shield Platform Encryption." .
+kto:MetadataType    a owl:Class ; rdfs:subClassOf kto:Entity ;
+    rdfs:comment "A Metadata API type: CustomObject, PermissionSet, Flow, ApexClass, LightningComponentBundle." .
+kto:StandardObject  a owl:Class ; rdfs:subClassOf kto:Entity ;
+    rdfs:comment "A standard sObject in the data model: Account, Opportunity, Case, ContentDocument." .
+kto:API             a owl:Class ; rdfs:subClassOf kto:Entity ;
+    rdfs:comment "An API or interface: REST API, Bulk API 2.0, Pub/Sub API, Metadata API, Tooling API." .
+kto:Language        a owl:Class ; rdfs:subClassOf kto:Entity ;
+    rdfs:comment "A language or query/markup syntax: Apex, SOQL, SOSL, LWC templates, formula language." .
+kto:Tool            a owl:Class ; rdfs:subClassOf kto:Entity ;
+    rdfs:comment "Developer/admin tooling: Salesforce CLI, DevOps Center, Code Analyzer, Workbench." .
+kto:Limit           a owl:Class ; rdfs:subClassOf kto:Entity ;
+    rdfs:comment "A governor limit, allocation or platform constraint." .
+kto:Concept         a owl:Class ; rdfs:subClassOf kto:Entity , skos:Concept ;
+    rdfs:comment "A platform concept or mechanism: multitenancy, order of execution, record locking, sharing recalculation." .
+kto:Pattern         a owl:Class ; rdfs:subClassOf kto:Concept ;
+    rdfs:comment "A recommended architecture or design pattern (incl. Well-Architected guidance)." .
+kto:AntiPattern     a owl:Class ; rdfs:subClassOf kto:Concept ;
+    rdfs:comment "A known bad practice and its failure mode." .
+kto:SecurityControl a owl:Class ; rdfs:subClassOf kto:Entity ;
+    rdfs:comment "A security or compliance control: profiles, permission sets, MFA, Event Monitoring, field audit trail." .
+kto:Role            a owl:Class ; rdfs:subClassOf kto:Entity ;
+    rdfs:comment "A practitioner role: admin, developer, architect, CTA." .
+kto:Certification   a owl:Class ; rdfs:subClassOf kto:Entity , schema:EducationalOccupationalCredential .
+kto:Release         a owl:Class ; rdfs:subClassOf kto:Entity , schema:Event ;
+    rdfs:comment "A seasonal release (Spring, Summer, Winter) or a versioned API release." .
+kto:Organization    a owl:Class ; rdfs:subClassOf kto:Entity , schema:Organization ;
+    rdfs:comment "Salesforce, an acquired company, a standards body, a regulator." .
+kto:ExternalConcept a owl:Class ; rdfs:subClassOf kto:Concept ;
+    rdfs:comment "A non-Salesforce concept the platform builds on: OAuth 2.0, SAML, CAP theorem, FedRAMP, event sourcing. Exempt from the official-source rule." .
+kto:Source          a owl:Class ; rdfs:subClassOf prov:Entity , schema:CreativeWork .
+
+# ---- Hierarchy (SKOS) ------------------------------------------------------
+# skos:broader / skos:narrower / skos:related are used directly.
+
+# ---- Typed relations -------------------------------------------------------
+kto:partOf          a owl:ObjectProperty , owl:TransitiveProperty ; owl:inverseOf kto:hasPart ; rdfs:label "part of" .
+kto:hasPart         a owl:ObjectProperty ; rdfs:label "has part" .
+kto:dependsOn       a owl:ObjectProperty ; rdfs:label "depends on / requires" .
+kto:enables         a owl:ObjectProperty ; rdfs:label "enables" .
+kto:integratesWith  a owl:ObjectProperty , owl:SymmetricProperty ; rdfs:label "integrates with" .
+kto:replacedBy      a owl:ObjectProperty ; owl:inverseOf kto:replaces ; rdfs:label "replaced by (migration path)" .
+kto:replaces        a owl:ObjectProperty ; rdfs:label "replaces" .
+kto:alternativeTo   a owl:ObjectProperty , owl:SymmetricProperty ; rdfs:label "alternative to (choose between)" .
+kto:governedBy      a owl:ObjectProperty ; rdfs:range kto:Limit ; rdfs:label "governed by limit" .
+kto:implements      a owl:ObjectProperty ; rdfs:label "implements pattern / standard" .
+kto:mitigates       a owl:ObjectProperty ; rdfs:label "mitigates (risk, anti-pattern, limit)" .
+kto:causes          a owl:ObjectProperty ; rdfs:label "causes (failure mode, side effect)" .
+kto:configuredVia   a owl:ObjectProperty ; rdfs:label "configured via (metadata type, setup tool)" .
+kto:queriedWith     a owl:ObjectProperty ; rdfs:label "accessed / queried with (API, language)" .
+kto:requiresLicense a owl:ObjectProperty ; rdfs:range kto:Product ; rdfs:label "requires license / add-on" .
+kto:introducedIn    a owl:ObjectProperty ; rdfs:range kto:Release ; rdfs:label "introduced in release" .
+kto:coveredBy       a owl:ObjectProperty ; rdfs:range kto:Certification ; rdfs:label "covered by certification exam" .
+kto:usedBy          a owl:ObjectProperty ; rdfs:range kto:Role ; rdfs:label "primarily used by role" .
+kto:acquiredBy      a owl:ObjectProperty ; rdfs:range kto:Organization ; rdfs:label "acquired by" .
+kto:contrastsWith   a owl:ObjectProperty , owl:SymmetricProperty ; rdfs:label "contrasts with (commonly confused)" .
+kto:instanceOf      a owl:ObjectProperty ; rdfs:label "instance of" .
+
+# ---- Datatype properties written by scripts/kg.py --------------------------
+kto:verifiedRelease a owl:DatatypeProperty ; rdfs:label "content verified against Salesforce release" .
+kto:status          a owl:DatatypeProperty ; rdfs:label "lifecycle status: current, beta, pilot, deprecated, retired, concept" .
+kto:domain          a owl:DatatypeProperty ; rdfs:label "domain" .
+kto:sourceType      a owl:DatatypeProperty ; rdfs:label "source type" .

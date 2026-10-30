@@ -1,0 +1,19 @@
+# Domains the hourly run draws from. Edit freely: add domains, remove ones you
+# don't want, or add seed topics to steer what gets written next. The run picks
+# the least-covered domain for breadth runs and works the frontier for depth runs.
+# Seeds are suggestions, not a queue: skip any that already exist.
+# Mix of foundations and CTA-level depth.
+
+domains:
+  platform-architecture: [multitenancy, metadata-driven-architecture, order-of-execution, governor-limits, record-locking, transaction-control, hyperforce, sandbox-types, org-strategy, large-data-volumes, query-optimizer-selectivity, skinny-tables]
+  data-model: [standard-objects, lookup-vs-master-detail, junction-object, external-objects, big-objects, person-accounts, record-types, polymorphic-relationships, data-skew, field-history-tracking]
+  security-and-sharing: [salesforce-sharing-model, organization-wide-defaults, role-hierarchy, sharing-rules, apex-managed-sharing, restriction-rules, permission-set-groups, shield-platform-encryption, event-monitoring, transaction-security-policies, implicit-sharing]
+  identity: [salesforce-identity, single-sign-on-saml, oauth-2-flows-in-salesforce, connected-apps, external-client-apps, multi-factor-authentication, my-domain, experience-cloud-identity]
+  integration: [platform-events, change-data-capture, pub-sub-api, bulk-api-2, composite-api, named-credentials, outbound-messaging, salesforce-connect, mulesoft-anypoint-platform, api-led-connectivity, integration-patterns-request-reply-fire-and-forget]
+  development: [apex, soql, apex-triggers, trigger-framework-pattern, asynchronous-apex, queueable-apex, batch-apex, lightning-web-components, lightning-data-service, apex-testing, custom-metadata-types]
+  automation: [flow-builder, record-triggered-flow, screen-flow, orchestrator, workflow-rule-retirement, approval-processes, flow-fault-handling]
+  devops-and-alm: [salesforce-dx, scratch-orgs, unlocked-packages, second-generation-managed-packages, devops-center, source-tracking, salesforce-cli, metadata-api, package-dependencies, code-analyzer]
+  data-cloud-and-ai: [data-cloud, data-model-objects, identity-resolution, calculated-insights, agentforce, atlas-reasoning-engine, einstein-trust-layer, prompt-builder, agent-actions, retrieval-augmented-generation-in-salesforce, zero-copy-data-federation]
+  clouds-and-products: [sales-cloud, service-cloud, experience-cloud, marketing-cloud-engagement, revenue-cloud, field-service, omni-channel, knowledge-base, tableau, slack-platform]
+  public-sector-and-compliance: [government-cloud-plus, fedramp, public-sector-solutions, il4-and-il5, fedramp-high, section-508-accessibility, data-residency]
+  architecture-practice: [well-architected-framework, technical-debt-in-salesforce, cta-review-board, solution-design-tradeoffs, data-migration-strategy, archiving-strategy, testing-strategy, environment-strategy]
