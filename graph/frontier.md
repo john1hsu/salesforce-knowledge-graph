@@ -4,10 +4,16 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
+| `kt:governor-limits` | `kt:well-architected-framework`, `kt:flow-builder` |
 | `kt:agent-development-lifecycle` | `kt:well-architected-framework` |
 | `kt:agentforce` | `kt:well-architected-framework` |
-| `kt:governor-limits` | `kt:well-architected-framework` |
+| `kt:apex-triggers` | `kt:flow-builder` |
+| `kt:process-automation` | `kt:flow-builder` |
+| `kt:process-builder` | `kt:flow-builder` |
+| `kt:record-triggered-flow` | `kt:flow-builder` |
 | `kt:salesforce-architect` | `kt:well-architected-framework` |
 | `kt:salesforce-architecture-center` | `kt:well-architected-framework` |
+| `kt:screen-flow` | `kt:flow-builder` |
 | `kt:solution-design-tradeoffs` | `kt:well-architected-framework` |
 | `kt:technical-debt-in-salesforce` | `kt:well-architected-framework` |
+| `kt:workflow-rules` | `kt:flow-builder` |

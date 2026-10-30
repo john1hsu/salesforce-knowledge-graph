@@ -85,6 +85,84 @@
           "@id": "kt:salesforce-architect"
         }
       ]
+    },
+    {
+      "@id": "kt:flow-builder",
+      "@type": "kto:Tool",
+      "skos:prefLabel": "Flow Builder",
+      "skos:definition": "Salesforce's declarative, canvas-based tool for building flows (screen, autolaunched and triggered), and the platform's recommended replacement for Workflow Rules and Process Builder.",
+      "kto:domain": "automation",
+      "dcterms:created": "2026-10-30",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Flow Basics: Meet Flow Builder",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/flow-basics/meet-flow-builder",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Record-Triggered Flows: Get Started with Triggered Flows",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/record-triggered-flows/get-started-with-triggered-flows",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Autolaunched and Scheduled Flows: Get Started with Autolaunched Flows",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/autolaunched-scheduled-flows/get-started-with-autolaunched-flows",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Record-Triggered Automation Decision Guide",
+          "dcterms:publisher": "Salesforce Architects",
+          "schema:url": "https://architect.salesforce.com/docs/architect/decision-guides/guide/record-triggered",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Salesforce Workflow Rules & Process Builder End of Support",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=000389396&type=1",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/automation/flow-builder.md",
+      "skos:altLabel": [
+        "Salesforce Flow Builder",
+        "Salesforce Flow"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:process-automation"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:record-triggered-flow"
+        },
+        {
+          "@id": "kt:screen-flow"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:apex-triggers"
+        }
+      ],
+      "kto:replaces": [
+        {
+          "@id": "kt:workflow-rules"
+        },
+        {
+          "@id": "kt:process-builder"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:governor-limits"
+        }
+      ]
     }
   ]
 }
