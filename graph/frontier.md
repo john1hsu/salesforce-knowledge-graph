@@ -5,26 +5,29 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | Node | Referenced by |
 |---|---|
 | `kt:agentforce` | `kt:well-architected-framework`, `kt:omni-channel`, `kt:omni-channel`, `kt:agent-development-lifecycle` |
-| `kt:apex-triggers` | `kt:flow-builder`, `kt:governor-limits` |
+| `kt:apex-triggers` | `kt:flow-builder`, `kt:asynchronous-apex`, `kt:governor-limits` |
+| `kt:order-of-execution` | `kt:asynchronous-apex`, `kt:governor-limits` |
 | `kt:salesforce-architect` | `kt:well-architected-framework`, `kt:agent-development-lifecycle` |
 | `kt:sandbox-types` | `kt:agent-development-lifecycle`, `kt:application-lifecycle-management` |
 | `kt:service-cloud` | `kt:omni-channel`, `kt:omni-channel` |
 | `kt:agentforce-dx` | `kt:agent-development-lifecycle` |
 | `kt:agentforce-testing-center` | `kt:agent-development-lifecycle` |
-| `kt:asynchronous-apex` | `kt:governor-limits` |
+| `kt:apex` | `kt:asynchronous-apex` |
+| `kt:batch-apex` | `kt:asynchronous-apex` |
 | `kt:data-skew` | `kt:lookup-vs-master-detail` |
 | `kt:devops-center` | `kt:application-lifecycle-management` |
 | `kt:environment-strategy` | `kt:application-lifecycle-management` |
+| `kt:future-methods` | `kt:asynchronous-apex` |
 | `kt:junction-object` | `kt:lookup-vs-master-detail` |
 | `kt:limit-exception` | `kt:governor-limits` |
 | `kt:limits-class` | `kt:governor-limits` |
 | `kt:multitenancy` | `kt:governor-limits` |
 | `kt:object-relationships` | `kt:lookup-vs-master-detail` |
 | `kt:omni-channel-limits` | `kt:omni-channel` |
-| `kt:order-of-execution` | `kt:governor-limits` |
 | `kt:presence-configuration` | `kt:omni-channel` |
 | `kt:process-automation` | `kt:flow-builder` |
 | `kt:process-builder` | `kt:flow-builder` |
+| `kt:queueable-apex` | `kt:asynchronous-apex` |
 | `kt:queues` | `kt:omni-channel` |
 | `kt:record-locking` | `kt:lookup-vs-master-detail` |
 | `kt:record-triggered-flow` | `kt:flow-builder` |

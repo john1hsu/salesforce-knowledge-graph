@@ -47,6 +47,29 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/application-lifecycle-management> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source-tracking> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/application-lifecycle-management> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/application-lifecycle-management> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/asynchronous-apex> <http://purl.org/dc/terms/created> "2026-10-30" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/asynchronous-apex> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/asynchronous-apex> <http://www.w3.org/2000/01/rdf-schema#label> "Asynchronous Apex" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/asynchronous-apex> <http://www.w3.org/2004/02/skos/core#altLabel> "Apex async processing" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/asynchronous-apex> <http://www.w3.org/2004/02/skos/core#altLabel> "async Apex" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/asynchronous-apex> <http://www.w3.org/2004/02/skos/core#altLabel> "background Apex jobs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/asynchronous-apex> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/asynchronous-apex> <http://www.w3.org/2004/02/skos/core#definition> "The family of Apex execution modes (Queueable, Batch, Scheduled and future methods) that run code later, outside the request that triggered it, with their own transaction and generally higher per-transaction limits." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/asynchronous-apex> <http://www.w3.org/2004/02/skos/core#prefLabel> "Asynchronous Apex" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/asynchronous-apex> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-triggers> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/asynchronous-apex> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/order-of-execution> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/asynchronous-apex> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/asynchronous-apex/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/asynchronous-apex> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/asynchronous-apex/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/asynchronous-apex> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/asynchronous-apex/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/asynchronous-apex> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/asynchronous-apex/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/asynchronous-apex> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/asynchronous-apex/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/asynchronous-apex> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "development" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/asynchronous-apex> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#governedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/governor-limits> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/asynchronous-apex> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/batch-apex> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/asynchronous-apex> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/future-methods> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/asynchronous-apex> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/queueable-apex> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/asynchronous-apex> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/asynchronous-apex> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-builder> <http://purl.org/dc/terms/created> "2026-10-30" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-builder> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Tool> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-builder> <http://www.w3.org/2000/01/rdf-schema#label> "Flow Builder" .
@@ -197,6 +220,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/application-lifecycle-management/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/application-lifecycle-management/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/application-lifecycle-management/s6> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/salesforce-well-architected/make-solutions-adaptable" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/asynchronous-apex/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/asynchronous-apex/s1> <http://purl.org/dc/terms/title> "Apex Developer Guide: Asynchronous Apex" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/asynchronous-apex/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/asynchronous-apex/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/asynchronous-apex/s1> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/api/apex_async_overview.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/asynchronous-apex/s2> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/asynchronous-apex/s2> <http://purl.org/dc/terms/title> "Apex Developer Guide: Queueable Apex" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/asynchronous-apex/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/asynchronous-apex/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/asynchronous-apex/s2> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/api/apex_queueing_jobs.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/asynchronous-apex/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/asynchronous-apex/s3> <http://purl.org/dc/terms/title> "Apex Developer Guide: Use Batch Apex" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/asynchronous-apex/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/asynchronous-apex/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/asynchronous-apex/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_batch_interface.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/asynchronous-apex/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/asynchronous-apex/s4> <http://purl.org/dc/terms/title> "Apex Developer Guide: Future Methods" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/asynchronous-apex/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/asynchronous-apex/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/asynchronous-apex/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_invoking_future_methods.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/asynchronous-apex/s5> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/asynchronous-apex/s5> <http://purl.org/dc/terms/title> "Apex Basics for .NET Developers: Use Asynchronous Apex" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/asynchronous-apex/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/asynchronous-apex/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/asynchronous-apex/s5> <https://schema.org/url> "https://trailhead.salesforce.com/microsoft_dotnet/apex_basics_dotnet/async_apex" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-builder/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-builder/s1> <http://purl.org/dc/terms/title> "Flow Basics: Meet Flow Builder" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-builder/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

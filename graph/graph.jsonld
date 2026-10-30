@@ -420,6 +420,83 @@
       ]
     },
     {
+      "@id": "kt:asynchronous-apex",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Asynchronous Apex",
+      "skos:definition": "The family of Apex execution modes (Queueable, Batch, Scheduled and future methods) that run code later, outside the request that triggered it, with their own transaction and generally higher per-transaction limits.",
+      "kto:domain": "development",
+      "dcterms:created": "2026-10-30",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Apex Developer Guide: Asynchronous Apex",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/api/apex_async_overview.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Apex Developer Guide: Queueable Apex",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/api/apex_queueing_jobs.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Apex Developer Guide: Use Batch Apex",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_batch_interface.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Apex Developer Guide: Future Methods",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_invoking_future_methods.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Apex Basics for .NET Developers: Use Asynchronous Apex",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/microsoft_dotnet/apex_basics_dotnet/async_apex",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/development/asynchronous-apex.md",
+      "skos:altLabel": [
+        "async Apex",
+        "Apex async processing",
+        "background Apex jobs"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:apex"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:apex-triggers"
+        },
+        {
+          "@id": "kt:order-of-execution"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:governor-limits"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:queueable-apex"
+        },
+        {
+          "@id": "kt:batch-apex"
+        },
+        {
+          "@id": "kt:future-methods"
+        }
+      ]
+    },
+    {
       "@id": "kt:application-lifecycle-management",
       "@type": "kto:Concept",
       "skos:prefLabel": "Application Lifecycle Management",
