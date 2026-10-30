@@ -8,5 +8,83 @@
     "schema": "https://schema.org/",
     "@base": "https://github.com/john1hsu/salesforce-knowledge-graph/id/"
   },
-  "@graph": []
+  "@graph": [
+    {
+      "@id": "kt:well-architected-framework",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Salesforce Well-Architected Framework",
+      "skos:definition": "Salesforce's official architecture guidance for designing and reviewing solutions, organized since September 2026 into five pillars (Trust, Reliability, Operational Excellence, Resource and Cost Optimization, Fairness), each with an Agentic Enterprise variant; it replaced the earlier Trusted/Easy/Adaptable model.",
+      "kto:domain": "architecture-practice",
+      "dcterms:created": "2026-10-30",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Salesforce Well-Architected Framework",
+          "dcterms:publisher": "Salesforce Architects",
+          "schema:url": "https://architect.salesforce.com/docs/architect/well-architected/guide/framework.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Well-Architected Change Log",
+          "dcterms:publisher": "Salesforce Architects",
+          "schema:url": "https://architect.salesforce.com/docs/architect/well-architected/guide/change-log.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Meet the New Well-Architected Framework",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/blog/new-well-architected-framework/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Salesforce Architecture Center — Well-Architected overview",
+          "dcterms:publisher": "Salesforce Architects",
+          "schema:url": "https://architect.salesforce.com/well-architected/overview",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Salesforce Well-Architected: Build Well-Architected Solutions",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/salesforce-well-architected/build-well-architected-solutions",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/architecture-practice/well-architected-framework.md",
+      "skos:altLabel": [
+        "Salesforce Well-Architected",
+        "Well-Architected",
+        "Trusted Easy Adaptable"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-architecture-center"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:solution-design-tradeoffs"
+        },
+        {
+          "@id": "kt:governor-limits"
+        },
+        {
+          "@id": "kt:technical-debt-in-salesforce"
+        },
+        {
+          "@id": "kt:agentforce"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:agent-development-lifecycle"
+        }
+      ],
+      "kto:usedBy": [
+        {
+          "@id": "kt:salesforce-architect"
+        }
+      ]
+    }
+  ]
 }
