@@ -4,20 +4,25 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
+| `kt:agentforce` | `kt:well-architected-framework`, `kt:omni-channel`, `kt:omni-channel` |
 | `kt:apex-triggers` | `kt:flow-builder`, `kt:governor-limits` |
+| `kt:service-cloud` | `kt:omni-channel`, `kt:omni-channel` |
 | `kt:agent-development-lifecycle` | `kt:well-architected-framework` |
-| `kt:agentforce` | `kt:well-architected-framework` |
 | `kt:asynchronous-apex` | `kt:governor-limits` |
 | `kt:limit-exception` | `kt:governor-limits` |
 | `kt:limits-class` | `kt:governor-limits` |
 | `kt:multitenancy` | `kt:governor-limits` |
+| `kt:omni-channel-limits` | `kt:omni-channel` |
 | `kt:order-of-execution` | `kt:governor-limits` |
+| `kt:presence-configuration` | `kt:omni-channel` |
 | `kt:process-automation` | `kt:flow-builder` |
 | `kt:process-builder` | `kt:flow-builder` |
+| `kt:queues` | `kt:omni-channel` |
 | `kt:record-triggered-flow` | `kt:flow-builder` |
 | `kt:salesforce-architect` | `kt:well-architected-framework` |
 | `kt:salesforce-architecture-center` | `kt:well-architected-framework` |
 | `kt:screen-flow` | `kt:flow-builder` |
+| `kt:skills-based-routing` | `kt:omni-channel` |
 | `kt:solution-design-tradeoffs` | `kt:well-architected-framework` |
 | `kt:technical-debt-in-salesforce` | `kt:well-architected-framework` |
 | `kt:workflow-rules` | `kt:flow-builder` |

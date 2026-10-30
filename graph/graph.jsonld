@@ -165,6 +165,101 @@
       ]
     },
     {
+      "@id": "kt:omni-channel",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Omni-Channel",
+      "skos:definition": "Service Cloud's declarative work-routing engine, which pushes calls, messages, chats, cases and other records to available, qualified service reps based on queues, skills, capacity and presence.",
+      "kto:domain": "clouds-and-products",
+      "dcterms:created": "2026-10-30",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Route Work with Omni-Channel",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=sf.omnichannel_intro.htm&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Routing Configuration Settings",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=service.service_presence_routing_configuration_settings.htm&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Routing Model Options for Omni-Channel",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=service.service_presence_routing_options.htm&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Create Presence Configurations",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=service.service_presence_create_presence_configurations.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "How Does Skills-Based Routing Work?",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=service.omnichannel_how_skills_based_routing_works.htm&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Omni-Channel Limit Exceeded Errors and Troubleshooting in Agentforce Service",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=000383291&language=en_US&type=1",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/clouds-and-products/omni-channel.md",
+      "skos:altLabel": [
+        "Salesforce Omni-Channel",
+        "Enhanced Omni-Channel",
+        "Omni-Channel routing"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:service-cloud"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:flow-builder"
+        },
+        {
+          "@id": "kt:skills-based-routing"
+        },
+        {
+          "@id": "kt:agentforce"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:service-cloud"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:queues"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:presence-configuration"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:omni-channel-limits"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:agentforce"
+        }
+      ]
+    },
+    {
       "@id": "kt:governor-limits",
       "@type": "kto:Limit",
       "skos:prefLabel": "Governor Limits",
