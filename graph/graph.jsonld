@@ -339,6 +339,87 @@
       ]
     },
     {
+      "@id": "kt:lookup-vs-master-detail",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Lookup vs. Master-Detail Relationships",
+      "skos:definition": "The two core one-to-many relationship field types on the Salesforce platform: a loosely coupled lookup that leaves deletion and security independent, and a tightly coupled master-detail in which the parent controls the child's ownership, sharing and deletion and can roll up its values.",
+      "kto:domain": "data-model",
+      "dcterms:created": "2026-10-30",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Data Modeling: Create Object Relationships",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/data_modeling/object_relationships",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Object Reference: Relationships Among Standard Objects and Fields",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/api/relationships_among_objects.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Considerations for Object Relationships",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=relationships_considerations.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Roll-Up Summary Field",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=platform.fields_about_roll_up_summary_fields.htm&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Effects of Converting a Salesforce Master-Detail Relationship to a Lookup Relationship",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=000385143&language=en_US&type=1",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Managing Lookup Skew in Salesforce to Avoid Record Lock Exceptions",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/engineering/2013/04/managing-lookup-skew-to-avoid-record-lock-exceptions",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/data-model/lookup-vs-master-detail.md",
+      "skos:altLabel": [
+        "lookup relationship",
+        "master-detail relationship",
+        "lookup field vs master-detail field",
+        "parent-child relationship types"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:object-relationships"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:junction-object"
+        },
+        {
+          "@id": "kt:salesforce-sharing-model"
+        },
+        {
+          "@id": "kt:record-locking"
+        }
+      ],
+      "kto:enables": [
+        {
+          "@id": "kt:roll-up-summary-field"
+        }
+      ],
+      "kto:causes": [
+        {
+          "@id": "kt:data-skew"
+        }
+      ]
+    },
+    {
       "@id": "kt:governor-limits",
       "@type": "kto:Limit",
       "skos:prefLabel": "Governor Limits",
