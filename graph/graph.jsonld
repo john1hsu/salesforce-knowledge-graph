@@ -665,6 +665,86 @@
           "@id": "kt:limit-exception"
         }
       ]
+    },
+    {
+      "@id": "kt:order-of-execution",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Order of Execution",
+      "skos:definition": "The fixed sequence in which Salesforce runs validation, record-triggered flows, Apex triggers, duplicate rules, legacy automation, roll-up recalculation, sharing and commit whenever a record is inserted, updated or upserted.",
+      "kto:domain": "platform-architecture",
+      "dcterms:created": "2026-10-31",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Apex Developer Guide: Triggers and Order of Execution",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_triggers_order_of_execution.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Record-Triggered Automation Decision Guide",
+          "dcterms:publisher": "Salesforce Architects",
+          "schema:url": "https://architect.salesforce.com/decision-guides/trigger-automation",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Define the Run Order of Record-Triggered Flows for an Object",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/apex/HTViewHelpDoc?id=platform.flow_task_trigger_run_order.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Meet Flow Trigger Explorer (Record-Triggered Flows module)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/record-triggered-flows/meet-flow-trigger-explorer",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/platform-architecture/order-of-execution.md",
+      "skos:altLabel": [
+        "save order of execution",
+        "triggers and order of execution",
+        "save order",
+        "record save procedure"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:multitenancy"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:apex-triggers"
+        },
+        {
+          "@id": "kt:record-triggered-flow"
+        },
+        {
+          "@id": "kt:flow-builder"
+        },
+        {
+          "@id": "kt:roll-up-summary-field"
+        },
+        {
+          "@id": "kt:asynchronous-apex"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:governor-limits"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:flow-trigger-explorer"
+        }
+      ],
+      "kto:causes": [
+        {
+          "@id": "kt:recursive-save"
+        }
+      ]
     }
   ]
 }

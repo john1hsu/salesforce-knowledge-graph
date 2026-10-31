@@ -165,6 +165,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/omni-channel> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#partOf> <https://github.com/john1hsu/salesforce-knowledge-graph/id/service-cloud> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/omni-channel> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/omni-channel> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/order-of-execution> <http://purl.org/dc/terms/created> "2026-10-31" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/order-of-execution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/order-of-execution> <http://www.w3.org/2000/01/rdf-schema#label> "Order of Execution" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/order-of-execution> <http://www.w3.org/2004/02/skos/core#altLabel> "record save procedure" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/order-of-execution> <http://www.w3.org/2004/02/skos/core#altLabel> "save order of execution" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/order-of-execution> <http://www.w3.org/2004/02/skos/core#altLabel> "save order" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/order-of-execution> <http://www.w3.org/2004/02/skos/core#altLabel> "triggers and order of execution" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/order-of-execution> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/multitenancy> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/order-of-execution> <http://www.w3.org/2004/02/skos/core#definition> "The fixed sequence in which Salesforce runs validation, record-triggered flows, Apex triggers, duplicate rules, legacy automation, roll-up recalculation, sharing and commit whenever a record is inserted, updated or upserted." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/order-of-execution> <http://www.w3.org/2004/02/skos/core#prefLabel> "Order of Execution" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/order-of-execution> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-triggers> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/order-of-execution> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/asynchronous-apex> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/order-of-execution> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-builder> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/order-of-execution> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/record-triggered-flow> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/order-of-execution> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/roll-up-summary-field> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/order-of-execution> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/order-of-execution/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/order-of-execution> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/order-of-execution/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/order-of-execution> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/order-of-execution/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/order-of-execution> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/order-of-execution/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/order-of-execution> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#causes> <https://github.com/john1hsu/salesforce-knowledge-graph/id/recursive-save> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/order-of-execution> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-trigger-explorer> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/order-of-execution> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "platform-architecture" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/order-of-execution> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#governedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/governor-limits> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/order-of-execution> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/order-of-execution> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agent-development-lifecycle/s1> <http://purl.org/dc/terms/publisher> "Salesforce Architects" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agent-development-lifecycle/s1> <http://purl.org/dc/terms/title> "The Agent Development Lifecycle" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agent-development-lifecycle/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
@@ -355,6 +380,26 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/omni-channel/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/omni-channel/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/omni-channel/s6> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=000383291&language=en_US&type=1" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/order-of-execution/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/order-of-execution/s1> <http://purl.org/dc/terms/title> "Apex Developer Guide: Triggers and Order of Execution" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/order-of-execution/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/order-of-execution/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/order-of-execution/s1> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_triggers_order_of_execution.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/order-of-execution/s2> <http://purl.org/dc/terms/publisher> "Salesforce Architects" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/order-of-execution/s2> <http://purl.org/dc/terms/title> "Record-Triggered Automation Decision Guide" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/order-of-execution/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/order-of-execution/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/order-of-execution/s2> <https://schema.org/url> "https://architect.salesforce.com/decision-guides/trigger-automation" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/order-of-execution/s3> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/order-of-execution/s3> <http://purl.org/dc/terms/title> "Define the Run Order of Record-Triggered Flows for an Object" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/order-of-execution/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/order-of-execution/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/order-of-execution/s3> <https://schema.org/url> "https://help.salesforce.com/apex/HTViewHelpDoc?id=platform.flow_task_trigger_run_order.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/order-of-execution/s4> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/order-of-execution/s4> <http://purl.org/dc/terms/title> "Meet Flow Trigger Explorer (Record-Triggered Flows module)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/order-of-execution/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/order-of-execution/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/order-of-execution/s4> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/record-triggered-flows/meet-flow-trigger-explorer" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/well-architected-framework/s1> <http://purl.org/dc/terms/publisher> "Salesforce Architects" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/well-architected-framework/s1> <http://purl.org/dc/terms/title> "Salesforce Well-Architected Framework" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/well-architected-framework/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

@@ -5,8 +5,10 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | Node | Referenced by |
 |---|---|
 | `kt:agentforce` | `kt:well-architected-framework`, `kt:omni-channel`, `kt:omni-channel`, `kt:agent-development-lifecycle` |
-| `kt:apex-triggers` | `kt:flow-builder`, `kt:asynchronous-apex`, `kt:governor-limits` |
-| `kt:order-of-execution` | `kt:asynchronous-apex`, `kt:governor-limits` |
+| `kt:apex-triggers` | `kt:flow-builder`, `kt:asynchronous-apex`, `kt:governor-limits`, `kt:order-of-execution` |
+| `kt:multitenancy` | `kt:governor-limits`, `kt:order-of-execution` |
+| `kt:record-triggered-flow` | `kt:flow-builder`, `kt:order-of-execution` |
+| `kt:roll-up-summary-field` | `kt:lookup-vs-master-detail`, `kt:order-of-execution` |
 | `kt:salesforce-architect` | `kt:well-architected-framework`, `kt:agent-development-lifecycle` |
 | `kt:sandbox-types` | `kt:agent-development-lifecycle`, `kt:application-lifecycle-management` |
 | `kt:service-cloud` | `kt:omni-channel`, `kt:omni-channel` |
@@ -17,11 +19,11 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:data-skew` | `kt:lookup-vs-master-detail` |
 | `kt:devops-center` | `kt:application-lifecycle-management` |
 | `kt:environment-strategy` | `kt:application-lifecycle-management` |
+| `kt:flow-trigger-explorer` | `kt:order-of-execution` |
 | `kt:future-methods` | `kt:asynchronous-apex` |
 | `kt:junction-object` | `kt:lookup-vs-master-detail` |
 | `kt:limit-exception` | `kt:governor-limits` |
 | `kt:limits-class` | `kt:governor-limits` |
-| `kt:multitenancy` | `kt:governor-limits` |
 | `kt:object-relationships` | `kt:lookup-vs-master-detail` |
 | `kt:omni-channel-limits` | `kt:omni-channel` |
 | `kt:presence-configuration` | `kt:omni-channel` |
@@ -30,8 +32,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:queueable-apex` | `kt:asynchronous-apex` |
 | `kt:queues` | `kt:omni-channel` |
 | `kt:record-locking` | `kt:lookup-vs-master-detail` |
-| `kt:record-triggered-flow` | `kt:flow-builder` |
-| `kt:roll-up-summary-field` | `kt:lookup-vs-master-detail` |
+| `kt:recursive-save` | `kt:order-of-execution` |
 | `kt:salesforce-architecture-center` | `kt:well-architected-framework` |
 | `kt:salesforce-dx` | `kt:application-lifecycle-management` |
 | `kt:salesforce-sharing-model` | `kt:lookup-vs-master-detail` |
