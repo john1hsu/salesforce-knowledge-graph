@@ -16,6 +16,8 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:event-driven-architecture` | `kt:change-data-capture`, `kt:platform-events` |
 | `kt:experience-cloud` | `kt:service-cloud`, `kt:public-sector-solutions` |
 | `kt:flow-trigger-explorer` | `kt:record-triggered-flow`, `kt:order-of-execution` |
+| `kt:hyperforce` | `kt:multitenancy`, `kt:government-cloud-plus` |
+| `kt:mulesoft-anypoint-platform` | `kt:flow-orchestrator`, `kt:government-cloud-plus` |
 | `kt:oauth-2-0` | `kt:connected-apps`, `kt:external-client-apps` |
 | `kt:oauth-2-flows-in-salesforce` | `kt:connected-apps`, `kt:external-client-apps` |
 | `kt:object-relationships` | `kt:lookup-vs-master-detail`, `kt:roll-up-summary-field` |
@@ -44,8 +46,10 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:einstein-trust-layer` | `kt:agentforce` |
 | `kt:enterprise-territory-management` | `kt:role-hierarchy` |
 | `kt:entitlement-management` | `kt:service-cloud` |
+| `kt:fedramp-high` | `kt:government-cloud-plus` |
 | `kt:future-methods` | `kt:asynchronous-apex` |
-| `kt:hyperforce` | `kt:multitenancy` |
+| `kt:government-cloud` | `kt:government-cloud-plus` |
+| `kt:il4-and-il5` | `kt:government-cloud-plus` |
 | `kt:implicit-sharing` | `kt:role-hierarchy` |
 | `kt:junction-object` | `kt:lookup-vs-master-detail` |
 | `kt:knowledge-base` | `kt:service-cloud` |
@@ -54,7 +58,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:limit-exception` | `kt:governor-limits` |
 | `kt:limits-class` | `kt:governor-limits` |
 | `kt:metadata-driven-architecture` | `kt:multitenancy` |
-| `kt:mulesoft-anypoint-platform` | `kt:flow-orchestrator` |
 | `kt:omni-channel-limits` | `kt:omni-channel` |
 | `kt:omnistudio` | `kt:public-sector-solutions` |
 | `kt:orchestration-work-guide` | `kt:flow-orchestrator` |

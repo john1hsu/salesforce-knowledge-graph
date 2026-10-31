@@ -2300,6 +2300,94 @@
       ]
     },
     {
+      "@id": "kt:government-cloud-plus",
+      "@type": "kto:Product",
+      "skos:prefLabel": "Government Cloud Plus",
+      "skos:definition": "Salesforce's dedicated, isolated instance of its SaaS and PaaS services for eligible US government customers, carrying a FedRAMP High authorization (FedRAMP ID FR2003061248), with a separate Defense variant for DoD Impact Level 5 data.",
+      "kto:domain": "public-sector-and-compliance",
+      "dcterms:created": "2026-10-31",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Government Cloud Plus (Compliance services page)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://compliance.salesforce.com/services/salesforce-government-cloud-plus-hyperforce",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "FedRAMP Marketplace: Salesforce Government Cloud Plus (FR2003061248)",
+          "dcterms:publisher": "FedRAMP (GSA)",
+          "schema:url": "https://www.fedramp.gov/marketplace/products/FR2003061248/",
+          "kto:sourceType": "government"
+        },
+        {
+          "dcterms:title": "Salesforce Launches Government Cloud Plus, Achieves FedRAMP Provisional Authority to Operate at the High Security Impact Level",
+          "dcterms:publisher": "Salesforce Investor Relations",
+          "schema:url": "https://investor.salesforce.com/news/news-details/2020/Salesforce-Launches-Government-Cloud-Plus-Achieves-FedRAMP-Provisional-Authority-to-Operate-at-the-High-Security-Impact-Level/default.aspx",
+          "kto:sourceType": "news"
+        },
+        {
+          "dcterms:title": "Government Cloud Plus - Defense (Compliance services page)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://compliance.salesforce.com/services/salesforce-government-cloud-plus-defense",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "MuleSoft Government Cloud Plus",
+          "dcterms:publisher": "MuleSoft (Salesforce)",
+          "schema:url": "https://docs.mulesoft.com/govcloud-plus/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Use Agentforce Vibes with Government Cloud Orgs",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/agentforcevibes/guide/afv-government-cloud.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/public-sector-and-compliance/government-cloud-plus.md",
+      "skos:altLabel": [
+        "Salesforce Government Cloud Plus",
+        "GovCloud Plus",
+        "Gov Cloud Plus"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:hyperforce"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:public-sector-solutions"
+        },
+        {
+          "@id": "kt:multitenancy"
+        },
+        {
+          "@id": "kt:agentforce"
+        },
+        {
+          "@id": "kt:mulesoft-anypoint-platform"
+        }
+      ],
+      "kto:implements": [
+        {
+          "@id": "kt:fedramp-high"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:il4-and-il5"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:government-cloud"
+        }
+      ]
+    },
+    {
       "@id": "kt:public-sector-solutions",
       "@type": "kto:Product",
       "skos:prefLabel": "Public Sector Solutions",
