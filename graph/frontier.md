@@ -4,14 +4,14 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:salesforce-cli` | `kt:change-sets`, `kt:devops-center`, `kt:metadata-api`, `kt:sandbox-types` |
+| `kt:scratch-orgs` | `kt:environment-strategy`, `kt:application-lifecycle-management`, `kt:devops-center`, `kt:salesforce-cli`, `kt:sandbox-types` |
 | `kt:salesforce-platform` | `kt:service-cloud`, `kt:agentforce`, `kt:multitenancy`, `kt:sandbox-types` |
-| `kt:scratch-orgs` | `kt:environment-strategy`, `kt:application-lifecycle-management`, `kt:devops-center`, `kt:sandbox-types` |
 | `kt:apex` | `kt:apex-testing`, `kt:apex-triggers`, `kt:asynchronous-apex` |
 | `kt:process-automation` | `kt:flow-builder`, `kt:flow-orchestrator`, `kt:record-triggered-flow` |
 | `kt:record-locking` | `kt:data-skew`, `kt:lookup-vs-master-detail`, `kt:roll-up-summary-field` |
 | `kt:salesforce-sharing-model` | `kt:data-skew`, `kt:lookup-vs-master-detail`, `kt:role-hierarchy` |
 | `kt:screen-flow` | `kt:flow-builder`, `kt:flow-orchestrator`, `kt:record-triggered-flow` |
+| `kt:source-tracking` | `kt:application-lifecycle-management`, `kt:devops-center`, `kt:salesforce-cli` |
 | `kt:autolaunched-flow` | `kt:flow-orchestrator`, `kt:record-triggered-flow` |
 | `kt:event-driven-architecture` | `kt:change-data-capture`, `kt:platform-events` |
 | `kt:experience-cloud` | `kt:service-cloud`, `kt:public-sector-solutions` |
@@ -26,12 +26,12 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:pub-sub-api` | `kt:change-data-capture`, `kt:platform-events` |
 | `kt:queues` | `kt:omni-channel`, `kt:service-cloud` |
 | `kt:salesforce-architect` | `kt:well-architected-framework`, `kt:agent-development-lifecycle` |
+| `kt:salesforce-dx` | `kt:application-lifecycle-management`, `kt:salesforce-cli` |
 | `kt:salesforce-identity` | `kt:connected-apps`, `kt:external-client-apps` |
 | `kt:sandbox-templates` | `kt:environment-strategy`, `kt:sandbox-types` |
 | `kt:second-generation-managed-packages` | `kt:external-client-apps`, `kt:external-client-apps` |
 | `kt:sharing-recalculation` | `kt:data-skew`, `kt:role-hierarchy` |
 | `kt:single-sign-on-saml` | `kt:connected-apps`, `kt:external-client-apps` |
-| `kt:source-tracking` | `kt:application-lifecycle-management`, `kt:devops-center` |
 | `kt:unlocked-packages` | `kt:application-lifecycle-management`, `kt:change-sets` |
 | `kt:workflow-rules` | `kt:flow-builder`, `kt:record-triggered-flow` |
 | `kt:agent-script` | `kt:agentforce` |
@@ -42,6 +42,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:batch-apex` | `kt:asynchronous-apex` |
 | `kt:business-rules-engine` | `kt:public-sector-solutions` |
 | `kt:change-data-capture-allocations` | `kt:change-data-capture` |
+| `kt:code-analyzer` | `kt:salesforce-cli` |
 | `kt:data-cloud` | `kt:agentforce` |
 | `kt:einstein-trust-layer` | `kt:agentforce` |
 | `kt:enterprise-territory-management` | `kt:role-hierarchy` |
@@ -73,7 +74,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:recursive-save` | `kt:order-of-execution` |
 | `kt:salesforce-architecture-center` | `kt:well-architected-framework` |
 | `kt:salesforce-data-mask` | `kt:environment-strategy` |
-| `kt:salesforce-dx` | `kt:application-lifecycle-management` |
 | `kt:salesforce-industries` | `kt:public-sector-solutions` |
 | `kt:service-setup-assistant` | `kt:service-cloud` |
 | `kt:sharing-rules` | `kt:role-hierarchy` |

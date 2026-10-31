@@ -1625,6 +1625,105 @@
       ]
     },
     {
+      "@id": "kt:salesforce-cli",
+      "@type": "kto:Tool",
+      "skos:prefLabel": "Salesforce CLI",
+      "skos:definition": "Salesforce's plugin-based command-line interface (the `sf` executable, formerly `sfdx`) for authorizing orgs, creating scratch orgs and sandboxes, deploying and retrieving source, running tests and scripting CI/CD pipelines.",
+      "kto:domain": "devops-and-alm",
+      "dcterms:created": "2026-10-31",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Salesforce CLI Configuration and Tips",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/sfdx-setup/guide/sfdx-dev-cli.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Move from sfdx (v7) to sf (v2)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/sfdx-setup/guide/sfdx-setup-move-to-sf-v2.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Salesforce CLI Plugins",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/sfdx-setup/guide/sfdx-setup-plugins-overview.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Update to the CLI Release Candidate or Nightly",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/sfdx-setup/guide/sfdx-setup-install-cli-rc.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Authorization (Salesforce DX Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/sfdx-dev/guide/sfdx-dev-auth.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Quick Start: Visual Studio Code for Salesforce Development — Make Visual Studio Code Salesforce Ready",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/en/content/learn/projects/quickstart-vscode-salesforce/vscode-salesforce-ready",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/devops-and-alm/salesforce-cli.md",
+      "skos:altLabel": [
+        "sf CLI",
+        "sf command",
+        "sfdx CLI",
+        "sfdx-cli",
+        "@salesforce/cli",
+        "sf v2"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-dx"
+        },
+        {
+          "@id": "kt:application-lifecycle-management"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:scratch-orgs"
+        },
+        {
+          "@id": "kt:source-tracking"
+        },
+        {
+          "@id": "kt:sandbox-types"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:metadata-api"
+        },
+        {
+          "@id": "kt:devops-center"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:change-sets"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:external-client-apps"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:code-analyzer"
+        }
+      ]
+    },
+    {
       "@id": "kt:connected-apps",
       "@type": "kto:Feature",
       "skos:prefLabel": "Connected Apps",
