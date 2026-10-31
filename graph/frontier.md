@@ -11,11 +11,14 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:apex` | `kt:apex-testing`, `kt:apex-triggers`, `kt:asynchronous-apex` |
 | `kt:record-locking` | `kt:data-skew`, `kt:lookup-vs-master-detail`, `kt:roll-up-summary-field` |
 | `kt:salesforce-sharing-model` | `kt:data-skew`, `kt:lookup-vs-master-detail`, `kt:role-hierarchy` |
+| `kt:event-driven-architecture` | `kt:change-data-capture`, `kt:platform-events` |
 | `kt:experience-cloud` | `kt:service-cloud`, `kt:public-sector-solutions` |
 | `kt:oauth-2-0` | `kt:connected-apps`, `kt:external-client-apps` |
 | `kt:oauth-2-flows-in-salesforce` | `kt:connected-apps`, `kt:external-client-apps` |
 | `kt:object-relationships` | `kt:lookup-vs-master-detail`, `kt:roll-up-summary-field` |
+| `kt:outbound-messaging` | `kt:change-data-capture`, `kt:platform-events` |
 | `kt:process-automation` | `kt:flow-builder`, `kt:flow-orchestrator` |
+| `kt:pub-sub-api` | `kt:change-data-capture`, `kt:platform-events` |
 | `kt:queues` | `kt:omni-channel`, `kt:service-cloud` |
 | `kt:salesforce-architect` | `kt:well-architected-framework`, `kt:agent-development-lifecycle` |
 | `kt:salesforce-identity` | `kt:connected-apps`, `kt:external-client-apps` |
@@ -34,12 +37,11 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:autolaunched-flow` | `kt:flow-orchestrator` |
 | `kt:batch-apex` | `kt:asynchronous-apex` |
 | `kt:business-rules-engine` | `kt:public-sector-solutions` |
-| `kt:change-data-capture` | `kt:platform-events` |
+| `kt:change-data-capture-allocations` | `kt:change-data-capture` |
 | `kt:data-cloud` | `kt:agentforce` |
 | `kt:einstein-trust-layer` | `kt:agentforce` |
 | `kt:enterprise-territory-management` | `kt:role-hierarchy` |
 | `kt:entitlement-management` | `kt:service-cloud` |
-| `kt:event-driven-architecture` | `kt:platform-events` |
 | `kt:flow-trigger-explorer` | `kt:order-of-execution` |
 | `kt:future-methods` | `kt:asynchronous-apex` |
 | `kt:hyperforce` | `kt:multitenancy` |
@@ -57,13 +59,12 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:orchestration-work-guide` | `kt:flow-orchestrator` |
 | `kt:org-strategy` | `kt:environment-strategy` |
 | `kt:organization-wide-defaults` | `kt:role-hierarchy` |
-| `kt:outbound-messaging` | `kt:platform-events` |
 | `kt:package-xml-manifest` | `kt:metadata-api` |
 | `kt:person-accounts` | `kt:public-sector-solutions` |
 | `kt:platform-event-allocations` | `kt:platform-events` |
+| `kt:platform-event-channel-member` | `kt:change-data-capture` |
 | `kt:presence-configuration` | `kt:omni-channel` |
 | `kt:process-builder` | `kt:flow-builder` |
-| `kt:pub-sub-api` | `kt:platform-events` |
 | `kt:query-optimizer-selectivity` | `kt:multitenancy` |
 | `kt:queueable-apex` | `kt:asynchronous-apex` |
 | `kt:recursive-save` | `kt:order-of-execution` |

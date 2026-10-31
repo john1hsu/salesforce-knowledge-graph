@@ -1720,6 +1720,97 @@
       ]
     },
     {
+      "@id": "kt:change-data-capture",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Change Data Capture",
+      "skos:definition": "Salesforce feature that publishes a change event to the event bus whenever a record of a selected object is created, updated, deleted or undeleted, so external systems and asynchronous Apex can replicate or react to data changes in near real time without polling.",
+      "kto:domain": "integration",
+      "dcterms:created": "2026-10-31",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What Is Change Data Capture? (Change Data Capture Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.change_data_capture.meta/change_data_capture/cdc_what.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Change Data Capture: Learn Change Data Capture Characteristics",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/change-data-capture/learn-change-data-capture-characteristics",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Change Data Capture Allocations",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/change-data-capture/guide/cdc-allocations.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Change Event Triggers",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.change_data_capture.meta/change_data_capture/cdc_trigger_intro.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Subscribe to Change Events (Change Data Capture Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.change_data_capture.meta/change_data_capture/cdc_subscribe.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Design Considerations for Change Data Capture and Platform Events",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2022/10/design-considerations-for-change-data-capture-and-platform-events",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/integration/change-data-capture.md",
+      "skos:altLabel": [
+        "CDC",
+        "change events",
+        "ChangeEvent object",
+        "change event trigger"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:event-driven-architecture"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:platform-events"
+        },
+        {
+          "@id": "kt:apex-triggers"
+        },
+        {
+          "@id": "kt:asynchronous-apex"
+        }
+      ],
+      "kto:queriedWith": [
+        {
+          "@id": "kt:pub-sub-api"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:change-data-capture-allocations"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:platform-event-channel-member"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:outbound-messaging"
+        }
+      ]
+    },
+    {
       "@id": "kt:platform-events",
       "@type": "kto:Feature",
       "skos:prefLabel": "Platform Events",

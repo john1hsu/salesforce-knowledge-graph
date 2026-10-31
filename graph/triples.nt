@@ -148,6 +148,32 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/asynchronous-apex> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/queueable-apex> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/asynchronous-apex> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/asynchronous-apex> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/change-data-capture> <http://purl.org/dc/terms/created> "2026-10-31" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/change-data-capture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/change-data-capture> <http://www.w3.org/2000/01/rdf-schema#label> "Change Data Capture" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/change-data-capture> <http://www.w3.org/2004/02/skos/core#altLabel> "CDC" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/change-data-capture> <http://www.w3.org/2004/02/skos/core#altLabel> "ChangeEvent object" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/change-data-capture> <http://www.w3.org/2004/02/skos/core#altLabel> "change event trigger" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/change-data-capture> <http://www.w3.org/2004/02/skos/core#altLabel> "change events" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/change-data-capture> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/event-driven-architecture> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/change-data-capture> <http://www.w3.org/2004/02/skos/core#definition> "Salesforce feature that publishes a change event to the event bus whenever a record of a selected object is created, updated, deleted or undeleted, so external systems and asynchronous Apex can replicate or react to data changes in near real time without polling." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/change-data-capture> <http://www.w3.org/2004/02/skos/core#prefLabel> "Change Data Capture" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/change-data-capture> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-triggers> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/change-data-capture> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/asynchronous-apex> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/change-data-capture> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-events> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/change-data-capture> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/change-data-capture/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/change-data-capture> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/change-data-capture/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/change-data-capture> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/change-data-capture/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/change-data-capture> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/change-data-capture/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/change-data-capture> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/change-data-capture/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/change-data-capture> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/change-data-capture/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/change-data-capture> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#alternativeTo> <https://github.com/john1hsu/salesforce-knowledge-graph/id/outbound-messaging> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/change-data-capture> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-event-channel-member> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/change-data-capture> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "integration" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/change-data-capture> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#governedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/change-data-capture-allocations> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/change-data-capture> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/pub-sub-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/change-data-capture> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/change-data-capture> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/change-sets> <http://purl.org/dc/terms/created> "2026-10-31" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/change-sets> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Tool> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/change-sets> <http://www.w3.org/2000/01/rdf-schema#label> "Change Sets" .
@@ -812,6 +838,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/asynchronous-apex/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/asynchronous-apex/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/asynchronous-apex/s5> <https://schema.org/url> "https://trailhead.salesforce.com/microsoft_dotnet/apex_basics_dotnet/async_apex" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/change-data-capture/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/change-data-capture/s1> <http://purl.org/dc/terms/title> "What Is Change Data Capture? (Change Data Capture Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/change-data-capture/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/change-data-capture/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/change-data-capture/s1> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.change_data_capture.meta/change_data_capture/cdc_what.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/change-data-capture/s2> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/change-data-capture/s2> <http://purl.org/dc/terms/title> "Change Data Capture: Learn Change Data Capture Characteristics" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/change-data-capture/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/change-data-capture/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/change-data-capture/s2> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/change-data-capture/learn-change-data-capture-characteristics" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/change-data-capture/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/change-data-capture/s3> <http://purl.org/dc/terms/title> "Change Data Capture Allocations" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/change-data-capture/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/change-data-capture/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/change-data-capture/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/change-data-capture/guide/cdc-allocations.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/change-data-capture/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/change-data-capture/s4> <http://purl.org/dc/terms/title> "Change Event Triggers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/change-data-capture/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/change-data-capture/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/change-data-capture/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.change_data_capture.meta/change_data_capture/cdc_trigger_intro.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/change-data-capture/s5> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/change-data-capture/s5> <http://purl.org/dc/terms/title> "Subscribe to Change Events (Change Data Capture Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/change-data-capture/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/change-data-capture/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/change-data-capture/s5> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.change_data_capture.meta/change_data_capture/cdc_subscribe.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/change-data-capture/s6> <http://purl.org/dc/terms/publisher> "Salesforce Developers Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/change-data-capture/s6> <http://purl.org/dc/terms/title> "Design Considerations for Change Data Capture and Platform Events" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/change-data-capture/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/change-data-capture/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/change-data-capture/s6> <https://schema.org/url> "https://developer.salesforce.com/blogs/2022/10/design-considerations-for-change-data-capture-and-platform-events" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/change-sets/s1> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/change-sets/s1> <http://purl.org/dc/terms/title> "Change Sets" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/change-sets/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
