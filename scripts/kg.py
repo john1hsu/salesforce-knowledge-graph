@@ -79,9 +79,87 @@ def tokens(s: str) -> set[str]:
     return {w[:6] if len(w) > 6 else w.rstrip("s") for w in norm(s).split()}
 
 
-def label_sim(a: str, b: str) -> float:
+# Words that appear in many labels without saying what the topic is.
+BRAND_WORDS = {"salesforce", "sfdc", "force", "com"}
+
+
+def _stem(w: str) -> str:
+    if len(w) > 4 and w.endswith("ies"):
+        return w[:-3] + "y"
+    if len(w) > 3 and w.endswith("s") and not w.endswith("ss"):
+        return w[:-1]
+    return w
+
+
+def label_tokens(s: str) -> list[str]:
+    words = norm(s).split()
+    return [_stem(w) for w in words if w not in BRAND_WORDS] or [_stem(w) for w in words]
+
+
+def _token_match(a: str, b: str) -> float:
+    """1.0 for equal tokens, partial credit for prefixes (async/asynchronous) and near-spellings."""
     from difflib import SequenceMatcher
-    return max(jaccard(tokens(a), tokens(b)), SequenceMatcher(None, norm(a), norm(b)).ratio())
+    if a == b:
+        return 1.0
+    if min(len(a), len(b)) >= 5:
+        if a.startswith(b) or b.startswith(a):
+            return 0.9
+        r = SequenceMatcher(None, a, b).ratio()
+        if r >= 0.85:
+            return r
+    return 0.0
+
+
+class LabelSimilarity:
+    """Corpus-aware similarity between two topic labels (titles or aliases), 0..1.
+
+    Score = IDF-weighted soft Jaccard over label tokens. Tokens that occur in many existing
+    labels (apex, platform, data, ...) carry little weight, so sharing one of them no longer
+    makes two different topics look alike. Whole-string character similarity is used only for
+    typo tolerance on long labels, because on short labels it rewards accidental letter overlap
+    ("Agentforce" vs "Agentforce Public Sector", "Apex Triggers" vs "Apex governor limits").
+    Also scores 1.0 for spacing/hyphen variants (omnichannel = omni-channel) and 0.95 for an
+    acronym of the other label (ALM).
+    """
+
+    def __init__(self, arts: list[dict]):
+        import math
+        self._log = math.log
+        self.n = len(arts)
+        self.df: Counter = Counter()
+        for a in arts:
+            labels = [a.get("title", "")] + list(a.get("aliases") or [])
+            self.df.update({t for x in labels for t in label_tokens(x)})
+
+    def weight(self, t: str) -> float:
+        return self._log((self.n + 1) / (self.df.get(t, 0) + 0.5))
+
+    def __call__(self, a: str, b: str) -> float:
+        from difflib import SequenceMatcher
+        ta, tb = label_tokens(a), label_tokens(b)
+        if not ta or not tb:
+            return 0.0
+        ca, cb = "".join(ta), "".join(tb)
+        if ca == cb:
+            return 1.0
+        for x, y in ((ta, tb), (tb, ta)):
+            if len(x) == 1 and len(y) >= 2 and x[0] == "".join(t[0] for t in y):
+                return 0.95
+        pairs = sorted(((_token_match(x, y), i, j) for i, x in enumerate(ta) for j, y in enumerate(tb)),
+                       reverse=True)
+        used_a, used_b, matched = set(), set(), 0.0
+        for s, i, j in pairs:
+            if s and i not in used_a and j not in used_b:
+                used_a.add(i)
+                used_b.add(j)
+                matched += s * (self.weight(ta[i]) + self.weight(tb[j])) / 2
+        total = sum(map(self.weight, ta)) + sum(map(self.weight, tb)) - matched
+        score = matched / total if total > 0 else 0.0
+        if min(len(ca), len(cb)) >= 8:
+            r = SequenceMatcher(None, ca, cb).ratio()
+            if r >= 0.92:
+                score = max(score, r)
+        return min(score, 1.0)
 
 
 def shingles(text: str, k: int = 5) -> set[int]:
@@ -371,6 +449,7 @@ def release_key(r: str) -> tuple[int, int]:
 
 
 def similar(query: str, arts: list[dict]) -> None:
+    label_sim = LabelSimilarity(arts)
     scored = []
     for a in arts:
         labels = [a.get("title", "")] + list(a.get("aliases") or [])
