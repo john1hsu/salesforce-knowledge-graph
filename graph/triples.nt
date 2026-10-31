@@ -47,6 +47,33 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/atlas-reasoning-engine> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-testing> <http://purl.org/dc/terms/created> "2026-10-31" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-testing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-testing> <http://www.w3.org/2000/01/rdf-schema#label> "Apex Testing" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-testing> <http://www.w3.org/2004/02/skos/core#altLabel> "Apex code coverage" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-testing> <http://www.w3.org/2004/02/skos/core#altLabel> "Apex test classes" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-testing> <http://www.w3.org/2004/02/skos/core#altLabel> "Apex unit tests" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-testing> <http://www.w3.org/2004/02/skos/core#altLabel> "IsTest annotation" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-testing> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce 75% code coverage rule" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-testing> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-testing> <http://www.w3.org/2004/02/skos/core#definition> "The built-in Apex unit-testing framework — @IsTest classes and methods, isolated test data, Test.startTest/stopTest and the Assert class — whose passing tests and 75% code coverage are required before Apex can be deployed to production or packaged for AppExchange." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-testing> <http://www.w3.org/2004/02/skos/core#prefLabel> "Apex Testing" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-testing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-triggers> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-testing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/asynchronous-apex> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-testing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-testing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/testing-strategy> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-testing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-testing/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-testing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-testing/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-testing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-testing/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-testing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-testing/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-testing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-testing/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-testing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-testing/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-testing> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/test-data-factory> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-testing> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "development" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-testing> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#enables> <https://github.com/john1hsu/salesforce-knowledge-graph/id/application-lifecycle-management> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-testing> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#governedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/governor-limits> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-testing> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-testing> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-triggers> <http://purl.org/dc/terms/created> "2026-10-31" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-triggers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-triggers> <http://www.w3.org/2000/01/rdf-schema#label> "Apex Triggers" .
@@ -618,6 +645,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce/s6> <https://schema.org/url> "https://salesforce.com/artificial-intelligence/einstein-ai-assistant" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-testing/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-testing/s1> <http://purl.org/dc/terms/title> "Apex Developer Guide (Winter '27): Testing Apex" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-testing/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-testing/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-testing/s1> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.264.0.apexcode.meta/pages/apex_testing_intro.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-testing/s2> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-testing/s2> <http://purl.org/dc/terms/title> "Apex Developer Guide (Winter '27): Writing Tests" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-testing/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-testing/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-testing/s2> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.264.0.apexcode.meta/pages/apex_intro_writing_tests.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-testing/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-testing/s3> <http://purl.org/dc/terms/title> "Apex Developer Guide (Winter '27): Using Limits, startTest, and stopTest" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-testing/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-testing/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-testing/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.264.0.apexcode.meta/pages/apex_testing_tools_start_stop_test.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-testing/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-testing/s4> <http://purl.org/dc/terms/title> "Apex Developer Guide (Winter '27): Isolation of Test Data from Organization Data in Unit Tests" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-testing/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-testing/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-testing/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.264.0.apexcode.meta/pages/apex_testing_data_access.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-testing/s5> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-testing/s5> <http://purl.org/dc/terms/title> "Apex Developer Guide (Winter '27): Using Test Setup Methods" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-testing/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-testing/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-testing/s5> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.264.0.apexcode.meta/pages/apex_testing_testsetup_using.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-testing/s6> <http://purl.org/dc/terms/publisher> "Salesforce Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-testing/s6> <http://purl.org/dc/terms/title> "Trailhead: Apex Testing — Test Apex Triggers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-testing/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-testing/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-testing/s6> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/apex_testing/apex_testing_triggers" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-triggers/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-triggers/s1> <http://purl.org/dc/terms/title> "Apex Developer Guide (Winter '27): Triggers" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-triggers/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

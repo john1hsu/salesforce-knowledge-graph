@@ -950,6 +950,96 @@
       ]
     },
     {
+      "@id": "kt:apex-testing",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Apex Testing",
+      "skos:definition": "The built-in Apex unit-testing framework — @IsTest classes and methods, isolated test data, Test.startTest/stopTest and the Assert class — whose passing tests and 75% code coverage are required before Apex can be deployed to production or packaged for AppExchange.",
+      "kto:domain": "development",
+      "dcterms:created": "2026-10-31",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Apex Developer Guide (Winter '27): Testing Apex",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.264.0.apexcode.meta/pages/apex_testing_intro.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Apex Developer Guide (Winter '27): Writing Tests",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.264.0.apexcode.meta/pages/apex_intro_writing_tests.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Apex Developer Guide (Winter '27): Using Limits, startTest, and stopTest",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.264.0.apexcode.meta/pages/apex_testing_tools_start_stop_test.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Apex Developer Guide (Winter '27): Isolation of Test Data from Organization Data in Unit Tests",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.264.0.apexcode.meta/pages/apex_testing_data_access.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Apex Developer Guide (Winter '27): Using Test Setup Methods",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.264.0.apexcode.meta/pages/apex_testing_testsetup_using.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Trailhead: Apex Testing — Test Apex Triggers",
+          "dcterms:publisher": "Salesforce Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/apex_testing/apex_testing_triggers",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/development/apex-testing.md",
+      "skos:altLabel": [
+        "Apex unit tests",
+        "Apex test classes",
+        "Apex code coverage",
+        "IsTest annotation",
+        "Salesforce 75% code coverage rule"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:apex"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:apex-triggers"
+        },
+        {
+          "@id": "kt:asynchronous-apex"
+        },
+        {
+          "@id": "kt:testing-strategy"
+        },
+        {
+          "@id": "kt:metadata-api"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:governor-limits"
+        }
+      ],
+      "kto:enables": [
+        {
+          "@id": "kt:application-lifecycle-management"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:test-data-factory"
+        }
+      ]
+    },
+    {
       "@id": "kt:apex-triggers",
       "@type": "kto:Feature",
       "skos:prefLabel": "Apex Triggers",

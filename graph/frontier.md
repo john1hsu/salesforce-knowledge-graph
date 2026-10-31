@@ -4,15 +4,14 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:apex-testing` | `kt:apex-triggers`, `kt:change-sets`, `kt:devops-center`, `kt:metadata-api`, `kt:metadata-api` |
 | `kt:record-triggered-flow` | `kt:flow-builder`, `kt:flow-orchestrator`, `kt:roll-up-summary-field`, `kt:apex-triggers`, `kt:order-of-execution` |
 | `kt:sandbox-types` | `kt:environment-strategy`, `kt:agent-development-lifecycle`, `kt:application-lifecycle-management`, `kt:change-sets`, `kt:devops-center` |
+| `kt:apex` | `kt:apex-testing`, `kt:apex-triggers`, `kt:asynchronous-apex` |
 | `kt:record-locking` | `kt:data-skew`, `kt:lookup-vs-master-detail`, `kt:roll-up-summary-field` |
 | `kt:salesforce-cli` | `kt:change-sets`, `kt:devops-center`, `kt:metadata-api` |
 | `kt:salesforce-platform` | `kt:service-cloud`, `kt:agentforce`, `kt:multitenancy` |
 | `kt:salesforce-sharing-model` | `kt:data-skew`, `kt:lookup-vs-master-detail`, `kt:role-hierarchy` |
 | `kt:scratch-orgs` | `kt:environment-strategy`, `kt:application-lifecycle-management`, `kt:devops-center` |
-| `kt:apex` | `kt:apex-triggers`, `kt:asynchronous-apex` |
 | `kt:experience-cloud` | `kt:service-cloud`, `kt:public-sector-solutions` |
 | `kt:external-client-apps` | `kt:connected-apps`, `kt:connected-apps` |
 | `kt:object-relationships` | `kt:lookup-vs-master-detail`, `kt:roll-up-summary-field` |
@@ -78,5 +77,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:skills-based-routing` | `kt:omni-channel` |
 | `kt:solution-design-tradeoffs` | `kt:well-architected-framework` |
 | `kt:technical-debt-in-salesforce` | `kt:well-architected-framework` |
+| `kt:test-data-factory` | `kt:apex-testing` |
+| `kt:testing-strategy` | `kt:apex-testing` |
 | `kt:trigger-framework-pattern` | `kt:apex-triggers` |
 | `kt:workflow-rules` | `kt:flow-builder` |
