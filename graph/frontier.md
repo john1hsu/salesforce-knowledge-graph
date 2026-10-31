@@ -8,7 +8,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:agentforce` | `kt:well-architected-framework`, `kt:omni-channel`, `kt:omni-channel`, `kt:agent-development-lifecycle` |
 | `kt:apex-testing` | `kt:metadata-api`, `kt:metadata-api` |
 | `kt:external-client-apps` | `kt:connected-apps`, `kt:connected-apps` |
-| `kt:multitenancy` | `kt:governor-limits`, `kt:order-of-execution` |
 | `kt:record-triggered-flow` | `kt:flow-builder`, `kt:order-of-execution` |
 | `kt:roll-up-summary-field` | `kt:lookup-vs-master-detail`, `kt:order-of-execution` |
 | `kt:salesforce-architect` | `kt:well-architected-framework`, `kt:agent-development-lifecycle` |
@@ -26,9 +25,11 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:event-driven-architecture` | `kt:platform-events` |
 | `kt:flow-trigger-explorer` | `kt:order-of-execution` |
 | `kt:future-methods` | `kt:asynchronous-apex` |
+| `kt:hyperforce` | `kt:multitenancy` |
 | `kt:junction-object` | `kt:lookup-vs-master-detail` |
 | `kt:limit-exception` | `kt:governor-limits` |
 | `kt:limits-class` | `kt:governor-limits` |
+| `kt:metadata-driven-architecture` | `kt:multitenancy` |
 | `kt:oauth-2-0` | `kt:connected-apps` |
 | `kt:oauth-2-flows-in-salesforce` | `kt:connected-apps` |
 | `kt:object-relationships` | `kt:lookup-vs-master-detail` |
@@ -40,6 +41,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:process-automation` | `kt:flow-builder` |
 | `kt:process-builder` | `kt:flow-builder` |
 | `kt:pub-sub-api` | `kt:platform-events` |
+| `kt:query-optimizer-selectivity` | `kt:multitenancy` |
 | `kt:queueable-apex` | `kt:asynchronous-apex` |
 | `kt:queues` | `kt:omni-channel` |
 | `kt:record-locking` | `kt:lookup-vs-master-detail` |
@@ -48,6 +50,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:salesforce-cli` | `kt:metadata-api` |
 | `kt:salesforce-dx` | `kt:application-lifecycle-management` |
 | `kt:salesforce-identity` | `kt:connected-apps` |
+| `kt:salesforce-platform` | `kt:multitenancy` |
 | `kt:salesforce-sharing-model` | `kt:lookup-vs-master-detail` |
 | `kt:scratch-orgs` | `kt:application-lifecycle-management` |
 | `kt:screen-flow` | `kt:flow-builder` |

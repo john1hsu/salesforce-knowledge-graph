@@ -186,6 +186,27 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-api> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-cli> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-api> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-api> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multitenancy> <http://purl.org/dc/terms/created> "2026-10-31" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multitenancy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multitenancy> <http://www.w3.org/2000/01/rdf-schema#label> "Multitenancy" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multitenancy> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce multitenant kernel" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multitenancy> <http://www.w3.org/2004/02/skos/core#altLabel> "multi-tenant architecture" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multitenancy> <http://www.w3.org/2004/02/skos/core#altLabel> "multitenant architecture" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multitenancy> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-platform> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multitenancy> <http://www.w3.org/2004/02/skos/core#definition> "The architectural principle by which one Salesforce instance, database schema and runtime kernel serve many customer orgs at once, each isolated by an org (tenant) ID and customized purely through metadata." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multitenancy> <http://www.w3.org/2004/02/skos/core#prefLabel> "Multitenancy" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multitenancy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/governor-limits> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multitenancy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/hyperforce> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multitenancy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/query-optimizer-selectivity> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multitenancy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multitenancy/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multitenancy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multitenancy/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multitenancy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multitenancy/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multitenancy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multitenancy/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multitenancy> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-driven-architecture> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multitenancy> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "platform-architecture" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multitenancy> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#enables> <https://github.com/john1hsu/salesforce-knowledge-graph/id/governor-limits> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multitenancy> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multitenancy> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/omni-channel> <http://purl.org/dc/terms/created> "2026-10-30" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/omni-channel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/omni-channel> <http://www.w3.org/2000/01/rdf-schema#label> "Omni-Channel" .
@@ -472,6 +493,26 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/metadata-api/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/metadata-api/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/metadata-api/s5> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/package-xml/package-xml-deploy" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multitenancy/s1> <http://purl.org/dc/terms/publisher> "Salesforce Architects" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multitenancy/s1> <http://purl.org/dc/terms/title> "Platform Multitenant Architecture | Get Started with Fundamentals" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multitenancy/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multitenancy/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multitenancy/s1> <https://schema.org/url> "https://architect.salesforce.com/fundamentals/platform-multitenant-architecture" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multitenancy/s2> <http://purl.org/dc/terms/publisher> "Salesforce Architects" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multitenancy/s2> <http://purl.org/dc/terms/title> "The Salesforce Platform - Transformed for Tomorrow | Get Started with Fundamentals" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multitenancy/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multitenancy/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multitenancy/s2> <https://schema.org/url> "https://architect.salesforce.com/fundamentals/platform-transformation" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multitenancy/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multitenancy/s3> <http://purl.org/dc/terms/title> "Apex Developer Guide: Execution Governors and Limits" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multitenancy/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multitenancy/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multitenancy/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexref/apex_gov_limits.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multitenancy/s4> <http://purl.org/dc/terms/publisher> "Salesforce Admins Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multitenancy/s4> <http://purl.org/dc/terms/title> "Multitenancy and Salesforce Explained (The Apartment Analogy)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multitenancy/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multitenancy/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multitenancy/s4> <https://schema.org/url> "https://admin.salesforce.com/blog/2025/the-apartment-analogy-making-sense-of-salesforces-multitenant-architecture" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/omni-channel/s1> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/omni-channel/s1> <http://purl.org/dc/terms/title> "Route Work with Omni-Channel" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/omni-channel/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

@@ -914,6 +914,74 @@
       ]
     },
     {
+      "@id": "kt:multitenancy",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Multitenancy",
+      "skos:definition": "The architectural principle by which one Salesforce instance, database schema and runtime kernel serve many customer orgs at once, each isolated by an org (tenant) ID and customized purely through metadata.",
+      "kto:domain": "platform-architecture",
+      "dcterms:created": "2026-10-31",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Platform Multitenant Architecture | Get Started with Fundamentals",
+          "dcterms:publisher": "Salesforce Architects",
+          "schema:url": "https://architect.salesforce.com/fundamentals/platform-multitenant-architecture",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "The Salesforce Platform - Transformed for Tomorrow | Get Started with Fundamentals",
+          "dcterms:publisher": "Salesforce Architects",
+          "schema:url": "https://architect.salesforce.com/fundamentals/platform-transformation",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Apex Developer Guide: Execution Governors and Limits",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexref/apex_gov_limits.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Multitenancy and Salesforce Explained (The Apartment Analogy)",
+          "dcterms:publisher": "Salesforce Admins Blog",
+          "schema:url": "https://admin.salesforce.com/blog/2025/the-apartment-analogy-making-sense-of-salesforces-multitenant-architecture",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/platform-architecture/multitenancy.md",
+      "skos:altLabel": [
+        "multitenant architecture",
+        "multi-tenant architecture",
+        "Salesforce multitenant kernel"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-platform"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:governor-limits"
+        },
+        {
+          "@id": "kt:hyperforce"
+        },
+        {
+          "@id": "kt:query-optimizer-selectivity"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:metadata-driven-architecture"
+        }
+      ],
+      "kto:enables": [
+        {
+          "@id": "kt:governor-limits"
+        }
+      ]
+    },
+    {
       "@id": "kt:order-of-execution",
       "@type": "kto:Concept",
       "skos:prefLabel": "Order of Execution",
