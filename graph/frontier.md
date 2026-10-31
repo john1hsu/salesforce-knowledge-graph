@@ -6,19 +6,20 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 |---|---|
 | `kt:apex-triggers` | `kt:flow-builder`, `kt:roll-up-summary-field`, `kt:asynchronous-apex`, `kt:platform-events`, `kt:governor-limits`, `kt:order-of-execution` |
 | `kt:agentforce` | `kt:well-architected-framework`, `kt:omni-channel`, `kt:omni-channel`, `kt:agent-development-lifecycle`, `kt:public-sector-solutions` |
+| `kt:sandbox-types` | `kt:environment-strategy`, `kt:agent-development-lifecycle`, `kt:application-lifecycle-management`, `kt:change-sets` |
+| `kt:apex-testing` | `kt:change-sets`, `kt:metadata-api`, `kt:metadata-api` |
+| `kt:devops-center` | `kt:environment-strategy`, `kt:application-lifecycle-management`, `kt:change-sets` |
 | `kt:record-locking` | `kt:data-skew`, `kt:lookup-vs-master-detail`, `kt:roll-up-summary-field` |
 | `kt:record-triggered-flow` | `kt:flow-builder`, `kt:roll-up-summary-field`, `kt:order-of-execution` |
 | `kt:salesforce-sharing-model` | `kt:data-skew`, `kt:lookup-vs-master-detail`, `kt:role-hierarchy` |
-| `kt:sandbox-types` | `kt:environment-strategy`, `kt:agent-development-lifecycle`, `kt:application-lifecycle-management` |
 | `kt:service-cloud` | `kt:omni-channel`, `kt:omni-channel`, `kt:public-sector-solutions` |
-| `kt:apex-testing` | `kt:metadata-api`, `kt:metadata-api` |
-| `kt:change-sets` | `kt:environment-strategy`, `kt:metadata-api` |
-| `kt:devops-center` | `kt:environment-strategy`, `kt:application-lifecycle-management` |
 | `kt:external-client-apps` | `kt:connected-apps`, `kt:connected-apps` |
 | `kt:object-relationships` | `kt:lookup-vs-master-detail`, `kt:roll-up-summary-field` |
 | `kt:salesforce-architect` | `kt:well-architected-framework`, `kt:agent-development-lifecycle` |
+| `kt:salesforce-cli` | `kt:change-sets`, `kt:metadata-api` |
 | `kt:scratch-orgs` | `kt:environment-strategy`, `kt:application-lifecycle-management` |
 | `kt:sharing-recalculation` | `kt:data-skew`, `kt:role-hierarchy` |
+| `kt:unlocked-packages` | `kt:application-lifecycle-management`, `kt:change-sets` |
 | `kt:agentforce-dx` | `kt:agent-development-lifecycle` |
 | `kt:agentforce-testing-center` | `kt:agent-development-lifecycle` |
 | `kt:apex` | `kt:asynchronous-apex` |
@@ -56,7 +57,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:queues` | `kt:omni-channel` |
 | `kt:recursive-save` | `kt:order-of-execution` |
 | `kt:salesforce-architecture-center` | `kt:well-architected-framework` |
-| `kt:salesforce-cli` | `kt:metadata-api` |
 | `kt:salesforce-data-mask` | `kt:environment-strategy` |
 | `kt:salesforce-dx` | `kt:application-lifecycle-management` |
 | `kt:salesforce-identity` | `kt:connected-apps` |
@@ -70,5 +70,4 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:solution-design-tradeoffs` | `kt:well-architected-framework` |
 | `kt:source-tracking` | `kt:application-lifecycle-management` |
 | `kt:technical-debt-in-salesforce` | `kt:well-architected-framework` |
-| `kt:unlocked-packages` | `kt:application-lifecycle-management` |
 | `kt:workflow-rules` | `kt:flow-builder` |

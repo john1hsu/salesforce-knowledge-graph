@@ -837,6 +837,89 @@
       ]
     },
     {
+      "@id": "kt:change-sets",
+      "@type": "kto:Tool",
+      "skos:prefLabel": "Change Sets",
+      "skos:definition": "Salesforce's point-and-click Setup tool for sending metadata customizations (not records) from one org to a connected, affiliated org, such as from a sandbox to production, as an outbound change set that the target deploys as an inbound change set.",
+      "kto:domain": "devops-and-alm",
+      "dcterms:created": "2026-10-31",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Change Sets",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/apex/HTViewHelpDoc?id=changesets.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Change Sets Best Practices",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=platform.changesets_best_practices.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Salesforce Developer Limits and Allocations Quick Reference: Platform Metadata",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/salesforce-app-limits-cheatsheet/guide/salesforce-app-limits-platform-metadata.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "DevOps Center for Hybrid Teams",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2024/09/devops-center-for-hybrid-teams",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Package Development Model: Enhance Your Development Skills with Package Management",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/ko/content/learn/modules/sfdx_dev_model/sfdx_dev_model_neworganization",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/devops-and-alm/change-sets.md",
+      "skos:altLabel": [
+        "change set",
+        "outbound change set",
+        "inbound change set",
+        "deployment connections"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:application-lifecycle-management"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:metadata-api"
+        },
+        {
+          "@id": "kt:environment-strategy"
+        },
+        {
+          "@id": "kt:sandbox-types"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:devops-center"
+        },
+        {
+          "@id": "kt:salesforce-cli"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:apex-testing"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:unlocked-packages"
+        }
+      ]
+    },
+    {
       "@id": "kt:metadata-api",
       "@type": "kto:API",
       "skos:prefLabel": "Metadata API",
