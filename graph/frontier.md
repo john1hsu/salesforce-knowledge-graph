@@ -4,12 +4,11 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
+| `kt:salesforce-platform` | `kt:service-cloud`, `kt:agentforce`, `kt:multitenancy`, `kt:sandbox-types`, `kt:salesforce-sharing-model` |
 | `kt:scratch-orgs` | `kt:environment-strategy`, `kt:application-lifecycle-management`, `kt:devops-center`, `kt:salesforce-cli`, `kt:sandbox-types` |
-| `kt:salesforce-platform` | `kt:service-cloud`, `kt:agentforce`, `kt:multitenancy`, `kt:sandbox-types` |
 | `kt:apex` | `kt:apex-testing`, `kt:apex-triggers`, `kt:asynchronous-apex` |
 | `kt:process-automation` | `kt:flow-builder`, `kt:flow-orchestrator`, `kt:record-triggered-flow` |
 | `kt:record-locking` | `kt:data-skew`, `kt:lookup-vs-master-detail`, `kt:roll-up-summary-field` |
-| `kt:salesforce-sharing-model` | `kt:data-skew`, `kt:lookup-vs-master-detail`, `kt:role-hierarchy` |
 | `kt:screen-flow` | `kt:flow-builder`, `kt:flow-orchestrator`, `kt:record-triggered-flow` |
 | `kt:source-tracking` | `kt:application-lifecycle-management`, `kt:devops-center`, `kt:salesforce-cli` |
 | `kt:autolaunched-flow` | `kt:flow-orchestrator`, `kt:record-triggered-flow` |
@@ -17,10 +16,12 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:experience-cloud` | `kt:service-cloud`, `kt:public-sector-solutions` |
 | `kt:flow-trigger-explorer` | `kt:record-triggered-flow`, `kt:order-of-execution` |
 | `kt:hyperforce` | `kt:multitenancy`, `kt:government-cloud-plus` |
+| `kt:implicit-sharing` | `kt:role-hierarchy`, `kt:salesforce-sharing-model` |
 | `kt:mulesoft-anypoint-platform` | `kt:flow-orchestrator`, `kt:government-cloud-plus` |
 | `kt:oauth-2-0` | `kt:connected-apps`, `kt:external-client-apps` |
 | `kt:oauth-2-flows-in-salesforce` | `kt:connected-apps`, `kt:external-client-apps` |
 | `kt:object-relationships` | `kt:lookup-vs-master-detail`, `kt:roll-up-summary-field` |
+| `kt:organization-wide-defaults` | `kt:role-hierarchy`, `kt:salesforce-sharing-model` |
 | `kt:outbound-messaging` | `kt:change-data-capture`, `kt:platform-events` |
 | `kt:process-builder` | `kt:flow-builder`, `kt:record-triggered-flow` |
 | `kt:pub-sub-api` | `kt:change-data-capture`, `kt:platform-events` |
@@ -31,12 +32,14 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:sandbox-templates` | `kt:environment-strategy`, `kt:sandbox-types` |
 | `kt:second-generation-managed-packages` | `kt:external-client-apps`, `kt:external-client-apps` |
 | `kt:sharing-recalculation` | `kt:data-skew`, `kt:role-hierarchy` |
+| `kt:sharing-rules` | `kt:role-hierarchy`, `kt:salesforce-sharing-model` |
 | `kt:single-sign-on-saml` | `kt:connected-apps`, `kt:external-client-apps` |
 | `kt:unlocked-packages` | `kt:application-lifecycle-management`, `kt:change-sets` |
 | `kt:workflow-rules` | `kt:flow-builder`, `kt:record-triggered-flow` |
 | `kt:agent-script` | `kt:agentforce` |
 | `kt:agentforce-dx` | `kt:agent-development-lifecycle` |
 | `kt:agentforce-testing-center` | `kt:agent-development-lifecycle` |
+| `kt:apex-managed-sharing` | `kt:salesforce-sharing-model` |
 | `kt:approval-processes` | `kt:flow-orchestrator` |
 | `kt:atlas-reasoning-engine` | `kt:agentforce` |
 | `kt:batch-apex` | `kt:asynchronous-apex` |
@@ -51,7 +54,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:future-methods` | `kt:asynchronous-apex` |
 | `kt:government-cloud` | `kt:government-cloud-plus` |
 | `kt:il4-and-il5` | `kt:government-cloud-plus` |
-| `kt:implicit-sharing` | `kt:role-hierarchy` |
 | `kt:junction-object` | `kt:lookup-vs-master-detail` |
 | `kt:knowledge-base` | `kt:service-cloud` |
 | `kt:large-data-volumes` | `kt:data-skew` |
@@ -63,7 +65,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:omnistudio` | `kt:public-sector-solutions` |
 | `kt:orchestration-work-guide` | `kt:flow-orchestrator` |
 | `kt:org-strategy` | `kt:environment-strategy` |
-| `kt:organization-wide-defaults` | `kt:role-hierarchy` |
 | `kt:package-xml-manifest` | `kt:metadata-api` |
 | `kt:person-accounts` | `kt:public-sector-solutions` |
 | `kt:platform-event-allocations` | `kt:platform-events` |
@@ -76,7 +77,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:salesforce-data-mask` | `kt:environment-strategy` |
 | `kt:salesforce-industries` | `kt:public-sector-solutions` |
 | `kt:service-setup-assistant` | `kt:service-cloud` |
-| `kt:sharing-rules` | `kt:role-hierarchy` |
+| `kt:sharing-and-visibility-architect-certification` | `kt:salesforce-sharing-model` |
 | `kt:skills-based-routing` | `kt:omni-channel` |
 | `kt:solution-design-tradeoffs` | `kt:well-architected-framework` |
 | `kt:technical-debt-in-salesforce` | `kt:well-architected-framework` |

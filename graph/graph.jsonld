@@ -2640,6 +2640,85 @@
           "@id": "kt:sharing-recalculation"
         }
       ]
+    },
+    {
+      "@id": "kt:salesforce-sharing-model",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Salesforce Sharing Model",
+      "skos:definition": "The layered record-level security design of a Salesforce org: organization-wide defaults set a restrictive baseline, and ownership, the role hierarchy, sharing rules, manual sharing and Apex managed sharing selectively open access on top.",
+      "kto:domain": "security-and-sharing",
+      "dcterms:created": "2026-10-31",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Understanding Sharing (Apex Developer Guide)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apex/apex_bulk_sharing_understanding.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Overview of Data Security (Data Security module)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/data_security/data_security_overview",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Control Access to Records (Data Security module)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/data_security/data_security_records",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Salesforce Data Security Model — Explained Visually",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/developer-relations/2017/04/salesforce-data-security-model-explained-visually",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Salesforce Certified Platform Sharing and Visibility Architect",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/de/credentials/sharingandvisibilityarchitect",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/security-and-sharing/salesforce-sharing-model.md",
+      "skos:altLabel": [
+        "sharing model",
+        "record-level security",
+        "record-level sharing",
+        "record access model",
+        "sharing and visibility"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-platform"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:role-hierarchy"
+        },
+        {
+          "@id": "kt:implicit-sharing"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:organization-wide-defaults"
+        },
+        {
+          "@id": "kt:sharing-rules"
+        },
+        {
+          "@id": "kt:apex-managed-sharing"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:sharing-and-visibility-architect-certification"
+        }
+      ]
     }
   ]
 }
