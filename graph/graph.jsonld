@@ -1623,6 +1623,103 @@
       ]
     },
     {
+      "@id": "kt:external-client-apps",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "External Client Apps",
+      "skos:definition": "The successor to connected apps: a packageable, metadata-compliant framework that registers third-party applications for OAuth and SAML access to Salesforce, local to its org by default, with developer-owned settings separated from subscriber-admin policies.",
+      "kto:domain": "identity",
+      "dcterms:created": "2026-10-31",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "External Client Apps",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=xcloud.external_client_apps.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Integrate External Applications with Salesforce (connected apps and external client apps)",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=xcloud.external_integrations.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Use External Client Apps When Connected Apps Won't Do (External Client App Basics)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/external-client-app-basics/use-external-client-apps-when-connected-apps-wont-do",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Package and Distribute External Client Apps (External Client App Basics)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/external-client-app-basics/package-and-distribute-external-client-apps",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Create an External Client App (Mobile SDK Development Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/mobile-sdk/guide/eca-create.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "ExtlClntAppOauthSettings (Metadata API Developer Guide, Winter '27)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.264.0.api_meta.meta/api_meta/meta_extlclntappoauthsettings.htm",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/identity/external-client-apps.md",
+      "skos:altLabel": [
+        "external client app",
+        "ECA",
+        "ExternalClientApplication",
+        "next-generation connected apps"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-identity"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:connected-apps"
+        },
+        {
+          "@id": "kt:oauth-2-flows-in-salesforce"
+        },
+        {
+          "@id": "kt:single-sign-on-saml"
+        },
+        {
+          "@id": "kt:second-generation-managed-packages"
+        },
+        {
+          "@id": "kt:sandbox-types"
+        }
+      ],
+      "kto:replaces": [
+        {
+          "@id": "kt:connected-apps"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:metadata-api"
+        }
+      ],
+      "kto:implements": [
+        {
+          "@id": "kt:oauth-2-0"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:second-generation-managed-packages"
+        }
+      ]
+    },
+    {
       "@id": "kt:platform-events",
       "@type": "kto:Feature",
       "skos:prefLabel": "Platform Events",

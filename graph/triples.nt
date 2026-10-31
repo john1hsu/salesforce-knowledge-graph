@@ -272,6 +272,34 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/environment-strategy> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-types> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/environment-strategy> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/environment-strategy> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-client-apps> <http://purl.org/dc/terms/created> "2026-10-31" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-client-apps> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-client-apps> <http://www.w3.org/2000/01/rdf-schema#label> "External Client Apps" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-client-apps> <http://www.w3.org/2004/02/skos/core#altLabel> "ECA" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-client-apps> <http://www.w3.org/2004/02/skos/core#altLabel> "ExternalClientApplication" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-client-apps> <http://www.w3.org/2004/02/skos/core#altLabel> "external client app" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-client-apps> <http://www.w3.org/2004/02/skos/core#altLabel> "next-generation connected apps" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-client-apps> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-identity> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-client-apps> <http://www.w3.org/2004/02/skos/core#definition> "The successor to connected apps: a packageable, metadata-compliant framework that registers third-party applications for OAuth and SAML access to Salesforce, local to its org by default, with developer-owned settings separated from subscriber-admin policies." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-client-apps> <http://www.w3.org/2004/02/skos/core#prefLabel> "External Client Apps" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-client-apps> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/connected-apps> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-client-apps> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-2-flows-in-salesforce> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-client-apps> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-types> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-client-apps> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/second-generation-managed-packages> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-client-apps> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/single-sign-on-saml> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-client-apps> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-client-apps/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-client-apps> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-client-apps/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-client-apps> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-client-apps/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-client-apps> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-client-apps/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-client-apps> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-client-apps/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-client-apps> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-client-apps/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-client-apps> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-client-apps> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/second-generation-managed-packages> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-client-apps> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "identity" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-client-apps> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#implements> <https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-2-0> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-client-apps> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#replaces> <https://github.com/john1hsu/salesforce-knowledge-graph/id/connected-apps> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-client-apps> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-client-apps> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-builder> <http://purl.org/dc/terms/created> "2026-10-30" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-builder> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Tool> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-builder> <http://www.w3.org/2000/01/rdf-schema#label> "Flow Builder" .
@@ -875,6 +903,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/environment-strategy/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/environment-strategy/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/environment-strategy/s5> <https://schema.org/url> "https://admin.salesforce.com/blog/2026/admin-winter-27-release-countdown" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-client-apps/s1> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-client-apps/s1> <http://purl.org/dc/terms/title> "External Client Apps" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-client-apps/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-client-apps/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-client-apps/s1> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=xcloud.external_client_apps.htm&language=en_US&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-client-apps/s2> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-client-apps/s2> <http://purl.org/dc/terms/title> "Integrate External Applications with Salesforce (connected apps and external client apps)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-client-apps/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-client-apps/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-client-apps/s2> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=xcloud.external_integrations.htm&language=en_US&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-client-apps/s3> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-client-apps/s3> <http://purl.org/dc/terms/title> "Use External Client Apps When Connected Apps Won't Do (External Client App Basics)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-client-apps/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-client-apps/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-client-apps/s3> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/external-client-app-basics/use-external-client-apps-when-connected-apps-wont-do" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-client-apps/s4> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-client-apps/s4> <http://purl.org/dc/terms/title> "Package and Distribute External Client Apps (External Client App Basics)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-client-apps/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-client-apps/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-client-apps/s4> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/external-client-app-basics/package-and-distribute-external-client-apps" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-client-apps/s5> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-client-apps/s5> <http://purl.org/dc/terms/title> "Create an External Client App (Mobile SDK Development Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-client-apps/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-client-apps/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-client-apps/s5> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/mobile-sdk/guide/eca-create.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-client-apps/s6> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-client-apps/s6> <http://purl.org/dc/terms/title> "ExtlClntAppOauthSettings (Metadata API Developer Guide, Winter '27)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-client-apps/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-client-apps/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-client-apps/s6> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.264.0.api_meta.meta/api_meta/meta_extlclntappoauthsettings.htm" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-builder/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-builder/s1> <http://purl.org/dc/terms/title> "Flow Basics: Meet Flow Builder" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-builder/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
