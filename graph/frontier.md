@@ -4,37 +4,39 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:record-triggered-flow` | `kt:flow-builder`, `kt:flow-orchestrator`, `kt:roll-up-summary-field`, `kt:apex-triggers`, `kt:order-of-execution` |
 | `kt:salesforce-cli` | `kt:change-sets`, `kt:devops-center`, `kt:metadata-api`, `kt:sandbox-types` |
 | `kt:salesforce-platform` | `kt:service-cloud`, `kt:agentforce`, `kt:multitenancy`, `kt:sandbox-types` |
 | `kt:scratch-orgs` | `kt:environment-strategy`, `kt:application-lifecycle-management`, `kt:devops-center`, `kt:sandbox-types` |
 | `kt:apex` | `kt:apex-testing`, `kt:apex-triggers`, `kt:asynchronous-apex` |
+| `kt:process-automation` | `kt:flow-builder`, `kt:flow-orchestrator`, `kt:record-triggered-flow` |
 | `kt:record-locking` | `kt:data-skew`, `kt:lookup-vs-master-detail`, `kt:roll-up-summary-field` |
 | `kt:salesforce-sharing-model` | `kt:data-skew`, `kt:lookup-vs-master-detail`, `kt:role-hierarchy` |
+| `kt:screen-flow` | `kt:flow-builder`, `kt:flow-orchestrator`, `kt:record-triggered-flow` |
+| `kt:autolaunched-flow` | `kt:flow-orchestrator`, `kt:record-triggered-flow` |
 | `kt:event-driven-architecture` | `kt:change-data-capture`, `kt:platform-events` |
 | `kt:experience-cloud` | `kt:service-cloud`, `kt:public-sector-solutions` |
+| `kt:flow-trigger-explorer` | `kt:record-triggered-flow`, `kt:order-of-execution` |
 | `kt:oauth-2-0` | `kt:connected-apps`, `kt:external-client-apps` |
 | `kt:oauth-2-flows-in-salesforce` | `kt:connected-apps`, `kt:external-client-apps` |
 | `kt:object-relationships` | `kt:lookup-vs-master-detail`, `kt:roll-up-summary-field` |
 | `kt:outbound-messaging` | `kt:change-data-capture`, `kt:platform-events` |
-| `kt:process-automation` | `kt:flow-builder`, `kt:flow-orchestrator` |
+| `kt:process-builder` | `kt:flow-builder`, `kt:record-triggered-flow` |
 | `kt:pub-sub-api` | `kt:change-data-capture`, `kt:platform-events` |
 | `kt:queues` | `kt:omni-channel`, `kt:service-cloud` |
 | `kt:salesforce-architect` | `kt:well-architected-framework`, `kt:agent-development-lifecycle` |
 | `kt:salesforce-identity` | `kt:connected-apps`, `kt:external-client-apps` |
 | `kt:sandbox-templates` | `kt:environment-strategy`, `kt:sandbox-types` |
-| `kt:screen-flow` | `kt:flow-builder`, `kt:flow-orchestrator` |
 | `kt:second-generation-managed-packages` | `kt:external-client-apps`, `kt:external-client-apps` |
 | `kt:sharing-recalculation` | `kt:data-skew`, `kt:role-hierarchy` |
 | `kt:single-sign-on-saml` | `kt:connected-apps`, `kt:external-client-apps` |
 | `kt:source-tracking` | `kt:application-lifecycle-management`, `kt:devops-center` |
 | `kt:unlocked-packages` | `kt:application-lifecycle-management`, `kt:change-sets` |
+| `kt:workflow-rules` | `kt:flow-builder`, `kt:record-triggered-flow` |
 | `kt:agent-script` | `kt:agentforce` |
 | `kt:agentforce-dx` | `kt:agent-development-lifecycle` |
 | `kt:agentforce-testing-center` | `kt:agent-development-lifecycle` |
 | `kt:approval-processes` | `kt:flow-orchestrator` |
 | `kt:atlas-reasoning-engine` | `kt:agentforce` |
-| `kt:autolaunched-flow` | `kt:flow-orchestrator` |
 | `kt:batch-apex` | `kt:asynchronous-apex` |
 | `kt:business-rules-engine` | `kt:public-sector-solutions` |
 | `kt:change-data-capture-allocations` | `kt:change-data-capture` |
@@ -42,7 +44,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:einstein-trust-layer` | `kt:agentforce` |
 | `kt:enterprise-territory-management` | `kt:role-hierarchy` |
 | `kt:entitlement-management` | `kt:service-cloud` |
-| `kt:flow-trigger-explorer` | `kt:order-of-execution` |
 | `kt:future-methods` | `kt:asynchronous-apex` |
 | `kt:hyperforce` | `kt:multitenancy` |
 | `kt:implicit-sharing` | `kt:role-hierarchy` |
@@ -64,7 +65,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:platform-event-allocations` | `kt:platform-events` |
 | `kt:platform-event-channel-member` | `kt:change-data-capture` |
 | `kt:presence-configuration` | `kt:omni-channel` |
-| `kt:process-builder` | `kt:flow-builder` |
 | `kt:query-optimizer-selectivity` | `kt:multitenancy` |
 | `kt:queueable-apex` | `kt:asynchronous-apex` |
 | `kt:recursive-save` | `kt:order-of-execution` |
@@ -80,4 +80,3 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:test-data-factory` | `kt:apex-testing` |
 | `kt:testing-strategy` | `kt:apex-testing` |
 | `kt:trigger-framework-pattern` | `kt:apex-triggers` |
-| `kt:workflow-rules` | `kt:flow-builder` |

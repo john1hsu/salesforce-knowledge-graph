@@ -350,6 +350,90 @@
       ]
     },
     {
+      "@id": "kt:record-triggered-flow",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Record-Triggered Flow",
+      "skos:definition": "An autolaunched flow that runs in the background when a record is created, updated or deleted, with before-save (fast field update), after-save, asynchronous and scheduled paths; Salesforce's primary low-code alternative to Apex triggers.",
+      "kto:domain": "automation",
+      "dcterms:created": "2026-10-31",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Record-Triggered Flows: Get Started with Triggered Flows",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/record-triggered-flows/get-started-with-triggered-flows",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Record-Triggered Flow Considerations",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/apex/HTViewHelpDoc?id=platform.flow_considerations_trigger_record.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Architect's Guide to Record-Triggered Automation",
+          "dcterms:publisher": "Salesforce Architects",
+          "schema:url": "https://architect.salesforce.com/decision-guides/trigger-automation",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Automate This! Discover Tips and Best Practices for Record-Triggered Flows",
+          "dcterms:publisher": "Salesforce Admins Blog",
+          "schema:url": "https://admin.salesforce.com/blog/2022/automate-this-discover-tips-and-best-practices-for-record-triggered-flows",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/automation/record-triggered-flow.md",
+      "skos:altLabel": [
+        "record-triggered flows",
+        "before-save flow",
+        "after-save flow",
+        "fast field update flow",
+        "flow trigger"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:flow-builder"
+        },
+        {
+          "@id": "kt:process-automation"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:order-of-execution"
+        },
+        {
+          "@id": "kt:flow-trigger-explorer"
+        },
+        {
+          "@id": "kt:screen-flow"
+        },
+        {
+          "@id": "kt:autolaunched-flow"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:apex-triggers"
+        }
+      ],
+      "kto:replaces": [
+        {
+          "@id": "kt:workflow-rules"
+        },
+        {
+          "@id": "kt:process-builder"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:governor-limits"
+        }
+      ]
+    },
+    {
       "@id": "kt:omni-channel",
       "@type": "kto:Feature",
       "skos:prefLabel": "Omni-Channel",
