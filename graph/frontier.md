@@ -6,8 +6,8 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 |---|---|
 | `kt:agentforce` | `kt:well-architected-framework`, `kt:omni-channel`, `kt:omni-channel`, `kt:agent-development-lifecycle` |
 | `kt:apex-triggers` | `kt:flow-builder`, `kt:asynchronous-apex`, `kt:governor-limits`, `kt:order-of-execution` |
+| `kt:apex-testing` | `kt:metadata-api`, `kt:metadata-api` |
 | `kt:external-client-apps` | `kt:connected-apps`, `kt:connected-apps` |
-| `kt:metadata-api` | `kt:connected-apps`, `kt:connected-apps` |
 | `kt:multitenancy` | `kt:governor-limits`, `kt:order-of-execution` |
 | `kt:record-triggered-flow` | `kt:flow-builder`, `kt:order-of-execution` |
 | `kt:roll-up-summary-field` | `kt:lookup-vs-master-detail`, `kt:order-of-execution` |
@@ -18,6 +18,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:agentforce-testing-center` | `kt:agent-development-lifecycle` |
 | `kt:apex` | `kt:asynchronous-apex` |
 | `kt:batch-apex` | `kt:asynchronous-apex` |
+| `kt:change-sets` | `kt:metadata-api` |
 | `kt:data-skew` | `kt:lookup-vs-master-detail` |
 | `kt:devops-center` | `kt:application-lifecycle-management` |
 | `kt:environment-strategy` | `kt:application-lifecycle-management` |
@@ -30,6 +31,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:oauth-2-flows-in-salesforce` | `kt:connected-apps` |
 | `kt:object-relationships` | `kt:lookup-vs-master-detail` |
 | `kt:omni-channel-limits` | `kt:omni-channel` |
+| `kt:package-xml-manifest` | `kt:metadata-api` |
 | `kt:presence-configuration` | `kt:omni-channel` |
 | `kt:process-automation` | `kt:flow-builder` |
 | `kt:process-builder` | `kt:flow-builder` |
@@ -38,6 +40,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:record-locking` | `kt:lookup-vs-master-detail` |
 | `kt:recursive-save` | `kt:order-of-execution` |
 | `kt:salesforce-architecture-center` | `kt:well-architected-framework` |
+| `kt:salesforce-cli` | `kt:metadata-api` |
 | `kt:salesforce-dx` | `kt:application-lifecycle-management` |
 | `kt:salesforce-identity` | `kt:connected-apps` |
 | `kt:salesforce-sharing-model` | `kt:lookup-vs-master-detail` |

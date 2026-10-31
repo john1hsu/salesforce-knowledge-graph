@@ -590,6 +590,85 @@
       ]
     },
     {
+      "@id": "kt:metadata-api",
+      "@type": "kto:API",
+      "skos:prefLabel": "Metadata API",
+      "skos:definition": "The Salesforce API for retrieving, deploying, creating, updating and deleting org customizations (metadata) rather than records, through asynchronous file-based deploy/retrieve of .zip packages and synchronous CRUD-based calls.",
+      "kto:domain": "devops-and-alm",
+      "dcterms:created": "2026-10-31",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Deploying and Retrieving Metadata (Metadata API Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/file_based.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Salesforce Developer Limits and Allocations Quick Reference: Platform Metadata",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/salesforce-app-limits-cheatsheet/guide/salesforce-app-limits-platform-metadata.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Deploy Metadata with Apex Testing Using REST",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.264.0.api_meta.meta/api_meta/meta_rest_deploy.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "CRUD-Based Calls (Metadata API Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_crud_based_calls_intro.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Deploy Metadata Using the Manifest",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/package-xml/package-xml-deploy",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/devops-and-alm/metadata-api.md",
+      "skos:altLabel": [
+        "MDAPI",
+        "Salesforce Metadata API",
+        "mdapi deploy"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:application-lifecycle-management"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:change-sets"
+        },
+        {
+          "@id": "kt:connected-apps"
+        },
+        {
+          "@id": "kt:apex-testing"
+        }
+      ],
+      "kto:queriedWith": [
+        {
+          "@id": "kt:salesforce-cli"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:apex-testing"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:package-xml-manifest"
+        }
+      ]
+    },
+    {
       "@id": "kt:connected-apps",
       "@type": "kto:Feature",
       "skos:prefLabel": "Connected Apps",
