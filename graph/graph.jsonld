@@ -1237,6 +1237,75 @@
           "@id": "kt:business-rules-engine"
         }
       ]
+    },
+    {
+      "@id": "kt:role-hierarchy",
+      "@type": "kto:SecurityControl",
+      "skos:prefLabel": "Role Hierarchy",
+      "skos:definition": "The tree of user roles in a Salesforce org that opens record access vertically: users in a role can see and edit the records owned by or shared with users in roles beneath them, on top of the organization-wide defaults.",
+      "kto:domain": "security-and-sharing",
+      "dcterms:created": "2026-10-31",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Create a Role Hierarchy (Data Security module)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/data_security/data_security_roles",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Platform Sharing Architecture",
+          "dcterms:publisher": "Salesforce Architects",
+          "schema:url": "https://architect.salesforce.com/fundamentals/platform-sharing-architecture",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Behind the Scenes of Record Ownership in Salesforce",
+          "dcterms:publisher": "Salesforce Engineering (Salesforce Developers Blog)",
+          "schema:url": "https://developer.salesforce.com/blogs/engineering/2013/10/behind-the-scenes-of-record-ownership-in-salesforce",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/security-and-sharing/role-hierarchy.md",
+      "skos:altLabel": [
+        "user role hierarchy",
+        "roles",
+        "UserRole",
+        "grant access using hierarchies"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-sharing-model"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:organization-wide-defaults"
+        },
+        {
+          "@id": "kt:sharing-rules"
+        },
+        {
+          "@id": "kt:implicit-sharing"
+        },
+        {
+          "@id": "kt:data-skew"
+        },
+        {
+          "@id": "kt:lookup-vs-master-detail"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:enterprise-territory-management"
+        }
+      ],
+      "kto:causes": [
+        {
+          "@id": "kt:sharing-recalculation"
+        }
+      ]
     }
   ]
 }
