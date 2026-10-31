@@ -339,6 +339,79 @@
       ]
     },
     {
+      "@id": "kt:data-skew",
+      "@type": "kto:AntiPattern",
+      "skos:prefLabel": "Data Skew",
+      "skos:definition": "A data distribution problem in which a very large number of records concentrate on a single parent record, owner or lookup target, causing record-lock contention and long-running sharing recalculations.",
+      "kto:domain": "data-model",
+      "dcterms:created": "2026-10-31",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Large Data Volumes: Design Your Data Model",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/large-data-volumes/design-your-data-model",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Designing Record Access for Enterprise Scale: Ownership Data Skew",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/draes/guide/draes-group-membership-data-skew.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Managing Lookup Skew to Avoid Record Lock Exceptions",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/engineering/2013/04/managing-lookup-skew-to-avoid-record-lock-exceptions",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Architect Salesforce Record Ownership Skew for Peak Performance in Large Data Volume Environments",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/engineering/2012/06/architect-salesforce-record-ownership-skew-for-peak-performance-in-large-data-volume-environments",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/data-model/data-skew.md",
+      "skos:altLabel": [
+        "account data skew",
+        "ownership skew",
+        "ownership data skew",
+        "lookup skew",
+        "parent-child data skew"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:large-data-volumes"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:lookup-vs-master-detail"
+        },
+        {
+          "@id": "kt:role-hierarchy"
+        },
+        {
+          "@id": "kt:roll-up-summary-field"
+        }
+      ],
+      "kto:causes": [
+        {
+          "@id": "kt:record-locking"
+        },
+        {
+          "@id": "kt:sharing-recalculation"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:salesforce-sharing-model"
+        }
+      ]
+    },
+    {
       "@id": "kt:lookup-vs-master-detail",
       "@type": "kto:Concept",
       "skos:prefLabel": "Lookup vs. Master-Detail Relationships",

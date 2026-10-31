@@ -6,16 +6,16 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 |---|---|
 | `kt:apex-triggers` | `kt:flow-builder`, `kt:roll-up-summary-field`, `kt:asynchronous-apex`, `kt:platform-events`, `kt:governor-limits`, `kt:order-of-execution` |
 | `kt:agentforce` | `kt:well-architected-framework`, `kt:omni-channel`, `kt:omni-channel`, `kt:agent-development-lifecycle`, `kt:public-sector-solutions` |
-| `kt:data-skew` | `kt:lookup-vs-master-detail`, `kt:roll-up-summary-field`, `kt:role-hierarchy` |
+| `kt:record-locking` | `kt:data-skew`, `kt:lookup-vs-master-detail`, `kt:roll-up-summary-field` |
 | `kt:record-triggered-flow` | `kt:flow-builder`, `kt:roll-up-summary-field`, `kt:order-of-execution` |
+| `kt:salesforce-sharing-model` | `kt:data-skew`, `kt:lookup-vs-master-detail`, `kt:role-hierarchy` |
 | `kt:service-cloud` | `kt:omni-channel`, `kt:omni-channel`, `kt:public-sector-solutions` |
 | `kt:apex-testing` | `kt:metadata-api`, `kt:metadata-api` |
 | `kt:external-client-apps` | `kt:connected-apps`, `kt:connected-apps` |
 | `kt:object-relationships` | `kt:lookup-vs-master-detail`, `kt:roll-up-summary-field` |
-| `kt:record-locking` | `kt:lookup-vs-master-detail`, `kt:roll-up-summary-field` |
 | `kt:salesforce-architect` | `kt:well-architected-framework`, `kt:agent-development-lifecycle` |
-| `kt:salesforce-sharing-model` | `kt:lookup-vs-master-detail`, `kt:role-hierarchy` |
 | `kt:sandbox-types` | `kt:agent-development-lifecycle`, `kt:application-lifecycle-management` |
+| `kt:sharing-recalculation` | `kt:data-skew`, `kt:role-hierarchy` |
 | `kt:agentforce-dx` | `kt:agent-development-lifecycle` |
 | `kt:agentforce-testing-center` | `kt:agent-development-lifecycle` |
 | `kt:apex` | `kt:asynchronous-apex` |
@@ -33,6 +33,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:hyperforce` | `kt:multitenancy` |
 | `kt:implicit-sharing` | `kt:role-hierarchy` |
 | `kt:junction-object` | `kt:lookup-vs-master-detail` |
+| `kt:large-data-volumes` | `kt:data-skew` |
 | `kt:limit-exception` | `kt:governor-limits` |
 | `kt:limits-class` | `kt:governor-limits` |
 | `kt:metadata-driven-architecture` | `kt:multitenancy` |
@@ -61,7 +62,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:salesforce-platform` | `kt:multitenancy` |
 | `kt:scratch-orgs` | `kt:application-lifecycle-management` |
 | `kt:screen-flow` | `kt:flow-builder` |
-| `kt:sharing-recalculation` | `kt:role-hierarchy` |
 | `kt:sharing-rules` | `kt:role-hierarchy` |
 | `kt:single-sign-on-saml` | `kt:connected-apps` |
 | `kt:skills-based-routing` | `kt:omni-channel` |

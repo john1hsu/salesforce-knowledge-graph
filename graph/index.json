@@ -89,6 +89,29 @@
     ]
   },
   {
+    "id": "kt:data-skew",
+    "title": "Data Skew",
+    "aliases": [
+      "account data skew",
+      "ownership skew",
+      "ownership data skew",
+      "lookup skew",
+      "parent-child data skew"
+    ],
+    "type": "AntiPattern",
+    "domain": "data-model",
+    "file": "articles/data-model/data-skew.md",
+    "created": "2026-10-31",
+    "release": "Winter '27",
+    "status": "current",
+    "source_urls": [
+      "https://trailhead.salesforce.com/content/learn/modules/large-data-volumes/design-your-data-model",
+      "https://developer.salesforce.com/docs/platform/draes/guide/draes-group-membership-data-skew.html",
+      "https://developer.salesforce.com/blogs/engineering/2013/04/managing-lookup-skew-to-avoid-record-lock-exceptions",
+      "https://developer.salesforce.com/blogs/engineering/2012/06/architect-salesforce-record-ownership-skew-for-peak-performance-in-large-data-volume-environments"
+    ]
+  },
+  {
     "id": "kt:flow-builder",
     "title": "Flow Builder",
     "aliases": [
