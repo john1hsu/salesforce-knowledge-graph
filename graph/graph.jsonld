@@ -226,6 +226,9 @@
         },
         {
           "@id": "kt:screen-flow"
+        },
+        {
+          "@id": "kt:flow-orchestrator"
         }
       ],
       "kto:alternativeTo": [
@@ -244,6 +247,105 @@
       "kto:governedBy": [
         {
           "@id": "kt:governor-limits"
+        }
+      ]
+    },
+    {
+      "@id": "kt:flow-orchestrator",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Flow Orchestrator",
+      "skos:definition": "A Flow type that coordinates multi-user, multi-step business processes by running existing screen and autolaunched flows as steps grouped into sequential stages, with work items surfaced to assignees in the Orchestration Work Guide.",
+      "kto:domain": "automation",
+      "dcterms:created": "2026-10-31",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Flow Orchestration Basics: Flow Orchestration Stages & Types",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/orchestrator-basics/get-to-know-orchestrator",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Build a Flow Orchestration: Identify Your Steps and Build Your Flows",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/build-a-flow-orchestration/identify-your-steps-and-build-your-flows",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Orchestration Steps",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=orchestrator_concepts_steps.htm&type=5&language=en_US",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Considerations for Orchestrations",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=platform.orchestrator_considerations_orchestrations.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "General Flow Orchestration Limits",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=platform.orchestrator_considerations_limit.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Flow Orchestration is Now a Standard Flow Type",
+          "dcterms:publisher": "Salesforce Admins Blog",
+          "schema:url": "https://admin.salesforce.com/blog/2026/flow-orchestration-is-now-a-standard-flow-type",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Introducing Flow Orchestrator: Unify Your Complex Business Processes Without Code",
+          "dcterms:publisher": "Salesforce Admins Blog",
+          "schema:url": "https://admin.salesforce.com/blog/2021/introducing-flow-orchestrator-unify-your-complex-business-processes-without-code",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/automation/flow-orchestrator.md",
+      "skos:altLabel": [
+        "Flow Orchestration",
+        "Salesforce Orchestrator",
+        "Orchestration flow type"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:flow-builder"
+        },
+        {
+          "@id": "kt:process-automation"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:screen-flow"
+        },
+        {
+          "@id": "kt:record-triggered-flow"
+        },
+        {
+          "@id": "kt:autolaunched-flow"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:approval-processes"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:mulesoft-anypoint-platform"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:governor-limits"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:orchestration-work-guide"
         }
       ]
     },

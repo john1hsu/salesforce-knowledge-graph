@@ -6,23 +6,27 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 |---|---|
 | `kt:apex-triggers` | `kt:flow-builder`, `kt:roll-up-summary-field`, `kt:asynchronous-apex`, `kt:platform-events`, `kt:governor-limits`, `kt:order-of-execution` |
 | `kt:agentforce` | `kt:well-architected-framework`, `kt:omni-channel`, `kt:omni-channel`, `kt:agent-development-lifecycle`, `kt:public-sector-solutions` |
+| `kt:record-triggered-flow` | `kt:flow-builder`, `kt:flow-orchestrator`, `kt:roll-up-summary-field`, `kt:order-of-execution` |
 | `kt:sandbox-types` | `kt:environment-strategy`, `kt:agent-development-lifecycle`, `kt:application-lifecycle-management`, `kt:change-sets` |
 | `kt:apex-testing` | `kt:change-sets`, `kt:metadata-api`, `kt:metadata-api` |
 | `kt:devops-center` | `kt:environment-strategy`, `kt:application-lifecycle-management`, `kt:change-sets` |
 | `kt:record-locking` | `kt:data-skew`, `kt:lookup-vs-master-detail`, `kt:roll-up-summary-field` |
-| `kt:record-triggered-flow` | `kt:flow-builder`, `kt:roll-up-summary-field`, `kt:order-of-execution` |
 | `kt:salesforce-sharing-model` | `kt:data-skew`, `kt:lookup-vs-master-detail`, `kt:role-hierarchy` |
 | `kt:service-cloud` | `kt:omni-channel`, `kt:omni-channel`, `kt:public-sector-solutions` |
 | `kt:external-client-apps` | `kt:connected-apps`, `kt:connected-apps` |
 | `kt:object-relationships` | `kt:lookup-vs-master-detail`, `kt:roll-up-summary-field` |
+| `kt:process-automation` | `kt:flow-builder`, `kt:flow-orchestrator` |
 | `kt:salesforce-architect` | `kt:well-architected-framework`, `kt:agent-development-lifecycle` |
 | `kt:salesforce-cli` | `kt:change-sets`, `kt:metadata-api` |
 | `kt:scratch-orgs` | `kt:environment-strategy`, `kt:application-lifecycle-management` |
+| `kt:screen-flow` | `kt:flow-builder`, `kt:flow-orchestrator` |
 | `kt:sharing-recalculation` | `kt:data-skew`, `kt:role-hierarchy` |
 | `kt:unlocked-packages` | `kt:application-lifecycle-management`, `kt:change-sets` |
 | `kt:agentforce-dx` | `kt:agent-development-lifecycle` |
 | `kt:agentforce-testing-center` | `kt:agent-development-lifecycle` |
 | `kt:apex` | `kt:asynchronous-apex` |
+| `kt:approval-processes` | `kt:flow-orchestrator` |
+| `kt:autolaunched-flow` | `kt:flow-orchestrator` |
 | `kt:batch-apex` | `kt:asynchronous-apex` |
 | `kt:business-rules-engine` | `kt:public-sector-solutions` |
 | `kt:change-data-capture` | `kt:platform-events` |
@@ -38,10 +42,12 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:limit-exception` | `kt:governor-limits` |
 | `kt:limits-class` | `kt:governor-limits` |
 | `kt:metadata-driven-architecture` | `kt:multitenancy` |
+| `kt:mulesoft-anypoint-platform` | `kt:flow-orchestrator` |
 | `kt:oauth-2-0` | `kt:connected-apps` |
 | `kt:oauth-2-flows-in-salesforce` | `kt:connected-apps` |
 | `kt:omni-channel-limits` | `kt:omni-channel` |
 | `kt:omnistudio` | `kt:public-sector-solutions` |
+| `kt:orchestration-work-guide` | `kt:flow-orchestrator` |
 | `kt:org-strategy` | `kt:environment-strategy` |
 | `kt:organization-wide-defaults` | `kt:role-hierarchy` |
 | `kt:outbound-messaging` | `kt:platform-events` |
@@ -49,7 +55,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:person-accounts` | `kt:public-sector-solutions` |
 | `kt:platform-event-allocations` | `kt:platform-events` |
 | `kt:presence-configuration` | `kt:omni-channel` |
-| `kt:process-automation` | `kt:flow-builder` |
 | `kt:process-builder` | `kt:flow-builder` |
 | `kt:pub-sub-api` | `kt:platform-events` |
 | `kt:query-optimizer-selectivity` | `kt:multitenancy` |
@@ -63,7 +68,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:salesforce-industries` | `kt:public-sector-solutions` |
 | `kt:salesforce-platform` | `kt:multitenancy` |
 | `kt:sandbox-templates` | `kt:environment-strategy` |
-| `kt:screen-flow` | `kt:flow-builder` |
 | `kt:sharing-rules` | `kt:role-hierarchy` |
 | `kt:single-sign-on-saml` | `kt:connected-apps` |
 | `kt:skills-based-routing` | `kt:omni-channel` |
