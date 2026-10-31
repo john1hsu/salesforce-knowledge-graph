@@ -4,15 +4,15 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:apex-triggers` | `kt:flow-builder`, `kt:roll-up-summary-field`, `kt:asynchronous-apex`, `kt:platform-events`, `kt:governor-limits`, `kt:order-of-execution` |
+| `kt:apex-testing` | `kt:apex-triggers`, `kt:change-sets`, `kt:devops-center`, `kt:metadata-api`, `kt:metadata-api` |
+| `kt:record-triggered-flow` | `kt:flow-builder`, `kt:flow-orchestrator`, `kt:roll-up-summary-field`, `kt:apex-triggers`, `kt:order-of-execution` |
 | `kt:sandbox-types` | `kt:environment-strategy`, `kt:agent-development-lifecycle`, `kt:application-lifecycle-management`, `kt:change-sets`, `kt:devops-center` |
-| `kt:apex-testing` | `kt:change-sets`, `kt:devops-center`, `kt:metadata-api`, `kt:metadata-api` |
-| `kt:record-triggered-flow` | `kt:flow-builder`, `kt:flow-orchestrator`, `kt:roll-up-summary-field`, `kt:order-of-execution` |
 | `kt:record-locking` | `kt:data-skew`, `kt:lookup-vs-master-detail`, `kt:roll-up-summary-field` |
 | `kt:salesforce-cli` | `kt:change-sets`, `kt:devops-center`, `kt:metadata-api` |
 | `kt:salesforce-platform` | `kt:service-cloud`, `kt:agentforce`, `kt:multitenancy` |
 | `kt:salesforce-sharing-model` | `kt:data-skew`, `kt:lookup-vs-master-detail`, `kt:role-hierarchy` |
 | `kt:scratch-orgs` | `kt:environment-strategy`, `kt:application-lifecycle-management`, `kt:devops-center` |
+| `kt:apex` | `kt:apex-triggers`, `kt:asynchronous-apex` |
 | `kt:experience-cloud` | `kt:service-cloud`, `kt:public-sector-solutions` |
 | `kt:external-client-apps` | `kt:connected-apps`, `kt:connected-apps` |
 | `kt:object-relationships` | `kt:lookup-vs-master-detail`, `kt:roll-up-summary-field` |
@@ -26,7 +26,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:agent-script` | `kt:agentforce` |
 | `kt:agentforce-dx` | `kt:agent-development-lifecycle` |
 | `kt:agentforce-testing-center` | `kt:agent-development-lifecycle` |
-| `kt:apex` | `kt:asynchronous-apex` |
 | `kt:approval-processes` | `kt:flow-orchestrator` |
 | `kt:atlas-reasoning-engine` | `kt:agentforce` |
 | `kt:autolaunched-flow` | `kt:flow-orchestrator` |
@@ -79,4 +78,5 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:skills-based-routing` | `kt:omni-channel` |
 | `kt:solution-design-tradeoffs` | `kt:well-architected-framework` |
 | `kt:technical-debt-in-salesforce` | `kt:well-architected-framework` |
+| `kt:trigger-framework-pattern` | `kt:apex-triggers` |
 | `kt:workflow-rules` | `kt:flow-builder` |

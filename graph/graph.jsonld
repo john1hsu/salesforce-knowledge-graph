@@ -950,6 +950,89 @@
       ]
     },
     {
+      "@id": "kt:apex-triggers",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Apex Triggers",
+      "skos:definition": "Apex code attached to an object that runs automatically before or after records are inserted, updated, deleted, merged, upserted or undeleted, processing the affected records in bulk within the same transaction.",
+      "kto:domain": "development",
+      "dcterms:created": "2026-10-31",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Apex Developer Guide (Winter '27): Triggers",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.264.0.apexcode.meta/pages/apex_triggers.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Apex Developer Guide (Winter '27): Trigger Context Variables",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.264.0.apexcode.meta/pages/apex_triggers_context_variables.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Trailhead: Apex Triggers — Get Started with Apex Triggers",
+          "dcterms:publisher": "Salesforce Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/apex_triggers/apex_triggers_intro",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Apex Triggers in Salesforce: A Complete Guide",
+          "dcterms:publisher": "Apex Hours",
+          "schema:url": "https://www.apexhours.com/demystifying-apex-triggers/",
+          "kto:sourceType": "community"
+        },
+        {
+          "dcterms:title": "Trailhead: Winter '27 Release Highlights",
+          "dcterms:publisher": "Salesforce Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/winter-27-release-highlights/",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/development/apex-triggers.md",
+      "skos:altLabel": [
+        "Apex trigger",
+        "before trigger",
+        "after trigger",
+        "database trigger in Salesforce"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:apex"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:order-of-execution"
+        },
+        {
+          "@id": "kt:asynchronous-apex"
+        },
+        {
+          "@id": "kt:trigger-framework-pattern"
+        },
+        {
+          "@id": "kt:apex-testing"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:record-triggered-flow"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:governor-limits"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:order-of-execution"
+        }
+      ]
+    },
+    {
       "@id": "kt:asynchronous-apex",
       "@type": "kto:Feature",
       "skos:prefLabel": "Asynchronous Apex",
