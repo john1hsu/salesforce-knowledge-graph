@@ -1,9 +1,15 @@
 #!/usr/bin/env python3
 """Regression test for `kg.py similar` (run: python3 scripts/test_similar.py).
 
+Name check:
 PARAPHRASES must score >= THRESHOLD against the expected existing node.
 DISTINCT topics are referenced by existing articles as separate nodes, so they must score
 below THRESHOLD against every article (checked only while they are still unwritten).
+
+Content check (`similar --draft`): drafts in scripts/fixtures/similar/ declare `expect:` either the
+existing node they duplicate (must be the top score, >= CONTENT_REVIEW_THRESHOLD) or `none`
+(a neighbouring topic that must stay below it). Every existing article, compared with all the
+others, must also stay below it, since none of them is a duplicate.
 """
 import sys
 from pathlib import Path
@@ -79,6 +85,22 @@ def main() -> int:
         s, got = best(sim, arts, title)
         if s >= THRESHOLD:
             fails.append(f"false match: '{title}' -> {got} {s:.2f}")
+    content = kg.ContentSimilarity(arts)
+    limit = kg.CONTENT_REVIEW_THRESHOLD
+    for path in sorted((Path(__file__).resolve().parent / "fixtures" / "similar").glob("*.md")):
+        draft = kg.read_draft(str(path))
+        expected = draft.get("expect")
+        if expected != "none" and expected not in written:
+            continue
+        s, got = content.scores(draft)[0]
+        if expected == "none" and s >= limit:
+            fails.append(f"content false match: {path.name} -> {got} {s:.2f}")
+        elif expected != "none" and (s < limit or got != expected):
+            fails.append(f"content missed duplicate: {path.name} -> {got} {s:.2f} (expected {expected})")
+    for a in arts:
+        s, got = content.scores(a)[0]
+        if s >= limit:
+            fails.append(f"existing articles flagged as duplicates: {a['id']} vs {got} {s:.2f}")
     for f in fails:
         print("FAIL", f)
     print("OK" if not fails else f"{len(fails)} failure(s)")

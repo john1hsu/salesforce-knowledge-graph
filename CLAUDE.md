@@ -40,6 +40,12 @@ If any score ≥ 0.5, or an existing title/alias names the same thing, pick a di
 - Back-links: if the new node is a natural child or relative of an existing article, you may add its id to that article's `related` list. Don't otherwise rewrite existing articles.
 
 ## 5. Validate, build, commit, push
+First check the finished draft by name and content:
+```bash
+python3 scripts/kg.py similar --draft articles/<domain>/<slug>.md
+```
+Exit 1 means an existing article is flagged (`REVIEW`). Read that article. If it covers the same subject, delete the draft and either go back to step 2 for another topic or stop without committing. If it is only a parent, child or neighbour (e.g. Batch Apex vs Asynchronous Apex), keep the draft and make sure the two are linked by an edge.
+
 ```bash
 python3 scripts/kg.py build    # fix every reported problem, then re-run until OK
 git add -A

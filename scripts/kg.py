@@ -5,6 +5,8 @@ Usage:
   python3 scripts/kg.py check            # validate only (exit 1 on errors)
   python3 scripts/kg.py build            # validate, then regenerate graph/
   python3 scripts/kg.py similar "Title"  # find existing articles close to a candidate topic
+  python3 scripts/kg.py similar --draft articles/<domain>/<slug>.md
+                                         # check a written draft by name and content (exit 1 = review)
 
 Articles live in articles/<domain>/<slug>.md with YAML frontmatter (see SCHEMA.md).
 Generated outputs (never hand-edit): graph/graph.jsonld, graph/triples.nt,
@@ -56,6 +58,7 @@ REQUIRED = ["id", "type", "title", "domain", "summary", "sources", "created", "r
 STATUSES = {"current", "beta", "pilot", "deprecated", "retired", "concept"}
 NEAR_DUP_THRESHOLD = 0.45   # shingle Jaccard on body text
 TITLE_DUP_THRESHOLD = 0.85  # token Jaccard on normalized titles/aliases
+CONTENT_REVIEW_THRESHOLD = 0.45  # TF-IDF cosine of a draft vs an existing article (see `similar --draft`)
 
 
 # ---------------------------------------------------------------- helpers ---
@@ -448,26 +451,119 @@ def release_key(r: str) -> tuple[int, int]:
     return (int(m.group(2)), order[m.group(1)])
 
 
-def similar(query: str, arts: list[dict]) -> None:
-    label_sim = LabelSimilarity(arts)
+CONTENT_STOPWORDS = set("""a an the of and or in on to for is are was were be been by with as at from that this
+these those it its can cannot not no into than then when which who what how why also only each per more most other
+such so if but their them they you your one two use used uses using up out has have had do does may must will would
+should via all any both every within without about over under between across after before while""".split())
+
+
+def content_text(a: dict) -> str:
+    """Title, summary and body prose, minus the Sources list, footnote markers and node ids."""
+    body = re.split(r"^## Sources\b", a.get("_body", ""), flags=re.M)[0]
+    body = re.sub(r"\[\^s\d+\]", " ", body)
+    body = re.sub(r"`?kt:[a-z0-9-]+`?", " ", body)
+    return " ".join([str(a.get("title", "")), str(a.get("summary", "")), body])
+
+
+def content_terms(text: str) -> list[str]:
+    return [_stem(w) for w in norm(text).split() if w not in CONTENT_STOPWORDS and len(w) > 2 and not w.isdigit()]
+
+
+class ContentSimilarity:
+    """TF-IDF cosine between an article draft and the existing articles, 0..1.
+
+    Unlike the build's shingle check (which only catches reused phrasing), this compares
+    vocabulary, so it also flags the same subject written in fresh words or under another name.
+    Linked neighbours share vocabulary by design, so scores are a prompt to review, not a verdict.
+    """
+
+    def __init__(self, arts: list[dict]):
+        import math
+        self._math = math
+        counts = {a["id"]: Counter(content_terms(content_text(a))) for a in arts if a.get("id")}
+        self.n = len(counts)
+        self.df = Counter(t for c in counts.values() for t in c)
+        self.vectors = {i: self.vector(c) for i, c in counts.items()}
+
+    def vector(self, counts: Counter) -> dict[str, float]:
+        m = self._math
+        v = {t: (1 + m.log(f)) * (m.log((self.n + 1) / (self.df.get(t, 0) + 1)) + 1) for t, f in counts.items()}
+        length = m.sqrt(sum(x * x for x in v.values())) or 1.0
+        return {t: x / length for t, x in v.items()}
+
+    def scores(self, draft: dict) -> list[tuple[float, str]]:
+        v = self.vector(Counter(content_terms(content_text(draft))))
+        out = []
+        for i, u in self.vectors.items():
+            if i == draft.get("id"):
+                continue
+            a, b = (v, u) if len(v) < len(u) else (u, v)
+            out.append((sum(x * b.get(t, 0.0) for t, x in a.items()), i))
+        return sorted(out, reverse=True)
+
+
+def label_scores(query: str, arts: list[dict], exclude: str | None = None) -> list[tuple[float, str, str]]:
+    label_sim = LabelSimilarity([a for a in arts if a.get("id") != exclude])
     scored = []
     for a in arts:
+        if a.get("id") == exclude:
+            continue
         labels = [a.get("title", "")] + list(a.get("aliases") or [])
         best = max(label_sim(query, x) for x in labels)
         if norm(query) in {norm(x) for x in labels}:
             best = 1.0
         scored.append((best, a.get("id"), a.get("title")))
-    hits = [x for x in sorted(scored, reverse=True) if x[0] > 0][:10]
+    return sorted(scored, reverse=True)
+
+
+def read_draft(path: str) -> dict:
+    raw = Path(path).read_text(encoding="utf-8")
+    m = re.match(r"^---\n(.*?)\n---\n(.*)$", raw, re.S)
+    if not m:
+        sys.exit(f"{path}: missing YAML frontmatter")
+    fm = yaml.safe_load(m.group(1)) or {}
+    fm["_body"] = m.group(2)
+    return fm
+
+
+def similar(query: str, arts: list[dict]) -> None:
+    hits = [x for x in label_scores(query, arts) if x[0] > 0][:10]
     if not hits:
         print("No similar articles. Topic looks unique.")
     for s, i, t in hits:
         print(f"{s:.2f}  {i}  {t}")
 
 
+def similar_draft(path: str, arts: list[dict]) -> int:
+    """Check a written draft: its title/aliases by name, and its text by content. Exit 1 if review needed."""
+    draft = read_draft(path)
+    titles = {a["id"]: a.get("title") for a in arts}
+    flagged = False
+    print("Name (title and aliases), threshold 0.50:")
+    best_by_id: dict[str, float] = {}
+    for label in [draft.get("title", "")] + list(draft.get("aliases") or []):
+        for s, i, _ in label_scores(label, arts, exclude=draft.get("id")):
+            best_by_id[i] = max(s, best_by_id.get(i, 0.0))
+    for i, s in [x for x in sorted(best_by_id.items(), key=lambda x: -x[1]) if x[1] > 0][:5]:
+        flag = "  <- REVIEW" if s >= 0.5 else ""
+        flagged |= s >= 0.5
+        print(f"  {s:.2f}  {i}  {titles.get(i)}{flag}")
+    print(f"Content (TF-IDF cosine), threshold {CONTENT_REVIEW_THRESHOLD:.2f}:")
+    for s, i in ContentSimilarity(arts).scores(draft)[:5]:
+        flag = "  <- REVIEW" if s >= CONTENT_REVIEW_THRESHOLD else ""
+        flagged |= s >= CONTENT_REVIEW_THRESHOLD
+        print(f"  {s:.2f}  {i}  {titles.get(i)}{flag}")
+    print("Review flagged articles: same subject -> drop the draft; parent/child or neighbour -> keep and link it."
+          if flagged else "No article flagged. Draft looks unique.")
+    return 1 if flagged else 0
+
+
 def main() -> int:
     cmd = sys.argv[1] if len(sys.argv) > 1 else "check"
     arts, errs = load_articles()
     if cmd == "similar":
+        if len(sys.argv) > 3 and sys.argv[2] == "--draft":
+            return similar_draft(sys.argv[3], arts)
         similar(" ".join(sys.argv[2:]), arts)
         return 0
     errs += validate(arts) if not errs else []
