@@ -70,6 +70,30 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/asynchronous-apex> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/queueable-apex> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/asynchronous-apex> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/asynchronous-apex> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/connected-apps> <http://purl.org/dc/terms/created> "2026-10-31" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/connected-apps> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/connected-apps> <http://www.w3.org/2000/01/rdf-schema#label> "Connected Apps" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/connected-apps> <http://www.w3.org/2004/02/skos/core#altLabel> "ConnectedApp" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/connected-apps> <http://www.w3.org/2004/02/skos/core#altLabel> "connected app framework" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/connected-apps> <http://www.w3.org/2004/02/skos/core#altLabel> "connected app" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/connected-apps> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-identity> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/connected-apps> <http://www.w3.org/2004/02/skos/core#definition> "The long-standing Salesforce framework that registers an external application so it can authenticate and call Salesforce APIs over OAuth 2.0, SAML or OpenID Connect, with admin-controlled access policies. Creation of new connected apps has been restricted since Spring '26 in favour of external client apps." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/connected-apps> <http://www.w3.org/2004/02/skos/core#prefLabel> "Connected Apps" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/connected-apps> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/external-client-apps> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/connected-apps> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/connected-apps> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-2-flows-in-salesforce> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/connected-apps> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/single-sign-on-saml> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/connected-apps> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/connected-apps/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/connected-apps> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/connected-apps/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/connected-apps> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/connected-apps/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/connected-apps> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/connected-apps/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/connected-apps> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/connected-apps/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/connected-apps> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/connected-apps> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "identity" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/connected-apps> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#implements> <https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-2-0> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/connected-apps> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#replacedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/external-client-apps> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/connected-apps> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/connected-apps> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-builder> <http://purl.org/dc/terms/created> "2026-10-30" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-builder> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Tool> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-builder> <http://www.w3.org/2000/01/rdf-schema#label> "Flow Builder" .
@@ -270,6 +294,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/asynchronous-apex/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/asynchronous-apex/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/asynchronous-apex/s5> <https://schema.org/url> "https://trailhead.salesforce.com/microsoft_dotnet/apex_basics_dotnet/async_apex" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/connected-apps/s1> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/connected-apps/s1> <http://purl.org/dc/terms/title> "Create a Connected App" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/connected-apps/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/connected-apps/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/connected-apps/s1> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=sf.connected_app_create.htm&language=en_US&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/connected-apps/s2> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/connected-apps/s2> <http://purl.org/dc/terms/title> "Manage OAuth Access Policies for a Connected App" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/connected-apps/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/connected-apps/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/connected-apps/s2> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=xcloud.connected_app_manage_oauth.htm&language=en_US&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/connected-apps/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/connected-apps/s3> <http://purl.org/dc/terms/title> "External Client Apps and Connected Apps (Mobile SDK Development Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/connected-apps/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/connected-apps/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/connected-apps/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/mobile-sdk/guide/connected-apps.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/connected-apps/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/connected-apps/s4> <http://purl.org/dc/terms/title> "Connected Apps (First-Generation Managed Packaging Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/connected-apps/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/connected-apps/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/connected-apps/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/pkg1-dev/guide/connected-apps.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/connected-apps/s5> <http://purl.org/dc/terms/publisher> "IETF / RFC Editor" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/connected-apps/s5> <http://purl.org/dc/terms/title> "RFC 6749: The OAuth 2.0 Authorization Framework" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/connected-apps/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/connected-apps/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "standards-body" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/connected-apps/s5> <https://schema.org/url> "https://rfc-editor.org/rfc/rfc6749" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-builder/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-builder/s1> <http://purl.org/dc/terms/title> "Flow Basics: Meet Flow Builder" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-builder/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

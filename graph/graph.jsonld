@@ -590,6 +590,88 @@
       ]
     },
     {
+      "@id": "kt:connected-apps",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Connected Apps",
+      "skos:definition": "The long-standing Salesforce framework that registers an external application so it can authenticate and call Salesforce APIs over OAuth 2.0, SAML or OpenID Connect, with admin-controlled access policies. Creation of new connected apps has been restricted since Spring '26 in favour of external client apps.",
+      "kto:domain": "identity",
+      "dcterms:created": "2026-10-31",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Create a Connected App",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=sf.connected_app_create.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Manage OAuth Access Policies for a Connected App",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=xcloud.connected_app_manage_oauth.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "External Client Apps and Connected Apps (Mobile SDK Development Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/mobile-sdk/guide/connected-apps.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Connected Apps (First-Generation Managed Packaging Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/pkg1-dev/guide/connected-apps.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "RFC 6749: The OAuth 2.0 Authorization Framework",
+          "dcterms:publisher": "IETF / RFC Editor",
+          "schema:url": "https://rfc-editor.org/rfc/rfc6749",
+          "kto:sourceType": "standards-body"
+        }
+      ],
+      "kto:file": "articles/identity/connected-apps.md",
+      "skos:altLabel": [
+        "connected app",
+        "ConnectedApp",
+        "connected app framework"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-identity"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:oauth-2-flows-in-salesforce"
+        },
+        {
+          "@id": "kt:single-sign-on-saml"
+        },
+        {
+          "@id": "kt:external-client-apps"
+        },
+        {
+          "@id": "kt:metadata-api"
+        }
+      ],
+      "kto:replacedBy": [
+        {
+          "@id": "kt:external-client-apps"
+        }
+      ],
+      "kto:implements": [
+        {
+          "@id": "kt:oauth-2-0"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:metadata-api"
+        }
+      ]
+    },
+    {
       "@id": "kt:governor-limits",
       "@type": "kto:Limit",
       "skos:prefLabel": "Governor Limits",

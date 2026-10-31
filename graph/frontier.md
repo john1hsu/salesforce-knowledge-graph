@@ -6,6 +6,8 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 |---|---|
 | `kt:agentforce` | `kt:well-architected-framework`, `kt:omni-channel`, `kt:omni-channel`, `kt:agent-development-lifecycle` |
 | `kt:apex-triggers` | `kt:flow-builder`, `kt:asynchronous-apex`, `kt:governor-limits`, `kt:order-of-execution` |
+| `kt:external-client-apps` | `kt:connected-apps`, `kt:connected-apps` |
+| `kt:metadata-api` | `kt:connected-apps`, `kt:connected-apps` |
 | `kt:multitenancy` | `kt:governor-limits`, `kt:order-of-execution` |
 | `kt:record-triggered-flow` | `kt:flow-builder`, `kt:order-of-execution` |
 | `kt:roll-up-summary-field` | `kt:lookup-vs-master-detail`, `kt:order-of-execution` |
@@ -24,6 +26,8 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:junction-object` | `kt:lookup-vs-master-detail` |
 | `kt:limit-exception` | `kt:governor-limits` |
 | `kt:limits-class` | `kt:governor-limits` |
+| `kt:oauth-2-0` | `kt:connected-apps` |
+| `kt:oauth-2-flows-in-salesforce` | `kt:connected-apps` |
 | `kt:object-relationships` | `kt:lookup-vs-master-detail` |
 | `kt:omni-channel-limits` | `kt:omni-channel` |
 | `kt:presence-configuration` | `kt:omni-channel` |
@@ -35,9 +39,11 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:recursive-save` | `kt:order-of-execution` |
 | `kt:salesforce-architecture-center` | `kt:well-architected-framework` |
 | `kt:salesforce-dx` | `kt:application-lifecycle-management` |
+| `kt:salesforce-identity` | `kt:connected-apps` |
 | `kt:salesforce-sharing-model` | `kt:lookup-vs-master-detail` |
 | `kt:scratch-orgs` | `kt:application-lifecycle-management` |
 | `kt:screen-flow` | `kt:flow-builder` |
+| `kt:single-sign-on-saml` | `kt:connected-apps` |
 | `kt:skills-based-routing` | `kt:omni-channel` |
 | `kt:solution-design-tradeoffs` | `kt:well-architected-framework` |
 | `kt:source-tracking` | `kt:application-lifecycle-management` |
