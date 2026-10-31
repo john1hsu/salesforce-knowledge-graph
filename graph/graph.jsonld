@@ -1022,6 +1022,92 @@
       ]
     },
     {
+      "@id": "kt:devops-center",
+      "@type": "kto:Tool",
+      "skos:prefLabel": "DevOps Center",
+      "skos:definition": "Salesforce's built-in change and release management tool, being renamed Lifecycle Center from October 2026, that tracks changes as work items in source control and promotes them through a pipeline of stages to production.",
+      "kto:domain": "devops-and-alm",
+      "dcterms:created": "2026-10-31",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Govern, Manage, and Release Changes with Lifecycle Center",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=platform.devops_center_overview.htm&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Application Lifecycle Management Journey with Lifecycle Center",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=platform.next_gen_devops_center_alm_journey.htm&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Get Started with Lifecycle Center",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=platform.next_gen_devops_center_get_started.htm&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Next-Generation Lifecycle Center for Salesforce DevOps",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/devops-center-quick-look/say-hello-to-devops-center",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "DevOps Center Developer Guide",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/devops-center-dev/guide",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/devops-and-alm/devops-center.md",
+      "skos:altLabel": [
+        "Lifecycle Center",
+        "Salesforce Lifecycle Center",
+        "next-generation DevOps Center",
+        "DevOps Center managed package"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:application-lifecycle-management"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:environment-strategy"
+        },
+        {
+          "@id": "kt:scratch-orgs"
+        },
+        {
+          "@id": "kt:sandbox-types"
+        },
+        {
+          "@id": "kt:source-tracking"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:change-sets"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:salesforce-cli"
+        },
+        {
+          "@id": "kt:agentforce"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:apex-testing"
+        }
+      ]
+    },
+    {
       "@id": "kt:metadata-api",
       "@type": "kto:API",
       "skos:prefLabel": "Metadata API",
