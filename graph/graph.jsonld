@@ -10,6 +10,89 @@
   },
   "@graph": [
     {
+      "@id": "kt:environment-strategy",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Environment Strategy",
+      "skos:definition": "The architectural plan for which non-production environments (sandboxes, scratch orgs and preview orgs) a Salesforce team runs, what each one is for, how changes and data flow between them, and when they are refreshed.",
+      "kto:domain": "architecture-practice",
+      "dcterms:created": "2026-10-31",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Deploy Your Changes and Sandboxes (Salesforce Help PDF)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://resources.docs.salesforce.com/latest/latest/en-us/sfdc/pdf/deploy_sandboxes.pdf",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Build and Release Your App with Metadata API (Salesforce DX Developer Guide)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/platform/sfdx-dev/guide/sfdx-dev-build-mdapi.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Use Sandboxes to Manage Change",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/nonprofit-success-pack-maintenance/use-sandboxes-to-manage-change",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Get to Know Salesforce Data Mask",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/salesforce-data-mask/get-to-know-salesforce-data-mask",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Admin Release Countdown: Get Ready for Winter '27",
+          "dcterms:publisher": "Salesforce Admins Blog",
+          "schema:url": "https://admin.salesforce.com/blog/2026/admin-winter-27-release-countdown",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/architecture-practice/environment-strategy.md",
+      "skos:altLabel": [
+        "sandbox strategy",
+        "Salesforce environment strategy",
+        "environment plan",
+        "org landscape for releases"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:application-lifecycle-management"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:scratch-orgs"
+        },
+        {
+          "@id": "kt:change-sets"
+        },
+        {
+          "@id": "kt:org-strategy"
+        },
+        {
+          "@id": "kt:salesforce-data-mask"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:sandbox-types"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:devops-center"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:sandbox-templates"
+        }
+      ]
+    },
+    {
       "@id": "kt:well-architected-framework",
       "@type": "kto:Concept",
       "skos:prefLabel": "Salesforce Well-Architected Framework",

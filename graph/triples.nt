@@ -118,6 +118,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-skew> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "data-model" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-skew> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-skew> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/environment-strategy> <http://purl.org/dc/terms/created> "2026-10-31" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/environment-strategy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/environment-strategy> <http://www.w3.org/2000/01/rdf-schema#label> "Environment Strategy" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/environment-strategy> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce environment strategy" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/environment-strategy> <http://www.w3.org/2004/02/skos/core#altLabel> "environment plan" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/environment-strategy> <http://www.w3.org/2004/02/skos/core#altLabel> "org landscape for releases" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/environment-strategy> <http://www.w3.org/2004/02/skos/core#altLabel> "sandbox strategy" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/environment-strategy> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/application-lifecycle-management> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/environment-strategy> <http://www.w3.org/2004/02/skos/core#definition> "The architectural plan for which non-production environments (sandboxes, scratch orgs and preview orgs) a Salesforce team runs, what each one is for, how changes and data flow between them, and when they are refreshed." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/environment-strategy> <http://www.w3.org/2004/02/skos/core#prefLabel> "Environment Strategy" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/environment-strategy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/change-sets> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/environment-strategy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/org-strategy> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/environment-strategy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-data-mask> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/environment-strategy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/scratch-orgs> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/environment-strategy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/environment-strategy/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/environment-strategy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/environment-strategy/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/environment-strategy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/environment-strategy/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/environment-strategy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/environment-strategy/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/environment-strategy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/environment-strategy/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/environment-strategy> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/devops-center> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/environment-strategy> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-templates> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/environment-strategy> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "architecture-practice" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/environment-strategy> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-types> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/environment-strategy> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/environment-strategy> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-builder> <http://purl.org/dc/terms/created> "2026-10-30" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-builder> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Tool> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-builder> <http://www.w3.org/2000/01/rdf-schema#label> "Flow Builder" .
@@ -506,6 +531,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-skew/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-skew/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-skew/s4> <https://schema.org/url> "https://developer.salesforce.com/blogs/engineering/2012/06/architect-salesforce-record-ownership-skew-for-peak-performance-in-large-data-volume-environments" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/environment-strategy/s1> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/environment-strategy/s1> <http://purl.org/dc/terms/title> "Deploy Your Changes and Sandboxes (Salesforce Help PDF)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/environment-strategy/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/environment-strategy/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/environment-strategy/s1> <https://schema.org/url> "https://resources.docs.salesforce.com/latest/latest/en-us/sfdc/pdf/deploy_sandboxes.pdf" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/environment-strategy/s2> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/environment-strategy/s2> <http://purl.org/dc/terms/title> "Build and Release Your App with Metadata API (Salesforce DX Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/environment-strategy/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/environment-strategy/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/environment-strategy/s2> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/sfdx-dev/guide/sfdx-dev-build-mdapi.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/environment-strategy/s3> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/environment-strategy/s3> <http://purl.org/dc/terms/title> "Use Sandboxes to Manage Change" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/environment-strategy/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/environment-strategy/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/environment-strategy/s3> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/nonprofit-success-pack-maintenance/use-sandboxes-to-manage-change" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/environment-strategy/s4> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/environment-strategy/s4> <http://purl.org/dc/terms/title> "Get to Know Salesforce Data Mask" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/environment-strategy/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/environment-strategy/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/environment-strategy/s4> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/salesforce-data-mask/get-to-know-salesforce-data-mask" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/environment-strategy/s5> <http://purl.org/dc/terms/publisher> "Salesforce Admins Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/environment-strategy/s5> <http://purl.org/dc/terms/title> "Admin Release Countdown: Get Ready for Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/environment-strategy/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/environment-strategy/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/environment-strategy/s5> <https://schema.org/url> "https://admin.salesforce.com/blog/2026/admin-winter-27-release-countdown" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-builder/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-builder/s1> <http://purl.org/dc/terms/title> "Flow Basics: Meet Flow Builder" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-builder/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
