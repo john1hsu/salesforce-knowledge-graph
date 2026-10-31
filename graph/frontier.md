@@ -4,13 +4,13 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:agentforce` | `kt:well-architected-framework`, `kt:omni-channel`, `kt:omni-channel`, `kt:service-cloud`, `kt:agent-development-lifecycle`, `kt:devops-center`, `kt:public-sector-solutions` |
 | `kt:apex-triggers` | `kt:flow-builder`, `kt:roll-up-summary-field`, `kt:asynchronous-apex`, `kt:platform-events`, `kt:governor-limits`, `kt:order-of-execution` |
 | `kt:sandbox-types` | `kt:environment-strategy`, `kt:agent-development-lifecycle`, `kt:application-lifecycle-management`, `kt:change-sets`, `kt:devops-center` |
 | `kt:apex-testing` | `kt:change-sets`, `kt:devops-center`, `kt:metadata-api`, `kt:metadata-api` |
 | `kt:record-triggered-flow` | `kt:flow-builder`, `kt:flow-orchestrator`, `kt:roll-up-summary-field`, `kt:order-of-execution` |
 | `kt:record-locking` | `kt:data-skew`, `kt:lookup-vs-master-detail`, `kt:roll-up-summary-field` |
 | `kt:salesforce-cli` | `kt:change-sets`, `kt:devops-center`, `kt:metadata-api` |
+| `kt:salesforce-platform` | `kt:service-cloud`, `kt:agentforce`, `kt:multitenancy` |
 | `kt:salesforce-sharing-model` | `kt:data-skew`, `kt:lookup-vs-master-detail`, `kt:role-hierarchy` |
 | `kt:scratch-orgs` | `kt:environment-strategy`, `kt:application-lifecycle-management`, `kt:devops-center` |
 | `kt:experience-cloud` | `kt:service-cloud`, `kt:public-sector-solutions` |
@@ -19,19 +19,22 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:process-automation` | `kt:flow-builder`, `kt:flow-orchestrator` |
 | `kt:queues` | `kt:omni-channel`, `kt:service-cloud` |
 | `kt:salesforce-architect` | `kt:well-architected-framework`, `kt:agent-development-lifecycle` |
-| `kt:salesforce-platform` | `kt:service-cloud`, `kt:multitenancy` |
 | `kt:screen-flow` | `kt:flow-builder`, `kt:flow-orchestrator` |
 | `kt:sharing-recalculation` | `kt:data-skew`, `kt:role-hierarchy` |
 | `kt:source-tracking` | `kt:application-lifecycle-management`, `kt:devops-center` |
 | `kt:unlocked-packages` | `kt:application-lifecycle-management`, `kt:change-sets` |
+| `kt:agent-script` | `kt:agentforce` |
 | `kt:agentforce-dx` | `kt:agent-development-lifecycle` |
 | `kt:agentforce-testing-center` | `kt:agent-development-lifecycle` |
 | `kt:apex` | `kt:asynchronous-apex` |
 | `kt:approval-processes` | `kt:flow-orchestrator` |
+| `kt:atlas-reasoning-engine` | `kt:agentforce` |
 | `kt:autolaunched-flow` | `kt:flow-orchestrator` |
 | `kt:batch-apex` | `kt:asynchronous-apex` |
 | `kt:business-rules-engine` | `kt:public-sector-solutions` |
 | `kt:change-data-capture` | `kt:platform-events` |
+| `kt:data-cloud` | `kt:agentforce` |
+| `kt:einstein-trust-layer` | `kt:agentforce` |
 | `kt:enterprise-territory-management` | `kt:role-hierarchy` |
 | `kt:entitlement-management` | `kt:service-cloud` |
 | `kt:event-driven-architecture` | `kt:platform-events` |

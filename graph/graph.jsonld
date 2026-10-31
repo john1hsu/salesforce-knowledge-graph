@@ -618,6 +618,93 @@
       ]
     },
     {
+      "@id": "kt:agentforce",
+      "@type": "kto:Product",
+      "skos:prefLabel": "Agentforce",
+      "skos:definition": "Salesforce's platform for building, grounding and running autonomous AI agents that use large language models, trusted CRM and Data 360 data, and actions built from Flows, Apex, prompt templates and APIs to do work for employees and customers.",
+      "kto:domain": "data-cloud-and-ai",
+      "dcterms:created": "2026-10-31",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Discover Agentforce Agents (Agentforce Agents: Quick Look)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/agentforce-agents-quick-look/discover-agentforce-agents",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Legacy Guide: Agentforce Reasoning, Subagents, Instructions, and Actions",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/agentforce/legacy-guide/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Agent Script Flow of Control",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/ai/agentforce/guide/ascript-flow.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Introducing Hybrid Reasoning with Agent Script",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2025/10/introducing-hybrid-reasoning-with-agent-script",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Build With Confidence: Inside the New Agentforce Builder",
+          "dcterms:publisher": "Salesforce Admins Blog",
+          "schema:url": "https://admin.salesforce.com/blog/2026/build-with-confidence-inside-the-new-agentforce-builder",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Copilot is now Agentforce",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://salesforce.com/artificial-intelligence/einstein-ai-assistant",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/data-cloud-and-ai/agentforce.md",
+      "skos:altLabel": [
+        "Agentforce 360 Platform",
+        "Salesforce Agentforce",
+        "Agentforce AI agents",
+        "Einstein Copilot"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-platform"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:agent-development-lifecycle"
+        },
+        {
+          "@id": "kt:service-cloud"
+        },
+        {
+          "@id": "kt:flow-builder"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:atlas-reasoning-engine"
+        },
+        {
+          "@id": "kt:agent-script"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:data-cloud"
+        },
+        {
+          "@id": "kt:einstein-trust-layer"
+        }
+      ]
+    },
+    {
       "@id": "kt:data-skew",
       "@type": "kto:AntiPattern",
       "skos:prefLabel": "Data Skew",
