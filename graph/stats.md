@@ -1,9 +1,9 @@
 # Graph statistics
 
-- Articles (nodes written): **14**
-- Frontier nodes (referenced, unwritten): **62**
-- Edges: **103**
-- Citations: **73**
+- Articles (nodes written): **15**
+- Frontier nodes (referenced, unwritten): **61**
+- Edges: **111**
+- Citations: **79**
 
 - Weakly connected components: **1**
 - Isolated articles (no edges): **0**
@@ -12,21 +12,21 @@
 
 | Node | PageRank | Written |
 |---|---|---|
-| `kt:governor-limits` | 0.0206 | yes |
-| `kt:apex-triggers` | 0.0202 | no |
-| `kt:flow-builder` | 0.0176 | yes |
-| `kt:agentforce` | 0.0170 | no |
-| `kt:order-of-execution` | 0.0153 | yes |
-| `kt:asynchronous-apex` | 0.0149 | yes |
-| `kt:multitenancy` | 0.0149 | yes |
-| `kt:record-triggered-flow` | 0.0146 | no |
+| `kt:apex-triggers` | 0.0216 | no |
+| `kt:governor-limits` | 0.0205 | yes |
+| `kt:flow-builder` | 0.0175 | yes |
+| `kt:agentforce` | 0.0168 | no |
+| `kt:order-of-execution` | 0.0166 | yes |
+| `kt:record-triggered-flow` | 0.0160 | no |
+| `kt:asynchronous-apex` | 0.0148 | yes |
+| `kt:multitenancy` | 0.0148 | yes |
 | `kt:application-lifecycle-management` | 0.0145 | yes |
-| `kt:salesforce-architect` | 0.0144 | no |
-| `kt:well-architected-framework` | 0.0140 | yes |
-| `kt:agent-development-lifecycle` | 0.0140 | yes |
-| `kt:sandbox-types` | 0.0140 | no |
-| `kt:roll-up-summary-field` | 0.0140 | no |
-| `kt:service-cloud` | 0.0136 | no |
+| `kt:salesforce-architect` | 0.0141 | no |
+| `kt:metadata-api` | 0.0141 | yes |
+| `kt:roll-up-summary-field` | 0.0141 | yes |
+| `kt:object-relationships` | 0.0140 | no |
+| `kt:record-locking` | 0.0140 | no |
+| `kt:data-skew` | 0.0140 | no |
 
 ## Communities (Louvain): 7
 
@@ -42,7 +42,7 @@
 
 - API: 1
 - Concept: 6
-- Feature: 4
+- Feature: 5
 - Limit: 1
 - Product: 1
 - Tool: 1
@@ -53,7 +53,7 @@
 - automation: 1
 - clouds-and-products: 1
 - data-cloud-and-ai: 1
-- data-model: 1
+- data-model: 2
 - development: 1
 - devops-and-alm: 2
 - identity: 1
@@ -63,9 +63,9 @@
 
 ## By verified release (oldest = most likely stale)
 
-- Winter '27: 14
+- Winter '27: 15
 
 ## By status
 
 - concept: 2
-- current: 12
+- current: 13
