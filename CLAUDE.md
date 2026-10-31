@@ -21,7 +21,11 @@ Then prove it is unique:
 ```bash
 python3 scripts/kg.py similar "<candidate title>"
 ```
-If any score ≥ 0.5, or an existing title/alias names the same thing, pick a different topic. Never write a second article on a subject that already has a node — not a rename, a sub-angle that restates it, an old product name (e.g. "Salesforce CDP" vs "Data Cloud"), or a synonym. Salesforce renames products often: record former names as `aliases`.
+- If an existing title or alias names the same thing, pick a different topic.
+- If any score is ≥ 0.5, **review before skipping**: read the summary (and aliases) of each matching node. Proceed only if it is clearly a different subject, and record the reason in the commit message body, one line per match, e.g. `similar: 0.55 vs kt:governor-limits — alias "Apex governor limits" covers limits, not triggers`. If you are unsure, pick a different topic.
+- Scores below 0.5 need no note.
+
+Never write a second article on a subject that already has a node — not a rename, a sub-angle that restates it, an old product name (e.g. "Salesforce CDP" vs "Data Cloud"), or a synonym. Salesforce renames products often: record former names as `aliases`.
 
 ## 3. Research
 - Run several web searches; read the actual pages (WebFetch), don't rely on snippets or memory.

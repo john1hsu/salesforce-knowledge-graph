@@ -79,9 +79,17 @@ def tokens(s: str) -> set[str]:
     return {w[:6] if len(w) > 6 else w.rstrip("s") for w in norm(s).split()}
 
 
+SPELLING_SIM_THRESHOLD = 0.85  # char ratio counts only for near-identical spellings
+
+
 def label_sim(a: str, b: str) -> float:
+    # Word overlap is the main signal. Character-level similarity only counts when it is very
+    # high (typos, punctuation or plural variants); below that it matches unrelated short titles,
+    # e.g. "Apex Triggers" vs "save order" scored 0.52 with no words in common.
     from difflib import SequenceMatcher
-    return max(jaccard(tokens(a), tokens(b)), SequenceMatcher(None, norm(a), norm(b)).ratio())
+    word = jaccard(tokens(a), tokens(b))
+    char = SequenceMatcher(None, norm(a), norm(b)).ratio()
+    return max(word, char if char >= SPELLING_SIM_THRESHOLD else 0.0)
 
 
 def shingles(text: str, k: int = 5) -> set[int]:
