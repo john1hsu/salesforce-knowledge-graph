@@ -4,7 +4,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:agentforce` | `kt:well-architected-framework`, `kt:omni-channel`, `kt:omni-channel`, `kt:agent-development-lifecycle`, `kt:devops-center`, `kt:public-sector-solutions` |
+| `kt:agentforce` | `kt:well-architected-framework`, `kt:omni-channel`, `kt:omni-channel`, `kt:service-cloud`, `kt:agent-development-lifecycle`, `kt:devops-center`, `kt:public-sector-solutions` |
 | `kt:apex-triggers` | `kt:flow-builder`, `kt:roll-up-summary-field`, `kt:asynchronous-apex`, `kt:platform-events`, `kt:governor-limits`, `kt:order-of-execution` |
 | `kt:sandbox-types` | `kt:environment-strategy`, `kt:agent-development-lifecycle`, `kt:application-lifecycle-management`, `kt:change-sets`, `kt:devops-center` |
 | `kt:apex-testing` | `kt:change-sets`, `kt:devops-center`, `kt:metadata-api`, `kt:metadata-api` |
@@ -13,11 +13,13 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:salesforce-cli` | `kt:change-sets`, `kt:devops-center`, `kt:metadata-api` |
 | `kt:salesforce-sharing-model` | `kt:data-skew`, `kt:lookup-vs-master-detail`, `kt:role-hierarchy` |
 | `kt:scratch-orgs` | `kt:environment-strategy`, `kt:application-lifecycle-management`, `kt:devops-center` |
-| `kt:service-cloud` | `kt:omni-channel`, `kt:omni-channel`, `kt:public-sector-solutions` |
+| `kt:experience-cloud` | `kt:service-cloud`, `kt:public-sector-solutions` |
 | `kt:external-client-apps` | `kt:connected-apps`, `kt:connected-apps` |
 | `kt:object-relationships` | `kt:lookup-vs-master-detail`, `kt:roll-up-summary-field` |
 | `kt:process-automation` | `kt:flow-builder`, `kt:flow-orchestrator` |
+| `kt:queues` | `kt:omni-channel`, `kt:service-cloud` |
 | `kt:salesforce-architect` | `kt:well-architected-framework`, `kt:agent-development-lifecycle` |
+| `kt:salesforce-platform` | `kt:service-cloud`, `kt:multitenancy` |
 | `kt:screen-flow` | `kt:flow-builder`, `kt:flow-orchestrator` |
 | `kt:sharing-recalculation` | `kt:data-skew`, `kt:role-hierarchy` |
 | `kt:source-tracking` | `kt:application-lifecycle-management`, `kt:devops-center` |
@@ -31,14 +33,16 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:business-rules-engine` | `kt:public-sector-solutions` |
 | `kt:change-data-capture` | `kt:platform-events` |
 | `kt:enterprise-territory-management` | `kt:role-hierarchy` |
+| `kt:entitlement-management` | `kt:service-cloud` |
 | `kt:event-driven-architecture` | `kt:platform-events` |
-| `kt:experience-cloud` | `kt:public-sector-solutions` |
 | `kt:flow-trigger-explorer` | `kt:order-of-execution` |
 | `kt:future-methods` | `kt:asynchronous-apex` |
 | `kt:hyperforce` | `kt:multitenancy` |
 | `kt:implicit-sharing` | `kt:role-hierarchy` |
 | `kt:junction-object` | `kt:lookup-vs-master-detail` |
+| `kt:knowledge-base` | `kt:service-cloud` |
 | `kt:large-data-volumes` | `kt:data-skew` |
+| `kt:lightning-service-console` | `kt:service-cloud` |
 | `kt:limit-exception` | `kt:governor-limits` |
 | `kt:limits-class` | `kt:governor-limits` |
 | `kt:metadata-driven-architecture` | `kt:multitenancy` |
@@ -59,15 +63,14 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:pub-sub-api` | `kt:platform-events` |
 | `kt:query-optimizer-selectivity` | `kt:multitenancy` |
 | `kt:queueable-apex` | `kt:asynchronous-apex` |
-| `kt:queues` | `kt:omni-channel` |
 | `kt:recursive-save` | `kt:order-of-execution` |
 | `kt:salesforce-architecture-center` | `kt:well-architected-framework` |
 | `kt:salesforce-data-mask` | `kt:environment-strategy` |
 | `kt:salesforce-dx` | `kt:application-lifecycle-management` |
 | `kt:salesforce-identity` | `kt:connected-apps` |
 | `kt:salesforce-industries` | `kt:public-sector-solutions` |
-| `kt:salesforce-platform` | `kt:multitenancy` |
 | `kt:sandbox-templates` | `kt:environment-strategy` |
+| `kt:service-setup-assistant` | `kt:service-cloud` |
 | `kt:sharing-rules` | `kt:role-hierarchy` |
 | `kt:single-sign-on-saml` | `kt:connected-apps` |
 | `kt:skills-based-routing` | `kt:omni-channel` |

@@ -445,6 +445,100 @@
       ]
     },
     {
+      "@id": "kt:service-cloud",
+      "@type": "kto:Product",
+      "skos:prefLabel": "Service Cloud",
+      "skos:definition": "Salesforce's customer service product, now marketed as Agentforce Service, built around the Case object, the Lightning Service Console, multichannel intake and routing, knowledge, and SLA tracking, with AI agents working beside human reps.",
+      "kto:domain": "clouds-and-products",
+      "dcterms:created": "2026-10-31",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Agentforce Service Basics: the Service Console (Trailhead unit)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/service_lex/service_lex_cloud",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Agentforce Service Basics: channels, automation and rollout (Trailhead unit)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/service_lex/service_lex_connect",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Set Up Your Contact Center Instantly (Service Setup Assistant Quick Look)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/service-setup-assistant-quick-look/set-up-your-contact-center-instantly",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Set Up Milestones (Entitlement Management for Lightning Experience)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/entitlement-management-for-lightning-experience/set-up-milestones",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Learn About Macros, Service Console, and Case Feed",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/service-cloud-essentials-features/learn-about-macros-service-console-and-case-feed",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Agentforce Service (formerly Service Cloud) product overview (Taiwan)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/tw/products/service-cloud/overview/",
+          "kto:sourceType": "news"
+        }
+      ],
+      "kto:file": "articles/clouds-and-products/service-cloud.md",
+      "skos:altLabel": [
+        "Agentforce Service",
+        "Salesforce Service Cloud",
+        "Service Cloud Essentials"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-platform"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:experience-cloud"
+        },
+        {
+          "@id": "kt:knowledge-base"
+        },
+        {
+          "@id": "kt:queues"
+        },
+        {
+          "@id": "kt:flow-builder"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:omni-channel"
+        },
+        {
+          "@id": "kt:entitlement-management"
+        },
+        {
+          "@id": "kt:lightning-service-console"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:agentforce"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:service-setup-assistant"
+        }
+      ]
+    },
+    {
       "@id": "kt:agent-development-lifecycle",
       "@type": "kto:Concept",
       "skos:prefLabel": "Agent Development Lifecycle",
