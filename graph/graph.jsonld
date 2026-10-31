@@ -1060,6 +1060,92 @@
           "@id": "kt:recursive-save"
         }
       ]
+    },
+    {
+      "@id": "kt:public-sector-solutions",
+      "@type": "kto:Product",
+      "skos:prefLabel": "Public Sector Solutions",
+      "skos:definition": "Salesforce's industry product for government agencies (now branded Agentforce Public Sector): a government data model, the Industries common layer and prebuilt apps for licensing, permitting, inspections, benefits, grants and case management, layered on Service, Sales and Experience Cloud.",
+      "kto:domain": "public-sector-and-compliance",
+      "dcterms:created": "2026-10-31",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Explore the Components of Public Sector Solutions",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/public-sector-solutions-design/explore-the-components-of-public-sector-solutions",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Discover Public Sector Solutions",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/public-sector-solutions-quick-look/discover-public-sector-solutions",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Get Started with Public Sector Cloud (Licensing, Permitting, and Inspections with Public Sector Solutions)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/licensing-permitting-and-inspections-with-public-sector-solutions/get-started-with-public-sector-cloud",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Prepare the Org (Admin Essentials for Public Sector Solutions)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/admin-essentials-for-public-sector-solutions/prepare-the-org",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Learn About Agentforce for Public Sector Solutions",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/agentforce-for-public-sector-solutions/learn-about-agentforce-for-public-sector-solutions",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Public Sector Solutions Documentation (PDF)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://resources.docs.salesforce.com/latest/latest/en-us/sfdc/pdf/admin_public_sector_cloud.pdf",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/public-sector-and-compliance/public-sector-solutions.md",
+      "skos:altLabel": [
+        "Agentforce Public Sector",
+        "PSS",
+        "Salesforce Public Sector Solutions",
+        "Agentforce for Public Sector Solutions"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-industries"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:service-cloud"
+        },
+        {
+          "@id": "kt:experience-cloud"
+        },
+        {
+          "@id": "kt:person-accounts"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:omnistudio"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:agentforce"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:business-rules-engine"
+        }
+      ]
     }
   ]
 }

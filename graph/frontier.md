@@ -4,25 +4,27 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
+| `kt:agentforce` | `kt:well-architected-framework`, `kt:omni-channel`, `kt:omni-channel`, `kt:agent-development-lifecycle`, `kt:public-sector-solutions` |
 | `kt:apex-triggers` | `kt:flow-builder`, `kt:asynchronous-apex`, `kt:platform-events`, `kt:governor-limits`, `kt:order-of-execution` |
-| `kt:agentforce` | `kt:well-architected-framework`, `kt:omni-channel`, `kt:omni-channel`, `kt:agent-development-lifecycle` |
+| `kt:service-cloud` | `kt:omni-channel`, `kt:omni-channel`, `kt:public-sector-solutions` |
 | `kt:apex-testing` | `kt:metadata-api`, `kt:metadata-api` |
 | `kt:external-client-apps` | `kt:connected-apps`, `kt:connected-apps` |
 | `kt:record-triggered-flow` | `kt:flow-builder`, `kt:order-of-execution` |
 | `kt:roll-up-summary-field` | `kt:lookup-vs-master-detail`, `kt:order-of-execution` |
 | `kt:salesforce-architect` | `kt:well-architected-framework`, `kt:agent-development-lifecycle` |
 | `kt:sandbox-types` | `kt:agent-development-lifecycle`, `kt:application-lifecycle-management` |
-| `kt:service-cloud` | `kt:omni-channel`, `kt:omni-channel` |
 | `kt:agentforce-dx` | `kt:agent-development-lifecycle` |
 | `kt:agentforce-testing-center` | `kt:agent-development-lifecycle` |
 | `kt:apex` | `kt:asynchronous-apex` |
 | `kt:batch-apex` | `kt:asynchronous-apex` |
+| `kt:business-rules-engine` | `kt:public-sector-solutions` |
 | `kt:change-data-capture` | `kt:platform-events` |
 | `kt:change-sets` | `kt:metadata-api` |
 | `kt:data-skew` | `kt:lookup-vs-master-detail` |
 | `kt:devops-center` | `kt:application-lifecycle-management` |
 | `kt:environment-strategy` | `kt:application-lifecycle-management` |
 | `kt:event-driven-architecture` | `kt:platform-events` |
+| `kt:experience-cloud` | `kt:public-sector-solutions` |
 | `kt:flow-trigger-explorer` | `kt:order-of-execution` |
 | `kt:future-methods` | `kt:asynchronous-apex` |
 | `kt:hyperforce` | `kt:multitenancy` |
@@ -34,8 +36,10 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:oauth-2-flows-in-salesforce` | `kt:connected-apps` |
 | `kt:object-relationships` | `kt:lookup-vs-master-detail` |
 | `kt:omni-channel-limits` | `kt:omni-channel` |
+| `kt:omnistudio` | `kt:public-sector-solutions` |
 | `kt:outbound-messaging` | `kt:platform-events` |
 | `kt:package-xml-manifest` | `kt:metadata-api` |
+| `kt:person-accounts` | `kt:public-sector-solutions` |
 | `kt:platform-event-allocations` | `kt:platform-events` |
 | `kt:presence-configuration` | `kt:omni-channel` |
 | `kt:process-automation` | `kt:flow-builder` |
@@ -50,6 +54,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:salesforce-cli` | `kt:metadata-api` |
 | `kt:salesforce-dx` | `kt:application-lifecycle-management` |
 | `kt:salesforce-identity` | `kt:connected-apps` |
+| `kt:salesforce-industries` | `kt:public-sector-solutions` |
 | `kt:salesforce-platform` | `kt:multitenancy` |
 | `kt:salesforce-sharing-model` | `kt:lookup-vs-master-detail` |
 | `kt:scratch-orgs` | `kt:application-lifecycle-management` |
