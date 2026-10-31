@@ -1,9 +1,9 @@
 # Graph statistics
 
-- Articles (nodes written): **26**
-- Frontier nodes (referenced, unwritten): **77**
-- Edges: **205**
-- Citations: **137**
+- Articles (nodes written): **27**
+- Frontier nodes (referenced, unwritten): **76**
+- Edges: **213**
+- Citations: **143**
 
 - Weakly connected components: **1**
 - Isolated articles (no edges): **0**
@@ -12,21 +12,21 @@
 
 | Node | PageRank | Written |
 |---|---|---|
-| `kt:governor-limits` | 0.0196 | yes |
-| `kt:apex-triggers` | 0.0179 | yes |
-| `kt:flow-builder` | 0.0160 | yes |
-| `kt:application-lifecycle-management` | 0.0153 | yes |
-| `kt:order-of-execution` | 0.0147 | yes |
-| `kt:asynchronous-apex` | 0.0146 | yes |
-| `kt:record-triggered-flow` | 0.0145 | no |
-| `kt:sandbox-types` | 0.0143 | no |
-| `kt:agentforce` | 0.0136 | yes |
-| `kt:apex-testing` | 0.0135 | yes |
-| `kt:metadata-api` | 0.0134 | yes |
-| `kt:apex` | 0.0126 | no |
-| `kt:roll-up-summary-field` | 0.0114 | yes |
-| `kt:salesforce-platform` | 0.0114 | no |
-| `kt:salesforce-cli` | 0.0113 | no |
+| `kt:governor-limits` | 0.0193 | yes |
+| `kt:apex-triggers` | 0.0176 | yes |
+| `kt:application-lifecycle-management` | 0.0173 | yes |
+| `kt:flow-builder` | 0.0157 | yes |
+| `kt:sandbox-types` | 0.0149 | yes |
+| `kt:order-of-execution` | 0.0144 | yes |
+| `kt:asynchronous-apex` | 0.0143 | yes |
+| `kt:record-triggered-flow` | 0.0142 | no |
+| `kt:apex-testing` | 0.0137 | yes |
+| `kt:agentforce` | 0.0135 | yes |
+| `kt:metadata-api` | 0.0133 | yes |
+| `kt:salesforce-cli` | 0.0131 | no |
+| `kt:change-sets` | 0.0131 | yes |
+| `kt:devops-center` | 0.0130 | yes |
+| `kt:environment-strategy` | 0.0129 | yes |
 
 ## Communities (Louvain): 9
 
@@ -45,7 +45,7 @@
 - API: 1
 - AntiPattern: 1
 - Concept: 7
-- Feature: 9
+- Feature: 10
 - Limit: 1
 - Product: 3
 - SecurityControl: 1
@@ -62,15 +62,15 @@
 - devops-and-alm: 4
 - identity: 2
 - integration: 1
-- platform-architecture: 3
+- platform-architecture: 4
 - public-sector-and-compliance: 1
 - security-and-sharing: 1
 
 ## By verified release (oldest = most likely stale)
 
-- Winter '27: 26
+- Winter '27: 27
 
 ## By status
 
 - concept: 3
-- current: 23
+- current: 24

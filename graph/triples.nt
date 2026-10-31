@@ -591,6 +591,35 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/roll-up-summary-field> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "data-model" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/roll-up-summary-field> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/roll-up-summary-field> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-types> <http://purl.org/dc/terms/created> "2026-10-31" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-types> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-types> <http://www.w3.org/2000/01/rdf-schema#label> "Sandbox Types" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-types> <http://www.w3.org/2004/02/skos/core#altLabel> "Developer Pro sandbox" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-types> <http://www.w3.org/2004/02/skos/core#altLabel> "Developer sandbox" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-types> <http://www.w3.org/2004/02/skos/core#altLabel> "Full Copy sandbox" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-types> <http://www.w3.org/2004/02/skos/core#altLabel> "Full sandbox" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-types> <http://www.w3.org/2004/02/skos/core#altLabel> "Partial Copy sandbox" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-types> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce sandboxes" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-types> <http://www.w3.org/2004/02/skos/core#altLabel> "sandbox license types" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-types> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-platform> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-types> <http://www.w3.org/2004/02/skos/core#definition> "The four kinds of Salesforce sandbox (Developer, Developer Pro, Partial Copy and Full), which are copies of a production org that differ in how much data they receive, how much storage they get, how often they can be refreshed and what they cost." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-types> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sandbox Types" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-types> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/application-lifecycle-management> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-types> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/change-sets> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-types> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/devops-center> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-types> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sandbox-types/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-types> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sandbox-types/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-types> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sandbox-types/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-types> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sandbox-types/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-types> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sandbox-types/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-types> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sandbox-types/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-types> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#alternativeTo> <https://github.com/john1hsu/salesforce-knowledge-graph/id/scratch-orgs> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-types> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-cli> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-types> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-templates> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-types> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "platform-architecture" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-types> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#partOf> <https://github.com/john1hsu/salesforce-knowledge-graph/id/environment-strategy> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-types> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-types> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/service-cloud> <http://purl.org/dc/terms/created> "2026-10-31" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/service-cloud> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Product> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/service-cloud> <http://www.w3.org/2000/01/rdf-schema#label> "Service Cloud" .
@@ -1248,6 +1277,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/roll-up-summary-field/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/roll-up-summary-field/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "partner" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/roll-up-summary-field/s6> <https://schema.org/url> "https://gearset.com/blog/salesforce-roll-up-summary-field-deployment/" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sandbox-types/s1> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sandbox-types/s1> <http://purl.org/dc/terms/title> "Sandboxes: Staging Environments for Customizing and Testing (Salesforce Help PDF)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sandbox-types/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sandbox-types/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sandbox-types/s1> <https://schema.org/url> "https://resources.docs.salesforce.com/latest/latest/en-us/sfdc/pdf/deploy_sandboxes.pdf" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sandbox-types/s2> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sandbox-types/s2> <http://purl.org/dc/terms/title> "Sandbox Definition File (Salesforce DX Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sandbox-types/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sandbox-types/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sandbox-types/s2> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.264.0.sfdx_dev.meta/sfdx_dev/sfdx_dev_sandbox_definition.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sandbox-types/s3> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sandbox-types/s3> <http://purl.org/dc/terms/title> "SandboxPostCopy Interface (Apex Reference Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sandbox-types/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sandbox-types/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sandbox-types/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_interface_System_SandboxPostCopy.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sandbox-types/s4> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sandbox-types/s4> <http://purl.org/dc/terms/title> "Sandbox Pricing (Salesforce Platform environments)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sandbox-types/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sandbox-types/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sandbox-types/s4> <https://schema.org/url> "https://www.salesforce.com/editions-pricing/platform/environments/" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sandbox-types/s5> <http://purl.org/dc/terms/publisher> "Salesforce Developers Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sandbox-types/s5> <http://purl.org/dc/terms/title> "Choose the Right Salesforce Org for the Right Job" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sandbox-types/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sandbox-types/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sandbox-types/s5> <https://schema.org/url> "https://developer.salesforce.com/blogs/2024/05/choose-the-right-salesforce-org-for-the-right-job" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sandbox-types/s6> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sandbox-types/s6> <http://purl.org/dc/terms/title> "Set Up a Sandbox in Your Salesforce Org" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sandbox-types/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sandbox-types/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sandbox-types/s6> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/nonprofit-success-pack-maintenance/set-up-a-sandbox-in-your-salesforce-org" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/service-cloud/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/service-cloud/s1> <http://purl.org/dc/terms/title> "Agentforce Service Basics: the Service Console (Trailhead unit)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/service-cloud/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

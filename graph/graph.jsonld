@@ -2031,6 +2031,100 @@
       ]
     },
     {
+      "@id": "kt:sandbox-types",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Sandbox Types",
+      "skos:definition": "The four kinds of Salesforce sandbox (Developer, Developer Pro, Partial Copy and Full), which are copies of a production org that differ in how much data they receive, how much storage they get, how often they can be refreshed and what they cost.",
+      "kto:domain": "platform-architecture",
+      "dcterms:created": "2026-10-31",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Sandboxes: Staging Environments for Customizing and Testing (Salesforce Help PDF)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://resources.docs.salesforce.com/latest/latest/en-us/sfdc/pdf/deploy_sandboxes.pdf",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Sandbox Definition File (Salesforce DX Developer Guide)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.264.0.sfdx_dev.meta/sfdx_dev/sfdx_dev_sandbox_definition.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "SandboxPostCopy Interface (Apex Reference Guide)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_interface_System_SandboxPostCopy.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Sandbox Pricing (Salesforce Platform environments)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/editions-pricing/platform/environments/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Choose the Right Salesforce Org for the Right Job",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2024/05/choose-the-right-salesforce-org-for-the-right-job",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Set Up a Sandbox in Your Salesforce Org",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/nonprofit-success-pack-maintenance/set-up-a-sandbox-in-your-salesforce-org",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/platform-architecture/sandbox-types.md",
+      "skos:altLabel": [
+        "Salesforce sandboxes",
+        "Developer sandbox",
+        "Developer Pro sandbox",
+        "Partial Copy sandbox",
+        "Full sandbox",
+        "Full Copy sandbox",
+        "sandbox license types"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-platform"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:application-lifecycle-management"
+        },
+        {
+          "@id": "kt:change-sets"
+        },
+        {
+          "@id": "kt:devops-center"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:environment-strategy"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:scratch-orgs"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:sandbox-templates"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:salesforce-cli"
+        }
+      ]
+    },
+    {
       "@id": "kt:public-sector-solutions",
       "@type": "kto:Product",
       "skos:prefLabel": "Public Sector Solutions",

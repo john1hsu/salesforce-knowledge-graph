@@ -4,14 +4,13 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:sandbox-types` | `kt:environment-strategy`, `kt:agent-development-lifecycle`, `kt:application-lifecycle-management`, `kt:change-sets`, `kt:devops-center`, `kt:external-client-apps` |
 | `kt:record-triggered-flow` | `kt:flow-builder`, `kt:flow-orchestrator`, `kt:roll-up-summary-field`, `kt:apex-triggers`, `kt:order-of-execution` |
+| `kt:salesforce-cli` | `kt:change-sets`, `kt:devops-center`, `kt:metadata-api`, `kt:sandbox-types` |
+| `kt:salesforce-platform` | `kt:service-cloud`, `kt:agentforce`, `kt:multitenancy`, `kt:sandbox-types` |
+| `kt:scratch-orgs` | `kt:environment-strategy`, `kt:application-lifecycle-management`, `kt:devops-center`, `kt:sandbox-types` |
 | `kt:apex` | `kt:apex-testing`, `kt:apex-triggers`, `kt:asynchronous-apex` |
 | `kt:record-locking` | `kt:data-skew`, `kt:lookup-vs-master-detail`, `kt:roll-up-summary-field` |
-| `kt:salesforce-cli` | `kt:change-sets`, `kt:devops-center`, `kt:metadata-api` |
-| `kt:salesforce-platform` | `kt:service-cloud`, `kt:agentforce`, `kt:multitenancy` |
 | `kt:salesforce-sharing-model` | `kt:data-skew`, `kt:lookup-vs-master-detail`, `kt:role-hierarchy` |
-| `kt:scratch-orgs` | `kt:environment-strategy`, `kt:application-lifecycle-management`, `kt:devops-center` |
 | `kt:experience-cloud` | `kt:service-cloud`, `kt:public-sector-solutions` |
 | `kt:oauth-2-0` | `kt:connected-apps`, `kt:external-client-apps` |
 | `kt:oauth-2-flows-in-salesforce` | `kt:connected-apps`, `kt:external-client-apps` |
@@ -20,6 +19,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:queues` | `kt:omni-channel`, `kt:service-cloud` |
 | `kt:salesforce-architect` | `kt:well-architected-framework`, `kt:agent-development-lifecycle` |
 | `kt:salesforce-identity` | `kt:connected-apps`, `kt:external-client-apps` |
+| `kt:sandbox-templates` | `kt:environment-strategy`, `kt:sandbox-types` |
 | `kt:screen-flow` | `kt:flow-builder`, `kt:flow-orchestrator` |
 | `kt:second-generation-managed-packages` | `kt:external-client-apps`, `kt:external-client-apps` |
 | `kt:sharing-recalculation` | `kt:data-skew`, `kt:role-hierarchy` |
@@ -71,7 +71,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:salesforce-data-mask` | `kt:environment-strategy` |
 | `kt:salesforce-dx` | `kt:application-lifecycle-management` |
 | `kt:salesforce-industries` | `kt:public-sector-solutions` |
-| `kt:sandbox-templates` | `kt:environment-strategy` |
 | `kt:service-setup-assistant` | `kt:service-cloud` |
 | `kt:sharing-rules` | `kt:role-hierarchy` |
 | `kt:skills-based-routing` | `kt:omni-channel` |
