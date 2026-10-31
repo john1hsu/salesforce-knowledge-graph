@@ -237,6 +237,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/order-of-execution> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#governedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/governor-limits> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/order-of-execution> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/order-of-execution> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-events> <http://purl.org/dc/terms/created> "2026-10-31" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-events> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-events> <http://www.w3.org/2000/01/rdf-schema#label> "Platform Events" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-events> <http://www.w3.org/2004/02/skos/core#altLabel> "__e object" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-events> <http://www.w3.org/2004/02/skos/core#altLabel> "custom platform event" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-events> <http://www.w3.org/2004/02/skos/core#altLabel> "high-volume platform events" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-events> <http://www.w3.org/2004/02/skos/core#altLabel> "platform event" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-events> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/event-driven-architecture> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-events> <http://www.w3.org/2004/02/skos/core#definition> "Salesforce's publish/subscribe messaging feature: custom event definitions with an __e suffix whose messages are published to the event bus from Apex, Flow or APIs and consumed in near real time by triggers, flows and external clients." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-events> <http://www.w3.org/2004/02/skos/core#prefLabel> "Platform Events" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-events> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-triggers> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-events> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/change-data-capture> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-events> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-builder> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-events> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/platform-events/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-events> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/platform-events/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-events> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/platform-events/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-events> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/platform-events/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-events> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/platform-events/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-events> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/platform-events/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-events> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#alternativeTo> <https://github.com/john1hsu/salesforce-knowledge-graph/id/outbound-messaging> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-events> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "integration" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-events> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#governedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-event-allocations> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-events> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/pub-sub-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-events> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-events> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agent-development-lifecycle/s1> <http://purl.org/dc/terms/publisher> "Salesforce Architects" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agent-development-lifecycle/s1> <http://purl.org/dc/terms/title> "The Agent Development Lifecycle" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agent-development-lifecycle/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
@@ -497,6 +522,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/order-of-execution/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/order-of-execution/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/order-of-execution/s4> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/record-triggered-flows/meet-flow-trigger-explorer" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/platform-events/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/platform-events/s1> <http://purl.org/dc/terms/title> "Platform Events Developer Guide" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/platform-events/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/platform-events/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/platform-events/s1> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/platform-events/guide/platform-events-intro.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/platform-events/s2> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/platform-events/s2> <http://purl.org/dc/terms/title> "Platform Events Basics: Define and Publish Platform Events" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/platform-events/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/platform-events/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/platform-events/s2> <https://schema.org/url> "https://trailhead.salesforce.com/fr/content/learn/modules/platform_events_basics/platform_events_define_publish" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/platform-events/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/platform-events/s3> <http://purl.org/dc/terms/title> "Common Platform Event Allocations" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/platform-events/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/platform-events/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/platform-events/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/platform-events/guide/platform-events-limits-common.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/platform-events/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/platform-events/s4> <http://purl.org/dc/terms/title> "Configure the User and Batch Size for Your Platform Event Trigger with PlatformEventSubscriberConfig" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/platform-events/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/platform-events/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/platform-events/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.platform_events.meta/platform_events/platform_events_trigger_config.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/platform-events/s5> <http://purl.org/dc/terms/publisher> "Salesforce Architects" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/platform-events/s5> <http://purl.org/dc/terms/title> "Using the Right Tools and Patterns for Event-Driven Architectures" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/platform-events/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/platform-events/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/platform-events/s5> <https://schema.org/url> "https://architect.salesforce.com/decision-guides/event-driven" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/platform-events/s6> <http://purl.org/dc/terms/publisher> "Salesforce Developers Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/platform-events/s6> <http://purl.org/dc/terms/title> "Design Considerations for Change Data Capture and Platform Events" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/platform-events/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/platform-events/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/platform-events/s6> <https://schema.org/url> "https://developer.salesforce.com/blogs/2022/10/design-considerations-for-change-data-capture-and-platform-events" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/well-architected-framework/s1> <http://purl.org/dc/terms/publisher> "Salesforce Architects" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/well-architected-framework/s1> <http://purl.org/dc/terms/title> "Salesforce Well-Architected Framework" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/well-architected-framework/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

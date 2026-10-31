@@ -4,8 +4,8 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
+| `kt:apex-triggers` | `kt:flow-builder`, `kt:asynchronous-apex`, `kt:platform-events`, `kt:governor-limits`, `kt:order-of-execution` |
 | `kt:agentforce` | `kt:well-architected-framework`, `kt:omni-channel`, `kt:omni-channel`, `kt:agent-development-lifecycle` |
-| `kt:apex-triggers` | `kt:flow-builder`, `kt:asynchronous-apex`, `kt:governor-limits`, `kt:order-of-execution` |
 | `kt:apex-testing` | `kt:metadata-api`, `kt:metadata-api` |
 | `kt:external-client-apps` | `kt:connected-apps`, `kt:connected-apps` |
 | `kt:multitenancy` | `kt:governor-limits`, `kt:order-of-execution` |
@@ -18,10 +18,12 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:agentforce-testing-center` | `kt:agent-development-lifecycle` |
 | `kt:apex` | `kt:asynchronous-apex` |
 | `kt:batch-apex` | `kt:asynchronous-apex` |
+| `kt:change-data-capture` | `kt:platform-events` |
 | `kt:change-sets` | `kt:metadata-api` |
 | `kt:data-skew` | `kt:lookup-vs-master-detail` |
 | `kt:devops-center` | `kt:application-lifecycle-management` |
 | `kt:environment-strategy` | `kt:application-lifecycle-management` |
+| `kt:event-driven-architecture` | `kt:platform-events` |
 | `kt:flow-trigger-explorer` | `kt:order-of-execution` |
 | `kt:future-methods` | `kt:asynchronous-apex` |
 | `kt:junction-object` | `kt:lookup-vs-master-detail` |
@@ -31,10 +33,13 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:oauth-2-flows-in-salesforce` | `kt:connected-apps` |
 | `kt:object-relationships` | `kt:lookup-vs-master-detail` |
 | `kt:omni-channel-limits` | `kt:omni-channel` |
+| `kt:outbound-messaging` | `kt:platform-events` |
 | `kt:package-xml-manifest` | `kt:metadata-api` |
+| `kt:platform-event-allocations` | `kt:platform-events` |
 | `kt:presence-configuration` | `kt:omni-channel` |
 | `kt:process-automation` | `kt:flow-builder` |
 | `kt:process-builder` | `kt:flow-builder` |
+| `kt:pub-sub-api` | `kt:platform-events` |
 | `kt:queueable-apex` | `kt:asynchronous-apex` |
 | `kt:queues` | `kt:omni-channel` |
 | `kt:record-locking` | `kt:lookup-vs-master-detail` |
