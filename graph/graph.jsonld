@@ -3752,6 +3752,77 @@
       ]
     },
     {
+      "@id": "kt:hyperforce",
+      "@type": "kto:Product",
+      "skos:prefLabel": "Hyperforce",
+      "skos:definition": "Salesforce's current-generation, public-cloud infrastructure, defined and managed as code, that replaces Salesforce's first-party data centers and hosts orgs in isolated cells across regional Hyperforce instances.",
+      "kto:domain": "platform-architecture",
+      "dcterms:created": "2026-11-01",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "The Salesforce Platform - Transformed for Tomorrow | Get Started with Fundamentals",
+          "dcterms:publisher": "Salesforce Architects",
+          "schema:url": "https://architect.salesforce.com/fundamentals/platform-transformation",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Salesforce Hyperforce — General Information, FAQ, Migration Guide, and Security Overview",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=000388902&language=en_US&type=1",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "How to Prepare for a First-Party to Hyperforce Salesforce Core Org Migration",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=000386897&language=en_US&type=1",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Upgrade to Hyperforce with Confidence Using Hyperforce Assistant",
+          "dcterms:publisher": "Salesforce Admins Blog",
+          "schema:url": "https://admin.salesforce.com/blog/2023/upgrade-to-hyperforce-with-confidence-using-hyperforce-assistant",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/platform-architecture/hyperforce.md",
+      "skos:altLabel": [
+        "Salesforce Hyperforce",
+        "Hyperforce infrastructure",
+        "Hyperforce migration"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-platform"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:multitenancy"
+        },
+        {
+          "@id": "kt:government-cloud-plus"
+        },
+        {
+          "@id": "kt:sandbox-types"
+        },
+        {
+          "@id": "kt:platform-events"
+        }
+      ],
+      "kto:enables": [
+        {
+          "@id": "kt:data-residency"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:my-domain"
+        }
+      ]
+    },
+    {
       "@id": "kt:multitenancy",
       "@type": "kto:Concept",
       "skos:prefLabel": "Multitenancy",
