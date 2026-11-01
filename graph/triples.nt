@@ -982,6 +982,32 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/roll-up-summary-field> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "data-model" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/roll-up-summary-field> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/roll-up-summary-field> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sales-cloud> <http://purl.org/dc/terms/created> "2026-11-01" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sales-cloud> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Product> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sales-cloud> <http://www.w3.org/2000/01/rdf-schema#label> "Sales Cloud" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sales-cloud> <http://www.w3.org/2004/02/skos/core#altLabel> "Agentforce Sales" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sales-cloud> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce Sales Cloud" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sales-cloud> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-platform> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sales-cloud> <http://www.w3.org/2004/02/skos/core#definition> "Salesforce's sales CRM product, now marketed as Agentforce Sales, built around the Lead, Account, Contact and Opportunity objects, with guided selling (Path, Kanban), pipeline reporting and forecasting on top of the core platform." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sales-cloud> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sales Cloud" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sales-cloud> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-builder> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sales-cloud> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/lead-conversion> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sales-cloud> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/role-hierarchy> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sales-cloud> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/service-cloud> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sales-cloud> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sales-cloud/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sales-cloud> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sales-cloud/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sales-cloud> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sales-cloud/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sales-cloud> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sales-cloud/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sales-cloud> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sales-cloud/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sales-cloud> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sales-cloud/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sales-cloud> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#coveredBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/sales-cloud-consultant-certification> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sales-cloud> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "clouds-and-products" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sales-cloud> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/collaborative-forecasts> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sales-cloud> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/opportunity-splits> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sales-cloud> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sales-cloud> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/enterprise-territory-management> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sales-cloud> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sales-cloud> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-cli> <http://purl.org/dc/terms/created> "2026-10-31" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-cli> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Tool> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-cli> <http://www.w3.org/2000/01/rdf-schema#label> "Salesforce CLI" .
@@ -2264,6 +2290,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/roll-up-summary-field/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/roll-up-summary-field/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "partner" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/roll-up-summary-field/s6> <https://schema.org/url> "https://gearset.com/blog/salesforce-roll-up-summary-field-deployment/" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sales-cloud/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sales-cloud/s1> <http://purl.org/dc/terms/title> "Get to Know the Sales Cloud Platform (Sales Cloud Platform Quick Look)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sales-cloud/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sales-cloud/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sales-cloud/s1> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/sales-cloud-platform-quick-look/get-to-know-the-sales-cloud-platform" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sales-cloud/s2> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sales-cloud/s2> <http://purl.org/dc/terms/title> "Create and Convert Leads as Potential Customers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sales-cloud/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sales-cloud/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sales-cloud/s2> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/leads_opportunities_lightning_experience/create-and-convert-leads-lightning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sales-cloud/s3> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sales-cloud/s3> <http://purl.org/dc/terms/title> "Work with Leads and Opportunities (Lightning Experience tour)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sales-cloud/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sales-cloud/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sales-cloud/s3> <https://schema.org/url> "https://trailhead.salesforce.com/lex_salesforce_tour/lex_salesforce_tour_sales" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sales-cloud/s4> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sales-cloud/s4> <http://purl.org/dc/terms/title> "Review Your Collaborative Forecasts Setup (Revenue Intelligence Setup)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sales-cloud/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sales-cloud/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sales-cloud/s4> <https://schema.org/url> "https://trailhead.salesforce.com/zh-CN/content/learn/modules/revenue-intelligence-setup/review-your-collaborative-forecasts-setup" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sales-cloud/s5> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sales-cloud/s5> <http://purl.org/dc/terms/title> "Forecasts (Salesforce Help PDF, latest release)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sales-cloud/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sales-cloud/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sales-cloud/s5> <https://schema.org/url> "https://resources.docs.salesforce.com/latest/latest/en-us/sfdc/pdf/forecasts.pdf" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sales-cloud/s6> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sales-cloud/s6> <http://purl.org/dc/terms/title> "Manage Leads and Sales Pipelines (Sales for Small Business)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sales-cloud/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sales-cloud/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sales-cloud/s6> <https://schema.org/url> "https://trailhead.salesforce.com/fr/content/learn/modules/sales-for-small-business/manage-leads-and-sales-pipelines" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-cli/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-cli/s1> <http://purl.org/dc/terms/title> "Salesforce CLI Configuration and Tips" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-cli/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

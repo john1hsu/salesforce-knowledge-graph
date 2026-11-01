@@ -15,6 +15,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:bulk-api-2` | `kt:data-migration-strategy`, `kt:record-locking` |
 | `kt:code-analyzer` | `kt:salesforce-cli`, `kt:second-generation-managed-packages` |
 | `kt:data-architecture` | `kt:archiving-strategy`, `kt:data-migration-strategy` |
+| `kt:enterprise-territory-management` | `kt:sales-cloud`, `kt:role-hierarchy` |
 | `kt:event-driven-architecture` | `kt:change-data-capture`, `kt:platform-events` |
 | `kt:experience-cloud-identity` | `kt:experience-cloud`, `kt:multi-factor-authentication` |
 | `kt:fedramp-high` | `kt:government-cloud-plus`, `kt:il4-and-il5` |
@@ -50,11 +51,11 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:business-rules-engine` | `kt:public-sector-solutions` |
 | `kt:calculated-insights` | `kt:data-cloud` |
 | `kt:change-data-capture-allocations` | `kt:change-data-capture` |
+| `kt:collaborative-forecasts` | `kt:sales-cloud` |
 | `kt:data-model-objects` | `kt:data-cloud` |
 | `kt:data-residency` | `kt:il4-and-il5` |
 | `kt:dod-cloud-computing-srg` | `kt:il4-and-il5` |
 | `kt:einstein-trust-layer` | `kt:agentforce` |
-| `kt:enterprise-territory-management` | `kt:role-hierarchy` |
 | `kt:entitlement-management` | `kt:service-cloud` |
 | `kt:experience-builder` | `kt:experience-cloud` |
 | `kt:external-id-fields` | `kt:data-migration-strategy` |
@@ -67,6 +68,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:integration-security` | `kt:named-credentials` |
 | `kt:invocable-actions-api` | `kt:autolaunched-flow` |
 | `kt:junction-object` | `kt:lookup-vs-master-detail` |
+| `kt:lead-conversion` | `kt:sales-cloud` |
 | `kt:legacy-named-credentials` | `kt:named-credentials` |
 | `kt:lightning-service-console` | `kt:service-cloud` |
 | `kt:limit-exception` | `kt:governor-limits` |
@@ -75,6 +77,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:nist-digital-identity-guidelines` | `kt:multi-factor-authentication` |
 | `kt:omni-channel-limits` | `kt:omni-channel` |
 | `kt:omnistudio` | `kt:public-sector-solutions` |
+| `kt:opportunity-splits` | `kt:sales-cloud` |
 | `kt:orchestration-work-guide` | `kt:flow-orchestrator` |
 | `kt:org-strategy` | `kt:environment-strategy` |
 | `kt:package-xml-manifest` | `kt:metadata-api` |
@@ -88,6 +91,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:queueable-apex` | `kt:asynchronous-apex` |
 | `kt:recursive-save` | `kt:order-of-execution` |
 | `kt:remote-site-settings` | `kt:named-credentials` |
+| `kt:sales-cloud-consultant-certification` | `kt:sales-cloud` |
 | `kt:salesforce-architecture-center` | `kt:well-architected-framework` |
 | `kt:salesforce-archive` | `kt:archiving-strategy` |
 | `kt:salesforce-connect` | `kt:named-credentials` |

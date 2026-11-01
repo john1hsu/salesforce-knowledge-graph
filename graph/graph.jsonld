@@ -959,6 +959,99 @@
       ]
     },
     {
+      "@id": "kt:sales-cloud",
+      "@type": "kto:Product",
+      "skos:prefLabel": "Sales Cloud",
+      "skos:definition": "Salesforce's sales CRM product, now marketed as Agentforce Sales, built around the Lead, Account, Contact and Opportunity objects, with guided selling (Path, Kanban), pipeline reporting and forecasting on top of the core platform.",
+      "kto:domain": "clouds-and-products",
+      "dcterms:created": "2026-11-01",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Get to Know the Sales Cloud Platform (Sales Cloud Platform Quick Look)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/sales-cloud-platform-quick-look/get-to-know-the-sales-cloud-platform",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Create and Convert Leads as Potential Customers",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/leads_opportunities_lightning_experience/create-and-convert-leads-lightning",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Work with Leads and Opportunities (Lightning Experience tour)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/lex_salesforce_tour/lex_salesforce_tour_sales",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Review Your Collaborative Forecasts Setup (Revenue Intelligence Setup)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/zh-CN/content/learn/modules/revenue-intelligence-setup/review-your-collaborative-forecasts-setup",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Forecasts (Salesforce Help PDF, latest release)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://resources.docs.salesforce.com/latest/latest/en-us/sfdc/pdf/forecasts.pdf",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Manage Leads and Sales Pipelines (Sales for Small Business)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/fr/content/learn/modules/sales-for-small-business/manage-leads-and-sales-pipelines",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/clouds-and-products/sales-cloud.md",
+      "skos:altLabel": [
+        "Agentforce Sales",
+        "Salesforce Sales Cloud"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-platform"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:service-cloud"
+        },
+        {
+          "@id": "kt:role-hierarchy"
+        },
+        {
+          "@id": "kt:flow-builder"
+        },
+        {
+          "@id": "kt:lead-conversion"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:collaborative-forecasts"
+        },
+        {
+          "@id": "kt:opportunity-splits"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:agentforce"
+        },
+        {
+          "@id": "kt:enterprise-territory-management"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:sales-cloud-consultant-certification"
+        }
+      ]
+    },
+    {
       "@id": "kt:service-cloud",
       "@type": "kto:Product",
       "skos:prefLabel": "Service Cloud",
