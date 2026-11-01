@@ -801,6 +801,33 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-types> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#partOf> <https://github.com/john1hsu/salesforce-knowledge-graph/id/environment-strategy> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-types> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-types> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scratch-orgs> <http://purl.org/dc/terms/created> "2026-11-01" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scratch-orgs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scratch-orgs> <http://www.w3.org/2000/01/rdf-schema#label> "Scratch Orgs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scratch-orgs> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce DX scratch org" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scratch-orgs> <http://www.w3.org/2004/02/skos/core#altLabel> "scratch org definition file" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scratch-orgs> <http://www.w3.org/2004/02/skos/core#altLabel> "scratch org" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scratch-orgs> <http://www.w3.org/2004/02/skos/core#altLabel> "scratch-def.json" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scratch-orgs> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/application-lifecycle-management> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scratch-orgs> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-dx> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scratch-orgs> <http://www.w3.org/2004/02/skos/core#definition> "Short-lived, source-driven Salesforce orgs created from a Dev Hub and shaped by a JSON definition file, used for feature development, automated testing and CI in Salesforce DX; they live 1 to 30 days (default 7)." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scratch-orgs> <http://www.w3.org/2004/02/skos/core#prefLabel> "Scratch Orgs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scratch-orgs> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/devops-center> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scratch-orgs> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/environment-strategy> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scratch-orgs> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source-tracking> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scratch-orgs> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scratch-orgs/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scratch-orgs> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scratch-orgs/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scratch-orgs> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scratch-orgs/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scratch-orgs> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scratch-orgs/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scratch-orgs> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scratch-orgs/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scratch-orgs> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#alternativeTo> <https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-types> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scratch-orgs> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-cli> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scratch-orgs> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/dev-hub> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scratch-orgs> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "devops-and-alm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scratch-orgs> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#enables> <https://github.com/john1hsu/salesforce-knowledge-graph/id/unlocked-packages> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scratch-orgs> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#governedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/scratch-org-allocations> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scratch-orgs> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scratch-orgs> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/service-cloud> <http://purl.org/dc/terms/created> "2026-10-31" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/service-cloud> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Product> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/service-cloud> <http://www.w3.org/2000/01/rdf-schema#label> "Service Cloud" .
@@ -1668,6 +1695,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sandbox-types/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sandbox-types/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sandbox-types/s6> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/nonprofit-success-pack-maintenance/set-up-a-sandbox-in-your-salesforce-org" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scratch-orgs/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scratch-orgs/s1> <http://purl.org/dc/terms/title> "Scratch Orgs (Salesforce DX Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scratch-orgs/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scratch-orgs/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scratch-orgs/s1> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/sfdx-dev/guide/sfdx-dev-scratch-orgs.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scratch-orgs/s2> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scratch-orgs/s2> <http://purl.org/dc/terms/title> "Supported Scratch Org Editions and Allocations" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scratch-orgs/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scratch-orgs/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scratch-orgs/s2> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/sfdx-dev/guide/sfdx-dev-scratch-orgs-editions-and-allocations.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scratch-orgs/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scratch-orgs/s3> <http://purl.org/dc/terms/title> "Build Your Own Scratch Org Definition File" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scratch-orgs/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scratch-orgs/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scratch-orgs/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/sfdx-dev/guide/sfdx-dev-scratch-orgs-def-file.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scratch-orgs/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scratch-orgs/s4> <http://purl.org/dc/terms/title> "Create Scratch Orgs (Salesforce DX Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scratch-orgs/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scratch-orgs/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scratch-orgs/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.264.0.sfdx_dev.meta/sfdx_dev/sfdx_dev_scratch_orgs_create.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scratch-orgs/s5> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scratch-orgs/s5> <http://purl.org/dc/terms/title> "Set Up Salesforce DX Tools (App Development with Salesforce DX)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scratch-orgs/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scratch-orgs/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scratch-orgs/s5> <https://schema.org/url> "https://trailhead.salesforce.com/modules/sfdx_app_dev/units/sfdx_app_dev_setup_dx" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/service-cloud/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/service-cloud/s1> <http://purl.org/dc/terms/title> "Agentforce Service Basics: the Service Console (Trailhead unit)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/service-cloud/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

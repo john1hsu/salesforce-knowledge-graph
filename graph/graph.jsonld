@@ -1804,6 +1804,99 @@
       ]
     },
     {
+      "@id": "kt:scratch-orgs",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Scratch Orgs",
+      "skos:definition": "Short-lived, source-driven Salesforce orgs created from a Dev Hub and shaped by a JSON definition file, used for feature development, automated testing and CI in Salesforce DX; they live 1 to 30 days (default 7).",
+      "kto:domain": "devops-and-alm",
+      "dcterms:created": "2026-11-01",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Scratch Orgs (Salesforce DX Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/sfdx-dev/guide/sfdx-dev-scratch-orgs.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Supported Scratch Org Editions and Allocations",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/sfdx-dev/guide/sfdx-dev-scratch-orgs-editions-and-allocations.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Build Your Own Scratch Org Definition File",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/sfdx-dev/guide/sfdx-dev-scratch-orgs-def-file.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Create Scratch Orgs (Salesforce DX Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.264.0.sfdx_dev.meta/sfdx_dev/sfdx_dev_scratch_orgs_create.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Set Up Salesforce DX Tools (App Development with Salesforce DX)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/modules/sfdx_app_dev/units/sfdx_app_dev_setup_dx",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/devops-and-alm/scratch-orgs.md",
+      "skos:altLabel": [
+        "scratch org",
+        "Salesforce DX scratch org",
+        "scratch-def.json",
+        "scratch org definition file"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-dx"
+        },
+        {
+          "@id": "kt:application-lifecycle-management"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:environment-strategy"
+        },
+        {
+          "@id": "kt:devops-center"
+        },
+        {
+          "@id": "kt:source-tracking"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:dev-hub"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:salesforce-cli"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:sandbox-types"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:scratch-org-allocations"
+        }
+      ],
+      "kto:enables": [
+        {
+          "@id": "kt:unlocked-packages"
+        }
+      ]
+    },
+    {
       "@id": "kt:connected-apps",
       "@type": "kto:Feature",
       "skos:prefLabel": "Connected Apps",
