@@ -514,6 +514,102 @@
       ]
     },
     {
+      "@id": "kt:experience-cloud",
+      "@type": "kto:Product",
+      "skos:prefLabel": "Experience Cloud",
+      "skos:definition": "Salesforce's product for building branded, CRM-connected websites, portals and help centers for customers, partners and other external audiences, built in Experience Builder on Aura or LWR templates and secured by external user licenses and external sharing settings.",
+      "kto:domain": "clouds-and-products",
+      "dcterms:created": "2026-11-01",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Experience Cloud Basics: Unlock the Potential of Experience Cloud for Engagement (Trailhead unit)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/community_cloud_basics/communities_intro_to_community_cloud",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Experience Cloud Site Strategy: Design Your Site (Trailhead unit)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/experience-cloud-site-strategy/design-your-site",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Get to Know the LWR Templates for Experience Cloud",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/exp-cloud-lwr/guide/template-overview.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "LWR Sites for Experience Cloud: Differences in Behavior Between LWR and Aura Sites",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.exp_cloud_lwr.meta/exp_cloud_lwr/template_differences.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Share CRM Data with Your Partners: Set External Organization-Wide Defaults (Trailhead project step)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/projects/communities_share_crm_data/set_external_owd",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Salesforce Communities Licenses",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2014/02/salesforce-communities-licenses",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/clouds-and-products/experience-cloud.md",
+      "skos:altLabel": [
+        "Salesforce Experience Cloud",
+        "Community Cloud",
+        "Salesforce Communities",
+        "Experience Cloud sites",
+        "digital experiences"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-platform"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:service-cloud"
+        },
+        {
+          "@id": "kt:salesforce-sharing-model"
+        },
+        {
+          "@id": "kt:role-hierarchy"
+        },
+        {
+          "@id": "kt:knowledge-base"
+        },
+        {
+          "@id": "kt:experience-cloud-identity"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:experience-builder"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:organization-wide-defaults"
+        },
+        {
+          "@id": "kt:lightning-web-components"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:service-cloud"
+        }
+      ]
+    },
+    {
       "@id": "kt:omni-channel",
       "@type": "kto:Feature",
       "skos:prefLabel": "Omni-Channel",

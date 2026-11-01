@@ -8,22 +8,22 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:record-locking` | `kt:data-migration-strategy`, `kt:data-skew`, `kt:lookup-vs-master-detail`, `kt:roll-up-summary-field` |
 | `kt:source-tracking` | `kt:application-lifecycle-management`, `kt:devops-center`, `kt:salesforce-cli`, `kt:scratch-orgs` |
 | `kt:hyperforce` | `kt:multitenancy`, `kt:salesforce-platform`, `kt:government-cloud-plus` |
+| `kt:organization-wide-defaults` | `kt:experience-cloud`, `kt:role-hierarchy`, `kt:salesforce-sharing-model` |
 | `kt:process-automation` | `kt:flow-builder`, `kt:flow-orchestrator`, `kt:record-triggered-flow` |
 | `kt:salesforce-dx` | `kt:application-lifecycle-management`, `kt:salesforce-cli`, `kt:scratch-orgs` |
 | `kt:screen-flow` | `kt:flow-builder`, `kt:flow-orchestrator`, `kt:record-triggered-flow` |
 | `kt:unlocked-packages` | `kt:application-lifecycle-management`, `kt:change-sets`, `kt:scratch-orgs` |
 | `kt:autolaunched-flow` | `kt:flow-orchestrator`, `kt:record-triggered-flow` |
 | `kt:event-driven-architecture` | `kt:change-data-capture`, `kt:platform-events` |
-| `kt:experience-cloud` | `kt:service-cloud`, `kt:public-sector-solutions` |
 | `kt:flow-trigger-explorer` | `kt:record-triggered-flow`, `kt:order-of-execution` |
 | `kt:implicit-sharing` | `kt:role-hierarchy`, `kt:salesforce-sharing-model` |
+| `kt:knowledge-base` | `kt:experience-cloud`, `kt:service-cloud` |
 | `kt:large-data-volumes` | `kt:data-migration-strategy`, `kt:data-skew` |
 | `kt:metadata-driven-architecture` | `kt:multitenancy`, `kt:salesforce-platform` |
 | `kt:mulesoft-anypoint-platform` | `kt:flow-orchestrator`, `kt:government-cloud-plus` |
 | `kt:oauth-2-0` | `kt:connected-apps`, `kt:external-client-apps` |
 | `kt:oauth-2-flows-in-salesforce` | `kt:connected-apps`, `kt:external-client-apps` |
 | `kt:object-relationships` | `kt:lookup-vs-master-detail`, `kt:roll-up-summary-field` |
-| `kt:organization-wide-defaults` | `kt:role-hierarchy`, `kt:salesforce-sharing-model` |
 | `kt:outbound-messaging` | `kt:change-data-capture`, `kt:platform-events` |
 | `kt:process-builder` | `kt:flow-builder`, `kt:record-triggered-flow` |
 | `kt:pub-sub-api` | `kt:change-data-capture`, `kt:platform-events` |
@@ -54,14 +54,16 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:einstein-trust-layer` | `kt:agentforce` |
 | `kt:enterprise-territory-management` | `kt:role-hierarchy` |
 | `kt:entitlement-management` | `kt:service-cloud` |
+| `kt:experience-builder` | `kt:experience-cloud` |
+| `kt:experience-cloud-identity` | `kt:experience-cloud` |
 | `kt:external-id-fields` | `kt:data-migration-strategy` |
 | `kt:fedramp-high` | `kt:government-cloud-plus` |
 | `kt:future-methods` | `kt:asynchronous-apex` |
 | `kt:government-cloud` | `kt:government-cloud-plus` |
 | `kt:il4-and-il5` | `kt:government-cloud-plus` |
 | `kt:junction-object` | `kt:lookup-vs-master-detail` |
-| `kt:knowledge-base` | `kt:service-cloud` |
 | `kt:lightning-service-console` | `kt:service-cloud` |
+| `kt:lightning-web-components` | `kt:experience-cloud` |
 | `kt:limit-exception` | `kt:governor-limits` |
 | `kt:limits-class` | `kt:governor-limits` |
 | `kt:omni-channel-limits` | `kt:omni-channel` |
