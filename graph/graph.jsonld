@@ -2071,6 +2071,102 @@
       ]
     },
     {
+      "@id": "kt:salesforce-dx",
+      "@type": "kto:Tool",
+      "skos:prefLabel": "Salesforce DX",
+      "skos:definition": "Salesforce's developer tooling for source-driven development across the app lifecycle: a local project kept in version control as the source of truth, worked on with Salesforce CLI, scratch orgs, a Dev Hub and packaging.",
+      "kto:domain": "devops-and-alm",
+      "dcterms:created": "2026-11-01",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "How Salesforce Developer Experience (DX) Tooling Changes the Way You Work",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/sfdx-dev/guide/sfdx-dev-intro.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Salesforce DX Project Structure and Source Format",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/sfdx-dev/guide/sfdx-dev-source-file-format.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Salesforce DX Project Configuration",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/sfdx-dev/guide/sfdx-dev-ws-config.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Select and Enable a Dev Hub Org",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/sfdx-dev/guide/sfdx-setup-enable-devhub.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "App Development with Salesforce DX: Get Ready to Create an App",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/sfdx_app_dev/sfdx_app_dev_create_app",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Salesforce DX Is Now Generally Available",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2017/10/salesforce-dx-is-now-generally-available",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/devops-and-alm/salesforce-dx.md",
+      "skos:altLabel": [
+        "SFDX",
+        "Salesforce Developer Experience",
+        "DX project",
+        "Salesforce DX project",
+        "sfdx-project.json"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:application-lifecycle-management"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:devops-center"
+        },
+        {
+          "@id": "kt:change-sets"
+        },
+        {
+          "@id": "kt:sandbox-types"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:salesforce-cli"
+        },
+        {
+          "@id": "kt:scratch-orgs"
+        },
+        {
+          "@id": "kt:source-tracking"
+        },
+        {
+          "@id": "kt:dev-hub"
+        }
+      ],
+      "kto:enables": [
+        {
+          "@id": "kt:unlocked-packages"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:metadata-api"
+        }
+      ]
+    },
+    {
       "@id": "kt:scratch-orgs",
       "@type": "kto:Feature",
       "skos:prefLabel": "Scratch Orgs",
