@@ -6,6 +6,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 |---|---|
 | `kt:large-data-volumes` | `kt:archiving-strategy`, `kt:data-migration-strategy`, `kt:data-skew` |
 | `kt:lightning-web-components` | `kt:screen-flow`, `kt:experience-cloud`, `kt:apex` |
+| `kt:object-relationships` | `kt:junction-object`, `kt:lookup-vs-master-detail`, `kt:roll-up-summary-field` |
 | `kt:salesforce-identity` | `kt:connected-apps`, `kt:external-client-apps`, `kt:multi-factor-authentication` |
 | `kt:sharing-recalculation` | `kt:data-skew`, `kt:organization-wide-defaults`, `kt:role-hierarchy` |
 | `kt:sharing-rules` | `kt:organization-wide-defaults`, `kt:role-hierarchy`, `kt:salesforce-sharing-model` |
@@ -28,7 +29,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:namespace-registry` | `kt:dev-hub`, `kt:second-generation-managed-packages` |
 | `kt:oauth-2-0` | `kt:connected-apps`, `kt:external-client-apps` |
 | `kt:oauth-2-flows-in-salesforce` | `kt:connected-apps`, `kt:external-client-apps` |
-| `kt:object-relationships` | `kt:lookup-vs-master-detail`, `kt:roll-up-summary-field` |
 | `kt:outbound-messaging` | `kt:change-data-capture`, `kt:platform-events` |
 | `kt:process-builder` | `kt:flow-builder`, `kt:record-triggered-flow` |
 | `kt:pub-sub-api` | `kt:change-data-capture`, `kt:platform-events` |
@@ -65,7 +65,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:identity-resolution` | `kt:data-cloud` |
 | `kt:integration-security` | `kt:named-credentials` |
 | `kt:invocable-actions-api` | `kt:autolaunched-flow` |
-| `kt:junction-object` | `kt:lookup-vs-master-detail` |
 | `kt:lead-conversion` | `kt:sales-cloud` |
 | `kt:legacy-named-credentials` | `kt:named-credentials` |
 | `kt:lightning-service-console` | `kt:service-cloud` |

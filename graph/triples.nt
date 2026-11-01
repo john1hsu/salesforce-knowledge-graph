@@ -678,6 +678,30 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/il4-and-il5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#partOf> <https://github.com/john1hsu/salesforce-knowledge-graph/id/dod-cloud-computing-srg> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/il4-and-il5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/il4-and-il5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/junction-object> <http://purl.org/dc/terms/created> "2026-11-01" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/junction-object> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Pattern> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/junction-object> <http://www.w3.org/2000/01/rdf-schema#label> "Junction Object" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/junction-object> <http://www.w3.org/2004/02/skos/core#altLabel> "association object" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/junction-object> <http://www.w3.org/2004/02/skos/core#altLabel> "junction objects" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/junction-object> <http://www.w3.org/2004/02/skos/core#altLabel> "linking object" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/junction-object> <http://www.w3.org/2004/02/skos/core#altLabel> "many-to-many object relationship" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/junction-object> <http://www.w3.org/2004/02/skos/core#altLabel> "many-to-many relationship" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/junction-object> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/object-relationships> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/junction-object> <http://www.w3.org/2004/02/skos/core#definition> "A custom object with two master-detail relationship fields, used on the Salesforce platform to model a many-to-many relationship between two objects; each junction record represents one pairing of a record from each master." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/junction-object> <http://www.w3.org/2004/02/skos/core#prefLabel> "Junction Object" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/junction-object> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-triggers> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/junction-object> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-skew> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/junction-object> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-sharing-model> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/junction-object> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/junction-object/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/junction-object> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/junction-object/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/junction-object> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/junction-object/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/junction-object> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/junction-object/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/junction-object> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/junction-object/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/junction-object> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/lookup-vs-master-detail> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/junction-object> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "data-model" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/junction-object> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#enables> <https://github.com/john1hsu/salesforce-knowledge-graph/id/roll-up-summary-field> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/junction-object> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/junction-object> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/lookup-vs-master-detail> <http://purl.org/dc/terms/created> "2026-10-30" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/lookup-vs-master-detail> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/lookup-vs-master-detail> <http://www.w3.org/2000/01/rdf-schema#label> "Lookup vs. Master-Detail Relationships" .
@@ -2060,6 +2084,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/il4-and-il5/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/il4-and-il5/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "news" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/il4-and-il5/s5> <https://schema.org/url> "https://defensescoop.com/?p=130372" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/junction-object/s1> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/junction-object/s1> <http://purl.org/dc/terms/title> "Create a Many-to-Many Object Relationship" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/junction-object/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/junction-object/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/junction-object/s1> <https://schema.org/url> "https://help.salesforce.com/s/articleView?language=en_US&id=sf.relationships_manytomany.htm&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/junction-object/s2> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/junction-object/s2> <http://purl.org/dc/terms/title> "Considerations for Object Relationships" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/junction-object/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/junction-object/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/junction-object/s2> <https://schema.org/url> "https://help.salesforce.com/s/articleView?language=en_US&id=sf.relationships_considerations.htm&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/junction-object/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/junction-object/s3> <http://purl.org/dc/terms/title> "Relationships Among Standard Objects and Fields" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/junction-object/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/junction-object/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/junction-object/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/api/relationships_among_objects.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/junction-object/s4> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/junction-object/s4> <http://purl.org/dc/terms/title> "Build a Data Model for a Recruiting App: Create a Junction Object for Job Postings" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/junction-object/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/junction-object/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/junction-object/s4> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/projects/build-a-data-model-for-a-recruiting-app/junction-object-job-postings" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/junction-object/s5> <http://purl.org/dc/terms/publisher> "Salesforce Admins Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/junction-object/s5> <http://purl.org/dc/terms/title> "How Salesforce Uses Junction Objects to Enrich Reporting" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/junction-object/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/junction-object/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/junction-object/s5> <https://schema.org/url> "https://admin.salesforce.com/blog/2022/how-salesforce-uses-junction-objects-to-enrich-reporting" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lookup-vs-master-detail/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lookup-vs-master-detail/s1> <http://purl.org/dc/terms/title> "Data Modeling: Create Object Relationships" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lookup-vs-master-detail/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

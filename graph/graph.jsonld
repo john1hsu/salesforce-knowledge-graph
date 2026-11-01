@@ -1627,6 +1627,82 @@
       ]
     },
     {
+      "@id": "kt:junction-object",
+      "@type": "kto:Pattern",
+      "skos:prefLabel": "Junction Object",
+      "skos:definition": "A custom object with two master-detail relationship fields, used on the Salesforce platform to model a many-to-many relationship between two objects; each junction record represents one pairing of a record from each master.",
+      "kto:domain": "data-model",
+      "dcterms:created": "2026-11-01",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Create a Many-to-Many Object Relationship",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=sf.relationships_manytomany.htm&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Considerations for Object Relationships",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=sf.relationships_considerations.htm&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Relationships Among Standard Objects and Fields",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/api/relationships_among_objects.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Build a Data Model for a Recruiting App: Create a Junction Object for Job Postings",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/projects/build-a-data-model-for-a-recruiting-app/junction-object-job-postings",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "How Salesforce Uses Junction Objects to Enrich Reporting",
+          "dcterms:publisher": "Salesforce Admins Blog",
+          "schema:url": "https://admin.salesforce.com/blog/2022/how-salesforce-uses-junction-objects-to-enrich-reporting",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/data-model/junction-object.md",
+      "skos:altLabel": [
+        "junction objects",
+        "many-to-many relationship",
+        "many-to-many object relationship",
+        "linking object",
+        "association object"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:object-relationships"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:salesforce-sharing-model"
+        },
+        {
+          "@id": "kt:data-skew"
+        },
+        {
+          "@id": "kt:apex-triggers"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:lookup-vs-master-detail"
+        }
+      ],
+      "kto:enables": [
+        {
+          "@id": "kt:roll-up-summary-field"
+        }
+      ]
+    },
+    {
       "@id": "kt:lookup-vs-master-detail",
       "@type": "kto:Concept",
       "skos:prefLabel": "Lookup vs. Master-Detail Relationships",

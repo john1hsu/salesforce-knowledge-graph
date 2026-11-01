@@ -622,6 +622,30 @@
     ]
   },
   {
+    "id": "kt:junction-object",
+    "title": "Junction Object",
+    "aliases": [
+      "junction objects",
+      "many-to-many relationship",
+      "many-to-many object relationship",
+      "linking object",
+      "association object"
+    ],
+    "type": "Pattern",
+    "domain": "data-model",
+    "file": "articles/data-model/junction-object.md",
+    "created": "2026-11-01",
+    "release": "Winter '27",
+    "status": "current",
+    "source_urls": [
+      "https://help.salesforce.com/s/articleView?language=en_US&id=sf.relationships_manytomany.htm&type=5",
+      "https://help.salesforce.com/s/articleView?language=en_US&id=sf.relationships_considerations.htm&type=5",
+      "https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/api/relationships_among_objects.htm",
+      "https://trailhead.salesforce.com/content/learn/projects/build-a-data-model-for-a-recruiting-app/junction-object-job-postings",
+      "https://admin.salesforce.com/blog/2022/how-salesforce-uses-junction-objects-to-enrich-reporting"
+    ]
+  },
+  {
     "id": "kt:lookup-vs-master-detail",
     "title": "Lookup vs. Master-Detail Relationships",
     "aliases": [
