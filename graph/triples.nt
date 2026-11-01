@@ -857,6 +857,30 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-events> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/pub-sub-api> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-events> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-events> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/process-automation> <http://purl.org/dc/terms/created> "2026-11-01" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/process-automation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/process-automation> <http://www.w3.org/2000/01/rdf-schema#label> "Process Automation" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/process-automation> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce automation tools" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/process-automation> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce process automation" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/process-automation> <http://www.w3.org/2004/02/skos/core#altLabel> "business process automation" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/process-automation> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-platform> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/process-automation> <http://www.w3.org/2004/02/skos/core#definition> "The umbrella for the Salesforce tools that run business logic without manual steps: Flow (the main declarative tool), approval processes, orchestration, and Apex for code-based automation. Choosing between them depends on automation density." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/process-automation> <http://www.w3.org/2004/02/skos/core#prefLabel> "Process Automation" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/process-automation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-triggers> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/process-automation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-builder> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/process-automation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-orchestrator> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/process-automation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/order-of-execution> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/process-automation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/process-automation/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/process-automation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/process-automation/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/process-automation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/process-automation/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/process-automation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/process-automation/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/process-automation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/process-automation/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/process-automation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/process-automation/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/process-automation> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "automation" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/process-automation> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#governedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/governor-limits> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/process-automation> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/approval-processes> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/process-automation> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/process-automation> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/public-sector-solutions> <http://purl.org/dc/terms/created> "2026-10-31" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/public-sector-solutions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Product> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/public-sector-solutions> <http://www.w3.org/2000/01/rdf-schema#label> "Public Sector Solutions" .
@@ -2175,6 +2199,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/platform-events/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/platform-events/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/platform-events/s6> <https://schema.org/url> "https://developer.salesforce.com/blogs/2022/10/design-considerations-for-change-data-capture-and-platform-events" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/process-automation/s1> <http://purl.org/dc/terms/publisher> "Salesforce Architects" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/process-automation/s1> <http://purl.org/dc/terms/title> "Record-Triggered Automation Decision Guide" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/process-automation/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/process-automation/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/process-automation/s1> <https://schema.org/url> "https://architect.salesforce.com/docs/architect/decision-guides/guide/record-triggered" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/process-automation/s2> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/process-automation/s2> <http://purl.org/dc/terms/title> "Record-Triggered Automation: Apex or Flow?" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/process-automation/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/process-automation/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/process-automation/s2> <https://schema.org/url> "https://www.salesforce.com/blog/record-triggered-automation-apex-or-flow" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/process-automation/s3> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/process-automation/s3> <http://purl.org/dc/terms/title> "Automate Business Processes (trail)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/process-automation/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/process-automation/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/process-automation/s3> <https://schema.org/url> "https://trailhead.salesforce.com/trails/automate_business_processes" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/process-automation/s4> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/process-automation/s4> <http://purl.org/dc/terms/title> "Business Process Automation: Customize How Records Get Approved" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/process-automation/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/process-automation/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/process-automation/s4> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/business_process_automation/approvals" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/process-automation/s5> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/process-automation/s5> <http://purl.org/dc/terms/title> "Planning Your Switch to Flow Builder" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/process-automation/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/process-automation/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/process-automation/s5> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=sf.flow_migrate_to_flow_best_practices.htm&language=en_US&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/process-automation/s6> <http://purl.org/dc/terms/publisher> "Salesforce Admins" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/process-automation/s6> <http://purl.org/dc/terms/title> "Go with the Flow: What's Happening with Workflow Rules and Process Builder?" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/process-automation/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/process-automation/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/process-automation/s6> <https://schema.org/url> "https://admin.salesforce.com/blog/2021/go-with-the-flow-whats-happening-with-workflow-rules-and-process-builder" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/public-sector-solutions/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/public-sector-solutions/s1> <http://purl.org/dc/terms/title> "Explore the Components of Public Sector Solutions" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/public-sector-solutions/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

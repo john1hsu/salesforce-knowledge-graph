@@ -598,6 +598,89 @@
       ]
     },
     {
+      "@id": "kt:process-automation",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Process Automation",
+      "skos:definition": "The umbrella for the Salesforce tools that run business logic without manual steps: Flow (the main declarative tool), approval processes, orchestration, and Apex for code-based automation. Choosing between them depends on automation density.",
+      "kto:domain": "automation",
+      "dcterms:created": "2026-11-01",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Record-Triggered Automation Decision Guide",
+          "dcterms:publisher": "Salesforce Architects",
+          "schema:url": "https://architect.salesforce.com/docs/architect/decision-guides/guide/record-triggered",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Record-Triggered Automation: Apex or Flow?",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/blog/record-triggered-automation-apex-or-flow",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Automate Business Processes (trail)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/trails/automate_business_processes",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Business Process Automation: Customize How Records Get Approved",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/business_process_automation/approvals",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Planning Your Switch to Flow Builder",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=sf.flow_migrate_to_flow_best_practices.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Go with the Flow: What's Happening with Workflow Rules and Process Builder?",
+          "dcterms:publisher": "Salesforce Admins",
+          "schema:url": "https://admin.salesforce.com/blog/2021/go-with-the-flow-whats-happening-with-workflow-rules-and-process-builder",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/automation/process-automation.md",
+      "skos:altLabel": [
+        "Salesforce process automation",
+        "business process automation",
+        "Salesforce automation tools"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-platform"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:flow-builder"
+        },
+        {
+          "@id": "kt:flow-orchestrator"
+        },
+        {
+          "@id": "kt:apex-triggers"
+        },
+        {
+          "@id": "kt:order-of-execution"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:approval-processes"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:governor-limits"
+        }
+      ]
+    },
+    {
       "@id": "kt:record-triggered-flow",
       "@type": "kto:Feature",
       "skos:prefLabel": "Record-Triggered Flow",

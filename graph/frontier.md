@@ -4,7 +4,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:process-automation` | `kt:autolaunched-flow`, `kt:flow-builder`, `kt:flow-orchestrator`, `kt:record-triggered-flow`, `kt:screen-flow` |
 | `kt:hyperforce` | `kt:multitenancy`, `kt:salesforce-platform`, `kt:government-cloud-plus` |
 | `kt:large-data-volumes` | `kt:archiving-strategy`, `kt:data-migration-strategy`, `kt:data-skew` |
 | `kt:lightning-web-components` | `kt:screen-flow`, `kt:experience-cloud`, `kt:apex` |
@@ -12,6 +11,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:sharing-recalculation` | `kt:data-skew`, `kt:organization-wide-defaults`, `kt:role-hierarchy` |
 | `kt:sharing-rules` | `kt:organization-wide-defaults`, `kt:role-hierarchy`, `kt:salesforce-sharing-model` |
 | `kt:single-sign-on-saml` | `kt:connected-apps`, `kt:external-client-apps`, `kt:multi-factor-authentication` |
+| `kt:approval-processes` | `kt:flow-orchestrator`, `kt:process-automation` |
 | `kt:bulk-api-2` | `kt:data-migration-strategy`, `kt:record-locking` |
 | `kt:code-analyzer` | `kt:salesforce-cli`, `kt:second-generation-managed-packages` |
 | `kt:data-architecture` | `kt:archiving-strategy`, `kt:data-migration-strategy` |
@@ -43,7 +43,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:agentforce-dx` | `kt:agent-development-lifecycle` |
 | `kt:agentforce-testing-center` | `kt:agent-development-lifecycle` |
 | `kt:apex-managed-sharing` | `kt:salesforce-sharing-model` |
-| `kt:approval-processes` | `kt:flow-orchestrator` |
 | `kt:atlas-reasoning-engine` | `kt:agentforce` |
 | `kt:backup-and-recover` | `kt:archiving-strategy` |
 | `kt:batch-apex` | `kt:asynchronous-apex` |
