@@ -6,9 +6,9 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 |---|---|
 | `kt:scratch-orgs` | `kt:environment-strategy`, `kt:application-lifecycle-management`, `kt:devops-center`, `kt:salesforce-cli`, `kt:sandbox-types` |
 | `kt:apex` | `kt:apex-testing`, `kt:apex-triggers`, `kt:asynchronous-apex`, `kt:salesforce-platform` |
+| `kt:record-locking` | `kt:data-migration-strategy`, `kt:data-skew`, `kt:lookup-vs-master-detail`, `kt:roll-up-summary-field` |
 | `kt:hyperforce` | `kt:multitenancy`, `kt:salesforce-platform`, `kt:government-cloud-plus` |
 | `kt:process-automation` | `kt:flow-builder`, `kt:flow-orchestrator`, `kt:record-triggered-flow` |
-| `kt:record-locking` | `kt:data-skew`, `kt:lookup-vs-master-detail`, `kt:roll-up-summary-field` |
 | `kt:screen-flow` | `kt:flow-builder`, `kt:flow-orchestrator`, `kt:record-triggered-flow` |
 | `kt:source-tracking` | `kt:application-lifecycle-management`, `kt:devops-center`, `kt:salesforce-cli` |
 | `kt:autolaunched-flow` | `kt:flow-orchestrator`, `kt:record-triggered-flow` |
@@ -16,6 +16,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:experience-cloud` | `kt:service-cloud`, `kt:public-sector-solutions` |
 | `kt:flow-trigger-explorer` | `kt:record-triggered-flow`, `kt:order-of-execution` |
 | `kt:implicit-sharing` | `kt:role-hierarchy`, `kt:salesforce-sharing-model` |
+| `kt:large-data-volumes` | `kt:data-migration-strategy`, `kt:data-skew` |
 | `kt:metadata-driven-architecture` | `kt:multitenancy`, `kt:salesforce-platform` |
 | `kt:mulesoft-anypoint-platform` | `kt:flow-orchestrator`, `kt:government-cloud-plus` |
 | `kt:oauth-2-0` | `kt:connected-apps`, `kt:external-client-apps` |
@@ -41,22 +42,25 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:agentforce-testing-center` | `kt:agent-development-lifecycle` |
 | `kt:apex-managed-sharing` | `kt:salesforce-sharing-model` |
 | `kt:approval-processes` | `kt:flow-orchestrator` |
+| `kt:archiving-strategy` | `kt:data-migration-strategy` |
 | `kt:atlas-reasoning-engine` | `kt:agentforce` |
 | `kt:batch-apex` | `kt:asynchronous-apex` |
+| `kt:bulk-api-2` | `kt:data-migration-strategy` |
 | `kt:business-rules-engine` | `kt:public-sector-solutions` |
 | `kt:change-data-capture-allocations` | `kt:change-data-capture` |
 | `kt:code-analyzer` | `kt:salesforce-cli` |
+| `kt:data-architecture` | `kt:data-migration-strategy` |
 | `kt:data-cloud` | `kt:agentforce` |
 | `kt:einstein-trust-layer` | `kt:agentforce` |
 | `kt:enterprise-territory-management` | `kt:role-hierarchy` |
 | `kt:entitlement-management` | `kt:service-cloud` |
+| `kt:external-id-fields` | `kt:data-migration-strategy` |
 | `kt:fedramp-high` | `kt:government-cloud-plus` |
 | `kt:future-methods` | `kt:asynchronous-apex` |
 | `kt:government-cloud` | `kt:government-cloud-plus` |
 | `kt:il4-and-il5` | `kt:government-cloud-plus` |
 | `kt:junction-object` | `kt:lookup-vs-master-detail` |
 | `kt:knowledge-base` | `kt:service-cloud` |
-| `kt:large-data-volumes` | `kt:data-skew` |
 | `kt:lightning-service-console` | `kt:service-cloud` |
 | `kt:limit-exception` | `kt:governor-limits` |
 | `kt:limits-class` | `kt:governor-limits` |

@@ -223,6 +223,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/connected-apps> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#replacedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/external-client-apps> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/connected-apps> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/connected-apps> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-migration-strategy> <http://purl.org/dc/terms/created> "2026-11-01" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-migration-strategy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-migration-strategy> <http://www.w3.org/2000/01/rdf-schema#label> "Data Migration Strategy" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-migration-strategy> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce data migration" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-migration-strategy> <http://www.w3.org/2004/02/skos/core#altLabel> "data load strategy" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-migration-strategy> <http://www.w3.org/2004/02/skos/core#altLabel> "data migration plan" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-migration-strategy> <http://www.w3.org/2004/02/skos/core#altLabel> "initial data load" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-migration-strategy> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-architecture> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-migration-strategy> <http://www.w3.org/2004/02/skos/core#definition> "The architectural plan for moving legacy data into a Salesforce org: what gets loaded, in which order, with which API and keys, and how the org is temporarily configured so the load is fast, lock-free and recoverable." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-migration-strategy> <http://www.w3.org/2004/02/skos/core#prefLabel> "Data Migration Strategy" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-migration-strategy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/archiving-strategy> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-migration-strategy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-skew> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-migration-strategy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/environment-strategy> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-migration-strategy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/large-data-volumes> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-migration-strategy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-migration-strategy/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-migration-strategy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-migration-strategy/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-migration-strategy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-migration-strategy/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-migration-strategy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-migration-strategy/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-migration-strategy> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/external-id-fields> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-migration-strategy> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-types> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-migration-strategy> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "architecture-practice" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-migration-strategy> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#mitigates> <https://github.com/john1hsu/salesforce-knowledge-graph/id/record-locking> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-migration-strategy> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/bulk-api-2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-migration-strategy> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-migration-strategy> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-skew> <http://purl.org/dc/terms/created> "2026-10-31" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-skew> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#AntiPattern> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-skew> <http://www.w3.org/2000/01/rdf-schema#label> "Data Skew" .
@@ -1048,6 +1073,26 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/connected-apps/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/connected-apps/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "standards-body" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/connected-apps/s5> <https://schema.org/url> "https://rfc-editor.org/rfc/rfc6749" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-migration-strategy/s1> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-migration-strategy/s1> <http://purl.org/dc/terms/title> "Loading Data from the API (Best Practices for Deployments with Large Data Volumes)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-migration-strategy/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-migration-strategy/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-migration-strategy/s1> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/salesforce-large-data-volumes-bp/guide/ldv-deployments-best-practices-api-loading-data.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-migration-strategy/s2> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-migration-strategy/s2> <http://purl.org/dc/terms/title> "General Best Practices (Best Practices for Deployments with Large Data Volumes)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-migration-strategy/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-migration-strategy/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-migration-strategy/s2> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/salesforce-large-data-volumes-bp/guide/ldv-deployments-best-practices-general.md" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-migration-strategy/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-migration-strategy/s3> <http://purl.org/dc/terms/title> "Extreme Force.com Data Loading, Part 4: Sequencing Load Operations" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-migration-strategy/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-migration-strategy/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-migration-strategy/s3> <https://schema.org/url> "https://developer.salesforce.com/blogs/2013/06/extreme-force-com-data-loading-part-4-sequencing-load-operations" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-migration-strategy/s4> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-migration-strategy/s4> <http://purl.org/dc/terms/title> "Step 5: Bulk Upsert (Bulk API 2.0 and Bulk API Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-migration-strategy/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-migration-strategy/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-migration-strategy/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.api_asynch.meta/api_bulk_v2/walkthrough_upsert.htm" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-skew/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-skew/s1> <http://purl.org/dc/terms/title> "Large Data Volumes: Design Your Data Model" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-skew/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

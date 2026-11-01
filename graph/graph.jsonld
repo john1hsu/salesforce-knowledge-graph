@@ -10,6 +10,86 @@
   },
   "@graph": [
     {
+      "@id": "kt:data-migration-strategy",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Data Migration Strategy",
+      "skos:definition": "The architectural plan for moving legacy data into a Salesforce org: what gets loaded, in which order, with which API and keys, and how the org is temporarily configured so the load is fast, lock-free and recoverable.",
+      "kto:domain": "architecture-practice",
+      "dcterms:created": "2026-11-01",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Loading Data from the API (Best Practices for Deployments with Large Data Volumes)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/platform/salesforce-large-data-volumes-bp/guide/ldv-deployments-best-practices-api-loading-data.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "General Best Practices (Best Practices for Deployments with Large Data Volumes)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/platform/salesforce-large-data-volumes-bp/guide/ldv-deployments-best-practices-general.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Extreme Force.com Data Loading, Part 4: Sequencing Load Operations",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2013/06/extreme-force-com-data-loading-part-4-sequencing-load-operations",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Step 5: Bulk Upsert (Bulk API 2.0 and Bulk API Developer Guide)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api_asynch.meta/api_bulk_v2/walkthrough_upsert.htm",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/architecture-practice/data-migration-strategy.md",
+      "skos:altLabel": [
+        "Salesforce data migration",
+        "data migration plan",
+        "data load strategy",
+        "initial data load"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:data-architecture"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:large-data-volumes"
+        },
+        {
+          "@id": "kt:environment-strategy"
+        },
+        {
+          "@id": "kt:data-skew"
+        },
+        {
+          "@id": "kt:archiving-strategy"
+        }
+      ],
+      "kto:queriedWith": [
+        {
+          "@id": "kt:bulk-api-2"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:external-id-fields"
+        },
+        {
+          "@id": "kt:sandbox-types"
+        }
+      ],
+      "kto:mitigates": [
+        {
+          "@id": "kt:record-locking"
+        }
+      ]
+    },
+    {
       "@id": "kt:environment-strategy",
       "@type": "kto:Concept",
       "skos:prefLabel": "Environment Strategy",

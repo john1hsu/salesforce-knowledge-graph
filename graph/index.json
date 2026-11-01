@@ -208,6 +208,28 @@
     ]
   },
   {
+    "id": "kt:data-migration-strategy",
+    "title": "Data Migration Strategy",
+    "aliases": [
+      "Salesforce data migration",
+      "data migration plan",
+      "data load strategy",
+      "initial data load"
+    ],
+    "type": "Concept",
+    "domain": "architecture-practice",
+    "file": "articles/architecture-practice/data-migration-strategy.md",
+    "created": "2026-11-01",
+    "release": "Winter '27",
+    "status": "concept",
+    "source_urls": [
+      "https://developer.salesforce.com/docs/platform/salesforce-large-data-volumes-bp/guide/ldv-deployments-best-practices-api-loading-data.html",
+      "https://developer.salesforce.com/docs/platform/salesforce-large-data-volumes-bp/guide/ldv-deployments-best-practices-general.md",
+      "https://developer.salesforce.com/blogs/2013/06/extreme-force-com-data-loading-part-4-sequencing-load-operations",
+      "https://developer.salesforce.com/docs/atlas.en-us.api_asynch.meta/api_bulk_v2/walkthrough_upsert.htm"
+    ]
+  },
+  {
     "id": "kt:data-skew",
     "title": "Data Skew",
     "aliases": [
