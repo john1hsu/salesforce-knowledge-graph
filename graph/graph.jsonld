@@ -2432,6 +2432,103 @@
       ]
     },
     {
+      "@id": "kt:second-generation-managed-packages",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Second-Generation Managed Packages",
+      "skos:definition": "Salesforce's current packaging technology for ISV partners: immutable, versioned managed packages built from source control with Salesforce CLI and a Dev Hub, sharing one namespace, and distributed to subscribers via AgentExchange.",
+      "kto:domain": "devops-and-alm",
+      "dcterms:created": "2026-11-01",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Second-Generation Managed Packaging Developer Guide",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.264.0.sfdx_dev.meta/sfdx_dev/sfdx_dev_dev2gp.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Before You Create Second-Generation Managed Packages",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/pkg2-dev/guide/sfdx-dev-dev2gp-before.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Workflow for Second-Generation Managed Packages",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/pkg2-dev/guide/sfdx-dev-dev2gp-workflow.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Code Coverage for Second-Generation Managed Packages",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/pkg2-dev/guide/sfdx-dev-dev2gp-code-coverage.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Gaps Between First-Generation and Second-Generation Managed Packaging",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/pkg2-dev/guide/sfdx-dev-dev2gp-known-limitations.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Move to Managed 2GP with Package Migrations",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2025/06/move-to-managed-2gp-with-package-migrations",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/devops-and-alm/second-generation-managed-packages.md",
+      "skos:altLabel": [
+        "managed 2GP",
+        "2GP",
+        "second-generation managed packaging",
+        "2GP managed package"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:application-lifecycle-management"
+        },
+        {
+          "@id": "kt:salesforce-dx"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:scratch-orgs"
+        },
+        {
+          "@id": "kt:apex-testing"
+        },
+        {
+          "@id": "kt:code-analyzer"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:dev-hub"
+        },
+        {
+          "@id": "kt:namespace-registry"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:salesforce-cli"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:unlocked-packages"
+        }
+      ],
+      "kto:replaces": [
+        {
+          "@id": "kt:first-generation-managed-packages"
+        }
+      ]
+    },
+    {
       "@id": "kt:source-tracking",
       "@type": "kto:Feature",
       "skos:prefLabel": "Source Tracking",

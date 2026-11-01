@@ -4,7 +4,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:second-generation-managed-packages` | `kt:dev-hub`, `kt:unlocked-packages`, `kt:external-client-apps`, `kt:external-client-apps` |
 | `kt:hyperforce` | `kt:multitenancy`, `kt:salesforce-platform`, `kt:government-cloud-plus` |
 | `kt:large-data-volumes` | `kt:archiving-strategy`, `kt:data-migration-strategy`, `kt:data-skew` |
 | `kt:process-automation` | `kt:flow-builder`, `kt:flow-orchestrator`, `kt:record-triggered-flow` |
@@ -15,6 +14,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:single-sign-on-saml` | `kt:connected-apps`, `kt:external-client-apps`, `kt:multi-factor-authentication` |
 | `kt:autolaunched-flow` | `kt:flow-orchestrator`, `kt:record-triggered-flow` |
 | `kt:bulk-api-2` | `kt:data-migration-strategy`, `kt:record-locking` |
+| `kt:code-analyzer` | `kt:salesforce-cli`, `kt:second-generation-managed-packages` |
 | `kt:data-architecture` | `kt:archiving-strategy`, `kt:data-migration-strategy` |
 | `kt:event-driven-architecture` | `kt:change-data-capture`, `kt:platform-events` |
 | `kt:experience-cloud-identity` | `kt:experience-cloud`, `kt:multi-factor-authentication` |
@@ -25,6 +25,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:lightning-web-components` | `kt:experience-cloud`, `kt:apex` |
 | `kt:metadata-driven-architecture` | `kt:multitenancy`, `kt:salesforce-platform` |
 | `kt:mulesoft-anypoint-platform` | `kt:flow-orchestrator`, `kt:government-cloud-plus` |
+| `kt:namespace-registry` | `kt:dev-hub`, `kt:second-generation-managed-packages` |
 | `kt:oauth-2-0` | `kt:connected-apps`, `kt:external-client-apps` |
 | `kt:oauth-2-flows-in-salesforce` | `kt:connected-apps`, `kt:external-client-apps` |
 | `kt:object-relationships` | `kt:lookup-vs-master-detail`, `kt:roll-up-summary-field` |
@@ -51,7 +52,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:business-rules-engine` | `kt:public-sector-solutions` |
 | `kt:calculated-insights` | `kt:data-cloud` |
 | `kt:change-data-capture-allocations` | `kt:change-data-capture` |
-| `kt:code-analyzer` | `kt:salesforce-cli` |
 | `kt:data-model-objects` | `kt:data-cloud` |
 | `kt:data-residency` | `kt:il4-and-il5` |
 | `kt:dod-cloud-computing-srg` | `kt:il4-and-il5` |
@@ -61,6 +61,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:experience-builder` | `kt:experience-cloud` |
 | `kt:external-id-fields` | `kt:data-migration-strategy` |
 | `kt:fedramp` | `kt:il4-and-il5` |
+| `kt:first-generation-managed-packages` | `kt:second-generation-managed-packages` |
 | `kt:future-methods` | `kt:asynchronous-apex` |
 | `kt:government-cloud` | `kt:government-cloud-plus` |
 | `kt:identity-and-access-management-architect-certification` | `kt:multi-factor-authentication` |
@@ -72,7 +73,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:limit-exception` | `kt:governor-limits` |
 | `kt:limits-class` | `kt:governor-limits` |
 | `kt:my-domain` | `kt:multi-factor-authentication` |
-| `kt:namespace-registry` | `kt:dev-hub` |
 | `kt:nist-digital-identity-guidelines` | `kt:multi-factor-authentication` |
 | `kt:omni-channel-limits` | `kt:omni-channel` |
 | `kt:omnistudio` | `kt:public-sector-solutions` |
