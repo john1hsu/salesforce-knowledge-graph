@@ -627,6 +627,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/multitenancy> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#enables> <https://github.com/john1hsu/salesforce-knowledge-graph/id/governor-limits> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/multitenancy> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/multitenancy> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/named-credentials> <http://purl.org/dc/terms/created> "2026-11-01" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/named-credentials> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/named-credentials> <http://www.w3.org/2000/01/rdf-schema#label> "Named Credentials" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/named-credentials> <http://www.w3.org/2004/02/skos/core#altLabel> "callout named credential" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/named-credentials> <http://www.w3.org/2004/02/skos/core#altLabel> "enhanced named credentials" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/named-credentials> <http://www.w3.org/2004/02/skos/core#altLabel> "external credential" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/named-credentials> <http://www.w3.org/2004/02/skos/core#altLabel> "external credentials" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/named-credentials> <http://www.w3.org/2004/02/skos/core#altLabel> "named credential" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/named-credentials> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-security> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/named-credentials> <http://www.w3.org/2004/02/skos/core#definition> "Salesforce's declarative way to define an outbound callout endpoint (named credential) separately from how Salesforce authenticates to it (external credential), so Apex, External Services and Salesforce Connect can call external systems without hard-coded URLs, secrets or remote site settings." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/named-credentials> <http://www.w3.org/2004/02/skos/core#prefLabel> "Named Credentials" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/named-credentials> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/named-credentials> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/connected-apps> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/named-credentials> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/named-credentials/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/named-credentials> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/named-credentials/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/named-credentials> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/named-credentials/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/named-credentials> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/named-credentials/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/named-credentials> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/named-credentials/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/named-credentials> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#alternativeTo> <https://github.com/john1hsu/salesforce-knowledge-graph/id/remote-site-settings> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/named-credentials> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/permission-sets> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/named-credentials> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "integration" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/named-credentials> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#enables> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-connect> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/named-credentials> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#replaces> <https://github.com/john1hsu/salesforce-knowledge-graph/id/legacy-named-credentials> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/named-credentials> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/named-credentials> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/omni-channel> <http://purl.org/dc/terms/created> "2026-10-30" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/omni-channel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/omni-channel> <http://www.w3.org/2000/01/rdf-schema#label> "Omni-Channel" .
@@ -1682,6 +1707,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multitenancy/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multitenancy/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multitenancy/s4> <https://schema.org/url> "https://admin.salesforce.com/blog/2025/the-apartment-analogy-making-sense-of-salesforces-multitenant-architecture" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/named-credentials/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/named-credentials/s1> <http://purl.org/dc/terms/title> "Get Started with Named Credentials" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/named-credentials/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/named-credentials/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/named-credentials/s1> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/named-credentials/guide/get-started.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/named-credentials/s2> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/named-credentials/s2> <http://purl.org/dc/terms/title> "Named Credentials as Callout Endpoints (Apex Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/named-credentials/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/named-credentials/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/named-credentials/s2> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/api/apex_callouts_named_credentials.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/named-credentials/s3> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/named-credentials/s3> <http://purl.org/dc/terms/title> "Parts of a Named Credential: Create a Basic Authentication External Credential" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/named-credentials/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/named-credentials/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/named-credentials/s3> <https://schema.org/url> "https://help.salesforce.com/apex/HTViewHelpDoc?id=xcloud.nc_parts_of_nc.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/named-credentials/s4> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/named-credentials/s4> <http://purl.org/dc/terms/title> "Named Credentials and External Credentials" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/named-credentials/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/named-credentials/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/named-credentials/s4> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=xcloud.nc_named_creds_and_ext_creds.htm&language=pt_BR&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/named-credentials/s5> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/named-credentials/s5> <http://purl.org/dc/terms/title> "Legacy Named Credentials" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/named-credentials/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/named-credentials/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/named-credentials/s5> <https://schema.org/url> "https://help.salesforce.com/apex/HTViewHelpDoc?id=xcloud.named_credentials_define.htm" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/omni-channel/s1> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/omni-channel/s1> <http://purl.org/dc/terms/title> "Route Work with Omni-Channel" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/omni-channel/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

@@ -64,7 +64,9 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:identity-and-access-management-architect-certification` | `kt:multi-factor-authentication` |
 | `kt:identity-resolution` | `kt:data-cloud` |
 | `kt:il4-and-il5` | `kt:government-cloud-plus` |
+| `kt:integration-security` | `kt:named-credentials` |
 | `kt:junction-object` | `kt:lookup-vs-master-detail` |
+| `kt:legacy-named-credentials` | `kt:named-credentials` |
 | `kt:lightning-service-console` | `kt:service-cloud` |
 | `kt:limit-exception` | `kt:governor-limits` |
 | `kt:limits-class` | `kt:governor-limits` |
@@ -75,6 +77,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:orchestration-work-guide` | `kt:flow-orchestrator` |
 | `kt:org-strategy` | `kt:environment-strategy` |
 | `kt:package-xml-manifest` | `kt:metadata-api` |
+| `kt:permission-sets` | `kt:named-credentials` |
 | `kt:person-accounts` | `kt:public-sector-solutions` |
 | `kt:platform-as-a-service` | `kt:salesforce-platform` |
 | `kt:platform-event-allocations` | `kt:platform-events` |
@@ -83,7 +86,9 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:query-optimizer-selectivity` | `kt:multitenancy` |
 | `kt:queueable-apex` | `kt:asynchronous-apex` |
 | `kt:recursive-save` | `kt:order-of-execution` |
+| `kt:remote-site-settings` | `kt:named-credentials` |
 | `kt:salesforce-architecture-center` | `kt:well-architected-framework` |
+| `kt:salesforce-connect` | `kt:named-credentials` |
 | `kt:salesforce-data-mask` | `kt:environment-strategy` |
 | `kt:salesforce-industries` | `kt:public-sector-solutions` |
 | `kt:scratch-org-allocations` | `kt:scratch-orgs` |

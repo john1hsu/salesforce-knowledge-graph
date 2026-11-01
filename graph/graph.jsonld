@@ -2622,6 +2622,89 @@
       ]
     },
     {
+      "@id": "kt:named-credentials",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Named Credentials",
+      "skos:definition": "Salesforce's declarative way to define an outbound callout endpoint (named credential) separately from how Salesforce authenticates to it (external credential), so Apex, External Services and Salesforce Connect can call external systems without hard-coded URLs, secrets or remote site settings.",
+      "kto:domain": "integration",
+      "dcterms:created": "2026-11-01",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Get Started with Named Credentials",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/named-credentials/guide/get-started.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Named Credentials as Callout Endpoints (Apex Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/api/apex_callouts_named_credentials.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Parts of a Named Credential: Create a Basic Authentication External Credential",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/apex/HTViewHelpDoc?id=xcloud.nc_parts_of_nc.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Named Credentials and External Credentials",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=xcloud.nc_named_creds_and_ext_creds.htm&language=pt_BR&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Legacy Named Credentials",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/apex/HTViewHelpDoc?id=xcloud.named_credentials_define.htm",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/integration/named-credentials.md",
+      "skos:altLabel": [
+        "named credential",
+        "external credentials",
+        "external credential",
+        "callout named credential",
+        "enhanced named credentials"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:integration-security"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:apex"
+        },
+        {
+          "@id": "kt:connected-apps"
+        }
+      ],
+      "kto:replaces": [
+        {
+          "@id": "kt:legacy-named-credentials"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:remote-site-settings"
+        }
+      ],
+      "kto:enables": [
+        {
+          "@id": "kt:salesforce-connect"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:permission-sets"
+        }
+      ]
+    },
+    {
       "@id": "kt:platform-events",
       "@type": "kto:Feature",
       "skos:prefLabel": "Platform Events",
