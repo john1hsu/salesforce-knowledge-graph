@@ -4,12 +4,11 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:dev-hub` | `kt:salesforce-dx`, `kt:scratch-orgs`, `kt:source-tracking`, `kt:unlocked-packages` |
+| `kt:second-generation-managed-packages` | `kt:dev-hub`, `kt:unlocked-packages`, `kt:external-client-apps`, `kt:external-client-apps` |
 | `kt:hyperforce` | `kt:multitenancy`, `kt:salesforce-platform`, `kt:government-cloud-plus` |
 | `kt:process-automation` | `kt:flow-builder`, `kt:flow-orchestrator`, `kt:record-triggered-flow` |
 | `kt:salesforce-identity` | `kt:connected-apps`, `kt:external-client-apps`, `kt:multi-factor-authentication` |
 | `kt:screen-flow` | `kt:flow-builder`, `kt:flow-orchestrator`, `kt:record-triggered-flow` |
-| `kt:second-generation-managed-packages` | `kt:unlocked-packages`, `kt:external-client-apps`, `kt:external-client-apps` |
 | `kt:sharing-recalculation` | `kt:data-skew`, `kt:organization-wide-defaults`, `kt:role-hierarchy` |
 | `kt:sharing-rules` | `kt:organization-wide-defaults`, `kt:role-hierarchy`, `kt:salesforce-sharing-model` |
 | `kt:single-sign-on-saml` | `kt:connected-apps`, `kt:external-client-apps`, `kt:multi-factor-authentication` |
@@ -34,6 +33,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:queues` | `kt:omni-channel`, `kt:service-cloud` |
 | `kt:salesforce-architect` | `kt:well-architected-framework`, `kt:agent-development-lifecycle` |
 | `kt:sandbox-templates` | `kt:environment-strategy`, `kt:sandbox-types` |
+| `kt:scratch-org-allocations` | `kt:dev-hub`, `kt:scratch-orgs` |
 | `kt:sharing-and-visibility-architect-certification` | `kt:organization-wide-defaults`, `kt:salesforce-sharing-model` |
 | `kt:soql` | `kt:apex`, `kt:record-locking` |
 | `kt:workflow-rules` | `kt:flow-builder`, `kt:record-triggered-flow` |
@@ -71,6 +71,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:limit-exception` | `kt:governor-limits` |
 | `kt:limits-class` | `kt:governor-limits` |
 | `kt:my-domain` | `kt:multi-factor-authentication` |
+| `kt:namespace-registry` | `kt:dev-hub` |
 | `kt:nist-digital-identity-guidelines` | `kt:multi-factor-authentication` |
 | `kt:omni-channel-limits` | `kt:omni-channel` |
 | `kt:omnistudio` | `kt:public-sector-solutions` |
@@ -91,7 +92,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:salesforce-connect` | `kt:named-credentials` |
 | `kt:salesforce-data-mask` | `kt:environment-strategy` |
 | `kt:salesforce-industries` | `kt:public-sector-solutions` |
-| `kt:scratch-org-allocations` | `kt:scratch-orgs` |
 | `kt:service-setup-assistant` | `kt:service-cloud` |
 | `kt:session-security-levels` | `kt:multi-factor-authentication` |
 | `kt:skills-based-routing` | `kt:omni-channel` |

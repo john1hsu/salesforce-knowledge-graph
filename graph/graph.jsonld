@@ -1807,6 +1807,97 @@
       ]
     },
     {
+      "@id": "kt:dev-hub",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Dev Hub",
+      "skos:definition": "The Salesforce org feature that, once enabled, becomes the control point for Salesforce DX: it creates and tracks scratch orgs, owns second-generation and unlocked packages, and links registered namespaces. It cannot be disabled after it is turned on.",
+      "kto:domain": "devops-and-alm",
+      "dcterms:created": "2026-11-01",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Select and Enable a Dev Hub Org",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/sfdx-dev/guide/sfdx-setup-enable-devhub.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Add Salesforce DX Users",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/sfdx-dev/guide/sfdx-setup-add-users.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Add a Limited Access User to Your Dev Hub Org",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/pkg1-dev/guide/sfdx-pkg-add-free-license-user.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Link a Namespace to a Dev Hub Org",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/pkg2-dev/guide/sfdx-dev-reg-namespace.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Assign Second-Generation Managed Packaging User Permissions",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/pkg2-dev/guide/sfdx-pkg-user-permission.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/devops-and-alm/dev-hub.md",
+      "skos:altLabel": [
+        "Developer Hub",
+        "Dev Hub org",
+        "DevHub",
+        "Salesforce DX Dev Hub"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-dx"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:scratch-orgs"
+        },
+        {
+          "@id": "kt:source-tracking"
+        },
+        {
+          "@id": "kt:environment-strategy"
+        }
+      ],
+      "kto:enables": [
+        {
+          "@id": "kt:scratch-orgs"
+        },
+        {
+          "@id": "kt:unlocked-packages"
+        },
+        {
+          "@id": "kt:second-generation-managed-packages"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:salesforce-cli"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:scratch-org-allocations"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:namespace-registry"
+        }
+      ]
+    },
+    {
       "@id": "kt:devops-center",
       "@type": "kto:Tool",
       "skos:prefLabel": "DevOps Center",
