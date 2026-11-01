@@ -16,6 +16,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:bulk-api-2` | `kt:data-migration-strategy`, `kt:record-locking` |
 | `kt:event-driven-architecture` | `kt:change-data-capture`, `kt:platform-events` |
 | `kt:experience-cloud-identity` | `kt:experience-cloud`, `kt:multi-factor-authentication` |
+| `kt:fedramp-high` | `kt:government-cloud-plus`, `kt:il4-and-il5` |
 | `kt:flow-trigger-explorer` | `kt:record-triggered-flow`, `kt:order-of-execution` |
 | `kt:implicit-sharing` | `kt:role-hierarchy`, `kt:salesforce-sharing-model` |
 | `kt:knowledge-base` | `kt:experience-cloud`, `kt:service-cloud` |
@@ -52,17 +53,18 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:code-analyzer` | `kt:salesforce-cli` |
 | `kt:data-architecture` | `kt:data-migration-strategy` |
 | `kt:data-model-objects` | `kt:data-cloud` |
+| `kt:data-residency` | `kt:il4-and-il5` |
+| `kt:dod-cloud-computing-srg` | `kt:il4-and-il5` |
 | `kt:einstein-trust-layer` | `kt:agentforce` |
 | `kt:enterprise-territory-management` | `kt:role-hierarchy` |
 | `kt:entitlement-management` | `kt:service-cloud` |
 | `kt:experience-builder` | `kt:experience-cloud` |
 | `kt:external-id-fields` | `kt:data-migration-strategy` |
-| `kt:fedramp-high` | `kt:government-cloud-plus` |
+| `kt:fedramp` | `kt:il4-and-il5` |
 | `kt:future-methods` | `kt:asynchronous-apex` |
 | `kt:government-cloud` | `kt:government-cloud-plus` |
 | `kt:identity-and-access-management-architect-certification` | `kt:multi-factor-authentication` |
 | `kt:identity-resolution` | `kt:data-cloud` |
-| `kt:il4-and-il5` | `kt:government-cloud-plus` |
 | `kt:integration-security` | `kt:named-credentials` |
 | `kt:junction-object` | `kt:lookup-vs-master-detail` |
 | `kt:legacy-named-credentials` | `kt:named-credentials` |

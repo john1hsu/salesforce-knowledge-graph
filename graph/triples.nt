@@ -530,6 +530,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/governor-limits> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/limits-class> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/governor-limits> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/governor-limits> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/il4-and-il5> <http://purl.org/dc/terms/created> "2026-11-01" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/il4-and-il5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#ExternalConcept> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/il4-and-il5> <http://www.w3.org/2000/01/rdf-schema#label> "DoD Impact Levels 4 and 5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/il4-and-il5> <http://www.w3.org/2004/02/skos/core#altLabel> "DoD IL4" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/il4-and-il5> <http://www.w3.org/2004/02/skos/core#altLabel> "DoD IL5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/il4-and-il5> <http://www.w3.org/2004/02/skos/core#altLabel> "IL4 and IL5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/il4-and-il5> <http://www.w3.org/2004/02/skos/core#altLabel> "Impact Level 4" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/il4-and-il5> <http://www.w3.org/2004/02/skos/core#altLabel> "Impact Level 5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/il4-and-il5> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/fedramp> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/il4-and-il5> <http://www.w3.org/2004/02/skos/core#definition> "The two US Department of Defense cloud security tiers for Controlled Unclassified Information (IL4) and for CUI plus unclassified National Security Systems data (IL5), defined in DISA's Cloud Service Provider SRG; in the Salesforce ecosystem IL5 workloads run in Government Cloud Plus - Defense." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/il4-and-il5> <http://www.w3.org/2004/02/skos/core#prefLabel> "DoD Impact Levels 4 and 5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/il4-and-il5> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/il4-and-il5> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-residency> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/il4-and-il5> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/government-cloud-plus> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/il4-and-il5> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/multi-factor-authentication> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/il4-and-il5> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/il4-and-il5/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/il4-and-il5> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/il4-and-il5/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/il4-and-il5> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/il4-and-il5/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/il4-and-il5> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/il4-and-il5/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/il4-and-il5> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/il4-and-il5/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/il4-and-il5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/fedramp-high> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/il4-and-il5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "public-sector-and-compliance" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/il4-and-il5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#partOf> <https://github.com/john1hsu/salesforce-knowledge-graph/id/dod-cloud-computing-srg> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/il4-and-il5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/il4-and-il5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/lookup-vs-master-detail> <http://purl.org/dc/terms/created> "2026-10-30" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/lookup-vs-master-detail> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/lookup-vs-master-detail> <http://www.w3.org/2000/01/rdf-schema#label> "Lookup vs. Master-Detail Relationships" .
@@ -1636,6 +1661,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/governor-limits/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/governor-limits/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/governor-limits/s5> <https://schema.org/url> "https://trailhead.salesforce.com/en/apex_basics_dotnet/execution_context" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/il4-and-il5/s1> <http://purl.org/dc/terms/publisher> "Defense Information Systems Agency (copy hosted by RMF.org)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/il4-and-il5/s1> <http://purl.org/dc/terms/title> "Cloud Service Provider Security Requirements Guide, Version 1, Release 2 (30 January 2025)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/il4-and-il5/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/il4-and-il5/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/il4-and-il5/s1> <https://schema.org/url> "https://rmf.org/wp-content/uploads/2025/05/DoD-Cloud-Service-Provider-SRG-Jan-2025.pdf" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/il4-and-il5/s2> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/il4-and-il5/s2> <http://purl.org/dc/terms/title> "Government Cloud Plus - Defense (Compliance services page)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/il4-and-il5/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/il4-and-il5/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/il4-and-il5/s2> <https://schema.org/url> "https://compliance.salesforce.com/en/services/salesforce-government-cloud-plus-defense" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/il4-and-il5/s3> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/il4-and-il5/s3> <http://purl.org/dc/terms/title> "Government Cloud (product and pricing page)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/il4-and-il5/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/il4-and-il5/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/il4-and-il5/s3> <https://schema.org/url> "https://www.salesforce.com/government/cloud/" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/il4-and-il5/s4> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/il4-and-il5/s4> <http://purl.org/dc/terms/title> "Public sector Government Cloud news (April 18, 2023)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/il4-and-il5/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/il4-and-il5/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "news" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/il4-and-il5/s4> <https://schema.org/url> "https://www.salesforce.com/uk/news/stories/public-sector-government-cloud-news/" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/il4-and-il5/s5> <http://purl.org/dc/terms/publisher> "DefenseScoop" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/il4-and-il5/s5> <http://purl.org/dc/terms/title> "Salesforce's Agentforce 360 authorized at DOD Impact Level 5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/il4-and-il5/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/il4-and-il5/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "news" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/il4-and-il5/s5> <https://schema.org/url> "https://defensescoop.com/?p=130372" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lookup-vs-master-detail/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lookup-vs-master-detail/s1> <http://purl.org/dc/terms/title> "Data Modeling: Create Object Relationships" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lookup-vs-master-detail/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

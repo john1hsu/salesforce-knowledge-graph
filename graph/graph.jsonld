@@ -3444,6 +3444,85 @@
       ]
     },
     {
+      "@id": "kt:il4-and-il5",
+      "@type": "kto:ExternalConcept",
+      "skos:prefLabel": "DoD Impact Levels 4 and 5",
+      "skos:definition": "The two US Department of Defense cloud security tiers for Controlled Unclassified Information (IL4) and for CUI plus unclassified National Security Systems data (IL5), defined in DISA's Cloud Service Provider SRG; in the Salesforce ecosystem IL5 workloads run in Government Cloud Plus - Defense.",
+      "kto:domain": "public-sector-and-compliance",
+      "dcterms:created": "2026-11-01",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Cloud Service Provider Security Requirements Guide, Version 1, Release 2 (30 January 2025)",
+          "dcterms:publisher": "Defense Information Systems Agency (copy hosted by RMF.org)",
+          "schema:url": "https://rmf.org/wp-content/uploads/2025/05/DoD-Cloud-Service-Provider-SRG-Jan-2025.pdf",
+          "kto:sourceType": "government"
+        },
+        {
+          "dcterms:title": "Government Cloud Plus - Defense (Compliance services page)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://compliance.salesforce.com/en/services/salesforce-government-cloud-plus-defense",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Government Cloud (product and pricing page)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/government/cloud/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Public sector Government Cloud news (April 18, 2023)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/uk/news/stories/public-sector-government-cloud-news/",
+          "kto:sourceType": "news"
+        },
+        {
+          "dcterms:title": "Salesforce's Agentforce 360 authorized at DOD Impact Level 5",
+          "dcterms:publisher": "DefenseScoop",
+          "schema:url": "https://defensescoop.com/?p=130372",
+          "kto:sourceType": "news"
+        }
+      ],
+      "kto:file": "articles/public-sector-and-compliance/il4-and-il5.md",
+      "skos:altLabel": [
+        "IL4 and IL5",
+        "DoD IL4",
+        "DoD IL5",
+        "Impact Level 4",
+        "Impact Level 5"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:fedramp"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:government-cloud-plus"
+        },
+        {
+          "@id": "kt:agentforce"
+        },
+        {
+          "@id": "kt:multi-factor-authentication"
+        },
+        {
+          "@id": "kt:data-residency"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:dod-cloud-computing-srg"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:fedramp-high"
+        }
+      ]
+    },
+    {
       "@id": "kt:public-sector-solutions",
       "@type": "kto:Product",
       "skos:prefLabel": "Public Sector Solutions",
