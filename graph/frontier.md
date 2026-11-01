@@ -54,7 +54,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:data-model-objects` | `kt:data-cloud` |
 | `kt:data-residency` | `kt:il4-and-il5` |
 | `kt:dod-cloud-computing-srg` | `kt:il4-and-il5` |
-| `kt:einstein-trust-layer` | `kt:agentforce` |
 | `kt:entitlement-management` | `kt:service-cloud` |
 | `kt:experience-builder` | `kt:experience-cloud` |
 | `kt:external-id-fields` | `kt:data-migration-strategy` |
@@ -86,6 +85,8 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:platform-event-allocations` | `kt:platform-events` |
 | `kt:platform-event-channel-member` | `kt:change-data-capture` |
 | `kt:presence-configuration` | `kt:omni-channel` |
+| `kt:prompt-builder` | `kt:einstein-trust-layer` |
+| `kt:prompt-injection` | `kt:einstein-trust-layer` |
 | `kt:query-optimizer-selectivity` | `kt:multitenancy` |
 | `kt:queueable-apex` | `kt:asynchronous-apex` |
 | `kt:recursive-save` | `kt:order-of-execution` |
@@ -100,6 +101,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:session-security-levels` | `kt:multi-factor-authentication` |
 | `kt:skills-based-routing` | `kt:omni-channel` |
 | `kt:solution-design-tradeoffs` | `kt:well-architected-framework` |
+| `kt:tableau` | `kt:einstein-trust-layer` |
 | `kt:technical-debt-in-salesforce` | `kt:well-architected-framework` |
 | `kt:test-data-factory` | `kt:apex-testing` |
 | `kt:testing-strategy` | `kt:apex-testing` |

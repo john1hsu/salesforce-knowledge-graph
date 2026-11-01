@@ -1474,6 +1474,86 @@
       ]
     },
     {
+      "@id": "kt:einstein-trust-layer",
+      "@type": "kto:SecurityControl",
+      "skos:prefLabel": "Einstein Trust Layer",
+      "skos:definition": "The secure AI architecture built into the Salesforce platform that wraps every generative AI request with permission-aware grounding, data masking, prompt defense, zero data retention at third-party LLMs, toxicity scoring and an audit trail stored in Data Cloud.",
+      "kto:domain": "data-cloud-and-ai",
+      "dcterms:created": "2026-11-01",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Trust Layer (Agentforce Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/ai/agentforce/guide/trust.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Follow the Prompt Journey (The Einstein Trust Layer)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/the-einstein-trust-layer/follow-the-prompt-journey",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Follow the Response Journey (The Einstein Trust Layer)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/the-einstein-trust-layer/follow-the-response-journey",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "The Einstein Audit and Feedback Data Model in Data Cloud",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2024/07/the-einstein-audit-and-feedback-data-model-in-data-cloud",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "AI in Tableau and the Einstein Trust Layer",
+          "dcterms:publisher": "Tableau (Salesforce)",
+          "schema:url": "https://help.tableau.com/current/tableau/en-us/tableau_gai_einstein_trust_layer.htm",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/data-cloud-and-ai/einstein-trust-layer.md",
+      "skos:altLabel": [
+        "Trust Layer",
+        "Salesforce Trust Layer",
+        "Agentforce Trust Layer",
+        "Einstein GPT Trust Layer"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-platform"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:agentforce"
+        },
+        {
+          "@id": "kt:prompt-builder"
+        },
+        {
+          "@id": "kt:salesforce-sharing-model"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:data-cloud"
+        }
+      ],
+      "kto:mitigates": [
+        {
+          "@id": "kt:prompt-injection"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:tableau"
+        }
+      ]
+    },
+    {
       "@id": "kt:data-skew",
       "@type": "kto:AntiPattern",
       "skos:prefLabel": "Data Skew",
