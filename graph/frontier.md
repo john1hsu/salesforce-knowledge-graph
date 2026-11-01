@@ -4,13 +4,13 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:unlocked-packages` | `kt:application-lifecycle-management`, `kt:change-sets`, `kt:salesforce-dx`, `kt:scratch-orgs` |
-| `kt:dev-hub` | `kt:salesforce-dx`, `kt:scratch-orgs`, `kt:source-tracking` |
+| `kt:dev-hub` | `kt:salesforce-dx`, `kt:scratch-orgs`, `kt:source-tracking`, `kt:unlocked-packages` |
 | `kt:hyperforce` | `kt:multitenancy`, `kt:salesforce-platform`, `kt:government-cloud-plus` |
 | `kt:organization-wide-defaults` | `kt:experience-cloud`, `kt:role-hierarchy`, `kt:salesforce-sharing-model` |
 | `kt:process-automation` | `kt:flow-builder`, `kt:flow-orchestrator`, `kt:record-triggered-flow` |
 | `kt:salesforce-identity` | `kt:connected-apps`, `kt:external-client-apps`, `kt:multi-factor-authentication` |
 | `kt:screen-flow` | `kt:flow-builder`, `kt:flow-orchestrator`, `kt:record-triggered-flow` |
+| `kt:second-generation-managed-packages` | `kt:unlocked-packages`, `kt:external-client-apps`, `kt:external-client-apps` |
 | `kt:single-sign-on-saml` | `kt:connected-apps`, `kt:external-client-apps`, `kt:multi-factor-authentication` |
 | `kt:autolaunched-flow` | `kt:flow-orchestrator`, `kt:record-triggered-flow` |
 | `kt:bulk-api-2` | `kt:data-migration-strategy`, `kt:record-locking` |
@@ -33,7 +33,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:queues` | `kt:omni-channel`, `kt:service-cloud` |
 | `kt:salesforce-architect` | `kt:well-architected-framework`, `kt:agent-development-lifecycle` |
 | `kt:sandbox-templates` | `kt:environment-strategy`, `kt:sandbox-types` |
-| `kt:second-generation-managed-packages` | `kt:external-client-apps`, `kt:external-client-apps` |
 | `kt:sharing-recalculation` | `kt:data-skew`, `kt:role-hierarchy` |
 | `kt:sharing-rules` | `kt:role-hierarchy`, `kt:salesforce-sharing-model` |
 | `kt:soql` | `kt:apex`, `kt:record-locking` |

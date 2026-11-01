@@ -2355,6 +2355,96 @@
       ]
     },
     {
+      "@id": "kt:unlocked-packages",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Unlocked Packages",
+      "skos:definition": "A second-generation packaging option for customers' internal apps: a versioned, immutable container of metadata built from version control with Salesforce CLI and a Dev Hub, whose installed components stay editable in the target org.",
+      "kto:domain": "devops-and-alm",
+      "dcterms:created": "2026-11-01",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Unlocked Packages (Salesforce DX Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.250.0.sfdx_dev.meta/sfdx_dev/sfdx_dev_unlocked_pkg_intro.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "What's an Unlocked Package?",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/sfdx-dev/guide/sfdx-dev-unlocked-pkg-whats-a-package.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Create Org-Dependent Unlocked Packages",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/sfdx-dev/guide/sfdx-dev-unlocked-pkg-org-dependent.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Push a Package Upgrade",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/sfdx-dev/guide/sfdx-dev-unlocked-pkg-push-upgrade.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Know Your Orgs",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/sfdx-dev/guide/sfdx-dev-unlocked-pkg-before-know-orgs.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Unlocked Packages for Customers: Build Your First Unlocked Package",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/unlocked-packages-for-customers/build-your-first-unlocked-package",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/devops-and-alm/unlocked-packages.md",
+      "skos:altLabel": [
+        "unlocked package",
+        "org-dependent unlocked package",
+        "org-dependent package"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:application-lifecycle-management"
+        },
+        {
+          "@id": "kt:salesforce-dx"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:scratch-orgs"
+        },
+        {
+          "@id": "kt:apex-testing"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:dev-hub"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:salesforce-cli"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:second-generation-managed-packages"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:change-sets"
+        }
+      ]
+    },
+    {
       "@id": "kt:connected-apps",
       "@type": "kto:Feature",
       "skos:prefLabel": "Connected Apps",
