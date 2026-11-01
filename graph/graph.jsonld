@@ -1383,6 +1383,98 @@
       ]
     },
     {
+      "@id": "kt:apex",
+      "@type": "kto:Language",
+      "skos:prefLabel": "Apex",
+      "skos:definition": "Salesforce's strongly typed, object-oriented, Java-like programming language that is compiled, stored and executed on the Salesforce Platform to add server-side business logic, data manipulation and transaction control.",
+      "kto:domain": "development",
+      "dcterms:created": "2026-11-01",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Apex Developer Guide (Winter '27, API version 68.0)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.264.0.apexcode.meta/pages/apex_dev_guide.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Apex Developer Guide: What is Apex?",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/apex-dev/references/apex-dev/apex-intro-what-is-apex.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Apex Developer Guide: How Does Apex Work?",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/apex-dev/references/apex-dev/apex-intro-how-does-apex-work.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Apex Developer Guide: Developing Code in the Cloud",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/apex-dev/references/apex-dev/apex-intro-apex-limitation.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Apex Developer Guide: When Should I Use Apex?",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/apex-dev/references/apex-dev/apex-intro-when-use-apex.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Trailhead: Apex Basics & Database — Get Started with Apex",
+          "dcterms:publisher": "Salesforce Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/apex_database/apex_database_intro",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/development/apex.md",
+      "skos:altLabel": [
+        "Apex programming language",
+        "Apex code",
+        "Salesforce Apex",
+        "Apex language"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-platform"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:apex-triggers"
+        },
+        {
+          "@id": "kt:asynchronous-apex"
+        },
+        {
+          "@id": "kt:apex-testing"
+        },
+        {
+          "@id": "kt:multitenancy"
+        },
+        {
+          "@id": "kt:lightning-web-components"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:governor-limits"
+        }
+      ],
+      "kto:queriedWith": [
+        {
+          "@id": "kt:soql"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:flow-builder"
+        }
+      ]
+    },
+    {
       "@id": "kt:asynchronous-apex",
       "@type": "kto:Feature",
       "skos:prefLabel": "Asynchronous Apex",

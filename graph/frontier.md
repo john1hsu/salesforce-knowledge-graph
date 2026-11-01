@@ -4,7 +4,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:apex` | `kt:apex-testing`, `kt:apex-triggers`, `kt:asynchronous-apex`, `kt:salesforce-platform` |
 | `kt:record-locking` | `kt:data-migration-strategy`, `kt:data-skew`, `kt:lookup-vs-master-detail`, `kt:roll-up-summary-field` |
 | `kt:source-tracking` | `kt:application-lifecycle-management`, `kt:devops-center`, `kt:salesforce-cli`, `kt:scratch-orgs` |
 | `kt:hyperforce` | `kt:multitenancy`, `kt:salesforce-platform`, `kt:government-cloud-plus` |
@@ -19,6 +18,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:implicit-sharing` | `kt:role-hierarchy`, `kt:salesforce-sharing-model` |
 | `kt:knowledge-base` | `kt:experience-cloud`, `kt:service-cloud` |
 | `kt:large-data-volumes` | `kt:data-migration-strategy`, `kt:data-skew` |
+| `kt:lightning-web-components` | `kt:experience-cloud`, `kt:apex` |
 | `kt:metadata-driven-architecture` | `kt:multitenancy`, `kt:salesforce-platform` |
 | `kt:mulesoft-anypoint-platform` | `kt:flow-orchestrator`, `kt:government-cloud-plus` |
 | `kt:oauth-2-0` | `kt:connected-apps`, `kt:external-client-apps` |
@@ -63,7 +63,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:il4-and-il5` | `kt:government-cloud-plus` |
 | `kt:junction-object` | `kt:lookup-vs-master-detail` |
 | `kt:lightning-service-console` | `kt:service-cloud` |
-| `kt:lightning-web-components` | `kt:experience-cloud` |
 | `kt:limit-exception` | `kt:governor-limits` |
 | `kt:limits-class` | `kt:governor-limits` |
 | `kt:omni-channel-limits` | `kt:omni-channel` |
@@ -87,6 +86,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:sharing-and-visibility-architect-certification` | `kt:salesforce-sharing-model` |
 | `kt:skills-based-routing` | `kt:omni-channel` |
 | `kt:solution-design-tradeoffs` | `kt:well-architected-framework` |
+| `kt:soql` | `kt:apex` |
 | `kt:technical-debt-in-salesforce` | `kt:well-architected-framework` |
 | `kt:test-data-factory` | `kt:apex-testing` |
 | `kt:testing-strategy` | `kt:apex-testing` |
