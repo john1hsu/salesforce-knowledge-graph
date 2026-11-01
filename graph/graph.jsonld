@@ -10,6 +10,87 @@
   },
   "@graph": [
     {
+      "@id": "kt:archiving-strategy",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Archiving Strategy",
+      "skos:definition": "The architectural plan for moving inactive or historical Salesforce records out of the live object set into cheaper long-term storage, governed by retention, purge and access rules, so the org stays fast, within storage limits and compliant.",
+      "kto:domain": "architecture-practice",
+      "dcterms:created": "2026-11-01",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What Is Data Archiving? (Guide to Data Archiving)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/platform/data-archiving-solutions/guide/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Optimize Data with Archive (Archive Basics)",
+          "dcterms:publisher": "Salesforce Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/archive-basics/optimize-data-with-archive",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Big Objects (Big Objects Implementation Guide)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/platform/big-object-impl-guide/guide/big-object.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Best Practices (Best Practices for Deployments with Large Data Volumes)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/platform/salesforce-large-data-volumes-bp/guide/ldv-deployments-best-practices.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "ArchivePolicyDefinition (Object Reference for the Salesforce Platform)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/api/sforce_api_objects_archivepolicydefinition.htm",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/architecture-practice/archiving-strategy.md",
+      "skos:altLabel": [
+        "Salesforce data archiving strategy",
+        "data archiving policy",
+        "data retention strategy",
+        "data archival"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:data-architecture"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:data-migration-strategy"
+        },
+        {
+          "@id": "kt:large-data-volumes"
+        },
+        {
+          "@id": "kt:data-skew"
+        },
+        {
+          "@id": "kt:environment-strategy"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:big-objects"
+        },
+        {
+          "@id": "kt:salesforce-archive"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:backup-and-recover"
+        }
+      ]
+    },
+    {
       "@id": "kt:data-migration-strategy",
       "@type": "kto:Concept",
       "skos:prefLabel": "Data Migration Strategy",

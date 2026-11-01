@@ -6,6 +6,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 |---|---|
 | `kt:second-generation-managed-packages` | `kt:dev-hub`, `kt:unlocked-packages`, `kt:external-client-apps`, `kt:external-client-apps` |
 | `kt:hyperforce` | `kt:multitenancy`, `kt:salesforce-platform`, `kt:government-cloud-plus` |
+| `kt:large-data-volumes` | `kt:archiving-strategy`, `kt:data-migration-strategy`, `kt:data-skew` |
 | `kt:process-automation` | `kt:flow-builder`, `kt:flow-orchestrator`, `kt:record-triggered-flow` |
 | `kt:salesforce-identity` | `kt:connected-apps`, `kt:external-client-apps`, `kt:multi-factor-authentication` |
 | `kt:screen-flow` | `kt:flow-builder`, `kt:flow-orchestrator`, `kt:record-triggered-flow` |
@@ -14,13 +15,13 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:single-sign-on-saml` | `kt:connected-apps`, `kt:external-client-apps`, `kt:multi-factor-authentication` |
 | `kt:autolaunched-flow` | `kt:flow-orchestrator`, `kt:record-triggered-flow` |
 | `kt:bulk-api-2` | `kt:data-migration-strategy`, `kt:record-locking` |
+| `kt:data-architecture` | `kt:archiving-strategy`, `kt:data-migration-strategy` |
 | `kt:event-driven-architecture` | `kt:change-data-capture`, `kt:platform-events` |
 | `kt:experience-cloud-identity` | `kt:experience-cloud`, `kt:multi-factor-authentication` |
 | `kt:fedramp-high` | `kt:government-cloud-plus`, `kt:il4-and-il5` |
 | `kt:flow-trigger-explorer` | `kt:record-triggered-flow`, `kt:order-of-execution` |
 | `kt:implicit-sharing` | `kt:role-hierarchy`, `kt:salesforce-sharing-model` |
 | `kt:knowledge-base` | `kt:experience-cloud`, `kt:service-cloud` |
-| `kt:large-data-volumes` | `kt:data-migration-strategy`, `kt:data-skew` |
 | `kt:lightning-web-components` | `kt:experience-cloud`, `kt:apex` |
 | `kt:metadata-driven-architecture` | `kt:multitenancy`, `kt:salesforce-platform` |
 | `kt:mulesoft-anypoint-platform` | `kt:flow-orchestrator`, `kt:government-cloud-plus` |
@@ -43,14 +44,14 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:agentforce-testing-center` | `kt:agent-development-lifecycle` |
 | `kt:apex-managed-sharing` | `kt:salesforce-sharing-model` |
 | `kt:approval-processes` | `kt:flow-orchestrator` |
-| `kt:archiving-strategy` | `kt:data-migration-strategy` |
 | `kt:atlas-reasoning-engine` | `kt:agentforce` |
+| `kt:backup-and-recover` | `kt:archiving-strategy` |
 | `kt:batch-apex` | `kt:asynchronous-apex` |
+| `kt:big-objects` | `kt:archiving-strategy` |
 | `kt:business-rules-engine` | `kt:public-sector-solutions` |
 | `kt:calculated-insights` | `kt:data-cloud` |
 | `kt:change-data-capture-allocations` | `kt:change-data-capture` |
 | `kt:code-analyzer` | `kt:salesforce-cli` |
-| `kt:data-architecture` | `kt:data-migration-strategy` |
 | `kt:data-model-objects` | `kt:data-cloud` |
 | `kt:data-residency` | `kt:il4-and-il5` |
 | `kt:dod-cloud-computing-srg` | `kt:il4-and-il5` |
@@ -89,6 +90,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:recursive-save` | `kt:order-of-execution` |
 | `kt:remote-site-settings` | `kt:named-credentials` |
 | `kt:salesforce-architecture-center` | `kt:well-architected-framework` |
+| `kt:salesforce-archive` | `kt:archiving-strategy` |
 | `kt:salesforce-connect` | `kt:named-credentials` |
 | `kt:salesforce-data-mask` | `kt:environment-strategy` |
 | `kt:salesforce-industries` | `kt:public-sector-solutions` |
