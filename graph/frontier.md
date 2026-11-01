@@ -9,11 +9,14 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:organization-wide-defaults` | `kt:experience-cloud`, `kt:role-hierarchy`, `kt:salesforce-sharing-model` |
 | `kt:process-automation` | `kt:flow-builder`, `kt:flow-orchestrator`, `kt:record-triggered-flow` |
 | `kt:salesforce-dx` | `kt:application-lifecycle-management`, `kt:salesforce-cli`, `kt:scratch-orgs` |
+| `kt:salesforce-identity` | `kt:connected-apps`, `kt:external-client-apps`, `kt:multi-factor-authentication` |
 | `kt:screen-flow` | `kt:flow-builder`, `kt:flow-orchestrator`, `kt:record-triggered-flow` |
+| `kt:single-sign-on-saml` | `kt:connected-apps`, `kt:external-client-apps`, `kt:multi-factor-authentication` |
 | `kt:unlocked-packages` | `kt:application-lifecycle-management`, `kt:change-sets`, `kt:scratch-orgs` |
 | `kt:autolaunched-flow` | `kt:flow-orchestrator`, `kt:record-triggered-flow` |
 | `kt:bulk-api-2` | `kt:data-migration-strategy`, `kt:record-locking` |
 | `kt:event-driven-architecture` | `kt:change-data-capture`, `kt:platform-events` |
+| `kt:experience-cloud-identity` | `kt:experience-cloud`, `kt:multi-factor-authentication` |
 | `kt:flow-trigger-explorer` | `kt:record-triggered-flow`, `kt:order-of-execution` |
 | `kt:implicit-sharing` | `kt:role-hierarchy`, `kt:salesforce-sharing-model` |
 | `kt:knowledge-base` | `kt:experience-cloud`, `kt:service-cloud` |
@@ -29,14 +32,13 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:pub-sub-api` | `kt:change-data-capture`, `kt:platform-events` |
 | `kt:queues` | `kt:omni-channel`, `kt:service-cloud` |
 | `kt:salesforce-architect` | `kt:well-architected-framework`, `kt:agent-development-lifecycle` |
-| `kt:salesforce-identity` | `kt:connected-apps`, `kt:external-client-apps` |
 | `kt:sandbox-templates` | `kt:environment-strategy`, `kt:sandbox-types` |
 | `kt:second-generation-managed-packages` | `kt:external-client-apps`, `kt:external-client-apps` |
 | `kt:sharing-recalculation` | `kt:data-skew`, `kt:role-hierarchy` |
 | `kt:sharing-rules` | `kt:role-hierarchy`, `kt:salesforce-sharing-model` |
-| `kt:single-sign-on-saml` | `kt:connected-apps`, `kt:external-client-apps` |
 | `kt:soql` | `kt:apex`, `kt:record-locking` |
 | `kt:workflow-rules` | `kt:flow-builder`, `kt:record-triggered-flow` |
+| `kt:account-takeover` | `kt:multi-factor-authentication` |
 | `kt:agent-script` | `kt:agentforce` |
 | `kt:agentforce-dx` | `kt:agent-development-lifecycle` |
 | `kt:agentforce-testing-center` | `kt:agent-development-lifecycle` |
@@ -56,17 +58,19 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:enterprise-territory-management` | `kt:role-hierarchy` |
 | `kt:entitlement-management` | `kt:service-cloud` |
 | `kt:experience-builder` | `kt:experience-cloud` |
-| `kt:experience-cloud-identity` | `kt:experience-cloud` |
 | `kt:external-id-fields` | `kt:data-migration-strategy` |
 | `kt:fedramp-high` | `kt:government-cloud-plus` |
 | `kt:future-methods` | `kt:asynchronous-apex` |
 | `kt:government-cloud` | `kt:government-cloud-plus` |
+| `kt:identity-and-access-management-architect-certification` | `kt:multi-factor-authentication` |
 | `kt:identity-resolution` | `kt:data-cloud` |
 | `kt:il4-and-il5` | `kt:government-cloud-plus` |
 | `kt:junction-object` | `kt:lookup-vs-master-detail` |
 | `kt:lightning-service-console` | `kt:service-cloud` |
 | `kt:limit-exception` | `kt:governor-limits` |
 | `kt:limits-class` | `kt:governor-limits` |
+| `kt:my-domain` | `kt:multi-factor-authentication` |
+| `kt:nist-digital-identity-guidelines` | `kt:multi-factor-authentication` |
 | `kt:omni-channel-limits` | `kt:omni-channel` |
 | `kt:omnistudio` | `kt:public-sector-solutions` |
 | `kt:orchestration-work-guide` | `kt:flow-orchestrator` |
@@ -85,6 +89,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:salesforce-industries` | `kt:public-sector-solutions` |
 | `kt:scratch-org-allocations` | `kt:scratch-orgs` |
 | `kt:service-setup-assistant` | `kt:service-cloud` |
+| `kt:session-security-levels` | `kt:multi-factor-authentication` |
 | `kt:sharing-and-visibility-architect-certification` | `kt:salesforce-sharing-model` |
 | `kt:skills-based-routing` | `kt:omni-channel` |
 | `kt:solution-design-tradeoffs` | `kt:well-architected-framework` |

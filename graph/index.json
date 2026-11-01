@@ -532,6 +532,31 @@
     ]
   },
   {
+    "id": "kt:multi-factor-authentication",
+    "title": "Multi-Factor Authentication",
+    "aliases": [
+      "MFA",
+      "Salesforce MFA",
+      "two-factor authentication",
+      "2FA",
+      "MFA requirement",
+      "phishing-resistant MFA"
+    ],
+    "type": "SecurityControl",
+    "domain": "identity",
+    "file": "articles/identity/multi-factor-authentication.md",
+    "created": "2026-11-01",
+    "release": "Winter '27",
+    "status": "current",
+    "source_urls": [
+      "https://security.salesforce.com/mfa-requirement-check",
+      "https://admin.salesforce.com/blog/2026/prepare-your-org-for-salesforce-mfa-enforcement",
+      "https://trailhead.salesforce.com/content/learn/modules/identity_login/identity_login_2fa",
+      "https://developer.salesforce.com/docs/atlas.en-us.232.0.securityImplGuide.meta/securityImplGuide/security_overview_2fa.htm",
+      "https://pages.nist.gov/800-63-4/sp800-63b/aal"
+    ]
+  },
+  {
     "id": "kt:multitenancy",
     "title": "Multitenancy",
     "aliases": [

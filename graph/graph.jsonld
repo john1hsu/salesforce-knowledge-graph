@@ -2343,6 +2343,99 @@
       ]
     },
     {
+      "@id": "kt:multi-factor-authentication",
+      "@type": "kto:SecurityControl",
+      "skos:prefLabel": "Multi-Factor Authentication",
+      "skos:definition": "Salesforce's requirement and built-in capability that users prove their identity with two or more factors at login — a password plus an authenticator app, security key or built-in biometric. Required for UI logins since 2022, enforced for all users from June 2026, with phishing-resistant methods required for privileged users.",
+      "kto:domain": "identity",
+      "dcterms:created": "2026-11-01",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Check That Your Implementation Satisfies the MFA Requirement",
+          "dcterms:publisher": "Salesforce Security",
+          "schema:url": "https://security.salesforce.com/mfa-requirement-check",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Prepare Your Org for Salesforce MFA Enforcement",
+          "dcterms:publisher": "Salesforce Admins Blog",
+          "schema:url": "https://admin.salesforce.com/blog/2026/prepare-your-org-for-salesforce-mfa-enforcement",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Secure Your Users' Identity (User Authentication module)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/identity_login/identity_login_2fa",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Multi-Factor Authentication (Security Implementation Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.232.0.securityImplGuide.meta/securityImplGuide/security_overview_2fa.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "NIST SP 800-63B-4: Authentication Assurance Levels",
+          "dcterms:publisher": "NIST",
+          "schema:url": "https://pages.nist.gov/800-63-4/sp800-63b/aal",
+          "kto:sourceType": "standards-body"
+        }
+      ],
+      "kto:file": "articles/identity/multi-factor-authentication.md",
+      "skos:altLabel": [
+        "MFA",
+        "Salesforce MFA",
+        "two-factor authentication",
+        "2FA",
+        "MFA requirement",
+        "phishing-resistant MFA"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-identity"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:single-sign-on-saml"
+        },
+        {
+          "@id": "kt:connected-apps"
+        },
+        {
+          "@id": "kt:external-client-apps"
+        },
+        {
+          "@id": "kt:my-domain"
+        },
+        {
+          "@id": "kt:experience-cloud-identity"
+        }
+      ],
+      "kto:mitigates": [
+        {
+          "@id": "kt:account-takeover"
+        }
+      ],
+      "kto:implements": [
+        {
+          "@id": "kt:nist-digital-identity-guidelines"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:session-security-levels"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:identity-and-access-management-architect-certification"
+        }
+      ]
+    },
+    {
       "@id": "kt:change-data-capture",
       "@type": "kto:Feature",
       "skos:prefLabel": "Change Data Capture",

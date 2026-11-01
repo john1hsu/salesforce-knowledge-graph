@@ -577,6 +577,35 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-api> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-cli> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-api> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-api> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multi-factor-authentication> <http://purl.org/dc/terms/created> "2026-11-01" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multi-factor-authentication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#SecurityControl> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multi-factor-authentication> <http://www.w3.org/2000/01/rdf-schema#label> "Multi-Factor Authentication" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multi-factor-authentication> <http://www.w3.org/2004/02/skos/core#altLabel> "2FA" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multi-factor-authentication> <http://www.w3.org/2004/02/skos/core#altLabel> "MFA requirement" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multi-factor-authentication> <http://www.w3.org/2004/02/skos/core#altLabel> "MFA" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multi-factor-authentication> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce MFA" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multi-factor-authentication> <http://www.w3.org/2004/02/skos/core#altLabel> "phishing-resistant MFA" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multi-factor-authentication> <http://www.w3.org/2004/02/skos/core#altLabel> "two-factor authentication" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multi-factor-authentication> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-identity> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multi-factor-authentication> <http://www.w3.org/2004/02/skos/core#definition> "Salesforce's requirement and built-in capability that users prove their identity with two or more factors at login — a password plus an authenticator app, security key or built-in biometric. Required for UI logins since 2022, enforced for all users from June 2026, with phishing-resistant methods required for privileged users." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multi-factor-authentication> <http://www.w3.org/2004/02/skos/core#prefLabel> "Multi-Factor Authentication" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multi-factor-authentication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/connected-apps> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multi-factor-authentication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/experience-cloud-identity> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multi-factor-authentication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/external-client-apps> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multi-factor-authentication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/my-domain> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multi-factor-authentication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/single-sign-on-saml> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multi-factor-authentication> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multi-factor-authentication/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multi-factor-authentication> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multi-factor-authentication/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multi-factor-authentication> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multi-factor-authentication/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multi-factor-authentication> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multi-factor-authentication/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multi-factor-authentication> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multi-factor-authentication/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multi-factor-authentication> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/session-security-levels> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multi-factor-authentication> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#coveredBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-and-access-management-architect-certification> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multi-factor-authentication> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "identity" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multi-factor-authentication> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#implements> <https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-digital-identity-guidelines> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multi-factor-authentication> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#mitigates> <https://github.com/john1hsu/salesforce-knowledge-graph/id/account-takeover> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multi-factor-authentication> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multi-factor-authentication> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/multitenancy> <http://purl.org/dc/terms/created> "2026-10-31" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/multitenancy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/multitenancy> <http://www.w3.org/2000/01/rdf-schema#label> "Multitenancy" .
@@ -1580,6 +1609,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/metadata-api/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/metadata-api/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/metadata-api/s5> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/package-xml/package-xml-deploy" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multi-factor-authentication/s1> <http://purl.org/dc/terms/publisher> "Salesforce Security" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multi-factor-authentication/s1> <http://purl.org/dc/terms/title> "Check That Your Implementation Satisfies the MFA Requirement" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multi-factor-authentication/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multi-factor-authentication/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multi-factor-authentication/s1> <https://schema.org/url> "https://security.salesforce.com/mfa-requirement-check" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multi-factor-authentication/s2> <http://purl.org/dc/terms/publisher> "Salesforce Admins Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multi-factor-authentication/s2> <http://purl.org/dc/terms/title> "Prepare Your Org for Salesforce MFA Enforcement" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multi-factor-authentication/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multi-factor-authentication/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multi-factor-authentication/s2> <https://schema.org/url> "https://admin.salesforce.com/blog/2026/prepare-your-org-for-salesforce-mfa-enforcement" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multi-factor-authentication/s3> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multi-factor-authentication/s3> <http://purl.org/dc/terms/title> "Secure Your Users' Identity (User Authentication module)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multi-factor-authentication/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multi-factor-authentication/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multi-factor-authentication/s3> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/identity_login/identity_login_2fa" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multi-factor-authentication/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multi-factor-authentication/s4> <http://purl.org/dc/terms/title> "Multi-Factor Authentication (Security Implementation Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multi-factor-authentication/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multi-factor-authentication/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multi-factor-authentication/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.232.0.securityImplGuide.meta/securityImplGuide/security_overview_2fa.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multi-factor-authentication/s5> <http://purl.org/dc/terms/publisher> "NIST" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multi-factor-authentication/s5> <http://purl.org/dc/terms/title> "NIST SP 800-63B-4: Authentication Assurance Levels" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multi-factor-authentication/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multi-factor-authentication/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "standards-body" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multi-factor-authentication/s5> <https://schema.org/url> "https://pages.nist.gov/800-63-4/sp800-63b/aal" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multitenancy/s1> <http://purl.org/dc/terms/publisher> "Salesforce Architects" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multitenancy/s1> <http://purl.org/dc/terms/title> "Platform Multitenant Architecture | Get Started with Fundamentals" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multitenancy/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
