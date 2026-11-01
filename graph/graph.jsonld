@@ -595,6 +595,92 @@
       ]
     },
     {
+      "@id": "kt:screen-flow",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Screen Flow",
+      "skos:definition": "A Flow Builder flow type that presents one or more screens to a user, collects their input and acts on it; launched from Lightning pages, actions, the utility bar, Experience Builder pages and other entry points, and running in user context by default.",
+      "kto:domain": "automation",
+      "dcterms:created": "2026-11-01",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Screen Flows: Build a Screen Flow",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/screen-flows/build-a-screen-flow",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Screen Flow Distribution: Get Started with Flow Distribution",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/screen_flow_distribution/screen_flow_distribution_intro",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Make Screen Flows Reactive",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=platform.flow_build_make_reactive.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Your Guide to Determining the Flow Running User and Its Execution Context",
+          "dcterms:publisher": "Salesforce Admins Blog",
+          "schema:url": "https://admin.salesforce.com/blog/2022/your-guide-to-determining-the-flow-running-user-and-its-execution-context",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Security Considerations for Flow Design",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/secure-coding/guide/secure-coding-considerations-flow-design.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/automation/screen-flow.md",
+      "skos:altLabel": [
+        "screen flows",
+        "flow with screens",
+        "guided flow",
+        "interactive flow"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:flow-builder"
+        },
+        {
+          "@id": "kt:process-automation"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:record-triggered-flow"
+        },
+        {
+          "@id": "kt:autolaunched-flow"
+        },
+        {
+          "@id": "kt:flow-orchestrator"
+        },
+        {
+          "@id": "kt:experience-cloud"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:lightning-web-components"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:salesforce-sharing-model"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:autolaunched-flow"
+        }
+      ]
+    },
+    {
       "@id": "kt:experience-cloud",
       "@type": "kto:Product",
       "skos:prefLabel": "Experience Cloud",

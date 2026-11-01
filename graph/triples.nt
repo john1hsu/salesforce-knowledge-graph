@@ -1120,6 +1120,32 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/scratch-orgs> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#governedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/scratch-org-allocations> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/scratch-orgs> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/scratch-orgs> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/screen-flow> <http://purl.org/dc/terms/created> "2026-11-01" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/screen-flow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/screen-flow> <http://www.w3.org/2000/01/rdf-schema#label> "Screen Flow" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/screen-flow> <http://www.w3.org/2004/02/skos/core#altLabel> "flow with screens" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/screen-flow> <http://www.w3.org/2004/02/skos/core#altLabel> "guided flow" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/screen-flow> <http://www.w3.org/2004/02/skos/core#altLabel> "interactive flow" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/screen-flow> <http://www.w3.org/2004/02/skos/core#altLabel> "screen flows" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/screen-flow> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-builder> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/screen-flow> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/process-automation> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/screen-flow> <http://www.w3.org/2004/02/skos/core#definition> "A Flow Builder flow type that presents one or more screens to a user, collects their input and acts on it; launched from Lightning pages, actions, the utility bar, Experience Builder pages and other entry points, and running in user context by default." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/screen-flow> <http://www.w3.org/2004/02/skos/core#prefLabel> "Screen Flow" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/screen-flow> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/autolaunched-flow> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/screen-flow> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/experience-cloud> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/screen-flow> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-orchestrator> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/screen-flow> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/record-triggered-flow> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/screen-flow> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/screen-flow/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/screen-flow> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/screen-flow/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/screen-flow> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/screen-flow/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/screen-flow> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/screen-flow/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/screen-flow> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/screen-flow/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/screen-flow> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/autolaunched-flow> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/screen-flow> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "automation" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/screen-flow> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#governedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-sharing-model> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/screen-flow> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-web-components> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/screen-flow> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/screen-flow> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/second-generation-managed-packages> <http://purl.org/dc/terms/created> "2026-11-01" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/second-generation-managed-packages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/second-generation-managed-packages> <http://www.w3.org/2000/01/rdf-schema#label> "Second-Generation Managed Packages" .
@@ -2353,6 +2379,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scratch-orgs/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scratch-orgs/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scratch-orgs/s5> <https://schema.org/url> "https://trailhead.salesforce.com/modules/sfdx_app_dev/units/sfdx_app_dev_setup_dx" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/screen-flow/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/screen-flow/s1> <http://purl.org/dc/terms/title> "Screen Flows: Build a Screen Flow" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/screen-flow/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/screen-flow/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/screen-flow/s1> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/screen-flows/build-a-screen-flow" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/screen-flow/s2> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/screen-flow/s2> <http://purl.org/dc/terms/title> "Screen Flow Distribution: Get Started with Flow Distribution" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/screen-flow/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/screen-flow/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/screen-flow/s2> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/screen_flow_distribution/screen_flow_distribution_intro" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/screen-flow/s3> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/screen-flow/s3> <http://purl.org/dc/terms/title> "Make Screen Flows Reactive" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/screen-flow/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/screen-flow/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/screen-flow/s3> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=platform.flow_build_make_reactive.htm&language=en_US&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/screen-flow/s4> <http://purl.org/dc/terms/publisher> "Salesforce Admins Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/screen-flow/s4> <http://purl.org/dc/terms/title> "Your Guide to Determining the Flow Running User and Its Execution Context" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/screen-flow/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/screen-flow/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/screen-flow/s4> <https://schema.org/url> "https://admin.salesforce.com/blog/2022/your-guide-to-determining-the-flow-running-user-and-its-execution-context" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/screen-flow/s5> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/screen-flow/s5> <http://purl.org/dc/terms/title> "Security Considerations for Flow Design" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/screen-flow/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/screen-flow/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/screen-flow/s5> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/secure-coding/guide/secure-coding-considerations-flow-design.html" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/second-generation-managed-packages/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/second-generation-managed-packages/s1> <http://purl.org/dc/terms/title> "Second-Generation Managed Packaging Developer Guide" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/second-generation-managed-packages/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
