@@ -4,17 +4,17 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:source-tracking` | `kt:application-lifecycle-management`, `kt:devops-center`, `kt:salesforce-cli`, `kt:scratch-orgs` |
+| `kt:salesforce-dx` | `kt:application-lifecycle-management`, `kt:salesforce-cli`, `kt:scratch-orgs`, `kt:source-tracking` |
 | `kt:hyperforce` | `kt:multitenancy`, `kt:salesforce-platform`, `kt:government-cloud-plus` |
 | `kt:organization-wide-defaults` | `kt:experience-cloud`, `kt:role-hierarchy`, `kt:salesforce-sharing-model` |
 | `kt:process-automation` | `kt:flow-builder`, `kt:flow-orchestrator`, `kt:record-triggered-flow` |
-| `kt:salesforce-dx` | `kt:application-lifecycle-management`, `kt:salesforce-cli`, `kt:scratch-orgs` |
 | `kt:salesforce-identity` | `kt:connected-apps`, `kt:external-client-apps`, `kt:multi-factor-authentication` |
 | `kt:screen-flow` | `kt:flow-builder`, `kt:flow-orchestrator`, `kt:record-triggered-flow` |
 | `kt:single-sign-on-saml` | `kt:connected-apps`, `kt:external-client-apps`, `kt:multi-factor-authentication` |
 | `kt:unlocked-packages` | `kt:application-lifecycle-management`, `kt:change-sets`, `kt:scratch-orgs` |
 | `kt:autolaunched-flow` | `kt:flow-orchestrator`, `kt:record-triggered-flow` |
 | `kt:bulk-api-2` | `kt:data-migration-strategy`, `kt:record-locking` |
+| `kt:dev-hub` | `kt:scratch-orgs`, `kt:source-tracking` |
 | `kt:event-driven-architecture` | `kt:change-data-capture`, `kt:platform-events` |
 | `kt:experience-cloud-identity` | `kt:experience-cloud`, `kt:multi-factor-authentication` |
 | `kt:flow-trigger-explorer` | `kt:record-triggered-flow`, `kt:order-of-execution` |
@@ -53,7 +53,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:code-analyzer` | `kt:salesforce-cli` |
 | `kt:data-architecture` | `kt:data-migration-strategy` |
 | `kt:data-model-objects` | `kt:data-cloud` |
-| `kt:dev-hub` | `kt:scratch-orgs` |
 | `kt:einstein-trust-layer` | `kt:agentforce` |
 | `kt:enterprise-territory-management` | `kt:role-hierarchy` |
 | `kt:entitlement-management` | `kt:service-cloud` |
@@ -96,6 +95,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:technical-debt-in-salesforce` | `kt:well-architected-framework` |
 | `kt:test-data-factory` | `kt:apex-testing` |
 | `kt:testing-strategy` | `kt:apex-testing` |
+| `kt:tooling-api` | `kt:source-tracking` |
 | `kt:transaction-control` | `kt:record-locking` |
 | `kt:trigger-framework-pattern` | `kt:apex-triggers` |
 | `kt:zero-copy-data-federation` | `kt:data-cloud` |

@@ -2164,6 +2164,101 @@
       ]
     },
     {
+      "@id": "kt:source-tracking",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Source Tracking",
+      "skos:definition": "Salesforce DX capability that records metadata changes made in a local project and in a scratch org or Developer/Developer Pro sandbox, so Salesforce CLI can preview, deploy or retrieve only what changed and flag conflicts.",
+      "kto:domain": "devops-and-alm",
+      "dcterms:created": "2026-11-01",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Track Changes Between Your Project and Org (Salesforce DX Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/sfdx-dev/guide/sfdx-dev-source-tracking.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Enable Source Tracking in Sandboxes (Salesforce DX Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/sfdx-dev/guide/sfdx-setup-enable-source-tracking-sandboxes.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Deploy and Retrieve Changes Identified by Source Tracking",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/sfdx-dev/guide/sfdx-dev-source-tracking-pull-push-changes.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Resolve Conflicts Between Your Local Project and Org",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.264.0.sfdx_dev.meta/sfdx_dev/sfdx_dev_source_tracking_resolve_conflicts.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "project reset tracking (Salesforce CLI Command Reference)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/salesforce-cli-reference/guide/cli_reference_project_reset_tracking.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Learn MOAR with Summer '20 Release Highlights for Developers",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2020/06/learn-moar-with-summer-20-release-highlights-for-developers",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/devops-and-alm/source-tracking.md",
+      "skos:altLabel": [
+        "Salesforce DX source tracking",
+        "sandbox source tracking",
+        "SourceMember tracking",
+        "Enable Source Tracking in Developer and Developer Pro Sandboxes"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-dx"
+        },
+        {
+          "@id": "kt:application-lifecycle-management"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:scratch-orgs"
+        },
+        {
+          "@id": "kt:devops-center"
+        },
+        {
+          "@id": "kt:sandbox-types"
+        },
+        {
+          "@id": "kt:change-sets"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:salesforce-cli"
+        },
+        {
+          "@id": "kt:dev-hub"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:metadata-api"
+        }
+      ],
+      "kto:queriedWith": [
+        {
+          "@id": "kt:tooling-api"
+        }
+      ]
+    },
+    {
       "@id": "kt:connected-apps",
       "@type": "kto:Feature",
       "skos:prefLabel": "Connected Apps",

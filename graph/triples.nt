@@ -989,6 +989,34 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/service-cloud> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/service-cloud> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/service-cloud> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source-tracking> <http://purl.org/dc/terms/created> "2026-11-01" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source-tracking> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source-tracking> <http://www.w3.org/2000/01/rdf-schema#label> "Source Tracking" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source-tracking> <http://www.w3.org/2004/02/skos/core#altLabel> "Enable Source Tracking in Developer and Developer Pro Sandboxes" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source-tracking> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce DX source tracking" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source-tracking> <http://www.w3.org/2004/02/skos/core#altLabel> "SourceMember tracking" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source-tracking> <http://www.w3.org/2004/02/skos/core#altLabel> "sandbox source tracking" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source-tracking> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/application-lifecycle-management> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source-tracking> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-dx> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source-tracking> <http://www.w3.org/2004/02/skos/core#definition> "Salesforce DX capability that records metadata changes made in a local project and in a scratch org or Developer/Developer Pro sandbox, so Salesforce CLI can preview, deploy or retrieve only what changed and flag conflicts." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source-tracking> <http://www.w3.org/2004/02/skos/core#prefLabel> "Source Tracking" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source-tracking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/change-sets> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source-tracking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/devops-center> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source-tracking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-types> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source-tracking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/scratch-orgs> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source-tracking> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/source-tracking/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source-tracking> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/source-tracking/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source-tracking> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/source-tracking/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source-tracking> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/source-tracking/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source-tracking> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/source-tracking/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source-tracking> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/source-tracking/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source-tracking> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/dev-hub> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source-tracking> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-cli> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source-tracking> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source-tracking> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "devops-and-alm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source-tracking> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/tooling-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source-tracking> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source-tracking> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agent-development-lifecycle/s1> <http://purl.org/dc/terms/publisher> "Salesforce Architects" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agent-development-lifecycle/s1> <http://purl.org/dc/terms/title> "The Agent Development Lifecycle" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agent-development-lifecycle/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
@@ -2014,6 +2042,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/service-cloud/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/service-cloud/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "news" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/service-cloud/s6> <https://schema.org/url> "https://www.salesforce.com/tw/products/service-cloud/overview/" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/source-tracking/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/source-tracking/s1> <http://purl.org/dc/terms/title> "Track Changes Between Your Project and Org (Salesforce DX Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/source-tracking/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/source-tracking/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/source-tracking/s1> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/sfdx-dev/guide/sfdx-dev-source-tracking.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/source-tracking/s2> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/source-tracking/s2> <http://purl.org/dc/terms/title> "Enable Source Tracking in Sandboxes (Salesforce DX Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/source-tracking/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/source-tracking/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/source-tracking/s2> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/sfdx-dev/guide/sfdx-setup-enable-source-tracking-sandboxes.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/source-tracking/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/source-tracking/s3> <http://purl.org/dc/terms/title> "Deploy and Retrieve Changes Identified by Source Tracking" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/source-tracking/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/source-tracking/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/source-tracking/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/sfdx-dev/guide/sfdx-dev-source-tracking-pull-push-changes.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/source-tracking/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/source-tracking/s4> <http://purl.org/dc/terms/title> "Resolve Conflicts Between Your Local Project and Org" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/source-tracking/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/source-tracking/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/source-tracking/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.264.0.sfdx_dev.meta/sfdx_dev/sfdx_dev_source_tracking_resolve_conflicts.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/source-tracking/s5> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/source-tracking/s5> <http://purl.org/dc/terms/title> "project reset tracking (Salesforce CLI Command Reference)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/source-tracking/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/source-tracking/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/source-tracking/s5> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/salesforce-cli-reference/guide/cli_reference_project_reset_tracking.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/source-tracking/s6> <http://purl.org/dc/terms/publisher> "Salesforce Developers Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/source-tracking/s6> <http://purl.org/dc/terms/title> "Learn MOAR with Summer '20 Release Highlights for Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/source-tracking/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/source-tracking/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/source-tracking/s6> <https://schema.org/url> "https://developer.salesforce.com/blogs/2020/06/learn-moar-with-summer-20-release-highlights-for-developers" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/well-architected-framework/s1> <http://purl.org/dc/terms/publisher> "Salesforce Architects" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/well-architected-framework/s1> <http://purl.org/dc/terms/title> "Salesforce Well-Architected Framework" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/well-architected-framework/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
