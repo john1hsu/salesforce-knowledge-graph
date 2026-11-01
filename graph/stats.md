@@ -1,9 +1,9 @@
 # Graph statistics
 
-- Articles (nodes written): **45**
-- Frontier nodes (referenced, unwritten): **100**
-- Edges: **367**
-- Citations: **238**
+- Articles (nodes written): **46**
+- Frontier nodes (referenced, unwritten): **99**
+- Edges: **375**
+- Citations: **243**
 
 - Weakly connected components: **1**
 - Isolated articles (no edges): **0**
@@ -12,21 +12,21 @@
 
 | Node | PageRank | Written |
 |---|---|---|
-| `kt:application-lifecycle-management` | 0.0203 | yes |
-| `kt:sandbox-types` | 0.0172 | yes |
-| `kt:governor-limits` | 0.0170 | yes |
-| `kt:apex-triggers` | 0.0160 | yes |
-| `kt:devops-center` | 0.0154 | yes |
-| `kt:salesforce-cli` | 0.0152 | yes |
-| `kt:scratch-orgs` | 0.0151 | yes |
-| `kt:change-sets` | 0.0150 | yes |
-| `kt:flow-builder` | 0.0148 | yes |
-| `kt:salesforce-platform` | 0.0140 | yes |
-| `kt:apex-testing` | 0.0133 | yes |
-| `kt:metadata-api` | 0.0132 | yes |
-| `kt:environment-strategy` | 0.0128 | yes |
-| `kt:asynchronous-apex` | 0.0125 | yes |
-| `kt:order-of-execution` | 0.0116 | yes |
+| `kt:application-lifecycle-management` | 0.0201 | yes |
+| `kt:sandbox-types` | 0.0170 | yes |
+| `kt:governor-limits` | 0.0169 | yes |
+| `kt:apex-triggers` | 0.0159 | yes |
+| `kt:devops-center` | 0.0153 | yes |
+| `kt:salesforce-cli` | 0.0151 | yes |
+| `kt:scratch-orgs` | 0.0149 | yes |
+| `kt:change-sets` | 0.0149 | yes |
+| `kt:flow-builder` | 0.0147 | yes |
+| `kt:salesforce-platform` | 0.0142 | yes |
+| `kt:apex-testing` | 0.0132 | yes |
+| `kt:metadata-api` | 0.0131 | yes |
+| `kt:environment-strategy` | 0.0126 | yes |
+| `kt:asynchronous-apex` | 0.0123 | yes |
+| `kt:order-of-execution` | 0.0115 | yes |
 
 ## Communities (Louvain): 8
 
@@ -49,7 +49,7 @@
 - Language: 1
 - Limit: 1
 - Product: 7
-- SecurityControl: 2
+- SecurityControl: 3
 - Tool: 5
 
 ## By domain
@@ -65,13 +65,13 @@
 - integration: 3
 - platform-architecture: 6
 - public-sector-and-compliance: 3
-- security-and-sharing: 2
+- security-and-sharing: 3
 
 ## By verified release (oldest = most likely stale)
 
-- Winter '27: 45
+- Winter '27: 46
 
 ## By status
 
 - concept: 5
-- current: 40
+- current: 41

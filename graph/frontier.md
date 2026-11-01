@@ -6,11 +6,12 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 |---|---|
 | `kt:dev-hub` | `kt:salesforce-dx`, `kt:scratch-orgs`, `kt:source-tracking`, `kt:unlocked-packages` |
 | `kt:hyperforce` | `kt:multitenancy`, `kt:salesforce-platform`, `kt:government-cloud-plus` |
-| `kt:organization-wide-defaults` | `kt:experience-cloud`, `kt:role-hierarchy`, `kt:salesforce-sharing-model` |
 | `kt:process-automation` | `kt:flow-builder`, `kt:flow-orchestrator`, `kt:record-triggered-flow` |
 | `kt:salesforce-identity` | `kt:connected-apps`, `kt:external-client-apps`, `kt:multi-factor-authentication` |
 | `kt:screen-flow` | `kt:flow-builder`, `kt:flow-orchestrator`, `kt:record-triggered-flow` |
 | `kt:second-generation-managed-packages` | `kt:unlocked-packages`, `kt:external-client-apps`, `kt:external-client-apps` |
+| `kt:sharing-recalculation` | `kt:data-skew`, `kt:organization-wide-defaults`, `kt:role-hierarchy` |
+| `kt:sharing-rules` | `kt:organization-wide-defaults`, `kt:role-hierarchy`, `kt:salesforce-sharing-model` |
 | `kt:single-sign-on-saml` | `kt:connected-apps`, `kt:external-client-apps`, `kt:multi-factor-authentication` |
 | `kt:autolaunched-flow` | `kt:flow-orchestrator`, `kt:record-triggered-flow` |
 | `kt:bulk-api-2` | `kt:data-migration-strategy`, `kt:record-locking` |
@@ -33,8 +34,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:queues` | `kt:omni-channel`, `kt:service-cloud` |
 | `kt:salesforce-architect` | `kt:well-architected-framework`, `kt:agent-development-lifecycle` |
 | `kt:sandbox-templates` | `kt:environment-strategy`, `kt:sandbox-types` |
-| `kt:sharing-recalculation` | `kt:data-skew`, `kt:role-hierarchy` |
-| `kt:sharing-rules` | `kt:role-hierarchy`, `kt:salesforce-sharing-model` |
+| `kt:sharing-and-visibility-architect-certification` | `kt:organization-wide-defaults`, `kt:salesforce-sharing-model` |
 | `kt:soql` | `kt:apex`, `kt:record-locking` |
 | `kt:workflow-rules` | `kt:flow-builder`, `kt:record-triggered-flow` |
 | `kt:account-takeover` | `kt:multi-factor-authentication` |
@@ -94,7 +94,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:scratch-org-allocations` | `kt:scratch-orgs` |
 | `kt:service-setup-assistant` | `kt:service-cloud` |
 | `kt:session-security-levels` | `kt:multi-factor-authentication` |
-| `kt:sharing-and-visibility-architect-certification` | `kt:salesforce-sharing-model` |
 | `kt:skills-based-routing` | `kt:omni-channel` |
 | `kt:solution-design-tradeoffs` | `kt:well-architected-framework` |
 | `kt:technical-debt-in-salesforce` | `kt:well-architected-framework` |

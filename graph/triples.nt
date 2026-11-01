@@ -728,6 +728,33 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/order-of-execution> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#governedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/governor-limits> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/order-of-execution> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/order-of-execution> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/organization-wide-defaults> <http://purl.org/dc/terms/created> "2026-11-01" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/organization-wide-defaults> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#SecurityControl> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/organization-wide-defaults> <http://www.w3.org/2000/01/rdf-schema#label> "Organization-Wide Defaults" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/organization-wide-defaults> <http://www.w3.org/2004/02/skos/core#altLabel> "OWD" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/organization-wide-defaults> <http://www.w3.org/2004/02/skos/core#altLabel> "default external access" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/organization-wide-defaults> <http://www.w3.org/2004/02/skos/core#altLabel> "default internal access" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/organization-wide-defaults> <http://www.w3.org/2004/02/skos/core#altLabel> "external organization-wide defaults" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/organization-wide-defaults> <http://www.w3.org/2004/02/skos/core#altLabel> "org-wide defaults" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/organization-wide-defaults> <http://www.w3.org/2004/02/skos/core#altLabel> "organization-wide sharing defaults" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/organization-wide-defaults> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-sharing-model> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/organization-wide-defaults> <http://www.w3.org/2004/02/skos/core#definition> "The per-object baseline of record access in a Salesforce org — Private, Public Read Only, Public Read/Write, Controlled by Parent and similar levels, set separately for internal and external users — that every other sharing mechanism can only open up, never restrict further." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/organization-wide-defaults> <http://www.w3.org/2004/02/skos/core#prefLabel> "Organization-Wide Defaults" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/organization-wide-defaults> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-skew> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/organization-wide-defaults> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/experience-cloud> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/organization-wide-defaults> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/lookup-vs-master-detail> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/organization-wide-defaults> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/role-hierarchy> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/organization-wide-defaults> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-rules> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/organization-wide-defaults> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/organization-wide-defaults/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/organization-wide-defaults> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/organization-wide-defaults/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/organization-wide-defaults> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/organization-wide-defaults/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/organization-wide-defaults> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/organization-wide-defaults/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/organization-wide-defaults> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/organization-wide-defaults/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/organization-wide-defaults> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#causes> <https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-recalculation> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/organization-wide-defaults> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#coveredBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-and-visibility-architect-certification> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/organization-wide-defaults> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "security-and-sharing" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/organization-wide-defaults> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/organization-wide-defaults> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-events> <http://purl.org/dc/terms/created> "2026-10-31" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-events> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-events> <http://www.w3.org/2000/01/rdf-schema#label> "Platform Events" .
@@ -1861,6 +1888,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/order-of-execution/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/order-of-execution/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/order-of-execution/s4> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/record-triggered-flows/meet-flow-trigger-explorer" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/organization-wide-defaults/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/organization-wide-defaults/s1> <http://purl.org/dc/terms/title> "Control Access to Records (Data Security module)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/organization-wide-defaults/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/organization-wide-defaults/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/organization-wide-defaults/s1> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/data_security/data_security_records" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/organization-wide-defaults/s2> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/organization-wide-defaults/s2> <http://purl.org/dc/terms/title> "Set External Organization-Wide Defaults (Share CRM Data with Your Partners project)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/organization-wide-defaults/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/organization-wide-defaults/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/organization-wide-defaults/s2> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/projects/communities_share_crm_data/set_external_owd" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/organization-wide-defaults/s3> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/organization-wide-defaults/s3> <http://purl.org/dc/terms/title> "Tips and Hints for Sharing Data" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/organization-wide-defaults/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/organization-wide-defaults/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/organization-wide-defaults/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.salesforce_sharing_cheatsheet.meta/salesforce_sharing_cheatsheet/sharing_cheatsheet.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/organization-wide-defaults/s4> <http://purl.org/dc/terms/publisher> "Salesforce Architects" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/organization-wide-defaults/s4> <http://purl.org/dc/terms/title> "Platform Sharing Architecture" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/organization-wide-defaults/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/organization-wide-defaults/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/organization-wide-defaults/s4> <https://schema.org/url> "https://architect.salesforce.com/fundamentals/platform-sharing-architecture" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/organization-wide-defaults/s5> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/organization-wide-defaults/s5> <http://purl.org/dc/terms/title> "Defer Sharing Calculations (tip sheet)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/organization-wide-defaults/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/organization-wide-defaults/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/organization-wide-defaults/s5> <https://schema.org/url> "https://resources.docs.salesforce.com/242/latest/en-us/sfdc/pdf/salesforce_defer_sharing_tipsheet.pdf" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/platform-events/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/platform-events/s1> <http://purl.org/dc/terms/title> "Platform Events Developer Guide" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/platform-events/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

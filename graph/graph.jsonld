@@ -3699,6 +3699,89 @@
       ]
     },
     {
+      "@id": "kt:organization-wide-defaults",
+      "@type": "kto:SecurityControl",
+      "skos:prefLabel": "Organization-Wide Defaults",
+      "skos:definition": "The per-object baseline of record access in a Salesforce org — Private, Public Read Only, Public Read/Write, Controlled by Parent and similar levels, set separately for internal and external users — that every other sharing mechanism can only open up, never restrict further.",
+      "kto:domain": "security-and-sharing",
+      "dcterms:created": "2026-11-01",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Control Access to Records (Data Security module)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/data_security/data_security_records",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Set External Organization-Wide Defaults (Share CRM Data with Your Partners project)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/projects/communities_share_crm_data/set_external_owd",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Tips and Hints for Sharing Data",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.salesforce_sharing_cheatsheet.meta/salesforce_sharing_cheatsheet/sharing_cheatsheet.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Platform Sharing Architecture",
+          "dcterms:publisher": "Salesforce Architects",
+          "schema:url": "https://architect.salesforce.com/fundamentals/platform-sharing-architecture",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Defer Sharing Calculations (tip sheet)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://resources.docs.salesforce.com/242/latest/en-us/sfdc/pdf/salesforce_defer_sharing_tipsheet.pdf",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/security-and-sharing/organization-wide-defaults.md",
+      "skos:altLabel": [
+        "OWD",
+        "org-wide defaults",
+        "organization-wide sharing defaults",
+        "default internal access",
+        "default external access",
+        "external organization-wide defaults"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-sharing-model"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:role-hierarchy"
+        },
+        {
+          "@id": "kt:sharing-rules"
+        },
+        {
+          "@id": "kt:lookup-vs-master-detail"
+        },
+        {
+          "@id": "kt:experience-cloud"
+        },
+        {
+          "@id": "kt:data-skew"
+        }
+      ],
+      "kto:causes": [
+        {
+          "@id": "kt:sharing-recalculation"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:sharing-and-visibility-architect-certification"
+        }
+      ]
+    },
+    {
       "@id": "kt:role-hierarchy",
       "@type": "kto:SecurityControl",
       "skos:prefLabel": "Role Hierarchy",
