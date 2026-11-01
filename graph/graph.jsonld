@@ -331,6 +331,93 @@
       ]
     },
     {
+      "@id": "kt:autolaunched-flow",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Autolaunched Flow",
+      "skos:definition": "The Flow Builder flow type that has no trigger of its own and no screens: it runs in the background only when something else starts it, such as a parent flow's Subflow element, Apex, a custom button, an Agentforce action or a REST API call.",
+      "kto:domain": "automation",
+      "dcterms:created": "2026-11-01",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Autolaunched and Scheduled Flows: Get Started with Autolaunched Flows",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/autolaunched-scheduled-flows/get-started-with-autolaunched-flows",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Apex Reference Guide: Interview Class",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/flow_interview_class.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Actions Developer Guide: Flow Actions",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api_action.meta/api_action/actions_obj_flow.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Per-Transaction Flow Limits",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/apex/HTViewHelpDoc?id=platform.flow_considerations_limit_transaction.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "What Is a Subflow?",
+          "dcterms:publisher": "Salesforce Admins Blog",
+          "schema:url": "https://admin.salesforce.com/blog/2023/what-is-a-subflow",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/automation/autolaunched-flow.md",
+      "skos:altLabel": [
+        "autolaunched flow (no trigger)",
+        "no-trigger flow",
+        "headless flow"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:flow-builder"
+        },
+        {
+          "@id": "kt:process-automation"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:screen-flow"
+        },
+        {
+          "@id": "kt:record-triggered-flow"
+        },
+        {
+          "@id": "kt:flow-orchestrator"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:apex"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:governor-limits"
+        }
+      ],
+      "kto:usedBy": [
+        {
+          "@id": "kt:agentforce"
+        }
+      ],
+      "kto:queriedWith": [
+        {
+          "@id": "kt:invocable-actions-api"
+        }
+      ]
+    },
+    {
       "@id": "kt:flow-builder",
       "@type": "kto:Tool",
       "skos:prefLabel": "Flow Builder",

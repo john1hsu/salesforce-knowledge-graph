@@ -4,8 +4,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:autolaunched-flow` | `kt:flow-orchestrator`, `kt:record-triggered-flow`, `kt:screen-flow`, `kt:screen-flow` |
-| `kt:process-automation` | `kt:flow-builder`, `kt:flow-orchestrator`, `kt:record-triggered-flow`, `kt:screen-flow` |
+| `kt:process-automation` | `kt:autolaunched-flow`, `kt:flow-builder`, `kt:flow-orchestrator`, `kt:record-triggered-flow`, `kt:screen-flow` |
 | `kt:hyperforce` | `kt:multitenancy`, `kt:salesforce-platform`, `kt:government-cloud-plus` |
 | `kt:large-data-volumes` | `kt:archiving-strategy`, `kt:data-migration-strategy`, `kt:data-skew` |
 | `kt:lightning-web-components` | `kt:screen-flow`, `kt:experience-cloud`, `kt:apex` |
@@ -66,6 +65,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:identity-and-access-management-architect-certification` | `kt:multi-factor-authentication` |
 | `kt:identity-resolution` | `kt:data-cloud` |
 | `kt:integration-security` | `kt:named-credentials` |
+| `kt:invocable-actions-api` | `kt:autolaunched-flow` |
 | `kt:junction-object` | `kt:lookup-vs-master-detail` |
 | `kt:legacy-named-credentials` | `kt:named-credentials` |
 | `kt:lightning-service-console` | `kt:service-cloud` |
