@@ -4,9 +4,9 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:salesforce-platform` | `kt:service-cloud`, `kt:agentforce`, `kt:multitenancy`, `kt:sandbox-types`, `kt:salesforce-sharing-model` |
 | `kt:scratch-orgs` | `kt:environment-strategy`, `kt:application-lifecycle-management`, `kt:devops-center`, `kt:salesforce-cli`, `kt:sandbox-types` |
-| `kt:apex` | `kt:apex-testing`, `kt:apex-triggers`, `kt:asynchronous-apex` |
+| `kt:apex` | `kt:apex-testing`, `kt:apex-triggers`, `kt:asynchronous-apex`, `kt:salesforce-platform` |
+| `kt:hyperforce` | `kt:multitenancy`, `kt:salesforce-platform`, `kt:government-cloud-plus` |
 | `kt:process-automation` | `kt:flow-builder`, `kt:flow-orchestrator`, `kt:record-triggered-flow` |
 | `kt:record-locking` | `kt:data-skew`, `kt:lookup-vs-master-detail`, `kt:roll-up-summary-field` |
 | `kt:screen-flow` | `kt:flow-builder`, `kt:flow-orchestrator`, `kt:record-triggered-flow` |
@@ -15,8 +15,8 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:event-driven-architecture` | `kt:change-data-capture`, `kt:platform-events` |
 | `kt:experience-cloud` | `kt:service-cloud`, `kt:public-sector-solutions` |
 | `kt:flow-trigger-explorer` | `kt:record-triggered-flow`, `kt:order-of-execution` |
-| `kt:hyperforce` | `kt:multitenancy`, `kt:government-cloud-plus` |
 | `kt:implicit-sharing` | `kt:role-hierarchy`, `kt:salesforce-sharing-model` |
+| `kt:metadata-driven-architecture` | `kt:multitenancy`, `kt:salesforce-platform` |
 | `kt:mulesoft-anypoint-platform` | `kt:flow-orchestrator`, `kt:government-cloud-plus` |
 | `kt:oauth-2-0` | `kt:connected-apps`, `kt:external-client-apps` |
 | `kt:oauth-2-flows-in-salesforce` | `kt:connected-apps`, `kt:external-client-apps` |
@@ -60,13 +60,13 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:lightning-service-console` | `kt:service-cloud` |
 | `kt:limit-exception` | `kt:governor-limits` |
 | `kt:limits-class` | `kt:governor-limits` |
-| `kt:metadata-driven-architecture` | `kt:multitenancy` |
 | `kt:omni-channel-limits` | `kt:omni-channel` |
 | `kt:omnistudio` | `kt:public-sector-solutions` |
 | `kt:orchestration-work-guide` | `kt:flow-orchestrator` |
 | `kt:org-strategy` | `kt:environment-strategy` |
 | `kt:package-xml-manifest` | `kt:metadata-api` |
 | `kt:person-accounts` | `kt:public-sector-solutions` |
+| `kt:platform-as-a-service` | `kt:salesforce-platform` |
 | `kt:platform-event-allocations` | `kt:platform-events` |
 | `kt:platform-event-channel-member` | `kt:change-data-capture` |
 | `kt:presence-configuration` | `kt:omni-channel` |

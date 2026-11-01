@@ -699,6 +699,29 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-cli> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-api> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-cli> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-cli> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-platform> <http://purl.org/dc/terms/created> "2026-11-01" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-platform> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Product> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-platform> <http://www.w3.org/2000/01/rdf-schema#label> "Salesforce Platform" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-platform> <http://www.w3.org/2004/02/skos/core#altLabel> "Force.com" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-platform> <http://www.w3.org/2004/02/skos/core#altLabel> "Lightning Platform" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-platform> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce core platform" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-platform> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-as-a-service> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-platform> <http://www.w3.org/2004/02/skos/core#definition> "The shared, multitenant, metadata-driven foundation (infrastructure, data layer, runtime, automation, code, UI and APIs) on which Salesforce builds its own clouds and on which customers and ISVs build custom apps; marketed since Dreamforce 2025 as part of the Agentforce 360 Platform." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-platform> <http://www.w3.org/2004/02/skos/core#prefLabel> "Salesforce Platform" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-platform> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-driven-architecture> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-platform> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/multitenancy> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-platform> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-platform/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-platform> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-platform/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-platform> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-platform/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-platform> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-platform/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-platform> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-platform/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-platform> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/hyperforce> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-platform> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "platform-architecture" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-platform> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#enables> <https://github.com/john1hsu/salesforce-knowledge-graph/id/service-cloud> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-platform> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-platform> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-builder> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-platform> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-platform> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-sharing-model> <http://purl.org/dc/terms/created> "2026-10-31" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-sharing-model> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-sharing-model> <http://www.w3.org/2000/01/rdf-schema#label> "Salesforce Sharing Model" .
@@ -1520,6 +1543,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-cli/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-cli/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-cli/s6> <https://schema.org/url> "https://trailhead.salesforce.com/en/content/learn/projects/quickstart-vscode-salesforce/vscode-salesforce-ready" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-platform/s1> <http://purl.org/dc/terms/publisher> "Salesforce Architects" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-platform/s1> <http://purl.org/dc/terms/title> "The Salesforce Platform - Transformed for Tomorrow | Get Started with Fundamentals" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-platform/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-platform/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-platform/s1> <https://schema.org/url> "https://architect.salesforce.com/fundamentals/platform-transformation" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-platform/s2> <http://purl.org/dc/terms/publisher> "Salesforce Architects" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-platform/s2> <http://purl.org/dc/terms/title> "Architecture Basics | Get Started with Fundamentals" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-platform/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-platform/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-platform/s2> <https://schema.org/url> "https://architect.salesforce.com/fundamentals/architecture-basics" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-platform/s3> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-platform/s3> <http://purl.org/dc/terms/title> "Agentforce 360 Platform Basics" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-platform/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-platform/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-platform/s3> <https://schema.org/url> "https://trailhead.salesforce.com/modules/starting_force_com" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-platform/s4> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-platform/s4> <http://purl.org/dc/terms/title> "Get to Know the Salesforce Release Process (Salesforce Releases)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-platform/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-platform/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-platform/s4> <https://schema.org/url> "https://trailhead.salesforce.com/modules/sf_releases/units/sf_releases_start" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-platform/s5> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-platform/s5> <http://purl.org/dc/terms/title> "Salesforce press release: Agentforce 360 (2025-10-13)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-platform/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-platform/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "news" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-platform/s5> <https://schema.org/url> "https://www.salesforce.com/in/news/press-releases/2025/10/13/agentic-enterprise-announcement/" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-sharing-model/s1> <http://purl.org/dc/terms/publisher> "Salesforce" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-sharing-model/s1> <http://purl.org/dc/terms/title> "Understanding Sharing (Apex Developer Guide)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-sharing-model/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

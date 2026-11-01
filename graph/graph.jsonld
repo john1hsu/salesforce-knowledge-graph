@@ -2305,6 +2305,85 @@
       ]
     },
     {
+      "@id": "kt:salesforce-platform",
+      "@type": "kto:Product",
+      "skos:prefLabel": "Salesforce Platform",
+      "skos:definition": "The shared, multitenant, metadata-driven foundation (infrastructure, data layer, runtime, automation, code, UI and APIs) on which Salesforce builds its own clouds and on which customers and ISVs build custom apps; marketed since Dreamforce 2025 as part of the Agentforce 360 Platform.",
+      "kto:domain": "platform-architecture",
+      "dcterms:created": "2026-11-01",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "The Salesforce Platform - Transformed for Tomorrow | Get Started with Fundamentals",
+          "dcterms:publisher": "Salesforce Architects",
+          "schema:url": "https://architect.salesforce.com/fundamentals/platform-transformation",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Architecture Basics | Get Started with Fundamentals",
+          "dcterms:publisher": "Salesforce Architects",
+          "schema:url": "https://architect.salesforce.com/fundamentals/architecture-basics",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Agentforce 360 Platform Basics",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/modules/starting_force_com",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Get to Know the Salesforce Release Process (Salesforce Releases)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/modules/sf_releases/units/sf_releases_start",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Salesforce press release: Agentforce 360 (2025-10-13)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/in/news/press-releases/2025/10/13/agentic-enterprise-announcement/",
+          "kto:sourceType": "news"
+        }
+      ],
+      "kto:file": "articles/platform-architecture/salesforce-platform.md",
+      "skos:altLabel": [
+        "Lightning Platform",
+        "Force.com",
+        "Salesforce core platform"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:platform-as-a-service"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:multitenancy"
+        },
+        {
+          "@id": "kt:metadata-driven-architecture"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:hyperforce"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:apex"
+        },
+        {
+          "@id": "kt:flow-builder"
+        }
+      ],
+      "kto:enables": [
+        {
+          "@id": "kt:service-cloud"
+        }
+      ]
+    },
+    {
       "@id": "kt:sandbox-types",
       "@type": "kto:Feature",
       "skos:prefLabel": "Sandbox Types",
