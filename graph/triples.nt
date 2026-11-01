@@ -250,6 +250,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/connected-apps> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#replacedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/external-client-apps> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/connected-apps> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/connected-apps> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud> <http://purl.org/dc/terms/created> "2026-11-01" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Product> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud> <http://www.w3.org/2000/01/rdf-schema#label> "Data 360" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud> <http://www.w3.org/2004/02/skos/core#altLabel> "Customer 360 Audiences" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud> <http://www.w3.org/2004/02/skos/core#altLabel> "Data Cloud" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce CDP" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce Data 360" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce Data Cloud" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-platform> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud> <http://www.w3.org/2004/02/skos/core#definition> "Salesforce's data platform (named Data Cloud until October 2025) that ingests or federates data from Salesforce and external systems, harmonizes it into the Customer 360 Data Model, unifies records into profiles with identity resolution, and supplies insights, segments and grounding context to CRM apps and Agentforce." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud> <http://www.w3.org/2004/02/skos/core#prefLabel> "Data 360" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/change-data-capture> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "data-cloud-and-ai" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#enables> <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/calculated-insights> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-model-objects> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-resolution> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/zero-copy-data-federation> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-migration-strategy> <http://purl.org/dc/terms/created> "2026-11-01" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-migration-strategy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-migration-strategy> <http://www.w3.org/2000/01/rdf-schema#label> "Data Migration Strategy" .
@@ -1186,6 +1211,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/connected-apps/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/connected-apps/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "standards-body" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/connected-apps/s5> <https://schema.org/url> "https://rfc-editor.org/rfc/rfc6749" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud/s1> <http://purl.org/dc/terms/title> "Object Model in Data 360" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud/s1> <https://schema.org/url> "https://developer.salesforce.com/docs/data/data-cloud-dev/guide/dc-object-model.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud/s2> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud/s2> <http://purl.org/dc/terms/title> "Model Data in Data 360" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud/s2> <https://schema.org/url> "https://developer.salesforce.com/docs/data/data-cloud-dmo-mapping/guide/c360dm-model-data.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud/s3> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud/s3> <http://purl.org/dc/terms/title> "Create Data Streams (Explore Data Cloud Core Functionality)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud/s3> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/projects/explore-data-cloud-core-functionality/create-data-streams-1" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud/s4> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud/s4> <http://purl.org/dc/terms/title> "Create an Insight (Explore Data Cloud Core Functionality)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud/s4> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/projects/explore-data-cloud-core-functionality/create-an-insight" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud/s5> <http://purl.org/dc/terms/publisher> "Salesforce Architects" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud/s5> <http://purl.org/dc/terms/title> "Data 360 Interoperability (Decision Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud/s5> <https://schema.org/url> "https://architect.salesforce.com/docs/architect/decision-guides/guide/data-360-interoperability" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-migration-strategy/s1> <http://purl.org/dc/terms/publisher> "Salesforce" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-migration-strategy/s1> <http://purl.org/dc/terms/title> "Loading Data from the API (Best Practices for Deployments with Large Data Volumes)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-migration-strategy/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

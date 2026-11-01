@@ -46,10 +46,11 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:batch-apex` | `kt:asynchronous-apex` |
 | `kt:bulk-api-2` | `kt:data-migration-strategy` |
 | `kt:business-rules-engine` | `kt:public-sector-solutions` |
+| `kt:calculated-insights` | `kt:data-cloud` |
 | `kt:change-data-capture-allocations` | `kt:change-data-capture` |
 | `kt:code-analyzer` | `kt:salesforce-cli` |
 | `kt:data-architecture` | `kt:data-migration-strategy` |
-| `kt:data-cloud` | `kt:agentforce` |
+| `kt:data-model-objects` | `kt:data-cloud` |
 | `kt:dev-hub` | `kt:scratch-orgs` |
 | `kt:einstein-trust-layer` | `kt:agentforce` |
 | `kt:enterprise-territory-management` | `kt:role-hierarchy` |
@@ -60,6 +61,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:fedramp-high` | `kt:government-cloud-plus` |
 | `kt:future-methods` | `kt:asynchronous-apex` |
 | `kt:government-cloud` | `kt:government-cloud-plus` |
+| `kt:identity-resolution` | `kt:data-cloud` |
 | `kt:il4-and-il5` | `kt:government-cloud-plus` |
 | `kt:junction-object` | `kt:lookup-vs-master-detail` |
 | `kt:lightning-service-console` | `kt:service-cloud` |
@@ -91,3 +93,4 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:test-data-factory` | `kt:apex-testing` |
 | `kt:testing-strategy` | `kt:apex-testing` |
 | `kt:trigger-framework-pattern` | `kt:apex-triggers` |
+| `kt:zero-copy-data-federation` | `kt:data-cloud` |
