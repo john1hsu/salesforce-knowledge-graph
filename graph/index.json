@@ -646,6 +646,29 @@
     ]
   },
   {
+    "id": "kt:record-locking",
+    "title": "Record Locking",
+    "aliases": [
+      "row locking",
+      "record lock contention",
+      "UNABLE_TO_LOCK_ROW",
+      "FOR UPDATE locking",
+      "pessimistic record locking"
+    ],
+    "type": "Concept",
+    "domain": "platform-architecture",
+    "file": "articles/platform-architecture/record-locking.md",
+    "created": "2026-11-01",
+    "release": "Winter '27",
+    "status": "current",
+    "source_urls": [
+      "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexref/langCon_apex_locking_statements.htm",
+      "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/api/langCon_apex_deadlocks.htm",
+      "https://developer.salesforce.com/blogs/2014/07/record-locking-cheat-sheet",
+      "https://developer.salesforce.com/docs/atlas.en-us.api_asynch.meta/api_asynch/asynch_api_planning_guidelines.htm"
+    ]
+  },
+  {
     "id": "kt:record-triggered-flow",
     "title": "Record-Triggered Flow",
     "aliases": [

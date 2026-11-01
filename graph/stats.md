@@ -1,9 +1,9 @@
 # Graph statistics
 
-- Articles (nodes written): **38**
+- Articles (nodes written): **39**
 - Frontier nodes (referenced, unwritten): **90**
-- Edges: **308**
-- Citations: **201**
+- Edges: **315**
+- Citations: **205**
 
 - Weakly connected components: **1**
 - Isolated articles (no edges): **0**
@@ -12,21 +12,21 @@
 
 | Node | PageRank | Written |
 |---|---|---|
-| `kt:governor-limits` | 0.0193 | yes |
+| `kt:governor-limits` | 0.0191 | yes |
 | `kt:apex-triggers` | 0.0181 | yes |
-| `kt:flow-builder` | 0.0170 | yes |
-| `kt:application-lifecycle-management` | 0.0166 | yes |
-| `kt:sandbox-types` | 0.0149 | yes |
-| `kt:salesforce-platform` | 0.0146 | yes |
-| `kt:asynchronous-apex` | 0.0142 | yes |
-| `kt:order-of-execution` | 0.0134 | yes |
-| `kt:devops-center` | 0.0129 | yes |
-| `kt:apex-testing` | 0.0126 | yes |
-| `kt:environment-strategy` | 0.0123 | yes |
+| `kt:flow-builder` | 0.0169 | yes |
+| `kt:application-lifecycle-management` | 0.0163 | yes |
+| `kt:salesforce-platform` | 0.0155 | yes |
+| `kt:sandbox-types` | 0.0146 | yes |
+| `kt:asynchronous-apex` | 0.0140 | yes |
+| `kt:order-of-execution` | 0.0133 | yes |
+| `kt:devops-center` | 0.0126 | yes |
+| `kt:apex-testing` | 0.0125 | yes |
 | `kt:multitenancy` | 0.0122 | yes |
 | `kt:apex` | 0.0122 | yes |
-| `kt:agentforce` | 0.0120 | yes |
+| `kt:environment-strategy` | 0.0120 | yes |
 | `kt:record-triggered-flow` | 0.0120 | yes |
+| `kt:agentforce` | 0.0118 | yes |
 
 ## Communities (Louvain): 8
 
@@ -43,7 +43,7 @@
 
 - API: 1
 - AntiPattern: 1
-- Concept: 9
+- Concept: 10
 - Feature: 13
 - Language: 1
 - Limit: 1
@@ -62,15 +62,15 @@
 - devops-and-alm: 6
 - identity: 2
 - integration: 2
-- platform-architecture: 5
+- platform-architecture: 6
 - public-sector-and-compliance: 2
 - security-and-sharing: 2
 
 ## By verified release (oldest = most likely stale)
 
-- Winter '27: 38
+- Winter '27: 39
 
 ## By status
 
 - concept: 4
-- current: 34
+- current: 35

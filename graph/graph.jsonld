@@ -2745,6 +2745,77 @@
       ]
     },
     {
+      "@id": "kt:record-locking",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Record Locking",
+      "skos:definition": "The row-level locks Salesforce takes on records (and on related parent and group-membership records) during a transaction to keep data referentially intact, and the contention, timeouts and deadlock risks they create under concurrent load.",
+      "kto:domain": "platform-architecture",
+      "dcterms:created": "2026-11-01",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Locking Statements (Apex Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexref/langCon_apex_locking_statements.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Avoiding Deadlocks (Apex Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/api/langCon_apex_deadlocks.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Salesforce Platform Record Locking and Concurrency",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2014/07/record-locking-cheat-sheet",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "General Guidelines for Data Loads (Bulk API 2.0 and Bulk API Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api_asynch.meta/api_asynch/asynch_api_planning_guidelines.htm",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/platform-architecture/record-locking.md",
+      "skos:altLabel": [
+        "row locking",
+        "record lock contention",
+        "UNABLE_TO_LOCK_ROW",
+        "FOR UPDATE locking",
+        "pessimistic record locking"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:transaction-control"
+        },
+        {
+          "@id": "kt:salesforce-platform"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:data-skew"
+        },
+        {
+          "@id": "kt:roll-up-summary-field"
+        },
+        {
+          "@id": "kt:lookup-vs-master-detail"
+        },
+        {
+          "@id": "kt:bulk-api-2"
+        }
+      ],
+      "kto:queriedWith": [
+        {
+          "@id": "kt:soql"
+        }
+      ]
+    },
+    {
       "@id": "kt:salesforce-platform",
       "@type": "kto:Product",
       "skos:prefLabel": "Salesforce Platform",

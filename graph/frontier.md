@@ -4,7 +4,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:record-locking` | `kt:data-migration-strategy`, `kt:data-skew`, `kt:lookup-vs-master-detail`, `kt:roll-up-summary-field` |
 | `kt:source-tracking` | `kt:application-lifecycle-management`, `kt:devops-center`, `kt:salesforce-cli`, `kt:scratch-orgs` |
 | `kt:hyperforce` | `kt:multitenancy`, `kt:salesforce-platform`, `kt:government-cloud-plus` |
 | `kt:organization-wide-defaults` | `kt:experience-cloud`, `kt:role-hierarchy`, `kt:salesforce-sharing-model` |
@@ -13,6 +12,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:screen-flow` | `kt:flow-builder`, `kt:flow-orchestrator`, `kt:record-triggered-flow` |
 | `kt:unlocked-packages` | `kt:application-lifecycle-management`, `kt:change-sets`, `kt:scratch-orgs` |
 | `kt:autolaunched-flow` | `kt:flow-orchestrator`, `kt:record-triggered-flow` |
+| `kt:bulk-api-2` | `kt:data-migration-strategy`, `kt:record-locking` |
 | `kt:event-driven-architecture` | `kt:change-data-capture`, `kt:platform-events` |
 | `kt:flow-trigger-explorer` | `kt:record-triggered-flow`, `kt:order-of-execution` |
 | `kt:implicit-sharing` | `kt:role-hierarchy`, `kt:salesforce-sharing-model` |
@@ -35,6 +35,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:sharing-recalculation` | `kt:data-skew`, `kt:role-hierarchy` |
 | `kt:sharing-rules` | `kt:role-hierarchy`, `kt:salesforce-sharing-model` |
 | `kt:single-sign-on-saml` | `kt:connected-apps`, `kt:external-client-apps` |
+| `kt:soql` | `kt:apex`, `kt:record-locking` |
 | `kt:workflow-rules` | `kt:flow-builder`, `kt:record-triggered-flow` |
 | `kt:agent-script` | `kt:agentforce` |
 | `kt:agentforce-dx` | `kt:agent-development-lifecycle` |
@@ -44,7 +45,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:archiving-strategy` | `kt:data-migration-strategy` |
 | `kt:atlas-reasoning-engine` | `kt:agentforce` |
 | `kt:batch-apex` | `kt:asynchronous-apex` |
-| `kt:bulk-api-2` | `kt:data-migration-strategy` |
 | `kt:business-rules-engine` | `kt:public-sector-solutions` |
 | `kt:calculated-insights` | `kt:data-cloud` |
 | `kt:change-data-capture-allocations` | `kt:change-data-capture` |
@@ -88,9 +88,9 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:sharing-and-visibility-architect-certification` | `kt:salesforce-sharing-model` |
 | `kt:skills-based-routing` | `kt:omni-channel` |
 | `kt:solution-design-tradeoffs` | `kt:well-architected-framework` |
-| `kt:soql` | `kt:apex` |
 | `kt:technical-debt-in-salesforce` | `kt:well-architected-framework` |
 | `kt:test-data-factory` | `kt:apex-testing` |
 | `kt:testing-strategy` | `kt:apex-testing` |
+| `kt:transaction-control` | `kt:record-locking` |
 | `kt:trigger-framework-pattern` | `kt:apex-triggers` |
 | `kt:zero-copy-data-federation` | `kt:data-cloud` |
