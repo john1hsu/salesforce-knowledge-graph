@@ -4,7 +4,9 @@
 Usage:
   python3 scripts/kg.py check            # validate only (exit 1 on errors)
   python3 scripts/kg.py build            # validate, then regenerate graph/
-  python3 scripts/kg.py similar "Title"  # find existing articles close to a candidate topic
+  python3 scripts/kg.py similar "Title" [--current "Spring '27"]
+                                         # find existing articles close to a candidate topic;
+                                         # matches verified against an older release are flagged STALE
 
 Articles live in articles/<domain>/<slug>.md with YAML frontmatter (see SCHEMA.md).
 Generated outputs (never hand-edit): graph/graph.jsonld, graph/triples.nt,
@@ -378,26 +380,41 @@ def release_key(r: str) -> tuple[int, int]:
     return (int(m.group(2)), order[m.group(1)])
 
 
-def similar(query: str, arts: list[dict]) -> None:
+def similar(query: str, arts: list[dict], current: str | None = None) -> None:
+    # Reference release: the one passed in, else the newest release any article is stamped with.
+    if not current:
+        current = max((a.get("release", "") for a in arts), key=release_key, default="")
+    cur_key = release_key(current)
     scored = []
     for a in arts:
         labels = [a.get("title", "")] + list(a.get("aliases") or [])
         best = max(label_sim(query, x) for x in labels)
         if norm(query) in {norm(x) for x in labels}:
             best = 1.0
-        scored.append((best, a.get("id"), a.get("title")))
+        scored.append((best, a.get("id"), a.get("title"), a.get("release", "")))
     hits = [x for x in sorted(scored, reverse=True) if x[0] > 0][:10]
+    print(f"Current release: {current or 'unknown'}")
     if not hits:
         print("No similar articles. Topic looks unique.")
-    for s, i, t in hits:
-        print(f"{s:.2f}  {i}  {t}")
+    for s, i, t, r in hits:
+        flag = "  STALE" if release_key(r) < cur_key else ""
+        print(f"{s:.2f}  {i}  {t}  [{r}]{flag}")
 
 
 def main() -> int:
     cmd = sys.argv[1] if len(sys.argv) > 1 else "check"
     arts, errs = load_articles()
     if cmd == "similar":
-        similar(" ".join(sys.argv[2:]), arts)
+        args = sys.argv[2:]
+        current = None
+        if "--current" in args:
+            k = args.index("--current")
+            if k + 1 >= len(args) or not RELEASE_RE.match(args[k + 1]):
+                print("--current needs a release like \"Spring '27\"")
+                return 2
+            current = args[k + 1]
+            args = args[:k] + args[k + 2:]
+        similar(" ".join(args), arts, current)
         return 0
     errs += validate(arts) if not errs else []
     if errs:

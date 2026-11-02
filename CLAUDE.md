@@ -1,6 +1,6 @@
 # Salesforce Knowledge Graph — run playbook
 
-This repo is a citation-backed knowledge graph of the Salesforce ecosystem. An hourly scheduled run adds **exactly one new, unique article** per run. Follow these steps in order. Read `SCHEMA.md` before writing.
+This repo is a citation-backed knowledge graph of the Salesforce ecosystem. An hourly scheduled run makes **exactly one change** per run: it either adds one new, unique article or refreshes one existing article that was verified against an older release (see 2a). Follow these steps in order. Read `SCHEMA.md` before writing.
 
 ## 1. Sync and orient
 ```bash
@@ -19,13 +19,24 @@ Use the current UTC hour:
 
 Then prove it is unique:
 ```bash
-python3 scripts/kg.py similar "<candidate title>"
+python3 scripts/kg.py similar "<candidate title>" --current "<current release>"
 ```
-- If an existing title or alias names the same thing, pick a different topic.
+Each match shows its `[release]`; matches verified against an older release than the current one are flagged `STALE`.
+- If an existing title or alias names the same thing (or a ≥ 0.5 match is the same subject after review): if that match is flagged `STALE`, **refresh it** (step 2a) instead of writing a new article; otherwise pick a different topic.
 - If any score is ≥ 0.5, **review before skipping**: read the summary (and aliases) of each matching node. Proceed only if it is clearly a different subject, and record the reason in the commit message body, one line per match, e.g. `similar: 0.55 vs kt:governor-limits — alias "Apex governor limits" covers limits, not triggers`. If you are unsure, pick a different topic.
 - Scores below 0.5 need no note.
 
-Never write a second article on a subject that already has a node — not a rename, a sub-angle that restates it, an old product name (e.g. "Salesforce CDP" vs "Data Cloud"), or a synonym. Salesforce renames products often: record former names as `aliases`.
+Never write a second article on a subject that already has a node — not a rename, a sub-angle that restates it, an old product name (e.g. "Salesforce CDP" vs "Data Cloud"), or a synonym. Salesforce renames products often: record former names as `aliases`. A newer release is never a reason for a second node on the same subject; refresh the existing one.
+
+## 2a. Refresh a stale article (instead of adding one)
+Use this when step 2 lands on an existing node whose `release` is older than the current release. The refresh is this run's one change.
+- Keep the file path, `id`, `created` date and existing edges, so links from other articles stay intact. Never rename or delete the node.
+- Re-verify the article against the current release: re-open every cited source (search for it first, per step 3), check the current release notes for changes to the feature, and confirm `status` and every stated limit and number.
+- Rewrite only what changed. Replace or add sources as needed (same rules as step 3); update every refreshed source's `accessed` date; set `release` to the current release.
+- If the product was renamed, update `title` only if Salesforce's official name changed, and add the former name to `aliases`. If the feature was retired or replaced, set `status` and add a `replacedBy` edge; the successor is a different subject and can be written as a new article in a later run.
+- If the change is notable, add a short **What changed in <release>** section with citations.
+- If nothing changed, still bump `release` and the `accessed` dates of the sources you re-opened.
+- If you cannot open enough sources to re-verify it, don't refresh it; pick a different topic.
 
 ## 3. Research
 - Run several web searches; read the actual pages (WebFetch), don't rely on snippets or memory.
@@ -41,18 +52,19 @@ Never write a second article on a subject that already has a node — not a rena
 - Every factual paragraph carries footnote citations `[^sN]`; list all sources in `## Sources`.
 - Edges: 1–3 `broader`, 2–6 `related` or typed `relations`. Use typed predicates where they fit (`dependsOn`, `alternativeTo`, `governedBy`, `replacedBy`, `configuredVia`, `queriedWith`, `requiresLicense`, `coveredBy` a certification, …). **Link to existing node ids wherever they fit** (check `graph/index.json`); new target ids are fine and join the frontier.
 - If a needed predicate or class is missing, add it to `ontology/ontology.ttl` (with a label and, if applicable, inverse) in the same commit. Keep the ontology small; reuse before adding.
-- Back-links: if the new node is a natural child or relative of an existing article, you may add its id to that article's `related` list. Don't otherwise rewrite existing articles.
+- Back-links: if the new node is a natural child or relative of an existing article, you may add its id to that article's `related` list. Don't otherwise rewrite existing articles, except through a refresh (step 2a).
 
 ## 5. Validate, build, commit, push
 ```bash
 python3 scripts/kg.py build    # fix every reported problem, then re-run until OK
 git add -A
-git commit -m "Add <Title> (<domain>)"
+git commit -m "Add <Title> (<domain>)"   # refresh: "Refresh <Title> (<old release> → <new release>)"
 git pull --rebase origin main && git push origin main
 ```
-If the push is rejected, pull --rebase, rebuild, and push again (once). Commit generated `graph/` files with the article.
+In a refresh commit body, list what changed, one line each (or `no content changes; re-verified`). If the push is rejected, pull --rebase, rebuild, and push again (once). Commit generated `graph/` files with the article.
 
 ## Don'ts
-- Don't add more than one article per run, delete articles, or rewrite history.
+- Don't add or refresh more than one article per run, delete articles, or rewrite history.
+- Don't write a new article on a subject that already has a node just because its node is stale; refresh it.
 - Don't commit if validation fails; leave the repo clean.
 - Don't cite a source you didn't open, or state a limit you didn't verify.
