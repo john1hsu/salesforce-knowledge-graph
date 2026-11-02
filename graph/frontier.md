@@ -4,15 +4,15 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:identity-and-access-management-architect-certification` | `kt:experience-cloud-identity`, `kt:multi-factor-authentication`, `kt:my-domain`, `kt:salesforce-identity`, `kt:single-sign-on-saml` |
 | `kt:data-architecture` | `kt:archiving-strategy`, `kt:data-migration-strategy`, `kt:large-data-volumes`, `kt:data-residency` |
+| `kt:oauth-2-flows-in-salesforce` | `kt:connected-apps`, `kt:external-client-apps`, `kt:identity-and-access-management-architect-certification`, `kt:single-sign-on-saml` |
 | `kt:openid-connect-authentication-providers` | `kt:experience-cloud-identity`, `kt:my-domain`, `kt:salesforce-identity`, `kt:single-sign-on-saml` |
+| `kt:sharing-and-visibility-architect-certification` | `kt:identity-and-access-management-architect-certification`, `kt:organization-wide-defaults`, `kt:salesforce-sharing-model`, `kt:sharing-rules` |
 | `kt:sharing-recalculation` | `kt:data-skew`, `kt:organization-wide-defaults`, `kt:role-hierarchy`, `kt:sharing-rules` |
 | `kt:lightning-web-components` | `kt:screen-flow`, `kt:experience-cloud`, `kt:apex` |
 | `kt:oauth-2-0` | `kt:connected-apps`, `kt:external-client-apps`, `kt:salesforce-identity` |
-| `kt:oauth-2-flows-in-salesforce` | `kt:connected-apps`, `kt:external-client-apps`, `kt:single-sign-on-saml` |
 | `kt:object-relationships` | `kt:junction-object`, `kt:lookup-vs-master-detail`, `kt:roll-up-summary-field` |
-| `kt:sharing-and-visibility-architect-certification` | `kt:organization-wide-defaults`, `kt:salesforce-sharing-model`, `kt:sharing-rules` |
+| `kt:salesforce-architect` | `kt:well-architected-framework`, `kt:agent-development-lifecycle`, `kt:identity-and-access-management-architect-certification` |
 | `kt:soql` | `kt:apex`, `kt:bulk-api-2`, `kt:record-locking` |
 | `kt:apex-managed-sharing` | `kt:salesforce-sharing-model`, `kt:sharing-rules` |
 | `kt:approval-processes` | `kt:flow-orchestrator`, `kt:process-automation` |
@@ -34,7 +34,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:pub-sub-api` | `kt:change-data-capture`, `kt:platform-events` |
 | `kt:query-optimizer-selectivity` | `kt:large-data-volumes`, `kt:multitenancy` |
 | `kt:queues` | `kt:omni-channel`, `kt:service-cloud` |
-| `kt:salesforce-architect` | `kt:well-architected-framework`, `kt:agent-development-lifecycle` |
 | `kt:sandbox-templates` | `kt:environment-strategy`, `kt:sandbox-types` |
 | `kt:scratch-org-allocations` | `kt:dev-hub`, `kt:scratch-orgs` |
 | `kt:workflow-rules` | `kt:flow-builder`, `kt:record-triggered-flow` |
@@ -108,6 +107,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:skills-based-routing` | `kt:omni-channel` |
 | `kt:skinny-tables` | `kt:large-data-volumes` |
 | `kt:solution-design-tradeoffs` | `kt:well-architected-framework` |
+| `kt:system-architect-certification` | `kt:identity-and-access-management-architect-certification` |
 | `kt:tableau` | `kt:einstein-trust-layer` |
 | `kt:technical-debt-in-salesforce` | `kt:well-architected-framework` |
 | `kt:test-data-factory` | `kt:apex-testing` |

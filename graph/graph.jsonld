@@ -3490,6 +3490,95 @@
       ]
     },
     {
+      "@id": "kt:identity-and-access-management-architect-certification",
+      "@type": "kto:Certification",
+      "skos:prefLabel": "Identity and Access Management Architect Certification",
+      "skos:definition": "Salesforce's domain architect credential for designing Salesforce Platform identity solutions, centred on single sign-on requirements; it is one of the four certifications that together grant the System Architect credential on the path to Certified Technical Architect.",
+      "kto:domain": "identity",
+      "dcterms:created": "2026-11-02",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Certification - Salesforce Certified Platform Identity and Access Management Architect",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/it/credentials/platformidentityandaccessmanagementarchitect",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Certification - Architect Overview",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/credentials/architectoverview",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Certification - Salesforce Certified System Architect",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/credentials/systemarchitect",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Salesforce Architect Program FAQs",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=005298912&language=en_US&type=1",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Salesforce Certification Maintenance Schedule",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=005298922&type=1&language=en_US",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Architect Journey: Identity and Access Management (Trailmix)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/en/users/strailhead/trailmixes/architect-identity-and-access-management",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/identity/identity-and-access-management-architect-certification.md",
+      "skos:altLabel": [
+        "Salesforce Certified Platform Identity and Access Management Architect",
+        "IAM Architect certification",
+        "Plat-Arch-203"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-architect"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:salesforce-identity"
+        },
+        {
+          "@id": "kt:single-sign-on-saml"
+        },
+        {
+          "@id": "kt:oauth-2-flows-in-salesforce"
+        },
+        {
+          "@id": "kt:my-domain"
+        },
+        {
+          "@id": "kt:experience-cloud-identity"
+        },
+        {
+          "@id": "kt:multi-factor-authentication"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:system-architect-certification"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:sharing-and-visibility-architect-certification"
+        }
+      ]
+    },
+    {
       "@id": "kt:multi-factor-authentication",
       "@type": "kto:SecurityControl",
       "skos:prefLabel": "Multi-Factor Authentication",
