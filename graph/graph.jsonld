@@ -1817,6 +1817,101 @@
       ]
     },
     {
+      "@id": "kt:prompt-builder",
+      "@type": "kto:Tool",
+      "skos:prefLabel": "Prompt Builder",
+      "skos:definition": "The Setup tool for building reusable, grounded prompt templates that merge Salesforce record data, related lists, Flow and Apex output into instructions for a large language model, then run them from record pages, Flow, Apex, the REST API or Agentforce actions.",
+      "kto:domain": "data-cloud-and-ai",
+      "dcterms:created": "2026-11-02",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Prompt Template Types",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=ai.prompt_builder_standard_template_types.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Create and Ground Prompt Templates (Prompt Builder Basics)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/prompt-builder-basics/create-and-ground-prompt-templates",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Ground Your Prompt Templates with Data Using Flow or Apex",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2024/04/ground-your-prompt-templates-with-data-using-flow-or-apex",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Resolve a Prompt Template (Apex Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/api/connectapi_examples_resolve_prompt_template.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Maximize Generative AI with Prompt Templates (Quick Start: Prompt Builder)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/projects/quick-start-prompt-builder/get-started-with-prompt-builder",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "GenAiPromptTemplate (Metadata API Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_genaiprompttemplate.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Jen's Top Winter '27 Release Features For Admins",
+          "dcterms:publisher": "Salesforce Admins Blog",
+          "schema:url": "https://admin.salesforce.com/blog/2026/jens-top-winter-27-release-features-for-admins",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/data-cloud-and-ai/prompt-builder.md",
+      "skos:altLabel": [
+        "Salesforce Prompt Builder",
+        "Einstein Prompt Builder",
+        "prompt templates",
+        "GenAiPromptTemplate"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:agentforce-studio"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:agentforce"
+        },
+        {
+          "@id": "kt:flow-builder"
+        },
+        {
+          "@id": "kt:knowledge-base"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:einstein-trust-layer"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:apex"
+        },
+        {
+          "@id": "kt:data-cloud"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:metadata-api"
+        }
+      ]
+    },
+    {
       "@id": "kt:data-skew",
       "@type": "kto:AntiPattern",
       "skos:prefLabel": "Data Skew",

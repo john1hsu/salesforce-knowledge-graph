@@ -38,6 +38,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:account-takeover` | `kt:multi-factor-authentication` |
 | `kt:agent-script` | `kt:agentforce` |
 | `kt:agentforce-dx` | `kt:agent-development-lifecycle` |
+| `kt:agentforce-studio` | `kt:prompt-builder` |
 | `kt:agentforce-testing-center` | `kt:agent-development-lifecycle` |
 | `kt:atlas-reasoning-engine` | `kt:agentforce` |
 | `kt:backup-and-recover` | `kt:archiving-strategy` |
@@ -88,7 +89,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:platform-event-allocations` | `kt:platform-events` |
 | `kt:platform-event-channel-member` | `kt:change-data-capture` |
 | `kt:presence-configuration` | `kt:omni-channel` |
-| `kt:prompt-builder` | `kt:einstein-trust-layer` |
 | `kt:prompt-injection` | `kt:einstein-trust-layer` |
 | `kt:public-groups` | `kt:sharing-rules` |
 | `kt:queueable-apex` | `kt:asynchronous-apex` |
