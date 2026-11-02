@@ -32,6 +32,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:pub-sub-api` | `kt:change-data-capture`, `kt:platform-events` |
 | `kt:query-optimizer-selectivity` | `kt:large-data-volumes`, `kt:multitenancy` |
 | `kt:queues` | `kt:omni-channel`, `kt:service-cloud` |
+| `kt:record-types` | `kt:knowledge-base`, `kt:person-accounts` |
 | `kt:sandbox-templates` | `kt:environment-strategy`, `kt:sandbox-types` |
 | `kt:scratch-org-allocations` | `kt:dev-hub`, `kt:scratch-orgs` |
 | `kt:solution-design-tradeoffs` | `kt:technical-debt-in-salesforce`, `kt:well-architected-framework` |
@@ -50,6 +51,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:calculated-insights` | `kt:data-cloud` |
 | `kt:change-data-capture-allocations` | `kt:change-data-capture` |
 | `kt:collaborative-forecasts` | `kt:sales-cloud` |
+| `kt:contacts-to-multiple-accounts` | `kt:person-accounts` |
 | `kt:custom-domains` | `kt:my-domain` |
 | `kt:data-categories` | `kt:knowledge-base` |
 | `kt:data-integration` | `kt:bulk-api-2` |
@@ -60,6 +62,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:entitlement-management` | `kt:service-cloud` |
 | `kt:external-identity-license` | `kt:experience-cloud-identity` |
 | `kt:fedramp` | `kt:il4-and-il5` |
+| `kt:financial-services-cloud` | `kt:person-accounts` |
 | `kt:first-generation-managed-packages` | `kt:second-generation-managed-packages` |
 | `kt:future-methods` | `kt:asynchronous-apex` |
 | `kt:gdpr-international-transfers` | `kt:data-residency` |
@@ -83,7 +86,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:org-strategy` | `kt:environment-strategy` |
 | `kt:package-xml-manifest` | `kt:metadata-api` |
 | `kt:permission-sets` | `kt:named-credentials` |
-| `kt:person-accounts` | `kt:public-sector-solutions` |
 | `kt:platform-as-a-service` | `kt:salesforce-platform` |
 | `kt:platform-data-architect-certification` | `kt:data-architecture` |
 | `kt:platform-event-allocations` | `kt:platform-events` |
@@ -92,7 +94,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:prompt-injection` | `kt:einstein-trust-layer` |
 | `kt:public-groups` | `kt:sharing-rules` |
 | `kt:queueable-apex` | `kt:asynchronous-apex` |
-| `kt:record-types` | `kt:knowledge-base` |
 | `kt:recursive-save` | `kt:order-of-execution` |
 | `kt:remote-site-settings` | `kt:named-credentials` |
 | `kt:rest-api` | `kt:bulk-api-2` |
@@ -111,6 +112,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:session-security-levels` | `kt:multi-factor-authentication` |
 | `kt:skills-based-routing` | `kt:omni-channel` |
 | `kt:skinny-tables` | `kt:large-data-volumes` |
+| `kt:standard-objects` | `kt:person-accounts` |
 | `kt:system-architect-certification` | `kt:identity-and-access-management-architect-certification` |
 | `kt:tableau` | `kt:einstein-trust-layer` |
 | `kt:test-data-factory` | `kt:apex-testing` |

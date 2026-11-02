@@ -2142,6 +2142,90 @@
       ]
     },
     {
+      "@id": "kt:person-accounts",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Person Accounts",
+      "skos:definition": "An irreversible org feature that models an individual consumer as a single record combining one Account and one person Contact, supporting business-to-consumer data models alongside ordinary business accounts.",
+      "kto:domain": "data-model",
+      "dcterms:created": "2026-11-02",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Setting Up Person Accounts (implementation guide)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://resources.docs.salesforce.com/latest/latest/en-us/sfdc/pdf/impl_person_accounts.pdf",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "SOAP API Developer Guide: Person Account Record Types",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api.meta/api/sforce_api_guidelines_personaccounts.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Change Data Capture Developer Guide: Creating and Undeleting a Person Account",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/change-data-capture/guide/cdc-standard-objects-person-account-create.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Client Management in Financial Services Cloud: Create Person Accounts for Individual Clients",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/client-management-in-financial-services-cloud/create-person-accounts-for-individual-clients",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/data-model/person-accounts.md",
+      "skos:altLabel": [
+        "person account",
+        "PersonAccount record type",
+        "B2C accounts",
+        "consumer accounts",
+        "IsPersonAccount"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:standard-objects"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:salesforce-sharing-model"
+        },
+        {
+          "@id": "kt:contacts-to-multiple-accounts"
+        },
+        {
+          "@id": "kt:sales-cloud"
+        },
+        {
+          "@id": "kt:experience-cloud-identity"
+        },
+        {
+          "@id": "kt:data-migration-strategy"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:record-types"
+        },
+        {
+          "@id": "kt:organization-wide-defaults"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:change-data-capture"
+        }
+      ],
+      "kto:usedBy": [
+        {
+          "@id": "kt:financial-services-cloud"
+        }
+      ]
+    },
+    {
       "@id": "kt:roll-up-summary-field",
       "@type": "kto:Feature",
       "skos:prefLabel": "Roll-Up Summary Field",

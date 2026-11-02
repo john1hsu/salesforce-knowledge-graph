@@ -1143,6 +1143,33 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/organization-wide-defaults> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "security-and-sharing" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/organization-wide-defaults> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/organization-wide-defaults> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/person-accounts> <http://purl.org/dc/terms/created> "2026-11-02" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/person-accounts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/person-accounts> <http://www.w3.org/2000/01/rdf-schema#label> "Person Accounts" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/person-accounts> <http://www.w3.org/2004/02/skos/core#altLabel> "B2C accounts" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/person-accounts> <http://www.w3.org/2004/02/skos/core#altLabel> "IsPersonAccount" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/person-accounts> <http://www.w3.org/2004/02/skos/core#altLabel> "PersonAccount record type" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/person-accounts> <http://www.w3.org/2004/02/skos/core#altLabel> "consumer accounts" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/person-accounts> <http://www.w3.org/2004/02/skos/core#altLabel> "person account" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/person-accounts> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/standard-objects> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/person-accounts> <http://www.w3.org/2004/02/skos/core#definition> "An irreversible org feature that models an individual consumer as a single record combining one Account and one person Contact, supporting business-to-consumer data models alongside ordinary business accounts." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/person-accounts> <http://www.w3.org/2004/02/skos/core#prefLabel> "Person Accounts" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/person-accounts> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/contacts-to-multiple-accounts> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/person-accounts> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-migration-strategy> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/person-accounts> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/experience-cloud-identity> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/person-accounts> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/sales-cloud> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/person-accounts> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-sharing-model> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/person-accounts> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/person-accounts/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/person-accounts> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/person-accounts/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/person-accounts> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/person-accounts/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/person-accounts> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/person-accounts/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/person-accounts> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/organization-wide-defaults> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/person-accounts> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/record-types> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/person-accounts> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "data-model" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/person-accounts> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/change-data-capture> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/person-accounts> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/person-accounts> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#usedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/financial-services-cloud> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/person-accounts> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-events> <http://purl.org/dc/terms/created> "2026-10-31" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-events> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-events> <http://www.w3.org/2000/01/rdf-schema#label> "Platform Events" .
@@ -2912,6 +2939,26 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/organization-wide-defaults/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/organization-wide-defaults/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/organization-wide-defaults/s5> <https://schema.org/url> "https://resources.docs.salesforce.com/242/latest/en-us/sfdc/pdf/salesforce_defer_sharing_tipsheet.pdf" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/person-accounts/s1> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/person-accounts/s1> <http://purl.org/dc/terms/title> "Setting Up Person Accounts (implementation guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/person-accounts/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/person-accounts/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/person-accounts/s1> <https://schema.org/url> "https://resources.docs.salesforce.com/latest/latest/en-us/sfdc/pdf/impl_person_accounts.pdf" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/person-accounts/s2> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/person-accounts/s2> <http://purl.org/dc/terms/title> "SOAP API Developer Guide: Person Account Record Types" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/person-accounts/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/person-accounts/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/person-accounts/s2> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.api.meta/api/sforce_api_guidelines_personaccounts.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/person-accounts/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/person-accounts/s3> <http://purl.org/dc/terms/title> "Change Data Capture Developer Guide: Creating and Undeleting a Person Account" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/person-accounts/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/person-accounts/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/person-accounts/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/change-data-capture/guide/cdc-standard-objects-person-account-create.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/person-accounts/s4> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/person-accounts/s4> <http://purl.org/dc/terms/title> "Client Management in Financial Services Cloud: Create Person Accounts for Individual Clients" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/person-accounts/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/person-accounts/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/person-accounts/s4> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/client-management-in-financial-services-cloud/create-person-accounts-for-individual-clients" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/platform-events/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/platform-events/s1> <http://purl.org/dc/terms/title> "Platform Events Developer Guide" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/platform-events/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
