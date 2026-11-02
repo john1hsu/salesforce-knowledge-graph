@@ -4,16 +4,15 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:data-architecture` | `kt:archiving-strategy`, `kt:data-migration-strategy`, `kt:large-data-volumes`, `kt:data-residency` |
 | `kt:oauth-2-flows-in-salesforce` | `kt:connected-apps`, `kt:external-client-apps`, `kt:identity-and-access-management-architect-certification`, `kt:single-sign-on-saml` |
+| `kt:object-relationships` | `kt:data-architecture`, `kt:junction-object`, `kt:lookup-vs-master-detail`, `kt:roll-up-summary-field` |
 | `kt:openid-connect-authentication-providers` | `kt:experience-cloud-identity`, `kt:my-domain`, `kt:salesforce-identity`, `kt:single-sign-on-saml` |
+| `kt:salesforce-architect` | `kt:data-architecture`, `kt:well-architected-framework`, `kt:agent-development-lifecycle`, `kt:identity-and-access-management-architect-certification` |
 | `kt:sharing-and-visibility-architect-certification` | `kt:identity-and-access-management-architect-certification`, `kt:organization-wide-defaults`, `kt:salesforce-sharing-model`, `kt:sharing-rules` |
 | `kt:sharing-recalculation` | `kt:data-skew`, `kt:organization-wide-defaults`, `kt:role-hierarchy`, `kt:sharing-rules` |
 | `kt:code-analyzer` | `kt:technical-debt-in-salesforce`, `kt:salesforce-cli`, `kt:second-generation-managed-packages` |
 | `kt:lightning-web-components` | `kt:screen-flow`, `kt:experience-cloud`, `kt:apex` |
 | `kt:oauth-2-0` | `kt:connected-apps`, `kt:external-client-apps`, `kt:salesforce-identity` |
-| `kt:object-relationships` | `kt:junction-object`, `kt:lookup-vs-master-detail`, `kt:roll-up-summary-field` |
-| `kt:salesforce-architect` | `kt:well-architected-framework`, `kt:agent-development-lifecycle`, `kt:identity-and-access-management-architect-certification` |
 | `kt:soql` | `kt:apex`, `kt:bulk-api-2`, `kt:record-locking` |
 | `kt:workflow-rules` | `kt:technical-debt-in-salesforce`, `kt:flow-builder`, `kt:record-triggered-flow` |
 | `kt:apex-managed-sharing` | `kt:salesforce-sharing-model`, `kt:sharing-rules` |
@@ -86,6 +85,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:permission-sets` | `kt:named-credentials` |
 | `kt:person-accounts` | `kt:public-sector-solutions` |
 | `kt:platform-as-a-service` | `kt:salesforce-platform` |
+| `kt:platform-data-architect-certification` | `kt:data-architecture` |
 | `kt:platform-event-allocations` | `kt:platform-events` |
 | `kt:platform-event-channel-member` | `kt:change-data-capture` |
 | `kt:presence-configuration` | `kt:omni-channel` |
@@ -105,6 +105,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:salesforce-industries` | `kt:public-sector-solutions` |
 | `kt:salesforce-optimizer` | `kt:technical-debt-in-salesforce` |
 | `kt:saml-2-0` | `kt:single-sign-on-saml` |
+| `kt:schema-builder` | `kt:data-architecture` |
 | `kt:service-setup-assistant` | `kt:service-cloud` |
 | `kt:session-security-levels` | `kt:multi-factor-authentication` |
 | `kt:skills-based-routing` | `kt:omni-channel` |

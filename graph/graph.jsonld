@@ -91,6 +91,107 @@
       ]
     },
     {
+      "@id": "kt:data-architecture",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Data Architecture",
+      "skos:definition": "The architectural discipline that decides how data is modeled, where it lives, how it moves and how it is governed across a Salesforce org and the systems around it, so the solution stays scalable, performant and trustworthy as volumes grow.",
+      "kto:domain": "architecture-practice",
+      "dcterms:created": "2026-11-02",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Data Integration Decision Guide",
+          "dcterms:publisher": "Salesforce Architects",
+          "schema:url": "https://architect.salesforce.com/decision-guides/data-integration",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "General Best Practices (Best Practices for Deployments with Large Data Volumes)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/platform/salesforce-large-data-volumes-bp/guide/ldv-deployments-best-practices-general.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "The Salesforce Data Model Gallery",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/platform/data-models",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Work with Schema Builder (Data Modeling)",
+          "dcterms:publisher": "Salesforce Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/data_modeling/schema_builder",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Salesforce Certified Platform Data Architect",
+          "dcterms:publisher": "Salesforce Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/it/credentials/platformdataarchitect",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Get Started with Data 360 and Integration",
+          "dcterms:publisher": "Salesforce Architects",
+          "schema:url": "https://architect.salesforce.com/docs/architect/fundamentals/guide/get-started-data-360.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/architecture-practice/data-architecture.md",
+      "skos:altLabel": [
+        "Salesforce data architecture",
+        "data architecture and management",
+        "enterprise data architecture on Salesforce"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:well-architected-framework"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:large-data-volumes"
+        },
+        {
+          "@id": "kt:data-skew"
+        },
+        {
+          "@id": "kt:data-residency"
+        },
+        {
+          "@id": "kt:data-cloud"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:data-migration-strategy"
+        },
+        {
+          "@id": "kt:archiving-strategy"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:object-relationships"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:schema-builder"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:platform-data-architect-certification"
+        }
+      ],
+      "kto:usedBy": [
+        {
+          "@id": "kt:salesforce-architect"
+        }
+      ]
+    },
+    {
       "@id": "kt:data-migration-strategy",
       "@type": "kto:Concept",
       "skos:prefLabel": "Data Migration Strategy",

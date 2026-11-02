@@ -328,6 +328,34 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/connected-apps> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#replacedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/external-client-apps> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/connected-apps> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/connected-apps> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-architecture> <http://purl.org/dc/terms/created> "2026-11-02" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-architecture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-architecture> <http://www.w3.org/2000/01/rdf-schema#label> "Data Architecture" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-architecture> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce data architecture" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-architecture> <http://www.w3.org/2004/02/skos/core#altLabel> "data architecture and management" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-architecture> <http://www.w3.org/2004/02/skos/core#altLabel> "enterprise data architecture on Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-architecture> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/well-architected-framework> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-architecture> <http://www.w3.org/2004/02/skos/core#definition> "The architectural discipline that decides how data is modeled, where it lives, how it moves and how it is governed across a Salesforce org and the systems around it, so the solution stays scalable, performant and trustworthy as volumes grow." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-architecture> <http://www.w3.org/2004/02/skos/core#prefLabel> "Data Architecture" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-architecture> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-architecture> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-residency> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-architecture> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-skew> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-architecture> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/large-data-volumes> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-architecture> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-architecture/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-architecture> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-architecture/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-architecture> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-architecture/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-architecture> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-architecture/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-architecture> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-architecture/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-architecture> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-architecture/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-architecture> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/schema-builder> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-architecture> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#coveredBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-data-architect-certification> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-architecture> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/object-relationships> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-architecture> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "architecture-practice" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-architecture> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/archiving-strategy> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-architecture> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-migration-strategy> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-architecture> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-architecture> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#usedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-architect> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-architecture> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud> <http://purl.org/dc/terms/created> "2026-11-01" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Product> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud> <http://www.w3.org/2000/01/rdf-schema#label> "Data 360" .
@@ -1973,6 +2001,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/connected-apps/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/connected-apps/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "standards-body" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/connected-apps/s5> <https://schema.org/url> "https://rfc-editor.org/rfc/rfc6749" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-architecture/s1> <http://purl.org/dc/terms/publisher> "Salesforce Architects" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-architecture/s1> <http://purl.org/dc/terms/title> "Data Integration Decision Guide" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-architecture/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-architecture/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-architecture/s1> <https://schema.org/url> "https://architect.salesforce.com/decision-guides/data-integration" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-architecture/s2> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-architecture/s2> <http://purl.org/dc/terms/title> "General Best Practices (Best Practices for Deployments with Large Data Volumes)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-architecture/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-architecture/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-architecture/s2> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/salesforce-large-data-volumes-bp/guide/ldv-deployments-best-practices-general.md" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-architecture/s3> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-architecture/s3> <http://purl.org/dc/terms/title> "The Salesforce Data Model Gallery" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-architecture/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-architecture/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-architecture/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/data-models" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-architecture/s4> <http://purl.org/dc/terms/publisher> "Salesforce Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-architecture/s4> <http://purl.org/dc/terms/title> "Work with Schema Builder (Data Modeling)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-architecture/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-architecture/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-architecture/s4> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/data_modeling/schema_builder" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-architecture/s5> <http://purl.org/dc/terms/publisher> "Salesforce Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-architecture/s5> <http://purl.org/dc/terms/title> "Salesforce Certified Platform Data Architect" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-architecture/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-architecture/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-architecture/s5> <https://schema.org/url> "https://trailhead.salesforce.com/it/credentials/platformdataarchitect" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-architecture/s6> <http://purl.org/dc/terms/publisher> "Salesforce Architects" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-architecture/s6> <http://purl.org/dc/terms/title> "Get Started with Data 360 and Integration" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-architecture/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-architecture/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-architecture/s6> <https://schema.org/url> "https://architect.salesforce.com/docs/architect/fundamentals/guide/get-started-data-360.html" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud/s1> <http://purl.org/dc/terms/title> "Object Model in Data 360" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
