@@ -10,7 +10,7 @@ summary: >-
 release: "Winter '27"
 status: current
 broader: [kt:salesforce-platform]
-related: [kt:role-hierarchy, kt:implicit-sharing]
+related: [kt:role-hierarchy, kt:implicit-sharing, kt:restriction-rules]
 relations:
   - {predicate: hasPart, object: kt:organization-wide-defaults}
   - {predicate: hasPart, object: kt:sharing-rules}

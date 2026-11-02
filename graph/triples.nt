@@ -1450,6 +1450,32 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/record-triggered-flow> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#replaces> <https://github.com/john1hsu/salesforce-knowledge-graph/id/workflow-rules> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/record-triggered-flow> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/record-triggered-flow> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/restriction-rules> <http://purl.org/dc/terms/created> "2026-11-02" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/restriction-rules> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#SecurityControl> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/restriction-rules> <http://www.w3.org/2000/01/rdf-schema#label> "Restriction Rules" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/restriction-rules> <http://www.w3.org/2004/02/skos/core#altLabel> "RestrictionRule" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/restriction-rules> <http://www.w3.org/2004/02/skos/core#altLabel> "enforcementType Restrict" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/restriction-rules> <http://www.w3.org/2004/02/skos/core#altLabel> "record restriction rules" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/restriction-rules> <http://www.w3.org/2004/02/skos/core#altLabel> "restriction rule" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/restriction-rules> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-sharing-model> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/restriction-rules> <http://www.w3.org/2004/02/skos/core#definition> "Record-level filters that narrow the records specified users can access on supported objects (custom and external objects, contracts, events, quotes, tasks, time sheets) after organization-wide defaults and sharing have granted access, defined by a user criterion and a record criterion." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/restriction-rules> <http://www.w3.org/2004/02/skos/core#prefLabel> "Restriction Rules" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/restriction-rules> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/enterprise-territory-management> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/restriction-rules> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/external-objects> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/restriction-rules> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/organization-wide-defaults> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/restriction-rules> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-rules> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/restriction-rules> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/restriction-rules/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/restriction-rules> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/restriction-rules/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/restriction-rules> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/restriction-rules/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/restriction-rules> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/restriction-rules/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/restriction-rules> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/restriction-rules/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/restriction-rules> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/restriction-rules> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/tooling-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/restriction-rules> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#contrastsWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/scoping-rules> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/restriction-rules> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#coveredBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-and-visibility-architect-certification> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/restriction-rules> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "security-and-sharing" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/restriction-rules> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/restriction-rules> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/role-hierarchy> <http://purl.org/dc/terms/created> "2026-10-31" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/role-hierarchy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#SecurityControl> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/role-hierarchy> <http://www.w3.org/2000/01/rdf-schema#label> "Role Hierarchy" .
@@ -1678,6 +1704,7 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-sharing-model> <http://www.w3.org/2004/02/skos/core#definition> "The layered record-level security design of a Salesforce org: organization-wide defaults set a restrictive baseline, and ownership, the role hierarchy, sharing rules, manual sharing and Apex managed sharing selectively open access on top." .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-sharing-model> <http://www.w3.org/2004/02/skos/core#prefLabel> "Salesforce Sharing Model" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-sharing-model> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/implicit-sharing> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-sharing-model> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/restriction-rules> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-sharing-model> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/role-hierarchy> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-sharing-model> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-sharing-model/s1> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-sharing-model> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-sharing-model/s2> .
@@ -3438,6 +3465,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/record-triggered-flow/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/record-triggered-flow/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/record-triggered-flow/s4> <https://schema.org/url> "https://admin.salesforce.com/blog/2022/automate-this-discover-tips-and-best-practices-for-record-triggered-flows" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/restriction-rules/s1> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/restriction-rules/s1> <http://purl.org/dc/terms/title> "About This Guide (Restriction Rules Developer Guide, Winter '27)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/restriction-rules/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/restriction-rules/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/restriction-rules/s1> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.264.0.restriction_rules.meta/restriction_rules/restriction_rules_intro.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/restriction-rules/s2> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/restriction-rules/s2> <http://purl.org/dc/terms/title> "Restriction Rules Considerations (Restriction Rules Developer Guide, Winter '27)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/restriction-rules/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/restriction-rules/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/restriction-rules/s2> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.264.0.restriction_rules.meta/restriction_rules/restriction_rules_considerations.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/restriction-rules/s3> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/restriction-rules/s3> <http://purl.org/dc/terms/title> "Restriction Rules Developer Guide, Version 67.0 (Summer '26), PDF" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/restriction-rules/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/restriction-rules/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/restriction-rules/s3> <https://schema.org/url> "https://resources.docs.salesforce.com/262/latest/en-us/sfdc/pdf/restriction_rules.pdf" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/restriction-rules/s4> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/restriction-rules/s4> <http://purl.org/dc/terms/title> "Restriction Rule Examples (Restriction Rules Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/restriction-rules/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/restriction-rules/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/restriction-rules/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.restriction_rules.meta/restriction_rules/restriction_rules_examples.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/restriction-rules/s5> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/restriction-rules/s5> <http://purl.org/dc/terms/title> "RestrictionRule (Metadata API Developer Guide, Winter '27)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/restriction-rules/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/restriction-rules/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/restriction-rules/s5> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.264.0.api_meta.meta/api_meta/meta_restrictionrule.htm" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/role-hierarchy/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/role-hierarchy/s1> <http://purl.org/dc/terms/title> "Create a Role Hierarchy (Data Security module)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/role-hierarchy/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

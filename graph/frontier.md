@@ -4,10 +4,11 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:sharing-and-visibility-architect-certification` | `kt:identity-and-access-management-architect-certification`, `kt:organization-wide-defaults`, `kt:salesforce-sharing-model`, `kt:sharing-rules` |
+| `kt:sharing-and-visibility-architect-certification` | `kt:identity-and-access-management-architect-certification`, `kt:organization-wide-defaults`, `kt:restriction-rules`, `kt:salesforce-sharing-model`, `kt:sharing-rules` |
 | `kt:sharing-recalculation` | `kt:data-skew`, `kt:organization-wide-defaults`, `kt:role-hierarchy`, `kt:sharing-rules` |
 | `kt:approval-processes` | `kt:flow-orchestrator`, `kt:process-automation`, `kt:knowledge-base` |
 | `kt:code-analyzer` | `kt:technical-debt-in-salesforce`, `kt:salesforce-cli`, `kt:second-generation-managed-packages` |
+| `kt:enterprise-territory-management` | `kt:sales-cloud`, `kt:restriction-rules`, `kt:role-hierarchy` |
 | `kt:event-driven-architecture` | `kt:change-data-capture`, `kt:platform-events`, `kt:pub-sub-api` |
 | `kt:fedramp-high` | `kt:fedramp`, `kt:government-cloud-plus`, `kt:il4-and-il5` |
 | `kt:lightning-web-components` | `kt:screen-flow`, `kt:experience-cloud`, `kt:apex` |
@@ -16,9 +17,9 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:workflow-rules` | `kt:technical-debt-in-salesforce`, `kt:flow-builder`, `kt:record-triggered-flow` |
 | `kt:apex-managed-sharing` | `kt:salesforce-sharing-model`, `kt:sharing-rules` |
 | `kt:dod-cloud-computing-srg` | `kt:fedramp`, `kt:il4-and-il5` |
-| `kt:enterprise-territory-management` | `kt:sales-cloud`, `kt:role-hierarchy` |
 | `kt:experience-builder` | `kt:experience-cloud`, `kt:experience-cloud-identity` |
 | `kt:external-id-fields` | `kt:data-migration-strategy`, `kt:bulk-api-2` |
+| `kt:external-objects` | `kt:object-relationships`, `kt:restriction-rules` |
 | `kt:flow-trigger-explorer` | `kt:record-triggered-flow`, `kt:order-of-execution` |
 | `kt:headless-identity` | `kt:experience-cloud-identity`, `kt:salesforce-identity` |
 | `kt:implicit-sharing` | `kt:role-hierarchy`, `kt:salesforce-sharing-model` |
@@ -35,6 +36,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:sandbox-templates` | `kt:environment-strategy`, `kt:sandbox-types` |
 | `kt:scratch-org-allocations` | `kt:dev-hub`, `kt:scratch-orgs` |
 | `kt:system-architect-certification` | `kt:salesforce-architect`, `kt:identity-and-access-management-architect-certification` |
+| `kt:tooling-api` | `kt:source-tracking`, `kt:restriction-rules` |
 | `kt:account-takeover` | `kt:multi-factor-authentication` |
 | `kt:agent-script` | `kt:agentforce` |
 | `kt:agentforce-dx` | `kt:agent-development-lifecycle` |
@@ -62,7 +64,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:data-sovereignty` | `kt:data-residency` |
 | `kt:entitlement-management` | `kt:service-cloud` |
 | `kt:external-identity-license` | `kt:experience-cloud-identity` |
-| `kt:external-objects` | `kt:object-relationships` |
 | `kt:financial-services-cloud` | `kt:person-accounts` |
 | `kt:fips-199` | `kt:fedramp` |
 | `kt:first-generation-managed-packages` | `kt:second-generation-managed-packages` |
@@ -110,6 +111,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:salesforce-optimizer` | `kt:technical-debt-in-salesforce` |
 | `kt:saml-2-0` | `kt:single-sign-on-saml` |
 | `kt:schema-builder` | `kt:data-architecture` |
+| `kt:scoping-rules` | `kt:restriction-rules` |
 | `kt:security-compliance-frameworks` | `kt:fedramp` |
 | `kt:service-setup-assistant` | `kt:service-cloud` |
 | `kt:session-security-levels` | `kt:multi-factor-authentication` |
@@ -121,7 +123,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:tableau` | `kt:einstein-trust-layer` |
 | `kt:test-data-factory` | `kt:apex-testing` |
 | `kt:testing-strategy` | `kt:apex-testing` |
-| `kt:tooling-api` | `kt:source-tracking` |
 | `kt:transaction-control` | `kt:record-locking` |
 | `kt:trigger-framework-pattern` | `kt:apex-triggers` |
 | `kt:zero-copy-data-federation` | `kt:data-cloud` |

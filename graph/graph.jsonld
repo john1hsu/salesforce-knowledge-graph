@@ -6504,6 +6504,92 @@
       ]
     },
     {
+      "@id": "kt:restriction-rules",
+      "@type": "kto:SecurityControl",
+      "skos:prefLabel": "Restriction Rules",
+      "skos:definition": "Record-level filters that narrow the records specified users can access on supported objects (custom and external objects, contracts, events, quotes, tasks, time sheets) after organization-wide defaults and sharing have granted access, defined by a user criterion and a record criterion.",
+      "kto:domain": "security-and-sharing",
+      "dcterms:created": "2026-11-02",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "About This Guide (Restriction Rules Developer Guide, Winter '27)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.264.0.restriction_rules.meta/restriction_rules/restriction_rules_intro.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Restriction Rules Considerations (Restriction Rules Developer Guide, Winter '27)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.264.0.restriction_rules.meta/restriction_rules/restriction_rules_considerations.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Restriction Rules Developer Guide, Version 67.0 (Summer '26), PDF",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://resources.docs.salesforce.com/262/latest/en-us/sfdc/pdf/restriction_rules.pdf",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Restriction Rule Examples (Restriction Rules Developer Guide)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.restriction_rules.meta/restriction_rules/restriction_rules_examples.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "RestrictionRule (Metadata API Developer Guide, Winter '27)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.264.0.api_meta.meta/api_meta/meta_restrictionrule.htm",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/security-and-sharing/restriction-rules.md",
+      "skos:altLabel": [
+        "restriction rule",
+        "RestrictionRule",
+        "record restriction rules",
+        "enforcementType Restrict"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-sharing-model"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:organization-wide-defaults"
+        },
+        {
+          "@id": "kt:sharing-rules"
+        },
+        {
+          "@id": "kt:external-objects"
+        },
+        {
+          "@id": "kt:enterprise-territory-management"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:scoping-rules"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:metadata-api"
+        },
+        {
+          "@id": "kt:tooling-api"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:sharing-and-visibility-architect-certification"
+        }
+      ]
+    },
+    {
       "@id": "kt:role-hierarchy",
       "@type": "kto:SecurityControl",
       "skos:prefLabel": "Role Hierarchy",
@@ -6632,6 +6718,9 @@
         },
         {
           "@id": "kt:implicit-sharing"
+        },
+        {
+          "@id": "kt:restriction-rules"
         }
       ],
       "kto:hasPart": [
