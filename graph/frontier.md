@@ -9,14 +9,15 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:openid-connect-authentication-providers` | `kt:experience-cloud-identity`, `kt:my-domain`, `kt:salesforce-identity`, `kt:single-sign-on-saml` |
 | `kt:sharing-and-visibility-architect-certification` | `kt:identity-and-access-management-architect-certification`, `kt:organization-wide-defaults`, `kt:salesforce-sharing-model`, `kt:sharing-rules` |
 | `kt:sharing-recalculation` | `kt:data-skew`, `kt:organization-wide-defaults`, `kt:role-hierarchy`, `kt:sharing-rules` |
+| `kt:code-analyzer` | `kt:technical-debt-in-salesforce`, `kt:salesforce-cli`, `kt:second-generation-managed-packages` |
 | `kt:lightning-web-components` | `kt:screen-flow`, `kt:experience-cloud`, `kt:apex` |
 | `kt:oauth-2-0` | `kt:connected-apps`, `kt:external-client-apps`, `kt:salesforce-identity` |
 | `kt:object-relationships` | `kt:junction-object`, `kt:lookup-vs-master-detail`, `kt:roll-up-summary-field` |
 | `kt:salesforce-architect` | `kt:well-architected-framework`, `kt:agent-development-lifecycle`, `kt:identity-and-access-management-architect-certification` |
 | `kt:soql` | `kt:apex`, `kt:bulk-api-2`, `kt:record-locking` |
+| `kt:workflow-rules` | `kt:technical-debt-in-salesforce`, `kt:flow-builder`, `kt:record-triggered-flow` |
 | `kt:apex-managed-sharing` | `kt:salesforce-sharing-model`, `kt:sharing-rules` |
 | `kt:approval-processes` | `kt:flow-orchestrator`, `kt:process-automation` |
-| `kt:code-analyzer` | `kt:salesforce-cli`, `kt:second-generation-managed-packages` |
 | `kt:enterprise-territory-management` | `kt:sales-cloud`, `kt:role-hierarchy` |
 | `kt:event-driven-architecture` | `kt:change-data-capture`, `kt:platform-events` |
 | `kt:experience-builder` | `kt:experience-cloud`, `kt:experience-cloud-identity` |
@@ -36,7 +37,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:queues` | `kt:omni-channel`, `kt:service-cloud` |
 | `kt:sandbox-templates` | `kt:environment-strategy`, `kt:sandbox-types` |
 | `kt:scratch-org-allocations` | `kt:dev-hub`, `kt:scratch-orgs` |
-| `kt:workflow-rules` | `kt:flow-builder`, `kt:record-triggered-flow` |
+| `kt:solution-design-tradeoffs` | `kt:technical-debt-in-salesforce`, `kt:well-architected-framework` |
 | `kt:account-takeover` | `kt:multi-factor-authentication` |
 | `kt:agent-script` | `kt:agentforce` |
 | `kt:agentforce-dx` | `kt:agent-development-lifecycle` |
@@ -79,6 +80,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:omnistudio` | `kt:public-sector-solutions` |
 | `kt:opportunity-splits` | `kt:sales-cloud` |
 | `kt:orchestration-work-guide` | `kt:flow-orchestrator` |
+| `kt:org-check` | `kt:technical-debt-in-salesforce` |
 | `kt:org-strategy` | `kt:environment-strategy` |
 | `kt:package-xml-manifest` | `kt:metadata-api` |
 | `kt:permission-sets` | `kt:named-credentials` |
@@ -101,15 +103,14 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:salesforce-connect` | `kt:named-credentials` |
 | `kt:salesforce-data-mask` | `kt:environment-strategy` |
 | `kt:salesforce-industries` | `kt:public-sector-solutions` |
+| `kt:salesforce-optimizer` | `kt:technical-debt-in-salesforce` |
 | `kt:saml-2-0` | `kt:single-sign-on-saml` |
 | `kt:service-setup-assistant` | `kt:service-cloud` |
 | `kt:session-security-levels` | `kt:multi-factor-authentication` |
 | `kt:skills-based-routing` | `kt:omni-channel` |
 | `kt:skinny-tables` | `kt:large-data-volumes` |
-| `kt:solution-design-tradeoffs` | `kt:well-architected-framework` |
 | `kt:system-architect-certification` | `kt:identity-and-access-management-architect-certification` |
 | `kt:tableau` | `kt:einstein-trust-layer` |
-| `kt:technical-debt-in-salesforce` | `kt:well-architected-framework` |
 | `kt:test-data-factory` | `kt:apex-testing` |
 | `kt:testing-strategy` | `kt:apex-testing` |
 | `kt:tooling-api` | `kt:source-tracking` |

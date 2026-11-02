@@ -254,6 +254,80 @@
       ]
     },
     {
+      "@id": "kt:technical-debt-in-salesforce",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Technical Debt in Salesforce",
+      "skos:definition": "The accumulated cost of expedient configuration and code choices in a Salesforce org (unused metadata, outdated automation, hard-coded references, untestable code) that makes later change slower, riskier or impossible.",
+      "kto:domain": "architecture-practice",
+      "dcterms:created": "2026-11-02",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Report from Dagstuhl Seminar 16162: Managing Technical Debt in Software Engineering",
+          "dcterms:publisher": "Dagstuhl Reports (Schloss Dagstuhl)",
+          "schema:url": "https://utupub.fi/bitstream/10024/169748/1/dagrep_v006_i004_p110_s16162.pdf",
+          "kto:sourceType": "academic"
+        },
+        {
+          "dcterms:title": "Tech Debt: What It Is and Why You Should Care",
+          "dcterms:publisher": "Salesforce Admins Blog",
+          "schema:url": "https://admin.salesforce.com/blog/2021/tech-debt-what-it-is-and-why-you-should-care",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Code Quality Patterns (Well-Architected: Resource and Cost Optimization)",
+          "dcterms:publisher": "Salesforce Architects",
+          "schema:url": "https://architect.salesforce.com/docs/architect/well-architected/guide/resource-and-cost-optimization-code-quality-patterns.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Run a Report and Review the Findings (Salesforce Optimizer)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/salesforce-optimizer/run-a-report-and-review-the-findings",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Technical Debt: Eliminate Technical Debt to Transform Your Salesforce Org",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/technical-debt",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/architecture-practice/technical-debt-in-salesforce.md",
+      "skos:altLabel": [
+        "Salesforce tech debt",
+        "org technical debt",
+        "configuration debt",
+        "org clutter"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:well-architected-framework"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:solution-design-tradeoffs"
+        },
+        {
+          "@id": "kt:code-analyzer"
+        },
+        {
+          "@id": "kt:salesforce-optimizer"
+        },
+        {
+          "@id": "kt:org-check"
+        },
+        {
+          "@id": "kt:apex-triggers"
+        },
+        {
+          "@id": "kt:workflow-rules"
+        }
+      ]
+    },
+    {
       "@id": "kt:well-architected-framework",
       "@type": "kto:Concept",
       "skos:prefLabel": "Salesforce Well-Architected Framework",
