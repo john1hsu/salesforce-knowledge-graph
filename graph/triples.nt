@@ -1458,6 +1458,35 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/service-cloud> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/service-cloud> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/service-cloud> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-rules> <http://purl.org/dc/terms/created> "2026-11-02" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-rules> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#SecurityControl> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-rules> <http://www.w3.org/2000/01/rdf-schema#label> "Sharing Rules" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-rules> <http://www.w3.org/2004/02/skos/core#altLabel> "SharingRules metadata type" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-rules> <http://www.w3.org/2004/02/skos/core#altLabel> "criteria-based sharing rules" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-rules> <http://www.w3.org/2004/02/skos/core#altLabel> "guest user sharing rules" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-rules> <http://www.w3.org/2004/02/skos/core#altLabel> "owner-based sharing rules" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-rules> <http://www.w3.org/2004/02/skos/core#altLabel> "ownership-based sharing rules" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-rules> <http://www.w3.org/2004/02/skos/core#altLabel> "sharing rule" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-rules> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-sharing-model> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-rules> <http://www.w3.org/2004/02/skos/core#definition> "Declarative, per-object exceptions to the organization-wide defaults that automatically grant Read Only or Read/Write access to a role, territory or public group, selecting records either by who owns them or by field criteria." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-rules> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sharing Rules" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-rules> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/experience-cloud> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-rules> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/organization-wide-defaults> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-rules> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/public-groups> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-rules> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/role-hierarchy> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-rules> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-rules/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-rules> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-rules/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-rules> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-rules/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-rules> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-rules/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-rules> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-rules/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-rules> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-rules/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-rules> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#alternativeTo> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-managed-sharing> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-rules> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#causes> <https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-recalculation> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-rules> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-rules> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#coveredBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-and-visibility-architect-certification> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-rules> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "security-and-sharing" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-rules> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-rules> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/single-sign-on-saml> <http://purl.org/dc/terms/created> "2026-11-02" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/single-sign-on-saml> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/single-sign-on-saml> <http://www.w3.org/2000/01/rdf-schema#label> "SAML Single Sign-On" .
@@ -3010,6 +3039,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/service-cloud/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/service-cloud/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "news" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/service-cloud/s6> <https://schema.org/url> "https://www.salesforce.com/tw/products/service-cloud/overview/" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-rules/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-rules/s1> <http://purl.org/dc/terms/title> "Create Sharing Rules (Data Security module)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-rules/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-rules/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-rules/s1> <https://schema.org/url> "https://trailhead.salesforce.com/en/content/learn/v/modules/data_security/data_security_sharing_rules" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-rules/s2> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-rules/s2> <http://purl.org/dc/terms/title> "Create Sharing Rules (Share CRM Data with Your Partners project)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-rules/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-rules/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-rules/s2> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/projects/communities_share_crm_data/sharing_rules" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-rules/s3> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-rules/s3> <http://purl.org/dc/terms/title> "Sharing Rules (Salesforce Security Guide, archived Summer '20 version)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-rules/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-rules/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-rules/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.226.0.securityImplGuide.meta/securityImplGuide/security_sharing_rules_create.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-rules/s4> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-rules/s4> <http://purl.org/dc/terms/title> "Group Membership Operations and Sharing Recalculation (Record Access Design)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-rules/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-rules/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-rules/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/draes/guide/draes-group-membership.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-rules/s5> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-rules/s5> <http://purl.org/dc/terms/title> "Deferred Sharing Calculations (Record Access Design)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-rules/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-rules/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-rules/s5> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.draes.meta/draes/draes_tools_deferred_sharing_maintenance.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-rules/s6> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-rules/s6> <http://purl.org/dc/terms/title> "SharingRules (Metadata API Developer Guide, Winter '27)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-rules/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-rules/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-rules/s6> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.264.0.api_meta.meta/api_meta/meta_sharingrules.htm" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/single-sign-on-saml/s1> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/single-sign-on-saml/s1> <http://purl.org/dc/terms/title> "Step 2: Create a SAML Single Sign-On Setting in Salesforce" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/single-sign-on-saml/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
