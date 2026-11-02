@@ -4027,6 +4027,103 @@
       ]
     },
     {
+      "@id": "kt:oauth-2-flows-in-salesforce",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "OAuth 2.0 Flows in Salesforce",
+      "skos:definition": "The set of OAuth 2.0 and OpenID Connect authorization flows Salesforce supports for apps to obtain access tokens — web server (authorization code, with PKCE), JWT bearer, client credentials, device, refresh token, hybrid, asset token and the discouraged user-agent and username-password flows — each suited to a different client type and trust model.",
+      "kto:domain": "identity",
+      "dcterms:created": "2026-11-02",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "OAuth Authorization Flows",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=xcloud.remoteaccess_oauth_flows_ca.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "OAuth 2.0 JWT Bearer Flow for Server-to-Server Integration",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=sf.remoteaccess_oauth_jwt_flow.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Proof Key for Code Exchange (PKCE) Extension",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=xcloud.remoteaccess_pkce.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Using the Client Credentials Flow for Easier API Authentication",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2023/03/using-the-client-credentials-flow-for-easier-api-authentication",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "RFC 7636: Proof Key for Code Exchange by OAuth Public Clients",
+          "dcterms:publisher": "IETF / RFC Editor",
+          "schema:url": "https://www.rfc-editor.org/info/rfc7636",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "Winter '27 Release Highlights",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/winter-27-release-highlights/",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/identity/oauth-2-flows-in-salesforce.md",
+      "skos:altLabel": [
+        "Salesforce OAuth flows",
+        "OAuth authorization flows",
+        "Salesforce OAuth grant types"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-identity"
+        },
+        {
+          "@id": "kt:oauth-2-0"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:connected-apps"
+        },
+        {
+          "@id": "kt:external-client-apps"
+        },
+        {
+          "@id": "kt:named-credentials"
+        },
+        {
+          "@id": "kt:my-domain"
+        },
+        {
+          "@id": "kt:openid-connect-authentication-providers"
+        }
+      ],
+      "kto:implements": [
+        {
+          "@id": "kt:oauth-2-0"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:external-client-apps"
+        },
+        {
+          "@id": "kt:connected-apps"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:identity-and-access-management-architect-certification"
+        }
+      ]
+    },
+    {
       "@id": "kt:salesforce-identity",
       "@type": "kto:Product",
       "skos:prefLabel": "Salesforce Identity",

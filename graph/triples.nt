@@ -1037,6 +1037,34 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/named-credentials> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#replaces> <https://github.com/john1hsu/salesforce-knowledge-graph/id/legacy-named-credentials> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/named-credentials> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/named-credentials> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-2-flows-in-salesforce> <http://purl.org/dc/terms/created> "2026-11-02" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-2-flows-in-salesforce> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-2-flows-in-salesforce> <http://www.w3.org/2000/01/rdf-schema#label> "OAuth 2.0 Flows in Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-2-flows-in-salesforce> <http://www.w3.org/2004/02/skos/core#altLabel> "OAuth authorization flows" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-2-flows-in-salesforce> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce OAuth flows" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-2-flows-in-salesforce> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce OAuth grant types" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-2-flows-in-salesforce> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-2-0> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-2-flows-in-salesforce> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-identity> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-2-flows-in-salesforce> <http://www.w3.org/2004/02/skos/core#definition> "The set of OAuth 2.0 and OpenID Connect authorization flows Salesforce supports for apps to obtain access tokens — web server (authorization code, with PKCE), JWT bearer, client credentials, device, refresh token, hybrid, asset token and the discouraged user-agent and username-password flows — each suited to a different client type and trust model." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-2-flows-in-salesforce> <http://www.w3.org/2004/02/skos/core#prefLabel> "OAuth 2.0 Flows in Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-2-flows-in-salesforce> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/connected-apps> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-2-flows-in-salesforce> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/external-client-apps> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-2-flows-in-salesforce> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/my-domain> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-2-flows-in-salesforce> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/named-credentials> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-2-flows-in-salesforce> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/openid-connect-authentication-providers> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-2-flows-in-salesforce> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/oauth-2-flows-in-salesforce/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-2-flows-in-salesforce> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/oauth-2-flows-in-salesforce/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-2-flows-in-salesforce> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/oauth-2-flows-in-salesforce/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-2-flows-in-salesforce> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/oauth-2-flows-in-salesforce/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-2-flows-in-salesforce> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/oauth-2-flows-in-salesforce/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-2-flows-in-salesforce> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/oauth-2-flows-in-salesforce/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-2-flows-in-salesforce> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/connected-apps> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-2-flows-in-salesforce> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/external-client-apps> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-2-flows-in-salesforce> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#coveredBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-and-access-management-architect-certification> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-2-flows-in-salesforce> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "identity" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-2-flows-in-salesforce> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#implements> <https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-2-0> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-2-flows-in-salesforce> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-2-flows-in-salesforce> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/omni-channel> <http://purl.org/dc/terms/created> "2026-10-30" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/omni-channel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/omni-channel> <http://www.w3.org/2000/01/rdf-schema#label> "Omni-Channel" .
@@ -2752,6 +2780,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/named-credentials/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/named-credentials/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/named-credentials/s5> <https://schema.org/url> "https://help.salesforce.com/apex/HTViewHelpDoc?id=xcloud.named_credentials_define.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/oauth-2-flows-in-salesforce/s1> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/oauth-2-flows-in-salesforce/s1> <http://purl.org/dc/terms/title> "OAuth Authorization Flows" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/oauth-2-flows-in-salesforce/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/oauth-2-flows-in-salesforce/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/oauth-2-flows-in-salesforce/s1> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=xcloud.remoteaccess_oauth_flows_ca.htm&language=en_US&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/oauth-2-flows-in-salesforce/s2> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/oauth-2-flows-in-salesforce/s2> <http://purl.org/dc/terms/title> "OAuth 2.0 JWT Bearer Flow for Server-to-Server Integration" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/oauth-2-flows-in-salesforce/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/oauth-2-flows-in-salesforce/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/oauth-2-flows-in-salesforce/s2> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=sf.remoteaccess_oauth_jwt_flow.htm&language=en_US&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/oauth-2-flows-in-salesforce/s3> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/oauth-2-flows-in-salesforce/s3> <http://purl.org/dc/terms/title> "Proof Key for Code Exchange (PKCE) Extension" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/oauth-2-flows-in-salesforce/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/oauth-2-flows-in-salesforce/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/oauth-2-flows-in-salesforce/s3> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=xcloud.remoteaccess_pkce.htm&language=en_US&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/oauth-2-flows-in-salesforce/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/oauth-2-flows-in-salesforce/s4> <http://purl.org/dc/terms/title> "Using the Client Credentials Flow for Easier API Authentication" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/oauth-2-flows-in-salesforce/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/oauth-2-flows-in-salesforce/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/oauth-2-flows-in-salesforce/s4> <https://schema.org/url> "https://developer.salesforce.com/blogs/2023/03/using-the-client-credentials-flow-for-easier-api-authentication" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/oauth-2-flows-in-salesforce/s5> <http://purl.org/dc/terms/publisher> "IETF / RFC Editor" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/oauth-2-flows-in-salesforce/s5> <http://purl.org/dc/terms/title> "RFC 7636: Proof Key for Code Exchange by OAuth Public Clients" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/oauth-2-flows-in-salesforce/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/oauth-2-flows-in-salesforce/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "standards-body" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/oauth-2-flows-in-salesforce/s5> <https://schema.org/url> "https://www.rfc-editor.org/info/rfc7636" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/oauth-2-flows-in-salesforce/s6> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/oauth-2-flows-in-salesforce/s6> <http://purl.org/dc/terms/title> "Winter '27 Release Highlights" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/oauth-2-flows-in-salesforce/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/oauth-2-flows-in-salesforce/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/oauth-2-flows-in-salesforce/s6> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/winter-27-release-highlights/" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/omni-channel/s1> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/omni-channel/s1> <http://purl.org/dc/terms/title> "Route Work with Omni-Channel" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/omni-channel/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

@@ -4,9 +4,9 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:oauth-2-flows-in-salesforce` | `kt:connected-apps`, `kt:external-client-apps`, `kt:identity-and-access-management-architect-certification`, `kt:single-sign-on-saml` |
+| `kt:oauth-2-0` | `kt:connected-apps`, `kt:external-client-apps`, `kt:oauth-2-flows-in-salesforce`, `kt:oauth-2-flows-in-salesforce`, `kt:salesforce-identity` |
+| `kt:openid-connect-authentication-providers` | `kt:experience-cloud-identity`, `kt:my-domain`, `kt:oauth-2-flows-in-salesforce`, `kt:salesforce-identity`, `kt:single-sign-on-saml` |
 | `kt:object-relationships` | `kt:data-architecture`, `kt:junction-object`, `kt:lookup-vs-master-detail`, `kt:roll-up-summary-field` |
-| `kt:openid-connect-authentication-providers` | `kt:experience-cloud-identity`, `kt:my-domain`, `kt:salesforce-identity`, `kt:single-sign-on-saml` |
 | `kt:salesforce-architect` | `kt:data-architecture`, `kt:well-architected-framework`, `kt:agent-development-lifecycle`, `kt:identity-and-access-management-architect-certification` |
 | `kt:sharing-and-visibility-architect-certification` | `kt:identity-and-access-management-architect-certification`, `kt:organization-wide-defaults`, `kt:salesforce-sharing-model`, `kt:sharing-rules` |
 | `kt:sharing-recalculation` | `kt:data-skew`, `kt:organization-wide-defaults`, `kt:role-hierarchy`, `kt:sharing-rules` |
@@ -14,7 +14,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:approval-processes` | `kt:flow-orchestrator`, `kt:process-automation`, `kt:knowledge-base` |
 | `kt:code-analyzer` | `kt:technical-debt-in-salesforce`, `kt:salesforce-cli`, `kt:second-generation-managed-packages` |
 | `kt:lightning-web-components` | `kt:screen-flow`, `kt:experience-cloud`, `kt:apex` |
-| `kt:oauth-2-0` | `kt:connected-apps`, `kt:external-client-apps`, `kt:salesforce-identity` |
 | `kt:workflow-rules` | `kt:technical-debt-in-salesforce`, `kt:flow-builder`, `kt:record-triggered-flow` |
 | `kt:apex-managed-sharing` | `kt:salesforce-sharing-model`, `kt:sharing-rules` |
 | `kt:enterprise-territory-management` | `kt:sales-cloud`, `kt:role-hierarchy` |
