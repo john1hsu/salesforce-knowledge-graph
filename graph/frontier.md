@@ -4,8 +4,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:oauth-2-0` | `kt:connected-apps`, `kt:external-client-apps`, `kt:oauth-2-flows-in-salesforce`, `kt:oauth-2-flows-in-salesforce`, `kt:salesforce-identity` |
-| `kt:openid-connect-authentication-providers` | `kt:experience-cloud-identity`, `kt:my-domain`, `kt:oauth-2-flows-in-salesforce`, `kt:salesforce-identity`, `kt:single-sign-on-saml` |
+| `kt:openid-connect-authentication-providers` | `kt:experience-cloud-identity`, `kt:my-domain`, `kt:oauth-2-0`, `kt:oauth-2-flows-in-salesforce`, `kt:salesforce-identity`, `kt:single-sign-on-saml` |
 | `kt:object-relationships` | `kt:data-architecture`, `kt:junction-object`, `kt:lookup-vs-master-detail`, `kt:roll-up-summary-field` |
 | `kt:salesforce-architect` | `kt:data-architecture`, `kt:well-architected-framework`, `kt:agent-development-lifecycle`, `kt:identity-and-access-management-architect-certification` |
 | `kt:sharing-and-visibility-architect-certification` | `kt:identity-and-access-management-architect-certification`, `kt:organization-wide-defaults`, `kt:salesforce-sharing-model`, `kt:sharing-rules` |
@@ -24,6 +23,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:flow-trigger-explorer` | `kt:record-triggered-flow`, `kt:order-of-execution` |
 | `kt:headless-identity` | `kt:experience-cloud-identity`, `kt:salesforce-identity` |
 | `kt:implicit-sharing` | `kt:role-hierarchy`, `kt:salesforce-sharing-model` |
+| `kt:integration-security` | `kt:oauth-2-0`, `kt:named-credentials` |
 | `kt:metadata-driven-architecture` | `kt:multitenancy`, `kt:salesforce-platform` |
 | `kt:mulesoft-anypoint-platform` | `kt:flow-orchestrator`, `kt:government-cloud-plus` |
 | `kt:namespace-registry` | `kt:dev-hub`, `kt:second-generation-managed-packages` |
@@ -70,7 +70,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:hyperforce-operating-zones` | `kt:data-residency` |
 | `kt:identity-connect` | `kt:salesforce-identity` |
 | `kt:identity-resolution` | `kt:data-cloud` |
-| `kt:integration-security` | `kt:named-credentials` |
 | `kt:invocable-actions-api` | `kt:autolaunched-flow` |
 | `kt:lead-conversion` | `kt:sales-cloud` |
 | `kt:legacy-named-credentials` | `kt:named-credentials` |
