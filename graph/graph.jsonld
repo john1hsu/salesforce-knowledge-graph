@@ -2142,6 +2142,86 @@
       ]
     },
     {
+      "@id": "kt:object-relationships",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Object Relationships",
+      "skos:definition": "The family of relationship field types that connect Salesforce objects (lookup, master-detail, many-to-many via a junction object, hierarchical, and the external and indirect lookups used with external objects) and that define how records reference, depend on, and are queried through one another.",
+      "kto:domain": "data-model",
+      "dcterms:created": "2026-11-02",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Object Reference: Relationships Among Standard Objects and Fields",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/api/relationships_among_objects.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Data Modeling: Create Object Relationships (unit)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/en/modules/data_modeling/units/object_relationships",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Understanding Relationship Names, Custom Objects, and Custom Fields",
+          "dcterms:publisher": "Salesforce Developers (SOQL and SOSL Reference)",
+          "schema:url": "https://developer.salesforce.com/docs/platform/salesforce-soql-sosl/guide/sforce-api-calls-soql-relationships-and-custom-objects.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Understanding Relationship Query Limitations",
+          "dcterms:publisher": "Salesforce Developers (SOQL and SOSL Reference)",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.soql_sosl.meta/soql_sosl/sforce_api_calls_soql_relationships_query_limits.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Salesforce Platform App Builder Certification Handbook — External lookups",
+          "dcterms:publisher": "Packt (via O'Reilly)",
+          "schema:url": "https://www.oreilly.com/library/view/salesforce-platform-app/9781785283697/ch02s04.html",
+          "kto:sourceType": "textbook"
+        }
+      ],
+      "kto:file": "articles/data-model/object-relationships.md",
+      "skos:altLabel": [
+        "salesforce relationship types",
+        "relationship fields",
+        "object relationship types",
+        "data model relationships"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:data-architecture"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:salesforce-sharing-model"
+        },
+        {
+          "@id": "kt:external-objects"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:lookup-vs-master-detail"
+        },
+        {
+          "@id": "kt:junction-object"
+        }
+      ],
+      "kto:enables": [
+        {
+          "@id": "kt:roll-up-summary-field"
+        }
+      ],
+      "kto:queriedWith": [
+        {
+          "@id": "kt:soql"
+        }
+      ]
+    },
+    {
       "@id": "kt:person-accounts",
       "@type": "kto:Feature",
       "skos:prefLabel": "Person Accounts",

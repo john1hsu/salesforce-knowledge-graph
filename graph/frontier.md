@@ -4,7 +4,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:object-relationships` | `kt:data-architecture`, `kt:junction-object`, `kt:lookup-vs-master-detail`, `kt:roll-up-summary-field`, `kt:soql` |
 | `kt:salesforce-architect` | `kt:data-architecture`, `kt:well-architected-framework`, `kt:agent-development-lifecycle`, `kt:identity-and-access-management-architect-certification` |
 | `kt:sharing-and-visibility-architect-certification` | `kt:identity-and-access-management-architect-certification`, `kt:organization-wide-defaults`, `kt:salesforce-sharing-model`, `kt:sharing-rules` |
 | `kt:sharing-recalculation` | `kt:data-skew`, `kt:organization-wide-defaults`, `kt:role-hierarchy`, `kt:sharing-rules` |
@@ -59,6 +58,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:dod-cloud-computing-srg` | `kt:il4-and-il5` |
 | `kt:entitlement-management` | `kt:service-cloud` |
 | `kt:external-identity-license` | `kt:experience-cloud-identity` |
+| `kt:external-objects` | `kt:object-relationships` |
 | `kt:fedramp` | `kt:il4-and-il5` |
 | `kt:financial-services-cloud` | `kt:person-accounts` |
 | `kt:first-generation-managed-packages` | `kt:second-generation-managed-packages` |

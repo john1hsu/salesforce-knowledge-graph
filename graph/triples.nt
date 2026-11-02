@@ -1090,6 +1090,30 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-2-flows-in-salesforce> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#implements> <https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-2-0> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-2-flows-in-salesforce> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-2-flows-in-salesforce> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/object-relationships> <http://purl.org/dc/terms/created> "2026-11-02" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/object-relationships> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/object-relationships> <http://www.w3.org/2000/01/rdf-schema#label> "Object Relationships" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/object-relationships> <http://www.w3.org/2004/02/skos/core#altLabel> "data model relationships" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/object-relationships> <http://www.w3.org/2004/02/skos/core#altLabel> "object relationship types" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/object-relationships> <http://www.w3.org/2004/02/skos/core#altLabel> "relationship fields" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/object-relationships> <http://www.w3.org/2004/02/skos/core#altLabel> "salesforce relationship types" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/object-relationships> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-architecture> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/object-relationships> <http://www.w3.org/2004/02/skos/core#definition> "The family of relationship field types that connect Salesforce objects (lookup, master-detail, many-to-many via a junction object, hierarchical, and the external and indirect lookups used with external objects) and that define how records reference, depend on, and are queried through one another." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/object-relationships> <http://www.w3.org/2004/02/skos/core#prefLabel> "Object Relationships" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/object-relationships> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/external-objects> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/object-relationships> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-sharing-model> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/object-relationships> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/object-relationships/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/object-relationships> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/object-relationships/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/object-relationships> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/object-relationships/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/object-relationships> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/object-relationships/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/object-relationships> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/object-relationships/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/object-relationships> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "data-model" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/object-relationships> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#enables> <https://github.com/john1hsu/salesforce-knowledge-graph/id/roll-up-summary-field> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/object-relationships> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/junction-object> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/object-relationships> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/lookup-vs-master-detail> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/object-relationships> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/soql> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/object-relationships> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/object-relationships> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/omni-channel> <http://purl.org/dc/terms/created> "2026-10-30" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/omni-channel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/omni-channel> <http://www.w3.org/2000/01/rdf-schema#label> "Omni-Channel" .
@@ -2997,6 +3021,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/oauth-2-flows-in-salesforce/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/oauth-2-flows-in-salesforce/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/oauth-2-flows-in-salesforce/s6> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/winter-27-release-highlights/" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/object-relationships/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/object-relationships/s1> <http://purl.org/dc/terms/title> "Object Reference: Relationships Among Standard Objects and Fields" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/object-relationships/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/object-relationships/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/object-relationships/s1> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/api/relationships_among_objects.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/object-relationships/s2> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/object-relationships/s2> <http://purl.org/dc/terms/title> "Data Modeling: Create Object Relationships (unit)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/object-relationships/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/object-relationships/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/object-relationships/s2> <https://schema.org/url> "https://trailhead.salesforce.com/en/modules/data_modeling/units/object_relationships" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/object-relationships/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers (SOQL and SOSL Reference)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/object-relationships/s3> <http://purl.org/dc/terms/title> "Understanding Relationship Names, Custom Objects, and Custom Fields" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/object-relationships/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/object-relationships/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/object-relationships/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/salesforce-soql-sosl/guide/sforce-api-calls-soql-relationships-and-custom-objects.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/object-relationships/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers (SOQL and SOSL Reference)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/object-relationships/s4> <http://purl.org/dc/terms/title> "Understanding Relationship Query Limitations" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/object-relationships/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/object-relationships/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/object-relationships/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.soql_sosl.meta/soql_sosl/sforce_api_calls_soql_relationships_query_limits.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/object-relationships/s5> <http://purl.org/dc/terms/publisher> "Packt (via O'Reilly)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/object-relationships/s5> <http://purl.org/dc/terms/title> "Salesforce Platform App Builder Certification Handbook — External lookups" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/object-relationships/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/object-relationships/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/object-relationships/s5> <https://schema.org/url> "https://www.oreilly.com/library/view/salesforce-platform-app/9781785283697/ch02s04.html" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/omni-channel/s1> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/omni-channel/s1> <http://purl.org/dc/terms/title> "Route Work with Omni-Channel" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/omni-channel/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
