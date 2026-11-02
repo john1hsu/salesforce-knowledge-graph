@@ -4,13 +4,14 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:salesforce-identity` | `kt:connected-apps`, `kt:external-client-apps`, `kt:multi-factor-authentication`, `kt:my-domain`, `kt:single-sign-on-saml` |
+| `kt:experience-cloud-identity` | `kt:experience-cloud`, `kt:multi-factor-authentication`, `kt:salesforce-identity`, `kt:single-sign-on-saml` |
+| `kt:identity-and-access-management-architect-certification` | `kt:multi-factor-authentication`, `kt:my-domain`, `kt:salesforce-identity`, `kt:single-sign-on-saml` |
 | `kt:data-architecture` | `kt:archiving-strategy`, `kt:data-migration-strategy`, `kt:large-data-volumes` |
-| `kt:experience-cloud-identity` | `kt:experience-cloud`, `kt:multi-factor-authentication`, `kt:single-sign-on-saml` |
-| `kt:identity-and-access-management-architect-certification` | `kt:multi-factor-authentication`, `kt:my-domain`, `kt:single-sign-on-saml` |
 | `kt:lightning-web-components` | `kt:screen-flow`, `kt:experience-cloud`, `kt:apex` |
+| `kt:oauth-2-0` | `kt:connected-apps`, `kt:external-client-apps`, `kt:salesforce-identity` |
 | `kt:oauth-2-flows-in-salesforce` | `kt:connected-apps`, `kt:external-client-apps`, `kt:single-sign-on-saml` |
 | `kt:object-relationships` | `kt:junction-object`, `kt:lookup-vs-master-detail`, `kt:roll-up-summary-field` |
+| `kt:openid-connect-authentication-providers` | `kt:my-domain`, `kt:salesforce-identity`, `kt:single-sign-on-saml` |
 | `kt:sharing-recalculation` | `kt:data-skew`, `kt:organization-wide-defaults`, `kt:role-hierarchy` |
 | `kt:sharing-rules` | `kt:organization-wide-defaults`, `kt:role-hierarchy`, `kt:salesforce-sharing-model` |
 | `kt:soql` | `kt:apex`, `kt:bulk-api-2`, `kt:record-locking` |
@@ -27,8 +28,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:metadata-driven-architecture` | `kt:multitenancy`, `kt:salesforce-platform` |
 | `kt:mulesoft-anypoint-platform` | `kt:flow-orchestrator`, `kt:government-cloud-plus` |
 | `kt:namespace-registry` | `kt:dev-hub`, `kt:second-generation-managed-packages` |
-| `kt:oauth-2-0` | `kt:connected-apps`, `kt:external-client-apps` |
-| `kt:openid-connect-authentication-providers` | `kt:my-domain`, `kt:single-sign-on-saml` |
 | `kt:outbound-messaging` | `kt:change-data-capture`, `kt:platform-events` |
 | `kt:process-builder` | `kt:flow-builder`, `kt:record-triggered-flow` |
 | `kt:pub-sub-api` | `kt:change-data-capture`, `kt:platform-events` |
@@ -65,6 +64,8 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:first-generation-managed-packages` | `kt:second-generation-managed-packages` |
 | `kt:future-methods` | `kt:asynchronous-apex` |
 | `kt:government-cloud` | `kt:government-cloud-plus` |
+| `kt:headless-identity` | `kt:salesforce-identity` |
+| `kt:identity-connect` | `kt:salesforce-identity` |
 | `kt:identity-resolution` | `kt:data-cloud` |
 | `kt:integration-security` | `kt:named-credentials` |
 | `kt:invocable-actions-api` | `kt:autolaunched-flow` |

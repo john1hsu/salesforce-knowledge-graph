@@ -1241,6 +1241,38 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-dx> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source-tracking> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-dx> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-dx> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-identity> <http://purl.org/dc/terms/created> "2026-11-02" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-identity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Product> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-identity> <http://www.w3.org/2000/01/rdf-schema#label> "Salesforce Identity" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-identity> <http://www.w3.org/2004/02/skos/core#altLabel> "Customer 360 Identity" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-identity> <http://www.w3.org/2004/02/skos/core#altLabel> "Customer Identity" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-identity> <http://www.w3.org/2004/02/skos/core#altLabel> "Identity for Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-identity> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce IAM" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-identity> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce Identity and Access Management" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-identity> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-platform> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-identity> <http://www.w3.org/2004/02/skos/core#definition> "Salesforce's identity and access management (IAM) service: a cloud user directory plus authentication, single sign-on, multi-factor authentication, app access and provisioning features that connect org users, customers and partners to Salesforce and external apps using SAML, OAuth 2.0 and OpenID Connect." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-identity> <http://www.w3.org/2004/02/skos/core#prefLabel> "Salesforce Identity" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-identity> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/experience-cloud-identity> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-identity> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/experience-cloud> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-identity> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-connect> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-identity> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-identity/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-identity> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-identity/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-identity> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-identity/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-identity> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-identity/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-identity> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-identity/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-identity> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-identity/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-identity> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#coveredBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-and-access-management-architect-certification> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-identity> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "identity" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-identity> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/connected-apps> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-identity> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/external-client-apps> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-identity> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/headless-identity> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-identity> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/multi-factor-authentication> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-identity> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/my-domain> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-identity> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/single-sign-on-saml> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-identity> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#implements> <https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-2-0> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-identity> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#implements> <https://github.com/john1hsu/salesforce-knowledge-graph/id/openid-connect-authentication-providers> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-identity> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-identity> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-platform> <http://purl.org/dc/terms/created> "2026-11-01" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-platform> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Product> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-platform> <http://www.w3.org/2000/01/rdf-schema#label> "Salesforce Platform" .
@@ -2758,6 +2790,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-dx/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-dx/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-dx/s6> <https://schema.org/url> "https://developer.salesforce.com/blogs/2017/10/salesforce-dx-is-now-generally-available" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-identity/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers (Identity Implementation Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-identity/s1> <http://purl.org/dc/terms/title> "What Is Salesforce Identity?" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-identity/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-identity/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-identity/s1> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.identityImplGuide.meta/%20identityImplGuide/identity_overview.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-identity/s2> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-identity/s2> <http://purl.org/dc/terms/title> "Get to Know Salesforce Identity (Identity Basics)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-identity/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-identity/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-identity/s2> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/identity_basics/identity_basics_product" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-identity/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-identity/s3> <http://purl.org/dc/terms/title> "Identity | Salesforce Developer Center" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-identity/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-identity/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-identity/s3> <https://schema.org/url> "https://developer.salesforce.com/developer-centers/identity" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-identity/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers (Identity Implementation Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-identity/s4> <http://purl.org/dc/terms/title> "External Identity License Details" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-identity/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-identity/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-identity/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.identityImplGuide.meta/%20identityImplGuide/users_license_types_external_identity.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-identity/s5> <http://purl.org/dc/terms/publisher> "Salesforce Developers (Headless Identity Implementation Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-identity/s5> <http://purl.org/dc/terms/title> "What Is Headless Identity?" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-identity/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-identity/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-identity/s5> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/headless-identity-impl-guide/guide/headless-identity-what-is-it.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-identity/s6> <http://purl.org/dc/terms/publisher> "Salesforce Developers (Identity Implementation Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-identity/s6> <http://purl.org/dc/terms/title> "Single Sign-On from an External Identity Provider" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-identity/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-identity/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-identity/s6> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.identityImplGuide.meta/%20identityImplGuide/identity_sso_id_provider.htm" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-platform/s1> <http://purl.org/dc/terms/publisher> "Salesforce Architects" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-platform/s1> <http://purl.org/dc/terms/title> "The Salesforce Platform - Transformed for Tomorrow | Get Started with Fundamentals" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-platform/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

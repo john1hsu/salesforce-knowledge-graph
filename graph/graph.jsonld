@@ -3583,6 +3583,111 @@
       ]
     },
     {
+      "@id": "kt:salesforce-identity",
+      "@type": "kto:Product",
+      "skos:prefLabel": "Salesforce Identity",
+      "skos:definition": "Salesforce's identity and access management (IAM) service: a cloud user directory plus authentication, single sign-on, multi-factor authentication, app access and provisioning features that connect org users, customers and partners to Salesforce and external apps using SAML, OAuth 2.0 and OpenID Connect.",
+      "kto:domain": "identity",
+      "dcterms:created": "2026-11-02",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What Is Salesforce Identity?",
+          "dcterms:publisher": "Salesforce Developers (Identity Implementation Guide)",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.identityImplGuide.meta/%20identityImplGuide/identity_overview.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Get to Know Salesforce Identity (Identity Basics)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/identity_basics/identity_basics_product",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Identity | Salesforce Developer Center",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/developer-centers/identity",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "External Identity License Details",
+          "dcterms:publisher": "Salesforce Developers (Identity Implementation Guide)",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.identityImplGuide.meta/%20identityImplGuide/users_license_types_external_identity.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "What Is Headless Identity?",
+          "dcterms:publisher": "Salesforce Developers (Headless Identity Implementation Guide)",
+          "schema:url": "https://developer.salesforce.com/docs/platform/headless-identity-impl-guide/guide/headless-identity-what-is-it.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Single Sign-On from an External Identity Provider",
+          "dcterms:publisher": "Salesforce Developers (Identity Implementation Guide)",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.identityImplGuide.meta/%20identityImplGuide/identity_sso_id_provider.htm",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/identity/salesforce-identity.md",
+      "skos:altLabel": [
+        "Salesforce IAM",
+        "Identity for Salesforce",
+        "Customer Identity",
+        "Customer 360 Identity",
+        "Salesforce Identity and Access Management"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-platform"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:experience-cloud"
+        },
+        {
+          "@id": "kt:experience-cloud-identity"
+        },
+        {
+          "@id": "kt:identity-connect"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:single-sign-on-saml"
+        },
+        {
+          "@id": "kt:multi-factor-authentication"
+        },
+        {
+          "@id": "kt:my-domain"
+        },
+        {
+          "@id": "kt:connected-apps"
+        },
+        {
+          "@id": "kt:external-client-apps"
+        },
+        {
+          "@id": "kt:headless-identity"
+        }
+      ],
+      "kto:implements": [
+        {
+          "@id": "kt:oauth-2-0"
+        },
+        {
+          "@id": "kt:openid-connect-authentication-providers"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:identity-and-access-management-architect-certification"
+        }
+      ]
+    },
+    {
       "@id": "kt:single-sign-on-saml",
       "@type": "kto:Feature",
       "skos:prefLabel": "SAML Single Sign-On",
