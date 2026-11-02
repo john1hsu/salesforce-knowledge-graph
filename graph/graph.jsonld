@@ -2659,6 +2659,91 @@
       ]
     },
     {
+      "@id": "kt:soql",
+      "@type": "kto:Language",
+      "skos:prefLabel": "SOQL",
+      "skos:definition": "Salesforce Object Query Language, the read-only, SQL-like language for retrieving records from Salesforce objects by field API name, used from Apex, the REST and SOAP APIs, Bulk API and developer tools.",
+      "kto:domain": "development",
+      "dcterms:created": "2026-11-02",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Salesforce Developer Limits and Allocations Quick Reference: SOQL and SOSL Limits for Search Queries",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.salesforce_app_limits_cheatsheet.meta/salesforce_app_limits_cheatsheet/salesforce_app_limits_platform_soslsoql.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "SOQL and SOSL Reference: Using Relationship Queries",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.soql_sosl.meta/soql_sosl/sforce_api_calls_soql_relationships_query_using.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Apex Developer Guide: Execution Governors and Limits",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_gov_limits.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Apex Developer Guide: Using Apex Variables in SOQL and SOSL Queries",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/api/langCon_apex_SOQL_variables.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Apex Developer Guide: Enforce User Mode for Database Operations",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.264.0.apexcode.meta/pages/apex_classes_enforce_usermode.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "SOQL for Admins: Get Started with SOQL Queries",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/soql-for-admins/get-started-with-soql-queries",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/development/soql.md",
+      "skos:altLabel": [
+        "Salesforce Object Query Language",
+        "SOQL query",
+        "SOQL queries"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-platform"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:object-relationships"
+        },
+        {
+          "@id": "kt:query-optimizer-selectivity"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:governor-limits"
+        }
+      ],
+      "kto:usedBy": [
+        {
+          "@id": "kt:apex"
+        },
+        {
+          "@id": "kt:bulk-api-2"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:sosl"
+        }
+      ]
+    },
+    {
       "@id": "kt:application-lifecycle-management",
       "@type": "kto:Concept",
       "skos:prefLabel": "Application Lifecycle Management",

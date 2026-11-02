@@ -5,14 +5,14 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | Node | Referenced by |
 |---|---|
 | `kt:openid-connect-authentication-providers` | `kt:experience-cloud-identity`, `kt:my-domain`, `kt:oauth-2-0`, `kt:oauth-2-flows-in-salesforce`, `kt:salesforce-identity`, `kt:single-sign-on-saml` |
-| `kt:object-relationships` | `kt:data-architecture`, `kt:junction-object`, `kt:lookup-vs-master-detail`, `kt:roll-up-summary-field` |
+| `kt:object-relationships` | `kt:data-architecture`, `kt:junction-object`, `kt:lookup-vs-master-detail`, `kt:roll-up-summary-field`, `kt:soql` |
 | `kt:salesforce-architect` | `kt:data-architecture`, `kt:well-architected-framework`, `kt:agent-development-lifecycle`, `kt:identity-and-access-management-architect-certification` |
 | `kt:sharing-and-visibility-architect-certification` | `kt:identity-and-access-management-architect-certification`, `kt:organization-wide-defaults`, `kt:salesforce-sharing-model`, `kt:sharing-rules` |
 | `kt:sharing-recalculation` | `kt:data-skew`, `kt:organization-wide-defaults`, `kt:role-hierarchy`, `kt:sharing-rules` |
-| `kt:soql` | `kt:knowledge-base`, `kt:apex`, `kt:bulk-api-2`, `kt:record-locking` |
 | `kt:approval-processes` | `kt:flow-orchestrator`, `kt:process-automation`, `kt:knowledge-base` |
 | `kt:code-analyzer` | `kt:technical-debt-in-salesforce`, `kt:salesforce-cli`, `kt:second-generation-managed-packages` |
 | `kt:lightning-web-components` | `kt:screen-flow`, `kt:experience-cloud`, `kt:apex` |
+| `kt:query-optimizer-selectivity` | `kt:soql`, `kt:large-data-volumes`, `kt:multitenancy` |
 | `kt:workflow-rules` | `kt:technical-debt-in-salesforce`, `kt:flow-builder`, `kt:record-triggered-flow` |
 | `kt:apex-managed-sharing` | `kt:salesforce-sharing-model`, `kt:sharing-rules` |
 | `kt:enterprise-territory-management` | `kt:sales-cloud`, `kt:role-hierarchy` |
@@ -30,7 +30,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:outbound-messaging` | `kt:change-data-capture`, `kt:platform-events` |
 | `kt:process-builder` | `kt:flow-builder`, `kt:record-triggered-flow` |
 | `kt:pub-sub-api` | `kt:change-data-capture`, `kt:platform-events` |
-| `kt:query-optimizer-selectivity` | `kt:large-data-volumes`, `kt:multitenancy` |
 | `kt:queues` | `kt:omni-channel`, `kt:service-cloud` |
 | `kt:record-types` | `kt:knowledge-base`, `kt:person-accounts` |
 | `kt:sandbox-templates` | `kt:environment-strategy`, `kt:sandbox-types` |
@@ -111,6 +110,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:session-security-levels` | `kt:multi-factor-authentication` |
 | `kt:skills-based-routing` | `kt:omni-channel` |
 | `kt:skinny-tables` | `kt:large-data-volumes` |
+| `kt:sosl` | `kt:soql` |
 | `kt:standard-objects` | `kt:person-accounts` |
 | `kt:system-architect-certification` | `kt:identity-and-access-management-architect-certification` |
 | `kt:tableau` | `kt:einstein-trust-layer` |
