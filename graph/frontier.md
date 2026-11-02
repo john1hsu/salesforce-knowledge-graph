@@ -5,7 +5,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | Node | Referenced by |
 |---|---|
 | `kt:salesforce-identity` | `kt:connected-apps`, `kt:external-client-apps`, `kt:multi-factor-authentication`, `kt:my-domain`, `kt:single-sign-on-saml` |
-| `kt:bulk-api-2` | `kt:data-migration-strategy`, `kt:large-data-volumes`, `kt:record-locking` |
 | `kt:data-architecture` | `kt:archiving-strategy`, `kt:data-migration-strategy`, `kt:large-data-volumes` |
 | `kt:experience-cloud-identity` | `kt:experience-cloud`, `kt:multi-factor-authentication`, `kt:single-sign-on-saml` |
 | `kt:identity-and-access-management-architect-certification` | `kt:multi-factor-authentication`, `kt:my-domain`, `kt:single-sign-on-saml` |
@@ -14,11 +13,13 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:object-relationships` | `kt:junction-object`, `kt:lookup-vs-master-detail`, `kt:roll-up-summary-field` |
 | `kt:sharing-recalculation` | `kt:data-skew`, `kt:organization-wide-defaults`, `kt:role-hierarchy` |
 | `kt:sharing-rules` | `kt:organization-wide-defaults`, `kt:role-hierarchy`, `kt:salesforce-sharing-model` |
+| `kt:soql` | `kt:apex`, `kt:bulk-api-2`, `kt:record-locking` |
 | `kt:approval-processes` | `kt:flow-orchestrator`, `kt:process-automation` |
 | `kt:code-analyzer` | `kt:salesforce-cli`, `kt:second-generation-managed-packages` |
 | `kt:data-residency` | `kt:hyperforce`, `kt:il4-and-il5` |
 | `kt:enterprise-territory-management` | `kt:sales-cloud`, `kt:role-hierarchy` |
 | `kt:event-driven-architecture` | `kt:change-data-capture`, `kt:platform-events` |
+| `kt:external-id-fields` | `kt:data-migration-strategy`, `kt:bulk-api-2` |
 | `kt:fedramp-high` | `kt:government-cloud-plus`, `kt:il4-and-il5` |
 | `kt:flow-trigger-explorer` | `kt:record-triggered-flow`, `kt:order-of-execution` |
 | `kt:implicit-sharing` | `kt:role-hierarchy`, `kt:salesforce-sharing-model` |
@@ -37,7 +38,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:sandbox-templates` | `kt:environment-strategy`, `kt:sandbox-types` |
 | `kt:scratch-org-allocations` | `kt:dev-hub`, `kt:scratch-orgs` |
 | `kt:sharing-and-visibility-architect-certification` | `kt:organization-wide-defaults`, `kt:salesforce-sharing-model` |
-| `kt:soql` | `kt:apex`, `kt:record-locking` |
 | `kt:workflow-rules` | `kt:flow-builder`, `kt:record-triggered-flow` |
 | `kt:account-takeover` | `kt:multi-factor-authentication` |
 | `kt:agent-script` | `kt:agentforce` |
@@ -48,16 +48,19 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:backup-and-recover` | `kt:archiving-strategy` |
 | `kt:batch-apex` | `kt:asynchronous-apex` |
 | `kt:big-objects` | `kt:archiving-strategy` |
+| `kt:bulk-api-1` | `kt:bulk-api-2` |
+| `kt:bulk-api-allocations` | `kt:bulk-api-2` |
 | `kt:business-rules-engine` | `kt:public-sector-solutions` |
 | `kt:calculated-insights` | `kt:data-cloud` |
 | `kt:change-data-capture-allocations` | `kt:change-data-capture` |
 | `kt:collaborative-forecasts` | `kt:sales-cloud` |
 | `kt:custom-domains` | `kt:my-domain` |
+| `kt:data-integration` | `kt:bulk-api-2` |
+| `kt:data-loader` | `kt:bulk-api-2` |
 | `kt:data-model-objects` | `kt:data-cloud` |
 | `kt:dod-cloud-computing-srg` | `kt:il4-and-il5` |
 | `kt:entitlement-management` | `kt:service-cloud` |
 | `kt:experience-builder` | `kt:experience-cloud` |
-| `kt:external-id-fields` | `kt:data-migration-strategy` |
 | `kt:fedramp` | `kt:il4-and-il5` |
 | `kt:first-generation-managed-packages` | `kt:second-generation-managed-packages` |
 | `kt:future-methods` | `kt:asynchronous-apex` |
@@ -88,7 +91,9 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:queueable-apex` | `kt:asynchronous-apex` |
 | `kt:recursive-save` | `kt:order-of-execution` |
 | `kt:remote-site-settings` | `kt:named-credentials` |
+| `kt:rest-api` | `kt:bulk-api-2` |
 | `kt:sales-cloud-consultant-certification` | `kt:sales-cloud` |
+| `kt:salesforce-apis` | `kt:bulk-api-2` |
 | `kt:salesforce-architecture-center` | `kt:well-architected-framework` |
 | `kt:salesforce-archive` | `kt:archiving-strategy` |
 | `kt:salesforce-connect` | `kt:named-credentials` |

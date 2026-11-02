@@ -3678,6 +3678,98 @@
       ]
     },
     {
+      "@id": "kt:bulk-api-2",
+      "@type": "kto:API",
+      "skos:prefLabel": "Bulk API 2.0",
+      "skos:definition": "Salesforce's REST-based asynchronous API for inserting, updating, upserting, deleting and querying large record sets through CSV jobs, where the platform splits uploaded data into batches automatically instead of the client managing them as in the original Bulk API.",
+      "kto:domain": "integration",
+      "dcterms:created": "2026-11-02",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Bulk API 2.0 (Bulk API 2.0 and Bulk API Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api_asynch.meta/api_asynch/bulk_api_2_0.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Bulk API and Bulk API 2.0 Limits and Allocations (Salesforce Developer Limits and Allocations Quick Reference)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/salesforce-app-limits-cheatsheet/guide/salesforce-app-limits-platform-bulkapi.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "API Basics: Use Bulk API 2.0",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/en/content/learn/modules/api_basics/api_basics_bulk",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "General Guidelines for Data Loads",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/api-asynch/guide/asynch-api-planning-guidelines.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Bulk API and Bulk API 2.0 Limits (Bulk API 2.0 and Bulk API Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/api-asynch/guide/bulk-common-limits.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/integration/bulk-api-2.md",
+      "skos:altLabel": [
+        "Bulk API v2",
+        "Bulk 2.0",
+        "bulk ingest jobs",
+        "Bulk API 2.0 query jobs"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-apis"
+        },
+        {
+          "@id": "kt:data-integration"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:large-data-volumes"
+        },
+        {
+          "@id": "kt:data-migration-strategy"
+        },
+        {
+          "@id": "kt:record-locking"
+        },
+        {
+          "@id": "kt:soql"
+        },
+        {
+          "@id": "kt:external-id-fields"
+        },
+        {
+          "@id": "kt:data-loader"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:bulk-api-allocations"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:bulk-api-1"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:rest-api"
+        }
+      ]
+    },
+    {
       "@id": "kt:change-data-capture",
       "@type": "kto:Feature",
       "skos:prefLabel": "Change Data Capture",
