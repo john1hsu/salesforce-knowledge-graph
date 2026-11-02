@@ -823,6 +823,34 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/multitenancy> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#enables> <https://github.com/john1hsu/salesforce-knowledge-graph/id/governor-limits> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/multitenancy> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/multitenancy> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/my-domain> <http://purl.org/dc/terms/created> "2026-11-02" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/my-domain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/my-domain> <http://www.w3.org/2000/01/rdf-schema#label> "My Domain" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/my-domain> <http://www.w3.org/2004/02/skos/core#altLabel> "My Domain name" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/my-domain> <http://www.w3.org/2004/02/skos/core#altLabel> "MyDomainName.my.salesforce.com" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/my-domain> <http://www.w3.org/2004/02/skos/core#altLabel> "enhanced domains" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/my-domain> <http://www.w3.org/2004/02/skos/core#altLabel> "org subdomain" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/my-domain> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-identity> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/my-domain> <http://www.w3.org/2004/02/skos/core#definition> "The org-specific subdomain (for example yourname.my.salesforce.com) that Salesforce uses for login and application URLs; with enhanced domains it is carried into every org URL, and it is a prerequisite for SSO, social login and a branded login page." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/my-domain> <http://www.w3.org/2004/02/skos/core#prefLabel> "My Domain" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/my-domain> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/experience-cloud> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/my-domain> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/hyperforce> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/my-domain> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/multi-factor-authentication> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/my-domain> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-types> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/my-domain> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/scratch-orgs> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/my-domain> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/single-sign-on-saml> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/my-domain> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/my-domain/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/my-domain> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/my-domain/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/my-domain> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/my-domain/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/my-domain> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/my-domain/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/my-domain> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/my-domain/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/my-domain> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#contrastsWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-domains> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/my-domain> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#coveredBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-and-access-management-architect-certification> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/my-domain> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "identity" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/my-domain> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#enables> <https://github.com/john1hsu/salesforce-knowledge-graph/id/openid-connect-authentication-providers> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/my-domain> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#enables> <https://github.com/john1hsu/salesforce-knowledge-graph/id/single-sign-on-saml> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/my-domain> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/my-domain> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/named-credentials> <http://purl.org/dc/terms/created> "2026-11-01" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/named-credentials> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/named-credentials> <http://www.w3.org/2000/01/rdf-schema#label> "Named Credentials" .
@@ -2287,6 +2315,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multitenancy/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multitenancy/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multitenancy/s4> <https://schema.org/url> "https://admin.salesforce.com/blog/2025/the-apartment-analogy-making-sense-of-salesforces-multitenant-architecture" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/my-domain/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/my-domain/s1> <http://purl.org/dc/terms/title> "Set Up Your Salesforce My Domain (Identity Basics: Customize Your Login Process)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/my-domain/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/my-domain/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/my-domain/s1> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/identity_login/identity_login_my_domain" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/my-domain/s2> <http://purl.org/dc/terms/publisher> "Salesforce Developers (Identity Implementation Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/my-domain/s2> <http://purl.org/dc/terms/title> "Enhanced Domains" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/my-domain/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/my-domain/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/my-domain/s2> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.identityImplGuide.meta/%20identityImplGuide/domain_name_enhanced.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/my-domain/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers (Identity Implementation Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/my-domain/s3> <http://purl.org/dc/terms/title> "Change Your My Domain Details" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/my-domain/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/my-domain/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/my-domain/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.identityImplGuide.meta/%20identityImplGuide/domain_name_rename.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/my-domain/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers (Identity Implementation Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/my-domain/s4> <http://purl.org/dc/terms/title> "What Determines Your URL Formats?" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/my-domain/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/my-domain/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/my-domain/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.identityImplGuide.meta/%20identityImplGuide/domain_name_url_formats_what_determines.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/my-domain/s5> <http://purl.org/dc/terms/publisher> "Salesforce Developers (Identity Implementation Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/my-domain/s5> <http://purl.org/dc/terms/title> "Brand Your Salesforce Org's Domains" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/my-domain/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/my-domain/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/my-domain/s5> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.identityImplGuide.meta/%20identityImplGuide/domain_name_brand_your_org.htm" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/named-credentials/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/named-credentials/s1> <http://purl.org/dc/terms/title> "Get Started with Named Credentials" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/named-credentials/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

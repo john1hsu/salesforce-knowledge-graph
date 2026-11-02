@@ -4,11 +4,11 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:my-domain` | `kt:multi-factor-authentication`, `kt:single-sign-on-saml`, `kt:single-sign-on-saml`, `kt:hyperforce` |
-| `kt:salesforce-identity` | `kt:connected-apps`, `kt:external-client-apps`, `kt:multi-factor-authentication`, `kt:single-sign-on-saml` |
+| `kt:salesforce-identity` | `kt:connected-apps`, `kt:external-client-apps`, `kt:multi-factor-authentication`, `kt:my-domain`, `kt:single-sign-on-saml` |
 | `kt:bulk-api-2` | `kt:data-migration-strategy`, `kt:large-data-volumes`, `kt:record-locking` |
 | `kt:data-architecture` | `kt:archiving-strategy`, `kt:data-migration-strategy`, `kt:large-data-volumes` |
 | `kt:experience-cloud-identity` | `kt:experience-cloud`, `kt:multi-factor-authentication`, `kt:single-sign-on-saml` |
+| `kt:identity-and-access-management-architect-certification` | `kt:multi-factor-authentication`, `kt:my-domain`, `kt:single-sign-on-saml` |
 | `kt:lightning-web-components` | `kt:screen-flow`, `kt:experience-cloud`, `kt:apex` |
 | `kt:oauth-2-flows-in-salesforce` | `kt:connected-apps`, `kt:external-client-apps`, `kt:single-sign-on-saml` |
 | `kt:object-relationships` | `kt:junction-object`, `kt:lookup-vs-master-detail`, `kt:roll-up-summary-field` |
@@ -21,13 +21,13 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:event-driven-architecture` | `kt:change-data-capture`, `kt:platform-events` |
 | `kt:fedramp-high` | `kt:government-cloud-plus`, `kt:il4-and-il5` |
 | `kt:flow-trigger-explorer` | `kt:record-triggered-flow`, `kt:order-of-execution` |
-| `kt:identity-and-access-management-architect-certification` | `kt:multi-factor-authentication`, `kt:single-sign-on-saml` |
 | `kt:implicit-sharing` | `kt:role-hierarchy`, `kt:salesforce-sharing-model` |
 | `kt:knowledge-base` | `kt:experience-cloud`, `kt:service-cloud` |
 | `kt:metadata-driven-architecture` | `kt:multitenancy`, `kt:salesforce-platform` |
 | `kt:mulesoft-anypoint-platform` | `kt:flow-orchestrator`, `kt:government-cloud-plus` |
 | `kt:namespace-registry` | `kt:dev-hub`, `kt:second-generation-managed-packages` |
 | `kt:oauth-2-0` | `kt:connected-apps`, `kt:external-client-apps` |
+| `kt:openid-connect-authentication-providers` | `kt:my-domain`, `kt:single-sign-on-saml` |
 | `kt:outbound-messaging` | `kt:change-data-capture`, `kt:platform-events` |
 | `kt:process-builder` | `kt:flow-builder`, `kt:record-triggered-flow` |
 | `kt:pub-sub-api` | `kt:change-data-capture`, `kt:platform-events` |
@@ -52,6 +52,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:calculated-insights` | `kt:data-cloud` |
 | `kt:change-data-capture-allocations` | `kt:change-data-capture` |
 | `kt:collaborative-forecasts` | `kt:sales-cloud` |
+| `kt:custom-domains` | `kt:my-domain` |
 | `kt:data-model-objects` | `kt:data-cloud` |
 | `kt:dod-cloud-computing-srg` | `kt:il4-and-il5` |
 | `kt:entitlement-management` | `kt:service-cloud` |
@@ -72,7 +73,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:nist-digital-identity-guidelines` | `kt:multi-factor-authentication` |
 | `kt:omni-channel-limits` | `kt:omni-channel` |
 | `kt:omnistudio` | `kt:public-sector-solutions` |
-| `kt:openid-connect-authentication-providers` | `kt:single-sign-on-saml` |
 | `kt:opportunity-splits` | `kt:sales-cloud` |
 | `kt:orchestration-work-guide` | `kt:flow-orchestrator` |
 | `kt:org-strategy` | `kt:environment-strategy` |
