@@ -5112,6 +5112,100 @@
       ]
     },
     {
+      "@id": "kt:pub-sub-api",
+      "@type": "kto:API",
+      "skos:prefLabel": "Pub/Sub API",
+      "skos:definition": "Salesforce's gRPC-based API that gives external clients a single interface to publish platform events, subscribe to platform, change data capture and real-time event monitoring events, and retrieve event schemas, using binary Apache Avro payloads and client-controlled flow.",
+      "kto:domain": "integration",
+      "dcterms:created": "2026-11-02",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Get Started with Pub/Sub API (Pub/Sub API Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/pub-sub-api/guide/intro.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Pub/Sub API Basics: Get to Know Pub/Sub API",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/pub-sub-api-basics/get-to-know-pubsub-api",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Pub/Sub API and Event Allocations",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/pub-sub-api/guide/allocations.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Managed Event Subscriptions (Beta)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/pub-sub-api/guide/managed-sub.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Subscribe with Pub/Sub API (Change Data Capture Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.change_data_capture.meta/change_data_capture/cdc_subscribe_pubsub_api.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Pub/Sub API: Building Event-Driven Integrations Just Got Even Easier",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2021/07/pub-sub-api-building-event-driven-integrations-just-got-even-easier",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/integration/pub-sub-api.md",
+      "skos:altLabel": [
+        "PubSub API",
+        "Salesforce Pub/Sub API",
+        "gRPC Pub/Sub API",
+        "ManagedSubscribe"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:event-driven-architecture"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:platform-events"
+        },
+        {
+          "@id": "kt:change-data-capture"
+        },
+        {
+          "@id": "kt:bulk-api-2"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:platform-events"
+        },
+        {
+          "@id": "kt:change-data-capture"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:streaming-api"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:platform-event-allocations"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:managed-event-subscriptions"
+        }
+      ]
+    },
+    {
       "@id": "kt:governor-limits",
       "@type": "kto:Limit",
       "skos:prefLabel": "Governor Limits",

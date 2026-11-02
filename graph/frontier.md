@@ -10,12 +10,12 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:sharing-recalculation` | `kt:data-skew`, `kt:organization-wide-defaults`, `kt:role-hierarchy`, `kt:sharing-rules` |
 | `kt:approval-processes` | `kt:flow-orchestrator`, `kt:process-automation`, `kt:knowledge-base` |
 | `kt:code-analyzer` | `kt:technical-debt-in-salesforce`, `kt:salesforce-cli`, `kt:second-generation-managed-packages` |
+| `kt:event-driven-architecture` | `kt:change-data-capture`, `kt:platform-events`, `kt:pub-sub-api` |
 | `kt:lightning-web-components` | `kt:screen-flow`, `kt:experience-cloud`, `kt:apex` |
 | `kt:query-optimizer-selectivity` | `kt:soql`, `kt:large-data-volumes`, `kt:multitenancy` |
 | `kt:workflow-rules` | `kt:technical-debt-in-salesforce`, `kt:flow-builder`, `kt:record-triggered-flow` |
 | `kt:apex-managed-sharing` | `kt:salesforce-sharing-model`, `kt:sharing-rules` |
 | `kt:enterprise-territory-management` | `kt:sales-cloud`, `kt:role-hierarchy` |
-| `kt:event-driven-architecture` | `kt:change-data-capture`, `kt:platform-events` |
 | `kt:experience-builder` | `kt:experience-cloud`, `kt:experience-cloud-identity` |
 | `kt:external-id-fields` | `kt:data-migration-strategy`, `kt:bulk-api-2` |
 | `kt:fedramp-high` | `kt:government-cloud-plus`, `kt:il4-and-il5` |
@@ -27,8 +27,8 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:mulesoft-anypoint-platform` | `kt:flow-orchestrator`, `kt:government-cloud-plus` |
 | `kt:namespace-registry` | `kt:dev-hub`, `kt:second-generation-managed-packages` |
 | `kt:outbound-messaging` | `kt:change-data-capture`, `kt:platform-events` |
+| `kt:platform-event-allocations` | `kt:platform-events`, `kt:pub-sub-api` |
 | `kt:process-builder` | `kt:flow-builder`, `kt:record-triggered-flow` |
-| `kt:pub-sub-api` | `kt:change-data-capture`, `kt:platform-events` |
 | `kt:queues` | `kt:omni-channel`, `kt:service-cloud` |
 | `kt:record-types` | `kt:knowledge-base`, `kt:person-accounts` |
 | `kt:sandbox-templates` | `kt:environment-strategy`, `kt:sandbox-types` |
@@ -74,6 +74,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:lightning-service-console` | `kt:service-cloud` |
 | `kt:limit-exception` | `kt:governor-limits` |
 | `kt:limits-class` | `kt:governor-limits` |
+| `kt:managed-event-subscriptions` | `kt:pub-sub-api` |
 | `kt:nist-digital-identity-guidelines` | `kt:multi-factor-authentication` |
 | `kt:omni-channel-limits` | `kt:omni-channel` |
 | `kt:omnistudio` | `kt:public-sector-solutions` |
@@ -86,7 +87,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:permission-sets` | `kt:named-credentials` |
 | `kt:platform-as-a-service` | `kt:salesforce-platform` |
 | `kt:platform-data-architect-certification` | `kt:data-architecture` |
-| `kt:platform-event-allocations` | `kt:platform-events` |
 | `kt:platform-event-channel-member` | `kt:change-data-capture` |
 | `kt:presence-configuration` | `kt:omni-channel` |
 | `kt:prompt-injection` | `kt:einstein-trust-layer` |
@@ -112,6 +112,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:skinny-tables` | `kt:large-data-volumes` |
 | `kt:sosl` | `kt:soql` |
 | `kt:standard-objects` | `kt:person-accounts` |
+| `kt:streaming-api` | `kt:pub-sub-api` |
 | `kt:system-architect-certification` | `kt:identity-and-access-management-architect-certification` |
 | `kt:tableau` | `kt:einstein-trust-layer` |
 | `kt:test-data-factory` | `kt:apex-testing` |

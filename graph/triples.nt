@@ -1298,6 +1298,33 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/prompt-builder> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/prompt-builder> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/prompt-builder> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/pub-sub-api> <http://purl.org/dc/terms/created> "2026-11-02" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/pub-sub-api> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#API> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/pub-sub-api> <http://www.w3.org/2000/01/rdf-schema#label> "Pub/Sub API" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/pub-sub-api> <http://www.w3.org/2004/02/skos/core#altLabel> "ManagedSubscribe" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/pub-sub-api> <http://www.w3.org/2004/02/skos/core#altLabel> "PubSub API" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/pub-sub-api> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce Pub/Sub API" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/pub-sub-api> <http://www.w3.org/2004/02/skos/core#altLabel> "gRPC Pub/Sub API" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/pub-sub-api> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/event-driven-architecture> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/pub-sub-api> <http://www.w3.org/2004/02/skos/core#definition> "Salesforce's gRPC-based API that gives external clients a single interface to publish platform events, subscribe to platform, change data capture and real-time event monitoring events, and retrieve event schemas, using binary Apache Avro payloads and client-controlled flow." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/pub-sub-api> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pub/Sub API" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/pub-sub-api> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/bulk-api-2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/pub-sub-api> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/change-data-capture> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/pub-sub-api> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-events> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/pub-sub-api> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/pub-sub-api/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/pub-sub-api> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/pub-sub-api/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/pub-sub-api> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/pub-sub-api/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/pub-sub-api> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/pub-sub-api/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/pub-sub-api> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/pub-sub-api/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/pub-sub-api> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/pub-sub-api/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/pub-sub-api> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#alternativeTo> <https://github.com/john1hsu/salesforce-knowledge-graph/id/streaming-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/pub-sub-api> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/managed-event-subscriptions> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/pub-sub-api> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "integration" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/pub-sub-api> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#governedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-event-allocations> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/pub-sub-api> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/change-data-capture> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/pub-sub-api> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-events> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/pub-sub-api> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/pub-sub-api> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/public-sector-solutions> <http://purl.org/dc/terms/created> "2026-10-31" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/public-sector-solutions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Product> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/public-sector-solutions> <http://www.w3.org/2000/01/rdf-schema#label> "Public Sector Solutions" .
@@ -3180,6 +3207,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/prompt-builder/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/prompt-builder/s7> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/prompt-builder/s7> <https://schema.org/url> "https://admin.salesforce.com/blog/2026/jens-top-winter-27-release-features-for-admins" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/pub-sub-api/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/pub-sub-api/s1> <http://purl.org/dc/terms/title> "Get Started with Pub/Sub API (Pub/Sub API Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/pub-sub-api/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/pub-sub-api/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/pub-sub-api/s1> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/pub-sub-api/guide/intro.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/pub-sub-api/s2> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/pub-sub-api/s2> <http://purl.org/dc/terms/title> "Pub/Sub API Basics: Get to Know Pub/Sub API" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/pub-sub-api/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/pub-sub-api/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/pub-sub-api/s2> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/pub-sub-api-basics/get-to-know-pubsub-api" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/pub-sub-api/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/pub-sub-api/s3> <http://purl.org/dc/terms/title> "Pub/Sub API and Event Allocations" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/pub-sub-api/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/pub-sub-api/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/pub-sub-api/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/pub-sub-api/guide/allocations.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/pub-sub-api/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/pub-sub-api/s4> <http://purl.org/dc/terms/title> "Managed Event Subscriptions (Beta)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/pub-sub-api/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/pub-sub-api/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/pub-sub-api/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/pub-sub-api/guide/managed-sub.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/pub-sub-api/s5> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/pub-sub-api/s5> <http://purl.org/dc/terms/title> "Subscribe with Pub/Sub API (Change Data Capture Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/pub-sub-api/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/pub-sub-api/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/pub-sub-api/s5> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.change_data_capture.meta/change_data_capture/cdc_subscribe_pubsub_api.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/pub-sub-api/s6> <http://purl.org/dc/terms/publisher> "Salesforce Developers Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/pub-sub-api/s6> <http://purl.org/dc/terms/title> "Pub/Sub API: Building Event-Driven Integrations Just Got Even Easier" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/pub-sub-api/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/pub-sub-api/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/pub-sub-api/s6> <https://schema.org/url> "https://developer.salesforce.com/blogs/2021/07/pub-sub-api-building-event-driven-integrations-just-got-even-easier" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/public-sector-solutions/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/public-sector-solutions/s1> <http://purl.org/dc/terms/title> "Explore the Components of Public Sector Solutions" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/public-sector-solutions/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
