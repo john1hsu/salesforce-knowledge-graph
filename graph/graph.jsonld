@@ -3301,6 +3301,98 @@
       ]
     },
     {
+      "@id": "kt:experience-cloud-identity",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Experience Cloud Identity",
+      "skos:definition": "The login, self-registration, verification and password-management features of an Experience Cloud site, configured under Administration > Login & Registration, that let customers and partners sign up and sign in with a password, a verified email or phone code (Login Discovery), or a third-party identity provider.",
+      "kto:domain": "identity",
+      "dcterms:created": "2026-11-02",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Set Up an Experience Cloud Site for Salesforce Customer Identity (Trailhead unit)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/identity_external/identity_external_community",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Create a Self-Registration Page (Trailhead unit)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/identity_external/identity_external_registration",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Identity for Mobile-Centric Customers: Learn the Basics (Trailhead unit)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/identity-for-mobile-centric-customers/identity_mfi_basics",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Identity for Mobile-Centric Customers: Set Up Passwordless Login and Sign-Up with Clicks (Trailhead unit)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/identity-for-mobile-centric-customers/identity_mfi_clicks",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "LoginDiscoveryHandler Interface (Apex Reference Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_interface_Auth_LoginDiscoveryHandler.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "NetworkSelfRegistration (Object Reference for the Salesforce Platform)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/object_reference/sforce_api_objects_networkselfregistration.htm",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/identity/experience-cloud-identity.md",
+      "skos:altLabel": [
+        "Experience Cloud site login and registration",
+        "external user login for Experience Cloud sites",
+        "site self-registration",
+        "Login Discovery",
+        "passwordless login for Experience Cloud"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-identity"
+        },
+        {
+          "@id": "kt:experience-cloud"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:headless-identity"
+        },
+        {
+          "@id": "kt:multi-factor-authentication"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:experience-builder"
+        }
+      ],
+      "kto:requiresLicense": [
+        {
+          "@id": "kt:external-identity-license"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:openid-connect-authentication-providers"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:identity-and-access-management-architect-certification"
+        }
+      ]
+    },
+    {
       "@id": "kt:external-client-apps",
       "@type": "kto:Feature",
       "skos:prefLabel": "External Client Apps",
