@@ -3899,6 +3899,84 @@
       ]
     },
     {
+      "@id": "kt:large-data-volumes",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Large Data Volumes",
+      "skos:definition": "The architectural concern of running Salesforce orgs with very high user counts, record counts or storage (roughly tens of millions of records), where query selectivity, sharing calculation, data loading and deletion must be designed deliberately to keep the multitenant platform performant.",
+      "kto:domain": "platform-architecture",
+      "dcterms:created": "2026-11-02",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Best Practices for Deployments with Large Data Volumes: Introduction",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/salesforce-large-data-volumes-bp/guide/ldv-deployments-introduction.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Best Practices for Deployments with Large Data Volumes (PDF)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://resources.docs.salesforce.com/256/latest/en-us/sfdc/pdf/salesforce_large_data_volumes_bp.pdf",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Large Data Volumes Best Practices: General",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/salesforce-large-data-volumes-bp/guide/ldv-deployments-best-practices-general.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Large Data Volumes Best Practices: Loading Data from the API",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/salesforce-large-data-volumes-bp/guide/ldv-deployments-best-practices-api-loading-data.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Large Data Volumes: Conduct Data Queries and Searches",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/large-data-volumes/conduct-data-queries-and-searches",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/platform-architecture/large-data-volumes.md",
+      "skos:altLabel": [
+        "LDV",
+        "large data volume",
+        "Salesforce LDV",
+        "LDV deployments"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:data-architecture"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:data-skew"
+        },
+        {
+          "@id": "kt:archiving-strategy"
+        },
+        {
+          "@id": "kt:multitenancy"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:query-optimizer-selectivity"
+        },
+        {
+          "@id": "kt:skinny-tables"
+        }
+      ],
+      "kto:queriedWith": [
+        {
+          "@id": "kt:bulk-api-2"
+        }
+      ]
+    },
+    {
       "@id": "kt:multitenancy",
       "@type": "kto:Concept",
       "skos:prefLabel": "Multitenancy",

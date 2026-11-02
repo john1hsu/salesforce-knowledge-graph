@@ -4,7 +4,8 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:large-data-volumes` | `kt:archiving-strategy`, `kt:data-migration-strategy`, `kt:data-skew` |
+| `kt:bulk-api-2` | `kt:data-migration-strategy`, `kt:large-data-volumes`, `kt:record-locking` |
+| `kt:data-architecture` | `kt:archiving-strategy`, `kt:data-migration-strategy`, `kt:large-data-volumes` |
 | `kt:lightning-web-components` | `kt:screen-flow`, `kt:experience-cloud`, `kt:apex` |
 | `kt:object-relationships` | `kt:junction-object`, `kt:lookup-vs-master-detail`, `kt:roll-up-summary-field` |
 | `kt:salesforce-identity` | `kt:connected-apps`, `kt:external-client-apps`, `kt:multi-factor-authentication` |
@@ -12,9 +13,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:sharing-rules` | `kt:organization-wide-defaults`, `kt:role-hierarchy`, `kt:salesforce-sharing-model` |
 | `kt:single-sign-on-saml` | `kt:connected-apps`, `kt:external-client-apps`, `kt:multi-factor-authentication` |
 | `kt:approval-processes` | `kt:flow-orchestrator`, `kt:process-automation` |
-| `kt:bulk-api-2` | `kt:data-migration-strategy`, `kt:record-locking` |
 | `kt:code-analyzer` | `kt:salesforce-cli`, `kt:second-generation-managed-packages` |
-| `kt:data-architecture` | `kt:archiving-strategy`, `kt:data-migration-strategy` |
 | `kt:data-residency` | `kt:hyperforce`, `kt:il4-and-il5` |
 | `kt:enterprise-territory-management` | `kt:sales-cloud`, `kt:role-hierarchy` |
 | `kt:event-driven-architecture` | `kt:change-data-capture`, `kt:platform-events` |
@@ -32,6 +31,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:outbound-messaging` | `kt:change-data-capture`, `kt:platform-events` |
 | `kt:process-builder` | `kt:flow-builder`, `kt:record-triggered-flow` |
 | `kt:pub-sub-api` | `kt:change-data-capture`, `kt:platform-events` |
+| `kt:query-optimizer-selectivity` | `kt:large-data-volumes`, `kt:multitenancy` |
 | `kt:queues` | `kt:omni-channel`, `kt:service-cloud` |
 | `kt:salesforce-architect` | `kt:well-architected-framework`, `kt:agent-development-lifecycle` |
 | `kt:sandbox-templates` | `kt:environment-strategy`, `kt:sandbox-types` |
@@ -85,7 +85,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:presence-configuration` | `kt:omni-channel` |
 | `kt:prompt-builder` | `kt:einstein-trust-layer` |
 | `kt:prompt-injection` | `kt:einstein-trust-layer` |
-| `kt:query-optimizer-selectivity` | `kt:multitenancy` |
 | `kt:queueable-apex` | `kt:asynchronous-apex` |
 | `kt:recursive-save` | `kt:order-of-execution` |
 | `kt:remote-site-settings` | `kt:named-credentials` |
@@ -98,6 +97,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:service-setup-assistant` | `kt:service-cloud` |
 | `kt:session-security-levels` | `kt:multi-factor-authentication` |
 | `kt:skills-based-routing` | `kt:omni-channel` |
+| `kt:skinny-tables` | `kt:large-data-volumes` |
 | `kt:solution-design-tradeoffs` | `kt:well-architected-framework` |
 | `kt:tableau` | `kt:einstein-trust-layer` |
 | `kt:technical-debt-in-salesforce` | `kt:well-architected-framework` |
