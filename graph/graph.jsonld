@@ -1122,6 +1122,94 @@
       ]
     },
     {
+      "@id": "kt:knowledge-base",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Salesforce Knowledge",
+      "skos:definition": "Salesforce's built-in knowledge base: versioned, translatable articles stored in the Knowledge__kav object, structured by record types, classified and secured by data categories, and published to internal, customer, partner and public channels, where they also ground Agentforce and other generative AI answers.",
+      "kto:domain": "clouds-and-products",
+      "dcterms:created": "2026-11-02",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Get Started with Knowledge (Knowledge Basics, Trailhead unit)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/lightning-knowledge-basics/get-started-with-lightning-knowledge",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Prepare Your Salesforce Knowledge Base (Knowledge Basics, Trailhead unit)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/lightning-knowledge-basics/prepare-the-kb-for-success",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Set Up a Simple Knowledge Base (Knowledge Basics, Trailhead unit)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/lightning-knowledge-basics/set-up-a-simple-knowledge-base",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Lightning Knowledge Guide (PDF)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://resources.docs.salesforce.com/latest/latest/en-us/sfdc/pdf/lightning_knowledge_guide.pdf",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "SOAP API Developer Guide (Winter '27 docs): Salesforce Knowledge",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.264.0.api.meta/api/sforce_api_guidelines_knowledge.htm",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/clouds-and-products/knowledge-base.md",
+      "skos:altLabel": [
+        "Lightning Knowledge",
+        "Knowledge base",
+        "Salesforce Knowledge base",
+        "Knowledge__kav"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:service-cloud"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:experience-cloud"
+        },
+        {
+          "@id": "kt:einstein-trust-layer"
+        },
+        {
+          "@id": "kt:approval-processes"
+        },
+        {
+          "@id": "kt:record-types"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:data-categories"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:agentforce"
+        }
+      ],
+      "kto:queriedWith": [
+        {
+          "@id": "kt:soql"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:salesforce-go"
+        }
+      ]
+    },
+    {
       "@id": "kt:omni-channel",
       "@type": "kto:Feature",
       "skos:prefLabel": "Omni-Channel",
