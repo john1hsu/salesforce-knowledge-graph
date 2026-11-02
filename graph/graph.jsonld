@@ -4845,6 +4845,92 @@
       ]
     },
     {
+      "@id": "kt:data-residency",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Data Residency",
+      "skos:definition": "The requirement or commitment that customer data be stored (and sometimes processed and supported) within a particular country or region; in Salesforce it is delivered mainly by choosing a Hyperforce country, optionally strengthened by the paid Hyperforce Operating Zone offering.",
+      "kto:domain": "public-sector-and-compliance",
+      "dcterms:created": "2026-11-02",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Hyperforce Data Residency",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=000795008&language=en_US&type=1",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Hyperforce OZ - General Information and FAQ",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=000395407&language=en_US&type=1",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Salesforce Infrastructure & Sub-processors Documentation",
+          "dcterms:publisher": "Salesforce Compliance",
+          "schema:url": "https://compliance.salesforce.com/documents/a00Kd00000z7FAnIAM",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Transfers of Personal Data to Third Countries or International Organisations",
+          "dcterms:publisher": "Data Protection Commission (Ireland)",
+          "schema:url": "https://dataprotection.ie/en/organisations/international-transfers/transfers-personal-data-third-countries-or-international-organisations",
+          "kto:sourceType": "government"
+        },
+        {
+          "dcterms:title": "Salesforce Launches Hyperforce EU Operating Zone to Give Customers More Control of Their Data",
+          "dcterms:publisher": "Salesforce Newsroom",
+          "schema:url": "https://www.salesforce.com/news/press-releases/2023/03/02/hyperforce-eu-operating-zone-news/",
+          "kto:sourceType": "news"
+        }
+      ],
+      "kto:file": "articles/public-sector-and-compliance/data-residency.md",
+      "skos:altLabel": [
+        "Hyperforce data residency",
+        "data localization",
+        "in-country data storage",
+        "Salesforce data residency"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:data-architecture"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:hyperforce"
+        },
+        {
+          "@id": "kt:government-cloud-plus"
+        },
+        {
+          "@id": "kt:il4-and-il5"
+        },
+        {
+          "@id": "kt:multitenancy"
+        },
+        {
+          "@id": "kt:gdpr-international-transfers"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:hyperforce"
+        }
+      ],
+      "kto:requiresLicense": [
+        {
+          "@id": "kt:hyperforce-operating-zones"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:data-sovereignty"
+        }
+      ]
+    },
+    {
       "@id": "kt:government-cloud-plus",
       "@type": "kto:Product",
       "skos:prefLabel": "Government Cloud Plus",

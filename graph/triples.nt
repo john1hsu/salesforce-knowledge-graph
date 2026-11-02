@@ -378,6 +378,32 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-migration-strategy> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/bulk-api-2> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-migration-strategy> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-migration-strategy> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-residency> <http://purl.org/dc/terms/created> "2026-11-02" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-residency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-residency> <http://www.w3.org/2000/01/rdf-schema#label> "Data Residency" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-residency> <http://www.w3.org/2004/02/skos/core#altLabel> "Hyperforce data residency" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-residency> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce data residency" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-residency> <http://www.w3.org/2004/02/skos/core#altLabel> "data localization" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-residency> <http://www.w3.org/2004/02/skos/core#altLabel> "in-country data storage" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-residency> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-architecture> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-residency> <http://www.w3.org/2004/02/skos/core#definition> "The requirement or commitment that customer data be stored (and sometimes processed and supported) within a particular country or region; in Salesforce it is delivered mainly by choosing a Hyperforce country, optionally strengthened by the paid Hyperforce Operating Zone offering." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-residency> <http://www.w3.org/2004/02/skos/core#prefLabel> "Data Residency" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-residency> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/gdpr-international-transfers> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-residency> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/government-cloud-plus> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-residency> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/hyperforce> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-residency> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/il4-and-il5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-residency> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/multitenancy> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-residency> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-residency/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-residency> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-residency/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-residency> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-residency/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-residency> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-residency/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-residency> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-residency/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-residency> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#contrastsWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-sovereignty> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-residency> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/hyperforce> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-residency> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "public-sector-and-compliance" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-residency> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#requiresLicense> <https://github.com/john1hsu/salesforce-knowledge-graph/id/hyperforce-operating-zones> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-residency> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-residency> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-skew> <http://purl.org/dc/terms/created> "2026-10-31" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-skew> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#AntiPattern> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-skew> <http://www.w3.org/2000/01/rdf-schema#label> "Data Skew" .
@@ -1966,6 +1992,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-migration-strategy/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-migration-strategy/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-migration-strategy/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.api_asynch.meta/api_bulk_v2/walkthrough_upsert.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-residency/s1> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-residency/s1> <http://purl.org/dc/terms/title> "Hyperforce Data Residency" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-residency/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-residency/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-residency/s1> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=000795008&language=en_US&type=1" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-residency/s2> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-residency/s2> <http://purl.org/dc/terms/title> "Hyperforce OZ - General Information and FAQ" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-residency/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-residency/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-residency/s2> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=000395407&language=en_US&type=1" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-residency/s3> <http://purl.org/dc/terms/publisher> "Salesforce Compliance" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-residency/s3> <http://purl.org/dc/terms/title> "Salesforce Infrastructure & Sub-processors Documentation" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-residency/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-residency/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-residency/s3> <https://schema.org/url> "https://compliance.salesforce.com/documents/a00Kd00000z7FAnIAM" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-residency/s4> <http://purl.org/dc/terms/publisher> "Data Protection Commission (Ireland)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-residency/s4> <http://purl.org/dc/terms/title> "Transfers of Personal Data to Third Countries or International Organisations" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-residency/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-residency/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-residency/s4> <https://schema.org/url> "https://dataprotection.ie/en/organisations/international-transfers/transfers-personal-data-third-countries-or-international-organisations" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-residency/s5> <http://purl.org/dc/terms/publisher> "Salesforce Newsroom" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-residency/s5> <http://purl.org/dc/terms/title> "Salesforce Launches Hyperforce EU Operating Zone to Give Customers More Control of Their Data" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-residency/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-residency/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "news" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-residency/s5> <https://schema.org/url> "https://www.salesforce.com/news/press-releases/2023/03/02/hyperforce-eu-operating-zone-news/" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-skew/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-skew/s1> <http://purl.org/dc/terms/title> "Large Data Volumes: Design Your Data Model" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-skew/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

@@ -5,9 +5,9 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | Node | Referenced by |
 |---|---|
 | `kt:identity-and-access-management-architect-certification` | `kt:experience-cloud-identity`, `kt:multi-factor-authentication`, `kt:my-domain`, `kt:salesforce-identity`, `kt:single-sign-on-saml` |
+| `kt:data-architecture` | `kt:archiving-strategy`, `kt:data-migration-strategy`, `kt:large-data-volumes`, `kt:data-residency` |
 | `kt:openid-connect-authentication-providers` | `kt:experience-cloud-identity`, `kt:my-domain`, `kt:salesforce-identity`, `kt:single-sign-on-saml` |
 | `kt:sharing-recalculation` | `kt:data-skew`, `kt:organization-wide-defaults`, `kt:role-hierarchy`, `kt:sharing-rules` |
-| `kt:data-architecture` | `kt:archiving-strategy`, `kt:data-migration-strategy`, `kt:large-data-volumes` |
 | `kt:lightning-web-components` | `kt:screen-flow`, `kt:experience-cloud`, `kt:apex` |
 | `kt:oauth-2-0` | `kt:connected-apps`, `kt:external-client-apps`, `kt:salesforce-identity` |
 | `kt:oauth-2-flows-in-salesforce` | `kt:connected-apps`, `kt:external-client-apps`, `kt:single-sign-on-saml` |
@@ -17,7 +17,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:apex-managed-sharing` | `kt:salesforce-sharing-model`, `kt:sharing-rules` |
 | `kt:approval-processes` | `kt:flow-orchestrator`, `kt:process-automation` |
 | `kt:code-analyzer` | `kt:salesforce-cli`, `kt:second-generation-managed-packages` |
-| `kt:data-residency` | `kt:hyperforce`, `kt:il4-and-il5` |
 | `kt:enterprise-territory-management` | `kt:sales-cloud`, `kt:role-hierarchy` |
 | `kt:event-driven-architecture` | `kt:change-data-capture`, `kt:platform-events` |
 | `kt:experience-builder` | `kt:experience-cloud`, `kt:experience-cloud-identity` |
@@ -57,13 +56,16 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:data-integration` | `kt:bulk-api-2` |
 | `kt:data-loader` | `kt:bulk-api-2` |
 | `kt:data-model-objects` | `kt:data-cloud` |
+| `kt:data-sovereignty` | `kt:data-residency` |
 | `kt:dod-cloud-computing-srg` | `kt:il4-and-il5` |
 | `kt:entitlement-management` | `kt:service-cloud` |
 | `kt:external-identity-license` | `kt:experience-cloud-identity` |
 | `kt:fedramp` | `kt:il4-and-il5` |
 | `kt:first-generation-managed-packages` | `kt:second-generation-managed-packages` |
 | `kt:future-methods` | `kt:asynchronous-apex` |
+| `kt:gdpr-international-transfers` | `kt:data-residency` |
 | `kt:government-cloud` | `kt:government-cloud-plus` |
+| `kt:hyperforce-operating-zones` | `kt:data-residency` |
 | `kt:identity-connect` | `kt:salesforce-identity` |
 | `kt:identity-resolution` | `kt:data-cloud` |
 | `kt:integration-security` | `kt:named-credentials` |
