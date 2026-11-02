@@ -7,8 +7,9 @@ Usage:
   python3 scripts/kg.py similar "Title" [--current "Spring '27"]
                                          # find existing articles close to a candidate topic;
                                          # matches verified against an older release are flagged STALE
-  python3 scripts/kg.py stale [--current "Spring '27"] [--domain integration]
-                                         # list stale articles, stalest first (refresh the top one)
+  python3 scripts/kg.py stale [--current "Spring '27"] [--next-release-date 2027-06-14] [--domain integration]
+                                         # list stale articles, stalest first, and the suggested
+                                         # refresh batch for this run (adaptive, 1-4 articles)
 
 Articles live in articles/<domain>/<slug>.md with YAML frontmatter (see SCHEMA.md).
 Generated outputs (never hand-edit): graph/graph.jsonld, graph/triples.nt,
@@ -19,7 +20,9 @@ from __future__ import annotations
 import json
 import re
 import sys
+import math
 import unicodedata
+from datetime import date, datetime, timedelta, timezone
 from collections import Counter, defaultdict
 from pathlib import Path
 
@@ -403,7 +406,34 @@ def similar(query: str, arts: list[dict], current: str | None = None) -> None:
         print(f"{s:.2f}  {i}  {t}  [{r}]{flag}")
 
 
-def stale(arts: list[dict], current: str | None = None, domain: str | None = None) -> None:
+MAX_REFRESH_BATCH = 4
+# Approximate production GA month/day per release, used only when --next-release-date isn't given.
+APPROX_GA = {"Spring": (2, 15), "Summer": (6, 15), "Winter": (10, 15)}
+
+
+def next_release(current: str) -> str:
+    m = re.match(r"(Spring|Summer|Winter) '(\d{2})", current)
+    season, yy = m.group(1), int(m.group(2))
+    return {"Winter": f"Spring '{yy:02d}", "Spring": f"Summer '{yy:02d}", "Summer": f"Winter '{yy + 1:02d}"}[season]
+
+
+def approx_ga_date(release: str) -> date:
+    m = re.match(r"(Spring|Summer|Winter) '(\d{2})", release)
+    season, yy = m.group(1), int(m.group(2))
+    year = 2000 + yy - (1 if season == "Winter" else 0)  # Winter 'YY ships in autumn of the prior year
+    mo, d = APPROX_GA[season]
+    return date(year, mo, d)
+
+
+def remaining_odd_runs(until: date, now: datetime | None = None) -> int:
+    now = now or datetime.now(timezone.utc)
+    end = datetime(until.year, until.month, until.day, tzinfo=timezone.utc)
+    hours = max(0, int((end - now).total_seconds() // 3600))
+    return max(1, hours // 2)
+
+
+def stale(arts: list[dict], current: str | None = None, domain: str | None = None,
+          next_date: date | None = None) -> None:
     if not current:
         current = max((a.get("release", "") for a in arts), key=release_key, default="")
     cur_key = release_key(current)
@@ -418,8 +448,40 @@ def stale(arts: list[dict], current: str | None = None, domain: str | None = Non
     print(f"Current release: {current or 'unknown'}")
     if not rows:
         print("No stale articles.")
+        return
     for _, acc, i, t, r, d in rows:
         print(f"{r:<12} {acc:<10}  {i}  {t}  ({d})")
+
+    # Adaptive batch: enough per odd-hour run to clear the backlog before the next release, capped.
+    nxt = next_release(current)
+    estimated = next_date is None
+    next_date = next_date or approx_ga_date(nxt)
+    runs = remaining_odd_runs(next_date)
+    needed = math.ceil(len(rows) / runs)
+    size = max(1, min(MAX_REFRESH_BATCH, needed))
+
+    # Pair related work: start with the stalest article, then prefer articles linked to it,
+    # then ones in the same domain, then the rest in staleness order.
+    by_id = {a["id"]: a for a in arts}
+    top = rows[0]
+    top_links = {o for _, o in edges(by_id[top[2]])}
+
+    def pref(idx_row):
+        idx, row = idx_row
+        linked = row[2] in top_links or top[2] in {o for _, o in edges(by_id[row[2]])}
+        return (0 if linked else 1 if row[5] == top[5] else 2, idx)
+
+    rest = sorted(list(enumerate(rows))[1:], key=pref)
+    batch = [top] + [r for _, r in rest[: size - 1]]
+
+    print()
+    print(f"Next release: {nxt}, GA {next_date.isoformat()}{' (estimated)' if estimated else ''}; "
+          f"{runs} odd-hour run(s) left; {len(rows)} stale -> {needed} needed per run")
+    if needed > MAX_REFRESH_BATCH:
+        print(f"WARNING: backlog won't clear before {nxt} at the cap of {MAX_REFRESH_BATCH} per run.")
+    print(f"Refresh batch for this run ({size}):")
+    for _, acc, i, t, r, d in batch:
+        print(f"  {i}  {t}  ({d})")
 
 
 def opt(args: list[str], name: str) -> tuple[str | None, list[str]]:
@@ -436,10 +498,16 @@ def main() -> int:
     if cmd == "stale":
         current, args = opt(sys.argv[2:], "--current")
         domain, args = opt(args, "--domain")
+        nd, args = opt(args, "--next-release-date")
+        try:
+            next_date = date.fromisoformat(nd) if nd else None
+        except ValueError:
+            print("--next-release-date needs YYYY-MM-DD")
+            return 2
         if "--current" in sys.argv and (not current or not RELEASE_RE.match(current)):
             print("--current needs a release like \"Spring '27\"")
             return 2
-        stale(arts, current, domain)
+        stale(arts, current, domain, next_date)
         return 0
     if cmd == "similar":
         args = sys.argv[2:]

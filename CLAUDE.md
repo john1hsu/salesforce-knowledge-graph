@@ -1,6 +1,6 @@
 # Salesforce Knowledge Graph — run playbook
 
-This repo is a citation-backed knowledge graph of the Salesforce ecosystem. An hourly scheduled run makes **exactly one change** per run: it either adds one new, unique article or refreshes one existing article that was verified against an older release (see 2a). Follow these steps in order. Read `SCHEMA.md` before writing.
+This repo is a citation-backed knowledge graph of the Salesforce ecosystem. An hourly scheduled run makes **one change** per run: it either adds one new, unique article or refreshes a small batch (1–4) of existing articles that were verified against an older release (see 2a). Follow these steps in order. Read `SCHEMA.md` before writing.
 
 ## 1. Sync and orient
 ```bash
@@ -14,7 +14,7 @@ Determine the **current Salesforce release** (e.g. "Winter '27") from the offici
 ## 2. Pick the topic (graph-driven)
 Use the current UTC hour:
 - **Even hour → depth.** Take the highest-ranked node in `graph/frontier.md` (referenced by the most articles but not yet written) that fits a domain in `topics/seeds.yaml`. This turns dangling edges into real nodes.
-- **Odd hour → refresh first, then breadth.** Run `python3 scripts/kg.py stale --current "<current release>"`. If it lists any article, refresh the top one (the stalest: oldest release, then oldest source access date) per step 2a; that is this run's change. Only if nothing is stale, do breadth: take the domain in `topics/seeds.yaml` with the fewest articles (ties: alphabetical, skipping the domain of the most recent commit) and pick an unwritten seed topic, or another important topic in that domain.
+- **Odd hour → refresh first, then breadth.** Look up the next release's production GA date on the official Salesforce release calendar or release notes, then run `python3 scripts/kg.py stale --current "<current release>" --next-release-date <YYYY-MM-DD>` (omit the date if you can't confirm it; the script then estimates it). If it lists any stale article, refresh exactly the articles in its **Refresh batch for this run** per step 2a; that is this run's change. The batch size adapts so the backlog clears before the next release (1–4 per run), and it pairs the stalest article with linked or same-domain articles so research overlaps. If it prints a WARNING that the backlog won't clear at the cap, still refresh the batch and mention the warning in the commit body. Only if nothing is stale, do breadth: take the domain in `topics/seeds.yaml` with the fewest articles (ties: alphabetical, skipping the domain of the most recent commit) and pick an unwritten seed topic, or another important topic in that domain.
 - If no frontier node fits, do an odd-hour run (refresh first, then breadth).
 
 After each new release this spends the odd hours refreshing until nothing is stale, while even hours keep adding frontier articles.
@@ -31,14 +31,14 @@ Each match shows its `[release]`; matches verified against an older release than
 Never write a second article on a subject that already has a node — not a rename, a sub-angle that restates it, an old product name (e.g. "Salesforce CDP" vs "Data Cloud"), or a synonym. Salesforce renames products often: record former names as `aliases`. A newer release is never a reason for a second node on the same subject; refresh the existing one.
 
 ## 2a. Refresh a stale article (instead of adding one)
-Use this on odd hours when `kg.py stale` lists an article, or whenever step 2 lands on an existing node whose `release` is older than the current release. The refresh is this run's one change.
+Use this for each article in the odd-hour refresh batch from `kg.py stale`, or (as a batch of one) whenever step 2 lands on an existing node whose `release` is older than the current release. The refresh batch is this run's one change. Apply every rule below to each article in the batch; if one article can't be re-verified, leave it out and refresh the rest.
 - Keep the file path, `id`, `created` date and existing edges, so links from other articles stay intact. Never rename or delete the node.
 - Re-verify the article against the current release: re-open every cited source (search for it first, per step 3), check the current release notes for changes to the feature, and confirm `status` and every stated limit and number.
 - Rewrite only what changed. Replace or add sources as needed (same rules as step 3); update every refreshed source's `accessed` date; set `release` to the current release.
 - If the product was renamed, update `title` only if Salesforce's official name changed, and add the former name to `aliases`. If the feature was retired or replaced, set `status` and add a `replacedBy` edge; the successor is a different subject and can be written as a new article in a later run.
 - If the change is notable, add a short **What changed in <release>** section with citations.
 - If nothing changed, still bump `release` and the `accessed` dates of the sources you re-opened.
-- If you cannot open enough sources to re-verify it, don't refresh it; pick a different topic.
+- If you cannot open enough sources to re-verify an article, don't refresh it. If no article in the batch can be refreshed, pick a different topic.
 
 ## 3. Research
 - Run several web searches; read the actual pages (WebFetch), don't rely on snippets or memory.
@@ -60,13 +60,13 @@ Use this on odd hours when `kg.py stale` lists an article, or whenever step 2 la
 ```bash
 python3 scripts/kg.py build    # fix every reported problem, then re-run until OK
 git add -A
-git commit -m "Add <Title> (<domain>)"   # refresh: "Refresh <Title> (<old release> → <new release>)"
+git commit -m "Add <Title> (<domain>)"   # refresh: "Refresh <Title>[, <Title>…] (<old release> → <new release>)"
 git pull --rebase origin main && git push origin main
 ```
-In a refresh commit body, list what changed, one line each (or `no content changes; re-verified`). If the push is rejected, pull --rebase, rebuild, and push again (once). Commit generated `graph/` files with the article.
+In a refresh commit body, list what changed per article, one line each (or `<id>: no content changes; re-verified`). If the push is rejected, pull --rebase, rebuild, and push again (once). Commit generated `graph/` files with the article.
 
 ## Don'ts
-- Don't add or refresh more than one article per run, delete articles, or rewrite history.
+- Don't add more than one new article per run, refresh more articles than the suggested batch, combine an addition with refreshes, delete articles, or rewrite history.
 - Don't write a new article on a subject that already has a node just because its node is stale; refresh it.
 - Don't commit if validation fails; leave the repo clean.
 - Don't cite a source you didn't open, or state a limit you didn't verify.
