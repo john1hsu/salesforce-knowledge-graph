@@ -10,14 +10,15 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:approval-processes` | `kt:flow-orchestrator`, `kt:process-automation`, `kt:knowledge-base` |
 | `kt:code-analyzer` | `kt:technical-debt-in-salesforce`, `kt:salesforce-cli`, `kt:second-generation-managed-packages` |
 | `kt:event-driven-architecture` | `kt:change-data-capture`, `kt:platform-events`, `kt:pub-sub-api` |
+| `kt:fedramp-high` | `kt:fedramp`, `kt:government-cloud-plus`, `kt:il4-and-il5` |
 | `kt:lightning-web-components` | `kt:screen-flow`, `kt:experience-cloud`, `kt:apex` |
 | `kt:query-optimizer-selectivity` | `kt:soql`, `kt:large-data-volumes`, `kt:multitenancy` |
 | `kt:workflow-rules` | `kt:technical-debt-in-salesforce`, `kt:flow-builder`, `kt:record-triggered-flow` |
 | `kt:apex-managed-sharing` | `kt:salesforce-sharing-model`, `kt:sharing-rules` |
+| `kt:dod-cloud-computing-srg` | `kt:fedramp`, `kt:il4-and-il5` |
 | `kt:enterprise-territory-management` | `kt:sales-cloud`, `kt:role-hierarchy` |
 | `kt:experience-builder` | `kt:experience-cloud`, `kt:experience-cloud-identity` |
 | `kt:external-id-fields` | `kt:data-migration-strategy`, `kt:bulk-api-2` |
-| `kt:fedramp-high` | `kt:government-cloud-plus`, `kt:il4-and-il5` |
 | `kt:flow-trigger-explorer` | `kt:record-triggered-flow`, `kt:order-of-execution` |
 | `kt:headless-identity` | `kt:experience-cloud-identity`, `kt:salesforce-identity` |
 | `kt:implicit-sharing` | `kt:role-hierarchy`, `kt:salesforce-sharing-model` |
@@ -55,12 +56,11 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:data-loader` | `kt:bulk-api-2` |
 | `kt:data-model-objects` | `kt:data-cloud` |
 | `kt:data-sovereignty` | `kt:data-residency` |
-| `kt:dod-cloud-computing-srg` | `kt:il4-and-il5` |
 | `kt:entitlement-management` | `kt:service-cloud` |
 | `kt:external-identity-license` | `kt:experience-cloud-identity` |
 | `kt:external-objects` | `kt:object-relationships` |
-| `kt:fedramp` | `kt:il4-and-il5` |
 | `kt:financial-services-cloud` | `kt:person-accounts` |
+| `kt:fips-199` | `kt:fedramp` |
 | `kt:first-generation-managed-packages` | `kt:second-generation-managed-packages` |
 | `kt:future-methods` | `kt:asynchronous-apex` |
 | `kt:gdpr-international-transfers` | `kt:data-residency` |
@@ -106,6 +106,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:salesforce-optimizer` | `kt:technical-debt-in-salesforce` |
 | `kt:saml-2-0` | `kt:single-sign-on-saml` |
 | `kt:schema-builder` | `kt:data-architecture` |
+| `kt:security-compliance-frameworks` | `kt:fedramp` |
 | `kt:service-setup-assistant` | `kt:service-cloud` |
 | `kt:session-security-levels` | `kt:multi-factor-authentication` |
 | `kt:skills-based-routing` | `kt:omni-channel` |

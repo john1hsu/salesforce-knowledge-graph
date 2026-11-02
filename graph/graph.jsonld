@@ -5990,6 +5990,94 @@
       ]
     },
     {
+      "@id": "kt:fedramp",
+      "@type": "kto:ExternalConcept",
+      "skos:prefLabel": "FedRAMP",
+      "skos:definition": "The US federal government's program, run by GSA, for assessing and certifying the security of cloud services used by federal agencies; offerings are categorized into baselines (Low, Moderate, High, now relabelled Classes A-D), and Salesforce's Government Cloud Plus holds the top (High / Class D) authorization.",
+      "kto:domain": "public-sector-and-compliance",
+      "dcterms:created": "2026-11-02",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Understanding Baselines and Impact Levels for FedRAMP Authorizations",
+          "dcterms:publisher": "FedRAMP (GSA)",
+          "schema:url": "https://www.fedramp.gov/rev5/baselines",
+          "kto:sourceType": "government"
+        },
+        {
+          "dcterms:title": "FedRAMP Authorization Act",
+          "dcterms:publisher": "FedRAMP (GSA)",
+          "schema:url": "https://fedramp.gov/2026/authority/law/",
+          "kto:sourceType": "government"
+        },
+        {
+          "dcterms:title": "Notice NTC-0004: Initial Outcome from RFC-0020",
+          "dcterms:publisher": "FedRAMP (GSA)",
+          "schema:url": "https://www.fedramp.gov/notices/0004",
+          "kto:sourceType": "government"
+        },
+        {
+          "dcterms:title": "FedRAMP Certification Paths Are Heating Up (July 30, 2026)",
+          "dcterms:publisher": "FedRAMP (GSA)",
+          "schema:url": "https://www.fedramp.gov/2026-07-30-fedramp-certification-paths-are-heating-up/",
+          "kto:sourceType": "government"
+        },
+        {
+          "dcterms:title": "FedRAMP High (Compliance category page)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://compliance.salesforce.com/en/categories/fedramp-high",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Salesforce FedRAMP (Government Cloud page)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/fedramp/",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/public-sector-and-compliance/fedramp.md",
+      "skos:altLabel": [
+        "Federal Risk and Authorization Management Program",
+        "FedRAMP Certification",
+        "FedRAMP authorization"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:security-compliance-frameworks"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:government-cloud-plus"
+        },
+        {
+          "@id": "kt:public-sector-solutions"
+        },
+        {
+          "@id": "kt:il4-and-il5"
+        },
+        {
+          "@id": "kt:data-residency"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:fedramp-high"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:fips-199"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:dod-cloud-computing-srg"
+        }
+      ]
+    },
+    {
       "@id": "kt:government-cloud-plus",
       "@type": "kto:Product",
       "skos:prefLabel": "Government Cloud Plus",
