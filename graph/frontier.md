@@ -4,7 +4,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:salesforce-architect` | `kt:data-architecture`, `kt:well-architected-framework`, `kt:agent-development-lifecycle`, `kt:identity-and-access-management-architect-certification` |
 | `kt:sharing-and-visibility-architect-certification` | `kt:identity-and-access-management-architect-certification`, `kt:organization-wide-defaults`, `kt:salesforce-sharing-model`, `kt:sharing-rules` |
 | `kt:sharing-recalculation` | `kt:data-skew`, `kt:organization-wide-defaults`, `kt:role-hierarchy`, `kt:sharing-rules` |
 | `kt:approval-processes` | `kt:flow-orchestrator`, `kt:process-automation`, `kt:knowledge-base` |
@@ -13,6 +12,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:fedramp-high` | `kt:fedramp`, `kt:government-cloud-plus`, `kt:il4-and-il5` |
 | `kt:lightning-web-components` | `kt:screen-flow`, `kt:experience-cloud`, `kt:apex` |
 | `kt:query-optimizer-selectivity` | `kt:soql`, `kt:large-data-volumes`, `kt:multitenancy` |
+| `kt:solution-design-tradeoffs` | `kt:salesforce-architect`, `kt:technical-debt-in-salesforce`, `kt:well-architected-framework` |
 | `kt:workflow-rules` | `kt:technical-debt-in-salesforce`, `kt:flow-builder`, `kt:record-triggered-flow` |
 | `kt:apex-managed-sharing` | `kt:salesforce-sharing-model`, `kt:sharing-rules` |
 | `kt:dod-cloud-computing-srg` | `kt:fedramp`, `kt:il4-and-il5` |
@@ -31,14 +31,16 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:process-builder` | `kt:flow-builder`, `kt:record-triggered-flow` |
 | `kt:queues` | `kt:omni-channel`, `kt:service-cloud` |
 | `kt:record-types` | `kt:knowledge-base`, `kt:person-accounts` |
+| `kt:salesforce-architecture-center` | `kt:salesforce-architect`, `kt:well-architected-framework` |
 | `kt:sandbox-templates` | `kt:environment-strategy`, `kt:sandbox-types` |
 | `kt:scratch-org-allocations` | `kt:dev-hub`, `kt:scratch-orgs` |
-| `kt:solution-design-tradeoffs` | `kt:technical-debt-in-salesforce`, `kt:well-architected-framework` |
+| `kt:system-architect-certification` | `kt:salesforce-architect`, `kt:identity-and-access-management-architect-certification` |
 | `kt:account-takeover` | `kt:multi-factor-authentication` |
 | `kt:agent-script` | `kt:agentforce` |
 | `kt:agentforce-dx` | `kt:agent-development-lifecycle` |
 | `kt:agentforce-studio` | `kt:prompt-builder` |
 | `kt:agentforce-testing-center` | `kt:agent-development-lifecycle` |
+| `kt:application-architect-certification` | `kt:salesforce-architect` |
 | `kt:atlas-reasoning-engine` | `kt:agentforce` |
 | `kt:backup-and-recover` | `kt:archiving-strategy` |
 | `kt:batch-apex` | `kt:asynchronous-apex` |
@@ -47,9 +49,11 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:bulk-api-allocations` | `kt:bulk-api-2` |
 | `kt:business-rules-engine` | `kt:public-sector-solutions` |
 | `kt:calculated-insights` | `kt:data-cloud` |
+| `kt:certified-technical-architect` | `kt:salesforce-architect` |
 | `kt:change-data-capture-allocations` | `kt:change-data-capture` |
 | `kt:collaborative-forecasts` | `kt:sales-cloud` |
 | `kt:contacts-to-multiple-accounts` | `kt:person-accounts` |
+| `kt:cta-review-board` | `kt:salesforce-architect` |
 | `kt:custom-domains` | `kt:my-domain` |
 | `kt:data-categories` | `kt:knowledge-base` |
 | `kt:data-integration` | `kt:bulk-api-2` |
@@ -97,10 +101,10 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:rest-api` | `kt:bulk-api-2` |
 | `kt:sales-cloud-consultant-certification` | `kt:sales-cloud` |
 | `kt:salesforce-apis` | `kt:bulk-api-2` |
-| `kt:salesforce-architecture-center` | `kt:well-architected-framework` |
 | `kt:salesforce-archive` | `kt:archiving-strategy` |
 | `kt:salesforce-connect` | `kt:named-credentials` |
 | `kt:salesforce-data-mask` | `kt:environment-strategy` |
+| `kt:salesforce-ecosystem-roles` | `kt:salesforce-architect` |
 | `kt:salesforce-go` | `kt:knowledge-base` |
 | `kt:salesforce-industries` | `kt:public-sector-solutions` |
 | `kt:salesforce-optimizer` | `kt:technical-debt-in-salesforce` |
@@ -114,7 +118,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:sosl` | `kt:soql` |
 | `kt:standard-objects` | `kt:person-accounts` |
 | `kt:streaming-api` | `kt:pub-sub-api` |
-| `kt:system-architect-certification` | `kt:identity-and-access-management-architect-certification` |
 | `kt:tableau` | `kt:einstein-trust-layer` |
 | `kt:test-data-factory` | `kt:apex-testing` |
 | `kt:testing-strategy` | `kt:apex-testing` |

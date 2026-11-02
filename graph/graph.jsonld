@@ -355,6 +355,96 @@
       ]
     },
     {
+      "@id": "kt:salesforce-architect",
+      "@type": "kto:Role",
+      "skos:prefLabel": "Salesforce Architect",
+      "skos:definition": "The Salesforce ecosystem role that designs scalable, sustainable Salesforce solutions and advises business and technical stakeholders on trade-offs; it spans solution, technical, domain, enterprise and program specialisms and is validated by a credential ladder of domain certifications, Application Architect, System Architect and the Certified Technical Architect review board.",
+      "kto:domain": "architecture-practice",
+      "dcterms:created": "2026-11-02",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Salesforce Architect Role Quick Look: Get to Know the Salesforce Architect Role",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/salesforce-architect-role-quick-look/salesforce-architect-role-quick-look-1",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "What Is a Salesforce Architect?",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/blog/what-is-a-salesforce-architect/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Certification - Salesforce Certified Application Architect",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/credentials/applicationarchitect",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Certification - Salesforce Certified System Architect",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/en/credentials/systemarchitect",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Certified Technical Architect Credential",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/en/credentials/architectreviewboard",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Relaunching the Salesforce Architecture Program",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/blog/relaunching-salesforce-architecture-program/",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/architecture-practice/salesforce-architect.md",
+      "skos:altLabel": [
+        "Salesforce solution architect",
+        "Salesforce technical architect role",
+        "architect role in the Salesforce ecosystem"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-ecosystem-roles"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:well-architected-framework"
+        },
+        {
+          "@id": "kt:salesforce-architecture-center"
+        },
+        {
+          "@id": "kt:solution-design-tradeoffs"
+        },
+        {
+          "@id": "kt:data-architecture"
+        },
+        {
+          "@id": "kt:technical-debt-in-salesforce"
+        },
+        {
+          "@id": "kt:cta-review-board"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:application-architect-certification"
+        },
+        {
+          "@id": "kt:system-architect-certification"
+        },
+        {
+          "@id": "kt:certified-technical-architect"
+        }
+      ]
+    },
+    {
       "@id": "kt:technical-debt-in-salesforce",
       "@type": "kto:Concept",
       "skos:prefLabel": "Technical Debt in Salesforce",
