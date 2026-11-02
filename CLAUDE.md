@@ -9,15 +9,17 @@ python3 scripts/kg.py build      # must print OK; fix the repo first if it doesn
 ```
 Read `graph/stats.md`, `graph/frontier.md` and `topics/seeds.yaml`. `graph/index.json` lists every existing node (ids, titles, aliases, release, status, source URLs).
 
-Determine the **current Salesforce release** (e.g. "Winter '27") from the official release notes (help.salesforce.com release notes) or the Salesforce release calendar. Every article you write is stamped with it in `release`.
+Determine the **current Salesforce release** (e.g. "Winter '27") from the official release notes (help.salesforce.com release notes) or the Salesforce release calendar. Use the release that is generally available in production, not one still in sandbox preview. Every article you write or refresh is stamped with it in `release`.
 
 ## 2. Pick the topic (graph-driven)
 Use the current UTC hour:
 - **Even hour → depth.** Take the highest-ranked node in `graph/frontier.md` (referenced by the most articles but not yet written) that fits a domain in `topics/seeds.yaml`. This turns dangling edges into real nodes.
-- **Odd hour → breadth.** Take the domain in `topics/seeds.yaml` with the fewest articles (ties: alphabetical, skipping the domain of the most recent commit) and pick an unwritten seed topic, or another important topic in that domain.
-- If no frontier node fits, do a breadth run.
+- **Odd hour → refresh first, then breadth.** Run `python3 scripts/kg.py stale --current "<current release>"`. If it lists any article, refresh the top one (the stalest: oldest release, then oldest source access date) per step 2a; that is this run's change. Only if nothing is stale, do breadth: take the domain in `topics/seeds.yaml` with the fewest articles (ties: alphabetical, skipping the domain of the most recent commit) and pick an unwritten seed topic, or another important topic in that domain.
+- If no frontier node fits, do an odd-hour run (refresh first, then breadth).
 
-Then prove it is unique:
+After each new release this spends the odd hours refreshing until nothing is stale, while even hours keep adding frontier articles.
+
+For a new article, prove it is unique (skip this for a refresh picked from `kg.py stale`):
 ```bash
 python3 scripts/kg.py similar "<candidate title>" --current "<current release>"
 ```
@@ -29,7 +31,7 @@ Each match shows its `[release]`; matches verified against an older release than
 Never write a second article on a subject that already has a node — not a rename, a sub-angle that restates it, an old product name (e.g. "Salesforce CDP" vs "Data Cloud"), or a synonym. Salesforce renames products often: record former names as `aliases`. A newer release is never a reason for a second node on the same subject; refresh the existing one.
 
 ## 2a. Refresh a stale article (instead of adding one)
-Use this when step 2 lands on an existing node whose `release` is older than the current release. The refresh is this run's one change.
+Use this on odd hours when `kg.py stale` lists an article, or whenever step 2 lands on an existing node whose `release` is older than the current release. The refresh is this run's one change.
 - Keep the file path, `id`, `created` date and existing edges, so links from other articles stay intact. Never rename or delete the node.
 - Re-verify the article against the current release: re-open every cited source (search for it first, per step 3), check the current release notes for changes to the feature, and confirm `status` and every stated limit and number.
 - Rewrite only what changed. Replace or add sources as needed (same rules as step 3); update every refreshed source's `accessed` date; set `release` to the current release.

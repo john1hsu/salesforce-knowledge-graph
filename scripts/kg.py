@@ -7,6 +7,8 @@ Usage:
   python3 scripts/kg.py similar "Title" [--current "Spring '27"]
                                          # find existing articles close to a candidate topic;
                                          # matches verified against an older release are flagged STALE
+  python3 scripts/kg.py stale [--current "Spring '27"] [--domain integration]
+                                         # list stale articles, stalest first (refresh the top one)
 
 Articles live in articles/<domain>/<slug>.md with YAML frontmatter (see SCHEMA.md).
 Generated outputs (never hand-edit): graph/graph.jsonld, graph/triples.nt,
@@ -401,9 +403,44 @@ def similar(query: str, arts: list[dict], current: str | None = None) -> None:
         print(f"{s:.2f}  {i}  {t}  [{r}]{flag}")
 
 
+def stale(arts: list[dict], current: str | None = None, domain: str | None = None) -> None:
+    if not current:
+        current = max((a.get("release", "") for a in arts), key=release_key, default="")
+    cur_key = release_key(current)
+    rows = []
+    for a in arts:
+        if domain and a.get("domain") != domain:
+            continue
+        if release_key(a.get("release", "")) < cur_key:
+            accessed = min((str(x.get("accessed", "")) for x in a.get("sources") or []), default="")
+            rows.append((release_key(a["release"]), accessed, a["id"], a.get("title", ""), a["release"], a.get("domain", "")))
+    rows.sort()
+    print(f"Current release: {current or 'unknown'}")
+    if not rows:
+        print("No stale articles.")
+    for _, acc, i, t, r, d in rows:
+        print(f"{r:<12} {acc:<10}  {i}  {t}  ({d})")
+
+
+def opt(args: list[str], name: str) -> tuple[str | None, list[str]]:
+    if name not in args:
+        return None, args
+    k = args.index(name)
+    val = args[k + 1] if k + 1 < len(args) else None
+    return val, args[:k] + args[k + 2:]
+
+
 def main() -> int:
     cmd = sys.argv[1] if len(sys.argv) > 1 else "check"
     arts, errs = load_articles()
+    if cmd == "stale":
+        current, args = opt(sys.argv[2:], "--current")
+        domain, args = opt(args, "--domain")
+        if "--current" in sys.argv and (not current or not RELEASE_RE.match(current)):
+            print("--current needs a release like \"Spring '27\"")
+            return 2
+        stale(arts, current, domain)
+        return 0
     if cmd == "similar":
         args = sys.argv[2:]
         current = None
