@@ -4,8 +4,8 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:apex-managed-sharing` | `kt:salesforce-sharing-model`, `kt:sharing-recalculation`, `kt:sharing-rules` |
 | `kt:approval-processes` | `kt:flow-orchestrator`, `kt:process-automation`, `kt:knowledge-base` |
+| `kt:batch-apex` | `kt:asynchronous-apex`, `kt:apex-managed-sharing`, `kt:sharing-recalculation` |
 | `kt:code-analyzer` | `kt:technical-debt-in-salesforce`, `kt:salesforce-cli`, `kt:second-generation-managed-packages` |
 | `kt:event-driven-architecture` | `kt:change-data-capture`, `kt:platform-events`, `kt:pub-sub-api` |
 | `kt:fedramp-high` | `kt:fedramp`, `kt:government-cloud-plus`, `kt:il4-and-il5` |
@@ -14,7 +14,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:solution-design-tradeoffs` | `kt:salesforce-architect`, `kt:technical-debt-in-salesforce`, `kt:well-architected-framework` |
 | `kt:workflow-rules` | `kt:technical-debt-in-salesforce`, `kt:flow-builder`, `kt:record-triggered-flow` |
 | `kt:application-architect-certification` | `kt:salesforce-architect`, `kt:sharing-and-visibility-architect-certification` |
-| `kt:batch-apex` | `kt:asynchronous-apex`, `kt:sharing-recalculation` |
 | `kt:calculated-insights` | `kt:data-cloud`, `kt:identity-resolution` |
 | `kt:data-model-objects` | `kt:data-cloud`, `kt:identity-resolution` |
 | `kt:dod-cloud-computing-srg` | `kt:fedramp`, `kt:il4-and-il5` |

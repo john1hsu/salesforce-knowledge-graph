@@ -6702,6 +6702,93 @@
       ]
     },
     {
+      "@id": "kt:apex-managed-sharing",
+      "@type": "kto:SecurityControl",
+      "skos:prefLabel": "Apex Managed Sharing",
+      "skos:definition": "Programmatic record sharing in which Apex or the SOAP API inserts rows into an object's share table (for example Job__Share) under a custom Apex sharing reason, granting Read or Edit access that survives ownership changes and can be rebuilt by a batch recalculation class.",
+      "kto:domain": "security-and-sharing",
+      "dcterms:created": "2026-11-03",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Sharing a Record Using Apex (Apex Developer Guide, Winter '27)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apex/apex_bulk_sharing_creating_with_apex.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Understanding Sharing (Apex Developer Guide, Winter '27)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.264.0.apexcode.meta/apexref/apex_bulk_sharing_understanding.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Recalculating Apex Managed Sharing (Apex Developer Guide, Winter '27)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apex/apex_bulk_sharing_recalc.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Create Apex Sharing Reasons (Salesforce Help)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://help.salesforce.com/apex/HTViewHelpDoc?id=platform.security_apex_sharing_reasons.htm",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/security-and-sharing/apex-managed-sharing.md",
+      "skos:altLabel": [
+        "Apex sharing",
+        "programmatic sharing",
+        "Apex sharing reasons",
+        "share object rows in Apex"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-sharing-model"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:sharing-rules"
+        },
+        {
+          "@id": "kt:organization-wide-defaults"
+        },
+        {
+          "@id": "kt:apex-triggers"
+        },
+        {
+          "@id": "kt:batch-apex"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:apex"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:sharing-rules"
+        }
+      ],
+      "kto:causes": [
+        {
+          "@id": "kt:sharing-recalculation"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:metadata-api"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:sharing-and-visibility-architect-certification"
+        }
+      ]
+    },
+    {
       "@id": "kt:enterprise-territory-management",
       "@type": "kto:Feature",
       "skos:prefLabel": "Sales Territories",

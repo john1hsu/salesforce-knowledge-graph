@@ -47,6 +47,32 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/atlas-reasoning-engine> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-managed-sharing> <http://purl.org/dc/terms/created> "2026-11-03" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-managed-sharing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#SecurityControl> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-managed-sharing> <http://www.w3.org/2000/01/rdf-schema#label> "Apex Managed Sharing" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-managed-sharing> <http://www.w3.org/2004/02/skos/core#altLabel> "Apex sharing reasons" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-managed-sharing> <http://www.w3.org/2004/02/skos/core#altLabel> "Apex sharing" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-managed-sharing> <http://www.w3.org/2004/02/skos/core#altLabel> "programmatic sharing" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-managed-sharing> <http://www.w3.org/2004/02/skos/core#altLabel> "share object rows in Apex" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-managed-sharing> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-sharing-model> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-managed-sharing> <http://www.w3.org/2004/02/skos/core#definition> "Programmatic record sharing in which Apex or the SOAP API inserts rows into an object's share table (for example Job__Share) under a custom Apex sharing reason, granting Read or Edit access that survives ownership changes and can be rebuilt by a batch recalculation class." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-managed-sharing> <http://www.w3.org/2004/02/skos/core#prefLabel> "Apex Managed Sharing" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-managed-sharing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-triggers> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-managed-sharing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/batch-apex> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-managed-sharing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/organization-wide-defaults> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-managed-sharing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-rules> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-managed-sharing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-managed-sharing/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-managed-sharing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-managed-sharing/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-managed-sharing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-managed-sharing/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-managed-sharing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-managed-sharing/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-managed-sharing> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#alternativeTo> <https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-rules> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-managed-sharing> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#causes> <https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-recalculation> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-managed-sharing> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-managed-sharing> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#coveredBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-and-visibility-architect-certification> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-managed-sharing> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-managed-sharing> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "security-and-sharing" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-managed-sharing> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-managed-sharing> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-testing> <http://purl.org/dc/terms/created> "2026-10-31" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-testing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-testing> <http://www.w3.org/2000/01/rdf-schema#label> "Apex Testing" .
@@ -2188,6 +2214,26 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce/s6> <https://schema.org/url> "https://salesforce.com/artificial-intelligence/einstein-ai-assistant" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-managed-sharing/s1> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-managed-sharing/s1> <http://purl.org/dc/terms/title> "Sharing a Record Using Apex (Apex Developer Guide, Winter '27)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-managed-sharing/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-managed-sharing/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-managed-sharing/s1> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apex/apex_bulk_sharing_creating_with_apex.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-managed-sharing/s2> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-managed-sharing/s2> <http://purl.org/dc/terms/title> "Understanding Sharing (Apex Developer Guide, Winter '27)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-managed-sharing/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-managed-sharing/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-managed-sharing/s2> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.264.0.apexcode.meta/apexref/apex_bulk_sharing_understanding.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-managed-sharing/s3> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-managed-sharing/s3> <http://purl.org/dc/terms/title> "Recalculating Apex Managed Sharing (Apex Developer Guide, Winter '27)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-managed-sharing/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-managed-sharing/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-managed-sharing/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apex/apex_bulk_sharing_recalc.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-managed-sharing/s4> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-managed-sharing/s4> <http://purl.org/dc/terms/title> "Create Apex Sharing Reasons (Salesforce Help)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-managed-sharing/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-managed-sharing/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-managed-sharing/s4> <https://schema.org/url> "https://help.salesforce.com/apex/HTViewHelpDoc?id=platform.security_apex_sharing_reasons.htm" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-testing/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-testing/s1> <http://purl.org/dc/terms/title> "Apex Developer Guide (Winter '27): Testing Apex" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-testing/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
