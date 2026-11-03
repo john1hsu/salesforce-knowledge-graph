@@ -4,8 +4,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:sharing-and-visibility-architect-certification` | `kt:identity-and-access-management-architect-certification`, `kt:organization-wide-defaults`, `kt:restriction-rules`, `kt:salesforce-sharing-model`, `kt:sharing-rules` |
-| `kt:sharing-recalculation` | `kt:data-skew`, `kt:organization-wide-defaults`, `kt:role-hierarchy`, `kt:sharing-rules` |
+| `kt:sharing-recalculation` | `kt:data-skew`, `kt:organization-wide-defaults`, `kt:role-hierarchy`, `kt:sharing-and-visibility-architect-certification`, `kt:sharing-rules` |
 | `kt:approval-processes` | `kt:flow-orchestrator`, `kt:process-automation`, `kt:knowledge-base` |
 | `kt:code-analyzer` | `kt:technical-debt-in-salesforce`, `kt:salesforce-cli`, `kt:second-generation-managed-packages` |
 | `kt:enterprise-territory-management` | `kt:sales-cloud`, `kt:restriction-rules`, `kt:role-hierarchy` |
@@ -16,6 +15,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:solution-design-tradeoffs` | `kt:salesforce-architect`, `kt:technical-debt-in-salesforce`, `kt:well-architected-framework` |
 | `kt:workflow-rules` | `kt:technical-debt-in-salesforce`, `kt:flow-builder`, `kt:record-triggered-flow` |
 | `kt:apex-managed-sharing` | `kt:salesforce-sharing-model`, `kt:sharing-rules` |
+| `kt:application-architect-certification` | `kt:salesforce-architect`, `kt:sharing-and-visibility-architect-certification` |
 | `kt:dod-cloud-computing-srg` | `kt:fedramp`, `kt:il4-and-il5` |
 | `kt:experience-builder` | `kt:experience-cloud`, `kt:experience-cloud-identity` |
 | `kt:external-id-fields` | `kt:data-migration-strategy`, `kt:bulk-api-2` |
@@ -42,7 +42,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:agentforce-dx` | `kt:agent-development-lifecycle` |
 | `kt:agentforce-studio` | `kt:prompt-builder` |
 | `kt:agentforce-testing-center` | `kt:agent-development-lifecycle` |
-| `kt:application-architect-certification` | `kt:salesforce-architect` |
 | `kt:atlas-reasoning-engine` | `kt:agentforce` |
 | `kt:backup-and-recover` | `kt:archiving-strategy` |
 | `kt:batch-apex` | `kt:asynchronous-apex` |

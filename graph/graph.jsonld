@@ -6741,6 +6741,97 @@
       ]
     },
     {
+      "@id": "kt:sharing-and-visibility-architect-certification",
+      "@type": "kto:Certification",
+      "skos:prefLabel": "Sharing and Visibility Architect Certification",
+      "skos:definition": "Salesforce's domain architect credential for designing scalable record-access (sharing and visibility) solutions on the Salesforce Platform; it is one of the four certifications that together grant the Application Architect credential on the path to Certified Technical Architect.",
+      "kto:domain": "security-and-sharing",
+      "dcterms:created": "2026-11-03",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Certification - Salesforce Certified Platform Sharing and Visibility Architect",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/credentials/sharingandvisibilityarchitect",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Certification - Salesforce Certified Application Architect",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/credentials/applicationarchitect",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Certification - Architect Overview",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/credentials/architectoverview",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Certification - Salesforce Certified Technical Architect",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/credentials/technicalarchitect",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Platform Sharing Architecture",
+          "dcterms:publisher": "Salesforce Architects",
+          "schema:url": "https://architect.salesforce.com/fundamentals/platform-sharing-architecture",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Designing Record Access for Enterprise Scale: Introduction",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/draes/guide/draes-introduction.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/security-and-sharing/sharing-and-visibility-architect-certification.md",
+      "skos:altLabel": [
+        "Salesforce Certified Platform Sharing and Visibility Architect",
+        "Sharing and Visibility Architect exam"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-architect"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:salesforce-sharing-model"
+        },
+        {
+          "@id": "kt:organization-wide-defaults"
+        },
+        {
+          "@id": "kt:role-hierarchy"
+        },
+        {
+          "@id": "kt:sharing-rules"
+        },
+        {
+          "@id": "kt:restriction-rules"
+        },
+        {
+          "@id": "kt:data-skew"
+        },
+        {
+          "@id": "kt:sharing-recalculation"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:application-architect-certification"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:identity-and-access-management-architect-certification"
+        }
+      ]
+    },
+    {
       "@id": "kt:sharing-rules",
       "@type": "kto:SecurityControl",
       "skos:prefLabel": "Sharing Rules",
