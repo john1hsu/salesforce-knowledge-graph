@@ -6608,6 +6608,110 @@
       ]
     },
     {
+      "@id": "kt:enterprise-territory-management",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Sales Territories",
+      "skos:definition": "Salesforce's territory feature (formerly Enterprise Territory Management) for modelling a sales organisation as territory hierarchies inside versioned territory models, assigning accounts, leads, opportunities and users to territories by rule or by hand, and granting record access through territory membership rather than ownership.",
+      "kto:domain": "security-and-sharing",
+      "dcterms:created": "2026-11-03",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Sales Territories (Salesforce Help)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://help.salesforce.com/apex/HTViewHelpDoc?id=tm2_intro.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Implementing Enterprise Territory Management (implementation guide PDF)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://resources.docs.salesforce.com/210/latest/en-us/sfdc/pdf/salesforce_implementing_territory_mgmt2_guide.pdf",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Manage Territories and Crush Your Sales Goals (Trailhead, Sales Territories and Forecasting)",
+          "dcterms:publisher": "Salesforce Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/sales-territories-and-forecasting/manage-territories-and-crush-your-sales-goals",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Optimize Enterprise Territory Management Performance (Trailhead)",
+          "dcterms:publisher": "Salesforce Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/advanced-territory-management/optimize-enterprise-territory-management-performance",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "ObjectTerritory2Association (Object Reference, Winter '27, API 68.0)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.264.0.object_reference.meta/object_reference/sforce_api_objects_objectterritory2association.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Designing Record Access for Enterprise Scale (PDF)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://resources.docs.salesforce.com/256/latest/en-us/sfdc/pdf/draes.pdf",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/security-and-sharing/enterprise-territory-management.md",
+      "skos:altLabel": [
+        "Enterprise Territory Management",
+        "ETM",
+        "Territory Management 2.0",
+        "TM2",
+        "Salesforce Sales Territories",
+        "territory model"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-sharing-model"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:role-hierarchy"
+        },
+        {
+          "@id": "kt:sharing-rules"
+        },
+        {
+          "@id": "kt:sharing-recalculation"
+        },
+        {
+          "@id": "kt:implicit-sharing"
+        },
+        {
+          "@id": "kt:restriction-rules"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:sales-cloud"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:role-hierarchy"
+        }
+      ],
+      "kto:causes": [
+        {
+          "@id": "kt:group-membership-locking"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:data-skew"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:sharing-and-visibility-architect-certification"
+        }
+      ]
+    },
+    {
       "@id": "kt:organization-wide-defaults",
       "@type": "kto:SecurityControl",
       "skos:prefLabel": "Organization-Wide Defaults",

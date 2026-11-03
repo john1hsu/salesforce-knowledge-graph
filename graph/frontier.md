@@ -4,12 +4,12 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:enterprise-territory-management` | `kt:sales-cloud`, `kt:restriction-rules`, `kt:role-hierarchy`, `kt:sharing-recalculation` |
 | `kt:apex-managed-sharing` | `kt:salesforce-sharing-model`, `kt:sharing-recalculation`, `kt:sharing-rules` |
 | `kt:approval-processes` | `kt:flow-orchestrator`, `kt:process-automation`, `kt:knowledge-base` |
 | `kt:code-analyzer` | `kt:technical-debt-in-salesforce`, `kt:salesforce-cli`, `kt:second-generation-managed-packages` |
 | `kt:event-driven-architecture` | `kt:change-data-capture`, `kt:platform-events`, `kt:pub-sub-api` |
 | `kt:fedramp-high` | `kt:fedramp`, `kt:government-cloud-plus`, `kt:il4-and-il5` |
+| `kt:implicit-sharing` | `kt:enterprise-territory-management`, `kt:role-hierarchy`, `kt:salesforce-sharing-model` |
 | `kt:lightning-web-components` | `kt:screen-flow`, `kt:experience-cloud`, `kt:apex` |
 | `kt:query-optimizer-selectivity` | `kt:soql`, `kt:large-data-volumes`, `kt:multitenancy` |
 | `kt:solution-design-tradeoffs` | `kt:salesforce-architect`, `kt:technical-debt-in-salesforce`, `kt:well-architected-framework` |
@@ -24,8 +24,8 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:external-id-fields` | `kt:data-migration-strategy`, `kt:bulk-api-2` |
 | `kt:external-objects` | `kt:object-relationships`, `kt:restriction-rules` |
 | `kt:flow-trigger-explorer` | `kt:record-triggered-flow`, `kt:order-of-execution` |
+| `kt:group-membership-locking` | `kt:enterprise-territory-management`, `kt:sharing-recalculation` |
 | `kt:headless-identity` | `kt:experience-cloud-identity`, `kt:salesforce-identity` |
-| `kt:implicit-sharing` | `kt:role-hierarchy`, `kt:salesforce-sharing-model` |
 | `kt:integration-security` | `kt:oauth-2-0`, `kt:named-credentials` |
 | `kt:metadata-driven-architecture` | `kt:multitenancy`, `kt:salesforce-platform` |
 | `kt:mulesoft-anypoint-platform` | `kt:flow-orchestrator`, `kt:government-cloud-plus` |
@@ -73,7 +73,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:future-methods` | `kt:asynchronous-apex` |
 | `kt:gdpr-international-transfers` | `kt:data-residency` |
 | `kt:government-cloud` | `kt:government-cloud-plus` |
-| `kt:group-membership-locking` | `kt:sharing-recalculation` |
 | `kt:hyperforce-operating-zones` | `kt:data-residency` |
 | `kt:identity-connect` | `kt:salesforce-identity` |
 | `kt:invocable-actions-api` | `kt:autolaunched-flow` |
