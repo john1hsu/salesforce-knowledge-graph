@@ -1855,6 +1855,100 @@
       ]
     },
     {
+      "@id": "kt:revenue-cloud",
+      "@type": "kto:Product",
+      "skos:prefLabel": "Agentforce Revenue Management",
+      "skos:definition": "Salesforce's product-to-cash suite (formerly Revenue Cloud) that covers product catalog, pricing, configuration, quotes and orders, asset lifecycle, order orchestration, contracts, usage rating and billing on the core platform.",
+      "kto:domain": "clouds-and-products",
+      "dcterms:created": "2026-11-03",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Meet Revenue Lifecycle Management (Revenue Lifecycle Management Foundations)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/revenue-lifecycle-management-foundations/meet-revenue-lifecycle-management",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Explore Revenue Lifecycle Management (Revenue Lifecycle Management Foundations)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/revenue-lifecycle-management-foundations/explore-revenue-lifecycle-management",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Get Started with Revenue Management Developer Resources (Revenue Management Developer Guide)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.revenue_lifecycle_management_dev_guide.meta/revenue_lifecycle_management_dev_guide/rlm_get_started.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Configure Pricing for Products (Revenue Cloud Design)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/revenue-cloud-design/configure-pricing-for-products",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Set Up Your Product Offerings (Revenue Cloud Design)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/revenue-cloud-design/set-up-your-product-offerings",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Navigating the Future of Salesforce CPQ: Product End of Sale (Not End of Life)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/sales/cpq/end-of-life/",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/clouds-and-products/revenue-cloud.md",
+      "skos:altLabel": [
+        "Revenue Cloud",
+        "Revenue Management",
+        "Revenue Lifecycle Management",
+        "Salesforce Revenue Cloud"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-platform"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:sales-cloud"
+        },
+        {
+          "@id": "kt:metadata-api"
+        }
+      ],
+      "kto:replaces": [
+        {
+          "@id": "kt:salesforce-cpq"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:salesforce-pricing"
+        },
+        {
+          "@id": "kt:product-configurator"
+        },
+        {
+          "@id": "kt:dynamic-revenue-orchestrator"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:agentforce"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:revenue-management-consultant-certification"
+        }
+      ]
+    },
+    {
       "@id": "kt:sales-cloud",
       "@type": "kto:Product",
       "skos:prefLabel": "Sales Cloud",
