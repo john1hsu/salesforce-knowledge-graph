@@ -5394,6 +5394,104 @@
       ]
     },
     {
+      "@id": "kt:composite-api",
+      "@type": "kto:API",
+      "skos:prefLabel": "Composite API",
+      "skos:definition": "The family of Salesforce REST API composite resources (Composite, Composite Batch, Composite Graph, sObject Tree and sObject Collections) that bundle several record operations or dependent subrequests into one HTTP call, cutting round trips and, for most of them, API-call consumption.",
+      "kto:domain": "integration",
+      "dcterms:created": "2026-11-03",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Send Multiple Requests Using Composite (REST API Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/api-rest/guide/resources-composite-composite-post.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Composite Request Body (REST API Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api/requests_composite.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Composite Batch (REST API Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/api-rest/guide/resources-composite-batch.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "sObject Tree (REST API Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/api-rest/guide/resources-composite-sobject-tree.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Create Records Using sObject Collections (REST API Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/api-rest/guide/resources-composite-sobjects-collections-create.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Composite Graph Limits (REST API Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/api-rest/guide/resources-composite-graph-limits.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/integration/composite-api.md",
+      "skos:altLabel": [
+        "REST API composite resources",
+        "Composite resource",
+        "Composite Batch",
+        "Composite Graph",
+        "sObject Tree",
+        "sObject Collections"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:rest-api"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:bulk-api-2"
+        },
+        {
+          "@id": "kt:governor-limits"
+        },
+        {
+          "@id": "kt:external-id-fields"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:rest-api"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:bulk-api-2"
+        }
+      ],
+      "kto:queriedWith": [
+        {
+          "@id": "kt:soql"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:api-request-limits"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:integration-architect-certification"
+        }
+      ]
+    },
+    {
       "@id": "kt:named-credentials",
       "@type": "kto:Feature",
       "skos:prefLabel": "Named Credentials",

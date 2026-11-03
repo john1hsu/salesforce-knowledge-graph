@@ -8,9 +8,11 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:batch-apex` | `kt:asynchronous-apex`, `kt:apex-managed-sharing`, `kt:sharing-recalculation` |
 | `kt:code-analyzer` | `kt:technical-debt-in-salesforce`, `kt:salesforce-cli`, `kt:second-generation-managed-packages` |
 | `kt:event-driven-architecture` | `kt:change-data-capture`, `kt:platform-events`, `kt:pub-sub-api` |
+| `kt:external-id-fields` | `kt:data-migration-strategy`, `kt:bulk-api-2`, `kt:composite-api` |
 | `kt:fedramp-high` | `kt:fedramp`, `kt:government-cloud-plus`, `kt:il4-and-il5` |
 | `kt:implicit-sharing` | `kt:enterprise-territory-management`, `kt:role-hierarchy`, `kt:salesforce-sharing-model` |
 | `kt:query-optimizer-selectivity` | `kt:soql`, `kt:large-data-volumes`, `kt:multitenancy` |
+| `kt:rest-api` | `kt:bulk-api-2`, `kt:composite-api`, `kt:composite-api` |
 | `kt:solution-design-tradeoffs` | `kt:salesforce-architect`, `kt:technical-debt-in-salesforce`, `kt:well-architected-framework` |
 | `kt:workflow-rules` | `kt:technical-debt-in-salesforce`, `kt:flow-builder`, `kt:record-triggered-flow` |
 | `kt:application-architect-certification` | `kt:salesforce-architect`, `kt:sharing-and-visibility-architect-certification` |
@@ -19,7 +21,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:dod-cloud-computing-srg` | `kt:fedramp`, `kt:il4-and-il5` |
 | `kt:entitlement-management` | `kt:field-service`, `kt:service-cloud` |
 | `kt:experience-builder` | `kt:experience-cloud`, `kt:experience-cloud-identity` |
-| `kt:external-id-fields` | `kt:data-migration-strategy`, `kt:bulk-api-2` |
 | `kt:external-objects` | `kt:object-relationships`, `kt:restriction-rules` |
 | `kt:flow-trigger-explorer` | `kt:record-triggered-flow`, `kt:order-of-execution` |
 | `kt:group-membership-locking` | `kt:enterprise-territory-management`, `kt:sharing-recalculation` |
@@ -44,6 +45,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:agentforce-dx` | `kt:agent-development-lifecycle` |
 | `kt:agentforce-studio` | `kt:prompt-builder` |
 | `kt:agentforce-testing-center` | `kt:agent-development-lifecycle` |
+| `kt:api-request-limits` | `kt:composite-api` |
 | `kt:atlas-reasoning-engine` | `kt:agentforce` |
 | `kt:aura-components` | `kt:lightning-web-components` |
 | `kt:backup-and-recover` | `kt:archiving-strategy` |
@@ -75,6 +77,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:government-cloud` | `kt:government-cloud-plus` |
 | `kt:hyperforce-operating-zones` | `kt:data-residency` |
 | `kt:identity-connect` | `kt:salesforce-identity` |
+| `kt:integration-architect-certification` | `kt:composite-api` |
 | `kt:invocable-actions-api` | `kt:autolaunched-flow` |
 | `kt:lead-conversion` | `kt:sales-cloud` |
 | `kt:legacy-named-credentials` | `kt:named-credentials` |
@@ -102,7 +105,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:queueable-apex` | `kt:asynchronous-apex` |
 | `kt:recursive-save` | `kt:order-of-execution` |
 | `kt:remote-site-settings` | `kt:named-credentials` |
-| `kt:rest-api` | `kt:bulk-api-2` |
 | `kt:sales-cloud-consultant-certification` | `kt:sales-cloud` |
 | `kt:salesforce-apis` | `kt:bulk-api-2` |
 | `kt:salesforce-archive` | `kt:archiving-strategy` |
