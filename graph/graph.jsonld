@@ -519,6 +519,91 @@
       ]
     },
     {
+      "@id": "kt:testing-strategy",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Testing Strategy",
+      "skos:definition": "The architectural plan for how a Salesforce team verifies changes: which layers of testing (unit, integration, end-to-end, UAT, performance) it runs, in which environments and with what data, and which automated quality gates must pass before a change is promoted to production.",
+      "kto:domain": "architecture-practice",
+      "dcterms:created": "2026-11-03",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Operational Excellence - DevOps Patterns (Salesforce Well-Architected)",
+          "dcterms:publisher": "Salesforce Architects",
+          "schema:url": "https://architect.salesforce.com/docs/architect/well-architected/guide/operational-excellence-devops-patterns.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Test New Features Before a Release",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/advanced-salesforce-release-readiness-strategies/test-new-features-before-a-release",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Testing Best Practices (Apex Developer Guide)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/api/apex_testing_best_practices.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Load Test on the Salesforce Platform Using Scalability Products",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2025/02/load-test-on-the-salesforce-platform-using-scalability-tools",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/architecture-practice/testing-strategy.md",
+      "skos:altLabel": [
+        "Salesforce testing strategy",
+        "test strategy",
+        "Salesforce test plan",
+        "test pyramid for Salesforce"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:application-lifecycle-management"
+        },
+        {
+          "@id": "kt:well-architected-framework"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:environment-strategy"
+        },
+        {
+          "@id": "kt:sandbox-types"
+        },
+        {
+          "@id": "kt:salesforce-cli"
+        },
+        {
+          "@id": "kt:scale-test"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:apex-testing"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:code-analyzer"
+        }
+      ],
+      "kto:mitigates": [
+        {
+          "@id": "kt:governor-limits"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:devops-center"
+        }
+      ]
+    },
+    {
       "@id": "kt:well-architected-framework",
       "@type": "kto:Concept",
       "skos:prefLabel": "Salesforce Well-Architected Framework",

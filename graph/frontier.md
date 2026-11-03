@@ -126,6 +126,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:salesforce-marketing-solutions` | `kt:marketing-cloud-engagement` |
 | `kt:salesforce-optimizer` | `kt:technical-debt-in-salesforce` |
 | `kt:saml-2-0` | `kt:single-sign-on-saml` |
+| `kt:scale-test` | `kt:testing-strategy` |
 | `kt:schema-builder` | `kt:data-architecture` |
 | `kt:scoping-rules` | `kt:restriction-rules` |
 | `kt:security-compliance-frameworks` | `kt:fedramp` |
@@ -140,7 +141,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:streaming-insights` | `kt:calculated-insights` |
 | `kt:tableau` | `kt:einstein-trust-layer` |
 | `kt:test-data-factory` | `kt:apex-testing` |
-| `kt:testing-strategy` | `kt:apex-testing` |
 | `kt:transaction-control` | `kt:record-locking` |
 | `kt:trigger-framework-pattern` | `kt:apex-triggers` |
 | `kt:wcag` | `kt:section-508-accessibility` |
