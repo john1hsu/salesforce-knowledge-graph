@@ -10,7 +10,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:event-driven-architecture` | `kt:change-data-capture`, `kt:platform-events`, `kt:pub-sub-api` |
 | `kt:fedramp-high` | `kt:fedramp`, `kt:government-cloud-plus`, `kt:il4-and-il5` |
 | `kt:implicit-sharing` | `kt:enterprise-territory-management`, `kt:role-hierarchy`, `kt:salesforce-sharing-model` |
-| `kt:lightning-web-components` | `kt:screen-flow`, `kt:experience-cloud`, `kt:apex` |
 | `kt:query-optimizer-selectivity` | `kt:soql`, `kt:large-data-volumes`, `kt:multitenancy` |
 | `kt:solution-design-tradeoffs` | `kt:salesforce-architect`, `kt:technical-debt-in-salesforce`, `kt:well-architected-framework` |
 | `kt:workflow-rules` | `kt:technical-debt-in-salesforce`, `kt:flow-builder`, `kt:record-triggered-flow` |
@@ -27,6 +26,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:group-membership-locking` | `kt:enterprise-territory-management`, `kt:sharing-recalculation` |
 | `kt:headless-identity` | `kt:experience-cloud-identity`, `kt:salesforce-identity` |
 | `kt:integration-security` | `kt:oauth-2-0`, `kt:named-credentials` |
+| `kt:lightning-data-service` | `kt:lightning-web-components`, `kt:lightning-web-components` |
 | `kt:metadata-driven-architecture` | `kt:multitenancy`, `kt:salesforce-platform` |
 | `kt:mulesoft-anypoint-platform` | `kt:flow-orchestrator`, `kt:government-cloud-plus` |
 | `kt:namespace-registry` | `kt:dev-hub`, `kt:second-generation-managed-packages` |
@@ -46,6 +46,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:agentforce-studio` | `kt:prompt-builder` |
 | `kt:agentforce-testing-center` | `kt:agent-development-lifecycle` |
 | `kt:atlas-reasoning-engine` | `kt:agentforce` |
+| `kt:aura-components` | `kt:lightning-web-components` |
 | `kt:backup-and-recover` | `kt:archiving-strategy` |
 | `kt:big-objects` | `kt:archiving-strategy` |
 | `kt:bulk-api-1` | `kt:bulk-api-2` |
@@ -79,6 +80,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:lead-conversion` | `kt:sales-cloud` |
 | `kt:legacy-named-credentials` | `kt:named-credentials` |
 | `kt:lightning-service-console` | `kt:service-cloud` |
+| `kt:lightning-web-security` | `kt:lightning-web-components` |
 | `kt:limit-exception` | `kt:governor-limits` |
 | `kt:limits-class` | `kt:governor-limits` |
 | `kt:managed-event-subscriptions` | `kt:pub-sub-api` |
