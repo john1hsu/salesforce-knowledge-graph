@@ -807,6 +807,32 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/environment-strategy> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-types> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/environment-strategy> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/environment-strategy> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/event-driven-architecture> <http://purl.org/dc/terms/created> "2026-11-03" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/event-driven-architecture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Pattern> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/event-driven-architecture> <http://www.w3.org/2000/01/rdf-schema#label> "Event-Driven Architecture" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/event-driven-architecture> <http://www.w3.org/2004/02/skos/core#altLabel> "EDA" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/event-driven-architecture> <http://www.w3.org/2004/02/skos/core#altLabel> "event-based architecture" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/event-driven-architecture> <http://www.w3.org/2004/02/skos/core#altLabel> "event-driven integration" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/event-driven-architecture> <http://www.w3.org/2004/02/skos/core#altLabel> "publish-subscribe architecture" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/event-driven-architecture> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-patterns> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/event-driven-architecture> <http://www.w3.org/2004/02/skos/core#definition> "An architectural style in which producers publish events describing state changes to a channel or bus and any number of decoupled consumers react to them asynchronously; on Salesforce it is realized mainly through the event bus, platform events, Change Data Capture and the Pub/Sub API." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/event-driven-architecture> <http://www.w3.org/2004/02/skos/core#prefLabel> "Event-Driven Architecture" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/event-driven-architecture> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/change-data-capture> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/event-driven-architecture> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/outbound-messaging> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/event-driven-architecture> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-events> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/event-driven-architecture> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/pub-sub-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/event-driven-architecture> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/well-architected-framework> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/event-driven-architecture> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/event-driven-architecture/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/event-driven-architecture> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/event-driven-architecture/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/event-driven-architecture> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/event-driven-architecture/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/event-driven-architecture> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/event-driven-architecture/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/event-driven-architecture> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/event-driven-architecture/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/event-driven-architecture> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#contrastsWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-patterns-request-reply-fire-and-forget> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/event-driven-architecture> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#coveredBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-architect-certification> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/event-driven-architecture> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "integration" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/event-driven-architecture> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/mulesoft-anypoint-platform> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/event-driven-architecture> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/event-driven-architecture> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/experience-cloud-identity> <http://purl.org/dc/terms/created> "2026-11-02" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/experience-cloud-identity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/experience-cloud-identity> <http://www.w3.org/2000/01/rdf-schema#label> "Experience Cloud Identity" .
@@ -3268,6 +3294,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/environment-strategy/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/environment-strategy/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/environment-strategy/s5> <https://schema.org/url> "https://admin.salesforce.com/blog/2026/admin-winter-27-release-countdown" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/event-driven-architecture/s1> <http://purl.org/dc/terms/publisher> "Salesforce Architects" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/event-driven-architecture/s1> <http://purl.org/dc/terms/title> "Using the Right Tools and Patterns for Event-Driven Architectures" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/event-driven-architecture/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/event-driven-architecture/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/event-driven-architecture/s1> <https://schema.org/url> "https://architect.salesforce.com/decision-guides/event-driven" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/event-driven-architecture/s2> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/event-driven-architecture/s2> <http://purl.org/dc/terms/title> "Event-Driven Software Architecture (Platform Events Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/event-driven-architecture/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/event-driven-architecture/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/event-driven-architecture/s2> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.platform_events.meta/platform_events/platform_events_intro_architecture.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/event-driven-architecture/s3> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/event-driven-architecture/s3> <http://purl.org/dc/terms/title> "Platform Events Basics: Understand Event-Driven Software Architecture" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/event-driven-architecture/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/event-driven-architecture/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/event-driven-architecture/s3> <https://schema.org/url> "https://trailhead.salesforce.com/en/content/learn/modules/platform_events_basics/platform_events_architecture" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/event-driven-architecture/s4> <http://purl.org/dc/terms/publisher> "Salesforce Architects" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/event-driven-architecture/s4> <http://purl.org/dc/terms/title> "Integration Patterns Overview" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/event-driven-architecture/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/event-driven-architecture/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/event-driven-architecture/s4> <https://schema.org/url> "https://architect.salesforce.com/fundamentals/integration-patterns" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/event-driven-architecture/s5> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/event-driven-architecture/s5> <http://purl.org/dc/terms/title> "Create an Event Relay" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/event-driven-architecture/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/event-driven-architecture/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/event-driven-architecture/s5> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=platform.ev_relay_create_ui.htm&language=en_US&type=5" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/experience-cloud-identity/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/experience-cloud-identity/s1> <http://purl.org/dc/terms/title> "Set Up an Experience Cloud Site for Salesforce Customer Identity (Trailhead unit)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/experience-cloud-identity/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

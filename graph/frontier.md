@@ -4,12 +4,12 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:event-driven-architecture` | `kt:change-data-capture`, `kt:outbound-messaging`, `kt:platform-events`, `kt:pub-sub-api` |
 | `kt:workflow-rules` | `kt:technical-debt-in-salesforce`, `kt:flow-builder`, `kt:record-triggered-flow`, `kt:outbound-messaging` |
 | `kt:external-id-fields` | `kt:data-migration-strategy`, `kt:bulk-api-2`, `kt:composite-api` |
 | `kt:fedramp-high` | `kt:fedramp`, `kt:government-cloud-plus`, `kt:il4-and-il5` |
 | `kt:implicit-sharing` | `kt:enterprise-territory-management`, `kt:role-hierarchy`, `kt:salesforce-sharing-model` |
 | `kt:metadata-driven-architecture` | `kt:record-types`, `kt:multitenancy`, `kt:salesforce-platform` |
+| `kt:mulesoft-anypoint-platform` | `kt:flow-orchestrator`, `kt:event-driven-architecture`, `kt:government-cloud-plus` |
 | `kt:query-optimizer-selectivity` | `kt:soql`, `kt:large-data-volumes`, `kt:multitenancy` |
 | `kt:queues` | `kt:approval-processes`, `kt:omni-channel`, `kt:service-cloud` |
 | `kt:rest-api` | `kt:bulk-api-2`, `kt:composite-api`, `kt:composite-api` |
@@ -23,9 +23,9 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:flow-trigger-explorer` | `kt:record-triggered-flow`, `kt:order-of-execution` |
 | `kt:group-membership-locking` | `kt:enterprise-territory-management`, `kt:sharing-recalculation` |
 | `kt:headless-identity` | `kt:experience-cloud-identity`, `kt:salesforce-identity` |
+| `kt:integration-architect-certification` | `kt:composite-api`, `kt:event-driven-architecture` |
 | `kt:integration-security` | `kt:oauth-2-0`, `kt:named-credentials` |
 | `kt:lightning-data-service` | `kt:lightning-web-components`, `kt:lightning-web-components` |
-| `kt:mulesoft-anypoint-platform` | `kt:flow-orchestrator`, `kt:government-cloud-plus` |
 | `kt:namespace-registry` | `kt:dev-hub`, `kt:second-generation-managed-packages` |
 | `kt:orchestration-work-guide` | `kt:approval-processes`, `kt:flow-orchestrator` |
 | `kt:platform-event-allocations` | `kt:platform-events`, `kt:pub-sub-api` |
@@ -83,7 +83,8 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:government-cloud` | `kt:government-cloud-plus` |
 | `kt:hyperforce-operating-zones` | `kt:data-residency` |
 | `kt:identity-connect` | `kt:salesforce-identity` |
-| `kt:integration-architect-certification` | `kt:composite-api` |
+| `kt:integration-patterns` | `kt:event-driven-architecture` |
+| `kt:integration-patterns-request-reply-fire-and-forget` | `kt:event-driven-architecture` |
 | `kt:invocable-actions-api` | `kt:autolaunched-flow` |
 | `kt:journey-builder` | `kt:marketing-cloud-engagement` |
 | `kt:lead-conversion` | `kt:sales-cloud` |

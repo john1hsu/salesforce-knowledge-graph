@@ -6230,6 +6230,92 @@
       ]
     },
     {
+      "@id": "kt:event-driven-architecture",
+      "@type": "kto:Pattern",
+      "skos:prefLabel": "Event-Driven Architecture",
+      "skos:definition": "An architectural style in which producers publish events describing state changes to a channel or bus and any number of decoupled consumers react to them asynchronously; on Salesforce it is realized mainly through the event bus, platform events, Change Data Capture and the Pub/Sub API.",
+      "kto:domain": "integration",
+      "dcterms:created": "2026-11-03",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Using the Right Tools and Patterns for Event-Driven Architectures",
+          "dcterms:publisher": "Salesforce Architects",
+          "schema:url": "https://architect.salesforce.com/decision-guides/event-driven",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Event-Driven Software Architecture (Platform Events Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.platform_events.meta/platform_events/platform_events_intro_architecture.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Platform Events Basics: Understand Event-Driven Software Architecture",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/en/content/learn/modules/platform_events_basics/platform_events_architecture",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Integration Patterns Overview",
+          "dcterms:publisher": "Salesforce Architects",
+          "schema:url": "https://architect.salesforce.com/fundamentals/integration-patterns",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Create an Event Relay",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=platform.ev_relay_create_ui.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/integration/event-driven-architecture.md",
+      "skos:altLabel": [
+        "EDA",
+        "event-driven integration",
+        "event-based architecture",
+        "publish-subscribe architecture"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:integration-patterns"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:platform-events"
+        },
+        {
+          "@id": "kt:change-data-capture"
+        },
+        {
+          "@id": "kt:pub-sub-api"
+        },
+        {
+          "@id": "kt:outbound-messaging"
+        },
+        {
+          "@id": "kt:well-architected-framework"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:integration-patterns-request-reply-fire-and-forget"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:mulesoft-anypoint-platform"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:integration-architect-certification"
+        }
+      ]
+    },
+    {
       "@id": "kt:named-credentials",
       "@type": "kto:Feature",
       "skos:prefLabel": "Named Credentials",
