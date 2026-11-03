@@ -4,7 +4,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:data-cloud-consultant-certification` | `kt:calculated-insights`, `kt:data-model-objects`, `kt:identity-resolution` |
 | `kt:event-driven-architecture` | `kt:change-data-capture`, `kt:platform-events`, `kt:pub-sub-api` |
 | `kt:external-id-fields` | `kt:data-migration-strategy`, `kt:bulk-api-2`, `kt:composite-api` |
 | `kt:fedramp-high` | `kt:fedramp`, `kt:government-cloud-plus`, `kt:il4-and-il5` |
@@ -39,6 +38,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:standard-objects` | `kt:data-model-objects`, `kt:person-accounts` |
 | `kt:system-architect-certification` | `kt:salesforce-architect`, `kt:identity-and-access-management-architect-certification` |
 | `kt:tooling-api` | `kt:source-tracking`, `kt:restriction-rules` |
+| `kt:zero-copy-data-federation` | `kt:data-cloud-consultant-certification`, `kt:data-cloud` |
 | `kt:account-takeover` | `kt:multi-factor-authentication` |
 | `kt:agent-script` | `kt:agentforce` |
 | `kt:agentforce-dx` | `kt:agent-development-lifecycle` |
@@ -117,6 +117,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:sales-cloud-consultant-certification` | `kt:sales-cloud` |
 | `kt:salesforce-apis` | `kt:bulk-api-2` |
 | `kt:salesforce-archive` | `kt:archiving-strategy` |
+| `kt:salesforce-certification-program` | `kt:data-cloud-consultant-certification` |
 | `kt:salesforce-connect` | `kt:named-credentials` |
 | `kt:salesforce-data-mask` | `kt:environment-strategy` |
 | `kt:salesforce-ecosystem-roles` | `kt:salesforce-architect` |
@@ -144,4 +145,3 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:trigger-framework-pattern` | `kt:apex-triggers` |
 | `kt:wcag` | `kt:section-508-accessibility` |
 | `kt:work-orders` | `kt:field-service` |
-| `kt:zero-copy-data-federation` | `kt:data-cloud` |

@@ -2139,6 +2139,86 @@
       ]
     },
     {
+      "@id": "kt:data-cloud-consultant-certification",
+      "@type": "kto:Certification",
+      "skos:prefLabel": "Data 360 Consultant Certification",
+      "skos:definition": "Salesforce's consultant-level credential for professionals who implement and advise on Data 360 (formerly Data Cloud) in customer-facing roles, covering solution positioning, setup, ingestion and modeling, identity resolution, insights and segmentation, and activation.",
+      "kto:domain": "data-cloud-and-ai",
+      "dcterms:created": "2026-11-03",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Data Certification - Salesforce Certified Data 360 Consultant",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/credentials/data360consultant",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Prepare for your Salesforce Data 360 Consultant Certification (trail)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/trails/prepare-for-your-salesforce-data-360-consultant-exam",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Get Started with Salesforce Data Cloud Consultant Certification Prep",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/cert-prep-data-cloud-consultant/get-started-with-salesforce-data-cloud-consultant-certification-prep",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Maintain Your Data 360 Consultant Certification for Winter '26",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/it/content/learn/modules/data-cloud-consultant-certification-maintenance-winter-26/maintain-your-data-cloud-consultant-certification-for-winter-26",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "About Salesforce Data 360",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=data.c360_a_data_cloud.htm&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Salesforce Launches Data Cloud Consultant Certification",
+          "dcterms:publisher": "Salesforce Ben",
+          "schema:url": "https://www.salesforceben.com/salesforce-launches-data-cloud-consultant-certification/",
+          "kto:sourceType": "news"
+        }
+      ],
+      "kto:file": "articles/data-cloud-and-ai/data-cloud-consultant-certification.md",
+      "skos:altLabel": [
+        "Salesforce Certified Data 360 Consultant",
+        "Data Cloud Consultant Certification",
+        "Salesforce Certified Data Cloud Consultant",
+        "Data Cloud Consultant exam"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-certification-program"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:data-cloud"
+        },
+        {
+          "@id": "kt:data-model-objects"
+        },
+        {
+          "@id": "kt:identity-resolution"
+        },
+        {
+          "@id": "kt:calculated-insights"
+        },
+        {
+          "@id": "kt:zero-copy-data-federation"
+        },
+        {
+          "@id": "kt:agentforce"
+        }
+      ]
+    },
+    {
       "@id": "kt:data-cloud",
       "@type": "kto:Product",
       "skos:prefLabel": "Data 360",
