@@ -7359,6 +7359,90 @@
       ]
     },
     {
+      "@id": "kt:fedramp-high",
+      "@type": "kto:ExternalConcept",
+      "skos:prefLabel": "FedRAMP High",
+      "skos:definition": "The most stringent FedRAMP security baseline, for unclassified federal data whose compromise could have a severe or catastrophic effect; built on the NIST SP 800-53 high baseline plus FedRAMP additions, relabelled Class D in 2026, and the level at which Salesforce Government Cloud Plus is authorized.",
+      "kto:domain": "public-sector-and-compliance",
+      "dcterms:created": "2026-11-03",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Understanding Baselines and Impact Levels for FedRAMP Authorizations",
+          "dcterms:publisher": "FedRAMP (GSA)",
+          "schema:url": "https://www.fedramp.gov/rev5/baselines",
+          "kto:sourceType": "government"
+        },
+        {
+          "dcterms:title": "Control Baselines for Information Systems and Organizations: NIST Publishes SP 800-53B",
+          "dcterms:publisher": "NIST Computer Security Resource Center",
+          "schema:url": "https://csrc.nist.gov/news/2020/control-baselines-nist-publishes-sp-800-53b",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "FedRAMP Publishes Draft Rev. 5 Baselines (archived, December 2021)",
+          "dcterms:publisher": "FedRAMP (GSA)",
+          "schema:url": "https://www.fedramp.gov/archive/2021-12-21-FedRAMP-Publishes-Draft-Rev-5-Baselines",
+          "kto:sourceType": "government"
+        },
+        {
+          "dcterms:title": "RFC-0033: 20x Phase 4 Development Tracks for 20x Class D",
+          "dcterms:publisher": "FedRAMP (GSA)",
+          "schema:url": "https://www.fedramp.gov/rfcs/0033/",
+          "kto:sourceType": "government"
+        },
+        {
+          "dcterms:title": "FedRAMP - Salesforce Government Cloud Plus (High)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://compliance.salesforce.com/en/documents/a005A00000t4NpRQAU",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Salesforce Government Cloud",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/government/cloud/",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/public-sector-and-compliance/fedramp-high.md",
+      "skos:altLabel": [
+        "FedRAMP High baseline",
+        "FedRAMP High impact level",
+        "FedRAMP Class D",
+        "Class D certification"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:fedramp"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:government-cloud-plus"
+        },
+        {
+          "@id": "kt:il4-and-il5"
+        },
+        {
+          "@id": "kt:public-sector-solutions"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:fips-199"
+        },
+        {
+          "@id": "kt:nist-sp-800-53"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:dod-cloud-computing-srg"
+        }
+      ]
+    },
+    {
       "@id": "kt:fedramp",
       "@type": "kto:ExternalConcept",
       "skos:prefLabel": "FedRAMP",

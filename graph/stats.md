@@ -1,9 +1,9 @@
 # Graph statistics
 
-- Articles (nodes written): **98**
+- Articles (nodes written): **99**
 - Frontier nodes (referenced, unwritten): **142**
-- Edges: **846**
-- Citations: **527**
+- Edges: **853**
+- Citations: **533**
 
 - Weakly connected components: **1**
 - Isolated articles (no edges): **0**
@@ -12,21 +12,21 @@
 
 | Node | PageRank | Written |
 |---|---|---|
-| `kt:governor-limits` | 0.0160 | yes |
+| `kt:governor-limits` | 0.0159 | yes |
 | `kt:salesforce-platform` | 0.0156 | yes |
 | `kt:flow-builder` | 0.0145 | yes |
-| `kt:apex-triggers` | 0.0144 | yes |
-| `kt:application-lifecycle-management` | 0.0136 | yes |
+| `kt:apex-triggers` | 0.0143 | yes |
+| `kt:application-lifecycle-management` | 0.0135 | yes |
 | `kt:salesforce-sharing-model` | 0.0125 | yes |
-| `kt:sandbox-types` | 0.0124 | yes |
-| `kt:apex` | 0.0117 | yes |
-| `kt:metadata-api` | 0.0108 | yes |
-| `kt:salesforce-cli` | 0.0107 | yes |
-| `kt:scratch-orgs` | 0.0106 | yes |
-| `kt:data-skew` | 0.0104 | yes |
+| `kt:sandbox-types` | 0.0123 | yes |
+| `kt:apex` | 0.0116 | yes |
+| `kt:metadata-api` | 0.0107 | yes |
+| `kt:salesforce-cli` | 0.0106 | yes |
+| `kt:scratch-orgs` | 0.0105 | yes |
+| `kt:data-skew` | 0.0103 | yes |
 | `kt:multitenancy` | 0.0102 | yes |
+| `kt:agentforce` | 0.0096 | yes |
 | `kt:devops-center` | 0.0095 | yes |
-| `kt:change-sets` | 0.0095 | yes |
 
 ## Communities (Louvain): 9
 
@@ -46,7 +46,7 @@
 - AntiPattern: 1
 - Certification: 3
 - Concept: 18
-- ExternalConcept: 4
+- ExternalConcept: 5
 - Feature: 36
 - Language: 2
 - Limit: 1
@@ -68,14 +68,14 @@
 - identity: 11
 - integration: 8
 - platform-architecture: 8
-- public-sector-and-compliance: 6
+- public-sector-and-compliance: 7
 - security-and-sharing: 9
 
 ## By verified release (oldest = most likely stale)
 
-- Winter '27: 98
+- Winter '27: 99
 
 ## By status
 
-- concept: 15
+- concept: 16
 - current: 83

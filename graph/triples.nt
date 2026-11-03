@@ -917,6 +917,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/external-client-apps> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#replaces> <https://github.com/john1hsu/salesforce-knowledge-graph/id/connected-apps> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/external-client-apps> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/external-client-apps> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fedramp-high> <http://purl.org/dc/terms/created> "2026-11-03" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fedramp-high> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#ExternalConcept> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fedramp-high> <http://www.w3.org/2000/01/rdf-schema#label> "FedRAMP High" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fedramp-high> <http://www.w3.org/2004/02/skos/core#altLabel> "Class D certification" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fedramp-high> <http://www.w3.org/2004/02/skos/core#altLabel> "FedRAMP Class D" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fedramp-high> <http://www.w3.org/2004/02/skos/core#altLabel> "FedRAMP High baseline" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fedramp-high> <http://www.w3.org/2004/02/skos/core#altLabel> "FedRAMP High impact level" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fedramp-high> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/fedramp> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fedramp-high> <http://www.w3.org/2004/02/skos/core#definition> "The most stringent FedRAMP security baseline, for unclassified federal data whose compromise could have a severe or catastrophic effect; built on the NIST SP 800-53 high baseline plus FedRAMP additions, relabelled Class D in 2026, and the level at which Salesforce Government Cloud Plus is authorized." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fedramp-high> <http://www.w3.org/2004/02/skos/core#prefLabel> "FedRAMP High" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fedramp-high> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/government-cloud-plus> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fedramp-high> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/il4-and-il5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fedramp-high> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/public-sector-solutions> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fedramp-high> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fedramp-high/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fedramp-high> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fedramp-high/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fedramp-high> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fedramp-high/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fedramp-high> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fedramp-high/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fedramp-high> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fedramp-high/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fedramp-high> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fedramp-high/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fedramp-high> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#contrastsWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/dod-cloud-computing-srg> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fedramp-high> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/fips-199> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fedramp-high> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-53> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fedramp-high> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "public-sector-and-compliance" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fedramp-high> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fedramp-high> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/fedramp> <http://purl.org/dc/terms/created> "2026-11-02" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/fedramp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#ExternalConcept> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/fedramp> <http://www.w3.org/2000/01/rdf-schema#label> "FedRAMP" .
@@ -3409,6 +3434,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-client-apps/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-client-apps/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-client-apps/s6> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.264.0.api_meta.meta/api_meta/meta_extlclntappoauthsettings.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fedramp-high/s1> <http://purl.org/dc/terms/publisher> "FedRAMP (GSA)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fedramp-high/s1> <http://purl.org/dc/terms/title> "Understanding Baselines and Impact Levels for FedRAMP Authorizations" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fedramp-high/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fedramp-high/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fedramp-high/s1> <https://schema.org/url> "https://www.fedramp.gov/rev5/baselines" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fedramp-high/s2> <http://purl.org/dc/terms/publisher> "NIST Computer Security Resource Center" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fedramp-high/s2> <http://purl.org/dc/terms/title> "Control Baselines for Information Systems and Organizations: NIST Publishes SP 800-53B" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fedramp-high/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fedramp-high/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "standards-body" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fedramp-high/s2> <https://schema.org/url> "https://csrc.nist.gov/news/2020/control-baselines-nist-publishes-sp-800-53b" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fedramp-high/s3> <http://purl.org/dc/terms/publisher> "FedRAMP (GSA)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fedramp-high/s3> <http://purl.org/dc/terms/title> "FedRAMP Publishes Draft Rev. 5 Baselines (archived, December 2021)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fedramp-high/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fedramp-high/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fedramp-high/s3> <https://schema.org/url> "https://www.fedramp.gov/archive/2021-12-21-FedRAMP-Publishes-Draft-Rev-5-Baselines" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fedramp-high/s4> <http://purl.org/dc/terms/publisher> "FedRAMP (GSA)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fedramp-high/s4> <http://purl.org/dc/terms/title> "RFC-0033: 20x Phase 4 Development Tracks for 20x Class D" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fedramp-high/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fedramp-high/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fedramp-high/s4> <https://schema.org/url> "https://www.fedramp.gov/rfcs/0033/" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fedramp-high/s5> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fedramp-high/s5> <http://purl.org/dc/terms/title> "FedRAMP - Salesforce Government Cloud Plus (High)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fedramp-high/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fedramp-high/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fedramp-high/s5> <https://schema.org/url> "https://compliance.salesforce.com/en/documents/a005A00000t4NpRQAU" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fedramp-high/s6> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fedramp-high/s6> <http://purl.org/dc/terms/title> "Salesforce Government Cloud" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fedramp-high/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fedramp-high/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fedramp-high/s6> <https://schema.org/url> "https://www.salesforce.com/government/cloud/" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fedramp/s1> <http://purl.org/dc/terms/publisher> "FedRAMP (GSA)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fedramp/s1> <http://purl.org/dc/terms/title> "Understanding Baselines and Impact Levels for FedRAMP Authorizations" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fedramp/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
