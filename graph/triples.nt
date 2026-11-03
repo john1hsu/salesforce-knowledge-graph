@@ -1604,6 +1604,30 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/organization-wide-defaults> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "security-and-sharing" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/organization-wide-defaults> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/organization-wide-defaults> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/outbound-messaging> <http://purl.org/dc/terms/created> "2026-11-03" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/outbound-messaging> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/outbound-messaging> <http://www.w3.org/2000/01/rdf-schema#label> "Outbound Messaging" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/outbound-messaging> <http://www.w3.org/2004/02/skos/core#altLabel> "outbound message action" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/outbound-messaging> <http://www.w3.org/2004/02/skos/core#altLabel> "outbound message" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/outbound-messaging> <http://www.w3.org/2004/02/skos/core#altLabel> "outbound messages" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/outbound-messaging> <http://www.w3.org/2004/02/skos/core#altLabel> "workflow outbound message" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/outbound-messaging> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/event-driven-architecture> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/outbound-messaging> <http://www.w3.org/2004/02/skos/core#definition> "Declarative Salesforce action that sends a SOAP/XML notification containing selected fields of a record to an external endpoint when a flow, workflow rule or approval process fires it, with queued, retried, at-least-once delivery for up to 24 hours." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/outbound-messaging> <http://www.w3.org/2004/02/skos/core#prefLabel> "Outbound Messaging" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/outbound-messaging> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/approval-processes> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/outbound-messaging> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/record-triggered-flow> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/outbound-messaging> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/workflow-rules> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/outbound-messaging> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/outbound-messaging/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/outbound-messaging> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/outbound-messaging/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/outbound-messaging> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/outbound-messaging/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/outbound-messaging> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/outbound-messaging/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/outbound-messaging> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/outbound-messaging/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/outbound-messaging> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#alternativeTo> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-callouts> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/outbound-messaging> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#alternativeTo> <https://github.com/john1hsu/salesforce-knowledge-graph/id/change-data-capture> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/outbound-messaging> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#alternativeTo> <https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-events> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/outbound-messaging> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "integration" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/outbound-messaging> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/outbound-messaging> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/person-accounts> <http://purl.org/dc/terms/created> "2026-11-02" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/person-accounts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/person-accounts> <http://www.w3.org/2000/01/rdf-schema#label> "Person Accounts" .
@@ -4084,6 +4108,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/organization-wide-defaults/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/organization-wide-defaults/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/organization-wide-defaults/s5> <https://schema.org/url> "https://resources.docs.salesforce.com/242/latest/en-us/sfdc/pdf/salesforce_defer_sharing_tipsheet.pdf" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/outbound-messaging/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/outbound-messaging/s1> <http://purl.org/dc/terms/title> "Understanding Notifications (Outbound Messaging)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/outbound-messaging/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/outbound-messaging/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/outbound-messaging/s1> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.api.meta/object_ref/sforce_api_om_outboundmessaging_notifications.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/outbound-messaging/s2> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/outbound-messaging/s2> <http://purl.org/dc/terms/title> "Setting Up Outbound Messaging" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/outbound-messaging/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/outbound-messaging/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/outbound-messaging/s2> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.api.meta/object_ref/sforce_api_om_outboundmessaging_setting_up.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/outbound-messaging/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/outbound-messaging/s3> <http://purl.org/dc/terms/title> "Understanding the Outbound Messaging WSDL" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/outbound-messaging/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/outbound-messaging/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/outbound-messaging/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/api/guide/sforce-api-om-outboundmessaging-wsdl.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/outbound-messaging/s4> <http://purl.org/dc/terms/publisher> "Salesforce Architects" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/outbound-messaging/s4> <http://purl.org/dc/terms/title> "Event-Driven Architecture Decision Guide" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/outbound-messaging/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/outbound-messaging/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/outbound-messaging/s4> <https://schema.org/url> "https://architect.salesforce.com/docs/architect/decision-guides/guide/event-driven" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/outbound-messaging/s5> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/outbound-messaging/s5> <http://purl.org/dc/terms/title> "Use Apex Callouts and Outbound Messages with Heroku" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/outbound-messaging/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/outbound-messaging/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/outbound-messaging/s5> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/salesforce_heroku_integration/callouts_workflow_with_heroku" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/person-accounts/s1> <http://purl.org/dc/terms/publisher> "Salesforce" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/person-accounts/s1> <http://purl.org/dc/terms/title> "Setting Up Person Accounts (implementation guide)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/person-accounts/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

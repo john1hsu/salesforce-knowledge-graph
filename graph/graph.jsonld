@@ -6313,6 +6313,82 @@
       ]
     },
     {
+      "@id": "kt:outbound-messaging",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Outbound Messaging",
+      "skos:definition": "Declarative Salesforce action that sends a SOAP/XML notification containing selected fields of a record to an external endpoint when a flow, workflow rule or approval process fires it, with queued, retried, at-least-once delivery for up to 24 hours.",
+      "kto:domain": "integration",
+      "dcterms:created": "2026-11-03",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Understanding Notifications (Outbound Messaging)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api.meta/object_ref/sforce_api_om_outboundmessaging_notifications.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Setting Up Outbound Messaging",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api.meta/object_ref/sforce_api_om_outboundmessaging_setting_up.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Understanding the Outbound Messaging WSDL",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/api/guide/sforce-api-om-outboundmessaging-wsdl.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Event-Driven Architecture Decision Guide",
+          "dcterms:publisher": "Salesforce Architects",
+          "schema:url": "https://architect.salesforce.com/docs/architect/decision-guides/guide/event-driven",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Use Apex Callouts and Outbound Messages with Heroku",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/salesforce_heroku_integration/callouts_workflow_with_heroku",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/integration/outbound-messaging.md",
+      "skos:altLabel": [
+        "outbound message",
+        "outbound messages",
+        "workflow outbound message",
+        "outbound message action"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:event-driven-architecture"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:record-triggered-flow"
+        },
+        {
+          "@id": "kt:approval-processes"
+        },
+        {
+          "@id": "kt:workflow-rules"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:platform-events"
+        },
+        {
+          "@id": "kt:change-data-capture"
+        },
+        {
+          "@id": "kt:apex-callouts"
+        }
+      ]
+    },
+    {
       "@id": "kt:platform-events",
       "@type": "kto:Feature",
       "skos:prefLabel": "Platform Events",
