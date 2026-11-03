@@ -1492,6 +1492,108 @@
       ]
     },
     {
+      "@id": "kt:marketing-cloud-engagement",
+      "@type": "kto:Product",
+      "skos:prefLabel": "Marketing Cloud Engagement",
+      "skos:definition": "Salesforce's B2C cross-channel marketing platform (formerly ExactTarget), which runs outside the core Salesforce platform and combines Contact Builder data extensions, Email and Mobile Studio messaging, Automation Studio and Journey Builder orchestration, connected to CRM through Marketing Cloud Connect.",
+      "kto:domain": "clouds-and-products",
+      "dcterms:created": "2026-11-03",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Discover Salesforce Marketing Solutions (Salesforce Marketing Cloud Quick Look)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/ko/content/learn/modules/salesforce-marketing-cloud-quick-look/discover-salesforce-marketing-solutions",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Get Started with Journey Builder (Journey Builder Basics)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/en/content/learn/modules/journey-builder-basics/get-started-with-journey-builder",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Learn About Data Extensions (Marketing Cloud Engagement Contact Management)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/en/content/learn/modules/marketing-cloud-contact-management/learn-about-data-extensions",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Explore Synchronized Data Sources (Marketing Cloud Engagement Contact Management)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/marketing-cloud-contact-management/explore-synchronized-data-sources",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Understand Contacts and Contact Model Relationships",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/pt-BR/content/learn/modules/marketing-cloud-contact-management/understand-contacts-and-contact-model-relationships",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Automation Studio and SQL in Marketing Cloud",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2023/02/automation-studio-and-sql-in-marketing-cloud",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Get Started with Marketing Cloud Next Channel Marketing",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/channel-marketing-fundamentals-for-marketing-cloud-next/get-started-with-marketing-cloud-next-channel-marketing",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/clouds-and-products/marketing-cloud-engagement.md",
+      "skos:altLabel": [
+        "ExactTarget",
+        "ExactTarget Marketing Cloud",
+        "Salesforce Marketing Cloud",
+        "SFMC",
+        "MCE"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-marketing-solutions"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:sales-cloud"
+        },
+        {
+          "@id": "kt:service-cloud"
+        },
+        {
+          "@id": "kt:data-cloud"
+        },
+        {
+          "@id": "kt:marketing-cloud-account-engagement"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:journey-builder"
+        },
+        {
+          "@id": "kt:automation-studio"
+        },
+        {
+          "@id": "kt:contact-builder"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:marketing-cloud-connect"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:marketing-cloud-next"
+        }
+      ]
+    },
+    {
       "@id": "kt:omni-channel",
       "@type": "kto:Feature",
       "skos:prefLabel": "Omni-Channel",

@@ -49,6 +49,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:api-request-limits` | `kt:composite-api` |
 | `kt:atlas-reasoning-engine` | `kt:agentforce` |
 | `kt:aura-components` | `kt:lightning-web-components` |
+| `kt:automation-studio` | `kt:marketing-cloud-engagement` |
 | `kt:backup-and-recover` | `kt:archiving-strategy` |
 | `kt:big-objects` | `kt:archiving-strategy` |
 | `kt:bulk-api-1` | `kt:bulk-api-2` |
@@ -57,6 +58,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:certified-technical-architect` | `kt:salesforce-architect` |
 | `kt:change-data-capture-allocations` | `kt:change-data-capture` |
 | `kt:collaborative-forecasts` | `kt:sales-cloud` |
+| `kt:contact-builder` | `kt:marketing-cloud-engagement` |
 | `kt:contacts-to-multiple-accounts` | `kt:person-accounts` |
 | `kt:cta-review-board` | `kt:salesforce-architect` |
 | `kt:custom-domains` | `kt:my-domain` |
@@ -81,6 +83,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:identity-connect` | `kt:salesforce-identity` |
 | `kt:integration-architect-certification` | `kt:composite-api` |
 | `kt:invocable-actions-api` | `kt:autolaunched-flow` |
+| `kt:journey-builder` | `kt:marketing-cloud-engagement` |
 | `kt:lead-conversion` | `kt:sales-cloud` |
 | `kt:legacy-named-credentials` | `kt:named-credentials` |
 | `kt:lightning-service-console` | `kt:service-cloud` |
@@ -88,6 +91,9 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:limit-exception` | `kt:governor-limits` |
 | `kt:limits-class` | `kt:governor-limits` |
 | `kt:managed-event-subscriptions` | `kt:pub-sub-api` |
+| `kt:marketing-cloud-account-engagement` | `kt:marketing-cloud-engagement` |
+| `kt:marketing-cloud-connect` | `kt:marketing-cloud-engagement` |
+| `kt:marketing-cloud-next` | `kt:marketing-cloud-engagement` |
 | `kt:nist-digital-identity-guidelines` | `kt:multi-factor-authentication` |
 | `kt:omni-channel-limits` | `kt:omni-channel` |
 | `kt:omnistudio` | `kt:public-sector-solutions` |
@@ -113,6 +119,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:salesforce-ecosystem-roles` | `kt:salesforce-architect` |
 | `kt:salesforce-go` | `kt:knowledge-base` |
 | `kt:salesforce-industries` | `kt:public-sector-solutions` |
+| `kt:salesforce-marketing-solutions` | `kt:marketing-cloud-engagement` |
 | `kt:salesforce-optimizer` | `kt:technical-debt-in-salesforce` |
 | `kt:saml-2-0` | `kt:single-sign-on-saml` |
 | `kt:schema-builder` | `kt:data-architecture` |
