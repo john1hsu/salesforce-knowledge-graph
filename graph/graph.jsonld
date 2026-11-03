@@ -6896,6 +6896,88 @@
       ]
     },
     {
+      "@id": "kt:section-508-accessibility",
+      "@type": "kto:ExternalConcept",
+      "skos:prefLabel": "Section 508 Accessibility",
+      "skos:definition": "The US federal accessibility requirement (Section 508 of the Rehabilitation Act) that ICT agencies buy, build or use be accessible to people with disabilities; its Revised Standards adopt WCAG 2.0 Level A and AA, and Salesforce evidences conformance through per-product Accessibility Conformance Reports (VPATs).",
+      "kto:domain": "public-sector-and-compliance",
+      "dcterms:created": "2026-11-03",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "About the ICT Accessibility 508 Standards and 255 Guidelines",
+          "dcterms:publisher": "U.S. Access Board",
+          "schema:url": "https://www.access-board.gov/ict/",
+          "kto:sourceType": "government"
+        },
+        {
+          "dcterms:title": "FAR Update Adds Revised 508 Standards",
+          "dcterms:publisher": "Section508.gov (GSA)",
+          "schema:url": "https://section508.gov/blog/far-update-adds-revised-508-standards",
+          "kto:sourceType": "government"
+        },
+        {
+          "dcterms:title": "Product Accessibility Status (508 Accessibility)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://salesforce.com/company/legal/508_accessibility",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Component Accessibility (Lightning Web Components Developer Guide)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/platform/lwc/guide/create-components-accessibility.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Base Components Accessibility (Lightning Web Components Developer Guide)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/platform/lwc/guide/base-components-accessibility.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Accessible Salesforce Customizations: Restructure Page Layouts",
+          "dcterms:publisher": "Salesforce Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/accessible-salesforce-customizations/restructure-page-layouts",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/public-sector-and-compliance/section-508-accessibility.md",
+      "skos:altLabel": [
+        "Section 508",
+        "Revised 508 Standards",
+        "Section 508 compliance",
+        "ICT accessibility standards"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:digital-accessibility"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:public-sector-solutions"
+        },
+        {
+          "@id": "kt:government-cloud-plus"
+        },
+        {
+          "@id": "kt:fedramp"
+        },
+        {
+          "@id": "kt:lightning-web-components"
+        },
+        {
+          "@id": "kt:experience-cloud"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:wcag"
+        }
+      ]
+    },
+    {
       "@id": "kt:apex-managed-sharing",
       "@type": "kto:SecurityControl",
       "skos:prefLabel": "Apex Managed Sharing",

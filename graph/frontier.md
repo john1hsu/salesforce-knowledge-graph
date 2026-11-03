@@ -64,6 +64,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:data-integration` | `kt:bulk-api-2` |
 | `kt:data-loader` | `kt:bulk-api-2` |
 | `kt:data-sovereignty` | `kt:data-residency` |
+| `kt:digital-accessibility` | `kt:section-508-accessibility` |
 | `kt:dispatcher-console` | `kt:field-service` |
 | `kt:duplicate-management` | `kt:identity-resolution` |
 | `kt:external-identity-license` | `kt:experience-cloud-identity` |
@@ -130,5 +131,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:testing-strategy` | `kt:apex-testing` |
 | `kt:transaction-control` | `kt:record-locking` |
 | `kt:trigger-framework-pattern` | `kt:apex-triggers` |
+| `kt:wcag` | `kt:section-508-accessibility` |
 | `kt:work-orders` | `kt:field-service` |
 | `kt:zero-copy-data-federation` | `kt:data-cloud` |
