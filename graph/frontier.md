@@ -4,7 +4,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:approval-processes` | `kt:flow-orchestrator`, `kt:process-automation`, `kt:knowledge-base` |
 | `kt:batch-apex` | `kt:asynchronous-apex`, `kt:apex-managed-sharing`, `kt:sharing-recalculation` |
 | `kt:code-analyzer` | `kt:technical-debt-in-salesforce`, `kt:salesforce-cli`, `kt:second-generation-managed-packages` |
 | `kt:event-driven-architecture` | `kt:change-data-capture`, `kt:platform-events`, `kt:pub-sub-api` |
@@ -12,6 +11,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:fedramp-high` | `kt:fedramp`, `kt:government-cloud-plus`, `kt:il4-and-il5` |
 | `kt:implicit-sharing` | `kt:enterprise-territory-management`, `kt:role-hierarchy`, `kt:salesforce-sharing-model` |
 | `kt:query-optimizer-selectivity` | `kt:soql`, `kt:large-data-volumes`, `kt:multitenancy` |
+| `kt:queues` | `kt:approval-processes`, `kt:omni-channel`, `kt:service-cloud` |
 | `kt:rest-api` | `kt:bulk-api-2`, `kt:composite-api`, `kt:composite-api` |
 | `kt:solution-design-tradeoffs` | `kt:salesforce-architect`, `kt:technical-debt-in-salesforce`, `kt:well-architected-framework` |
 | `kt:workflow-rules` | `kt:technical-debt-in-salesforce`, `kt:flow-builder`, `kt:record-triggered-flow` |
@@ -30,10 +30,10 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:metadata-driven-architecture` | `kt:multitenancy`, `kt:salesforce-platform` |
 | `kt:mulesoft-anypoint-platform` | `kt:flow-orchestrator`, `kt:government-cloud-plus` |
 | `kt:namespace-registry` | `kt:dev-hub`, `kt:second-generation-managed-packages` |
+| `kt:orchestration-work-guide` | `kt:approval-processes`, `kt:flow-orchestrator` |
 | `kt:outbound-messaging` | `kt:change-data-capture`, `kt:platform-events` |
 | `kt:platform-event-allocations` | `kt:platform-events`, `kt:pub-sub-api` |
 | `kt:process-builder` | `kt:flow-builder`, `kt:record-triggered-flow` |
-| `kt:queues` | `kt:omni-channel`, `kt:service-cloud` |
 | `kt:record-types` | `kt:knowledge-base`, `kt:person-accounts` |
 | `kt:salesforce-architecture-center` | `kt:salesforce-architect`, `kt:well-architected-framework` |
 | `kt:sandbox-templates` | `kt:environment-strategy`, `kt:sandbox-types` |
@@ -91,7 +91,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:omnistudio` | `kt:public-sector-solutions` |
 | `kt:openid-connect` | `kt:openid-connect-authentication-providers` |
 | `kt:opportunity-splits` | `kt:sales-cloud` |
-| `kt:orchestration-work-guide` | `kt:flow-orchestrator` |
 | `kt:org-check` | `kt:technical-debt-in-salesforce` |
 | `kt:org-strategy` | `kt:environment-strategy` |
 | `kt:package-xml-manifest` | `kt:metadata-api` |

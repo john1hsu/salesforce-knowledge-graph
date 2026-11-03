@@ -596,6 +596,102 @@
       ]
     },
     {
+      "@id": "kt:approval-processes",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Approval Processes",
+      "skos:definition": "Salesforce automation that routes a record through one or more approval steps, locking it while it is reviewed and running actions on submission, approval, rejection or recall; built either as a classic approval process or as a Flow Approval Process on the orchestration engine.",
+      "kto:domain": "automation",
+      "dcterms:created": "2026-11-03",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Guide to Salesforce Record Approval Processes",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/business_process_automation/approvals",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Considerations for Managing Classic Approval Processes",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=platform.approvals_considerations_manage.htm&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Automate Your Approvals with Flow Approval Processes",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=platform.automate_automated_approvals.htm&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Flow Approval Processes Concepts",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=platform.automate_automated_approvals_concepts.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Considerations for Migrating from Approval Processes",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=platform.automate_automated_approvals_considerations_migrating_from_legacy_approval_processes.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Flow Approval Processes Limits and Considerations",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=platform.automate_automated_approvals_considerations.htm&type=5",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/automation/approval-processes.md",
+      "skos:altLabel": [
+        "approval process",
+        "Classic Approval Processes",
+        "Flow Approval Processes",
+        "flow approval process",
+        "approval orchestration",
+        "Submit for Approval"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:process-automation"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:record-locking"
+        },
+        {
+          "@id": "kt:record-triggered-flow"
+        },
+        {
+          "@id": "kt:autolaunched-flow"
+        },
+        {
+          "@id": "kt:queues"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:flow-builder"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:flow-orchestrator"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:orchestration-work-guide"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:governor-limits"
+        }
+      ]
+    },
+    {
       "@id": "kt:autolaunched-flow",
       "@type": "kto:Feature",
       "skos:prefLabel": "Autolaunched Flow",

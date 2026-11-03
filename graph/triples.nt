@@ -178,6 +178,35 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/application-lifecycle-management> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source-tracking> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/application-lifecycle-management> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/application-lifecycle-management> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/approval-processes> <http://purl.org/dc/terms/created> "2026-11-03" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/approval-processes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/approval-processes> <http://www.w3.org/2000/01/rdf-schema#label> "Approval Processes" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/approval-processes> <http://www.w3.org/2004/02/skos/core#altLabel> "Classic Approval Processes" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/approval-processes> <http://www.w3.org/2004/02/skos/core#altLabel> "Flow Approval Processes" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/approval-processes> <http://www.w3.org/2004/02/skos/core#altLabel> "Submit for Approval" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/approval-processes> <http://www.w3.org/2004/02/skos/core#altLabel> "approval orchestration" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/approval-processes> <http://www.w3.org/2004/02/skos/core#altLabel> "approval process" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/approval-processes> <http://www.w3.org/2004/02/skos/core#altLabel> "flow approval process" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/approval-processes> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/process-automation> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/approval-processes> <http://www.w3.org/2004/02/skos/core#definition> "Salesforce automation that routes a record through one or more approval steps, locking it while it is reviewed and running actions on submission, approval, rejection or recall; built either as a classic approval process or as a Flow Approval Process on the orchestration engine." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/approval-processes> <http://www.w3.org/2004/02/skos/core#prefLabel> "Approval Processes" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/approval-processes> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/autolaunched-flow> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/approval-processes> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/queues> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/approval-processes> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/record-locking> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/approval-processes> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/record-triggered-flow> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/approval-processes> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/approval-processes/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/approval-processes> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/approval-processes/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/approval-processes> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/approval-processes/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/approval-processes> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/approval-processes/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/approval-processes> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/approval-processes/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/approval-processes> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/approval-processes/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/approval-processes> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#alternativeTo> <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-orchestrator> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/approval-processes> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-builder> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/approval-processes> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "automation" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/approval-processes> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#governedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/governor-limits> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/approval-processes> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/orchestration-work-guide> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/approval-processes> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/approval-processes> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/archiving-strategy> <http://purl.org/dc/terms/created> "2026-11-01" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/archiving-strategy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/archiving-strategy> <http://www.w3.org/2000/01/rdf-schema#label> "Archiving Strategy" .
@@ -2378,6 +2407,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/application-lifecycle-management/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/application-lifecycle-management/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/application-lifecycle-management/s6> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/salesforce-well-architected/make-solutions-adaptable" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/approval-processes/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/approval-processes/s1> <http://purl.org/dc/terms/title> "Guide to Salesforce Record Approval Processes" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/approval-processes/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/approval-processes/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/approval-processes/s1> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/business_process_automation/approvals" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/approval-processes/s2> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/approval-processes/s2> <http://purl.org/dc/terms/title> "Considerations for Managing Classic Approval Processes" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/approval-processes/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/approval-processes/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/approval-processes/s2> <https://schema.org/url> "https://help.salesforce.com/s/articleView?language=en_US&id=platform.approvals_considerations_manage.htm&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/approval-processes/s3> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/approval-processes/s3> <http://purl.org/dc/terms/title> "Automate Your Approvals with Flow Approval Processes" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/approval-processes/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/approval-processes/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/approval-processes/s3> <https://schema.org/url> "https://help.salesforce.com/s/articleView?language=en_US&id=platform.automate_automated_approvals.htm&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/approval-processes/s4> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/approval-processes/s4> <http://purl.org/dc/terms/title> "Flow Approval Processes Concepts" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/approval-processes/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/approval-processes/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/approval-processes/s4> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=platform.automate_automated_approvals_concepts.htm&language=en_US&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/approval-processes/s5> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/approval-processes/s5> <http://purl.org/dc/terms/title> "Considerations for Migrating from Approval Processes" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/approval-processes/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/approval-processes/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/approval-processes/s5> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=platform.automate_automated_approvals_considerations_migrating_from_legacy_approval_processes.htm&language=en_US&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/approval-processes/s6> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/approval-processes/s6> <http://purl.org/dc/terms/title> "Flow Approval Processes Limits and Considerations" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/approval-processes/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/approval-processes/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/approval-processes/s6> <https://schema.org/url> "https://help.salesforce.com/s/articleView?language=en_US&id=platform.automate_automated_approvals_considerations.htm&type=5" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/archiving-strategy/s1> <http://purl.org/dc/terms/publisher> "Salesforce" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/archiving-strategy/s1> <http://purl.org/dc/terms/title> "What Is Data Archiving? (Guide to Data Archiving)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/archiving-strategy/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
