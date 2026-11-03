@@ -2045,6 +2045,100 @@
       ]
     },
     {
+      "@id": "kt:calculated-insights",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Calculated Insights",
+      "skos:definition": "SQL-defined, batch-computed metrics in Data 360 (formerly Data Cloud) that aggregate measures over dimensions from data model objects, such as lifetime spend per unified individual, for use in segments, activations and the Query API; streaming insights are their near-real-time, time-windowed counterpart.",
+      "kto:domain": "data-cloud-and-ai",
+      "dcterms:created": "2026-11-03",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Use SQL to Create Insights (Data 360)",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=data.c360_a_create_a_calculated_insights_sql_function.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Data 360 Limits and Guidelines",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=c360_a_calculated_insights_limits.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Query Calculated Insights",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/data/data-cloud-query-guide/references/data-cloud-query-api-reference/c360a-api-ci-call-overview.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Create Insights in Data 360",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/customer-data-platform-insights/create-insights-in-customer-data-platform",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Use Data Insights for Segmentation",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/customer-data-platform-insights/use-insights-in-customer-data-platform",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/data-cloud-and-ai/calculated-insights.md",
+      "skos:altLabel": [
+        "calculated insight",
+        "CI",
+        "Data 360 calculated insights",
+        "Data Cloud calculated insights",
+        "Data 360 insights",
+        "Insights Builder"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:data-cloud"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:identity-resolution"
+        },
+        {
+          "@id": "kt:roll-up-summary-field"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:data-model-objects"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:streaming-insights"
+        }
+      ],
+      "kto:enables": [
+        {
+          "@id": "kt:data-cloud-segmentation"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:data-cloud-limits"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:roll-up-summary-field"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:data-cloud-consultant-certification"
+        }
+      ]
+    },
+    {
       "@id": "kt:data-cloud",
       "@type": "kto:Product",
       "skos:prefLabel": "Data 360",
