@@ -727,6 +727,33 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/devops-center> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-cli> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/devops-center> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/devops-center> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dod-cloud-computing-srg> <http://purl.org/dc/terms/created> "2026-11-03" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dod-cloud-computing-srg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#ExternalConcept> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dod-cloud-computing-srg> <http://www.w3.org/2000/01/rdf-schema#label> "DoD Cloud Computing Security Requirements Guide" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dod-cloud-computing-srg> <http://www.w3.org/2004/02/skos/core#altLabel> "CC SRG" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dod-cloud-computing-srg> <http://www.w3.org/2004/02/skos/core#altLabel> "CSP SRG" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dod-cloud-computing-srg> <http://www.w3.org/2004/02/skos/core#altLabel> "Cloud Computing Mission Owner SRG" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dod-cloud-computing-srg> <http://www.w3.org/2004/02/skos/core#altLabel> "Cloud Service Provider SRG" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dod-cloud-computing-srg> <http://www.w3.org/2004/02/skos/core#altLabel> "DoD Cloud Computing SRG" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dod-cloud-computing-srg> <http://www.w3.org/2004/02/skos/core#altLabel> "DoD cloud SRG" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dod-cloud-computing-srg> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/security-compliance-frameworks> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dod-cloud-computing-srg> <http://www.w3.org/2004/02/skos/core#definition> "DISA's guidance, issued since 2015 and now split into a Cloud Service Provider SRG and a Mission Owner SRG, that defines the DoD impact levels, the FedRAMP+ controls and the provisional authorization process a cloud offering such as Salesforce Government Cloud Plus must pass before DoD components can use it." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dod-cloud-computing-srg> <http://www.w3.org/2004/02/skos/core#prefLabel> "DoD Cloud Computing Security Requirements Guide" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dod-cloud-computing-srg> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-residency> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dod-cloud-computing-srg> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/fedramp-high> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dod-cloud-computing-srg> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/government-cloud-plus> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dod-cloud-computing-srg> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dod-cloud-computing-srg/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dod-cloud-computing-srg> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dod-cloud-computing-srg/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dod-cloud-computing-srg> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dod-cloud-computing-srg/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dod-cloud-computing-srg> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dod-cloud-computing-srg/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dod-cloud-computing-srg> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dod-cloud-computing-srg/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dod-cloud-computing-srg> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dod-cloud-computing-srg/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dod-cloud-computing-srg> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#contrastsWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/fedramp> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dod-cloud-computing-srg> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/fedramp> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dod-cloud-computing-srg> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "public-sector-and-compliance" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dod-cloud-computing-srg> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/il4-and-il5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dod-cloud-computing-srg> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dod-cloud-computing-srg> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/einstein-trust-layer> <http://purl.org/dc/terms/created> "2026-11-01" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/einstein-trust-layer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#SecurityControl> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/einstein-trust-layer> <http://www.w3.org/2000/01/rdf-schema#label> "Einstein Trust Layer" .
@@ -3239,6 +3266,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/devops-center/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/devops-center/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/devops-center/s5> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/devops-center-dev/guide" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dod-cloud-computing-srg/s1> <http://purl.org/dc/terms/publisher> "Defense Information Systems Agency (copy hosted by RMF.org)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dod-cloud-computing-srg/s1> <http://purl.org/dc/terms/title> "Cloud Service Provider Security Requirements Guide, Version 1, Release 2 (30 January 2025)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dod-cloud-computing-srg/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dod-cloud-computing-srg/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dod-cloud-computing-srg/s1> <https://schema.org/url> "https://rmf.org/wp-content/uploads/2025/05/DoD-Cloud-Service-Provider-SRG-Jan-2025.pdf" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dod-cloud-computing-srg/s2> <http://purl.org/dc/terms/publisher> "Defense Information Systems Agency (copy hosted by RMF.org)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dod-cloud-computing-srg/s2> <http://purl.org/dc/terms/title> "Cloud Computing Mission Owner Security Requirements Guide (30 January 2025)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dod-cloud-computing-srg/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dod-cloud-computing-srg/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dod-cloud-computing-srg/s2> <https://schema.org/url> "https://rmf.org/wp-content/uploads/2025/05/DoD-Cloud-Computing-Mission-Owner-SRG-Jan-2025.pdf" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dod-cloud-computing-srg/s3> <http://purl.org/dc/terms/publisher> "Defense Information Systems Agency" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dod-cloud-computing-srg/s3> <http://purl.org/dc/terms/title> "Cloud Computing Security Requirements Guide (DISA Cyber Standards Branch briefing, May 2018)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dod-cloud-computing-srg/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dod-cloud-computing-srg/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dod-cloud-computing-srg/s3> <https://schema.org/url> "https://disa.mil/-/media/Files/DISA/News/Events/Symposium/Cloud-Computing-Security-Requirements-Guide.ashx" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dod-cloud-computing-srg/s4> <http://purl.org/dc/terms/publisher> "ExecutiveGov" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dod-cloud-computing-srg/s4> <http://purl.org/dc/terms/title> "DISA Issues Cloud Computing Security Requirements Guide (June 24, 2024)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dod-cloud-computing-srg/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dod-cloud-computing-srg/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "news" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dod-cloud-computing-srg/s4> <https://schema.org/url> "https://executivegov.com/2024/06/disa-issues-cloud-computing-security-requirements-guide/" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dod-cloud-computing-srg/s5> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dod-cloud-computing-srg/s5> <http://purl.org/dc/terms/title> "DoD IL2 - Salesforce Government Cloud Plus" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dod-cloud-computing-srg/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dod-cloud-computing-srg/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dod-cloud-computing-srg/s5> <https://schema.org/url> "https://compliance.salesforce.com/en/documents/a005A00000szbDpQAI" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dod-cloud-computing-srg/s6> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dod-cloud-computing-srg/s6> <http://purl.org/dc/terms/title> "DoD IL4 - Salesforce Government Cloud Plus Defense" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dod-cloud-computing-srg/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dod-cloud-computing-srg/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dod-cloud-computing-srg/s6> <https://schema.org/url> "https://compliance.salesforce.com/en/documents/a005A00000rU71SQAS" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/einstein-trust-layer/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/einstein-trust-layer/s1> <http://purl.org/dc/terms/title> "Trust Layer (Agentforce Developer Guide)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/einstein-trust-layer/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

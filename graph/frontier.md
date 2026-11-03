@@ -4,7 +4,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:dod-cloud-computing-srg` | `kt:fedramp-high`, `kt:fedramp`, `kt:il4-and-il5` |
 | `kt:external-id-fields` | `kt:data-migration-strategy`, `kt:bulk-api-2`, `kt:composite-api` |
 | `kt:implicit-sharing` | `kt:enterprise-territory-management`, `kt:role-hierarchy`, `kt:salesforce-sharing-model` |
 | `kt:metadata-driven-architecture` | `kt:record-types`, `kt:multitenancy`, `kt:salesforce-platform` |
@@ -33,6 +32,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:salesforce-architecture-center` | `kt:salesforce-architect`, `kt:well-architected-framework` |
 | `kt:sandbox-templates` | `kt:environment-strategy`, `kt:sandbox-types` |
 | `kt:scratch-org-allocations` | `kt:dev-hub`, `kt:scratch-orgs` |
+| `kt:security-compliance-frameworks` | `kt:dod-cloud-computing-srg`, `kt:fedramp` |
 | `kt:standard-objects` | `kt:data-model-objects`, `kt:person-accounts` |
 | `kt:system-architect-certification` | `kt:salesforce-architect`, `kt:identity-and-access-management-architect-certification` |
 | `kt:tooling-api` | `kt:source-tracking`, `kt:restriction-rules` |
@@ -129,7 +129,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:scale-test` | `kt:testing-strategy` |
 | `kt:schema-builder` | `kt:data-architecture` |
 | `kt:scoping-rules` | `kt:restriction-rules` |
-| `kt:security-compliance-frameworks` | `kt:fedramp` |
 | `kt:service-appointments` | `kt:field-service` |
 | `kt:service-setup-assistant` | `kt:service-cloud` |
 | `kt:session-security-levels` | `kt:multi-factor-authentication` |
