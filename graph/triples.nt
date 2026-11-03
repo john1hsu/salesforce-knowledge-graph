@@ -1785,6 +1785,34 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/record-triggered-flow> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#replaces> <https://github.com/john1hsu/salesforce-knowledge-graph/id/workflow-rules> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/record-triggered-flow> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/record-triggered-flow> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/record-types> <http://purl.org/dc/terms/created> "2026-11-03" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/record-types> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/record-types> <http://www.w3.org/2000/01/rdf-schema#label> "Record Types" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/record-types> <http://www.w3.org/2004/02/skos/core#altLabel> "RecordType" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/record-types> <http://www.w3.org/2004/02/skos/core#altLabel> "RecordTypeId" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/record-types> <http://www.w3.org/2004/02/skos/core#altLabel> "master record type" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/record-types> <http://www.w3.org/2004/02/skos/core#altLabel> "record type" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/record-types> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-driven-architecture> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/record-types> <http://www.w3.org/2004/02/skos/core#definition> "An object-level configuration that lets one Salesforce object offer different business processes, picklist values and page layouts to different users, selected per record through the RecordTypeId field." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/record-types> <http://www.w3.org/2004/02/skos/core#prefLabel> "Record Types" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/record-types> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/record-types> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/business-processes> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/record-types> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/page-layouts> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/record-types> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/person-accounts> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/record-types> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-types> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/record-types> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/record-types/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/record-types> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/record-types/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/record-types> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/record-types/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/record-types> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/record-types/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/record-types> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/record-types/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/record-types> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/record-types/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/record-types> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/record-types> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/business-processes> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/record-types> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "data-model" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/record-types> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/soql> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/record-types> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/record-types> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#usedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/person-accounts> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/record-types> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/restriction-rules> <http://purl.org/dc/terms/created> "2026-11-02" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/restriction-rules> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#SecurityControl> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/restriction-rules> <http://www.w3.org/2000/01/rdf-schema#label> "Restriction Rules" .
@@ -4216,6 +4244,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/record-triggered-flow/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/record-triggered-flow/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/record-triggered-flow/s4> <https://schema.org/url> "https://admin.salesforce.com/blog/2022/automate-this-discover-tips-and-best-practices-for-record-triggered-flows" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/record-types/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/record-types/s1> <http://purl.org/dc/terms/title> "Customize a Salesforce Object: Create Record Types" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/record-types/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/record-types/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/record-types/s1> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/projects/customize-a-salesforce-object/create-record-types" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/record-types/s2> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/record-types/s2> <http://purl.org/dc/terms/title> "Limitations for Creating and Updating Record Types and Picklists" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/record-types/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/record-types/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/record-types/s2> <https://schema.org/url> "https://help.salesforce.com/s/articleView?language=en_US&id=sf.recordtypes_picklists_limitations.htm&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/record-types/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/record-types/s3> <http://purl.org/dc/terms/title> "Metadata API Developer Guide: RecordType" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/record-types/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/record-types/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/record-types/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_recordtype.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/record-types/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/record-types/s4> <http://purl.org/dc/terms/title> "Apex Reference Guide: RecordTypeInfo Class" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/record-types/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/record-types/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/record-types/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_class_Schema_RecordTypeInfo.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/record-types/s5> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/record-types/s5> <http://purl.org/dc/terms/title> "Apex Reference Guide: DescribeSObjectResult Class" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/record-types/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/record-types/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/record-types/s5> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_sobject_describe.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/record-types/s6> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/record-types/s6> <http://purl.org/dc/terms/title> "Tips for Referencing Record Types in Formulas" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/record-types/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/record-types/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/record-types/s6> <https://schema.org/url> "https://help.salesforce.com/s/articleView?language=en_US&id=referencing_record_types_in_formulas.htm&type=0" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/restriction-rules/s1> <http://purl.org/dc/terms/publisher> "Salesforce" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/restriction-rules/s1> <http://purl.org/dc/terms/title> "About This Guide (Restriction Rules Developer Guide, Winter '27)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/restriction-rules/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

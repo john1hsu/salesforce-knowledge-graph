@@ -2968,6 +2968,103 @@
       ]
     },
     {
+      "@id": "kt:record-types",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Record Types",
+      "skos:definition": "An object-level configuration that lets one Salesforce object offer different business processes, picklist values and page layouts to different users, selected per record through the RecordTypeId field.",
+      "kto:domain": "data-model",
+      "dcterms:created": "2026-11-03",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Customize a Salesforce Object: Create Record Types",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/projects/customize-a-salesforce-object/create-record-types",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Limitations for Creating and Updating Record Types and Picklists",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=sf.recordtypes_picklists_limitations.htm&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Metadata API Developer Guide: RecordType",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_recordtype.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Apex Reference Guide: RecordTypeInfo Class",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_class_Schema_RecordTypeInfo.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Apex Reference Guide: DescribeSObjectResult Class",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_sobject_describe.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Tips for Referencing Record Types in Formulas",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=referencing_record_types_in_formulas.htm&type=0",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/data-model/record-types.md",
+      "skos:altLabel": [
+        "record type",
+        "RecordType",
+        "RecordTypeId",
+        "master record type"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:metadata-driven-architecture"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:person-accounts"
+        },
+        {
+          "@id": "kt:page-layouts"
+        },
+        {
+          "@id": "kt:business-processes"
+        },
+        {
+          "@id": "kt:apex"
+        },
+        {
+          "@id": "kt:sandbox-types"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:metadata-api"
+        }
+      ],
+      "kto:queriedWith": [
+        {
+          "@id": "kt:soql"
+        }
+      ],
+      "kto:usedBy": [
+        {
+          "@id": "kt:person-accounts"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:business-processes"
+        }
+      ]
+    },
+    {
       "@id": "kt:roll-up-summary-field",
       "@type": "kto:Feature",
       "skos:prefLabel": "Roll-Up Summary Field",
