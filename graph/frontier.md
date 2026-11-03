@@ -4,6 +4,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
+| `kt:calculated-insights` | `kt:data-cloud`, `kt:data-model-objects`, `kt:identity-resolution` |
 | `kt:event-driven-architecture` | `kt:change-data-capture`, `kt:platform-events`, `kt:pub-sub-api` |
 | `kt:external-id-fields` | `kt:data-migration-strategy`, `kt:bulk-api-2`, `kt:composite-api` |
 | `kt:fedramp-high` | `kt:fedramp`, `kt:government-cloud-plus`, `kt:il4-and-il5` |
@@ -14,8 +15,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:solution-design-tradeoffs` | `kt:salesforce-architect`, `kt:technical-debt-in-salesforce`, `kt:well-architected-framework` |
 | `kt:workflow-rules` | `kt:technical-debt-in-salesforce`, `kt:flow-builder`, `kt:record-triggered-flow` |
 | `kt:application-architect-certification` | `kt:salesforce-architect`, `kt:sharing-and-visibility-architect-certification` |
-| `kt:calculated-insights` | `kt:data-cloud`, `kt:identity-resolution` |
-| `kt:data-model-objects` | `kt:data-cloud`, `kt:identity-resolution` |
+| `kt:data-cloud-consultant-certification` | `kt:data-model-objects`, `kt:identity-resolution` |
 | `kt:dod-cloud-computing-srg` | `kt:fedramp`, `kt:il4-and-il5` |
 | `kt:entitlement-management` | `kt:field-service`, `kt:service-cloud` |
 | `kt:experience-builder` | `kt:experience-cloud`, `kt:experience-cloud-identity` |
@@ -37,6 +37,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:salesforce-architecture-center` | `kt:salesforce-architect`, `kt:well-architected-framework` |
 | `kt:sandbox-templates` | `kt:environment-strategy`, `kt:sandbox-types` |
 | `kt:scratch-org-allocations` | `kt:dev-hub`, `kt:scratch-orgs` |
+| `kt:standard-objects` | `kt:data-model-objects`, `kt:person-accounts` |
 | `kt:system-architect-certification` | `kt:salesforce-architect`, `kt:identity-and-access-management-architect-certification` |
 | `kt:tooling-api` | `kt:source-tracking`, `kt:restriction-rules` |
 | `kt:account-takeover` | `kt:multi-factor-authentication` |
@@ -63,8 +64,8 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:cta-review-board` | `kt:salesforce-architect` |
 | `kt:custom-domains` | `kt:my-domain` |
 | `kt:data-categories` | `kt:knowledge-base` |
-| `kt:data-cloud-consultant-certification` | `kt:identity-resolution` |
 | `kt:data-integration` | `kt:bulk-api-2` |
+| `kt:data-lake-objects` | `kt:data-model-objects` |
 | `kt:data-loader` | `kt:bulk-api-2` |
 | `kt:data-sovereignty` | `kt:data-residency` |
 | `kt:digital-accessibility` | `kt:section-508-accessibility` |
@@ -132,7 +133,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:skinny-tables` | `kt:large-data-volumes` |
 | `kt:soql-injection` | `kt:code-analyzer` |
 | `kt:sosl` | `kt:soql` |
-| `kt:standard-objects` | `kt:person-accounts` |
 | `kt:streaming-api` | `kt:pub-sub-api` |
 | `kt:tableau` | `kt:einstein-trust-layer` |
 | `kt:test-data-factory` | `kt:apex-testing` |

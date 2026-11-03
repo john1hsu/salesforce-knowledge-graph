@@ -2124,6 +2124,99 @@
       ]
     },
     {
+      "@id": "kt:data-model-objects",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Data Model Objects",
+      "skos:definition": "The harmonized objects of the Customer 360 Data Model in Data 360 (formerly Data Cloud): standard or custom `__dlm` objects that source data in data lake objects is mapped to, and that identity resolution, insights, segmentation, data graphs and Agentforce read instead of the raw source schemas.",
+      "kto:domain": "data-cloud-and-ai",
+      "dcterms:created": "2026-11-03",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Object Model in Data 360",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/data/data-cloud-dev/guide/dc-object-model.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Model Data in Data 360",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/data/data-cloud-dmo-mapping/guide/c360dm-model-data.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Standard DMOs",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/data/data-cloud-dmo-mapping/guide/c360dm-si-entity-interface-dmos-introduction.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Salesforce Data Cloud Objects (Object Reference)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/object_reference/sforce_api_concepts_data_cloud_objects.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Get to Know Data Model Objects (Customer 360 Data Model for Data Cloud)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/customer-360-data-model-for-customer-data-platform/get-to-know-data-model-objects",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Map Your Data and Define the Data Model",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/customer-360-audiences-data-ingestion-and-modeling/map-your-data-and-define-the-data-model",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/data-cloud-and-ai/data-model-objects.md",
+      "skos:altLabel": [
+        "DMO",
+        "DMOs",
+        "data model object",
+        "Data 360 data model objects",
+        "Data Cloud data model objects",
+        "__dlm objects"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:data-cloud"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:data-architecture"
+        },
+        {
+          "@id": "kt:object-relationships"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:data-lake-objects"
+        }
+      ],
+      "kto:enables": [
+        {
+          "@id": "kt:identity-resolution"
+        },
+        {
+          "@id": "kt:calculated-insights"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:standard-objects"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:data-cloud-consultant-certification"
+        }
+      ]
+    },
+    {
       "@id": "kt:einstein-trust-layer",
       "@type": "kto:SecurityControl",
       "skos:prefLabel": "Einstein Trust Layer",
