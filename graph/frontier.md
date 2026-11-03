@@ -4,12 +4,12 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:workflow-rules` | `kt:technical-debt-in-salesforce`, `kt:flow-builder`, `kt:record-triggered-flow`, `kt:outbound-messaging` |
 | `kt:dod-cloud-computing-srg` | `kt:fedramp-high`, `kt:fedramp`, `kt:il4-and-il5` |
 | `kt:external-id-fields` | `kt:data-migration-strategy`, `kt:bulk-api-2`, `kt:composite-api` |
 | `kt:implicit-sharing` | `kt:enterprise-territory-management`, `kt:role-hierarchy`, `kt:salesforce-sharing-model` |
 | `kt:metadata-driven-architecture` | `kt:record-types`, `kt:multitenancy`, `kt:salesforce-platform` |
 | `kt:mulesoft-anypoint-platform` | `kt:flow-orchestrator`, `kt:event-driven-architecture`, `kt:government-cloud-plus` |
+| `kt:process-builder` | `kt:flow-builder`, `kt:record-triggered-flow`, `kt:workflow-rules` |
 | `kt:query-optimizer-selectivity` | `kt:soql`, `kt:large-data-volumes`, `kt:multitenancy` |
 | `kt:queues` | `kt:approval-processes`, `kt:omni-channel`, `kt:service-cloud` |
 | `kt:rest-api` | `kt:bulk-api-2`, `kt:composite-api`, `kt:composite-api` |
@@ -29,7 +29,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:namespace-registry` | `kt:dev-hub`, `kt:second-generation-managed-packages` |
 | `kt:orchestration-work-guide` | `kt:approval-processes`, `kt:flow-orchestrator` |
 | `kt:platform-event-allocations` | `kt:platform-events`, `kt:pub-sub-api` |
-| `kt:process-builder` | `kt:flow-builder`, `kt:record-triggered-flow` |
 | `kt:queueable-apex` | `kt:asynchronous-apex`, `kt:batch-apex` |
 | `kt:salesforce-architecture-center` | `kt:salesforce-architect`, `kt:well-architected-framework` |
 | `kt:sandbox-templates` | `kt:environment-strategy`, `kt:sandbox-types` |

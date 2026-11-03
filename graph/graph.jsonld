@@ -1212,6 +1212,87 @@
       ]
     },
     {
+      "@id": "kt:workflow-rules",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Workflow Rules",
+      "skos:definition": "Salesforce's original declarative \"if criteria, then actions\" automation, which fires field updates, email alerts, tasks and outbound messages when a record is saved; new rules can no longer be created and the feature has been out of support since December 31, 2025, with record-triggered flows as the migration path.",
+      "kto:domain": "automation",
+      "dcterms:created": "2026-11-03",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "deprecated",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Salesforce Workflow Rules & Process Builder End of Support",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&amp=&id=001096524&amp=&type=1",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Workflow: Automating the Process (cheat sheet)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.salesforce_workflow_cheatsheet.meta/salesforce_workflow_cheatsheet/workflow_cheatsheet.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Migrate Workflows and Processes to Flows: Understand Automation Changes",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/projects/migrate-workflows-and-processes-to-flows/understand-automation-changes",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Go with the Flow: What's Happening with Workflow Rules and Process Builder?",
+          "dcterms:publisher": "Salesforce Admins Blog",
+          "schema:url": "https://admin.salesforce.com/blog/2021/go-with-the-flow-whats-happening-with-workflow-rules-and-process-builder",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/automation/workflow-rules.md",
+      "skos:altLabel": [
+        "workflow rule",
+        "Salesforce Workflow",
+        "time-based workflow",
+        "workflow actions",
+        "time-dependent workflow actions"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:process-automation"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:process-builder"
+        },
+        {
+          "@id": "kt:approval-processes"
+        },
+        {
+          "@id": "kt:outbound-messaging"
+        },
+        {
+          "@id": "kt:order-of-execution"
+        },
+        {
+          "@id": "kt:technical-debt-in-salesforce"
+        }
+      ],
+      "kto:replacedBy": [
+        {
+          "@id": "kt:record-triggered-flow"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:flow-builder"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:approval-processes"
+        }
+      ]
+    },
+    {
       "@id": "kt:experience-cloud",
       "@type": "kto:Product",
       "skos:prefLabel": "Experience Cloud",
