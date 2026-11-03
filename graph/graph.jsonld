@@ -3112,6 +3112,92 @@
       ]
     },
     {
+      "@id": "kt:batch-apex",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Batch Apex",
+      "skos:definition": "An asynchronous Apex mode in which a class implementing Database.Batchable splits a large record set into chunks, each processed in its own transaction with fresh governor limits, coordinated by start, execute and finish methods.",
+      "kto:domain": "development",
+      "dcterms:created": "2026-11-03",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Apex Developer Guide: Use Batch Apex",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_batch_interface.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Apex Developer Guide: Firing Platform Events from Batch Apex",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apex/apex_batch_platformevents.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Apex Developer Guide: Large Data Processing with Cursors and Queueable Apex Versus Batch Apex",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apex/apex_cursors_versus_batch.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Asynchronous Apex: Use Batch Apex",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/asynchronous_apex/async_apex_batch",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/development/batch-apex.md",
+      "skos:altLabel": [
+        "Database.Batchable",
+        "batchable Apex",
+        "Apex batch job"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:asynchronous-apex"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:large-data-volumes"
+        },
+        {
+          "@id": "kt:apex-managed-sharing"
+        },
+        {
+          "@id": "kt:sharing-recalculation"
+        },
+        {
+          "@id": "kt:record-locking"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:governor-limits"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:queueable-apex"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:apex-flex-queue"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:platform-events"
+        }
+      ],
+      "kto:queriedWith": [
+        {
+          "@id": "kt:soql"
+        }
+      ]
+    },
+    {
       "@id": "kt:lightning-web-components",
       "@type": "kto:Feature",
       "skos:prefLabel": "Lightning Web Components",
