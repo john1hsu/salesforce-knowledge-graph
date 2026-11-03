@@ -3655,6 +3655,96 @@
       ]
     },
     {
+      "@id": "kt:code-analyzer",
+      "@type": "kto:Tool",
+      "skos:prefLabel": "Salesforce Code Analyzer",
+      "skos:definition": "Salesforce's unified static-analysis tool that runs PMD, ESLint, RetireJS, CPD, Regex, Flow Scanner and other engines over Apex, Visualforce, Lightning components and Flows from the `sf code-analyzer` CLI commands, VS Code and CI, flagging quality, security and performance issues before deployment.",
+      "kto:domain": "devops-and-alm",
+      "dcterms:created": "2026-11-03",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Salesforce Code Analyzer",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/salesforce-code-analyzer/guide/code-analyzer.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Engines",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/salesforce-code-analyzer/guide/engines.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Elevate Your Team's Code Quality with Salesforce Code Analyzer v5",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2025/07/elevate-your-teams-code-quality-with-salesforce-code-analyzer-v5",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Salesforce CLI Command Reference: code-analyzer run",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/salesforce-cli-reference/guide/cli_reference_code-analyzer_run.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Produce Code Analyzer Reports for AppExchange Security Review",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/salesforce-code-analyzer/guide/appexchange.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/devops-and-alm/code-analyzer.md",
+      "skos:altLabel": [
+        "Code Analyzer",
+        "Code Analyzer v5",
+        "sf code-analyzer",
+        "Salesforce Code Scanner",
+        "plugin-code-analyzer"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:application-lifecycle-management"
+        },
+        {
+          "@id": "kt:salesforce-dx"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:technical-debt-in-salesforce"
+        },
+        {
+          "@id": "kt:second-generation-managed-packages"
+        },
+        {
+          "@id": "kt:apex"
+        },
+        {
+          "@id": "kt:lightning-web-components"
+        },
+        {
+          "@id": "kt:flow-builder"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:salesforce-cli"
+        }
+      ],
+      "kto:enables": [
+        {
+          "@id": "kt:appexchange-security-review"
+        }
+      ],
+      "kto:mitigates": [
+        {
+          "@id": "kt:soql-injection"
+        }
+      ]
+    },
+    {
       "@id": "kt:dev-hub",
       "@type": "kto:Feature",
       "skos:prefLabel": "Dev Hub",

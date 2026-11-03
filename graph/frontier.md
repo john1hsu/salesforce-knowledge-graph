@@ -4,7 +4,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:code-analyzer` | `kt:technical-debt-in-salesforce`, `kt:salesforce-cli`, `kt:second-generation-managed-packages` |
 | `kt:event-driven-architecture` | `kt:change-data-capture`, `kt:platform-events`, `kt:pub-sub-api` |
 | `kt:external-id-fields` | `kt:data-migration-strategy`, `kt:bulk-api-2`, `kt:composite-api` |
 | `kt:fedramp-high` | `kt:fedramp`, `kt:government-cloud-plus`, `kt:il4-and-il5` |
@@ -47,6 +46,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:agentforce-testing-center` | `kt:agent-development-lifecycle` |
 | `kt:apex-flex-queue` | `kt:batch-apex` |
 | `kt:api-request-limits` | `kt:composite-api` |
+| `kt:appexchange-security-review` | `kt:code-analyzer` |
 | `kt:atlas-reasoning-engine` | `kt:agentforce` |
 | `kt:aura-components` | `kt:lightning-web-components` |
 | `kt:automation-studio` | `kt:marketing-cloud-engagement` |
@@ -130,6 +130,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:session-security-levels` | `kt:multi-factor-authentication` |
 | `kt:skills-based-routing` | `kt:omni-channel` |
 | `kt:skinny-tables` | `kt:large-data-volumes` |
+| `kt:soql-injection` | `kt:code-analyzer` |
 | `kt:sosl` | `kt:soql` |
 | `kt:standard-objects` | `kt:person-accounts` |
 | `kt:streaming-api` | `kt:pub-sub-api` |
