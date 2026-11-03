@@ -16,6 +16,8 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:workflow-rules` | `kt:technical-debt-in-salesforce`, `kt:flow-builder`, `kt:record-triggered-flow` |
 | `kt:application-architect-certification` | `kt:salesforce-architect`, `kt:sharing-and-visibility-architect-certification` |
 | `kt:batch-apex` | `kt:asynchronous-apex`, `kt:sharing-recalculation` |
+| `kt:calculated-insights` | `kt:data-cloud`, `kt:identity-resolution` |
+| `kt:data-model-objects` | `kt:data-cloud`, `kt:identity-resolution` |
 | `kt:dod-cloud-computing-srg` | `kt:fedramp`, `kt:il4-and-il5` |
 | `kt:entitlement-management` | `kt:field-service`, `kt:service-cloud` |
 | `kt:experience-builder` | `kt:experience-cloud`, `kt:experience-cloud-identity` |
@@ -49,7 +51,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:bulk-api-1` | `kt:bulk-api-2` |
 | `kt:bulk-api-allocations` | `kt:bulk-api-2` |
 | `kt:business-rules-engine` | `kt:public-sector-solutions` |
-| `kt:calculated-insights` | `kt:data-cloud` |
 | `kt:certified-technical-architect` | `kt:salesforce-architect` |
 | `kt:change-data-capture-allocations` | `kt:change-data-capture` |
 | `kt:collaborative-forecasts` | `kt:sales-cloud` |
@@ -57,11 +58,12 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:cta-review-board` | `kt:salesforce-architect` |
 | `kt:custom-domains` | `kt:my-domain` |
 | `kt:data-categories` | `kt:knowledge-base` |
+| `kt:data-cloud-consultant-certification` | `kt:identity-resolution` |
 | `kt:data-integration` | `kt:bulk-api-2` |
 | `kt:data-loader` | `kt:bulk-api-2` |
-| `kt:data-model-objects` | `kt:data-cloud` |
 | `kt:data-sovereignty` | `kt:data-residency` |
 | `kt:dispatcher-console` | `kt:field-service` |
+| `kt:duplicate-management` | `kt:identity-resolution` |
 | `kt:external-identity-license` | `kt:experience-cloud-identity` |
 | `kt:field-service-mobile-app` | `kt:field-service` |
 | `kt:field-service-scheduling-policies` | `kt:field-service` |
@@ -74,7 +76,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:group-membership-locking` | `kt:sharing-recalculation` |
 | `kt:hyperforce-operating-zones` | `kt:data-residency` |
 | `kt:identity-connect` | `kt:salesforce-identity` |
-| `kt:identity-resolution` | `kt:data-cloud` |
 | `kt:invocable-actions-api` | `kt:autolaunched-flow` |
 | `kt:lead-conversion` | `kt:sales-cloud` |
 | `kt:legacy-named-credentials` | `kt:named-credentials` |

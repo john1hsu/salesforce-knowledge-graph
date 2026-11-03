@@ -2006,6 +2006,94 @@
       ]
     },
     {
+      "@id": "kt:identity-resolution",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Identity Resolution",
+      "skos:definition": "The Data 360 (formerly Data Cloud) feature that applies rulesets of match rules and reconciliation rules to source Individual or Account records, linking records that describe the same person or business into unified profiles that feed segmentation, activation, calculated insights and Agentforce.",
+      "kto:domain": "data-cloud-and-ai",
+      "dcterms:created": "2026-11-03",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Identity Resolution Terminology",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/apex/HTViewHelpDoc?id=data.c360_a_identity_resolution_terms.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Identity Resolution Match Rule Terminology",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/apex/HTViewHelpDoc?id=data.c360_a_identity_resolution_match_rule_terms.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Configure Identity Resolution Rulesets (Data and Identity in Data Cloud)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/data-and-identity-in-salesforce-cdp/configure-identity-resolution-rules",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Unify Your Data (Explore Data Cloud Core Functionality)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/projects/explore-data-cloud-core-functionality/unify-your-data",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Data Cloud and Identity Resolution",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2024/10/data-cloud-and-identity-resolution",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Real-Time Identity Resolution",
+          "dcterms:publisher": "Salesforce Blog",
+          "schema:url": "https://www.salesforce.com/blog/real-time-identity-resolution/",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/data-cloud-and-ai/identity-resolution.md",
+      "skos:altLabel": [
+        "Data 360 identity resolution",
+        "Data Cloud identity resolution",
+        "identity resolution ruleset",
+        "profile unification"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:data-cloud"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:data-architecture"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:data-model-objects"
+        }
+      ],
+      "kto:enables": [
+        {
+          "@id": "kt:calculated-insights"
+        },
+        {
+          "@id": "kt:agentforce"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:duplicate-management"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:data-cloud-consultant-certification"
+        }
+      ]
+    },
+    {
       "@id": "kt:prompt-builder",
       "@type": "kto:Tool",
       "skos:prefLabel": "Prompt Builder",
