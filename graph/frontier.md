@@ -4,18 +4,18 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:sharing-recalculation` | `kt:data-skew`, `kt:organization-wide-defaults`, `kt:role-hierarchy`, `kt:sharing-and-visibility-architect-certification`, `kt:sharing-rules` |
+| `kt:enterprise-territory-management` | `kt:sales-cloud`, `kt:restriction-rules`, `kt:role-hierarchy`, `kt:sharing-recalculation` |
+| `kt:apex-managed-sharing` | `kt:salesforce-sharing-model`, `kt:sharing-recalculation`, `kt:sharing-rules` |
 | `kt:approval-processes` | `kt:flow-orchestrator`, `kt:process-automation`, `kt:knowledge-base` |
 | `kt:code-analyzer` | `kt:technical-debt-in-salesforce`, `kt:salesforce-cli`, `kt:second-generation-managed-packages` |
-| `kt:enterprise-territory-management` | `kt:sales-cloud`, `kt:restriction-rules`, `kt:role-hierarchy` |
 | `kt:event-driven-architecture` | `kt:change-data-capture`, `kt:platform-events`, `kt:pub-sub-api` |
 | `kt:fedramp-high` | `kt:fedramp`, `kt:government-cloud-plus`, `kt:il4-and-il5` |
 | `kt:lightning-web-components` | `kt:screen-flow`, `kt:experience-cloud`, `kt:apex` |
 | `kt:query-optimizer-selectivity` | `kt:soql`, `kt:large-data-volumes`, `kt:multitenancy` |
 | `kt:solution-design-tradeoffs` | `kt:salesforce-architect`, `kt:technical-debt-in-salesforce`, `kt:well-architected-framework` |
 | `kt:workflow-rules` | `kt:technical-debt-in-salesforce`, `kt:flow-builder`, `kt:record-triggered-flow` |
-| `kt:apex-managed-sharing` | `kt:salesforce-sharing-model`, `kt:sharing-rules` |
 | `kt:application-architect-certification` | `kt:salesforce-architect`, `kt:sharing-and-visibility-architect-certification` |
+| `kt:batch-apex` | `kt:asynchronous-apex`, `kt:sharing-recalculation` |
 | `kt:dod-cloud-computing-srg` | `kt:fedramp`, `kt:il4-and-il5` |
 | `kt:entitlement-management` | `kt:field-service`, `kt:service-cloud` |
 | `kt:experience-builder` | `kt:experience-cloud`, `kt:experience-cloud-identity` |
@@ -45,7 +45,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:agentforce-testing-center` | `kt:agent-development-lifecycle` |
 | `kt:atlas-reasoning-engine` | `kt:agentforce` |
 | `kt:backup-and-recover` | `kt:archiving-strategy` |
-| `kt:batch-apex` | `kt:asynchronous-apex` |
 | `kt:big-objects` | `kt:archiving-strategy` |
 | `kt:bulk-api-1` | `kt:bulk-api-2` |
 | `kt:bulk-api-allocations` | `kt:bulk-api-2` |
@@ -72,6 +71,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:future-methods` | `kt:asynchronous-apex` |
 | `kt:gdpr-international-transfers` | `kt:data-residency` |
 | `kt:government-cloud` | `kt:government-cloud-plus` |
+| `kt:group-membership-locking` | `kt:sharing-recalculation` |
 | `kt:hyperforce-operating-zones` | `kt:data-residency` |
 | `kt:identity-connect` | `kt:salesforce-identity` |
 | `kt:identity-resolution` | `kt:data-cloud` |

@@ -6931,6 +6931,101 @@
       ]
     },
     {
+      "@id": "kt:sharing-recalculation",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Sharing Recalculation",
+      "skos:definition": "The background work Salesforce performs to rebuild record access after changes to org-wide defaults, sharing rules, roles, territories, groups or ownership; covers sharing rule and group membership calculation, Apex managed sharing recalculation, and the Defer Sharing Calculations tool used for large realignments.",
+      "kto:domain": "security-and-sharing",
+      "dcterms:created": "2026-11-03",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Deferred Sharing Calculations (Designing Record Access for Enterprise Scale, Winter '27)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.264.0.draes.meta/draes/draes_tools_deferred_sharing_maintenance.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Group Membership Locking (Designing Record Access for Enterprise Scale, Winter '27)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.264.0.draes.meta/draes/draes_group_membership_locking.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Recalculating Apex Managed Sharing (Apex Developer Guide, Winter '27)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.264.0.apexcode.meta/pages/apex_bulk_sharing_recalc.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Defer Sharing Calculation (Best Practices for Deployments with Large Data Volumes)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/platform/salesforce-large-data-volumes-bp/guide/ldv-deployments-techniques-deferred-sharing-calculation.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Defer Sharing Calculations tip sheet (Winter '23 edition, PDF)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://resources.docs.salesforce.com/242/latest/en-us/sfdc/pdf/salesforce_defer_sharing_tipsheet.pdf",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/security-and-sharing/sharing-recalculation.md",
+      "skos:altLabel": [
+        "sharing rule recalculation",
+        "group membership calculation",
+        "deferred sharing calculations",
+        "defer sharing calculation",
+        "Apex sharing recalculation"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-sharing-model"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:sharing-rules"
+        },
+        {
+          "@id": "kt:organization-wide-defaults"
+        },
+        {
+          "@id": "kt:role-hierarchy"
+        },
+        {
+          "@id": "kt:data-skew"
+        },
+        {
+          "@id": "kt:enterprise-territory-management"
+        },
+        {
+          "@id": "kt:large-data-volumes"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:batch-apex"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:apex-managed-sharing"
+        }
+      ],
+      "kto:causes": [
+        {
+          "@id": "kt:group-membership-locking"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:sharing-and-visibility-architect-certification"
+        }
+      ]
+    },
+    {
       "@id": "kt:sharing-rules",
       "@type": "kto:SecurityControl",
       "skos:prefLabel": "Sharing Rules",

@@ -1911,6 +1911,35 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-and-visibility-architect-certification> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#partOf> <https://github.com/john1hsu/salesforce-knowledge-graph/id/application-architect-certification> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-and-visibility-architect-certification> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-and-visibility-architect-certification> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-recalculation> <http://purl.org/dc/terms/created> "2026-11-03" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-recalculation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-recalculation> <http://www.w3.org/2000/01/rdf-schema#label> "Sharing Recalculation" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-recalculation> <http://www.w3.org/2004/02/skos/core#altLabel> "Apex sharing recalculation" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-recalculation> <http://www.w3.org/2004/02/skos/core#altLabel> "defer sharing calculation" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-recalculation> <http://www.w3.org/2004/02/skos/core#altLabel> "deferred sharing calculations" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-recalculation> <http://www.w3.org/2004/02/skos/core#altLabel> "group membership calculation" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-recalculation> <http://www.w3.org/2004/02/skos/core#altLabel> "sharing rule recalculation" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-recalculation> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-sharing-model> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-recalculation> <http://www.w3.org/2004/02/skos/core#definition> "The background work Salesforce performs to rebuild record access after changes to org-wide defaults, sharing rules, roles, territories, groups or ownership; covers sharing rule and group membership calculation, Apex managed sharing recalculation, and the Defer Sharing Calculations tool used for large realignments." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-recalculation> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sharing Recalculation" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-recalculation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-skew> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-recalculation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/enterprise-territory-management> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-recalculation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/large-data-volumes> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-recalculation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/organization-wide-defaults> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-recalculation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/role-hierarchy> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-recalculation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-rules> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-recalculation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-recalculation/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-recalculation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-recalculation/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-recalculation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-recalculation/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-recalculation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-recalculation/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-recalculation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-recalculation/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-recalculation> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#alternativeTo> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-managed-sharing> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-recalculation> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#causes> <https://github.com/john1hsu/salesforce-knowledge-graph/id/group-membership-locking> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-recalculation> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#coveredBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-and-visibility-architect-certification> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-recalculation> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/batch-apex> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-recalculation> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "security-and-sharing" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-recalculation> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-recalculation> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-rules> <http://purl.org/dc/terms/created> "2026-11-02" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-rules> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#SecurityControl> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-rules> <http://www.w3.org/2000/01/rdf-schema#label> "Sharing Rules" .
@@ -3991,6 +4020,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-and-visibility-architect-certification/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-and-visibility-architect-certification/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-and-visibility-architect-certification/s6> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/draes/guide/draes-introduction.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-recalculation/s1> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-recalculation/s1> <http://purl.org/dc/terms/title> "Deferred Sharing Calculations (Designing Record Access for Enterprise Scale, Winter '27)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-recalculation/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-recalculation/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-recalculation/s1> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.264.0.draes.meta/draes/draes_tools_deferred_sharing_maintenance.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-recalculation/s2> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-recalculation/s2> <http://purl.org/dc/terms/title> "Group Membership Locking (Designing Record Access for Enterprise Scale, Winter '27)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-recalculation/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-recalculation/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-recalculation/s2> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.264.0.draes.meta/draes/draes_group_membership_locking.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-recalculation/s3> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-recalculation/s3> <http://purl.org/dc/terms/title> "Recalculating Apex Managed Sharing (Apex Developer Guide, Winter '27)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-recalculation/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-recalculation/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-recalculation/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.264.0.apexcode.meta/pages/apex_bulk_sharing_recalc.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-recalculation/s4> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-recalculation/s4> <http://purl.org/dc/terms/title> "Defer Sharing Calculation (Best Practices for Deployments with Large Data Volumes)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-recalculation/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-recalculation/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-recalculation/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/salesforce-large-data-volumes-bp/guide/ldv-deployments-techniques-deferred-sharing-calculation.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-recalculation/s5> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-recalculation/s5> <http://purl.org/dc/terms/title> "Defer Sharing Calculations tip sheet (Winter '23 edition, PDF)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-recalculation/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-recalculation/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-recalculation/s5> <https://schema.org/url> "https://resources.docs.salesforce.com/242/latest/en-us/sfdc/pdf/salesforce_defer_sharing_tipsheet.pdf" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-rules/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-rules/s1> <http://purl.org/dc/terms/title> "Create Sharing Rules (Data Security module)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-rules/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
