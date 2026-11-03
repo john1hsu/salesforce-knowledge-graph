@@ -17,6 +17,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:apex-managed-sharing` | `kt:salesforce-sharing-model`, `kt:sharing-rules` |
 | `kt:application-architect-certification` | `kt:salesforce-architect`, `kt:sharing-and-visibility-architect-certification` |
 | `kt:dod-cloud-computing-srg` | `kt:fedramp`, `kt:il4-and-il5` |
+| `kt:entitlement-management` | `kt:field-service`, `kt:service-cloud` |
 | `kt:experience-builder` | `kt:experience-cloud`, `kt:experience-cloud-identity` |
 | `kt:external-id-fields` | `kt:data-migration-strategy`, `kt:bulk-api-2` |
 | `kt:external-objects` | `kt:object-relationships`, `kt:restriction-rules` |
@@ -61,8 +62,10 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:data-loader` | `kt:bulk-api-2` |
 | `kt:data-model-objects` | `kt:data-cloud` |
 | `kt:data-sovereignty` | `kt:data-residency` |
-| `kt:entitlement-management` | `kt:service-cloud` |
+| `kt:dispatcher-console` | `kt:field-service` |
 | `kt:external-identity-license` | `kt:experience-cloud-identity` |
+| `kt:field-service-mobile-app` | `kt:field-service` |
+| `kt:field-service-scheduling-policies` | `kt:field-service` |
 | `kt:financial-services-cloud` | `kt:person-accounts` |
 | `kt:fips-199` | `kt:fedramp` |
 | `kt:first-generation-managed-packages` | `kt:second-generation-managed-packages` |
@@ -112,6 +115,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:schema-builder` | `kt:data-architecture` |
 | `kt:scoping-rules` | `kt:restriction-rules` |
 | `kt:security-compliance-frameworks` | `kt:fedramp` |
+| `kt:service-appointments` | `kt:field-service` |
 | `kt:service-setup-assistant` | `kt:service-cloud` |
 | `kt:session-security-levels` | `kt:multi-factor-authentication` |
 | `kt:skills-based-routing` | `kt:omni-channel` |
@@ -124,4 +128,5 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:testing-strategy` | `kt:apex-testing` |
 | `kt:transaction-control` | `kt:record-locking` |
 | `kt:trigger-framework-pattern` | `kt:apex-triggers` |
+| `kt:work-orders` | `kt:field-service` |
 | `kt:zero-copy-data-federation` | `kt:data-cloud` |

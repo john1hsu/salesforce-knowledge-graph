@@ -667,6 +667,35 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/fedramp> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/fedramp-high> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/fedramp> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/fedramp> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-service> <http://purl.org/dc/terms/created> "2026-11-03" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-service> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Product> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-service> <http://www.w3.org/2000/01/rdf-schema#label> "Field Service" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-service> <http://www.w3.org/2004/02/skos/core#altLabel> "FSL" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-service> <http://www.w3.org/2004/02/skos/core#altLabel> "Field Service Lightning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-service> <http://www.w3.org/2004/02/skos/core#altLabel> "Field Service and Operations" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-service> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce Field Service" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-service> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-platform> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-service> <http://www.w3.org/2004/02/skos/core#definition> "Salesforce's product for planning, scheduling and executing on-site work, built on work orders, service appointments, service resources and service territories, with a scheduling and optimization engine, a dispatcher console and a mobile app for technicians." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-service> <http://www.w3.org/2004/02/skos/core#prefLabel> "Field Service" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-service> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/entitlement-management> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-service> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/my-domain> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-service> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/omni-channel> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-service> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/service-cloud> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-service> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-service/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-service> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-service/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-service> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-service/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-service> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-service/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-service> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-service/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-service> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-service/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-service> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "clouds-and-products" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-service> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/dispatcher-console> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-service> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/field-service-mobile-app> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-service> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/field-service-scheduling-policies> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-service> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/service-appointments> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-service> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/work-orders> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-service> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/service-cloud> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-service> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-service> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-builder> <http://purl.org/dc/terms/created> "2026-10-30" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-builder> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Tool> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-builder> <http://www.w3.org/2000/01/rdf-schema#label> "Flow Builder" .
@@ -1838,6 +1867,7 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/service-cloud> <http://www.w3.org/2004/02/skos/core#definition> "Salesforce's customer service product, now marketed as Agentforce Service, built around the Case object, the Lightning Service Console, multichannel intake and routing, knowledge, and SLA tracking, with AI agents working beside human reps." .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/service-cloud> <http://www.w3.org/2004/02/skos/core#prefLabel> "Service Cloud" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/service-cloud> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/experience-cloud> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/service-cloud> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/field-service> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/service-cloud> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-builder> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/service-cloud> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/knowledge-base> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/service-cloud> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/queues> .
@@ -2681,6 +2711,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fedramp/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fedramp/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fedramp/s6> <https://schema.org/url> "https://www.salesforce.com/fedramp/" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-service/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-service/s1> <http://purl.org/dc/terms/title> "Field Service Basics: Enable Field Service and Create Service Territories (Trailhead unit)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-service/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-service/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-service/s1> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/field_service_basics/field_service_basics_enable" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-service/s2> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-service/s2> <http://purl.org/dc/terms/title> "Field Service Basics: Set Up Users, Service Resources and Dispatchers (Trailhead unit)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-service/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-service/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-service/s2> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/field_service_basics/field_service_basics_set" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-service/s3> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-service/s3> <http://purl.org/dc/terms/title> "Field Service Core Data Model (Field Service Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-service/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-service/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-service/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.field_service_dev.meta/field_service_dev/fsl_dev_soap_core.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-service/s4> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-service/s4> <http://purl.org/dc/terms/title> "Explore Scheduling (Field Service Scheduling Basics, Trailhead unit)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-service/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-service/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-service/s4> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/field-service-lightning-scheduling-basics/explore-scheduling" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-service/s5> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-service/s5> <http://purl.org/dc/terms/title> "Explore Optimization (Field Service Optimization, Trailhead unit)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-service/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-service/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-service/s5> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/field-service-lightning-optimization/explore-optimization" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-service/s6> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-service/s6> <http://purl.org/dc/terms/title> "Work from Anywhere (Field Service Mobile, Trailhead unit)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-service/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-service/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-service/s6> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/field-service-mobile/work-from-anywhere" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-builder/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-builder/s1> <http://purl.org/dc/terms/title> "Flow Basics: Meet Flow Builder" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-builder/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

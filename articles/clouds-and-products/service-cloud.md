@@ -10,7 +10,7 @@ summary: >-
 release: "Winter '27"
 status: current
 broader: [kt:salesforce-platform]
-related: [kt:experience-cloud, kt:knowledge-base, kt:queues, kt:flow-builder]
+related: [kt:experience-cloud, kt:knowledge-base, kt:queues, kt:flow-builder, kt:field-service]
 relations:
   - {predicate: hasPart, object: kt:omni-channel}
   - {predicate: hasPart, object: kt:entitlement-management}

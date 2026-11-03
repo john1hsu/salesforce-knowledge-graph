@@ -1212,6 +1212,102 @@
       ]
     },
     {
+      "@id": "kt:field-service",
+      "@type": "kto:Product",
+      "skos:prefLabel": "Field Service",
+      "skos:definition": "Salesforce's product for planning, scheduling and executing on-site work, built on work orders, service appointments, service resources and service territories, with a scheduling and optimization engine, a dispatcher console and a mobile app for technicians.",
+      "kto:domain": "clouds-and-products",
+      "dcterms:created": "2026-11-03",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Field Service Basics: Enable Field Service and Create Service Territories (Trailhead unit)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/field_service_basics/field_service_basics_enable",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Field Service Basics: Set Up Users, Service Resources and Dispatchers (Trailhead unit)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/field_service_basics/field_service_basics_set",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Field Service Core Data Model (Field Service Developer Guide)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.field_service_dev.meta/field_service_dev/fsl_dev_soap_core.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Explore Scheduling (Field Service Scheduling Basics, Trailhead unit)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/field-service-lightning-scheduling-basics/explore-scheduling",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Explore Optimization (Field Service Optimization, Trailhead unit)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/field-service-lightning-optimization/explore-optimization",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Work from Anywhere (Field Service Mobile, Trailhead unit)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/field-service-mobile/work-from-anywhere",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/clouds-and-products/field-service.md",
+      "skos:altLabel": [
+        "Salesforce Field Service",
+        "Field Service Lightning",
+        "FSL",
+        "Field Service and Operations"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-platform"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:service-cloud"
+        },
+        {
+          "@id": "kt:entitlement-management"
+        },
+        {
+          "@id": "kt:omni-channel"
+        },
+        {
+          "@id": "kt:my-domain"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:work-orders"
+        },
+        {
+          "@id": "kt:service-appointments"
+        },
+        {
+          "@id": "kt:field-service-scheduling-policies"
+        },
+        {
+          "@id": "kt:dispatcher-console"
+        },
+        {
+          "@id": "kt:field-service-mobile-app"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:service-cloud"
+        }
+      ]
+    },
+    {
       "@id": "kt:knowledge-base",
       "@type": "kto:Feature",
       "skos:prefLabel": "Salesforce Knowledge",
@@ -1557,6 +1653,9 @@
         },
         {
           "@id": "kt:flow-builder"
+        },
+        {
+          "@id": "kt:field-service"
         }
       ],
       "kto:hasPart": [
