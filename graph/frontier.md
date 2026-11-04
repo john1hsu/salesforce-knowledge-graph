@@ -4,21 +4,21 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:data-integration` | `kt:external-id-fields`, `kt:external-objects`, `kt:bulk-api-2`, `kt:rest-api` |
+| `kt:mulesoft-anypoint-platform` | `kt:flow-orchestrator`, `kt:data-integration`, `kt:event-driven-architecture`, `kt:government-cloud-plus` |
 | `kt:salesforce-architecture-center` | `kt:cta-review-board`, `kt:salesforce-architect`, `kt:solution-design-tradeoffs`, `kt:well-architected-framework` |
+| `kt:salesforce-connect` | `kt:external-objects`, `kt:external-objects`, `kt:data-integration`, `kt:named-credentials` |
+| `kt:api-request-limits` | `kt:composite-api`, `kt:data-integration`, `kt:rest-api` |
 | `kt:application-architect-certification` | `kt:cta-review-board`, `kt:salesforce-architect`, `kt:sharing-and-visibility-architect-certification` |
 | `kt:certified-technical-architect` | `kt:cta-review-board`, `kt:salesforce-architect`, `kt:solution-design-tradeoffs` |
 | `kt:implicit-sharing` | `kt:enterprise-territory-management`, `kt:role-hierarchy`, `kt:salesforce-sharing-model` |
-| `kt:mulesoft-anypoint-platform` | `kt:flow-orchestrator`, `kt:event-driven-architecture`, `kt:government-cloud-plus` |
+| `kt:integration-architect-certification` | `kt:composite-api`, `kt:data-integration`, `kt:event-driven-architecture` |
 | `kt:platform-data-architect-certification` | `kt:data-architecture`, `kt:external-id-fields`, `kt:external-objects` |
 | `kt:process-builder` | `kt:flow-builder`, `kt:record-triggered-flow`, `kt:workflow-rules` |
 | `kt:query-optimizer-selectivity` | `kt:soql`, `kt:large-data-volumes`, `kt:multitenancy` |
 | `kt:queues` | `kt:approval-processes`, `kt:omni-channel`, `kt:service-cloud` |
-| `kt:salesforce-connect` | `kt:external-objects`, `kt:external-objects`, `kt:named-credentials` |
 | `kt:system-architect-certification` | `kt:cta-review-board`, `kt:salesforce-architect`, `kt:identity-and-access-management-architect-certification` |
 | `kt:zero-copy-data-federation` | `kt:data-cloud-consultant-certification`, `kt:data-cloud`, `kt:external-objects` |
 | `kt:apex-callouts` | `kt:external-objects`, `kt:outbound-messaging` |
-| `kt:api-request-limits` | `kt:composite-api`, `kt:rest-api` |
 | `kt:big-objects` | `kt:archiving-strategy`, `kt:external-objects` |
 | `kt:business-processes` | `kt:record-types`, `kt:record-types` |
 | `kt:entitlement-management` | `kt:field-service`, `kt:service-cloud` |
@@ -27,7 +27,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:flow-trigger-explorer` | `kt:record-triggered-flow`, `kt:order-of-execution` |
 | `kt:group-membership-locking` | `kt:enterprise-territory-management`, `kt:sharing-recalculation` |
 | `kt:headless-identity` | `kt:experience-cloud-identity`, `kt:salesforce-identity` |
-| `kt:integration-architect-certification` | `kt:composite-api`, `kt:event-driven-architecture` |
 | `kt:integration-patterns` | `kt:cta-review-board`, `kt:event-driven-architecture` |
 | `kt:integration-security` | `kt:oauth-2-0`, `kt:named-credentials` |
 | `kt:lightning-data-service` | `kt:lightning-web-components`, `kt:lightning-web-components` |
@@ -55,6 +54,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aura-components` | `kt:lightning-web-components` |
 | `kt:automation-studio` | `kt:marketing-cloud-engagement` |
 | `kt:backup-and-recover` | `kt:archiving-strategy` |
+| `kt:batch-data-synchronization` | `kt:data-integration` |
 | `kt:bulk-api-1` | `kt:bulk-api-2` |
 | `kt:bulk-api-allocations` | `kt:bulk-api-2` |
 | `kt:business-rules-engine` | `kt:public-sector-solutions` |
@@ -114,6 +114,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:platform-as-a-service` | `kt:salesforce-platform` |
 | `kt:platform-event-channel-member` | `kt:change-data-capture` |
 | `kt:presence-configuration` | `kt:omni-channel` |
+| `kt:process-integration` | `kt:data-integration` |
 | `kt:product-configurator` | `kt:revenue-cloud` |
 | `kt:prompt-injection` | `kt:einstein-trust-layer` |
 | `kt:public-groups` | `kt:sharing-rules` |

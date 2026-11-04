@@ -7139,6 +7139,108 @@
       ]
     },
     {
+      "@id": "kt:data-integration",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Data Integration",
+      "skos:definition": "The integration category concerned with moving and synchronising the information applications use, between Salesforce and external systems or between Salesforce orgs, as distinct from process integration (shared business flows) and virtual integration (accessing external data in place without copying it).",
+      "kto:domain": "integration",
+      "dcterms:created": "2026-11-04",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Data Integration with Salesforce (Architect Decision Guide)",
+          "dcterms:publisher": "Salesforce Architects",
+          "schema:url": "https://architect.salesforce.com/docs/architect/decision-guides/guide/data-integration",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Pattern Selection Guide (Integration Patterns and Practices)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.integration_patterns_and_practices.meta/integ/integ_pat_selection_guide.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Integration Patterns Overview",
+          "dcterms:publisher": "Salesforce Architects",
+          "schema:url": "https://architect.salesforce.com/fundamentals/integration-patterns",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Pattern Summary (Integration Patterns and Practices)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.integration_patterns_and_practices.meta/integ/integ_pat_pat_summary.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Get Started with Integration Decision Guides",
+          "dcterms:publisher": "Salesforce Architects",
+          "schema:url": "https://architect.salesforce.com/docs/architect/decision-guides/guide/get-started-integration-decision-guides.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/integration/data-integration.md",
+      "skos:altLabel": [
+        "Salesforce data integration",
+        "data-level integration"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:data-architecture"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:rest-api"
+        },
+        {
+          "@id": "kt:bulk-api-2"
+        },
+        {
+          "@id": "kt:change-data-capture"
+        },
+        {
+          "@id": "kt:external-id-fields"
+        },
+        {
+          "@id": "kt:external-objects"
+        },
+        {
+          "@id": "kt:event-driven-architecture"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:process-integration"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:salesforce-connect"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:batch-data-synchronization"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:mulesoft-anypoint-platform"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:api-request-limits"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:integration-architect-certification"
+        }
+      ]
+    },
+    {
       "@id": "kt:event-driven-architecture",
       "@type": "kto:Pattern",
       "skos:prefLabel": "Event-Driven Architecture",
