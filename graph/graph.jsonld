@@ -7404,6 +7404,96 @@
       ]
     },
     {
+      "@id": "kt:mulesoft-anypoint-platform",
+      "@type": "kto:Product",
+      "skos:prefLabel": "MuleSoft Anypoint Platform",
+      "skos:definition": "MuleSoft's platform for designing, building, deploying and managing APIs and integrations, made up of a control plane (Design Center, Exchange, API Manager, Runtime Manager) and a runtime plane in which the Mule runtime engine executes integration applications on MuleSoft-hosted or customer-managed infrastructure.",
+      "kto:domain": "integration",
+      "dcterms:created": "2026-11-04",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Anypoint Platform Glossary",
+          "dcterms:publisher": "MuleSoft (Salesforce)",
+          "schema:url": "https://docs.mulesoft.com/general/glossary",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Mule Runtime Engine Overview",
+          "dcterms:publisher": "MuleSoft (Salesforce)",
+          "schema:url": "https://docs.mulesoft.com/mule-runtime/latest/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Explore API-Led Connectivity (Application Networks and API-Led Connectivity in MuleSoft)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/application-networks-and-api-led-connectivity-in-mulesoft/explore-api-led-connectivity",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Get Started with Integration Decision Guides",
+          "dcterms:publisher": "Salesforce Architects",
+          "schema:url": "https://architect.salesforce.com/docs/architect/decision-guides/guide/get-started-integration-decision-guides.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Application Networks and API-Led Connectivity in MuleSoft",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/application-networks-and-api-led-connectivity-in-mulesoft",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/integration/mulesoft-anypoint-platform.md",
+      "skos:altLabel": [
+        "Anypoint Platform",
+        "MuleSoft Anypoint",
+        "Anypoint"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:data-integration"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:event-driven-architecture"
+        },
+        {
+          "@id": "kt:rest-api"
+        },
+        {
+          "@id": "kt:salesforce-connect"
+        },
+        {
+          "@id": "kt:change-data-capture"
+        },
+        {
+          "@id": "kt:flow-orchestrator"
+        }
+      ],
+      "kto:implements": [
+        {
+          "@id": "kt:api-led-connectivity"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:salesforce-platform"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:mule-runtime-engine"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:integration-architect-certification"
+        }
+      ]
+    },
+    {
       "@id": "kt:named-credentials",
       "@type": "kto:Feature",
       "skos:prefLabel": "Named Credentials",

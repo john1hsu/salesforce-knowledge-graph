@@ -4,15 +4,14 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:mulesoft-anypoint-platform` | `kt:flow-orchestrator`, `kt:data-integration`, `kt:event-driven-architecture`, `kt:government-cloud-plus` |
+| `kt:salesforce-connect` | `kt:external-objects`, `kt:external-objects`, `kt:data-integration`, `kt:mulesoft-anypoint-platform`, `kt:named-credentials` |
+| `kt:integration-architect-certification` | `kt:composite-api`, `kt:data-integration`, `kt:event-driven-architecture`, `kt:mulesoft-anypoint-platform` |
 | `kt:salesforce-architecture-center` | `kt:cta-review-board`, `kt:salesforce-architect`, `kt:solution-design-tradeoffs`, `kt:well-architected-framework` |
-| `kt:salesforce-connect` | `kt:external-objects`, `kt:external-objects`, `kt:data-integration`, `kt:named-credentials` |
 | `kt:apex-callouts` | `kt:external-objects`, `kt:queueable-apex`, `kt:outbound-messaging` |
 | `kt:api-request-limits` | `kt:composite-api`, `kt:data-integration`, `kt:rest-api` |
 | `kt:application-architect-certification` | `kt:cta-review-board`, `kt:salesforce-architect`, `kt:sharing-and-visibility-architect-certification` |
 | `kt:certified-technical-architect` | `kt:cta-review-board`, `kt:salesforce-architect`, `kt:solution-design-tradeoffs` |
 | `kt:implicit-sharing` | `kt:enterprise-territory-management`, `kt:role-hierarchy`, `kt:salesforce-sharing-model` |
-| `kt:integration-architect-certification` | `kt:composite-api`, `kt:data-integration`, `kt:event-driven-architecture` |
 | `kt:platform-data-architect-certification` | `kt:data-architecture`, `kt:external-id-fields`, `kt:external-objects` |
 | `kt:process-builder` | `kt:flow-builder`, `kt:record-triggered-flow`, `kt:workflow-rules` |
 | `kt:query-optimizer-selectivity` | `kt:soql`, `kt:large-data-volumes`, `kt:multitenancy` |
@@ -48,6 +47,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:agentforce-studio` | `kt:prompt-builder` |
 | `kt:agentforce-testing-center` | `kt:agent-development-lifecycle` |
 | `kt:apex-flex-queue` | `kt:batch-apex` |
+| `kt:api-led-connectivity` | `kt:mulesoft-anypoint-platform` |
 | `kt:appexchange-security-review` | `kt:code-analyzer` |
 | `kt:architecture-decision-records` | `kt:solution-design-tradeoffs` |
 | `kt:atlas-reasoning-engine` | `kt:agentforce` |
@@ -99,6 +99,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:marketing-cloud-account-engagement` | `kt:marketing-cloud-engagement` |
 | `kt:marketing-cloud-connect` | `kt:marketing-cloud-engagement` |
 | `kt:marketing-cloud-next` | `kt:marketing-cloud-engagement` |
+| `kt:mule-runtime-engine` | `kt:mulesoft-anypoint-platform` |
 | `kt:nist-digital-identity-guidelines` | `kt:multi-factor-authentication` |
 | `kt:nist-sp-800-53` | `kt:fedramp-high` |
 | `kt:omni-channel-limits` | `kt:omni-channel` |
