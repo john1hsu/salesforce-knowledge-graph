@@ -1411,6 +1411,33 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-architect-certification> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#partOf> <https://github.com/john1hsu/salesforce-knowledge-graph/id/system-architect-certification> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-architect-certification> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-architect-certification> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-patterns> <http://purl.org/dc/terms/created> "2026-11-04" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-patterns> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-patterns> <http://www.w3.org/2000/01/rdf-schema#label> "Integration Patterns" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-patterns> <http://www.w3.org/2004/02/skos/core#altLabel> "Integration Patterns and Practices" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-patterns> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce integration patterns" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-patterns> <http://www.w3.org/2004/02/skos/core#altLabel> "integration pattern catalogue" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-patterns> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-architecture-center> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-patterns> <http://www.w3.org/2004/02/skos/core#definition> "Salesforce's published catalogue of reusable integration designs (Request and Reply, Fire and Forget, Batch Data Synchronization, Remote Call-In, UI Update Based on Data Changes and Data Virtualization), each documented with a standard template and fit-rated solution options, used by architects to choose how Salesforce connects to other systems." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-patterns> <http://www.w3.org/2004/02/skos/core#prefLabel> "Integration Patterns" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-patterns> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-callouts> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-patterns> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/composite-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-patterns> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-integration> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-patterns> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/event-driven-architecture> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-patterns> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/pub-sub-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-patterns> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/integration-patterns/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-patterns> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/integration-patterns/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-patterns> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/integration-patterns/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-patterns> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/integration-patterns/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-patterns> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#coveredBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-architect-certification> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-patterns> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "integration" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-patterns> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/batch-data-synchronization> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-patterns> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-virtualization> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-patterns> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-patterns-request-reply-fire-and-forget> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-patterns> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/remote-call-in> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-patterns> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/mulesoft-anypoint-platform> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-patterns> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-patterns> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/junction-object> <http://purl.org/dc/terms/created> "2026-11-01" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/junction-object> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Pattern> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/junction-object> <http://www.w3.org/2000/01/rdf-schema#label> "Junction Object" .
@@ -4459,6 +4486,26 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/integration-architect-certification/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/integration-architect-certification/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/integration-architect-certification/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.integration_patterns_and_practices.meta/integ/integ_pat_pat_summary.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/integration-patterns/s1> <http://purl.org/dc/terms/publisher> "Salesforce Architects" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/integration-patterns/s1> <http://purl.org/dc/terms/title> "Integration Patterns Overview" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/integration-patterns/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/integration-patterns/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/integration-patterns/s1> <https://schema.org/url> "https://architect.salesforce.com/fundamentals/integration-patterns" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/integration-patterns/s2> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/integration-patterns/s2> <http://purl.org/dc/terms/title> "Pattern Summary (Integration Patterns and Practices)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/integration-patterns/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/integration-patterns/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/integration-patterns/s2> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.integration_patterns_and_practices.meta/integ/integ_pat_pat_summary.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/integration-patterns/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/integration-patterns/s3> <http://purl.org/dc/terms/title> "Purpose and Scope (Integration Patterns and Practices)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/integration-patterns/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/integration-patterns/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/integration-patterns/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.integration_patterns_and_practices.meta/integ/integ_pat_purpose_scope.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/integration-patterns/s4> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/integration-patterns/s4> <http://purl.org/dc/terms/title> "Learn About Integration Patterns and Designs (Application Integration Patterns for Salesforce Lightning Platform)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/integration-patterns/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/integration-patterns/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/integration-patterns/s4> <https://schema.org/url> "https://trailhead.salesforce.com/zh-CN/content/learn/modules/app-integration-patterns/app-integration-patterns-1" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/junction-object/s1> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/junction-object/s1> <http://purl.org/dc/terms/title> "Create a Many-to-Many Object Relationship" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/junction-object/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
