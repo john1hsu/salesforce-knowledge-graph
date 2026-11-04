@@ -4,7 +4,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:salesforce-architecture-center` | `kt:cta-review-board`, `kt:salesforce-architect`, `kt:solution-design-tradeoffs`, `kt:well-architected-framework` |
+| `kt:integration-patterns` | `kt:cta-review-board`, `kt:salesforce-architecture-center`, `kt:event-driven-architecture`, `kt:integration-architect-certification` |
 | `kt:system-architect-certification` | `kt:cta-review-board`, `kt:salesforce-architect`, `kt:identity-and-access-management-architect-certification`, `kt:integration-architect-certification` |
 | `kt:zero-copy-data-federation` | `kt:data-cloud-consultant-certification`, `kt:data-cloud`, `kt:external-objects`, `kt:salesforce-connect` |
 | `kt:apex-callouts` | `kt:external-objects`, `kt:queueable-apex`, `kt:outbound-messaging` |
@@ -13,7 +13,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:certified-technical-architect` | `kt:cta-review-board`, `kt:salesforce-architect`, `kt:solution-design-tradeoffs` |
 | `kt:fips-199` | `kt:fedramp-high`, `kt:fedramp`, `kt:nist-sp-800-53` |
 | `kt:implicit-sharing` | `kt:enterprise-territory-management`, `kt:role-hierarchy`, `kt:salesforce-sharing-model` |
-| `kt:integration-patterns` | `kt:cta-review-board`, `kt:event-driven-architecture`, `kt:integration-architect-certification` |
 | `kt:platform-data-architect-certification` | `kt:data-architecture`, `kt:external-id-fields`, `kt:external-objects` |
 | `kt:query-optimizer-selectivity` | `kt:soql`, `kt:large-data-volumes`, `kt:multitenancy` |
 | `kt:queues` | `kt:approval-processes`, `kt:omni-channel`, `kt:service-cloud` |
@@ -48,6 +47,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:apex-flex-queue` | `kt:batch-apex` |
 | `kt:api-led-connectivity` | `kt:mulesoft-anypoint-platform` |
 | `kt:appexchange-security-review` | `kt:code-analyzer` |
+| `kt:architect-decision-guides` | `kt:salesforce-architecture-center` |
 | `kt:architecture-decision-records` | `kt:solution-design-tradeoffs` |
 | `kt:atlas-reasoning-engine` | `kt:agentforce` |
 | `kt:aura-components` | `kt:lightning-web-components` |
@@ -126,10 +126,12 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:sales-cloud-consultant-certification` | `kt:sales-cloud` |
 | `kt:salesforce-analytics` | `kt:tableau` |
 | `kt:salesforce-apis` | `kt:bulk-api-2` |
+| `kt:salesforce-architecture-program` | `kt:salesforce-architecture-center` |
 | `kt:salesforce-archive` | `kt:archiving-strategy` |
 | `kt:salesforce-certification-program` | `kt:data-cloud-consultant-certification` |
 | `kt:salesforce-cpq` | `kt:revenue-cloud` |
 | `kt:salesforce-data-mask` | `kt:environment-strategy` |
+| `kt:salesforce-diagrams` | `kt:salesforce-architecture-center` |
 | `kt:salesforce-ecosystem-roles` | `kt:salesforce-architect` |
 | `kt:salesforce-go` | `kt:knowledge-base` |
 | `kt:salesforce-industries` | `kt:public-sector-solutions` |

@@ -526,6 +526,101 @@
       ]
     },
     {
+      "@id": "kt:salesforce-architecture-center",
+      "@type": "kto:Tool",
+      "skos:prefLabel": "Salesforce Architecture Center",
+      "skos:definition": "Salesforce's official website for architects at architect.salesforce.com, which hosts the Well-Architected Framework, Architecture Fundamentals, Decision Guides and the Salesforce Diagrams framework and galleries; it launched in beta in December 2020 and was rebuilt as the hub of the relaunched architecture program in October 2025.",
+      "kto:domain": "architecture-practice",
+      "dcterms:created": "2026-11-04",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Salesforce Architects (Architecture Center home and Well-Architected entry)",
+          "dcterms:publisher": "Salesforce Architects",
+          "schema:url": "https://architect.salesforce.com/well-architected",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Get Started with Platform Decision Guides",
+          "dcterms:publisher": "Salesforce Architects",
+          "schema:url": "https://architect.salesforce.com/docs/architect/decision-guides/guide/get-started-platform-decision-guides.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Salesforce Diagrams — Framework Overview",
+          "dcterms:publisher": "Salesforce Architects",
+          "schema:url": "https://architect.salesforce.com/diagrams/framework/overview",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Relaunching the Salesforce Architecture Program",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/blog/relaunching-salesforce-architecture-program/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "5 Salesforce Architecture Resources Every CTA Candidate Should Use",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/blog/architecture-resources-for-cta/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Architects, Welcome Home",
+          "dcterms:publisher": "Salesforce Architects (Medium)",
+          "schema:url": "https://medium.com/salesforce-architects/architects-welcome-home-4bf2a00a5471",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/architecture-practice/salesforce-architecture-center.md",
+      "skos:altLabel": [
+        "architect.salesforce.com",
+        "Salesforce Architects site",
+        "Architect Digital Home"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-architecture-program"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:integration-patterns"
+        },
+        {
+          "@id": "kt:multitenancy"
+        },
+        {
+          "@id": "kt:salesforce-sharing-model"
+        },
+        {
+          "@id": "kt:record-triggered-flow"
+        },
+        {
+          "@id": "kt:event-driven-architecture"
+        },
+        {
+          "@id": "kt:cta-review-board"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:well-architected-framework"
+        },
+        {
+          "@id": "kt:architect-decision-guides"
+        },
+        {
+          "@id": "kt:salesforce-diagrams"
+        }
+      ],
+      "kto:usedBy": [
+        {
+          "@id": "kt:salesforce-architect"
+        }
+      ]
+    },
+    {
       "@id": "kt:solution-design-tradeoffs",
       "@type": "kto:Concept",
       "skos:prefLabel": "Solution Design Trade-offs",
