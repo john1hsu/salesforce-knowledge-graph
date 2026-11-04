@@ -14,7 +14,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:fips-199` | `kt:fedramp-high`, `kt:fedramp`, `kt:nist-sp-800-53` |
 | `kt:implicit-sharing` | `kt:enterprise-territory-management`, `kt:role-hierarchy`, `kt:salesforce-sharing-model` |
 | `kt:platform-data-architect-certification` | `kt:data-architecture`, `kt:external-id-fields`, `kt:external-objects` |
-| `kt:process-builder` | `kt:flow-builder`, `kt:record-triggered-flow`, `kt:workflow-rules` |
 | `kt:query-optimizer-selectivity` | `kt:soql`, `kt:large-data-volumes`, `kt:multitenancy` |
 | `kt:queues` | `kt:approval-processes`, `kt:omni-channel`, `kt:service-cloud` |
 | `kt:security-compliance-frameworks` | `kt:dod-cloud-computing-srg`, `kt:fedramp`, `kt:nist-sp-800-53` |
