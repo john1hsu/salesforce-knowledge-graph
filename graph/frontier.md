@@ -5,14 +5,17 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | Node | Referenced by |
 |---|---|
 | `kt:rest-api` | `kt:external-id-fields`, `kt:bulk-api-2`, `kt:composite-api`, `kt:composite-api` |
+| `kt:solution-design-tradeoffs` | `kt:cta-review-board`, `kt:salesforce-architect`, `kt:technical-debt-in-salesforce`, `kt:well-architected-framework` |
+| `kt:application-architect-certification` | `kt:cta-review-board`, `kt:salesforce-architect`, `kt:sharing-and-visibility-architect-certification` |
 | `kt:implicit-sharing` | `kt:enterprise-territory-management`, `kt:role-hierarchy`, `kt:salesforce-sharing-model` |
 | `kt:mulesoft-anypoint-platform` | `kt:flow-orchestrator`, `kt:event-driven-architecture`, `kt:government-cloud-plus` |
 | `kt:process-builder` | `kt:flow-builder`, `kt:record-triggered-flow`, `kt:workflow-rules` |
 | `kt:query-optimizer-selectivity` | `kt:soql`, `kt:large-data-volumes`, `kt:multitenancy` |
 | `kt:queues` | `kt:approval-processes`, `kt:omni-channel`, `kt:service-cloud` |
-| `kt:solution-design-tradeoffs` | `kt:salesforce-architect`, `kt:technical-debt-in-salesforce`, `kt:well-architected-framework` |
-| `kt:application-architect-certification` | `kt:salesforce-architect`, `kt:sharing-and-visibility-architect-certification` |
+| `kt:salesforce-architecture-center` | `kt:cta-review-board`, `kt:salesforce-architect`, `kt:well-architected-framework` |
+| `kt:system-architect-certification` | `kt:cta-review-board`, `kt:salesforce-architect`, `kt:identity-and-access-management-architect-certification` |
 | `kt:business-processes` | `kt:record-types`, `kt:record-types` |
+| `kt:certified-technical-architect` | `kt:cta-review-board`, `kt:salesforce-architect` |
 | `kt:data-integration` | `kt:external-id-fields`, `kt:bulk-api-2` |
 | `kt:entitlement-management` | `kt:field-service`, `kt:service-cloud` |
 | `kt:experience-builder` | `kt:experience-cloud`, `kt:experience-cloud-identity` |
@@ -22,6 +25,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:group-membership-locking` | `kt:enterprise-territory-management`, `kt:sharing-recalculation` |
 | `kt:headless-identity` | `kt:experience-cloud-identity`, `kt:salesforce-identity` |
 | `kt:integration-architect-certification` | `kt:composite-api`, `kt:event-driven-architecture` |
+| `kt:integration-patterns` | `kt:cta-review-board`, `kt:event-driven-architecture` |
 | `kt:integration-security` | `kt:oauth-2-0`, `kt:named-credentials` |
 | `kt:lightning-data-service` | `kt:lightning-web-components`, `kt:lightning-web-components` |
 | `kt:namespace-registry` | `kt:dev-hub`, `kt:second-generation-managed-packages` |
@@ -29,12 +33,10 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:platform-data-architect-certification` | `kt:data-architecture`, `kt:external-id-fields` |
 | `kt:platform-event-allocations` | `kt:platform-events`, `kt:pub-sub-api` |
 | `kt:queueable-apex` | `kt:asynchronous-apex`, `kt:batch-apex` |
-| `kt:salesforce-architecture-center` | `kt:salesforce-architect`, `kt:well-architected-framework` |
 | `kt:sandbox-templates` | `kt:environment-strategy`, `kt:sandbox-types` |
 | `kt:scratch-org-allocations` | `kt:dev-hub`, `kt:scratch-orgs` |
 | `kt:security-compliance-frameworks` | `kt:dod-cloud-computing-srg`, `kt:fedramp` |
 | `kt:standard-objects` | `kt:data-model-objects`, `kt:person-accounts` |
-| `kt:system-architect-certification` | `kt:salesforce-architect`, `kt:identity-and-access-management-architect-certification` |
 | `kt:tooling-api` | `kt:source-tracking`, `kt:restriction-rules` |
 | `kt:zero-copy-data-federation` | `kt:data-cloud-consultant-certification`, `kt:data-cloud` |
 | `kt:account-takeover` | `kt:multi-factor-authentication` |
@@ -54,12 +56,10 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:bulk-api-1` | `kt:bulk-api-2` |
 | `kt:bulk-api-allocations` | `kt:bulk-api-2` |
 | `kt:business-rules-engine` | `kt:public-sector-solutions` |
-| `kt:certified-technical-architect` | `kt:salesforce-architect` |
 | `kt:change-data-capture-allocations` | `kt:change-data-capture` |
 | `kt:collaborative-forecasts` | `kt:sales-cloud` |
 | `kt:contact-builder` | `kt:marketing-cloud-engagement` |
 | `kt:contacts-to-multiple-accounts` | `kt:person-accounts` |
-| `kt:cta-review-board` | `kt:salesforce-architect` |
 | `kt:custom-domains` | `kt:my-domain` |
 | `kt:custom-fields` | `kt:external-id-fields` |
 | `kt:custom-index-limits` | `kt:external-id-fields` |
@@ -84,7 +84,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:government-cloud` | `kt:government-cloud-plus` |
 | `kt:hyperforce-operating-zones` | `kt:data-residency` |
 | `kt:identity-connect` | `kt:salesforce-identity` |
-| `kt:integration-patterns` | `kt:event-driven-architecture` |
 | `kt:integration-patterns-request-reply-fire-and-forget` | `kt:event-driven-architecture` |
 | `kt:invocable-actions-api` | `kt:autolaunched-flow` |
 | `kt:journey-builder` | `kt:marketing-cloud-engagement` |

@@ -91,6 +91,87 @@
       ]
     },
     {
+      "@id": "kt:cta-review-board",
+      "@type": "kto:Certification",
+      "skos:prefLabel": "CTA Review Board",
+      "skos:definition": "The scenario-based, judged assessment that grants the Salesforce Certified Technical Architect (CTA) credential: candidates design an end-to-end solution to a hypothetical case under time pressure, present it to a panel of CTA judges and defend it in Q&A, after first passing a shorter Architect Review Board Evaluation.",
+      "kto:domain": "architecture-practice",
+      "dcterms:created": "2026-11-04",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Certified Technical Architect Credential",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/credentials/architectreviewboard",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "5 Salesforce Architecture Resources Every CTA Candidate Should Use",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/blog/architecture-resources-for-cta/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Becoming a Salesforce Certified Technical Architect, 2nd Edition — The CTA review board's structure and format",
+          "dcterms:publisher": "Packt",
+          "schema:url": "https://packtpub.com/en-ph/product/becoming-a-salesforce-certified-technical-architect-9781803239439/chapter/chapter-1-starting-your-journey-as-a-cta-1/section/the-cta-review-boards-structure-and-format-ch01lvl1sec03",
+          "kto:sourceType": "textbook"
+        },
+        {
+          "dcterms:title": "Salesforce CTA Review Board to Become Virtual",
+          "dcterms:publisher": "Salesforce Ben",
+          "schema:url": "https://www.salesforceben.com/salesforce-cta-review-board-to-become-virtual/",
+          "kto:sourceType": "news"
+        }
+      ],
+      "kto:file": "articles/architecture-practice/cta-review-board.md",
+      "skos:altLabel": [
+        "Technical Architect Review Board",
+        "CTA board exam",
+        "Technical Architect Review Board Exam",
+        "Architect Review Board Evaluation"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:certified-technical-architect"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:salesforce-architect"
+        },
+        {
+          "@id": "kt:well-architected-framework"
+        },
+        {
+          "@id": "kt:solution-design-tradeoffs"
+        },
+        {
+          "@id": "kt:salesforce-architecture-center"
+        },
+        {
+          "@id": "kt:data-architecture"
+        },
+        {
+          "@id": "kt:integration-patterns"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:application-architect-certification"
+        },
+        {
+          "@id": "kt:system-architect-certification"
+        }
+      ],
+      "kto:usedBy": [
+        {
+          "@id": "kt:salesforce-architect"
+        }
+      ]
+    },
+    {
       "@id": "kt:data-architecture",
       "@type": "kto:Concept",
       "skos:prefLabel": "Data Architecture",
