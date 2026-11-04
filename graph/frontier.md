@@ -4,8 +4,8 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:integration-architect-certification` | `kt:composite-api`, `kt:data-integration`, `kt:event-driven-architecture`, `kt:mulesoft-anypoint-platform`, `kt:salesforce-connect` |
 | `kt:salesforce-architecture-center` | `kt:cta-review-board`, `kt:salesforce-architect`, `kt:solution-design-tradeoffs`, `kt:well-architected-framework` |
+| `kt:system-architect-certification` | `kt:cta-review-board`, `kt:salesforce-architect`, `kt:identity-and-access-management-architect-certification`, `kt:integration-architect-certification` |
 | `kt:zero-copy-data-federation` | `kt:data-cloud-consultant-certification`, `kt:data-cloud`, `kt:external-objects`, `kt:salesforce-connect` |
 | `kt:apex-callouts` | `kt:external-objects`, `kt:queueable-apex`, `kt:outbound-messaging` |
 | `kt:api-request-limits` | `kt:composite-api`, `kt:data-integration`, `kt:rest-api` |
@@ -13,11 +13,11 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:certified-technical-architect` | `kt:cta-review-board`, `kt:salesforce-architect`, `kt:solution-design-tradeoffs` |
 | `kt:fips-199` | `kt:fedramp-high`, `kt:fedramp`, `kt:nist-sp-800-53` |
 | `kt:implicit-sharing` | `kt:enterprise-territory-management`, `kt:role-hierarchy`, `kt:salesforce-sharing-model` |
+| `kt:integration-patterns` | `kt:cta-review-board`, `kt:event-driven-architecture`, `kt:integration-architect-certification` |
 | `kt:platform-data-architect-certification` | `kt:data-architecture`, `kt:external-id-fields`, `kt:external-objects` |
 | `kt:query-optimizer-selectivity` | `kt:soql`, `kt:large-data-volumes`, `kt:multitenancy` |
 | `kt:queues` | `kt:approval-processes`, `kt:omni-channel`, `kt:service-cloud` |
 | `kt:security-compliance-frameworks` | `kt:dod-cloud-computing-srg`, `kt:fedramp`, `kt:nist-sp-800-53` |
-| `kt:system-architect-certification` | `kt:cta-review-board`, `kt:salesforce-architect`, `kt:identity-and-access-management-architect-certification` |
 | `kt:batch-data-synchronization` | `kt:data-integration`, `kt:salesforce-connect` |
 | `kt:big-objects` | `kt:archiving-strategy`, `kt:external-objects` |
 | `kt:business-processes` | `kt:record-types`, `kt:record-types` |
@@ -27,7 +27,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:future-methods` | `kt:asynchronous-apex`, `kt:queueable-apex` |
 | `kt:group-membership-locking` | `kt:enterprise-territory-management`, `kt:sharing-recalculation` |
 | `kt:headless-identity` | `kt:experience-cloud-identity`, `kt:salesforce-identity` |
-| `kt:integration-patterns` | `kt:cta-review-board`, `kt:event-driven-architecture` |
 | `kt:integration-security` | `kt:oauth-2-0`, `kt:named-credentials` |
 | `kt:lightning-data-service` | `kt:lightning-web-components`, `kt:lightning-web-components` |
 | `kt:namespace-registry` | `kt:dev-hub`, `kt:second-generation-managed-packages` |

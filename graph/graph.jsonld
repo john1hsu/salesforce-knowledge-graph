@@ -7493,6 +7493,82 @@
       ]
     },
     {
+      "@id": "kt:integration-architect-certification",
+      "@type": "kto:Certification",
+      "skos:prefLabel": "Integration Architect Certification",
+      "skos:definition": "Salesforce's domain architect credential for assessing an integration landscape and designing scalable, end-to-end integration solutions on the Salesforce Platform; it is one of the four certifications that together grant the System Architect credential on the path to Certified Technical Architect.",
+      "kto:domain": "integration",
+      "dcterms:created": "2026-11-04",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Certification - Salesforce Certified Platform Integration Architect",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/pt-BR/credentials/platformintegrationarchitect",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Certification - Salesforce Certified System Architect",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/es/credentials/systemarchitect",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Integration Patterns Overview",
+          "dcterms:publisher": "Salesforce Architects",
+          "schema:url": "https://architect.salesforce.com/fundamentals/integration-patterns",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Integration Patterns and Practices: Pattern Summary",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.integration_patterns_and_practices.meta/integ/integ_pat_pat_summary.htm",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/integration/integration-architect-certification.md",
+      "skos:altLabel": [
+        "Salesforce Certified Platform Integration Architect",
+        "Platform Integration Architect certification"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-architect"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:integration-patterns"
+        },
+        {
+          "@id": "kt:data-integration"
+        },
+        {
+          "@id": "kt:event-driven-architecture"
+        },
+        {
+          "@id": "kt:platform-events"
+        },
+        {
+          "@id": "kt:named-credentials"
+        },
+        {
+          "@id": "kt:mulesoft-anypoint-platform"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:system-architect-certification"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:identity-and-access-management-architect-certification"
+        }
+      ]
+    },
+    {
       "@id": "kt:mulesoft-anypoint-platform",
       "@type": "kto:Product",
       "skos:prefLabel": "MuleSoft Anypoint Platform",
