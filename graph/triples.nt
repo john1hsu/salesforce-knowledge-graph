@@ -305,6 +305,34 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/batch-apex> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/soql> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/batch-apex> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/batch-apex> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/big-objects> <http://purl.org/dc/terms/created> "2026-11-04" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/big-objects> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/big-objects> <http://www.w3.org/2000/01/rdf-schema#label> "Big Objects" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/big-objects> <http://www.w3.org/2004/02/skos/core#altLabel> "__b object" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/big-objects> <http://www.w3.org/2004/02/skos/core#altLabel> "__b objects" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/big-objects> <http://www.w3.org/2004/02/skos/core#altLabel> "big object" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/big-objects> <http://www.w3.org/2004/02/skos/core#altLabel> "custom big objects" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/big-objects> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-architecture> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/big-objects> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/large-data-volumes> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/big-objects> <http://www.w3.org/2004/02/skos/core#definition> "Salesforce objects, suffixed __b, backed by a horizontally scalable, non-transactional distributed store that keeps hundreds of millions or billions of records queryable through a fixed composite index." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/big-objects> <http://www.w3.org/2004/02/skos/core#prefLabel> "Big Objects" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/big-objects> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/archiving-strategy> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/big-objects> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/big-objects> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-skew> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/big-objects> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/external-objects> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/big-objects> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/field-history-tracking> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/big-objects> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/big-objects/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/big-objects> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/big-objects/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/big-objects> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/big-objects/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/big-objects> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/big-objects/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/big-objects> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/big-objects> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#contrastsWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/external-objects> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/big-objects> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#coveredBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-data-architect-certification> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/big-objects> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/queueable-apex> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/big-objects> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "data-model" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/big-objects> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/soql> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/big-objects> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/big-objects> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/bulk-api-2> <http://purl.org/dc/terms/created> "2026-11-02" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/bulk-api-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#API> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/bulk-api-2> <http://www.w3.org/2000/01/rdf-schema#label> "Bulk API 2.0" .
@@ -3361,6 +3389,26 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/batch-apex/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/batch-apex/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/batch-apex/s4> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/asynchronous_apex/async_apex_batch" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/big-objects/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/big-objects/s1> <http://purl.org/dc/terms/title> "Big Objects — Big Objects Implementation Guide" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/big-objects/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/big-objects/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/big-objects/s1> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/big-object-impl-guide/guide/big-object.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/big-objects/s2> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/big-objects/s2> <http://purl.org/dc/terms/title> "Big Objects Best Practices" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/big-objects/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/big-objects/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/big-objects/s2> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.bigobjects.meta/bigobjects/big_object_considerations.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/big-objects/s3> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/big-objects/s3> <http://purl.org/dc/terms/title> "Big Objects: Define Custom Big Objects" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/big-objects/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/big-objects/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/big-objects/s3> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/big_objects/big_objects_define_custom_big_objects" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/big-objects/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/big-objects/s4> <http://purl.org/dc/terms/title> "SOQL with Big Objects" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/big-objects/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/big-objects/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/big-objects/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.254.0.bigobjects.meta/bigobjects/big_object_querying.htm" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulk-api-2/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulk-api-2/s1> <http://purl.org/dc/terms/title> "Bulk API 2.0 (Bulk API 2.0 and Bulk API Developer Guide)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulk-api-2/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

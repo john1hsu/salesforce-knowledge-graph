@@ -3637,6 +3637,99 @@
       ]
     },
     {
+      "@id": "kt:big-objects",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Big Objects",
+      "skos:definition": "Salesforce objects, suffixed __b, backed by a horizontally scalable, non-transactional distributed store that keeps hundreds of millions or billions of records queryable through a fixed composite index.",
+      "kto:domain": "data-model",
+      "dcterms:created": "2026-11-04",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Big Objects — Big Objects Implementation Guide",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/big-object-impl-guide/guide/big-object.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Big Objects Best Practices",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.bigobjects.meta/bigobjects/big_object_considerations.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Big Objects: Define Custom Big Objects",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/big_objects/big_objects_define_custom_big_objects",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "SOQL with Big Objects",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.254.0.bigobjects.meta/bigobjects/big_object_querying.htm",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/data-model/big-objects.md",
+      "skos:altLabel": [
+        "big object",
+        "custom big objects",
+        "__b object",
+        "__b objects"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:large-data-volumes"
+        },
+        {
+          "@id": "kt:data-architecture"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:archiving-strategy"
+        },
+        {
+          "@id": "kt:external-objects"
+        },
+        {
+          "@id": "kt:field-history-tracking"
+        },
+        {
+          "@id": "kt:data-skew"
+        },
+        {
+          "@id": "kt:data-cloud"
+        }
+      ],
+      "kto:queriedWith": [
+        {
+          "@id": "kt:soql"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:metadata-api"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:queueable-apex"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:external-objects"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:platform-data-architect-certification"
+        }
+      ]
+    },
+    {
       "@id": "kt:data-skew",
       "@type": "kto:AntiPattern",
       "skos:prefLabel": "Data Skew",

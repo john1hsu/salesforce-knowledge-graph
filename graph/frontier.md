@@ -5,6 +5,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | Node | Referenced by |
 |---|---|
 | `kt:apex-callouts` | `kt:external-objects`, `kt:queueable-apex`, `kt:integration-patterns`, `kt:outbound-messaging` |
+| `kt:platform-data-architect-certification` | `kt:data-architecture`, `kt:big-objects`, `kt:external-id-fields`, `kt:external-objects` |
 | `kt:system-architect-certification` | `kt:cta-review-board`, `kt:salesforce-architect`, `kt:identity-and-access-management-architect-certification`, `kt:integration-architect-certification` |
 | `kt:api-request-limits` | `kt:composite-api`, `kt:data-integration`, `kt:rest-api` |
 | `kt:application-architect-certification` | `kt:cta-review-board`, `kt:salesforce-architect`, `kt:sharing-and-visibility-architect-certification` |
@@ -13,11 +14,9 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:data-virtualization` | `kt:zero-copy-data-federation`, `kt:integration-patterns`, `kt:salesforce-connect` |
 | `kt:fips-199` | `kt:fedramp-high`, `kt:fedramp`, `kt:nist-sp-800-53` |
 | `kt:implicit-sharing` | `kt:enterprise-territory-management`, `kt:role-hierarchy`, `kt:salesforce-sharing-model` |
-| `kt:platform-data-architect-certification` | `kt:data-architecture`, `kt:external-id-fields`, `kt:external-objects` |
 | `kt:query-optimizer-selectivity` | `kt:soql`, `kt:large-data-volumes`, `kt:multitenancy` |
 | `kt:queues` | `kt:approval-processes`, `kt:omni-channel`, `kt:service-cloud` |
 | `kt:security-compliance-frameworks` | `kt:dod-cloud-computing-srg`, `kt:fedramp`, `kt:nist-sp-800-53` |
-| `kt:big-objects` | `kt:archiving-strategy`, `kt:external-objects` |
 | `kt:business-processes` | `kt:record-types`, `kt:record-types` |
 | `kt:data-lake-objects` | `kt:data-model-objects`, `kt:zero-copy-data-federation` |
 | `kt:entitlement-management` | `kt:field-service`, `kt:service-cloud` |
@@ -78,6 +77,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:duplicate-management` | `kt:identity-resolution` |
 | `kt:dynamic-revenue-orchestrator` | `kt:revenue-cloud` |
 | `kt:external-identity-license` | `kt:experience-cloud-identity` |
+| `kt:field-history-tracking` | `kt:big-objects` |
 | `kt:field-service-mobile-app` | `kt:field-service` |
 | `kt:field-service-scheduling-policies` | `kt:field-service` |
 | `kt:financial-services-cloud` | `kt:person-accounts` |
