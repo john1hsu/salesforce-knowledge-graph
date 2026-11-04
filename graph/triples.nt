@@ -2424,6 +2424,32 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-cli> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-api> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-cli> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-cli> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-connect> <http://purl.org/dc/terms/created> "2026-11-04" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-connect> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Product> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-connect> <http://www.w3.org/2000/01/rdf-schema#label> "Salesforce Connect" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-connect> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce Connect adapters" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-connect> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce Connect add-on" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-connect> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-integration> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-connect> <http://www.w3.org/2004/02/skos/core#definition> "Salesforce's add-on for data virtualization: it defines external data sources (OData, Cross-Org, custom Apex, Amazon, Snowflake, GraphQL and other adapters) and surfaces their records as external objects queried live at runtime, so users and automation can work with outside data without copying it into the org." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-connect> <http://www.w3.org/2004/02/skos/core#prefLabel> "Salesforce Connect" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-connect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/change-data-capture> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-connect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/mulesoft-anypoint-platform> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-connect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/zero-copy-data-federation> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-connect> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-connect/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-connect> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-connect/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-connect> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-connect/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-connect> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-connect/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-connect> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-connect/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-connect> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-connect/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-connect> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#contrastsWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/batch-data-synchronization> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-connect> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#coveredBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-architect-certification> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-connect> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/named-credentials> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-connect> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "integration" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-connect> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#governedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/governor-limits> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-connect> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/external-objects> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-connect> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#implements> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-virtualization> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-connect> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-connect> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-dx> <http://purl.org/dc/terms/created> "2026-11-01" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-dx> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Tool> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-dx> <http://www.w3.org/2000/01/rdf-schema#label> "Salesforce DX" .
@@ -5368,6 +5394,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-cli/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-cli/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-cli/s6> <https://schema.org/url> "https://trailhead.salesforce.com/en/content/learn/projects/quickstart-vscode-salesforce/vscode-salesforce-ready" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-connect/s1> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-connect/s1> <http://purl.org/dc/terms/title> "Salesforce Connect — Access External Data with the OData 2.0, 4.0, or 4.01 Adapter" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-connect/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-connect/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-connect/s1> <https://schema.org/url> "https://help.salesforce.com/apex/HTViewHelpDoc?id=platform.salesforce_connect_odata.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-connect/s2> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-connect/s2> <http://purl.org/dc/terms/title> "Get Started with the Apex Connector Framework — Apex Developer Guide" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-connect/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-connect/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-connect/s2> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_connector_start.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-connect/s3> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-connect/s3> <http://purl.org/dc/terms/title> "Writable External Objects Considerations for Salesforce Connect" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-connect/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-connect/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-connect/s3> <https://schema.org/url> "https://help.salesforce.com/HTViewHelpDoc?id=platform_connect_considerations_writable_external_objects.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-connect/s4> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-connect/s4> <http://purl.org/dc/terms/title> "Track Data Changes for Salesforce Connect External Objects (External Change Data Capture)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-connect/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-connect/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-connect/s4> <https://schema.org/url> "https://help.salesforce.com/apex/HTViewHelpDoc?id=platform.external_object_change_tracking_intro.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-connect/s5> <http://purl.org/dc/terms/publisher> "Salesforce Architects" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-connect/s5> <http://purl.org/dc/terms/title> "Data Virtualization — Salesforce Architects" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-connect/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-connect/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-connect/s5> <https://schema.org/url> "https://architect.salesforce.com/docs/architect/fundamentals/guide/data-virtualization" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-connect/s6> <http://purl.org/dc/terms/publisher> "Salesforce Developers Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-connect/s6> <http://purl.org/dc/terms/title> "Learn MOAR in Winter '23 with the Salesforce Connect Adapter for Amazon Athena" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-connect/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-connect/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-connect/s6> <https://schema.org/url> "https://developer.salesforce.com/blogs/2022/09/learn-moar-in-winter-23-with-the-salesforce-connect-adapter-for-amazon-athena" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-dx/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-dx/s1> <http://purl.org/dc/terms/title> "How Salesforce Developer Experience (DX) Tooling Changes the Way You Work" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-dx/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

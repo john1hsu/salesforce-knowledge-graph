@@ -4,9 +4,9 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:salesforce-connect` | `kt:external-objects`, `kt:external-objects`, `kt:data-integration`, `kt:mulesoft-anypoint-platform`, `kt:named-credentials` |
-| `kt:integration-architect-certification` | `kt:composite-api`, `kt:data-integration`, `kt:event-driven-architecture`, `kt:mulesoft-anypoint-platform` |
+| `kt:integration-architect-certification` | `kt:composite-api`, `kt:data-integration`, `kt:event-driven-architecture`, `kt:mulesoft-anypoint-platform`, `kt:salesforce-connect` |
 | `kt:salesforce-architecture-center` | `kt:cta-review-board`, `kt:salesforce-architect`, `kt:solution-design-tradeoffs`, `kt:well-architected-framework` |
+| `kt:zero-copy-data-federation` | `kt:data-cloud-consultant-certification`, `kt:data-cloud`, `kt:external-objects`, `kt:salesforce-connect` |
 | `kt:apex-callouts` | `kt:external-objects`, `kt:queueable-apex`, `kt:outbound-messaging` |
 | `kt:api-request-limits` | `kt:composite-api`, `kt:data-integration`, `kt:rest-api` |
 | `kt:application-architect-certification` | `kt:cta-review-board`, `kt:salesforce-architect`, `kt:sharing-and-visibility-architect-certification` |
@@ -19,7 +19,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:queues` | `kt:approval-processes`, `kt:omni-channel`, `kt:service-cloud` |
 | `kt:security-compliance-frameworks` | `kt:dod-cloud-computing-srg`, `kt:fedramp`, `kt:nist-sp-800-53` |
 | `kt:system-architect-certification` | `kt:cta-review-board`, `kt:salesforce-architect`, `kt:identity-and-access-management-architect-certification` |
-| `kt:zero-copy-data-federation` | `kt:data-cloud-consultant-certification`, `kt:data-cloud`, `kt:external-objects` |
+| `kt:batch-data-synchronization` | `kt:data-integration`, `kt:salesforce-connect` |
 | `kt:big-objects` | `kt:archiving-strategy`, `kt:external-objects` |
 | `kt:business-processes` | `kt:record-types`, `kt:record-types` |
 | `kt:entitlement-management` | `kt:field-service`, `kt:service-cloud` |
@@ -54,7 +54,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aura-components` | `kt:lightning-web-components` |
 | `kt:automation-studio` | `kt:marketing-cloud-engagement` |
 | `kt:backup-and-recover` | `kt:archiving-strategy` |
-| `kt:batch-data-synchronization` | `kt:data-integration` |
 | `kt:bulk-api-1` | `kt:bulk-api-2` |
 | `kt:bulk-api-allocations` | `kt:bulk-api-2` |
 | `kt:business-rules-engine` | `kt:public-sector-solutions` |
@@ -73,6 +72,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:data-lake-objects` | `kt:data-model-objects` |
 | `kt:data-loader` | `kt:bulk-api-2` |
 | `kt:data-sovereignty` | `kt:data-residency` |
+| `kt:data-virtualization` | `kt:salesforce-connect` |
 | `kt:digital-accessibility` | `kt:section-508-accessibility` |
 | `kt:dispatcher-console` | `kt:field-service` |
 | `kt:duplicate-management` | `kt:identity-resolution` |

@@ -7937,6 +7937,105 @@
       ]
     },
     {
+      "@id": "kt:salesforce-connect",
+      "@type": "kto:Product",
+      "skos:prefLabel": "Salesforce Connect",
+      "skos:definition": "Salesforce's add-on for data virtualization: it defines external data sources (OData, Cross-Org, custom Apex, Amazon, Snowflake, GraphQL and other adapters) and surfaces their records as external objects queried live at runtime, so users and automation can work with outside data without copying it into the org.",
+      "kto:domain": "integration",
+      "dcterms:created": "2026-11-04",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Salesforce Connect — Access External Data with the OData 2.0, 4.0, or 4.01 Adapter",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/apex/HTViewHelpDoc?id=platform.salesforce_connect_odata.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Get Started with the Apex Connector Framework — Apex Developer Guide",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_connector_start.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Writable External Objects Considerations for Salesforce Connect",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/HTViewHelpDoc?id=platform_connect_considerations_writable_external_objects.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Track Data Changes for Salesforce Connect External Objects (External Change Data Capture)",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/apex/HTViewHelpDoc?id=platform.external_object_change_tracking_intro.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Data Virtualization — Salesforce Architects",
+          "dcterms:publisher": "Salesforce Architects",
+          "schema:url": "https://architect.salesforce.com/docs/architect/fundamentals/guide/data-virtualization",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Learn MOAR in Winter '23 with the Salesforce Connect Adapter for Amazon Athena",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2022/09/learn-moar-in-winter-23-with-the-salesforce-connect-adapter-for-amazon-athena",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/integration/salesforce-connect.md",
+      "skos:altLabel": [
+        "Salesforce Connect add-on",
+        "Salesforce Connect adapters"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:data-integration"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:zero-copy-data-federation"
+        },
+        {
+          "@id": "kt:change-data-capture"
+        },
+        {
+          "@id": "kt:mulesoft-anypoint-platform"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:external-objects"
+        }
+      ],
+      "kto:implements": [
+        {
+          "@id": "kt:data-virtualization"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:named-credentials"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:batch-data-synchronization"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:governor-limits"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:integration-architect-certification"
+        }
+      ]
+    },
+    {
       "@id": "kt:governor-limits",
       "@type": "kto:Limit",
       "skos:prefLabel": "Governor Limits",
