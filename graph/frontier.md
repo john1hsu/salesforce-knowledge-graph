@@ -4,19 +4,18 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:solution-design-tradeoffs` | `kt:cta-review-board`, `kt:salesforce-architect`, `kt:technical-debt-in-salesforce`, `kt:well-architected-framework` |
+| `kt:salesforce-architecture-center` | `kt:cta-review-board`, `kt:salesforce-architect`, `kt:solution-design-tradeoffs`, `kt:well-architected-framework` |
 | `kt:application-architect-certification` | `kt:cta-review-board`, `kt:salesforce-architect`, `kt:sharing-and-visibility-architect-certification` |
+| `kt:certified-technical-architect` | `kt:cta-review-board`, `kt:salesforce-architect`, `kt:solution-design-tradeoffs` |
 | `kt:data-integration` | `kt:external-id-fields`, `kt:bulk-api-2`, `kt:rest-api` |
 | `kt:implicit-sharing` | `kt:enterprise-territory-management`, `kt:role-hierarchy`, `kt:salesforce-sharing-model` |
 | `kt:mulesoft-anypoint-platform` | `kt:flow-orchestrator`, `kt:event-driven-architecture`, `kt:government-cloud-plus` |
 | `kt:process-builder` | `kt:flow-builder`, `kt:record-triggered-flow`, `kt:workflow-rules` |
 | `kt:query-optimizer-selectivity` | `kt:soql`, `kt:large-data-volumes`, `kt:multitenancy` |
 | `kt:queues` | `kt:approval-processes`, `kt:omni-channel`, `kt:service-cloud` |
-| `kt:salesforce-architecture-center` | `kt:cta-review-board`, `kt:salesforce-architect`, `kt:well-architected-framework` |
 | `kt:system-architect-certification` | `kt:cta-review-board`, `kt:salesforce-architect`, `kt:identity-and-access-management-architect-certification` |
 | `kt:api-request-limits` | `kt:composite-api`, `kt:rest-api` |
 | `kt:business-processes` | `kt:record-types`, `kt:record-types` |
-| `kt:certified-technical-architect` | `kt:cta-review-board`, `kt:salesforce-architect` |
 | `kt:entitlement-management` | `kt:field-service`, `kt:service-cloud` |
 | `kt:experience-builder` | `kt:experience-cloud`, `kt:experience-cloud-identity` |
 | `kt:external-objects` | `kt:object-relationships`, `kt:restriction-rules` |
@@ -49,6 +48,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:apex-callouts` | `kt:outbound-messaging` |
 | `kt:apex-flex-queue` | `kt:batch-apex` |
 | `kt:appexchange-security-review` | `kt:code-analyzer` |
+| `kt:architecture-decision-records` | `kt:solution-design-tradeoffs` |
 | `kt:atlas-reasoning-engine` | `kt:agentforce` |
 | `kt:aura-components` | `kt:lightning-web-components` |
 | `kt:automation-studio` | `kt:marketing-cloud-engagement` |

@@ -526,6 +526,93 @@
       ]
     },
     {
+      "@id": "kt:solution-design-tradeoffs",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Solution Design Trade-offs",
+      "skos:definition": "The practice of choosing between competing Salesforce design options (Flow vs. Apex, sync vs. async, click vs. code, agentic vs. deterministic) by making explicit which quality attributes each option improves or degrades, and recording why.",
+      "kto:domain": "architecture-practice",
+      "dcterms:created": "2026-11-04",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "The Architecture Tradeoff Analysis Method (CMU/SEI-98-TR-008)",
+          "dcterms:publisher": "Software Engineering Institute, Carnegie Mellon University",
+          "schema:url": "https://apps.dtic.mil/sti/pdfs/ADA350761.pdf",
+          "kto:sourceType": "academic"
+        },
+        {
+          "dcterms:title": "Architect Decision Guides",
+          "dcterms:publisher": "Salesforce Architects",
+          "schema:url": "https://architect.salesforce.com/decision-guides",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Record-Triggered Automation Decision Guide",
+          "dcterms:publisher": "Salesforce Architects",
+          "schema:url": "https://architect.salesforce.com/docs/architect/decision-guides/guide/record-triggered",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Introducing the New Salesforce Decision Guide Format",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/blog/new-salesforce-decision-guide-format/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Well-Architected Overview",
+          "dcterms:publisher": "Salesforce Architects",
+          "schema:url": "https://architect.salesforce.com/well-architected/overview",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "How to Make Salesforce Architecture Decisions That Actually Last",
+          "dcterms:publisher": "Salesforce Ben",
+          "schema:url": "https://www.salesforceben.com/how-to-make-salesforce-architecture-decisions-that-actually-last/",
+          "kto:sourceType": "community"
+        }
+      ],
+      "kto:file": "articles/architecture-practice/solution-design-tradeoffs.md",
+      "skos:altLabel": [
+        "architecture trade-offs",
+        "design trade-offs",
+        "architectural tradeoff analysis",
+        "trade-off analysis"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:well-architected-framework"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:technical-debt-in-salesforce"
+        },
+        {
+          "@id": "kt:salesforce-architecture-center"
+        },
+        {
+          "@id": "kt:record-triggered-flow"
+        },
+        {
+          "@id": "kt:apex-triggers"
+        },
+        {
+          "@id": "kt:architecture-decision-records"
+        }
+      ],
+      "kto:usedBy": [
+        {
+          "@id": "kt:salesforce-architect"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:certified-technical-architect"
+        }
+      ]
+    },
+    {
       "@id": "kt:technical-debt-in-salesforce",
       "@type": "kto:Concept",
       "skos:prefLabel": "Technical Debt in Salesforce",

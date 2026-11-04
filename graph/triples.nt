@@ -2674,6 +2674,32 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/single-sign-on-saml> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#implements> <https://github.com/john1hsu/salesforce-knowledge-graph/id/saml-2-0> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/single-sign-on-saml> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/single-sign-on-saml> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/solution-design-tradeoffs> <http://purl.org/dc/terms/created> "2026-11-04" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/solution-design-tradeoffs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/solution-design-tradeoffs> <http://www.w3.org/2000/01/rdf-schema#label> "Solution Design Trade-offs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/solution-design-tradeoffs> <http://www.w3.org/2004/02/skos/core#altLabel> "architectural tradeoff analysis" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/solution-design-tradeoffs> <http://www.w3.org/2004/02/skos/core#altLabel> "architecture trade-offs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/solution-design-tradeoffs> <http://www.w3.org/2004/02/skos/core#altLabel> "design trade-offs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/solution-design-tradeoffs> <http://www.w3.org/2004/02/skos/core#altLabel> "trade-off analysis" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/solution-design-tradeoffs> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/well-architected-framework> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/solution-design-tradeoffs> <http://www.w3.org/2004/02/skos/core#definition> "The practice of choosing between competing Salesforce design options (Flow vs. Apex, sync vs. async, click vs. code, agentic vs. deterministic) by making explicit which quality attributes each option improves or degrades, and recording why." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/solution-design-tradeoffs> <http://www.w3.org/2004/02/skos/core#prefLabel> "Solution Design Trade-offs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/solution-design-tradeoffs> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-triggers> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/solution-design-tradeoffs> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/architecture-decision-records> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/solution-design-tradeoffs> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/record-triggered-flow> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/solution-design-tradeoffs> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-architecture-center> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/solution-design-tradeoffs> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/technical-debt-in-salesforce> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/solution-design-tradeoffs> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/solution-design-tradeoffs/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/solution-design-tradeoffs> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/solution-design-tradeoffs/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/solution-design-tradeoffs> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/solution-design-tradeoffs/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/solution-design-tradeoffs> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/solution-design-tradeoffs/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/solution-design-tradeoffs> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/solution-design-tradeoffs/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/solution-design-tradeoffs> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/solution-design-tradeoffs/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/solution-design-tradeoffs> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#coveredBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/certified-technical-architect> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/solution-design-tradeoffs> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "architecture-practice" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/solution-design-tradeoffs> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/solution-design-tradeoffs> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#usedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-architect> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/solution-design-tradeoffs> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/soql> <http://purl.org/dc/terms/created> "2026-11-02" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/soql> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Language> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/soql> <http://www.w3.org/2000/01/rdf-schema#label> "SOQL" .
@@ -5461,6 +5487,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/single-sign-on-saml/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/single-sign-on-saml/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "standards-body" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/single-sign-on-saml/s5> <https://schema.org/url> "https://docs.oasis-open.org/security/saml/Post2.0/sstc-saml-tech-overview-2.0.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/solution-design-tradeoffs/s1> <http://purl.org/dc/terms/publisher> "Software Engineering Institute, Carnegie Mellon University" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/solution-design-tradeoffs/s1> <http://purl.org/dc/terms/title> "The Architecture Tradeoff Analysis Method (CMU/SEI-98-TR-008)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/solution-design-tradeoffs/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/solution-design-tradeoffs/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/solution-design-tradeoffs/s1> <https://schema.org/url> "https://apps.dtic.mil/sti/pdfs/ADA350761.pdf" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/solution-design-tradeoffs/s2> <http://purl.org/dc/terms/publisher> "Salesforce Architects" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/solution-design-tradeoffs/s2> <http://purl.org/dc/terms/title> "Architect Decision Guides" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/solution-design-tradeoffs/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/solution-design-tradeoffs/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/solution-design-tradeoffs/s2> <https://schema.org/url> "https://architect.salesforce.com/decision-guides" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/solution-design-tradeoffs/s3> <http://purl.org/dc/terms/publisher> "Salesforce Architects" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/solution-design-tradeoffs/s3> <http://purl.org/dc/terms/title> "Record-Triggered Automation Decision Guide" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/solution-design-tradeoffs/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/solution-design-tradeoffs/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/solution-design-tradeoffs/s3> <https://schema.org/url> "https://architect.salesforce.com/docs/architect/decision-guides/guide/record-triggered" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/solution-design-tradeoffs/s4> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/solution-design-tradeoffs/s4> <http://purl.org/dc/terms/title> "Introducing the New Salesforce Decision Guide Format" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/solution-design-tradeoffs/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/solution-design-tradeoffs/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/solution-design-tradeoffs/s4> <https://schema.org/url> "https://www.salesforce.com/blog/new-salesforce-decision-guide-format/" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/solution-design-tradeoffs/s5> <http://purl.org/dc/terms/publisher> "Salesforce Architects" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/solution-design-tradeoffs/s5> <http://purl.org/dc/terms/title> "Well-Architected Overview" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/solution-design-tradeoffs/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/solution-design-tradeoffs/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/solution-design-tradeoffs/s5> <https://schema.org/url> "https://architect.salesforce.com/well-architected/overview" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/solution-design-tradeoffs/s6> <http://purl.org/dc/terms/publisher> "Salesforce Ben" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/solution-design-tradeoffs/s6> <http://purl.org/dc/terms/title> "How to Make Salesforce Architecture Decisions That Actually Last" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/solution-design-tradeoffs/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/solution-design-tradeoffs/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "community" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/solution-design-tradeoffs/s6> <https://schema.org/url> "https://www.salesforceben.com/how-to-make-salesforce-architecture-decisions-that-actually-last/" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soql/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soql/s1> <http://purl.org/dc/terms/title> "Salesforce Developer Limits and Allocations Quick Reference: SOQL and SOSL Limits for Search Queries" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soql/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
