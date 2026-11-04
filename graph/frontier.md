@@ -4,21 +4,25 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
+| `kt:data-integration` | `kt:external-id-fields`, `kt:external-objects`, `kt:bulk-api-2`, `kt:rest-api` |
 | `kt:salesforce-architecture-center` | `kt:cta-review-board`, `kt:salesforce-architect`, `kt:solution-design-tradeoffs`, `kt:well-architected-framework` |
 | `kt:application-architect-certification` | `kt:cta-review-board`, `kt:salesforce-architect`, `kt:sharing-and-visibility-architect-certification` |
 | `kt:certified-technical-architect` | `kt:cta-review-board`, `kt:salesforce-architect`, `kt:solution-design-tradeoffs` |
-| `kt:data-integration` | `kt:external-id-fields`, `kt:bulk-api-2`, `kt:rest-api` |
 | `kt:implicit-sharing` | `kt:enterprise-territory-management`, `kt:role-hierarchy`, `kt:salesforce-sharing-model` |
 | `kt:mulesoft-anypoint-platform` | `kt:flow-orchestrator`, `kt:event-driven-architecture`, `kt:government-cloud-plus` |
+| `kt:platform-data-architect-certification` | `kt:data-architecture`, `kt:external-id-fields`, `kt:external-objects` |
 | `kt:process-builder` | `kt:flow-builder`, `kt:record-triggered-flow`, `kt:workflow-rules` |
 | `kt:query-optimizer-selectivity` | `kt:soql`, `kt:large-data-volumes`, `kt:multitenancy` |
 | `kt:queues` | `kt:approval-processes`, `kt:omni-channel`, `kt:service-cloud` |
+| `kt:salesforce-connect` | `kt:external-objects`, `kt:external-objects`, `kt:named-credentials` |
 | `kt:system-architect-certification` | `kt:cta-review-board`, `kt:salesforce-architect`, `kt:identity-and-access-management-architect-certification` |
+| `kt:zero-copy-data-federation` | `kt:data-cloud-consultant-certification`, `kt:data-cloud`, `kt:external-objects` |
+| `kt:apex-callouts` | `kt:external-objects`, `kt:outbound-messaging` |
 | `kt:api-request-limits` | `kt:composite-api`, `kt:rest-api` |
+| `kt:big-objects` | `kt:archiving-strategy`, `kt:external-objects` |
 | `kt:business-processes` | `kt:record-types`, `kt:record-types` |
 | `kt:entitlement-management` | `kt:field-service`, `kt:service-cloud` |
 | `kt:experience-builder` | `kt:experience-cloud`, `kt:experience-cloud-identity` |
-| `kt:external-objects` | `kt:object-relationships`, `kt:restriction-rules` |
 | `kt:fips-199` | `kt:fedramp-high`, `kt:fedramp` |
 | `kt:flow-trigger-explorer` | `kt:record-triggered-flow`, `kt:order-of-execution` |
 | `kt:group-membership-locking` | `kt:enterprise-territory-management`, `kt:sharing-recalculation` |
@@ -29,23 +33,21 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:lightning-data-service` | `kt:lightning-web-components`, `kt:lightning-web-components` |
 | `kt:namespace-registry` | `kt:dev-hub`, `kt:second-generation-managed-packages` |
 | `kt:orchestration-work-guide` | `kt:approval-processes`, `kt:flow-orchestrator` |
-| `kt:platform-data-architect-certification` | `kt:data-architecture`, `kt:external-id-fields` |
 | `kt:platform-event-allocations` | `kt:platform-events`, `kt:pub-sub-api` |
 | `kt:queueable-apex` | `kt:asynchronous-apex`, `kt:batch-apex` |
 | `kt:sandbox-templates` | `kt:environment-strategy`, `kt:sandbox-types` |
 | `kt:scratch-org-allocations` | `kt:dev-hub`, `kt:scratch-orgs` |
 | `kt:security-compliance-frameworks` | `kt:dod-cloud-computing-srg`, `kt:fedramp` |
 | `kt:soap-api` | `kt:external-id-fields`, `kt:rest-api` |
+| `kt:sosl` | `kt:external-objects`, `kt:soql` |
 | `kt:standard-objects` | `kt:data-model-objects`, `kt:person-accounts` |
 | `kt:tooling-api` | `kt:source-tracking`, `kt:restriction-rules` |
 | `kt:transaction-control` | `kt:flow-fault-handling`, `kt:record-locking` |
-| `kt:zero-copy-data-federation` | `kt:data-cloud-consultant-certification`, `kt:data-cloud` |
 | `kt:account-takeover` | `kt:multi-factor-authentication` |
 | `kt:agent-script` | `kt:agentforce` |
 | `kt:agentforce-dx` | `kt:agent-development-lifecycle` |
 | `kt:agentforce-studio` | `kt:prompt-builder` |
 | `kt:agentforce-testing-center` | `kt:agent-development-lifecycle` |
-| `kt:apex-callouts` | `kt:outbound-messaging` |
 | `kt:apex-flex-queue` | `kt:batch-apex` |
 | `kt:appexchange-security-review` | `kt:code-analyzer` |
 | `kt:architecture-decision-records` | `kt:solution-design-tradeoffs` |
@@ -53,7 +55,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aura-components` | `kt:lightning-web-components` |
 | `kt:automation-studio` | `kt:marketing-cloud-engagement` |
 | `kt:backup-and-recover` | `kt:archiving-strategy` |
-| `kt:big-objects` | `kt:archiving-strategy` |
 | `kt:bulk-api-1` | `kt:bulk-api-2` |
 | `kt:bulk-api-allocations` | `kt:bulk-api-2` |
 | `kt:business-rules-engine` | `kt:public-sector-solutions` |
@@ -124,7 +125,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:salesforce-apis` | `kt:bulk-api-2` |
 | `kt:salesforce-archive` | `kt:archiving-strategy` |
 | `kt:salesforce-certification-program` | `kt:data-cloud-consultant-certification` |
-| `kt:salesforce-connect` | `kt:named-credentials` |
 | `kt:salesforce-cpq` | `kt:revenue-cloud` |
 | `kt:salesforce-data-mask` | `kt:environment-strategy` |
 | `kt:salesforce-ecosystem-roles` | `kt:salesforce-architect` |
@@ -144,7 +144,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:skills-based-routing` | `kt:omni-channel` |
 | `kt:skinny-tables` | `kt:large-data-volumes` |
 | `kt:soql-injection` | `kt:code-analyzer` |
-| `kt:sosl` | `kt:soql` |
 | `kt:streaming-api` | `kt:pub-sub-api` |
 | `kt:streaming-insights` | `kt:calculated-insights` |
 | `kt:tableau-next` | `kt:tableau` |

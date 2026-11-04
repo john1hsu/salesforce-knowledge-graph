@@ -3424,6 +3424,120 @@
       ]
     },
     {
+      "@id": "kt:external-objects",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "External Objects",
+      "skos:definition": "Salesforce object definitions, suffixed __x, whose records live in an external system and are read on demand through an external data source (Salesforce Connect or Files Connect) instead of being stored in the org.",
+      "kto:domain": "data-model",
+      "dcterms:created": "2026-11-04",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "External Objects — Object Reference for the Salesforce Platform",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/object_reference/sforce_api_objects_external_objects.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "More Features Supported by Salesforce Connect",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/apex/HTViewHelpDoc?id=platform.platform_connect_general_considerations.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "General Limits for Salesforce Connect—OData 2.0, 4.0, and 4.01 Adapters",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/apex/HTViewHelpDoc?id=odata_general_limits.htm&language=en_US",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Considerations for Salesforce Connect OData Adapters",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/apex/HTViewHelpDoc?id=platform.odata_considerations.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Data Virtualization — Salesforce Architects",
+          "dcterms:publisher": "Salesforce Architects",
+          "schema:url": "https://architect.salesforce.com/docs/architect/fundamentals/guide/data-virtualization",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Quick Start: Salesforce Connect — Create an Indirect Lookup Relationship",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/projects/quickstart-lightning-connect/quickstart-lightning-connect3",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "GitHub Custom Adapter for Salesforce Connect — Apex Developer Guide",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/api/apex_connector_example_github.htm",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/data-model/external-objects.md",
+      "skos:altLabel": [
+        "external object",
+        "__x object",
+        "__x objects",
+        "virtual objects"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:data-architecture"
+        },
+        {
+          "@id": "kt:salesforce-connect"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:object-relationships"
+        },
+        {
+          "@id": "kt:external-id-fields"
+        },
+        {
+          "@id": "kt:big-objects"
+        },
+        {
+          "@id": "kt:zero-copy-data-federation"
+        },
+        {
+          "@id": "kt:data-integration"
+        }
+      ],
+      "kto:queriedWith": [
+        {
+          "@id": "kt:soql"
+        },
+        {
+          "@id": "kt:sosl"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:apex-callouts"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:named-credentials"
+        }
+      ],
+      "kto:requiresLicense": [
+        {
+          "@id": "kt:salesforce-connect"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:platform-data-architect-certification"
+        }
+      ]
+    },
+    {
       "@id": "kt:junction-object",
       "@type": "kto:Pattern",
       "skos:prefLabel": "Junction Object",
