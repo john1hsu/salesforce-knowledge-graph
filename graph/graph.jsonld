@@ -4517,6 +4517,104 @@
       ]
     },
     {
+      "@id": "kt:apex-callouts",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Apex Callouts",
+      "skos:definition": "The Apex capability for calling external web services or sending HTTP requests from Salesforce, using the Http, HttpRequest and HttpResponse classes or WSDL-generated SOAP classes, subject to per-transaction callout and timeout limits.",
+      "kto:domain": "development",
+      "dcterms:created": "2026-11-04",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Apex Developer Guide: Invoking Callouts Using Apex",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/api/apex_callouts.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Apex Developer Guide: Callout Limits and Limitations",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apex/apex_callouts_timeouts.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Apex Developer Guide: Testing HTTP Callouts by Implementing the HttpCalloutMock Interface",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_classes_restful_http_testing_httpcalloutmock.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Trailhead: Apex REST Callouts (Apex Integration Services)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/en/content/learn/modules/apex_integration_services/apex_integration_rest_callouts",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/development/apex-callouts.md",
+      "skos:altLabel": [
+        "Apex HTTP callout",
+        "HTTP callouts from Apex",
+        "Apex web service callout",
+        "outbound Apex callout"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:apex"
+        },
+        {
+          "@id": "kt:data-integration"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:queueable-apex"
+        },
+        {
+          "@id": "kt:apex-testing"
+        },
+        {
+          "@id": "kt:integration-patterns"
+        },
+        {
+          "@id": "kt:outbound-messaging"
+        },
+        {
+          "@id": "kt:external-objects"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:governor-limits"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:named-credentials"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:remote-site-settings"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:apex-continuations"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:external-services"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:integration-architect-certification"
+        }
+      ]
+    },
+    {
       "@id": "kt:apex-testing",
       "@type": "kto:Feature",
       "skos:prefLabel": "Apex Testing",

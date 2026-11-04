@@ -47,6 +47,35 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/atlas-reasoning-engine> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-callouts> <http://purl.org/dc/terms/created> "2026-11-04" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-callouts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-callouts> <http://www.w3.org/2000/01/rdf-schema#label> "Apex Callouts" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-callouts> <http://www.w3.org/2004/02/skos/core#altLabel> "Apex HTTP callout" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-callouts> <http://www.w3.org/2004/02/skos/core#altLabel> "Apex web service callout" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-callouts> <http://www.w3.org/2004/02/skos/core#altLabel> "HTTP callouts from Apex" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-callouts> <http://www.w3.org/2004/02/skos/core#altLabel> "outbound Apex callout" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-callouts> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-callouts> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-integration> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-callouts> <http://www.w3.org/2004/02/skos/core#definition> "The Apex capability for calling external web services or sending HTTP requests from Salesforce, using the Http, HttpRequest and HttpResponse classes or WSDL-generated SOAP classes, subject to per-transaction callout and timeout limits." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-callouts> <http://www.w3.org/2004/02/skos/core#prefLabel> "Apex Callouts" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-callouts> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-testing> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-callouts> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/external-objects> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-callouts> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-patterns> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-callouts> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/outbound-messaging> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-callouts> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/queueable-apex> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-callouts> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-callouts/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-callouts> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-callouts/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-callouts> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-callouts/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-callouts> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-callouts/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-callouts> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#alternativeTo> <https://github.com/john1hsu/salesforce-knowledge-graph/id/external-services> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-callouts> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/remote-site-settings> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-callouts> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#coveredBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-architect-certification> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-callouts> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/named-credentials> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-callouts> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "development" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-callouts> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#governedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/governor-limits> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-callouts> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-continuations> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-callouts> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-callouts> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-managed-sharing> <http://purl.org/dc/terms/created> "2026-11-03" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-managed-sharing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#SecurityControl> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-managed-sharing> <http://www.w3.org/2000/01/rdf-schema#label> "Apex Managed Sharing" .
@@ -3129,6 +3158,26 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce/s6> <https://schema.org/url> "https://salesforce.com/artificial-intelligence/einstein-ai-assistant" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-callouts/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-callouts/s1> <http://purl.org/dc/terms/title> "Apex Developer Guide: Invoking Callouts Using Apex" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-callouts/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-callouts/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-callouts/s1> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/api/apex_callouts.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-callouts/s2> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-callouts/s2> <http://purl.org/dc/terms/title> "Apex Developer Guide: Callout Limits and Limitations" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-callouts/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-callouts/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-callouts/s2> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apex/apex_callouts_timeouts.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-callouts/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-callouts/s3> <http://purl.org/dc/terms/title> "Apex Developer Guide: Testing HTTP Callouts by Implementing the HttpCalloutMock Interface" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-callouts/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-callouts/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-callouts/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_classes_restful_http_testing_httpcalloutmock.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-callouts/s4> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-callouts/s4> <http://purl.org/dc/terms/title> "Trailhead: Apex REST Callouts (Apex Integration Services)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-callouts/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-callouts/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-callouts/s4> <https://schema.org/url> "https://trailhead.salesforce.com/en/content/learn/modules/apex_integration_services/apex_integration_rest_callouts" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-managed-sharing/s1> <http://purl.org/dc/terms/publisher> "Salesforce" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-managed-sharing/s1> <http://purl.org/dc/terms/title> "Sharing a Record Using Apex (Apex Developer Guide, Winter '27)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-managed-sharing/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

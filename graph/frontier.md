@@ -4,7 +4,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:apex-callouts` | `kt:external-objects`, `kt:queueable-apex`, `kt:integration-patterns`, `kt:outbound-messaging` |
 | `kt:platform-data-architect-certification` | `kt:data-architecture`, `kt:big-objects`, `kt:external-id-fields`, `kt:external-objects` |
 | `kt:system-architect-certification` | `kt:cta-review-board`, `kt:salesforce-architect`, `kt:identity-and-access-management-architect-certification`, `kt:integration-architect-certification` |
 | `kt:api-request-limits` | `kt:composite-api`, `kt:data-integration`, `kt:rest-api` |
@@ -31,6 +30,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:namespace-registry` | `kt:dev-hub`, `kt:second-generation-managed-packages` |
 | `kt:orchestration-work-guide` | `kt:approval-processes`, `kt:flow-orchestrator` |
 | `kt:platform-event-allocations` | `kt:platform-events`, `kt:pub-sub-api` |
+| `kt:remote-site-settings` | `kt:apex-callouts`, `kt:named-credentials` |
 | `kt:salesforce-inc` | `kt:slack-platform`, `kt:tableau` |
 | `kt:sandbox-templates` | `kt:environment-strategy`, `kt:sandbox-types` |
 | `kt:scratch-org-allocations` | `kt:dev-hub`, `kt:scratch-orgs` |
@@ -44,6 +44,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:agentforce-dx` | `kt:agent-development-lifecycle` |
 | `kt:agentforce-studio` | `kt:prompt-builder` |
 | `kt:agentforce-testing-center` | `kt:agent-development-lifecycle` |
+| `kt:apex-continuations` | `kt:apex-callouts` |
 | `kt:apex-flex-queue` | `kt:batch-apex` |
 | `kt:api-led-connectivity` | `kt:mulesoft-anypoint-platform` |
 | `kt:appexchange-security-review` | `kt:code-analyzer` |
@@ -77,6 +78,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:duplicate-management` | `kt:identity-resolution` |
 | `kt:dynamic-revenue-orchestrator` | `kt:revenue-cloud` |
 | `kt:external-identity-license` | `kt:experience-cloud-identity` |
+| `kt:external-services` | `kt:apex-callouts` |
 | `kt:field-history-tracking` | `kt:big-objects` |
 | `kt:field-service-mobile-app` | `kt:field-service` |
 | `kt:field-service-scheduling-policies` | `kt:field-service` |
@@ -120,7 +122,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:public-groups` | `kt:sharing-rules` |
 | `kt:recursive-save` | `kt:order-of-execution` |
 | `kt:remote-call-in` | `kt:integration-patterns` |
-| `kt:remote-site-settings` | `kt:named-credentials` |
 | `kt:revenue-management-consultant-certification` | `kt:revenue-cloud` |
 | `kt:sales-cloud-consultant-certification` | `kt:sales-cloud` |
 | `kt:salesforce-analytics` | `kt:tableau` |
