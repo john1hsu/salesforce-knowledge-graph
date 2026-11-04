@@ -61,6 +61,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:collaborative-forecasts` | `kt:sales-cloud` |
 | `kt:contact-builder` | `kt:marketing-cloud-engagement` |
 | `kt:contacts-to-multiple-accounts` | `kt:person-accounts` |
+| `kt:crm-analytics` | `kt:tableau` |
 | `kt:custom-domains` | `kt:my-domain` |
 | `kt:custom-fields` | `kt:external-id-fields` |
 | `kt:custom-index-limits` | `kt:external-id-fields` |
@@ -119,6 +120,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:remote-site-settings` | `kt:named-credentials` |
 | `kt:revenue-management-consultant-certification` | `kt:revenue-cloud` |
 | `kt:sales-cloud-consultant-certification` | `kt:sales-cloud` |
+| `kt:salesforce-analytics` | `kt:tableau` |
 | `kt:salesforce-apis` | `kt:bulk-api-2` |
 | `kt:salesforce-archive` | `kt:archiving-strategy` |
 | `kt:salesforce-certification-program` | `kt:data-cloud-consultant-certification` |
@@ -127,6 +129,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:salesforce-data-mask` | `kt:environment-strategy` |
 | `kt:salesforce-ecosystem-roles` | `kt:salesforce-architect` |
 | `kt:salesforce-go` | `kt:knowledge-base` |
+| `kt:salesforce-inc` | `kt:tableau` |
 | `kt:salesforce-industries` | `kt:public-sector-solutions` |
 | `kt:salesforce-marketing-solutions` | `kt:marketing-cloud-engagement` |
 | `kt:salesforce-optimizer` | `kt:technical-debt-in-salesforce` |
@@ -144,7 +147,9 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:sosl` | `kt:soql` |
 | `kt:streaming-api` | `kt:pub-sub-api` |
 | `kt:streaming-insights` | `kt:calculated-insights` |
-| `kt:tableau` | `kt:einstein-trust-layer` |
+| `kt:tableau-next` | `kt:tableau` |
+| `kt:tableau-pulse` | `kt:tableau` |
+| `kt:tableau-semantics` | `kt:tableau` |
 | `kt:test-data-factory` | `kt:apex-testing` |
 | `kt:trigger-framework-pattern` | `kt:apex-triggers` |
 | `kt:upsert` | `kt:external-id-fields` |

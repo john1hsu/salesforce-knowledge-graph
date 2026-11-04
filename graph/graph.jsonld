@@ -2393,6 +2393,98 @@
       ]
     },
     {
+      "@id": "kt:tableau",
+      "@type": "kto:Product",
+      "skos:prefLabel": "Tableau",
+      "skos:definition": "Salesforce's analytics and visualization brand, acquired in 2019, spanning the original \"Tableau by Tableau\" portfolio (Desktop, Cloud, Server, Prep, Pulse) and the Salesforce-native Tableau Next platform built on Data 360 with the Tableau Semantics layer and Agentforce skills.",
+      "kto:domain": "clouds-and-products",
+      "dcterms:created": "2026-11-04",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Tableau's Products and Features",
+          "dcterms:publisher": "Tableau (Salesforce)",
+          "schema:url": "https://help.tableau.com/current/online/en-us/tableau_next_tableau_product_overview.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Tableau Next Features Overview",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/analytics/tableau-next-isv-dev/guide/tn-features-overview.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Redefine Data Analytics with Tableau Next (Tableau Next Quick Look)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/tableau-next-quick-look/redefine-data-analytics-with-tableau-next",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Technical Considerations for Migrating from Tableau Server to Tableau Cloud",
+          "dcterms:publisher": "Tableau (Salesforce)",
+          "schema:url": "https://help.tableau.com/current/server/en-us/migrate_server_to_cloud_overview.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Salesforce Completes Exchange Offer for Tableau Common Stock",
+          "dcterms:publisher": "Salesforce Investor Relations",
+          "schema:url": "https://investor.salesforce.com/news/news-details/2019/Salesforce-Completes-Exchange-Offer-for-Tableau-Common-Stock/default.aspx",
+          "kto:sourceType": "news"
+        }
+      ],
+      "kto:file": "articles/clouds-and-products/tableau.md",
+      "skos:altLabel": [
+        "Tableau Software",
+        "Tableau by Tableau"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-analytics"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:data-cloud"
+        },
+        {
+          "@id": "kt:agentforce"
+        },
+        {
+          "@id": "kt:sales-cloud"
+        },
+        {
+          "@id": "kt:service-cloud"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:tableau-next"
+        },
+        {
+          "@id": "kt:tableau-pulse"
+        },
+        {
+          "@id": "kt:tableau-semantics"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:einstein-trust-layer"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:crm-analytics"
+        }
+      ],
+      "kto:acquiredBy": [
+        {
+          "@id": "kt:salesforce-inc"
+        }
+      ]
+    },
+    {
       "@id": "kt:agent-development-lifecycle",
       "@type": "kto:Concept",
       "skos:prefLabel": "Agent Development Lifecycle",
