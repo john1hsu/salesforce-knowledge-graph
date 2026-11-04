@@ -39,6 +39,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:soap-api` | `kt:external-id-fields`, `kt:rest-api` |
 | `kt:standard-objects` | `kt:data-model-objects`, `kt:person-accounts` |
 | `kt:tooling-api` | `kt:source-tracking`, `kt:restriction-rules` |
+| `kt:transaction-control` | `kt:flow-fault-handling`, `kt:record-locking` |
 | `kt:zero-copy-data-federation` | `kt:data-cloud-consultant-certification`, `kt:data-cloud` |
 | `kt:account-takeover` | `kt:multi-factor-authentication` |
 | `kt:agent-script` | `kt:agentforce` |
@@ -145,7 +146,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:streaming-insights` | `kt:calculated-insights` |
 | `kt:tableau` | `kt:einstein-trust-layer` |
 | `kt:test-data-factory` | `kt:apex-testing` |
-| `kt:transaction-control` | `kt:record-locking` |
 | `kt:trigger-framework-pattern` | `kt:apex-triggers` |
 | `kt:upsert` | `kt:external-id-fields` |
 | `kt:wcag` | `kt:section-508-accessibility` |

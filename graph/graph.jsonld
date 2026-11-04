@@ -1026,6 +1026,92 @@
       ]
     },
     {
+      "@id": "kt:flow-fault-handling",
+      "@type": "kto:Pattern",
+      "skos:prefLabel": "Flow Fault Handling",
+      "skos:definition": "The practice of routing a failing Flow Builder element down a fault connector (fault path) to recover, notify or log, using $Flow.FaultMessage, Roll Back Records and Custom Error to control what is saved and what the user sees.",
+      "kto:domain": "automation",
+      "dcterms:created": "2026-11-04",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Flow Implementation 2: Roll Back Changes After an Error",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/flow-implementation-2/roll-back-changes-after-an-error",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Other Examples of Error Handling in Flows",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=platform.flow_build_logic_fault_examples.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Troubleshooting Flow Run Time Errors",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=sf.flow_troubleshoot_email.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Flow Scanner Rules Reference (Salesforce Code Analyzer)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/salesforce-code-analyzer/guide/rules-flow.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "The Ultimate Guide to Flow Best Practices and Standards",
+          "dcterms:publisher": "Salesforce Admins Blog",
+          "schema:url": "https://admin.salesforce.com/blog/2021/the-ultimate-guide-to-flow-best-practices-and-standards",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/automation/flow-fault-handling.md",
+      "skos:altLabel": [
+        "flow fault path",
+        "fault connector",
+        "flow error handling",
+        "$Flow.FaultMessage"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:flow-builder"
+        },
+        {
+          "@id": "kt:process-automation"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:record-triggered-flow"
+        },
+        {
+          "@id": "kt:screen-flow"
+        },
+        {
+          "@id": "kt:autolaunched-flow"
+        },
+        {
+          "@id": "kt:transaction-control"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:governor-limits"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:code-analyzer"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:order-of-execution"
+        }
+      ]
+    },
+    {
       "@id": "kt:flow-orchestrator",
       "@type": "kto:Feature",
       "skos:prefLabel": "Flow Orchestrator",
