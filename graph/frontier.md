@@ -32,6 +32,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:namespace-registry` | `kt:dev-hub`, `kt:second-generation-managed-packages` |
 | `kt:orchestration-work-guide` | `kt:approval-processes`, `kt:flow-orchestrator` |
 | `kt:platform-event-allocations` | `kt:platform-events`, `kt:pub-sub-api` |
+| `kt:salesforce-inc` | `kt:slack-platform`, `kt:tableau` |
 | `kt:sandbox-templates` | `kt:environment-strategy`, `kt:sandbox-types` |
 | `kt:scratch-org-allocations` | `kt:dev-hub`, `kt:scratch-orgs` |
 | `kt:soap-api` | `kt:external-id-fields`, `kt:rest-api` |
@@ -52,6 +53,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:aura-components` | `kt:lightning-web-components` |
 | `kt:automation-studio` | `kt:marketing-cloud-engagement` |
 | `kt:backup-and-recover` | `kt:archiving-strategy` |
+| `kt:block-kit` | `kt:slack-platform` |
 | `kt:bulk-api-1` | `kt:bulk-api-2` |
 | `kt:bulk-api-allocations` | `kt:bulk-api-2` |
 | `kt:business-rules-engine` | `kt:public-sector-solutions` |
@@ -64,6 +66,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:custom-fields` | `kt:external-id-fields` |
 | `kt:custom-index-limits` | `kt:external-id-fields` |
 | `kt:custom-settings` | `kt:custom-metadata-types` |
+| `kt:customer-360` | `kt:slack-platform` |
 | `kt:data-categories` | `kt:knowledge-base` |
 | `kt:data-cloud-limits` | `kt:calculated-insights` |
 | `kt:data-cloud-segmentation` | `kt:calculated-insights` |
@@ -98,6 +101,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:marketing-cloud-connect` | `kt:marketing-cloud-engagement` |
 | `kt:marketing-cloud-next` | `kt:marketing-cloud-engagement` |
 | `kt:mule-runtime-engine` | `kt:mulesoft-anypoint-platform` |
+| `kt:mulesoft-composer` | `kt:slack-platform` |
 | `kt:nist-digital-identity-guidelines` | `kt:multi-factor-authentication` |
 | `kt:nist-sp-800-53b` | `kt:nist-sp-800-53` |
 | `kt:omni-channel-limits` | `kt:omni-channel` |
@@ -128,7 +132,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:salesforce-data-mask` | `kt:environment-strategy` |
 | `kt:salesforce-ecosystem-roles` | `kt:salesforce-architect` |
 | `kt:salesforce-go` | `kt:knowledge-base` |
-| `kt:salesforce-inc` | `kt:tableau` |
 | `kt:salesforce-industries` | `kt:public-sector-solutions` |
 | `kt:salesforce-marketing-solutions` | `kt:marketing-cloud-engagement` |
 | `kt:salesforce-optimizer` | `kt:technical-debt-in-salesforce` |
@@ -142,6 +145,8 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:session-security-levels` | `kt:multi-factor-authentication` |
 | `kt:skills-based-routing` | `kt:omni-channel` |
 | `kt:skinny-tables` | `kt:large-data-volumes` |
+| `kt:slack-api-rate-limits` | `kt:slack-platform` |
+| `kt:slack-workflow-builder` | `kt:slack-platform` |
 | `kt:soql-injection` | `kt:code-analyzer` |
 | `kt:streaming-api` | `kt:pub-sub-api` |
 | `kt:streaming-insights` | `kt:calculated-insights` |

@@ -2482,6 +2482,105 @@
       ]
     },
     {
+      "@id": "kt:slack-platform",
+      "@type": "kto:Product",
+      "skos:prefLabel": "Slack Platform",
+      "skos:definition": "The developer platform of Slack, the collaboration product Salesforce acquired in 2021: apps built with Bolt and the Slack SDKs call the Web API, receive events, and render Block Kit UI on Slack surfaces, and Salesforce connects to it through the Salesforce for Slack app, Flow actions and the beta Apex SDK for Slack.",
+      "kto:domain": "clouds-and-products",
+      "dcterms:created": "2026-11-04",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Slack platform overview",
+          "dcterms:publisher": "Slack (Salesforce)",
+          "schema:url": "https://docs.slack.dev/concepts/overview",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Rate limits",
+          "dcterms:publisher": "Slack (Salesforce)",
+          "schema:url": "https://docs.slack.dev/apis/web-api/rate-limits",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Build Slack Apps with Bolt (Choose Your Slack Development Path)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/zh-CN/content/learn/modules/choose-your-slack-development-path/build-slack-apps-with-bolt",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Build Slack Apps (Apex SDK for Slack)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/salesforce-slack-sdk/guide/build.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "How Admins Can Connect Salesforce and Slack",
+          "dcterms:publisher": "Salesforce Admins",
+          "schema:url": "https://admin.salesforce.com/blog/2021/how-admins-can-connect-salesforce-and-slack",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "FAQ: Salesforce Completes Slack Acquisition",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/news/wp-json/wp/v2/posts/49205",
+          "kto:sourceType": "news"
+        }
+      ],
+      "kto:file": "articles/clouds-and-products/slack-platform.md",
+      "skos:altLabel": [
+        "Slack developer platform",
+        "Slack API platform",
+        "Slack apps"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:customer-360"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:flow-builder"
+        },
+        {
+          "@id": "kt:agentforce"
+        },
+        {
+          "@id": "kt:apex"
+        },
+        {
+          "@id": "kt:sales-cloud"
+        },
+        {
+          "@id": "kt:service-cloud"
+        }
+      ],
+      "kto:acquiredBy": [
+        {
+          "@id": "kt:salesforce-inc"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:block-kit"
+        },
+        {
+          "@id": "kt:slack-workflow-builder"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:mulesoft-composer"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:slack-api-rate-limits"
+        }
+      ]
+    },
+    {
       "@id": "kt:tableau",
       "@type": "kto:Product",
       "skos:prefLabel": "Tableau",
