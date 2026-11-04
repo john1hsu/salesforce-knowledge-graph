@@ -493,6 +493,35 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/connected-apps> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#replacedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/external-client-apps> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/connected-apps> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/connected-apps> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-metadata-types> <http://purl.org/dc/terms/created> "2026-11-04" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-metadata-types> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#MetadataType> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-metadata-types> <http://www.w3.org/2000/01/rdf-schema#label> "Custom Metadata Types" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-metadata-types> <http://www.w3.org/2004/02/skos/core#altLabel> "CMDT" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-metadata-types> <http://www.w3.org/2004/02/skos/core#altLabel> "CMT" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-metadata-types> <http://www.w3.org/2004/02/skos/core#altLabel> "__mdt" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-metadata-types> <http://www.w3.org/2004/02/skos/core#altLabel> "custom metadata records" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-metadata-types> <http://www.w3.org/2004/02/skos/core#altLabel> "custom metadata" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-metadata-types> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-driven-architecture> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-metadata-types> <http://www.w3.org/2004/02/skos/core#definition> "Customizable, deployable application configuration on the Salesforce Platform: a type with the __mdt suffix defines the shape of configuration, and its records are themselves metadata, so they travel with packages, change sets and the Metadata API instead of being reloaded as data." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-metadata-types> <http://www.w3.org/2004/02/skos/core#prefLabel> "Custom Metadata Types" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-metadata-types> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-metadata-types> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/change-sets> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-metadata-types> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-builder> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-metadata-types> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-metadata-types> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/second-generation-managed-packages> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-metadata-types> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-metadata-types/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-metadata-types> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-metadata-types/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-metadata-types> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-metadata-types/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-metadata-types> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-metadata-types/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-metadata-types> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-metadata-types/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-metadata-types> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-metadata-types/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-metadata-types> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#alternativeTo> <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-settings> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-metadata-types> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-metadata-types> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "development" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-metadata-types> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#governedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/governor-limits> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-metadata-types> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/soql> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-metadata-types> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-metadata-types> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-architecture> <http://purl.org/dc/terms/created> "2026-11-02" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-architecture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-architecture> <http://www.w3.org/2000/01/rdf-schema#label> "Data Architecture" .
@@ -3091,6 +3120,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/connected-apps/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/connected-apps/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "standards-body" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/connected-apps/s5> <https://schema.org/url> "https://rfc-editor.org/rfc/rfc6749" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-metadata-types/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-metadata-types/s1> <http://purl.org/dc/terms/title> "Custom Metadata Types: Get Started with Custom Metadata Types" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-metadata-types/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-metadata-types/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-metadata-types/s1> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/custom_metadata_types_dec/cmt_overview" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-metadata-types/s2> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-metadata-types/s2> <http://purl.org/dc/terms/title> "Custom Metadata Types (overview)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-metadata-types/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-metadata-types/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-metadata-types/s2> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=sf.custommetadatatypes_overview.htm&type=5&language=en_US" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-metadata-types/s3> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-metadata-types/s3> <http://purl.org/dc/terms/title> "Custom Metadata Allocations and Usage Calculations" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-metadata-types/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-metadata-types/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-metadata-types/s3> <https://schema.org/url> "https://help.salesforce.com/s/articleView?language=en_US&id=sf.custommetadatatypes_limits.htm&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-metadata-types/s4> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-metadata-types/s4> <http://purl.org/dc/terms/title> "Custom Metadata Types Limitations" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-metadata-types/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-metadata-types/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-metadata-types/s4> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=platform.custommetadatatypes_limitations.htm&language=en_US&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-metadata-types/s5> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-metadata-types/s5> <http://purl.org/dc/terms/title> "Protection and Privacy Options for Custom Metadata Types" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-metadata-types/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-metadata-types/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-metadata-types/s5> <https://schema.org/url> "https://help.salesforce.com/s/articleView?language=en_US&id=platform.custommetadatatypes_protection.htm&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-metadata-types/s6> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-metadata-types/s6> <http://purl.org/dc/terms/title> "Custom Metadata Types: Use Custom Metadata Types in Formulas, Default Values, and Validation Rules" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-metadata-types/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-metadata-types/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-metadata-types/s6> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/custom_metadata_types_dec/cmt_formulas" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-architecture/s1> <http://purl.org/dc/terms/publisher> "Salesforce Architects" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-architecture/s1> <http://purl.org/dc/terms/title> "Data Integration Decision Guide" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-architecture/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

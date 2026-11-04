@@ -4015,6 +4015,104 @@
       ]
     },
     {
+      "@id": "kt:custom-metadata-types",
+      "@type": "kto:MetadataType",
+      "skos:prefLabel": "Custom Metadata Types",
+      "skos:definition": "Customizable, deployable application configuration on the Salesforce Platform: a type with the __mdt suffix defines the shape of configuration, and its records are themselves metadata, so they travel with packages, change sets and the Metadata API instead of being reloaded as data.",
+      "kto:domain": "development",
+      "dcterms:created": "2026-11-04",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Custom Metadata Types: Get Started with Custom Metadata Types",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/custom_metadata_types_dec/cmt_overview",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Custom Metadata Types (overview)",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=sf.custommetadatatypes_overview.htm&type=5&language=en_US",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Custom Metadata Allocations and Usage Calculations",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=sf.custommetadatatypes_limits.htm&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Custom Metadata Types Limitations",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=platform.custommetadatatypes_limitations.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Protection and Privacy Options for Custom Metadata Types",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=platform.custommetadatatypes_protection.htm&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Custom Metadata Types: Use Custom Metadata Types in Formulas, Default Values, and Validation Rules",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/custom_metadata_types_dec/cmt_formulas",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/development/custom-metadata-types.md",
+      "skos:altLabel": [
+        "custom metadata",
+        "__mdt",
+        "CMT",
+        "CMDT",
+        "custom metadata records"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:metadata-driven-architecture"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:apex"
+        },
+        {
+          "@id": "kt:metadata-api"
+        },
+        {
+          "@id": "kt:change-sets"
+        },
+        {
+          "@id": "kt:second-generation-managed-packages"
+        },
+        {
+          "@id": "kt:flow-builder"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:custom-settings"
+        }
+      ],
+      "kto:queriedWith": [
+        {
+          "@id": "kt:soql"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:metadata-api"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:governor-limits"
+        }
+      ]
+    },
+    {
       "@id": "kt:lightning-web-components",
       "@type": "kto:Feature",
       "skos:prefLabel": "Lightning Web Components",

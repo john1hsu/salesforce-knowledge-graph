@@ -4,9 +4,9 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
+| `kt:metadata-driven-architecture` | `kt:record-types`, `kt:custom-metadata-types`, `kt:multitenancy`, `kt:salesforce-platform` |
 | `kt:rest-api` | `kt:external-id-fields`, `kt:bulk-api-2`, `kt:composite-api`, `kt:composite-api` |
 | `kt:implicit-sharing` | `kt:enterprise-territory-management`, `kt:role-hierarchy`, `kt:salesforce-sharing-model` |
-| `kt:metadata-driven-architecture` | `kt:record-types`, `kt:multitenancy`, `kt:salesforce-platform` |
 | `kt:mulesoft-anypoint-platform` | `kt:flow-orchestrator`, `kt:event-driven-architecture`, `kt:government-cloud-plus` |
 | `kt:process-builder` | `kt:flow-builder`, `kt:record-triggered-flow`, `kt:workflow-rules` |
 | `kt:query-optimizer-selectivity` | `kt:soql`, `kt:large-data-volumes`, `kt:multitenancy` |
@@ -64,6 +64,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:custom-domains` | `kt:my-domain` |
 | `kt:custom-fields` | `kt:external-id-fields` |
 | `kt:custom-index-limits` | `kt:external-id-fields` |
+| `kt:custom-settings` | `kt:custom-metadata-types` |
 | `kt:data-categories` | `kt:knowledge-base` |
 | `kt:data-cloud-limits` | `kt:calculated-insights` |
 | `kt:data-cloud-segmentation` | `kt:calculated-insights` |
