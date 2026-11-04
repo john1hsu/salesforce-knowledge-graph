@@ -7185,6 +7185,110 @@
       ]
     },
     {
+      "@id": "kt:rest-api",
+      "@type": "kto:API",
+      "skos:prefLabel": "REST API",
+      "skos:definition": "Salesforce's synchronous, resource-oriented HTTP interface for org data and metadata, reached under /services/data/vXX.X/ with OAuth 2.0 bearer tokens and JSON or XML payloads; the default API for web, mobile and record-at-a-time integrations.",
+      "kto:domain": "integration",
+      "dcterms:created": "2026-11-04",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "REST Resources and Requests (REST API Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/api-rest/guide/intro-rest-resources.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Quick Start (REST API Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/quickstart.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Limits (REST API Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/api-rest/guide/resources-limits.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Which API Do I Use?",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/apex/HTViewHelpDoc?id=integrate_what_is_api.htm&language=en_US",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Get to Know the Salesforce Platform APIs (API Basics)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/en/modules/api_basics/units/api_basics_overview",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Use REST API (API Basics)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/api_basics/api_basics_rest",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/integration/rest-api.md",
+      "skos:altLabel": [
+        "Salesforce REST API",
+        "Lightning Platform REST API",
+        "Force.com REST API",
+        "sObject REST API"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:data-integration"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:connected-apps"
+        },
+        {
+          "@id": "kt:external-client-apps"
+        },
+        {
+          "@id": "kt:pub-sub-api"
+        },
+        {
+          "@id": "kt:metadata-api"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:composite-api"
+        }
+      ],
+      "kto:queriedWith": [
+        {
+          "@id": "kt:soql"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:oauth-2-0"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:bulk-api-2"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:soap-api"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:api-request-limits"
+        }
+      ]
+    },
+    {
       "@id": "kt:governor-limits",
       "@type": "kto:Limit",
       "skos:prefLabel": "Governor Limits",
