@@ -2987,6 +2987,97 @@
       ]
     },
     {
+      "@id": "kt:external-id-fields",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "External ID Fields",
+      "skos:definition": "A custom text, number or email field flagged with the External ID attribute so it holds a record's key from another system, is indexed, and can be used to match records in upserts and to set relationships without Salesforce IDs.",
+      "kto:domain": "data-model",
+      "dcterms:created": "2026-11-04",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "How Many External ID Fields Can I Create Per Object in Salesforce",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/apex/HTViewSolution?id=000005081",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "upsert() — SOAP API Developer Guide",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api.meta/api/sforce_api_calls_upsert.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Insert or Update (Upsert) a Record Using an External ID — REST API Developer Guide",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/api-rest/guide/dome-upsert.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Custom Fields — Object Reference for the Salesforce Platform (API 68.0)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.264.0.object_reference.meta/object_reference/custom_fields.htm",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/data-model/external-id-fields.md",
+      "skos:altLabel": [
+        "external ID",
+        "external id field",
+        "External ID attribute",
+        "externalIdFieldName"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:custom-fields"
+        },
+        {
+          "@id": "kt:data-integration"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:data-migration-strategy"
+        },
+        {
+          "@id": "kt:bulk-api-2"
+        },
+        {
+          "@id": "kt:composite-api"
+        },
+        {
+          "@id": "kt:object-relationships"
+        },
+        {
+          "@id": "kt:large-data-volumes"
+        }
+      ],
+      "kto:queriedWith": [
+        {
+          "@id": "kt:rest-api"
+        },
+        {
+          "@id": "kt:soap-api"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:custom-index-limits"
+        }
+      ],
+      "kto:enables": [
+        {
+          "@id": "kt:upsert"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:platform-data-architect-certification"
+        }
+      ]
+    },
+    {
       "@id": "kt:junction-object",
       "@type": "kto:Pattern",
       "skos:prefLabel": "Junction Object",

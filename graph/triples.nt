@@ -944,6 +944,34 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/external-client-apps> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#replaces> <https://github.com/john1hsu/salesforce-knowledge-graph/id/connected-apps> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/external-client-apps> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/external-client-apps> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-id-fields> <http://purl.org/dc/terms/created> "2026-11-04" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-id-fields> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-id-fields> <http://www.w3.org/2000/01/rdf-schema#label> "External ID Fields" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-id-fields> <http://www.w3.org/2004/02/skos/core#altLabel> "External ID attribute" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-id-fields> <http://www.w3.org/2004/02/skos/core#altLabel> "external ID" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-id-fields> <http://www.w3.org/2004/02/skos/core#altLabel> "external id field" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-id-fields> <http://www.w3.org/2004/02/skos/core#altLabel> "externalIdFieldName" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-id-fields> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-fields> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-id-fields> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-integration> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-id-fields> <http://www.w3.org/2004/02/skos/core#definition> "A custom text, number or email field flagged with the External ID attribute so it holds a record's key from another system, is indexed, and can be used to match records in upserts and to set relationships without Salesforce IDs." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-id-fields> <http://www.w3.org/2004/02/skos/core#prefLabel> "External ID Fields" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-id-fields> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/bulk-api-2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-id-fields> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/composite-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-id-fields> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-migration-strategy> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-id-fields> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/large-data-volumes> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-id-fields> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/object-relationships> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-id-fields> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-id-fields/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-id-fields> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-id-fields/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-id-fields> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-id-fields/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-id-fields> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-id-fields/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-id-fields> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#coveredBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-data-architect-certification> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-id-fields> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "data-model" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-id-fields> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#enables> <https://github.com/john1hsu/salesforce-knowledge-graph/id/upsert> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-id-fields> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#governedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-index-limits> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-id-fields> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/rest-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-id-fields> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/soap-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-id-fields> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-id-fields> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/fedramp-high> <http://purl.org/dc/terms/created> "2026-11-03" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/fedramp-high> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#ExternalConcept> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/fedramp-high> <http://www.w3.org/2000/01/rdf-schema#label> "FedRAMP High" .
@@ -3518,6 +3546,26 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-client-apps/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-client-apps/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-client-apps/s6> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.264.0.api_meta.meta/api_meta/meta_extlclntappoauthsettings.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-id-fields/s1> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-id-fields/s1> <http://purl.org/dc/terms/title> "How Many External ID Fields Can I Create Per Object in Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-id-fields/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-id-fields/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-id-fields/s1> <https://schema.org/url> "https://help.salesforce.com/apex/HTViewSolution?id=000005081" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-id-fields/s2> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-id-fields/s2> <http://purl.org/dc/terms/title> "upsert() — SOAP API Developer Guide" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-id-fields/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-id-fields/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-id-fields/s2> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.api.meta/api/sforce_api_calls_upsert.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-id-fields/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-id-fields/s3> <http://purl.org/dc/terms/title> "Insert or Update (Upsert) a Record Using an External ID — REST API Developer Guide" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-id-fields/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-id-fields/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-id-fields/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/api-rest/guide/dome-upsert.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-id-fields/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-id-fields/s4> <http://purl.org/dc/terms/title> "Custom Fields — Object Reference for the Salesforce Platform (API 68.0)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-id-fields/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-id-fields/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-id-fields/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.264.0.object_reference.meta/object_reference/custom_fields.htm" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fedramp-high/s1> <http://purl.org/dc/terms/publisher> "FedRAMP (GSA)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fedramp-high/s1> <http://purl.org/dc/terms/title> "Understanding Baselines and Impact Levels for FedRAMP Authorizations" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fedramp-high/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

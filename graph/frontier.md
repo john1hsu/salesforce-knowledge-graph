@@ -4,17 +4,17 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:external-id-fields` | `kt:data-migration-strategy`, `kt:bulk-api-2`, `kt:composite-api` |
+| `kt:rest-api` | `kt:external-id-fields`, `kt:bulk-api-2`, `kt:composite-api`, `kt:composite-api` |
 | `kt:implicit-sharing` | `kt:enterprise-territory-management`, `kt:role-hierarchy`, `kt:salesforce-sharing-model` |
 | `kt:metadata-driven-architecture` | `kt:record-types`, `kt:multitenancy`, `kt:salesforce-platform` |
 | `kt:mulesoft-anypoint-platform` | `kt:flow-orchestrator`, `kt:event-driven-architecture`, `kt:government-cloud-plus` |
 | `kt:process-builder` | `kt:flow-builder`, `kt:record-triggered-flow`, `kt:workflow-rules` |
 | `kt:query-optimizer-selectivity` | `kt:soql`, `kt:large-data-volumes`, `kt:multitenancy` |
 | `kt:queues` | `kt:approval-processes`, `kt:omni-channel`, `kt:service-cloud` |
-| `kt:rest-api` | `kt:bulk-api-2`, `kt:composite-api`, `kt:composite-api` |
 | `kt:solution-design-tradeoffs` | `kt:salesforce-architect`, `kt:technical-debt-in-salesforce`, `kt:well-architected-framework` |
 | `kt:application-architect-certification` | `kt:salesforce-architect`, `kt:sharing-and-visibility-architect-certification` |
 | `kt:business-processes` | `kt:record-types`, `kt:record-types` |
+| `kt:data-integration` | `kt:external-id-fields`, `kt:bulk-api-2` |
 | `kt:entitlement-management` | `kt:field-service`, `kt:service-cloud` |
 | `kt:experience-builder` | `kt:experience-cloud`, `kt:experience-cloud-identity` |
 | `kt:external-objects` | `kt:object-relationships`, `kt:restriction-rules` |
@@ -27,6 +27,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:lightning-data-service` | `kt:lightning-web-components`, `kt:lightning-web-components` |
 | `kt:namespace-registry` | `kt:dev-hub`, `kt:second-generation-managed-packages` |
 | `kt:orchestration-work-guide` | `kt:approval-processes`, `kt:flow-orchestrator` |
+| `kt:platform-data-architect-certification` | `kt:data-architecture`, `kt:external-id-fields` |
 | `kt:platform-event-allocations` | `kt:platform-events`, `kt:pub-sub-api` |
 | `kt:queueable-apex` | `kt:asynchronous-apex`, `kt:batch-apex` |
 | `kt:salesforce-architecture-center` | `kt:salesforce-architect`, `kt:well-architected-framework` |
@@ -61,10 +62,11 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:contacts-to-multiple-accounts` | `kt:person-accounts` |
 | `kt:cta-review-board` | `kt:salesforce-architect` |
 | `kt:custom-domains` | `kt:my-domain` |
+| `kt:custom-fields` | `kt:external-id-fields` |
+| `kt:custom-index-limits` | `kt:external-id-fields` |
 | `kt:data-categories` | `kt:knowledge-base` |
 | `kt:data-cloud-limits` | `kt:calculated-insights` |
 | `kt:data-cloud-segmentation` | `kt:calculated-insights` |
-| `kt:data-integration` | `kt:bulk-api-2` |
 | `kt:data-lake-objects` | `kt:data-model-objects` |
 | `kt:data-loader` | `kt:bulk-api-2` |
 | `kt:data-sovereignty` | `kt:data-residency` |
@@ -108,7 +110,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:page-layouts` | `kt:record-types` |
 | `kt:permission-sets` | `kt:named-credentials` |
 | `kt:platform-as-a-service` | `kt:salesforce-platform` |
-| `kt:platform-data-architect-certification` | `kt:data-architecture` |
 | `kt:platform-event-channel-member` | `kt:change-data-capture` |
 | `kt:presence-configuration` | `kt:omni-channel` |
 | `kt:product-configurator` | `kt:revenue-cloud` |
@@ -139,6 +140,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:session-security-levels` | `kt:multi-factor-authentication` |
 | `kt:skills-based-routing` | `kt:omni-channel` |
 | `kt:skinny-tables` | `kt:large-data-volumes` |
+| `kt:soap-api` | `kt:external-id-fields` |
 | `kt:soql-injection` | `kt:code-analyzer` |
 | `kt:sosl` | `kt:soql` |
 | `kt:streaming-api` | `kt:pub-sub-api` |
@@ -147,5 +149,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:test-data-factory` | `kt:apex-testing` |
 | `kt:transaction-control` | `kt:record-locking` |
 | `kt:trigger-framework-pattern` | `kt:apex-triggers` |
+| `kt:upsert` | `kt:external-id-fields` |
 | `kt:wcag` | `kt:section-508-accessibility` |
 | `kt:work-orders` | `kt:field-service` |
