@@ -7,6 +7,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:mulesoft-anypoint-platform` | `kt:flow-orchestrator`, `kt:data-integration`, `kt:event-driven-architecture`, `kt:government-cloud-plus` |
 | `kt:salesforce-architecture-center` | `kt:cta-review-board`, `kt:salesforce-architect`, `kt:solution-design-tradeoffs`, `kt:well-architected-framework` |
 | `kt:salesforce-connect` | `kt:external-objects`, `kt:external-objects`, `kt:data-integration`, `kt:named-credentials` |
+| `kt:apex-callouts` | `kt:external-objects`, `kt:queueable-apex`, `kt:outbound-messaging` |
 | `kt:api-request-limits` | `kt:composite-api`, `kt:data-integration`, `kt:rest-api` |
 | `kt:application-architect-certification` | `kt:cta-review-board`, `kt:salesforce-architect`, `kt:sharing-and-visibility-architect-certification` |
 | `kt:certified-technical-architect` | `kt:cta-review-board`, `kt:salesforce-architect`, `kt:solution-design-tradeoffs` |
@@ -18,13 +19,13 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:queues` | `kt:approval-processes`, `kt:omni-channel`, `kt:service-cloud` |
 | `kt:system-architect-certification` | `kt:cta-review-board`, `kt:salesforce-architect`, `kt:identity-and-access-management-architect-certification` |
 | `kt:zero-copy-data-federation` | `kt:data-cloud-consultant-certification`, `kt:data-cloud`, `kt:external-objects` |
-| `kt:apex-callouts` | `kt:external-objects`, `kt:outbound-messaging` |
 | `kt:big-objects` | `kt:archiving-strategy`, `kt:external-objects` |
 | `kt:business-processes` | `kt:record-types`, `kt:record-types` |
 | `kt:entitlement-management` | `kt:field-service`, `kt:service-cloud` |
 | `kt:experience-builder` | `kt:experience-cloud`, `kt:experience-cloud-identity` |
 | `kt:fips-199` | `kt:fedramp-high`, `kt:fedramp` |
 | `kt:flow-trigger-explorer` | `kt:record-triggered-flow`, `kt:order-of-execution` |
+| `kt:future-methods` | `kt:asynchronous-apex`, `kt:queueable-apex` |
 | `kt:group-membership-locking` | `kt:enterprise-territory-management`, `kt:sharing-recalculation` |
 | `kt:headless-identity` | `kt:experience-cloud-identity`, `kt:salesforce-identity` |
 | `kt:integration-patterns` | `kt:cta-review-board`, `kt:event-driven-architecture` |
@@ -33,7 +34,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:namespace-registry` | `kt:dev-hub`, `kt:second-generation-managed-packages` |
 | `kt:orchestration-work-guide` | `kt:approval-processes`, `kt:flow-orchestrator` |
 | `kt:platform-event-allocations` | `kt:platform-events`, `kt:pub-sub-api` |
-| `kt:queueable-apex` | `kt:asynchronous-apex`, `kt:batch-apex` |
 | `kt:sandbox-templates` | `kt:environment-strategy`, `kt:sandbox-types` |
 | `kt:scratch-org-allocations` | `kt:dev-hub`, `kt:scratch-orgs` |
 | `kt:security-compliance-frameworks` | `kt:dod-cloud-computing-srg`, `kt:fedramp` |
@@ -82,7 +82,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:field-service-scheduling-policies` | `kt:field-service` |
 | `kt:financial-services-cloud` | `kt:person-accounts` |
 | `kt:first-generation-managed-packages` | `kt:second-generation-managed-packages` |
-| `kt:future-methods` | `kt:asynchronous-apex` |
 | `kt:gdpr-international-transfers` | `kt:data-residency` |
 | `kt:government-cloud` | `kt:government-cloud-plus` |
 | `kt:hyperforce-operating-zones` | `kt:data-residency` |
@@ -151,6 +150,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:tableau-pulse` | `kt:tableau` |
 | `kt:tableau-semantics` | `kt:tableau` |
 | `kt:test-data-factory` | `kt:apex-testing` |
+| `kt:transaction-finalizers` | `kt:queueable-apex` |
 | `kt:trigger-framework-pattern` | `kt:apex-triggers` |
 | `kt:upsert` | `kt:external-id-fields` |
 | `kt:wcag` | `kt:section-508-accessibility` |

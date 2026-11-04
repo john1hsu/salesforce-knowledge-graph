@@ -4667,6 +4667,83 @@
       ]
     },
     {
+      "@id": "kt:queueable-apex",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Queueable Apex",
+      "skos:definition": "An asynchronous Apex mode in which a class implementing the Queueable interface is submitted with System.enqueueJob, returning a trackable job ID and supporting complex member state, chaining, delays, duplicate detection and finalizers.",
+      "kto:domain": "development",
+      "dcterms:created": "2026-11-04",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Apex Developer Guide: Queueable Apex",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apex/apex_queueing_jobs.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Apex Developer Guide: Transaction Finalizers",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_transaction_finalizers.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Apex Developer Guide: Detecting Duplicate Queueable Jobs",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apex/apex_dedupe_queueable.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Trailhead: Control Processes with Queueable Apex",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/asynchronous_apex/async_apex_queueable",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/development/queueable-apex.md",
+      "skos:altLabel": [
+        "Queueable interface",
+        "System.enqueueJob",
+        "Queueable job",
+        "queueables"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:asynchronous-apex"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:apex-callouts"
+        },
+        {
+          "@id": "kt:apex-testing"
+        },
+        {
+          "@id": "kt:apex-triggers"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:governor-limits"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:batch-apex"
+        },
+        {
+          "@id": "kt:future-methods"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:transaction-finalizers"
+        }
+      ]
+    },
+    {
       "@id": "kt:soql",
       "@type": "kto:Language",
       "skos:prefLabel": "SOQL",
