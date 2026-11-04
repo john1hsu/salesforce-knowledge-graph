@@ -2240,6 +2240,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/public-sector-solutions> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/public-sector-solutions> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/public-sector-solutions> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/query-optimizer-selectivity> <http://purl.org/dc/terms/created> "2026-11-04" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/query-optimizer-selectivity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/query-optimizer-selectivity> <http://www.w3.org/2000/01/rdf-schema#label> "Query Optimizer Selectivity" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/query-optimizer-selectivity> <http://www.w3.org/2004/02/skos/core#altLabel> "Force.com query optimizer" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/query-optimizer-selectivity> <http://www.w3.org/2004/02/skos/core#altLabel> "Lightning Platform Query Optimizer" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/query-optimizer-selectivity> <http://www.w3.org/2004/02/skos/core#altLabel> "query selectivity" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/query-optimizer-selectivity> <http://www.w3.org/2004/02/skos/core#altLabel> "selective SOQL" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/query-optimizer-selectivity> <http://www.w3.org/2004/02/skos/core#altLabel> "selective queries" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/query-optimizer-selectivity> <http://www.w3.org/2004/02/skos/core#altLabel> "selectivity thresholds" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/query-optimizer-selectivity> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/large-data-volumes> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/query-optimizer-selectivity> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/multitenancy> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/query-optimizer-selectivity> <http://www.w3.org/2004/02/skos/core#definition> "How Salesforce's own cost-based query optimizer decides whether a filter in a SOQL query, report or list view is selective enough to drive the query through an index, using published percentage thresholds of an object's record count; non-selective filters fall back to full table scans." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/query-optimizer-selectivity> <http://www.w3.org/2004/02/skos/core#prefLabel> "Query Optimizer Selectivity" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/query-optimizer-selectivity> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/batch-apex> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/query-optimizer-selectivity> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-skew> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/query-optimizer-selectivity> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/external-id-fields> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/query-optimizer-selectivity> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/skinny-tables> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/query-optimizer-selectivity> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/soql> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/query-optimizer-selectivity> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/query-optimizer-selectivity/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/query-optimizer-selectivity> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/query-optimizer-selectivity/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/query-optimizer-selectivity> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/query-optimizer-selectivity/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/query-optimizer-selectivity> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/query-optimizer-selectivity/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/query-optimizer-selectivity> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/query-optimizer-selectivity/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/query-optimizer-selectivity> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/query-optimizer-selectivity/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/query-optimizer-selectivity> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#coveredBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-data-architect-certification> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/query-optimizer-selectivity> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "platform-architecture" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/query-optimizer-selectivity> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#partOf> <https://github.com/john1hsu/salesforce-knowledge-graph/id/large-data-volumes> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/query-optimizer-selectivity> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/rest-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/query-optimizer-selectivity> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/query-optimizer-selectivity> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/queueable-apex> <http://purl.org/dc/terms/created> "2026-11-04" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/queueable-apex> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/queueable-apex> <http://www.w3.org/2000/01/rdf-schema#label> "Queueable Apex" .
@@ -5383,6 +5413,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/public-sector-solutions/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/public-sector-solutions/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/public-sector-solutions/s6> <https://schema.org/url> "https://resources.docs.salesforce.com/latest/latest/en-us/sfdc/pdf/admin_public_sector_cloud.pdf" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/query-optimizer-selectivity/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/query-optimizer-selectivity/s1> <http://purl.org/dc/terms/title> "Apex Developer Guide: Working with Very Large SOQL Queries" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/query-optimizer-selectivity/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/query-optimizer-selectivity/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/query-optimizer-selectivity/s1> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/langCon_apex_SOQL_VLSQ.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/query-optimizer-selectivity/s2> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/query-optimizer-selectivity/s2> <http://purl.org/dc/terms/title> "Best Practices for Deployments with Large Data Volumes: Lightning Platform Query Optimizer" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/query-optimizer-selectivity/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/query-optimizer-selectivity/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/query-optimizer-selectivity/s2> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/salesforce-large-data-volumes-bp/guide/ldv-deployments-infrastructure-salesforce-query-optimizer.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/query-optimizer-selectivity/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/query-optimizer-selectivity/s3> <http://purl.org/dc/terms/title> "Best Practices for Deployments with Large Data Volumes: Indexes" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/query-optimizer-selectivity/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/query-optimizer-selectivity/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/query-optimizer-selectivity/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/salesforce-large-data-volumes-bp/guide/ldv-deployments-infrastructure-indexes.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/query-optimizer-selectivity/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/query-optimizer-selectivity/s4> <http://purl.org/dc/terms/title> "REST API Developer Guide: Get Feedback on Query Performance" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/query-optimizer-selectivity/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/query-optimizer-selectivity/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/query-optimizer-selectivity/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/api-rest/guide/dome-query-explain.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/query-optimizer-selectivity/s5> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/query-optimizer-selectivity/s5> <http://purl.org/dc/terms/title> "Database Basics for .NET Developers: Write Efficient Queries" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/query-optimizer-selectivity/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/query-optimizer-selectivity/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/query-optimizer-selectivity/s5> <https://schema.org/url> "https://trailhead.salesforce.com/en/modules/database_basics_dotnet/units/writing_efficient_queries" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/query-optimizer-selectivity/s6> <http://purl.org/dc/terms/publisher> "Salesforce Developers Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/query-optimizer-selectivity/s6> <http://purl.org/dc/terms/title> "Maximizing the Performance of Force.com SOQL, Reports, and List Views" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/query-optimizer-selectivity/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/query-optimizer-selectivity/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/query-optimizer-selectivity/s6> <https://schema.org/url> "https://developer.salesforce.com/blogs/engineering/2013/07/maximizing-the-performance-of-force-com-soql-reports-and-list-views" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/queueable-apex/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/queueable-apex/s1> <http://purl.org/dc/terms/title> "Apex Developer Guide: Queueable Apex" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/queueable-apex/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

@@ -2006,6 +2006,32 @@
     ]
   },
   {
+    "id": "kt:query-optimizer-selectivity",
+    "title": "Query Optimizer Selectivity",
+    "aliases": [
+      "query selectivity",
+      "selective queries",
+      "selective SOQL",
+      "Lightning Platform Query Optimizer",
+      "Force.com query optimizer",
+      "selectivity thresholds"
+    ],
+    "type": "Concept",
+    "domain": "platform-architecture",
+    "file": "articles/platform-architecture/query-optimizer-selectivity.md",
+    "created": "2026-11-04",
+    "release": "Winter '27",
+    "status": "concept",
+    "source_urls": [
+      "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/langCon_apex_SOQL_VLSQ.htm",
+      "https://developer.salesforce.com/docs/platform/salesforce-large-data-volumes-bp/guide/ldv-deployments-infrastructure-salesforce-query-optimizer.html",
+      "https://developer.salesforce.com/docs/platform/salesforce-large-data-volumes-bp/guide/ldv-deployments-infrastructure-indexes.html",
+      "https://developer.salesforce.com/docs/platform/api-rest/guide/dome-query-explain.html",
+      "https://trailhead.salesforce.com/en/modules/database_basics_dotnet/units/writing_efficient_queries",
+      "https://developer.salesforce.com/blogs/engineering/2013/07/maximizing-the-performance-of-force-com-soql-reports-and-list-views"
+    ]
+  },
+  {
     "id": "kt:queueable-apex",
     "title": "Queueable Apex",
     "aliases": [

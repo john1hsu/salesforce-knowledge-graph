@@ -9223,6 +9223,103 @@
       ]
     },
     {
+      "@id": "kt:query-optimizer-selectivity",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Query Optimizer Selectivity",
+      "skos:definition": "How Salesforce's own cost-based query optimizer decides whether a filter in a SOQL query, report or list view is selective enough to drive the query through an index, using published percentage thresholds of an object's record count; non-selective filters fall back to full table scans.",
+      "kto:domain": "platform-architecture",
+      "dcterms:created": "2026-11-04",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Apex Developer Guide: Working with Very Large SOQL Queries",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/langCon_apex_SOQL_VLSQ.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Best Practices for Deployments with Large Data Volumes: Lightning Platform Query Optimizer",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/salesforce-large-data-volumes-bp/guide/ldv-deployments-infrastructure-salesforce-query-optimizer.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Best Practices for Deployments with Large Data Volumes: Indexes",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/salesforce-large-data-volumes-bp/guide/ldv-deployments-infrastructure-indexes.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "REST API Developer Guide: Get Feedback on Query Performance",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/api-rest/guide/dome-query-explain.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Database Basics for .NET Developers: Write Efficient Queries",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/en/modules/database_basics_dotnet/units/writing_efficient_queries",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Maximizing the Performance of Force.com SOQL, Reports, and List Views",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/engineering/2013/07/maximizing-the-performance-of-force-com-soql-reports-and-list-views",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/platform-architecture/query-optimizer-selectivity.md",
+      "skos:altLabel": [
+        "query selectivity",
+        "selective queries",
+        "selective SOQL",
+        "Lightning Platform Query Optimizer",
+        "Force.com query optimizer",
+        "selectivity thresholds"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:large-data-volumes"
+        },
+        {
+          "@id": "kt:multitenancy"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:soql"
+        },
+        {
+          "@id": "kt:skinny-tables"
+        },
+        {
+          "@id": "kt:data-skew"
+        },
+        {
+          "@id": "kt:external-id-fields"
+        },
+        {
+          "@id": "kt:batch-apex"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:large-data-volumes"
+        }
+      ],
+      "kto:queriedWith": [
+        {
+          "@id": "kt:rest-api"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:platform-data-architect-certification"
+        }
+      ]
+    },
+    {
       "@id": "kt:record-locking",
       "@type": "kto:Concept",
       "skos:prefLabel": "Record Locking",

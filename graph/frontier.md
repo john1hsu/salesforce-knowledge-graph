@@ -4,7 +4,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:platform-data-architect-certification` | `kt:data-architecture`, `kt:big-objects`, `kt:external-id-fields`, `kt:external-objects` |
+| `kt:platform-data-architect-certification` | `kt:data-architecture`, `kt:big-objects`, `kt:external-id-fields`, `kt:external-objects`, `kt:query-optimizer-selectivity` |
 | `kt:system-architect-certification` | `kt:cta-review-board`, `kt:salesforce-architect`, `kt:identity-and-access-management-architect-certification`, `kt:integration-architect-certification` |
 | `kt:api-request-limits` | `kt:composite-api`, `kt:data-integration`, `kt:rest-api` |
 | `kt:application-architect-certification` | `kt:cta-review-board`, `kt:salesforce-architect`, `kt:sharing-and-visibility-architect-certification` |
@@ -13,7 +13,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:data-virtualization` | `kt:zero-copy-data-federation`, `kt:integration-patterns`, `kt:salesforce-connect` |
 | `kt:fips-199` | `kt:fedramp-high`, `kt:fedramp`, `kt:nist-sp-800-53` |
 | `kt:implicit-sharing` | `kt:enterprise-territory-management`, `kt:role-hierarchy`, `kt:salesforce-sharing-model` |
-| `kt:query-optimizer-selectivity` | `kt:soql`, `kt:large-data-volumes`, `kt:multitenancy` |
 | `kt:queues` | `kt:approval-processes`, `kt:omni-channel`, `kt:service-cloud` |
 | `kt:security-compliance-frameworks` | `kt:dod-cloud-computing-srg`, `kt:fedramp`, `kt:nist-sp-800-53` |
 | `kt:business-processes` | `kt:record-types`, `kt:record-types` |
@@ -34,6 +33,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:salesforce-inc` | `kt:slack-platform`, `kt:tableau` |
 | `kt:sandbox-templates` | `kt:environment-strategy`, `kt:sandbox-types` |
 | `kt:scratch-org-allocations` | `kt:dev-hub`, `kt:scratch-orgs` |
+| `kt:skinny-tables` | `kt:large-data-volumes`, `kt:query-optimizer-selectivity` |
 | `kt:soap-api` | `kt:external-id-fields`, `kt:rest-api` |
 | `kt:sosl` | `kt:external-objects`, `kt:soql` |
 | `kt:standard-objects` | `kt:data-model-objects`, `kt:person-accounts` |
@@ -146,7 +146,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:service-setup-assistant` | `kt:service-cloud` |
 | `kt:session-security-levels` | `kt:multi-factor-authentication` |
 | `kt:skills-based-routing` | `kt:omni-channel` |
-| `kt:skinny-tables` | `kt:large-data-volumes` |
 | `kt:slack-api-rate-limits` | `kt:slack-platform` |
 | `kt:slack-workflow-builder` | `kt:slack-platform` |
 | `kt:soql-injection` | `kt:code-analyzer` |
