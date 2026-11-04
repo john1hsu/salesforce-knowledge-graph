@@ -3543,6 +3543,100 @@
       ]
     },
     {
+      "@id": "kt:zero-copy-data-federation",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Zero Copy Data Federation",
+      "skos:definition": "The Data 360 capability that reads data where it lives in external warehouses and lakehouses (Snowflake, Databricks, BigQuery, Redshift and others) through query federation or file federation, instead of copying it into Data 360 with ETL pipelines.",
+      "kto:domain": "data-cloud-and-ai",
+      "dcterms:created": "2026-11-04",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Get Started with Zero Copy Data Federation (Data 360 with Zero Copy)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/data-cloud-with-zero-copy/get-started-with-zero-copy-data-federation",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Get Started with Zero Copy Data Sharing (Data 360 with Zero Copy)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/it/content/learn/modules/data-cloud-with-zero-copy/get-started-with-zero-copy-data-sharing",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Data Stream Settings and Refresh Modes",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/apex/HTViewHelpDoc?id=data.c360_a_data_stream_edit_settings.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Zero Copy Data Federation with Snowflake and Salesforce Data Cloud",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2024/08/zero-copy-data-federation-with-snowflake-and-salesforce-data-cloud",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Zero Copy",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/data/connectivity/zero-copy/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Set up Salesforce Data Cloud for Zero-Copy",
+          "dcterms:publisher": "Snowflake Documentation",
+          "schema:url": "https://docs.snowflake.com/en/user-guide/data-integration/zero-copy/salesforce/setup-salesforce",
+          "kto:sourceType": "partner"
+        }
+      ],
+      "kto:file": "articles/data-cloud-and-ai/zero-copy-data-federation.md",
+      "skos:altLabel": [
+        "Zero Copy",
+        "Zero Copy Integration",
+        "Data 360 query federation",
+        "Data 360 file federation"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:data-cloud"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:zero-copy-data-sharing"
+        },
+        {
+          "@id": "kt:external-objects"
+        },
+        {
+          "@id": "kt:data-integration"
+        },
+        {
+          "@id": "kt:data-model-objects"
+        }
+      ],
+      "kto:implements": [
+        {
+          "@id": "kt:data-virtualization"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:salesforce-connect"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:data-lake-objects"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:data-cloud-consultant-certification"
+        }
+      ]
+    },
+    {
       "@id": "kt:data-skew",
       "@type": "kto:AntiPattern",
       "skos:prefLabel": "Data Skew",

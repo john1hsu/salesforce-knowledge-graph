@@ -6,7 +6,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 |---|---|
 | `kt:integration-patterns` | `kt:cta-review-board`, `kt:salesforce-architecture-center`, `kt:event-driven-architecture`, `kt:integration-architect-certification` |
 | `kt:system-architect-certification` | `kt:cta-review-board`, `kt:salesforce-architect`, `kt:identity-and-access-management-architect-certification`, `kt:integration-architect-certification` |
-| `kt:zero-copy-data-federation` | `kt:data-cloud-consultant-certification`, `kt:data-cloud`, `kt:external-objects`, `kt:salesforce-connect` |
 | `kt:apex-callouts` | `kt:external-objects`, `kt:queueable-apex`, `kt:outbound-messaging` |
 | `kt:api-request-limits` | `kt:composite-api`, `kt:data-integration`, `kt:rest-api` |
 | `kt:application-architect-certification` | `kt:cta-review-board`, `kt:salesforce-architect`, `kt:sharing-and-visibility-architect-certification` |
@@ -20,6 +19,8 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:batch-data-synchronization` | `kt:data-integration`, `kt:salesforce-connect` |
 | `kt:big-objects` | `kt:archiving-strategy`, `kt:external-objects` |
 | `kt:business-processes` | `kt:record-types`, `kt:record-types` |
+| `kt:data-lake-objects` | `kt:data-model-objects`, `kt:zero-copy-data-federation` |
+| `kt:data-virtualization` | `kt:zero-copy-data-federation`, `kt:salesforce-connect` |
 | `kt:entitlement-management` | `kt:field-service`, `kt:service-cloud` |
 | `kt:experience-builder` | `kt:experience-cloud`, `kt:experience-cloud-identity` |
 | `kt:flow-trigger-explorer` | `kt:record-triggered-flow`, `kt:order-of-execution` |
@@ -70,10 +71,8 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:data-categories` | `kt:knowledge-base` |
 | `kt:data-cloud-limits` | `kt:calculated-insights` |
 | `kt:data-cloud-segmentation` | `kt:calculated-insights` |
-| `kt:data-lake-objects` | `kt:data-model-objects` |
 | `kt:data-loader` | `kt:bulk-api-2` |
 | `kt:data-sovereignty` | `kt:data-residency` |
-| `kt:data-virtualization` | `kt:salesforce-connect` |
 | `kt:digital-accessibility` | `kt:section-508-accessibility` |
 | `kt:dispatcher-console` | `kt:field-service` |
 | `kt:duplicate-management` | `kt:identity-resolution` |
@@ -161,3 +160,4 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:upsert` | `kt:external-id-fields` |
 | `kt:wcag` | `kt:section-508-accessibility` |
 | `kt:work-orders` | `kt:field-service` |
+| `kt:zero-copy-data-sharing` | `kt:zero-copy-data-federation` |
