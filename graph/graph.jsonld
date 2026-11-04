@@ -9149,6 +9149,95 @@
       ]
     },
     {
+      "@id": "kt:nist-sp-800-53",
+      "@type": "kto:ExternalConcept",
+      "skos:prefLabel": "NIST SP 800-53",
+      "skos:definition": "NIST Special Publication 800-53, the US government's catalog of security and privacy controls organized into 20 families; its companion SP 800-53B defines the Low, Moderate, High and privacy baselines that FedRAMP tailors to assess cloud services such as Salesforce Government Cloud Plus.",
+      "kto:domain": "public-sector-and-compliance",
+      "dcterms:created": "2026-11-04",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "SP 800-53 Rev. 5, Security and Privacy Controls for Information Systems and Organizations (upd1)",
+          "dcterms:publisher": "NIST Computer Security Resource Center",
+          "schema:url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "SP 800-53 Rev. 5 (September 2020 original, withdrawn)",
+          "dcterms:publisher": "NIST Computer Security Resource Center",
+          "schema:url": "https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/archive/2020-09-23",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "NIST Releases Revision to SP 800-53 Controls",
+          "dcterms:publisher": "NIST Computer Security Resource Center",
+          "schema:url": "https://csrc.nist.gov/News/2025/nist-releases-revision-to-sp-800-53-controls",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "Control Baselines for Information Systems and Organizations: NIST Publishes SP 800-53B",
+          "dcterms:publisher": "NIST Computer Security Resource Center",
+          "schema:url": "https://csrc.nist.gov/news/2020/control-baselines-nist-publishes-sp-800-53b",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "Rev. 5 Baselines Have Been Approved and Released",
+          "dcterms:publisher": "FedRAMP (GSA)",
+          "schema:url": "https://www.fedramp.gov/archive/2023-05-30-rev-5-baselines-have-been-approved-and-released/",
+          "kto:sourceType": "government"
+        },
+        {
+          "dcterms:title": "IRS 1075 — Salesforce Compliance",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://compliance.salesforce.com/en/irs-1075",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/public-sector-and-compliance/nist-sp-800-53.md",
+      "skos:altLabel": [
+        "NIST 800-53",
+        "Security and Privacy Controls for Information Systems and Organizations",
+        "SP 800-53 Rev. 5",
+        "NIST control catalog"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:security-compliance-frameworks"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:fedramp"
+        },
+        {
+          "@id": "kt:government-cloud-plus"
+        },
+        {
+          "@id": "kt:dod-cloud-computing-srg"
+        },
+        {
+          "@id": "kt:multi-factor-authentication"
+        }
+      ],
+      "kto:usedBy": [
+        {
+          "@id": "kt:fedramp-high"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:fips-199"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:nist-sp-800-53b"
+        }
+      ]
+    },
+    {
       "@id": "kt:public-sector-solutions",
       "@type": "kto:Product",
       "skos:prefLabel": "Public Sector Solutions",

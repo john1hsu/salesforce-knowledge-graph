@@ -1720,6 +1720,32 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/named-credentials> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#replaces> <https://github.com/john1hsu/salesforce-knowledge-graph/id/legacy-named-credentials> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/named-credentials> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/named-credentials> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-53> <http://purl.org/dc/terms/created> "2026-11-04" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-53> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#ExternalConcept> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-53> <http://www.w3.org/2000/01/rdf-schema#label> "NIST SP 800-53" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-53> <http://www.w3.org/2004/02/skos/core#altLabel> "NIST 800-53" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-53> <http://www.w3.org/2004/02/skos/core#altLabel> "NIST control catalog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-53> <http://www.w3.org/2004/02/skos/core#altLabel> "SP 800-53 Rev. 5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-53> <http://www.w3.org/2004/02/skos/core#altLabel> "Security and Privacy Controls for Information Systems and Organizations" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-53> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/security-compliance-frameworks> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-53> <http://www.w3.org/2004/02/skos/core#definition> "NIST Special Publication 800-53, the US government's catalog of security and privacy controls organized into 20 families; its companion SP 800-53B defines the Low, Moderate, High and privacy baselines that FedRAMP tailors to assess cloud services such as Salesforce Government Cloud Plus." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-53> <http://www.w3.org/2004/02/skos/core#prefLabel> "NIST SP 800-53" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-53> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/dod-cloud-computing-srg> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-53> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/fedramp> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-53> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/government-cloud-plus> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-53> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/multi-factor-authentication> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-53> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-53/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-53> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-53/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-53> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-53/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-53> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-53/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-53> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-53/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-53> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-53/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-53> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/fips-199> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-53> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "public-sector-and-compliance" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-53> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-53b> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-53> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-53> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#usedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/fedramp-high> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-53> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-2-0> <http://purl.org/dc/terms/created> "2026-11-02" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-2-0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#ExternalConcept> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-2-0> <http://www.w3.org/2000/01/rdf-schema#label> "OAuth 2.0" .
@@ -4622,6 +4648,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/named-credentials/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/named-credentials/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/named-credentials/s5> <https://schema.org/url> "https://help.salesforce.com/apex/HTViewHelpDoc?id=xcloud.named_credentials_define.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-53/s1> <http://purl.org/dc/terms/publisher> "NIST Computer Security Resource Center" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-53/s1> <http://purl.org/dc/terms/title> "SP 800-53 Rev. 5, Security and Privacy Controls for Information Systems and Organizations (upd1)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-53/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-53/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "standards-body" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-53/s1> <https://schema.org/url> "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-53/s2> <http://purl.org/dc/terms/publisher> "NIST Computer Security Resource Center" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-53/s2> <http://purl.org/dc/terms/title> "SP 800-53 Rev. 5 (September 2020 original, withdrawn)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-53/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-53/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "standards-body" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-53/s2> <https://schema.org/url> "https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/archive/2020-09-23" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-53/s3> <http://purl.org/dc/terms/publisher> "NIST Computer Security Resource Center" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-53/s3> <http://purl.org/dc/terms/title> "NIST Releases Revision to SP 800-53 Controls" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-53/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-53/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "standards-body" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-53/s3> <https://schema.org/url> "https://csrc.nist.gov/News/2025/nist-releases-revision-to-sp-800-53-controls" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-53/s4> <http://purl.org/dc/terms/publisher> "NIST Computer Security Resource Center" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-53/s4> <http://purl.org/dc/terms/title> "Control Baselines for Information Systems and Organizations: NIST Publishes SP 800-53B" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-53/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-53/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "standards-body" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-53/s4> <https://schema.org/url> "https://csrc.nist.gov/news/2020/control-baselines-nist-publishes-sp-800-53b" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-53/s5> <http://purl.org/dc/terms/publisher> "FedRAMP (GSA)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-53/s5> <http://purl.org/dc/terms/title> "Rev. 5 Baselines Have Been Approved and Released" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-53/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-53/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-53/s5> <https://schema.org/url> "https://www.fedramp.gov/archive/2023-05-30-rev-5-baselines-have-been-approved-and-released/" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-53/s6> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-53/s6> <http://purl.org/dc/terms/title> "IRS 1075 — Salesforce Compliance" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-53/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-53/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-53/s6> <https://schema.org/url> "https://compliance.salesforce.com/en/irs-1075" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/oauth-2-0/s1> <http://purl.org/dc/terms/publisher> "IETF / RFC Editor" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/oauth-2-0/s1> <http://purl.org/dc/terms/title> "RFC 6749: The OAuth 2.0 Authorization Framework" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/oauth-2-0/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
