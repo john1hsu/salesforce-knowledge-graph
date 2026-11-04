@@ -1454,6 +1454,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-api> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-cli> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-api> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-api> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-driven-architecture> <http://purl.org/dc/terms/created> "2026-11-04" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-driven-architecture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-driven-architecture> <http://www.w3.org/2000/01/rdf-schema#label> "Metadata-Driven Architecture" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-driven-architecture> <http://www.w3.org/2004/02/skos/core#altLabel> "metadata framework" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-driven-architecture> <http://www.w3.org/2004/02/skos/core#altLabel> "metadata-driven design" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-driven-architecture> <http://www.w3.org/2004/02/skos/core#altLabel> "metadata-driven development" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-driven-architecture> <http://www.w3.org/2004/02/skos/core#altLabel> "polymorphic application design" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-driven-architecture> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-platform> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-driven-architecture> <http://www.w3.org/2004/02/skos/core#definition> "The Salesforce design principle in which apps, schema, UI, security and logic are stored as metadata that a shared runtime engine interprets on demand, instead of as compiled code or physical database structures." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-driven-architecture> <http://www.w3.org/2004/02/skos/core#prefLabel> "Metadata-Driven Architecture" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-driven-architecture> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-driven-architecture> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-metadata-types> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-driven-architecture> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/record-types> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-driven-architecture> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source-tracking> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-driven-architecture> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/metadata-driven-architecture/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-driven-architecture> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/metadata-driven-architecture/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-driven-architecture> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/metadata-driven-architecture/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-driven-architecture> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/metadata-driven-architecture/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-driven-architecture> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/metadata-driven-architecture/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-driven-architecture> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-driven-architecture> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "platform-architecture" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-driven-architecture> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#enables> <https://github.com/john1hsu/salesforce-knowledge-graph/id/multitenancy> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-driven-architecture> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#enables> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-dx> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-driven-architecture> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-driven-architecture> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/multi-factor-authentication> <http://purl.org/dc/terms/created> "2026-11-01" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/multi-factor-authentication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#SecurityControl> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/multi-factor-authentication> <http://www.w3.org/2000/01/rdf-schema#label> "Multi-Factor Authentication" .
@@ -4130,6 +4155,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/metadata-api/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/metadata-api/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/metadata-api/s5> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/package-xml/package-xml-deploy" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/metadata-driven-architecture/s1> <http://purl.org/dc/terms/publisher> "Salesforce Architects" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/metadata-driven-architecture/s1> <http://purl.org/dc/terms/title> "Platform Multitenant Architecture | Get Started with Fundamentals" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/metadata-driven-architecture/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/metadata-driven-architecture/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/metadata-driven-architecture/s1> <https://schema.org/url> "https://architect.salesforce.com/fundamentals/platform-multitenant-architecture" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/metadata-driven-architecture/s2> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/metadata-driven-architecture/s2> <http://purl.org/dc/terms/title> "Understand the Salesforce Architecture (Agentforce 360 Platform Basics)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/metadata-driven-architecture/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/metadata-driven-architecture/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/metadata-driven-architecture/s2> <https://schema.org/url> "https://trailhead.salesforce.com/modules/starting_force_com/units/starting_understanding_arch" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/metadata-driven-architecture/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/metadata-driven-architecture/s3> <http://purl.org/dc/terms/title> "Metadata API Developer Guide: Understanding Metadata API" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/metadata-driven-architecture/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/metadata-driven-architecture/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/metadata-driven-architecture/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_intro.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/metadata-driven-architecture/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/metadata-driven-architecture/s4> <http://purl.org/dc/terms/title> "Demystifying the Salesforce Metadata API" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/metadata-driven-architecture/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/metadata-driven-architecture/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/metadata-driven-architecture/s4> <https://schema.org/url> "https://developer.salesforce.com/blogs/2022/03/demystifying-the-salesforce-metadata-api" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/metadata-driven-architecture/s5> <http://purl.org/dc/terms/publisher> "ACM SIGMOD" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/metadata-driven-architecture/s5> <http://purl.org/dc/terms/title> "The Design of the Force.com Multitenant Internet Application Development Platform (SIGMOD '09)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/metadata-driven-architecture/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/metadata-driven-architecture/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/metadata-driven-architecture/s5> <https://schema.org/url> "https://pubs.dbs.uni-leipzig.de/cloud/sites/cloud.pubs.dbs.uni-leipzig.de/files/p889-weissman-1.pdf" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multi-factor-authentication/s1> <http://purl.org/dc/terms/publisher> "Salesforce Security" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multi-factor-authentication/s1> <http://purl.org/dc/terms/title> "Check That Your Implementation Satisfies the MFA Requirement" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multi-factor-authentication/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

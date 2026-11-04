@@ -4,7 +4,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:metadata-driven-architecture` | `kt:record-types`, `kt:custom-metadata-types`, `kt:multitenancy`, `kt:salesforce-platform` |
 | `kt:rest-api` | `kt:external-id-fields`, `kt:bulk-api-2`, `kt:composite-api`, `kt:composite-api` |
 | `kt:implicit-sharing` | `kt:enterprise-territory-management`, `kt:role-hierarchy`, `kt:salesforce-sharing-model` |
 | `kt:mulesoft-anypoint-platform` | `kt:flow-orchestrator`, `kt:event-driven-architecture`, `kt:government-cloud-plus` |

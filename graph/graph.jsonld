@@ -7330,6 +7330,87 @@
       ]
     },
     {
+      "@id": "kt:metadata-driven-architecture",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Metadata-Driven Architecture",
+      "skos:definition": "The Salesforce design principle in which apps, schema, UI, security and logic are stored as metadata that a shared runtime engine interprets on demand, instead of as compiled code or physical database structures.",
+      "kto:domain": "platform-architecture",
+      "dcterms:created": "2026-11-04",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Platform Multitenant Architecture | Get Started with Fundamentals",
+          "dcterms:publisher": "Salesforce Architects",
+          "schema:url": "https://architect.salesforce.com/fundamentals/platform-multitenant-architecture",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Understand the Salesforce Architecture (Agentforce 360 Platform Basics)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/modules/starting_force_com/units/starting_understanding_arch",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Metadata API Developer Guide: Understanding Metadata API",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_intro.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Demystifying the Salesforce Metadata API",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2022/03/demystifying-the-salesforce-metadata-api",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "The Design of the Force.com Multitenant Internet Application Development Platform (SIGMOD '09)",
+          "dcterms:publisher": "ACM SIGMOD",
+          "schema:url": "https://pubs.dbs.uni-leipzig.de/cloud/sites/cloud.pubs.dbs.uni-leipzig.de/files/p889-weissman-1.pdf",
+          "kto:sourceType": "peer-reviewed"
+        }
+      ],
+      "kto:file": "articles/platform-architecture/metadata-driven-architecture.md",
+      "skos:altLabel": [
+        "metadata-driven design",
+        "metadata-driven development",
+        "polymorphic application design",
+        "metadata framework"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-platform"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:custom-metadata-types"
+        },
+        {
+          "@id": "kt:record-types"
+        },
+        {
+          "@id": "kt:source-tracking"
+        },
+        {
+          "@id": "kt:apex"
+        }
+      ],
+      "kto:enables": [
+        {
+          "@id": "kt:multitenancy"
+        },
+        {
+          "@id": "kt:salesforce-dx"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:metadata-api"
+        }
+      ]
+    },
+    {
       "@id": "kt:multitenancy",
       "@type": "kto:Concept",
       "skos:prefLabel": "Multitenancy",
