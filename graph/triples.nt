@@ -1457,6 +1457,33 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/fedramp> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/fedramp-high> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/fedramp> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/fedramp> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-history-tracking> <http://purl.org/dc/terms/created> "2026-11-05" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-history-tracking> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-history-tracking> <http://www.w3.org/2000/01/rdf-schema#label> "Field History Tracking" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-history-tracking> <http://www.w3.org/2004/02/skos/core#altLabel> "field history tracking (FHT)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-history-tracking> <http://www.w3.org/2004/02/skos/core#altLabel> "field history" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-history-tracking> <http://www.w3.org/2004/02/skos/core#altLabel> "history related list" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-history-tracking> <http://www.w3.org/2004/02/skos/core#altLabel> "object history tracking" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-history-tracking> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-architecture> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-history-tracking> <http://www.w3.org/2004/02/skos/core#definition> "Built-in Salesforce feature that records old and new values of up to 20 selected fields per object in a related history object, kept for 18–24 months; Field Audit Trail extends it for long-term, audit-grade retention." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-history-tracking> <http://www.w3.org/2004/02/skos/core#prefLabel> "Field History Tracking" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-history-tracking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/archiving-strategy> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-history-tracking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/big-objects> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-history-tracking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/field-audit-trail> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-history-tracking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/person-accounts> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-history-tracking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/record-triggered-flow> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-history-tracking> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-history-tracking/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-history-tracking> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-history-tracking/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-history-tracking> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-history-tracking/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-history-tracking> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-history-tracking/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-history-tracking> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-history-tracking/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-history-tracking> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-history-tracking/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-history-tracking> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#contrastsWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/field-audit-trail> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-history-tracking> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#coveredBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-data-architect-certification> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-history-tracking> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "data-model" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-history-tracking> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/soql> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-history-tracking> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-history-tracking> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/field-service> <http://purl.org/dc/terms/created> "2026-11-03" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/field-service> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Product> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/field-service> <http://www.w3.org/2000/01/rdf-schema#label> "Field Service" .
@@ -5124,6 +5151,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fedramp/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fedramp/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fedramp/s6> <https://schema.org/url> "https://www.salesforce.com/fedramp/" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-history-tracking/s1> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-history-tracking/s1> <http://purl.org/dc/terms/title> "Track Object Field History" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-history-tracking/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-history-tracking/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-history-tracking/s1> <https://schema.org/url> "https://help.salesforce.com/s/articleView?language=en_US&id=xcloud.tracking_field_history_for_standard_objects.htm&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-history-tracking/s2> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-history-tracking/s2> <http://purl.org/dc/terms/title> "Salesforce Field History Tracking: Storage Limits and Data Retention" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-history-tracking/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-history-tracking/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-history-tracking/s2> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=000383595&language=en_US&type=1" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-history-tracking/s3> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-history-tracking/s3> <http://purl.org/dc/terms/title> "Understanding Salesforce Field History Tracking on Record Creation" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-history-tracking/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-history-tracking/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-history-tracking/s3> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=000389209&language=en_US&type=1" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-history-tracking/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-history-tracking/s4> <http://purl.org/dc/terms/title> "Field Audit Trail — Field History Retention Implementation Guide" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-history-tracking/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-history-tracking/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-history-tracking/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/field-history-retention/guide/field-audit-trail.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-history-tracking/s5> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-history-tracking/s5> <http://purl.org/dc/terms/title> "SOQL with FieldHistoryArchive" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-history-tracking/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-history-tracking/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-history-tracking/s5> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/field-history-retention/guide/field-history-soql.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-history-tracking/s6> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-history-tracking/s6> <http://purl.org/dc/terms/title> "Get Started with Field Audit Trail" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-history-tracking/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-history-tracking/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-history-tracking/s6> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/field-audit-trail-basics/get-started-with-field-audit-trail" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-service/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-service/s1> <http://purl.org/dc/terms/title> "Field Service Basics: Enable Field Service and Create Service Territories (Trailhead unit)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-service/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
