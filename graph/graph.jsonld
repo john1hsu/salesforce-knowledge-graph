@@ -11706,6 +11706,88 @@
       ]
     },
     {
+      "@id": "kt:implicit-sharing",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Implicit Sharing",
+      "skos:definition": "The non-configurable record access Salesforce derives automatically between accounts and their child contacts, opportunities and cases (and for Experience Cloud users), rather than from ownership, roles or sharing rules.",
+      "kto:domain": "security-and-sharing",
+      "dcterms:created": "2026-11-05",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Implicit Sharing (Designing Record Access for Enterprise Scale)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/platform/draes/guide/draes-object-relationships-implicit-sharing.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Access Grants (Record-Level Access: Under the Hood)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/platform/salesforce-record-access-under-the-hood/guide/uth-grants.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Platform Sharing Architecture",
+          "dcterms:publisher": "Salesforce Architects",
+          "schema:url": "https://architect.salesforce.com/fundamentals/platform-sharing-architecture",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Parent-Child Data Skew (Designing Record Access for Enterprise Scale)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/platform/draes/guide/draes-object-relationships-parent-child-data-skew.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/security-and-sharing/implicit-sharing.md",
+      "skos:altLabel": [
+        "built-in sharing",
+        "implicit grants",
+        "parent implicit sharing",
+        "child implicit sharing"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-sharing-model"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:role-hierarchy"
+        },
+        {
+          "@id": "kt:organization-wide-defaults"
+        },
+        {
+          "@id": "kt:experience-cloud"
+        },
+        {
+          "@id": "kt:sharing-recalculation"
+        }
+      ],
+      "kto:causes": [
+        {
+          "@id": "kt:data-skew"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:sharing-rules"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:role-hierarchy"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:sharing-and-visibility-architect-certification"
+        }
+      ]
+    },
+    {
       "@id": "kt:organization-wide-defaults",
       "@type": "kto:SecurityControl",
       "skos:prefLabel": "Organization-Wide Defaults",

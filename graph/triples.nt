@@ -1644,6 +1644,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/il4-and-il5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#partOf> <https://github.com/john1hsu/salesforce-knowledge-graph/id/dod-cloud-computing-srg> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/il4-and-il5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/il4-and-il5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/implicit-sharing> <http://purl.org/dc/terms/created> "2026-11-05" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/implicit-sharing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/implicit-sharing> <http://www.w3.org/2000/01/rdf-schema#label> "Implicit Sharing" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/implicit-sharing> <http://www.w3.org/2004/02/skos/core#altLabel> "built-in sharing" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/implicit-sharing> <http://www.w3.org/2004/02/skos/core#altLabel> "child implicit sharing" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/implicit-sharing> <http://www.w3.org/2004/02/skos/core#altLabel> "implicit grants" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/implicit-sharing> <http://www.w3.org/2004/02/skos/core#altLabel> "parent implicit sharing" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/implicit-sharing> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-sharing-model> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/implicit-sharing> <http://www.w3.org/2004/02/skos/core#definition> "The non-configurable record access Salesforce derives automatically between accounts and their child contacts, opportunities and cases (and for Experience Cloud users), rather than from ownership, roles or sharing rules." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/implicit-sharing> <http://www.w3.org/2004/02/skos/core#prefLabel> "Implicit Sharing" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/implicit-sharing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/experience-cloud> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/implicit-sharing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/organization-wide-defaults> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/implicit-sharing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/role-hierarchy> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/implicit-sharing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-recalculation> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/implicit-sharing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/implicit-sharing/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/implicit-sharing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/implicit-sharing/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/implicit-sharing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/implicit-sharing/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/implicit-sharing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/implicit-sharing/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/implicit-sharing> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#causes> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-skew> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/implicit-sharing> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/role-hierarchy> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/implicit-sharing> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#contrastsWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-rules> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/implicit-sharing> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#coveredBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-and-visibility-architect-certification> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/implicit-sharing> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "security-and-sharing" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/implicit-sharing> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/implicit-sharing> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-architect-certification> <http://purl.org/dc/terms/created> "2026-11-04" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-architect-certification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Certification> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-architect-certification> <http://www.w3.org/2000/01/rdf-schema#label> "Integration Architect Certification" .
@@ -5122,6 +5147,26 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/il4-and-il5/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/il4-and-il5/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "news" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/il4-and-il5/s5> <https://schema.org/url> "https://defensescoop.com/?p=130372" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/implicit-sharing/s1> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/implicit-sharing/s1> <http://purl.org/dc/terms/title> "Implicit Sharing (Designing Record Access for Enterprise Scale)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/implicit-sharing/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/implicit-sharing/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/implicit-sharing/s1> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/draes/guide/draes-object-relationships-implicit-sharing.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/implicit-sharing/s2> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/implicit-sharing/s2> <http://purl.org/dc/terms/title> "Access Grants (Record-Level Access: Under the Hood)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/implicit-sharing/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/implicit-sharing/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/implicit-sharing/s2> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/salesforce-record-access-under-the-hood/guide/uth-grants.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/implicit-sharing/s3> <http://purl.org/dc/terms/publisher> "Salesforce Architects" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/implicit-sharing/s3> <http://purl.org/dc/terms/title> "Platform Sharing Architecture" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/implicit-sharing/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/implicit-sharing/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/implicit-sharing/s3> <https://schema.org/url> "https://architect.salesforce.com/fundamentals/platform-sharing-architecture" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/implicit-sharing/s4> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/implicit-sharing/s4> <http://purl.org/dc/terms/title> "Parent-Child Data Skew (Designing Record Access for Enterprise Scale)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/implicit-sharing/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/implicit-sharing/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/implicit-sharing/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/draes/guide/draes-object-relationships-parent-child-data-skew.html" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/integration-architect-certification/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/integration-architect-certification/s1> <http://purl.org/dc/terms/title> "Certification - Salesforce Certified Platform Integration Architect" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/integration-architect-certification/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
