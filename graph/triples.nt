@@ -2107,6 +2107,35 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/outbound-messaging> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "integration" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/outbound-messaging> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/outbound-messaging> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/permission-set-groups> <http://purl.org/dc/terms/created> "2026-11-05" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/permission-set-groups> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#SecurityControl> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/permission-set-groups> <http://www.w3.org/2000/01/rdf-schema#label> "Permission Set Groups" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/permission-set-groups> <http://www.w3.org/2004/02/skos/core#altLabel> "PSG" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/permission-set-groups> <http://www.w3.org/2004/02/skos/core#altLabel> "PermissionSetGroup" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/permission-set-groups> <http://www.w3.org/2004/02/skos/core#altLabel> "muting permission set" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/permission-set-groups> <http://www.w3.org/2004/02/skos/core#altLabel> "muting permission sets" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/permission-set-groups> <http://www.w3.org/2004/02/skos/core#altLabel> "permission set group" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/permission-set-groups> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/permission-sets> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/permission-set-groups> <http://www.w3.org/2004/02/skos/core#definition> "Bundles of permission sets assigned to users as one unit, typically per job function; the group's effective permissions are the recalculated union of its member sets, optionally reduced by a single muting permission set." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/permission-set-groups> <http://www.w3.org/2004/02/skos/core#prefLabel> "Permission Set Groups" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/permission-set-groups> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-testing> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/permission-set-groups> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/organization-wide-defaults> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/permission-set-groups> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/restriction-rules> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/permission-set-groups> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-sharing-model> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/permission-set-groups> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/second-generation-managed-packages> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/permission-set-groups> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/permission-set-groups/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/permission-set-groups> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/permission-set-groups/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/permission-set-groups> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/permission-set-groups/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/permission-set-groups> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/permission-set-groups/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/permission-set-groups> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/permission-set-groups/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/permission-set-groups> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/permission-set-groups/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/permission-set-groups> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#contrastsWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/profiles> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/permission-set-groups> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "security-and-sharing" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/permission-set-groups> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#implements> <https://github.com/john1hsu/salesforce-knowledge-graph/id/principle-of-least-privilege> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/permission-set-groups> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/soql> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/permission-set-groups> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/tooling-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/permission-set-groups> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/permission-set-groups> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/person-accounts> <http://purl.org/dc/terms/created> "2026-11-02" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/person-accounts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/person-accounts> <http://www.w3.org/2000/01/rdf-schema#label> "Person Accounts" .
@@ -5341,6 +5370,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/outbound-messaging/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/outbound-messaging/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/outbound-messaging/s5> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/salesforce_heroku_integration/callouts_workflow_with_heroku" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/permission-set-groups/s1> <http://purl.org/dc/terms/publisher> "Salesforce Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/permission-set-groups/s1> <http://purl.org/dc/terms/title> "Get Started with Permission Set Groups (Trailhead, Permission Set Groups module)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/permission-set-groups/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/permission-set-groups/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/permission-set-groups/s1> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/permission-set-groups/get-started-with-permission-set-groups" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/permission-set-groups/s2> <http://purl.org/dc/terms/publisher> "Salesforce Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/permission-set-groups/s2> <http://purl.org/dc/terms/title> "Create a Permission Set Group (Trailhead, Permission Set Groups module)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/permission-set-groups/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/permission-set-groups/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/permission-set-groups/s2> <https://schema.org/url> "https://trailhead.salesforce.com/es/content/learn/modules/permission-set-groups/create-a-permission-set-group" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/permission-set-groups/s3> <http://purl.org/dc/terms/publisher> "Salesforce Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/permission-set-groups/s3> <http://purl.org/dc/terms/title> "Mute Permissions in Permission Set Groups (Trailhead, Permission Set Groups module)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/permission-set-groups/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/permission-set-groups/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/permission-set-groups/s3> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/permission-set-groups/mute-permissions-in-permission-set-groups" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/permission-set-groups/s4> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/permission-set-groups/s4> <http://purl.org/dc/terms/title> "PermissionSetGroup (Object Reference for the Salesforce Platform)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/permission-set-groups/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/permission-set-groups/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/permission-set-groups/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/api/sforce_api_objects_permissionsetgroup.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/permission-set-groups/s5> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/permission-set-groups/s5> <http://purl.org/dc/terms/title> "PermissionSetGroup (Tooling API Developer Guide, Winter '27)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/permission-set-groups/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/permission-set-groups/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/permission-set-groups/s5> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.264.0.api_tooling.meta/api_tooling/tooling_api_objects_permissionsetgroup.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/permission-set-groups/s6> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/permission-set-groups/s6> <http://purl.org/dc/terms/title> "Testing Permission Set Groups (Apex Developer Guide, Winter '27)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/permission-set-groups/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/permission-set-groups/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/permission-set-groups/s6> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.264.0.apexcode.meta/pages/apex_permission_set_group_testing.htm" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/person-accounts/s1> <http://purl.org/dc/terms/publisher> "Salesforce" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/person-accounts/s1> <http://purl.org/dc/terms/title> "Setting Up Person Accounts (implementation guide)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/person-accounts/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

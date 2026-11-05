@@ -12,6 +12,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:data-virtualization` | `kt:zero-copy-data-federation`, `kt:integration-patterns`, `kt:salesforce-connect` |
 | `kt:implicit-sharing` | `kt:enterprise-territory-management`, `kt:role-hierarchy`, `kt:salesforce-sharing-model` |
 | `kt:queues` | `kt:approval-processes`, `kt:omni-channel`, `kt:service-cloud` |
+| `kt:tooling-api` | `kt:source-tracking`, `kt:permission-set-groups`, `kt:restriction-rules` |
 | `kt:business-processes` | `kt:record-types`, `kt:record-types` |
 | `kt:data-lake-objects` | `kt:data-model-objects`, `kt:zero-copy-data-federation` |
 | `kt:entitlement-management` | `kt:field-service`, `kt:service-cloud` |
@@ -25,6 +26,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:lightning-data-service` | `kt:lightning-web-components`, `kt:lightning-web-components` |
 | `kt:namespace-registry` | `kt:dev-hub`, `kt:second-generation-managed-packages` |
 | `kt:orchestration-work-guide` | `kt:approval-processes`, `kt:flow-orchestrator` |
+| `kt:permission-sets` | `kt:named-credentials`, `kt:permission-set-groups` |
 | `kt:platform-event-allocations` | `kt:platform-events`, `kt:pub-sub-api` |
 | `kt:remote-site-settings` | `kt:apex-callouts`, `kt:named-credentials` |
 | `kt:salesforce-inc` | `kt:slack-platform`, `kt:tableau` |
@@ -34,7 +36,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:soap-api` | `kt:external-id-fields`, `kt:rest-api` |
 | `kt:sosl` | `kt:external-objects`, `kt:soql` |
 | `kt:standard-objects` | `kt:data-model-objects`, `kt:person-accounts` |
-| `kt:tooling-api` | `kt:source-tracking`, `kt:restriction-rules` |
 | `kt:transaction-control` | `kt:flow-fault-handling`, `kt:record-locking` |
 | `kt:account-takeover` | `kt:multi-factor-authentication` |
 | `kt:agent-script` | `kt:agentforce` |
@@ -111,14 +112,15 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:org-strategy` | `kt:environment-strategy` |
 | `kt:package-xml-manifest` | `kt:metadata-api` |
 | `kt:page-layouts` | `kt:record-types` |
-| `kt:permission-sets` | `kt:named-credentials` |
 | `kt:platform-app-builder-certification` | `kt:application-architect-certification` |
 | `kt:platform-as-a-service` | `kt:salesforce-platform` |
 | `kt:platform-developer-certification` | `kt:application-architect-certification` |
 | `kt:platform-event-channel-member` | `kt:change-data-capture` |
 | `kt:presence-configuration` | `kt:omni-channel` |
+| `kt:principle-of-least-privilege` | `kt:permission-set-groups` |
 | `kt:process-integration` | `kt:data-integration` |
 | `kt:product-configurator` | `kt:revenue-cloud` |
+| `kt:profiles` | `kt:permission-set-groups` |
 | `kt:prompt-injection` | `kt:einstein-trust-layer` |
 | `kt:public-groups` | `kt:sharing-rules` |
 | `kt:recursive-save` | `kt:order-of-execution` |

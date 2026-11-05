@@ -10862,6 +10862,102 @@
       ]
     },
     {
+      "@id": "kt:permission-set-groups",
+      "@type": "kto:SecurityControl",
+      "skos:prefLabel": "Permission Set Groups",
+      "skos:definition": "Bundles of permission sets assigned to users as one unit, typically per job function; the group's effective permissions are the recalculated union of its member sets, optionally reduced by a single muting permission set.",
+      "kto:domain": "security-and-sharing",
+      "dcterms:created": "2026-11-05",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Get Started with Permission Set Groups (Trailhead, Permission Set Groups module)",
+          "dcterms:publisher": "Salesforce Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/permission-set-groups/get-started-with-permission-set-groups",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Create a Permission Set Group (Trailhead, Permission Set Groups module)",
+          "dcterms:publisher": "Salesforce Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/es/content/learn/modules/permission-set-groups/create-a-permission-set-group",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Mute Permissions in Permission Set Groups (Trailhead, Permission Set Groups module)",
+          "dcterms:publisher": "Salesforce Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/permission-set-groups/mute-permissions-in-permission-set-groups",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "PermissionSetGroup (Object Reference for the Salesforce Platform)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/api/sforce_api_objects_permissionsetgroup.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "PermissionSetGroup (Tooling API Developer Guide, Winter '27)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.264.0.api_tooling.meta/api_tooling/tooling_api_objects_permissionsetgroup.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Testing Permission Set Groups (Apex Developer Guide, Winter '27)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.264.0.apexcode.meta/pages/apex_permission_set_group_testing.htm",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/security-and-sharing/permission-set-groups.md",
+      "skos:altLabel": [
+        "permission set group",
+        "PSG",
+        "PermissionSetGroup",
+        "muting permission set",
+        "muting permission sets"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:permission-sets"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:salesforce-sharing-model"
+        },
+        {
+          "@id": "kt:organization-wide-defaults"
+        },
+        {
+          "@id": "kt:second-generation-managed-packages"
+        },
+        {
+          "@id": "kt:apex-testing"
+        },
+        {
+          "@id": "kt:restriction-rules"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:profiles"
+        }
+      ],
+      "kto:implements": [
+        {
+          "@id": "kt:principle-of-least-privilege"
+        }
+      ],
+      "kto:queriedWith": [
+        {
+          "@id": "kt:tooling-api"
+        },
+        {
+          "@id": "kt:soql"
+        }
+      ]
+    },
+    {
       "@id": "kt:restriction-rules",
       "@type": "kto:SecurityControl",
       "skos:prefLabel": "Restriction Rules",
