@@ -11,7 +11,7 @@ summary: >-
 release: "Winter '27"
 status: current
 broader: [kt:salesforce-platform]
-related: [kt:agent-development-lifecycle, kt:service-cloud, kt:flow-builder]
+related: [kt:agent-development-lifecycle, kt:service-cloud, kt:flow-builder, kt:agent-actions]
 relations:
   - {predicate: hasPart, object: kt:atlas-reasoning-engine}
   - {predicate: hasPart, object: kt:agent-script}

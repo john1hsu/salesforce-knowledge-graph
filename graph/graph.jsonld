@@ -3358,6 +3358,99 @@
       ]
     },
     {
+      "@id": "kt:agent-actions",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Agent Actions",
+      "skos:definition": "The tools an Agentforce agent can call to do work: prebuilt standard actions plus custom actions that wrap an autolaunched flow, an invocable or REST Apex method, or a prompt template, each described in natural language so the reasoning engine can choose and fill it.",
+      "kto:domain": "data-cloud-and-ai",
+      "dcterms:created": "2026-11-05",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Customize Your Agents (Agent Customization: Quick Look)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/agent-customization-quick-look/customize-your-agents",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Create Custom Actions Using Apex Invocable Method",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/ai/agentforce/guide/agent-invocablemethod.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Best Practices for Building Agentforce Apex Actions",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2025/05/best-practices-for-building-agentforce-apex-actions",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Agentforce Workshop: Standard Actions",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/workshops/agentforce-workshop/employee-agents/3-standard-actions",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Agentforce Workshop: Flow Actions",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/workshops/agentforce-new-workshop/employee-agents/3-flow-actions",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Create an Apex Agent Action (Agent Customization with Apex)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/agent-customization-with-apex/create-an-apex-agent-action",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/data-cloud-and-ai/agent-actions.md",
+      "skos:altLabel": [
+        "Agentforce actions",
+        "agent action",
+        "custom agent actions",
+        "standard agent actions",
+        "Copilot actions"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:agentforce"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:atlas-reasoning-engine"
+        },
+        {
+          "@id": "kt:agent-script"
+        },
+        {
+          "@id": "kt:agentforce-testing-center"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:agentforce"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:autolaunched-flow"
+        },
+        {
+          "@id": "kt:apex"
+        },
+        {
+          "@id": "kt:prompt-builder"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:governor-limits"
+        }
+      ]
+    },
+    {
       "@id": "kt:agent-development-lifecycle",
       "@type": "kto:Concept",
       "skos:prefLabel": "Agent Development Lifecycle",
@@ -3504,6 +3597,9 @@
         },
         {
           "@id": "kt:flow-builder"
+        },
+        {
+          "@id": "kt:agent-actions"
         }
       ],
       "kto:hasPart": [
