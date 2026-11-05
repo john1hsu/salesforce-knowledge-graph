@@ -4,12 +4,12 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:certified-technical-architect` | `kt:application-architect-certification`, `kt:cta-review-board`, `kt:salesforce-architect`, `kt:solution-design-tradeoffs`, `kt:system-architect-certification` |
 | `kt:security-compliance-frameworks` | `kt:dod-cloud-computing-srg`, `kt:fedramp`, `kt:fips-199`, `kt:nist-sp-800-53` |
 | `kt:api-request-limits` | `kt:composite-api`, `kt:data-integration`, `kt:rest-api` |
 | `kt:batch-data-synchronization` | `kt:data-integration`, `kt:integration-patterns`, `kt:salesforce-connect` |
 | `kt:data-virtualization` | `kt:zero-copy-data-federation`, `kt:integration-patterns`, `kt:salesforce-connect` |
 | `kt:implicit-sharing` | `kt:enterprise-territory-management`, `kt:role-hierarchy`, `kt:salesforce-sharing-model` |
+| `kt:platform-developer-certification` | `kt:application-architect-certification`, `kt:certified-technical-architect`, `kt:system-architect-certification` |
 | `kt:queues` | `kt:approval-processes`, `kt:omni-channel`, `kt:service-cloud` |
 | `kt:tooling-api` | `kt:source-tracking`, `kt:permission-set-groups`, `kt:restriction-rules` |
 | `kt:business-processes` | `kt:record-types`, `kt:record-types` |
@@ -25,7 +25,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:namespace-registry` | `kt:dev-hub`, `kt:second-generation-managed-packages` |
 | `kt:orchestration-work-guide` | `kt:approval-processes`, `kt:flow-orchestrator` |
 | `kt:permission-sets` | `kt:named-credentials`, `kt:permission-set-groups` |
-| `kt:platform-developer-certification` | `kt:application-architect-certification`, `kt:system-architect-certification` |
 | `kt:platform-event-allocations` | `kt:platform-events`, `kt:pub-sub-api` |
 | `kt:remote-site-settings` | `kt:apex-callouts`, `kt:named-credentials` |
 | `kt:salesforce-inc` | `kt:slack-platform`, `kt:tableau` |

@@ -173,6 +173,92 @@
       ]
     },
     {
+      "@id": "kt:certified-technical-architect",
+      "@type": "kto:Certification",
+      "skos:prefLabel": "Certified Technical Architect",
+      "skos:definition": "The top Salesforce architect credential, held by architects who design secure, high-performance, integrated solutions across every platform domain; it requires both Application Architect and System Architect and is awarded only after passing the two-step CTA Review Board.",
+      "kto:domain": "architecture-practice",
+      "dcterms:created": "2026-11-05",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Certification - Salesforce Certified Technical Architect",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/en/credentials/technicalarchitect",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Certified Technical Architect Credential",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/credentials/architectreviewboard",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Certification - Salesforce Certified Application Architect",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/credentials/applicationarchitect",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Certified Technical Architects",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/blog/certified-technical-architects/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Is the Salesforce CTA Becoming a Luxury Credential?",
+          "dcterms:publisher": "Salesforce Ben",
+          "schema:url": "https://salesforceben.com/is-the-salesforce-cta-becoming-a-luxury-credential",
+          "kto:sourceType": "news"
+        }
+      ],
+      "kto:file": "articles/architecture-practice/certified-technical-architect.md",
+      "skos:altLabel": [
+        "Salesforce Certified Technical Architect",
+        "CTA",
+        "CTA credential",
+        "Technical Architect credential"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-architect"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:well-architected-framework"
+        },
+        {
+          "@id": "kt:solution-design-tradeoffs"
+        },
+        {
+          "@id": "kt:salesforce-architecture-center"
+        },
+        {
+          "@id": "kt:platform-developer-certification"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:cta-review-board"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:application-architect-certification"
+        },
+        {
+          "@id": "kt:system-architect-certification"
+        }
+      ],
+      "kto:usedBy": [
+        {
+          "@id": "kt:salesforce-architect"
+        }
+      ]
+    },
+    {
       "@id": "kt:cta-review-board",
       "@type": "kto:Certification",
       "skos:prefLabel": "CTA Review Board",
