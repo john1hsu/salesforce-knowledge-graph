@@ -307,6 +307,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/asynchronous-apex> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/queueable-apex> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/asynchronous-apex> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/asynchronous-apex> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/atlas-reasoning-engine> <http://purl.org/dc/terms/created> "2026-11-05" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/atlas-reasoning-engine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/atlas-reasoning-engine> <http://www.w3.org/2000/01/rdf-schema#label> "Atlas Reasoning Engine" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/atlas-reasoning-engine> <http://www.w3.org/2004/02/skos/core#altLabel> "Agentforce reasoning engine" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/atlas-reasoning-engine> <http://www.w3.org/2004/02/skos/core#altLabel> "Atlas reasoning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/atlas-reasoning-engine> <http://www.w3.org/2004/02/skos/core#altLabel> "Atlas" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/atlas-reasoning-engine> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/atlas-reasoning-engine> <http://www.w3.org/2004/02/skos/core#definition> "The reasoning engine inside Agentforce that routes each request to a subagent, then runs a reason-act-observe loop over that subagent's instructions and actions, grounded in Data 360 and checked before replying; since Agent Script it can mix deterministic steps with LLM reasoning (hybrid reasoning)." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/atlas-reasoning-engine> <http://www.w3.org/2004/02/skos/core#prefLabel> "Atlas Reasoning Engine" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/atlas-reasoning-engine> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/agent-development-lifecycle> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/atlas-reasoning-engine> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/prompt-builder> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/atlas-reasoning-engine> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/atlas-reasoning-engine/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/atlas-reasoning-engine> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/atlas-reasoning-engine/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/atlas-reasoning-engine> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/atlas-reasoning-engine/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/atlas-reasoning-engine> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/atlas-reasoning-engine/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/atlas-reasoning-engine> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/atlas-reasoning-engine/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/atlas-reasoning-engine> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/atlas-reasoning-engine/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/atlas-reasoning-engine> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/agent-script> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/atlas-reasoning-engine> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/atlas-reasoning-engine> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/einstein-trust-layer> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/atlas-reasoning-engine> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "data-cloud-and-ai" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/atlas-reasoning-engine> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#implements> <https://github.com/john1hsu/salesforce-knowledge-graph/id/retrieval-augmented-generation-in-salesforce> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/atlas-reasoning-engine> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#partOf> <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/atlas-reasoning-engine> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/atlas-reasoning-engine> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/autolaunched-flow> <http://purl.org/dc/terms/created> "2026-11-01" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/autolaunched-flow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/autolaunched-flow> <http://www.w3.org/2000/01/rdf-schema#label> "Autolaunched Flow" .
@@ -3655,6 +3680,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/asynchronous-apex/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/asynchronous-apex/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/asynchronous-apex/s5> <https://schema.org/url> "https://trailhead.salesforce.com/microsoft_dotnet/apex_basics_dotnet/async_apex" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/atlas-reasoning-engine/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/atlas-reasoning-engine/s1> <http://purl.org/dc/terms/title> "Discover the Atlas Reasoning Engine (Reasoning in Artificial Intelligence)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/atlas-reasoning-engine/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/atlas-reasoning-engine/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/atlas-reasoning-engine/s1> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/reasoning-in-artificial-intelligence/discover-the-atlas-reasoning-engine" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/atlas-reasoning-engine/s2> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/atlas-reasoning-engine/s2> <http://purl.org/dc/terms/title> "How the Atlas Reasoning Engine Powers Agentforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/atlas-reasoning-engine/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/atlas-reasoning-engine/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/atlas-reasoning-engine/s2> <https://schema.org/url> "https://www.salesforce.com/blog/atlas-reasoning-engine/" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/atlas-reasoning-engine/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/atlas-reasoning-engine/s3> <http://purl.org/dc/terms/title> "Introducing Hybrid Reasoning with Agent Script" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/atlas-reasoning-engine/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/atlas-reasoning-engine/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/atlas-reasoning-engine/s3> <https://schema.org/url> "https://developer.salesforce.com/blogs/2025/10/introducing-hybrid-reasoning-with-agent-script" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/atlas-reasoning-engine/s4> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/atlas-reasoning-engine/s4> <http://purl.org/dc/terms/title> "Legacy Guide: Agentforce Reasoning, Subagents, Instructions, and Actions" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/atlas-reasoning-engine/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/atlas-reasoning-engine/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/atlas-reasoning-engine/s4> <https://schema.org/url> "https://www.salesforce.com/agentforce/legacy-guide/" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/atlas-reasoning-engine/s5> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/atlas-reasoning-engine/s5> <http://purl.org/dc/terms/title> "The Agentforce Guide to Context Engineering" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/atlas-reasoning-engine/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/atlas-reasoning-engine/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/atlas-reasoning-engine/s5> <https://schema.org/url> "https://www.salesforce.com/agentforce/guide" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/atlas-reasoning-engine/s6> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/atlas-reasoning-engine/s6> <http://purl.org/dc/terms/title> "Resolve Routing, Action, and Prompting Issues (Agent Behavior Troubleshooting in Agentforce)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/atlas-reasoning-engine/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/atlas-reasoning-engine/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/atlas-reasoning-engine/s6> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/agent-behavior-troubleshooting-in-agentforce/resolve-routing-action-and-prompting-issues" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/autolaunched-flow/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/autolaunched-flow/s1> <http://purl.org/dc/terms/title> "Autolaunched and Scheduled Flows: Get Started with Autolaunched Flows" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/autolaunched-flow/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

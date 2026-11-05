@@ -11,6 +11,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:platform-developer-certification` | `kt:application-architect-certification`, `kt:certified-technical-architect`, `kt:system-architect-certification` |
 | `kt:queues` | `kt:approval-processes`, `kt:omni-channel`, `kt:service-cloud` |
 | `kt:tooling-api` | `kt:source-tracking`, `kt:permission-set-groups`, `kt:restriction-rules` |
+| `kt:agent-script` | `kt:agentforce`, `kt:atlas-reasoning-engine` |
 | `kt:business-processes` | `kt:record-types`, `kt:record-types` |
 | `kt:data-lake-objects` | `kt:data-model-objects`, `kt:zero-copy-data-federation` |
 | `kt:experience-builder` | `kt:experience-cloud`, `kt:experience-cloud-identity` |
@@ -34,7 +35,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:standard-objects` | `kt:data-model-objects`, `kt:person-accounts` |
 | `kt:transaction-control` | `kt:flow-fault-handling`, `kt:record-locking` |
 | `kt:account-takeover` | `kt:multi-factor-authentication` |
-| `kt:agent-script` | `kt:agentforce` |
 | `kt:agentforce-dx` | `kt:agent-development-lifecycle` |
 | `kt:agentforce-studio` | `kt:prompt-builder` |
 | `kt:agentforce-testing-center` | `kt:agent-development-lifecycle` |
@@ -44,7 +44,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:appexchange-security-review` | `kt:code-analyzer` |
 | `kt:architect-decision-guides` | `kt:salesforce-architecture-center` |
 | `kt:architecture-decision-records` | `kt:solution-design-tradeoffs` |
-| `kt:atlas-reasoning-engine` | `kt:agentforce` |
 | `kt:aura-components` | `kt:lightning-web-components` |
 | `kt:automation-studio` | `kt:marketing-cloud-engagement` |
 | `kt:backup-and-recover` | `kt:archiving-strategy` |
@@ -126,6 +125,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:public-groups` | `kt:sharing-rules` |
 | `kt:recursive-save` | `kt:order-of-execution` |
 | `kt:remote-call-in` | `kt:integration-patterns` |
+| `kt:retrieval-augmented-generation-in-salesforce` | `kt:atlas-reasoning-engine` |
 | `kt:revenue-management-consultant-certification` | `kt:revenue-cloud` |
 | `kt:sales-cloud-consultant-certification` | `kt:sales-cloud` |
 | `kt:salesforce-analytics` | `kt:tableau` |
