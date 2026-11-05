@@ -624,6 +624,33 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/code-analyzer> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#partOf> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-cli> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/code-analyzer> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/code-analyzer> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/collaborative-forecasts> <http://purl.org/dc/terms/created> "2026-11-05" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/collaborative-forecasts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/collaborative-forecasts> <http://www.w3.org/2000/01/rdf-schema#label> "Collaborative Forecasts" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/collaborative-forecasts> <http://www.w3.org/2004/02/skos/core#altLabel> "Forecasts (Sales Cloud)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/collaborative-forecasts> <http://www.w3.org/2004/02/skos/core#altLabel> "Sales Forecasting" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/collaborative-forecasts> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce Forecasting" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/collaborative-forecasts> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/sales-cloud> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/collaborative-forecasts> <http://www.w3.org/2004/02/skos/core#definition> "Sales Cloud feature that rolls opportunity, product, split or schedule amounts up a role- or territory-based forecast hierarchy by forecast category and period, with quotas, owner and manager adjustments, and a Forecasts page for review." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/collaborative-forecasts> <http://www.w3.org/2004/02/skos/core#prefLabel> "Collaborative Forecasts" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/collaborative-forecasts> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/opportunity-splits> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/collaborative-forecasts> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/revenue-intelligence> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/collaborative-forecasts> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/role-hierarchy> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/collaborative-forecasts> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/collaborative-forecasts/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/collaborative-forecasts> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/collaborative-forecasts/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/collaborative-forecasts> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/collaborative-forecasts/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/collaborative-forecasts> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/collaborative-forecasts/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/collaborative-forecasts> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/collaborative-forecasts/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/collaborative-forecasts> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/collaborative-forecasts/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/collaborative-forecasts> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/collaborative-forecasts> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#coveredBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/sales-cloud-consultant-certification> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/collaborative-forecasts> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/role-hierarchy> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/collaborative-forecasts> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "clouds-and-products" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/collaborative-forecasts> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/enterprise-territory-management> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/collaborative-forecasts> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#partOf> <https://github.com/john1hsu/salesforce-knowledge-graph/id/sales-cloud> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/collaborative-forecasts> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/soql> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/collaborative-forecasts> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/collaborative-forecasts> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/composite-api> <http://purl.org/dc/terms/created> "2026-11-03" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/composite-api> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#API> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/composite-api> <http://www.w3.org/2000/01/rdf-schema#label> "Composite API" .
@@ -4169,6 +4196,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/code-analyzer/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/code-analyzer/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/code-analyzer/s5> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/salesforce-code-analyzer/guide/appexchange.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/collaborative-forecasts/s1> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/collaborative-forecasts/s1> <http://purl.org/dc/terms/title> "Collaborative Forecasts (Salesforce help PDF)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/collaborative-forecasts/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/collaborative-forecasts/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/collaborative-forecasts/s1> <https://schema.org/url> "https://resources.docs.salesforce.com/242/latest/en-us/sfdc/pdf/forecasts.pdf" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/collaborative-forecasts/s2> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/collaborative-forecasts/s2> <http://purl.org/dc/terms/title> "Configure Sales Forecasting in Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/collaborative-forecasts/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/collaborative-forecasts/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/collaborative-forecasts/s2> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/sales-forecasting/configure-sales-forecasting-in-salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/collaborative-forecasts/s3> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/collaborative-forecasts/s3> <http://purl.org/dc/terms/title> "View and Set Sales Forecasts" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/collaborative-forecasts/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/collaborative-forecasts/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/collaborative-forecasts/s3> <https://schema.org/url> "https://trailhead.salesforce.com/it/content/learn/modules/sales-forecasting/view-and-set-sales-forecasts" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/collaborative-forecasts/s4> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/collaborative-forecasts/s4> <http://purl.org/dc/terms/title> "Adjust Sales Projections in Collaborative Forecasts" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/collaborative-forecasts/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/collaborative-forecasts/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/collaborative-forecasts/s4> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/introduction-to-revenue-intelligence-for-sales-cloud/adjust-forecasts" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/collaborative-forecasts/s5> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/collaborative-forecasts/s5> <http://purl.org/dc/terms/title> "ForecastingItem (Object Reference)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/collaborative-forecasts/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/collaborative-forecasts/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/collaborative-forecasts/s5> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.248.0.object_reference.meta/object_reference/sforce_api_objects_forecastingitem.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/collaborative-forecasts/s6> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/collaborative-forecasts/s6> <http://purl.org/dc/terms/title> "ForecastingSettings (Metadata API Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/collaborative-forecasts/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/collaborative-forecasts/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/collaborative-forecasts/s6> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_forecastingsettings.htm" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/composite-api/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/composite-api/s1> <http://purl.org/dc/terms/title> "Send Multiple Requests Using Composite (REST API Developer Guide)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/composite-api/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

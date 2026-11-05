@@ -17,11 +17,13 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:integration-patterns-request-reply-fire-and-forget` | `kt:event-driven-architecture`, `kt:integration-patterns` |
 | `kt:integration-security` | `kt:oauth-2-0`, `kt:named-credentials` |
 | `kt:namespace-registry` | `kt:dev-hub`, `kt:second-generation-managed-packages` |
+| `kt:opportunity-splits` | `kt:collaborative-forecasts`, `kt:sales-cloud` |
 | `kt:orchestration-work-guide` | `kt:approval-processes`, `kt:flow-orchestrator` |
 | `kt:permission-sets` | `kt:named-credentials`, `kt:permission-set-groups` |
 | `kt:platform-app-builder-certification` | `kt:application-architect-certification`, `kt:platform-developer-certification` |
 | `kt:remote-call-in` | `kt:batch-data-synchronization`, `kt:integration-patterns` |
 | `kt:remote-site-settings` | `kt:apex-callouts`, `kt:named-credentials` |
+| `kt:sales-cloud-consultant-certification` | `kt:collaborative-forecasts`, `kt:sales-cloud` |
 | `kt:salesforce-certification-program` | `kt:data-cloud-consultant-certification`, `kt:platform-developer-certification` |
 | `kt:salesforce-inc` | `kt:slack-platform`, `kt:tableau` |
 | `kt:sandbox-templates` | `kt:environment-strategy`, `kt:sandbox-types` |
@@ -48,7 +50,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:business-hours` | `kt:entitlement-management` |
 | `kt:business-rules-engine` | `kt:public-sector-solutions` |
 | `kt:change-data-capture-allocations` | `kt:change-data-capture` |
-| `kt:collaborative-forecasts` | `kt:sales-cloud` |
 | `kt:contact-builder` | `kt:marketing-cloud-engagement` |
 | `kt:contacts-to-multiple-accounts` | `kt:person-accounts` |
 | `kt:crm-analytics` | `kt:tableau` |
@@ -104,7 +105,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:omni-channel-limits` | `kt:omni-channel` |
 | `kt:omnistudio` | `kt:public-sector-solutions` |
 | `kt:openid-connect` | `kt:openid-connect-authentication-providers` |
-| `kt:opportunity-splits` | `kt:sales-cloud` |
 | `kt:org-check` | `kt:technical-debt-in-salesforce` |
 | `kt:org-strategy` | `kt:environment-strategy` |
 | `kt:package-xml-manifest` | `kt:metadata-api` |
@@ -122,8 +122,8 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:public-groups` | `kt:sharing-rules` |
 | `kt:recursive-save` | `kt:order-of-execution` |
 | `kt:retrieval-augmented-generation-in-salesforce` | `kt:atlas-reasoning-engine` |
+| `kt:revenue-intelligence` | `kt:collaborative-forecasts` |
 | `kt:revenue-management-consultant-certification` | `kt:revenue-cloud` |
-| `kt:sales-cloud-consultant-certification` | `kt:sales-cloud` |
 | `kt:salesforce-analytics` | `kt:tableau` |
 | `kt:salesforce-apis` | `kt:bulk-api-2` |
 | `kt:salesforce-architecture-program` | `kt:salesforce-architecture-center` |

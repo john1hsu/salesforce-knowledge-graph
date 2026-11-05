@@ -2213,6 +2213,106 @@
       ]
     },
     {
+      "@id": "kt:collaborative-forecasts",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Collaborative Forecasts",
+      "skos:definition": "Sales Cloud feature that rolls opportunity, product, split or schedule amounts up a role- or territory-based forecast hierarchy by forecast category and period, with quotas, owner and manager adjustments, and a Forecasts page for review.",
+      "kto:domain": "clouds-and-products",
+      "dcterms:created": "2026-11-05",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Collaborative Forecasts (Salesforce help PDF)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://resources.docs.salesforce.com/242/latest/en-us/sfdc/pdf/forecasts.pdf",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Configure Sales Forecasting in Salesforce",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/sales-forecasting/configure-sales-forecasting-in-salesforce",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "View and Set Sales Forecasts",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/it/content/learn/modules/sales-forecasting/view-and-set-sales-forecasts",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Adjust Sales Projections in Collaborative Forecasts",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/introduction-to-revenue-intelligence-for-sales-cloud/adjust-forecasts",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "ForecastingItem (Object Reference)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.248.0.object_reference.meta/object_reference/sforce_api_objects_forecastingitem.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "ForecastingSettings (Metadata API Developer Guide)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_forecastingsettings.htm",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/clouds-and-products/collaborative-forecasts.md",
+      "skos:altLabel": [
+        "Salesforce Forecasting",
+        "Sales Forecasting",
+        "Forecasts (Sales Cloud)"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:sales-cloud"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:role-hierarchy"
+        },
+        {
+          "@id": "kt:opportunity-splits"
+        },
+        {
+          "@id": "kt:revenue-intelligence"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:sales-cloud"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:role-hierarchy"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:enterprise-territory-management"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:metadata-api"
+        }
+      ],
+      "kto:queriedWith": [
+        {
+          "@id": "kt:soql"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:sales-cloud-consultant-certification"
+        }
+      ]
+    },
+    {
       "@id": "kt:entitlement-management",
       "@type": "kto:Feature",
       "skos:prefLabel": "Entitlement Management",
