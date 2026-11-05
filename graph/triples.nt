@@ -940,6 +940,32 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-skew> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "data-model" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-skew> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-skew> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-virtualization> <http://purl.org/dc/terms/created> "2026-11-05" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-virtualization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Pattern> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-virtualization> <http://www.w3.org/2000/01/rdf-schema#label> "Data Virtualization" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-virtualization> <http://www.w3.org/2004/02/skos/core#altLabel> "data virtualization pattern" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-virtualization> <http://www.w3.org/2004/02/skos/core#altLabel> "virtual integration pattern" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-virtualization> <http://www.w3.org/2004/02/skos/core#altLabel> "zero-copy data access" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-virtualization> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-patterns> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-virtualization> <http://www.w3.org/2004/02/skos/core#definition> "The synchronous Salesforce integration pattern in which Salesforce reads external data in real time at the moment it is needed, typically through Salesforce Connect external objects, instead of copying it into the org and reconciling the copy." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-virtualization> <http://www.w3.org/2004/02/skos/core#prefLabel> "Data Virtualization" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-virtualization> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-callouts> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-virtualization> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/external-objects> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-virtualization> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-connect> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-virtualization> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/zero-copy-data-federation> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-virtualization> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-virtualization/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-virtualization> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-virtualization/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-virtualization> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-virtualization/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-virtualization> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-virtualization/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-virtualization> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-virtualization/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-virtualization> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#contrastsWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/batch-data-synchronization> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-virtualization> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#coveredBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-architect-certification> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-virtualization> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/named-credentials> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-virtualization> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "integration" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-virtualization> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#governedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/governor-limits> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-virtualization> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#partOf> <https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-patterns> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-virtualization> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-virtualization> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/dev-hub> <http://purl.org/dc/terms/created> "2026-11-01" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/dev-hub> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/dev-hub> <http://www.w3.org/2000/01/rdf-schema#label> "Dev Hub" .
@@ -4402,6 +4428,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-skew/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-skew/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-skew/s4> <https://schema.org/url> "https://developer.salesforce.com/blogs/engineering/2012/06/architect-salesforce-record-ownership-skew-for-peak-performance-in-large-data-volume-environments" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-virtualization/s1> <http://purl.org/dc/terms/publisher> "Salesforce Architects" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-virtualization/s1> <http://purl.org/dc/terms/title> "Data Virtualization — Salesforce Architects" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-virtualization/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-virtualization/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-virtualization/s1> <https://schema.org/url> "https://architect.salesforce.com/docs/architect/fundamentals/guide/data-virtualization" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-virtualization/s2> <http://purl.org/dc/terms/publisher> "Salesforce Architects" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-virtualization/s2> <http://purl.org/dc/terms/title> "Integration Patterns Overview" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-virtualization/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-virtualization/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-virtualization/s2> <https://schema.org/url> "https://architect.salesforce.com/fundamentals/integration-patterns" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-virtualization/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-virtualization/s3> <http://purl.org/dc/terms/title> "Pattern Selection Guide (Integration Patterns and Practices)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-virtualization/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-virtualization/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-virtualization/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.integration_patterns_and_practices.meta/integ/integ_pat_selection_guide.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-virtualization/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-virtualization/s4> <http://purl.org/dc/terms/title> "External Objects — Object Reference for the Salesforce Platform" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-virtualization/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-virtualization/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-virtualization/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/object_reference/sforce_api_objects_external_objects.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-virtualization/s5> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-virtualization/s5> <http://purl.org/dc/terms/title> "Integrating with Salesforce Connect (Heroku Enterprise Basics)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-virtualization/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-virtualization/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-virtualization/s5> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/salesforce_heroku_integration/integrating_with_salesforce_connect" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dev-hub/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dev-hub/s1> <http://purl.org/dc/terms/title> "Select and Enable a Dev Hub Org" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dev-hub/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

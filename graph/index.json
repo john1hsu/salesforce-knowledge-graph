@@ -832,6 +832,28 @@
     ]
   },
   {
+    "id": "kt:data-virtualization",
+    "title": "Data Virtualization",
+    "aliases": [
+      "data virtualization pattern",
+      "virtual integration pattern",
+      "zero-copy data access"
+    ],
+    "type": "Pattern",
+    "domain": "integration",
+    "file": "articles/integration/data-virtualization.md",
+    "created": "2026-11-05",
+    "release": "Winter '27",
+    "status": "concept",
+    "source_urls": [
+      "https://architect.salesforce.com/docs/architect/fundamentals/guide/data-virtualization",
+      "https://architect.salesforce.com/fundamentals/integration-patterns",
+      "https://developer.salesforce.com/docs/atlas.en-us.integration_patterns_and_practices.meta/integ/integ_pat_selection_guide.htm",
+      "https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/object_reference/sforce_api_objects_external_objects.htm",
+      "https://trailhead.salesforce.com/content/learn/modules/salesforce_heroku_integration/integrating_with_salesforce_connect"
+    ]
+  },
+  {
     "id": "kt:dev-hub",
     "title": "Dev Hub",
     "aliases": [

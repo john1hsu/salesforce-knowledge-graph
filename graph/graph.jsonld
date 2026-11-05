@@ -8813,6 +8813,98 @@
       ]
     },
     {
+      "@id": "kt:data-virtualization",
+      "@type": "kto:Pattern",
+      "skos:prefLabel": "Data Virtualization",
+      "skos:definition": "The synchronous Salesforce integration pattern in which Salesforce reads external data in real time at the moment it is needed, typically through Salesforce Connect external objects, instead of copying it into the org and reconciling the copy.",
+      "kto:domain": "integration",
+      "dcterms:created": "2026-11-05",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Data Virtualization — Salesforce Architects",
+          "dcterms:publisher": "Salesforce Architects",
+          "schema:url": "https://architect.salesforce.com/docs/architect/fundamentals/guide/data-virtualization",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Integration Patterns Overview",
+          "dcterms:publisher": "Salesforce Architects",
+          "schema:url": "https://architect.salesforce.com/fundamentals/integration-patterns",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Pattern Selection Guide (Integration Patterns and Practices)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.integration_patterns_and_practices.meta/integ/integ_pat_selection_guide.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "External Objects — Object Reference for the Salesforce Platform",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/object_reference/sforce_api_objects_external_objects.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Integrating with Salesforce Connect (Heroku Enterprise Basics)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/salesforce_heroku_integration/integrating_with_salesforce_connect",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/integration/data-virtualization.md",
+      "skos:altLabel": [
+        "data virtualization pattern",
+        "virtual integration pattern",
+        "zero-copy data access"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:integration-patterns"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:salesforce-connect"
+        },
+        {
+          "@id": "kt:external-objects"
+        },
+        {
+          "@id": "kt:zero-copy-data-federation"
+        },
+        {
+          "@id": "kt:apex-callouts"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:integration-patterns"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:named-credentials"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:batch-data-synchronization"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:governor-limits"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:integration-architect-certification"
+        }
+      ]
+    },
+    {
       "@id": "kt:event-driven-architecture",
       "@type": "kto:Pattern",
       "skos:prefLabel": "Event-Driven Architecture",
