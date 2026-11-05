@@ -10919,6 +10919,93 @@
       ]
     },
     {
+      "@id": "kt:security-compliance-frameworks",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Security Compliance Frameworks",
+      "skos:definition": "The family of standards, regulations and audit schemes (NIST CSF, NIST SP 800-53, ISO/IEC 27001, SOC 2, PCI DSS, HIPAA, FedRAMP, C5 and others) against which a Salesforce solution is assessed; Salesforce certifies the platform, while the customer remains responsible for keeping what it builds inside that certified posture.",
+      "kto:domain": "public-sector-and-compliance",
+      "dcterms:created": "2026-11-05",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Trust (Salesforce Well-Architected guide)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://architect.salesforce.com/docs/architect/well-architected/guide/trust.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Salesforce Compliance Site: Services",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://compliance.salesforce.com/en/services",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Security Perspective on the Shared Responsibility Model",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://compliance.salesforce.com/en/documents/a006e000010nW2FAAU",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "C5 (ISAE 3000) (Salesforce Compliance Site)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://compliance.salesforce.com/en/c5-isae-3000",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "The NIST Cybersecurity Framework (CSF) 2.0 (NIST CSWP 29)",
+          "dcterms:publisher": "NIST",
+          "schema:url": "https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.pdf",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "ISO/IEC 27001:2022 Information security management systems — Requirements",
+          "dcterms:publisher": "IEC Webstore",
+          "schema:url": "https://webstore.iec.ch/publication/79694",
+          "kto:sourceType": "standards-body"
+        }
+      ],
+      "kto:file": "articles/public-sector-and-compliance/security-compliance-frameworks.md",
+      "skos:altLabel": [
+        "compliance frameworks",
+        "security frameworks",
+        "regulatory frameworks",
+        "Salesforce compliance certifications and attestations"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:governance-risk-and-compliance"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:fedramp"
+        },
+        {
+          "@id": "kt:nist-sp-800-53"
+        },
+        {
+          "@id": "kt:dod-cloud-computing-srg"
+        },
+        {
+          "@id": "kt:data-residency"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:nist-cybersecurity-framework"
+        },
+        {
+          "@id": "kt:iso-iec-27001"
+        }
+      ],
+      "kto:usedBy": [
+        {
+          "@id": "kt:well-architected-framework"
+        }
+      ]
+    },
+    {
       "@id": "kt:apex-managed-sharing",
       "@type": "kto:SecurityControl",
       "skos:prefLabel": "Apex Managed Sharing",

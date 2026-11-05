@@ -4,7 +4,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:security-compliance-frameworks` | `kt:dod-cloud-computing-srg`, `kt:fedramp`, `kt:fips-199`, `kt:nist-sp-800-53` |
 | `kt:api-request-limits` | `kt:composite-api`, `kt:data-integration`, `kt:rest-api` |
 | `kt:batch-data-synchronization` | `kt:data-integration`, `kt:integration-patterns`, `kt:salesforce-connect` |
 | `kt:data-virtualization` | `kt:zero-copy-data-federation`, `kt:integration-patterns`, `kt:salesforce-connect` |
@@ -84,10 +83,12 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:fips-200` | `kt:fips-199` |
 | `kt:first-generation-managed-packages` | `kt:second-generation-managed-packages` |
 | `kt:gdpr-international-transfers` | `kt:data-residency` |
+| `kt:governance-risk-and-compliance` | `kt:security-compliance-frameworks` |
 | `kt:government-cloud` | `kt:government-cloud-plus` |
 | `kt:hyperforce-operating-zones` | `kt:data-residency` |
 | `kt:identity-connect` | `kt:salesforce-identity` |
 | `kt:invocable-actions-api` | `kt:autolaunched-flow` |
+| `kt:iso-iec-27001` | `kt:security-compliance-frameworks` |
 | `kt:journey-builder` | `kt:marketing-cloud-engagement` |
 | `kt:lead-conversion` | `kt:sales-cloud` |
 | `kt:legacy-named-credentials` | `kt:named-credentials` |
@@ -101,6 +102,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:marketing-cloud-next` | `kt:marketing-cloud-engagement` |
 | `kt:mule-runtime-engine` | `kt:mulesoft-anypoint-platform` |
 | `kt:mulesoft-composer` | `kt:slack-platform` |
+| `kt:nist-cybersecurity-framework` | `kt:security-compliance-frameworks` |
 | `kt:nist-digital-identity-guidelines` | `kt:multi-factor-authentication` |
 | `kt:nist-sp-800-53b` | `kt:nist-sp-800-53` |
 | `kt:nist-sp-800-60` | `kt:fips-199` |

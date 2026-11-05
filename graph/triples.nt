@@ -3062,6 +3062,32 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/section-508-accessibility> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "public-sector-and-compliance" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/section-508-accessibility> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/section-508-accessibility> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/security-compliance-frameworks> <http://purl.org/dc/terms/created> "2026-11-05" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/security-compliance-frameworks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/security-compliance-frameworks> <http://www.w3.org/2000/01/rdf-schema#label> "Security Compliance Frameworks" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/security-compliance-frameworks> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce compliance certifications and attestations" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/security-compliance-frameworks> <http://www.w3.org/2004/02/skos/core#altLabel> "compliance frameworks" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/security-compliance-frameworks> <http://www.w3.org/2004/02/skos/core#altLabel> "regulatory frameworks" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/security-compliance-frameworks> <http://www.w3.org/2004/02/skos/core#altLabel> "security frameworks" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/security-compliance-frameworks> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/governance-risk-and-compliance> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/security-compliance-frameworks> <http://www.w3.org/2004/02/skos/core#definition> "The family of standards, regulations and audit schemes (NIST CSF, NIST SP 800-53, ISO/IEC 27001, SOC 2, PCI DSS, HIPAA, FedRAMP, C5 and others) against which a Salesforce solution is assessed; Salesforce certifies the platform, while the customer remains responsible for keeping what it builds inside that certified posture." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/security-compliance-frameworks> <http://www.w3.org/2004/02/skos/core#prefLabel> "Security Compliance Frameworks" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/security-compliance-frameworks> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-residency> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/security-compliance-frameworks> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/dod-cloud-computing-srg> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/security-compliance-frameworks> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/fedramp> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/security-compliance-frameworks> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-53> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/security-compliance-frameworks> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-compliance-frameworks/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/security-compliance-frameworks> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-compliance-frameworks/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/security-compliance-frameworks> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-compliance-frameworks/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/security-compliance-frameworks> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-compliance-frameworks/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/security-compliance-frameworks> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-compliance-frameworks/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/security-compliance-frameworks> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-compliance-frameworks/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/security-compliance-frameworks> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "public-sector-and-compliance" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/security-compliance-frameworks> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/iso-iec-27001> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/security-compliance-frameworks> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-cybersecurity-framework> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/security-compliance-frameworks> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/security-compliance-frameworks> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#usedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/well-architected-framework> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/security-compliance-frameworks> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/service-cloud> <http://purl.org/dc/terms/created> "2026-10-31" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/service-cloud> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Product> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/service-cloud> <http://www.w3.org/2000/01/rdf-schema#label> "Service Cloud" .
@@ -6434,6 +6460,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/section-508-accessibility/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/section-508-accessibility/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/section-508-accessibility/s6> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/accessible-salesforce-customizations/restructure-page-layouts" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-compliance-frameworks/s1> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-compliance-frameworks/s1> <http://purl.org/dc/terms/title> "Trust (Salesforce Well-Architected guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-compliance-frameworks/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-compliance-frameworks/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-compliance-frameworks/s1> <https://schema.org/url> "https://architect.salesforce.com/docs/architect/well-architected/guide/trust.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-compliance-frameworks/s2> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-compliance-frameworks/s2> <http://purl.org/dc/terms/title> "Salesforce Compliance Site: Services" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-compliance-frameworks/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-compliance-frameworks/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-compliance-frameworks/s2> <https://schema.org/url> "https://compliance.salesforce.com/en/services" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-compliance-frameworks/s3> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-compliance-frameworks/s3> <http://purl.org/dc/terms/title> "Security Perspective on the Shared Responsibility Model" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-compliance-frameworks/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-compliance-frameworks/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-compliance-frameworks/s3> <https://schema.org/url> "https://compliance.salesforce.com/en/documents/a006e000010nW2FAAU" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-compliance-frameworks/s4> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-compliance-frameworks/s4> <http://purl.org/dc/terms/title> "C5 (ISAE 3000) (Salesforce Compliance Site)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-compliance-frameworks/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-compliance-frameworks/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-compliance-frameworks/s4> <https://schema.org/url> "https://compliance.salesforce.com/en/c5-isae-3000" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-compliance-frameworks/s5> <http://purl.org/dc/terms/publisher> "NIST" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-compliance-frameworks/s5> <http://purl.org/dc/terms/title> "The NIST Cybersecurity Framework (CSF) 2.0 (NIST CSWP 29)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-compliance-frameworks/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-compliance-frameworks/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "standards-body" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-compliance-frameworks/s5> <https://schema.org/url> "https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.pdf" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-compliance-frameworks/s6> <http://purl.org/dc/terms/publisher> "IEC Webstore" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-compliance-frameworks/s6> <http://purl.org/dc/terms/title> "ISO/IEC 27001:2022 Information security management systems — Requirements" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-compliance-frameworks/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-compliance-frameworks/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "standards-body" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-compliance-frameworks/s6> <https://schema.org/url> "https://webstore.iec.ch/publication/79694" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/service-cloud/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/service-cloud/s1> <http://purl.org/dc/terms/title> "Agentforce Service Basics: the Service Console (Trailhead unit)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/service-cloud/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
