@@ -2702,6 +2702,32 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/queueable-apex> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/transaction-finalizers> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/queueable-apex> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/queueable-apex> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/queues> <http://purl.org/dc/terms/created> "2026-11-05" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/queues> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/queues> <http://www.w3.org/2000/01/rdf-schema#label> "Queues" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/queues> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce queues" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/queues> <http://www.w3.org/2004/02/skos/core#altLabel> "case queue" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/queues> <http://www.w3.org/2004/02/skos/core#altLabel> "lead queue" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/queues> <http://www.w3.org/2004/02/skos/core#altLabel> "queue ownership" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/queues> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-sharing-model> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/queues> <http://www.w3.org/2004/02/skos/core#definition> "Shared holding areas that can own records such as cases, leads, tasks and custom-object records, so a team of members can pick up or be routed the work; each queue is a special Group defined by members, supported objects and notification and hierarchy-access settings." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/queues> <http://www.w3.org/2004/02/skos/core#prefLabel> "Queues" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/queues> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/approval-processes> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/queues> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/public-groups> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/queues> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/role-hierarchy> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/queues> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/service-cloud> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/queues> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/queues/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/queues> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/queues/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/queues> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/queues/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/queues> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/queues/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/queues> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/queues/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/queues> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/queues> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#coveredBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-and-visibility-architect-certification> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/queues> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "security-and-sharing" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/queues> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#enables> <https://github.com/john1hsu/salesforce-knowledge-graph/id/omni-channel> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/queues> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/assignment-rules> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/queues> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/queues> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/record-locking> <http://purl.org/dc/terms/created> "2026-11-01" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/record-locking> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/record-locking> <http://www.w3.org/2000/01/rdf-schema#label> "Record Locking" .
@@ -6341,6 +6367,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/queueable-apex/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/queueable-apex/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/queueable-apex/s4> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/asynchronous_apex/async_apex_queueable" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/queues/s1> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/queues/s1> <http://purl.org/dc/terms/title> "Create Queues" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/queues/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/queues/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/queues/s1> <https://schema.org/url> "https://help.salesforce.com/s/articleView?language=en_US&id=sf.setting_up_queues.htm&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/queues/s2> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/queues/s2> <http://purl.org/dc/terms/title> "Queue (Metadata API Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/queues/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/queues/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/queues/s2> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_queue.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/queues/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/queues/s3> <http://purl.org/dc/terms/title> "QueueSobject (Salesforce Field Reference)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/queues/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/queues/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/queues/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.sfFieldRef.meta/sfFieldRef/salesforce_field_reference_QueueSobject.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/queues/s4> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/queues/s4> <http://purl.org/dc/terms/title> "Manage Cases (Service Cloud for Lightning Experience)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/queues/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/queues/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/queues/s4> <https://schema.org/url> "https://trailhead.salesforce.com/modules/service_lex/units/service_lex_case_manage" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/queues/s5> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/queues/s5> <http://purl.org/dc/terms/title> "Create Routing Configurations for Your Queues" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/queues/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/queues/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/queues/s5> <https://schema.org/url> "https://help.salesforce.com/s/articleView?language=en_US&id=sf.service_presence_create_routing_configuration.htm&amp=&type=5" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/record-locking/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/record-locking/s1> <http://purl.org/dc/terms/title> "Locking Statements (Apex Developer Guide)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/record-locking/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

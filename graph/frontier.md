@@ -4,7 +4,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:queues` | `kt:approval-processes`, `kt:omni-channel`, `kt:service-cloud` |
 | `kt:tooling-api` | `kt:source-tracking`, `kt:permission-set-groups`, `kt:restriction-rules` |
 | `kt:agent-script` | `kt:agentforce`, `kt:atlas-reasoning-engine` |
 | `kt:aura-components` | `kt:lightning-data-service`, `kt:lightning-web-components` |
@@ -21,6 +20,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:orchestration-work-guide` | `kt:approval-processes`, `kt:flow-orchestrator` |
 | `kt:permission-sets` | `kt:named-credentials`, `kt:permission-set-groups` |
 | `kt:platform-app-builder-certification` | `kt:application-architect-certification`, `kt:platform-developer-certification` |
+| `kt:public-groups` | `kt:queues`, `kt:sharing-rules` |
 | `kt:remote-call-in` | `kt:batch-data-synchronization`, `kt:integration-patterns` |
 | `kt:remote-site-settings` | `kt:apex-callouts`, `kt:named-credentials` |
 | `kt:sales-cloud-consultant-certification` | `kt:collaborative-forecasts`, `kt:sales-cloud` |
@@ -42,6 +42,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:appexchange-security-review` | `kt:code-analyzer` |
 | `kt:architect-decision-guides` | `kt:salesforce-architecture-center` |
 | `kt:architecture-decision-records` | `kt:solution-design-tradeoffs` |
+| `kt:assignment-rules` | `kt:queues` |
 | `kt:automation-studio` | `kt:marketing-cloud-engagement` |
 | `kt:backup-and-recover` | `kt:archiving-strategy` |
 | `kt:block-kit` | `kt:slack-platform` |
@@ -119,7 +120,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:product-configurator` | `kt:revenue-cloud` |
 | `kt:profiles` | `kt:permission-set-groups` |
 | `kt:prompt-injection` | `kt:einstein-trust-layer` |
-| `kt:public-groups` | `kt:sharing-rules` |
 | `kt:recursive-save` | `kt:order-of-execution` |
 | `kt:retrieval-augmented-generation-in-salesforce` | `kt:atlas-reasoning-engine` |
 | `kt:revenue-intelligence` | `kt:collaborative-forecasts` |
