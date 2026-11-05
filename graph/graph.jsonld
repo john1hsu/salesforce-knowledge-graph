@@ -5913,6 +5913,88 @@
       ]
     },
     {
+      "@id": "kt:platform-developer-certification",
+      "@type": "kto:Certification",
+      "skos:prefLabel": "Platform Developer Certification",
+      "skos:definition": "Salesforce's practitioner-level developer credential (formerly titled Platform Developer I), earned through a proctored 60-question exam on Apex, automation logic, user interfaces, testing and deployment; it is the prerequisite for Platform Developer II and one of the exams that roll up into the Application and System Architect credentials.",
+      "kto:domain": "development",
+      "dcterms:created": "2026-11-05",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Certification - Salesforce Certified Platform Developer",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/credentials/platformdeveloperi",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Salesforce Certified Platform Developer Exam Guide",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=005298965&language=en_US&type=1",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Developer Certifications",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/credentials/developeroverview",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Platform Developer I Certification Guide: Get Started",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/platform-developer-i-certification-prep-fundamentals-and-database-modeling/pd1-1-get-started",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Maintain Your Salesforce Certification",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=005298841&language=en_US&type=1",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Certification - Salesforce Certified Application Architect",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/credentials/applicationarchitect",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/development/platform-developer-certification.md",
+      "skos:altLabel": [
+        "Salesforce Certified Platform Developer",
+        "Platform Developer I",
+        "PD1",
+        "Platform Developer credential"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-certification-program"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:apex"
+        },
+        {
+          "@id": "kt:apex-testing"
+        },
+        {
+          "@id": "kt:platform-developer-ii-certification"
+        },
+        {
+          "@id": "kt:platform-app-builder-certification"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:application-architect-certification"
+        },
+        {
+          "@id": "kt:system-architect-certification"
+        }
+      ]
+    },
+    {
       "@id": "kt:queueable-apex",
       "@type": "kto:Feature",
       "skos:prefLabel": "Queueable Apex",

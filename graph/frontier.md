@@ -4,7 +4,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:platform-developer-certification` | `kt:application-architect-certification`, `kt:certified-technical-architect`, `kt:system-architect-certification`, `kt:lightning-data-service` |
 | `kt:batch-data-synchronization` | `kt:data-integration`, `kt:integration-patterns`, `kt:salesforce-connect` |
 | `kt:data-virtualization` | `kt:zero-copy-data-federation`, `kt:integration-patterns`, `kt:salesforce-connect` |
 | `kt:implicit-sharing` | `kt:enterprise-territory-management`, `kt:role-hierarchy`, `kt:salesforce-sharing-model` |
@@ -24,7 +23,9 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:namespace-registry` | `kt:dev-hub`, `kt:second-generation-managed-packages` |
 | `kt:orchestration-work-guide` | `kt:approval-processes`, `kt:flow-orchestrator` |
 | `kt:permission-sets` | `kt:named-credentials`, `kt:permission-set-groups` |
+| `kt:platform-app-builder-certification` | `kt:application-architect-certification`, `kt:platform-developer-certification` |
 | `kt:remote-site-settings` | `kt:apex-callouts`, `kt:named-credentials` |
+| `kt:salesforce-certification-program` | `kt:data-cloud-consultant-certification`, `kt:platform-developer-certification` |
 | `kt:salesforce-inc` | `kt:slack-platform`, `kt:tableau` |
 | `kt:sandbox-templates` | `kt:environment-strategy`, `kt:sandbox-types` |
 | `kt:scratch-org-allocations` | `kt:dev-hub`, `kt:scratch-orgs` |
@@ -112,8 +113,8 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:org-strategy` | `kt:environment-strategy` |
 | `kt:package-xml-manifest` | `kt:metadata-api` |
 | `kt:page-layouts` | `kt:record-types` |
-| `kt:platform-app-builder-certification` | `kt:application-architect-certification` |
 | `kt:platform-as-a-service` | `kt:salesforce-platform` |
+| `kt:platform-developer-ii-certification` | `kt:platform-developer-certification` |
 | `kt:platform-event-channel-member` | `kt:change-data-capture` |
 | `kt:presence-configuration` | `kt:omni-channel` |
 | `kt:principle-of-least-privilege` | `kt:permission-set-groups` |
@@ -131,7 +132,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:salesforce-apis` | `kt:bulk-api-2` |
 | `kt:salesforce-architecture-program` | `kt:salesforce-architecture-center` |
 | `kt:salesforce-archive` | `kt:archiving-strategy` |
-| `kt:salesforce-certification-program` | `kt:data-cloud-consultant-certification` |
 | `kt:salesforce-cpq` | `kt:revenue-cloud` |
 | `kt:salesforce-data-mask` | `kt:environment-strategy` |
 | `kt:salesforce-diagrams` | `kt:salesforce-architecture-center` |
