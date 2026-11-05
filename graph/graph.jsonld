@@ -2136,6 +2136,99 @@
       ]
     },
     {
+      "@id": "kt:entitlement-management",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Entitlement Management",
+      "skos:definition": "Service Cloud feature that models what support a customer is owed (entitlements, service contracts) and enforces service-level timelines on cases and work orders through entitlement processes (SLA policies) made of timed milestones.",
+      "kto:domain": "clouds-and-products",
+      "dcterms:created": "2026-11-05",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Get Started with Entitlements (Entitlement Management for Lightning Experience)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/es/content/learn/modules/entitlement-management-for-lightning-experience/get-started-with-entitlements",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Salesforce Entitlement Management Implementation Guide",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://resources.docs.salesforce.com/242/latest/en-us/sfdc/pdf/salesforce_entitlements_implementation_guide.pdf",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Use Entitlements in Customer Cases",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/entitlement-management-for-lightning-experience/use-entitlements-in-customer-cases",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Use Entitlements with Work Orders",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/entitlement-management-for-lightning-experience/use-entitlements-with-work-orders",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Get Started with SLA Policies",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/sla-and-entitlements-setup/get-started-with-sla-policies",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Set Up Milestone Actions and Automate Policy Allotment",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/sla-and-entitlements-setup/set-up-milestone-actions-and-automate-policy-allotment",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/clouds-and-products/entitlement-management.md",
+      "skos:altLabel": [
+        "Entitlements and Milestones",
+        "Salesforce Entitlements",
+        "SLA Policies"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:service-cloud"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:field-service"
+        },
+        {
+          "@id": "kt:omni-channel"
+        },
+        {
+          "@id": "kt:apex-triggers"
+        },
+        {
+          "@id": "kt:change-sets"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:service-cloud"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:business-hours"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:field-service"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:entitlement-process-metadata"
+        }
+      ]
+    },
+    {
       "@id": "kt:experience-cloud",
       "@type": "kto:Product",
       "skos:prefLabel": "Experience Cloud",

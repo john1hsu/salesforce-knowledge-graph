@@ -14,7 +14,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:tooling-api` | `kt:source-tracking`, `kt:permission-set-groups`, `kt:restriction-rules` |
 | `kt:business-processes` | `kt:record-types`, `kt:record-types` |
 | `kt:data-lake-objects` | `kt:data-model-objects`, `kt:zero-copy-data-federation` |
-| `kt:entitlement-management` | `kt:field-service`, `kt:service-cloud` |
 | `kt:experience-builder` | `kt:experience-cloud`, `kt:experience-cloud-identity` |
 | `kt:future-methods` | `kt:asynchronous-apex`, `kt:queueable-apex` |
 | `kt:group-membership-locking` | `kt:enterprise-territory-management`, `kt:sharing-recalculation` |
@@ -53,6 +52,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:block-kit` | `kt:slack-platform` |
 | `kt:bulk-api-1` | `kt:bulk-api-2` |
 | `kt:bulk-api-allocations` | `kt:bulk-api-2` |
+| `kt:business-hours` | `kt:entitlement-management` |
 | `kt:business-rules-engine` | `kt:public-sector-solutions` |
 | `kt:change-data-capture-allocations` | `kt:change-data-capture` |
 | `kt:collaborative-forecasts` | `kt:sales-cloud` |
@@ -74,6 +74,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:dispatcher-console` | `kt:field-service` |
 | `kt:duplicate-management` | `kt:identity-resolution` |
 | `kt:dynamic-revenue-orchestrator` | `kt:revenue-cloud` |
+| `kt:entitlement-process-metadata` | `kt:entitlement-management` |
 | `kt:external-identity-license` | `kt:experience-cloud-identity` |
 | `kt:external-services` | `kt:apex-callouts` |
 | `kt:field-history-tracking` | `kt:big-objects` |

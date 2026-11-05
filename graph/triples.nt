@@ -998,6 +998,32 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/enterprise-territory-management> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#partOf> <https://github.com/john1hsu/salesforce-knowledge-graph/id/sales-cloud> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/enterprise-territory-management> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/enterprise-territory-management> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/entitlement-management> <http://purl.org/dc/terms/created> "2026-11-05" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/entitlement-management> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/entitlement-management> <http://www.w3.org/2000/01/rdf-schema#label> "Entitlement Management" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/entitlement-management> <http://www.w3.org/2004/02/skos/core#altLabel> "Entitlements and Milestones" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/entitlement-management> <http://www.w3.org/2004/02/skos/core#altLabel> "SLA Policies" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/entitlement-management> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce Entitlements" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/entitlement-management> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/service-cloud> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/entitlement-management> <http://www.w3.org/2004/02/skos/core#definition> "Service Cloud feature that models what support a customer is owed (entitlements, service contracts) and enforces service-level timelines on cases and work orders through entitlement processes (SLA policies) made of timed milestones." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/entitlement-management> <http://www.w3.org/2004/02/skos/core#prefLabel> "Entitlement Management" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/entitlement-management> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-triggers> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/entitlement-management> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/change-sets> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/entitlement-management> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/field-service> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/entitlement-management> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/omni-channel> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/entitlement-management> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/entitlement-management/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/entitlement-management> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/entitlement-management/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/entitlement-management> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/entitlement-management/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/entitlement-management> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/entitlement-management/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/entitlement-management> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/entitlement-management/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/entitlement-management> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/entitlement-management/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/entitlement-management> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/entitlement-process-metadata> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/entitlement-management> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/business-hours> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/entitlement-management> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "clouds-and-products" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/entitlement-management> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/field-service> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/entitlement-management> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#partOf> <https://github.com/john1hsu/salesforce-knowledge-graph/id/service-cloud> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/entitlement-management> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/entitlement-management> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/environment-strategy> <http://purl.org/dc/terms/created> "2026-10-31" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/environment-strategy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/environment-strategy> <http://www.w3.org/2000/01/rdf-schema#label> "Environment Strategy" .
@@ -4268,6 +4294,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/enterprise-territory-management/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/enterprise-territory-management/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/enterprise-territory-management/s6> <https://schema.org/url> "https://resources.docs.salesforce.com/256/latest/en-us/sfdc/pdf/draes.pdf" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/entitlement-management/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/entitlement-management/s1> <http://purl.org/dc/terms/title> "Get Started with Entitlements (Entitlement Management for Lightning Experience)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/entitlement-management/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/entitlement-management/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/entitlement-management/s1> <https://schema.org/url> "https://trailhead.salesforce.com/es/content/learn/modules/entitlement-management-for-lightning-experience/get-started-with-entitlements" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/entitlement-management/s2> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/entitlement-management/s2> <http://purl.org/dc/terms/title> "Salesforce Entitlement Management Implementation Guide" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/entitlement-management/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/entitlement-management/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/entitlement-management/s2> <https://schema.org/url> "https://resources.docs.salesforce.com/242/latest/en-us/sfdc/pdf/salesforce_entitlements_implementation_guide.pdf" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/entitlement-management/s3> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/entitlement-management/s3> <http://purl.org/dc/terms/title> "Use Entitlements in Customer Cases" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/entitlement-management/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/entitlement-management/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/entitlement-management/s3> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/entitlement-management-for-lightning-experience/use-entitlements-in-customer-cases" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/entitlement-management/s4> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/entitlement-management/s4> <http://purl.org/dc/terms/title> "Use Entitlements with Work Orders" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/entitlement-management/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/entitlement-management/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/entitlement-management/s4> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/entitlement-management-for-lightning-experience/use-entitlements-with-work-orders" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/entitlement-management/s5> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/entitlement-management/s5> <http://purl.org/dc/terms/title> "Get Started with SLA Policies" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/entitlement-management/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/entitlement-management/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/entitlement-management/s5> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/sla-and-entitlements-setup/get-started-with-sla-policies" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/entitlement-management/s6> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/entitlement-management/s6> <http://purl.org/dc/terms/title> "Set Up Milestone Actions and Automate Policy Allotment" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/entitlement-management/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/entitlement-management/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/entitlement-management/s6> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/sla-and-entitlements-setup/set-up-milestone-actions-and-automate-policy-allotment" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/environment-strategy/s1> <http://purl.org/dc/terms/publisher> "Salesforce" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/environment-strategy/s1> <http://purl.org/dc/terms/title> "Deploy Your Changes and Sandboxes (Salesforce Help PDF)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/environment-strategy/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
