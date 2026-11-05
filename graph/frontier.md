@@ -4,10 +4,9 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:platform-data-architect-certification` | `kt:data-architecture`, `kt:big-objects`, `kt:external-id-fields`, `kt:external-objects`, `kt:query-optimizer-selectivity` |
+| `kt:application-architect-certification` | `kt:cta-review-board`, `kt:salesforce-architect`, `kt:platform-data-architect-certification`, `kt:sharing-and-visibility-architect-certification` |
 | `kt:system-architect-certification` | `kt:cta-review-board`, `kt:salesforce-architect`, `kt:identity-and-access-management-architect-certification`, `kt:integration-architect-certification` |
 | `kt:api-request-limits` | `kt:composite-api`, `kt:data-integration`, `kt:rest-api` |
-| `kt:application-architect-certification` | `kt:cta-review-board`, `kt:salesforce-architect`, `kt:sharing-and-visibility-architect-certification` |
 | `kt:batch-data-synchronization` | `kt:data-integration`, `kt:integration-patterns`, `kt:salesforce-connect` |
 | `kt:certified-technical-architect` | `kt:cta-review-board`, `kt:salesforce-architect`, `kt:solution-design-tradeoffs` |
 | `kt:data-virtualization` | `kt:zero-copy-data-federation`, `kt:integration-patterns`, `kt:salesforce-connect` |

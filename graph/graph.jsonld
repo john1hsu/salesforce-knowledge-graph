@@ -4329,6 +4329,94 @@
       ]
     },
     {
+      "@id": "kt:platform-data-architect-certification",
+      "@type": "kto:Certification",
+      "skos:prefLabel": "Platform Data Architect Certification",
+      "skos:definition": "Salesforce's domain architect credential for designing sound, scalable, high-performing data solutions on the Salesforce Platform for enterprise data management; it is one of the four certifications that together grant the Application Architect credential on the path to Certified Technical Architect.",
+      "kto:domain": "data-model",
+      "dcterms:created": "2026-11-05",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Certification - Salesforce Certified Platform Data Architect",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/credentials/platformdataarchitect",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Certification - Salesforce Certified Application Architect",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/credentials/applicationarchitect",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Architect Certifications Overview",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/credentials/architectoverview",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Best Practices for Deployments with Large Data Volumes: General",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/salesforce-large-data-volumes-bp/guide/ldv-deployments-best-practices-general.md",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Best Practices for Deployments with Large Data Volumes: Loading Data from the API",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/salesforce-large-data-volumes-bp/guide/ldv-deployments-best-practices-api-loading-data.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Best Practices for Deployments with Large Data Volumes",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/salesforce-large-data-volumes-bp/guide/ldv-deployments-best-practices.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/data-model/platform-data-architect-certification.md",
+      "skos:altLabel": [
+        "Salesforce Certified Platform Data Architect",
+        "Data Architect certification"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-architect"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:data-architecture"
+        },
+        {
+          "@id": "kt:large-data-volumes"
+        },
+        {
+          "@id": "kt:data-skew"
+        },
+        {
+          "@id": "kt:query-optimizer-selectivity"
+        },
+        {
+          "@id": "kt:bulk-api-2"
+        },
+        {
+          "@id": "kt:data-migration-strategy"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:application-architect-certification"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:sharing-and-visibility-architect-certification"
+        }
+      ]
+    },
+    {
       "@id": "kt:record-types",
       "@type": "kto:Feature",
       "skos:prefLabel": "Record Types",
