@@ -1,9 +1,9 @@
 # Graph statistics
 
-- Articles (nodes written): **139**
-- Frontier nodes (referenced, unwritten): **161**
-- Edges: **1232**
-- Citations: **743**
+- Articles (nodes written): **140**
+- Frontier nodes (referenced, unwritten): **160**
+- Edges: **1242**
+- Citations: **747**
 
 - Weakly connected components: **1**
 - Isolated articles (no edges): **0**
@@ -12,21 +12,21 @@
 
 | Node | PageRank | Written |
 |---|---|---|
-| `kt:governor-limits` | 0.0192 | yes |
-| `kt:flow-builder` | 0.0167 | yes |
-| `kt:apex-triggers` | 0.0160 | yes |
-| `kt:salesforce-platform` | 0.0156 | yes |
-| `kt:apex` | 0.0125 | yes |
-| `kt:multitenancy` | 0.0119 | yes |
+| `kt:governor-limits` | 0.0196 | yes |
+| `kt:flow-builder` | 0.0169 | yes |
+| `kt:apex-triggers` | 0.0164 | yes |
+| `kt:salesforce-platform` | 0.0159 | yes |
+| `kt:apex` | 0.0129 | yes |
+| `kt:multitenancy` | 0.0121 | yes |
+| `kt:record-triggered-flow` | 0.0118 | yes |
 | `kt:application-lifecycle-management` | 0.0117 | yes |
-| `kt:record-triggered-flow` | 0.0117 | yes |
-| `kt:order-of-execution` | 0.0111 | yes |
+| `kt:order-of-execution` | 0.0115 | yes |
 | `kt:salesforce-sharing-model` | 0.0106 | yes |
-| `kt:sandbox-types` | 0.0105 | yes |
+| `kt:sandbox-types` | 0.0104 | yes |
+| `kt:asynchronous-apex` | 0.0102 | yes |
 | `kt:metadata-api` | 0.0102 | yes |
-| `kt:asynchronous-apex` | 0.0101 | yes |
-| `kt:apex-testing` | 0.0095 | yes |
-| `kt:data-skew` | 0.0095 | yes |
+| `kt:apex-testing` | 0.0098 | yes |
+| `kt:data-skew` | 0.0094 | yes |
 
 ## Communities (Louvain): 9
 
@@ -45,7 +45,7 @@
 - API: 5
 - AntiPattern: 1
 - Certification: 10
-- Concept: 25
+- Concept: 26
 - ExternalConcept: 8
 - Feature: 47
 - Language: 2
@@ -68,16 +68,16 @@
 - devops-and-alm: 12
 - identity: 11
 - integration: 15
-- platform-architecture: 10
+- platform-architecture: 11
 - public-sector-and-compliance: 11
 - security-and-sharing: 10
 
 ## By verified release (oldest = most likely stale)
 
-- Winter '27: 139
+- Winter '27: 140
 
 ## By status
 
 - concept: 26
-- current: 111
+- current: 112
 - deprecated: 2

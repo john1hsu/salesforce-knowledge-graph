@@ -33,7 +33,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:soap-api` | `kt:external-id-fields`, `kt:rest-api` |
 | `kt:sosl` | `kt:external-objects`, `kt:soql` |
 | `kt:standard-objects` | `kt:data-model-objects`, `kt:person-accounts` |
-| `kt:transaction-control` | `kt:flow-fault-handling`, `kt:record-locking` |
 | `kt:account-takeover` | `kt:multi-factor-authentication` |
 | `kt:agentforce-dx` | `kt:agent-development-lifecycle` |
 | `kt:agentforce-studio` | `kt:prompt-builder` |

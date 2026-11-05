@@ -10399,6 +10399,89 @@
       ]
     },
     {
+      "@id": "kt:transaction-control",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Transaction Control",
+      "skos:definition": "How the Salesforce Platform groups the work of one request into a single all-or-none database transaction, and the Apex savepoint, rollback and partial-success tools developers use to control what commits.",
+      "kto:domain": "platform-architecture",
+      "dcterms:created": "2026-11-05",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Transaction Control (Apex Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/langCon_apex_transaction_control.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Apex Transactions (Apex Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_transaction.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "DML Statements vs. Database Class Methods (Apex Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/langCon_apex_dml_database.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Execution Governors and Limits (Apex Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/api/apex_gov_limits.htm",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/platform-architecture/transaction-control.md",
+      "skos:altLabel": [
+        "Apex transaction control",
+        "Apex transactions",
+        "savepoints and rollback",
+        "Database.setSavepoint",
+        "Database.rollback",
+        "execution context transaction"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-platform"
+        },
+        {
+          "@id": "kt:apex"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:record-locking"
+        },
+        {
+          "@id": "kt:order-of-execution"
+        },
+        {
+          "@id": "kt:flow-fault-handling"
+        },
+        {
+          "@id": "kt:apex-triggers"
+        },
+        {
+          "@id": "kt:apex-callouts"
+        },
+        {
+          "@id": "kt:apex-testing"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:governor-limits"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:platform-developer-certification"
+        }
+      ]
+    },
+    {
       "@id": "kt:data-residency",
       "@type": "kto:Concept",
       "skos:prefLabel": "Data Residency",

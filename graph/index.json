@@ -3147,6 +3147,30 @@
     ]
   },
   {
+    "id": "kt:transaction-control",
+    "title": "Transaction Control",
+    "aliases": [
+      "Apex transaction control",
+      "Apex transactions",
+      "savepoints and rollback",
+      "Database.setSavepoint",
+      "Database.rollback",
+      "execution context transaction"
+    ],
+    "type": "Concept",
+    "domain": "platform-architecture",
+    "file": "articles/platform-architecture/transaction-control.md",
+    "created": "2026-11-05",
+    "release": "Winter '27",
+    "status": "current",
+    "source_urls": [
+      "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/langCon_apex_transaction_control.htm",
+      "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_transaction.htm",
+      "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/langCon_apex_dml_database.htm",
+      "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/api/apex_gov_limits.htm"
+    ]
+  },
+  {
     "id": "kt:unlocked-packages",
     "title": "Unlocked Packages",
     "aliases": [

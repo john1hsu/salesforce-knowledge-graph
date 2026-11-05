@@ -7045,6 +7045,26 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/testing-strategy/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/testing-strategy/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/testing-strategy/s4> <https://schema.org/url> "https://developer.salesforce.com/blogs/2025/02/load-test-on-the-salesforce-platform-using-scalability-tools" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/transaction-control/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/transaction-control/s1> <http://purl.org/dc/terms/title> "Transaction Control (Apex Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/transaction-control/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/transaction-control/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/transaction-control/s1> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/langCon_apex_transaction_control.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/transaction-control/s2> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/transaction-control/s2> <http://purl.org/dc/terms/title> "Apex Transactions (Apex Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/transaction-control/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/transaction-control/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/transaction-control/s2> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_transaction.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/transaction-control/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/transaction-control/s3> <http://purl.org/dc/terms/title> "DML Statements vs. Database Class Methods (Apex Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/transaction-control/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/transaction-control/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/transaction-control/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/langCon_apex_dml_database.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/transaction-control/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/transaction-control/s4> <http://purl.org/dc/terms/title> "Execution Governors and Limits (Apex Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/transaction-control/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/transaction-control/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/transaction-control/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/api/apex_gov_limits.htm" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/unlocked-packages/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/unlocked-packages/s1> <http://purl.org/dc/terms/title> "Unlocked Packages (Salesforce DX Developer Guide)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/unlocked-packages/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
@@ -7249,6 +7269,34 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/testing-strategy> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#mitigates> <https://github.com/john1hsu/salesforce-knowledge-graph/id/governor-limits> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/testing-strategy> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/testing-strategy> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/transaction-control> <http://purl.org/dc/terms/created> "2026-11-05" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/transaction-control> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/transaction-control> <http://www.w3.org/2000/01/rdf-schema#label> "Transaction Control" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/transaction-control> <http://www.w3.org/2004/02/skos/core#altLabel> "Apex transaction control" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/transaction-control> <http://www.w3.org/2004/02/skos/core#altLabel> "Apex transactions" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/transaction-control> <http://www.w3.org/2004/02/skos/core#altLabel> "Database.rollback" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/transaction-control> <http://www.w3.org/2004/02/skos/core#altLabel> "Database.setSavepoint" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/transaction-control> <http://www.w3.org/2004/02/skos/core#altLabel> "execution context transaction" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/transaction-control> <http://www.w3.org/2004/02/skos/core#altLabel> "savepoints and rollback" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/transaction-control> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/transaction-control> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-platform> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/transaction-control> <http://www.w3.org/2004/02/skos/core#definition> "How the Salesforce Platform groups the work of one request into a single all-or-none database transaction, and the Apex savepoint, rollback and partial-success tools developers use to control what commits." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/transaction-control> <http://www.w3.org/2004/02/skos/core#prefLabel> "Transaction Control" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/transaction-control> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-callouts> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/transaction-control> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-testing> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/transaction-control> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-triggers> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/transaction-control> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-fault-handling> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/transaction-control> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/order-of-execution> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/transaction-control> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/record-locking> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/transaction-control> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/transaction-control/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/transaction-control> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/transaction-control/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/transaction-control> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/transaction-control/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/transaction-control> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/transaction-control/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/transaction-control> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#coveredBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-developer-certification> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/transaction-control> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "platform-architecture" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/transaction-control> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#governedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/governor-limits> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/transaction-control> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/transaction-control> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/unlocked-packages> <http://purl.org/dc/terms/created> "2026-11-01" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/unlocked-packages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/unlocked-packages> <http://www.w3.org/2000/01/rdf-schema#label> "Unlocked Packages" .
