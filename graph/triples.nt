@@ -181,6 +181,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/soql> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/api-request-limits> <http://purl.org/dc/terms/created> "2026-11-05" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/api-request-limits> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Limit> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/api-request-limits> <http://www.w3.org/2000/01/rdf-schema#label> "API Request Limits" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/api-request-limits> <http://www.w3.org/2004/02/skos/core#altLabel> "API request allocations" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/api-request-limits> <http://www.w3.org/2004/02/skos/core#altLabel> "DailyApiRequests" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/api-request-limits> <http://www.w3.org/2004/02/skos/core#altLabel> "concurrent API request limit" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/api-request-limits> <http://www.w3.org/2004/02/skos/core#altLabel> "daily API request limit" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/api-request-limits> <http://www.w3.org/2004/02/skos/core#altLabel> "total API request allocation" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/api-request-limits> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/governor-limits> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/api-request-limits> <http://www.w3.org/2004/02/skos/core#definition> "The org-wide allocations that cap how many inbound Salesforce Platform API calls (REST, SOAP, Bulk and most Connect REST) an org can make per 24-hour period, plus the separate limits on concurrent long-running requests and API call timeouts." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/api-request-limits> <http://www.w3.org/2004/02/skos/core#prefLabel> "API Request Limits" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/api-request-limits> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/bulk-api-2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/api-request-limits> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/composite-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/api-request-limits> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/connected-apps> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/api-request-limits> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/multitenancy> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/api-request-limits> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/rest-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/api-request-limits> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/api-request-limits/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/api-request-limits> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/api-request-limits/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/api-request-limits> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/api-request-limits/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/api-request-limits> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#contrastsWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-event-allocations> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/api-request-limits> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#coveredBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-architect-certification> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/api-request-limits> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "integration" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/api-request-limits> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/rest-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/api-request-limits> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/api-request-limits> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/application-architect-certification> <http://purl.org/dc/terms/created> "2026-11-05" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/application-architect-certification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Certification> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/application-architect-certification> <http://www.w3.org/2000/01/rdf-schema#label> "Application Architect Certification" .
@@ -3540,6 +3565,21 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex/s6> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/apex_database/apex_database_intro" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/api-request-limits/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/api-request-limits/s1> <http://purl.org/dc/terms/title> "API Request Limits and Allocations (Salesforce Developer Limits and Allocations Quick Reference)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/api-request-limits/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/api-request-limits/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/api-request-limits/s1> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/salesforce-app-limits-cheatsheet/guide/salesforce-app-limits-platform-api.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/api-request-limits/s2> <http://purl.org/dc/terms/publisher> "Salesforce Developers Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/api-request-limits/s2> <http://purl.org/dc/terms/title> "API Limits and Monitoring Your API Usage" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/api-request-limits/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/api-request-limits/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/api-request-limits/s2> <https://schema.org/url> "https://developer.salesforce.com/blogs/2024/11/api-limits-and-monitoring-your-api-usage" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/api-request-limits/s3> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/api-request-limits/s3> <http://purl.org/dc/terms/title> "Learn About Daily Rate Limits (App Development Without Limits)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/api-request-limits/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/api-request-limits/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/api-request-limits/s3> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/app-development-without-limits/app-development-without-limits-rate" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/application-architect-certification/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/application-architect-certification/s1> <http://purl.org/dc/terms/title> "Certification - Salesforce Certified Application Architect" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/application-architect-certification/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

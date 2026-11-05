@@ -4,11 +4,11 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:api-request-limits` | `kt:composite-api`, `kt:data-integration`, `kt:rest-api` |
 | `kt:batch-data-synchronization` | `kt:data-integration`, `kt:integration-patterns`, `kt:salesforce-connect` |
 | `kt:data-virtualization` | `kt:zero-copy-data-federation`, `kt:integration-patterns`, `kt:salesforce-connect` |
 | `kt:implicit-sharing` | `kt:enterprise-territory-management`, `kt:role-hierarchy`, `kt:salesforce-sharing-model` |
 | `kt:platform-developer-certification` | `kt:application-architect-certification`, `kt:certified-technical-architect`, `kt:system-architect-certification` |
+| `kt:platform-event-allocations` | `kt:api-request-limits`, `kt:platform-events`, `kt:pub-sub-api` |
 | `kt:queues` | `kt:approval-processes`, `kt:omni-channel`, `kt:service-cloud` |
 | `kt:tooling-api` | `kt:source-tracking`, `kt:permission-set-groups`, `kt:restriction-rules` |
 | `kt:agent-script` | `kt:agentforce`, `kt:atlas-reasoning-engine` |
@@ -24,7 +24,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:namespace-registry` | `kt:dev-hub`, `kt:second-generation-managed-packages` |
 | `kt:orchestration-work-guide` | `kt:approval-processes`, `kt:flow-orchestrator` |
 | `kt:permission-sets` | `kt:named-credentials`, `kt:permission-set-groups` |
-| `kt:platform-event-allocations` | `kt:platform-events`, `kt:pub-sub-api` |
 | `kt:remote-site-settings` | `kt:apex-callouts`, `kt:named-credentials` |
 | `kt:salesforce-inc` | `kt:slack-platform`, `kt:tableau` |
 | `kt:sandbox-templates` | `kt:environment-strategy`, `kt:sandbox-types` |
