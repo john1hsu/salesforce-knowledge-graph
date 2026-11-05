@@ -3530,6 +3530,105 @@
       ]
     },
     {
+      "@id": "kt:agent-script",
+      "@type": "kto:Language",
+      "skos:prefLabel": "Agent Script",
+      "skos:definition": "The compiled, indentation-based language behind Agentforce Builder agents, which mixes deterministic logic (conditions, variables, action calls, transitions) with natural-language prompt instructions so that business rules run predictably while the LLM handles conversation.",
+      "kto:domain": "data-cloud-and-ai",
+      "dcterms:created": "2026-11-05",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Get Started with Agent Script",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/ai/agentforce/guide/agent-script.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Agent Script Language Characteristics",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/ai/agentforce/guide/ascript-lang.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Code Your Agent Using Its Agent Script File",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/ai/agentforce/guide/agent-dx-nga-script.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Agent Script (Salesforce Help)",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=ai.agent_script.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Agent Script Decoded: Intro to Agent Script Language Fundamentals",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2026/02/agent-script-decoded-intro-to-agent-script-language-fundamentals",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Introducing Hybrid Reasoning with Agent Script",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2025/10/introducing-hybrid-reasoning-with-agent-script",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/data-cloud-and-ai/agent-script.md",
+      "skos:altLabel": [
+        "Agentforce Agent Script",
+        ".agent file",
+        "agent script language",
+        "hybrid reasoning script"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:agentforce"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:agent-actions"
+        },
+        {
+          "@id": "kt:atlas-reasoning-engine"
+        },
+        {
+          "@id": "kt:agent-development-lifecycle"
+        },
+        {
+          "@id": "kt:agentforce-dx"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:agentforce"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:agentforce-studio"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:agent-actions"
+        }
+      ],
+      "kto:enables": [
+        {
+          "@id": "kt:atlas-reasoning-engine"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:salesforce-dx"
+        }
+      ]
+    },
+    {
       "@id": "kt:agentforce",
       "@type": "kto:Product",
       "skos:prefLabel": "Agentforce",

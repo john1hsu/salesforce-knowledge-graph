@@ -4,8 +4,9 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:agent-script` | `kt:agent-actions`, `kt:agentforce`, `kt:atlas-reasoning-engine` |
 | `kt:tooling-api` | `kt:source-tracking`, `kt:permission-set-groups`, `kt:restriction-rules` |
+| `kt:agentforce-dx` | `kt:agent-development-lifecycle`, `kt:agent-script` |
+| `kt:agentforce-studio` | `kt:agent-script`, `kt:prompt-builder` |
 | `kt:agentforce-testing-center` | `kt:agent-actions`, `kt:agent-development-lifecycle` |
 | `kt:aura-components` | `kt:lightning-data-service`, `kt:lightning-web-components` |
 | `kt:business-processes` | `kt:record-types`, `kt:record-types` |
@@ -34,8 +35,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:sosl` | `kt:external-objects`, `kt:soql` |
 | `kt:standard-objects` | `kt:data-model-objects`, `kt:person-accounts` |
 | `kt:account-takeover` | `kt:multi-factor-authentication` |
-| `kt:agentforce-dx` | `kt:agent-development-lifecycle` |
-| `kt:agentforce-studio` | `kt:prompt-builder` |
 | `kt:apex-continuations` | `kt:apex-callouts` |
 | `kt:apex-flex-queue` | `kt:batch-apex` |
 | `kt:api-led-connectivity` | `kt:mulesoft-anypoint-platform` |
