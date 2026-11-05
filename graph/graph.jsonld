@@ -5732,6 +5732,93 @@
       ]
     },
     {
+      "@id": "kt:lightning-data-service",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Lightning Data Service",
+      "skos:definition": "The client-side data layer for Lightning components that loads, caches and shares Salesforce record data and metadata through User Interface API, enforcing CRUD, field-level security and sharing without Apex.",
+      "kto:domain": "development",
+      "dcterms:created": "2026-11-05",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Lightning Web Components Developer Guide: Lightning Data Service",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/lwc/guide/data-ui-api.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Lightning Web Components Developer Guide: Data Guidelines",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/lwc/guide/data-guidelines.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Lightning Web Components Developer Guide: Client-Side Caching of Apex Method Results",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/lwc/guide/apex-result-caching.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Lightning Web Components for Aura Developers: Work with Salesforce Data",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/lightning-web-components-for-aura-developers/work-with-salesforce-data",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "GraphQL API Developer Guide: GraphQL Wire Adapter for LWC",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/graphql/guide/graphql-wire-lwc.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/development/lightning-data-service.md",
+      "skos:altLabel": [
+        "LDS",
+        "force:recordData",
+        "lightning/ui*Api data layer"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-platform"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:lightning-web-components"
+        },
+        {
+          "@id": "kt:aura-components"
+        },
+        {
+          "@id": "kt:salesforce-sharing-model"
+        },
+        {
+          "@id": "kt:api-request-limits"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:user-interface-api"
+        }
+      ],
+      "kto:queriedWith": [
+        {
+          "@id": "kt:graphql-api"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:apex"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:platform-developer-certification"
+        }
+      ]
+    },
+    {
       "@id": "kt:lightning-web-components",
       "@type": "kto:Feature",
       "skos:prefLabel": "Lightning Web Components",

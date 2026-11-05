@@ -4,14 +4,15 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
+| `kt:platform-developer-certification` | `kt:application-architect-certification`, `kt:certified-technical-architect`, `kt:system-architect-certification`, `kt:lightning-data-service` |
 | `kt:batch-data-synchronization` | `kt:data-integration`, `kt:integration-patterns`, `kt:salesforce-connect` |
 | `kt:data-virtualization` | `kt:zero-copy-data-federation`, `kt:integration-patterns`, `kt:salesforce-connect` |
 | `kt:implicit-sharing` | `kt:enterprise-territory-management`, `kt:role-hierarchy`, `kt:salesforce-sharing-model` |
-| `kt:platform-developer-certification` | `kt:application-architect-certification`, `kt:certified-technical-architect`, `kt:system-architect-certification` |
 | `kt:platform-event-allocations` | `kt:api-request-limits`, `kt:platform-events`, `kt:pub-sub-api` |
 | `kt:queues` | `kt:approval-processes`, `kt:omni-channel`, `kt:service-cloud` |
 | `kt:tooling-api` | `kt:source-tracking`, `kt:permission-set-groups`, `kt:restriction-rules` |
 | `kt:agent-script` | `kt:agentforce`, `kt:atlas-reasoning-engine` |
+| `kt:aura-components` | `kt:lightning-data-service`, `kt:lightning-web-components` |
 | `kt:business-processes` | `kt:record-types`, `kt:record-types` |
 | `kt:data-lake-objects` | `kt:data-model-objects`, `kt:zero-copy-data-federation` |
 | `kt:experience-builder` | `kt:experience-cloud`, `kt:experience-cloud-identity` |
@@ -20,7 +21,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:headless-identity` | `kt:experience-cloud-identity`, `kt:salesforce-identity` |
 | `kt:integration-patterns-request-reply-fire-and-forget` | `kt:event-driven-architecture`, `kt:integration-patterns` |
 | `kt:integration-security` | `kt:oauth-2-0`, `kt:named-credentials` |
-| `kt:lightning-data-service` | `kt:lightning-web-components`, `kt:lightning-web-components` |
 | `kt:namespace-registry` | `kt:dev-hub`, `kt:second-generation-managed-packages` |
 | `kt:orchestration-work-guide` | `kt:approval-processes`, `kt:flow-orchestrator` |
 | `kt:permission-sets` | `kt:named-credentials`, `kt:permission-set-groups` |
@@ -43,7 +43,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:appexchange-security-review` | `kt:code-analyzer` |
 | `kt:architect-decision-guides` | `kt:salesforce-architecture-center` |
 | `kt:architecture-decision-records` | `kt:solution-design-tradeoffs` |
-| `kt:aura-components` | `kt:lightning-web-components` |
 | `kt:automation-studio` | `kt:marketing-cloud-engagement` |
 | `kt:backup-and-recover` | `kt:archiving-strategy` |
 | `kt:block-kit` | `kt:slack-platform` |
@@ -83,6 +82,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:gdpr-international-transfers` | `kt:data-residency` |
 | `kt:governance-risk-and-compliance` | `kt:security-compliance-frameworks` |
 | `kt:government-cloud` | `kt:government-cloud-plus` |
+| `kt:graphql-api` | `kt:lightning-data-service` |
 | `kt:hyperforce-operating-zones` | `kt:data-residency` |
 | `kt:identity-connect` | `kt:salesforce-identity` |
 | `kt:invocable-actions-api` | `kt:autolaunched-flow` |
@@ -161,6 +161,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:transaction-finalizers` | `kt:queueable-apex` |
 | `kt:trigger-framework-pattern` | `kt:apex-triggers` |
 | `kt:upsert` | `kt:external-id-fields` |
+| `kt:user-interface-api` | `kt:lightning-data-service` |
 | `kt:wcag` | `kt:section-508-accessibility` |
 | `kt:work-orders` | `kt:field-service` |
 | `kt:zero-copy-data-sharing` | `kt:zero-copy-data-federation` |
