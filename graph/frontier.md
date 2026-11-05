@@ -4,7 +4,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:batch-data-synchronization` | `kt:data-integration`, `kt:integration-patterns`, `kt:salesforce-connect` |
 | `kt:data-virtualization` | `kt:zero-copy-data-federation`, `kt:integration-patterns`, `kt:salesforce-connect` |
 | `kt:implicit-sharing` | `kt:enterprise-territory-management`, `kt:role-hierarchy`, `kt:salesforce-sharing-model` |
 | `kt:platform-event-allocations` | `kt:api-request-limits`, `kt:platform-events`, `kt:pub-sub-api` |
@@ -24,6 +23,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:orchestration-work-guide` | `kt:approval-processes`, `kt:flow-orchestrator` |
 | `kt:permission-sets` | `kt:named-credentials`, `kt:permission-set-groups` |
 | `kt:platform-app-builder-certification` | `kt:application-architect-certification`, `kt:platform-developer-certification` |
+| `kt:remote-call-in` | `kt:batch-data-synchronization`, `kt:integration-patterns` |
 | `kt:remote-site-settings` | `kt:apex-callouts`, `kt:named-credentials` |
 | `kt:salesforce-certification-program` | `kt:data-cloud-consultant-certification`, `kt:platform-developer-certification` |
 | `kt:salesforce-inc` | `kt:slack-platform`, `kt:tableau` |
@@ -123,7 +123,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:prompt-injection` | `kt:einstein-trust-layer` |
 | `kt:public-groups` | `kt:sharing-rules` |
 | `kt:recursive-save` | `kt:order-of-execution` |
-| `kt:remote-call-in` | `kt:integration-patterns` |
 | `kt:retrieval-augmented-generation-in-salesforce` | `kt:atlas-reasoning-engine` |
 | `kt:revenue-management-consultant-certification` | `kt:revenue-cloud` |
 | `kt:sales-cloud-consultant-certification` | `kt:sales-cloud` |

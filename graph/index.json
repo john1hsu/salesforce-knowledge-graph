@@ -366,6 +366,27 @@
     ]
   },
   {
+    "id": "kt:batch-data-synchronization",
+    "title": "Batch Data Synchronization",
+    "aliases": [
+      "batch data sync pattern",
+      "batch synchronization integration pattern",
+      "ETL batch sync"
+    ],
+    "type": "Pattern",
+    "domain": "integration",
+    "file": "articles/integration/batch-data-synchronization.md",
+    "created": "2026-11-05",
+    "release": "Winter '27",
+    "status": "concept",
+    "source_urls": [
+      "https://architect.salesforce.com/fundamentals/integration-patterns",
+      "https://developer.salesforce.com/docs/atlas.en-us.integration_patterns_and_practices.meta/integ/integ_pat_pat_summary.htm",
+      "https://developer.salesforce.com/docs/atlas.en-us.change_data_capture.meta/change_data_capture/cdc_subscribe.htm",
+      "https://developer.salesforce.com/docs/platform/salesforce-app-limits-cheatsheet/guide/salesforce-app-limits-platform-bulkapi.html"
+    ]
+  },
+  {
     "id": "kt:big-objects",
     "title": "Big Objects",
     "aliases": [

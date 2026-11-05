@@ -8338,6 +8338,98 @@
       ]
     },
     {
+      "@id": "kt:batch-data-synchronization",
+      "@type": "kto:Pattern",
+      "skos:prefLabel": "Batch Data Synchronization",
+      "skos:definition": "The asynchronous Salesforce integration pattern in which records are created or refreshed in bulk to mirror an external system, and Salesforce changes are sent back out, typically by ETL tooling or Change Data Capture within a batch window.",
+      "kto:domain": "integration",
+      "dcterms:created": "2026-11-05",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Integration Patterns Overview",
+          "dcterms:publisher": "Salesforce Architects",
+          "schema:url": "https://architect.salesforce.com/fundamentals/integration-patterns",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Pattern Summary (Integration Patterns and Practices)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.integration_patterns_and_practices.meta/integ/integ_pat_pat_summary.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Subscribing to Change Events (Change Data Capture Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.change_data_capture.meta/change_data_capture/cdc_subscribe.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Bulk API and Bulk API 2.0 Limits and Allocations",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/salesforce-app-limits-cheatsheet/guide/salesforce-app-limits-platform-bulkapi.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/integration/batch-data-synchronization.md",
+      "skos:altLabel": [
+        "batch data sync pattern",
+        "batch synchronization integration pattern",
+        "ETL batch sync"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:integration-patterns"
+        },
+        {
+          "@id": "kt:data-integration"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:large-data-volumes"
+        },
+        {
+          "@id": "kt:record-locking"
+        },
+        {
+          "@id": "kt:data-migration-strategy"
+        },
+        {
+          "@id": "kt:external-id-fields"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:integration-patterns"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:bulk-api-2"
+        },
+        {
+          "@id": "kt:change-data-capture"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:salesforce-connect"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:remote-call-in"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:integration-architect-certification"
+        }
+      ]
+    },
+    {
       "@id": "kt:bulk-api-2",
       "@type": "kto:API",
       "skos:prefLabel": "Bulk API 2.0",
