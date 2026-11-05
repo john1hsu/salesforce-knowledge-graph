@@ -10,6 +10,88 @@
   },
   "@graph": [
     {
+      "@id": "kt:application-architect-certification",
+      "@type": "kto:Certification",
+      "skos:prefLabel": "Application Architect Certification",
+      "skos:definition": "A Salesforce architect credential with no exam of its own: it is granted automatically to anyone holding Platform App Builder, Platform Data Architect, Platform Developer and Platform Sharing and Visibility Architect, and it is one of the two prerequisites listed for Certified Technical Architect.",
+      "kto:domain": "architecture-practice",
+      "dcterms:created": "2026-11-05",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Certification - Salesforce Certified Application Architect",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/credentials/applicationarchitect",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Certification - Salesforce Certified System Architect",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/credentials/systemarchitect",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Certification - Salesforce Certified Technical Architect",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/en/credentials/technicalarchitect",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Architect Certifications Overview",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/en/credentials/architectoverview",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Certification - Salesforce Certified Platform App Builder",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/credentials/platformappbuilder",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Get Started with Platform Developer I Study Guide",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/ko/content/learn/modules/platform-developer-i-certification-prep-fundamentals-and-database-modeling/pd1-1-get-started",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/architecture-practice/application-architect-certification.md",
+      "skos:altLabel": [
+        "Salesforce Certified Application Architect",
+        "Application Architect credential"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-architect"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:certified-technical-architect"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:platform-data-architect-certification"
+        },
+        {
+          "@id": "kt:sharing-and-visibility-architect-certification"
+        },
+        {
+          "@id": "kt:platform-app-builder-certification"
+        },
+        {
+          "@id": "kt:platform-developer-certification"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:system-architect-certification"
+        }
+      ]
+    },
+    {
       "@id": "kt:archiving-strategy",
       "@type": "kto:Concept",
       "skos:prefLabel": "Archiving Strategy",
