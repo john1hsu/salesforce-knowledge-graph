@@ -790,6 +790,85 @@
       ]
     },
     {
+      "@id": "kt:system-architect-certification",
+      "@type": "kto:Certification",
+      "skos:prefLabel": "System Architect Certification",
+      "skos:definition": "A Salesforce architect credential with no exam of its own, granted automatically once a candidate holds Platform Developer, Development Lifecycle and Deployment Architect, Identity and Access Management Architect and Integration Architect; it covers off-platform systems, integration and secure system-to-system access, and is a CTA prerequisite.",
+      "kto:domain": "architecture-practice",
+      "dcterms:created": "2026-11-05",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Certification - Salesforce Certified System Architect",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/en/credentials/systemarchitect",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Certification - Salesforce Certified Platform Development Lifecycle and Deployment Architect",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/credentials/platformdevelopmentlifecycledeploymentarchitect",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Certification - Salesforce Certified Platform Identity and Access Management Architect",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/credentials/platformidentityandaccessmanagementarchitect",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Certification - Salesforce Certified Platform Integration Architect",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/credentials/platformintegrationarchitect",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Certification - Salesforce Certified Technical Architect",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/en/credentials/technicalarchitect",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/architecture-practice/system-architect-certification.md",
+      "skos:altLabel": [
+        "Salesforce Certified System Architect",
+        "System Architect credential"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-architect"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:certified-technical-architect"
+        },
+        {
+          "@id": "kt:cta-review-board"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:platform-developer-certification"
+        },
+        {
+          "@id": "kt:development-lifecycle-and-deployment-architect-certification"
+        },
+        {
+          "@id": "kt:identity-and-access-management-architect-certification"
+        },
+        {
+          "@id": "kt:integration-architect-certification"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:application-architect-certification"
+        }
+      ]
+    },
+    {
       "@id": "kt:technical-debt-in-salesforce",
       "@type": "kto:Concept",
       "skos:prefLabel": "Technical Debt in Salesforce",

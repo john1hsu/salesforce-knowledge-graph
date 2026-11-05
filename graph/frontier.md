@@ -4,8 +4,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:system-architect-certification` | `kt:application-architect-certification`, `kt:cta-review-board`, `kt:salesforce-architect`, `kt:identity-and-access-management-architect-certification`, `kt:integration-architect-certification` |
-| `kt:certified-technical-architect` | `kt:application-architect-certification`, `kt:cta-review-board`, `kt:salesforce-architect`, `kt:solution-design-tradeoffs` |
+| `kt:certified-technical-architect` | `kt:application-architect-certification`, `kt:cta-review-board`, `kt:salesforce-architect`, `kt:solution-design-tradeoffs`, `kt:system-architect-certification` |
 | `kt:security-compliance-frameworks` | `kt:dod-cloud-computing-srg`, `kt:fedramp`, `kt:fips-199`, `kt:nist-sp-800-53` |
 | `kt:api-request-limits` | `kt:composite-api`, `kt:data-integration`, `kt:rest-api` |
 | `kt:batch-data-synchronization` | `kt:data-integration`, `kt:integration-patterns`, `kt:salesforce-connect` |
@@ -27,6 +26,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:namespace-registry` | `kt:dev-hub`, `kt:second-generation-managed-packages` |
 | `kt:orchestration-work-guide` | `kt:approval-processes`, `kt:flow-orchestrator` |
 | `kt:permission-sets` | `kt:named-credentials`, `kt:permission-set-groups` |
+| `kt:platform-developer-certification` | `kt:application-architect-certification`, `kt:system-architect-certification` |
 | `kt:platform-event-allocations` | `kt:platform-events`, `kt:pub-sub-api` |
 | `kt:remote-site-settings` | `kt:apex-callouts`, `kt:named-credentials` |
 | `kt:salesforce-inc` | `kt:slack-platform`, `kt:tableau` |
@@ -71,6 +71,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:data-cloud-segmentation` | `kt:calculated-insights` |
 | `kt:data-loader` | `kt:bulk-api-2` |
 | `kt:data-sovereignty` | `kt:data-residency` |
+| `kt:development-lifecycle-and-deployment-architect-certification` | `kt:system-architect-certification` |
 | `kt:digital-accessibility` | `kt:section-508-accessibility` |
 | `kt:dispatcher-console` | `kt:field-service` |
 | `kt:duplicate-management` | `kt:identity-resolution` |
@@ -114,7 +115,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:page-layouts` | `kt:record-types` |
 | `kt:platform-app-builder-certification` | `kt:application-architect-certification` |
 | `kt:platform-as-a-service` | `kt:salesforce-platform` |
-| `kt:platform-developer-certification` | `kt:application-architect-certification` |
 | `kt:platform-event-channel-member` | `kt:change-data-capture` |
 | `kt:presence-configuration` | `kt:omni-channel` |
 | `kt:principle-of-least-privilege` | `kt:permission-set-groups` |
