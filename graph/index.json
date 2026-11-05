@@ -2177,6 +2177,32 @@
     ]
   },
   {
+    "id": "kt:platform-event-allocations",
+    "title": "Platform Event Allocations",
+    "aliases": [
+      "platform event limits",
+      "event delivery allocation",
+      "event publishing allocation",
+      "DailyDeliveredPlatformEvents",
+      "HourlyPublishedPlatformEvents",
+      "platform events add-on license"
+    ],
+    "type": "Limit",
+    "domain": "integration",
+    "file": "articles/integration/platform-event-allocations.md",
+    "created": "2026-11-05",
+    "release": "Winter '27",
+    "status": "current",
+    "source_urls": [
+      "https://developer.salesforce.com/docs/platform/platform-events/guide/platform-events-limits-default.html",
+      "https://developer.salesforce.com/docs/platform/platform-events/guide/platform-events-limits-entitlement.html",
+      "https://developer.salesforce.com/docs/platform/platform-events/guide/platform-events-limits-which-events.html",
+      "https://developer.salesforce.com/docs/platform/platform-events/guide/platform-events-limits-monitor.html",
+      "https://developer.salesforce.com/docs/atlas.en-us.platform_events.meta/platform_events/platform_events_limits_svpe.htm",
+      "https://developer.salesforce.com/blogs/2023/01/stream-events-at-scale-with-event-filters-and-field-enrichment"
+    ]
+  },
+  {
     "id": "kt:platform-events",
     "title": "Platform Events",
     "aliases": [

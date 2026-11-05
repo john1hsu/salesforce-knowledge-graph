@@ -2441,6 +2441,32 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-developer-certification> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#partOf> <https://github.com/john1hsu/salesforce-knowledge-graph/id/system-architect-certification> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-developer-certification> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-developer-certification> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-event-allocations> <http://purl.org/dc/terms/created> "2026-11-05" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-event-allocations> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Limit> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-event-allocations> <http://www.w3.org/2000/01/rdf-schema#label> "Platform Event Allocations" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-event-allocations> <http://www.w3.org/2004/02/skos/core#altLabel> "DailyDeliveredPlatformEvents" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-event-allocations> <http://www.w3.org/2004/02/skos/core#altLabel> "HourlyPublishedPlatformEvents" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-event-allocations> <http://www.w3.org/2004/02/skos/core#altLabel> "event delivery allocation" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-event-allocations> <http://www.w3.org/2004/02/skos/core#altLabel> "event publishing allocation" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-event-allocations> <http://www.w3.org/2004/02/skos/core#altLabel> "platform event limits" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-event-allocations> <http://www.w3.org/2004/02/skos/core#altLabel> "platform events add-on license" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-event-allocations> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/governor-limits> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-event-allocations> <http://www.w3.org/2004/02/skos/core#definition> "The org-wide caps on how many platform event and change event messages can be published per hour and delivered to API-based subscribers per 24 hours, plus the usage-based monthly entitlement that a platform events add-on license adds on top." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-event-allocations> <http://www.w3.org/2004/02/skos/core#prefLabel> "Platform Event Allocations" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-event-allocations> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/change-data-capture> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-event-allocations> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-events> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-event-allocations> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/pub-sub-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-event-allocations> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/platform-event-allocations/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-event-allocations> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/platform-event-allocations/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-event-allocations> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/platform-event-allocations/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-event-allocations> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/platform-event-allocations/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-event-allocations> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/platform-event-allocations/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-event-allocations> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/platform-event-allocations/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-event-allocations> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#contrastsWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/api-request-limits> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-event-allocations> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#coveredBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-architect-certification> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-event-allocations> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "integration" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-event-allocations> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-event-allocations> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-events> <http://purl.org/dc/terms/created> "2026-10-31" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-events> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-events> <http://www.w3.org/2000/01/rdf-schema#label> "Platform Events" .
@@ -5993,6 +6019,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/platform-developer-certification/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/platform-developer-certification/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/platform-developer-certification/s6> <https://schema.org/url> "https://trailhead.salesforce.com/credentials/applicationarchitect" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/platform-event-allocations/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/platform-event-allocations/s1> <http://purl.org/dc/terms/title> "Default Platform Event Allocations for Event Publishing and Delivery" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/platform-event-allocations/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/platform-event-allocations/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/platform-event-allocations/s1> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/platform-events/guide/platform-events-limits-default.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/platform-event-allocations/s2> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/platform-event-allocations/s2> <http://purl.org/dc/terms/title> "Increase Your Event Delivery and Publishing Allocations with a Platform Event Add-On License" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/platform-event-allocations/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/platform-event-allocations/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/platform-event-allocations/s2> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/platform-events/guide/platform-events-limits-entitlement.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/platform-event-allocations/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/platform-event-allocations/s3> <http://purl.org/dc/terms/title> "Which Type of Platform Events Do Allocations Apply to?" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/platform-event-allocations/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/platform-event-allocations/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/platform-event-allocations/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/platform-events/guide/platform-events-limits-which-events.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/platform-event-allocations/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/platform-event-allocations/s4> <http://purl.org/dc/terms/title> "Monitor Event Usage Against Your Allocations" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/platform-event-allocations/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/platform-event-allocations/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/platform-event-allocations/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/platform-events/guide/platform-events-limits-monitor.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/platform-event-allocations/s5> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/platform-event-allocations/s5> <http://purl.org/dc/terms/title> "Standard-Volume Platform Event Allocations" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/platform-event-allocations/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/platform-event-allocations/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/platform-event-allocations/s5> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.platform_events.meta/platform_events/platform_events_limits_svpe.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/platform-event-allocations/s6> <http://purl.org/dc/terms/publisher> "Salesforce Developers Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/platform-event-allocations/s6> <http://purl.org/dc/terms/title> "Stream Events at Scale with Event Filters and Field Enrichment" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/platform-event-allocations/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/platform-event-allocations/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/platform-event-allocations/s6> <https://schema.org/url> "https://developer.salesforce.com/blogs/2023/01/stream-events-at-scale-with-event-filters-and-field-enrichment" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/platform-events/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/platform-events/s1> <http://purl.org/dc/terms/title> "Platform Events Developer Guide" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/platform-events/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
