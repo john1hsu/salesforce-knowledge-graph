@@ -115,6 +115,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:platform-event-channel-member` | `kt:change-data-capture` |
 | `kt:presence-configuration` | `kt:omni-channel` |
 | `kt:principle-of-least-privilege` | `kt:permission-set-groups` |
+| `kt:process-automation-settings` | `kt:schedule-triggered-flow` |
 | `kt:process-integration` | `kt:data-integration` |
 | `kt:product-configurator` | `kt:revenue-cloud` |
 | `kt:profiles` | `kt:permission-set-groups` |
@@ -139,6 +140,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:salesforce-pricing` | `kt:revenue-cloud` |
 | `kt:saml-2-0` | `kt:single-sign-on-saml` |
 | `kt:scale-test` | `kt:testing-strategy` |
+| `kt:scheduled-apex` | `kt:schedule-triggered-flow` |
 | `kt:schema-builder` | `kt:data-architecture` |
 | `kt:scoping-rules` | `kt:restriction-rules` |
 | `kt:service-appointments` | `kt:field-service` |

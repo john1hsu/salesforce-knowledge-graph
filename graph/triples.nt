@@ -369,6 +369,7 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/autolaunched-flow> <http://www.w3.org/2004/02/skos/core#prefLabel> "Autolaunched Flow" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/autolaunched-flow> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-orchestrator> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/autolaunched-flow> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/record-triggered-flow> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/autolaunched-flow> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/schedule-triggered-flow> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/autolaunched-flow> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/screen-flow> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/autolaunched-flow> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/autolaunched-flow/s1> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/autolaunched-flow> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/autolaunched-flow/s2> .
@@ -3134,6 +3135,30 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-types> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#partOf> <https://github.com/john1hsu/salesforce-knowledge-graph/id/environment-strategy> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-types> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-types> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/schedule-triggered-flow> <http://purl.org/dc/terms/created> "2026-11-05" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/schedule-triggered-flow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/schedule-triggered-flow> <http://www.w3.org/2000/01/rdf-schema#label> "Schedule-Triggered Flow" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/schedule-triggered-flow> <http://www.w3.org/2004/02/skos/core#altLabel> "schedule-triggered flows" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/schedule-triggered-flow> <http://www.w3.org/2004/02/skos/core#altLabel> "scheduled flow" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/schedule-triggered-flow> <http://www.w3.org/2004/02/skos/core#altLabel> "scheduled flows" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/schedule-triggered-flow> <http://www.w3.org/2004/02/skos/core#altLabel> "scheduled-triggered flow" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/schedule-triggered-flow> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-builder> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/schedule-triggered-flow> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/process-automation> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/schedule-triggered-flow> <http://www.w3.org/2004/02/skos/core#definition> "The Flow Builder flow type that starts itself at a set date, time and frequency (once, daily or weekly) and runs in the background over the batch of records that match its object and filter conditions, independent of any record change." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/schedule-triggered-flow> <http://www.w3.org/2004/02/skos/core#prefLabel> "Schedule-Triggered Flow" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/schedule-triggered-flow> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/autolaunched-flow> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/schedule-triggered-flow> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-fault-handling> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/schedule-triggered-flow> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/record-triggered-flow> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/schedule-triggered-flow> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/schedule-triggered-flow/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/schedule-triggered-flow> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/schedule-triggered-flow/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/schedule-triggered-flow> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/schedule-triggered-flow/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/schedule-triggered-flow> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#alternativeTo> <https://github.com/john1hsu/salesforce-knowledge-graph/id/batch-apex> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/schedule-triggered-flow> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#alternativeTo> <https://github.com/john1hsu/salesforce-knowledge-graph/id/scheduled-apex> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/schedule-triggered-flow> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/process-automation-settings> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/schedule-triggered-flow> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "automation" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/schedule-triggered-flow> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#governedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/governor-limits> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/schedule-triggered-flow> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/schedule-triggered-flow> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/scratch-orgs> <http://purl.org/dc/terms/created> "2026-11-01" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/scratch-orgs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/scratch-orgs> <http://www.w3.org/2000/01/rdf-schema#label> "Scratch Orgs" .
@@ -6693,6 +6718,21 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sandbox-types/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sandbox-types/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sandbox-types/s6> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/nonprofit-success-pack-maintenance/set-up-a-sandbox-in-your-salesforce-org" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/schedule-triggered-flow/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/schedule-triggered-flow/s1> <http://purl.org/dc/terms/title> "Autolaunched and Scheduled Flows: Schedule a Flow" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/schedule-triggered-flow/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/schedule-triggered-flow/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/schedule-triggered-flow/s1> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/autolaunched-scheduled-flows/schedule-a-flow" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/schedule-triggered-flow/s2> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/schedule-triggered-flow/s2> <http://purl.org/dc/terms/title> "Schedule-Triggered Flow Limits and Considerations" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/schedule-triggered-flow/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/schedule-triggered-flow/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/schedule-triggered-flow/s2> <https://schema.org/url> "https://help.salesforce.com/s/articleView?language=en_US&id=platform.flow_considerations_trigger_schedule.htm&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/schedule-triggered-flow/s3> <http://purl.org/dc/terms/publisher> "Salesforce Admins Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/schedule-triggered-flow/s3> <http://purl.org/dc/terms/title> "What Is a Schedule-Triggered Flow?" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/schedule-triggered-flow/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/schedule-triggered-flow/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/schedule-triggered-flow/s3> <https://schema.org/url> "https://admin.salesforce.com/blog/2023/what-is-a-schedule-triggered-flow" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scratch-orgs/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scratch-orgs/s1> <http://purl.org/dc/terms/title> "Scratch Orgs (Salesforce DX Developer Guide)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scratch-orgs/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

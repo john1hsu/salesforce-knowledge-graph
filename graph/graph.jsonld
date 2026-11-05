@@ -1350,6 +1350,9 @@
         },
         {
           "@id": "kt:flow-orchestrator"
+        },
+        {
+          "@id": "kt:schedule-triggered-flow"
         }
       ],
       "kto:integratesWith": [
@@ -1965,6 +1968,80 @@
       "kto:governedBy": [
         {
           "@id": "kt:governor-limits"
+        }
+      ]
+    },
+    {
+      "@id": "kt:schedule-triggered-flow",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Schedule-Triggered Flow",
+      "skos:definition": "The Flow Builder flow type that starts itself at a set date, time and frequency (once, daily or weekly) and runs in the background over the batch of records that match its object and filter conditions, independent of any record change.",
+      "kto:domain": "automation",
+      "dcterms:created": "2026-11-05",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Autolaunched and Scheduled Flows: Schedule a Flow",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/autolaunched-scheduled-flows/schedule-a-flow",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Schedule-Triggered Flow Limits and Considerations",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=platform.flow_considerations_trigger_schedule.htm&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "What Is a Schedule-Triggered Flow?",
+          "dcterms:publisher": "Salesforce Admins Blog",
+          "schema:url": "https://admin.salesforce.com/blog/2023/what-is-a-schedule-triggered-flow",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/automation/schedule-triggered-flow.md",
+      "skos:altLabel": [
+        "schedule-triggered flows",
+        "scheduled flow",
+        "scheduled flows",
+        "scheduled-triggered flow"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:flow-builder"
+        },
+        {
+          "@id": "kt:process-automation"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:record-triggered-flow"
+        },
+        {
+          "@id": "kt:autolaunched-flow"
+        },
+        {
+          "@id": "kt:flow-fault-handling"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:batch-apex"
+        },
+        {
+          "@id": "kt:scheduled-apex"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:governor-limits"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:process-automation-settings"
         }
       ]
     },
