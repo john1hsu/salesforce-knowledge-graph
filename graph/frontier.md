@@ -16,7 +16,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:data-lake-objects` | `kt:data-model-objects`, `kt:zero-copy-data-federation` |
 | `kt:entitlement-management` | `kt:field-service`, `kt:service-cloud` |
 | `kt:experience-builder` | `kt:experience-cloud`, `kt:experience-cloud-identity` |
-| `kt:flow-trigger-explorer` | `kt:record-triggered-flow`, `kt:order-of-execution` |
 | `kt:future-methods` | `kt:asynchronous-apex`, `kt:queueable-apex` |
 | `kt:group-membership-locking` | `kt:enterprise-territory-management`, `kt:sharing-recalculation` |
 | `kt:headless-identity` | `kt:experience-cloud-identity`, `kt:salesforce-identity` |

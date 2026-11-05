@@ -1554,6 +1554,79 @@
       ]
     },
     {
+      "@id": "kt:flow-trigger-explorer",
+      "@type": "kto:Tool",
+      "skos:prefLabel": "Flow Trigger Explorer",
+      "skos:definition": "A Setup tool that lists every record-triggered flow (and record-triggered orchestration) that runs for a chosen object and trigger event, grouped by when it runs, and lets admins inspect versions, activate or deactivate them and drag-and-drop the run order of before-save and after-save flows.",
+      "kto:domain": "automation",
+      "dcterms:created": "2026-11-05",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Meet Flow Trigger Explorer (Record-Triggered Flows module)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/record-triggered-flows/meet-flow-trigger-explorer",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Define the Run Order of Record-Triggered Flows for an Object",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/apex/HTViewHelpDoc?id=platform.flow_task_trigger_run_order.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Introducing Flow Trigger Explorer: View All Your Triggered Automation in One Place",
+          "dcterms:publisher": "Salesforce Admins Blog",
+          "schema:url": "https://admin.salesforce.com/blog/2022/introducing-flow-trigger-explorer-view-all-your-triggered-automation-in-one-place",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Use Flow Trigger Explorer to Easily View All of Your Record-Triggered Flows",
+          "dcterms:publisher": "Salesforce Admins Blog",
+          "schema:url": "https://admin.salesforce.com/blog/2022/use-flow-trigger-explorer-to-easily-view-all-of-your-record-triggered-flows",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/automation/flow-trigger-explorer.md",
+      "skos:altLabel": [
+        "Flow Trigger Explorer tool",
+        "flow trigger order explorer"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:flow-builder"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:record-triggered-flow"
+        },
+        {
+          "@id": "kt:order-of-execution"
+        },
+        {
+          "@id": "kt:flow-orchestrator"
+        },
+        {
+          "@id": "kt:workflow-rules"
+        },
+        {
+          "@id": "kt:process-builder"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:order-of-execution"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:process-automation"
+        }
+      ]
+    },
+    {
       "@id": "kt:process-automation",
       "@type": "kto:Concept",
       "skos:prefLabel": "Process Automation",
