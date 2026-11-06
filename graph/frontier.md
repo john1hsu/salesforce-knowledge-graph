@@ -32,6 +32,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:sosl` | `kt:external-objects`, `kt:soql` |
 | `kt:account-takeover` | `kt:multi-factor-authentication` |
 | `kt:apex-continuations` | `kt:apex-callouts` |
+| `kt:apex-enterprise-patterns` | `kt:trigger-framework-pattern` |
 | `kt:apex-flex-queue` | `kt:batch-apex` |
 | `kt:api-led-connectivity` | `kt:mulesoft-anypoint-platform` |
 | `kt:appexchange-security-review` | `kt:code-analyzer` |
@@ -153,7 +154,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:trailhead` | `kt:salesforce-certification-program` |
 | `kt:transaction-finalizers` | `kt:queueable-apex` |
 | `kt:transaction-security-policies` | `kt:salesforce-shield` |
-| `kt:trigger-framework-pattern` | `kt:apex-triggers` |
 | `kt:upsert` | `kt:external-id-fields` |
 | `kt:user-interface-api` | `kt:lightning-data-service` |
 | `kt:wcag` | `kt:section-508-accessibility` |

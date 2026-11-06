@@ -8737,6 +8737,26 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/transaction-control/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/transaction-control/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/transaction-control/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/api/apex_gov_limits.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/trigger-framework-pattern/s1> <http://purl.org/dc/terms/publisher> "Salesforce Architects" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/trigger-framework-pattern/s1> <http://purl.org/dc/terms/title> "Architect Decision Guide: Record-Triggered Automation" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/trigger-framework-pattern/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/trigger-framework-pattern/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/trigger-framework-pattern/s1> <https://schema.org/url> "https://architect.salesforce.com/docs/architect/decision-guides/guide/record-triggered" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/trigger-framework-pattern/s2> <http://purl.org/dc/terms/publisher> "Salesforce Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/trigger-framework-pattern/s2> <http://purl.org/dc/terms/title> "Trailhead: Apex Enterprise Patterns — Learn Domain Layer Principles" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/trigger-framework-pattern/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/trigger-framework-pattern/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/trigger-framework-pattern/s2> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/apex_patterns_dsl/apex_patterns_dsl_learn_dl_principles" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/trigger-framework-pattern/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/trigger-framework-pattern/s3> <http://purl.org/dc/terms/title> "Apex Developer Guide: Static and Instance Methods, Variables, and Initialization Code" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/trigger-framework-pattern/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/trigger-framework-pattern/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/trigger-framework-pattern/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apex/apex_classes_static.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/trigger-framework-pattern/s4> <http://purl.org/dc/terms/publisher> "mitchspano (open source)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/trigger-framework-pattern/s4> <http://purl.org/dc/terms/title> "Trigger Actions Framework (GitHub repository)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/trigger-framework-pattern/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/trigger-framework-pattern/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "community" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/trigger-framework-pattern/s4> <https://schema.org/url> "https://github.com/mitchspano/apex-trigger-actions-framework" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/unlocked-packages/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/unlocked-packages/s1> <http://purl.org/dc/terms/title> "Unlocked Packages (Salesforce DX Developer Guide)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/unlocked-packages/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
@@ -9024,6 +9044,30 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/transaction-control> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#governedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/governor-limits> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/transaction-control> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/transaction-control> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/trigger-framework-pattern> <http://purl.org/dc/terms/created> "2026-11-06" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/trigger-framework-pattern> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Pattern> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/trigger-framework-pattern> <http://www.w3.org/2000/01/rdf-schema#label> "Trigger Framework Pattern" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/trigger-framework-pattern> <http://www.w3.org/2004/02/skos/core#altLabel> "Apex trigger framework" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/trigger-framework-pattern> <http://www.w3.org/2004/02/skos/core#altLabel> "metadata-driven trigger framework" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/trigger-framework-pattern> <http://www.w3.org/2004/02/skos/core#altLabel> "one trigger per object" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/trigger-framework-pattern> <http://www.w3.org/2004/02/skos/core#altLabel> "trigger handler pattern" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/trigger-framework-pattern> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-triggers> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/trigger-framework-pattern> <http://www.w3.org/2004/02/skos/core#definition> "An Apex design pattern in which each object has a single, logic-free trigger that dispatches to handler classes or metadata-registered actions, giving deterministic ordering, bypass controls and testable, reusable trigger logic." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/trigger-framework-pattern> <http://www.w3.org/2004/02/skos/core#prefLabel> "Trigger Framework Pattern" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/trigger-framework-pattern> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-enterprise-patterns> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/trigger-framework-pattern> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-testing> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/trigger-framework-pattern> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-trigger-explorer> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/trigger-framework-pattern> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/order-of-execution> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/trigger-framework-pattern> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/trigger-framework-pattern/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/trigger-framework-pattern> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/trigger-framework-pattern/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/trigger-framework-pattern> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/trigger-framework-pattern/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/trigger-framework-pattern> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/trigger-framework-pattern/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/trigger-framework-pattern> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#alternativeTo> <https://github.com/john1hsu/salesforce-knowledge-graph/id/record-triggered-flow> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/trigger-framework-pattern> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-metadata-types> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/trigger-framework-pattern> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "development" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/trigger-framework-pattern> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#mitigates> <https://github.com/john1hsu/salesforce-knowledge-graph/id/governor-limits> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/trigger-framework-pattern> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/trigger-framework-pattern> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/unlocked-packages> <http://purl.org/dc/terms/created> "2026-11-01" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/unlocked-packages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/unlocked-packages> <http://www.w3.org/2000/01/rdf-schema#label> "Unlocked Packages" .

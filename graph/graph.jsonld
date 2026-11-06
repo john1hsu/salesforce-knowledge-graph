@@ -7582,6 +7582,83 @@
       ]
     },
     {
+      "@id": "kt:trigger-framework-pattern",
+      "@type": "kto:Pattern",
+      "skos:prefLabel": "Trigger Framework Pattern",
+      "skos:definition": "An Apex design pattern in which each object has a single, logic-free trigger that dispatches to handler classes or metadata-registered actions, giving deterministic ordering, bypass controls and testable, reusable trigger logic.",
+      "kto:domain": "development",
+      "dcterms:created": "2026-11-06",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Architect Decision Guide: Record-Triggered Automation",
+          "dcterms:publisher": "Salesforce Architects",
+          "schema:url": "https://architect.salesforce.com/docs/architect/decision-guides/guide/record-triggered",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Trailhead: Apex Enterprise Patterns — Learn Domain Layer Principles",
+          "dcterms:publisher": "Salesforce Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/apex_patterns_dsl/apex_patterns_dsl_learn_dl_principles",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Apex Developer Guide: Static and Instance Methods, Variables, and Initialization Code",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apex/apex_classes_static.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Trigger Actions Framework (GitHub repository)",
+          "dcterms:publisher": "mitchspano (open source)",
+          "schema:url": "https://github.com/mitchspano/apex-trigger-actions-framework",
+          "kto:sourceType": "community"
+        }
+      ],
+      "kto:file": "articles/development/trigger-framework-pattern.md",
+      "skos:altLabel": [
+        "trigger handler pattern",
+        "Apex trigger framework",
+        "one trigger per object",
+        "metadata-driven trigger framework"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:apex-triggers"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:order-of-execution"
+        },
+        {
+          "@id": "kt:apex-testing"
+        },
+        {
+          "@id": "kt:flow-trigger-explorer"
+        },
+        {
+          "@id": "kt:apex-enterprise-patterns"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:custom-metadata-types"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:record-triggered-flow"
+        }
+      ],
+      "kto:mitigates": [
+        {
+          "@id": "kt:governor-limits"
+        }
+      ]
+    },
+    {
       "@id": "kt:agentforce-dx",
       "@type": "kto:Tool",
       "skos:prefLabel": "Agentforce DX",
