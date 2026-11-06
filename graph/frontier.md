@@ -19,11 +19,13 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:permission-sets` | `kt:named-credentials`, `kt:permission-set-groups` |
 | `kt:platform-administrator-certification` | `kt:salesforce-certification-program`, `kt:sales-cloud-consultant-certification` |
 | `kt:platform-app-builder-certification` | `kt:application-architect-certification`, `kt:platform-developer-certification` |
+| `kt:profiles` | `kt:login-flows`, `kt:permission-set-groups` |
 | `kt:public-groups` | `kt:queues`, `kt:sharing-rules` |
 | `kt:remote-call-in` | `kt:batch-data-synchronization`, `kt:integration-patterns` |
 | `kt:remote-site-settings` | `kt:apex-callouts`, `kt:named-credentials` |
 | `kt:sandbox-templates` | `kt:environment-strategy`, `kt:sandbox-types` |
 | `kt:scratch-org-allocations` | `kt:dev-hub`, `kt:scratch-orgs` |
+| `kt:session-security-levels` | `kt:login-flows`, `kt:multi-factor-authentication` |
 | `kt:soap-api` | `kt:external-id-fields`, `kt:rest-api` |
 | `kt:sosl` | `kt:external-objects`, `kt:soql` |
 | `kt:account-takeover` | `kt:multi-factor-authentication` |
@@ -110,7 +112,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:process-automation-settings` | `kt:schedule-triggered-flow` |
 | `kt:process-integration` | `kt:data-integration` |
 | `kt:product-configurator` | `kt:revenue-cloud` |
-| `kt:profiles` | `kt:permission-set-groups` |
 | `kt:prompt-injection` | `kt:einstein-trust-layer` |
 | `kt:recursive-save` | `kt:order-of-execution` |
 | `kt:retrieval-augmented-generation-in-salesforce` | `kt:atlas-reasoning-engine` |
@@ -136,7 +137,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:scoping-rules` | `kt:restriction-rules` |
 | `kt:service-appointments` | `kt:field-service` |
 | `kt:service-setup-assistant` | `kt:service-cloud` |
-| `kt:session-security-levels` | `kt:multi-factor-authentication` |
 | `kt:skills-based-routing` | `kt:omni-channel` |
 | `kt:slack-api-rate-limits` | `kt:slack-platform` |
 | `kt:slack-workflow-builder` | `kt:slack-platform` |

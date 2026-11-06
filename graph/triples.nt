@@ -2166,6 +2166,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-web-components> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-web-components> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-web-components> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/login-flows> <http://purl.org/dc/terms/created> "2026-11-06" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/login-flows> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/login-flows> <http://www.w3.org/2000/01/rdf-schema#label> "Login Flows" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/login-flows> <http://www.w3.org/2004/02/skos/core#altLabel> "custom login flow" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/login-flows> <http://www.w3.org/2004/02/skos/core#altLabel> "custom login flows" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/login-flows> <http://www.w3.org/2004/02/skos/core#altLabel> "login flow" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/login-flows> <http://www.w3.org/2004/02/skos/core#altLabel> "post-authentication flow" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/login-flows> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-identity> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/login-flows> <http://www.w3.org/2004/02/skos/core#definition> "A screen flow or Visualforce page that Salesforce runs after a user authenticates and before they reach the org or an Experience Cloud site, assigned per profile, used to add steps such as custom verification, terms acceptance or data collection, and able to force a logout." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/login-flows> <http://www.w3.org/2004/02/skos/core#prefLabel> "Login Flows" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/login-flows> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/experience-cloud-identity> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/login-flows> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/multi-factor-authentication> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/login-flows> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/screen-flow> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/login-flows> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/single-sign-on-saml> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/login-flows> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/login-flows/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/login-flows> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/login-flows/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/login-flows> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/login-flows/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/login-flows> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/login-flows/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/login-flows> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/profiles> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/login-flows> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#coveredBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-and-access-management-architect-certification> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/login-flows> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-builder> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/login-flows> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "identity" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/login-flows> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/session-security-levels> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/login-flows> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/login-flows> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/lookup-vs-master-detail> <http://purl.org/dc/terms/created> "2026-10-30" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/lookup-vs-master-detail> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/lookup-vs-master-detail> <http://www.w3.org/2000/01/rdf-schema#label> "Lookup vs. Master-Detail Relationships" .
@@ -6178,6 +6203,26 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lightning-web-components/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lightning-web-components/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lightning-web-components/s6> <https://schema.org/url> "https://developer.salesforce.com/docs/component-library/documentation/en/lwc/lwc.apex_call_imperative" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/login-flows/s1> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/login-flows/s1> <http://purl.org/dc/terms/title> "Custom Login Flows" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/login-flows/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/login-flows/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/login-flows/s1> <https://schema.org/url> "https://help.salesforce.com/s/articleView?language=en_US&id=xcloud.security_login_flow.htm&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/login-flows/s2> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/login-flows/s2> <http://purl.org/dc/terms/title> "Login Flow Examples" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/login-flows/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/login-flows/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/login-flows/s2> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=security_login_flow_examples.htm&language=en_US&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/login-flows/s3> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/login-flows/s3> <http://purl.org/dc/terms/title> "Create a Login Flow with Flow Builder" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/login-flows/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/login-flows/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/login-flows/s3> <https://schema.org/url> "https://help.salesforce.com/s/articleView?language=en_US&id=xcloud.security_login_flow_cloud_designer.htm&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/login-flows/s4> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/login-flows/s4> <http://purl.org/dc/terms/title> "Assign the Login Flow and Test It in Your Portal (Self-Registration in a Portal)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/login-flows/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/login-flows/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/login-flows/s4> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/selfregistration-in-a-portal/assign-the-login-flow-and-test-it-in-your-portal" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lookup-vs-master-detail/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lookup-vs-master-detail/s1> <http://purl.org/dc/terms/title> "Data Modeling: Create Object Relationships" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lookup-vs-master-detail/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

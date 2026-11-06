@@ -9048,6 +9048,88 @@
       ]
     },
     {
+      "@id": "kt:login-flows",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Login Flows",
+      "skos:definition": "A screen flow or Visualforce page that Salesforce runs after a user authenticates and before they reach the org or an Experience Cloud site, assigned per profile, used to add steps such as custom verification, terms acceptance or data collection, and able to force a logout.",
+      "kto:domain": "identity",
+      "dcterms:created": "2026-11-06",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Custom Login Flows",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=xcloud.security_login_flow.htm&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Login Flow Examples",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=security_login_flow_examples.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Create a Login Flow with Flow Builder",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=xcloud.security_login_flow_cloud_designer.htm&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Assign the Login Flow and Test It in Your Portal (Self-Registration in a Portal)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/selfregistration-in-a-portal/assign-the-login-flow-and-test-it-in-your-portal",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/identity/login-flows.md",
+      "skos:altLabel": [
+        "login flow",
+        "custom login flows",
+        "custom login flow",
+        "post-authentication flow"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-identity"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:screen-flow"
+        },
+        {
+          "@id": "kt:multi-factor-authentication"
+        },
+        {
+          "@id": "kt:experience-cloud-identity"
+        },
+        {
+          "@id": "kt:single-sign-on-saml"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:flow-builder"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:profiles"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:session-security-levels"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:identity-and-access-management-architect-certification"
+        }
+      ]
+    },
+    {
       "@id": "kt:multi-factor-authentication",
       "@type": "kto:SecurityControl",
       "skos:prefLabel": "Multi-Factor Authentication",
