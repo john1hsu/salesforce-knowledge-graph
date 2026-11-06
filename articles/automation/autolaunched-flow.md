@@ -11,7 +11,7 @@ summary: >-
 release: "Winter '27"
 status: current
 broader: [kt:flow-builder, kt:process-automation]
-related: [kt:screen-flow, kt:record-triggered-flow, kt:flow-orchestrator, kt:schedule-triggered-flow]
+related: [kt:screen-flow, kt:record-triggered-flow, kt:flow-orchestrator, kt:schedule-triggered-flow, kt:platform-event-triggered-flow]
 relations:
   - {predicate: integratesWith, object: kt:apex}
   - {predicate: governedBy, object: kt:governor-limits}

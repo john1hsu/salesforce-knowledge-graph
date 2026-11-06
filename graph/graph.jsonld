@@ -1524,6 +1524,9 @@
         },
         {
           "@id": "kt:schedule-triggered-flow"
+        },
+        {
+          "@id": "kt:platform-event-triggered-flow"
         }
       ],
       "kto:integratesWith": [
@@ -1883,6 +1886,84 @@
       "kto:partOf": [
         {
           "@id": "kt:process-automation"
+        }
+      ]
+    },
+    {
+      "@id": "kt:platform-event-triggered-flow",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Platform Event-Triggered Flow",
+      "skos:definition": "The Flow Builder flow type that subscribes to a platform event and launches a new background interview for each event message it receives, running asynchronously in its own transaction with the message's fields available in $Record.",
+      "kto:domain": "automation",
+      "dcterms:created": "2026-11-06",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Subscribe to Platform Event Messages with Flows",
+          "dcterms:publisher": "Salesforce Developers (Platform Events Developer Guide)",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.platform_events.meta/platform_events/platform_events_subscribe_flow.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Considerations for Subscribing to Platform Events with Processes and Flows",
+          "dcterms:publisher": "Salesforce Developers (Platform Events Developer Guide)",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.platform_events.meta/platform_events/platform_events_process_considerations.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "What Is a Platform Event-Triggered Flow?",
+          "dcterms:publisher": "Salesforce Admins Blog",
+          "schema:url": "https://admin.salesforce.com/blog/2023/what-is-a-platform-event-triggered-flow",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Guide to Subscribing to Salesforce Platform Events",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/en/modules/platform_events_basics/units/platform_events_subscribe",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/automation/platform-event-triggered-flow.md",
+      "skos:altLabel": [
+        "platform event-triggered flows",
+        "platform event triggered flow",
+        "event-triggered flow",
+        "PE-triggered flow"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:flow-builder"
+        },
+        {
+          "@id": "kt:process-automation"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:record-triggered-flow"
+        },
+        {
+          "@id": "kt:schedule-triggered-flow"
+        },
+        {
+          "@id": "kt:autolaunched-flow"
+        },
+        {
+          "@id": "kt:flow-fault-handling"
+        },
+        {
+          "@id": "kt:event-driven-architecture"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:platform-events"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:apex-triggers"
         }
       ]
     },
@@ -11252,6 +11333,9 @@
         },
         {
           "@id": "kt:flow-builder"
+        },
+        {
+          "@id": "kt:platform-event-triggered-flow"
         }
       ],
       "kto:queriedWith": [

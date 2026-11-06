@@ -11,7 +11,7 @@ summary: >-
 release: "Winter '27"
 status: current
 broader: [kt:event-driven-architecture]
-related: [kt:change-data-capture, kt:apex-triggers, kt:flow-builder]
+related: [kt:change-data-capture, kt:apex-triggers, kt:flow-builder, kt:platform-event-triggered-flow]
 relations:
   - {predicate: queriedWith, object: kt:pub-sub-api}
   - {predicate: governedBy, object: kt:platform-event-allocations}
