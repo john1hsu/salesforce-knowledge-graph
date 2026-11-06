@@ -4,6 +4,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
+| `kt:sales-cloud-consultant-certification` | `kt:collaborative-forecasts`, `kt:opportunity-splits`, `kt:sales-cloud` |
 | `kt:business-processes` | `kt:record-types`, `kt:record-types` |
 | `kt:data-lake-objects` | `kt:data-model-objects`, `kt:zero-copy-data-federation` |
 | `kt:experience-builder` | `kt:experience-cloud`, `kt:experience-cloud-identity` |
@@ -13,14 +14,13 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:integration-patterns-request-reply-fire-and-forget` | `kt:event-driven-architecture`, `kt:integration-patterns` |
 | `kt:integration-security` | `kt:oauth-2-0`, `kt:named-credentials` |
 | `kt:namespace-registry` | `kt:dev-hub`, `kt:second-generation-managed-packages` |
-| `kt:opportunity-splits` | `kt:collaborative-forecasts`, `kt:sales-cloud` |
+| `kt:opportunity-teams` | `kt:opportunity-splits`, `kt:opportunity-splits` |
 | `kt:orchestration-work-guide` | `kt:approval-processes`, `kt:flow-orchestrator` |
 | `kt:permission-sets` | `kt:named-credentials`, `kt:permission-set-groups` |
 | `kt:platform-app-builder-certification` | `kt:application-architect-certification`, `kt:platform-developer-certification` |
 | `kt:public-groups` | `kt:queues`, `kt:sharing-rules` |
 | `kt:remote-call-in` | `kt:batch-data-synchronization`, `kt:integration-patterns` |
 | `kt:remote-site-settings` | `kt:apex-callouts`, `kt:named-credentials` |
-| `kt:sales-cloud-consultant-certification` | `kt:collaborative-forecasts`, `kt:sales-cloud` |
 | `kt:salesforce-certification-program` | `kt:data-cloud-consultant-certification`, `kt:platform-developer-certification` |
 | `kt:salesforce-inc` | `kt:slack-platform`, `kt:tableau` |
 | `kt:sandbox-templates` | `kt:environment-strategy`, `kt:sandbox-types` |

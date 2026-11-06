@@ -2554,6 +2554,34 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/openid-connect-authentication-providers> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#implements> <https://github.com/john1hsu/salesforce-knowledge-graph/id/openid-connect> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/openid-connect-authentication-providers> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/openid-connect-authentication-providers> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/opportunity-splits> <http://purl.org/dc/terms/created> "2026-11-06" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/opportunity-splits> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/opportunity-splits> <http://www.w3.org/2000/01/rdf-schema#label> "Opportunity Splits" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/opportunity-splits> <http://www.w3.org/2004/02/skos/core#altLabel> "Opportunity Product Splits" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/opportunity-splits> <http://www.w3.org/2004/02/skos/core#altLabel> "Opportunity Split" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/opportunity-splits> <http://www.w3.org/2004/02/skos/core#altLabel> "OpportunitySplit" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/opportunity-splits> <http://www.w3.org/2004/02/skos/core#altLabel> "Overlay Splits" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/opportunity-splits> <http://www.w3.org/2004/02/skos/core#altLabel> "Revenue Splits" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/opportunity-splits> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/sales-cloud> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/opportunity-splits> <http://www.w3.org/2004/02/skos/core#definition> "Sales Cloud team-selling feature that credits opportunity team members with a share of an opportunity's amount (or another currency field) through revenue, overlay and custom split types, feeding forecasts, reports and commissions." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/opportunity-splits> <http://www.w3.org/2004/02/skos/core#prefLabel> "Opportunity Splits" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/opportunity-splits> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/collaborative-forecasts> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/opportunity-splits> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/enterprise-territory-management> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/opportunity-splits> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/opportunity-teams> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/opportunity-splits> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/role-hierarchy> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/opportunity-splits> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/opportunity-splits/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/opportunity-splits> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/opportunity-splits/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/opportunity-splits> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/opportunity-splits/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/opportunity-splits> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/opportunity-splits/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/opportunity-splits> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#coveredBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/sales-cloud-consultant-certification> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/opportunity-splits> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/opportunity-teams> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/opportunity-splits> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "clouds-and-products" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/opportunity-splits> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/change-data-capture> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/opportunity-splits> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/collaborative-forecasts> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/opportunity-splits> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#partOf> <https://github.com/john1hsu/salesforce-knowledge-graph/id/sales-cloud> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/opportunity-splits> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/soql> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/opportunity-splits> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/opportunity-splits> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/order-of-execution> <http://purl.org/dc/terms/created> "2026-10-31" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/order-of-execution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/order-of-execution> <http://www.w3.org/2000/01/rdf-schema#label> "Order of Execution" .
@@ -6499,6 +6527,26 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/openid-connect-authentication-providers/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/openid-connect-authentication-providers/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "standards-body" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/openid-connect-authentication-providers/s4> <https://schema.org/url> "https://openid.net/specs/openid-connect-core-1_0.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/opportunity-splits/s1> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/opportunity-splits/s1> <http://purl.org/dc/terms/title> "OpportunitySplit (Object Reference for the Salesforce Platform)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/opportunity-splits/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/opportunity-splits/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/opportunity-splits/s1> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/object_reference/sforce_api_objects_opportunitysplit.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/opportunity-splits/s2> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/opportunity-splits/s2> <http://purl.org/dc/terms/title> "Sell as a Team and Split the Credit" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/opportunity-splits/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/opportunity-splits/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/opportunity-splits/s2> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/leads_opportunities_lightning_experience/sell-as-a-team-and-split-the-credit" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/opportunity-splits/s3> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/opportunity-splits/s3> <http://purl.org/dc/terms/title> "Team Selling Implementation Guide (Salesforce help PDF)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/opportunity-splits/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/opportunity-splits/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/opportunity-splits/s3> <https://schema.org/url> "https://resources.docs.salesforce.com/242/latest/en-us/sfdc/pdf/team_selling_implementation_guide.pdf" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/opportunity-splits/s4> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/opportunity-splits/s4> <http://purl.org/dc/terms/title> "Opportunity Splits (Salesforce Spiff help)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/opportunity-splits/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/opportunity-splits/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/opportunity-splits/s4> <https://schema.org/url> "https://help.salesforce.com/apex/HTViewHelpDoc?id=sales.spiff_opportunity_splits.htm" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/order-of-execution/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/order-of-execution/s1> <http://purl.org/dc/terms/title> "Apex Developer Guide: Triggers and Order of Execution" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/order-of-execution/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

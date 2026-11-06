@@ -2972,6 +2972,97 @@
       ]
     },
     {
+      "@id": "kt:opportunity-splits",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Opportunity Splits",
+      "skos:definition": "Sales Cloud team-selling feature that credits opportunity team members with a share of an opportunity's amount (or another currency field) through revenue, overlay and custom split types, feeding forecasts, reports and commissions.",
+      "kto:domain": "clouds-and-products",
+      "dcterms:created": "2026-11-06",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "OpportunitySplit (Object Reference for the Salesforce Platform)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/object_reference/sforce_api_objects_opportunitysplit.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Sell as a Team and Split the Credit",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/leads_opportunities_lightning_experience/sell-as-a-team-and-split-the-credit",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Team Selling Implementation Guide (Salesforce help PDF)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://resources.docs.salesforce.com/242/latest/en-us/sfdc/pdf/team_selling_implementation_guide.pdf",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Opportunity Splits (Salesforce Spiff help)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://help.salesforce.com/apex/HTViewHelpDoc?id=sales.spiff_opportunity_splits.htm",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/clouds-and-products/opportunity-splits.md",
+      "skos:altLabel": [
+        "Opportunity Split",
+        "OpportunitySplit",
+        "Revenue Splits",
+        "Overlay Splits",
+        "Opportunity Product Splits"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:sales-cloud"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:collaborative-forecasts"
+        },
+        {
+          "@id": "kt:opportunity-teams"
+        },
+        {
+          "@id": "kt:role-hierarchy"
+        },
+        {
+          "@id": "kt:enterprise-territory-management"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:sales-cloud"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:opportunity-teams"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:collaborative-forecasts"
+        },
+        {
+          "@id": "kt:change-data-capture"
+        }
+      ],
+      "kto:queriedWith": [
+        {
+          "@id": "kt:soql"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:sales-cloud-consultant-certification"
+        }
+      ]
+    },
+    {
       "@id": "kt:revenue-cloud",
       "@type": "kto:Product",
       "skos:prefLabel": "Agentforce Revenue Management",
