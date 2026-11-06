@@ -6,8 +6,10 @@ Usage:
   python3 scripts/site.py out_dir    # writes it somewhere else
 
 Reads the same articles as scripts/kg.py and never modifies them. The output is
-plain HTML/CSS/JS: an index with search, one page per article (with typed edges
-and back-links), one page per domain, the frontier, and an interactive graph.
+plain HTML/CSS/JS: a home page with an interactive map and search, one page per
+article (typed connections, back-links, sources), one page per domain, the
+frontier, a full-size graph and an about page with data downloads. Styles and
+the map script live in scripts/site_assets/; d3 is vendored in scripts/vendor/.
 """
 from __future__ import annotations
 
@@ -27,22 +29,65 @@ try:
 except ImportError:  # pragma: no cover
     sys.exit("markdown missing: pip install markdown --break-system-packages")
 
-REPO_URL = "https://github.com/john1hsu/salesforce-knowledge-graph"
+REPO = "john1hsu/salesforce-knowledge-graph"
+REPO_URL = f"https://github.com/{REPO}"
 SITE_TITLE = "Salesforce Knowledge Graph"
-VENDOR = Path(__file__).resolve().parent / "vendor"  # d3 v7.9.0 (ISC), vendored so the site has no CDN dependency
+HERE = Path(__file__).resolve().parent
+ASSETS = HERE / "site_assets"
+VENDOR = HERE / "vendor"  # d3 v7.9.0 (ISC), vendored so the site has no CDN dependency
 
-PRED_LABELS = {
-    "broader": "Broader", "related": "Related", "partOf": "Part of", "hasPart": "Has part",
-    "dependsOn": "Depends on", "enables": "Enables", "integratesWith": "Integrates with",
-    "replacedBy": "Replaced by", "replaces": "Replaces", "alternativeTo": "Alternative to",
-    "governedBy": "Governed by", "implements": "Implements", "mitigates": "Mitigates",
-    "causes": "Causes", "configuredVia": "Configured via", "queriedWith": "Queried with",
-    "requiresLicense": "Requires license", "introducedIn": "Introduced in", "coveredBy": "Covered by",
-    "usedBy": "Used by", "acquiredBy": "Acquired by", "contrastsWith": "Contrasts with",
-    "instanceOf": "Instance of",
+FONTS_URL = ("https://fonts.googleapis.com/css2?family=Manrope:wght@400..800"
+             "&family=Newsreader:ital,opsz,wght@0,6..72,400..700;1,6..72,400..700&display=swap")
+THEME = {
+    "font_body": "'Newsreader', Georgia, serif",
+    "font_display": "'Manrope', system-ui, sans-serif",
+    "font_ui": "'Manrope', system-ui, sans-serif",
+    "hue_start": 200,
+    "light": {
+        "paper": "#EFF3F8", "panel": "#FAFCFE", "ink": "#121B2A", "ink-soft": "#2F3B4E", "muted": "#586579",
+        "rule": "#D2DBE6", "rule-strong": "#A9B7C8", "accent": "#075A8C", "accent-wash": "#D6E8F4",
+        "warn": "#A33A2A", "warn-wash": "#F6DFDA", "good": "#1D6B47", "good-wash": "#D8EEE2", "caution": "#8A5A00",
+    },
+    "dark": {
+        "paper": "#0E1520", "panel": "#16202D", "ink": "#E5ECF4", "ink-soft": "#C2CDDA", "muted": "#8D9AAD",
+        "rule": "#263243", "rule-strong": "#3E4D62", "accent": "#7CC0EC", "accent-wash": "#1B3348",
+        "warn": "#F0998B", "warn-wash": "#3D2420", "good": "#7FCFA4", "good-wash": "#1C3529", "caution": "#F0C46B",
+    },
 }
 
-e = html.escape
+# (outgoing label, incoming label)
+PRED = {
+    "broader": ("Part of", "Includes"),
+    "related": ("Related", "Related"),
+    "partOf": ("Part of", "Includes"),
+    "hasPart": ("Includes", "Part of"),
+    "dependsOn": ("Depends on", "Needed by"),
+    "enables": ("Enables", "Enabled by"),
+    "integratesWith": ("Integrates with", "Integrates with"),
+    "replacedBy": ("Replaced by", "Replaces"),
+    "replaces": ("Replaces", "Replaced by"),
+    "alternativeTo": ("Alternative to", "Alternative to"),
+    "governedBy": ("Governed by", "Governs"),
+    "implements": ("Implements", "Implemented by"),
+    "mitigates": ("Mitigates", "Mitigated by"),
+    "causes": ("Causes", "Caused by"),
+    "configuredVia": ("Configured via", "Configures"),
+    "queriedWith": ("Accessed with", "Accesses"),
+    "requiresLicense": ("Requires license", "License for"),
+    "introducedIn": ("Introduced in", "Introduced"),
+    "coveredBy": ("On the exam for", "Exam covers"),
+    "usedBy": ("Used by", "Uses"),
+    "acquiredBy": ("Acquired by", "Acquired"),
+    "contrastsWith": ("Often confused with", "Often confused with"),
+    "instanceOf": ("Instance of", "Has instance"),
+}
+PRED_ORDER = ["Replaced by", "Replaces", "Part of", "Includes", "Depends on", "Needed by"]
+STATUS = {"current": "Generally available", "beta": "Beta", "pilot": "Pilot", "deprecated": "Deprecated",
+          "retired": "Retired", "concept": "Concept"}
+SOURCE_KIND = {"official-docs": "Official docs", "trailhead": "Trailhead", "release-notes": "Release notes",
+               "standards-body": "Standards body", "official-blog": "Official blog"}
+
+e = lambda s: html.escape(str(s), quote=True)  # noqa: E731
 
 
 def slug(node_id: str) -> str:
@@ -55,117 +100,24 @@ def humanize(s: str) -> str:
 
 def domain_label(d: str) -> str:
     small = {"and", "of", "in", "to"}
-    words = d.split("-")
     out = []
-    for i, w in enumerate(words):
+    for i, w in enumerate(d.split("-")):
         if w in {"ai", "alm"}:
             out.append(w.upper())
         elif w in small and i:
             out.append(w)
         else:
-            out.append(w.capitalize())
+            out.append(w.capitalize() if i == 0 else w)
     return " ".join(out)
 
 
-CSS = """
-:root{--bg:#f7f8fa;--panel:#fff;--text:#1b1f24;--muted:#5b6470;--line:#e2e6eb;--accent:#0b5cab;--accent-soft:#e8f1fb;
---warn:#8a5a00;--warn-soft:#fff4dc;--ok:#1e6b3a;--ok-soft:#e5f5ea;--code:#f0f2f5;--shadow:0 1px 2px rgba(0,0,0,.05)}
-@media (prefers-color-scheme:dark){:root{--bg:#0f1216;--panel:#171b21;--text:#e6e9ee;--muted:#9aa3ae;--line:#2a3039;
---accent:#6cb2ff;--accent-soft:#16283d;--warn:#f0c46b;--warn-soft:#33290f;--ok:#7fd69b;--ok-soft:#14301f;--code:#222831;--shadow:none}}
-article.body>:first-child{margin-top:0}
-*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
-body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
-a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
-header.top{background:var(--panel);border-bottom:1px solid var(--line)}
-header.top .in{max-width:1120px;margin:0 auto;padding:12px 16px;display:flex;gap:20px;align-items:center;flex-wrap:wrap}
-header.top .brand{font-weight:700;color:var(--text);font-size:17px}
-header.top nav{display:flex;gap:16px;flex-wrap:wrap;font-size:15px}
-main{max-width:1120px;margin:0 auto;padding:24px 16px 64px}
-h1{font-size:30px;line-height:1.2;margin:0 0 8px}h2{font-size:21px;margin:32px 0 10px}h3{font-size:17px}
-.lede{color:var(--muted);font-size:17px;margin:0 0 20px;max-width:760px}
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:14px}
-.card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:14px 16px;box-shadow:var(--shadow)}
-.card h3{margin:0 0 4px;font-size:16px}.card p{margin:4px 0 0;color:var(--muted);font-size:14px}
-.stats{display:flex;gap:12px;flex-wrap:wrap;margin:0 0 24px}
-.stat{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:10px 16px;min-width:120px}
-.stat b{display:block;font-size:24px}.stat span{color:var(--muted);font-size:13px}
-.chips{display:flex;gap:6px;flex-wrap:wrap;margin:6px 0 0}
-.chip{display:inline-block;font-size:12px;padding:2px 8px;border-radius:999px;background:var(--accent-soft);color:var(--accent);white-space:nowrap}
-.chip.muted{background:var(--code);color:var(--muted)}.chip.warn{background:var(--warn-soft);color:var(--warn)}.chip.ok{background:var(--ok-soft);color:var(--ok)}
-input.search{width:100%;max-width:560px;font:inherit;padding:10px 14px;border:1px solid var(--line);border-radius:8px;background:var(--panel);color:var(--text);margin:0 0 20px}
-.layout{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:32px}
-@media (max-width:860px){.layout{grid-template-columns:1fr}}
-article.body{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:24px 28px;box-shadow:var(--shadow);min-width:0}
-@media (max-width:600px){article.body{padding:18px 16px}}
-article.body p,article.body li{max-width:72ch}
-article.body code{background:var(--code);padding:1px 5px;border-radius:4px;font-size:.9em}
-article.body table{border-collapse:collapse;display:block;overflow-x:auto}article.body td,article.body th{border:1px solid var(--line);padding:6px 10px}
-sup.cite a{font-size:11px;padding:0 2px}
-aside .box{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin-bottom:16px}
-aside h4{margin:0 0 8px;font-size:13px;text-transform:uppercase;letter-spacing:.04em;color:var(--muted)}
-aside dl{margin:0;display:grid;grid-template-columns:auto 1fr;gap:4px 12px;font-size:14px}aside dt{color:var(--muted)}aside dd{margin:0}
-aside ul{list-style:none;margin:0;padding:0;font-size:14px}aside li{margin:3px 0}
-.edge-group{margin-bottom:10px}.edge-group b{display:block;font-size:12px;color:var(--muted);font-weight:600}
-.unwritten{color:var(--muted)}.unwritten::after{content:" ·  not yet written";font-size:11px}
-ol.sources{font-size:14px;padding-left:22px}ol.sources li{margin:6px 0;word-break:break-word}ol.sources li:target{background:var(--accent-soft)}
-.src-meta{color:var(--muted)}
-table.list{width:100%;border-collapse:collapse;background:var(--panel);border:1px solid var(--line);border-radius:10px;overflow:hidden;font-size:15px}
-table.list th,table.list td{text-align:left;padding:8px 12px;border-bottom:1px solid var(--line);vertical-align:top}
-table.list th{font-size:13px;color:var(--muted);font-weight:600}
-.tablewrap{overflow-x:auto}
-#graph{width:100%;height:72vh;min-height:420px;background:var(--panel);border:1px solid var(--line);border-radius:12px;display:block}
-#graph text{font-size:11px;fill:var(--text);pointer-events:none}
-.legend{display:flex;gap:14px;flex-wrap:wrap;font-size:13px;color:var(--muted);margin:10px 0}
-.legend i{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:5px;vertical-align:middle}
-footer{max-width:1120px;margin:0 auto;padding:0 16px 32px;color:var(--muted);font-size:13px}
-.breadcrumb{font-size:14px;color:var(--muted);margin-bottom:8px}
-"""
-
-
-def page(title: str, body: str, root: str, active: str = "", extra_head: str = "") -> str:
-    nav = [("index.html", "Articles", "home"), ("graph.html", "Graph", "graph"),
-           ("frontier.html", "Frontier", "frontier"), ("about.html", "About", "about")]
-    links = "".join(
-        f'<a href="{root}{h}"{" aria-current=page" if k == active else ""}>{t}</a>' for h, t, k in nav
-    ) + f'<a href="{REPO_URL}">GitHub</a>'
-    full = SITE_TITLE if title == SITE_TITLE else f"{title} · {SITE_TITLE}"
-    return f"""<!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>{e(full)}</title><link rel="stylesheet" href="{root}style.css">{extra_head}</head>
-<body><header class="top"><div class="in"><a class="brand" href="{root}index.html">{SITE_TITLE}</a><nav>{links}</nav></div></header>
-<main>{body}</main>
-<footer>Generated from <a href="{REPO_URL}">{REPO_URL.split('github.com/')[1]}</a> by <code>scripts/site.py</code>.
-Every article is citation-backed; check the sources for the latest limits.</footer></body></html>
-"""
-
-
-def status_chip(status: str) -> str:
-    cls = {"current": "ok", "deprecated": "warn", "retired": "warn", "beta": "warn", "pilot": "warn"}.get(status, "muted")
-    return f'<span class="chip {cls}">{e(status)}</span>'
-
-
-def render_body(a: dict, written: dict, root: str) -> str:
-    body = a["_body"]
-    body = re.sub(r"^# .*\n", "", body, count=1, flags=re.M)              # title rendered separately
-    body = re.split(r"^## Sources\s*$", body, maxsplit=1, flags=re.M)[0]   # sources rendered from frontmatter
-    body = re.sub(r"^\[\^s\d+\]:.*$", "", body, flags=re.M)
-
-    def link_id(m: re.Match) -> str:
-        nid = m.group(1)
-        if nid in written:
-            return f'[{written[nid]["title"]}]({root}articles/{slug(nid)}.html)'
-        return m.group(0)
-
-    body = re.sub(r"`(kt:[a-z0-9-]+)`", link_id, body)
-    out = markdown.markdown(body, extensions=["tables", "sane_lists"])
-    out = re.sub(r"\[\^(s\d+)\]", r'<sup class="cite"><a href="#src-\1">[\1]</a></sup>', out)
-    return out
-
-
-def node_link(nid: str, written: dict, root: str) -> str:
-    if nid in written:
-        return f'<a href="{root}articles/{slug(nid)}.html">{e(written[nid]["title"])}</a>'
-    return f'<span class="unwritten">{e(humanize(slug(nid)))}</span>'
+def camel_words(s: str) -> str:
+    keep = {"API"}
+    if s in keep:
+        return s
+    w = re.sub(r"(?<=[a-z])([A-Z])", r" \1", s)
+    w = w[:1] + w[1:].lower()
+    return w.replace("Api", "API")
 
 
 def out_edges(a: dict) -> list[tuple[str, str]]:
@@ -175,20 +127,173 @@ def out_edges(a: dict) -> list[tuple[str, str]]:
     return res
 
 
-def card(a: dict, root: str) -> str:
-    return (f'<div class="card" data-search="{e((a["title"] + " " + " ".join(a.get("aliases") or []) + " " + a["summary"]).lower())}">'
-            f'<h3><a href="{root}articles/{slug(a["id"])}.html">{e(a["title"])}</a></h3>'
-            f'<p>{e(a["summary"].strip())}</p><div class="chips"><span class="chip">{e(a["type"])}</span>'
-            f'<span class="chip muted">{e(domain_label(a["domain"]))}</span>{status_chip(a["status"])}</div></div>')
+# ---------------------------------------------------------------- page shell
+NAV = [("index.html", "Browse", "home"), ("graph.html", "Graph", "graph"),
+       ("frontier.html", "Frontier", "frontier"), ("about.html", "About", "about")]
 
 
-SEARCH_JS = """<script>
-const q=document.getElementById('q');q&&q.addEventListener('input',()=>{const v=q.value.trim().toLowerCase();
-document.querySelectorAll('[data-search]').forEach(c=>{c.style.display=!v||c.dataset.search.includes(v)?'':'none'});
-document.querySelectorAll('section.domain').forEach(s=>{s.style.display=[...s.querySelectorAll('[data-search]')].some(c=>c.style.display!=='none')?'':'none'})});
-</script>"""
+def page(title: str, body: str, root: str, *, active: str = "", desc: str = "", extra_head: str = "",
+         page_class: str = "") -> str:
+    links = "".join(
+        f'<a href="{root}{h}"{" aria-current=page" if k == active else ""}>{t}</a>' for h, t, k in NAV
+    ) + f'<a href="{REPO_URL}">Source on GitHub</a>'
+    full = SITE_TITLE if title == SITE_TITLE else f"{title} | {SITE_TITLE}"
+    desc = desc or "A cited, cross-linked map of the Salesforce platform, checked against the current release."
+    return f"""<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{e(full)}</title>
+<meta name="description" content="{e(desc)}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="{e(FONTS_URL)}">
+<link rel="stylesheet" href="{root}style.css">
+<link rel="icon" href="{root}icon.svg" type="image/svg+xml">
+{extra_head}
+</head>
+<body class="{page_class}">
+<a class="skip" href="#main">Skip to content</a>
+<header class="masthead">
+  <a class="wordmark" href="{root}index.html">{SITE_TITLE}</a>
+  <nav aria-label="Site">{links}</nav>
+</header>
+<main id="main">
+{body}
+</main>
+<footer class="colophon">
+  <p>Updated every hour from <a href="{REPO_URL}">{REPO}</a>. Every article is checked against a named Salesforce release and links to its sources; confirm limits in the current docs before you rely on them.</p>
+</footer>
+</body>
+</html>
+"""
 
 
+def theme_css(domains: list[str]) -> str:
+    t = THEME
+
+    def tokens(mode):
+        return "".join(f"--{k}:{v};" for k, v in t[mode].items())
+    css = (f":root{{{tokens('light')}--font-body:{t['font_body']};--font-ui:{t['font_ui']};"
+           f"--font-display:{t['font_display']};}}\n"
+           f"@media (prefers-color-scheme: dark){{:root:not([data-theme=light]){{{tokens('dark')}}}}}\n"
+           f":root[data-theme=dark]{{{tokens('dark')}}}\n")
+    n = max(len(domains), 1)
+    for i, d in enumerate(domains):
+        h = round((t["hue_start"] + i * 360 / n) % 360)
+        css += f'[data-domain="{d}"]{{--dc:hsl({h} 48% 42%)}}\n'
+        css += (f'@media (prefers-color-scheme: dark){{:root:not([data-theme=light]) [data-domain="{d}"]'
+                f'{{--dc:hsl({h} 55% 66%)}}}}\n:root[data-theme=dark] [data-domain="{d}"]{{--dc:hsl({h} 55% 66%)}}\n')
+    return css
+
+
+# ---------------------------------------------------------------- rendering helpers
+MD = markdown.Markdown(extensions=["tables", "sane_lists", "smarty"])
+
+
+def render_body(a: dict, written: dict) -> str:
+    body = a["_body"].lstrip()
+    body = re.sub(r"^# .*\n", "", body, count=1)                                # title rendered separately
+    body = re.split(r"^## Sources\s*$", body, maxsplit=1, flags=re.M)[0]        # sources rendered from frontmatter
+    body = re.sub(r"^\[\^s\d+\]:.*$", "", body, flags=re.M)
+
+    def fn(m):
+        sid = m.group(1)
+        num = re.sub(r"\D", "", sid) or sid
+        return f'<sup class="fn"><a href="#src-{sid}" aria-label="Source {num}">{num}</a></sup>'
+    body = re.sub(r"\[\^([A-Za-z0-9_-]+)\]", fn, body)
+
+    idpat = r"kt:[a-z0-9-]+"
+
+    def titled(m):
+        title, nid = m.group(1), m.group(2)
+        if nid in written:
+            return f'<a class="idref" href="{slug(nid)}.html"><strong>{title}</strong></a>'
+        return f"**{title}**"
+    body = re.sub(r"\*\*([^*]+)\*\*\s?\(`(" + idpat + r")`\)", titled, body)
+    body = re.sub(r"\s?\(`" + idpat + r"`(?:,\s*`" + idpat + r"`)*\)", "", body)
+
+    def bare(m):
+        nid = m.group(1)
+        if nid in written:
+            return f'<a class="idref" href="{slug(nid)}.html">{e(written[nid]["title"])}</a>'
+        return e(humanize(slug(nid)))
+    body = re.sub(r"`(" + idpat + r")`", bare, body)
+    MD.reset()
+    return MD.convert(body)
+
+
+def node_link(nid: str, written: dict, root: str) -> str:
+    if nid in written:
+        return f'<a href="{root}articles/{slug(nid)}.html">{e(written[nid]["title"])}</a>'
+    return f'<span class="unwritten" title="Not written yet">{e(humanize(slug(nid)))}</span>'
+
+
+def connections(a: dict, written: dict, incoming: dict) -> str:
+    groups: dict[str, list[str]] = defaultdict(list)
+    seen = set()
+    for p, t in out_edges(a):
+        label = PRED.get(p, (camel_words(p), camel_words(p)))[0]
+        if (label, t) not in seen:
+            seen.add((label, t))
+            groups[label].append(t)
+    for p, s in incoming.get(a["id"], []):
+        label = PRED.get(p, (camel_words(p), camel_words(p)))[1]
+        if (label, s) not in seen:
+            seen.add((label, s))
+            groups[label].append(s)
+    if not groups:
+        return ""
+
+    def order(label):
+        if label in PRED_ORDER:
+            return (0, PRED_ORDER.index(label))
+        return (2, "") if label == "Related" else (1, label)
+    out = []
+    for label in sorted(groups, key=order):
+        ts = sorted(groups[label], key=lambda t: (t not in written, (written.get(t) or {}).get("title", t).lower()))
+        out.append(f"<div><h3>{e(label)}</h3><ul>" + "".join(f"<li>{node_link(t, written, '../')}</li>" for t in ts)
+                   + "</ul></div>")
+    return f'<aside class="connections" aria-labelledby="conn-h"><h2 id="conn-h">Connections</h2>{"".join(out)}</aside>'
+
+
+def sources(a: dict) -> str:
+    srcs = a.get("sources") or []
+    if not srcs:
+        return ""
+    li = []
+    for s in srcs:
+        kind = SOURCE_KIND.get(s.get("type", ""), humanize(s.get("type", "")))
+        opened = f", opened {e(s.get('accessed'))}" if s.get("accessed") else ""
+        li.append(f'<li id="src-{e(s.get("id", ""))}"><a href="{e(s.get("url", ""))}" rel="noopener">{e(s.get("title", ""))}</a>'
+                  f'<span class="src-pub">{e(s.get("publisher", ""))}</span>'
+                  f'<span class="src-meta">{e(kind)}{opened}</span></li>')
+    return f'<section class="block sources" aria-labelledby="src-h"><h2 id="src-h">Sources</h2><ol>{"".join(li)}</ol></section>'
+
+
+def graph_data(arts, written, frontier=None, labels=6, base="articles/"):
+    nodes = [{"id": slug(a["id"]), "t": a["title"], "d": a["domain"]} for a in arts]
+    if frontier:
+        nodes += [{"id": slug(t), "t": humanize(slug(t)), "d": "", "u": 1} for t, _ in frontier]
+    known = {n["id"] for n in nodes}
+    links, seen = [], set()
+    for a in arts:
+        for _, t in out_edges(a):
+            s1, s2 = slug(a["id"]), slug(t)
+            if s2 in known and s1 != s2:
+                k = tuple(sorted((s1, s2)))
+                if k not in seen:
+                    seen.add(k)
+                    links.append({"s": k[0], "t": k[1]})
+    return {"nodes": nodes, "links": links, "labels": labels, "base": base}
+
+
+def data_script(d: dict) -> str:
+    return '<script id="kg-data" type="application/json">' + json.dumps(d, ensure_ascii=False).replace("</", "<\\/") + "</script>"
+
+
+# ---------------------------------------------------------------- main
 def main() -> int:
     out = Path(sys.argv[1]) if len(sys.argv) > 1 else kg.ROOT / "_site"
     arts, errs = kg.load_articles()
@@ -205,160 +310,186 @@ def main() -> int:
     by_domain: dict[str, list] = defaultdict(list)
     for a in arts:
         by_domain[a["domain"]].append(a)
+    for items in by_domain.values():
+        items.sort(key=lambda a: a["title"].lower())
     incoming: dict[str, list[tuple[str, str]]] = defaultdict(list)
     for a in arts:
         for p, t in out_edges(a):
             incoming[t].append((p, a["id"]))
     frontier = sorted(((t, srcs) for t, srcs in incoming.items() if t not in written),
                       key=lambda x: (-len({s for _, s in x[1]}), x[0]))
+    domains = [d for d in sorted(set(seeds) | set(by_domain), key=lambda d: (-len(by_domain.get(d, [])), d))]
+    live_domains = [d for d in domains if by_domain.get(d)]
+    releases = sorted({a["release"] for a in arts}, key=kg.release_key)
+    latest_release = releases[-1] if releases else ""
 
     if out.exists():
         shutil.rmtree(out)
     (out / "articles").mkdir(parents=True)
     (out / "domains").mkdir()
     (out / "data").mkdir()
-    (out / "style.css").write_text(CSS)
+    (out / "style.css").write_text(theme_css(domains) + (ASSETS / "style.css").read_text(encoding="utf-8"), encoding="utf-8")
+    shutil.copy(ASSETS / "home.js", out / "map.js")
+    shutil.copy(ASSETS / "icon.svg", out / "icon.svg")
+    shutil.copy(VENDOR / "d3.min.js", out / "d3.min.js")
     (out / ".nojekyll").write_text("")
     for f in ["graph.jsonld", "triples.nt", "index.json"]:
         if (kg.GRAPH / f).exists():
             shutil.copy(kg.GRAPH / f, out / "data" / f)
     shutil.copy(kg.ONTOLOGY, out / "data" / "ontology.ttl")
-    shutil.copy(VENDOR / "d3.min.js", out / "d3.min.js")
+    map_scripts = '<script src="{r}d3.min.js"></script><script src="{r}map.js"></script>'
 
-    domains = sorted(set(seeds) | set(by_domain), key=lambda d: (-len(by_domain.get(d, [])), d))
     n_edges = sum(len(out_edges(a)) for a in arts)
-    n_src = sum(len(a.get("sources") or []) for a in arts)
+    n_src = len({s["url"] for a in arts for s in a.get("sources") or []})
 
-    # ---- index
+    # ---- home
     sections = []
-    for d in domains:
-        items = sorted(by_domain.get(d, []), key=lambda a: a["title"].lower())
-        if not items:
-            continue
-        sections.append(f'<section class="domain"><h2><a href="domains/{d}.html">{e(domain_label(d))}</a> '
-                        f'<span class="chip muted">{len(items)}</span></h2><div class="grid">'
-                        + "".join(card(a, "") for a in items) + "</div></section>")
-    releases = sorted({a["release"] for a in arts}, key=kg.release_key)
-    idx = (f'<h1>{SITE_TITLE}</h1><p class="lede">A citation-backed knowledge graph of the Salesforce ecosystem. '
-           f'Each article is a node with typed edges to related concepts, verified against a named Salesforce release.</p>'
-           f'<div class="stats"><div class="stat"><b>{len(arts)}</b><span>articles</span></div>'
-           f'<div class="stat"><b>{n_edges}</b><span>edges</span></div>'
-           f'<div class="stat"><b>{n_src}</b><span>citations</span></div>'
-           f'<div class="stat"><b>{len(frontier)}</b><span>frontier topics</span></div>'
-           f'<div class="stat"><b>{e(releases[-1] if releases else "–")}</b><span>latest release</span></div></div>'
-           f'<input id="q" class="search" type="search" placeholder="Search titles, aliases and summaries…" aria-label="Search articles">'
-           + "".join(sections))
-    (out / "index.html").write_text(page(SITE_TITLE, idx + SEARCH_JS, "", "home"))
+    for d in live_domains:
+        li = "".join(
+            f'<li data-s="{e(slug(a["id"]))}"><a href="articles/{e(slug(a["id"]))}.html">{e(a["title"])}</a>'
+            f'<span class="kind">{e(camel_words(a["type"]))}</span></li>' for a in by_domain[d])
+        sections.append(
+            f'<section class="domain" id="d-{e(d)}" data-domain="{e(d)}">'
+            f'<h3><span class="swatch" aria-hidden="true"></span><a href="domains/{e(d)}.html">{e(domain_label(d))}</a>'
+            f' <span class="count">{len(by_domain[d])}</span></h3><ul>{li}</ul></section>')
+    search_index = {slug(a["id"]): " ".join([a["title"], *(a.get("aliases") or []), a.get("summary", "")])
+                    for a in arts}
+    latest = sorted(arts, key=lambda a: (str(a.get("created", "")), a["title"]), reverse=True)[:6]
+    latest_li = "".join(
+        f'<li><a href="articles/{e(slug(a["id"]))}.html">{e(a["title"])}</a><span>{e(a.get("summary", "").strip())}</span></li>'
+        for a in latest)
+    hd = graph_data(arts, written, labels=7)
+    hd["search"] = [{"s": k, "t": v, "a": "", "m": ""} for k, v in search_index.items()]
+    stat = (f"{len(arts)} articles in {len(live_domains)} areas, connected by {n_edges} links and backed by "
+            f"{n_src} cited sources. Everything here was checked against {latest_release}.")
+    home = f"""
+<section class="hero">
+  <div class="hero-copy">
+    <h1>How the Salesforce platform fits together</h1>
+    <p class="lede">A cited map of features, APIs, limits, products and certifications, written for architects. Each article explains one thing, says when to use it and what to use instead, and links to the official docs behind every claim.</p>
+    <p class="stat">{e(stat)}</p>
+  </div>
+  <figure class="graph-wrap">
+    <div id="graph" role="img" aria-label="Map of every article and the links between them. Use the list below to browse the same articles."></div>
+    <figcaption id="graph-cap">Each dot is an article, coloured by area. Hover to read it, click to open it, drag to rearrange. <a href="graph.html">Open the full graph</a>.</figcaption>
+  </figure>
+</section>
+
+<section class="browse" id="browse" aria-labelledby="browse-h">
+  <div class="browse-head">
+    <h2 id="browse-h">Browse</h2>
+    <label class="search">
+      <span class="visually-hidden">Find an article</span>
+      <input id="q" type="search" placeholder="Find an article, e.g. sharing rules" autocomplete="off">
+    </label>
+  </div>
+  <p id="nores" class="nores" hidden>No article matches that yet. Try a broader word, or check the <a href="frontier.html">frontier</a> for topics on the way.</p>
+  <div class="domains">{"".join(sections)}</div>
+</section>
+
+<section class="latest" aria-labelledby="latest-h">
+  <h2 id="latest-h">Recently added</h2>
+  <ul>{latest_li}</ul>
+</section>
+{data_script(hd)}
+{map_scripts.format(r="")}"""
+    (out / "index.html").write_text(page(SITE_TITLE, home, "", active="home", page_class="p-home"), encoding="utf-8")
 
     # ---- domain pages
     for d in domains:
-        items = sorted(by_domain.get(d, []), key=lambda a: a["title"].lower())
-        seed_list = seeds.get(d) or []
-        seed_html = "".join(
-            f'<li>{node_link("kt:" + s, written, "../")}</li>' for s in seed_list)
-        body = (f'<div class="breadcrumb"><a href="../index.html">Articles</a> / Domain</div>'
-                f'<h1>{e(domain_label(d))}</h1><p class="lede">{len(items)} article(s) written.</p>'
-                + (f'<div class="grid">{"".join(card(a, "../") for a in items)}</div>' if items else "<p>No articles yet.</p>")
-                + (f'<h2>Seed topics</h2><ul>{seed_html}</ul>' if seed_list else ""))
-        (out / "domains" / f"{d}.html").write_text(page(domain_label(d), body, "../"))
+        items = by_domain.get(d, [])
+        lis = "".join(
+            f'<li><a href="../articles/{e(slug(a["id"]))}.html">{e(a["title"])}</a>'
+            f'<span class="kind">{e(camel_words(a["type"]))}</span><p>{e(a.get("summary", "").strip())}</p></li>'
+            for a in items)
+        seed_list = [s for s in (seeds.get(d) or []) if "kt:" + s not in written]
+        seed_html = "".join(f"<li>{e(humanize(s))}</li>" for s in seed_list)
+        count = f"{len(items)} article{'s' if len(items) != 1 else ''}" if items else "No articles yet"
+        body = (f'<div class="page-head" data-domain="{e(d)}"><p class="crumb"><a href="../index.html#browse">Browse</a></p>'
+                f'<h1>{e(domain_label(d))}</h1><p class="lede">{count} so far, checked against {e(latest_release)}.</p></div>'
+                + (f'<ul class="entry-list">{lis}</ul>' if items else "")
+                + (f'<section class="block"><h2>Still to write</h2><ul class="seedlist">{seed_html}</ul></section>'
+                   if seed_list else ""))
+        (out / "domains" / f"{d}.html").write_text(
+            page(domain_label(d), body, "../", page_class="p-domain"), encoding="utf-8")
 
     # ---- article pages
     for a in arts:
-        groups: dict[str, list[str]] = defaultdict(list)
-        for p, t in out_edges(a):
-            groups[p].append(t)
-        edge_html = "".join(
-            f'<div class="edge-group"><b>{e(PRED_LABELS.get(p, p))}</b><ul>'
-            + "".join(f"<li>{node_link(t, written, '../')}</li>" for t in ts) + "</ul></div>"
-            for p, ts in groups.items())
-        back = sorted({s for _, s in incoming.get(a["id"], [])}, key=lambda s: written[s]["title"].lower())
-        back_html = "".join(f"<li>{node_link(s, written, '../')}</li>" for s in back) or "<li class='src-meta'>None yet</li>"
-        srcs = "".join(
-            f'<li id="src-{e(s["id"])}"><a href="{e(s["url"])}" rel="noopener">{e(s["title"])}</a> '
-            f'<span class="src-meta">— {e(s.get("publisher", ""))} · {e(s.get("type", ""))} · accessed {e(str(s.get("accessed", "")))}</span></li>'
-            for s in a.get("sources") or [])
-        aliases = ", ".join(e(x) for x in a.get("aliases") or []) or "–"
-        github_file = f'{REPO_URL}/blob/main/{a["_path"]}'
-        body = (f'<div class="breadcrumb"><a href="../index.html">Articles</a> / '
-                f'<a href="../domains/{a["domain"]}.html">{e(domain_label(a["domain"]))}</a></div>'
-                f'<h1>{e(a["title"])}</h1><p class="lede">{e(a["summary"].strip())}</p>'
-                f'<div class="layout"><article class="body">{render_body(a, written, "../")}'
-                f'<h2>Sources</h2><ol class="sources">{srcs}</ol></article>'
-                f'<aside><div class="box"><h4>Node</h4><dl><dt>Type</dt><dd>{e(a["type"])}</dd>'
-                f'<dt>Domain</dt><dd><a href="../domains/{a["domain"]}.html">{e(domain_label(a["domain"]))}</a></dd>'
-                f'<dt>Status</dt><dd>{status_chip(a["status"])}</dd><dt>Release</dt><dd>{e(a["release"])}</dd>'
-                f'<dt>Created</dt><dd>{e(str(a["created"]))}</dd><dt>Aliases</dt><dd>{aliases}</dd>'
-                f'<dt>Id</dt><dd><code>{e(a["id"])}</code></dd></dl>'
-                f'<p style="margin:10px 0 0;font-size:13px"><a href="{github_file}">View source on GitHub</a></p></div>'
-                f'<div class="box"><h4>Connections</h4>{edge_html or "<p>None</p>"}</div>'
-                f'<div class="box"><h4>Referenced by</h4><ul>{back_html}</ul></div></aside></div>')
-        (out / "articles" / f"{slug(a['id'])}.html").write_text(page(a["title"], body, "../"))
+        aliases = a.get("aliases") or []
+        alias_html = f'<p class="aliases">Also called {", ".join(e(x) for x in aliases)}</p>' if aliases else ""
+        status = a.get("status", "")
+        facts = [("Kind", e(camel_words(a["type"]))),
+                 ("Status", f'<span class="status" data-status="{e(status)}">{e(STATUS.get(status, humanize(status)))}</span>'),
+                 ("Checked against", e(a.get("release", ""))),
+                 ("Added", e(a.get("created", "")))]
+        facts_html = "".join(f"<div><dt>{k}</dt><dd>{v}</dd></div>" for k, v in facts if v)
+        facts_html += (f'<div class="source-link"><dt>Markdown</dt><dd><a href="{REPO_URL}/blob/main/{e(a["_path"])}">'
+                       f"View on GitHub</a></dd></div>")
+        body = f"""
+<article class="entry">
+  <header class="entry-head">
+    <p class="crumb"><a href="../domains/{e(a['domain'])}.html">{e(domain_label(a['domain']))}</a></p>
+    <h1>{e(a['title'])}</h1>
+    {alias_html}
+    <p class="lede">{e(a.get('summary', '').strip())}</p>
+    <dl class="facts">{facts_html}</dl>
+  </header>
+  <div class="entry-grid">
+    <div class="prose">
+      {render_body(a, written)}
+      {sources(a)}
+    </div>
+    {connections(a, written, incoming)}
+  </div>
+</article>"""
+        (out / "articles" / f"{slug(a['id'])}.html").write_text(
+            page(a["title"], body, "../", desc=a.get("summary", "").strip(), page_class="p-entry"), encoding="utf-8")
 
     # ---- frontier
     rows = "".join(
-        f'<tr><td>{e(humanize(slug(t)))}<br><code style="font-size:12px">{e(t)}</code></td><td>{len({s for _, s in srcs})}</td>'
-        f'<td>{", ".join(node_link(s, written, "") for s in sorted({s for _, s in srcs}))}</td></tr>'
+        f'<tr><td>{e(humanize(slug(t)))}</td><td>{len({s for _, s in srcs})}</td>'
+        f'<td>{", ".join(node_link(s, written, "") for s in sorted({s for _, s in srcs}, key=lambda s: written[s]["title"].lower()))}</td></tr>'
         for t, srcs in frontier)
-    fbody = (f'<h1>Frontier</h1><p class="lede">Topics that existing articles link to but nobody has written yet, '
-             f'ranked by how many articles point to them. The hourly run turns these into articles.</p>'
-             f'<div class="tablewrap"><table class="list"><thead><tr><th>Topic</th><th>Refs</th><th>Referenced by</th></tr></thead>'
+    fbody = (f'<header class="page-head"><h1>Frontier</h1><p class="lede">Topics that existing articles already point to but '
+             f'nobody has written yet, most-referenced first. The hourly run works down this list, so these are the '
+             f'articles coming next.</p></header>'
+             f'<div class="tablewrap"><table class="frontier-table"><thead><tr><th scope="col">Topic</th>'
+             f'<th scope="col">Linked from</th><th scope="col">Articles that link to it</th></tr></thead>'
              f'<tbody>{rows}</tbody></table></div>')
-    (out / "frontier.html").write_text(page("Frontier", fbody, "", "frontier"))
+    (out / "frontier.html").write_text(page("Frontier", fbody, "", active="frontier", page_class="p-frontier"),
+                                       encoding="utf-8")
 
-    # ---- graph
-    nodes = [{"id": a["id"], "label": a["title"], "domain": a["domain"], "written": True,
-              "url": f"articles/{slug(a['id'])}.html"} for a in arts]
-    nodes += [{"id": t, "label": humanize(slug(t)), "domain": "", "written": False} for t, _ in frontier]
-    links = [{"source": a["id"], "target": t, "p": PRED_LABELS.get(p, p)} for a in arts for p, t in out_edges(a)]
-    gdata = json.dumps({"nodes": nodes, "links": links, "domains": [d for d in domains if by_domain.get(d)]})
-    gbody = ("<h1>Graph</h1><p class=\"lede\">Filled circles are written articles, coloured by domain; hollow circles are "
-             "frontier topics. Drag to rearrange, scroll to zoom, click a filled node to open it.</p>"
-             '<div class="legend" id="legend"></div><svg id="graph" role="img" aria-label="Knowledge graph"></svg>'
-             f"<script>const DATA={gdata};</script>" + GRAPH_JS)
-    (out / "graph.html").write_text(page("Graph", gbody, "", "graph", '<script src="d3.min.js"></script>'))
+    # ---- full graph
+    legend = "".join(f'<li data-domain="{e(d)}"><span class="swatch" aria-hidden="true"></span>'
+                     f'<a href="domains/{e(d)}.html">{e(domain_label(d))}</a></li>' for d in live_domains)
+    legend += '<li><span class="hollow" aria-hidden="true"></span>Not written yet</li>'
+    gbody = (f'<header class="page-head"><h1>Graph</h1><p class="lede">All {len(arts)} articles and the {len(frontier)} '
+             f'topics they link to that aren’t written yet. Hover a dot to see its neighbours, click to open it, '
+             f'drag to rearrange, and pinch or ctrl-scroll to zoom.</p></header>'
+             f'<figure class="graph-wrap"><div id="graph" role="img" aria-label="Full graph of articles and unwritten topics. '
+             f'The Browse page lists the same articles."></div><figcaption id="graph-cap">Dashed rings are topics on the '
+             f'<a href="frontier.html">frontier</a>.</figcaption></figure>'
+             f'<ul class="legend">{legend}</ul>'
+             + data_script(graph_data(arts, written, frontier=frontier, labels=14)) + map_scripts.format(r=""))
+    (out / "graph.html").write_text(page("Graph", gbody, "", active="graph", page_class="p-graph"), encoding="utf-8")
 
     # ---- about
     readme = (kg.ROOT / "README.md").read_text(encoding="utf-8")
+    readme = re.sub(r"^# .*\n", "", readme, count=1)
     about = markdown.markdown(readme, extensions=["tables", "fenced_code"])
-    about += ('<h2>Downloads</h2><ul><li><a href="data/graph.jsonld">graph.jsonld</a> (JSON-LD)</li>'
+    about += ('<h2>Downloads</h2><ul class="downloads"><li><a href="data/graph.jsonld">graph.jsonld</a> (JSON-LD)</li>'
               '<li><a href="data/triples.nt">triples.nt</a> (N-Triples)</li><li><a href="data/index.json">index.json</a></li>'
               '<li><a href="data/ontology.ttl">ontology.ttl</a></li></ul>')
-    (out / "about.html").write_text(page("About", f'<article class="body">{about}</article>', "", "about"))
+    abody = f'<header class="page-head"><h1>About</h1></header><div class="prose">{about}</div>'
+    (out / "about.html").write_text(page("About", abody, "", active="about", page_class="p-about"), encoding="utf-8")
+
+    (out / "404.html").write_text(page(
+        "Not found", '<header class="page-head"><h1>That page isn’t here</h1><p class="lede">It may have been renamed. '
+        '<a href="index.html">Go to the full article list</a>.</p></header>', "",
+        extra_head='<base href="/salesforce-knowledge-graph/">'), encoding="utf-8")
 
     print(f"Site written to {out} ({len(arts)} articles, {len(frontier)} frontier topics).")
     return 0
-
-
-GRAPH_JS = """<script>
-(function(){
-const svg=d3.select('#graph'),el=svg.node();
-const pal=['#0b5cab','#d4572a','#2e8b57','#8e44ad','#c0392b','#16a085','#b7950b','#5d6d7e','#e67e22','#2980b9','#7d3c98','#1abc9c'];
-const color=d3.scaleOrdinal(DATA.domains,pal);
-const lg=document.getElementById('legend');
-DATA.domains.forEach(d=>{const s=document.createElement('span');s.innerHTML='<i style="background:'+color(d)+'"></i>'+d.replace(/-/g,' ');lg.appendChild(s)});
-const w=()=>el.clientWidth,h=()=>el.clientHeight;
-const g=svg.append('g');
-const zoom=d3.zoom().scaleExtent([.2,4]).on('zoom',ev=>g.attr('transform',ev.transform));svg.call(zoom);
-let fitted=false;const fit=()=>{const b=g.node().getBBox();if(!b.width)return;const s=Math.min(2,.92*Math.min(w()/b.width,h()/b.height));
-svg.transition().duration(fitted?0:500).call(zoom.transform,d3.zoomIdentity.translate(w()/2-s*(b.x+b.width/2),h()/2-s*(b.y+b.height/2)).scale(s));fitted=true};
-const sim=d3.forceSimulation(DATA.nodes).force('link',d3.forceLink(DATA.links).id(d=>d.id).distance(70))
- .force('charge',d3.forceManyBody().strength(-220)).force('center',d3.forceCenter(w()/2,h()/2)).force('collide',d3.forceCollide(18));
-const link=g.append('g').attr('stroke','currentColor').attr('stroke-opacity',.25).style('color','var(--muted)')
- .selectAll('line').data(DATA.links).join('line');
-link.append('title').text(d=>d.p);
-const node=g.append('g').selectAll('g').data(DATA.nodes).join('g').style('cursor',d=>d.written?'pointer':'grab')
- .call(d3.drag().on('start',(ev,d)=>{if(!ev.active)sim.alphaTarget(.3).restart();d.fx=d.x;d.fy=d.y})
- .on('drag',(ev,d)=>{d.fx=ev.x;d.fy=ev.y}).on('end',(ev,d)=>{if(!ev.active)sim.alphaTarget(0);d.fx=null;d.fy=null}));
-node.append('circle').attr('r',d=>d.written?9:6).attr('fill',d=>d.written?color(d.domain):'var(--panel)')
- .attr('stroke',d=>d.written?'var(--panel)':'var(--muted)').attr('stroke-width',1.5);
-node.append('text').attr('x',12).attr('y',4).text(d=>d.label).attr('opacity',d=>d.written?1:.65);
-node.append('title').text(d=>d.written?d.label:d.label+' (not yet written)');
-node.on('click',(ev,d)=>{if(d.written&&!ev.defaultPrevented)location.href=d.url});
-sim.on('tick',()=>{link.attr('x1',d=>d.source.x).attr('y1',d=>d.source.y).attr('x2',d=>d.target.x).attr('y2',d=>d.target.y);
- node.attr('transform',d=>'translate('+d.x+','+d.y+')')});
-sim.on('end',()=>{if(!fitted)fit()});
-})();
-</script>"""
 
 
 if __name__ == "__main__":
