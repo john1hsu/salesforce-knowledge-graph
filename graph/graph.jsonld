@@ -11402,6 +11402,84 @@
       ]
     },
     {
+      "@id": "kt:skinny-tables",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Skinny Tables",
+      "skos:definition": "Support-enabled, platform-maintained database tables that hold a chosen subset of an object's standard and custom fields in one place, letting read-only reports, list views and SOQL on very large objects skip joins and soft-deleted rows.",
+      "kto:domain": "platform-architecture",
+      "dcterms:created": "2026-11-06",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Best Practices for Deployments with Large Data Volumes: Skinny Tables",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/salesforce-large-data-volumes-bp/guide/ldv-deployments-infrastructure-skinny-tables.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Large Data Volumes: Conduct Data Queries and Searches",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/modules/large-data-volumes/units/conduct-data-queries-and-searches",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Long- and Short-Term Approaches for Tuning Force.com Performance",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/engineering/2013/03/long-and-short-term-approaches-for-tuning-force-com-performance",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/platform-architecture/skinny-tables.md",
+      "skos:altLabel": [
+        "skinny table",
+        "Salesforce skinny tables",
+        "skinny indexes"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:large-data-volumes"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:query-optimizer-selectivity"
+        },
+        {
+          "@id": "kt:soql"
+        },
+        {
+          "@id": "kt:sandbox-types"
+        },
+        {
+          "@id": "kt:data-skew"
+        },
+        {
+          "@id": "kt:big-objects"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:large-data-volumes"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:custom-indexes"
+        }
+      ],
+      "kto:queriedWith": [
+        {
+          "@id": "kt:soql"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:platform-data-architect-certification"
+        }
+      ]
+    },
+    {
       "@id": "kt:transaction-control",
       "@type": "kto:Concept",
       "skos:prefLabel": "Transaction Control",

@@ -3648,6 +3648,30 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/single-sign-on-saml> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#implements> <https://github.com/john1hsu/salesforce-knowledge-graph/id/saml-2-0> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/single-sign-on-saml> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/single-sign-on-saml> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/skinny-tables> <http://purl.org/dc/terms/created> "2026-11-06" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/skinny-tables> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/skinny-tables> <http://www.w3.org/2000/01/rdf-schema#label> "Skinny Tables" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/skinny-tables> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce skinny tables" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/skinny-tables> <http://www.w3.org/2004/02/skos/core#altLabel> "skinny indexes" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/skinny-tables> <http://www.w3.org/2004/02/skos/core#altLabel> "skinny table" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/skinny-tables> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/large-data-volumes> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/skinny-tables> <http://www.w3.org/2004/02/skos/core#definition> "Support-enabled, platform-maintained database tables that hold a chosen subset of an object's standard and custom fields in one place, letting read-only reports, list views and SOQL on very large objects skip joins and soft-deleted rows." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/skinny-tables> <http://www.w3.org/2004/02/skos/core#prefLabel> "Skinny Tables" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/skinny-tables> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/big-objects> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/skinny-tables> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-skew> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/skinny-tables> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/query-optimizer-selectivity> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/skinny-tables> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-types> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/skinny-tables> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/soql> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/skinny-tables> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/skinny-tables/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/skinny-tables> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/skinny-tables/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/skinny-tables> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/skinny-tables/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/skinny-tables> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#alternativeTo> <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-indexes> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/skinny-tables> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#coveredBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-data-architect-certification> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/skinny-tables> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "platform-architecture" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/skinny-tables> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#partOf> <https://github.com/john1hsu/salesforce-knowledge-graph/id/large-data-volumes> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/skinny-tables> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/soql> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/skinny-tables> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/skinny-tables> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/slack-platform> <http://purl.org/dc/terms/created> "2026-11-04" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/slack-platform> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Product> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/slack-platform> <http://www.w3.org/2000/01/rdf-schema#label> "Slack Platform" .
@@ -7454,6 +7478,21 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/single-sign-on-saml/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/single-sign-on-saml/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "standards-body" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/single-sign-on-saml/s5> <https://schema.org/url> "https://docs.oasis-open.org/security/saml/Post2.0/sstc-saml-tech-overview-2.0.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/skinny-tables/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/skinny-tables/s1> <http://purl.org/dc/terms/title> "Best Practices for Deployments with Large Data Volumes: Skinny Tables" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/skinny-tables/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/skinny-tables/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/skinny-tables/s1> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/salesforce-large-data-volumes-bp/guide/ldv-deployments-infrastructure-skinny-tables.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/skinny-tables/s2> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/skinny-tables/s2> <http://purl.org/dc/terms/title> "Large Data Volumes: Conduct Data Queries and Searches" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/skinny-tables/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/skinny-tables/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/skinny-tables/s2> <https://schema.org/url> "https://trailhead.salesforce.com/modules/large-data-volumes/units/conduct-data-queries-and-searches" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/skinny-tables/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/skinny-tables/s3> <http://purl.org/dc/terms/title> "Long- and Short-Term Approaches for Tuning Force.com Performance" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/skinny-tables/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/skinny-tables/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/skinny-tables/s3> <https://schema.org/url> "https://developer.salesforce.com/blogs/engineering/2013/03/long-and-short-term-approaches-for-tuning-force-com-performance" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/slack-platform/s1> <http://purl.org/dc/terms/publisher> "Slack (Salesforce)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/slack-platform/s1> <http://purl.org/dc/terms/title> "Slack platform overview" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/slack-platform/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

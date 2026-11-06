@@ -28,7 +28,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:salesforce-inc` | `kt:slack-platform`, `kt:tableau` |
 | `kt:sandbox-templates` | `kt:environment-strategy`, `kt:sandbox-types` |
 | `kt:scratch-org-allocations` | `kt:dev-hub`, `kt:scratch-orgs` |
-| `kt:skinny-tables` | `kt:large-data-volumes`, `kt:query-optimizer-selectivity` |
 | `kt:soap-api` | `kt:external-id-fields`, `kt:rest-api` |
 | `kt:sosl` | `kt:external-objects`, `kt:soql` |
 | `kt:standard-objects` | `kt:data-model-objects`, `kt:person-accounts` |
@@ -54,6 +53,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:custom-domains` | `kt:my-domain` |
 | `kt:custom-fields` | `kt:external-id-fields` |
 | `kt:custom-index-limits` | `kt:external-id-fields` |
+| `kt:custom-indexes` | `kt:skinny-tables` |
 | `kt:custom-settings` | `kt:custom-metadata-types` |
 | `kt:customer-360` | `kt:slack-platform` |
 | `kt:data-categories` | `kt:knowledge-base` |
