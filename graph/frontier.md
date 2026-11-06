@@ -4,7 +4,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:salesforce-certification-program` | `kt:sales-cloud-consultant-certification`, `kt:data-cloud-consultant-certification`, `kt:platform-developer-certification` |
+| `kt:salesforce-inc` | `kt:salesforce-certification-program`, `kt:slack-platform`, `kt:tableau` |
 | `kt:business-processes` | `kt:record-types`, `kt:record-types` |
 | `kt:data-lake-objects` | `kt:data-model-objects`, `kt:zero-copy-data-federation` |
 | `kt:experience-builder` | `kt:experience-cloud`, `kt:experience-cloud-identity` |
@@ -17,11 +17,11 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:opportunity-teams` | `kt:opportunity-splits`, `kt:opportunity-splits` |
 | `kt:orchestration-work-guide` | `kt:approval-processes`, `kt:flow-orchestrator` |
 | `kt:permission-sets` | `kt:named-credentials`, `kt:permission-set-groups` |
+| `kt:platform-administrator-certification` | `kt:salesforce-certification-program`, `kt:sales-cloud-consultant-certification` |
 | `kt:platform-app-builder-certification` | `kt:application-architect-certification`, `kt:platform-developer-certification` |
 | `kt:public-groups` | `kt:queues`, `kt:sharing-rules` |
 | `kt:remote-call-in` | `kt:batch-data-synchronization`, `kt:integration-patterns` |
 | `kt:remote-site-settings` | `kt:apex-callouts`, `kt:named-credentials` |
-| `kt:salesforce-inc` | `kt:slack-platform`, `kt:tableau` |
 | `kt:sandbox-templates` | `kt:environment-strategy`, `kt:sandbox-types` |
 | `kt:scratch-org-allocations` | `kt:dev-hub`, `kt:scratch-orgs` |
 | `kt:soap-api` | `kt:external-id-fields`, `kt:rest-api` |
@@ -102,7 +102,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:org-strategy` | `kt:environment-strategy` |
 | `kt:package-xml-manifest` | `kt:metadata-api` |
 | `kt:page-layouts` | `kt:record-types` |
-| `kt:platform-administrator-certification` | `kt:sales-cloud-consultant-certification` |
 | `kt:platform-as-a-service` | `kt:salesforce-platform` |
 | `kt:platform-developer-ii-certification` | `kt:platform-developer-certification` |
 | `kt:platform-event-channel-member` | `kt:change-data-capture` |
@@ -148,6 +147,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:tableau-pulse` | `kt:tableau` |
 | `kt:tableau-semantics` | `kt:tableau` |
 | `kt:test-data-factory` | `kt:apex-testing` |
+| `kt:trailhead` | `kt:salesforce-certification-program` |
 | `kt:transaction-finalizers` | `kt:queueable-apex` |
 | `kt:trigger-framework-pattern` | `kt:apex-triggers` |
 | `kt:upsert` | `kt:external-id-fields` |

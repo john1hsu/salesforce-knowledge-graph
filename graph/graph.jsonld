@@ -789,6 +789,88 @@
       ]
     },
     {
+      "@id": "kt:salesforce-certification-program",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Salesforce Certification Program",
+      "skos:definition": "Salesforce's portfolio of role-based credentials (Associate, Administrator, Developer, Consultant, Architect, Designer, Marketer and Accredited Professional), earned by exam and kept active through one Trailhead maintenance badge per year, with periodic renames and retirements to track the product line.",
+      "kto:domain": "architecture-practice",
+      "dcterms:created": "2026-11-06",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Salesforce Certification Maintenance Schedule",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=005298922&type=1",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Salesforce Certification Name Changes FAQ",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=005298915&language=en_US&type=1",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "2027 Salesforce Certification Retirements FAQ",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=005360289&type=1",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Certification - Administrator Overview",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/credentials/administratoroverview",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "The Salesforce Certification Lifecycle: How we build, maintain, and evolve our certification portfolio",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/blog/salesforce-certification-lifecycle/",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/architecture-practice/salesforce-certification-program.md",
+      "skos:altLabel": [
+        "Salesforce Certifications",
+        "Salesforce credentials",
+        "Salesforce certification catalog",
+        "Trailhead certifications"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:trailhead"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:salesforce-architect"
+        },
+        {
+          "@id": "kt:agentforce"
+        },
+        {
+          "@id": "kt:salesforce-inc"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:platform-administrator-certification"
+        },
+        {
+          "@id": "kt:platform-developer-certification"
+        },
+        {
+          "@id": "kt:sales-cloud-consultant-certification"
+        },
+        {
+          "@id": "kt:data-cloud-consultant-certification"
+        },
+        {
+          "@id": "kt:certified-technical-architect"
+        }
+      ]
+    },
+    {
       "@id": "kt:solution-design-tradeoffs",
       "@type": "kto:Concept",
       "skos:prefLabel": "Solution Design Trade-offs",
