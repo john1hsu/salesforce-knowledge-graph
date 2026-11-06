@@ -6027,6 +6027,91 @@
       ]
     },
     {
+      "@id": "kt:standard-objects",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Standard Objects",
+      "skos:definition": "The objects Salesforce ships ready-made in every org, such as Account, Contact, Lead and Opportunity, which store business and setup data, can be extended with custom fields, and form the base of the platform data model.",
+      "kto:domain": "data-model",
+      "dcterms:created": "2026-11-06",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Salesforce Common Objects — Object Reference for the Salesforce Platform (Winter '27, API 68.0)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/object_reference/sforce_api_concepts_common_objects.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Overview of Salesforce Objects and Fields — Object Reference for the Salesforce Platform (Winter '27, API 68.0)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/object_reference/sforce_api_objects.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Relationships Among Standard Objects and Fields — Object Reference for the Salesforce Platform (Winter '27, API 68.0)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/api/relationships_among_objects.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Understand Custom & Standard Objects — Data Modeling (Trailhead)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/en/modules/data_modeling/units/objects_intro",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/data-model/standard-objects.md",
+      "skos:altLabel": [
+        "standard object",
+        "Salesforce standard objects",
+        "common objects",
+        "hero objects",
+        "legacy objects",
+        "original platform objects"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:data-architecture"
+        },
+        {
+          "@id": "kt:metadata-driven-architecture"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:object-relationships"
+        },
+        {
+          "@id": "kt:person-accounts"
+        },
+        {
+          "@id": "kt:record-types"
+        },
+        {
+          "@id": "kt:sales-cloud"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:custom-objects"
+        },
+        {
+          "@id": "kt:external-objects"
+        }
+      ],
+      "kto:queriedWith": [
+        {
+          "@id": "kt:soql"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:platform-data-architect-certification"
+        }
+      ]
+    },
+    {
       "@id": "kt:apex-callouts",
       "@type": "kto:Feature",
       "skos:prefLabel": "Apex Callouts",

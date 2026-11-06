@@ -26,7 +26,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:scratch-org-allocations` | `kt:dev-hub`, `kt:scratch-orgs` |
 | `kt:soap-api` | `kt:external-id-fields`, `kt:rest-api` |
 | `kt:sosl` | `kt:external-objects`, `kt:soql` |
-| `kt:standard-objects` | `kt:data-model-objects`, `kt:person-accounts` |
 | `kt:account-takeover` | `kt:multi-factor-authentication` |
 | `kt:apex-continuations` | `kt:apex-callouts` |
 | `kt:apex-flex-queue` | `kt:batch-apex` |
@@ -49,6 +48,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:custom-fields` | `kt:external-id-fields` |
 | `kt:custom-index-limits` | `kt:external-id-fields` |
 | `kt:custom-indexes` | `kt:skinny-tables` |
+| `kt:custom-objects` | `kt:standard-objects` |
 | `kt:custom-settings` | `kt:custom-metadata-types` |
 | `kt:customer-360` | `kt:slack-platform` |
 | `kt:data-categories` | `kt:knowledge-base` |
