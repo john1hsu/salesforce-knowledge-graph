@@ -3629,6 +3629,102 @@
       ]
     },
     {
+      "@id": "kt:agentforce-studio",
+      "@type": "kto:Tool",
+      "skos:prefLabel": "Agentforce Studio",
+      "skos:definition": "The Lightning app (opened from the App Launcher) where Salesforce users build, test and monitor Agentforce agents: it hosts the new Agentforce Builder for Agent Script agents, prompt templates, data sources, model choice, Test Suites and observability tools.",
+      "kto:domain": "data-cloud-and-ai",
+      "dcterms:created": "2026-11-06",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Get to Know Agentforce Builder (Introduction to Agentforce Builder)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/introduction-to-agent-builder/get-to-know-agent-builder",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Explore the New Agentforce Builder (New Agentforce Builder: Quick Look)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/new-agentforce-builder-quick-look/explore-the-new-agentforce-builder",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Explore Agent Testing Tools and Considerations",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/agentforce-testing-tools-and-strategies/explore-agent-testing-tools-and-considerations",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Enhance Your Agents in the New Agentforce Builder",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/agentforce/agent-builder/migration/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Get Started with Agent Script",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/ai/agentforce/guide/agent-script.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Testing API Developer Guide",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/ai/agentforce/guide/testing-api.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/data-cloud-and-ai/agentforce-studio.md",
+      "skos:altLabel": [
+        "Agentforce Builder",
+        "new Agentforce Builder",
+        "Agentforce Studio app"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:agentforce"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:agent-script"
+        },
+        {
+          "@id": "kt:agent-development-lifecycle"
+        },
+        {
+          "@id": "kt:atlas-reasoning-engine"
+        },
+        {
+          "@id": "kt:agent-actions"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:agentforce"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:prompt-builder"
+        },
+        {
+          "@id": "kt:agentforce-testing-center"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:agentforce-dx"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:data-cloud"
+        }
+      ]
+    },
+    {
       "@id": "kt:agentforce",
       "@type": "kto:Product",
       "skos:prefLabel": "Agentforce",
