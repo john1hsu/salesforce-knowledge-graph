@@ -10,7 +10,7 @@ summary: >-
 release: "Winter '27"
 status: current
 broader: [kt:application-lifecycle-management]
-related: [kt:change-sets, kt:connected-apps, kt:apex-testing]
+related: [kt:change-sets, kt:connected-apps, kt:apex-testing, kt:tooling-api]
 relations:
   - {predicate: queriedWith, object: kt:salesforce-cli}
   - {predicate: dependsOn, object: kt:apex-testing}

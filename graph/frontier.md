@@ -4,7 +4,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:tooling-api` | `kt:source-tracking`, `kt:permission-set-groups`, `kt:restriction-rules` |
 | `kt:agentforce-dx` | `kt:agent-development-lifecycle`, `kt:agent-script` |
 | `kt:agentforce-studio` | `kt:agent-script`, `kt:prompt-builder` |
 | `kt:agentforce-testing-center` | `kt:agent-actions`, `kt:agent-development-lifecycle` |

@@ -7124,6 +7124,9 @@
         },
         {
           "@id": "kt:apex-testing"
+        },
+        {
+          "@id": "kt:tooling-api"
         }
       ],
       "kto:queriedWith": [
@@ -7619,6 +7622,103 @@
       "kto:queriedWith": [
         {
           "@id": "kt:tooling-api"
+        }
+      ]
+    },
+    {
+      "@id": "kt:tooling-api",
+      "@type": "kto:API",
+      "skos:prefLabel": "Tooling API",
+      "skos:definition": "The Salesforce API, with REST and SOAP interfaces, that exposes development metadata such as Apex classes, debug logs, test runs and code coverage as queryable objects, giving developer tools fine-grained access to org metadata.",
+      "kto:domain": "devops-and-alm",
+      "dcterms:created": "2026-11-06",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Introducing Tooling API (Tooling API Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api_tooling.meta/api_tooling",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "When to Use Tooling API (Tooling API Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api_tooling.meta/api_tooling/intro_tasks.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "REST Resources (Tooling API Developer Guide, Winter '27)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.264.0.api_tooling.meta/api_tooling/intro_rest_resources.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "SOQL Operation Limitations (Tooling API Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api_tooling.meta/api_tooling/reference_objects_soql_limits.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "ApexCodeCoverageAggregate (Tooling API Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api_tooling.meta/api_tooling/tooling_api_objects_apexcodecoverageaggregate.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "data query (Salesforce CLI Command Reference)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/salesforce-cli-reference/guide/cli_reference_data_query.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "SourceMember (Tooling API Developer Guide, Summer '23)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.244.0.api_tooling.meta/api_tooling/tooling_api_objects_sourcemember.htm",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/devops-and-alm/tooling-api.md",
+      "skos:altLabel": [
+        "Salesforce Tooling API",
+        "Force.com Tooling API",
+        "/services/data/tooling"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:application-lifecycle-management"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:source-tracking"
+        },
+        {
+          "@id": "kt:apex-testing"
+        },
+        {
+          "@id": "kt:apex"
+        },
+        {
+          "@id": "kt:rest-api"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:metadata-api"
+        }
+      ],
+      "kto:queriedWith": [
+        {
+          "@id": "kt:soql"
+        },
+        {
+          "@id": "kt:salesforce-cli"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:api-request-limits"
         }
       ]
     },
