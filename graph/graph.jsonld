@@ -8084,6 +8084,83 @@
       ]
     },
     {
+      "@id": "kt:headless-identity",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Headless Identity",
+      "skos:definition": "A set of Salesforce Customer Identity APIs (headless login, registration, passwordless login, forgot password, guest user and native SSO) that let an off-platform web or mobile app own its entire login UI while an Experience Cloud site handles authentication, user records and access in the background.",
+      "kto:domain": "identity",
+      "dcterms:created": "2026-11-06",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What Is Headless Identity? (Headless Identity Implementation Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/headless-identity-impl-guide/guide/headless-identity-what-is-it.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Learn Key Concepts in Headless Identity (Trailhead unit)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/headless-identity-basics/learn-key-concepts-in-headless-identity",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "OAuth 2.0 Authorization Code and Credentials Flow for Private Clients",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/apex/HTViewHelpDoc?id=remoteaccess_authorization_code_credentials_flow.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Configure Headless Identity Settings in Experience Cloud (Headless Identity Implementation Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/headless-identity-impl-guide/guide/headless-identity-login-registration-settings.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/identity/headless-identity.md",
+      "skos:altLabel": [
+        "Headless Identity APIs",
+        "Headless Login API",
+        "Headless Registration API",
+        "Headless Forgot Password API",
+        "headless customer identity"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-identity"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:connected-apps"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:experience-cloud"
+        },
+        {
+          "@id": "kt:oauth-2-flows-in-salesforce"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:external-client-apps"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:experience-cloud-identity"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:identity-and-access-management-architect-certification"
+        }
+      ]
+    },
+    {
       "@id": "kt:identity-and-access-management-architect-certification",
       "@type": "kto:Certification",
       "skos:prefLabel": "Identity and Access Management Architect Certification",

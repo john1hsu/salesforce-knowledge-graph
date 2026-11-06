@@ -14,7 +14,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:field-audit-trail` | `kt:field-history-tracking`, `kt:field-history-tracking` |
 | `kt:future-methods` | `kt:asynchronous-apex`, `kt:queueable-apex` |
 | `kt:group-membership-locking` | `kt:enterprise-territory-management`, `kt:sharing-recalculation` |
-| `kt:headless-identity` | `kt:experience-cloud-identity`, `kt:salesforce-identity` |
 | `kt:integration-patterns-request-reply-fire-and-forget` | `kt:event-driven-architecture`, `kt:integration-patterns` |
 | `kt:integration-security` | `kt:oauth-2-0`, `kt:named-credentials` |
 | `kt:namespace-registry` | `kt:dev-hub`, `kt:second-generation-managed-packages` |

@@ -1684,6 +1684,30 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/governor-limits> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/limits-class> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/governor-limits> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/governor-limits> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/headless-identity> <http://purl.org/dc/terms/created> "2026-11-06" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/headless-identity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/headless-identity> <http://www.w3.org/2000/01/rdf-schema#label> "Headless Identity" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/headless-identity> <http://www.w3.org/2004/02/skos/core#altLabel> "Headless Forgot Password API" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/headless-identity> <http://www.w3.org/2004/02/skos/core#altLabel> "Headless Identity APIs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/headless-identity> <http://www.w3.org/2004/02/skos/core#altLabel> "Headless Login API" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/headless-identity> <http://www.w3.org/2004/02/skos/core#altLabel> "Headless Registration API" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/headless-identity> <http://www.w3.org/2004/02/skos/core#altLabel> "headless customer identity" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/headless-identity> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-identity> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/headless-identity> <http://www.w3.org/2004/02/skos/core#definition> "A set of Salesforce Customer Identity APIs (headless login, registration, passwordless login, forgot password, guest user and native SSO) that let an off-platform web or mobile app own its entire login UI while an Experience Cloud site handles authentication, user records and access in the background." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/headless-identity> <http://www.w3.org/2004/02/skos/core#prefLabel> "Headless Identity" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/headless-identity> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/connected-apps> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/headless-identity> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/headless-identity/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/headless-identity> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/headless-identity/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/headless-identity> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/headless-identity/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/headless-identity> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/headless-identity/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/headless-identity> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#alternativeTo> <https://github.com/john1hsu/salesforce-knowledge-graph/id/experience-cloud-identity> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/headless-identity> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/external-client-apps> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/headless-identity> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#coveredBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-and-access-management-architect-certification> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/headless-identity> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/experience-cloud> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/headless-identity> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-2-flows-in-salesforce> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/headless-identity> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "identity" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/headless-identity> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/headless-identity> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/hyperforce> <http://purl.org/dc/terms/created> "2026-11-01" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/hyperforce> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Product> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/hyperforce> <http://www.w3.org/2000/01/rdf-schema#label> "Hyperforce" .
@@ -5402,6 +5426,26 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/governor-limits/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/governor-limits/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/governor-limits/s5> <https://schema.org/url> "https://trailhead.salesforce.com/en/apex_basics_dotnet/execution_context" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/headless-identity/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/headless-identity/s1> <http://purl.org/dc/terms/title> "What Is Headless Identity? (Headless Identity Implementation Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/headless-identity/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/headless-identity/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/headless-identity/s1> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/headless-identity-impl-guide/guide/headless-identity-what-is-it.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/headless-identity/s2> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/headless-identity/s2> <http://purl.org/dc/terms/title> "Learn Key Concepts in Headless Identity (Trailhead unit)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/headless-identity/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/headless-identity/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/headless-identity/s2> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/headless-identity-basics/learn-key-concepts-in-headless-identity" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/headless-identity/s3> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/headless-identity/s3> <http://purl.org/dc/terms/title> "OAuth 2.0 Authorization Code and Credentials Flow for Private Clients" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/headless-identity/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/headless-identity/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/headless-identity/s3> <https://schema.org/url> "https://help.salesforce.com/apex/HTViewHelpDoc?id=remoteaccess_authorization_code_credentials_flow.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/headless-identity/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/headless-identity/s4> <http://purl.org/dc/terms/title> "Configure Headless Identity Settings in Experience Cloud (Headless Identity Implementation Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/headless-identity/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/headless-identity/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/headless-identity/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/headless-identity-impl-guide/guide/headless-identity-login-registration-settings.html" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hyperforce/s1> <http://purl.org/dc/terms/publisher> "Salesforce Architects" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hyperforce/s1> <http://purl.org/dc/terms/title> "The Salesforce Platform - Transformed for Tomorrow | Get Started with Fundamentals" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hyperforce/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
