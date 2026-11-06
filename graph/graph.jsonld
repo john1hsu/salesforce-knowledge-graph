@@ -3725,6 +3725,106 @@
       ]
     },
     {
+      "@id": "kt:agentforce-testing-center",
+      "@type": "kto:Tool",
+      "skos:prefLabel": "Agentforce Testing Center",
+      "skos:definition": "Salesforce's batch-testing tool for Agentforce agents: test suites of utterances with expected subagents, actions and responses, created by CSV upload, AI generation or metadata, run in parallel in a sandbox and scored pass/fail per evaluation. The new version (Beta) lives in Agentforce Studio's Tests tab.",
+      "kto:domain": "data-cloud-and-ai",
+      "dcterms:created": "2026-11-06",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "beta",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Trust Your Agents (Agentforce Agent Testing)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/agentforce-agent-testing/trust-your-agents",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Set Up Testing Criteria (Agentforce Agent Testing)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/agentforce-agent-testing/set-up-testing-criteria",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "View Test Results (Agentforce Agent Testing)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/ko/content/learn/modules/agentforce-agent-testing/view-test-results",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Auto-Generate Agent Test Cases from Agentforce Data Libraries",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2025/11/auto-generate-agent-test-cases-from-agentforce-data-libraries",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Metadata API Reference for Testing API",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/ai/agentforce/references/testing-api/testing-metadata-reference.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Create an Agent Test from the Spec File",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/ai/agentforce/guide/agent-dx-test-create.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/data-cloud-and-ai/agentforce-testing-center.md",
+      "skos:altLabel": [
+        "Testing Center",
+        "Agentforce Test Suites",
+        "Agent Test Suites",
+        "New Testing Center"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:agentforce-studio"
+        },
+        {
+          "@id": "kt:testing-strategy"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:agent-development-lifecycle"
+        },
+        {
+          "@id": "kt:agentforce-dx"
+        },
+        {
+          "@id": "kt:agent-actions"
+        },
+        {
+          "@id": "kt:sandbox-types"
+        },
+        {
+          "@id": "kt:apex-testing"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:agentforce-studio"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:metadata-api"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:data-cloud"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:agentforce-dx"
+        }
+      ]
+    },
+    {
       "@id": "kt:agentforce",
       "@type": "kto:Product",
       "skos:prefLabel": "Agentforce",

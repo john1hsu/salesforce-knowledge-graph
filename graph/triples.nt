@@ -132,6 +132,35 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-studio> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#partOf> <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-studio> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-studio> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-testing-center> <http://purl.org/dc/terms/created> "2026-11-06" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-testing-center> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Tool> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-testing-center> <http://www.w3.org/2000/01/rdf-schema#label> "Agentforce Testing Center" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-testing-center> <http://www.w3.org/2004/02/skos/core#altLabel> "Agent Test Suites" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-testing-center> <http://www.w3.org/2004/02/skos/core#altLabel> "Agentforce Test Suites" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-testing-center> <http://www.w3.org/2004/02/skos/core#altLabel> "New Testing Center" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-testing-center> <http://www.w3.org/2004/02/skos/core#altLabel> "Testing Center" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-testing-center> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-studio> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-testing-center> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/testing-strategy> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-testing-center> <http://www.w3.org/2004/02/skos/core#definition> "Salesforce's batch-testing tool for Agentforce agents: test suites of utterances with expected subagents, actions and responses, created by CSV upload, AI generation or metadata, run in parallel in a sandbox and scored pass/fail per evaluation. The new version (Beta) lives in Agentforce Studio's Tests tab." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-testing-center> <http://www.w3.org/2004/02/skos/core#prefLabel> "Agentforce Testing Center" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-testing-center> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/agent-actions> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-testing-center> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/agent-development-lifecycle> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-testing-center> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-dx> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-testing-center> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-testing> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-testing-center> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-types> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-testing-center> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-testing-center/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-testing-center> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-testing-center/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-testing-center> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-testing-center/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-testing-center> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-testing-center/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-testing-center> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-testing-center/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-testing-center> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-testing-center/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-testing-center> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-testing-center> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-testing-center> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "data-cloud-and-ai" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-testing-center> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-dx> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-testing-center> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#partOf> <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-studio> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-testing-center> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "beta" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-testing-center> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce> <http://purl.org/dc/terms/created> "2026-10-31" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Product> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce> <http://www.w3.org/2000/01/rdf-schema#label> "Agentforce" .
@@ -3975,6 +4004,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-studio/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-studio/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-studio/s6> <https://schema.org/url> "https://developer.salesforce.com/docs/ai/agentforce/guide/testing-api.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-testing-center/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-testing-center/s1> <http://purl.org/dc/terms/title> "Trust Your Agents (Agentforce Agent Testing)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-testing-center/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-testing-center/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-testing-center/s1> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/agentforce-agent-testing/trust-your-agents" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-testing-center/s2> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-testing-center/s2> <http://purl.org/dc/terms/title> "Set Up Testing Criteria (Agentforce Agent Testing)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-testing-center/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-testing-center/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-testing-center/s2> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/agentforce-agent-testing/set-up-testing-criteria" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-testing-center/s3> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-testing-center/s3> <http://purl.org/dc/terms/title> "View Test Results (Agentforce Agent Testing)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-testing-center/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-testing-center/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-testing-center/s3> <https://schema.org/url> "https://trailhead.salesforce.com/ko/content/learn/modules/agentforce-agent-testing/view-test-results" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-testing-center/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-testing-center/s4> <http://purl.org/dc/terms/title> "Auto-Generate Agent Test Cases from Agentforce Data Libraries" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-testing-center/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-testing-center/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-testing-center/s4> <https://schema.org/url> "https://developer.salesforce.com/blogs/2025/11/auto-generate-agent-test-cases-from-agentforce-data-libraries" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-testing-center/s5> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-testing-center/s5> <http://purl.org/dc/terms/title> "Metadata API Reference for Testing API" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-testing-center/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-testing-center/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-testing-center/s5> <https://schema.org/url> "https://developer.salesforce.com/docs/ai/agentforce/references/testing-api/testing-metadata-reference.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-testing-center/s6> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-testing-center/s6> <http://purl.org/dc/terms/title> "Create an Agent Test from the Spec File" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-testing-center/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-testing-center/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-testing-center/s6> <https://schema.org/url> "https://developer.salesforce.com/docs/ai/agentforce/guide/agent-dx-test-create.html" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce/s1> <http://purl.org/dc/terms/title> "Discover Agentforce Agents (Agentforce Agents: Quick Look)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

@@ -4,7 +4,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:agentforce-testing-center` | `kt:agent-actions`, `kt:agent-development-lifecycle`, `kt:agentforce-studio`, `kt:agentforce-dx` |
 | `kt:aura-components` | `kt:lightning-data-service`, `kt:lightning-web-components` |
 | `kt:business-processes` | `kt:record-types`, `kt:record-types` |
 | `kt:data-lake-objects` | `kt:data-model-objects`, `kt:zero-copy-data-federation` |
