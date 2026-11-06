@@ -4,7 +4,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:business-processes` | `kt:record-types`, `kt:record-types` |
+| `kt:platform-administrator-certification` | `kt:salesforce-certification-program`, `kt:sales-cloud-consultant-certification`, `kt:business-processes` |
 | `kt:data-lake-objects` | `kt:data-model-objects`, `kt:zero-copy-data-federation` |
 | `kt:experience-builder` | `kt:experience-cloud`, `kt:experience-cloud-identity` |
 | `kt:field-audit-trail` | `kt:field-history-tracking`, `kt:field-history-tracking` |
@@ -12,11 +12,12 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:group-membership-locking` | `kt:enterprise-territory-management`, `kt:sharing-recalculation` |
 | `kt:integration-patterns-request-reply-fire-and-forget` | `kt:event-driven-architecture`, `kt:integration-patterns` |
 | `kt:integration-security` | `kt:oauth-2-0`, `kt:named-credentials` |
+| `kt:lead-conversion` | `kt:sales-cloud`, `kt:business-processes` |
 | `kt:namespace-registry` | `kt:dev-hub`, `kt:second-generation-managed-packages` |
 | `kt:opportunity-teams` | `kt:opportunity-splits`, `kt:opportunity-splits` |
 | `kt:orchestration-work-guide` | `kt:approval-processes`, `kt:flow-orchestrator` |
+| `kt:page-layouts` | `kt:business-processes`, `kt:record-types` |
 | `kt:permission-sets` | `kt:named-credentials`, `kt:permission-set-groups` |
-| `kt:platform-administrator-certification` | `kt:salesforce-certification-program`, `kt:sales-cloud-consultant-certification` |
 | `kt:platform-app-builder-certification` | `kt:application-architect-certification`, `kt:platform-developer-certification` |
 | `kt:profiles` | `kt:login-flows`, `kt:permission-set-groups` |
 | `kt:public-groups` | `kt:queues`, `kt:sharing-rules` |
@@ -79,7 +80,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:invocable-actions-api` | `kt:autolaunched-flow` |
 | `kt:iso-iec-27001` | `kt:security-compliance-frameworks` |
 | `kt:journey-builder` | `kt:marketing-cloud-engagement` |
-| `kt:lead-conversion` | `kt:sales-cloud` |
 | `kt:legacy-named-credentials` | `kt:named-credentials` |
 | `kt:lightning-message-service` | `kt:aura-components` |
 | `kt:lightning-service-console` | `kt:service-cloud` |
@@ -101,7 +101,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:openid-connect` | `kt:openid-connect-authentication-providers` |
 | `kt:org-check` | `kt:technical-debt-in-salesforce` |
 | `kt:package-xml-manifest` | `kt:metadata-api` |
-| `kt:page-layouts` | `kt:record-types` |
+| `kt:path` | `kt:business-processes` |
 | `kt:platform-as-a-service` | `kt:salesforce-platform` |
 | `kt:platform-developer-ii-certification` | `kt:platform-developer-certification` |
 | `kt:platform-event-channel-member` | `kt:change-data-capture` |

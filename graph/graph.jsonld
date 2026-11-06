@@ -5224,6 +5224,101 @@
       ]
     },
     {
+      "@id": "kt:business-processes",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Business Processes",
+      "skos:definition": "Named subsets of a lifecycle picklist (opportunity Stage, case Status, lead Status or solution Status) that let different teams follow different lifecycles on the same object; each is attached to users through a record type.",
+      "kto:domain": "data-model",
+      "dcterms:created": "2026-11-06",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Metadata API Developer Guide: BusinessProcess",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.264.0.api_meta.meta/api_meta/meta_businessprocess.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Tips & Hints for Multiple Business Processes (cheat sheet)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://resources.docs.salesforce.com/220/latest/en-us/sfdc/pdf/salesforce_busprocess_cheatsheet.pdf",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Create a Process for Managing Support Cases: Create Support Processes",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/projects/create-a-process-for-managing-support-cases/create-support-processes",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Customize a Sales Path for Your Team: Customize a Sales Path",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/en/projects/customize-a-sales-path-for-your-team/steps/customize-a-sales-path",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/data-model/business-processes.md",
+      "skos:altLabel": [
+        "business process",
+        "BusinessProcess",
+        "sales process",
+        "support process",
+        "lead process",
+        "solution process"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:metadata-driven-architecture"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:record-types"
+        },
+        {
+          "@id": "kt:page-layouts"
+        },
+        {
+          "@id": "kt:path"
+        },
+        {
+          "@id": "kt:sales-cloud"
+        },
+        {
+          "@id": "kt:service-cloud"
+        },
+        {
+          "@id": "kt:lead-conversion"
+        }
+      ],
+      "kto:usedBy": [
+        {
+          "@id": "kt:record-types"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:metadata-api"
+        }
+      ],
+      "kto:queriedWith": [
+        {
+          "@id": "kt:soql"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:process-automation"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:platform-administrator-certification"
+        }
+      ]
+    },
+    {
       "@id": "kt:data-skew",
       "@type": "kto:AntiPattern",
       "skos:prefLabel": "Data Skew",

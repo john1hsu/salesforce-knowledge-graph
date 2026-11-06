@@ -682,6 +682,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/bulk-api-2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#governedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/bulk-api-allocations> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/bulk-api-2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/bulk-api-2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/business-processes> <http://purl.org/dc/terms/created> "2026-11-06" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/business-processes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/business-processes> <http://www.w3.org/2000/01/rdf-schema#label> "Business Processes" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/business-processes> <http://www.w3.org/2004/02/skos/core#altLabel> "BusinessProcess" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/business-processes> <http://www.w3.org/2004/02/skos/core#altLabel> "business process" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/business-processes> <http://www.w3.org/2004/02/skos/core#altLabel> "lead process" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/business-processes> <http://www.w3.org/2004/02/skos/core#altLabel> "sales process" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/business-processes> <http://www.w3.org/2004/02/skos/core#altLabel> "solution process" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/business-processes> <http://www.w3.org/2004/02/skos/core#altLabel> "support process" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/business-processes> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-driven-architecture> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/business-processes> <http://www.w3.org/2004/02/skos/core#definition> "Named subsets of a lifecycle picklist (opportunity Stage, case Status, lead Status or solution Status) that let different teams follow different lifecycles on the same object; each is attached to users through a record type." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/business-processes> <http://www.w3.org/2004/02/skos/core#prefLabel> "Business Processes" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/business-processes> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/lead-conversion> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/business-processes> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/page-layouts> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/business-processes> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/path> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/business-processes> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/record-types> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/business-processes> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/sales-cloud> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/business-processes> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/service-cloud> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/business-processes> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-processes/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/business-processes> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-processes/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/business-processes> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-processes/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/business-processes> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-processes/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/business-processes> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/business-processes> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#contrastsWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/process-automation> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/business-processes> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#coveredBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-administrator-certification> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/business-processes> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "data-model" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/business-processes> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/soql> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/business-processes> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/business-processes> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#usedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/record-types> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/business-processes> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/calculated-insights> <http://purl.org/dc/terms/created> "2026-11-03" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/calculated-insights> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/calculated-insights> <http://www.w3.org/2000/01/rdf-schema#label> "Calculated Insights" .
@@ -4748,6 +4778,26 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulk-api-2/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulk-api-2/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulk-api-2/s5> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/api-asynch/guide/bulk-common-limits.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-processes/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-processes/s1> <http://purl.org/dc/terms/title> "Metadata API Developer Guide: BusinessProcess" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-processes/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-processes/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-processes/s1> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.264.0.api_meta.meta/api_meta/meta_businessprocess.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-processes/s2> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-processes/s2> <http://purl.org/dc/terms/title> "Tips & Hints for Multiple Business Processes (cheat sheet)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-processes/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-processes/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-processes/s2> <https://schema.org/url> "https://resources.docs.salesforce.com/220/latest/en-us/sfdc/pdf/salesforce_busprocess_cheatsheet.pdf" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-processes/s3> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-processes/s3> <http://purl.org/dc/terms/title> "Create a Process for Managing Support Cases: Create Support Processes" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-processes/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-processes/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-processes/s3> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/projects/create-a-process-for-managing-support-cases/create-support-processes" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-processes/s4> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-processes/s4> <http://purl.org/dc/terms/title> "Customize a Sales Path for Your Team: Customize a Sales Path" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-processes/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-processes/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-processes/s4> <https://schema.org/url> "https://trailhead.salesforce.com/en/projects/customize-a-sales-path-for-your-team/steps/customize-a-sales-path" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/calculated-insights/s1> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/calculated-insights/s1> <http://purl.org/dc/terms/title> "Use SQL to Create Insights (Data 360)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/calculated-insights/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
