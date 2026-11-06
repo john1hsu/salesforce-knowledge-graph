@@ -6297,6 +6297,87 @@
       ]
     },
     {
+      "@id": "kt:aura-components",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Aura Components",
+      "skos:definition": "Salesforce's original Lightning UI programming model, in which reusable components are built from .cmp markup bundles, JavaScript client-side controllers and Apex server-side controllers that communicate through framework events.",
+      "kto:domain": "development",
+      "dcterms:created": "2026-11-06",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Lightning Aura Components Developer Guide: Components",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.lightning.meta/light/components_overview.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Aura Components Developer Guide: Communicating with Events",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/aura-platform/guide/events-intro.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Lightning Aura Components Developer Guide: Calling a Server-Side Action",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.lightning.meta/lightning/controllers_server_intro.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Lightning Web Components Developer Guide: How to Choose Lightning Web Components or Aura",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/lwc/guide/get-started-lwc-or-aura.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Lightning Web Components Developer Guide: Supported Salesforce Targets and Tools",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/lwc/guide/get-started-supported-experiences.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Lightning Web Components for Aura Developers: Understand How Lightning Web Components Work with Aura Components",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/fr/content/learn/modules/lightning-web-components-for-aura-developers/understand-how-lightning-web-components-work-with-aura-components",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/development/aura-components.md",
+      "skos:altLabel": [
+        "Lightning Aura Components",
+        "Aura component framework",
+        "Lightning Component framework",
+        "Aura"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-platform"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:lightning-web-components"
+        },
+        {
+          "@id": "kt:lightning-data-service"
+        },
+        {
+          "@id": "kt:lightning-message-service"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:lightning-web-components"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:apex"
+        }
+      ]
+    },
+    {
       "@id": "kt:batch-apex",
       "@type": "kto:Feature",
       "skos:prefLabel": "Batch Apex",

@@ -4,7 +4,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:aura-components` | `kt:lightning-data-service`, `kt:lightning-web-components` |
 | `kt:business-processes` | `kt:record-types`, `kt:record-types` |
 | `kt:data-lake-objects` | `kt:data-model-objects`, `kt:zero-copy-data-federation` |
 | `kt:experience-builder` | `kt:experience-cloud`, `kt:experience-cloud-identity` |
@@ -82,6 +81,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:journey-builder` | `kt:marketing-cloud-engagement` |
 | `kt:lead-conversion` | `kt:sales-cloud` |
 | `kt:legacy-named-credentials` | `kt:named-credentials` |
+| `kt:lightning-message-service` | `kt:aura-components` |
 | `kt:lightning-service-console` | `kt:service-cloud` |
 | `kt:lightning-web-security` | `kt:lightning-web-components` |
 | `kt:limit-exception` | `kt:governor-limits` |
