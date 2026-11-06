@@ -13,6 +13,7 @@ the map script live in scripts/site_assets/; d3 is vendored in scripts/vendor/.
 """
 from __future__ import annotations
 
+import hashlib
 import html
 import json
 import re
@@ -34,6 +35,7 @@ REPO_URL = f"https://github.com/{REPO}"
 SITE_TITLE = "Salesforce Knowledge Graph"
 HERE = Path(__file__).resolve().parent
 ASSETS = HERE / "site_assets"
+ASSET_V = "0"  # set in main() from the asset contents
 VENDOR = HERE / "vendor"  # d3 v7.9.0 (ISC), vendored so the site has no CDN dependency
 
 FONTS_URL = ("https://fonts.googleapis.com/css2?family=Manrope:wght@400..800"
@@ -149,7 +151,7 @@ def page(title: str, body: str, root: str, *, active: str = "", desc: str = "", 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="{e(FONTS_URL)}">
-<link rel="stylesheet" href="{root}style.css">
+<link rel="stylesheet" href="{root}style.css?v={ASSET_V}">
 <link rel="icon" href="{root}icon.svg" type="image/svg+xml">
 {extra_head}
 </head>
@@ -328,7 +330,11 @@ def main() -> int:
     (out / "articles").mkdir(parents=True)
     (out / "domains").mkdir()
     (out / "data").mkdir()
-    (out / "style.css").write_text(theme_css(domains) + (ASSETS / "style.css").read_text(encoding="utf-8"), encoding="utf-8")
+    css = theme_css(domains) + (ASSETS / "style.css").read_text(encoding="utf-8")
+    # Version asset URLs by content so browsers never pair new pages with a cached old stylesheet.
+    global ASSET_V
+    ASSET_V = hashlib.sha256((css + (ASSETS / "home.js").read_text(encoding="utf-8")).encode()).hexdigest()[:10]
+    (out / "style.css").write_text(css, encoding="utf-8")
     shutil.copy(ASSETS / "home.js", out / "map.js")
     shutil.copy(ASSETS / "icon.svg", out / "icon.svg")
     shutil.copy(VENDOR / "d3.min.js", out / "d3.min.js")
@@ -337,7 +343,7 @@ def main() -> int:
         if (kg.GRAPH / f).exists():
             shutil.copy(kg.GRAPH / f, out / "data" / f)
     shutil.copy(kg.ONTOLOGY, out / "data" / "ontology.ttl")
-    map_scripts = '<script src="{r}d3.min.js"></script><script src="{r}map.js"></script>'
+    map_scripts = '<script src="{r}d3.min.js?v=7.9.0"></script><script src="{r}map.js?v=' + ASSET_V + '"></script>'
 
     n_edges = sum(len(out_edges(a)) for a in arts)
     n_src = len({s["url"] for a in arts for s in a.get("sources") or []})
