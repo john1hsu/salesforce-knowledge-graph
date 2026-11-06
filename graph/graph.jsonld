@@ -1287,6 +1287,95 @@
       ]
     },
     {
+      "@id": "kt:assignment-rules",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Assignment Rules",
+      "skos:definition": "Declarative rules that set the owner of new or updated leads and cases by evaluating ordered rule entries and assigning the record to the first matching user or queue.",
+      "kto:domain": "automation",
+      "dcterms:created": "2026-11-06",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Set Up Assignment Rules",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&amp=&id=creating_assignment_rules.htm&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Guidelines for Assignment Rules",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=sf.customize_leadrules.htm&type=5&language=en_US",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "DmlOptions.AssignmentRuleHeader Class",
+          "dcterms:publisher": "Salesforce Developers (Apex Reference Guide)",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexcode/apex_class_Database_AssignmentRuleHeader.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Triggers and Order of Execution",
+          "dcterms:publisher": "Salesforce Developers (Apex Developer Guide)",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_triggers_order_of_execution.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Customize an Org to Support a New Business Unit: Automate Your Business Process",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/projects/customize-an-org-to-support-a-new-business-unit/automate-your-business-process",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "How to Set the Option 'Assign using active assignment rules' to True, Only When a Case or Lead is Created",
+          "dcterms:publisher": "Salesforce Help (Knowledge Article 000386582)",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=000386582&language=en_US&type=1",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/automation/assignment-rules.md",
+      "skos:altLabel": [
+        "Lead Assignment Rules",
+        "Case Assignment Rules",
+        "lead assignment rule",
+        "case assignment rule"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:process-automation"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:order-of-execution"
+        },
+        {
+          "@id": "kt:sales-cloud"
+        },
+        {
+          "@id": "kt:service-cloud"
+        },
+        {
+          "@id": "kt:apex"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:queues"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:omni-channel"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:enterprise-territory-management"
+        }
+      ]
+    },
+    {
       "@id": "kt:autolaunched-flow",
       "@type": "kto:Feature",
       "skos:prefLabel": "Autolaunched Flow",

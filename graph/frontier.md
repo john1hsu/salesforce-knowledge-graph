@@ -36,7 +36,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:appexchange-security-review` | `kt:code-analyzer` |
 | `kt:architect-decision-guides` | `kt:salesforce-architecture-center` |
 | `kt:architecture-decision-records` | `kt:solution-design-tradeoffs` |
-| `kt:assignment-rules` | `kt:queues` |
 | `kt:automation-studio` | `kt:marketing-cloud-engagement` |
 | `kt:backup-and-recover` | `kt:archiving-strategy` |
 | `kt:block-kit` | `kt:slack-platform` |

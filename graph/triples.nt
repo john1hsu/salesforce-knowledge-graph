@@ -450,6 +450,32 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/archiving-strategy> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "architecture-practice" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/archiving-strategy> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/archiving-strategy> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/assignment-rules> <http://purl.org/dc/terms/created> "2026-11-06" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/assignment-rules> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/assignment-rules> <http://www.w3.org/2000/01/rdf-schema#label> "Assignment Rules" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/assignment-rules> <http://www.w3.org/2004/02/skos/core#altLabel> "Case Assignment Rules" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/assignment-rules> <http://www.w3.org/2004/02/skos/core#altLabel> "Lead Assignment Rules" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/assignment-rules> <http://www.w3.org/2004/02/skos/core#altLabel> "case assignment rule" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/assignment-rules> <http://www.w3.org/2004/02/skos/core#altLabel> "lead assignment rule" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/assignment-rules> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/process-automation> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/assignment-rules> <http://www.w3.org/2004/02/skos/core#definition> "Declarative rules that set the owner of new or updated leads and cases by evaluating ordered rule entries and assigning the record to the first matching user or queue." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/assignment-rules> <http://www.w3.org/2004/02/skos/core#prefLabel> "Assignment Rules" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/assignment-rules> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/assignment-rules> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/order-of-execution> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/assignment-rules> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/sales-cloud> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/assignment-rules> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/service-cloud> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/assignment-rules> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/assignment-rules/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/assignment-rules> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/assignment-rules/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/assignment-rules> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/assignment-rules/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/assignment-rules> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/assignment-rules/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/assignment-rules> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/assignment-rules/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/assignment-rules> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/assignment-rules/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/assignment-rules> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#alternativeTo> <https://github.com/john1hsu/salesforce-knowledge-graph/id/omni-channel> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/assignment-rules> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#contrastsWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/enterprise-territory-management> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/assignment-rules> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "automation" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/assignment-rules> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/queues> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/assignment-rules> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/assignment-rules> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/asynchronous-apex> <http://purl.org/dc/terms/created> "2026-10-30" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/asynchronous-apex> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/asynchronous-apex> <http://www.w3.org/2000/01/rdf-schema#label> "Asynchronous Apex" .
@@ -4319,6 +4345,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/archiving-strategy/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/archiving-strategy/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/archiving-strategy/s5> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/api/sforce_api_objects_archivepolicydefinition.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/assignment-rules/s1> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/assignment-rules/s1> <http://purl.org/dc/terms/title> "Set Up Assignment Rules" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/assignment-rules/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/assignment-rules/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/assignment-rules/s1> <https://schema.org/url> "https://help.salesforce.com/s/articleView?language=en_US&amp=&id=creating_assignment_rules.htm&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/assignment-rules/s2> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/assignment-rules/s2> <http://purl.org/dc/terms/title> "Guidelines for Assignment Rules" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/assignment-rules/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/assignment-rules/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/assignment-rules/s2> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=sf.customize_leadrules.htm&type=5&language=en_US" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/assignment-rules/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers (Apex Reference Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/assignment-rules/s3> <http://purl.org/dc/terms/title> "DmlOptions.AssignmentRuleHeader Class" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/assignment-rules/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/assignment-rules/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/assignment-rules/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexcode/apex_class_Database_AssignmentRuleHeader.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/assignment-rules/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers (Apex Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/assignment-rules/s4> <http://purl.org/dc/terms/title> "Triggers and Order of Execution" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/assignment-rules/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/assignment-rules/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/assignment-rules/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_triggers_order_of_execution.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/assignment-rules/s5> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/assignment-rules/s5> <http://purl.org/dc/terms/title> "Customize an Org to Support a New Business Unit: Automate Your Business Process" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/assignment-rules/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/assignment-rules/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/assignment-rules/s5> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/projects/customize-an-org-to-support-a-new-business-unit/automate-your-business-process" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/assignment-rules/s6> <http://purl.org/dc/terms/publisher> "Salesforce Help (Knowledge Article 000386582)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/assignment-rules/s6> <http://purl.org/dc/terms/title> "How to Set the Option 'Assign using active assignment rules' to True, Only When a Case or Lead is Created" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/assignment-rules/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/assignment-rules/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/assignment-rules/s6> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=000386582&language=en_US&type=1" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/asynchronous-apex/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/asynchronous-apex/s1> <http://purl.org/dc/terms/title> "Apex Developer Guide: Asynchronous Apex" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/asynchronous-apex/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
