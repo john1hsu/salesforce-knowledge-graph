@@ -3411,6 +3411,88 @@
       ]
     },
     {
+      "@id": "kt:salesforce-inc",
+      "@type": "kto:Organization",
+      "skos:prefLabel": "Salesforce, Inc.",
+      "skos:definition": "The San Francisco-based enterprise software company, founded in 1999, that builds and operates the Salesforce Platform and its clouds and has grown its portfolio through acquisitions such as MuleSoft, Tableau, Slack and Informatica.",
+      "kto:domain": "clouds-and-products",
+      "dcterms:created": "2026-11-06",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Salesforce, Inc. Form 10-K for the fiscal year ended January 31, 2026",
+          "dcterms:publisher": "U.S. Securities and Exchange Commission (EDGAR)",
+          "schema:url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000060/crm-20260131.htm",
+          "kto:sourceType": "government"
+        },
+        {
+          "dcterms:title": "Get to Know the Salesforce Release Process",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/sf_releases/sf_releases_start",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Salesforce Releases",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/releases/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Salesforce Has Announced the Close of Its MuleSoft Acquisition",
+          "dcterms:publisher": "Salesforce Newsroom",
+          "schema:url": "https://www.salesforce.com/news/stories/salesforce-has-announced-the-close-of-its-mulesoft-acquisition/",
+          "kto:sourceType": "news"
+        },
+        {
+          "dcterms:title": "Salesforce Completes Exchange Offer for Tableau Common Stock",
+          "dcterms:publisher": "Salesforce Investor Relations",
+          "schema:url": "https://investor.salesforce.com/news/news-details/2019/Salesforce-Completes-Exchange-Offer-for-Tableau-Common-Stock/default.aspx",
+          "kto:sourceType": "news"
+        },
+        {
+          "dcterms:title": "Salesforce Announces Second Quarter Fiscal 2022 Results (Form 8-K, Exhibit 99.1)",
+          "dcterms:publisher": "U.S. Securities and Exchange Commission (EDGAR)",
+          "schema:url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852421000044/crm-q2fy22xexhibit991.htm",
+          "kto:sourceType": "news"
+        }
+      ],
+      "kto:file": "articles/clouds-and-products/salesforce-inc.md",
+      "skos:altLabel": [
+        "Salesforce Inc",
+        "salesforce.com inc",
+        "Salesforce (company)",
+        "NYSE CRM"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-ecosystem"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:salesforce-platform"
+        },
+        {
+          "@id": "kt:salesforce-certification-program"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:agentforce"
+        },
+        {
+          "@id": "kt:mulesoft-anypoint-platform"
+        },
+        {
+          "@id": "kt:tableau"
+        },
+        {
+          "@id": "kt:slack-platform"
+        }
+      ]
+    },
+    {
       "@id": "kt:service-cloud",
       "@type": "kto:Product",
       "skos:prefLabel": "Service Cloud",

@@ -4,7 +4,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:salesforce-inc` | `kt:salesforce-certification-program`, `kt:slack-platform`, `kt:tableau` |
 | `kt:business-processes` | `kt:record-types`, `kt:record-types` |
 | `kt:data-lake-objects` | `kt:data-model-objects`, `kt:zero-copy-data-federation` |
 | `kt:experience-builder` | `kt:experience-cloud`, `kt:experience-cloud-identity` |
@@ -124,6 +123,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:salesforce-cpq` | `kt:revenue-cloud` |
 | `kt:salesforce-data-mask` | `kt:environment-strategy` |
 | `kt:salesforce-diagrams` | `kt:salesforce-architecture-center` |
+| `kt:salesforce-ecosystem` | `kt:salesforce-inc` |
 | `kt:salesforce-ecosystem-roles` | `kt:salesforce-architect` |
 | `kt:salesforce-go` | `kt:knowledge-base` |
 | `kt:salesforce-industries` | `kt:public-sector-solutions` |
