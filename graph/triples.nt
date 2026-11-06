@@ -3746,6 +3746,33 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-sharing-model> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-rules> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-sharing-model> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-sharing-model> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-shield> <http://purl.org/dc/terms/created> "2026-11-06" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-shield> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Product> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-shield> <http://www.w3.org/2000/01/rdf-schema#label> "Salesforce Shield" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-shield> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce Shield suite" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-shield> <http://www.w3.org/2004/02/skos/core#altLabel> "Shield app" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-shield> <http://www.w3.org/2004/02/skos/core#altLabel> "Shield" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-shield> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-platform> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-shield> <http://www.w3.org/2004/02/skos/core#definition> "Paid suite of four Salesforce security, compliance and governance products — Shield Platform Encryption, Event Monitoring, Field Audit Trail and Data Detect — licensed as a bundle (or component by component) and managed from Setup and the Shield app." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-shield> <http://www.w3.org/2004/02/skos/core#prefLabel> "Salesforce Shield" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-shield> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/classic-encryption> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-shield> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-shield> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/security-compliance-frameworks> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-shield> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/transaction-security-policies> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-shield> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-shield/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-shield> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-shield/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-shield> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-shield/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-shield> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-shield/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-shield> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-shield/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-shield> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-shield/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-shield> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "security-and-sharing" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-shield> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-detect> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-shield> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/event-monitoring> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-shield> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/field-audit-trail> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-shield> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/shield-platform-encryption> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-shield> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/crm-analytics> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-shield> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-shield> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-types> <http://purl.org/dc/terms/created> "2026-10-31" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-types> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-types> <http://www.w3.org/2000/01/rdf-schema#label> "Sandbox Types" .
@@ -8030,6 +8057,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-sharing-model/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-sharing-model/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-sharing-model/s5> <https://schema.org/url> "https://trailhead.salesforce.com/de/credentials/sharingandvisibilityarchitect" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-shield/s1> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-shield/s1> <http://purl.org/dc/terms/title> "Salesforce Shield" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-shield/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-shield/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-shield/s1> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=salesforce_shield.htm&language=en_US&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-shield/s2> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-shield/s2> <http://purl.org/dc/terms/title> "Protect Apps with Shield" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-shield/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-shield/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-shield/s2> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/secure-salesforce-configuration/protect-apps-with-shield" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-shield/s3> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-shield/s3> <http://purl.org/dc/terms/title> "Strengthen Your Data's Security with Shield Platform Encryption" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-shield/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-shield/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-shield/s3> <https://schema.org/url> "https://help.salesforce.com/s/articleView?language=en_US&id=xcloud.security_pe_overview.htm&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-shield/s4> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-shield/s4> <http://purl.org/dc/terms/title> "Quick Start: Event Monitoring" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-shield/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-shield/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-shield/s4> <https://schema.org/url> "https://help.salesforce.com/s/articleView?language=en_US&id=000387928&amp=&type=1" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-shield/s5> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-shield/s5> <http://purl.org/dc/terms/title> "Salesforce Event Monitoring Frequently Asked Questions" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-shield/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-shield/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-shield/s5> <https://schema.org/url> "https://help.salesforce.com/s/articleView?language=en_US&id=000396295&amp=&type=1" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-shield/s6> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-shield/s6> <http://purl.org/dc/terms/title> "Identify and Protect Sensitive Data with Data Detect" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-shield/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-shield/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-shield/s6> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/data-detect-quick-look/get-to-know-data-detect" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sandbox-types/s1> <http://purl.org/dc/terms/publisher> "Salesforce" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sandbox-types/s1> <http://purl.org/dc/terms/title> "Sandboxes: Staging Environments for Customizing and Testing (Salesforce Help PDF)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sandbox-types/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

@@ -4,10 +4,11 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:salesforce-shield` | `kt:field-audit-trail`, `kt:field-audit-trail`, `kt:shield-platform-encryption`, `kt:shield-platform-encryption` |
+| `kt:event-monitoring` | `kt:field-audit-trail`, `kt:salesforce-shield`, `kt:shield-platform-encryption` |
 | `kt:platform-app-builder-certification` | `kt:application-architect-certification`, `kt:platform-developer-certification`, `kt:platform-administrator-certification` |
+| `kt:classic-encryption` | `kt:salesforce-shield`, `kt:shield-platform-encryption` |
+| `kt:crm-analytics` | `kt:tableau`, `kt:salesforce-shield` |
 | `kt:data-lake-objects` | `kt:data-model-objects`, `kt:zero-copy-data-federation` |
-| `kt:event-monitoring` | `kt:field-audit-trail`, `kt:shield-platform-encryption` |
 | `kt:experience-builder` | `kt:experience-cloud`, `kt:experience-cloud-identity` |
 | `kt:future-methods` | `kt:asynchronous-apex`, `kt:queueable-apex` |
 | `kt:group-membership-locking` | `kt:enterprise-territory-management`, `kt:sharing-recalculation` |
@@ -44,10 +45,8 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:business-hours` | `kt:entitlement-management` |
 | `kt:business-rules-engine` | `kt:public-sector-solutions` |
 | `kt:change-data-capture-allocations` | `kt:change-data-capture` |
-| `kt:classic-encryption` | `kt:shield-platform-encryption` |
 | `kt:contact-builder` | `kt:marketing-cloud-engagement` |
 | `kt:contacts-to-multiple-accounts` | `kt:person-accounts` |
-| `kt:crm-analytics` | `kt:tableau` |
 | `kt:custom-domains` | `kt:my-domain` |
 | `kt:custom-fields` | `kt:external-id-fields` |
 | `kt:custom-index-limits` | `kt:external-id-fields` |
@@ -59,6 +58,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:data-categories` | `kt:knowledge-base` |
 | `kt:data-cloud-limits` | `kt:calculated-insights` |
 | `kt:data-cloud-segmentation` | `kt:calculated-insights` |
+| `kt:data-detect` | `kt:salesforce-shield` |
 | `kt:data-loader` | `kt:bulk-api-2` |
 | `kt:data-sovereignty` | `kt:data-residency` |
 | `kt:development-lifecycle-and-deployment-architect-certification` | `kt:system-architect-certification` |
@@ -152,6 +152,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:test-data-factory` | `kt:apex-testing` |
 | `kt:trailhead` | `kt:salesforce-certification-program` |
 | `kt:transaction-finalizers` | `kt:queueable-apex` |
+| `kt:transaction-security-policies` | `kt:salesforce-shield` |
 | `kt:trigger-framework-pattern` | `kt:apex-triggers` |
 | `kt:upsert` | `kt:external-id-fields` |
 | `kt:user-interface-api` | `kt:lightning-data-service` |
