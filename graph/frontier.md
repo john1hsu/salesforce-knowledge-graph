@@ -4,7 +4,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:sales-cloud-consultant-certification` | `kt:collaborative-forecasts`, `kt:opportunity-splits`, `kt:sales-cloud` |
+| `kt:salesforce-certification-program` | `kt:sales-cloud-consultant-certification`, `kt:data-cloud-consultant-certification`, `kt:platform-developer-certification` |
 | `kt:business-processes` | `kt:record-types`, `kt:record-types` |
 | `kt:data-lake-objects` | `kt:data-model-objects`, `kt:zero-copy-data-federation` |
 | `kt:experience-builder` | `kt:experience-cloud`, `kt:experience-cloud-identity` |
@@ -21,7 +21,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:public-groups` | `kt:queues`, `kt:sharing-rules` |
 | `kt:remote-call-in` | `kt:batch-data-synchronization`, `kt:integration-patterns` |
 | `kt:remote-site-settings` | `kt:apex-callouts`, `kt:named-credentials` |
-| `kt:salesforce-certification-program` | `kt:data-cloud-consultant-certification`, `kt:platform-developer-certification` |
 | `kt:salesforce-inc` | `kt:slack-platform`, `kt:tableau` |
 | `kt:sandbox-templates` | `kt:environment-strategy`, `kt:sandbox-types` |
 | `kt:scratch-org-allocations` | `kt:dev-hub`, `kt:scratch-orgs` |
@@ -103,6 +102,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:org-strategy` | `kt:environment-strategy` |
 | `kt:package-xml-manifest` | `kt:metadata-api` |
 | `kt:page-layouts` | `kt:record-types` |
+| `kt:platform-administrator-certification` | `kt:sales-cloud-consultant-certification` |
 | `kt:platform-as-a-service` | `kt:salesforce-platform` |
 | `kt:platform-developer-ii-certification` | `kt:platform-developer-certification` |
 | `kt:platform-event-channel-member` | `kt:change-data-capture` |

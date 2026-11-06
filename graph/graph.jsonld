@@ -3157,6 +3157,85 @@
       ]
     },
     {
+      "@id": "kt:sales-cloud-consultant-certification",
+      "@type": "kto:Certification",
+      "skos:prefLabel": "Agentforce Sales Consultant Certification",
+      "skos:definition": "Salesforce's consultant-level credential for designing and implementing Sales Cloud solutions, renamed from Sales Cloud Consultant to Agentforce Sales Consultant on July 24, 2026 with no change to exam content; it requires the Platform Administrator credential and is maintained through the Platform Administrator maintenance badge.",
+      "kto:domain": "clouds-and-products",
+      "dcterms:created": "2026-11-06",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Certification - Salesforce Certified Agentforce Sales Consultant",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/credentials/agfsalesconsultant",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Salesforce Certification Name Changes FAQ",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=005298915&amp=&language=en_US&amp=&type=1",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Salesforce Certification Maintenance Schedule",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=005298922&language=en_US&type=1",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Certification - Consultant Overview",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/credentials/consultantoverview",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Sales Cloud Consultant Certification Guide & Tips",
+          "dcterms:publisher": "Salesforce Ben",
+          "schema:url": "https://www.salesforceben.com/sales-cloud-certification-guide-tips/",
+          "kto:sourceType": "news"
+        }
+      ],
+      "kto:file": "articles/clouds-and-products/sales-cloud-consultant-certification.md",
+      "skos:altLabel": [
+        "Salesforce Certified Agentforce Sales Consultant",
+        "Sales Cloud Consultant Certification",
+        "Salesforce Certified Sales Cloud Consultant",
+        "Sales-Con-201"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-certification-program"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:sales-cloud"
+        },
+        {
+          "@id": "kt:collaborative-forecasts"
+        },
+        {
+          "@id": "kt:opportunity-splits"
+        },
+        {
+          "@id": "kt:enterprise-territory-management"
+        },
+        {
+          "@id": "kt:data-migration-strategy"
+        },
+        {
+          "@id": "kt:agentforce"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:platform-administrator-certification"
+        }
+      ]
+    },
+    {
       "@id": "kt:sales-cloud",
       "@type": "kto:Product",
       "skos:prefLabel": "Sales Cloud",
