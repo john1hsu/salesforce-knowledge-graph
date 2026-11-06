@@ -51,8 +51,9 @@
     (nbr[l.target] = nbr[l.target] || {})[l.source] = true;
   });
   var r = function (n) { return n.u ? 3.5 : 4 + Math.sqrt(n.deg) * 1.6; };
-  var labelled = nodes.filter(function (n) { return !n.u; }).sort(function (a, b) { return b.deg - a.deg; }).slice(0, data.labels || 6);
-  labelled.forEach(function (n) { n.label = true; });
+  // Labels: the best-connected few at first; more appear as you zoom in.
+  var ranked = nodes.filter(function (n) { return !n.u; }).sort(function (a, b) { return b.deg - a.deg; });
+  var baseLabels = data.labels || 6;
 
   var w = el.clientWidth, h = el.clientHeight;
   var svg = d3.select(el).append("svg").attr("viewBox", [-w / 2, -h / 2, w, h]).attr("aria-hidden", "true");
@@ -66,13 +67,14 @@
     .force("y", d3.forceY().strength(0.09));
 
   var link = root.append("g").selectAll("line").data(links).join("line").attr("class", "link");
-  var node = root.append("g").selectAll("g").data(nodes).join("g")
-    .attr("class", function (d) { return "node" + (d.label ? " label" : ""); });
-  node.append("circle").attr("r", r)
-    .attr("class", function (d) { return d.u ? "unwritten-node" : null; })
+  var node = root.append("g").selectAll("g").data(nodes).join("g").attr("class", "node");
+  // A larger invisible circle makes small dots easy to grab.
+  node.append("circle").attr("class", "hit").attr("r", function (d) { return r(d) + 7; });
+  node.append("circle").attr("class", function (d) { return "dot" + (d.u ? " unwritten-node" : ""); }).attr("r", r)
     .attr("fill", function (d) { return d.u ? "none" : colour[d.d]; });
-  node.append("text").attr("x", function (d) { return r(d) + 4; }).attr("y", 4).text(function (d) { return d.t; });
+  var label = node.append("text").attr("y", 4).text(function (d) { return d.t; });
 
+  var dragging = null;
   function focus(d) {
     node.classed("dim", function (o) { return o !== d && !(nbr[d.id] && nbr[d.id][o.id]); })
         .classed("hot", function (o) { return o === d; });
@@ -80,10 +82,12 @@
     var n = Object.keys(nbr[d.id] || {}).length;
     cap.innerHTML = d.u
       ? "<strong></strong> isn’t written yet; " + n + (n === 1 ? " article links" : " articles link") + " to it."
-      : "<strong></strong> connects to " + n + (n === 1 ? " topic." : " topics.") + " Click to open it.";
+      : "<strong></strong> connects to " + n + (n === 1 ? " topic." : " topics.") + " Click to open it." +
+        (d.fx != null ? " Double-click to let it settle back." : "");
     cap.querySelector("strong").textContent = d.t;
   }
   function blur() {
+    if (dragging) return;
     node.classed("hot", false);
     link.classed("hot", false);
     cap.innerHTML = defaultCap;
@@ -94,18 +98,58 @@
   }
   window.__kgDim = dimToFilter;
 
-  node.on("pointerenter", function (e, d) { focus(d); })
+  // Single click opens the article; a double-click releases a node you moved instead.
+  var openTimer = null;
+  var base = data.base != null ? data.base : "a/";
+  node.on("pointerenter", function (e, d) { if (!dragging) focus(d); })
       .on("pointerleave", blur)
-      .on("click", function (e, d) { if (!d.u && !e.defaultPrevented) window.location.href = (data.base || "") + d.id + ".html"; });
+      .on("click", function (e, d) {
+        if (e.defaultPrevented || d.u) return;
+        clearTimeout(openTimer);
+        openTimer = setTimeout(function () { window.location.href = base + d.id + ".html"; }, 260);
+      })
+      .on("dblclick", function (e, d) {
+        e.preventDefault(); e.stopPropagation();
+        clearTimeout(openTimer);
+        if (d.fx == null) return;
+        d.fx = null; d.fy = null;
+        d3.select(this).classed("pinned", false);
+        sim.alpha(0.08).restart();
+      });
 
+  // Dragging moves only the node you hold; it stays where you drop it. Mouse and pen only:
+  // on touch screens one finger scrolls the page and two fingers zoom, even over a dot.
   node.call(d3.drag()
-    .on("start", function (e, d) { if (!e.active) sim.alphaTarget(0.25).restart(); d.fx = d.x; d.fy = d.y; })
-    .on("drag", function (e, d) { d.fx = e.x; d.fy = e.y; })
-    .on("end", function (e, d) { if (!e.active) sim.alphaTarget(0); d.fx = null; d.fy = null; }));
+    .filter(function (e) { return e.type === "mousedown" && !e.button; })
+    .on("start", function (e, d) { sim.stop(); dragging = d; focus(d); })
+    .on("drag", function (e, d) { d.x = d.fx = e.x; d.y = d.fy = e.y; draw(); })
+    .on("end", function (e, d) {
+      dragging = null;
+      d3.select(this).classed("pinned", true);
+      if (!this.matches(":hover")) blur(); else focus(d);
+    }));
 
-  svg.call(d3.zoom().scaleExtent([0.4, 4]).filter(function (e) {
-    return e.type === "wheel" ? e.ctrlKey || e.metaKey : !e.button;
-  }).on("zoom", function (e) { root.attr("transform", e.transform); }));
+  // Scroll wheel or pinch / two-finger drag zooms and pans; one finger scrolls the page.
+  var zoom = d3.zoom().scaleExtent([0.5, 8])
+    .filter(function (e) {
+      if (e.type === "wheel") return true;
+      if (e.type.indexOf("touch") === 0) return e.touches && e.touches.length >= 2;
+      return !e.button;
+    })
+    .on("zoom", function (e) { root.attr("transform", e.transform); relabel(e.transform.k); });
+  svg.call(zoom).on("dblclick.zoom", null);
+
+  function relabel(k) {
+    var count = Math.round(baseLabels * k * k);
+    ranked.forEach(function (n, i) { n.label = i < count; });
+    node.classed("label", function (d) { return !!d.label; });
+    // Dots grow more slowly than the map so neighbours separate as you zoom in.
+    var g = 1 / Math.sqrt(k);
+    node.select(".dot").attr("r", function (d) { return r(d) * g; });
+    node.select(".hit").attr("r", function (d) { return r(d) * g + 7 / k; });
+    label.attr("font-size", 11 / k).attr("stroke-width", 3 / k)
+      .attr("x", function (d) { return r(d) * g + 4 / k; });
+  }
 
   function draw() {
     link.attr("x1", function (d) { return d.source.x; }).attr("y1", function (d) { return d.source.y; })
@@ -117,6 +161,7 @@
   for (var i = 0; i < 320; i++) sim.tick();
   draw();
   fit();
+  relabel(1);
   sim.on("tick", draw);
 
   function fit() {

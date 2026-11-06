@@ -375,7 +375,7 @@ def main() -> int:
   </div>
   <figure class="graph-wrap">
     <div id="graph" role="img" aria-label="Map of every article and the links between them. Use the list below to browse the same articles."></div>
-    <figcaption id="graph-cap">Each dot is an article, coloured by area. Hover to read it, click to open it, drag to rearrange. <a href="graph.html">Open the full graph</a>.</figcaption>
+    <figcaption id="graph-cap">Each dot is an article, coloured by area. Click a dot to open it, drag it to move it, and scroll or pinch to zoom. <a href="graph.html">Open the full graph</a>.</figcaption>
   </figure>
 </section>
 
@@ -450,8 +450,9 @@ def main() -> int:
                      f'{e(domain_label(d))}</li>' for d in live_domains)
     legend += '<li><span class="hollow" aria-hidden="true"></span>Not written yet</li>'
     gbody = (f'<header class="page-head"><h1>Graph</h1><p class="lede">All {len(arts)} articles and the {len(frontier)} '
-             f'topics they link to that aren’t written yet. Hover a dot to see its neighbours, click to open it, '
-             f'drag to rearrange, and pinch or ctrl-scroll to zoom.</p></header>'
+             f'topics they link to that aren’t written yet. Hover a dot to see its neighbours and click to open it. '
+             f'Scroll, pinch or two-finger drag to zoom and move around; drag a dot to place it, and double-click it '
+             f'to let it settle back.</p></header>'
              f'<figure class="graph-wrap"><div id="graph" role="img" aria-label="Full graph of articles and unwritten topics. '
              f'The Browse page lists the same articles."></div><figcaption id="graph-cap">Dashed rings are topics on the '
              f'<a href="frontier.html">frontier</a>.</figcaption></figure>'
