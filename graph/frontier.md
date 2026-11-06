@@ -4,9 +4,10 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:field-audit-trail` | `kt:field-history-tracking`, `kt:field-history-tracking`, `kt:shield-platform-encryption` |
+| `kt:salesforce-shield` | `kt:field-audit-trail`, `kt:field-audit-trail`, `kt:shield-platform-encryption`, `kt:shield-platform-encryption` |
 | `kt:platform-app-builder-certification` | `kt:application-architect-certification`, `kt:platform-developer-certification`, `kt:platform-administrator-certification` |
 | `kt:data-lake-objects` | `kt:data-model-objects`, `kt:zero-copy-data-federation` |
+| `kt:event-monitoring` | `kt:field-audit-trail`, `kt:shield-platform-encryption` |
 | `kt:experience-builder` | `kt:experience-cloud`, `kt:experience-cloud-identity` |
 | `kt:future-methods` | `kt:asynchronous-apex`, `kt:queueable-apex` |
 | `kt:group-membership-locking` | `kt:enterprise-territory-management`, `kt:sharing-recalculation` |
@@ -23,7 +24,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:public-groups` | `kt:queues`, `kt:sharing-rules` |
 | `kt:remote-call-in` | `kt:batch-data-synchronization`, `kt:integration-patterns` |
 | `kt:remote-site-settings` | `kt:apex-callouts`, `kt:named-credentials` |
-| `kt:salesforce-shield` | `kt:shield-platform-encryption`, `kt:shield-platform-encryption` |
 | `kt:sandbox-templates` | `kt:environment-strategy`, `kt:sandbox-types` |
 | `kt:scratch-org-allocations` | `kt:dev-hub`, `kt:scratch-orgs` |
 | `kt:session-security-levels` | `kt:login-flows`, `kt:multi-factor-authentication` |
@@ -67,7 +67,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:duplicate-management` | `kt:identity-resolution` |
 | `kt:dynamic-revenue-orchestrator` | `kt:revenue-cloud` |
 | `kt:entitlement-process-metadata` | `kt:entitlement-management` |
-| `kt:event-monitoring` | `kt:shield-platform-encryption` |
 | `kt:external-identity-license` | `kt:experience-cloud-identity` |
 | `kt:external-services` | `kt:apex-callouts` |
 | `kt:field-service-mobile-app` | `kt:field-service` |

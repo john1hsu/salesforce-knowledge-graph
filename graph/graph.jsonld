@@ -13993,6 +13993,111 @@
       ]
     },
     {
+      "@id": "kt:field-audit-trail",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Field Audit Trail",
+      "skos:definition": "Salesforce Shield component (also sold separately) that extends Field History Tracking to up to 200 fields per object and keeps archived field history in the FieldHistoryArchive big object until it is explicitly deleted, under per-object retention policies deployed through Metadata API.",
+      "kto:domain": "security-and-sharing",
+      "dcterms:created": "2026-11-06",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Field Audit Trail — Field History Retention Implementation Guide",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/field-history-retention/guide/field-audit-trail.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Metadata: HistoryRetentionPolicy",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/field-history-retention/guide/field-history-meta-historyretentionpolicy.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Delete Field History and Field Audit Trail Data",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/field-history-retention/guide/field-history-delete.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Tooling: HistoryRetentionJob",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/field-history-retention/guide/field-history-tooling-api-objects-historyretentionjob.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Configure Field Audit Trail",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/field-audit-trail-basics/configure-field-audit-trail",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Protect Apps with Shield",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/secure-salesforce-configuration/protect-apps-with-shield",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/security-and-sharing/field-audit-trail.md",
+      "skos:altLabel": [
+        "FAT",
+        "field history retention",
+        "field history archive",
+        "Shield Field Audit Trail"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-shield"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:shield-platform-encryption"
+        },
+        {
+          "@id": "kt:event-monitoring"
+        },
+        {
+          "@id": "kt:archiving-strategy"
+        },
+        {
+          "@id": "kt:tooling-api"
+        },
+        {
+          "@id": "kt:security-compliance-frameworks"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:field-history-tracking"
+        },
+        {
+          "@id": "kt:big-objects"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:metadata-api"
+        }
+      ],
+      "kto:queriedWith": [
+        {
+          "@id": "kt:soql"
+        }
+      ],
+      "kto:requiresLicense": [
+        {
+          "@id": "kt:salesforce-shield"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:platform-data-architect-certification"
+        }
+      ]
+    },
+    {
       "@id": "kt:implicit-sharing",
       "@type": "kto:Concept",
       "skos:prefLabel": "Implicit Sharing",
