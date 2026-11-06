@@ -11928,6 +11928,85 @@
       ]
     },
     {
+      "@id": "kt:org-strategy",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Org Strategy",
+      "skos:definition": "The enterprise architecture decision about how many production Salesforce orgs a company runs (one shared org or several) and how those orgs are governed, integrated and reported across.",
+      "kto:domain": "platform-architecture",
+      "dcterms:created": "2026-11-06",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Data Cloud Provisioning (Salesforce Architects decision guide)",
+          "dcterms:publisher": "Salesforce Architects",
+          "schema:url": "https://architect.salesforce.com/decision-guides/data-cloud-provisioning",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Single Org Architecture (Salesforce Architects reference diagram)",
+          "dcterms:publisher": "Salesforce Architects",
+          "schema:url": "https://architect.salesforce.com/docs/architect/reference-diagrams/guide/single-org-architecture",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Enterprise Architecture with Force.com: Multi-Org Strategy",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/developer-relations/2014/10/enterprise-architecture-multi-org-strategy",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Four Factors to Consider for a Successful Salesforce Org Strategy",
+          "dcterms:publisher": "Salesforce Architects (Medium)",
+          "schema:url": "https://medium.com/salesforce-architects/four-factors-to-consider-for-a-successful-salesforce-org-strategy-2295da39c55e",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Single- or Multi-Org Architecture? Six Factors to Consider",
+          "dcterms:publisher": "Salesforce Architects (Medium)",
+          "schema:url": "https://medium.com/salesforce-architects/single-or-multi-org-architecture-six-factors-to-consider-849d7f2d9b7a",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/platform-architecture/org-strategy.md",
+      "skos:altLabel": [
+        "Salesforce org strategy",
+        "single-org vs multi-org",
+        "multi-org strategy",
+        "single-org architecture",
+        "multi-org architecture"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:solution-design-tradeoffs"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:environment-strategy"
+        },
+        {
+          "@id": "kt:data-residency"
+        },
+        {
+          "@id": "kt:data-cloud"
+        },
+        {
+          "@id": "kt:single-sign-on-saml"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:integration-patterns"
+        }
+      ],
+      "kto:mitigates": [
+        {
+          "@id": "kt:data-skew"
+        }
+      ]
+    },
+    {
       "@id": "kt:query-optimizer-selectivity",
       "@type": "kto:Concept",
       "skos:prefLabel": "Query Optimizer Selectivity",

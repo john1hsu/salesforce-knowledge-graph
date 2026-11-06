@@ -100,7 +100,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:omnistudio` | `kt:public-sector-solutions` |
 | `kt:openid-connect` | `kt:openid-connect-authentication-providers` |
 | `kt:org-check` | `kt:technical-debt-in-salesforce` |
-| `kt:org-strategy` | `kt:environment-strategy` |
 | `kt:package-xml-manifest` | `kt:metadata-api` |
 | `kt:page-layouts` | `kt:record-types` |
 | `kt:platform-as-a-service` | `kt:salesforce-platform` |
