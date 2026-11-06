@@ -4,7 +4,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:platform-administrator-certification` | `kt:salesforce-certification-program`, `kt:sales-cloud-consultant-certification`, `kt:business-processes` |
+| `kt:platform-app-builder-certification` | `kt:application-architect-certification`, `kt:platform-developer-certification`, `kt:platform-administrator-certification` |
 | `kt:data-lake-objects` | `kt:data-model-objects`, `kt:zero-copy-data-federation` |
 | `kt:experience-builder` | `kt:experience-cloud`, `kt:experience-cloud-identity` |
 | `kt:field-audit-trail` | `kt:field-history-tracking`, `kt:field-history-tracking` |
@@ -19,7 +19,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:orchestration-work-guide` | `kt:approval-processes`, `kt:flow-orchestrator` |
 | `kt:page-layouts` | `kt:business-processes`, `kt:record-types` |
 | `kt:permission-sets` | `kt:named-credentials`, `kt:permission-set-groups` |
-| `kt:platform-app-builder-certification` | `kt:application-architect-certification`, `kt:platform-developer-certification` |
 | `kt:profiles` | `kt:login-flows`, `kt:permission-set-groups` |
 | `kt:public-groups` | `kt:queues`, `kt:sharing-rules` |
 | `kt:remote-call-in` | `kt:batch-data-synchronization`, `kt:integration-patterns` |
@@ -102,6 +101,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:org-check` | `kt:technical-debt-in-salesforce` |
 | `kt:package-xml-manifest` | `kt:metadata-api` |
 | `kt:path` | `kt:business-processes` |
+| `kt:platform-administrator-ii-certification` | `kt:platform-administrator-certification` |
 | `kt:platform-as-a-service` | `kt:salesforce-platform` |
 | `kt:platform-developer-ii-certification` | `kt:platform-developer-certification` |
 | `kt:platform-event-channel-member` | `kt:change-data-capture` |

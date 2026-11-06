@@ -12102,6 +12102,92 @@
       ]
     },
     {
+      "@id": "kt:platform-administrator-certification",
+      "@type": "kto:Certification",
+      "skos:prefLabel": "Platform Administrator Certification",
+      "skos:definition": "Salesforce's core administrator credential, earned through a proctored exam on org configuration, the Object Manager, Sales and Service applications, data and analytics, automation and (since the December 2025 refresh) Agentforce; it is the prerequisite for Platform Administrator II and for consultant credentials such as Sales Cloud Consultant.",
+      "kto:domain": "platform-architecture",
+      "dcterms:created": "2026-11-06",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Certification - Salesforce Certified Platform Administrator",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/credentials/platformadministrator",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "What the Salesforce Certified Platform Administrator Exam Update Means for Admins",
+          "dcterms:publisher": "Salesforce Admins Blog",
+          "schema:url": "https://admin.salesforce.com/blog/2026/what-the-salesforce-certified-platform-administrator-exam-update-means-for-admins",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Get Started with Administrator Certification Prep",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/administrator-certification-prep-setup-and-objects/get-started-with-administrator-certification-prep",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Study for the Administrator Certification Exam",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/trails/administrator-certification-prep",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Certification - Administrator Overview",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/credentials/administratoroverview",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Certification - Salesforce Certified Platform Administrator II",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/es-MX/credentials/platformadministrator-ii",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Platform Administrator Certification Maintenance (Spring '26)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/platform-administrator-certification-maintenance-spring-26",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/platform-architecture/platform-administrator-certification.md",
+      "skos:altLabel": [
+        "Salesforce Certified Platform Administrator",
+        "Salesforce Certified Administrator",
+        "Salesforce Admin certification",
+        "Plat-Admn-201"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-certification-program"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:platform-administrator-ii-certification"
+        },
+        {
+          "@id": "kt:platform-app-builder-certification"
+        },
+        {
+          "@id": "kt:salesforce-platform"
+        },
+        {
+          "@id": "kt:flow-builder"
+        },
+        {
+          "@id": "kt:agentforce"
+        },
+        {
+          "@id": "kt:sales-cloud-consultant-certification"
+        }
+      ]
+    },
+    {
       "@id": "kt:query-optimizer-selectivity",
       "@type": "kto:Concept",
       "skos:prefLabel": "Query Optimizer Selectivity",
