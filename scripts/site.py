@@ -7,8 +7,7 @@ Usage:
 
 Reads the same articles as scripts/kg.py and never modifies them. The output is
 plain HTML/CSS/JS: a home page with an interactive map and search, one page per
-article (typed connections, back-links, sources), one page per domain, the
-frontier, a full-size graph and an about page with data downloads. Styles and
+article (typed connections, back-links, sources), the frontier, a full-size graph and an about page with data downloads. Styles and
 the map script live in scripts/site_assets/; d3 is vendored in scripts/vendor/.
 """
 from __future__ import annotations
@@ -328,7 +327,6 @@ def main() -> int:
     if out.exists():
         shutil.rmtree(out)
     (out / "articles").mkdir(parents=True)
-    (out / "domains").mkdir()
     (out / "data").mkdir()
     css = theme_css(domains) + (ASSETS / "style.css").read_text(encoding="utf-8")
     # Version asset URLs by content so browsers never pair new pages with a cached old stylesheet.
@@ -356,7 +354,7 @@ def main() -> int:
             f'<span class="kind">{e(camel_words(a["type"]))}</span></li>' for a in by_domain[d])
         sections.append(
             f'<section class="domain" id="d-{e(d)}" data-domain="{e(d)}">'
-            f'<h3><span class="swatch" aria-hidden="true"></span><a href="domains/{e(d)}.html">{e(domain_label(d))}</a>'
+            f'<h3><span class="swatch" aria-hidden="true"></span>{e(domain_label(d))}'
             f' <span class="count">{len(by_domain[d])}</span></h3><ul>{li}</ul></section>')
     search_index = {slug(a["id"]): " ".join([a["title"], *(a.get("aliases") or []), a.get("summary", "")])
                     for a in arts}
@@ -401,24 +399,6 @@ def main() -> int:
 {map_scripts.format(r="")}"""
     (out / "index.html").write_text(page(SITE_TITLE, home, "", active="home", page_class="p-home"), encoding="utf-8")
 
-    # ---- domain pages
-    for d in domains:
-        items = by_domain.get(d, [])
-        lis = "".join(
-            f'<li><a href="../articles/{e(slug(a["id"]))}.html">{e(a["title"])}</a>'
-            f'<span class="kind">{e(camel_words(a["type"]))}</span><p>{e(a.get("summary", "").strip())}</p></li>'
-            for a in items)
-        seed_list = [s for s in (seeds.get(d) or []) if "kt:" + s not in written]
-        seed_html = "".join(f"<li>{e(humanize(s))}</li>" for s in seed_list)
-        count = f"{len(items)} article{'s' if len(items) != 1 else ''}" if items else "No articles yet"
-        body = (f'<div class="page-head" data-domain="{e(d)}"><p class="crumb"><a href="../index.html#browse">Browse</a></p>'
-                f'<h1>{e(domain_label(d))}</h1><p class="lede">{count} so far, checked against {e(latest_release)}.</p></div>'
-                + (f'<ul class="entry-list">{lis}</ul>' if items else "")
-                + (f'<section class="block"><h2>Still to write</h2><ul class="seedlist">{seed_html}</ul></section>'
-                   if seed_list else ""))
-        (out / "domains" / f"{d}.html").write_text(
-            page(domain_label(d), body, "../", page_class="p-domain"), encoding="utf-8")
-
     # ---- article pages
     for a in arts:
         aliases = a.get("aliases") or []
@@ -434,7 +414,7 @@ def main() -> int:
         body = f"""
 <article class="entry">
   <header class="entry-head">
-    <p class="crumb"><a href="../domains/{e(a['domain'])}.html">{e(domain_label(a['domain']))}</a></p>
+    <p class="crumb"><a href="../index.html#d-{e(a['domain'])}">{e(domain_label(a['domain']))}</a></p>
     <h1>{e(a['title'])}</h1>
     {alias_html}
     <p class="lede">{e(a.get('summary', '').strip())}</p>
@@ -467,7 +447,7 @@ def main() -> int:
 
     # ---- full graph
     legend = "".join(f'<li data-domain="{e(d)}"><span class="swatch" aria-hidden="true"></span>'
-                     f'<a href="domains/{e(d)}.html">{e(domain_label(d))}</a></li>' for d in live_domains)
+                     f'{e(domain_label(d))}</li>' for d in live_domains)
     legend += '<li><span class="hollow" aria-hidden="true"></span>Not written yet</li>'
     gbody = (f'<header class="page-head"><h1>Graph</h1><p class="lede">All {len(arts)} articles and the {len(frontier)} '
              f'topics they link to that aren’t written yet. Hover a dot to see its neighbours, click to open it, '
