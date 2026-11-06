@@ -77,6 +77,34 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/agent-script> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#partOf> <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/agent-script> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/agent-script> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-dx> <http://purl.org/dc/terms/created> "2026-11-06" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-dx> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Tool> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-dx> <http://www.w3.org/2000/01/rdf-schema#label> "Agentforce DX" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-dx> <http://www.w3.org/2004/02/skos/core#altLabel> "Agentforce DX VS Code extension" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-dx> <http://www.w3.org/2004/02/skos/core#altLabel> "Agentforce DX pro-code tools" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-dx> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce CLI agent plugin" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-dx> <http://www.w3.org/2004/02/skos/core#altLabel> "plugin-agent" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-dx> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-dx> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-dx> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-dx> <http://www.w3.org/2004/02/skos/core#definition> "The pro-code toolset that extends Salesforce DX to Agentforce agents: a Salesforce CLI plugin and a VS Code extension for authoring Agent Script bundles, previewing, testing, publishing, activating and syncing agents as source-controlled metadata." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-dx> <http://www.w3.org/2004/02/skos/core#prefLabel> "Agentforce DX" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-dx> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/agent-development-lifecycle> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-dx> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-testing-center> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-dx> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/scratch-orgs> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-dx> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source-tracking> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-dx> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-dx/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-dx> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-dx/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-dx> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-dx/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-dx> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-dx/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-dx> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-dx/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-dx> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-dx/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-dx> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#alternativeTo> <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-studio> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-dx> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-dx> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-cli> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-dx> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "devops-and-alm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-dx> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#implements> <https://github.com/john1hsu/salesforce-knowledge-graph/id/agent-script> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-dx> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-dx> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce> <http://purl.org/dc/terms/created> "2026-10-31" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Product> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce> <http://www.w3.org/2000/01/rdf-schema#label> "Agentforce" .
@@ -3811,6 +3839,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agent-script/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agent-script/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agent-script/s6> <https://schema.org/url> "https://developer.salesforce.com/blogs/2025/10/introducing-hybrid-reasoning-with-agent-script" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-dx/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-dx/s1> <http://purl.org/dc/terms/title> "Build Agents with Agentforce DX" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-dx/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-dx/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-dx/s1> <https://schema.org/url> "https://developer.salesforce.com/docs/ai/agentforce/guide/agent-dx.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-dx/s2> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-dx/s2> <http://purl.org/dc/terms/title> "Synchronize Your Development Org with Your DX Project" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-dx/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-dx/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-dx/s2> <https://schema.org/url> "https://developer.salesforce.com/docs/ai/agentforce/guide/agent-dx-synch.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-dx/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-dx/s3> <http://purl.org/dc/terms/title> "Manage an Agent with Agentforce DX" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-dx/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-dx/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-dx/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/ai/agentforce/guide/agent-dx-manage.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-dx/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-dx/s4> <http://purl.org/dc/terms/title> "Test an Agent with Agentforce DX" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-dx/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-dx/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-dx/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/ai/agentforce/guide/agent-dx-test.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-dx/s5> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-dx/s5> <http://purl.org/dc/terms/title> "Get Started with Agentforce DX (Create an Agent Using Pro-Code Tools)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-dx/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-dx/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-dx/s5> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/projects/create-an-agent-using-pro-code-tools/get-started-with-agentforce-dx" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-dx/s6> <http://purl.org/dc/terms/publisher> "Salesforce Developers Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-dx/s6> <http://purl.org/dc/terms/title> "Introducing Agentforce DX Pro-Code Tools" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-dx/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-dx/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-dx/s6> <https://schema.org/url> "https://developer.salesforce.com/blogs/2025/05/introducing-agentforce-dx-pro-code-tools" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce/s1> <http://purl.org/dc/terms/title> "Discover Agentforce Agents (Agentforce Agents: Quick Look)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

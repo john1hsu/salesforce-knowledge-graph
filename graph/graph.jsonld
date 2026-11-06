@@ -6621,6 +6621,101 @@
       ]
     },
     {
+      "@id": "kt:agentforce-dx",
+      "@type": "kto:Tool",
+      "skos:prefLabel": "Agentforce DX",
+      "skos:definition": "The pro-code toolset that extends Salesforce DX to Agentforce agents: a Salesforce CLI plugin and a VS Code extension for authoring Agent Script bundles, previewing, testing, publishing, activating and syncing agents as source-controlled metadata.",
+      "kto:domain": "devops-and-alm",
+      "dcterms:created": "2026-11-06",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Build Agents with Agentforce DX",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/ai/agentforce/guide/agent-dx.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Synchronize Your Development Org with Your DX Project",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/ai/agentforce/guide/agent-dx-synch.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Manage an Agent with Agentforce DX",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/ai/agentforce/guide/agent-dx-manage.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Test an Agent with Agentforce DX",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/ai/agentforce/guide/agent-dx-test.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Get Started with Agentforce DX (Create an Agent Using Pro-Code Tools)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/projects/create-an-agent-using-pro-code-tools/get-started-with-agentforce-dx",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Introducing Agentforce DX Pro-Code Tools",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2025/05/introducing-agentforce-dx-pro-code-tools",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/devops-and-alm/agentforce-dx.md",
+      "skos:altLabel": [
+        "Agentforce DX pro-code tools",
+        "Salesforce CLI agent plugin",
+        "plugin-agent",
+        "Agentforce DX VS Code extension"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-dx"
+        },
+        {
+          "@id": "kt:agentforce"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:agent-development-lifecycle"
+        },
+        {
+          "@id": "kt:agentforce-testing-center"
+        },
+        {
+          "@id": "kt:scratch-orgs"
+        },
+        {
+          "@id": "kt:source-tracking"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:salesforce-cli"
+        },
+        {
+          "@id": "kt:metadata-api"
+        }
+      ],
+      "kto:implements": [
+        {
+          "@id": "kt:agent-script"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:agentforce-studio"
+        }
+      ]
+    },
+    {
       "@id": "kt:application-lifecycle-management",
       "@type": "kto:Concept",
       "skos:prefLabel": "Application Lifecycle Management",
