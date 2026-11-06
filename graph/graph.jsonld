@@ -13282,6 +13282,93 @@
       ]
     },
     {
+      "@id": "kt:iso-iec-27001",
+      "@type": "kto:ExternalConcept",
+      "skos:prefLabel": "ISO/IEC 27001",
+      "skos:definition": "The international standard that sets requirements for an information security management system (ISMS), certified by accredited third-party audits; Salesforce lists ISO/IEC 27001:2022 certificates for its services and infrastructure (first party, AWS and Hyperforce) on its compliance site.",
+      "kto:domain": "public-sector-and-compliance",
+      "dcterms:created": "2026-11-06",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "ISO/IEC 27001:2022 Information security, cybersecurity and privacy protection — Information security management systems — Requirements",
+          "dcterms:publisher": "IEC Webstore",
+          "schema:url": "https://webstore.iec.ch/publication/79694",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "ISO/IEC 27002:2022 Information security, cybersecurity and privacy protection — Information security controls",
+          "dcterms:publisher": "IEC Webstore",
+          "schema:url": "https://webstore.iec.ch/en/publication/74287",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "SP 800-53 Rev. 5, Security and Privacy Controls for Information Systems and Organizations (upd1)",
+          "dcterms:publisher": "NIST Computer Security Resource Center",
+          "schema:url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "ISO 27001 — Salesforce Compliance",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://compliance.salesforce.com/en/iso-27001",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "General (not service specific) — Salesforce Compliance",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://compliance.salesforce.com/en/services/general",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "How to Prepare for ISO/IEC 27001:2022",
+          "dcterms:publisher": "Cloud Security Alliance",
+          "schema:url": "https://cloudsecurityalliance.org/articles/how-to-prepare-for-iso-iec-27001-2022",
+          "kto:sourceType": "partner"
+        }
+      ],
+      "kto:file": "articles/public-sector-and-compliance/iso-iec-27001.md",
+      "skos:altLabel": [
+        "ISO 27001",
+        "ISO/IEC 27001:2022",
+        "ISMS standard",
+        "Information security management systems — Requirements"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:security-compliance-frameworks"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:nist-sp-800-53"
+        },
+        {
+          "@id": "kt:nist-cybersecurity-framework"
+        },
+        {
+          "@id": "kt:hyperforce"
+        },
+        {
+          "@id": "kt:data-residency"
+        },
+        {
+          "@id": "kt:fedramp"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:iso-iec-27002"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:soc-2"
+        }
+      ]
+    },
+    {
       "@id": "kt:nist-sp-800-53",
       "@type": "kto:ExternalConcept",
       "skos:prefLabel": "NIST SP 800-53",

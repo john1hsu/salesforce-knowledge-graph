@@ -14,6 +14,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:integration-security` | `kt:oauth-2-0`, `kt:named-credentials` |
 | `kt:lead-conversion` | `kt:sales-cloud`, `kt:business-processes` |
 | `kt:namespace-registry` | `kt:dev-hub`, `kt:second-generation-managed-packages` |
+| `kt:nist-cybersecurity-framework` | `kt:iso-iec-27001`, `kt:security-compliance-frameworks` |
 | `kt:opportunity-teams` | `kt:opportunity-splits`, `kt:opportunity-splits` |
 | `kt:orchestration-work-guide` | `kt:approval-processes`, `kt:flow-orchestrator` |
 | `kt:page-layouts` | `kt:business-processes`, `kt:record-types` |
@@ -78,7 +79,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:hyperforce-operating-zones` | `kt:data-residency` |
 | `kt:identity-connect` | `kt:salesforce-identity` |
 | `kt:invocable-actions-api` | `kt:autolaunched-flow` |
-| `kt:iso-iec-27001` | `kt:security-compliance-frameworks` |
+| `kt:iso-iec-27002` | `kt:iso-iec-27001` |
 | `kt:journey-builder` | `kt:marketing-cloud-engagement` |
 | `kt:legacy-named-credentials` | `kt:named-credentials` |
 | `kt:lightning-message-service` | `kt:aura-components` |
@@ -92,7 +93,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:marketing-cloud-next` | `kt:marketing-cloud-engagement` |
 | `kt:mule-runtime-engine` | `kt:mulesoft-anypoint-platform` |
 | `kt:mulesoft-composer` | `kt:slack-platform` |
-| `kt:nist-cybersecurity-framework` | `kt:security-compliance-frameworks` |
 | `kt:nist-digital-identity-guidelines` | `kt:multi-factor-authentication` |
 | `kt:nist-sp-800-53b` | `kt:nist-sp-800-53` |
 | `kt:nist-sp-800-60` | `kt:fips-199` |
@@ -139,6 +139,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:skills-based-routing` | `kt:omni-channel` |
 | `kt:slack-api-rate-limits` | `kt:slack-platform` |
 | `kt:slack-workflow-builder` | `kt:slack-platform` |
+| `kt:soc-2` | `kt:iso-iec-27001` |
 | `kt:soql-injection` | `kt:code-analyzer` |
 | `kt:streaming-api` | `kt:pub-sub-api` |
 | `kt:streaming-insights` | `kt:calculated-insights` |
