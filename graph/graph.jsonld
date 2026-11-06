@@ -13782,6 +13782,9 @@
         },
         {
           "@id": "kt:data-residency"
+        },
+        {
+          "@id": "kt:shield-platform-encryption"
         }
       ],
       "kto:hasPart": [
@@ -14854,6 +14857,94 @@
       "kto:coveredBy": [
         {
           "@id": "kt:sharing-and-visibility-architect-certification"
+        }
+      ]
+    },
+    {
+      "@id": "kt:shield-platform-encryption",
+      "@type": "kto:SecurityControl",
+      "skos:prefLabel": "Shield Platform Encryption",
+      "skos:definition": "The Salesforce Shield capability that encrypts data at rest (standard and custom fields, files and attachments, search indexes and other stored data) with 256-bit AES keys derived from a Salesforce primary secret and an org-specific tenant secret, with options for customer-supplied or externally managed key material.",
+      "kto:domain": "security-and-sharing",
+      "dcterms:created": "2026-11-06",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Get to Know Shield Platform Encryption (Trailhead, Shield Platform Encryption: Quick Look)",
+          "dcterms:publisher": "Salesforce Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/shield-platform-encryption-quick-look2/get-to-know-shield-platform-encryption2",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Set Up and Manage Shield Platform Encryption (Trailhead, Shield Platform Encryption for Admins)",
+          "dcterms:publisher": "Salesforce Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/en/modules/spe_admins/units/spe_admins_set_up",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Shield Platform Encryption (Salesforce Help, PDF)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://resources.docs.salesforce.com/latest/latest/en-us/sfdc/pdf/setup_security_platform_encryption.pdf",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Salesforce Shield: What's Included, How It Works, and How to Implement",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/platform/shield/guide/",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/security-and-sharing/shield-platform-encryption.md",
+      "skos:altLabel": [
+        "Platform Encryption",
+        "Salesforce Platform Encryption",
+        "SPE",
+        "encryption at rest in Salesforce"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-shield"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:field-audit-trail"
+        },
+        {
+          "@id": "kt:event-monitoring"
+        },
+        {
+          "@id": "kt:security-compliance-frameworks"
+        },
+        {
+          "@id": "kt:data-cloud"
+        },
+        {
+          "@id": "kt:sandbox-types"
+        }
+      ],
+      "kto:requiresLicense": [
+        {
+          "@id": "kt:salesforce-shield"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:classic-encryption"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:change-data-capture"
+        },
+        {
+          "@id": "kt:platform-events"
+        }
+      ],
+      "kto:mitigates": [
+        {
+          "@id": "kt:data-breach-risk"
         }
       ]
     }

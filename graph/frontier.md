@@ -4,10 +4,10 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
+| `kt:field-audit-trail` | `kt:field-history-tracking`, `kt:field-history-tracking`, `kt:shield-platform-encryption` |
 | `kt:platform-app-builder-certification` | `kt:application-architect-certification`, `kt:platform-developer-certification`, `kt:platform-administrator-certification` |
 | `kt:data-lake-objects` | `kt:data-model-objects`, `kt:zero-copy-data-federation` |
 | `kt:experience-builder` | `kt:experience-cloud`, `kt:experience-cloud-identity` |
-| `kt:field-audit-trail` | `kt:field-history-tracking`, `kt:field-history-tracking` |
 | `kt:future-methods` | `kt:asynchronous-apex`, `kt:queueable-apex` |
 | `kt:group-membership-locking` | `kt:enterprise-territory-management`, `kt:sharing-recalculation` |
 | `kt:integration-patterns-request-reply-fire-and-forget` | `kt:event-driven-architecture`, `kt:integration-patterns` |
@@ -23,6 +23,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:public-groups` | `kt:queues`, `kt:sharing-rules` |
 | `kt:remote-call-in` | `kt:batch-data-synchronization`, `kt:integration-patterns` |
 | `kt:remote-site-settings` | `kt:apex-callouts`, `kt:named-credentials` |
+| `kt:salesforce-shield` | `kt:shield-platform-encryption`, `kt:shield-platform-encryption` |
 | `kt:sandbox-templates` | `kt:environment-strategy`, `kt:sandbox-types` |
 | `kt:scratch-org-allocations` | `kt:dev-hub`, `kt:scratch-orgs` |
 | `kt:session-security-levels` | `kt:login-flows`, `kt:multi-factor-authentication` |
@@ -43,6 +44,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:business-hours` | `kt:entitlement-management` |
 | `kt:business-rules-engine` | `kt:public-sector-solutions` |
 | `kt:change-data-capture-allocations` | `kt:change-data-capture` |
+| `kt:classic-encryption` | `kt:shield-platform-encryption` |
 | `kt:contact-builder` | `kt:marketing-cloud-engagement` |
 | `kt:contacts-to-multiple-accounts` | `kt:person-accounts` |
 | `kt:crm-analytics` | `kt:tableau` |
@@ -53,6 +55,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:custom-objects` | `kt:standard-objects` |
 | `kt:custom-settings` | `kt:custom-metadata-types` |
 | `kt:customer-360` | `kt:slack-platform` |
+| `kt:data-breach-risk` | `kt:shield-platform-encryption` |
 | `kt:data-categories` | `kt:knowledge-base` |
 | `kt:data-cloud-limits` | `kt:calculated-insights` |
 | `kt:data-cloud-segmentation` | `kt:calculated-insights` |
@@ -64,6 +67,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:duplicate-management` | `kt:identity-resolution` |
 | `kt:dynamic-revenue-orchestrator` | `kt:revenue-cloud` |
 | `kt:entitlement-process-metadata` | `kt:entitlement-management` |
+| `kt:event-monitoring` | `kt:shield-platform-encryption` |
 | `kt:external-identity-license` | `kt:experience-cloud-identity` |
 | `kt:external-services` | `kt:apex-callouts` |
 | `kt:field-service-mobile-app` | `kt:field-service` |

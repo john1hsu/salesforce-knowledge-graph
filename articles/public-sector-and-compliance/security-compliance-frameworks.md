@@ -11,7 +11,7 @@ summary: >-
 release: "Winter '27"
 status: concept
 broader: [kt:governance-risk-and-compliance]
-related: [kt:fedramp, kt:nist-sp-800-53, kt:dod-cloud-computing-srg, kt:data-residency]
+related: [kt:fedramp, kt:nist-sp-800-53, kt:dod-cloud-computing-srg, kt:data-residency, kt:shield-platform-encryption]
 relations:
   - {predicate: hasPart, object: kt:nist-cybersecurity-framework}
   - {predicate: hasPart, object: kt:iso-iec-27001}

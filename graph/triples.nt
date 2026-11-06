@@ -3862,6 +3862,7 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/security-compliance-frameworks> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/dod-cloud-computing-srg> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/security-compliance-frameworks> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/fedramp> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/security-compliance-frameworks> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-53> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/security-compliance-frameworks> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/shield-platform-encryption> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/security-compliance-frameworks> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-compliance-frameworks/s1> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/security-compliance-frameworks> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-compliance-frameworks/s2> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/security-compliance-frameworks> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-compliance-frameworks/s3> .
@@ -3986,6 +3987,33 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-rules> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "security-and-sharing" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-rules> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-rules> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/shield-platform-encryption> <http://purl.org/dc/terms/created> "2026-11-06" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/shield-platform-encryption> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#SecurityControl> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/shield-platform-encryption> <http://www.w3.org/2000/01/rdf-schema#label> "Shield Platform Encryption" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/shield-platform-encryption> <http://www.w3.org/2004/02/skos/core#altLabel> "Platform Encryption" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/shield-platform-encryption> <http://www.w3.org/2004/02/skos/core#altLabel> "SPE" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/shield-platform-encryption> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce Platform Encryption" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/shield-platform-encryption> <http://www.w3.org/2004/02/skos/core#altLabel> "encryption at rest in Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/shield-platform-encryption> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-shield> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/shield-platform-encryption> <http://www.w3.org/2004/02/skos/core#definition> "The Salesforce Shield capability that encrypts data at rest (standard and custom fields, files and attachments, search indexes and other stored data) with 256-bit AES keys derived from a Salesforce primary secret and an org-specific tenant secret, with options for customer-supplied or externally managed key material." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/shield-platform-encryption> <http://www.w3.org/2004/02/skos/core#prefLabel> "Shield Platform Encryption" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/shield-platform-encryption> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/shield-platform-encryption> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/event-monitoring> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/shield-platform-encryption> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/field-audit-trail> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/shield-platform-encryption> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-types> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/shield-platform-encryption> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/security-compliance-frameworks> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/shield-platform-encryption> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/shield-platform-encryption/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/shield-platform-encryption> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/shield-platform-encryption/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/shield-platform-encryption> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/shield-platform-encryption/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/shield-platform-encryption> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/shield-platform-encryption/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/shield-platform-encryption> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#contrastsWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/classic-encryption> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/shield-platform-encryption> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "security-and-sharing" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/shield-platform-encryption> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/change-data-capture> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/shield-platform-encryption> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-events> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/shield-platform-encryption> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#mitigates> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-breach-risk> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/shield-platform-encryption> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#requiresLicense> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-shield> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/shield-platform-encryption> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/shield-platform-encryption> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/single-sign-on-saml> <http://purl.org/dc/terms/created> "2026-11-02" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/single-sign-on-saml> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/single-sign-on-saml> <http://www.w3.org/2000/01/rdf-schema#label> "SAML Single Sign-On" .
@@ -8195,6 +8223,26 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-rules/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-rules/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-rules/s6> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.264.0.api_meta.meta/api_meta/meta_sharingrules.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/shield-platform-encryption/s1> <http://purl.org/dc/terms/publisher> "Salesforce Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/shield-platform-encryption/s1> <http://purl.org/dc/terms/title> "Get to Know Shield Platform Encryption (Trailhead, Shield Platform Encryption: Quick Look)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/shield-platform-encryption/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/shield-platform-encryption/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/shield-platform-encryption/s1> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/shield-platform-encryption-quick-look2/get-to-know-shield-platform-encryption2" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/shield-platform-encryption/s2> <http://purl.org/dc/terms/publisher> "Salesforce Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/shield-platform-encryption/s2> <http://purl.org/dc/terms/title> "Set Up and Manage Shield Platform Encryption (Trailhead, Shield Platform Encryption for Admins)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/shield-platform-encryption/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/shield-platform-encryption/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/shield-platform-encryption/s2> <https://schema.org/url> "https://trailhead.salesforce.com/en/modules/spe_admins/units/spe_admins_set_up" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/shield-platform-encryption/s3> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/shield-platform-encryption/s3> <http://purl.org/dc/terms/title> "Shield Platform Encryption (Salesforce Help, PDF)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/shield-platform-encryption/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/shield-platform-encryption/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/shield-platform-encryption/s3> <https://schema.org/url> "https://resources.docs.salesforce.com/latest/latest/en-us/sfdc/pdf/setup_security_platform_encryption.pdf" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/shield-platform-encryption/s4> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/shield-platform-encryption/s4> <http://purl.org/dc/terms/title> "Salesforce Shield: What's Included, How It Works, and How to Implement" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/shield-platform-encryption/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/shield-platform-encryption/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/shield-platform-encryption/s4> <https://schema.org/url> "https://www.salesforce.com/platform/shield/guide/" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/single-sign-on-saml/s1> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/single-sign-on-saml/s1> <http://purl.org/dc/terms/title> "Step 2: Create a SAML Single Sign-On Setting in Salesforce" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/single-sign-on-saml/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
