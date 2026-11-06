@@ -11659,6 +11659,84 @@
       ]
     },
     {
+      "@id": "kt:cjis-security-policy",
+      "@type": "kto:ExternalConcept",
+      "skos:prefLabel": "CJIS Security Policy",
+      "skos:definition": "The FBI Criminal Justice Information Services (CJIS) Division's minimum security requirements for any agency, contractor or cloud provider that touches Criminal Justice Information (CJI); Salesforce Government Cloud Plus and MuleSoft Government Cloud publish CJIS attestations for law-enforcement customers.",
+      "kto:domain": "public-sector-and-compliance",
+      "dcterms:created": "2026-11-06",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "CJIS Security Policy v6.0 (CJISSECPOL), 2024-12-27",
+          "dcterms:publisher": "Florida Department of Law Enforcement",
+          "schema:url": "https://www.fdle.state.fl.us/CJJIS/CJIS_Security_Policy_v6-0_20241227-(2).aspx",
+          "kto:sourceType": "government"
+        },
+        {
+          "dcterms:title": "CJIS Policy & Documents",
+          "dcterms:publisher": "Texas Department of Public Safety",
+          "schema:url": "https://www.dps.texas.gov/node/5816",
+          "kto:sourceType": "government"
+        },
+        {
+          "dcterms:title": "FBI CJIS Security Policy",
+          "dcterms:publisher": "Indiana Data & Communication System (IDACS)",
+          "schema:url": "https://secure.in.gov/idacs/system-security/fbi-cjis-security-policy",
+          "kto:sourceType": "government"
+        },
+        {
+          "dcterms:title": "CJIS (Compliance category page)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://compliance.salesforce.com/en/categories/cjis",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "CJIS - Salesforce Government Cloud Plus",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://compliance.salesforce.com/en/documents/a006e000013GLo5AAG",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/public-sector-and-compliance/cjis-security-policy.md",
+      "skos:altLabel": [
+        "CJISSECPOL",
+        "FBI CJIS Security Policy",
+        "CJIS compliance",
+        "Criminal Justice Information Services Security Policy"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:security-compliance-frameworks"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:government-cloud-plus"
+        },
+        {
+          "@id": "kt:multi-factor-authentication"
+        },
+        {
+          "@id": "kt:mulesoft-anypoint-platform"
+        },
+        {
+          "@id": "kt:public-sector-solutions"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:nist-sp-800-53"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:fedramp"
+        }
+      ]
+    },
+    {
       "@id": "kt:data-residency",
       "@type": "kto:Concept",
       "skos:prefLabel": "Data Residency",
@@ -12158,6 +12236,9 @@
         },
         {
           "@id": "kt:mulesoft-anypoint-platform"
+        },
+        {
+          "@id": "kt:cjis-security-policy"
         }
       ],
       "kto:implements": [

@@ -11,7 +11,7 @@ summary: >-
 release: "Winter '27"
 status: current
 broader: [kt:hyperforce]
-related: [kt:public-sector-solutions, kt:multitenancy, kt:agentforce, kt:mulesoft-anypoint-platform]
+related: [kt:public-sector-solutions, kt:multitenancy, kt:agentforce, kt:mulesoft-anypoint-platform, kt:cjis-security-policy]
 relations:
   - {predicate: implements, object: kt:fedramp-high}
   - {predicate: hasPart, object: kt:il4-and-il5}
