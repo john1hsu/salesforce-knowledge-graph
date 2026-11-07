@@ -5485,6 +5485,101 @@
       ]
     },
     {
+      "@id": "kt:retrieval-augmented-generation-in-salesforce",
+      "@type": "kto:Pattern",
+      "skos:prefLabel": "Retrieval Augmented Generation in Salesforce",
+      "skos:definition": "The Salesforce implementation of retrieval-augmented generation: Data 360 chunks and vectorizes content into a search index, a retriever pulls the most relevant chunks at runtime, and Prompt Builder or Agentforce inserts them into the prompt so the LLM answers from the organization's own data.",
+      "kto:domain": "data-cloud-and-ai",
+      "dcterms:created": "2026-11-07",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Augment Prompts with Relevant Knowledge (Retrieval Augmented Generation: Quick Look)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/it/content/learn/modules/retrieval-augmented-generation-quick-look/augment-prompts-with-relevant-knowledge",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Retrievers and Retriever Versions",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/apex/HTViewHelpDoc?id=data.c360_a_ai_retriever_version.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Create a Search Index, Retriever, and Prompt Template (Advanced RAG with Data 360 and Agentforce)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/advanced-rag-with-data-360-and-agentforce/create-a-search-index-retriever-and-prompt-template",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Upgrade AI with Real-World Data (Agentforce Data Library Basics)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/agentforce-data-library-basics/upgrade-ai-with-real-world-data",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks (NeurIPS 2020)",
+          "dcterms:publisher": "Advances in Neural Information Processing Systems 33",
+          "schema:url": "https://papers.nips.cc/paper/2020/hash/6b493230205f780e1bc26945df7481e5-Abstract.html",
+          "kto:sourceType": "peer-reviewed"
+        }
+      ],
+      "kto:file": "articles/data-cloud-and-ai/retrieval-augmented-generation-in-salesforce.md",
+      "skos:altLabel": [
+        "RAG in Salesforce",
+        "Salesforce RAG",
+        "Data 360 RAG",
+        "Data Cloud RAG",
+        "grounding with retrievers"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:data-cloud"
+        },
+        {
+          "@id": "kt:generative-ai"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:agentforce"
+        },
+        {
+          "@id": "kt:agent-actions"
+        },
+        {
+          "@id": "kt:knowledge-base"
+        },
+        {
+          "@id": "kt:data-model-objects"
+        },
+        {
+          "@id": "kt:einstein-trust-layer"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:data-cloud"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:prompt-builder"
+        }
+      ],
+      "kto:usedBy": [
+        {
+          "@id": "kt:atlas-reasoning-engine"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:agentforce-data-library"
+        }
+      ]
+    },
+    {
       "@id": "kt:zero-copy-data-federation",
       "@type": "kto:Feature",
       "skos:prefLabel": "Zero Copy Data Federation",

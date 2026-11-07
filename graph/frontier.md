@@ -26,6 +26,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:sandbox-templates` | `kt:environment-strategy`, `kt:sandbox-types` |
 | `kt:scratch-org-allocations` | `kt:dev-hub`, `kt:scratch-orgs` |
 | `kt:soap-api` | `kt:external-id-fields`, `kt:rest-api` |
+| `kt:agentforce-data-library` | `kt:retrieval-augmented-generation-in-salesforce` |
 | `kt:apex-continuations` | `kt:apex-callouts` |
 | `kt:apex-flex-queue` | `kt:batch-apex` |
 | `kt:api-led-connectivity` | `kt:mulesoft-anypoint-platform` |
@@ -69,6 +70,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:financial-services-cloud` | `kt:person-accounts` |
 | `kt:fips-200` | `kt:fips-199` |
 | `kt:gdpr-international-transfers` | `kt:data-residency` |
+| `kt:generative-ai` | `kt:retrieval-augmented-generation-in-salesforce` |
 | `kt:governance-risk-and-compliance` | `kt:security-compliance-frameworks` |
 | `kt:government-cloud` | `kt:government-cloud-plus` |
 | `kt:hitrust-csf` | `kt:nist-cybersecurity-framework` |
@@ -111,7 +113,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:product-configurator` | `kt:revenue-cloud` |
 | `kt:prompt-injection` | `kt:einstein-trust-layer` |
 | `kt:recursive-save` | `kt:order-of-execution` |
-| `kt:retrieval-augmented-generation-in-salesforce` | `kt:atlas-reasoning-engine` |
 | `kt:revenue-intelligence` | `kt:collaborative-forecasts` |
 | `kt:revenue-management-consultant-certification` | `kt:revenue-cloud` |
 | `kt:salesforce-apis` | `kt:bulk-api-2` |
