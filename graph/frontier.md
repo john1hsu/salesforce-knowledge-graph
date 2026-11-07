@@ -6,6 +6,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 |---|---|
 | `kt:profiles` | `kt:login-flows`, `kt:session-security-levels`, `kt:permission-set-groups` |
 | `kt:account-takeover` | `kt:multi-factor-authentication`, `kt:session-security-levels` |
+| `kt:business-hours` | `kt:escalation-rules`, `kt:entitlement-management` |
 | `kt:classic-encryption` | `kt:salesforce-shield`, `kt:shield-platform-encryption` |
 | `kt:data-lake-objects` | `kt:data-model-objects`, `kt:zero-copy-data-federation` |
 | `kt:experience-builder` | `kt:experience-cloud`, `kt:experience-cloud-identity` |
@@ -41,7 +42,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:block-kit` | `kt:slack-platform` |
 | `kt:bulk-api-1` | `kt:bulk-api-2` |
 | `kt:bulk-api-allocations` | `kt:bulk-api-2` |
-| `kt:business-hours` | `kt:entitlement-management` |
 | `kt:business-rules-engine` | `kt:public-sector-solutions` |
 | `kt:change-data-capture-allocations` | `kt:change-data-capture` |
 | `kt:contact-builder` | `kt:marketing-cloud-engagement` |

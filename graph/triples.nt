@@ -1454,6 +1454,33 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/environment-strategy> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-types> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/environment-strategy> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/environment-strategy> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/escalation-rules> <http://purl.org/dc/terms/created> "2026-11-07" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/escalation-rules> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/escalation-rules> <http://www.w3.org/2000/01/rdf-schema#label> "Escalation Rules" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/escalation-rules> <http://www.w3.org/2004/02/skos/core#altLabel> "Case Escalation Rules" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/escalation-rules> <http://www.w3.org/2004/02/skos/core#altLabel> "case escalation rule" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/escalation-rules> <http://www.w3.org/2004/02/skos/core#altLabel> "escalation rule" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/escalation-rules> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/process-automation> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/escalation-rules> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/service-cloud> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/escalation-rules> <http://www.w3.org/2004/02/skos/core#definition> "Declarative case rules that reassign a case and send notifications when it stays open past a set age, measured against business hours, using ordered rule entries and up to five timed escalation actions each." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/escalation-rules> <http://www.w3.org/2004/02/skos/core#prefLabel> "Escalation Rules" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/escalation-rules> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/order-of-execution> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/escalation-rules> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/schedule-triggered-flow> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/escalation-rules> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/workflow-rules> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/escalation-rules> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/escalation-rules/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/escalation-rules> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/escalation-rules/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/escalation-rules> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/escalation-rules/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/escalation-rules> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/escalation-rules/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/escalation-rules> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/escalation-rules/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/escalation-rules> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/escalation-rules/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/escalation-rules> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/escalation-rules> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#contrastsWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/assignment-rules> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/escalation-rules> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#contrastsWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/entitlement-management> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/escalation-rules> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/business-hours> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/escalation-rules> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "automation" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/escalation-rules> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/queues> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/escalation-rules> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/escalation-rules> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/event-driven-architecture> <http://purl.org/dc/terms/created> "2026-11-03" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/event-driven-architecture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Pattern> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/event-driven-architecture> <http://www.w3.org/2000/01/rdf-schema#label> "Event-Driven Architecture" .
@@ -5840,6 +5867,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/environment-strategy/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/environment-strategy/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/environment-strategy/s5> <https://schema.org/url> "https://admin.salesforce.com/blog/2026/admin-winter-27-release-countdown" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/escalation-rules/s1> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/escalation-rules/s1> <http://purl.org/dc/terms/title> "Set Up Escalation Rules" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/escalation-rules/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/escalation-rules/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/escalation-rules/s1> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=sf.rules_escalation_create.htm&language=en_US&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/escalation-rules/s2> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/escalation-rules/s2> <http://purl.org/dc/terms/title> "Escalation Rule Entries" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/escalation-rules/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/escalation-rules/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/escalation-rules/s2> <https://schema.org/url> "https://help.salesforce.com/s/articleView?language=en_US&id=service.rules_escalation_rule_entry.htm&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/escalation-rules/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers (Metadata API Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/escalation-rules/s3> <http://purl.org/dc/terms/title> "EscalationRules" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/escalation-rules/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/escalation-rules/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/escalation-rules/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_escalationrules.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/escalation-rules/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers (Apex Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/escalation-rules/s4> <http://purl.org/dc/terms/title> "Triggers and Order of Execution" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/escalation-rules/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/escalation-rules/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/escalation-rules/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_triggers_order_of_execution.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/escalation-rules/s5> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/escalation-rules/s5> <http://purl.org/dc/terms/title> "Create a Process for Managing Support Cases: Create an Escalation Rule" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/escalation-rules/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/escalation-rules/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/escalation-rules/s5> <https://schema.org/url> "https://trailhead.salesforce.com/en/content/learn/projects/create-a-process-for-managing-support-cases/create-an-escalation-rule" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/escalation-rules/s6> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/escalation-rules/s6> <http://purl.org/dc/terms/title> "Case Management Implementation Guide (PDF)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/escalation-rules/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/escalation-rules/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/escalation-rules/s6> <https://schema.org/url> "https://resources.docs.salesforce.com/242/latest/en-us/sfdc/pdf/salesforce_case_implementation_guide.pdf" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/event-driven-architecture/s1> <http://purl.org/dc/terms/publisher> "Salesforce Architects" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/event-driven-architecture/s1> <http://purl.org/dc/terms/title> "Using the Right Tools and Patterns for Event-Driven Architectures" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/event-driven-architecture/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

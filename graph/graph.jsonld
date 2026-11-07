@@ -1551,6 +1551,102 @@
       ]
     },
     {
+      "@id": "kt:escalation-rules",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Escalation Rules",
+      "skos:definition": "Declarative case rules that reassign a case and send notifications when it stays open past a set age, measured against business hours, using ordered rule entries and up to five timed escalation actions each.",
+      "kto:domain": "automation",
+      "dcterms:created": "2026-11-07",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Set Up Escalation Rules",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=sf.rules_escalation_create.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Escalation Rule Entries",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=service.rules_escalation_rule_entry.htm&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "EscalationRules",
+          "dcterms:publisher": "Salesforce Developers (Metadata API Developer Guide)",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_escalationrules.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Triggers and Order of Execution",
+          "dcterms:publisher": "Salesforce Developers (Apex Developer Guide)",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_triggers_order_of_execution.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Create a Process for Managing Support Cases: Create an Escalation Rule",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/en/content/learn/projects/create-a-process-for-managing-support-cases/create-an-escalation-rule",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Case Management Implementation Guide (PDF)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://resources.docs.salesforce.com/242/latest/en-us/sfdc/pdf/salesforce_case_implementation_guide.pdf",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/automation/escalation-rules.md",
+      "skos:altLabel": [
+        "Case Escalation Rules",
+        "case escalation rule",
+        "escalation rule"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:process-automation"
+        },
+        {
+          "@id": "kt:service-cloud"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:order-of-execution"
+        },
+        {
+          "@id": "kt:workflow-rules"
+        },
+        {
+          "@id": "kt:schedule-triggered-flow"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:queues"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:business-hours"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:assignment-rules"
+        },
+        {
+          "@id": "kt:entitlement-management"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:metadata-api"
+        }
+      ]
+    },
+    {
       "@id": "kt:flow-builder",
       "@type": "kto:Tool",
       "skos:prefLabel": "Flow Builder",
