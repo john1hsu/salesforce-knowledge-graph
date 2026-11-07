@@ -48,8 +48,7 @@ main { max-width: 76rem; margin: 0 auto; padding: 0 clamp(1rem, 4vw, 2.5rem) 4re
 
 /* ---------- home ---------- */
 .hero {
-  display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: clamp(1.5rem, 4vw, 3.5rem);
-  align-items: center; padding: clamp(1rem, 4vw, 3rem) 0 2.5rem;
+  max-width: 46rem; padding: clamp(1rem, 4vw, 3rem) 0 2.5rem;
 }
 .hero h1 {
   font-size: clamp(2.5rem, 6vw, 4.5rem); line-height: 1.02; letter-spacing: -0.03em; font-weight: 600;
@@ -58,41 +57,6 @@ main { max-width: 76rem; margin: 0 auto; padding: 0 clamp(1rem, 4vw, 2.5rem) 4re
 .hero .lede { margin: 1.25rem 0 0; }
 .stat { font-family: var(--font-ui); font-size: .9375rem; color: var(--muted); margin: 1.5rem 0 0; max-width: 40ch; }
 
-.graph-wrap { margin: 0; }
-#graph {
-  position: relative; height: clamp(22rem, 62vh, 40rem); border-radius: 14px;
-  background: var(--panel); border: 1px solid var(--rule); overflow: hidden; touch-action: pan-y;
-}
-#graph svg { display: block; width: 100%; height: 100%; cursor: grab; }
-#graph svg:active { cursor: grabbing; }
-#graph .link { stroke: var(--rule-strong); stroke-opacity: .55; vector-effect: non-scaling-stroke; }
-#graph .link.hot { stroke: var(--ink); stroke-opacity: .9; }
-#graph .node { cursor: pointer; }
-#graph .node .dot { stroke: var(--panel); stroke-width: 1.5; vector-effect: non-scaling-stroke; }
-#graph .node .hit { fill: transparent; }
-#graph .node.pinned .dot { stroke: var(--ink); stroke-width: 1.5; }
-#graph .node text {
-  font-family: var(--font-ui); fill: var(--ink); pointer-events: none;
-  paint-order: stroke; stroke: var(--panel); opacity: 0;
-}
-#graph .node.label text, #graph .node.hot text { opacity: 1; }
-#graph .node { transition: opacity .25s ease; }
-#graph .node.dim { opacity: .18; }
-#graph .link { transition: stroke-opacity .25s ease, stroke .25s ease; }
-#graph.focusing .link:not(.hot) { stroke-opacity: .12; }
-#graph .link.hot { stroke-width: 1.6; }
-/* Hovered dot and its neighbours glow in their area colour (set as `color` on each node). */
-#graph .node .dot { transition: filter .25s ease; }
-#graph .node.hot .dot { filter: drop-shadow(0 0 6px currentColor) drop-shadow(0 0 2px currentColor); }
-#graph .node.nb .dot { filter: drop-shadow(0 0 4px currentColor); }
-#graph .node.nb text { opacity: 1; }
-#graph .node.focused .dot { stroke: var(--ink); stroke-width: 2; }
-/* Newest articles: a soft ring that swells and fades. */
-#graph .node .ring { pointer-events: none; transform-box: fill-box; transform-origin: center; animation: kg-pulse 2.6s ease-out infinite; }
-@keyframes kg-pulse { 0% { transform: scale(1); opacity: .45; } 70%, 100% { transform: scale(2.6); opacity: 0; } }
-#graph .node:focus-visible .dot { stroke: var(--accent); stroke-width: 3; }
-.graph-wrap figcaption { font-family: var(--font-ui); font-size: .8125rem; color: var(--muted); margin-top: .6rem; }
-.graph-wrap figcaption strong { color: var(--ink); font-weight: 600; }
 
 .browse { padding-top: 2.5rem; border-top: 1px solid var(--rule); }
 .browse-head { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1rem; margin-bottom: 1.75rem; }
@@ -238,7 +202,6 @@ sup.fn a:hover { background: var(--accent-wash); }
 
 /* ---------- responsive ---------- */
 @media (max-width: 60rem) {
-  .hero { grid-template-columns: 1fr; }
   .entry-grid { grid-template-columns: 1fr; }
   .connections { position: static; max-height: none; border-top: 1px solid var(--rule); padding-top: 1.5rem; columns: 2 12rem; }
   .connections > div { break-inside: avoid; }
@@ -248,21 +211,12 @@ sup.fn a:hover { background: var(--accent-wash); }
   .ex-pair { grid-template-columns: 1fr; }
   .search { justify-content: stretch; }
   .search input { width: 100%; }
-  #graph { height: 22rem; }
 }
 @media (prefers-reduced-motion: reduce) {
   * { scroll-behavior: auto !important; transition: none !important; animation: none !important; }
 }
 
 /* ---------- salesforce-specific additions ---------- */
-#graph .node circle.unwritten-node { stroke: var(--muted); stroke-width: 1.2; stroke-dasharray: 2 2; }
-.p-graph #graph { height: clamp(28rem, 76vh, 56rem); }
-.legend { list-style: none; margin: 1rem 0 0; padding: 0; display: flex; flex-wrap: wrap; gap: .35rem 1.25rem; font-family: var(--font-ui); font-size: .875rem; }
-.legend li { display: flex; align-items: center; gap: .45rem; }
-.legend .swatch { width: .7rem; height: .7rem; border-radius: 50%; background: var(--dc); }
-.legend .hollow { width: .7rem; height: .7rem; border-radius: 50%; border: 1.5px dashed var(--muted); }
-.legend a { color: var(--ink); text-decoration: none; }
-.legend a:hover { text-decoration: underline; }
 .status[data-status="deprecated"], .status[data-status="retired"] { color: var(--warn); }
 .status[data-status="beta"], .status[data-status="pilot"] { color: var(--caution); }
 .facts .source-link { justify-content: flex-end; }

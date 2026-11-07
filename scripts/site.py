@@ -6,9 +6,8 @@ Usage:
   python3 scripts/site.py out_dir    # writes it somewhere else
 
 Reads the same articles as scripts/kg.py and never modifies them. The output is
-plain HTML/CSS/JS: a home page with an interactive map and search, one page per
-article (typed connections, back-links, sources), the frontier, a full-size graph and an about page with data downloads. Styles and
-the map script live in scripts/site_assets/; d3 is vendored in scripts/vendor/.
+plain HTML/CSS/JS: a home page with search, one page per article (typed connections, back-links, sources),
+the frontier and an about page with data downloads. Styles and the search script live in scripts/site_assets/.
 """
 from __future__ import annotations
 
@@ -35,7 +34,6 @@ SITE_TITLE = "Salesforce Knowledge Graph"
 HERE = Path(__file__).resolve().parent
 ASSETS = HERE / "site_assets"
 ASSET_V = "0"  # set in main() from the asset contents
-VENDOR = HERE / "vendor"  # d3 v7.9.0 (ISC), vendored so the site has no CDN dependency
 
 FONTS_URL = ("https://fonts.googleapis.com/css2?family=Manrope:wght@400..800"
              "&family=Newsreader:ital,opsz,wght@0,6..72,400..700;1,6..72,400..700&display=swap")
@@ -129,7 +127,7 @@ def out_edges(a: dict) -> list[tuple[str, str]]:
 
 
 # ---------------------------------------------------------------- page shell
-NAV = [("index.html", "Browse", "home"), ("graph.html", "Graph", "graph"),
+NAV = [("index.html", "Browse", "home"),
        ("frontier.html", "Frontier", "frontier"), ("about.html", "About", "about")]
 
 
@@ -273,26 +271,6 @@ def sources(a: dict) -> str:
     return f'<section class="block sources" aria-labelledby="src-h"><h2 id="src-h">Sources</h2><ol>{"".join(li)}</ol></section>'
 
 
-def graph_data(arts, written, frontier=None, labels=6, base="articles/"):
-    # "n" marks the newest articles (the latest `created` date), which pulse on the map.
-    newest = max((str(a.get("created", "")) for a in arts), default="")
-    nodes = [dict({"id": slug(a["id"]), "t": a["title"], "d": a["domain"]},
-                  **({"n": 1} if newest and str(a.get("created", "")) == newest else {})) for a in arts]
-    if frontier:
-        nodes += [{"id": slug(t), "t": humanize(slug(t)), "d": "", "u": 1} for t, _ in frontier]
-    known = {n["id"] for n in nodes}
-    links, seen = [], set()
-    for a in arts:
-        for _, t in out_edges(a):
-            s1, s2 = slug(a["id"]), slug(t)
-            if s2 in known and s1 != s2:
-                k = tuple(sorted((s1, s2)))
-                if k not in seen:
-                    seen.add(k)
-                    links.append({"s": k[0], "t": k[1]})
-    return {"nodes": nodes, "links": links, "labels": labels, "base": base}
-
-
 def data_script(d: dict) -> str:
     return '<script id="kg-data" type="application/json">' + json.dumps(d, ensure_ascii=False).replace("</", "<\\/") + "</script>"
 
@@ -336,15 +314,14 @@ def main() -> int:
     global ASSET_V
     ASSET_V = hashlib.sha256((css + (ASSETS / "home.js").read_text(encoding="utf-8")).encode()).hexdigest()[:10]
     (out / "style.css").write_text(css, encoding="utf-8")
-    shutil.copy(ASSETS / "home.js", out / "map.js")
+    shutil.copy(ASSETS / "home.js", out / "home.js")
     shutil.copy(ASSETS / "icon.svg", out / "icon.svg")
-    shutil.copy(VENDOR / "d3.min.js", out / "d3.min.js")
     (out / ".nojekyll").write_text("")
     for f in ["graph.jsonld", "triples.nt", "index.json"]:
         if (kg.GRAPH / f).exists():
             shutil.copy(kg.GRAPH / f, out / "data" / f)
     shutil.copy(kg.ONTOLOGY, out / "data" / "ontology.ttl")
-    map_scripts = '<script src="{r}d3.min.js?v=7.9.0"></script><script src="{r}map.js?v=' + ASSET_V + '"></script>'
+    home_script = '<script src="home.js?v=' + ASSET_V + '"></script>'
 
     n_edges = sum(len(out_edges(a)) for a in arts)
     n_src = len({s["url"] for a in arts for s in a.get("sources") or []})
@@ -365,8 +342,7 @@ def main() -> int:
     latest_li = "".join(
         f'<li><a href="articles/{e(slug(a["id"]))}.html">{e(a["title"])}</a><span>{e(a.get("summary", "").strip())}</span></li>'
         for a in latest)
-    hd = graph_data(arts, written, labels=7)
-    hd["search"] = [{"s": k, "t": v, "a": "", "m": ""} for k, v in search_index.items()]
+    hd = {"search": [{"s": k, "t": v, "a": "", "m": ""} for k, v in search_index.items()]}
     stat = (f"{len(arts)} articles in {len(live_domains)} areas, connected by {n_edges} links and backed by "
             f"{n_src} cited sources. Everything here was checked against {latest_release}.")
     home = f"""
@@ -376,10 +352,6 @@ def main() -> int:
     <p class="lede">A cited map of features, APIs, limits, products and certifications, written for architects. Each article explains one thing, says when to use it and what to use instead, and links to the official docs behind every claim.</p>
     <p class="stat">{e(stat)}</p>
   </div>
-  <figure class="graph-wrap">
-    <div id="graph" role="img" aria-label="Map of every article and the links between them. Use the list below to browse the same articles."></div>
-    <figcaption id="graph-cap">Each dot is an article, coloured by area; pulsing dots are the newest. Click a dot to zoom in and click it again to open it, drag it to move it, and scroll or pinch to zoom. <a href="graph.html">Open the full graph</a>.</figcaption>
-  </figure>
 </section>
 
 <section class="browse" id="browse" aria-labelledby="browse-h">
@@ -399,7 +371,7 @@ def main() -> int:
   <ul>{latest_li}</ul>
 </section>
 {data_script(hd)}
-{map_scripts.format(r="")}"""
+{home_script}"""
     (out / "index.html").write_text(page(SITE_TITLE, home, "", active="home", page_class="p-home"), encoding="utf-8")
 
     # ---- article pages
@@ -448,20 +420,10 @@ def main() -> int:
     (out / "frontier.html").write_text(page("Frontier", fbody, "", active="frontier", page_class="p-frontier"),
                                        encoding="utf-8")
 
-    # ---- full graph
-    legend = "".join(f'<li data-domain="{e(d)}"><span class="swatch" aria-hidden="true"></span>'
-                     f'{e(domain_label(d))}</li>' for d in live_domains)
-    legend += '<li><span class="hollow" aria-hidden="true"></span>Not written yet</li>'
-    gbody = (f'<header class="page-head"><h1>Graph</h1><p class="lede">All {len(arts)} articles and the {len(frontier)} '
-             f'topics they link to that aren’t written yet. Hover a dot to see its neighbours, click it to zoom in and click again to open it; click empty space to zoom back out. '
-             f'Scroll, pinch or two-finger drag to zoom and move around; drag a dot to place it, and double-click it '
-             f'to let it settle back.</p></header>'
-             f'<figure class="graph-wrap"><div id="graph" role="img" aria-label="Full graph of articles and unwritten topics. '
-             f'The Browse page lists the same articles."></div><figcaption id="graph-cap">Pulsing dots are the newest articles; dashed rings are topics on the '
-             f'<a href="frontier.html">frontier</a>.</figcaption></figure>'
-             f'<ul class="legend">{legend}</ul>'
-             + data_script(graph_data(arts, written, frontier=frontier, labels=14)) + map_scripts.format(r=""))
-    (out / "graph.html").write_text(page("Graph", gbody, "", active="graph", page_class="p-graph"), encoding="utf-8")
+    # ---- the map was removed; send old /graph.html links to Browse
+    (out / "graph.html").write_text('<!doctype html><meta charset="utf-8"><title>Browse</title>'
+                                    '<meta http-equiv="refresh" content="0; url=index.html">'
+                                    '<link rel="canonical" href="index.html">', encoding="utf-8")
 
     # ---- about
     readme = (kg.ROOT / "README.md").read_text(encoding="utf-8")
