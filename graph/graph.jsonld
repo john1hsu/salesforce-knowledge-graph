@@ -14154,6 +14154,98 @@
       ]
     },
     {
+      "@id": "kt:event-monitoring",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Event Monitoring",
+      "skos:definition": "Salesforce's user-activity logging capability: event log files, queryable event log objects and real-time events that record logins, API calls, report exports, page performance and more, for security investigation, adoption and performance analysis. Full use needs Salesforce Shield or the Event Monitoring add-on.",
+      "kto:domain": "security-and-sharing",
+      "dcterms:created": "2026-11-07",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Get Started with Event Monitoring",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/en/event_monitoring/event_monitoring_intro",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Using Event Monitoring (REST API Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api/using_resources_event_log_files.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Differences Between Hourly and 24-Hour Event Logs",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/api-rest/guide/event-log-file-hourly-diff.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "An Architect's Guide to Event Monitoring",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/blog/architect-guide-event-monitoring/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Query Event Log Files",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/event_monitoring/event_monitoring_query",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/security-and-sharing/event-monitoring.md",
+      "skos:altLabel": [
+        "Salesforce Event Monitoring",
+        "Event Log Files",
+        "EventLogFile",
+        "ELF",
+        "Event Monitoring add-on"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-shield"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:field-audit-trail"
+        },
+        {
+          "@id": "kt:shield-platform-encryption"
+        },
+        {
+          "@id": "kt:big-objects"
+        }
+      ],
+      "kto:requiresLicense": [
+        {
+          "@id": "kt:salesforce-shield"
+        }
+      ],
+      "kto:queriedWith": [
+        {
+          "@id": "kt:soql"
+        },
+        {
+          "@id": "kt:rest-api"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:pub-sub-api"
+        },
+        {
+          "@id": "kt:crm-analytics"
+        }
+      ],
+      "kto:enables": [
+        {
+          "@id": "kt:transaction-security-policies"
+        }
+      ]
+    },
+    {
       "@id": "kt:field-audit-trail",
       "@type": "kto:Feature",
       "skos:prefLabel": "Field Audit Trail",

@@ -4,10 +4,9 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:event-monitoring` | `kt:field-audit-trail`, `kt:salesforce-shield`, `kt:shield-platform-encryption` |
+| `kt:crm-analytics` | `kt:tableau`, `kt:event-monitoring`, `kt:salesforce-shield` |
 | `kt:platform-app-builder-certification` | `kt:application-architect-certification`, `kt:platform-developer-certification`, `kt:platform-administrator-certification` |
 | `kt:classic-encryption` | `kt:salesforce-shield`, `kt:shield-platform-encryption` |
-| `kt:crm-analytics` | `kt:tableau`, `kt:salesforce-shield` |
 | `kt:data-lake-objects` | `kt:data-model-objects`, `kt:zero-copy-data-federation` |
 | `kt:experience-builder` | `kt:experience-cloud`, `kt:experience-cloud-identity` |
 | `kt:future-methods` | `kt:asynchronous-apex`, `kt:queueable-apex` |
@@ -30,6 +29,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:session-security-levels` | `kt:login-flows`, `kt:multi-factor-authentication` |
 | `kt:soap-api` | `kt:external-id-fields`, `kt:rest-api` |
 | `kt:sosl` | `kt:external-objects`, `kt:soql` |
+| `kt:transaction-security-policies` | `kt:event-monitoring`, `kt:salesforce-shield` |
 | `kt:account-takeover` | `kt:multi-factor-authentication` |
 | `kt:apex-continuations` | `kt:apex-callouts` |
 | `kt:apex-enterprise-patterns` | `kt:trigger-framework-pattern` |
@@ -153,7 +153,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:test-data-factory` | `kt:apex-testing` |
 | `kt:trailhead` | `kt:salesforce-certification-program` |
 | `kt:transaction-finalizers` | `kt:queueable-apex` |
-| `kt:transaction-security-policies` | `kt:salesforce-shield` |
 | `kt:upsert` | `kt:external-id-fields` |
 | `kt:user-interface-api` | `kt:lightning-data-service` |
 | `kt:wcag` | `kt:section-508-accessibility` |
