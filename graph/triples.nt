@@ -950,6 +950,34 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/connected-apps> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#replacedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/external-client-apps> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/connected-apps> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/connected-apps> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/crm-analytics> <http://purl.org/dc/terms/created> "2026-11-07" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/crm-analytics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Product> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/crm-analytics> <http://www.w3.org/2000/01/rdf-schema#label> "CRM Analytics" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/crm-analytics> <http://www.w3.org/2004/02/skos/core#altLabel> "Einstein Analytics" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/crm-analytics> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce CRM Analytics" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/crm-analytics> <http://www.w3.org/2004/02/skos/core#altLabel> "Tableau CRM" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/crm-analytics> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-analytics> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/crm-analytics> <http://www.w3.org/2004/02/skos/core#definition> "Salesforce's platform-native analytics product (formerly Einstein Analytics, then Tableau CRM): it syncs Salesforce and external data into datasets via Data Sync, recipes and dataflows, queries them with SAQL, and surfaces lenses, dashboards, templated apps and Einstein Discovery predictions inside Salesforce workflows." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/crm-analytics> <http://www.w3.org/2004/02/skos/core#prefLabel> "CRM Analytics" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/crm-analytics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/event-monitoring> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/crm-analytics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/experience-cloud> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/crm-analytics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/sales-cloud> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/crm-analytics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-sharing-model> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/crm-analytics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/service-cloud> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/crm-analytics> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/crm-analytics/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/crm-analytics> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/crm-analytics/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/crm-analytics> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/crm-analytics/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/crm-analytics> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/crm-analytics/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/crm-analytics> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/crm-analytics/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/crm-analytics> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/crm-analytics/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/crm-analytics> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#alternativeTo> <https://github.com/john1hsu/salesforce-knowledge-graph/id/tableau> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/crm-analytics> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "clouds-and-products" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/crm-analytics> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#governedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-sharing-model> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/crm-analytics> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/einstein-discovery> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/crm-analytics> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/crm-analytics> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/saql> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/crm-analytics> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/crm-analytics> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/cta-review-board> <http://purl.org/dc/terms/created> "2026-11-04" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/cta-review-board> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Certification> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/cta-review-board> <http://www.w3.org/2000/01/rdf-schema#label> "CTA Review Board" .
@@ -5259,6 +5287,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/connected-apps/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/connected-apps/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "standards-body" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/connected-apps/s5> <https://schema.org/url> "https://rfc-editor.org/rfc/rfc6749" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/crm-analytics/s1> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/crm-analytics/s1> <http://purl.org/dc/terms/title> "CRM Analytics (Salesforce Help)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/crm-analytics/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/crm-analytics/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/crm-analytics/s1> <https://schema.org/url> "https://help.salesforce.com/HTViewHelpDoc?id=bi.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/crm-analytics/s2> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/crm-analytics/s2> <http://purl.org/dc/terms/title> "CRM Analytics Developer Center" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/crm-analytics/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/crm-analytics/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/crm-analytics/s2> <https://schema.org/url> "https://developer.salesforce.com/developer-centers/crm-analytics" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/crm-analytics/s3> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/crm-analytics/s3> <http://purl.org/dc/terms/title> "Set Up CRM Analytics App Licenses and Permissions" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/crm-analytics/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/crm-analytics/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/crm-analytics/s3> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/wave_apps_basics/wave_apps_setting_up_wave_app_licenses_and_permissions" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/crm-analytics/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/crm-analytics/s4> <http://purl.org/dc/terms/title> "SAQL Overview (SAQL Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/crm-analytics/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/crm-analytics/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/crm-analytics/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/analytics/bi-dev-guide-saql/guide/bi-saql-intro.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/crm-analytics/s5> <http://purl.org/dc/terms/publisher> "TechTarget" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/crm-analytics/s5> <http://purl.org/dc/terms/title> "'CRM Analytics' Salesforce's new name for Tableau CRM" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/crm-analytics/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/crm-analytics/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "news" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/crm-analytics/s5> <https://schema.org/url> "https://www.techtarget.com/searchcustomerexperience/news/252515840/CRM-Analytics-Salesforces-new-name-for-Tableau-CRM" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/crm-analytics/s6> <http://purl.org/dc/terms/publisher> "Automation Champion" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/crm-analytics/s6> <http://purl.org/dc/terms/title> "CRM Analytics: Data Security to Control Access to Rows" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/crm-analytics/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/crm-analytics/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "community" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/crm-analytics/s6> <https://schema.org/url> "https://automationchampion.com/2022/11/07/data-security-to-control-access-to-rows/" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/cta-review-board/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/cta-review-board/s1> <http://purl.org/dc/terms/title> "Certified Technical Architect Credential" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/cta-review-board/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

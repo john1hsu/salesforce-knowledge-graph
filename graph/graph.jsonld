@@ -2565,6 +2565,107 @@
       ]
     },
     {
+      "@id": "kt:crm-analytics",
+      "@type": "kto:Product",
+      "skos:prefLabel": "CRM Analytics",
+      "skos:definition": "Salesforce's platform-native analytics product (formerly Einstein Analytics, then Tableau CRM): it syncs Salesforce and external data into datasets via Data Sync, recipes and dataflows, queries them with SAQL, and surfaces lenses, dashboards, templated apps and Einstein Discovery predictions inside Salesforce workflows.",
+      "kto:domain": "clouds-and-products",
+      "dcterms:created": "2026-11-07",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "CRM Analytics (Salesforce Help)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://help.salesforce.com/HTViewHelpDoc?id=bi.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "CRM Analytics Developer Center",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/developer-centers/crm-analytics",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Set Up CRM Analytics App Licenses and Permissions",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/wave_apps_basics/wave_apps_setting_up_wave_app_licenses_and_permissions",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "SAQL Overview (SAQL Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/analytics/bi-dev-guide-saql/guide/bi-saql-intro.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "'CRM Analytics' Salesforce's new name for Tableau CRM",
+          "dcterms:publisher": "TechTarget",
+          "schema:url": "https://www.techtarget.com/searchcustomerexperience/news/252515840/CRM-Analytics-Salesforces-new-name-for-Tableau-CRM",
+          "kto:sourceType": "news"
+        },
+        {
+          "dcterms:title": "CRM Analytics: Data Security to Control Access to Rows",
+          "dcterms:publisher": "Automation Champion",
+          "schema:url": "https://automationchampion.com/2022/11/07/data-security-to-control-access-to-rows/",
+          "kto:sourceType": "community"
+        }
+      ],
+      "kto:file": "articles/clouds-and-products/crm-analytics.md",
+      "skos:altLabel": [
+        "Tableau CRM",
+        "Einstein Analytics",
+        "Salesforce CRM Analytics"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-analytics"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:event-monitoring"
+        },
+        {
+          "@id": "kt:sales-cloud"
+        },
+        {
+          "@id": "kt:service-cloud"
+        },
+        {
+          "@id": "kt:salesforce-sharing-model"
+        },
+        {
+          "@id": "kt:experience-cloud"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:einstein-discovery"
+        }
+      ],
+      "kto:queriedWith": [
+        {
+          "@id": "kt:saql"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:tableau"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:data-cloud"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:salesforce-sharing-model"
+        }
+      ]
+    },
+    {
       "@id": "kt:entitlement-management",
       "@type": "kto:Feature",
       "skos:prefLabel": "Entitlement Management",

@@ -4,7 +4,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:crm-analytics` | `kt:tableau`, `kt:event-monitoring`, `kt:salesforce-shield` |
 | `kt:platform-app-builder-certification` | `kt:application-architect-certification`, `kt:platform-developer-certification`, `kt:platform-administrator-certification` |
 | `kt:profiles` | `kt:login-flows`, `kt:session-security-levels`, `kt:permission-set-groups` |
 | `kt:account-takeover` | `kt:multi-factor-authentication`, `kt:session-security-levels` |
@@ -25,6 +24,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:public-groups` | `kt:queues`, `kt:sharing-rules` |
 | `kt:remote-call-in` | `kt:batch-data-synchronization`, `kt:integration-patterns` |
 | `kt:remote-site-settings` | `kt:apex-callouts`, `kt:named-credentials` |
+| `kt:salesforce-analytics` | `kt:crm-analytics`, `kt:tableau` |
 | `kt:sandbox-templates` | `kt:environment-strategy`, `kt:sandbox-types` |
 | `kt:scratch-org-allocations` | `kt:dev-hub`, `kt:scratch-orgs` |
 | `kt:soap-api` | `kt:external-id-fields`, `kt:rest-api` |
@@ -66,6 +66,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:dispatcher-console` | `kt:field-service` |
 | `kt:duplicate-management` | `kt:identity-resolution` |
 | `kt:dynamic-revenue-orchestrator` | `kt:revenue-cloud` |
+| `kt:einstein-discovery` | `kt:crm-analytics` |
 | `kt:entitlement-process-metadata` | `kt:entitlement-management` |
 | `kt:external-identity-license` | `kt:experience-cloud-identity` |
 | `kt:external-services` | `kt:apex-callouts` |
@@ -118,7 +119,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:retrieval-augmented-generation-in-salesforce` | `kt:atlas-reasoning-engine` |
 | `kt:revenue-intelligence` | `kt:collaborative-forecasts` |
 | `kt:revenue-management-consultant-certification` | `kt:revenue-cloud` |
-| `kt:salesforce-analytics` | `kt:tableau` |
 | `kt:salesforce-apis` | `kt:bulk-api-2` |
 | `kt:salesforce-architecture-program` | `kt:salesforce-architecture-center` |
 | `kt:salesforce-archive` | `kt:archiving-strategy` |
@@ -133,6 +133,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:salesforce-optimizer` | `kt:technical-debt-in-salesforce` |
 | `kt:salesforce-pricing` | `kt:revenue-cloud` |
 | `kt:saml-2-0` | `kt:single-sign-on-saml` |
+| `kt:saql` | `kt:crm-analytics` |
 | `kt:scale-test` | `kt:testing-strategy` |
 | `kt:scheduled-apex` | `kt:schedule-triggered-flow` |
 | `kt:schema-builder` | `kt:data-architecture` |
