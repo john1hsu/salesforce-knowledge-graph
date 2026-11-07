@@ -92,6 +92,89 @@
       ]
     },
     {
+      "@id": "kt:architect-decision-guides",
+      "@type": "kto:Tool",
+      "skos:prefLabel": "Architect Decision Guides",
+      "skos:definition": "A set of Salesforce-authored guides on architect.salesforce.com that compare overlapping platform tools for one problem area (forms, record-triggered automation, async processing, eventing, data integration, agentic vs. traditional automation) and give a decision framework, recommendations and anti-patterns; first published in June 2020.",
+      "kto:domain": "architecture-practice",
+      "dcterms:created": "2026-11-07",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Get Started with Platform Decision Guides",
+          "dcterms:publisher": "Salesforce Architects",
+          "schema:url": "https://architect.salesforce.com/docs/architect/decision-guides/guide/get-started-platform-decision-guides.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Introducing the Architect Decision Guides",
+          "dcterms:publisher": "Salesforce Architects (Medium)",
+          "schema:url": "https://medium.com/salesforce-architects/introducing-architect-decision-guides-609ae5d7b5da",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Record-Triggered Automation Decision Guide",
+          "dcterms:publisher": "Salesforce Architects",
+          "schema:url": "https://architect.salesforce.com/docs/architect/decision-guides/guide/record-triggered",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Using the Right Tools and Patterns for Event-Driven Architectures",
+          "dcterms:publisher": "Salesforce Architects",
+          "schema:url": "https://architect.salesforce.com/decision-guides/event-driven",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Decision Guide Updates for January 2024",
+          "dcterms:publisher": "Salesforce Architects (Medium)",
+          "schema:url": "https://medium.com/salesforce-architects/decision-guide-updates-for-january-2025-11a66dc69605",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/architecture-practice/architect-decision-guides.md",
+      "skos:altLabel": [
+        "Salesforce Decision Guides",
+        "Platform Decision Guides",
+        "Salesforce Architects decision guides"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:solution-design-tradeoffs"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:record-triggered-flow"
+        },
+        {
+          "@id": "kt:apex-triggers"
+        },
+        {
+          "@id": "kt:asynchronous-apex"
+        },
+        {
+          "@id": "kt:event-driven-architecture"
+        },
+        {
+          "@id": "kt:data-integration"
+        },
+        {
+          "@id": "kt:screen-flow"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:salesforce-architecture-center"
+        }
+      ],
+      "kto:usedBy": [
+        {
+          "@id": "kt:salesforce-architect"
+        }
+      ]
+    },
+    {
       "@id": "kt:archiving-strategy",
       "@type": "kto:Concept",
       "skos:prefLabel": "Archiving Strategy",

@@ -451,6 +451,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/approval-processes> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/orchestration-work-guide> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/approval-processes> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/approval-processes> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/architect-decision-guides> <http://purl.org/dc/terms/created> "2026-11-07" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/architect-decision-guides> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Tool> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/architect-decision-guides> <http://www.w3.org/2000/01/rdf-schema#label> "Architect Decision Guides" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/architect-decision-guides> <http://www.w3.org/2004/02/skos/core#altLabel> "Platform Decision Guides" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/architect-decision-guides> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce Architects decision guides" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/architect-decision-guides> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce Decision Guides" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/architect-decision-guides> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/solution-design-tradeoffs> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/architect-decision-guides> <http://www.w3.org/2004/02/skos/core#definition> "A set of Salesforce-authored guides on architect.salesforce.com that compare overlapping platform tools for one problem area (forms, record-triggered automation, async processing, eventing, data integration, agentic vs. traditional automation) and give a decision framework, recommendations and anti-patterns; first published in June 2020." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/architect-decision-guides> <http://www.w3.org/2004/02/skos/core#prefLabel> "Architect Decision Guides" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/architect-decision-guides> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-triggers> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/architect-decision-guides> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/asynchronous-apex> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/architect-decision-guides> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-integration> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/architect-decision-guides> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/event-driven-architecture> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/architect-decision-guides> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/record-triggered-flow> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/architect-decision-guides> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/screen-flow> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/architect-decision-guides> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/architect-decision-guides/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/architect-decision-guides> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/architect-decision-guides/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/architect-decision-guides> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/architect-decision-guides/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/architect-decision-guides> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/architect-decision-guides/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/architect-decision-guides> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/architect-decision-guides/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/architect-decision-guides> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "architecture-practice" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/architect-decision-guides> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#partOf> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-architecture-center> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/architect-decision-guides> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/architect-decision-guides> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#usedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-architect> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/architect-decision-guides> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/archiving-strategy> <http://purl.org/dc/terms/created> "2026-11-01" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/archiving-strategy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/archiving-strategy> <http://www.w3.org/2000/01/rdf-schema#label> "Archiving Strategy" .
@@ -5125,6 +5150,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/approval-processes/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/approval-processes/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/approval-processes/s6> <https://schema.org/url> "https://help.salesforce.com/s/articleView?language=en_US&id=platform.automate_automated_approvals_considerations.htm&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/architect-decision-guides/s1> <http://purl.org/dc/terms/publisher> "Salesforce Architects" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/architect-decision-guides/s1> <http://purl.org/dc/terms/title> "Get Started with Platform Decision Guides" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/architect-decision-guides/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/architect-decision-guides/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/architect-decision-guides/s1> <https://schema.org/url> "https://architect.salesforce.com/docs/architect/decision-guides/guide/get-started-platform-decision-guides.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/architect-decision-guides/s2> <http://purl.org/dc/terms/publisher> "Salesforce Architects (Medium)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/architect-decision-guides/s2> <http://purl.org/dc/terms/title> "Introducing the Architect Decision Guides" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/architect-decision-guides/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/architect-decision-guides/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/architect-decision-guides/s2> <https://schema.org/url> "https://medium.com/salesforce-architects/introducing-architect-decision-guides-609ae5d7b5da" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/architect-decision-guides/s3> <http://purl.org/dc/terms/publisher> "Salesforce Architects" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/architect-decision-guides/s3> <http://purl.org/dc/terms/title> "Record-Triggered Automation Decision Guide" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/architect-decision-guides/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/architect-decision-guides/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/architect-decision-guides/s3> <https://schema.org/url> "https://architect.salesforce.com/docs/architect/decision-guides/guide/record-triggered" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/architect-decision-guides/s4> <http://purl.org/dc/terms/publisher> "Salesforce Architects" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/architect-decision-guides/s4> <http://purl.org/dc/terms/title> "Using the Right Tools and Patterns for Event-Driven Architectures" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/architect-decision-guides/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/architect-decision-guides/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/architect-decision-guides/s4> <https://schema.org/url> "https://architect.salesforce.com/decision-guides/event-driven" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/architect-decision-guides/s5> <http://purl.org/dc/terms/publisher> "Salesforce Architects (Medium)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/architect-decision-guides/s5> <http://purl.org/dc/terms/title> "Decision Guide Updates for January 2024" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/architect-decision-guides/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/architect-decision-guides/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/architect-decision-guides/s5> <https://schema.org/url> "https://medium.com/salesforce-architects/decision-guide-updates-for-january-2025-11a66dc69605" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/archiving-strategy/s1> <http://purl.org/dc/terms/publisher> "Salesforce" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/archiving-strategy/s1> <http://purl.org/dc/terms/title> "What Is Data Archiving? (Guide to Data Archiving)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/archiving-strategy/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

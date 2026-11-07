@@ -33,7 +33,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:apex-flex-queue` | `kt:batch-apex` |
 | `kt:api-led-connectivity` | `kt:mulesoft-anypoint-platform` |
 | `kt:appexchange-security-review` | `kt:code-analyzer` |
-| `kt:architect-decision-guides` | `kt:salesforce-architecture-center` |
 | `kt:architecture-decision-records` | `kt:solution-design-tradeoffs` |
 | `kt:automation-studio` | `kt:marketing-cloud-engagement` |
 | `kt:backup-and-recover` | `kt:archiving-strategy` |
