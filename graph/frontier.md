@@ -12,6 +12,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:data-lake-objects` | `kt:data-model-objects`, `kt:zero-copy-data-federation` |
 | `kt:experience-builder` | `kt:experience-cloud`, `kt:experience-cloud-identity` |
 | `kt:future-methods` | `kt:asynchronous-apex`, `kt:queueable-apex` |
+| `kt:graphql-api` | `kt:polymorphic-relationships`, `kt:lightning-data-service` |
 | `kt:group-membership-locking` | `kt:enterprise-territory-management`, `kt:sharing-recalculation` |
 | `kt:integration-patterns-request-reply-fire-and-forget` | `kt:event-driven-architecture`, `kt:integration-patterns` |
 | `kt:integration-security` | `kt:oauth-2-0`, `kt:named-credentials` |
@@ -76,7 +77,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:gdpr-international-transfers` | `kt:data-residency` |
 | `kt:governance-risk-and-compliance` | `kt:security-compliance-frameworks` |
 | `kt:government-cloud` | `kt:government-cloud-plus` |
-| `kt:graphql-api` | `kt:lightning-data-service` |
 | `kt:hyperforce-operating-zones` | `kt:data-residency` |
 | `kt:identity-connect` | `kt:salesforce-identity` |
 | `kt:invocable-actions-api` | `kt:autolaunched-flow` |
