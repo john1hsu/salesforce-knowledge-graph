@@ -15337,6 +15337,114 @@
       ]
     },
     {
+      "@id": "kt:permission-sets",
+      "@type": "kto:SecurityControl",
+      "skos:prefLabel": "Permission Sets",
+      "skos:definition": "Named collections of object, field, system and app permissions that grant users access beyond their profile; a user can hold many of them, and they are the main unit of access in Salesforce's permission-set-led model.",
+      "kto:domain": "security-and-sharing",
+      "dcterms:created": "2026-11-07",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "PermissionSet (Object Reference for the Salesforce Platform)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/api/sforce_api_objects_permissionset.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "The Salesforce Admin's Guide to Profiles and Permissions",
+          "dcterms:publisher": "Salesforce Admins Blog",
+          "schema:url": "https://admin.salesforce.com/blog/2026/the-salesforce-admins-guide-to-profiles-and-permissions",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Session-Based Permission Sets overview (Trailhead)",
+          "dcterms:publisher": "Salesforce Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/es/content/learn/modules/session_based_perms/session_based_overview",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Get Hands-On With Permission Set Expiration (Trailhead, Platform App Builder maintenance Winter '23)",
+          "dcterms:publisher": "Salesforce Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/platform-app-builder-certification-maintenance-winter-23/get-hands-on-with-permission-set-expiration",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "PermissionSetLicense (Object Reference for the Salesforce Platform)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/object_reference/sforce_api_objects_permissionsetlicense.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Learn What's New with Access Control for Winter '25 (Trailhead, Architect maintenance)",
+          "dcterms:publisher": "Salesforce Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/salesforce-architect-certification-maintenance-winter-25/learn-whats-new-with-access-control-for-winter-25",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/security-and-sharing/permission-sets.md",
+      "skos:altLabel": [
+        "permission set",
+        "PermissionSet",
+        "PermissionSet object",
+        "session-based permission set",
+        "session-based permission sets"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-sharing-model"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:permission-set-groups"
+        },
+        {
+          "@id": "kt:connected-apps"
+        },
+        {
+          "@id": "kt:session-security-levels"
+        },
+        {
+          "@id": "kt:second-generation-managed-packages"
+        },
+        {
+          "@id": "kt:user-access-policies"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:profiles"
+        }
+      ],
+      "kto:implements": [
+        {
+          "@id": "kt:principle-of-least-privilege"
+        }
+      ],
+      "kto:requiresLicense": [
+        {
+          "@id": "kt:permission-set-licenses"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:field-level-security"
+        }
+      ],
+      "kto:queriedWith": [
+        {
+          "@id": "kt:soql"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:metadata-api"
+        }
+      ]
+    },
+    {
       "@id": "kt:profiles",
       "@type": "kto:SecurityControl",
       "skos:prefLabel": "Profiles",

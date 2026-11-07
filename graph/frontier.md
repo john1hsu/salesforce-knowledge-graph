@@ -4,12 +4,12 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:permission-sets` | `kt:named-credentials`, `kt:permission-set-groups`, `kt:profiles` |
 | `kt:account-takeover` | `kt:multi-factor-authentication`, `kt:session-security-levels` |
 | `kt:business-hours` | `kt:escalation-rules`, `kt:entitlement-management` |
 | `kt:classic-encryption` | `kt:salesforce-shield`, `kt:shield-platform-encryption` |
 | `kt:data-lake-objects` | `kt:data-model-objects`, `kt:zero-copy-data-federation` |
 | `kt:experience-builder` | `kt:experience-cloud`, `kt:experience-cloud-identity` |
+| `kt:field-level-security` | `kt:page-layouts`, `kt:permission-sets` |
 | `kt:future-methods` | `kt:asynchronous-apex`, `kt:queueable-apex` |
 | `kt:graphql-api` | `kt:polymorphic-relationships`, `kt:lightning-data-service` |
 | `kt:group-membership-locking` | `kt:enterprise-territory-management`, `kt:sharing-recalculation` |
@@ -20,6 +20,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:nist-cybersecurity-framework` | `kt:iso-iec-27001`, `kt:security-compliance-frameworks` |
 | `kt:opportunity-teams` | `kt:opportunity-splits`, `kt:opportunity-splits` |
 | `kt:orchestration-work-guide` | `kt:approval-processes`, `kt:flow-orchestrator` |
+| `kt:principle-of-least-privilege` | `kt:permission-set-groups`, `kt:permission-sets` |
 | `kt:public-groups` | `kt:queues`, `kt:sharing-rules` |
 | `kt:remote-call-in` | `kt:batch-data-synchronization`, `kt:integration-patterns` |
 | `kt:remote-site-settings` | `kt:apex-callouts`, `kt:named-credentials` |
@@ -69,7 +70,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:entitlement-process-metadata` | `kt:entitlement-management` |
 | `kt:external-identity-license` | `kt:experience-cloud-identity` |
 | `kt:external-services` | `kt:apex-callouts` |
-| `kt:field-level-security` | `kt:page-layouts` |
 | `kt:field-service-mobile-app` | `kt:field-service` |
 | `kt:field-service-scheduling-policies` | `kt:field-service` |
 | `kt:financial-services-cloud` | `kt:person-accounts` |
@@ -105,12 +105,12 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:org-check` | `kt:technical-debt-in-salesforce` |
 | `kt:package-xml-manifest` | `kt:metadata-api` |
 | `kt:path` | `kt:business-processes` |
+| `kt:permission-set-licenses` | `kt:permission-sets` |
 | `kt:platform-administrator-ii-certification` | `kt:platform-administrator-certification` |
 | `kt:platform-as-a-service` | `kt:salesforce-platform` |
 | `kt:platform-developer-ii-certification` | `kt:platform-developer-certification` |
 | `kt:platform-event-channel-member` | `kt:change-data-capture` |
 | `kt:presence-configuration` | `kt:omni-channel` |
-| `kt:principle-of-least-privilege` | `kt:permission-set-groups` |
 | `kt:process-automation-settings` | `kt:schedule-triggered-flow` |
 | `kt:process-integration` | `kt:data-integration` |
 | `kt:product-configurator` | `kt:revenue-cloud` |
@@ -155,6 +155,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:transaction-finalizers` | `kt:queueable-apex` |
 | `kt:trust-services-criteria` | `kt:soc-2` |
 | `kt:upsert` | `kt:external-id-fields` |
+| `kt:user-access-policies` | `kt:permission-sets` |
 | `kt:user-interface-api` | `kt:lightning-data-service` |
 | `kt:wcag` | `kt:section-508-accessibility` |
 | `kt:work-orders` | `kt:field-service` |
