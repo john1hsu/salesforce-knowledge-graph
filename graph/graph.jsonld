@@ -9486,6 +9486,92 @@
       ]
     },
     {
+      "@id": "kt:account-takeover",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Account Takeover",
+      "skos:definition": "The threat in which an attacker gains control of a legitimate user's Salesforce login — typically through phishing, vishing or credential stuffing with reused passwords — and then acts with that user's access. It is the main risk that Salesforce MFA, step-up session security and login monitoring are designed to blunt.",
+      "kto:domain": "identity",
+      "dcterms:created": "2026-11-07",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Multi-Factor Authentication (Identity Implementation Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.identityImplGuide.meta/%20identityImplGuide/security_overview_2fa.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Strengthening Salesforce Security Against AI-Driven Threats",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/blog/strengthening-salesforce-security-against-ai-driven-threats/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "How Salesforce Helps Protect You From Credential Stuffers",
+          "dcterms:publisher": "Salesforce Engineering",
+          "schema:url": "https://engineering.salesforce.com/how-salesforce-helps-protect-you-from-credential-stuffers-ffd2a9fe0330/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "More than a Password: Protect Yourself from Malicious Hackers with Multifactor Authentication",
+          "dcterms:publisher": "Cybersecurity and Infrastructure Security Agency (CISA)",
+          "schema:url": "https://www.cisa.gov/MFA",
+          "kto:sourceType": "government"
+        },
+        {
+          "dcterms:title": "Multifactor Authentication",
+          "dcterms:publisher": "Cybersecurity and Infrastructure Security Agency (CISA)",
+          "schema:url": "https://cisa.gov/topics/cybersecurity-best-practices/multifactor-authentication",
+          "kto:sourceType": "government"
+        }
+      ],
+      "kto:file": "articles/identity/account-takeover.md",
+      "skos:altLabel": [
+        "ATO",
+        "account compromise",
+        "credential stuffing",
+        "compromised user account"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-identity"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:multi-factor-authentication"
+        },
+        {
+          "@id": "kt:session-security-levels"
+        },
+        {
+          "@id": "kt:login-flows"
+        },
+        {
+          "@id": "kt:event-monitoring"
+        },
+        {
+          "@id": "kt:transaction-security-policies"
+        }
+      ],
+      "kto:causes": [
+        {
+          "@id": "kt:data-breach-risk"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:integration-security"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:identity-and-access-management-architect-certification"
+        }
+      ]
+    },
+    {
       "@id": "kt:connected-apps",
       "@type": "kto:Feature",
       "skos:prefLabel": "Connected Apps",

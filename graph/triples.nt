@@ -1,3 +1,29 @@
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/account-takeover> <http://purl.org/dc/terms/created> "2026-11-07" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/account-takeover> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/account-takeover> <http://www.w3.org/2000/01/rdf-schema#label> "Account Takeover" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/account-takeover> <http://www.w3.org/2004/02/skos/core#altLabel> "ATO" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/account-takeover> <http://www.w3.org/2004/02/skos/core#altLabel> "account compromise" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/account-takeover> <http://www.w3.org/2004/02/skos/core#altLabel> "compromised user account" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/account-takeover> <http://www.w3.org/2004/02/skos/core#altLabel> "credential stuffing" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/account-takeover> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-identity> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/account-takeover> <http://www.w3.org/2004/02/skos/core#definition> "The threat in which an attacker gains control of a legitimate user's Salesforce login — typically through phishing, vishing or credential stuffing with reused passwords — and then acts with that user's access. It is the main risk that Salesforce MFA, step-up session security and login monitoring are designed to blunt." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/account-takeover> <http://www.w3.org/2004/02/skos/core#prefLabel> "Account Takeover" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/account-takeover> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/event-monitoring> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/account-takeover> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/login-flows> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/account-takeover> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/multi-factor-authentication> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/account-takeover> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/session-security-levels> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/account-takeover> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/transaction-security-policies> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/account-takeover> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/account-takeover/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/account-takeover> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/account-takeover/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/account-takeover> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/account-takeover/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/account-takeover> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/account-takeover/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/account-takeover> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/account-takeover/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/account-takeover> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#causes> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-breach-risk> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/account-takeover> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#contrastsWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-security> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/account-takeover> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#coveredBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-and-access-management-architect-certification> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/account-takeover> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "identity" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/account-takeover> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/account-takeover> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/agent-actions> <http://purl.org/dc/terms/created> "2026-11-05" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/agent-actions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/agent-actions> <http://www.w3.org/2000/01/rdf-schema#label> "Agent Actions" .
@@ -4588,6 +4614,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source-tracking> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/tooling-api> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source-tracking> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source-tracking> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/account-takeover/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/account-takeover/s1> <http://purl.org/dc/terms/title> "Multi-Factor Authentication (Identity Implementation Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/account-takeover/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/account-takeover/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/account-takeover/s1> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.identityImplGuide.meta/%20identityImplGuide/security_overview_2fa.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/account-takeover/s2> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/account-takeover/s2> <http://purl.org/dc/terms/title> "Strengthening Salesforce Security Against AI-Driven Threats" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/account-takeover/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/account-takeover/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/account-takeover/s2> <https://schema.org/url> "https://www.salesforce.com/blog/strengthening-salesforce-security-against-ai-driven-threats/" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/account-takeover/s3> <http://purl.org/dc/terms/publisher> "Salesforce Engineering" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/account-takeover/s3> <http://purl.org/dc/terms/title> "How Salesforce Helps Protect You From Credential Stuffers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/account-takeover/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/account-takeover/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/account-takeover/s3> <https://schema.org/url> "https://engineering.salesforce.com/how-salesforce-helps-protect-you-from-credential-stuffers-ffd2a9fe0330/" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/account-takeover/s4> <http://purl.org/dc/terms/publisher> "Cybersecurity and Infrastructure Security Agency (CISA)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/account-takeover/s4> <http://purl.org/dc/terms/title> "More than a Password: Protect Yourself from Malicious Hackers with Multifactor Authentication" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/account-takeover/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/account-takeover/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/account-takeover/s4> <https://schema.org/url> "https://www.cisa.gov/MFA" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/account-takeover/s5> <http://purl.org/dc/terms/publisher> "Cybersecurity and Infrastructure Security Agency (CISA)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/account-takeover/s5> <http://purl.org/dc/terms/title> "Multifactor Authentication" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/account-takeover/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/account-takeover/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/account-takeover/s5> <https://schema.org/url> "https://cisa.gov/topics/cybersecurity-best-practices/multifactor-authentication" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agent-actions/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agent-actions/s1> <http://purl.org/dc/terms/title> "Customize Your Agents (Agent Customization: Quick Look)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agent-actions/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

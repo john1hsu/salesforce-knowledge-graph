@@ -1,5 +1,28 @@
 [
   {
+    "id": "kt:account-takeover",
+    "title": "Account Takeover",
+    "aliases": [
+      "ATO",
+      "account compromise",
+      "credential stuffing",
+      "compromised user account"
+    ],
+    "type": "Concept",
+    "domain": "identity",
+    "file": "articles/identity/account-takeover.md",
+    "created": "2026-11-07",
+    "release": "Winter '27",
+    "status": "concept",
+    "source_urls": [
+      "https://developer.salesforce.com/docs/atlas.en-us.identityImplGuide.meta/%20identityImplGuide/security_overview_2fa.htm",
+      "https://www.salesforce.com/blog/strengthening-salesforce-security-against-ai-driven-threats/",
+      "https://engineering.salesforce.com/how-salesforce-helps-protect-you-from-credential-stuffers-ffd2a9fe0330/",
+      "https://www.cisa.gov/MFA",
+      "https://cisa.gov/topics/cybersecurity-best-practices/multifactor-authentication"
+    ]
+  },
+  {
     "id": "kt:agent-actions",
     "title": "Agent Actions",
     "aliases": [

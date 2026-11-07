@@ -4,10 +4,12 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:account-takeover` | `kt:multi-factor-authentication`, `kt:session-security-levels` |
+| `kt:integration-security` | `kt:account-takeover`, `kt:oauth-2-0`, `kt:named-credentials` |
+| `kt:transaction-security-policies` | `kt:account-takeover`, `kt:event-monitoring`, `kt:salesforce-shield` |
 | `kt:apex-enterprise-patterns` | `kt:trigger-framework-pattern`, `kt:package-dependencies` |
 | `kt:business-hours` | `kt:escalation-rules`, `kt:entitlement-management` |
 | `kt:classic-encryption` | `kt:salesforce-shield`, `kt:shield-platform-encryption` |
+| `kt:data-breach-risk` | `kt:account-takeover`, `kt:shield-platform-encryption` |
 | `kt:data-lake-objects` | `kt:data-model-objects`, `kt:zero-copy-data-federation` |
 | `kt:experience-builder` | `kt:experience-cloud`, `kt:experience-cloud-identity` |
 | `kt:field-level-security` | `kt:page-layouts`, `kt:permission-sets` |
@@ -16,7 +18,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:graphql-api` | `kt:polymorphic-relationships`, `kt:lightning-data-service` |
 | `kt:group-membership-locking` | `kt:enterprise-territory-management`, `kt:sharing-recalculation` |
 | `kt:integration-patterns-request-reply-fire-and-forget` | `kt:event-driven-architecture`, `kt:integration-patterns` |
-| `kt:integration-security` | `kt:oauth-2-0`, `kt:named-credentials` |
 | `kt:lead-conversion` | `kt:sales-cloud`, `kt:business-processes` |
 | `kt:namespace-registry` | `kt:dev-hub`, `kt:second-generation-managed-packages` |
 | `kt:nist-cybersecurity-framework` | `kt:iso-iec-27001`, `kt:security-compliance-frameworks` |
@@ -30,7 +31,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:sandbox-templates` | `kt:environment-strategy`, `kt:sandbox-types` |
 | `kt:scratch-org-allocations` | `kt:dev-hub`, `kt:scratch-orgs` |
 | `kt:soap-api` | `kt:external-id-fields`, `kt:rest-api` |
-| `kt:transaction-security-policies` | `kt:event-monitoring`, `kt:salesforce-shield` |
 | `kt:apex-continuations` | `kt:apex-callouts` |
 | `kt:apex-flex-queue` | `kt:batch-apex` |
 | `kt:api-led-connectivity` | `kt:mulesoft-anypoint-platform` |
@@ -54,7 +54,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:custom-objects` | `kt:standard-objects` |
 | `kt:custom-settings` | `kt:custom-metadata-types` |
 | `kt:customer-360` | `kt:slack-platform` |
-| `kt:data-breach-risk` | `kt:shield-platform-encryption` |
 | `kt:data-categories` | `kt:knowledge-base` |
 | `kt:data-cloud-limits` | `kt:calculated-insights` |
 | `kt:data-cloud-segmentation` | `kt:calculated-insights` |
