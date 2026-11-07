@@ -274,7 +274,10 @@ def sources(a: dict) -> str:
 
 
 def graph_data(arts, written, frontier=None, labels=6, base="articles/"):
-    nodes = [{"id": slug(a["id"]), "t": a["title"], "d": a["domain"]} for a in arts]
+    # "n" marks the newest articles (the latest `created` date), which pulse on the map.
+    newest = max((str(a.get("created", "")) for a in arts), default="")
+    nodes = [dict({"id": slug(a["id"]), "t": a["title"], "d": a["domain"]},
+                  **({"n": 1} if newest and str(a.get("created", "")) == newest else {})) for a in arts]
     if frontier:
         nodes += [{"id": slug(t), "t": humanize(slug(t)), "d": "", "u": 1} for t, _ in frontier]
     known = {n["id"] for n in nodes}
@@ -375,7 +378,7 @@ def main() -> int:
   </div>
   <figure class="graph-wrap">
     <div id="graph" role="img" aria-label="Map of every article and the links between them. Use the list below to browse the same articles."></div>
-    <figcaption id="graph-cap">Each dot is an article, coloured by area. Click a dot to open it, drag it to move it, and scroll or pinch to zoom. <a href="graph.html">Open the full graph</a>.</figcaption>
+    <figcaption id="graph-cap">Each dot is an article, coloured by area; pulsing dots are the newest. Click a dot to zoom in and click it again to open it, drag it to move it, and scroll or pinch to zoom. <a href="graph.html">Open the full graph</a>.</figcaption>
   </figure>
 </section>
 
@@ -450,11 +453,11 @@ def main() -> int:
                      f'{e(domain_label(d))}</li>' for d in live_domains)
     legend += '<li><span class="hollow" aria-hidden="true"></span>Not written yet</li>'
     gbody = (f'<header class="page-head"><h1>Graph</h1><p class="lede">All {len(arts)} articles and the {len(frontier)} '
-             f'topics they link to that aren’t written yet. Hover a dot to see its neighbours and click to open it. '
+             f'topics they link to that aren’t written yet. Hover a dot to see its neighbours, click it to zoom in and click again to open it; click empty space to zoom back out. '
              f'Scroll, pinch or two-finger drag to zoom and move around; drag a dot to place it, and double-click it '
              f'to let it settle back.</p></header>'
              f'<figure class="graph-wrap"><div id="graph" role="img" aria-label="Full graph of articles and unwritten topics. '
-             f'The Browse page lists the same articles."></div><figcaption id="graph-cap">Dashed rings are topics on the '
+             f'The Browse page lists the same articles."></div><figcaption id="graph-cap">Pulsing dots are the newest articles; dashed rings are topics on the '
              f'<a href="frontier.html">frontier</a>.</figcaption></figure>'
              f'<ul class="legend">{legend}</ul>'
              + data_script(graph_data(arts, written, frontier=frontier, labels=14)) + map_scripts.format(r=""))
