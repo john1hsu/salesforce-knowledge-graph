@@ -3162,6 +3162,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/process-builder> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#replacedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/record-triggered-flow> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/process-builder> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "deprecated" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/process-builder> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/profiles> <http://purl.org/dc/terms/created> "2026-11-07" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/profiles> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#SecurityControl> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/profiles> <http://www.w3.org/2000/01/rdf-schema#label> "Profiles" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/profiles> <http://www.w3.org/2004/02/skos/core#altLabel> "Profile object" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/profiles> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce profile" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/profiles> <http://www.w3.org/2004/02/skos/core#altLabel> "custom profile" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/profiles> <http://www.w3.org/2004/02/skos/core#altLabel> "profile" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/profiles> <http://www.w3.org/2004/02/skos/core#altLabel> "standard profile" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/profiles> <http://www.w3.org/2004/02/skos/core#altLabel> "user profile" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/profiles> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-sharing-model> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/profiles> <http://www.w3.org/2004/02/skos/core#definition> "The single, mandatory, license-bound settings bundle every Salesforce user has; it sets baseline defaults such as apps, record types, page layouts, login hours and IP ranges, while most object, field and system access is now meant to come from permission sets." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/profiles> <http://www.w3.org/2004/02/skos/core#prefLabel> "Profiles" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/profiles> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/experience-cloud> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/profiles> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/login-flows> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/profiles> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/organization-wide-defaults> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/profiles> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/permission-set-groups> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/profiles> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/record-types> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/profiles> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/session-security-levels> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/profiles> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/profiles/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/profiles> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/profiles/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/profiles> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/profiles/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/profiles> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/profiles/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/profiles> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/profiles/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/profiles> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/profiles> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/page-layouts> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/profiles> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#contrastsWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/permission-sets> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/profiles> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "security-and-sharing" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/profiles> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/soql> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/profiles> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/profiles> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/prompt-builder> <http://purl.org/dc/terms/created> "2026-11-02" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/prompt-builder> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Tool> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/prompt-builder> <http://www.w3.org/2000/01/rdf-schema#label> "Prompt Builder" .
@@ -7627,6 +7657,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/process-builder/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/process-builder/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/process-builder/s6> <https://schema.org/url> "https://admin.salesforce.com/blog/2022/automate-this-migrate-workflow-rules-and-processes-to-flow" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/profiles/s1> <http://purl.org/dc/terms/publisher> "Salesforce Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/profiles/s1> <http://purl.org/dc/terms/title> "Manage Salesforce Object Access (Trailhead, Data Security module)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/profiles/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/profiles/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/profiles/s1> <https://schema.org/url> "https://trailhead.salesforce.com/en/content/learn/modules/data_security/data_security_objects" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/profiles/s2> <http://purl.org/dc/terms/publisher> "Salesforce Admins Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/profiles/s2> <http://purl.org/dc/terms/title> "The Salesforce Admin's Guide to Profiles and Permissions" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/profiles/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/profiles/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/profiles/s2> <https://schema.org/url> "https://admin.salesforce.com/blog/2026/the-salesforce-admins-guide-to-profiles-and-permissions" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/profiles/s3> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/profiles/s3> <http://purl.org/dc/terms/title> "Standard Profiles (Salesforce Help)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/profiles/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/profiles/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/profiles/s3> <https://schema.org/url> "https://help.salesforce.com/s/articleView?language=en_US&id=sf.standard_profiles.htm&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/profiles/s4> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/profiles/s4> <http://purl.org/dc/terms/title> "Profile (Object Reference for the Salesforce Platform)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/profiles/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/profiles/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/profiles/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/object_reference/sforce_api_objects_profile.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/profiles/s5> <http://purl.org/dc/terms/publisher> "Salesforce Engineering Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/profiles/s5> <http://purl.org/dc/terms/title> "Using SOQL to Determine Your Force.com User's Permissions" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/profiles/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/profiles/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/profiles/s5> <https://schema.org/url> "https://developer.salesforce.com/blogs/engineering/2012/06/using-soql-to-determine-your-users-permissions-2" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/prompt-builder/s1> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/prompt-builder/s1> <http://purl.org/dc/terms/title> "Prompt Template Types" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/prompt-builder/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

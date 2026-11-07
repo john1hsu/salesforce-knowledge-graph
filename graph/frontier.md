@@ -4,7 +4,8 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:profiles` | `kt:login-flows`, `kt:session-security-levels`, `kt:permission-set-groups` |
+| `kt:page-layouts` | `kt:business-processes`, `kt:record-types`, `kt:profiles` |
+| `kt:permission-sets` | `kt:named-credentials`, `kt:permission-set-groups`, `kt:profiles` |
 | `kt:account-takeover` | `kt:multi-factor-authentication`, `kt:session-security-levels` |
 | `kt:business-hours` | `kt:escalation-rules`, `kt:entitlement-management` |
 | `kt:classic-encryption` | `kt:salesforce-shield`, `kt:shield-platform-encryption` |
@@ -19,8 +20,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:nist-cybersecurity-framework` | `kt:iso-iec-27001`, `kt:security-compliance-frameworks` |
 | `kt:opportunity-teams` | `kt:opportunity-splits`, `kt:opportunity-splits` |
 | `kt:orchestration-work-guide` | `kt:approval-processes`, `kt:flow-orchestrator` |
-| `kt:page-layouts` | `kt:business-processes`, `kt:record-types` |
-| `kt:permission-sets` | `kt:named-credentials`, `kt:permission-set-groups` |
 | `kt:public-groups` | `kt:queues`, `kt:sharing-rules` |
 | `kt:remote-call-in` | `kt:batch-data-synchronization`, `kt:integration-patterns` |
 | `kt:remote-site-settings` | `kt:apex-callouts`, `kt:named-credentials` |

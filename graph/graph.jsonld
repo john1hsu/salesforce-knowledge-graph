@@ -15080,6 +15080,100 @@
       ]
     },
     {
+      "@id": "kt:profiles",
+      "@type": "kto:SecurityControl",
+      "skos:prefLabel": "Profiles",
+      "skos:definition": "The single, mandatory, license-bound settings bundle every Salesforce user has; it sets baseline defaults such as apps, record types, page layouts, login hours and IP ranges, while most object, field and system access is now meant to come from permission sets.",
+      "kto:domain": "security-and-sharing",
+      "dcterms:created": "2026-11-07",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Manage Salesforce Object Access (Trailhead, Data Security module)",
+          "dcterms:publisher": "Salesforce Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/en/content/learn/modules/data_security/data_security_objects",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "The Salesforce Admin's Guide to Profiles and Permissions",
+          "dcterms:publisher": "Salesforce Admins Blog",
+          "schema:url": "https://admin.salesforce.com/blog/2026/the-salesforce-admins-guide-to-profiles-and-permissions",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Standard Profiles (Salesforce Help)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=sf.standard_profiles.htm&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Profile (Object Reference for the Salesforce Platform)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/object_reference/sforce_api_objects_profile.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Using SOQL to Determine Your Force.com User's Permissions",
+          "dcterms:publisher": "Salesforce Engineering Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/engineering/2012/06/using-soql-to-determine-your-users-permissions-2",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/security-and-sharing/profiles.md",
+      "skos:altLabel": [
+        "profile",
+        "user profile",
+        "Salesforce profile",
+        "standard profile",
+        "custom profile",
+        "Profile object"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-sharing-model"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:permission-set-groups"
+        },
+        {
+          "@id": "kt:record-types"
+        },
+        {
+          "@id": "kt:login-flows"
+        },
+        {
+          "@id": "kt:session-security-levels"
+        },
+        {
+          "@id": "kt:organization-wide-defaults"
+        },
+        {
+          "@id": "kt:experience-cloud"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:permission-sets"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:page-layouts"
+        },
+        {
+          "@id": "kt:metadata-api"
+        }
+      ],
+      "kto:queriedWith": [
+        {
+          "@id": "kt:soql"
+        }
+      ]
+    },
+    {
       "@id": "kt:queues",
       "@type": "kto:Feature",
       "skos:prefLabel": "Queues",
