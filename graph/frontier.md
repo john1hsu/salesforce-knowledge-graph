@@ -4,8 +4,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:data-breach-risk` | `kt:account-takeover`, `kt:integration-security`, `kt:shield-platform-encryption`, `kt:transaction-security-policies` |
-| `kt:principle-of-least-privilege` | `kt:integration-security`, `kt:permission-set-groups`, `kt:permission-sets` |
+| `kt:principle-of-least-privilege` | `kt:integration-security`, `kt:data-breach-risk`, `kt:permission-set-groups`, `kt:permission-sets` |
 | `kt:apex-enterprise-patterns` | `kt:trigger-framework-pattern`, `kt:package-dependencies` |
 | `kt:classic-encryption` | `kt:salesforce-shield`, `kt:shield-platform-encryption` |
 | `kt:data-lake-objects` | `kt:data-model-objects`, `kt:zero-copy-data-federation` |
@@ -136,6 +135,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:scoping-rules` | `kt:restriction-rules` |
 | `kt:service-appointments` | `kt:field-service` |
 | `kt:service-setup-assistant` | `kt:service-cloud` |
+| `kt:shared-responsibility-model` | `kt:data-breach-risk` |
 | `kt:skills-based-routing` | `kt:omni-channel` |
 | `kt:slack-api-rate-limits` | `kt:slack-platform` |
 | `kt:slack-workflow-builder` | `kt:slack-platform` |
