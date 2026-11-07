@@ -4,8 +4,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:transaction-security-policies` | `kt:account-takeover`, `kt:integration-security`, `kt:event-monitoring`, `kt:salesforce-shield` |
-| `kt:data-breach-risk` | `kt:account-takeover`, `kt:integration-security`, `kt:shield-platform-encryption` |
+| `kt:data-breach-risk` | `kt:account-takeover`, `kt:integration-security`, `kt:shield-platform-encryption`, `kt:transaction-security-policies` |
 | `kt:principle-of-least-privilege` | `kt:integration-security`, `kt:permission-set-groups`, `kt:permission-sets` |
 | `kt:apex-enterprise-patterns` | `kt:trigger-framework-pattern`, `kt:package-dependencies` |
 | `kt:business-hours` | `kt:escalation-rules`, `kt:entitlement-management` |
