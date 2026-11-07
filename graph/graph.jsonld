@@ -15833,6 +15833,101 @@
       ]
     },
     {
+      "@id": "kt:field-level-security",
+      "@type": "kto:SecurityControl",
+      "skos:prefLabel": "Field-Level Security",
+      "skos:definition": "The layer of Salesforce data security that decides, per field, whether a user can read and edit a value; granted through profiles and permission sets and enforced across the UI, reports, search and the API.",
+      "kto:domain": "security-and-sharing",
+      "dcterms:created": "2026-11-07",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Control Access to Fields (Trailhead: Data Security)",
+          "dcterms:publisher": "Salesforce Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/data_security/data_security_fields",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "FieldPermissions (Object Reference for the Salesforce Platform)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/object_reference/sforce_api_objects_fieldpermissions.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Enforce User Mode for Database Operations (Apex Developer Guide, Winter '27)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.264.0.apexcode.meta/pages/apex_classes_enforce_usermode.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Apex Versioned Behavior Changes (Apex Developer Guide, Winter '27)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.264.0.apexcode.meta/pages/versioned_behavior_changes.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Protect Your Application from CRUD/FLS Vulnerabilities (Secure Coding Guide)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/platform/secure-coding/guide/secure-coding-access-control-protect-from-crud-fls-vulnerabilities.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Secure Apex Classes (Lightning Web Components Developer Guide)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/platform/lwc/guide/apex-security",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/security-and-sharing/field-level-security.md",
+      "skos:altLabel": [
+        "FLS",
+        "field-level security",
+        "field permissions",
+        "FieldPermissions",
+        "FieldPermissions object",
+        "field accessibility",
+        "CRUD/FLS"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-sharing-model"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:principle-of-least-privilege"
+        },
+        {
+          "@id": "kt:profiles"
+        },
+        {
+          "@id": "kt:lightning-data-service"
+        },
+        {
+          "@id": "kt:soql"
+        },
+        {
+          "@id": "kt:shield-platform-encryption"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:permission-sets"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:page-layouts"
+        }
+      ],
+      "kto:queriedWith": [
+        {
+          "@id": "kt:apex"
+        }
+      ]
+    },
+    {
       "@id": "kt:implicit-sharing",
       "@type": "kto:Concept",
       "skos:prefLabel": "Implicit Sharing",

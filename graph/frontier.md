@@ -4,7 +4,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:field-level-security` | `kt:page-layouts`, `kt:permission-sets`, `kt:principle-of-least-privilege` |
 | `kt:apex-enterprise-patterns` | `kt:trigger-framework-pattern`, `kt:package-dependencies` |
 | `kt:classic-encryption` | `kt:salesforce-shield`, `kt:shield-platform-encryption` |
 | `kt:data-lake-objects` | `kt:data-model-objects`, `kt:zero-copy-data-federation` |

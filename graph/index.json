@@ -1659,6 +1659,33 @@
     ]
   },
   {
+    "id": "kt:field-level-security",
+    "title": "Field-Level Security",
+    "aliases": [
+      "FLS",
+      "field-level security",
+      "field permissions",
+      "FieldPermissions",
+      "FieldPermissions object",
+      "field accessibility",
+      "CRUD/FLS"
+    ],
+    "type": "SecurityControl",
+    "domain": "security-and-sharing",
+    "file": "articles/security-and-sharing/field-level-security.md",
+    "created": "2026-11-07",
+    "release": "Winter '27",
+    "status": "current",
+    "source_urls": [
+      "https://trailhead.salesforce.com/content/learn/modules/data_security/data_security_fields",
+      "https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/object_reference/sforce_api_objects_fieldpermissions.htm",
+      "https://developer.salesforce.com/docs/atlas.en-us.264.0.apexcode.meta/pages/apex_classes_enforce_usermode.htm",
+      "https://developer.salesforce.com/docs/atlas.en-us.264.0.apexcode.meta/pages/versioned_behavior_changes.htm",
+      "https://developer.salesforce.com/docs/platform/secure-coding/guide/secure-coding-access-control-protect-from-crud-fls-vulnerabilities.html",
+      "https://developer.salesforce.com/docs/platform/lwc/guide/apex-security"
+    ]
+  },
+  {
     "id": "kt:field-service",
     "title": "Field Service",
     "aliases": [
