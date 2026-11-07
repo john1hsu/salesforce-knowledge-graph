@@ -8992,6 +8992,95 @@
       ]
     },
     {
+      "@id": "kt:first-generation-managed-packages",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "First-Generation Managed Packages",
+      "skos:definition": "Salesforce's original packaging technology for ISV partners: an upgradeable, namespaced managed package whose metadata lives in a dedicated Developer Edition packaging org, released in linear versions with patches built in separate patch orgs. Still supported, but Salesforce steers new apps to managed 2GP.",
+      "kto:domain": "devops-and-alm",
+      "dcterms:created": "2026-11-07",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "First-Generation Managed Packaging Developer Guide (PDF)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://resources.docs.salesforce.com/260/latest/en-us/sfdc/pdf/pkg1_dev.pdf",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Comparison of First- and Second-Generation Managed Packages",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/pkg2-dev/guide/sfdx-dev-dev2gp-comparison.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Create and Upload Patches in First-Generation Managed Packages",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/pkg1-dev/guide/patches-creating.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Components Available in First-Generation Managed Packages",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/pkg1-dev/guide/first-gen-packageable-components.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Move to 2GP: Migrate Your Managed Packages with Ease",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/pkg1-dev/guide/move-to-second-gen-pkg.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Create a Packaging Org (CumulusCI for Managed Packages)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/cumulusci-for-managed-packages/create-a-packaging-org",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/devops-and-alm/first-generation-managed-packages.md",
+      "skos:altLabel": [
+        "managed 1GP",
+        "1GP",
+        "first-generation managed packaging",
+        "1GP managed package",
+        "packaging org packages"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:application-lifecycle-management"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:appexchange-security-review"
+        },
+        {
+          "@id": "kt:tooling-api"
+        }
+      ],
+      "kto:replacedBy": [
+        {
+          "@id": "kt:second-generation-managed-packages"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:package-dependencies"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:unlocked-packages"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:namespace-registry"
+        }
+      ]
+    },
+    {
       "@id": "kt:metadata-api",
       "@type": "kto:API",
       "skos:prefLabel": "Metadata API",
