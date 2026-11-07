@@ -20,7 +20,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:integration-patterns-request-reply-fire-and-forget` | `kt:event-driven-architecture`, `kt:integration-patterns` |
 | `kt:lead-conversion` | `kt:sales-cloud`, `kt:business-processes` |
 | `kt:namespace-registry` | `kt:dev-hub`, `kt:second-generation-managed-packages` |
-| `kt:nist-cybersecurity-framework` | `kt:iso-iec-27001`, `kt:security-compliance-frameworks` |
 | `kt:opportunity-teams` | `kt:opportunity-splits`, `kt:opportunity-splits` |
 | `kt:orchestration-work-guide` | `kt:approval-processes`, `kt:flow-orchestrator` |
 | `kt:principle-of-least-privilege` | `kt:permission-set-groups`, `kt:permission-sets` |
@@ -77,6 +76,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:gdpr-international-transfers` | `kt:data-residency` |
 | `kt:governance-risk-and-compliance` | `kt:security-compliance-frameworks` |
 | `kt:government-cloud` | `kt:government-cloud-plus` |
+| `kt:hitrust-csf` | `kt:nist-cybersecurity-framework` |
 | `kt:hyperforce-operating-zones` | `kt:data-residency` |
 | `kt:identity-connect` | `kt:salesforce-identity` |
 | `kt:invocable-actions-api` | `kt:autolaunched-flow` |
