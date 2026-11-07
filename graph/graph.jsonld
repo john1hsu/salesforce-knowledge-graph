@@ -14160,6 +14160,97 @@
       ]
     },
     {
+      "@id": "kt:soc-2",
+      "@type": "kto:ExternalConcept",
+      "skos:prefLabel": "SOC 2",
+      "skos:definition": "The AICPA attestation report in which an independent CPA examines a service organization's controls relevant to security, availability, processing integrity, confidentiality or privacy; Salesforce publishes SOC 2 reports per service and infrastructure, covering security, availability and confidentiality, behind a login on its compliance site.",
+      "kto:domain": "public-sector-and-compliance",
+      "dcterms:created": "2026-11-07",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "System and Organization Controls: SOC Suite of Services",
+          "dcterms:publisher": "AICPA & CIMA",
+          "schema:url": "https://www.aicpa-cima.com/resources/landing/system-and-organization-controls-soc-suite-of-services",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "Data Security in the Cloud: SOC Reports for Service Organizations",
+          "dcterms:publisher": "Wolters Kluwer",
+          "schema:url": "https://wolterskluwer.com/en/expert-insights/data-security-in-the-cloud-soc-reports-for-service-orgs",
+          "kto:sourceType": "news"
+        },
+        {
+          "dcterms:title": "SOC 2 — Salesforce Compliance",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://compliance.salesforce.com/en/soc-2",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "SOC 2 Report - Salesforce Services on Hyperforce",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://compliance.salesforce.com/en/documents/a006e00000xpn20AAA",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "SOC 2 Report - Marketing Cloud Engagement on Hyperforce + Marketing Cloud Growth",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://compliance.salesforce.com/en/documents/a006e00000yuiGOAAY",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "SOC 3 — Salesforce Compliance",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://compliance.salesforce.com/en/soc-3",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/public-sector-and-compliance/soc-2.md",
+      "skos:altLabel": [
+        "SOC 2 report",
+        "SOC 2 Type 2",
+        "SOC 2 Type II",
+        "System and Organization Controls 2",
+        "SOC for Service Organizations: Trust Services Criteria"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:security-compliance-frameworks"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:hyperforce"
+        },
+        {
+          "@id": "kt:nist-sp-800-53"
+        },
+        {
+          "@id": "kt:fedramp"
+        },
+        {
+          "@id": "kt:marketing-cloud-engagement"
+        },
+        {
+          "@id": "kt:data-residency"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:iso-iec-27001"
+        },
+        {
+          "@id": "kt:soc-1"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:trust-services-criteria"
+        }
+      ]
+    },
+    {
       "@id": "kt:apex-managed-sharing",
       "@type": "kto:SecurityControl",
       "skos:prefLabel": "Apex Managed Sharing",

@@ -143,7 +143,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:skills-based-routing` | `kt:omni-channel` |
 | `kt:slack-api-rate-limits` | `kt:slack-platform` |
 | `kt:slack-workflow-builder` | `kt:slack-platform` |
-| `kt:soc-2` | `kt:iso-iec-27001` |
+| `kt:soc-1` | `kt:soc-2` |
 | `kt:soql-injection` | `kt:code-analyzer` |
 | `kt:streaming-api` | `kt:pub-sub-api` |
 | `kt:streaming-insights` | `kt:calculated-insights` |
@@ -153,6 +153,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:test-data-factory` | `kt:apex-testing` |
 | `kt:trailhead` | `kt:salesforce-certification-program` |
 | `kt:transaction-finalizers` | `kt:queueable-apex` |
+| `kt:trust-services-criteria` | `kt:soc-2` |
 | `kt:upsert` | `kt:external-id-fields` |
 | `kt:user-interface-api` | `kt:lightning-data-service` |
 | `kt:wcag` | `kt:section-508-accessibility` |
