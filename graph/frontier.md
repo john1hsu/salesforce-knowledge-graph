@@ -10,7 +10,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:data-lake-objects` | `kt:data-model-objects`, `kt:zero-copy-data-federation` |
 | `kt:experience-builder` | `kt:experience-cloud`, `kt:experience-cloud-identity` |
 | `kt:first-generation-managed-packages` | `kt:package-dependencies`, `kt:second-generation-managed-packages` |
-| `kt:future-methods` | `kt:asynchronous-apex`, `kt:queueable-apex` |
 | `kt:graphql-api` | `kt:polymorphic-relationships`, `kt:lightning-data-service` |
 | `kt:group-membership-locking` | `kt:enterprise-territory-management`, `kt:sharing-recalculation` |
 | `kt:integration-patterns-request-reply-fire-and-forget` | `kt:event-driven-architecture`, `kt:integration-patterns` |
@@ -90,6 +89,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:marketing-cloud-account-engagement` | `kt:marketing-cloud-engagement` |
 | `kt:marketing-cloud-connect` | `kt:marketing-cloud-engagement` |
 | `kt:marketing-cloud-next` | `kt:marketing-cloud-engagement` |
+| `kt:mixed-dml-error` | `kt:future-methods` |
 | `kt:mule-runtime-engine` | `kt:mulesoft-anypoint-platform` |
 | `kt:mulesoft-composer` | `kt:slack-platform` |
 | `kt:nist-digital-identity-guidelines` | `kt:multi-factor-authentication` |

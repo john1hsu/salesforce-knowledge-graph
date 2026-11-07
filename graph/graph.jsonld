@@ -7792,6 +7792,82 @@
       ]
     },
     {
+      "@id": "kt:future-methods",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Future Methods",
+      "skos:definition": "Static, void Apex methods annotated with @Future that the platform queues and runs asynchronously in their own transaction, used for callouts from triggers and for separating setup and non-setup DML; Salesforce now recommends Queueable Apex for new work.",
+      "kto:domain": "development",
+      "dcterms:created": "2026-11-07",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Apex Developer Guide: Future Methods",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_invoking_future_methods.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Trailhead: Use Future Methods (Asynchronous Apex module)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/en/content/learn/modules/asynchronous_apex/async_apex_future_methods",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Apex Developer Guide: sObjects That Can't Be Used Together in DML Operations",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apex/apex_dml_non_mix_sobjects.htm",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/development/future-methods.md",
+      "skos:altLabel": [
+        "@future annotation",
+        "@Future methods",
+        "future calls",
+        "Apex future methods"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:asynchronous-apex"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:apex-callouts"
+        },
+        {
+          "@id": "kt:apex-triggers"
+        },
+        {
+          "@id": "kt:apex-testing"
+        },
+        {
+          "@id": "kt:batch-apex"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:queueable-apex"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:governor-limits"
+        }
+      ],
+      "kto:mitigates": [
+        {
+          "@id": "kt:mixed-dml-error"
+        }
+      ],
+      "kto:causes": [
+        {
+          "@id": "kt:record-locking"
+        }
+      ]
+    },
+    {
       "@id": "kt:lightning-data-service",
       "@type": "kto:Feature",
       "skos:prefLabel": "Lightning Data Service",
