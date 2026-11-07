@@ -12546,6 +12546,90 @@
       ]
     },
     {
+      "@id": "kt:platform-app-builder-certification",
+      "@type": "kto:Certification",
+      "skos:prefLabel": "Platform App Builder Certification",
+      "skos:definition": "Salesforce's credential for building custom applications declaratively on the Salesforce Platform, earned through a proctored exam weighted towards business logic and process automation, data modeling and Salesforce fundamentals.",
+      "kto:domain": "platform-architecture",
+      "dcterms:created": "2026-11-07",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Certification - Salesforce Certified Platform App Builder",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/credentials/platformappbuilder",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Get Started with Platform App Builder Certification Prep",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/platform-app-builder-pt1/platform-app-builder-getting-started",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Refresh on Business Logic and Process Automation",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/es/content/learn/modules/platform-app-builder-pt2/platform-app-builder-automation",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Prepare for Your Salesforce Platform App Builder Certification",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/trails/prepare-for-your-salesforce-platform-app-builder-certification",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Platform App Builder Certification Maintenance (Winter '26)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/platform-app-builder-certification-maintenance-winter-26",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Salesforce Certified Platform App Builder",
+          "dcterms:publisher": "Global Knowledge",
+          "schema:url": "https://www.globalknowledge.com/en-ca/certifications/certification-training/salesforce/salesforce-certified-platform-app-builder",
+          "kto:sourceType": "partner"
+        }
+      ],
+      "kto:file": "articles/platform-architecture/platform-app-builder-certification.md",
+      "skos:altLabel": [
+        "Salesforce Certified Platform App Builder",
+        "Salesforce App Builder certification",
+        "PAB certification"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-certification-program"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:platform-administrator-certification"
+        },
+        {
+          "@id": "kt:platform-developer-certification"
+        },
+        {
+          "@id": "kt:flow-builder"
+        },
+        {
+          "@id": "kt:lookup-vs-master-detail"
+        },
+        {
+          "@id": "kt:roll-up-summary-field"
+        },
+        {
+          "@id": "kt:sandbox-types"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:application-architect-certification"
+        }
+      ]
+    },
+    {
       "@id": "kt:query-optimizer-selectivity",
       "@type": "kto:Concept",
       "skos:prefLabel": "Query Optimizer Selectivity",

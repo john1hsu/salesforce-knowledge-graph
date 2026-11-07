@@ -4,7 +4,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:platform-app-builder-certification` | `kt:application-architect-certification`, `kt:platform-developer-certification`, `kt:platform-administrator-certification` |
 | `kt:profiles` | `kt:login-flows`, `kt:session-security-levels`, `kt:permission-set-groups` |
 | `kt:account-takeover` | `kt:multi-factor-authentication`, `kt:session-security-levels` |
 | `kt:classic-encryption` | `kt:salesforce-shield`, `kt:shield-platform-encryption` |
