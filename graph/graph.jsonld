@@ -10024,6 +10024,102 @@
       ]
     },
     {
+      "@id": "kt:session-security-levels",
+      "@type": "kto:SecurityControl",
+      "skos:prefLabel": "Session Security Levels",
+      "skos:definition": "The Standard or High Assurance level Salesforce assigns to each user session based on how the user logged in, which admins use to demand step-up verification (usually MFA) or block access for sensitive setup areas, reports and dashboards, connected apps and profiles.",
+      "kto:domain": "identity",
+      "dcterms:created": "2026-11-07",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Session Security",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=sf.security_overview_sessions.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Require High-Assurance Session Security for Sensitive Operations",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=xcloud.security_auth_require_ha_session.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Manage Session Policies for a Connected App",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=xcloud.connected_app_manage_session_policies.htm&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Use Salesforce MFA for SSO (Salesforce Orgs)",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=xcloud.mfa_sso_logins.htm&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Salesforce Session Security: \"High Assurance\" Level Blocks Asynchronous Apex Processing",
+          "dcterms:publisher": "Salesforce Help (Knowledge Article)",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=000392426&language=en_US&type=1",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "SessionLevel Enum (Apex Reference Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_enum_Auth_SessionLevel.htm",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/identity/session-security-levels.md",
+      "skos:altLabel": [
+        "session security level",
+        "high assurance session",
+        "high-assurance session",
+        "Session Security Level Required at Login",
+        "step-up authentication",
+        "Auth.SessionLevel"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-identity"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:multi-factor-authentication"
+        },
+        {
+          "@id": "kt:single-sign-on-saml"
+        },
+        {
+          "@id": "kt:connected-apps"
+        },
+        {
+          "@id": "kt:asynchronous-apex"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:login-flows"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:profiles"
+        }
+      ],
+      "kto:mitigates": [
+        {
+          "@id": "kt:account-takeover"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:identity-and-access-management-architect-certification"
+        }
+      ]
+    },
+    {
       "@id": "kt:single-sign-on-saml",
       "@type": "kto:Feature",
       "skos:prefLabel": "SAML Single Sign-On",

@@ -6,6 +6,8 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 |---|---|
 | `kt:crm-analytics` | `kt:tableau`, `kt:event-monitoring`, `kt:salesforce-shield` |
 | `kt:platform-app-builder-certification` | `kt:application-architect-certification`, `kt:platform-developer-certification`, `kt:platform-administrator-certification` |
+| `kt:profiles` | `kt:login-flows`, `kt:session-security-levels`, `kt:permission-set-groups` |
+| `kt:account-takeover` | `kt:multi-factor-authentication`, `kt:session-security-levels` |
 | `kt:classic-encryption` | `kt:salesforce-shield`, `kt:shield-platform-encryption` |
 | `kt:data-lake-objects` | `kt:data-model-objects`, `kt:zero-copy-data-federation` |
 | `kt:experience-builder` | `kt:experience-cloud`, `kt:experience-cloud-identity` |
@@ -20,17 +22,14 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:orchestration-work-guide` | `kt:approval-processes`, `kt:flow-orchestrator` |
 | `kt:page-layouts` | `kt:business-processes`, `kt:record-types` |
 | `kt:permission-sets` | `kt:named-credentials`, `kt:permission-set-groups` |
-| `kt:profiles` | `kt:login-flows`, `kt:permission-set-groups` |
 | `kt:public-groups` | `kt:queues`, `kt:sharing-rules` |
 | `kt:remote-call-in` | `kt:batch-data-synchronization`, `kt:integration-patterns` |
 | `kt:remote-site-settings` | `kt:apex-callouts`, `kt:named-credentials` |
 | `kt:sandbox-templates` | `kt:environment-strategy`, `kt:sandbox-types` |
 | `kt:scratch-org-allocations` | `kt:dev-hub`, `kt:scratch-orgs` |
-| `kt:session-security-levels` | `kt:login-flows`, `kt:multi-factor-authentication` |
 | `kt:soap-api` | `kt:external-id-fields`, `kt:rest-api` |
 | `kt:sosl` | `kt:external-objects`, `kt:soql` |
 | `kt:transaction-security-policies` | `kt:event-monitoring`, `kt:salesforce-shield` |
-| `kt:account-takeover` | `kt:multi-factor-authentication` |
 | `kt:apex-continuations` | `kt:apex-callouts` |
 | `kt:apex-enterprise-patterns` | `kt:trigger-framework-pattern` |
 | `kt:apex-flex-queue` | `kt:batch-apex` |

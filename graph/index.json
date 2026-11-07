@@ -3571,6 +3571,32 @@
     ]
   },
   {
+    "id": "kt:session-security-levels",
+    "title": "Session Security Levels",
+    "aliases": [
+      "session security level",
+      "high assurance session",
+      "high-assurance session",
+      "Session Security Level Required at Login",
+      "step-up authentication",
+      "Auth.SessionLevel"
+    ],
+    "type": "SecurityControl",
+    "domain": "identity",
+    "file": "articles/identity/session-security-levels.md",
+    "created": "2026-11-07",
+    "release": "Winter '27",
+    "status": "current",
+    "source_urls": [
+      "https://help.salesforce.com/s/articleView?id=sf.security_overview_sessions.htm&language=en_US&type=5",
+      "https://help.salesforce.com/s/articleView?id=xcloud.security_auth_require_ha_session.htm&language=en_US&type=5",
+      "https://help.salesforce.com/s/articleView?language=en_US&id=xcloud.connected_app_manage_session_policies.htm&type=5",
+      "https://help.salesforce.com/s/articleView?language=en_US&id=xcloud.mfa_sso_logins.htm&type=5",
+      "https://help.salesforce.com/s/articleView?id=000392426&language=en_US&type=1",
+      "https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_enum_Auth_SessionLevel.htm"
+    ]
+  },
+  {
     "id": "kt:sharing-and-visibility-architect-certification",
     "title": "Sharing and Visibility Architect Certification",
     "aliases": [
