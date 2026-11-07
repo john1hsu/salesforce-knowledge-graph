@@ -734,6 +734,32 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/bulk-api-2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#governedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/bulk-api-allocations> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/bulk-api-2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/bulk-api-2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/business-hours> <http://purl.org/dc/terms/created> "2026-11-07" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/business-hours> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/business-hours> <http://www.w3.org/2000/01/rdf-schema#label> "Business Hours" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/business-hours> <http://www.w3.org/2004/02/skos/core#altLabel> "BusinessHours class" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/business-hours> <http://www.w3.org/2004/02/skos/core#altLabel> "BusinessHours object" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/business-hours> <http://www.w3.org/2004/02/skos/core#altLabel> "BusinessHours" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/business-hours> <http://www.w3.org/2004/02/skos/core#altLabel> "support hours" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/business-hours> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/process-automation> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/business-hours> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/service-cloud> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/business-hours> <http://www.w3.org/2004/02/skos/core#definition> "Named, time-zoned weekly schedules (with optional holidays) that tell Salesforce when a support team is working, so escalation rules, entitlement milestones and Apex time calculations count only working time." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/business-hours> <http://www.w3.org/2004/02/skos/core#prefLabel> "Business Hours" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/business-hours> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/change-sets> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/business-hours> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/field-service> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/business-hours> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-hours/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/business-hours> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-hours/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/business-hours> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-hours/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/business-hours> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-hours/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/business-hours> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-hours/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/business-hours> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-hours/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/business-hours> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "automation" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/business-hours> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/holidays> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/business-hours> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/business-hours> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/entitlement-management> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/business-hours> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/escalation-rules> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/business-hours> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/business-hours> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/business-processes> <http://purl.org/dc/terms/created> "2026-11-06" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/business-processes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/business-processes> <http://www.w3.org/2000/01/rdf-schema#label> "Business Processes" .
@@ -5425,6 +5451,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulk-api-2/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulk-api-2/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulk-api-2/s5> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/api-asynch/guide/bulk-common-limits.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-hours/s1> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-hours/s1> <http://purl.org/dc/terms/title> "Set Business Hours" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-hours/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-hours/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-hours/s1> <https://schema.org/url> "https://help.salesforce.com/s/articleView?language=en_US&id=service.customize_supporthours.htm&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-hours/s2> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-hours/s2> <http://purl.org/dc/terms/title> "BusinessHours (SOAP API Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-hours/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-hours/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-hours/s2> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.api.meta/api/sforce_api_objects_businesshours.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-hours/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-hours/s3> <http://purl.org/dc/terms/title> "Holiday (Object Reference for the Salesforce Platform)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-hours/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-hours/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-hours/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/object_reference/sforce_api_objects_holiday.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-hours/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-hours/s4> <http://purl.org/dc/terms/title> "BusinessHours Class (Apex Reference Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-hours/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-hours/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-hours/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_classes_businesshours.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-hours/s5> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-hours/s5> <http://purl.org/dc/terms/title> "How Business Hours Work in Entitlement Management" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-hours/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-hours/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-hours/s5> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=entitlements_business_hours.htm&language=en_US&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-hours/s6> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-hours/s6> <http://purl.org/dc/terms/title> "Entitlement Management Limits and Limitations" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-hours/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-hours/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-hours/s6> <https://schema.org/url> "https://help.salesforce.com/s/articleView?language=en_US&id=entitlements_best_practices.htm&type=5" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-processes/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-processes/s1> <http://purl.org/dc/terms/title> "Metadata API Developer Guide: BusinessProcess" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-processes/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

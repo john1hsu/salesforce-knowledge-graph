@@ -1634,6 +1634,93 @@
       ]
     },
     {
+      "@id": "kt:business-hours",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Business Hours",
+      "skos:definition": "Named, time-zoned weekly schedules (with optional holidays) that tell Salesforce when a support team is working, so escalation rules, entitlement milestones and Apex time calculations count only working time.",
+      "kto:domain": "automation",
+      "dcterms:created": "2026-11-07",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Set Business Hours",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=service.customize_supporthours.htm&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "BusinessHours (SOAP API Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api.meta/api/sforce_api_objects_businesshours.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Holiday (Object Reference for the Salesforce Platform)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/object_reference/sforce_api_objects_holiday.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "BusinessHours Class (Apex Reference Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_classes_businesshours.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "How Business Hours Work in Entitlement Management",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=entitlements_business_hours.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Entitlement Management Limits and Limitations",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=entitlements_best_practices.htm&type=5",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/automation/business-hours.md",
+      "skos:altLabel": [
+        "BusinessHours",
+        "support hours",
+        "BusinessHours object",
+        "BusinessHours class"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:process-automation"
+        },
+        {
+          "@id": "kt:service-cloud"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:change-sets"
+        },
+        {
+          "@id": "kt:field-service"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:escalation-rules"
+        },
+        {
+          "@id": "kt:entitlement-management"
+        },
+        {
+          "@id": "kt:apex"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:holidays"
+        }
+      ]
+    },
+    {
       "@id": "kt:escalation-rules",
       "@type": "kto:Feature",
       "skos:prefLabel": "Escalation Rules",

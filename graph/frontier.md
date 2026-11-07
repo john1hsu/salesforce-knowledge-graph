@@ -7,7 +7,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:data-breach-risk` | `kt:account-takeover`, `kt:integration-security`, `kt:shield-platform-encryption`, `kt:transaction-security-policies` |
 | `kt:principle-of-least-privilege` | `kt:integration-security`, `kt:permission-set-groups`, `kt:permission-sets` |
 | `kt:apex-enterprise-patterns` | `kt:trigger-framework-pattern`, `kt:package-dependencies` |
-| `kt:business-hours` | `kt:escalation-rules`, `kt:entitlement-management` |
 | `kt:classic-encryption` | `kt:salesforce-shield`, `kt:shield-platform-encryption` |
 | `kt:data-lake-objects` | `kt:data-model-objects`, `kt:zero-copy-data-federation` |
 | `kt:experience-builder` | `kt:experience-cloud`, `kt:experience-cloud-identity` |
@@ -74,6 +73,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:governance-risk-and-compliance` | `kt:security-compliance-frameworks` |
 | `kt:government-cloud` | `kt:government-cloud-plus` |
 | `kt:hitrust-csf` | `kt:nist-cybersecurity-framework` |
+| `kt:holidays` | `kt:business-hours` |
 | `kt:hyperforce-operating-zones` | `kt:data-residency` |
 | `kt:identity-connect` | `kt:salesforce-identity` |
 | `kt:invocable-actions-api` | `kt:autolaunched-flow` |
