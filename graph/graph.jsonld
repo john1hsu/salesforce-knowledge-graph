@@ -7952,6 +7952,90 @@
       ]
     },
     {
+      "@id": "kt:sosl",
+      "@type": "kto:Language",
+      "skos:prefLabel": "SOSL",
+      "skos:definition": "Salesforce Object Search Language, the text-search language that finds words across many fields and objects in a single query through the platform search index, used from Apex and the APIs.",
+      "kto:domain": "development",
+      "dcterms:created": "2026-11-07",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "SOQL and SOSL Reference: SOSL Syntax",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/salesforce-soql-sosl/guide/sforce-api-calls-sosl-syntax.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "SOQL and SOSL Reference: SOSL Limits on Search Results",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/salesforce-soql-sosl/guide/sforce-api-calls-sosl-limits.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Salesforce Developer Limits and Allocations Quick Reference: SOQL and SOSL Limits for Search Queries",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.salesforce_app_limits_cheatsheet.meta/salesforce_app_limits_cheatsheet/salesforce_app_limits_platform_soslsoql.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Apex Developer Guide: Execution Governors and Limits",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_gov_limits.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Trailhead: Apex Basics & Database — Write SOSL Queries",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/apex_database/apex_database_sosl",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/development/sosl.md",
+      "skos:altLabel": [
+        "Salesforce Object Search Language",
+        "SOSL query",
+        "SOSL search"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-platform"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:apex"
+        },
+        {
+          "@id": "kt:knowledge-base"
+        },
+        {
+          "@id": "kt:salesforce-sharing-model"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:soql"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:governor-limits"
+        }
+      ],
+      "kto:usedBy": [
+        {
+          "@id": "kt:apex"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:platform-developer-certification"
+        }
+      ]
+    },
+    {
       "@id": "kt:trigger-framework-pattern",
       "@type": "kto:Pattern",
       "skos:prefLabel": "Trigger Framework Pattern",

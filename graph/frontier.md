@@ -27,7 +27,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:sandbox-templates` | `kt:environment-strategy`, `kt:sandbox-types` |
 | `kt:scratch-org-allocations` | `kt:dev-hub`, `kt:scratch-orgs` |
 | `kt:soap-api` | `kt:external-id-fields`, `kt:rest-api` |
-| `kt:sosl` | `kt:external-objects`, `kt:soql` |
 | `kt:transaction-security-policies` | `kt:event-monitoring`, `kt:salesforce-shield` |
 | `kt:apex-continuations` | `kt:apex-callouts` |
 | `kt:apex-enterprise-patterns` | `kt:trigger-framework-pattern` |

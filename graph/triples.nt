@@ -4479,6 +4479,30 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/soql> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#usedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/soql> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#usedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/bulk-api-2> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/soql> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sosl> <http://purl.org/dc/terms/created> "2026-11-07" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sosl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Language> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sosl> <http://www.w3.org/2000/01/rdf-schema#label> "SOSL" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sosl> <http://www.w3.org/2004/02/skos/core#altLabel> "SOSL query" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sosl> <http://www.w3.org/2004/02/skos/core#altLabel> "SOSL search" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sosl> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce Object Search Language" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sosl> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-platform> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sosl> <http://www.w3.org/2004/02/skos/core#definition> "Salesforce Object Search Language, the text-search language that finds words across many fields and objects in a single query through the platform search index, used from Apex and the APIs." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sosl> <http://www.w3.org/2004/02/skos/core#prefLabel> "SOSL" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sosl> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sosl> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/knowledge-base> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sosl> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-sharing-model> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sosl> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sosl/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sosl> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sosl/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sosl> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sosl/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sosl> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sosl/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sosl> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sosl/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sosl> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#contrastsWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/soql> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sosl> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#coveredBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-developer-certification> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sosl> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "development" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sosl> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#governedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/governor-limits> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sosl> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sosl> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#usedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sosl> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source-tracking> <http://purl.org/dc/terms/created> "2026-11-01" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source-tracking> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source-tracking> <http://www.w3.org/2000/01/rdf-schema#label> "Source Tracking" .
@@ -9037,6 +9061,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soql/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soql/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soql/s6> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/soql-for-admins/get-started-with-soql-queries" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sosl/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sosl/s1> <http://purl.org/dc/terms/title> "SOQL and SOSL Reference: SOSL Syntax" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sosl/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sosl/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sosl/s1> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/salesforce-soql-sosl/guide/sforce-api-calls-sosl-syntax.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sosl/s2> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sosl/s2> <http://purl.org/dc/terms/title> "SOQL and SOSL Reference: SOSL Limits on Search Results" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sosl/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sosl/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sosl/s2> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/salesforce-soql-sosl/guide/sforce-api-calls-sosl-limits.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sosl/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sosl/s3> <http://purl.org/dc/terms/title> "Salesforce Developer Limits and Allocations Quick Reference: SOQL and SOSL Limits for Search Queries" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sosl/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sosl/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sosl/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.salesforce_app_limits_cheatsheet.meta/salesforce_app_limits_cheatsheet/salesforce_app_limits_platform_soslsoql.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sosl/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sosl/s4> <http://purl.org/dc/terms/title> "Apex Developer Guide: Execution Governors and Limits" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sosl/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sosl/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sosl/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_gov_limits.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sosl/s5> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sosl/s5> <http://purl.org/dc/terms/title> "Trailhead: Apex Basics & Database — Write SOSL Queries" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sosl/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sosl/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sosl/s5> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/apex_database/apex_database_sosl" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/source-tracking/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/source-tracking/s1> <http://purl.org/dc/terms/title> "Track Changes Between Your Project and Org (Salesforce DX Developer Guide)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/source-tracking/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
