@@ -3375,6 +3375,33 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/polymorphic-relationships> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/soql> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/polymorphic-relationships> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/polymorphic-relationships> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/principle-of-least-privilege> <http://purl.org/dc/terms/created> "2026-11-07" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/principle-of-least-privilege> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/principle-of-least-privilege> <http://www.w3.org/2000/01/rdf-schema#label> "Principle of Least Privilege" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/principle-of-least-privilege> <http://www.w3.org/2004/02/skos/core#altLabel> "PLP" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/principle-of-least-privilege> <http://www.w3.org/2004/02/skos/core#altLabel> "PoLP" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/principle-of-least-privilege> <http://www.w3.org/2004/02/skos/core#altLabel> "least privilege" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/principle-of-least-privilege> <http://www.w3.org/2004/02/skos/core#altLabel> "least-privilege access" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/principle-of-least-privilege> <http://www.w3.org/2004/02/skos/core#altLabel> "minimum necessary access" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/principle-of-least-privilege> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-sharing-model> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/principle-of-least-privilege> <http://www.w3.org/2004/02/skos/core#definition> "The security principle that every user, integration, agent and process receives only the access its task requires; in Salesforce it is realised by a minimal baseline profile plus additive permission sets and permission set groups." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/principle-of-least-privilege> <http://www.w3.org/2004/02/skos/core#prefLabel> "Principle of Least Privilege" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/principle-of-least-privilege> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/field-level-security> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/principle-of-least-privilege> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-security> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/principle-of-least-privilege> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-53> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/principle-of-least-privilege> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/permission-set-groups> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/principle-of-least-privilege> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/permission-sets> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/principle-of-least-privilege> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/profiles> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/principle-of-least-privilege> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/principle-of-least-privilege/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/principle-of-least-privilege> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/principle-of-least-privilege/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/principle-of-least-privilege> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/principle-of-least-privilege/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/principle-of-least-privilege> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/principle-of-least-privilege/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/principle-of-least-privilege> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/principle-of-least-privilege/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/principle-of-least-privilege> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "security-and-sharing" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/principle-of-least-privilege> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#mitigates> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-breach-risk> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/principle-of-least-privilege> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#partOf> <https://github.com/john1hsu/salesforce-knowledge-graph/id/zero-trust-architecture> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/principle-of-least-privilege> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/principle-of-least-privilege> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/process-automation> <http://purl.org/dc/terms/created> "2026-11-01" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/process-automation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/process-automation> <http://www.w3.org/2000/01/rdf-schema#label> "Process Automation" .
@@ -8173,6 +8200,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/polymorphic-relationships/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/polymorphic-relationships/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/polymorphic-relationships/s5> <https://schema.org/url> "https://trailhead.salesforce.com/modules/sales_admin_maximize_productivity/units/sales_admin_maximize_productivity_unit_1" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/principle-of-least-privilege/s1> <http://purl.org/dc/terms/publisher> "NIST Computer Security Resource Center" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/principle-of-least-privilege/s1> <http://purl.org/dc/terms/title> "least privilege (CSRC Glossary)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/principle-of-least-privilege/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/principle-of-least-privilege/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "standards-body" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/principle-of-least-privilege/s1> <https://schema.org/url> "https://csrc.nist.gov/Glossary/term/least_privilege" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/principle-of-least-privilege/s2> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/principle-of-least-privilege/s2> <http://purl.org/dc/terms/title> "Protecting Data with the Principle of Least Privilege" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/principle-of-least-privilege/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/principle-of-least-privilege/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/principle-of-least-privilege/s2> <https://schema.org/url> "https://www.salesforce.com/blog/principle-of-least-privilege/" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/principle-of-least-privilege/s3> <http://purl.org/dc/terms/publisher> "Salesforce Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/principle-of-least-privilege/s3> <http://purl.org/dc/terms/title> "Data Security: Control Access to Objects (Trailhead)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/principle-of-least-privilege/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/principle-of-least-privilege/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/principle-of-least-privilege/s3> <https://schema.org/url> "https://trailhead.salesforce.com/modules/data_security/units/data_security_objects" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/principle-of-least-privilege/s4> <http://purl.org/dc/terms/publisher> "Salesforce Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/principle-of-least-privilege/s4> <http://purl.org/dc/terms/title> "Technical Debt: Close Security Gaps and Enhance Salesforce Security (Trailhead)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/principle-of-least-privilege/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/principle-of-least-privilege/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/principle-of-least-privilege/s4> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/technical-debt/close-security-gaps" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/principle-of-least-privilege/s5> <http://purl.org/dc/terms/publisher> "Salesforce Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/principle-of-least-privilege/s5> <http://purl.org/dc/terms/title> "Secure and Trusted Headless Foundation: Apply Least-Privilege Controls (Trailhead)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/principle-of-least-privilege/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/principle-of-least-privilege/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/principle-of-least-privilege/s5> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/secure-and-trusted-headless-foundation/apply-least-privilege-controls" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/process-automation/s1> <http://purl.org/dc/terms/publisher> "Salesforce Architects" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/process-automation/s1> <http://purl.org/dc/terms/title> "Record-Triggered Automation Decision Guide" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/process-automation/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

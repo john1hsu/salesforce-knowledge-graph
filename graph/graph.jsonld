@@ -16126,6 +16126,91 @@
       ]
     },
     {
+      "@id": "kt:principle-of-least-privilege",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Principle of Least Privilege",
+      "skos:definition": "The security principle that every user, integration, agent and process receives only the access its task requires; in Salesforce it is realised by a minimal baseline profile plus additive permission sets and permission set groups.",
+      "kto:domain": "security-and-sharing",
+      "dcterms:created": "2026-11-07",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "least privilege (CSRC Glossary)",
+          "dcterms:publisher": "NIST Computer Security Resource Center",
+          "schema:url": "https://csrc.nist.gov/Glossary/term/least_privilege",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "Protecting Data with the Principle of Least Privilege",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/blog/principle-of-least-privilege/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Data Security: Control Access to Objects (Trailhead)",
+          "dcterms:publisher": "Salesforce Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/modules/data_security/units/data_security_objects",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Technical Debt: Close Security Gaps and Enhance Salesforce Security (Trailhead)",
+          "dcterms:publisher": "Salesforce Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/technical-debt/close-security-gaps",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Secure and Trusted Headless Foundation: Apply Least-Privilege Controls (Trailhead)",
+          "dcterms:publisher": "Salesforce Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/secure-and-trusted-headless-foundation/apply-least-privilege-controls",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/security-and-sharing/principle-of-least-privilege.md",
+      "skos:altLabel": [
+        "least privilege",
+        "PoLP",
+        "PLP",
+        "least-privilege access",
+        "minimum necessary access"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-sharing-model"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:permission-sets"
+        },
+        {
+          "@id": "kt:permission-set-groups"
+        },
+        {
+          "@id": "kt:profiles"
+        },
+        {
+          "@id": "kt:integration-security"
+        },
+        {
+          "@id": "kt:field-level-security"
+        },
+        {
+          "@id": "kt:nist-sp-800-53"
+        }
+      ],
+      "kto:mitigates": [
+        {
+          "@id": "kt:data-breach-risk"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:zero-trust-architecture"
+        }
+      ]
+    },
+    {
       "@id": "kt:profiles",
       "@type": "kto:SecurityControl",
       "skos:prefLabel": "Profiles",

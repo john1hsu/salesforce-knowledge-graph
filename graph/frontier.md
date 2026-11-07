@@ -4,12 +4,11 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:principle-of-least-privilege` | `kt:integration-security`, `kt:data-breach-risk`, `kt:permission-set-groups`, `kt:permission-sets` |
+| `kt:field-level-security` | `kt:page-layouts`, `kt:permission-sets`, `kt:principle-of-least-privilege` |
 | `kt:apex-enterprise-patterns` | `kt:trigger-framework-pattern`, `kt:package-dependencies` |
 | `kt:classic-encryption` | `kt:salesforce-shield`, `kt:shield-platform-encryption` |
 | `kt:data-lake-objects` | `kt:data-model-objects`, `kt:zero-copy-data-federation` |
 | `kt:experience-builder` | `kt:experience-cloud`, `kt:experience-cloud-identity` |
-| `kt:field-level-security` | `kt:page-layouts`, `kt:permission-sets` |
 | `kt:first-generation-managed-packages` | `kt:package-dependencies`, `kt:second-generation-managed-packages` |
 | `kt:future-methods` | `kt:asynchronous-apex`, `kt:queueable-apex` |
 | `kt:graphql-api` | `kt:polymorphic-relationships`, `kt:lightning-data-service` |
@@ -157,3 +156,4 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:wcag` | `kt:section-508-accessibility` |
 | `kt:work-orders` | `kt:field-service` |
 | `kt:zero-copy-data-sharing` | `kt:zero-copy-data-federation` |
+| `kt:zero-trust-architecture` | `kt:principle-of-least-privilege` |
