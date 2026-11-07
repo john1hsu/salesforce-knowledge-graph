@@ -4,12 +4,12 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:integration-security` | `kt:account-takeover`, `kt:oauth-2-0`, `kt:named-credentials` |
-| `kt:transaction-security-policies` | `kt:account-takeover`, `kt:event-monitoring`, `kt:salesforce-shield` |
+| `kt:transaction-security-policies` | `kt:account-takeover`, `kt:integration-security`, `kt:event-monitoring`, `kt:salesforce-shield` |
+| `kt:data-breach-risk` | `kt:account-takeover`, `kt:integration-security`, `kt:shield-platform-encryption` |
+| `kt:principle-of-least-privilege` | `kt:integration-security`, `kt:permission-set-groups`, `kt:permission-sets` |
 | `kt:apex-enterprise-patterns` | `kt:trigger-framework-pattern`, `kt:package-dependencies` |
 | `kt:business-hours` | `kt:escalation-rules`, `kt:entitlement-management` |
 | `kt:classic-encryption` | `kt:salesforce-shield`, `kt:shield-platform-encryption` |
-| `kt:data-breach-risk` | `kt:account-takeover`, `kt:shield-platform-encryption` |
 | `kt:data-lake-objects` | `kt:data-model-objects`, `kt:zero-copy-data-federation` |
 | `kt:experience-builder` | `kt:experience-cloud`, `kt:experience-cloud-identity` |
 | `kt:field-level-security` | `kt:page-layouts`, `kt:permission-sets` |
@@ -22,7 +22,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:namespace-registry` | `kt:dev-hub`, `kt:second-generation-managed-packages` |
 | `kt:opportunity-teams` | `kt:opportunity-splits`, `kt:opportunity-splits` |
 | `kt:orchestration-work-guide` | `kt:approval-processes`, `kt:flow-orchestrator` |
-| `kt:principle-of-least-privilege` | `kt:permission-set-groups`, `kt:permission-sets` |
 | `kt:public-groups` | `kt:queues`, `kt:sharing-rules` |
 | `kt:remote-call-in` | `kt:batch-data-synchronization`, `kt:integration-patterns` |
 | `kt:remote-site-settings` | `kt:apex-callouts`, `kt:named-credentials` |

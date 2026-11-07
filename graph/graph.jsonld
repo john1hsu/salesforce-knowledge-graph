@@ -11733,6 +11733,101 @@
       ]
     },
     {
+      "@id": "kt:integration-security",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Integration Security",
+      "skos:definition": "The set of practices and platform controls that protect system-to-system connections into and out of Salesforce: dedicated least-privilege API-only integration users, OAuth flows instead of stored passwords, allowlisted API clients, secrets held in named credentials, and monitoring of integration traffic.",
+      "kto:domain": "integration",
+      "dcterms:created": "2026-11-07",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Identity and Access Management - Patterns (Salesforce Well-Architected)",
+          "dcterms:publisher": "Salesforce Architects",
+          "schema:url": "https://architect.salesforce.com/docs/architect/well-architected/guide/trust-identity-access-patterns.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Salesforce Integration User Licenses",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=platform.integration_user.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "API Access Control",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/apex/HTViewHelpDoc?id=xcloud.security_api_access_control_about.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Best Practices for Configuring Your Integration User",
+          "dcterms:publisher": "Salesforce Admins",
+          "schema:url": "https://admin.salesforce.com/blog/2023/best-practices-for-configuring-your-integration-user",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/integration/integration-security.md",
+      "skos:altLabel": [
+        "API security",
+        "securing Salesforce integrations",
+        "integration user security",
+        "system-to-system integration security"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:integration-patterns"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:oauth-2-flows-in-salesforce"
+        },
+        {
+          "@id": "kt:connected-apps"
+        },
+        {
+          "@id": "kt:external-client-apps"
+        },
+        {
+          "@id": "kt:event-monitoring"
+        },
+        {
+          "@id": "kt:transaction-security-policies"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:named-credentials"
+        }
+      ],
+      "kto:implements": [
+        {
+          "@id": "kt:principle-of-least-privilege"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:permission-sets"
+        }
+      ],
+      "kto:mitigates": [
+        {
+          "@id": "kt:data-breach-risk"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:account-takeover"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:integration-architect-certification"
+        }
+      ]
+    },
+    {
       "@id": "kt:mulesoft-anypoint-platform",
       "@type": "kto:Product",
       "skos:prefLabel": "MuleSoft Anypoint Platform",

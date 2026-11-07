@@ -2210,6 +2210,34 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-patterns> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/mulesoft-anypoint-platform> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-patterns> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-patterns> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-security> <http://purl.org/dc/terms/created> "2026-11-07" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-security> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-security> <http://www.w3.org/2000/01/rdf-schema#label> "Integration Security" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-security> <http://www.w3.org/2004/02/skos/core#altLabel> "API security" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-security> <http://www.w3.org/2004/02/skos/core#altLabel> "integration user security" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-security> <http://www.w3.org/2004/02/skos/core#altLabel> "securing Salesforce integrations" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-security> <http://www.w3.org/2004/02/skos/core#altLabel> "system-to-system integration security" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-security> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-patterns> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-security> <http://www.w3.org/2004/02/skos/core#definition> "The set of practices and platform controls that protect system-to-system connections into and out of Salesforce: dedicated least-privilege API-only integration users, OAuth flows instead of stored passwords, allowlisted API clients, secrets held in named credentials, and monitoring of integration traffic." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-security> <http://www.w3.org/2004/02/skos/core#prefLabel> "Integration Security" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-security> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/connected-apps> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-security> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/event-monitoring> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-security> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/external-client-apps> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-security> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-2-flows-in-salesforce> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-security> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/transaction-security-policies> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-security> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/integration-security/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-security> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/integration-security/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-security> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/integration-security/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-security> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/integration-security/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-security> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#contrastsWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/account-takeover> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-security> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#coveredBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-architect-certification> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-security> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/permission-sets> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-security> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "integration" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-security> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/named-credentials> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-security> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#implements> <https://github.com/john1hsu/salesforce-knowledge-graph/id/principle-of-least-privilege> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-security> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#mitigates> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-breach-risk> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-security> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-security> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/iso-iec-27001> <http://purl.org/dc/terms/created> "2026-11-06" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/iso-iec-27001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#ExternalConcept> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/iso-iec-27001> <http://www.w3.org/2000/01/rdf-schema#label> "ISO/IEC 27001" .
@@ -6857,6 +6885,26 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/integration-patterns/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/integration-patterns/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/integration-patterns/s4> <https://schema.org/url> "https://trailhead.salesforce.com/zh-CN/content/learn/modules/app-integration-patterns/app-integration-patterns-1" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/integration-security/s1> <http://purl.org/dc/terms/publisher> "Salesforce Architects" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/integration-security/s1> <http://purl.org/dc/terms/title> "Identity and Access Management - Patterns (Salesforce Well-Architected)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/integration-security/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/integration-security/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/integration-security/s1> <https://schema.org/url> "https://architect.salesforce.com/docs/architect/well-architected/guide/trust-identity-access-patterns.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/integration-security/s2> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/integration-security/s2> <http://purl.org/dc/terms/title> "Salesforce Integration User Licenses" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/integration-security/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/integration-security/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/integration-security/s2> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=platform.integration_user.htm&language=en_US&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/integration-security/s3> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/integration-security/s3> <http://purl.org/dc/terms/title> "API Access Control" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/integration-security/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/integration-security/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/integration-security/s3> <https://schema.org/url> "https://help.salesforce.com/apex/HTViewHelpDoc?id=xcloud.security_api_access_control_about.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/integration-security/s4> <http://purl.org/dc/terms/publisher> "Salesforce Admins" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/integration-security/s4> <http://purl.org/dc/terms/title> "Best Practices for Configuring Your Integration User" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/integration-security/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/integration-security/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/integration-security/s4> <https://schema.org/url> "https://admin.salesforce.com/blog/2023/best-practices-for-configuring-your-integration-user" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/iso-iec-27001/s1> <http://purl.org/dc/terms/publisher> "IEC Webstore" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/iso-iec-27001/s1> <http://purl.org/dc/terms/title> "ISO/IEC 27001:2022 Information security, cybersecurity and privacy protection — Information security management systems — Requirements" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/iso-iec-27001/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

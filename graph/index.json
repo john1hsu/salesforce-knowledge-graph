@@ -1950,6 +1950,28 @@
     ]
   },
   {
+    "id": "kt:integration-security",
+    "title": "Integration Security",
+    "aliases": [
+      "API security",
+      "securing Salesforce integrations",
+      "integration user security",
+      "system-to-system integration security"
+    ],
+    "type": "Concept",
+    "domain": "integration",
+    "file": "articles/integration/integration-security.md",
+    "created": "2026-11-07",
+    "release": "Winter '27",
+    "status": "concept",
+    "source_urls": [
+      "https://architect.salesforce.com/docs/architect/well-architected/guide/trust-identity-access-patterns.html",
+      "https://help.salesforce.com/s/articleView?id=platform.integration_user.htm&language=en_US&type=5",
+      "https://help.salesforce.com/apex/HTViewHelpDoc?id=xcloud.security_api_access_control_about.htm",
+      "https://admin.salesforce.com/blog/2023/best-practices-for-configuring-your-integration-user"
+    ]
+  },
+  {
     "id": "kt:iso-iec-27001",
     "title": "ISO/IEC 27001",
     "aliases": [
