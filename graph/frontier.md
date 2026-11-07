@@ -4,7 +4,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:page-layouts` | `kt:business-processes`, `kt:record-types`, `kt:profiles` |
 | `kt:permission-sets` | `kt:named-credentials`, `kt:permission-set-groups`, `kt:profiles` |
 | `kt:account-takeover` | `kt:multi-factor-authentication`, `kt:session-security-levels` |
 | `kt:business-hours` | `kt:escalation-rules`, `kt:entitlement-management` |
@@ -44,6 +43,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:bulk-api-allocations` | `kt:bulk-api-2` |
 | `kt:business-rules-engine` | `kt:public-sector-solutions` |
 | `kt:change-data-capture-allocations` | `kt:change-data-capture` |
+| `kt:compact-layouts` | `kt:page-layouts` |
 | `kt:contact-builder` | `kt:marketing-cloud-engagement` |
 | `kt:contacts-to-multiple-accounts` | `kt:person-accounts` |
 | `kt:custom-domains` | `kt:my-domain` |
@@ -64,11 +64,13 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:digital-accessibility` | `kt:section-508-accessibility` |
 | `kt:dispatcher-console` | `kt:field-service` |
 | `kt:duplicate-management` | `kt:identity-resolution` |
+| `kt:dynamic-forms` | `kt:page-layouts` |
 | `kt:dynamic-revenue-orchestrator` | `kt:revenue-cloud` |
 | `kt:einstein-discovery` | `kt:crm-analytics` |
 | `kt:entitlement-process-metadata` | `kt:entitlement-management` |
 | `kt:external-identity-license` | `kt:experience-cloud-identity` |
 | `kt:external-services` | `kt:apex-callouts` |
+| `kt:field-level-security` | `kt:page-layouts` |
 | `kt:field-service-mobile-app` | `kt:field-service` |
 | `kt:field-service-scheduling-policies` | `kt:field-service` |
 | `kt:financial-services-cloud` | `kt:person-accounts` |
@@ -83,6 +85,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:iso-iec-27002` | `kt:iso-iec-27001` |
 | `kt:journey-builder` | `kt:marketing-cloud-engagement` |
 | `kt:legacy-named-credentials` | `kt:named-credentials` |
+| `kt:lightning-app-builder` | `kt:page-layouts` |
 | `kt:lightning-message-service` | `kt:aura-components` |
 | `kt:lightning-service-console` | `kt:service-cloud` |
 | `kt:lightning-web-security` | `kt:lightning-web-components` |

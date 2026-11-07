@@ -6204,6 +6204,93 @@
       ]
     },
     {
+      "@id": "kt:page-layouts",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Page Layouts",
+      "skos:definition": "Object-level configuration that arranges fields, related lists, buttons, custom links and quick actions on a record's detail and edit pages, assigned to users by the combination of profile and record type.",
+      "kto:domain": "data-model",
+      "dcterms:created": "2026-11-07",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Lightning Experience Customization: Customize Record Details with Page Layouts",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/modules/lex_customization/units/lex_customization_page_layouts",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Tips & Hints for Page Layouts and Field-Level Security",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.salesforce_pagelayouts_cheatsheet.meta/salesforce_pagelayouts_cheatsheet/pagelayouts_cheatsheet.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Metadata API Developer Guide (API v67.0): Layout",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.262.0.api_meta.meta/api_meta/meta_layouts.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Quick Start: Dynamic Forms — Upgrade to Dynamic Forms",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/projects/quick-start-dynamic-forms/upgrade-to-dynamic-forms",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Lightning Knowledge Setup and Customization: Configure Page Layouts and Record Types",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/lightning-knowledge-setup-and-customization/configure-page-layouts-and-record-types",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/data-model/page-layouts.md",
+      "skos:altLabel": [
+        "page layout",
+        "Layout metadata type",
+        "page layout editor",
+        "enhanced page layout editor",
+        "page layout assignment"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:metadata-driven-architecture"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:record-types"
+        },
+        {
+          "@id": "kt:profiles"
+        },
+        {
+          "@id": "kt:business-processes"
+        },
+        {
+          "@id": "kt:lightning-app-builder"
+        },
+        {
+          "@id": "kt:compact-layouts"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:metadata-api"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:field-level-security"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:dynamic-forms"
+        }
+      ]
+    },
+    {
       "@id": "kt:person-accounts",
       "@type": "kto:Feature",
       "skos:prefLabel": "Person Accounts",
