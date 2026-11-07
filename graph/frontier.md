@@ -5,11 +5,13 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | Node | Referenced by |
 |---|---|
 | `kt:account-takeover` | `kt:multi-factor-authentication`, `kt:session-security-levels` |
+| `kt:apex-enterprise-patterns` | `kt:trigger-framework-pattern`, `kt:package-dependencies` |
 | `kt:business-hours` | `kt:escalation-rules`, `kt:entitlement-management` |
 | `kt:classic-encryption` | `kt:salesforce-shield`, `kt:shield-platform-encryption` |
 | `kt:data-lake-objects` | `kt:data-model-objects`, `kt:zero-copy-data-federation` |
 | `kt:experience-builder` | `kt:experience-cloud`, `kt:experience-cloud-identity` |
 | `kt:field-level-security` | `kt:page-layouts`, `kt:permission-sets` |
+| `kt:first-generation-managed-packages` | `kt:package-dependencies`, `kt:second-generation-managed-packages` |
 | `kt:future-methods` | `kt:asynchronous-apex`, `kt:queueable-apex` |
 | `kt:graphql-api` | `kt:polymorphic-relationships`, `kt:lightning-data-service` |
 | `kt:group-membership-locking` | `kt:enterprise-territory-management`, `kt:sharing-recalculation` |
@@ -30,7 +32,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:soap-api` | `kt:external-id-fields`, `kt:rest-api` |
 | `kt:transaction-security-policies` | `kt:event-monitoring`, `kt:salesforce-shield` |
 | `kt:apex-continuations` | `kt:apex-callouts` |
-| `kt:apex-enterprise-patterns` | `kt:trigger-framework-pattern` |
 | `kt:apex-flex-queue` | `kt:batch-apex` |
 | `kt:api-led-connectivity` | `kt:mulesoft-anypoint-platform` |
 | `kt:appexchange-security-review` | `kt:code-analyzer` |
@@ -74,7 +75,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:field-service-scheduling-policies` | `kt:field-service` |
 | `kt:financial-services-cloud` | `kt:person-accounts` |
 | `kt:fips-200` | `kt:fips-199` |
-| `kt:first-generation-managed-packages` | `kt:second-generation-managed-packages` |
 | `kt:gdpr-international-transfers` | `kt:data-residency` |
 | `kt:governance-risk-and-compliance` | `kt:security-compliance-frameworks` |
 | `kt:government-cloud` | `kt:government-cloud-plus` |

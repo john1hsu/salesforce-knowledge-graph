@@ -8733,6 +8733,92 @@
       ]
     },
     {
+      "@id": "kt:package-dependencies",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Package Dependencies",
+      "skos:definition": "The mechanism by which a second-generation package version (unlocked or managed 2GP) declares, in sfdx-project.json, the other package versions it builds on, which fixes the install order and lets an org be split into layered, modular packages.",
+      "kto:domain": "devops-and-alm",
+      "dcterms:created": "2026-11-07",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Project Configuration File for Unlocked Packages (Salesforce DX Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.260.0.sfdx_dev.meta/sfdx_dev/sfdx_dev_unlocked_pkg_config_file.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "package version displaydependencies (Salesforce CLI Command Reference)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/salesforce-cli-reference/guide/cli_reference_package_version_displaydependencies.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Which Package Types Can Your Package Depend On? (Second-Generation Managed Packaging Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/pkg2-dev/guide/sfdx-dev-dev2gp-dependency-overview.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Explore the Easy Spaces App Packaging Architecture",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/projects/quick-start-explore-the-easyspaces-sample-app/explore-the-app-packaging-architecture",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "5 Anti-Patterns in Package Dependency Design and How to Avoid Them",
+          "dcterms:publisher": "Salesforce Architects",
+          "schema:url": "https://medium.com/salesforce-architects/5-anti-patterns-in-package-dependency-design-and-how-to-avoid-them-87bb50331cb8",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/devops-and-alm/package-dependencies.md",
+      "skos:altLabel": [
+        "package dependency",
+        "sfdx-project.json dependencies",
+        "transitive package dependencies",
+        "modular packaging"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:application-lifecycle-management"
+        },
+        {
+          "@id": "kt:salesforce-dx"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:unlocked-packages"
+        },
+        {
+          "@id": "kt:second-generation-managed-packages"
+        },
+        {
+          "@id": "kt:custom-metadata-types"
+        },
+        {
+          "@id": "kt:apex-enterprise-patterns"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:salesforce-cli"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:dev-hub"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:first-generation-managed-packages"
+        }
+      ]
+    },
+    {
       "@id": "kt:salesforce-cli",
       "@type": "kto:Tool",
       "skos:prefLabel": "Salesforce CLI",
