@@ -4,7 +4,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:appexchange-security-review` | `kt:code-analyzer`, `kt:first-generation-managed-packages` |
 | `kt:classic-encryption` | `kt:salesforce-shield`, `kt:shield-platform-encryption` |
 | `kt:data-lake-objects` | `kt:data-model-objects`, `kt:zero-copy-data-federation` |
 | `kt:experience-builder` | `kt:experience-cloud`, `kt:experience-cloud-identity` |
@@ -21,6 +20,8 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:sandbox-templates` | `kt:environment-strategy`, `kt:sandbox-types` |
 | `kt:scratch-org-allocations` | `kt:dev-hub`, `kt:scratch-orgs` |
 | `kt:soap-api` | `kt:external-id-fields`, `kt:rest-api` |
+| `kt:soql-injection` | `kt:appexchange-security-review`, `kt:code-analyzer` |
+| `kt:agentexchange` | `kt:appexchange-security-review` |
 | `kt:agentforce-data-library` | `kt:retrieval-augmented-generation-in-salesforce` |
 | `kt:apex-continuations` | `kt:apex-callouts` |
 | `kt:apex-flex-queue` | `kt:batch-apex` |
@@ -137,7 +138,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:slack-api-rate-limits` | `kt:slack-platform` |
 | `kt:slack-workflow-builder` | `kt:slack-platform` |
 | `kt:soc-1` | `kt:soc-2` |
-| `kt:soql-injection` | `kt:code-analyzer` |
 | `kt:streaming-api` | `kt:pub-sub-api` |
 | `kt:streaming-insights` | `kt:calculated-insights` |
 | `kt:tableau-next` | `kt:tableau` |

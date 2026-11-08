@@ -8635,6 +8635,84 @@
       ]
     },
     {
+      "@id": "kt:appexchange-security-review",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "AgentExchange Security Review",
+      "skos:definition": "The mandatory security assessment Salesforce Product Security performs on partner solutions (managed packages, API-only and Marketing Cloud apps) before they can be listed and distributed on AgentExchange, formerly AppExchange.",
+      "kto:domain": "devops-and-alm",
+      "dcterms:created": "2026-11-08",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "How the AgentExchange Security Review Works",
+          "dcterms:publisher": "Salesforce Developers (ISVforce Guide)",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.packagingGuide.meta/packageGuide/security_review_how_it_works.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Required Materials for Security Review Submission",
+          "dcterms:publisher": "Salesforce Developers (ISVforce Guide)",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.262.0.packagingGuide.meta/packagingGuide/security_review_required_materials.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Submit Your Solution for Security Review (ISV Security Review module)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/en/modules/isv_security_review/units/isv_security_review_submit",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Experience the New AgentExchange",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/agentexchange-quick-look/experience-the-new-agentexchange",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/devops-and-alm/appexchange-security-review.md",
+      "skos:altLabel": [
+        "AppExchange Security Review",
+        "ISV security review",
+        "Salesforce partner security review",
+        "AgentExchange Security Review Wizard"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:application-lifecycle-management"
+        },
+        {
+          "@id": "kt:agentexchange"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:first-generation-managed-packages"
+        },
+        {
+          "@id": "kt:second-generation-managed-packages"
+        },
+        {
+          "@id": "kt:external-client-apps"
+        },
+        {
+          "@id": "kt:field-level-security"
+        },
+        {
+          "@id": "kt:integration-security"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:code-analyzer"
+        }
+      ],
+      "kto:mitigates": [
+        {
+          "@id": "kt:soql-injection"
+        }
+      ]
+    },
+    {
       "@id": "kt:application-lifecycle-management",
       "@type": "kto:Concept",
       "skos:prefLabel": "Application Lifecycle Management",

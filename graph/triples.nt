@@ -399,6 +399,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/api-request-limits> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/rest-api> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/api-request-limits> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/api-request-limits> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/appexchange-security-review> <http://purl.org/dc/terms/created> "2026-11-08" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/appexchange-security-review> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/appexchange-security-review> <http://www.w3.org/2000/01/rdf-schema#label> "AgentExchange Security Review" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/appexchange-security-review> <http://www.w3.org/2004/02/skos/core#altLabel> "AgentExchange Security Review Wizard" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/appexchange-security-review> <http://www.w3.org/2004/02/skos/core#altLabel> "AppExchange Security Review" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/appexchange-security-review> <http://www.w3.org/2004/02/skos/core#altLabel> "ISV security review" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/appexchange-security-review> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce partner security review" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/appexchange-security-review> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentexchange> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/appexchange-security-review> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/application-lifecycle-management> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/appexchange-security-review> <http://www.w3.org/2004/02/skos/core#definition> "The mandatory security assessment Salesforce Product Security performs on partner solutions (managed packages, API-only and Marketing Cloud apps) before they can be listed and distributed on AgentExchange, formerly AppExchange." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/appexchange-security-review> <http://www.w3.org/2004/02/skos/core#prefLabel> "AgentExchange Security Review" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/appexchange-security-review> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/external-client-apps> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/appexchange-security-review> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/field-level-security> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/appexchange-security-review> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/first-generation-managed-packages> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/appexchange-security-review> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-security> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/appexchange-security-review> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/second-generation-managed-packages> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/appexchange-security-review> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/appexchange-security-review/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/appexchange-security-review> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/appexchange-security-review/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/appexchange-security-review> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/appexchange-security-review/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/appexchange-security-review> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/appexchange-security-review/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/appexchange-security-review> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/code-analyzer> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/appexchange-security-review> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "devops-and-alm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/appexchange-security-review> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#mitigates> <https://github.com/john1hsu/salesforce-knowledge-graph/id/soql-injection> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/appexchange-security-review> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/appexchange-security-review> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/application-architect-certification> <http://purl.org/dc/terms/created> "2026-11-05" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/application-architect-certification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Certification> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/application-architect-certification> <http://www.w3.org/2000/01/rdf-schema#label> "Application Architect Certification" .
@@ -5378,6 +5403,26 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/api-request-limits/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/api-request-limits/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/api-request-limits/s3> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/app-development-without-limits/app-development-without-limits-rate" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/appexchange-security-review/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers (ISVforce Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/appexchange-security-review/s1> <http://purl.org/dc/terms/title> "How the AgentExchange Security Review Works" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/appexchange-security-review/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/appexchange-security-review/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/appexchange-security-review/s1> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.packagingGuide.meta/packageGuide/security_review_how_it_works.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/appexchange-security-review/s2> <http://purl.org/dc/terms/publisher> "Salesforce Developers (ISVforce Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/appexchange-security-review/s2> <http://purl.org/dc/terms/title> "Required Materials for Security Review Submission" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/appexchange-security-review/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/appexchange-security-review/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/appexchange-security-review/s2> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.262.0.packagingGuide.meta/packagingGuide/security_review_required_materials.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/appexchange-security-review/s3> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/appexchange-security-review/s3> <http://purl.org/dc/terms/title> "Submit Your Solution for Security Review (ISV Security Review module)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/appexchange-security-review/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/appexchange-security-review/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/appexchange-security-review/s3> <https://schema.org/url> "https://trailhead.salesforce.com/en/modules/isv_security_review/units/isv_security_review_submit" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/appexchange-security-review/s4> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/appexchange-security-review/s4> <http://purl.org/dc/terms/title> "Experience the New AgentExchange" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/appexchange-security-review/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/appexchange-security-review/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/appexchange-security-review/s4> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/agentexchange-quick-look/experience-the-new-agentexchange" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/application-architect-certification/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/application-architect-certification/s1> <http://purl.org/dc/terms/title> "Certification - Salesforce Certified Application Architect" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/application-architect-certification/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
