@@ -4,6 +4,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
+| `kt:architecture-decision-records` | `kt:salesforce-diagrams`, `kt:solution-design-tradeoffs` |
 | `kt:data-lake-objects` | `kt:data-model-objects`, `kt:zero-copy-data-federation` |
 | `kt:experience-builder` | `kt:experience-cloud`, `kt:experience-cloud-identity` |
 | `kt:graphql-api` | `kt:polymorphic-relationships`, `kt:lightning-data-service` |
@@ -26,7 +27,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:apex-flex-queue` | `kt:batch-apex` |
 | `kt:apex-mocks` | `kt:apex-enterprise-patterns` |
 | `kt:api-led-connectivity` | `kt:mulesoft-anypoint-platform` |
-| `kt:architecture-decision-records` | `kt:solution-design-tradeoffs` |
 | `kt:automation-studio` | `kt:marketing-cloud-engagement` |
 | `kt:backup-and-recover` | `kt:archiving-strategy` |
 | `kt:block-kit` | `kt:slack-platform` |
@@ -117,7 +117,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:salesforce-archive` | `kt:archiving-strategy` |
 | `kt:salesforce-cpq` | `kt:revenue-cloud` |
 | `kt:salesforce-data-mask` | `kt:environment-strategy` |
-| `kt:salesforce-diagrams` | `kt:salesforce-architecture-center` |
 | `kt:salesforce-ecosystem` | `kt:salesforce-inc` |
 | `kt:salesforce-ecosystem-roles` | `kt:salesforce-architect` |
 | `kt:salesforce-go` | `kt:knowledge-base` |

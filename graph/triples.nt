@@ -4335,6 +4335,30 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-connect> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#implements> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-virtualization> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-connect> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-connect> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-diagrams> <http://purl.org/dc/terms/created> "2026-11-08" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-diagrams> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Tool> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-diagrams> <http://www.w3.org/2000/01/rdf-schema#label> "Salesforce Diagrams" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-diagrams> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce Diagram Framework" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-diagrams> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce Diagrams framework" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-diagrams> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce architecture diagrams" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-diagrams> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-architecture-center> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-diagrams> <http://www.w3.org/2004/02/skos/core#definition> "Salesforce Architects' standard for drawing architecture diagrams: two styles (Marketing, Strategy & Sales vs. Documentation & Implementation), four C4-inspired levels of detail, six diagram types, a kit of standard components, and templates in a Reference Architecture Gallery on architect.salesforce.com." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-diagrams> <http://www.w3.org/2004/02/skos/core#prefLabel> "Salesforce Diagrams" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-diagrams> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/architecture-decision-records> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-diagrams> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/cta-review-board> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-diagrams> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-architecture> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-diagrams> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-patterns> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-diagrams> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/solution-design-tradeoffs> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-diagrams> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-diagrams/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-diagrams> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-diagrams/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-diagrams> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-diagrams/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-diagrams> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-diagrams/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-diagrams> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-diagrams/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-diagrams> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "architecture-practice" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-diagrams> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#partOf> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-architecture-center> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-diagrams> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-diagrams> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#usedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-architect> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-diagrams> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-dx> <http://purl.org/dc/terms/created> "2026-11-01" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-dx> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Tool> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-dx> <http://www.w3.org/2000/01/rdf-schema#label> "Salesforce DX" .
@@ -9433,6 +9457,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-connect/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-connect/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-connect/s6> <https://schema.org/url> "https://developer.salesforce.com/blogs/2022/09/learn-moar-in-winter-23-with-the-salesforce-connect-adapter-for-amazon-athena" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-diagrams/s1> <http://purl.org/dc/terms/publisher> "Salesforce Architects" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-diagrams/s1> <http://purl.org/dc/terms/title> "Salesforce Diagrams: Framework Overview" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-diagrams/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-diagrams/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-diagrams/s1> <https://schema.org/url> "https://architect.salesforce.com/diagrams/framework/overview" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-diagrams/s2> <http://purl.org/dc/terms/publisher> "Salesforce Architects" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-diagrams/s2> <http://purl.org/dc/terms/title> "Salesforce Diagrams: Documentation & Implementation" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-diagrams/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-diagrams/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-diagrams/s2> <https://schema.org/url> "https://architect.salesforce.com/diagrams/framework/docs-implementation" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-diagrams/s3> <http://purl.org/dc/terms/publisher> "Salesforce Architects" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-diagrams/s3> <http://purl.org/dc/terms/title> "Salesforce Diagrams: Marketing, Strategy & Sales" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-diagrams/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-diagrams/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-diagrams/s3> <https://schema.org/url> "https://architect.salesforce.com/diagrams/framework/marketing-strategy-sales" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-diagrams/s4> <http://purl.org/dc/terms/publisher> "Salesforce Architects (Medium)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-diagrams/s4> <http://purl.org/dc/terms/title> "Introducing Salesforce Diagrams" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-diagrams/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-diagrams/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-diagrams/s4> <https://schema.org/url> "https://medium.com/salesforce-architects/introducing-salesforce-diagrams-a8fa7bc4a3e" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-diagrams/s5> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-diagrams/s5> <http://purl.org/dc/terms/title> "Salesforce Architecture Diagrams: Quick Look — Understanding Salesforce Architecture Diagrams" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-diagrams/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-diagrams/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-diagrams/s5> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/archdia/archdia-1" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-dx/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-dx/s1> <http://purl.org/dc/terms/title> "How Salesforce Developer Experience (DX) Tooling Changes the Way You Work" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-dx/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
