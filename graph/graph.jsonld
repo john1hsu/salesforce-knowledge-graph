@@ -15027,6 +15027,98 @@
       ]
     },
     {
+      "@id": "kt:platform-cache",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Platform Cache",
+      "skos:definition": "An in-memory, partitioned cache on the Salesforce Platform that Apex and Visualforce use to keep reusable data (org-wide or per user session) close at hand, cutting repeated queries, callouts and computation; entries can be evicted at any time, so every read must tolerate a miss.",
+      "kto:domain": "platform-architecture",
+      "dcterms:created": "2026-11-08",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Platform Cache Features (Apex Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/pages/apex_platform_cache_features.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Platform Cache Limits (Apex Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/api/apex_platform_cache_limits.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Platform Cache Best Practices (Apex Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_platform_cache_best_practices.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Platform Cache Basics: Get Started with Platform Cache",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/platform_cache/platform_cache_get_started",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Platform Cache Basics: Use Platform Cache",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/modules/platform_cache/units/platform_cache_use",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Set Up a Platform Cache Partition with Provider Free Capacity",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/pkg1-dev/guide/data-platform-cache-setup-provider-capacity.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/platform-architecture/platform-cache.md",
+      "skos:altLabel": [
+        "Salesforce Platform Cache",
+        "Org Cache",
+        "Session Cache",
+        "Cache.Org",
+        "Cache.Session",
+        "platform cache partitions"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-platform"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:governor-limits"
+        },
+        {
+          "@id": "kt:soql"
+        },
+        {
+          "@id": "kt:apex-callouts"
+        },
+        {
+          "@id": "kt:custom-metadata-types"
+        },
+        {
+          "@id": "kt:custom-settings"
+        },
+        {
+          "@id": "kt:second-generation-managed-packages"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:platform-cache-partitions"
+        }
+      ],
+      "kto:usedBy": [
+        {
+          "@id": "kt:apex"
+        }
+      ]
+    },
+    {
       "@id": "kt:query-optimizer-selectivity",
       "@type": "kto:Concept",
       "skos:prefLabel": "Query Optimizer Selectivity",

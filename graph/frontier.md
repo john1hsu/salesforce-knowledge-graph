@@ -4,6 +4,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
+| `kt:custom-settings` | `kt:custom-metadata-types`, `kt:platform-cache` |
 | `kt:graphql-api` | `kt:polymorphic-relationships`, `kt:lightning-data-service` |
 | `kt:group-membership-locking` | `kt:enterprise-territory-management`, `kt:sharing-recalculation` |
 | `kt:integration-patterns-request-reply-fire-and-forget` | `kt:event-driven-architecture`, `kt:integration-patterns` |
@@ -41,7 +42,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:custom-index-limits` | `kt:external-id-fields` |
 | `kt:custom-indexes` | `kt:skinny-tables` |
 | `kt:custom-objects` | `kt:standard-objects` |
-| `kt:custom-settings` | `kt:custom-metadata-types` |
 | `kt:customer-360` | `kt:slack-platform` |
 | `kt:data-categories` | `kt:knowledge-base` |
 | `kt:data-cloud-activation` | `kt:data-cloud-segmentation` |
@@ -102,6 +102,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:permission-set-licenses` | `kt:permission-sets` |
 | `kt:platform-administrator-ii-certification` | `kt:platform-administrator-certification` |
 | `kt:platform-as-a-service` | `kt:salesforce-platform` |
+| `kt:platform-cache-partitions` | `kt:platform-cache` |
 | `kt:platform-developer-ii-certification` | `kt:platform-developer-certification` |
 | `kt:platform-event-channel-member` | `kt:change-data-capture` |
 | `kt:presence-configuration` | `kt:omni-channel` |
