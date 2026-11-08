@@ -1136,6 +1136,35 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-metadata-types> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/soql> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-metadata-types> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-metadata-types> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-and-file-storage-allocations> <http://purl.org/dc/terms/created> "2026-11-08" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-and-file-storage-allocations> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Limit> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-and-file-storage-allocations> <http://www.w3.org/2000/01/rdf-schema#label> "Data and File Storage Allocations" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-and-file-storage-allocations> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce storage limits" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-and-file-storage-allocations> <http://www.w3.org/2004/02/skos/core#altLabel> "Storage Usage" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-and-file-storage-allocations> <http://www.w3.org/2004/02/skos/core#altLabel> "data storage limit" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-and-file-storage-allocations> <http://www.w3.org/2004/02/skos/core#altLabel> "file storage limit" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-and-file-storage-allocations> <http://www.w3.org/2004/02/skos/core#altLabel> "org storage allocation" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-and-file-storage-allocations> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/governor-limits> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-and-file-storage-allocations> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/multitenancy> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-and-file-storage-allocations> <http://www.w3.org/2004/02/skos/core#definition> "The edition- and license-based amounts of data storage (records) and file storage (attachments, Files, content) a Salesforce org receives, how record storage is estimated per object, and what happens in production and sandboxes when usage reaches the allocation." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-and-file-storage-allocations> <http://www.w3.org/2004/02/skos/core#prefLabel> "Data and File Storage Allocations" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-and-file-storage-allocations> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/archiving-strategy> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-and-file-storage-allocations> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/big-objects> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-and-file-storage-allocations> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-migration-strategy> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-and-file-storage-allocations> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/large-data-volumes> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-and-file-storage-allocations> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/person-accounts> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-and-file-storage-allocations> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-types> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-and-file-storage-allocations> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-and-file-storage-allocations/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-and-file-storage-allocations> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-and-file-storage-allocations/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-and-file-storage-allocations> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-and-file-storage-allocations/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-and-file-storage-allocations> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-and-file-storage-allocations/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-and-file-storage-allocations> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-and-file-storage-allocations/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-and-file-storage-allocations> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-and-file-storage-allocations/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-and-file-storage-allocations> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#contrastsWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/api-request-limits> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-and-file-storage-allocations> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#coveredBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-data-architect-certification> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-and-file-storage-allocations> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "platform-architecture" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-and-file-storage-allocations> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-and-file-storage-allocations> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-architecture> <http://purl.org/dc/terms/created> "2026-11-02" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-architecture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-architecture> <http://www.w3.org/2000/01/rdf-schema#label> "Data Architecture" .
@@ -6084,6 +6113,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-metadata-types/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-metadata-types/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-metadata-types/s6> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/custom_metadata_types_dec/cmt_formulas" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-and-file-storage-allocations/s1> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-and-file-storage-allocations/s1> <http://purl.org/dc/terms/title> "Data and File Storage Allocations" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-and-file-storage-allocations/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-and-file-storage-allocations/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-and-file-storage-allocations/s1> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=sf.overview_storage.htm&language=en_US&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-and-file-storage-allocations/s2> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-and-file-storage-allocations/s2> <http://purl.org/dc/terms/title> "Salesforce Files Storage Allocations" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-and-file-storage-allocations/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-and-file-storage-allocations/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-and-file-storage-allocations/s2> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=sf.files_storage.htm&language=en_US&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-and-file-storage-allocations/s3> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-and-file-storage-allocations/s3> <http://purl.org/dc/terms/title> "Salesforce Data Storage: Estimated Record Size by Object Type" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-and-file-storage-allocations/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-and-file-storage-allocations/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-and-file-storage-allocations/s3> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=000383664&language=en_US&type=1" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-and-file-storage-allocations/s4> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-and-file-storage-allocations/s4> <http://purl.org/dc/terms/title> "Data storage amount limit exceeded" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-and-file-storage-allocations/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-and-file-storage-allocations/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-and-file-storage-allocations/s4> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=000386657&language=en_US&type=1" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-and-file-storage-allocations/s5> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-and-file-storage-allocations/s5> <http://purl.org/dc/terms/title> "Sandbox Licenses and Storage Limits by Type" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-and-file-storage-allocations/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-and-file-storage-allocations/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-and-file-storage-allocations/s5> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=deploy_sandboxes_limits.htm&language=en_US&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-and-file-storage-allocations/s6> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-and-file-storage-allocations/s6> <http://purl.org/dc/terms/title> "Archive Basics: Optimize Data with Archive" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-and-file-storage-allocations/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-and-file-storage-allocations/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-and-file-storage-allocations/s6> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/archive-basics/optimize-data-with-archive" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-architecture/s1> <http://purl.org/dc/terms/publisher> "Salesforce Architects" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-architecture/s1> <http://purl.org/dc/terms/title> "Data Integration Decision Guide" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-architecture/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

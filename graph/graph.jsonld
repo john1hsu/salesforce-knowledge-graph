@@ -13239,6 +13239,100 @@
       ]
     },
     {
+      "@id": "kt:data-and-file-storage-allocations",
+      "@type": "kto:Limit",
+      "skos:prefLabel": "Data and File Storage Allocations",
+      "skos:definition": "The edition- and license-based amounts of data storage (records) and file storage (attachments, Files, content) a Salesforce org receives, how record storage is estimated per object, and what happens in production and sandboxes when usage reaches the allocation.",
+      "kto:domain": "platform-architecture",
+      "dcterms:created": "2026-11-08",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Data and File Storage Allocations",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=sf.overview_storage.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Salesforce Files Storage Allocations",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=sf.files_storage.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Salesforce Data Storage: Estimated Record Size by Object Type",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=000383664&language=en_US&type=1",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Data storage amount limit exceeded",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=000386657&language=en_US&type=1",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Sandbox Licenses and Storage Limits by Type",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=deploy_sandboxes_limits.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Archive Basics: Optimize Data with Archive",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/archive-basics/optimize-data-with-archive",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/platform-architecture/data-and-file-storage-allocations.md",
+      "skos:altLabel": [
+        "Salesforce storage limits",
+        "data storage limit",
+        "file storage limit",
+        "org storage allocation",
+        "Storage Usage"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:governor-limits"
+        },
+        {
+          "@id": "kt:multitenancy"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:large-data-volumes"
+        },
+        {
+          "@id": "kt:archiving-strategy"
+        },
+        {
+          "@id": "kt:big-objects"
+        },
+        {
+          "@id": "kt:sandbox-types"
+        },
+        {
+          "@id": "kt:person-accounts"
+        },
+        {
+          "@id": "kt:data-migration-strategy"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:api-request-limits"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:platform-data-architect-certification"
+        }
+      ]
+    },
+    {
       "@id": "kt:governor-limits",
       "@type": "kto:Limit",
       "skos:prefLabel": "Governor Limits",
