@@ -4,7 +4,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:data-lake-objects` | `kt:data-model-objects`, `kt:zero-copy-data-federation` |
+| `kt:data-cloud-limits` | `kt:calculated-insights`, `kt:data-lake-objects` |
 | `kt:experience-builder` | `kt:experience-cloud`, `kt:experience-cloud-identity` |
 | `kt:graphql-api` | `kt:polymorphic-relationships`, `kt:lightning-data-service` |
 | `kt:group-membership-locking` | `kt:enterprise-territory-management`, `kt:sharing-recalculation` |
@@ -45,11 +45,11 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:custom-settings` | `kt:custom-metadata-types` |
 | `kt:customer-360` | `kt:slack-platform` |
 | `kt:data-categories` | `kt:knowledge-base` |
-| `kt:data-cloud-limits` | `kt:calculated-insights` |
 | `kt:data-cloud-segmentation` | `kt:calculated-insights` |
 | `kt:data-detect` | `kt:salesforce-shield` |
 | `kt:data-loader` | `kt:bulk-api-2` |
 | `kt:data-sovereignty` | `kt:data-residency` |
+| `kt:data-streams` | `kt:data-lake-objects` |
 | `kt:development-lifecycle-and-deployment-architect-certification` | `kt:system-architect-certification` |
 | `kt:digital-accessibility` | `kt:section-508-accessibility` |
 | `kt:dispatcher-console` | `kt:field-service` |

@@ -5386,6 +5386,101 @@
       ]
     },
     {
+      "@id": "kt:data-lake-objects",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Data Lake Objects",
+      "skos:definition": "The storage layer of Data 360 (formerly Data Cloud): `__dlo` objects, usually created by deploying a data stream, that hold ingested or federated data in the source system's own schema until it is mapped to data model objects.",
+      "kto:domain": "data-cloud-and-ai",
+      "dcterms:created": "2026-11-08",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Salesforce Data Cloud Objects (Object Reference)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/object_reference/sforce_api_concepts_data_cloud_objects.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Model Data in Data 360",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/data/data-cloud-dmo-mapping/guide/c360dm-model-data.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Create an Ingestion API Data Stream",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/data/data-cloud-int/guide/c360-a-create-ingestion-data-stream.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Create an SFTP Data Stream",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/data/data-cloud-int/guide/c360-a-create-sftp-data-stream.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Data Lake Object Naming Standards",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=data.c360_a_data_lake_object_naming.htm&language=fr&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "What Are the Data Stream Categories in Data Cloud?",
+          "dcterms:publisher": "Salesforce Ben",
+          "schema:url": "https://www.salesforceben.com/what-are-the-data-stream-categories-in-data-cloud/",
+          "kto:sourceType": "community"
+        }
+      ],
+      "kto:file": "articles/data-cloud-and-ai/data-lake-objects.md",
+      "skos:altLabel": [
+        "DLO",
+        "DLOs",
+        "data lake object",
+        "Data 360 data lake objects",
+        "Data Cloud data lake objects",
+        "__dlo objects"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:data-cloud"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:data-integration"
+        },
+        {
+          "@id": "kt:zero-copy-data-federation"
+        }
+      ],
+      "kto:enables": [
+        {
+          "@id": "kt:data-model-objects"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:data-streams"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:data-cloud-limits"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:big-objects"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:data-cloud-consultant-certification"
+        }
+      ]
+    },
+    {
       "@id": "kt:data-model-objects",
       "@type": "kto:Feature",
       "skos:prefLabel": "Data Model Objects",

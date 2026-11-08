@@ -1372,6 +1372,34 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-integration> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/mulesoft-anypoint-platform> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-integration> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-integration> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-lake-objects> <http://purl.org/dc/terms/created> "2026-11-08" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-lake-objects> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-lake-objects> <http://www.w3.org/2000/01/rdf-schema#label> "Data Lake Objects" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-lake-objects> <http://www.w3.org/2004/02/skos/core#altLabel> "DLO" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-lake-objects> <http://www.w3.org/2004/02/skos/core#altLabel> "DLOs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-lake-objects> <http://www.w3.org/2004/02/skos/core#altLabel> "Data 360 data lake objects" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-lake-objects> <http://www.w3.org/2004/02/skos/core#altLabel> "Data Cloud data lake objects" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-lake-objects> <http://www.w3.org/2004/02/skos/core#altLabel> "__dlo objects" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-lake-objects> <http://www.w3.org/2004/02/skos/core#altLabel> "data lake object" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-lake-objects> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-lake-objects> <http://www.w3.org/2004/02/skos/core#definition> "The storage layer of Data 360 (formerly Data Cloud): `__dlo` objects, usually created by deploying a data stream, that hold ingested or federated data in the source system's own schema until it is mapped to data model objects." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-lake-objects> <http://www.w3.org/2004/02/skos/core#prefLabel> "Data Lake Objects" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-lake-objects> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-integration> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-lake-objects> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/zero-copy-data-federation> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-lake-objects> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-lake-objects/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-lake-objects> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-lake-objects/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-lake-objects> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-lake-objects/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-lake-objects> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-lake-objects/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-lake-objects> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-lake-objects/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-lake-objects> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-lake-objects/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-lake-objects> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-streams> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-lake-objects> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#contrastsWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/big-objects> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-lake-objects> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#coveredBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud-consultant-certification> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-lake-objects> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "data-cloud-and-ai" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-lake-objects> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#enables> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-model-objects> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-lake-objects> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#governedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud-limits> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-lake-objects> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-lake-objects> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-migration-strategy> <http://purl.org/dc/terms/created> "2026-11-01" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-migration-strategy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-migration-strategy> <http://www.w3.org/2000/01/rdf-schema#label> "Data Migration Strategy" .
@@ -6478,6 +6506,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-integration/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-integration/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-integration/s5> <https://schema.org/url> "https://architect.salesforce.com/docs/architect/decision-guides/guide/get-started-integration-decision-guides.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-lake-objects/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-lake-objects/s1> <http://purl.org/dc/terms/title> "Salesforce Data Cloud Objects (Object Reference)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-lake-objects/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-lake-objects/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-lake-objects/s1> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/object_reference/sforce_api_concepts_data_cloud_objects.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-lake-objects/s2> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-lake-objects/s2> <http://purl.org/dc/terms/title> "Model Data in Data 360" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-lake-objects/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-lake-objects/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-lake-objects/s2> <https://schema.org/url> "https://developer.salesforce.com/docs/data/data-cloud-dmo-mapping/guide/c360dm-model-data.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-lake-objects/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-lake-objects/s3> <http://purl.org/dc/terms/title> "Create an Ingestion API Data Stream" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-lake-objects/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-lake-objects/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-lake-objects/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/data/data-cloud-int/guide/c360-a-create-ingestion-data-stream.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-lake-objects/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-lake-objects/s4> <http://purl.org/dc/terms/title> "Create an SFTP Data Stream" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-lake-objects/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-lake-objects/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-lake-objects/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/data/data-cloud-int/guide/c360-a-create-sftp-data-stream.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-lake-objects/s5> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-lake-objects/s5> <http://purl.org/dc/terms/title> "Data Lake Object Naming Standards" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-lake-objects/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-lake-objects/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-lake-objects/s5> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=data.c360_a_data_lake_object_naming.htm&language=fr&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-lake-objects/s6> <http://purl.org/dc/terms/publisher> "Salesforce Ben" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-lake-objects/s6> <http://purl.org/dc/terms/title> "What Are the Data Stream Categories in Data Cloud?" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-lake-objects/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-lake-objects/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "community" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-lake-objects/s6> <https://schema.org/url> "https://www.salesforceben.com/what-are-the-data-stream-categories-in-data-cloud/" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-migration-strategy/s1> <http://purl.org/dc/terms/publisher> "Salesforce" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-migration-strategy/s1> <http://purl.org/dc/terms/title> "Loading Data from the API (Best Practices for Deployments with Large Data Volumes)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-migration-strategy/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
