@@ -7185,6 +7185,92 @@
       ]
     },
     {
+      "@id": "kt:apex-enterprise-patterns",
+      "@type": "kto:Pattern",
+      "skos:prefLabel": "Apex Enterprise Patterns",
+      "skos:definition": "A family of layered design patterns for Apex, adapted from Martin Fowler's enterprise application patterns, that splits code into Service, Domain, Selector and Unit of Work layers and is implemented by the open-source fflib library.",
+      "kto:domain": "development",
+      "dcterms:created": "2026-11-08",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Trailhead: Apex Enterprise Patterns: Service Layer — Learn About Separation of Concerns",
+          "dcterms:publisher": "Salesforce Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/apex_patterns_sl/apex_patterns_sl_soc",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Trailhead: Apex Enterprise Patterns: Service Layer — Learn Service Layer Principles",
+          "dcterms:publisher": "Salesforce Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/apex_patterns_sl/apex_patterns_sl_learn_sl_principles",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Trailhead: Apex Enterprise Patterns: Service Layer — Learn Unit of Work Principles",
+          "dcterms:publisher": "Salesforce Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/apex_patterns_sl/apex_patterns_sl_learn_uow_principles",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Trailhead: Apex Enterprise Patterns: Domain & Selector Layers — Learn Selector Layer Principles",
+          "dcterms:publisher": "Salesforce Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/apex_patterns_dsl/apex_patterns_dsl_learn_selector_l_principles",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "fflib-apex-common (GitHub repository)",
+          "dcterms:publisher": "apex-enterprise-patterns (open source)",
+          "schema:url": "https://github.com/apex-enterprise-patterns/fflib-apex-common",
+          "kto:sourceType": "community"
+        }
+      ],
+      "kto:file": "articles/development/apex-enterprise-patterns.md",
+      "skos:altLabel": [
+        "fflib",
+        "fflib-apex-common",
+        "AEP",
+        "Apex separation of concerns",
+        "service domain selector pattern"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:apex"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:trigger-framework-pattern"
+        },
+        {
+          "@id": "kt:batch-apex"
+        },
+        {
+          "@id": "kt:package-dependencies"
+        }
+      ],
+      "kto:queriedWith": [
+        {
+          "@id": "kt:soql"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:transaction-control"
+        }
+      ],
+      "kto:mitigates": [
+        {
+          "@id": "kt:technical-debt-in-salesforce"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:apex-mocks"
+        }
+      ]
+    },
+    {
       "@id": "kt:apex-testing",
       "@type": "kto:Feature",
       "skos:prefLabel": "Apex Testing",

@@ -4,7 +4,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:apex-enterprise-patterns` | `kt:trigger-framework-pattern`, `kt:package-dependencies` |
 | `kt:appexchange-security-review` | `kt:code-analyzer`, `kt:first-generation-managed-packages` |
 | `kt:classic-encryption` | `kt:salesforce-shield`, `kt:shield-platform-encryption` |
 | `kt:data-lake-objects` | `kt:data-model-objects`, `kt:zero-copy-data-federation` |
@@ -25,6 +24,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:agentforce-data-library` | `kt:retrieval-augmented-generation-in-salesforce` |
 | `kt:apex-continuations` | `kt:apex-callouts` |
 | `kt:apex-flex-queue` | `kt:batch-apex` |
+| `kt:apex-mocks` | `kt:apex-enterprise-patterns` |
 | `kt:api-led-connectivity` | `kt:mulesoft-anypoint-platform` |
 | `kt:architecture-decision-records` | `kt:solution-design-tradeoffs` |
 | `kt:automation-studio` | `kt:marketing-cloud-engagement` |

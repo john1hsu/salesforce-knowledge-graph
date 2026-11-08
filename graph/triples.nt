@@ -243,6 +243,32 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-callouts> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-continuations> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-callouts> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-callouts> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-enterprise-patterns> <http://purl.org/dc/terms/created> "2026-11-08" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-enterprise-patterns> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Pattern> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-enterprise-patterns> <http://www.w3.org/2000/01/rdf-schema#label> "Apex Enterprise Patterns" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-enterprise-patterns> <http://www.w3.org/2004/02/skos/core#altLabel> "AEP" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-enterprise-patterns> <http://www.w3.org/2004/02/skos/core#altLabel> "Apex separation of concerns" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-enterprise-patterns> <http://www.w3.org/2004/02/skos/core#altLabel> "fflib" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-enterprise-patterns> <http://www.w3.org/2004/02/skos/core#altLabel> "fflib-apex-common" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-enterprise-patterns> <http://www.w3.org/2004/02/skos/core#altLabel> "service domain selector pattern" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-enterprise-patterns> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-enterprise-patterns> <http://www.w3.org/2004/02/skos/core#definition> "A family of layered design patterns for Apex, adapted from Martin Fowler's enterprise application patterns, that splits code into Service, Domain, Selector and Unit of Work layers and is implemented by the open-source fflib library." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-enterprise-patterns> <http://www.w3.org/2004/02/skos/core#prefLabel> "Apex Enterprise Patterns" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-enterprise-patterns> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/batch-apex> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-enterprise-patterns> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/package-dependencies> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-enterprise-patterns> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/trigger-framework-pattern> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-enterprise-patterns> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-enterprise-patterns/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-enterprise-patterns> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-enterprise-patterns/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-enterprise-patterns> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-enterprise-patterns/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-enterprise-patterns> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-enterprise-patterns/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-enterprise-patterns> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-enterprise-patterns/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-enterprise-patterns> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/transaction-control> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-enterprise-patterns> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "development" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-enterprise-patterns> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-mocks> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-enterprise-patterns> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#mitigates> <https://github.com/john1hsu/salesforce-knowledge-graph/id/technical-debt-in-salesforce> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-enterprise-patterns> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/soql> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-enterprise-patterns> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-enterprise-patterns> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-managed-sharing> <http://purl.org/dc/terms/created> "2026-11-03" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-managed-sharing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#SecurityControl> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-managed-sharing> <http://www.w3.org/2000/01/rdf-schema#label> "Apex Managed Sharing" .
@@ -5178,6 +5204,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-callouts/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-callouts/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-callouts/s4> <https://schema.org/url> "https://trailhead.salesforce.com/en/content/learn/modules/apex_integration_services/apex_integration_rest_callouts" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-enterprise-patterns/s1> <http://purl.org/dc/terms/publisher> "Salesforce Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-enterprise-patterns/s1> <http://purl.org/dc/terms/title> "Trailhead: Apex Enterprise Patterns: Service Layer — Learn About Separation of Concerns" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-enterprise-patterns/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-enterprise-patterns/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-enterprise-patterns/s1> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/apex_patterns_sl/apex_patterns_sl_soc" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-enterprise-patterns/s2> <http://purl.org/dc/terms/publisher> "Salesforce Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-enterprise-patterns/s2> <http://purl.org/dc/terms/title> "Trailhead: Apex Enterprise Patterns: Service Layer — Learn Service Layer Principles" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-enterprise-patterns/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-enterprise-patterns/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-enterprise-patterns/s2> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/apex_patterns_sl/apex_patterns_sl_learn_sl_principles" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-enterprise-patterns/s3> <http://purl.org/dc/terms/publisher> "Salesforce Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-enterprise-patterns/s3> <http://purl.org/dc/terms/title> "Trailhead: Apex Enterprise Patterns: Service Layer — Learn Unit of Work Principles" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-enterprise-patterns/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-enterprise-patterns/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-enterprise-patterns/s3> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/apex_patterns_sl/apex_patterns_sl_learn_uow_principles" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-enterprise-patterns/s4> <http://purl.org/dc/terms/publisher> "Salesforce Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-enterprise-patterns/s4> <http://purl.org/dc/terms/title> "Trailhead: Apex Enterprise Patterns: Domain & Selector Layers — Learn Selector Layer Principles" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-enterprise-patterns/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-enterprise-patterns/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-enterprise-patterns/s4> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/apex_patterns_dsl/apex_patterns_dsl_learn_selector_l_principles" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-enterprise-patterns/s5> <http://purl.org/dc/terms/publisher> "apex-enterprise-patterns (open source)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-enterprise-patterns/s5> <http://purl.org/dc/terms/title> "fflib-apex-common (GitHub repository)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-enterprise-patterns/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-enterprise-patterns/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "community" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-enterprise-patterns/s5> <https://schema.org/url> "https://github.com/apex-enterprise-patterns/fflib-apex-common" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-managed-sharing/s1> <http://purl.org/dc/terms/publisher> "Salesforce" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-managed-sharing/s1> <http://purl.org/dc/terms/title> "Sharing a Record Using Apex (Apex Developer Guide, Winter '27)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-managed-sharing/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
