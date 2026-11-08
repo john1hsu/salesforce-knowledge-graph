@@ -4,11 +4,11 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:experience-builder` | `kt:experience-cloud`, `kt:experience-cloud-identity` |
 | `kt:graphql-api` | `kt:polymorphic-relationships`, `kt:lightning-data-service` |
 | `kt:group-membership-locking` | `kt:enterprise-territory-management`, `kt:sharing-recalculation` |
 | `kt:integration-patterns-request-reply-fire-and-forget` | `kt:event-driven-architecture`, `kt:integration-patterns` |
 | `kt:invocable-actions-api` | `kt:autolaunched-flow`, `kt:subflows` |
+| `kt:lightning-app-builder` | `kt:experience-builder`, `kt:page-layouts` |
 | `kt:opportunity-teams` | `kt:opportunity-splits`, `kt:opportunity-splits` |
 | `kt:orchestration-work-guide` | `kt:approval-processes`, `kt:flow-orchestrator` |
 | `kt:public-groups` | `kt:queues`, `kt:sharing-rules` |
@@ -77,7 +77,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:iso-iec-27002` | `kt:iso-iec-27001` |
 | `kt:journey-builder` | `kt:marketing-cloud-engagement` |
 | `kt:legacy-named-credentials` | `kt:named-credentials` |
-| `kt:lightning-app-builder` | `kt:page-layouts` |
 | `kt:lightning-message-service` | `kt:aura-components` |
 | `kt:lightning-service-console` | `kt:service-cloud` |
 | `kt:lightning-web-security` | `kt:lightning-web-components` |

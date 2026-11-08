@@ -3282,6 +3282,99 @@
       ]
     },
     {
+      "@id": "kt:experience-builder",
+      "@type": "kto:Tool",
+      "skos:prefLabel": "Experience Builder",
+      "skos:definition": "The drag-and-drop visual editor for Experience Cloud sites, where admins arrange pages and components, set themes and branding, preview by device and publish changes; developers extend it with Lightning web components and Aura components exposed through targets, interfaces and design properties.",
+      "kto:domain": "clouds-and-products",
+      "dcterms:created": "2026-11-08",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Set Up a Community: Brand the Community (Trailhead project step)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/projects/set-up-a-community/brand-the-community",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Lightning Web Components Developer Guide: Configure a Component for Experience Builder",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/lwc/guide/use-config-for-community-builder.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "LWR Sites for Experience Cloud: Create Components for LWR Sites",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/exp-cloud-lwr/guide/get-started-components.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "LWR Sites for Experience Cloud: Get Started",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.exp_cloud_lwr.meta/exp_cloud_lwr/get_started.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Lightning Aura Components Developer Guide: Configure Components for Experience Builder",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.264.0.lightning.meta/lightning/components_config_for_builder.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Experience Cloud Developer Guide: Before You Begin",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.264.0.communities_dev.meta/communities_dev/communities_dev_intro_before.htm",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/clouds-and-products/experience-builder.md",
+      "skos:altLabel": [
+        "Community Builder",
+        "Salesforce Experience Builder",
+        "Experience Cloud site builder"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:experience-cloud"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:lightning-web-components"
+        },
+        {
+          "@id": "kt:aura-components"
+        },
+        {
+          "@id": "kt:experience-cloud-identity"
+        },
+        {
+          "@id": "kt:lightning-data-service"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:experience-cloud"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:lightning-web-components"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:lightning-app-builder"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:screen-flow"
+        }
+      ]
+    },
+    {
       "@id": "kt:experience-cloud",
       "@type": "kto:Product",
       "skos:prefLabel": "Experience Cloud",
