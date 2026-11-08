@@ -690,6 +690,7 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/autolaunched-flow> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/record-triggered-flow> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/autolaunched-flow> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/schedule-triggered-flow> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/autolaunched-flow> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/screen-flow> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/autolaunched-flow> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/subflows> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/autolaunched-flow> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/autolaunched-flow/s1> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/autolaunched-flow> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/autolaunched-flow/s2> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/autolaunched-flow> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/autolaunched-flow/s3> .
@@ -10287,6 +10288,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/standard-objects/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/standard-objects/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/standard-objects/s4> <https://schema.org/url> "https://trailhead.salesforce.com/en/modules/data_modeling/units/objects_intro" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/subflows/s1> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/subflows/s1> <http://purl.org/dc/terms/title> "Flow Element: Subflow" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/subflows/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/subflows/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/subflows/s1> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=platform.flow_ref_elements_subflow.htm&language=en_US&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/subflows/s2> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/subflows/s2> <http://purl.org/dc/terms/title> "Build Flows with Logic: Run a Flow Within a Flow" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/subflows/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/subflows/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/subflows/s2> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/flow-build-logic/run-flow-within-flow" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/subflows/s3> <http://purl.org/dc/terms/publisher> "Salesforce Admins Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/subflows/s3> <http://purl.org/dc/terms/title> "What Is a Subflow?" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/subflows/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/subflows/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/subflows/s3> <https://schema.org/url> "https://admin.salesforce.com/blog/2023/what-is-a-subflow" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/subflows/s4> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/subflows/s4> <http://purl.org/dc/terms/title> "Per-Transaction Flow Limits" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/subflows/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/subflows/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/subflows/s4> <https://schema.org/url> "https://help.salesforce.com/apex/HTViewHelpDoc?id=platform.flow_considerations_limit_transaction.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/subflows/s5> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/subflows/s5> <http://purl.org/dc/terms/title> "Considerations for Record-Triggered Flows" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/subflows/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/subflows/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/subflows/s5> <https://schema.org/url> "https://help.salesforce.com/apex/HTViewHelpDoc?id=platform.flow_considerations_trigger_record.htm" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/system-architect-certification/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/system-architect-certification/s1> <http://purl.org/dc/terms/title> "Certification - Salesforce Certified System Architect" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/system-architect-certification/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
@@ -10620,6 +10646,35 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/standard-objects> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/soql> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/standard-objects> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/standard-objects> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/subflows> <http://purl.org/dc/terms/created> "2026-11-08" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/subflows> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/subflows> <http://www.w3.org/2000/01/rdf-schema#label> "Subflows" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/subflows> <http://www.w3.org/2004/02/skos/core#altLabel> "Subflow element" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/subflows> <http://www.w3.org/2004/02/skos/core#altLabel> "child flow" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/subflows> <http://www.w3.org/2004/02/skos/core#altLabel> "flow within a flow" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/subflows> <http://www.w3.org/2004/02/skos/core#altLabel> "referenced flow" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/subflows> <http://www.w3.org/2004/02/skos/core#altLabel> "subflow" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/subflows> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-builder> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/subflows> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/process-automation> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/subflows> <http://www.w3.org/2004/02/skos/core#definition> "The Flow Builder mechanism, exposed as the Subflow element, by which a parent flow launches another active autolaunched or screen flow at runtime, passing data in and out through variables marked available for input and output, so shared logic lives in one reusable child flow." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/subflows> <http://www.w3.org/2004/02/skos/core#prefLabel> "Subflows" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/subflows> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/autolaunched-flow> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/subflows> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-metadata-types> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/subflows> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-fault-handling> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/subflows> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/prompt-builder> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/subflows> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/record-triggered-flow> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/subflows> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/screen-flow> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/subflows> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/subflows/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/subflows> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/subflows/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/subflows> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/subflows/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/subflows> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/subflows/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/subflows> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/subflows/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/subflows> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#alternativeTo> <https://github.com/john1hsu/salesforce-knowledge-graph/id/invocable-actions-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/subflows> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-versioning> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/subflows> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "automation" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/subflows> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#governedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/governor-limits> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/subflows> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/subflows> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/system-architect-certification> <http://purl.org/dc/terms/created> "2026-11-05" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/system-architect-certification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Certification> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/system-architect-certification> <http://www.w3.org/2000/01/rdf-schema#label> "System Architect Certification" .

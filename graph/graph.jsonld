@@ -1758,6 +1758,9 @@
       ],
       "skos:related": [
         {
+          "@id": "kt:subflows"
+        },
+        {
           "@id": "kt:screen-flow"
         },
         {
@@ -2807,6 +2810,99 @@
       "kto:dependsOn": [
         {
           "@id": "kt:autolaunched-flow"
+        }
+      ]
+    },
+    {
+      "@id": "kt:subflows",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Subflows",
+      "skos:definition": "The Flow Builder mechanism, exposed as the Subflow element, by which a parent flow launches another active autolaunched or screen flow at runtime, passing data in and out through variables marked available for input and output, so shared logic lives in one reusable child flow.",
+      "kto:domain": "automation",
+      "dcterms:created": "2026-11-08",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Flow Element: Subflow",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=platform.flow_ref_elements_subflow.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Build Flows with Logic: Run a Flow Within a Flow",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/flow-build-logic/run-flow-within-flow",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "What Is a Subflow?",
+          "dcterms:publisher": "Salesforce Admins Blog",
+          "schema:url": "https://admin.salesforce.com/blog/2023/what-is-a-subflow",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Per-Transaction Flow Limits",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/apex/HTViewHelpDoc?id=platform.flow_considerations_limit_transaction.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Considerations for Record-Triggered Flows",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/apex/HTViewHelpDoc?id=platform.flow_considerations_trigger_record.htm",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/automation/subflows.md",
+      "skos:altLabel": [
+        "subflow",
+        "Subflow element",
+        "child flow",
+        "referenced flow",
+        "flow within a flow"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:flow-builder"
+        },
+        {
+          "@id": "kt:process-automation"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:autolaunched-flow"
+        },
+        {
+          "@id": "kt:screen-flow"
+        },
+        {
+          "@id": "kt:record-triggered-flow"
+        },
+        {
+          "@id": "kt:flow-fault-handling"
+        },
+        {
+          "@id": "kt:custom-metadata-types"
+        },
+        {
+          "@id": "kt:prompt-builder"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:flow-versioning"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:governor-limits"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:invocable-actions-api"
         }
       ]
     },

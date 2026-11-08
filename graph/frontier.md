@@ -9,6 +9,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:graphql-api` | `kt:polymorphic-relationships`, `kt:lightning-data-service` |
 | `kt:group-membership-locking` | `kt:enterprise-territory-management`, `kt:sharing-recalculation` |
 | `kt:integration-patterns-request-reply-fire-and-forget` | `kt:event-driven-architecture`, `kt:integration-patterns` |
+| `kt:invocable-actions-api` | `kt:autolaunched-flow`, `kt:subflows` |
 | `kt:lead-conversion` | `kt:sales-cloud`, `kt:business-processes` |
 | `kt:opportunity-teams` | `kt:opportunity-splits`, `kt:opportunity-splits` |
 | `kt:orchestration-work-guide` | `kt:approval-processes`, `kt:flow-orchestrator` |
@@ -63,6 +64,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:field-service-scheduling-policies` | `kt:field-service` |
 | `kt:financial-services-cloud` | `kt:person-accounts` |
 | `kt:fips-200` | `kt:fips-199` |
+| `kt:flow-versioning` | `kt:subflows` |
 | `kt:gdpr-international-transfers` | `kt:data-residency` |
 | `kt:generative-ai` | `kt:retrieval-augmented-generation-in-salesforce` |
 | `kt:governance-risk-and-compliance` | `kt:security-compliance-frameworks` |
@@ -72,7 +74,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:holidays` | `kt:business-hours` |
 | `kt:hyperforce-operating-zones` | `kt:data-residency` |
 | `kt:identity-connect` | `kt:salesforce-identity` |
-| `kt:invocable-actions-api` | `kt:autolaunched-flow` |
 | `kt:iso-iec-27002` | `kt:iso-iec-27001` |
 | `kt:journey-builder` | `kt:marketing-cloud-engagement` |
 | `kt:legacy-named-credentials` | `kt:named-credentials` |
