@@ -69,6 +69,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:generative-ai` | `kt:retrieval-augmented-generation-in-salesforce` |
 | `kt:governance-risk-and-compliance` | `kt:security-compliance-frameworks` |
 | `kt:government-cloud` | `kt:government-cloud-plus` |
+| `kt:health-cloud` | `kt:hipaa` |
 | `kt:hitrust-csf` | `kt:nist-cybersecurity-framework` |
 | `kt:holidays` | `kt:business-hours` |
 | `kt:hyperforce-operating-zones` | `kt:data-residency` |

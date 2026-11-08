@@ -2271,6 +2271,34 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/headless-identity> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "identity" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/headless-identity> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/headless-identity> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hipaa> <http://purl.org/dc/terms/created> "2026-11-08" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hipaa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#ExternalConcept> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hipaa> <http://www.w3.org/2000/01/rdf-schema#label> "HIPAA" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hipaa> <http://www.w3.org/2004/02/skos/core#altLabel> "HIPAA Security Rule" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hipaa> <http://www.w3.org/2004/02/skos/core#altLabel> "HIPAA compliance on Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hipaa> <http://www.w3.org/2004/02/skos/core#altLabel> "Health Insurance Portability and Accountability Act" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hipaa> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce Business Associate Addendum" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hipaa> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce HIPAA BAA" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hipaa> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/security-compliance-frameworks> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hipaa> <http://www.w3.org/2004/02/skos/core#definition> "The US health-privacy law whose Privacy and Security Rules govern protected health information (PHI); Salesforce supports HIPAA workloads by signing a Business Associate Addendum (BAA) for a published list of covered services, subject to service-specific restrictions and customer encryption obligations." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hipaa> <http://www.w3.org/2004/02/skos/core#prefLabel> "HIPAA" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hipaa> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/einstein-trust-layer> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hipaa> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/event-monitoring> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hipaa> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/government-cloud-plus> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hipaa> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/health-cloud> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hipaa> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-shield> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hipaa> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/slack-platform> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hipaa> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hipaa/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hipaa> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hipaa/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hipaa> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hipaa/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hipaa> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hipaa/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hipaa> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hipaa/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hipaa> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#contrastsWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/soc-2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hipaa> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/shield-platform-encryption> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hipaa> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "public-sector-and-compliance" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hipaa> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#mitigates> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-breach-risk> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hipaa> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hipaa> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/hyperforce> <http://purl.org/dc/terms/created> "2026-11-01" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/hyperforce> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Product> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/hyperforce> <http://www.w3.org/2000/01/rdf-schema#label> "Hyperforce" .
@@ -7293,6 +7321,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/headless-identity/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/headless-identity/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/headless-identity/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/headless-identity-impl-guide/guide/headless-identity-login-registration-settings.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hipaa/s1> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hipaa/s1> <http://purl.org/dc/terms/title> "HIPAA — Salesforce Compliance" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hipaa/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hipaa/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hipaa/s1> <https://schema.org/url> "https://compliance.salesforce.com/en/hipaa" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hipaa/s2> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hipaa/s2> <http://purl.org/dc/terms/title> "Business Associate Addendum Restrictions" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hipaa/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hipaa/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hipaa/s2> <https://schema.org/url> "https://www.salesforce.com/company/legal/business-associate-addendum/" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hipaa/s3> <http://purl.org/dc/terms/publisher> "U.S. Department of Health and Human Services" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hipaa/s3> <http://purl.org/dc/terms/title> "Guidance on HIPAA & Cloud Computing" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hipaa/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hipaa/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hipaa/s3> <https://schema.org/url> "https://www.hhs.gov/hipaa/for-professionals/special-topics/cloud-computing" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hipaa/s4> <http://purl.org/dc/terms/publisher> "Military Health System (health.mil)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hipaa/s4> <http://purl.org/dc/terms/title> "Overview of the HIPAA Security Rule" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hipaa/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hipaa/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hipaa/s4> <https://schema.org/url> "https://health.mil/Reference-Center/Fact-Sheets/2014/12/17/Info-Paper-Overview-of-the-HIPAA-Security-Rule" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hipaa/s5> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hipaa/s5> <http://purl.org/dc/terms/title> "Protect Your Health Data with Salesforce Shield (Health Cloud Administration)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hipaa/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hipaa/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hipaa/s5> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.health_cloud.meta/null/admin_salesforce_shield.htm" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hyperforce/s1> <http://purl.org/dc/terms/publisher> "Salesforce Architects" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hyperforce/s1> <http://purl.org/dc/terms/title> "The Salesforce Platform - Transformed for Tomorrow | Get Started with Fundamentals" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hyperforce/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

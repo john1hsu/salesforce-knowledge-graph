@@ -15216,6 +15216,96 @@
       ]
     },
     {
+      "@id": "kt:hipaa",
+      "@type": "kto:ExternalConcept",
+      "skos:prefLabel": "HIPAA",
+      "skos:definition": "The US health-privacy law whose Privacy and Security Rules govern protected health information (PHI); Salesforce supports HIPAA workloads by signing a Business Associate Addendum (BAA) for a published list of covered services, subject to service-specific restrictions and customer encryption obligations.",
+      "kto:domain": "public-sector-and-compliance",
+      "dcterms:created": "2026-11-08",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "HIPAA — Salesforce Compliance",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://compliance.salesforce.com/en/hipaa",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Business Associate Addendum Restrictions",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/company/legal/business-associate-addendum/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Guidance on HIPAA & Cloud Computing",
+          "dcterms:publisher": "U.S. Department of Health and Human Services",
+          "schema:url": "https://www.hhs.gov/hipaa/for-professionals/special-topics/cloud-computing",
+          "kto:sourceType": "government"
+        },
+        {
+          "dcterms:title": "Overview of the HIPAA Security Rule",
+          "dcterms:publisher": "Military Health System (health.mil)",
+          "schema:url": "https://health.mil/Reference-Center/Fact-Sheets/2014/12/17/Info-Paper-Overview-of-the-HIPAA-Security-Rule",
+          "kto:sourceType": "government"
+        },
+        {
+          "dcterms:title": "Protect Your Health Data with Salesforce Shield (Health Cloud Administration)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.health_cloud.meta/null/admin_salesforce_shield.htm",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/public-sector-and-compliance/hipaa.md",
+      "skos:altLabel": [
+        "Health Insurance Portability and Accountability Act",
+        "HIPAA Security Rule",
+        "HIPAA compliance on Salesforce",
+        "Salesforce Business Associate Addendum",
+        "Salesforce HIPAA BAA"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:security-compliance-frameworks"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:health-cloud"
+        },
+        {
+          "@id": "kt:salesforce-shield"
+        },
+        {
+          "@id": "kt:event-monitoring"
+        },
+        {
+          "@id": "kt:einstein-trust-layer"
+        },
+        {
+          "@id": "kt:government-cloud-plus"
+        },
+        {
+          "@id": "kt:slack-platform"
+        }
+      ],
+      "kto:mitigates": [
+        {
+          "@id": "kt:data-breach-risk"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:shield-platform-encryption"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:soc-2"
+        }
+      ]
+    },
+    {
       "@id": "kt:il4-and-il5",
       "@type": "kto:ExternalConcept",
       "skos:prefLabel": "DoD Impact Levels 4 and 5",
