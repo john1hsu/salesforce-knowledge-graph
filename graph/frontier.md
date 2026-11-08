@@ -4,7 +4,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:dynamic-forms` | `kt:page-layouts`, `kt:lightning-app-builder` |
+| `kt:dynamic-forms` | `kt:custom-fields`, `kt:page-layouts`, `kt:lightning-app-builder` |
 | `kt:group-membership-locking` | `kt:enterprise-territory-management`, `kt:sharing-recalculation` |
 | `kt:integration-patterns-request-reply-fire-and-forget` | `kt:event-driven-architecture`, `kt:integration-patterns` |
 | `kt:invocable-actions-api` | `kt:autolaunched-flow`, `kt:subflows` |
@@ -38,7 +38,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:contact-builder` | `kt:marketing-cloud-engagement` |
 | `kt:contacts-to-multiple-accounts` | `kt:person-accounts` |
 | `kt:custom-domains` | `kt:my-domain` |
-| `kt:custom-fields` | `kt:external-id-fields` |
 | `kt:custom-index-limits` | `kt:external-id-fields` |
 | `kt:custom-indexes` | `kt:skinny-tables` |
 | `kt:custom-objects` | `kt:standard-objects` |

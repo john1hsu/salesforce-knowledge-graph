@@ -1185,6 +1185,37 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/cta-review-board> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/cta-review-board> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#usedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-architect> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/cta-review-board> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-fields> <http://purl.org/dc/terms/created> "2026-11-08" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-fields> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-fields> <http://www.w3.org/2000/01/rdf-schema#label> "Custom Fields" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-fields> <http://www.w3.org/2004/02/skos/core#altLabel> "Fields & Relationships" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-fields> <http://www.w3.org/2004/02/skos/core#altLabel> "__c field" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-fields> <http://www.w3.org/2004/02/skos/core#altLabel> "custom field types" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-fields> <http://www.w3.org/2004/02/skos/core#altLabel> "custom field" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-fields> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-driven-architecture> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-fields> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/standard-objects> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-fields> <http://www.w3.org/2004/02/skos/core#definition> "Admin-defined fields added to standard or custom objects, each with a data type, a generated API name ending in __c, field-level security and layout placement, counted against per-edition and per-object field allocations." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-fields> <http://www.w3.org/2004/02/skos/core#prefLabel> "Custom Fields" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-fields> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/dynamic-forms> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-fields> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/external-id-fields> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-fields> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/field-history-tracking> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-fields> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/object-relationships> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-fields> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/page-layouts> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-fields> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/roll-up-summary-field> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-fields> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-fields/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-fields> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-fields/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-fields> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-fields/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-fields> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-fields/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-fields> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-fields/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-fields> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-fields/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-fields> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-fields> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#coveredBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-app-builder-certification> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-fields> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "data-model" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-fields> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#governedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/field-level-security> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-fields> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/lookup-vs-master-detail> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-fields> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/soql> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-fields> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-fields> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-metadata-types> <http://purl.org/dc/terms/created> "2026-11-04" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-metadata-types> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#MetadataType> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-metadata-types> <http://www.w3.org/2000/01/rdf-schema#label> "Custom Metadata Types" .
@@ -6651,6 +6682,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/cta-review-board/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/cta-review-board/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "news" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/cta-review-board/s4> <https://schema.org/url> "https://www.salesforceben.com/salesforce-cta-review-board-to-become-virtual/" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-fields/s1> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-fields/s1> <http://purl.org/dc/terms/title> "Custom Fields Allowed Per Object" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-fields/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-fields/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-fields/s1> <https://schema.org/url> "https://help.salesforce.com/s/articleView?language=en_US&id=platform.custom_field_allocations.htm&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-fields/s2> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-fields/s2> <http://purl.org/dc/terms/title> "Custom Field Types" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-fields/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-fields/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-fields/s2> <https://schema.org/url> "https://help.salesforce.com/s/articleView?language=en_US&id=platform.custom_field_types.htm&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-fields/s3> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-fields/s3> <http://purl.org/dc/terms/title> "Create a Custom Field" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-fields/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-fields/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-fields/s3> <https://schema.org/url> "https://help.salesforce.com/s/articleView?language=en_US&id=sf.adding_fields.htm&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-fields/s4> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-fields/s4> <http://purl.org/dc/terms/title> "Manage Deleted Custom Fields" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-fields/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-fields/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-fields/s4> <https://schema.org/url> "https://help.salesforce.com/s/articleView?language=en_US&id=platform.fields_managing_deleted_fields.htm&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-fields/s5> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-fields/s5> <http://purl.org/dc/terms/title> "Understanding Relationship Names, Custom Objects, and Custom Fields — SOQL and SOSL Reference" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-fields/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-fields/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-fields/s5> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/salesforce-soql-sosl/guide/sforce-api-calls-soql-relationships-and-custom-objects.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-fields/s6> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-fields/s6> <http://purl.org/dc/terms/title> "CustomField — Metadata API Developer Guide" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-fields/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-fields/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-fields/s6> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/customfield.htm" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-metadata-types/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-metadata-types/s1> <http://purl.org/dc/terms/title> "Custom Metadata Types: Get Started with Custom Metadata Types" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-metadata-types/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
