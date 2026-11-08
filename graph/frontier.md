@@ -9,6 +9,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:integration-patterns-request-reply-fire-and-forget` | `kt:event-driven-architecture`, `kt:integration-patterns` |
 | `kt:invocable-actions-api` | `kt:autolaunched-flow`, `kt:subflows` |
 | `kt:lightning-app-builder` | `kt:experience-builder`, `kt:page-layouts` |
+| `kt:nist-sp-800-53b` | `kt:fips-200`, `kt:nist-sp-800-53` |
 | `kt:opportunity-teams` | `kt:opportunity-splits`, `kt:opportunity-splits` |
 | `kt:orchestration-work-guide` | `kt:approval-processes`, `kt:flow-orchestrator` |
 | `kt:public-groups` | `kt:queues`, `kt:sharing-rules` |
@@ -62,7 +63,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:field-service-mobile-app` | `kt:field-service` |
 | `kt:field-service-scheduling-policies` | `kt:field-service` |
 | `kt:financial-services-cloud` | `kt:person-accounts` |
-| `kt:fips-200` | `kt:fips-199` |
 | `kt:flow-versioning` | `kt:subflows` |
 | `kt:gdpr-international-transfers` | `kt:data-residency` |
 | `kt:generative-ai` | `kt:retrieval-augmented-generation-in-salesforce` |
@@ -90,7 +90,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:mulesoft-composer` | `kt:slack-platform` |
 | `kt:mutual-tls-authentication` | `kt:login-ip-ranges-and-trusted-ip-ranges` |
 | `kt:nist-digital-identity-guidelines` | `kt:multi-factor-authentication` |
-| `kt:nist-sp-800-53b` | `kt:nist-sp-800-53` |
 | `kt:nist-sp-800-60` | `kt:fips-199` |
 | `kt:omni-channel-limits` | `kt:omni-channel` |
 | `kt:omnistudio` | `kt:public-sector-solutions` |

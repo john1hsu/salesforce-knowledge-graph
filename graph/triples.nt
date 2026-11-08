@@ -2268,6 +2268,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/fips-199> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/fips-199> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#usedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/fedramp-high> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/fips-199> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fips-200> <http://purl.org/dc/terms/created> "2026-11-08" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fips-200> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#ExternalConcept> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fips-200> <http://www.w3.org/2000/01/rdf-schema#label> "FIPS 200" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fips-200> <http://www.w3.org/2004/02/skos/core#altLabel> "FIPS 200 minimum security requirements" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fips-200> <http://www.w3.org/2004/02/skos/core#altLabel> "FIPS PUB 200" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fips-200> <http://www.w3.org/2004/02/skos/core#altLabel> "Minimum Security Requirements for Federal Information and Information Systems" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fips-200> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/security-compliance-frameworks> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fips-200> <http://www.w3.org/2004/02/skos/core#definition> "Federal Information Processing Standard 200, the NIST standard that sets minimum security requirements in 17 security-related areas for federal information systems and directs agencies to meet them by selecting the NIST SP 800-53 control baseline matching the system's FIPS 199 impact level; the bridge between categorization and the control baselines behind FedRAMP authorizations of services such as Salesforce Government Cloud Plus." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fips-200> <http://www.w3.org/2004/02/skos/core#prefLabel> "FIPS 200" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fips-200> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/fips-199> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fips-200> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/government-cloud-plus> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fips-200> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-53> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fips-200> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-53b> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fips-200> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fips-200/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fips-200> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fips-200/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fips-200> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fips-200/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fips-200> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fips-200/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fips-200> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fips-200/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fips-200> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fips-200/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fips-200> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/fips-199> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fips-200> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-53> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fips-200> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "public-sector-and-compliance" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fips-200> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fips-200> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#usedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/fedramp> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fips-200> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/first-generation-managed-packages> <http://purl.org/dc/terms/created> "2026-11-07" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/first-generation-managed-packages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/first-generation-managed-packages> <http://www.w3.org/2000/01/rdf-schema#label> "First-Generation Managed Packages" .
@@ -7625,6 +7650,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fips-199/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fips-199/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fips-199/s6> <https://schema.org/url> "https://compliance.salesforce.com/en/fedramp-high" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fips-200/s1> <http://purl.org/dc/terms/publisher> "NIST Computer Security Resource Center" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fips-200/s1> <http://purl.org/dc/terms/title> "FIPS 200, Minimum Security Requirements for Federal Information and Information Systems" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fips-200/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fips-200/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "standards-body" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fips-200/s1> <https://schema.org/url> "https://csrc.nist.gov/pubs/fips/200/final" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fips-200/s2> <http://purl.org/dc/terms/publisher> "NIST Information Technology Laboratory" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fips-200/s2> <http://purl.org/dc/terms/title> "ITL Bulletin, March 2006: Minimum Security Requirements for Federal Information and Information Systems (FIPS 200)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fips-200/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fips-200/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "standards-body" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fips-200/s2> <https://schema.org/url> "https://csrc.nist.gov/files/pubs/shared/itlb/itlbul2006-03.pdf" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fips-200/s3> <http://purl.org/dc/terms/publisher> "U.S. Government Publishing Office (govinfo)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fips-200/s3> <http://purl.org/dc/terms/title> "Request for Comments on Draft FIPS 200 (Federal Register Vol. 70, No. 135)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fips-200/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fips-200/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fips-200/s3> <https://schema.org/url> "https://www.govinfo.gov/content/pkg/FR-2005-07-15/pdf/05-13992.pdf" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fips-200/s4> <http://purl.org/dc/terms/publisher> "NIST Computer Security Resource Center" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fips-200/s4> <http://purl.org/dc/terms/title> "Control Baselines for Information Systems and Organizations: NIST Publishes SP 800-53B" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fips-200/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fips-200/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "standards-body" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fips-200/s4> <https://schema.org/url> "https://csrc.nist.gov/news/2020/control-baselines-nist-publishes-sp-800-53b" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fips-200/s5> <http://purl.org/dc/terms/publisher> "FedRAMP (GSA)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fips-200/s5> <http://purl.org/dc/terms/title> "Rev5 Transition" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fips-200/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fips-200/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fips-200/s5> <https://schema.org/url> "https://fedramp.gov/rev5/rev5-transition" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fips-200/s6> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fips-200/s6> <http://purl.org/dc/terms/title> "Salesforce FedRAMP and Government Cloud" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fips-200/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fips-200/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fips-200/s6> <https://schema.org/url> "https://www.salesforce.com/fedramp/" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/first-generation-managed-packages/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/first-generation-managed-packages/s1> <http://purl.org/dc/terms/title> "First-Generation Managed Packaging Developer Guide (PDF)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/first-generation-managed-packages/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

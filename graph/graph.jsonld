@@ -16210,6 +16210,92 @@
       ]
     },
     {
+      "@id": "kt:fips-200",
+      "@type": "kto:ExternalConcept",
+      "skos:prefLabel": "FIPS 200",
+      "skos:definition": "Federal Information Processing Standard 200, the NIST standard that sets minimum security requirements in 17 security-related areas for federal information systems and directs agencies to meet them by selecting the NIST SP 800-53 control baseline matching the system's FIPS 199 impact level; the bridge between categorization and the control baselines behind FedRAMP authorizations of services such as Salesforce Government Cloud Plus.",
+      "kto:domain": "public-sector-and-compliance",
+      "dcterms:created": "2026-11-08",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "FIPS 200, Minimum Security Requirements for Federal Information and Information Systems",
+          "dcterms:publisher": "NIST Computer Security Resource Center",
+          "schema:url": "https://csrc.nist.gov/pubs/fips/200/final",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "ITL Bulletin, March 2006: Minimum Security Requirements for Federal Information and Information Systems (FIPS 200)",
+          "dcterms:publisher": "NIST Information Technology Laboratory",
+          "schema:url": "https://csrc.nist.gov/files/pubs/shared/itlb/itlbul2006-03.pdf",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "Request for Comments on Draft FIPS 200 (Federal Register Vol. 70, No. 135)",
+          "dcterms:publisher": "U.S. Government Publishing Office (govinfo)",
+          "schema:url": "https://www.govinfo.gov/content/pkg/FR-2005-07-15/pdf/05-13992.pdf",
+          "kto:sourceType": "government"
+        },
+        {
+          "dcterms:title": "Control Baselines for Information Systems and Organizations: NIST Publishes SP 800-53B",
+          "dcterms:publisher": "NIST Computer Security Resource Center",
+          "schema:url": "https://csrc.nist.gov/news/2020/control-baselines-nist-publishes-sp-800-53b",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "Rev5 Transition",
+          "dcterms:publisher": "FedRAMP (GSA)",
+          "schema:url": "https://fedramp.gov/rev5/rev5-transition",
+          "kto:sourceType": "government"
+        },
+        {
+          "dcterms:title": "Salesforce FedRAMP and Government Cloud",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/fedramp/",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/public-sector-and-compliance/fips-200.md",
+      "skos:altLabel": [
+        "FIPS PUB 200",
+        "Minimum Security Requirements for Federal Information and Information Systems",
+        "FIPS 200 minimum security requirements"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:security-compliance-frameworks"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:fips-199"
+        },
+        {
+          "@id": "kt:nist-sp-800-53"
+        },
+        {
+          "@id": "kt:nist-sp-800-53b"
+        },
+        {
+          "@id": "kt:government-cloud-plus"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:fips-199"
+        },
+        {
+          "@id": "kt:nist-sp-800-53"
+        }
+      ],
+      "kto:usedBy": [
+        {
+          "@id": "kt:fedramp"
+        }
+      ]
+    },
+    {
       "@id": "kt:government-cloud-plus",
       "@type": "kto:Product",
       "skos:prefLabel": "Government Cloud Plus",
