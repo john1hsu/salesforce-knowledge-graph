@@ -9163,6 +9163,92 @@
       ]
     },
     {
+      "@id": "kt:namespace-registry",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Namespace Registry",
+      "skos:definition": "The Dev Hub app (Namespace Registries) where a namespace created in a separate Developer Edition org is linked to the Dev Hub, so that namespaced scratch orgs, unlocked packages and second-generation managed packages can use it.",
+      "kto:domain": "devops-and-alm",
+      "dcterms:created": "2026-11-08",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Link a Namespace to a Dev Hub Org",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/pkg2-dev/guide/sfdx-dev-reg-namespace.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Create and Register Your Namespace for Second-Generation Managed Packages",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/pkg2-dev/guide/sfdx-dev-dev2gp-create-namespace.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Namespaces for Second-Generation Managed Packages",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/pkg2-dev/guide/sfdx-dev-dev2gp-plan-namespaces.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Understanding Namespaces (Unlocked Packages)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_unlocked_pkg_plan_namespaces.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "How Scratch Orgs Fit in the Package Development Workflow",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/pkg2-dev/guide/dev2gp-so-how-fit-pkg-dev.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Avoid Namespace Collisions in Second-Generation Managed Packages",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/pkg2-dev/guide/sfdx-dev-dev2gp-namespace-collisions.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/devops-and-alm/namespace-registry.md",
+      "skos:altLabel": [
+        "Namespace Registries",
+        "linked namespaces",
+        "Dev Hub namespace registry",
+        "Link Namespace"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-dx"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:scratch-orgs"
+        },
+        {
+          "@id": "kt:first-generation-managed-packages"
+        },
+        {
+          "@id": "kt:package-dependencies"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:dev-hub"
+        }
+      ],
+      "kto:enables": [
+        {
+          "@id": "kt:second-generation-managed-packages"
+        }
+      ],
+      "kto:usedBy": [
+        {
+          "@id": "kt:unlocked-packages"
+        }
+      ]
+    },
+    {
       "@id": "kt:package-dependencies",
       "@type": "kto:Feature",
       "skos:prefLabel": "Package Dependencies",

@@ -4,7 +4,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:namespace-registry` | `kt:dev-hub`, `kt:first-generation-managed-packages`, `kt:second-generation-managed-packages` |
 | `kt:apex-enterprise-patterns` | `kt:trigger-framework-pattern`, `kt:package-dependencies` |
 | `kt:appexchange-security-review` | `kt:code-analyzer`, `kt:first-generation-managed-packages` |
 | `kt:classic-encryption` | `kt:salesforce-shield`, `kt:shield-platform-encryption` |

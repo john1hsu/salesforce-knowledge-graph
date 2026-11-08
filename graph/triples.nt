@@ -2801,6 +2801,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/named-credentials> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#replaces> <https://github.com/john1hsu/salesforce-knowledge-graph/id/legacy-named-credentials> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/named-credentials> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/named-credentials> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/namespace-registry> <http://purl.org/dc/terms/created> "2026-11-08" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/namespace-registry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/namespace-registry> <http://www.w3.org/2000/01/rdf-schema#label> "Namespace Registry" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/namespace-registry> <http://www.w3.org/2004/02/skos/core#altLabel> "Dev Hub namespace registry" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/namespace-registry> <http://www.w3.org/2004/02/skos/core#altLabel> "Link Namespace" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/namespace-registry> <http://www.w3.org/2004/02/skos/core#altLabel> "Namespace Registries" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/namespace-registry> <http://www.w3.org/2004/02/skos/core#altLabel> "linked namespaces" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/namespace-registry> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-dx> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/namespace-registry> <http://www.w3.org/2004/02/skos/core#definition> "The Dev Hub app (Namespace Registries) where a namespace created in a separate Developer Edition org is linked to the Dev Hub, so that namespaced scratch orgs, unlocked packages and second-generation managed packages can use it." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/namespace-registry> <http://www.w3.org/2004/02/skos/core#prefLabel> "Namespace Registry" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/namespace-registry> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/first-generation-managed-packages> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/namespace-registry> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/package-dependencies> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/namespace-registry> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/scratch-orgs> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/namespace-registry> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/namespace-registry/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/namespace-registry> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/namespace-registry/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/namespace-registry> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/namespace-registry/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/namespace-registry> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/namespace-registry/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/namespace-registry> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/namespace-registry/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/namespace-registry> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/namespace-registry/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/namespace-registry> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "devops-and-alm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/namespace-registry> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#enables> <https://github.com/john1hsu/salesforce-knowledge-graph/id/second-generation-managed-packages> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/namespace-registry> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#partOf> <https://github.com/john1hsu/salesforce-knowledge-graph/id/dev-hub> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/namespace-registry> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/namespace-registry> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#usedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/unlocked-packages> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/namespace-registry> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-cybersecurity-framework> <http://purl.org/dc/terms/created> "2026-11-07" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-cybersecurity-framework> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#ExternalConcept> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-cybersecurity-framework> <http://www.w3.org/2000/01/rdf-schema#label> "NIST Cybersecurity Framework" .
@@ -7685,6 +7710,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/named-credentials/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/named-credentials/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/named-credentials/s5> <https://schema.org/url> "https://help.salesforce.com/apex/HTViewHelpDoc?id=xcloud.named_credentials_define.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/namespace-registry/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/namespace-registry/s1> <http://purl.org/dc/terms/title> "Link a Namespace to a Dev Hub Org" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/namespace-registry/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/namespace-registry/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/namespace-registry/s1> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/pkg2-dev/guide/sfdx-dev-reg-namespace.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/namespace-registry/s2> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/namespace-registry/s2> <http://purl.org/dc/terms/title> "Create and Register Your Namespace for Second-Generation Managed Packages" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/namespace-registry/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/namespace-registry/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/namespace-registry/s2> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/pkg2-dev/guide/sfdx-dev-dev2gp-create-namespace.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/namespace-registry/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/namespace-registry/s3> <http://purl.org/dc/terms/title> "Namespaces for Second-Generation Managed Packages" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/namespace-registry/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/namespace-registry/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/namespace-registry/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/pkg2-dev/guide/sfdx-dev-dev2gp-plan-namespaces.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/namespace-registry/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/namespace-registry/s4> <http://purl.org/dc/terms/title> "Understanding Namespaces (Unlocked Packages)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/namespace-registry/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/namespace-registry/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/namespace-registry/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_unlocked_pkg_plan_namespaces.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/namespace-registry/s5> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/namespace-registry/s5> <http://purl.org/dc/terms/title> "How Scratch Orgs Fit in the Package Development Workflow" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/namespace-registry/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/namespace-registry/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/namespace-registry/s5> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/pkg2-dev/guide/dev2gp-so-how-fit-pkg-dev.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/namespace-registry/s6> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/namespace-registry/s6> <http://purl.org/dc/terms/title> "Avoid Namespace Collisions in Second-Generation Managed Packages" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/namespace-registry/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/namespace-registry/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/namespace-registry/s6> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/pkg2-dev/guide/sfdx-dev-dev2gp-namespace-collisions.html" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-cybersecurity-framework/s1> <http://purl.org/dc/terms/publisher> "NIST Computer Security Resource Center" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-cybersecurity-framework/s1> <http://purl.org/dc/terms/title> "CSWP 29, The NIST Cybersecurity Framework (CSF) 2.0" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-cybersecurity-framework/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
