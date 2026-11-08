@@ -6466,6 +6466,96 @@
       ]
     },
     {
+      "@id": "kt:duplicate-management",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Duplicate Management",
+      "skos:definition": "Salesforce's built-in duplicate detection, in which matching rules define how two records are compared and duplicate rules decide whether a potential duplicate is allowed with a warning, blocked, or logged for reporting.",
+      "kto:domain": "data-model",
+      "dcterms:created": "2026-11-08",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Resolve and Prevent Duplicate Data in Salesforce — Duplicate Management module",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/sales_admin_duplicate_management/sales_admin_duplicate_management_unit_2",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "DuplicateRule — Metadata API Developer Guide",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_duplicaterule.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "FindDuplicates Class — Apex Reference Guide",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexcode/apex_class_Datacloud_FindDuplicates.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "DuplicateRecordSet — Object Reference for the Salesforce Platform",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/api/sforce_api_objects_duplicaterecordset.htm",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/data-model/duplicate-management.md",
+      "skos:altLabel": [
+        "duplicate rules",
+        "matching rules",
+        "duplicate rule",
+        "matching rule",
+        "Salesforce dedupe",
+        "DuplicateRule"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:data-quality"
+        },
+        {
+          "@id": "kt:data-architecture"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:lead-conversion"
+        },
+        {
+          "@id": "kt:person-accounts"
+        },
+        {
+          "@id": "kt:standard-objects"
+        },
+        {
+          "@id": "kt:data-migration-strategy"
+        },
+        {
+          "@id": "kt:salesforce-sharing-model"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:identity-resolution"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:metadata-api"
+        }
+      ],
+      "kto:queriedWith": [
+        {
+          "@id": "kt:apex"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:platform-administrator-certification"
+        }
+      ]
+    },
+    {
       "@id": "kt:external-id-fields",
       "@type": "kto:Feature",
       "skos:prefLabel": "External ID Fields",

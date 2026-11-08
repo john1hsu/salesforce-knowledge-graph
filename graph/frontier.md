@@ -5,7 +5,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | Node | Referenced by |
 |---|---|
 | `kt:data-cloud-segmentation` | `kt:calculated-insights`, `kt:data-cloud-limits` |
-| `kt:duplicate-management` | `kt:lead-conversion`, `kt:identity-resolution` |
 | `kt:experience-builder` | `kt:experience-cloud`, `kt:experience-cloud-identity` |
 | `kt:graphql-api` | `kt:polymorphic-relationships`, `kt:lightning-data-service` |
 | `kt:group-membership-locking` | `kt:enterprise-territory-management`, `kt:sharing-recalculation` |
@@ -47,6 +46,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:data-categories` | `kt:knowledge-base` |
 | `kt:data-detect` | `kt:salesforce-shield` |
 | `kt:data-loader` | `kt:bulk-api-2` |
+| `kt:data-quality` | `kt:duplicate-management` |
 | `kt:data-sovereignty` | `kt:data-residency` |
 | `kt:data-streams` | `kt:data-lake-objects` |
 | `kt:development-lifecycle-and-deployment-architect-certification` | `kt:system-architect-certification` |

@@ -1635,6 +1635,35 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/dod-cloud-computing-srg> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/il4-and-il5> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/dod-cloud-computing-srg> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/dod-cloud-computing-srg> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/duplicate-management> <http://purl.org/dc/terms/created> "2026-11-08" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/duplicate-management> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/duplicate-management> <http://www.w3.org/2000/01/rdf-schema#label> "Duplicate Management" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/duplicate-management> <http://www.w3.org/2004/02/skos/core#altLabel> "DuplicateRule" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/duplicate-management> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce dedupe" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/duplicate-management> <http://www.w3.org/2004/02/skos/core#altLabel> "duplicate rule" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/duplicate-management> <http://www.w3.org/2004/02/skos/core#altLabel> "duplicate rules" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/duplicate-management> <http://www.w3.org/2004/02/skos/core#altLabel> "matching rule" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/duplicate-management> <http://www.w3.org/2004/02/skos/core#altLabel> "matching rules" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/duplicate-management> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-architecture> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/duplicate-management> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-quality> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/duplicate-management> <http://www.w3.org/2004/02/skos/core#definition> "Salesforce's built-in duplicate detection, in which matching rules define how two records are compared and duplicate rules decide whether a potential duplicate is allowed with a warning, blocked, or logged for reporting." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/duplicate-management> <http://www.w3.org/2004/02/skos/core#prefLabel> "Duplicate Management" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/duplicate-management> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-migration-strategy> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/duplicate-management> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/lead-conversion> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/duplicate-management> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/person-accounts> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/duplicate-management> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-sharing-model> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/duplicate-management> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/standard-objects> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/duplicate-management> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/duplicate-management/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/duplicate-management> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/duplicate-management/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/duplicate-management> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/duplicate-management/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/duplicate-management> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/duplicate-management/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/duplicate-management> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/duplicate-management> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#contrastsWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-resolution> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/duplicate-management> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#coveredBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-administrator-certification> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/duplicate-management> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "data-model" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/duplicate-management> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/duplicate-management> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/duplicate-management> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/einstein-trust-layer> <http://purl.org/dc/terms/created> "2026-11-01" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/einstein-trust-layer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#SecurityControl> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/einstein-trust-layer> <http://www.w3.org/2000/01/rdf-schema#label> "Einstein Trust Layer" .
@@ -6813,6 +6842,26 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dod-cloud-computing-srg/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dod-cloud-computing-srg/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dod-cloud-computing-srg/s6> <https://schema.org/url> "https://compliance.salesforce.com/en/documents/a005A00000rU71SQAS" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/duplicate-management/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/duplicate-management/s1> <http://purl.org/dc/terms/title> "Resolve and Prevent Duplicate Data in Salesforce — Duplicate Management module" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/duplicate-management/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/duplicate-management/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/duplicate-management/s1> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/sales_admin_duplicate_management/sales_admin_duplicate_management_unit_2" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/duplicate-management/s2> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/duplicate-management/s2> <http://purl.org/dc/terms/title> "DuplicateRule — Metadata API Developer Guide" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/duplicate-management/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/duplicate-management/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/duplicate-management/s2> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_duplicaterule.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/duplicate-management/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/duplicate-management/s3> <http://purl.org/dc/terms/title> "FindDuplicates Class — Apex Reference Guide" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/duplicate-management/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/duplicate-management/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/duplicate-management/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexcode/apex_class_Datacloud_FindDuplicates.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/duplicate-management/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/duplicate-management/s4> <http://purl.org/dc/terms/title> "DuplicateRecordSet — Object Reference for the Salesforce Platform" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/duplicate-management/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/duplicate-management/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/duplicate-management/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/api/sforce_api_objects_duplicaterecordset.htm" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/einstein-trust-layer/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/einstein-trust-layer/s1> <http://purl.org/dc/terms/title> "Trust Layer (Agentforce Developer Guide)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/einstein-trust-layer/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
