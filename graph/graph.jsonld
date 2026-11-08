@@ -3562,6 +3562,106 @@
       ]
     },
     {
+      "@id": "kt:lead-conversion",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Lead Conversion",
+      "skos:definition": "The Sales Cloud process that turns a qualified lead into a contact linked to a new or existing account (or a person account), optionally creating or attaching an opportunity, via the Convert Lead window, Apex or the API.",
+      "kto:domain": "clouds-and-products",
+      "dcterms:created": "2026-11-08",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Convert Leads",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/HTViewHelpDoc?id=leads_convert.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "SOAP API Developer Guide: convertLead()",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api.meta/api/sforce_api_calls_convertlead.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Apex Reference Guide: LeadConvert Class",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_dml_convertLead.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Apex Developer Guide: Converting Leads",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexref/langCon_apex_dml_examples_convertlead.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Metadata API Developer Guide: LeadConfigSettings",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_leadconfigsettings.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Leads & Opportunities for Lightning Experience: Create and Convert Leads",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/en/content/learn/modules/leads_opportunities_lightning_experience/create-and-convert-leads-lightning",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/clouds-and-products/lead-conversion.md",
+      "skos:altLabel": [
+        "convert lead",
+        "convertLead",
+        "Database.convertLead",
+        "LeadConvert",
+        "Apex Lead Convert",
+        "converting leads"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:sales-cloud"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:business-processes"
+        },
+        {
+          "@id": "kt:person-accounts"
+        },
+        {
+          "@id": "kt:assignment-rules"
+        },
+        {
+          "@id": "kt:record-types"
+        },
+        {
+          "@id": "kt:standard-objects"
+        },
+        {
+          "@id": "kt:apex"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:duplicate-management"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:metadata-api"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:sales-cloud-consultant-certification"
+        },
+        {
+          "@id": "kt:platform-administrator-certification"
+        }
+      ]
+    },
+    {
       "@id": "kt:marketing-cloud-engagement",
       "@type": "kto:Product",
       "skos:prefLabel": "Marketing Cloud Engagement",

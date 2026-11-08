@@ -5,12 +5,12 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | Node | Referenced by |
 |---|---|
 | `kt:data-cloud-limits` | `kt:calculated-insights`, `kt:data-lake-objects` |
+| `kt:duplicate-management` | `kt:lead-conversion`, `kt:identity-resolution` |
 | `kt:experience-builder` | `kt:experience-cloud`, `kt:experience-cloud-identity` |
 | `kt:graphql-api` | `kt:polymorphic-relationships`, `kt:lightning-data-service` |
 | `kt:group-membership-locking` | `kt:enterprise-territory-management`, `kt:sharing-recalculation` |
 | `kt:integration-patterns-request-reply-fire-and-forget` | `kt:event-driven-architecture`, `kt:integration-patterns` |
 | `kt:invocable-actions-api` | `kt:autolaunched-flow`, `kt:subflows` |
-| `kt:lead-conversion` | `kt:sales-cloud`, `kt:business-processes` |
 | `kt:opportunity-teams` | `kt:opportunity-splits`, `kt:opportunity-splits` |
 | `kt:orchestration-work-guide` | `kt:approval-processes`, `kt:flow-orchestrator` |
 | `kt:public-groups` | `kt:queues`, `kt:sharing-rules` |
@@ -53,7 +53,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:development-lifecycle-and-deployment-architect-certification` | `kt:system-architect-certification` |
 | `kt:digital-accessibility` | `kt:section-508-accessibility` |
 | `kt:dispatcher-console` | `kt:field-service` |
-| `kt:duplicate-management` | `kt:identity-resolution` |
 | `kt:dynamic-forms` | `kt:page-layouts` |
 | `kt:dynamic-revenue-orchestrator` | `kt:revenue-cloud` |
 | `kt:einstein-discovery` | `kt:crm-analytics` |
