@@ -970,6 +970,33 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/cjis-security-policy> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "public-sector-and-compliance" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/cjis-security-policy> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/cjis-security-policy> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/classic-encryption> <http://purl.org/dc/terms/created> "2026-11-08" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/classic-encryption> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#SecurityControl> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/classic-encryption> <http://www.w3.org/2000/01/rdf-schema#label> "Classic Encryption" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/classic-encryption> <http://www.w3.org/2004/02/skos/core#altLabel> "Classic Encryption for Custom Fields" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/classic-encryption> <http://www.w3.org/2004/02/skos/core#altLabel> "EncryptedString field" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/classic-encryption> <http://www.w3.org/2004/02/skos/core#altLabel> "Text (Encrypted) field" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/classic-encryption> <http://www.w3.org/2004/02/skos/core#altLabel> "classic encrypted custom fields" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/classic-encryption> <http://www.w3.org/2004/02/skos/core#altLabel> "encrypted text field" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/classic-encryption> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-sharing-model> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/classic-encryption> <http://www.w3.org/2004/02/skos/core#definition> "Salesforce's original, no-extra-cost field encryption: a dedicated Text (Encrypted) custom field type, limited to 175 characters and encrypted with 128-bit AES keys, whose values are masked for users who lack the View Encrypted Data permission." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/classic-encryption> <http://www.w3.org/2004/02/skos/core#prefLabel> "Classic Encryption" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/classic-encryption> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/field-level-security> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/classic-encryption> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/permission-sets> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/classic-encryption> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-shield> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/classic-encryption> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/security-compliance-frameworks> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/classic-encryption> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/classic-encryption/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/classic-encryption> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/classic-encryption/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/classic-encryption> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/classic-encryption/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/classic-encryption> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/classic-encryption/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/classic-encryption> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/classic-encryption/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/classic-encryption> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#alternativeTo> <https://github.com/john1hsu/salesforce-knowledge-graph/id/shield-platform-encryption> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/classic-encryption> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#contrastsWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/shield-platform-encryption> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/classic-encryption> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "security-and-sharing" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/classic-encryption> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#mitigates> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-breach-risk> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/classic-encryption> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/soql> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/classic-encryption> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/classic-encryption> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/code-analyzer> <http://purl.org/dc/terms/created> "2026-11-03" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/code-analyzer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Tool> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/code-analyzer> <http://www.w3.org/2000/01/rdf-schema#label> "Salesforce Code Analyzer" .
@@ -5996,6 +6023,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/cjis-security-policy/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/cjis-security-policy/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/cjis-security-policy/s5> <https://schema.org/url> "https://compliance.salesforce.com/en/documents/a006e000013GLo5AAG" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/classic-encryption/s1> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/classic-encryption/s1> <http://purl.org/dc/terms/title> "Custom Field Types (Salesforce Help)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/classic-encryption/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/classic-encryption/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/classic-encryption/s1> <https://schema.org/url> "https://help.salesforce.com/s/articleView?language=en_US&id=platform.custom_field_types.htm&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/classic-encryption/s2> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/classic-encryption/s2> <http://purl.org/dc/terms/title> "Strengthen Your Data's Security with Shield Platform Encryption (Salesforce Help, PDF)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/classic-encryption/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/classic-encryption/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/classic-encryption/s2> <https://schema.org/url> "https://resources.docs.salesforce.com/latest/latest/en-us/sfdc/pdf/setup_security_platform_encryption.pdf" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/classic-encryption/s3> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/classic-encryption/s3> <http://purl.org/dc/terms/title> "What's the Difference Between Classic Encrypted Custom Fields and Platform Encryption? (Security Implementation Guide, Summer '15)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/classic-encryption/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/classic-encryption/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/classic-encryption/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.196.0.securityImplGuide.meta/securityImplGuide/security_pe_comparison_table.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/classic-encryption/s4> <http://purl.org/dc/terms/publisher> "Salesforce Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/classic-encryption/s4> <http://purl.org/dc/terms/title> "Get Started with Shield Platform Encryption (Trailhead, Shield Platform Encryption for Admins)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/classic-encryption/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/classic-encryption/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/classic-encryption/s4> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/spe_admins/spe_admins_get_started" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/classic-encryption/s5> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/classic-encryption/s5> <http://purl.org/dc/terms/title> "Schema.DisplayType Enum (Apex Reference Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/classic-encryption/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/classic-encryption/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/classic-encryption/s5> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.264.0.apexref.meta/apexref/apex_enum_Schema_DisplayType.htm" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/code-analyzer/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/code-analyzer/s1> <http://purl.org/dc/terms/title> "Salesforce Code Analyzer" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/code-analyzer/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

@@ -16073,6 +16073,95 @@
       ]
     },
     {
+      "@id": "kt:classic-encryption",
+      "@type": "kto:SecurityControl",
+      "skos:prefLabel": "Classic Encryption",
+      "skos:definition": "Salesforce's original, no-extra-cost field encryption: a dedicated Text (Encrypted) custom field type, limited to 175 characters and encrypted with 128-bit AES keys, whose values are masked for users who lack the View Encrypted Data permission.",
+      "kto:domain": "security-and-sharing",
+      "dcterms:created": "2026-11-08",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Custom Field Types (Salesforce Help)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=platform.custom_field_types.htm&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Strengthen Your Data's Security with Shield Platform Encryption (Salesforce Help, PDF)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://resources.docs.salesforce.com/latest/latest/en-us/sfdc/pdf/setup_security_platform_encryption.pdf",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "What's the Difference Between Classic Encrypted Custom Fields and Platform Encryption? (Security Implementation Guide, Summer '15)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.196.0.securityImplGuide.meta/securityImplGuide/security_pe_comparison_table.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Get Started with Shield Platform Encryption (Trailhead, Shield Platform Encryption for Admins)",
+          "dcterms:publisher": "Salesforce Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/spe_admins/spe_admins_get_started",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Schema.DisplayType Enum (Apex Reference Guide)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.264.0.apexref.meta/apexref/apex_enum_Schema_DisplayType.htm",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/security-and-sharing/classic-encryption.md",
+      "skos:altLabel": [
+        "Classic Encryption for Custom Fields",
+        "classic encrypted custom fields",
+        "Text (Encrypted) field",
+        "encrypted text field",
+        "EncryptedString field"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-sharing-model"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:salesforce-shield"
+        },
+        {
+          "@id": "kt:field-level-security"
+        },
+        {
+          "@id": "kt:permission-sets"
+        },
+        {
+          "@id": "kt:security-compliance-frameworks"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:shield-platform-encryption"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:shield-platform-encryption"
+        }
+      ],
+      "kto:mitigates": [
+        {
+          "@id": "kt:data-breach-risk"
+        }
+      ],
+      "kto:queriedWith": [
+        {
+          "@id": "kt:soql"
+        }
+      ]
+    },
+    {
       "@id": "kt:data-breach-risk",
       "@type": "kto:Concept",
       "skos:prefLabel": "Data Breach Risk",
