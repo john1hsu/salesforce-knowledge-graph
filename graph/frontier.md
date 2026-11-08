@@ -4,7 +4,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:custom-settings` | `kt:custom-metadata-types`, `kt:platform-cache` |
 | `kt:graphql-api` | `kt:polymorphic-relationships`, `kt:lightning-data-service` |
 | `kt:group-membership-locking` | `kt:enterprise-territory-management`, `kt:sharing-recalculation` |
 | `kt:integration-patterns-request-reply-fire-and-forget` | `kt:event-driven-architecture`, `kt:integration-patterns` |

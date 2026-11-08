@@ -8690,6 +8690,87 @@
       ]
     },
     {
+      "@id": "kt:custom-settings",
+      "@type": "kto:MetadataType",
+      "skos:prefLabel": "Custom Settings",
+      "skos:definition": "Custom objects for application configuration whose records are cached in the application cache and read through dedicated Apex methods; list settings hold org-wide static data, while hierarchy settings resolve values per user, then profile, then org default.",
+      "kto:domain": "development",
+      "dcterms:created": "2026-11-08",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Apex Developer Guide: Custom Settings",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_customsettings.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Apex Reference Guide: Custom Settings Methods",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_custom_settings.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Advanced Custom Metadata Types: Convert Custom Settings to Custom Metadata Types",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/custom_metadata_types_adv/cmt_convert",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "How to Use Custom Metadata Types",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2015/05/how-to-use-custom-metadata-types",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/development/custom-settings.md",
+      "skos:altLabel": [
+        "custom setting",
+        "list custom settings",
+        "hierarchy custom settings",
+        "hierarchy custom setting",
+        "list custom setting"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:metadata-driven-architecture"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:apex"
+        },
+        {
+          "@id": "kt:platform-cache"
+        },
+        {
+          "@id": "kt:profiles"
+        },
+        {
+          "@id": "kt:apex-testing"
+        },
+        {
+          "@id": "kt:named-credentials"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:custom-metadata-types"
+        }
+      ],
+      "kto:queriedWith": [
+        {
+          "@id": "kt:soql"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:governor-limits"
+        }
+      ]
+    },
+    {
       "@id": "kt:future-methods",
       "@type": "kto:Feature",
       "skos:prefLabel": "Future Methods",

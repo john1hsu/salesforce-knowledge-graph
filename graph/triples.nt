@@ -1214,6 +1214,32 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-metadata-types> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/soql> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-metadata-types> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-metadata-types> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-settings> <http://purl.org/dc/terms/created> "2026-11-08" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-settings> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#MetadataType> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-settings> <http://www.w3.org/2000/01/rdf-schema#label> "Custom Settings" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-settings> <http://www.w3.org/2004/02/skos/core#altLabel> "custom setting" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-settings> <http://www.w3.org/2004/02/skos/core#altLabel> "hierarchy custom setting" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-settings> <http://www.w3.org/2004/02/skos/core#altLabel> "hierarchy custom settings" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-settings> <http://www.w3.org/2004/02/skos/core#altLabel> "list custom setting" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-settings> <http://www.w3.org/2004/02/skos/core#altLabel> "list custom settings" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-settings> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-driven-architecture> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-settings> <http://www.w3.org/2004/02/skos/core#definition> "Custom objects for application configuration whose records are cached in the application cache and read through dedicated Apex methods; list settings hold org-wide static data, while hierarchy settings resolve values per user, then profile, then org default." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-settings> <http://www.w3.org/2004/02/skos/core#prefLabel> "Custom Settings" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-settings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-testing> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-settings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-settings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/named-credentials> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-settings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-cache> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-settings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/profiles> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-settings> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-settings/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-settings> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-settings/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-settings> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-settings/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-settings> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-settings/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-settings> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#alternativeTo> <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-metadata-types> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-settings> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "development" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-settings> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#governedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/governor-limits> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-settings> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/soql> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-settings> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-settings> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-and-file-storage-allocations> <http://purl.org/dc/terms/created> "2026-11-08" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-and-file-storage-allocations> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Limit> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-and-file-storage-allocations> <http://www.w3.org/2000/01/rdf-schema#label> "Data and File Storage Allocations" .
@@ -6544,6 +6570,26 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-metadata-types/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-metadata-types/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-metadata-types/s6> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/custom_metadata_types_dec/cmt_formulas" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-settings/s1> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-settings/s1> <http://purl.org/dc/terms/title> "Apex Developer Guide: Custom Settings" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-settings/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-settings/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-settings/s1> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_customsettings.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-settings/s2> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-settings/s2> <http://purl.org/dc/terms/title> "Apex Reference Guide: Custom Settings Methods" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-settings/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-settings/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-settings/s2> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_custom_settings.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-settings/s3> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-settings/s3> <http://purl.org/dc/terms/title> "Advanced Custom Metadata Types: Convert Custom Settings to Custom Metadata Types" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-settings/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-settings/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-settings/s3> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/custom_metadata_types_adv/cmt_convert" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-settings/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-settings/s4> <http://purl.org/dc/terms/title> "How to Use Custom Metadata Types" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-settings/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-settings/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-settings/s4> <https://schema.org/url> "https://developer.salesforce.com/blogs/2015/05/how-to-use-custom-metadata-types" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-and-file-storage-allocations/s1> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-and-file-storage-allocations/s1> <http://purl.org/dc/terms/title> "Data and File Storage Allocations" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-and-file-storage-allocations/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
