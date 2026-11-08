@@ -10525,6 +10525,94 @@
       ]
     },
     {
+      "@id": "kt:just-in-time-provisioning",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Just-in-Time User Provisioning",
+      "skos:definition": "A SAML single sign-on option that creates or updates a Salesforce user (and, for Experience Cloud, the related contact and account) at login from attributes in the identity provider's assertion, using either standard field mapping or a custom Apex SamlJitHandler.",
+      "kto:domain": "identity",
+      "dcterms:created": "2026-11-08",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Just-in-Time Provisioning Requirements",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=xcloud.sso_jit_requirements.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Just-in-Time SAML Assertion Fields for Portals",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=xcloud.sso_jit_portal_requirements.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Edit the SAML JIT Handler",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=xcloud.sso_jit_edit_jit_handler.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "SAML Just-in-Time Provisioning Errors",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=xcloud.sso_jit_errors.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "SamlJitHandler Interface (Apex Reference Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_interface_Auth_SamlJitHandler.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Just-in-Time User Provisioning in Summer '11",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2011/05/just-in-time-user-provisioning-in-summer-11",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/identity/just-in-time-provisioning.md",
+      "skos:altLabel": [
+        "JIT provisioning",
+        "SAML JIT",
+        "just-in-time provisioning for SAML",
+        "SAML JIT handler",
+        "Auth.SamlJitHandler"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-identity"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:single-sign-on-saml"
+        },
+        {
+          "@id": "kt:openid-connect-authentication-providers"
+        },
+        {
+          "@id": "kt:experience-cloud-identity"
+        },
+        {
+          "@id": "kt:profiles"
+        },
+        {
+          "@id": "kt:role-hierarchy"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:single-sign-on-saml"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:apex"
+        }
+      ]
+    },
+    {
       "@id": "kt:login-flows",
       "@type": "kto:Feature",
       "skos:prefLabel": "Login Flows",
@@ -11333,6 +11421,9 @@
         },
         {
           "@id": "kt:oauth-2-flows-in-salesforce"
+        },
+        {
+          "@id": "kt:just-in-time-provisioning"
         }
       ],
       "kto:implements": [

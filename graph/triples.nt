@@ -2442,6 +2442,33 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/junction-object> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#enables> <https://github.com/john1hsu/salesforce-knowledge-graph/id/roll-up-summary-field> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/junction-object> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/junction-object> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/just-in-time-provisioning> <http://purl.org/dc/terms/created> "2026-11-08" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/just-in-time-provisioning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/just-in-time-provisioning> <http://www.w3.org/2000/01/rdf-schema#label> "Just-in-Time User Provisioning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/just-in-time-provisioning> <http://www.w3.org/2004/02/skos/core#altLabel> "Auth.SamlJitHandler" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/just-in-time-provisioning> <http://www.w3.org/2004/02/skos/core#altLabel> "JIT provisioning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/just-in-time-provisioning> <http://www.w3.org/2004/02/skos/core#altLabel> "SAML JIT handler" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/just-in-time-provisioning> <http://www.w3.org/2004/02/skos/core#altLabel> "SAML JIT" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/just-in-time-provisioning> <http://www.w3.org/2004/02/skos/core#altLabel> "just-in-time provisioning for SAML" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/just-in-time-provisioning> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-identity> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/just-in-time-provisioning> <http://www.w3.org/2004/02/skos/core#definition> "A SAML single sign-on option that creates or updates a Salesforce user (and, for Experience Cloud, the related contact and account) at login from attributes in the identity provider's assertion, using either standard field mapping or a custom Apex SamlJitHandler." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/just-in-time-provisioning> <http://www.w3.org/2004/02/skos/core#prefLabel> "Just-in-Time User Provisioning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/just-in-time-provisioning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/experience-cloud-identity> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/just-in-time-provisioning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/openid-connect-authentication-providers> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/just-in-time-provisioning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/profiles> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/just-in-time-provisioning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/role-hierarchy> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/just-in-time-provisioning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/single-sign-on-saml> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/just-in-time-provisioning> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/just-in-time-provisioning/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/just-in-time-provisioning> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/just-in-time-provisioning/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/just-in-time-provisioning> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/just-in-time-provisioning/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/just-in-time-provisioning> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/just-in-time-provisioning/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/just-in-time-provisioning> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/just-in-time-provisioning/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/just-in-time-provisioning> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/just-in-time-provisioning/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/just-in-time-provisioning> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/single-sign-on-saml> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/just-in-time-provisioning> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "identity" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/just-in-time-provisioning> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/just-in-time-provisioning> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/just-in-time-provisioning> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/knowledge-base> <http://purl.org/dc/terms/created> "2026-11-02" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/knowledge-base> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/knowledge-base> <http://www.w3.org/2000/01/rdf-schema#label> "Salesforce Knowledge" .
@@ -4703,6 +4730,7 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/single-sign-on-saml> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/connected-apps> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/single-sign-on-saml> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/experience-cloud-identity> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/single-sign-on-saml> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/external-client-apps> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/single-sign-on-saml> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/just-in-time-provisioning> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/single-sign-on-saml> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/multi-factor-authentication> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/single-sign-on-saml> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/my-domain> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/single-sign-on-saml> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-2-flows-in-salesforce> .
@@ -7350,6 +7378,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/junction-object/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/junction-object/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/junction-object/s5> <https://schema.org/url> "https://admin.salesforce.com/blog/2022/how-salesforce-uses-junction-objects-to-enrich-reporting" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/just-in-time-provisioning/s1> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/just-in-time-provisioning/s1> <http://purl.org/dc/terms/title> "Just-in-Time Provisioning Requirements" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/just-in-time-provisioning/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/just-in-time-provisioning/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/just-in-time-provisioning/s1> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=xcloud.sso_jit_requirements.htm&language=en_US&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/just-in-time-provisioning/s2> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/just-in-time-provisioning/s2> <http://purl.org/dc/terms/title> "Just-in-Time SAML Assertion Fields for Portals" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/just-in-time-provisioning/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/just-in-time-provisioning/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/just-in-time-provisioning/s2> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=xcloud.sso_jit_portal_requirements.htm&language=en_US&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/just-in-time-provisioning/s3> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/just-in-time-provisioning/s3> <http://purl.org/dc/terms/title> "Edit the SAML JIT Handler" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/just-in-time-provisioning/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/just-in-time-provisioning/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/just-in-time-provisioning/s3> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=xcloud.sso_jit_edit_jit_handler.htm&language=en_US&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/just-in-time-provisioning/s4> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/just-in-time-provisioning/s4> <http://purl.org/dc/terms/title> "SAML Just-in-Time Provisioning Errors" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/just-in-time-provisioning/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/just-in-time-provisioning/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/just-in-time-provisioning/s4> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=xcloud.sso_jit_errors.htm&language=en_US&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/just-in-time-provisioning/s5> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/just-in-time-provisioning/s5> <http://purl.org/dc/terms/title> "SamlJitHandler Interface (Apex Reference Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/just-in-time-provisioning/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/just-in-time-provisioning/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/just-in-time-provisioning/s5> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_interface_Auth_SamlJitHandler.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/just-in-time-provisioning/s6> <http://purl.org/dc/terms/publisher> "Salesforce Developers Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/just-in-time-provisioning/s6> <http://purl.org/dc/terms/title> "Just-in-Time User Provisioning in Summer '11" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/just-in-time-provisioning/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/just-in-time-provisioning/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/just-in-time-provisioning/s6> <https://schema.org/url> "https://developer.salesforce.com/blogs/2011/05/just-in-time-user-provisioning-in-summer-11" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/knowledge-base/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/knowledge-base/s1> <http://purl.org/dc/terms/title> "Get Started with Knowledge (Knowledge Basics, Trailhead unit)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/knowledge-base/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
