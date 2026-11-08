@@ -5486,6 +5486,104 @@
       ]
     },
     {
+      "@id": "kt:data-cloud-segmentation",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Data 360 Segmentation",
+      "skos:definition": "The Data 360 (formerly Data Cloud) feature for building audiences: filtered sets of profiles, such as unified individuals or accounts, defined with attributes and container logic on a segment canvas and published on a schedule or on demand to activation targets like Marketing Cloud Engagement.",
+      "kto:domain": "data-cloud-and-ai",
+      "dcterms:created": "2026-11-08",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Match Segment Types to Your Use Case (Advanced Segmentation in Data 360)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/advanced-segmentation-in-data-360/match-segment-types-to-your-use-case",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Manage Segment Lookback, Schedules, and Publish (Advanced Segmentation in Data 360)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/advanced-segmentation-in-data-360/manage-segment-lookback-schedules-and-publish",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Navigate Data Cloud Segmentation",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/customer-360-audiences-segmentation/navigate-customer-360-audiences-segmentation-",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "CdpSegment Class (Apex Reference Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_ConnectAPI_CdpSegment_static_methods.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Run Queries and Personalize Engagement with Segmentation",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/data-cloud-query-and-segment/run-queries-and-personalize-engagement-with-segmentation",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/data-cloud-and-ai/data-cloud-segmentation.md",
+      "skos:altLabel": [
+        "Data Cloud segmentation",
+        "Data 360 segments",
+        "Data Cloud segments",
+        "segment canvas",
+        "waterfall segments",
+        "rapid publish segments",
+        "real-time segments"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:data-cloud"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:calculated-insights"
+        },
+        {
+          "@id": "kt:identity-resolution"
+        },
+        {
+          "@id": "kt:data-graphs"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:data-model-objects"
+        }
+      ],
+      "kto:enables": [
+        {
+          "@id": "kt:data-cloud-activation"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:marketing-cloud-engagement"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:data-cloud-limits"
+        }
+      ],
+      "kto:queriedWith": [
+        {
+          "@id": "kt:connect-api"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:data-cloud-consultant-certification"
+        }
+      ]
+    },
+    {
       "@id": "kt:data-cloud",
       "@type": "kto:Product",
       "skos:prefLabel": "Data 360",

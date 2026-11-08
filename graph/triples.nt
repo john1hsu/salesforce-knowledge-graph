@@ -1345,6 +1345,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud-limits> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "data-cloud-and-ai" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud-limits> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud-limits> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud-segmentation> <http://purl.org/dc/terms/created> "2026-11-08" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud-segmentation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud-segmentation> <http://www.w3.org/2000/01/rdf-schema#label> "Data 360 Segmentation" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud-segmentation> <http://www.w3.org/2004/02/skos/core#altLabel> "Data 360 segments" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud-segmentation> <http://www.w3.org/2004/02/skos/core#altLabel> "Data Cloud segmentation" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud-segmentation> <http://www.w3.org/2004/02/skos/core#altLabel> "Data Cloud segments" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud-segmentation> <http://www.w3.org/2004/02/skos/core#altLabel> "rapid publish segments" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud-segmentation> <http://www.w3.org/2004/02/skos/core#altLabel> "real-time segments" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud-segmentation> <http://www.w3.org/2004/02/skos/core#altLabel> "segment canvas" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud-segmentation> <http://www.w3.org/2004/02/skos/core#altLabel> "waterfall segments" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud-segmentation> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud-segmentation> <http://www.w3.org/2004/02/skos/core#definition> "The Data 360 (formerly Data Cloud) feature for building audiences: filtered sets of profiles, such as unified individuals or accounts, defined with attributes and container logic on a segment canvas and published on a schedule or on demand to activation targets like Marketing Cloud Engagement." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud-segmentation> <http://www.w3.org/2004/02/skos/core#prefLabel> "Data 360 Segmentation" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud-segmentation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/calculated-insights> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud-segmentation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-graphs> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud-segmentation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-resolution> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud-segmentation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud-segmentation/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud-segmentation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud-segmentation/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud-segmentation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud-segmentation/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud-segmentation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud-segmentation/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud-segmentation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud-segmentation/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud-segmentation> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#coveredBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud-consultant-certification> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud-segmentation> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-model-objects> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud-segmentation> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "data-cloud-and-ai" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud-segmentation> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#enables> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud-activation> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud-segmentation> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#governedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud-limits> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud-segmentation> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/marketing-cloud-engagement> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud-segmentation> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/connect-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud-segmentation> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud-segmentation> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud> <http://purl.org/dc/terms/created> "2026-11-01" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Product> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud> <http://www.w3.org/2000/01/rdf-schema#label> "Data 360" .
@@ -6562,6 +6592,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud-limits/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud-limits/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud-limits/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/data/data-cloud-query-guide/references/data-cloud-query-api-reference/c360a-api-queryservices-overview.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud-segmentation/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud-segmentation/s1> <http://purl.org/dc/terms/title> "Match Segment Types to Your Use Case (Advanced Segmentation in Data 360)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud-segmentation/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud-segmentation/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud-segmentation/s1> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/advanced-segmentation-in-data-360/match-segment-types-to-your-use-case" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud-segmentation/s2> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud-segmentation/s2> <http://purl.org/dc/terms/title> "Manage Segment Lookback, Schedules, and Publish (Advanced Segmentation in Data 360)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud-segmentation/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud-segmentation/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud-segmentation/s2> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/advanced-segmentation-in-data-360/manage-segment-lookback-schedules-and-publish" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud-segmentation/s3> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud-segmentation/s3> <http://purl.org/dc/terms/title> "Navigate Data Cloud Segmentation" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud-segmentation/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud-segmentation/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud-segmentation/s3> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/customer-360-audiences-segmentation/navigate-customer-360-audiences-segmentation-" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud-segmentation/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud-segmentation/s4> <http://purl.org/dc/terms/title> "CdpSegment Class (Apex Reference Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud-segmentation/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud-segmentation/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud-segmentation/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_ConnectAPI_CdpSegment_static_methods.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud-segmentation/s5> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud-segmentation/s5> <http://purl.org/dc/terms/title> "Run Queries and Personalize Engagement with Segmentation" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud-segmentation/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud-segmentation/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud-segmentation/s5> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/data-cloud-query-and-segment/run-queries-and-personalize-engagement-with-segmentation" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud/s1> <http://purl.org/dc/terms/title> "Object Model in Data 360" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

@@ -4,7 +4,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:data-cloud-segmentation` | `kt:calculated-insights`, `kt:data-cloud-limits` |
 | `kt:experience-builder` | `kt:experience-cloud`, `kt:experience-cloud-identity` |
 | `kt:graphql-api` | `kt:polymorphic-relationships`, `kt:lightning-data-service` |
 | `kt:group-membership-locking` | `kt:enterprise-territory-management`, `kt:sharing-recalculation` |
@@ -34,6 +33,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:business-rules-engine` | `kt:public-sector-solutions` |
 | `kt:change-data-capture-allocations` | `kt:change-data-capture` |
 | `kt:compact-layouts` | `kt:page-layouts` |
+| `kt:connect-api` | `kt:data-cloud-segmentation` |
 | `kt:contact-builder` | `kt:marketing-cloud-engagement` |
 | `kt:contacts-to-multiple-accounts` | `kt:person-accounts` |
 | `kt:custom-domains` | `kt:my-domain` |
@@ -44,7 +44,9 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:custom-settings` | `kt:custom-metadata-types` |
 | `kt:customer-360` | `kt:slack-platform` |
 | `kt:data-categories` | `kt:knowledge-base` |
+| `kt:data-cloud-activation` | `kt:data-cloud-segmentation` |
 | `kt:data-detect` | `kt:salesforce-shield` |
+| `kt:data-graphs` | `kt:data-cloud-segmentation` |
 | `kt:data-loader` | `kt:bulk-api-2` |
 | `kt:data-quality` | `kt:duplicate-management` |
 | `kt:data-sovereignty` | `kt:data-residency` |
