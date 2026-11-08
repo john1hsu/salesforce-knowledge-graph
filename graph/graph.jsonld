@@ -2320,6 +2320,99 @@
       ]
     },
     {
+      "@id": "kt:orchestration-work-guide",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Orchestration Work Guide",
+      "skos:definition": "The Lightning page component in which users assigned to an interactive orchestration or flow approval step see their open work items on a record page and complete them by running the step's screen flow.",
+      "kto:domain": "automation",
+      "dcterms:created": "2026-11-08",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Make Assigned Work Items Accessible on a Record Page",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=sf.orchestrator_build_add_work_guide.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Flow Orchestration Work Items",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=platform.orchestrator_concepts_work_items.htm&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Orchestration Work Guide (Experience Builder component)",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=experience.rss_flow_orchestration_work_guide_component.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Approval Work Items and Orchestration Work Items",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=platform.automate_automated_approvals_concepts_work_items.htm&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Flow Orchestration Basics: Flow Orchestration Stages & Types",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/orchestrator-basics/get-to-know-orchestrator",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "FlowOrchestrationWorkItem (Object Reference)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/api/sforce_api_objects_floworchestrationworkitem.htm",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/automation/orchestration-work-guide.md",
+      "skos:altLabel": [
+        "Flow Orchestration Work Guide",
+        "Work Guide component",
+        "orchestration work items component"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:flow-orchestrator"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:approval-processes"
+        },
+        {
+          "@id": "kt:queues"
+        },
+        {
+          "@id": "kt:omni-channel"
+        },
+        {
+          "@id": "kt:experience-builder"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:flow-orchestrator"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:screen-flow"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:lightning-app-builder"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:experience-cloud"
+        }
+      ]
+    },
+    {
       "@id": "kt:platform-event-triggered-flow",
       "@type": "kto:Feature",
       "skos:prefLabel": "Platform Event-Triggered Flow",

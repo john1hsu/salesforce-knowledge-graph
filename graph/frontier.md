@@ -4,13 +4,12 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
+| `kt:lightning-app-builder` | `kt:orchestration-work-guide`, `kt:experience-builder`, `kt:page-layouts` |
 | `kt:group-membership-locking` | `kt:enterprise-territory-management`, `kt:sharing-recalculation` |
 | `kt:integration-patterns-request-reply-fire-and-forget` | `kt:event-driven-architecture`, `kt:integration-patterns` |
 | `kt:invocable-actions-api` | `kt:autolaunched-flow`, `kt:subflows` |
-| `kt:lightning-app-builder` | `kt:experience-builder`, `kt:page-layouts` |
 | `kt:nist-sp-800-53b` | `kt:fips-200`, `kt:nist-sp-800-53` |
 | `kt:opportunity-teams` | `kt:opportunity-splits`, `kt:opportunity-splits` |
-| `kt:orchestration-work-guide` | `kt:approval-processes`, `kt:flow-orchestrator` |
 | `kt:public-groups` | `kt:queues`, `kt:sharing-rules` |
 | `kt:remote-call-in` | `kt:batch-data-synchronization`, `kt:integration-patterns` |
 | `kt:remote-site-settings` | `kt:apex-callouts`, `kt:named-credentials` |
