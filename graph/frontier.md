@@ -90,6 +90,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:mixed-dml-error` | `kt:future-methods` |
 | `kt:mule-runtime-engine` | `kt:mulesoft-anypoint-platform` |
 | `kt:mulesoft-composer` | `kt:slack-platform` |
+| `kt:mutual-tls-authentication` | `kt:login-ip-ranges-and-trusted-ip-ranges` |
 | `kt:nist-digital-identity-guidelines` | `kt:multi-factor-authentication` |
 | `kt:nist-sp-800-53b` | `kt:nist-sp-800-53` |
 | `kt:nist-sp-800-60` | `kt:fips-199` |

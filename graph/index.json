@@ -2567,6 +2567,33 @@
     ]
   },
   {
+    "id": "kt:login-ip-ranges-and-trusted-ip-ranges",
+    "title": "Login IP Ranges and Trusted IP Ranges",
+    "aliases": [
+      "trusted IP ranges",
+      "login IP ranges",
+      "Network Access",
+      "profile login IP ranges",
+      "Restrict Login IP Addresses in Profiles",
+      "IP allowlisting in Salesforce",
+      "Enforce login IP ranges on every request",
+      "Continuous IP Enforcement"
+    ],
+    "type": "SecurityControl",
+    "domain": "identity",
+    "file": "articles/identity/login-ip-ranges-and-trusted-ip-ranges.md",
+    "created": "2026-11-08",
+    "release": "Winter '27",
+    "status": "current",
+    "source_urls": [
+      "https://help.salesforce.com/s/articleView?language=en_US&id=xcloud.security_networkaccess.htm&type=5",
+      "https://help.salesforce.com/s/articleView?id=xcloud.login_ip_ranges.htm&language=en_US&type=5",
+      "https://help.salesforce.com/s/articleView?language=en_US&id=xcloud.connected_app_continuous_ip.htm&type=5",
+      "https://developer.salesforce.com/docs/platform/api/guide/sforce-api-concepts-security.html",
+      "https://trailhead.salesforce.com/content/learn/modules/data_security/data_security_org"
+    ]
+  },
+  {
     "id": "kt:lookup-vs-master-detail",
     "title": "Lookup vs. Master-Detail Relationships",
     "aliases": [
