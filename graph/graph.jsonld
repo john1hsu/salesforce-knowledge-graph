@@ -13333,6 +13333,105 @@
       ]
     },
     {
+      "@id": "kt:graphql-api",
+      "@type": "kto:API",
+      "skos:prefLabel": "GraphQL API",
+      "skos:definition": "Salesforce's implementation of the GraphQL specification, exposed at a single /graphql endpoint, that lets a client ask for exactly the fields it needs across related UI API-enabled objects in one request and, from API v66.0, create, update and delete records through mutations.",
+      "kto:domain": "integration",
+      "dcterms:created": "2026-11-08",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What is GraphQL API? (GraphQL API Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/graphql/guide/intro-graphql-api.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "GraphQL Request and Response Structure (GraphQL API Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/graphql/guide/requests-and-responses.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Query Limits (GraphQL API Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/graphql/guide/query-limits.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Mutations (GraphQL API Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/graphql/guide/mutations-intro.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "GraphQL Mutations Now Available in LWC: Create, Update and Delete Records",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2026/05/graphql-mutations-now-available-in-lwc-create-update-and-delete-records",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/integration/graphql-api.md",
+      "skos:altLabel": [
+        "Salesforce GraphQL API",
+        "UI API GraphQL",
+        "graphql endpoint",
+        "GraphQL wire adapter API"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-apis"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:rest-api"
+        },
+        {
+          "@id": "kt:composite-api"
+        },
+        {
+          "@id": "kt:lightning-data-service"
+        },
+        {
+          "@id": "kt:soql"
+        },
+        {
+          "@id": "kt:polymorphic-relationships"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:user-interface-api"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:rest-api"
+        }
+      ],
+      "kto:usedBy": [
+        {
+          "@id": "kt:lightning-web-components"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:api-request-limits"
+        },
+        {
+          "@id": "kt:field-level-security"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:integration-architect-certification"
+        }
+      ]
+    },
+    {
       "@id": "kt:integration-architect-certification",
       "@type": "kto:Certification",
       "skos:prefLabel": "Integration Architect Certification",

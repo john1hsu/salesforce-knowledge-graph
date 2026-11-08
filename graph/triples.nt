@@ -2490,6 +2490,35 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/governor-limits> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/limits-class> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/governor-limits> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/governor-limits> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/graphql-api> <http://purl.org/dc/terms/created> "2026-11-08" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/graphql-api> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#API> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/graphql-api> <http://www.w3.org/2000/01/rdf-schema#label> "GraphQL API" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/graphql-api> <http://www.w3.org/2004/02/skos/core#altLabel> "GraphQL wire adapter API" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/graphql-api> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce GraphQL API" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/graphql-api> <http://www.w3.org/2004/02/skos/core#altLabel> "UI API GraphQL" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/graphql-api> <http://www.w3.org/2004/02/skos/core#altLabel> "graphql endpoint" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/graphql-api> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-apis> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/graphql-api> <http://www.w3.org/2004/02/skos/core#definition> "Salesforce's implementation of the GraphQL specification, exposed at a single /graphql endpoint, that lets a client ask for exactly the fields it needs across related UI API-enabled objects in one request and, from API v66.0, create, update and delete records through mutations." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/graphql-api> <http://www.w3.org/2004/02/skos/core#prefLabel> "GraphQL API" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/graphql-api> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/composite-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/graphql-api> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-data-service> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/graphql-api> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/polymorphic-relationships> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/graphql-api> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/rest-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/graphql-api> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/soql> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/graphql-api> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/graphql-api/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/graphql-api> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/graphql-api/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/graphql-api> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/graphql-api/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/graphql-api> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/graphql-api/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/graphql-api> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/graphql-api/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/graphql-api> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#alternativeTo> <https://github.com/john1hsu/salesforce-knowledge-graph/id/rest-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/graphql-api> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#coveredBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-architect-certification> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/graphql-api> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/user-interface-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/graphql-api> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "integration" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/graphql-api> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#governedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/api-request-limits> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/graphql-api> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#governedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/field-level-security> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/graphql-api> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/graphql-api> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#usedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-web-components> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/graphql-api> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/headless-identity> <http://purl.org/dc/terms/created> "2026-11-06" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/headless-identity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/headless-identity> <http://www.w3.org/2000/01/rdf-schema#label> "Headless Identity" .
@@ -7885,6 +7914,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/governor-limits/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/governor-limits/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/governor-limits/s5> <https://schema.org/url> "https://trailhead.salesforce.com/en/apex_basics_dotnet/execution_context" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/graphql-api/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/graphql-api/s1> <http://purl.org/dc/terms/title> "What is GraphQL API? (GraphQL API Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/graphql-api/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/graphql-api/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/graphql-api/s1> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/graphql/guide/intro-graphql-api.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/graphql-api/s2> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/graphql-api/s2> <http://purl.org/dc/terms/title> "GraphQL Request and Response Structure (GraphQL API Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/graphql-api/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/graphql-api/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/graphql-api/s2> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/graphql/guide/requests-and-responses.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/graphql-api/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/graphql-api/s3> <http://purl.org/dc/terms/title> "Query Limits (GraphQL API Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/graphql-api/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/graphql-api/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/graphql-api/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/graphql/guide/query-limits.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/graphql-api/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/graphql-api/s4> <http://purl.org/dc/terms/title> "Mutations (GraphQL API Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/graphql-api/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/graphql-api/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/graphql-api/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/graphql/guide/mutations-intro.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/graphql-api/s5> <http://purl.org/dc/terms/publisher> "Salesforce Developers Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/graphql-api/s5> <http://purl.org/dc/terms/title> "GraphQL Mutations Now Available in LWC: Create, Update and Delete Records" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/graphql-api/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/graphql-api/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/graphql-api/s5> <https://schema.org/url> "https://developer.salesforce.com/blogs/2026/05/graphql-mutations-now-available-in-lwc-create-update-and-delete-records" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/headless-identity/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/headless-identity/s1> <http://purl.org/dc/terms/title> "What Is Headless Identity? (Headless Identity Implementation Guide)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/headless-identity/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

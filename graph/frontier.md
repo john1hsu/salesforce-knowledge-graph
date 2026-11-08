@@ -4,7 +4,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:graphql-api` | `kt:polymorphic-relationships`, `kt:lightning-data-service` |
 | `kt:group-membership-locking` | `kt:enterprise-territory-management`, `kt:sharing-recalculation` |
 | `kt:integration-patterns-request-reply-fire-and-forget` | `kt:event-driven-architecture`, `kt:integration-patterns` |
 | `kt:invocable-actions-api` | `kt:autolaunched-flow`, `kt:subflows` |
@@ -16,10 +15,12 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:remote-call-in` | `kt:batch-data-synchronization`, `kt:integration-patterns` |
 | `kt:remote-site-settings` | `kt:apex-callouts`, `kt:named-credentials` |
 | `kt:salesforce-analytics` | `kt:crm-analytics`, `kt:tableau` |
+| `kt:salesforce-apis` | `kt:bulk-api-2`, `kt:graphql-api` |
 | `kt:sandbox-templates` | `kt:environment-strategy`, `kt:sandbox-types` |
 | `kt:scratch-org-allocations` | `kt:dev-hub`, `kt:scratch-orgs` |
 | `kt:soap-api` | `kt:external-id-fields`, `kt:rest-api` |
 | `kt:soql-injection` | `kt:appexchange-security-review`, `kt:code-analyzer` |
+| `kt:user-interface-api` | `kt:lightning-data-service`, `kt:graphql-api` |
 | `kt:agentexchange` | `kt:appexchange-security-review` |
 | `kt:agentforce-data-library` | `kt:retrieval-augmented-generation-in-salesforce` |
 | `kt:apex-continuations` | `kt:apex-callouts` |
@@ -111,7 +112,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:recursive-save` | `kt:order-of-execution` |
 | `kt:revenue-intelligence` | `kt:collaborative-forecasts` |
 | `kt:revenue-management-consultant-certification` | `kt:revenue-cloud` |
-| `kt:salesforce-apis` | `kt:bulk-api-2` |
 | `kt:salesforce-architecture-program` | `kt:salesforce-architecture-center` |
 | `kt:salesforce-archive` | `kt:archiving-strategy` |
 | `kt:salesforce-cpq` | `kt:revenue-cloud` |
@@ -147,7 +147,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:trust-services-criteria` | `kt:soc-2` |
 | `kt:upsert` | `kt:external-id-fields` |
 | `kt:user-access-policies` | `kt:permission-sets` |
-| `kt:user-interface-api` | `kt:lightning-data-service` |
 | `kt:wcag` | `kt:section-508-accessibility` |
 | `kt:work-orders` | `kt:field-service` |
 | `kt:zero-copy-data-sharing` | `kt:zero-copy-data-federation` |
