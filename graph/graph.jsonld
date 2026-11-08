@@ -5407,6 +5407,85 @@
       ]
     },
     {
+      "@id": "kt:data-cloud-limits",
+      "@type": "kto:Limit",
+      "skos:prefLabel": "Data 360 Limits and Guidelines",
+      "skos:definition": "The published per-org caps on Data 360 (formerly Data Cloud) objects, ingestion, identity resolution, segmentation, activation, insights and APIs, which vary by license and change frequently between releases.",
+      "kto:domain": "data-cloud-and-ai",
+      "dcterms:created": "2026-11-08",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Customer Data Platform Limits and Guidelines",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=sf.c360_a_limits_and_guidelines_cdp.htm&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Data 360 Usage and Access Changes",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=sf.c360_a_changelog_usage_and_access.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Get Started with Ingestion API",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/data/data-cloud-ref/guide/c360a-api-get-started.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Query Data 360 Data using Query API",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/data/data-cloud-query-guide/references/data-cloud-query-api-reference/c360a-api-queryservices-overview.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/data-cloud-and-ai/data-cloud-limits.md",
+      "skos:altLabel": [
+        "Data Cloud limits",
+        "Data Cloud limits and guidelines",
+        "Data 360 limits",
+        "Customer Data Platform limits and guidelines",
+        "Data 360 usage limits"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:data-cloud"
+        },
+        {
+          "@id": "kt:governor-limits"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:data-lake-objects"
+        },
+        {
+          "@id": "kt:data-model-objects"
+        },
+        {
+          "@id": "kt:identity-resolution"
+        },
+        {
+          "@id": "kt:calculated-insights"
+        },
+        {
+          "@id": "kt:data-cloud-segmentation"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:api-request-limits"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:data-cloud-consultant-certification"
+        }
+      ]
+    },
+    {
       "@id": "kt:data-cloud",
       "@type": "kto:Product",
       "skos:prefLabel": "Data 360",

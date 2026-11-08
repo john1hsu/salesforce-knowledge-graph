@@ -4,7 +4,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:data-cloud-limits` | `kt:calculated-insights`, `kt:data-lake-objects` |
+| `kt:data-cloud-segmentation` | `kt:calculated-insights`, `kt:data-cloud-limits` |
 | `kt:duplicate-management` | `kt:lead-conversion`, `kt:identity-resolution` |
 | `kt:experience-builder` | `kt:experience-cloud`, `kt:experience-cloud-identity` |
 | `kt:graphql-api` | `kt:polymorphic-relationships`, `kt:lightning-data-service` |
@@ -45,7 +45,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:custom-settings` | `kt:custom-metadata-types` |
 | `kt:customer-360` | `kt:slack-platform` |
 | `kt:data-categories` | `kt:knowledge-base` |
-| `kt:data-cloud-segmentation` | `kt:calculated-insights` |
 | `kt:data-detect` | `kt:salesforce-shield` |
 | `kt:data-loader` | `kt:bulk-api-2` |
 | `kt:data-sovereignty` | `kt:data-residency` |
