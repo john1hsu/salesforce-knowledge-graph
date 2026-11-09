@@ -96,7 +96,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:omnistudio` | `kt:public-sector-solutions` |
 | `kt:openid-connect` | `kt:openid-connect-authentication-providers` |
 | `kt:org-check` | `kt:technical-debt-in-salesforce` |
-| `kt:package-xml-manifest` | `kt:metadata-api` |
 | `kt:path` | `kt:business-processes` |
 | `kt:permission-set-licenses` | `kt:permission-sets` |
 | `kt:platform-administrator-ii-certification` | `kt:platform-administrator-certification` |

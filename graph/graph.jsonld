@@ -11115,6 +11115,95 @@
       ]
     },
     {
+      "@id": "kt:package-xml-manifest",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "package.xml Manifest",
+      "skos:definition": "The XML project manifest that tells the Metadata API (and Salesforce CLI) which metadata components, grouped by type, to retrieve or deploy, with companion destructiveChanges manifests that list components to delete.",
+      "kto:domain": "devops-and-alm",
+      "dcterms:created": "2026-11-09",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Constructing a Project Manifest (Ant Migration Tool Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.daas.meta/daas/daas_package.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Step 2: Build a Package.xml Manifest (Metadata API Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta.%20%20/api_meta/meta_quickstart_retrieve_build_manifest.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Deleting Components from an Organization (Metadata API Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_deploy_deleting_files.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "project generate manifest (Salesforce CLI Command Reference)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/salesforce-cli-reference/guide/cli_reference_project_generate_manifest.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Deploy Metadata Using the Manifest",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/package-xml/package-xml-deploy",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Metadata (Metadata API Developer Guide, Metadata Types)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/metadata.htm",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/devops-and-alm/package-xml-manifest.md",
+      "skos:altLabel": [
+        "package.xml",
+        "project manifest",
+        "Metadata API manifest",
+        "destructiveChanges.xml"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:metadata-api"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:change-sets"
+        },
+        {
+          "@id": "kt:source-tracking"
+        },
+        {
+          "@id": "kt:unlocked-packages"
+        },
+        {
+          "@id": "kt:apex-testing"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:metadata-api"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:salesforce-cli"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:source-tracking"
+        }
+      ]
+    },
+    {
       "@id": "kt:salesforce-cli",
       "@type": "kto:Tool",
       "skos:prefLabel": "Salesforce CLI",
