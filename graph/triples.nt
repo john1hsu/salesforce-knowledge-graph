@@ -3774,6 +3774,37 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/page-layouts> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "data-model" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/page-layouts> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/page-layouts> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/password-policies> <http://purl.org/dc/terms/created> "2026-11-09" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/password-policies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#SecurityControl> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/password-policies> <http://www.w3.org/2000/01/rdf-schema#label> "Password Policies" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/password-policies> <http://www.w3.org/2004/02/skos/core#altLabel> "ProfilePasswordPolicy" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/password-policies> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce password policies" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/password-policies> <http://www.w3.org/2004/02/skos/core#altLabel> "account lockout policy" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/password-policies> <http://www.w3.org/2004/02/skos/core#altLabel> "org-wide password policies" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/password-policies> <http://www.w3.org/2004/02/skos/core#altLabel> "password complexity requirement" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/password-policies> <http://www.w3.org/2004/02/skos/core#altLabel> "password expiration policy" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/password-policies> <http://www.w3.org/2004/02/skos/core#altLabel> "profile password policies" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/password-policies> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-identity> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/password-policies> <http://www.w3.org/2004/02/skos/core#definition> "The Salesforce settings that govern user passwords (expiration, history, minimum length, complexity, lockout after failed logins and forgotten-password handling), set org-wide in Setup and optionally overridden per profile." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/password-policies> <http://www.w3.org/2004/02/skos/core#prefLabel> "Password Policies" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/password-policies> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/login-ip-ranges-and-trusted-ip-ranges> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/password-policies> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/multi-factor-authentication> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/password-policies> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/session-security-levels> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/password-policies> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/single-sign-on-saml> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/password-policies> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/password-policies/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/password-policies> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/password-policies/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/password-policies> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/password-policies/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/password-policies> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/password-policies/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/password-policies> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/password-policies/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/password-policies> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/password-policies/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/password-policies> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/password-policies> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/profiles> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/password-policies> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#contrastsWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-digital-identity-guidelines> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/password-policies> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#coveredBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-and-access-management-architect-certification> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/password-policies> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "identity" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/password-policies> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#mitigates> <https://github.com/john1hsu/salesforce-knowledge-graph/id/account-takeover> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/password-policies> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/password-policies> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/permission-set-groups> <http://purl.org/dc/terms/created> "2026-11-05" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/permission-set-groups> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#SecurityControl> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/permission-set-groups> <http://www.w3.org/2000/01/rdf-schema#label> "Permission Set Groups" .
@@ -9291,6 +9322,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/page-layouts/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/page-layouts/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/page-layouts/s5> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/lightning-knowledge-setup-and-customization/configure-page-layouts-and-record-types" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/password-policies/s1> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/password-policies/s1> <http://purl.org/dc/terms/title> "Manage User Passwords" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/password-policies/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/password-policies/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/password-policies/s1> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=security_overview_passwords.htm&language=en_US&type=0" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/password-policies/s2> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/password-policies/s2> <http://purl.org/dc/terms/title> "View and Edit Password Policies in Profiles" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/password-policies/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/password-policies/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/password-policies/s2> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=sf.users_profiles_password_policies.htm&language=en_US&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/password-policies/s3> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/password-policies/s3> <http://purl.org/dc/terms/title> "FAQs for Password Policies in Salesforce Sales and Service" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/password-policies/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/password-policies/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/password-policies/s3> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=001094362&language=en_US&type=1" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/password-policies/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/password-policies/s4> <http://purl.org/dc/terms/title> "ProfilePasswordPolicy (Metadata API Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/password-policies/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/password-policies/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/password-policies/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta.%20%20/api_meta/meta_profilepasswordpolicy.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/password-policies/s5> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/password-policies/s5> <http://purl.org/dc/terms/title> "Data Security: Control Access to the Org" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/password-policies/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/password-policies/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/password-policies/s5> <https://schema.org/url> "https://trailhead.salesforce.com/modules/data_security/units/data_security_org" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/password-policies/s6> <http://purl.org/dc/terms/publisher> "NIST" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/password-policies/s6> <http://purl.org/dc/terms/title> "NIST SP 800-63B-4: Authenticators and Verifiers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/password-policies/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/password-policies/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "standards-body" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/password-policies/s6> <https://schema.org/url> "https://pages.nist.gov/800-63-4/sp800-63b/authenticators" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/permission-set-groups/s1> <http://purl.org/dc/terms/publisher> "Salesforce Trailhead" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/permission-set-groups/s1> <http://purl.org/dc/terms/title> "Get Started with Permission Set Groups (Trailhead, Permission Set Groups module)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/permission-set-groups/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

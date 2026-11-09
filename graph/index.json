@@ -3343,6 +3343,33 @@
     ]
   },
   {
+    "id": "kt:password-policies",
+    "title": "Password Policies",
+    "aliases": [
+      "Salesforce password policies",
+      "org-wide password policies",
+      "profile password policies",
+      "ProfilePasswordPolicy",
+      "password complexity requirement",
+      "password expiration policy",
+      "account lockout policy"
+    ],
+    "type": "SecurityControl",
+    "domain": "identity",
+    "file": "articles/identity/password-policies.md",
+    "created": "2026-11-09",
+    "release": "Winter '27",
+    "status": "current",
+    "source_urls": [
+      "https://help.salesforce.com/s/articleView?id=security_overview_passwords.htm&language=en_US&type=0",
+      "https://help.salesforce.com/s/articleView?id=sf.users_profiles_password_policies.htm&language=en_US&type=5",
+      "https://help.salesforce.com/s/articleView?id=001094362&language=en_US&type=1",
+      "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta.%20%20/api_meta/meta_profilepasswordpolicy.htm",
+      "https://trailhead.salesforce.com/modules/data_security/units/data_security_org",
+      "https://pages.nist.gov/800-63-4/sp800-63b/authenticators"
+    ]
+  },
+  {
     "id": "kt:permission-set-groups",
     "title": "Permission Set Groups",
     "aliases": [

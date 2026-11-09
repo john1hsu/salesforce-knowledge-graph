@@ -7,6 +7,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:group-membership-locking` | `kt:enterprise-territory-management`, `kt:sharing-recalculation` |
 | `kt:integration-patterns-request-reply-fire-and-forget` | `kt:event-driven-architecture`, `kt:integration-patterns` |
 | `kt:invocable-actions-api` | `kt:autolaunched-flow`, `kt:subflows` |
+| `kt:nist-digital-identity-guidelines` | `kt:multi-factor-authentication`, `kt:password-policies` |
 | `kt:nist-sp-800-53b` | `kt:fips-200`, `kt:nist-sp-800-53` |
 | `kt:opportunity-teams` | `kt:opportunity-splits`, `kt:opportunity-splits` |
 | `kt:public-groups` | `kt:queues`, `kt:sharing-rules` |
@@ -88,7 +89,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:mule-runtime-engine` | `kt:mulesoft-anypoint-platform` |
 | `kt:mulesoft-composer` | `kt:slack-platform` |
 | `kt:mutual-tls-authentication` | `kt:login-ip-ranges-and-trusted-ip-ranges` |
-| `kt:nist-digital-identity-guidelines` | `kt:multi-factor-authentication` |
 | `kt:nist-sp-800-60` | `kt:fips-199` |
 | `kt:omni-channel-limits` | `kt:omni-channel` |
 | `kt:omnistudio` | `kt:public-sector-solutions` |
