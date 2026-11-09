@@ -6,6 +6,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 |---|---|
 | `kt:connect-api` | `kt:business-rules-engine`, `kt:product-configurator`, `kt:salesforce-pricing`, `kt:data-cloud-segmentation` |
 | `kt:context-service` | `kt:business-rules-engine`, `kt:salesforce-pricing` |
+| `kt:custom-index-limits` | `kt:external-id-fields`, `kt:custom-indexes` |
 | `kt:group-membership-locking` | `kt:enterprise-territory-management`, `kt:sharing-recalculation` |
 | `kt:invocable-actions-api` | `kt:autolaunched-flow`, `kt:subflows` |
 | `kt:nist-digital-identity-guidelines` | `kt:multi-factor-authentication`, `kt:password-policies` |
@@ -40,8 +41,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:contact-builder` | `kt:marketing-cloud-engagement` |
 | `kt:contacts-to-multiple-accounts` | `kt:person-accounts` |
 | `kt:custom-domains` | `kt:my-domain` |
-| `kt:custom-index-limits` | `kt:external-id-fields` |
-| `kt:custom-indexes` | `kt:skinny-tables` |
 | `kt:custom-objects` | `kt:standard-objects` |
 | `kt:customer-360` | `kt:slack-platform` |
 | `kt:data-categories` | `kt:knowledge-base` |

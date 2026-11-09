@@ -1271,6 +1271,38 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-fields> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/soql> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-fields> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-fields> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-indexes> <http://purl.org/dc/terms/created> "2026-11-09" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-indexes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-indexes> <http://www.w3.org/2000/01/rdf-schema#label> "Custom Indexes" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-indexes> <http://www.w3.org/2004/02/skos/core#altLabel> "CustomIndex" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-indexes> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce custom indexes" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-indexes> <http://www.w3.org/2004/02/skos/core#altLabel> "custom index" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-indexes> <http://www.w3.org/2004/02/skos/core#altLabel> "indexed fields" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-indexes> <http://www.w3.org/2004/02/skos/core#altLabel> "standard indexes" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-indexes> <http://www.w3.org/2004/02/skos/core#altLabel> "two-column indexes" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-indexes> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/large-data-volumes> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-indexes> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/multitenancy> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-indexes> <http://www.w3.org/2004/02/skos/core#definition> "Database indexes that Salesforce maintains on selected fields beyond the platform's default indexed fields, created through Salesforce Customer Support (or deployed as CustomIndex metadata) so selective filters on large objects can avoid full table scans." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-indexes> <http://www.w3.org/2004/02/skos/core#prefLabel> "Custom Indexes" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-indexes> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-skew> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-indexes> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/external-id-fields> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-indexes> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/query-optimizer-selectivity> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-indexes> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/skinny-tables> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-indexes> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/soql> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-indexes> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-indexes/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-indexes> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-indexes/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-indexes> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-indexes/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-indexes> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-indexes/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-indexes> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-indexes/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-indexes> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#alternativeTo> <https://github.com/john1hsu/salesforce-knowledge-graph/id/skinny-tables> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-indexes> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-indexes> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#coveredBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-data-architect-certification> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-indexes> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "platform-architecture" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-indexes> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#governedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-index-limits> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-indexes> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#partOf> <https://github.com/john1hsu/salesforce-knowledge-graph/id/large-data-volumes> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-indexes> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/soql> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-indexes> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-indexes> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-metadata-types> <http://purl.org/dc/terms/created> "2026-11-04" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-metadata-types> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#MetadataType> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-metadata-types> <http://www.w3.org/2000/01/rdf-schema#label> "Custom Metadata Types" .
@@ -7167,6 +7199,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-fields/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-fields/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-fields/s6> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/customfield.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-indexes/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-indexes/s1> <http://purl.org/dc/terms/title> "Best Practices for Deployments with Large Data Volumes: Indexes" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-indexes/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-indexes/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-indexes/s1> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/salesforce-large-data-volumes-bp/guide/ldv-deployments-infrastructure-indexes.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-indexes/s2> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-indexes/s2> <http://purl.org/dc/terms/title> "Metadata API Developer Guide: CustomIndex" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-indexes/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-indexes/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-indexes/s2> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.264.0.api_meta.meta/api_meta/meta_customindex.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-indexes/s3> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-indexes/s3> <http://purl.org/dc/terms/title> "Database Basics for .NET Developers: Write Efficient Queries" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-indexes/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-indexes/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-indexes/s3> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/database_basics_dotnet/writing_efficient_queries" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-indexes/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-indexes/s4> <http://purl.org/dc/terms/title> "Force.com SOQL Best Practices: Nulls and Formula Fields" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-indexes/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-indexes/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-indexes/s4> <https://schema.org/url> "https://developer.salesforce.com/blogs/engineering/2013/02/force-com-soql-best-practices-nulls-and-formula-fields" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-indexes/s5> <http://purl.org/dc/terms/publisher> "Salesforce Developers Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-indexes/s5> <http://purl.org/dc/terms/title> "Know Thy Salesforce Field Indexes for Fast Reports, List Views, and SOQL" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-indexes/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-indexes/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-indexes/s5> <https://schema.org/url> "https://developer.salesforce.com/blogs/engineering/2015/06/know-thy-salesforce-field-indexes-fast-reports-list-views-soql" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-metadata-types/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-metadata-types/s1> <http://purl.org/dc/terms/title> "Custom Metadata Types: Get Started with Custom Metadata Types" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-metadata-types/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

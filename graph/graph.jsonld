@@ -15849,6 +15849,112 @@
       ]
     },
     {
+      "@id": "kt:custom-indexes",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Custom Indexes",
+      "skos:definition": "Database indexes that Salesforce maintains on selected fields beyond the platform's default indexed fields, created through Salesforce Customer Support (or deployed as CustomIndex metadata) so selective filters on large objects can avoid full table scans.",
+      "kto:domain": "platform-architecture",
+      "dcterms:created": "2026-11-09",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Best Practices for Deployments with Large Data Volumes: Indexes",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/salesforce-large-data-volumes-bp/guide/ldv-deployments-infrastructure-indexes.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Metadata API Developer Guide: CustomIndex",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.264.0.api_meta.meta/api_meta/meta_customindex.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Database Basics for .NET Developers: Write Efficient Queries",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/database_basics_dotnet/writing_efficient_queries",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Force.com SOQL Best Practices: Nulls and Formula Fields",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/engineering/2013/02/force-com-soql-best-practices-nulls-and-formula-fields",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Know Thy Salesforce Field Indexes for Fast Reports, List Views, and SOQL",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/engineering/2015/06/know-thy-salesforce-field-indexes-fast-reports-list-views-soql",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/platform-architecture/custom-indexes.md",
+      "skos:altLabel": [
+        "custom index",
+        "Salesforce custom indexes",
+        "indexed fields",
+        "standard indexes",
+        "two-column indexes",
+        "CustomIndex"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:large-data-volumes"
+        },
+        {
+          "@id": "kt:multitenancy"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:query-optimizer-selectivity"
+        },
+        {
+          "@id": "kt:skinny-tables"
+        },
+        {
+          "@id": "kt:external-id-fields"
+        },
+        {
+          "@id": "kt:soql"
+        },
+        {
+          "@id": "kt:data-skew"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:large-data-volumes"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:skinny-tables"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:metadata-api"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:custom-index-limits"
+        }
+      ],
+      "kto:queriedWith": [
+        {
+          "@id": "kt:soql"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:platform-data-architect-certification"
+        }
+      ]
+    },
+    {
       "@id": "kt:data-and-file-storage-allocations",
       "@type": "kto:Limit",
       "skos:prefLabel": "Data and File Storage Allocations",
