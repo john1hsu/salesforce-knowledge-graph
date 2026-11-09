@@ -14696,6 +14696,95 @@
       ]
     },
     {
+      "@id": "kt:remote-call-in",
+      "@type": "kto:Pattern",
+      "skos:prefLabel": "Remote Call-In",
+      "skos:definition": "The inbound Salesforce integration pattern in which a remote system connects and authenticates to Salesforce to notify it of external events or to create, retrieve, update or delete Salesforce records, typically through the REST, Composite, GraphQL, Bulk 2.0 or Pub/Sub APIs.",
+      "kto:domain": "integration",
+      "dcterms:created": "2026-11-09",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Integration Patterns Overview",
+          "dcterms:publisher": "Salesforce Architects",
+          "schema:url": "https://architect.salesforce.com/fundamentals/integration-patterns",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Send Multiple Requests Using Composite (REST API Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/api-rest/guide/resources-composite-composite-post.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Apex Web Services (Apex Integration Services)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/apex_integration_services/apex_integration_webservices",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/integration/remote-call-in.md",
+      "skos:altLabel": [
+        "Remote Call-In pattern",
+        "inbound integration pattern",
+        "remote call in"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:integration-patterns"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:bulk-api-2"
+        },
+        {
+          "@id": "kt:pub-sub-api"
+        },
+        {
+          "@id": "kt:graphql-api"
+        },
+        {
+          "@id": "kt:external-id-fields"
+        },
+        {
+          "@id": "kt:apex-rest-services"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:integration-patterns"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:integration-patterns-request-reply-fire-and-forget"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:rest-api"
+        },
+        {
+          "@id": "kt:composite-api"
+        },
+        {
+          "@id": "kt:platform-events"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:api-request-limits"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:integration-architect-certification"
+        }
+      ]
+    },
+    {
       "@id": "kt:rest-api",
       "@type": "kto:API",
       "skos:prefLabel": "REST API",

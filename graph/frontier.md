@@ -4,7 +4,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:remote-call-in` | `kt:batch-data-synchronization`, `kt:integration-patterns-request-reply-fire-and-forget`, `kt:integration-patterns` |
 | `kt:apex-continuations` | `kt:apex-callouts`, `kt:integration-patterns-request-reply-fire-and-forget` |
 | `kt:group-membership-locking` | `kt:enterprise-territory-management`, `kt:sharing-recalculation` |
 | `kt:invocable-actions-api` | `kt:autolaunched-flow`, `kt:subflows` |
@@ -23,6 +22,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:agentforce-data-library` | `kt:retrieval-augmented-generation-in-salesforce` |
 | `kt:apex-flex-queue` | `kt:batch-apex` |
 | `kt:apex-mocks` | `kt:apex-enterprise-patterns` |
+| `kt:apex-rest-services` | `kt:remote-call-in` |
 | `kt:api-led-connectivity` | `kt:mulesoft-anypoint-platform` |
 | `kt:automation-studio` | `kt:marketing-cloud-engagement` |
 | `kt:backup-and-recover` | `kt:archiving-strategy` |
