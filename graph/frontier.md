@@ -4,13 +4,12 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:apex-continuations` | `kt:apex-callouts`, `kt:integration-patterns-request-reply-fire-and-forget` |
+| `kt:remote-site-settings` | `kt:apex-callouts`, `kt:apex-continuations`, `kt:named-credentials` |
 | `kt:group-membership-locking` | `kt:enterprise-territory-management`, `kt:sharing-recalculation` |
 | `kt:invocable-actions-api` | `kt:autolaunched-flow`, `kt:subflows` |
 | `kt:nist-digital-identity-guidelines` | `kt:multi-factor-authentication`, `kt:password-policies` |
 | `kt:opportunity-teams` | `kt:opportunity-splits`, `kt:opportunity-splits` |
 | `kt:public-groups` | `kt:queues`, `kt:sharing-rules` |
-| `kt:remote-site-settings` | `kt:apex-callouts`, `kt:named-credentials` |
 | `kt:salesforce-analytics` | `kt:crm-analytics`, `kt:tableau` |
 | `kt:salesforce-apis` | `kt:bulk-api-2`, `kt:graphql-api` |
 | `kt:sandbox-templates` | `kt:environment-strategy`, `kt:sandbox-types` |
@@ -144,6 +143,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:trust-services-criteria` | `kt:soc-2` |
 | `kt:upsert` | `kt:external-id-fields` |
 | `kt:user-access-policies` | `kt:permission-sets` |
+| `kt:visualforce` | `kt:apex-continuations` |
 | `kt:wcag` | `kt:section-508-accessibility` |
 | `kt:work-orders` | `kt:field-service` |
 | `kt:zero-copy-data-sharing` | `kt:zero-copy-data-federation` |

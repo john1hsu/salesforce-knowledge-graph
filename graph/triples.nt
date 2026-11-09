@@ -243,6 +243,34 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-callouts> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-continuations> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-callouts> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-callouts> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-continuations> <http://purl.org/dc/terms/created> "2026-11-09" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-continuations> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-continuations> <http://www.w3.org/2000/01/rdf-schema#label> "Apex Continuations" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-continuations> <http://www.w3.org/2004/02/skos/core#altLabel> "Continuation class" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-continuations> <http://www.w3.org/2004/02/skos/core#altLabel> "System.Continuation" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-continuations> <http://www.w3.org/2004/02/skos/core#altLabel> "asynchronous Apex callouts from the UI" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-continuations> <http://www.w3.org/2004/02/skos/core#altLabel> "long-running callouts with continuations" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-continuations> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-callouts> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-continuations> <http://www.w3.org/2004/02/skos/core#definition> "The Apex Continuation class, which lets a Visualforce, Aura or Lightning Web Component action make up to three parallel (or three chained) long-running HTTP callouts that suspend the request and resume in a callback method." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-continuations> <http://www.w3.org/2004/02/skos/core#prefLabel> "Apex Continuations" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-continuations> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-testing> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-continuations> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/aura-components> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-continuations> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-patterns-request-reply-fire-and-forget> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-continuations> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-web-components> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-continuations> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/visualforce> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-continuations> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-continuations/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-continuations> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-continuations/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-continuations> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-continuations/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-continuations> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-continuations/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-continuations> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-continuations/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-continuations> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-continuations/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-continuations> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#alternativeTo> <https://github.com/john1hsu/salesforce-knowledge-graph/id/queueable-apex> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-continuations> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/remote-site-settings> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-continuations> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/named-credentials> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-continuations> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "development" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-continuations> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#partOf> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-callouts> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-continuations> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-continuations> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-enterprise-patterns> <http://purl.org/dc/terms/created> "2026-11-08" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-enterprise-patterns> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Pattern> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-enterprise-patterns> <http://www.w3.org/2000/01/rdf-schema#label> "Apex Enterprise Patterns" .
@@ -5928,6 +5956,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-callouts/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-callouts/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-callouts/s4> <https://schema.org/url> "https://trailhead.salesforce.com/en/content/learn/modules/apex_integration_services/apex_integration_rest_callouts" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-continuations/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-continuations/s1> <http://purl.org/dc/terms/title> "Apex Developer Guide: Make Long-Running Callouts with Continuations" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-continuations/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-continuations/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-continuations/s1> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_continuation_overview.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-continuations/s2> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-continuations/s2> <http://purl.org/dc/terms/title> "Apex Developer Guide: Asynchronous Callout Limits" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-continuations/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-continuations/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-continuations/s2> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_continuation_limits.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-continuations/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-continuations/s3> <http://purl.org/dc/terms/title> "Apex Reference Guide: Continuation Class" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-continuations/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-continuations/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-continuations/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_class_System_Continuation.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-continuations/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-continuations/s4> <http://purl.org/dc/terms/title> "Lightning Web Components Developer Guide: Make Long-Running Callouts with Continuations" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-continuations/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-continuations/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-continuations/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/lwc/guide/apex-continuations.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-continuations/s5> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-continuations/s5> <http://purl.org/dc/terms/title> "Lightning Web Components Developer Guide: Work with a Continuation in an Apex Class" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-continuations/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-continuations/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-continuations/s5> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/lwc/guide/apex-continuations-apex.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-continuations/s6> <http://purl.org/dc/terms/publisher> "Salesforce Developers Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-continuations/s6> <http://purl.org/dc/terms/title> "Apex Continuations: Implementation and Testing in Aura & LWC" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-continuations/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-continuations/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-continuations/s6> <https://schema.org/url> "https://developer.salesforce.com/blogs/2020/05/apex-continuations-implementation-and-testing-in-aura-lwc" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-enterprise-patterns/s1> <http://purl.org/dc/terms/publisher> "Salesforce Trailhead" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-enterprise-patterns/s1> <http://purl.org/dc/terms/title> "Trailhead: Apex Enterprise Patterns: Service Layer — Learn About Separation of Concerns" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-enterprise-patterns/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

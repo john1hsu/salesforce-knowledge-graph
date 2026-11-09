@@ -8370,6 +8370,103 @@
       ]
     },
     {
+      "@id": "kt:apex-continuations",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Apex Continuations",
+      "skos:definition": "The Apex Continuation class, which lets a Visualforce, Aura or Lightning Web Component action make up to three parallel (or three chained) long-running HTTP callouts that suspend the request and resume in a callback method.",
+      "kto:domain": "development",
+      "dcterms:created": "2026-11-09",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Apex Developer Guide: Make Long-Running Callouts with Continuations",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_continuation_overview.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Apex Developer Guide: Asynchronous Callout Limits",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_continuation_limits.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Apex Reference Guide: Continuation Class",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_class_System_Continuation.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Lightning Web Components Developer Guide: Make Long-Running Callouts with Continuations",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/lwc/guide/apex-continuations.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Lightning Web Components Developer Guide: Work with a Continuation in an Apex Class",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/lwc/guide/apex-continuations-apex.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Apex Continuations: Implementation and Testing in Aura & LWC",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2020/05/apex-continuations-implementation-and-testing-in-aura-lwc",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/development/apex-continuations.md",
+      "skos:altLabel": [
+        "Continuation class",
+        "asynchronous Apex callouts from the UI",
+        "long-running callouts with continuations",
+        "System.Continuation"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:apex-callouts"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:lightning-web-components"
+        },
+        {
+          "@id": "kt:aura-components"
+        },
+        {
+          "@id": "kt:visualforce"
+        },
+        {
+          "@id": "kt:apex-testing"
+        },
+        {
+          "@id": "kt:integration-patterns-request-reply-fire-and-forget"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:apex-callouts"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:named-credentials"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:remote-site-settings"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:queueable-apex"
+        }
+      ]
+    },
+    {
       "@id": "kt:apex-enterprise-patterns",
       "@type": "kto:Pattern",
       "skos:prefLabel": "Apex Enterprise Patterns",
