@@ -953,6 +953,81 @@
       ]
     },
     {
+      "@id": "kt:salesforce-center-of-excellence",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Salesforce Center of Excellence",
+      "skos:definition": "A cross-functional governing body, led by an executive sponsor, that decides what gets built in an organization's Salesforce environment, sets and enforces design and release standards, and measures the program's value; the main vehicle Salesforce recommends for delivering platform governance.",
+      "kto:domain": "architecture-practice",
+      "dcterms:created": "2026-11-09",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Learn About Salesforce Governance and Why It Matters (Salesforce Governance with a Center of Excellence)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/zh-CN/content/learn/modules/salesforce-governance-with-a-center-of-excellence/learn-about-salesforce-governance-and-why-it-matters",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Get Started with a Salesforce CoE (Salesforce Governance with a Center of Excellence)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/zh-CN/content/learn/modules/salesforce-governance-with-a-center-of-excellence/get-started-with-a-salesforce-coe",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Accelerate Your CoE with AI (Salesforce Governance with a Center of Excellence)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/es/content/learn/modules/salesforce-governance-with-a-center-of-excellence/accelerate-your-coe-with-ai",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Build a Salesforce Center of Excellence That Keeps Pace with AI",
+          "dcterms:publisher": "Salesforce Architect Blog",
+          "schema:url": "https://www.salesforce.com/blog/center-of-excellence-ai-governance/",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/architecture-practice/salesforce-center-of-excellence.md",
+      "skos:altLabel": [
+        "Salesforce CoE",
+        "Salesforce COE",
+        "Centre of Excellence",
+        "CoE governance model"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-governance"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:architecture-decision-records"
+        },
+        {
+          "@id": "kt:application-lifecycle-management"
+        },
+        {
+          "@id": "kt:org-strategy"
+        },
+        {
+          "@id": "kt:environment-strategy"
+        },
+        {
+          "@id": "kt:agentforce"
+        }
+      ],
+      "kto:mitigates": [
+        {
+          "@id": "kt:technical-debt-in-salesforce"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:salesforce-architect"
+        }
+      ]
+    },
+    {
       "@id": "kt:salesforce-certification-program",
       "@type": "kto:Concept",
       "skos:prefLabel": "Salesforce Certification Program",

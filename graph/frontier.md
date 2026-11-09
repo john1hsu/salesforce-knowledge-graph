@@ -115,6 +115,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:salesforce-ecosystem` | `kt:salesforce-inc` |
 | `kt:salesforce-ecosystem-roles` | `kt:salesforce-architect` |
 | `kt:salesforce-go` | `kt:knowledge-base` |
+| `kt:salesforce-governance` | `kt:salesforce-center-of-excellence` |
 | `kt:salesforce-industries` | `kt:public-sector-solutions` |
 | `kt:salesforce-marketing-solutions` | `kt:marketing-cloud-engagement` |
 | `kt:salesforce-optimizer` | `kt:technical-debt-in-salesforce` |
