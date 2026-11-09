@@ -5004,6 +5004,30 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-connect> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#implements> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-virtualization> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-connect> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-connect> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-cpq> <http://purl.org/dc/terms/created> "2026-11-09" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-cpq> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Product> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-cpq> <http://www.w3.org/2000/01/rdf-schema#label> "Salesforce CPQ" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-cpq> <http://www.w3.org/2004/02/skos/core#altLabel> "CPQ" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-cpq> <http://www.w3.org/2004/02/skos/core#altLabel> "SBQQ" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-cpq> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce Configure Price Quote" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-cpq> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/sales-cloud> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-cpq> <http://www.w3.org/2004/02/skos/core#definition> "Salesforce's original configure-price-quote product, which adds product rules, price rules, a layered price waterfall and quote documents to opportunities; it is end of sale (not end of life) and its strategic successor is Revenue Cloud Advanced in Agentforce Revenue Management." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-cpq> <http://www.w3.org/2004/02/skos/core#prefLabel> "Salesforce CPQ" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-cpq> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/product-configurator> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-cpq> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-pricing> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-cpq> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-cpq/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-cpq> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-cpq/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-cpq> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-cpq/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-cpq> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-cpq/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-cpq> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-cpq/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-cpq> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-cpq/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-cpq> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#contrastsWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-pricing> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-cpq> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/price-books> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-cpq> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "clouds-and-products" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-cpq> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/heroku> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-cpq> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#replacedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/revenue-cloud> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-cpq> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "deprecated" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-cpq> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-diagrams> <http://purl.org/dc/terms/created> "2026-11-08" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-diagrams> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Tool> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-diagrams> <http://www.w3.org/2000/01/rdf-schema#label> "Salesforce Diagrams" .
@@ -10751,6 +10775,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-connect/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-connect/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-connect/s6> <https://schema.org/url> "https://developer.salesforce.com/blogs/2022/09/learn-moar-in-winter-23-with-the-salesforce-connect-adapter-for-amazon-athena" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-cpq/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-cpq/s1> <http://purl.org/dc/terms/title> "Product and Price Rules (Salesforce CPQ Features)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-cpq/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-cpq/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-cpq/s1> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/salesforce-cpq-features/product-and-price-rules" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-cpq/s2> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-cpq/s2> <http://purl.org/dc/terms/title> "Identify Exceptions to Standard Pricing (Pricing Methods for Salesforce CPQ)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-cpq/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-cpq/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-cpq/s2> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/pricing-methods-for-salesforce-cpq/identify-exceptions-to-standard-pricing" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-cpq/s3> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-cpq/s3> <http://purl.org/dc/terms/title> "Use Salesforce CPQ for Discounting (Discounting Tools in Salesforce CPQ)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-cpq/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-cpq/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-cpq/s3> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/discounting-tools-in-salesforce-cpq/use-salesforce-cpq-for-discounting" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-cpq/s4> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-cpq/s4> <http://purl.org/dc/terms/title> "Javascript Quote Calculator Plugin (CPQ Plugins Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-cpq/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-cpq/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-cpq/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/revenue/cpq-plugins/guide/cpq-dev-jsqcp-parent.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-cpq/s5> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-cpq/s5> <http://purl.org/dc/terms/title> "Quote Calculator Plugin Guidelines (CPQ Plugins Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-cpq/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-cpq/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-cpq/s5> <https://schema.org/url> "https://developer.salesforce.com/docs/revenue/cpq-plugins/guide/cpq-dev-jsqcp-guidelines.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-cpq/s6> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-cpq/s6> <http://purl.org/dc/terms/title> "Navigating the Future of Salesforce CPQ: Product End of Sale (Not End of Life)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-cpq/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-cpq/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-cpq/s6> <https://schema.org/url> "https://www.salesforce.com/sales/cpq/end-of-life/" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-diagrams/s1> <http://purl.org/dc/terms/publisher> "Salesforce Architects" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-diagrams/s1> <http://purl.org/dc/terms/title> "Salesforce Diagrams: Framework Overview" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-diagrams/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

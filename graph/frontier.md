@@ -4,11 +4,13 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
+| `kt:salesforce-pricing` | `kt:revenue-cloud`, `kt:salesforce-cpq`, `kt:salesforce-cpq` |
 | `kt:group-membership-locking` | `kt:enterprise-territory-management`, `kt:sharing-recalculation` |
 | `kt:invocable-actions-api` | `kt:autolaunched-flow`, `kt:subflows` |
 | `kt:nist-digital-identity-guidelines` | `kt:multi-factor-authentication`, `kt:password-policies` |
 | `kt:opportunity-teams` | `kt:opportunity-splits`, `kt:opportunity-splits` |
 | `kt:process-automation-settings` | `kt:flow-versioning`, `kt:schedule-triggered-flow` |
+| `kt:product-configurator` | `kt:revenue-cloud`, `kt:salesforce-cpq` |
 | `kt:public-groups` | `kt:queues`, `kt:sharing-rules` |
 | `kt:salesforce-analytics` | `kt:crm-analytics`, `kt:tableau` |
 | `kt:salesforce-apis` | `kt:bulk-api-2`, `kt:graphql-api` |
@@ -66,6 +68,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:governance-risk-and-compliance` | `kt:security-compliance-frameworks` |
 | `kt:government-cloud` | `kt:government-cloud-plus` |
 | `kt:health-cloud` | `kt:hipaa` |
+| `kt:heroku` | `kt:salesforce-cpq` |
 | `kt:hitrust-csf` | `kt:nist-cybersecurity-framework` |
 | `kt:holidays` | `kt:business-hours` |
 | `kt:hyperforce-operating-zones` | `kt:data-residency` |
@@ -100,15 +103,14 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:platform-developer-ii-certification` | `kt:platform-developer-certification` |
 | `kt:platform-event-channel-member` | `kt:change-data-capture` |
 | `kt:presence-configuration` | `kt:omni-channel` |
+| `kt:price-books` | `kt:salesforce-cpq` |
 | `kt:process-integration` | `kt:data-integration` |
-| `kt:product-configurator` | `kt:revenue-cloud` |
 | `kt:prompt-injection` | `kt:einstein-trust-layer` |
 | `kt:recursive-save` | `kt:order-of-execution` |
 | `kt:revenue-intelligence` | `kt:collaborative-forecasts` |
 | `kt:revenue-management-consultant-certification` | `kt:revenue-cloud` |
 | `kt:salesforce-architecture-program` | `kt:salesforce-architecture-center` |
 | `kt:salesforce-archive` | `kt:archiving-strategy` |
-| `kt:salesforce-cpq` | `kt:revenue-cloud` |
 | `kt:salesforce-data-mask` | `kt:environment-strategy` |
 | `kt:salesforce-ecosystem` | `kt:salesforce-inc` |
 | `kt:salesforce-ecosystem-roles` | `kt:salesforce-architect` |
@@ -117,7 +119,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:salesforce-industries` | `kt:public-sector-solutions` |
 | `kt:salesforce-marketing-solutions` | `kt:marketing-cloud-engagement` |
 | `kt:salesforce-optimizer` | `kt:technical-debt-in-salesforce` |
-| `kt:salesforce-pricing` | `kt:revenue-cloud` |
 | `kt:saml-2-0` | `kt:single-sign-on-saml` |
 | `kt:saql` | `kt:crm-analytics` |
 | `kt:scale-test` | `kt:testing-strategy` |

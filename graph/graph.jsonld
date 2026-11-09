@@ -4562,6 +4562,93 @@
       ]
     },
     {
+      "@id": "kt:salesforce-cpq",
+      "@type": "kto:Product",
+      "skos:prefLabel": "Salesforce CPQ",
+      "skos:definition": "Salesforce's original configure-price-quote product, which adds product rules, price rules, a layered price waterfall and quote documents to opportunities; it is end of sale (not end of life) and its strategic successor is Revenue Cloud Advanced in Agentforce Revenue Management.",
+      "kto:domain": "clouds-and-products",
+      "dcterms:created": "2026-11-09",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "deprecated",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Product and Price Rules (Salesforce CPQ Features)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/salesforce-cpq-features/product-and-price-rules",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Identify Exceptions to Standard Pricing (Pricing Methods for Salesforce CPQ)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/pricing-methods-for-salesforce-cpq/identify-exceptions-to-standard-pricing",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Use Salesforce CPQ for Discounting (Discounting Tools in Salesforce CPQ)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/discounting-tools-in-salesforce-cpq/use-salesforce-cpq-for-discounting",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Javascript Quote Calculator Plugin (CPQ Plugins Developer Guide)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/revenue/cpq-plugins/guide/cpq-dev-jsqcp-parent.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Quote Calculator Plugin Guidelines (CPQ Plugins Developer Guide)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/revenue/cpq-plugins/guide/cpq-dev-jsqcp-guidelines.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Navigating the Future of Salesforce CPQ: Product End of Sale (Not End of Life)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/sales/cpq/end-of-life/",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/clouds-and-products/salesforce-cpq.md",
+      "skos:altLabel": [
+        "CPQ",
+        "Salesforce Configure Price Quote",
+        "SBQQ"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:sales-cloud"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:product-configurator"
+        },
+        {
+          "@id": "kt:salesforce-pricing"
+        }
+      ],
+      "kto:replacedBy": [
+        {
+          "@id": "kt:revenue-cloud"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:price-books"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:heroku"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:salesforce-pricing"
+        }
+      ]
+    },
+    {
       "@id": "kt:salesforce-inc",
       "@type": "kto:Organization",
       "skos:prefLabel": "Salesforce, Inc.",
