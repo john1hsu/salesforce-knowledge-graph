@@ -9,6 +9,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:invocable-actions-api` | `kt:autolaunched-flow`, `kt:subflows` |
 | `kt:nist-digital-identity-guidelines` | `kt:multi-factor-authentication`, `kt:password-policies` |
 | `kt:opportunity-teams` | `kt:opportunity-splits`, `kt:opportunity-splits` |
+| `kt:process-automation-settings` | `kt:flow-versioning`, `kt:schedule-triggered-flow` |
 | `kt:public-groups` | `kt:queues`, `kt:sharing-rules` |
 | `kt:salesforce-analytics` | `kt:crm-analytics`, `kt:tableau` |
 | `kt:salesforce-apis` | `kt:bulk-api-2`, `kt:graphql-api` |
@@ -60,7 +61,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:field-service-mobile-app` | `kt:field-service` |
 | `kt:field-service-scheduling-policies` | `kt:field-service` |
 | `kt:financial-services-cloud` | `kt:person-accounts` |
-| `kt:flow-versioning` | `kt:subflows` |
+| `kt:flow-limits` | `kt:flow-versioning` |
 | `kt:gdpr-international-transfers` | `kt:data-residency` |
 | `kt:generative-ai` | `kt:retrieval-augmented-generation-in-salesforce` |
 | `kt:governance-risk-and-compliance` | `kt:security-compliance-frameworks` |
@@ -100,7 +101,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:platform-developer-ii-certification` | `kt:platform-developer-certification` |
 | `kt:platform-event-channel-member` | `kt:change-data-capture` |
 | `kt:presence-configuration` | `kt:omni-channel` |
-| `kt:process-automation-settings` | `kt:schedule-triggered-flow` |
 | `kt:process-integration` | `kt:data-integration` |
 | `kt:product-configurator` | `kt:revenue-cloud` |
 | `kt:prompt-injection` | `kt:einstein-trust-layer` |

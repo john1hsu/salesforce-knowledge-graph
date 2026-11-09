@@ -2395,6 +2395,91 @@
       ]
     },
     {
+      "@id": "kt:flow-versioning",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Flow Versioning",
+      "skos:definition": "The way Salesforce stores each saved revision of a flow as a numbered version under one flow definition, with at most one version active at a time, so admins can build and test a new version, activate it to replace the old one, and keep earlier versions for reference or reactivation.",
+      "kto:domain": "automation",
+      "dcterms:created": "2026-11-09",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "General Flow Limits",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=flow_considerations_limit.htm&type=0",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Flow Management Considerations",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=flow_considerations_manage.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Flow Version Properties",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=sf.flow_ref_properties.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Subflow Element",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=platform.flow_ref_elements_subflow.htm&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Change Set Considerations for Flows",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=sf.flow_considerations_change_sets.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Deploy Processes and Flows as Active",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=platform.flow_distribute_deploy_active.htm&type=5",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/automation/flow-versioning.md",
+      "skos:altLabel": [
+        "flow versions",
+        "flow version",
+        "flow version activation",
+        "active flow version",
+        "Save As New Version"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:flow-builder"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:subflows"
+        },
+        {
+          "@id": "kt:change-sets"
+        },
+        {
+          "@id": "kt:metadata-api"
+        },
+        {
+          "@id": "kt:flow-trigger-explorer"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:flow-limits"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:process-automation-settings"
+        }
+      ]
+    },
+    {
       "@id": "kt:orchestration-work-guide",
       "@type": "kto:Feature",
       "skos:prefLabel": "Orchestration Work Guide",

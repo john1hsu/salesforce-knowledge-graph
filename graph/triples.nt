@@ -2505,6 +2505,32 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-trigger-explorer> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#partOf> <https://github.com/john1hsu/salesforce-knowledge-graph/id/process-automation> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-trigger-explorer> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-trigger-explorer> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-versioning> <http://purl.org/dc/terms/created> "2026-11-09" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-versioning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-versioning> <http://www.w3.org/2000/01/rdf-schema#label> "Flow Versioning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-versioning> <http://www.w3.org/2004/02/skos/core#altLabel> "Save As New Version" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-versioning> <http://www.w3.org/2004/02/skos/core#altLabel> "active flow version" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-versioning> <http://www.w3.org/2004/02/skos/core#altLabel> "flow version activation" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-versioning> <http://www.w3.org/2004/02/skos/core#altLabel> "flow version" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-versioning> <http://www.w3.org/2004/02/skos/core#altLabel> "flow versions" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-versioning> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-builder> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-versioning> <http://www.w3.org/2004/02/skos/core#definition> "The way Salesforce stores each saved revision of a flow as a numbered version under one flow definition, with at most one version active at a time, so admins can build and test a new version, activate it to replace the old one, and keep earlier versions for reference or reactivation." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-versioning> <http://www.w3.org/2004/02/skos/core#prefLabel> "Flow Versioning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-versioning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/change-sets> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-versioning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-trigger-explorer> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-versioning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-versioning> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/subflows> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-versioning> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-versioning/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-versioning> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-versioning/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-versioning> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-versioning/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-versioning> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-versioning/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-versioning> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-versioning/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-versioning> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-versioning/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-versioning> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/process-automation-settings> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-versioning> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "automation" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-versioning> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#governedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-limits> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-versioning> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-versioning> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/future-methods> <http://purl.org/dc/terms/created> "2026-11-07" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/future-methods> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/future-methods> <http://www.w3.org/2000/01/rdf-schema#label> "Future Methods" .
@@ -8211,6 +8237,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-trigger-explorer/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-trigger-explorer/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-trigger-explorer/s4> <https://schema.org/url> "https://admin.salesforce.com/blog/2022/use-flow-trigger-explorer-to-easily-view-all-of-your-record-triggered-flows" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-versioning/s1> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-versioning/s1> <http://purl.org/dc/terms/title> "General Flow Limits" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-versioning/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-versioning/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-versioning/s1> <https://schema.org/url> "https://help.salesforce.com/s/articleView?language=en_US&id=flow_considerations_limit.htm&type=0" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-versioning/s2> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-versioning/s2> <http://purl.org/dc/terms/title> "Flow Management Considerations" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-versioning/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-versioning/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-versioning/s2> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=flow_considerations_manage.htm&language=en_US&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-versioning/s3> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-versioning/s3> <http://purl.org/dc/terms/title> "Flow Version Properties" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-versioning/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-versioning/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-versioning/s3> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=sf.flow_ref_properties.htm&language=en_US&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-versioning/s4> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-versioning/s4> <http://purl.org/dc/terms/title> "Subflow Element" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-versioning/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-versioning/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-versioning/s4> <https://schema.org/url> "https://help.salesforce.com/s/articleView?language=en_US&id=platform.flow_ref_elements_subflow.htm&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-versioning/s5> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-versioning/s5> <http://purl.org/dc/terms/title> "Change Set Considerations for Flows" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-versioning/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-versioning/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-versioning/s5> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=sf.flow_considerations_change_sets.htm&language=en_US&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-versioning/s6> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-versioning/s6> <http://purl.org/dc/terms/title> "Deploy Processes and Flows as Active" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-versioning/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-versioning/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-versioning/s6> <https://schema.org/url> "https://help.salesforce.com/s/articleView?language=en_US&id=platform.flow_distribute_deploy_active.htm&type=5" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/future-methods/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/future-methods/s1> <http://purl.org/dc/terms/title> "Apex Developer Guide: Future Methods" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/future-methods/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
