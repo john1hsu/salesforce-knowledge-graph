@@ -2642,6 +2642,33 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-versioning> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#governedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-limits> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-versioning> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-versioning> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/formula-fields> <http://purl.org/dc/terms/created> "2026-11-09" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/formula-fields> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/formula-fields> <http://www.w3.org/2000/01/rdf-schema#label> "Formula Fields" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/formula-fields> <http://www.w3.org/2004/02/skos/core#altLabel> "calculated field" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/formula-fields> <http://www.w3.org/2004/02/skos/core#altLabel> "cross-object formula" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/formula-fields> <http://www.w3.org/2004/02/skos/core#altLabel> "formula custom field" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/formula-fields> <http://www.w3.org/2004/02/skos/core#altLabel> "formula field" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/formula-fields> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-fields> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/formula-fields> <http://www.w3.org/2004/02/skos/core#definition> "A read-only custom field type whose value is computed from an expression over the record's own fields, related parent records, functions and operators, evaluated when the record is read rather than stored as entered data." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/formula-fields> <http://www.w3.org/2004/02/skos/core#prefLabel> "Formula Fields" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/formula-fields> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-indexes> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/formula-fields> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/object-relationships> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/formula-fields> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/validation-rules> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/formula-fields> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/formula-fields/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/formula-fields> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/formula-fields/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/formula-fields> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/formula-fields/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/formula-fields> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/formula-fields/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/formula-fields> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/formula-fields/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/formula-fields> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/formula-fields/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/formula-fields> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#alternativeTo> <https://github.com/john1hsu/salesforce-knowledge-graph/id/record-triggered-flow> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/formula-fields> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#contrastsWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/roll-up-summary-field> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/formula-fields> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#coveredBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-administrator-certification> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/formula-fields> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#coveredBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-app-builder-certification> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/formula-fields> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "data-model" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/formula-fields> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/soql> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/formula-fields> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/formula-fields> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/future-methods> <http://purl.org/dc/terms/created> "2026-11-07" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/future-methods> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/future-methods> <http://www.w3.org/2000/01/rdf-schema#label> "Future Methods" .
@@ -8767,6 +8794,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-versioning/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-versioning/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-versioning/s6> <https://schema.org/url> "https://help.salesforce.com/s/articleView?language=en_US&id=platform.flow_distribute_deploy_active.htm&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/formula-fields/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/formula-fields/s1> <http://purl.org/dc/terms/title> "Use Formula Fields (Formulas and Validations module)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/formula-fields/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/formula-fields/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/formula-fields/s1> <https://schema.org/url> "https://trailhead.salesforce.com/en/modules/point_click_business_logic/units/formula_fields" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/formula-fields/s2> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/formula-fields/s2> <http://purl.org/dc/terms/title> "Create a Formula Field (Quick Data Insights with Formulas)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/formula-fields/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/formula-fields/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/formula-fields/s2> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/quick-data-insights-with-formulas/create-a-formula-field-2" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/formula-fields/s3> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/formula-fields/s3> <http://purl.org/dc/terms/title> "Tips for Reducing Formula Size (tip sheet, Spring '23)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/formula-fields/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/formula-fields/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/formula-fields/s3> <https://schema.org/url> "https://resources.docs.salesforce.com/242/latest/en-us/sfdc/pdf/salesforce_formula_size_tipsheet.pdf" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/formula-fields/s4> <http://purl.org/dc/terms/publisher> "Salesforce Admins Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/formula-fields/s4> <http://purl.org/dc/terms/title> "How I Solved This: Beat the Formula Compile Error" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/formula-fields/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/formula-fields/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/formula-fields/s4> <https://schema.org/url> "https://admin.salesforce.com/blog/2022/how-i-solved-this-beat-the-formula-compile-error" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/formula-fields/s5> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/formula-fields/s5> <http://purl.org/dc/terms/title> "Formula Class (Apex Reference Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/formula-fields/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/formula-fields/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/formula-fields/s5> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_class_System_Formula.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/formula-fields/s6> <http://purl.org/dc/terms/publisher> "Salesforce Developers Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/formula-fields/s6> <http://purl.org/dc/terms/title> "Force.com SOQL Best Practices: Nulls and Formula Fields" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/formula-fields/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/formula-fields/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/formula-fields/s6> <https://schema.org/url> "https://developer.salesforce.com/blogs/2013/02/force-com-soql-best-practices-nulls-and-formula-fields" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/future-methods/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/future-methods/s1> <http://purl.org/dc/terms/title> "Apex Developer Guide: Future Methods" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/future-methods/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

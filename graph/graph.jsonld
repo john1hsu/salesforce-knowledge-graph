@@ -8281,6 +8281,100 @@
       ]
     },
     {
+      "@id": "kt:formula-fields",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Formula Fields",
+      "skos:definition": "A read-only custom field type whose value is computed from an expression over the record's own fields, related parent records, functions and operators, evaluated when the record is read rather than stored as entered data.",
+      "kto:domain": "data-model",
+      "dcterms:created": "2026-11-09",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Use Formula Fields (Formulas and Validations module)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/en/modules/point_click_business_logic/units/formula_fields",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Create a Formula Field (Quick Data Insights with Formulas)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/quick-data-insights-with-formulas/create-a-formula-field-2",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Tips for Reducing Formula Size (tip sheet, Spring '23)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://resources.docs.salesforce.com/242/latest/en-us/sfdc/pdf/salesforce_formula_size_tipsheet.pdf",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "How I Solved This: Beat the Formula Compile Error",
+          "dcterms:publisher": "Salesforce Admins Blog",
+          "schema:url": "https://admin.salesforce.com/blog/2022/how-i-solved-this-beat-the-formula-compile-error",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Formula Class (Apex Reference Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_class_System_Formula.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Force.com SOQL Best Practices: Nulls and Formula Fields",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2013/02/force-com-soql-best-practices-nulls-and-formula-fields",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/data-model/formula-fields.md",
+      "skos:altLabel": [
+        "formula field",
+        "calculated field",
+        "cross-object formula",
+        "formula custom field"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:custom-fields"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:object-relationships"
+        },
+        {
+          "@id": "kt:validation-rules"
+        },
+        {
+          "@id": "kt:custom-indexes"
+        }
+      ],
+      "kto:queriedWith": [
+        {
+          "@id": "kt:soql"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:record-triggered-flow"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:roll-up-summary-field"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:platform-app-builder-certification"
+        },
+        {
+          "@id": "kt:platform-administrator-certification"
+        }
+      ]
+    },
+    {
       "@id": "kt:junction-object",
       "@type": "kto:Pattern",
       "skos:prefLabel": "Junction Object",

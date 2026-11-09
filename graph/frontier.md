@@ -139,6 +139,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:trust-services-criteria` | `kt:soc-2` |
 | `kt:upsert` | `kt:external-id-fields` |
 | `kt:user-access-policies` | `kt:permission-sets` |
+| `kt:validation-rules` | `kt:formula-fields` |
 | `kt:visualforce` | `kt:apex-continuations` |
 | `kt:wcag` | `kt:section-508-accessibility` |
 | `kt:work-orders` | `kt:field-service` |
