@@ -5505,6 +5505,33 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-shield> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/crm-analytics> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-shield> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-shield> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-templates> <http://purl.org/dc/terms/created> "2026-11-09" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-templates> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-templates> <http://www.w3.org/2000/01/rdf-schema#label> "Sandbox Templates" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-templates> <http://www.w3.org/2004/02/skos/core#altLabel> "Partial Copy sandbox template" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-templates> <http://www.w3.org/2004/02/skos/core#altLabel> "partial copy template" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-templates> <http://www.w3.org/2004/02/skos/core#altLabel> "sandbox data template" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-templates> <http://www.w3.org/2004/02/skos/core#altLabel> "sandbox template" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-templates> <http://www.w3.org/2004/02/skos/core#altLabel> "templateId" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-templates> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/environment-strategy> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-templates> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-types> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-templates> <http://www.w3.org/2004/02/skos/core#definition> "Saved, reusable selections of standard and custom objects that decide which production records are copied into a Partial Copy sandbox (where a template is mandatory) or a Full sandbox (where it is optional)." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-templates> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sandbox Templates" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-templates> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/big-objects> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-templates> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/field-history-tracking> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-templates> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/lookup-vs-master-detail> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-templates> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/testing-strategy> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-templates> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sandbox-templates/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-templates> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sandbox-templates/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-templates> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sandbox-templates/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-templates> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sandbox-templates/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-templates> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sandbox-templates/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-templates> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-cli> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-templates> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "devops-and-alm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-templates> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#governedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-and-file-storage-allocations> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-templates> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/tooling-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-templates> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-templates> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-types> <http://purl.org/dc/terms/created> "2026-10-31" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-types> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-types> <http://www.w3.org/2000/01/rdf-schema#label> "Sandbox Types" .
@@ -11615,6 +11642,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-shield/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-shield/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-shield/s6> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/data-detect-quick-look/get-to-know-data-detect" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sandbox-templates/s1> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sandbox-templates/s1> <http://purl.org/dc/terms/title> "Salesforce Sandboxes: Staging Environments for Customizing and Testing (Summer '23 PDF)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sandbox-templates/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sandbox-templates/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sandbox-templates/s1> <https://schema.org/url> "https://resources.docs.salesforce.com/latest/latest/en-us/sfdc/pdf/deploy_sandboxes.pdf" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sandbox-templates/s2> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sandbox-templates/s2> <http://purl.org/dc/terms/title> "Which Records Are Copied When You Refresh a Salesforce Partial Data Sandbox" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sandbox-templates/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sandbox-templates/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sandbox-templates/s2> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=000386381&language=en_US&type=1" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sandbox-templates/s3> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sandbox-templates/s3> <http://purl.org/dc/terms/title> "Guidance for Partial Copy Salesforce Sandbox Creation and Refreshes" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sandbox-templates/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sandbox-templates/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sandbox-templates/s3> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=000381868&language=en_US&type=1" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sandbox-templates/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sandbox-templates/s4> <http://purl.org/dc/terms/title> "Create a Sandbox Definition File (Salesforce DX Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sandbox-templates/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sandbox-templates/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sandbox-templates/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_sandbox_definition.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sandbox-templates/s5> <http://purl.org/dc/terms/publisher> "Salesforce Developers Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sandbox-templates/s5> <http://purl.org/dc/terms/title> "Sandbox Templates and a New Look" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sandbox-templates/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sandbox-templates/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sandbox-templates/s5> <https://schema.org/url> "https://developer.salesforce.com/blogs/2013/05/sandbox-templates-and-a-new-look" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sandbox-types/s1> <http://purl.org/dc/terms/publisher> "Salesforce" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sandbox-types/s1> <http://purl.org/dc/terms/title> "Sandboxes: Staging Environments for Customizing and Testing (Salesforce Help PDF)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sandbox-types/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
