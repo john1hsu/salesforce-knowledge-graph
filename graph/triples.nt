@@ -4339,6 +4339,30 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/process-builder> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#replacedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/record-triggered-flow> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/process-builder> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "deprecated" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/process-builder> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/product-configurator> <http://purl.org/dc/terms/created> "2026-11-09" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/product-configurator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/product-configurator> <http://www.w3.org/2000/01/rdf-schema#label> "Product Configurator" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/product-configurator> <http://www.w3.org/2004/02/skos/core#altLabel> "Agentforce Revenue Management configurator" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/product-configurator> <http://www.w3.org/2004/02/skos/core#altLabel> "Revenue Cloud Product Configurator" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/product-configurator> <http://www.w3.org/2004/02/skos/core#altLabel> "configurator flows" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/product-configurator> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/revenue-cloud> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/product-configurator> <http://www.w3.org/2004/02/skos/core#definition> "The configuration feature of Agentforce Revenue Management that lets reps and buyers customize a product's or bundle's attributes and components at runtime, enforcing compatibility through configuration rules (Business Rules Engine) or constraint models (Constraint Rules Engine) and handing the result to pricing and the quote or order." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/product-configurator> <http://www.w3.org/2004/02/skos/core#prefLabel> "Product Configurator" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/product-configurator> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/business-rules-engine> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/product-configurator> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/constraint-modeling-language> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/product-configurator> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-pricing> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/product-configurator> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/product-configurator/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/product-configurator> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/product-configurator/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/product-configurator> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/product-configurator/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/product-configurator> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/product-configurator/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/product-configurator> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/product-configurator/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/product-configurator> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-builder> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/product-configurator> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#contrastsWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-cpq> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/product-configurator> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/product-catalog-management> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/product-configurator> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "clouds-and-products" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/product-configurator> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/connect-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/product-configurator> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/product-configurator> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/profiles> <http://purl.org/dc/terms/created> "2026-11-07" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/profiles> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#SecurityControl> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/profiles> <http://www.w3.org/2000/01/rdf-schema#label> "Profiles" .
@@ -10180,6 +10204,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/process-builder/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/process-builder/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/process-builder/s6> <https://schema.org/url> "https://admin.salesforce.com/blog/2022/automate-this-migrate-workflow-rules-and-processes-to-flow" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/product-configurator/s1> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/product-configurator/s1> <http://purl.org/dc/terms/title> "Product Configurator (Revenue Management Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/product-configurator/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/product-configurator/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/product-configurator/s1> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.258.0.revenue_lifecycle_management_dev_guide.meta/revenue_lifecycle_management_dev_guide/prod_config_overview.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/product-configurator/s2> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/product-configurator/s2> <http://purl.org/dc/terms/title> "Get Started with Product Configurator (Product Configuration with Agentforce Revenue Management)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/product-configurator/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/product-configurator/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/product-configurator/s2> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/product-configuration-with-revenue-cloud/get-started-with-product-configurator" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/product-configurator/s3> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/product-configurator/s3> <http://purl.org/dc/terms/title> "Use Product Configurator with Business Rules Engine" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/product-configurator/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/product-configurator/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/product-configurator/s3> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/product-configuration-with-revenue-cloud/use-product-configurator-with-business-rules-engine" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/product-configurator/s4> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/product-configurator/s4> <http://purl.org/dc/terms/title> "Explore Product Configurator with Constraint Rules Engine" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/product-configurator/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/product-configurator/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/product-configurator/s4> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/product-configuration-with-revenue-cloud/explore-product-configurator-with-constraint-rules-engine" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/product-configurator/s5> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/product-configurator/s5> <http://purl.org/dc/terms/title> "Define Your Product Configuration Experience (Agentforce Revenue Management Design)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/product-configurator/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/product-configurator/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/product-configurator/s5> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/revenue-cloud-design/define-your-product-configuration-experience" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/profiles/s1> <http://purl.org/dc/terms/publisher> "Salesforce Trailhead" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/profiles/s1> <http://purl.org/dc/terms/title> "Manage Salesforce Object Access (Trailhead, Data Security module)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/profiles/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

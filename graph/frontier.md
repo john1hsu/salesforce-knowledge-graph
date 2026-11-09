@@ -4,8 +4,8 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:product-configurator` | `kt:revenue-cloud`, `kt:salesforce-cpq`, `kt:salesforce-pricing` |
-| `kt:connect-api` | `kt:salesforce-pricing`, `kt:data-cloud-segmentation` |
+| `kt:connect-api` | `kt:product-configurator`, `kt:salesforce-pricing`, `kt:data-cloud-segmentation` |
+| `kt:business-rules-engine` | `kt:product-configurator`, `kt:public-sector-solutions` |
 | `kt:group-membership-locking` | `kt:enterprise-territory-management`, `kt:sharing-recalculation` |
 | `kt:invocable-actions-api` | `kt:autolaunched-flow`, `kt:subflows` |
 | `kt:nist-digital-identity-guidelines` | `kt:multi-factor-authentication`, `kt:password-policies` |
@@ -31,9 +31,9 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:block-kit` | `kt:slack-platform` |
 | `kt:bulk-api-1` | `kt:bulk-api-2` |
 | `kt:bulk-api-allocations` | `kt:bulk-api-2` |
-| `kt:business-rules-engine` | `kt:public-sector-solutions` |
 | `kt:change-data-capture-allocations` | `kt:change-data-capture` |
 | `kt:compact-layouts` | `kt:page-layouts` |
+| `kt:constraint-modeling-language` | `kt:product-configurator` |
 | `kt:contact-builder` | `kt:marketing-cloud-engagement` |
 | `kt:contacts-to-multiple-accounts` | `kt:person-accounts` |
 | `kt:context-service` | `kt:salesforce-pricing` |
@@ -105,6 +105,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:platform-event-channel-member` | `kt:change-data-capture` |
 | `kt:presence-configuration` | `kt:omni-channel` |
 | `kt:process-integration` | `kt:data-integration` |
+| `kt:product-catalog-management` | `kt:product-configurator` |
 | `kt:prompt-injection` | `kt:einstein-trust-layer` |
 | `kt:recursive-save` | `kt:order-of-execution` |
 | `kt:revenue-intelligence` | `kt:collaborative-forecasts` |

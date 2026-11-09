@@ -4296,6 +4296,90 @@
       ]
     },
     {
+      "@id": "kt:product-configurator",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Product Configurator",
+      "skos:definition": "The configuration feature of Agentforce Revenue Management that lets reps and buyers customize a product's or bundle's attributes and components at runtime, enforcing compatibility through configuration rules (Business Rules Engine) or constraint models (Constraint Rules Engine) and handing the result to pricing and the quote or order.",
+      "kto:domain": "clouds-and-products",
+      "dcterms:created": "2026-11-09",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Product Configurator (Revenue Management Developer Guide)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.258.0.revenue_lifecycle_management_dev_guide.meta/revenue_lifecycle_management_dev_guide/prod_config_overview.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Get Started with Product Configurator (Product Configuration with Agentforce Revenue Management)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/product-configuration-with-revenue-cloud/get-started-with-product-configurator",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Use Product Configurator with Business Rules Engine",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/product-configuration-with-revenue-cloud/use-product-configurator-with-business-rules-engine",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Explore Product Configurator with Constraint Rules Engine",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/product-configuration-with-revenue-cloud/explore-product-configurator-with-constraint-rules-engine",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Define Your Product Configuration Experience (Agentforce Revenue Management Design)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/revenue-cloud-design/define-your-product-configuration-experience",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/clouds-and-products/product-configurator.md",
+      "skos:altLabel": [
+        "Revenue Cloud Product Configurator",
+        "Agentforce Revenue Management configurator",
+        "configurator flows"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:revenue-cloud"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:salesforce-pricing"
+        },
+        {
+          "@id": "kt:constraint-modeling-language"
+        },
+        {
+          "@id": "kt:business-rules-engine"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:product-catalog-management"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:flow-builder"
+        }
+      ],
+      "kto:queriedWith": [
+        {
+          "@id": "kt:connect-api"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:salesforce-cpq"
+        }
+      ]
+    },
+    {
       "@id": "kt:revenue-cloud",
       "@type": "kto:Product",
       "skos:prefLabel": "Agentforce Revenue Management",
