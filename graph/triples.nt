@@ -5161,6 +5161,30 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-platform> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-builder> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-platform> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-platform> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-pricing> <http://purl.org/dc/terms/created> "2026-11-09" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-pricing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-pricing> <http://www.w3.org/2000/01/rdf-schema#label> "Salesforce Pricing" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-pricing> <http://www.w3.org/2004/02/skos/core#altLabel> "Agentforce Revenue Management pricing" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-pricing> <http://www.w3.org/2004/02/skos/core#altLabel> "Revenue Cloud pricing engine" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-pricing> <http://www.w3.org/2004/02/skos/core#altLabel> "pricing procedures" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-pricing> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/revenue-cloud> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-pricing> <http://www.w3.org/2004/02/skos/core#definition> "The pricing engine of Agentforce Revenue Management that calculates line-item prices by running ordered pricing procedures of pricing elements over a context definition, with price adjustment methods, decision-table lookups and a price waterfall that explains each step." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-pricing> <http://www.w3.org/2004/02/skos/core#prefLabel> "Salesforce Pricing" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-pricing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/product-configurator> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-pricing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/sales-cloud> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-pricing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-pricing/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-pricing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-pricing/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-pricing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-pricing/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-pricing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-pricing/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-pricing> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-pricing> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#contrastsWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-cpq> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-pricing> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/context-service> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-pricing> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/decision-tables> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-pricing> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/price-books> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-pricing> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "clouds-and-products" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-pricing> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/connect-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-pricing> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-pricing> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-sharing-model> <http://purl.org/dc/terms/created> "2026-10-31" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-sharing-model> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-sharing-model> <http://www.w3.org/2000/01/rdf-schema#label> "Salesforce Sharing Model" .
@@ -10945,6 +10969,26 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-platform/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-platform/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "news" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-platform/s5> <https://schema.org/url> "https://www.salesforce.com/in/news/press-releases/2025/10/13/agentic-enterprise-announcement/" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-pricing/s1> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-pricing/s1> <http://purl.org/dc/terms/title> "Salesforce Pricing (Revenue Management Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-pricing/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-pricing/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-pricing/s1> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.revenue_lifecycle_management_dev_guide.meta/revenue_lifecycle_management_dev_guide/pricing_overview.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-pricing/s2> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-pricing/s2> <http://purl.org/dc/terms/title> "Salesforce Pricing Business APIs (Revenue Management Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-pricing/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-pricing/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-pricing/s2> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.revenue_lifecycle_management_dev_guide.meta/revenue_lifecycle_management_dev_guide/pricing_business_apis.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-pricing/s3> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-pricing/s3> <http://purl.org/dc/terms/title> "Create a Pricing Procedure with the List Price Element (Price Management with Agentforce Revenue Management)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-pricing/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-pricing/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-pricing/s3> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/price-management-with-revenue-cloud/create-a-pricing-procedure-with-the-list-price-element" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-pricing/s4> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-pricing/s4> <http://purl.org/dc/terms/title> "Configure Contract-Based Pricing (Advanced Price Management with Agentforce Revenue Management)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-pricing/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-pricing/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-pricing/s4> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/advanced-price-management-with-revenue-cloud/configure-contract-based-pricing" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-sharing-model/s1> <http://purl.org/dc/terms/publisher> "Salesforce" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-sharing-model/s1> <http://purl.org/dc/terms/title> "Understanding Sharing (Apex Developer Guide)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-sharing-model/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

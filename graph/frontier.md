@@ -4,13 +4,14 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:salesforce-pricing` | `kt:revenue-cloud`, `kt:salesforce-cpq`, `kt:salesforce-cpq` |
+| `kt:product-configurator` | `kt:revenue-cloud`, `kt:salesforce-cpq`, `kt:salesforce-pricing` |
+| `kt:connect-api` | `kt:salesforce-pricing`, `kt:data-cloud-segmentation` |
 | `kt:group-membership-locking` | `kt:enterprise-territory-management`, `kt:sharing-recalculation` |
 | `kt:invocable-actions-api` | `kt:autolaunched-flow`, `kt:subflows` |
 | `kt:nist-digital-identity-guidelines` | `kt:multi-factor-authentication`, `kt:password-policies` |
 | `kt:opportunity-teams` | `kt:opportunity-splits`, `kt:opportunity-splits` |
+| `kt:price-books` | `kt:salesforce-cpq`, `kt:salesforce-pricing` |
 | `kt:process-automation-settings` | `kt:flow-versioning`, `kt:schedule-triggered-flow` |
-| `kt:product-configurator` | `kt:revenue-cloud`, `kt:salesforce-cpq` |
 | `kt:public-groups` | `kt:queues`, `kt:sharing-rules` |
 | `kt:salesforce-analytics` | `kt:crm-analytics`, `kt:tableau` |
 | `kt:salesforce-apis` | `kt:bulk-api-2`, `kt:graphql-api` |
@@ -33,9 +34,9 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:business-rules-engine` | `kt:public-sector-solutions` |
 | `kt:change-data-capture-allocations` | `kt:change-data-capture` |
 | `kt:compact-layouts` | `kt:page-layouts` |
-| `kt:connect-api` | `kt:data-cloud-segmentation` |
 | `kt:contact-builder` | `kt:marketing-cloud-engagement` |
 | `kt:contacts-to-multiple-accounts` | `kt:person-accounts` |
+| `kt:context-service` | `kt:salesforce-pricing` |
 | `kt:custom-domains` | `kt:my-domain` |
 | `kt:custom-index-limits` | `kt:external-id-fields` |
 | `kt:custom-indexes` | `kt:skinny-tables` |
@@ -49,6 +50,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:data-quality` | `kt:duplicate-management` |
 | `kt:data-sovereignty` | `kt:data-residency` |
 | `kt:data-streams` | `kt:data-lake-objects` |
+| `kt:decision-tables` | `kt:salesforce-pricing` |
 | `kt:development-lifecycle-and-deployment-architect-certification` | `kt:system-architect-certification` |
 | `kt:digital-accessibility` | `kt:section-508-accessibility` |
 | `kt:dispatcher-console` | `kt:field-service` |
@@ -103,7 +105,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:platform-developer-ii-certification` | `kt:platform-developer-certification` |
 | `kt:platform-event-channel-member` | `kt:change-data-capture` |
 | `kt:presence-configuration` | `kt:omni-channel` |
-| `kt:price-books` | `kt:salesforce-cpq` |
 | `kt:process-integration` | `kt:data-integration` |
 | `kt:prompt-injection` | `kt:einstein-trust-layer` |
 | `kt:recursive-save` | `kt:order-of-execution` |

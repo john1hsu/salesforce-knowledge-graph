@@ -4731,6 +4731,87 @@
       ]
     },
     {
+      "@id": "kt:salesforce-pricing",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Salesforce Pricing",
+      "skos:definition": "The pricing engine of Agentforce Revenue Management that calculates line-item prices by running ordered pricing procedures of pricing elements over a context definition, with price adjustment methods, decision-table lookups and a price waterfall that explains each step.",
+      "kto:domain": "clouds-and-products",
+      "dcterms:created": "2026-11-09",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Salesforce Pricing (Revenue Management Developer Guide)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.revenue_lifecycle_management_dev_guide.meta/revenue_lifecycle_management_dev_guide/pricing_overview.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Salesforce Pricing Business APIs (Revenue Management Developer Guide)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.revenue_lifecycle_management_dev_guide.meta/revenue_lifecycle_management_dev_guide/pricing_business_apis.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Create a Pricing Procedure with the List Price Element (Price Management with Agentforce Revenue Management)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/price-management-with-revenue-cloud/create-a-pricing-procedure-with-the-list-price-element",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Configure Contract-Based Pricing (Advanced Price Management with Agentforce Revenue Management)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/advanced-price-management-with-revenue-cloud/configure-contract-based-pricing",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/clouds-and-products/salesforce-pricing.md",
+      "skos:altLabel": [
+        "Revenue Cloud pricing engine",
+        "pricing procedures",
+        "Agentforce Revenue Management pricing"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:revenue-cloud"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:product-configurator"
+        },
+        {
+          "@id": "kt:sales-cloud"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:price-books"
+        },
+        {
+          "@id": "kt:decision-tables"
+        },
+        {
+          "@id": "kt:context-service"
+        }
+      ],
+      "kto:queriedWith": [
+        {
+          "@id": "kt:connect-api"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:metadata-api"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:salesforce-cpq"
+        }
+      ]
+    },
+    {
       "@id": "kt:service-cloud",
       "@type": "kto:Product",
       "skos:prefLabel": "Service Cloud",
