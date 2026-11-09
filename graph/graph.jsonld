@@ -4996,6 +4996,95 @@
       ]
     },
     {
+      "@id": "kt:salesforce-industries",
+      "@type": "kto:Product",
+      "skos:prefLabel": "Salesforce Industries",
+      "skos:definition": "The family of industry-specific Salesforce clouds that grew out of the 2020 Vlocity acquisition, built on the Salesforce Platform with industry data models and a shared layer of common features such as Omnistudio, Context Service and Business Rules Engine.",
+      "kto:domain": "clouds-and-products",
+      "dcterms:created": "2026-11-09",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Get Started with Industries Common Developer Resources (Industries Common Resources Developer Guide)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.industries_reference.meta/industries_reference/salesforce_industries_dev_guide.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Vlocity: Powering the Future of Salesforce Industries",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/news/stories/vlocity-powering-the-future-of-salesforce-industries/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Introducing Salesforce Industries and OmniStudio for Architects",
+          "dcterms:publisher": "Salesforce Architects",
+          "schema:url": "https://medium.com/salesforce-architects/introducing-salesforce-industries-and-omnistudio-for-architects-d0063f4a6cb8",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Get to Know Omnistudio and Its Features (Omnistudio Development Essentials)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/omnistudio-development-essentials/get-to-know-omnistudio-and-its-features",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Migrate from Managed Package Runtime to the Omnistudio Standard Runtime",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2026/08/migrate-from-managed-package-runtime-to-the-omnistudio-standard-runtime",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Omnistudio (Industries Common Resources Developer Guide)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/industries/industries-common-dev/guide/omnistudio-overview.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/clouds-and-products/salesforce-industries.md",
+      "skos:altLabel": [
+        "Vlocity",
+        "Industry Clouds",
+        "Salesforce Industry Clouds",
+        "Industries clouds"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-platform"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:public-sector-solutions"
+        },
+        {
+          "@id": "kt:revenue-cloud"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:omnistudio"
+        },
+        {
+          "@id": "kt:context-service"
+        },
+        {
+          "@id": "kt:business-rules-engine"
+        }
+      ],
+      "kto:acquiredBy": [
+        {
+          "@id": "kt:salesforce-inc"
+        }
+      ],
+      "kto:queriedWith": [
+        {
+          "@id": "kt:connect-api"
+        }
+      ]
+    },
+    {
       "@id": "kt:salesforce-pricing",
       "@type": "kto:Feature",
       "skos:prefLabel": "Salesforce Pricing",

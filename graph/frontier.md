@@ -4,12 +4,11 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:connect-api` | `kt:business-rules-engine`, `kt:context-service`, `kt:product-configurator`, `kt:salesforce-pricing`, `kt:data-cloud-segmentation` |
-| `kt:salesforce-industries` | `kt:business-rules-engine`, `kt:context-service`, `kt:public-sector-solutions` |
+| `kt:connect-api` | `kt:business-rules-engine`, `kt:context-service`, `kt:product-configurator`, `kt:salesforce-industries`, `kt:salesforce-pricing`, `kt:data-cloud-segmentation` |
+| `kt:omnistudio` | `kt:business-rules-engine`, `kt:salesforce-industries`, `kt:public-sector-solutions` |
 | `kt:custom-index-limits` | `kt:external-id-fields`, `kt:custom-indexes` |
 | `kt:group-membership-locking` | `kt:enterprise-territory-management`, `kt:sharing-recalculation` |
 | `kt:invocable-actions-api` | `kt:autolaunched-flow`, `kt:subflows` |
-| `kt:omnistudio` | `kt:business-rules-engine`, `kt:public-sector-solutions` |
 | `kt:opportunity-teams` | `kt:opportunity-splits`, `kt:opportunity-splits` |
 | `kt:permission-set-licenses` | `kt:identity-connect`, `kt:permission-sets` |
 | `kt:price-books` | `kt:salesforce-cpq`, `kt:salesforce-pricing` |
