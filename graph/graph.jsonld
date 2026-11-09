@@ -6948,6 +6948,103 @@
       ]
     },
     {
+      "@id": "kt:dynamic-forms",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Dynamic Forms",
+      "skos:definition": "A Lightning App Builder capability that replaces the monolithic Record Detail component with individual Field and Field Section components, so record-page fields can be placed, made required or read-only, and shown or hidden by visibility rules without the page layout editor.",
+      "kto:domain": "data-model",
+      "dcterms:created": "2026-11-09",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Lightning App Builder: Get Started with Dynamic Forms",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/lightning_app_builder/get-started-with-dynamic-forms-lab",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Dynamic Forms Limitations",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=platform.dynamic_forms_limitations.htm&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Dynamic Forms Tips and Considerations",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=platform.dynamic_forms_considerations.htm&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Break Up Your Record Details with Dynamic Forms",
+          "dcterms:publisher": "Salesforce Admins Blog",
+          "schema:url": "https://admin.salesforce.com/blog/2019/break-up-your-record-details-with-dynamic-forms",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "3 Ways to Drive Productivity with Dynamic Forms",
+          "dcterms:publisher": "Salesforce Admins Blog",
+          "schema:url": "https://admin.salesforce.com/blog/2023/3-ways-to-drive-productivity-with-dynamic-forms",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/data-model/dynamic-forms.md",
+      "skos:altLabel": [
+        "Dynamic Forms for Lightning record pages",
+        "Field Section component",
+        "field sections",
+        "Dynamic Forms migration wizard"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:lightning-app-builder"
+        },
+        {
+          "@id": "kt:page-layouts"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:custom-fields"
+        },
+        {
+          "@id": "kt:record-types"
+        },
+        {
+          "@id": "kt:profiles"
+        },
+        {
+          "@id": "kt:field-level-security"
+        },
+        {
+          "@id": "kt:dynamic-actions"
+        },
+        {
+          "@id": "kt:dynamic-highlights-panel"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:page-layouts"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:lightning-web-components"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:field-level-security"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:platform-app-builder-certification"
+        }
+      ]
+    },
+    {
       "@id": "kt:external-id-fields",
       "@type": "kto:Feature",
       "skos:prefLabel": "External ID Fields",

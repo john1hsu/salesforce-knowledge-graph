@@ -4,7 +4,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:dynamic-forms` | `kt:custom-fields`, `kt:page-layouts`, `kt:lightning-app-builder` |
 | `kt:group-membership-locking` | `kt:enterprise-territory-management`, `kt:sharing-recalculation` |
 | `kt:integration-patterns-request-reply-fire-and-forget` | `kt:event-driven-architecture`, `kt:integration-patterns` |
 | `kt:invocable-actions-api` | `kt:autolaunched-flow`, `kt:subflows` |
@@ -53,6 +52,8 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:development-lifecycle-and-deployment-architect-certification` | `kt:system-architect-certification` |
 | `kt:digital-accessibility` | `kt:section-508-accessibility` |
 | `kt:dispatcher-console` | `kt:field-service` |
+| `kt:dynamic-actions` | `kt:dynamic-forms` |
+| `kt:dynamic-highlights-panel` | `kt:dynamic-forms` |
 | `kt:dynamic-revenue-orchestrator` | `kt:revenue-cloud` |
 | `kt:einstein-discovery` | `kt:crm-analytics` |
 | `kt:entitlement-process-metadata` | `kt:entitlement-management` |
