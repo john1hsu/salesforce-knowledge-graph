@@ -4,11 +4,12 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:connect-api` | `kt:product-configurator`, `kt:salesforce-pricing`, `kt:data-cloud-segmentation` |
-| `kt:business-rules-engine` | `kt:product-configurator`, `kt:public-sector-solutions` |
+| `kt:connect-api` | `kt:business-rules-engine`, `kt:product-configurator`, `kt:salesforce-pricing`, `kt:data-cloud-segmentation` |
+| `kt:context-service` | `kt:business-rules-engine`, `kt:salesforce-pricing` |
 | `kt:group-membership-locking` | `kt:enterprise-territory-management`, `kt:sharing-recalculation` |
 | `kt:invocable-actions-api` | `kt:autolaunched-flow`, `kt:subflows` |
 | `kt:nist-digital-identity-guidelines` | `kt:multi-factor-authentication`, `kt:password-policies` |
+| `kt:omnistudio` | `kt:business-rules-engine`, `kt:public-sector-solutions` |
 | `kt:opportunity-teams` | `kt:opportunity-splits`, `kt:opportunity-splits` |
 | `kt:permission-set-licenses` | `kt:identity-connect`, `kt:permission-sets` |
 | `kt:price-books` | `kt:salesforce-cpq`, `kt:salesforce-pricing` |
@@ -16,6 +17,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:public-groups` | `kt:queues`, `kt:sharing-rules` |
 | `kt:salesforce-analytics` | `kt:crm-analytics`, `kt:tableau` |
 | `kt:salesforce-apis` | `kt:bulk-api-2`, `kt:graphql-api` |
+| `kt:salesforce-industries` | `kt:business-rules-engine`, `kt:public-sector-solutions` |
 | `kt:sandbox-templates` | `kt:environment-strategy`, `kt:sandbox-types` |
 | `kt:scratch-org-allocations` | `kt:dev-hub`, `kt:scratch-orgs` |
 | `kt:soap-api` | `kt:external-id-fields`, `kt:rest-api` |
@@ -37,7 +39,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:constraint-modeling-language` | `kt:product-configurator` |
 | `kt:contact-builder` | `kt:marketing-cloud-engagement` |
 | `kt:contacts-to-multiple-accounts` | `kt:person-accounts` |
-| `kt:context-service` | `kt:salesforce-pricing` |
 | `kt:custom-domains` | `kt:my-domain` |
 | `kt:custom-index-limits` | `kt:external-id-fields` |
 | `kt:custom-indexes` | `kt:skinny-tables` |
@@ -94,7 +95,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:mutual-tls-authentication` | `kt:login-ip-ranges-and-trusted-ip-ranges` |
 | `kt:nist-sp-800-60` | `kt:fips-199` |
 | `kt:omni-channel-limits` | `kt:omni-channel` |
-| `kt:omnistudio` | `kt:public-sector-solutions` |
 | `kt:openid-connect` | `kt:openid-connect-authentication-providers` |
 | `kt:org-check` | `kt:technical-debt-in-salesforce` |
 | `kt:path` | `kt:business-processes` |
@@ -117,7 +117,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:salesforce-ecosystem-roles` | `kt:salesforce-architect` |
 | `kt:salesforce-go` | `kt:knowledge-base` |
 | `kt:salesforce-governance` | `kt:salesforce-center-of-excellence` |
-| `kt:salesforce-industries` | `kt:public-sector-solutions` |
 | `kt:salesforce-marketing-solutions` | `kt:marketing-cloud-engagement` |
 | `kt:salesforce-optimizer` | `kt:technical-debt-in-salesforce` |
 | `kt:salesforce-scim` | `kt:identity-connect` |

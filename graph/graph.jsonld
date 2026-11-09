@@ -1960,6 +1960,94 @@
       ]
     },
     {
+      "@id": "kt:business-rules-engine",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Business Rules Engine",
+      "skos:definition": "A Salesforce suite of services, components and objects for no-code decisioning: expression sets chain conditions, calculations, aggregations and lookups against decision matrices and decision tables, and return JSON results to Flow, Omniscripts or callers of its Connect REST resources.",
+      "kto:domain": "automation",
+      "dcterms:created": "2026-11-09",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Get to Know Business Rules Engine (Business Rules Engine module)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/business-rules-engine/get-to-know-business-rules-engine",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Orchestrate Rules with Expression Sets (Business Rules Engine module)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/business-rules-engine/orchestrate-rules-with-expression-sets",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Build Decisions with Lookup Tables (Business Rules Engine module)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/business-rules-engine/build-decisions-with-lookup-tables",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Business Rules Engine (Industries Common Resources Developer Guide)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.industries_reference.meta/industries_reference/business_rules_engine.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Expression Set Invocation (POST) (Public Sector Developer Guide)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.262.0.psc_api.meta/psc_api/connect_resources_bre_expression_set.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Flow for Expression Set (Public Sector Developer Guide)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.psc_api.meta/psc_api/expression_set_flow_metadata_api.htm",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/automation/business-rules-engine.md",
+      "skos:altLabel": [
+        "BRE",
+        "Salesforce Business Rules Engine",
+        "expression sets",
+        "Expression Set Builder",
+        "decision matrices"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:process-automation"
+        },
+        {
+          "@id": "kt:salesforce-industries"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:flow-builder"
+        },
+        {
+          "@id": "kt:product-configurator"
+        },
+        {
+          "@id": "kt:public-sector-solutions"
+        },
+        {
+          "@id": "kt:context-service"
+        }
+      ],
+      "kto:queriedWith": [
+        {
+          "@id": "kt:connect-api"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:omnistudio"
+        }
+      ]
+    },
+    {
       "@id": "kt:escalation-rules",
       "@type": "kto:Feature",
       "skos:prefLabel": "Escalation Rules",
