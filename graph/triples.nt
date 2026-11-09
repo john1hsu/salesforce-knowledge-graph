@@ -2733,6 +2733,32 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-and-access-management-architect-certification> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#partOf> <https://github.com/john1hsu/salesforce-knowledge-graph/id/system-architect-certification> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-and-access-management-architect-certification> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-and-access-management-architect-certification> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-connect> <http://purl.org/dc/terms/created> "2026-11-09" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-connect> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Product> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-connect> <http://www.w3.org/2000/01/rdf-schema#label> "Identity Connect" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-connect> <http://www.w3.org/2004/02/skos/core#altLabel> "Identity Connect for Active Directory" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-connect> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce Identity Connect" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-connect> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-identity> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-connect> <http://www.w3.org/2004/02/skos/core#definition> "An on-premises Salesforce Identity add-on that provisions, updates and deactivates Salesforce users from Microsoft Active Directory and can optionally provide single sign-on; Salesforce is retiring it at each customer's order end date and is not building a replacement." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-connect> <http://www.w3.org/2004/02/skos/core#prefLabel> "Identity Connect" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-connect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/delegated-authentication> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-connect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/just-in-time-provisioning> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-connect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/my-domain> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-connect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/single-sign-on-saml> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-connect> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-connect/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-connect> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-connect/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-connect> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-connect/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-connect> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-connect/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-connect> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-connect/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-connect> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#alternativeTo> <https://github.com/john1hsu/salesforce-knowledge-graph/id/just-in-time-provisioning> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-connect> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#coveredBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-and-access-management-architect-certification> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-connect> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/connected-apps> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-connect> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "identity" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-connect> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#governedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/api-request-limits> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-connect> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#replacedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-scim> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-connect> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#requiresLicense> <https://github.com/john1hsu/salesforce-knowledge-graph/id/permission-set-licenses> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-connect> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "deprecated" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-connect> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-resolution> <http://purl.org/dc/terms/created> "2026-11-03" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-resolution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-resolution> <http://www.w3.org/2000/01/rdf-schema#label> "Identity Resolution" .
@@ -8579,6 +8605,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-and-access-management-architect-certification/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-and-access-management-architect-certification/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-and-access-management-architect-certification/s6> <https://schema.org/url> "https://trailhead.salesforce.com/en/users/strailhead/trailmixes/architect-identity-and-access-management" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-connect/s1> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-connect/s1> <http://purl.org/dc/terms/title> "Identity Connect" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-connect/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-connect/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-connect/s1> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=sf.identityconnect_about.htm&language=en_US&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-connect/s2> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-connect/s2> <http://purl.org/dc/terms/title> "Get to Know Identity Connect" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-connect/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-connect/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-connect/s2> <https://schema.org/url> "https://trailhead.salesforce.com/modules/identity_connect/units/identity_connect_intro" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-connect/s3> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-connect/s3> <http://purl.org/dc/terms/title> "Consider Other Features (Identity Connect)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-connect/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-connect/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-connect/s3> <https://schema.org/url> "https://trailhead.salesforce.com/modules/identity_connect/units/identity_connect_other" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-connect/s4> <http://purl.org/dc/terms/publisher> "Salesforce Help (Knowledge Article 000390663)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-connect/s4> <http://purl.org/dc/terms/title> "Identity Connect Retirement" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-connect/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-connect/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-connect/s4> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=000390663&language=en_US&type=1" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-connect/s5> <http://purl.org/dc/terms/publisher> "Salesforce Help (Knowledge Article 000381744)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-connect/s5> <http://purl.org/dc/terms/title> "Salesforce Active Product & Feature Retirements" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-connect/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-connect/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-connect/s5> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=000381744&language=en_US&type=1" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-resolution/s1> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-resolution/s1> <http://purl.org/dc/terms/title> "Identity Resolution Terminology" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-resolution/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

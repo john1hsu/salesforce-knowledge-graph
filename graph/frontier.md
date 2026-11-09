@@ -10,6 +10,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:invocable-actions-api` | `kt:autolaunched-flow`, `kt:subflows` |
 | `kt:nist-digital-identity-guidelines` | `kt:multi-factor-authentication`, `kt:password-policies` |
 | `kt:opportunity-teams` | `kt:opportunity-splits`, `kt:opportunity-splits` |
+| `kt:permission-set-licenses` | `kt:identity-connect`, `kt:permission-sets` |
 | `kt:price-books` | `kt:salesforce-cpq`, `kt:salesforce-pricing` |
 | `kt:process-automation-settings` | `kt:flow-versioning`, `kt:schedule-triggered-flow` |
 | `kt:public-groups` | `kt:queues`, `kt:sharing-rules` |
@@ -51,6 +52,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:data-sovereignty` | `kt:data-residency` |
 | `kt:data-streams` | `kt:data-lake-objects` |
 | `kt:decision-tables` | `kt:salesforce-pricing` |
+| `kt:delegated-authentication` | `kt:identity-connect` |
 | `kt:development-lifecycle-and-deployment-architect-certification` | `kt:system-architect-certification` |
 | `kt:digital-accessibility` | `kt:section-508-accessibility` |
 | `kt:dispatcher-console` | `kt:field-service` |
@@ -74,7 +76,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:hitrust-csf` | `kt:nist-cybersecurity-framework` |
 | `kt:holidays` | `kt:business-hours` |
 | `kt:hyperforce-operating-zones` | `kt:data-residency` |
-| `kt:identity-connect` | `kt:salesforce-identity` |
 | `kt:iso-iec-27002` | `kt:iso-iec-27001` |
 | `kt:journey-builder` | `kt:marketing-cloud-engagement` |
 | `kt:legacy-named-credentials` | `kt:named-credentials` |
@@ -97,7 +98,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:openid-connect` | `kt:openid-connect-authentication-providers` |
 | `kt:org-check` | `kt:technical-debt-in-salesforce` |
 | `kt:path` | `kt:business-processes` |
-| `kt:permission-set-licenses` | `kt:permission-sets` |
 | `kt:platform-administrator-ii-certification` | `kt:platform-administrator-certification` |
 | `kt:platform-as-a-service` | `kt:salesforce-platform` |
 | `kt:platform-cache-partitions` | `kt:platform-cache` |
@@ -120,6 +120,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:salesforce-industries` | `kt:public-sector-solutions` |
 | `kt:salesforce-marketing-solutions` | `kt:marketing-cloud-engagement` |
 | `kt:salesforce-optimizer` | `kt:technical-debt-in-salesforce` |
+| `kt:salesforce-scim` | `kt:identity-connect` |
 | `kt:saml-2-0` | `kt:single-sign-on-saml` |
 | `kt:saql` | `kt:crm-analytics` |
 | `kt:scale-test` | `kt:testing-strategy` |
