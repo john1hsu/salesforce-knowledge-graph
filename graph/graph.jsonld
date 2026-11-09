@@ -2811,6 +2811,101 @@
       ]
     },
     {
+      "@id": "kt:process-automation-settings",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Process Automation Settings",
+      "skos:definition": "The org-wide Setup page that controls how flows and legacy processes behave in an org, including the Default Workflow User, the Automated Process User email address, whether flows can be deployed as active, and flow runtime and error-email options; in metadata it is the FlowSettings settings type.",
+      "kto:domain": "automation",
+      "dcterms:created": "2026-11-09",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Metadata API Developer Guide: FlowSettings",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_flowsettings.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Build Flows with Autolaunched and Scheduled Triggers: Schedule a Flow",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/autolaunched-scheduled-flows/schedule-a-flow",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Your Guide to Determining the Flow Running User and Its Execution Context",
+          "dcterms:publisher": "Salesforce Admins Blog",
+          "schema:url": "https://admin.salesforce.com/blog/2022/your-guide-to-determining-the-flow-running-user-and-its-execution-context",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Tooling API: FlowTestCoverage",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api_tooling.meta/api_tooling/tooling_api_objects_flowtestcoverage.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Workflow: Automating the Process (cheat sheet)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.salesforce_workflow_cheatsheet.meta/salesforce_workflow_cheatsheet/workflow_cheatsheet.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Jen's Top Winter '27 Release Features for Admins",
+          "dcterms:publisher": "Salesforce Admins Blog",
+          "schema:url": "https://admin.salesforce.com/blog/2026/jens-top-winter-27-release-features-for-admins",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/automation/process-automation-settings.md",
+      "skos:altLabel": [
+        "Process Automation Settings page",
+        "FlowSettings",
+        "Flow.settings",
+        "Default Workflow User setting"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:process-automation"
+        },
+        {
+          "@id": "kt:flow-builder"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:schedule-triggered-flow"
+        },
+        {
+          "@id": "kt:flow-versioning"
+        },
+        {
+          "@id": "kt:workflow-rules"
+        },
+        {
+          "@id": "kt:flow-fault-handling"
+        },
+        {
+          "@id": "kt:change-sets"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:metadata-api"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:apex-testing"
+        }
+      ],
+      "kto:enables": [
+        {
+          "@id": "kt:schedule-triggered-flow"
+        }
+      ]
+    },
+    {
       "@id": "kt:process-automation",
       "@type": "kto:Concept",
       "skos:prefLabel": "Process Automation",

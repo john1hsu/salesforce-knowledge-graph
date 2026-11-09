@@ -12,7 +12,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:opportunity-teams` | `kt:opportunity-splits`, `kt:opportunity-splits` |
 | `kt:permission-set-licenses` | `kt:identity-connect`, `kt:permission-sets` |
 | `kt:price-books` | `kt:salesforce-cpq`, `kt:salesforce-pricing` |
-| `kt:process-automation-settings` | `kt:flow-versioning`, `kt:schedule-triggered-flow` |
 | `kt:public-groups` | `kt:queues`, `kt:sharing-rules` |
 | `kt:salesforce-analytics` | `kt:crm-analytics`, `kt:tableau` |
 | `kt:salesforce-apis` | `kt:bulk-api-2`, `kt:graphql-api` |
