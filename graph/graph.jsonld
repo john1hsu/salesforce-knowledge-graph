@@ -17497,6 +17497,96 @@
       ]
     },
     {
+      "@id": "kt:nist-sp-800-53b",
+      "@type": "kto:ExternalConcept",
+      "skos:prefLabel": "NIST SP 800-53B",
+      "skos:definition": "NIST Special Publication 800-53B, the companion to SP 800-53 Rev. 5 that allocates catalog controls to Low, Moderate and High security baselines plus an impact-independent privacy baseline, and gives the tailoring and overlay guidance that turns a baseline into a system's control set; the starting point FedRAMP aligned its Rev. 5 baselines to when authorizing cloud services such as Salesforce Government Cloud Plus.",
+      "kto:domain": "public-sector-and-compliance",
+      "dcterms:created": "2026-11-09",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "SP 800-53B, Control Baselines for Information Systems and Organizations",
+          "dcterms:publisher": "NIST Computer Security Resource Center",
+          "schema:url": "https://csrc.nist.gov/pubs/sp/800/53/b/upd1/final",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "NIST SP 800-53B, Control Baselines for Information Systems and Organizations (PDF)",
+          "dcterms:publisher": "NIST",
+          "schema:url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53B.pdf",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "Control Baselines for Information Systems and Organizations: NIST Publishes SP 800-53B",
+          "dcterms:publisher": "NIST Computer Security Resource Center",
+          "schema:url": "https://csrc.nist.gov/news/2020/control-baselines-nist-publishes-sp-800-53b",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "Understanding Baselines and Impact Levels for FedRAMP Authorizations",
+          "dcterms:publisher": "FedRAMP (GSA)",
+          "schema:url": "https://www.fedramp.gov/rev5/baselines",
+          "kto:sourceType": "government"
+        },
+        {
+          "dcterms:title": "Rev. 5 Baselines Have Been Approved and Released",
+          "dcterms:publisher": "FedRAMP (GSA)",
+          "schema:url": "https://www.fedramp.gov/archive/2023-05-30-rev-5-baselines-have-been-approved-and-released/",
+          "kto:sourceType": "government"
+        },
+        {
+          "dcterms:title": "FedRAMP High - Salesforce Compliance Site",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://compliance.salesforce.com/en/categories/fedramp-high",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Access Government Cloud Compliance Documentation",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=ind.government_cloud_access_documentation.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/public-sector-and-compliance/nist-sp-800-53b.md",
+      "skos:altLabel": [
+        "NIST 800-53B",
+        "Control Baselines for Information Systems and Organizations",
+        "SP 800-53B control baselines",
+        "NIST control baselines"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:security-compliance-frameworks"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:fedramp"
+        },
+        {
+          "@id": "kt:fedramp-high"
+        },
+        {
+          "@id": "kt:government-cloud-plus"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:nist-sp-800-53"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:fips-199"
+        },
+        {
+          "@id": "kt:fips-200"
+        }
+      ]
+    },
+    {
       "@id": "kt:public-sector-solutions",
       "@type": "kto:Product",
       "skos:prefLabel": "Public Sector Solutions",
