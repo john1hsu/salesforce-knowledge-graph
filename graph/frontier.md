@@ -4,7 +4,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:remote-site-settings` | `kt:apex-callouts`, `kt:apex-continuations`, `kt:named-credentials` |
 | `kt:group-membership-locking` | `kt:enterprise-territory-management`, `kt:sharing-recalculation` |
 | `kt:invocable-actions-api` | `kt:autolaunched-flow`, `kt:subflows` |
 | `kt:nist-digital-identity-guidelines` | `kt:multi-factor-authentication`, `kt:password-policies` |

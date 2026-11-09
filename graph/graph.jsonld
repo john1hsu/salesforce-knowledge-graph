@@ -15042,6 +15042,85 @@
       ]
     },
     {
+      "@id": "kt:remote-site-settings",
+      "@type": "kto:SecurityControl",
+      "skos:prefLabel": "Remote Site Settings",
+      "skos:definition": "An org-level allowlist of external URLs that Apex callouts may reach; Salesforce blocks callouts to any address not registered there, unless the callout's endpoint is defined by a named credential.",
+      "kto:domain": "integration",
+      "dcterms:created": "2026-11-09",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Adding Remote Site Settings (Apex Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/api/apex_callouts_remote_site_settings.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "RemoteSiteSetting (Metadata API Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_remotesitesetting.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Named Credentials as Callout Endpoints (Apex Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/pages/apex_callouts_named_credentials.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Step 1: Configure a Remote Site (Salesforce CMS Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/cms/guide/cms-dev-step-1__configure-a-remote-site.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/integration/remote-site-settings.md",
+      "skos:altLabel": [
+        "remote site setting",
+        "remote site",
+        "RemoteSiteSetting",
+        "remote site allowlist"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:integration-security"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:apex-callouts"
+        },
+        {
+          "@id": "kt:apex-continuations"
+        },
+        {
+          "@id": "kt:metadata-api"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:named-credentials"
+        }
+      ],
+      "kto:usedBy": [
+        {
+          "@id": "kt:apex-callouts"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:metadata-api"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:integration-architect-certification"
+        }
+      ]
+    },
+    {
       "@id": "kt:rest-api",
       "@type": "kto:API",
       "skos:prefLabel": "REST API",

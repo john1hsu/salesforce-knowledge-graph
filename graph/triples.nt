@@ -4608,6 +4608,30 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/remote-call-in> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#partOf> <https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-patterns> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/remote-call-in> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/remote-call-in> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/remote-site-settings> <http://purl.org/dc/terms/created> "2026-11-09" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/remote-site-settings> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#SecurityControl> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/remote-site-settings> <http://www.w3.org/2000/01/rdf-schema#label> "Remote Site Settings" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/remote-site-settings> <http://www.w3.org/2004/02/skos/core#altLabel> "RemoteSiteSetting" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/remote-site-settings> <http://www.w3.org/2004/02/skos/core#altLabel> "remote site allowlist" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/remote-site-settings> <http://www.w3.org/2004/02/skos/core#altLabel> "remote site setting" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/remote-site-settings> <http://www.w3.org/2004/02/skos/core#altLabel> "remote site" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/remote-site-settings> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-security> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/remote-site-settings> <http://www.w3.org/2004/02/skos/core#definition> "An org-level allowlist of external URLs that Apex callouts may reach; Salesforce blocks callouts to any address not registered there, unless the callout's endpoint is defined by a named credential." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/remote-site-settings> <http://www.w3.org/2004/02/skos/core#prefLabel> "Remote Site Settings" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/remote-site-settings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-callouts> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/remote-site-settings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-continuations> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/remote-site-settings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/remote-site-settings> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/remote-site-settings/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/remote-site-settings> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/remote-site-settings/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/remote-site-settings> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/remote-site-settings/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/remote-site-settings> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/remote-site-settings/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/remote-site-settings> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#alternativeTo> <https://github.com/john1hsu/salesforce-knowledge-graph/id/named-credentials> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/remote-site-settings> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/remote-site-settings> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#coveredBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-architect-certification> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/remote-site-settings> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "integration" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/remote-site-settings> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/remote-site-settings> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#usedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-callouts> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/remote-site-settings> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/rest-api> <http://purl.org/dc/terms/created> "2026-11-04" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/rest-api> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#API> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/rest-api> <http://www.w3.org/2000/01/rdf-schema#label> "REST API" .
@@ -10332,6 +10356,26 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/remote-call-in/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/remote-call-in/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/remote-call-in/s3> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/apex_integration_services/apex_integration_webservices" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/remote-site-settings/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/remote-site-settings/s1> <http://purl.org/dc/terms/title> "Adding Remote Site Settings (Apex Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/remote-site-settings/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/remote-site-settings/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/remote-site-settings/s1> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/api/apex_callouts_remote_site_settings.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/remote-site-settings/s2> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/remote-site-settings/s2> <http://purl.org/dc/terms/title> "RemoteSiteSetting (Metadata API Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/remote-site-settings/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/remote-site-settings/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/remote-site-settings/s2> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_remotesitesetting.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/remote-site-settings/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/remote-site-settings/s3> <http://purl.org/dc/terms/title> "Named Credentials as Callout Endpoints (Apex Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/remote-site-settings/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/remote-site-settings/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/remote-site-settings/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/pages/apex_callouts_named_credentials.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/remote-site-settings/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/remote-site-settings/s4> <http://purl.org/dc/terms/title> "Step 1: Configure a Remote Site (Salesforce CMS Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/remote-site-settings/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/remote-site-settings/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/remote-site-settings/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/cms/guide/cms-dev-step-1__configure-a-remote-site.html" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/rest-api/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/rest-api/s1> <http://purl.org/dc/terms/title> "REST Resources and Requests (REST API Developer Guide)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/rest-api/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
