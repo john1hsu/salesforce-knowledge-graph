@@ -13906,6 +13906,98 @@
       ]
     },
     {
+      "@id": "kt:integration-patterns-request-reply-fire-and-forget",
+      "@type": "kto:Pattern",
+      "skos:prefLabel": "Remote Process Invocation (Request and Reply, Fire and Forget)",
+      "skos:definition": "The pair of outbound Salesforce integration patterns in which a Salesforce event starts a process in a remote system, either waiting synchronously for a reply (Request and Reply) or handing off without waiting (Fire and Forget).",
+      "kto:domain": "integration",
+      "dcterms:created": "2026-11-09",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Integration Patterns Overview",
+          "dcterms:publisher": "Salesforce Architects",
+          "schema:url": "https://architect.salesforce.com/fundamentals/integration-patterns",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Pattern Selection Guide (Integration Patterns and Practices)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.integration_patterns_and_practices.meta/integ/integ_pat_selection_guide.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Learn About Integration Patterns and Designs (Application Integration Patterns for Salesforce Lightning Platform)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/es/content/learn/modules/app-integration-patterns/app-integration-patterns-1",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Callout Limits and Limitations (Apex Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apex/apex_callouts_timeouts.htm",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/integration/integration-patterns-request-reply-fire-and-forget.md",
+      "skos:altLabel": [
+        "Remote Process Invocation",
+        "Request and Reply pattern",
+        "Fire and Forget pattern",
+        "RPI request-reply",
+        "RPI fire-and-forget"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:integration-patterns"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:event-driven-architecture"
+        },
+        {
+          "@id": "kt:outbound-messaging"
+        },
+        {
+          "@id": "kt:apex-continuations"
+        },
+        {
+          "@id": "kt:flow-fault-handling"
+        },
+        {
+          "@id": "kt:mulesoft-anypoint-platform"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:integration-patterns"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:apex-callouts"
+        },
+        {
+          "@id": "kt:named-credentials"
+        },
+        {
+          "@id": "kt:platform-events"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:remote-call-in"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:integration-architect-certification"
+        }
+      ]
+    },
+    {
       "@id": "kt:integration-patterns",
       "@type": "kto:Concept",
       "skos:prefLabel": "Integration Patterns",

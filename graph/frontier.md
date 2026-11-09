@@ -4,14 +4,14 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
+| `kt:remote-call-in` | `kt:batch-data-synchronization`, `kt:integration-patterns-request-reply-fire-and-forget`, `kt:integration-patterns` |
+| `kt:apex-continuations` | `kt:apex-callouts`, `kt:integration-patterns-request-reply-fire-and-forget` |
 | `kt:group-membership-locking` | `kt:enterprise-territory-management`, `kt:sharing-recalculation` |
-| `kt:integration-patterns-request-reply-fire-and-forget` | `kt:event-driven-architecture`, `kt:integration-patterns` |
 | `kt:invocable-actions-api` | `kt:autolaunched-flow`, `kt:subflows` |
 | `kt:nist-digital-identity-guidelines` | `kt:multi-factor-authentication`, `kt:password-policies` |
 | `kt:nist-sp-800-53b` | `kt:fips-200`, `kt:nist-sp-800-53` |
 | `kt:opportunity-teams` | `kt:opportunity-splits`, `kt:opportunity-splits` |
 | `kt:public-groups` | `kt:queues`, `kt:sharing-rules` |
-| `kt:remote-call-in` | `kt:batch-data-synchronization`, `kt:integration-patterns` |
 | `kt:remote-site-settings` | `kt:apex-callouts`, `kt:named-credentials` |
 | `kt:salesforce-analytics` | `kt:crm-analytics`, `kt:tableau` |
 | `kt:salesforce-apis` | `kt:bulk-api-2`, `kt:graphql-api` |
@@ -22,7 +22,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:user-interface-api` | `kt:lightning-data-service`, `kt:graphql-api` |
 | `kt:agentexchange` | `kt:appexchange-security-review` |
 | `kt:agentforce-data-library` | `kt:retrieval-augmented-generation-in-salesforce` |
-| `kt:apex-continuations` | `kt:apex-callouts` |
 | `kt:apex-flex-queue` | `kt:batch-apex` |
 | `kt:apex-mocks` | `kt:apex-enterprise-patterns` |
 | `kt:api-led-connectivity` | `kt:mulesoft-anypoint-platform` |
