@@ -9,7 +9,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:custom-index-limits` | `kt:external-id-fields`, `kt:custom-indexes` |
 | `kt:group-membership-locking` | `kt:enterprise-territory-management`, `kt:sharing-recalculation` |
 | `kt:invocable-actions-api` | `kt:autolaunched-flow`, `kt:subflows` |
-| `kt:nist-digital-identity-guidelines` | `kt:multi-factor-authentication`, `kt:password-policies` |
 | `kt:omnistudio` | `kt:business-rules-engine`, `kt:public-sector-solutions` |
 | `kt:opportunity-teams` | `kt:opportunity-splits`, `kt:opportunity-splits` |
 | `kt:permission-set-licenses` | `kt:identity-connect`, `kt:permission-sets` |

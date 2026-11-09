@@ -18557,6 +18557,91 @@
       ]
     },
     {
+      "@id": "kt:nist-digital-identity-guidelines",
+      "@type": "kto:ExternalConcept",
+      "skos:prefLabel": "NIST Digital Identity Guidelines",
+      "skos:definition": "NIST Special Publication 800-63, the US federal suite of guidelines for identity proofing, authentication and federation, which defines identity, authentication and federation assurance levels (IAL, AAL, FAL); Revision 4 (July 2025) is the benchmark Salesforce architects map MFA, session and SSO designs against.",
+      "kto:domain": "public-sector-and-compliance",
+      "dcterms:created": "2026-11-09",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "SP 800-63-4, Digital Identity Guidelines",
+          "dcterms:publisher": "NIST Computer Security Resource Center",
+          "schema:url": "https://csrc.nist.gov/pubs/sp/800/63/4/final",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "Digital Identity Guidelines Rev 4 slides",
+          "dcterms:publisher": "NIST",
+          "schema:url": "https://www.nist.gov/document/digital-identity-guidelines-rev-4-slides",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "SP 800-63B-4: Authentication Assurance Levels",
+          "dcterms:publisher": "NIST",
+          "schema:url": "https://pages.nist.gov/800-63-4/sp800-63b/aal",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "SP 800-63C-4: Federation and Assertions",
+          "dcterms:publisher": "NIST",
+          "schema:url": "https://pages.nist.gov/800-63-4/sp800-63c.html",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "Prepare Your Org for Salesforce MFA Enforcement",
+          "dcterms:publisher": "Salesforce Admins Blog",
+          "schema:url": "https://admin.salesforce.com/blog/2026/prepare-your-org-for-salesforce-mfa-enforcement",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "SessionLevel Enum (Apex Reference Guide)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_enum_Auth_SessionLevel.htm",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/public-sector-and-compliance/nist-digital-identity-guidelines.md",
+      "skos:altLabel": [
+        "NIST SP 800-63",
+        "SP 800-63-4",
+        "NIST 800-63",
+        "Digital Identity Guidelines",
+        "NIST SP 800-63 Revision 4"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:security-compliance-frameworks"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:multi-factor-authentication"
+        },
+        {
+          "@id": "kt:session-security-levels"
+        },
+        {
+          "@id": "kt:single-sign-on-saml"
+        },
+        {
+          "@id": "kt:fedramp"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:password-policies"
+        }
+      ],
+      "kto:mitigates": [
+        {
+          "@id": "kt:account-takeover"
+        }
+      ]
+    },
+    {
       "@id": "kt:nist-sp-800-53",
       "@type": "kto:ExternalConcept",
       "skos:prefLabel": "NIST SP 800-53",
