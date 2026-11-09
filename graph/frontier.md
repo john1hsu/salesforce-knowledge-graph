@@ -4,8 +4,8 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:connect-api` | `kt:business-rules-engine`, `kt:product-configurator`, `kt:salesforce-pricing`, `kt:data-cloud-segmentation` |
-| `kt:context-service` | `kt:business-rules-engine`, `kt:salesforce-pricing` |
+| `kt:connect-api` | `kt:business-rules-engine`, `kt:context-service`, `kt:product-configurator`, `kt:salesforce-pricing`, `kt:data-cloud-segmentation` |
+| `kt:salesforce-industries` | `kt:business-rules-engine`, `kt:context-service`, `kt:public-sector-solutions` |
 | `kt:custom-index-limits` | `kt:external-id-fields`, `kt:custom-indexes` |
 | `kt:group-membership-locking` | `kt:enterprise-territory-management`, `kt:sharing-recalculation` |
 | `kt:invocable-actions-api` | `kt:autolaunched-flow`, `kt:subflows` |
@@ -18,7 +18,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:public-groups` | `kt:queues`, `kt:sharing-rules` |
 | `kt:salesforce-analytics` | `kt:crm-analytics`, `kt:tableau` |
 | `kt:salesforce-apis` | `kt:bulk-api-2`, `kt:graphql-api` |
-| `kt:salesforce-industries` | `kt:business-rules-engine`, `kt:public-sector-solutions` |
 | `kt:sandbox-templates` | `kt:environment-strategy`, `kt:sandbox-types` |
 | `kt:scratch-org-allocations` | `kt:dev-hub`, `kt:scratch-orgs` |
 | `kt:soap-api` | `kt:external-id-fields`, `kt:rest-api` |

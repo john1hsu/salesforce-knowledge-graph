@@ -3429,6 +3429,99 @@
       ]
     },
     {
+      "@id": "kt:context-service",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Context Service",
+      "skos:definition": "A common Salesforce Industries capability that assembles the data a business process needs into one logical, in-memory model (a context instance built from a context definition of nodes, attributes, tags and mappings), so engines like Business Rules Engine and Salesforce Pricing can read and update it without repeated queries.",
+      "kto:domain": "clouds-and-products",
+      "dcterms:created": "2026-11-09",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Context Service Overview (Industries Common Resources Developer Guide)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.264.0.industries_reference.meta/industries_reference/context_service_overview.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Explore Context Service Components and Processes (Context Service Basics)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/context-service-basics/explore-context-service-components-and-processes",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Get to Know Context Service (Context Service Basics)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/es/content/learn/modules/context-service-basics/get-to-know-context-service",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Context Service Tooling API Objects (Industries Common Resources Developer Guide)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.262.0.industries_reference.meta/industries_reference/context_service_tooling_api_parent.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Context Definition (GET, POST) (Industries Common Resources Developer Guide)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.industries_reference.meta/industries_reference/connect_resources_context_definition.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Fetch Opportunity Data (Automated Compliance with Business Rules Engine and Context Service)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/automated-compliance-with-business-rules-engine-and-context-service/fetch-opportunity-data",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/clouds-and-products/context-service.md",
+      "skos:altLabel": [
+        "Industries Context Service",
+        "context definitions",
+        "Context Definition Designer"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-industries"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:data-model-objects"
+        },
+        {
+          "@id": "kt:revenue-cloud"
+        }
+      ],
+      "kto:usedBy": [
+        {
+          "@id": "kt:business-rules-engine"
+        },
+        {
+          "@id": "kt:salesforce-pricing"
+        }
+      ],
+      "kto:queriedWith": [
+        {
+          "@id": "kt:connect-api"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:tooling-api"
+        },
+        {
+          "@id": "kt:metadata-api"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:platform-events"
+        }
+      ]
+    },
+    {
       "@id": "kt:crm-analytics",
       "@type": "kto:Product",
       "skos:prefLabel": "CRM Analytics",
