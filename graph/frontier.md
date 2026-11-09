@@ -47,7 +47,6 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:data-loader` | `kt:bulk-api-2` |
 | `kt:data-quality` | `kt:duplicate-management` |
 | `kt:data-sovereignty` | `kt:data-residency` |
-| `kt:data-streams` | `kt:data-lake-objects` |
 | `kt:decision-tables` | `kt:salesforce-pricing` |
 | `kt:delegated-authentication` | `kt:identity-connect` |
 | `kt:development-lifecycle-and-deployment-architect-certification` | `kt:system-architect-certification` |
@@ -73,6 +72,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:hitrust-csf` | `kt:nist-cybersecurity-framework` |
 | `kt:holidays` | `kt:business-hours` |
 | `kt:hyperforce-operating-zones` | `kt:data-residency` |
+| `kt:ingestion-api` | `kt:data-streams` |
 | `kt:iso-iec-27002` | `kt:iso-iec-27001` |
 | `kt:journey-builder` | `kt:marketing-cloud-engagement` |
 | `kt:legacy-named-credentials` | `kt:named-credentials` |

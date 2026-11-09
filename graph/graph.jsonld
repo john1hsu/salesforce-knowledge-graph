@@ -6886,6 +6886,96 @@
       ]
     },
     {
+      "@id": "kt:data-streams",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Data Streams",
+      "skos:definition": "The ingestion pipeline of Data 360 (formerly Data Cloud): a configured feed from one source object, such as a CRM object, a website event or an external connector, that loads records on a refresh mode and schedule into a data lake object.",
+      "kto:domain": "data-cloud-and-ai",
+      "dcterms:created": "2026-11-09",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Create a Data Stream (Create a Data Stream in Data Cloud project)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/projects/create-a-data-stream-in-data-cloud/create-a-data-stream",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Create a ZoomInfo Data Stream",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/data/data-cloud-int/guide/c360-a-zoominfo-data-stream.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "DataStreamTemplate (Metadata API Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_datastreamtemplate.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Create a Web or Mobile App Data Stream",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/data/data-cloud-int/guide/c360-a-mobile-web-datastream.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Upsert Records (Ingestion API Reference)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/data/data-cloud-int/references/data-cloud-ingestionapi-ref/c360-a-api-insert-records.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/data-cloud-and-ai/data-streams.md",
+      "skos:altLabel": [
+        "data stream",
+        "Data 360 data streams",
+        "Data Cloud data streams",
+        "DataStreamTemplate"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:data-cloud"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:data-integration"
+        },
+        {
+          "@id": "kt:data-model-objects"
+        },
+        {
+          "@id": "kt:zero-copy-data-federation"
+        }
+      ],
+      "kto:enables": [
+        {
+          "@id": "kt:data-lake-objects"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:ingestion-api"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:metadata-api"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:data-cloud-limits"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:data-cloud-consultant-certification"
+        }
+      ]
+    },
+    {
       "@id": "kt:einstein-trust-layer",
       "@type": "kto:SecurityControl",
       "skos:prefLabel": "Einstein Trust Layer",

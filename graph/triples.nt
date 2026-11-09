@@ -1729,6 +1729,32 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-skew> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "data-model" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-skew> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-skew> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-streams> <http://purl.org/dc/terms/created> "2026-11-09" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-streams> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-streams> <http://www.w3.org/2000/01/rdf-schema#label> "Data Streams" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-streams> <http://www.w3.org/2004/02/skos/core#altLabel> "Data 360 data streams" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-streams> <http://www.w3.org/2004/02/skos/core#altLabel> "Data Cloud data streams" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-streams> <http://www.w3.org/2004/02/skos/core#altLabel> "DataStreamTemplate" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-streams> <http://www.w3.org/2004/02/skos/core#altLabel> "data stream" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-streams> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-streams> <http://www.w3.org/2004/02/skos/core#definition> "The ingestion pipeline of Data 360 (formerly Data Cloud): a configured feed from one source object, such as a CRM object, a website event or an external connector, that loads records on a refresh mode and schedule into a data lake object." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-streams> <http://www.w3.org/2004/02/skos/core#prefLabel> "Data Streams" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-streams> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-integration> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-streams> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-model-objects> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-streams> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/zero-copy-data-federation> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-streams> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-streams/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-streams> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-streams/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-streams> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-streams/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-streams> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-streams/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-streams> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-streams/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-streams> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-streams> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#coveredBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud-consultant-certification> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-streams> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "data-cloud-and-ai" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-streams> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#enables> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-lake-objects> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-streams> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#governedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud-limits> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-streams> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/ingestion-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-streams> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-streams> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-virtualization> <http://purl.org/dc/terms/created> "2026-11-05" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-virtualization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Pattern> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-virtualization> <http://www.w3.org/2000/01/rdf-schema#label> "Data Virtualization" .
@@ -7769,6 +7795,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-skew/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-skew/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-skew/s4> <https://schema.org/url> "https://developer.salesforce.com/blogs/engineering/2012/06/architect-salesforce-record-ownership-skew-for-peak-performance-in-large-data-volume-environments" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-streams/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-streams/s1> <http://purl.org/dc/terms/title> "Create a Data Stream (Create a Data Stream in Data Cloud project)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-streams/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-streams/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-streams/s1> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/projects/create-a-data-stream-in-data-cloud/create-a-data-stream" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-streams/s2> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-streams/s2> <http://purl.org/dc/terms/title> "Create a ZoomInfo Data Stream" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-streams/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-streams/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-streams/s2> <https://schema.org/url> "https://developer.salesforce.com/docs/data/data-cloud-int/guide/c360-a-zoominfo-data-stream.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-streams/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-streams/s3> <http://purl.org/dc/terms/title> "DataStreamTemplate (Metadata API Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-streams/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-streams/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-streams/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_datastreamtemplate.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-streams/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-streams/s4> <http://purl.org/dc/terms/title> "Create a Web or Mobile App Data Stream" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-streams/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-streams/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-streams/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/data/data-cloud-int/guide/c360-a-mobile-web-datastream.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-streams/s5> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-streams/s5> <http://purl.org/dc/terms/title> "Upsert Records (Ingestion API Reference)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-streams/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-streams/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-streams/s5> <https://schema.org/url> "https://developer.salesforce.com/docs/data/data-cloud-int/references/data-cloud-ingestionapi-ref/c360-a-api-insert-records.html" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-virtualization/s1> <http://purl.org/dc/terms/publisher> "Salesforce Architects" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-virtualization/s1> <http://purl.org/dc/terms/title> "Data Virtualization — Salesforce Architects" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-virtualization/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
