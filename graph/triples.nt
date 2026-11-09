@@ -5480,6 +5480,30 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-types> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#partOf> <https://github.com/john1hsu/salesforce-knowledge-graph/id/environment-strategy> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-types> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-types> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scale-test> <http://purl.org/dc/terms/created> "2026-11-09" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scale-test> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Product> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scale-test> <http://www.w3.org/2000/01/rdf-schema#label> "Scale Test" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scale-test> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce Scale Test" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scale-test> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce load testing" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scale-test> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce performance testing" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scale-test> <http://www.w3.org/2004/02/skos/core#altLabel> "Test Scheduler" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scale-test> <http://www.w3.org/2004/02/skos/core#altLabel> "scale testing" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scale-test> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/testing-strategy> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scale-test> <http://www.w3.org/2004/02/skos/core#definition> "A paid Salesforce add-on that lets teams run load tests at full production volume inside a Hyperforce Full Copy sandbox, with tools to plan tests from production traffic, book test slots, and compare performance results across runs." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scale-test> <http://www.w3.org/2004/02/skos/core#prefLabel> "Scale Test" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scale-test> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/large-data-volumes> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scale-test> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/record-locking> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scale-test> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-types> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scale-test> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/well-architected-framework> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scale-test> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scale-test/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scale-test> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scale-test/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scale-test> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scale-test/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scale-test> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/hyperforce> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scale-test> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "architecture-practice" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scale-test> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apexguru> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scale-test> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/scale-center> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scale-test> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scale-test> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/schedule-triggered-flow> <http://purl.org/dc/terms/created> "2026-11-05" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/schedule-triggered-flow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/schedule-triggered-flow> <http://www.w3.org/2000/01/rdf-schema#label> "Schedule-Triggered Flow" .
@@ -11512,6 +11536,21 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sandbox-types/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sandbox-types/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sandbox-types/s6> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/nonprofit-success-pack-maintenance/set-up-a-sandbox-in-your-salesforce-org" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scale-test/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scale-test/s1> <http://purl.org/dc/terms/title> "Plan, Schedule, and Run Scale Tests (Scale Test Quick Look)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scale-test/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scale-test/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scale-test/s1> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/scale-test-quick-look/plan-schedule-and-run-scale-tests" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scale-test/s2> <http://purl.org/dc/terms/publisher> "Salesforce Developers Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scale-test/s2> <http://purl.org/dc/terms/title> "Load Test on the Salesforce Platform Using Scalability Tools" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scale-test/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scale-test/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scale-test/s2> <https://schema.org/url> "https://developer.salesforce.com/blogs/2025/02/load-test-on-the-salesforce-platform-using-scalability-tools" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scale-test/s3> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scale-test/s3> <http://purl.org/dc/terms/title> "Application Scaling and Performance Testing (Scale Test)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scale-test/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scale-test/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scale-test/s3> <https://schema.org/url> "https://salesforce.com/platform/application-scaling-performance-testing" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/schedule-triggered-flow/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/schedule-triggered-flow/s1> <http://purl.org/dc/terms/title> "Autolaunched and Scheduled Flows: Schedule a Flow" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/schedule-triggered-flow/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

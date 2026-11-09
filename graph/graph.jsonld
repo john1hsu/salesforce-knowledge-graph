@@ -1190,6 +1190,78 @@
       ]
     },
     {
+      "@id": "kt:scale-test",
+      "@type": "kto:Product",
+      "skos:prefLabel": "Scale Test",
+      "skos:definition": "A paid Salesforce add-on that lets teams run load tests at full production volume inside a Hyperforce Full Copy sandbox, with tools to plan tests from production traffic, book test slots, and compare performance results across runs.",
+      "kto:domain": "architecture-practice",
+      "dcterms:created": "2026-11-09",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Plan, Schedule, and Run Scale Tests (Scale Test Quick Look)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/scale-test-quick-look/plan-schedule-and-run-scale-tests",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Load Test on the Salesforce Platform Using Scalability Tools",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2025/02/load-test-on-the-salesforce-platform-using-scalability-tools",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Application Scaling and Performance Testing (Scale Test)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://salesforce.com/platform/application-scaling-performance-testing",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/architecture-practice/scale-test.md",
+      "skos:altLabel": [
+        "Salesforce Scale Test",
+        "Salesforce load testing",
+        "Salesforce performance testing",
+        "scale testing",
+        "Test Scheduler"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:testing-strategy"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:sandbox-types"
+        },
+        {
+          "@id": "kt:large-data-volumes"
+        },
+        {
+          "@id": "kt:record-locking"
+        },
+        {
+          "@id": "kt:well-architected-framework"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:scale-center"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:hyperforce"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:apexguru"
+        }
+      ]
+    },
+    {
       "@id": "kt:solution-design-tradeoffs",
       "@type": "kto:Concept",
       "skos:prefLabel": "Solution Design Trade-offs",

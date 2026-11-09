@@ -26,6 +26,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:apex-flex-queue` | `kt:batch-apex` |
 | `kt:apex-mocks` | `kt:apex-enterprise-patterns` |
 | `kt:apex-rest-services` | `kt:remote-call-in` |
+| `kt:apexguru` | `kt:scale-test` |
 | `kt:api-led-connectivity` | `kt:mulesoft-anypoint-platform` |
 | `kt:automation-studio` | `kt:marketing-cloud-engagement` |
 | `kt:backup-and-recover` | `kt:archiving-strategy` |
@@ -118,7 +119,7 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 | `kt:salesforce-scim` | `kt:identity-connect` |
 | `kt:saml-2-0` | `kt:single-sign-on-saml` |
 | `kt:saql` | `kt:crm-analytics` |
-| `kt:scale-test` | `kt:testing-strategy` |
+| `kt:scale-center` | `kt:scale-test` |
 | `kt:scheduled-apex` | `kt:schedule-triggered-flow` |
 | `kt:schema-builder` | `kt:data-architecture` |
 | `kt:scoping-rules` | `kt:restriction-rules` |
