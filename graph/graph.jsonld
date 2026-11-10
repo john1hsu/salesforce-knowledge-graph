@@ -856,6 +856,98 @@
       ]
     },
     {
+      "@id": "kt:non-functional-requirements",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Non-Functional Requirements",
+      "skos:definition": "Requirements that state how well a Salesforce solution must behave (availability, latency, throughput, scalability, recoverability, security, usability) rather than what it does; architects express them as measurable targets and design, test and monitor against them within platform limits.",
+      "kto:domain": "architecture-practice",
+      "dcterms:created": "2026-11-10",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Eliciting and Specifying Quality Attribute Requirements",
+          "dcterms:publisher": "Software Engineering Institute, Carnegie Mellon University",
+          "schema:url": "https://apps.dtic.mil/sti/pdfs/ADA585655.pdf",
+          "kto:sourceType": "academic"
+        },
+        {
+          "dcterms:title": "ISO/IEC 25010:2023 — Product quality model",
+          "dcterms:publisher": "ISO/IEC JTC 1/SC 7",
+          "schema:url": "https://committee.iso.org/standard/78176.html",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "Reliability | Well-Architected Framework",
+          "dcterms:publisher": "Salesforce Architects",
+          "schema:url": "https://architect.salesforce.com/docs/architect/well-architected/guide/reliability.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Salesforce Well-Architected: Build Well-Architected Solutions",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/salesforce-well-architected/build-well-architected-solutions",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Salesforce Architecture Center — Well-Architected overview",
+          "dcterms:publisher": "Salesforce Architects",
+          "schema:url": "https://architect.salesforce.com/well-architected/overview",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/architecture-practice/non-functional-requirements.md",
+      "skos:altLabel": [
+        "NFRs",
+        "NFR",
+        "quality attribute requirements",
+        "quality requirements",
+        "quality attributes"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:requirements-engineering"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:well-architected-framework"
+        },
+        {
+          "@id": "kt:solution-design-tradeoffs"
+        },
+        {
+          "@id": "kt:architecture-decision-records"
+        },
+        {
+          "@id": "kt:scale-test"
+        },
+        {
+          "@id": "kt:testing-strategy"
+        }
+      ],
+      "kto:usedBy": [
+        {
+          "@id": "kt:salesforce-architect"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:governor-limits"
+        }
+      ],
+      "kto:implements": [
+        {
+          "@id": "kt:iso-iec-25010"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:event-monitoring"
+        }
+      ]
+    },
+    {
       "@id": "kt:salesforce-architect",
       "@type": "kto:Role",
       "skos:prefLabel": "Salesforce Architect",

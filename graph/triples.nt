@@ -4008,6 +4008,34 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-53b> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#partOf> <https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-53> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-53b> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-53b> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/non-functional-requirements> <http://purl.org/dc/terms/created> "2026-11-10" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/non-functional-requirements> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/non-functional-requirements> <http://www.w3.org/2000/01/rdf-schema#label> "Non-Functional Requirements" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/non-functional-requirements> <http://www.w3.org/2004/02/skos/core#altLabel> "NFR" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/non-functional-requirements> <http://www.w3.org/2004/02/skos/core#altLabel> "NFRs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/non-functional-requirements> <http://www.w3.org/2004/02/skos/core#altLabel> "quality attribute requirements" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/non-functional-requirements> <http://www.w3.org/2004/02/skos/core#altLabel> "quality attributes" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/non-functional-requirements> <http://www.w3.org/2004/02/skos/core#altLabel> "quality requirements" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/non-functional-requirements> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/requirements-engineering> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/non-functional-requirements> <http://www.w3.org/2004/02/skos/core#definition> "Requirements that state how well a Salesforce solution must behave (availability, latency, throughput, scalability, recoverability, security, usability) rather than what it does; architects express them as measurable targets and design, test and monitor against them within platform limits." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/non-functional-requirements> <http://www.w3.org/2004/02/skos/core#prefLabel> "Non-Functional Requirements" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/non-functional-requirements> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/architecture-decision-records> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/non-functional-requirements> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/scale-test> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/non-functional-requirements> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/solution-design-tradeoffs> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/non-functional-requirements> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/testing-strategy> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/non-functional-requirements> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/well-architected-framework> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/non-functional-requirements> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/non-functional-requirements/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/non-functional-requirements> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/non-functional-requirements/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/non-functional-requirements> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/non-functional-requirements/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/non-functional-requirements> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/non-functional-requirements/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/non-functional-requirements> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/non-functional-requirements/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/non-functional-requirements> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/event-monitoring> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/non-functional-requirements> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "architecture-practice" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/non-functional-requirements> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#governedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/governor-limits> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/non-functional-requirements> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#implements> <https://github.com/john1hsu/salesforce-knowledge-graph/id/iso-iec-25010> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/non-functional-requirements> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/non-functional-requirements> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#usedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-architect> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/non-functional-requirements> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-2-0> <http://purl.org/dc/terms/created> "2026-11-02" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-2-0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#ExternalConcept> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-2-0> <http://www.w3.org/2000/01/rdf-schema#label> "OAuth 2.0" .
@@ -10609,6 +10637,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-53b/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-53b/s7> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-53b/s7> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=ind.government_cloud_access_documentation.htm&language=en_US&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/non-functional-requirements/s1> <http://purl.org/dc/terms/publisher> "Software Engineering Institute, Carnegie Mellon University" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/non-functional-requirements/s1> <http://purl.org/dc/terms/title> "Eliciting and Specifying Quality Attribute Requirements" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/non-functional-requirements/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/non-functional-requirements/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/non-functional-requirements/s1> <https://schema.org/url> "https://apps.dtic.mil/sti/pdfs/ADA585655.pdf" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/non-functional-requirements/s2> <http://purl.org/dc/terms/publisher> "ISO/IEC JTC 1/SC 7" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/non-functional-requirements/s2> <http://purl.org/dc/terms/title> "ISO/IEC 25010:2023 — Product quality model" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/non-functional-requirements/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/non-functional-requirements/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "standards-body" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/non-functional-requirements/s2> <https://schema.org/url> "https://committee.iso.org/standard/78176.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/non-functional-requirements/s3> <http://purl.org/dc/terms/publisher> "Salesforce Architects" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/non-functional-requirements/s3> <http://purl.org/dc/terms/title> "Reliability | Well-Architected Framework" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/non-functional-requirements/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/non-functional-requirements/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/non-functional-requirements/s3> <https://schema.org/url> "https://architect.salesforce.com/docs/architect/well-architected/guide/reliability.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/non-functional-requirements/s4> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/non-functional-requirements/s4> <http://purl.org/dc/terms/title> "Salesforce Well-Architected: Build Well-Architected Solutions" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/non-functional-requirements/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/non-functional-requirements/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/non-functional-requirements/s4> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/salesforce-well-architected/build-well-architected-solutions" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/non-functional-requirements/s5> <http://purl.org/dc/terms/publisher> "Salesforce Architects" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/non-functional-requirements/s5> <http://purl.org/dc/terms/title> "Salesforce Architecture Center — Well-Architected overview" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/non-functional-requirements/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/non-functional-requirements/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/non-functional-requirements/s5> <https://schema.org/url> "https://architect.salesforce.com/well-architected/overview" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/oauth-2-0/s1> <http://purl.org/dc/terms/publisher> "IETF / RFC Editor" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/oauth-2-0/s1> <http://purl.org/dc/terms/title> "RFC 6749: The OAuth 2.0 Authorization Framework" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/oauth-2-0/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

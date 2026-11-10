@@ -117,10 +117,10 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:json-web-token` | `kt:openid-connect` |
 | `kt:agentforce-data-library` | `kt:retrieval-augmented-generation-in-salesforce` |
 | `kt:generative-ai` | `kt:retrieval-augmented-generation-in-salesforce` |
-| `kt:holidays` | `kt:business-hours` |
-| `kt:ingestion-api` | `kt:data-streams` |
 | `kt:apexguru` | `kt:scale-test` |
 | `kt:scale-center` | `kt:scale-test` |
+| `kt:holidays` | `kt:business-hours` |
+| `kt:ingestion-api` | `kt:data-streams` |
 | `kt:block-kit` | `kt:slack-platform` |
 | `kt:customer-360` | `kt:slack-platform` |
 | `kt:mulesoft-composer` | `kt:slack-platform` |
@@ -142,8 +142,10 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:salesforce-governance` | `kt:salesforce-center-of-excellence` |
 | `kt:mutual-tls-authentication` | `kt:login-ip-ranges-and-trusted-ip-ranges` |
 | `kt:business-architecture` | `kt:capability-maps` |
-| `kt:technology-roadmaps` | `kt:capability-maps` |
-| `kt:value-streams` | `kt:capability-maps` |
 | `kt:digital-accessibility` | `kt:section-508-accessibility` |
 | `kt:health-cloud` | `kt:hipaa` |
+| `kt:iso-iec-25010` | `kt:non-functional-requirements` |
+| `kt:requirements-engineering` | `kt:non-functional-requirements` |
+| `kt:technology-roadmaps` | `kt:capability-maps` |
+| `kt:value-streams` | `kt:capability-maps` |
 | `kt:wcag` | `kt:section-508-accessibility` |
