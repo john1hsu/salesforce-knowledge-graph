@@ -7,7 +7,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:connect-api` | `kt:business-rules-engine`, `kt:context-service`, `kt:data-cloud-segmentation`, `kt:product-configurator`, `kt:salesforce-industries`, `kt:salesforce-pricing` |
 | `kt:public-groups` | `kt:group-membership-locking`, `kt:queues`, `kt:sharing-rules` |
 | `kt:omnistudio` | `kt:business-rules-engine`, `kt:public-sector-solutions`, `kt:salesforce-industries` |
-| `kt:limits-class` | `kt:governor-limits`, `kt:limit-exception` |
+| `kt:bulkification` | `kt:limit-exception`, `kt:limits-class` |
 | `kt:soap-api` | `kt:external-id-fields`, `kt:rest-api` |
 | `kt:salesforce-apis` | `kt:bulk-api-2`, `kt:graphql-api` |
 | `kt:invocable-actions-api` | `kt:autolaunched-flow`, `kt:subflows` |
@@ -30,13 +30,15 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:lightning-web-security` | `kt:lightning-web-components` |
 | `kt:change-data-capture-allocations` | `kt:change-data-capture` |
 | `kt:platform-event-channel-member` | `kt:change-data-capture` |
+| `kt:apex-flex-queue` | `kt:batch-apex` |
 | `kt:custom-domains` | `kt:my-domain` |
 | `kt:government-cloud` | `kt:government-cloud-plus` |
 | `kt:external-identity-license` | `kt:experience-cloud-identity` |
-| `kt:apex-flex-queue` | `kt:batch-apex` |
 | `kt:org-check` | `kt:technical-debt-in-salesforce` |
 | `kt:salesforce-optimizer` | `kt:technical-debt-in-salesforce` |
+| `kt:orglimits-class` | `kt:limits-class` |
 | `kt:process-integration` | `kt:data-integration` |
+| `kt:transaction-finalizers` | `kt:queueable-apex` |
 | `kt:data-sovereignty` | `kt:data-residency` |
 | `kt:gdpr-international-transfers` | `kt:data-residency` |
 | `kt:hyperforce-operating-zones` | `kt:data-residency` |
@@ -45,45 +47,43 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:api-led-connectivity` | `kt:mulesoft-anypoint-platform` |
 | `kt:mule-runtime-engine` | `kt:mulesoft-anypoint-platform` |
 | `kt:salesforce-architecture-program` | `kt:salesforce-architecture-center` |
-| `kt:bulkification` | `kt:limit-exception` |
 | `kt:openid-connect` | `kt:openid-connect-authentication-providers` |
 | `kt:legacy-named-credentials` | `kt:named-credentials` |
 | `kt:managed-event-subscriptions` | `kt:pub-sub-api` |
 | `kt:streaming-api` | `kt:pub-sub-api` |
-| `kt:transaction-finalizers` | `kt:queueable-apex` |
 | `kt:upsert` | `kt:external-id-fields` |
 | `kt:platform-developer-ii-certification` | `kt:platform-developer-certification` |
-| `kt:scoping-rules` | `kt:restriction-rules` |
 | `kt:external-services` | `kt:apex-callouts` |
+| `kt:scoping-rules` | `kt:restriction-rules` |
 | `kt:backup-and-recover` | `kt:archiving-strategy` |
 | `kt:salesforce-archive` | `kt:archiving-strategy` |
 | `kt:streaming-insights` | `kt:calculated-insights` |
 | `kt:prompt-injection` | `kt:einstein-trust-layer` |
 | `kt:zero-copy-data-sharing` | `kt:zero-copy-data-federation` |
+| `kt:mixed-dml-error` | `kt:future-methods` |
 | `kt:data-categories` | `kt:knowledge-base` |
 | `kt:salesforce-go` | `kt:knowledge-base` |
-| `kt:mixed-dml-error` | `kt:future-methods` |
 | `kt:trailhead` | `kt:salesforce-certification-program` |
 | `kt:user-access-policies` | `kt:permission-sets` |
-| `kt:nist-sp-800-60` | `kt:fips-199` |
 | `kt:omni-channel-limits` | `kt:omni-channel` |
 | `kt:presence-configuration` | `kt:omni-channel` |
 | `kt:skills-based-routing` | `kt:omni-channel` |
+| `kt:nist-sp-800-60` | `kt:fips-199` |
 | `kt:lightning-message-service` | `kt:aura-components` |
 | `kt:contacts-to-multiple-accounts` | `kt:person-accounts` |
 | `kt:financial-services-cloud` | `kt:person-accounts` |
 | `kt:shared-responsibility-model` | `kt:data-breach-risk` |
 | `kt:compact-layouts` | `kt:page-layouts` |
 | `kt:platform-administrator-ii-certification` | `kt:platform-administrator-certification` |
-| `kt:custom-objects` | `kt:standard-objects` |
 | `kt:data-detect` | `kt:salesforce-shield` |
+| `kt:custom-objects` | `kt:standard-objects` |
 | `kt:entitlement-process-metadata` | `kt:entitlement-management` |
-| `kt:zero-trust-architecture` | `kt:principle-of-least-privilege` |
 | `kt:dispatcher-console` | `kt:field-service` |
 | `kt:field-service-mobile-app` | `kt:field-service` |
 | `kt:field-service-scheduling-policies` | `kt:field-service` |
 | `kt:service-appointments` | `kt:field-service` |
 | `kt:work-orders` | `kt:field-service` |
+| `kt:zero-trust-architecture` | `kt:principle-of-least-privilege` |
 | `kt:iso-iec-27002` | `kt:iso-iec-27001` |
 | `kt:dynamic-revenue-orchestrator` | `kt:revenue-cloud` |
 | `kt:revenue-management-consultant-certification` | `kt:revenue-cloud` |
@@ -97,10 +97,10 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:constraint-modeling-language` | `kt:product-configurator` |
 | `kt:product-catalog-management` | `kt:product-configurator` |
 | `kt:path` | `kt:business-processes` |
+| `kt:visualforce` | `kt:apex-continuations` |
 | `kt:decision-tables` | `kt:salesforce-pricing` |
 | `kt:delegated-authentication` | `kt:identity-connect` |
 | `kt:scim` | `kt:salesforce-scim` |
-| `kt:visualforce` | `kt:apex-continuations` |
 | `kt:salesforce-ecosystem` | `kt:salesforce-inc` |
 | `kt:apex-rest-services` | `kt:remote-call-in` |
 | `kt:einstein-discovery` | `kt:crm-analytics` |

@@ -10635,6 +10635,83 @@
       ]
     },
     {
+      "@id": "kt:limits-class",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Limits Class",
+      "skos:definition": "The Apex System.Limits class: static methods that report, at runtime, how much of each per-transaction governor limit the current transaction has consumed and what its maximum is, so code can adapt before it hits a LimitException.",
+      "kto:domain": "development",
+      "dcterms:created": "2026-11-10",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Apex Reference Guide: Limits Class",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_limits.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Apex Developer Guide: Execution Governors and Limits",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexref/apex_gov_limits.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Apex Reference Guide: OrgLimits Class",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexcode/apex_class_System_OrgLimits.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Apex Reference Guide: OrgLimit Class",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexcode/apex_class_System_OrgLimit.htm",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/development/limits-class.md",
+      "skos:altLabel": [
+        "System.Limits",
+        "Apex Limits class",
+        "Limits methods"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:apex"
+        },
+        {
+          "@id": "kt:governor-limits"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:limit-exception"
+        },
+        {
+          "@id": "kt:bulkification"
+        },
+        {
+          "@id": "kt:asynchronous-apex"
+        },
+        {
+          "@id": "kt:queueable-apex"
+        },
+        {
+          "@id": "kt:apex-testing"
+        }
+      ],
+      "kto:mitigates": [
+        {
+          "@id": "kt:limit-exception"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:orglimits-class"
+        }
+      ]
+    },
+    {
       "@id": "kt:platform-developer-certification",
       "@type": "kto:Certification",
       "skos:prefLabel": "Platform Developer Certification",
