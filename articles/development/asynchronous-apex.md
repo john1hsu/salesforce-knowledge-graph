@@ -10,7 +10,7 @@ summary: >-
 release: "Winter '27"
 status: current
 broader: [kt:apex]
-related: [kt:apex-triggers, kt:order-of-execution]
+related: [kt:apex-triggers, kt:order-of-execution, kt:scheduled-apex]
 relations:
   - {predicate: governedBy, object: kt:governor-limits}
   - {predicate: hasPart, object: kt:queueable-apex}

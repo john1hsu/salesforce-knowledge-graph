@@ -9833,6 +9833,9 @@
         },
         {
           "@id": "kt:order-of-execution"
+        },
+        {
+          "@id": "kt:scheduled-apex"
         }
       ],
       "kto:governedBy": [
@@ -10611,6 +10614,73 @@
       "kto:hasPart": [
         {
           "@id": "kt:transaction-finalizers"
+        }
+      ]
+    },
+    {
+      "@id": "kt:scheduled-apex",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Scheduled Apex",
+      "skos:definition": "The asynchronous Apex mode in which a class implementing the Schedulable interface is run by the Apex Scheduler at a set time or on a recurring cron-style schedule, registered with System.schedule or from the Scheduled Jobs page in Setup.",
+      "kto:domain": "development",
+      "dcterms:created": "2026-11-10",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Apex Developer Guide: Apex Scheduler",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_scheduler.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Apex Developer Guide: Use Batch Apex",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_batch_interface.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Trailhead: Schedule Jobs Using the Apex Scheduler",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/asynchronous_apex/async_apex_scheduled",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/development/scheduled-apex.md",
+      "skos:altLabel": [
+        "Apex Scheduler",
+        "Schedulable interface",
+        "System.schedule",
+        "Schedulable Apex",
+        "scheduled Apex jobs"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:asynchronous-apex"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:batch-apex"
+        },
+        {
+          "@id": "kt:queueable-apex"
+        },
+        {
+          "@id": "kt:apex-testing"
+        },
+        {
+          "@id": "kt:sandbox-types"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:governor-limits"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:schedule-triggered-flow"
         }
       ]
     },
