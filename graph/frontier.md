@@ -14,7 +14,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:user-interface-api` | `kt:graphql-api`, `kt:lightning-data-service` |
 | `kt:salesforce-analytics` | `kt:crm-analytics`, `kt:tableau` |
 | `kt:price-books` | `kt:salesforce-cpq`, `kt:salesforce-pricing` |
-| `kt:data-quality` | `kt:duplicate-management`, `kt:validation-rules` |
 | `kt:platform-as-a-service` | `kt:salesforce-platform` |
 | `kt:test-data-factory` | `kt:apex-testing` |
 | `kt:recursive-save` | `kt:order-of-execution` |
@@ -43,9 +42,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:gdpr-international-transfers` | `kt:data-residency` |
 | `kt:hyperforce-operating-zones` | `kt:data-residency` |
 | `kt:development-lifecycle-and-deployment-architect-certification` | `kt:system-architect-certification` |
-| `kt:governance-risk-and-compliance` | `kt:security-compliance-frameworks` |
 | `kt:api-led-connectivity` | `kt:mulesoft-anypoint-platform` |
 | `kt:mule-runtime-engine` | `kt:mulesoft-anypoint-platform` |
+| `kt:governance-risk-and-compliance` | `kt:security-compliance-frameworks` |
 | `kt:salesforce-architecture-program` | `kt:salesforce-architecture-center` |
 | `kt:openid-connect` | `kt:openid-connect-authentication-providers` |
 | `kt:legacy-named-credentials` | `kt:named-credentials` |
@@ -106,9 +105,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:data-cloud-activation` | `kt:data-cloud-segmentation` |
 | `kt:data-graphs` | `kt:data-cloud-segmentation` |
 | `kt:apex-rest-services` | `kt:remote-call-in` |
-| `kt:apex-mocks` | `kt:apex-enterprise-patterns` |
 | `kt:einstein-discovery` | `kt:crm-analytics` |
 | `kt:saql` | `kt:crm-analytics` |
+| `kt:apex-mocks` | `kt:apex-enterprise-patterns` |
 | `kt:dynamic-soql` | `kt:soql-injection` |
 | `kt:heroku` | `kt:salesforce-cpq` |
 | `kt:dynamic-actions` | `kt:dynamic-forms` |
@@ -134,8 +133,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:marketing-cloud-next` | `kt:marketing-cloud-engagement` |
 | `kt:salesforce-marketing-solutions` | `kt:marketing-cloud-engagement` |
 | `kt:flow-limits` | `kt:flow-versioning` |
-| `kt:platform-cache-partitions` | `kt:platform-cache` |
 | `kt:custom-permissions` | `kt:validation-rules` |
+| `kt:data-governance` | `kt:data-quality` |
+| `kt:platform-cache-partitions` | `kt:platform-cache` |
 | `kt:salesforce-governance` | `kt:salesforce-center-of-excellence` |
 | `kt:mutual-tls-authentication` | `kt:login-ip-ranges-and-trusted-ip-ranges` |
 | `kt:authority-to-operate` | `kt:fisma` |

@@ -1763,6 +1763,34 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-model-objects> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#enables> <https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-resolution> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-model-objects> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-model-objects> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-quality> <http://purl.org/dc/terms/created> "2026-11-10" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-quality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-quality> <http://www.w3.org/2000/01/rdf-schema#label> "Data Quality" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-quality> <http://www.w3.org/2004/02/skos/core#altLabel> "CRM data quality" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-quality> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce data quality" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-quality> <http://www.w3.org/2004/02/skos/core#altLabel> "data hygiene" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-quality> <http://www.w3.org/2004/02/skos/core#altLabel> "data quality dimensions" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-quality> <http://www.w3.org/2004/02/skos/core#altLabel> "data quality management" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-quality> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-architecture> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-quality> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-governance> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-quality> <http://www.w3.org/2004/02/skos/core#definition> "The degree to which Salesforce records are fresh, complete, accurate, consistent, unduplicated and actually used; managed through a plan of standards, platform controls (required fields, validation rules, picklists, duplicate management) and ongoing monitoring by data stewards." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-quality> <http://www.w3.org/2004/02/skos/core#prefLabel> "Data Quality" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-quality> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-migration-strategy> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-quality> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/duplicate-management> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-quality> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/field-history-tracking> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-quality> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/validation-rules> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-quality> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-quality/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-quality> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-quality/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-quality> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-quality/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-quality> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-quality/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-quality> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-quality/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-quality> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-quality/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-quality> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-quality/s7> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-quality> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#coveredBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-data-architect-certification> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-quality> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "data-model" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-quality> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#enables> <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-quality> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-quality> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-residency> <http://purl.org/dc/terms/created> "2026-11-02" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-residency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-residency> <http://www.w3.org/2000/01/rdf-schema#label> "Data Residency" .
@@ -8209,6 +8237,41 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-model-objects/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-model-objects/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-model-objects/s6> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/customer-360-audiences-data-ingestion-and-modeling/map-your-data-and-define-the-data-model" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-quality/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-quality/s1> <http://purl.org/dc/terms/title> "Get Started with Data Quality (Data Quality module)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-quality/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-quality/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-quality/s1> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/data_quality/data_quality_getting_started" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-quality/s2> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-quality/s2> <http://purl.org/dc/terms/title> "Assess the Quality of Data (Data Quality module)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-quality/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-quality/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-quality/s2> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/data_quality/data_quality_assess_your_data" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-quality/s3> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-quality/s3> <http://purl.org/dc/terms/title> "Improve Data Quality (Data Quality module)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-quality/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-quality/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-quality/s3> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/data_quality/data_quality_improve_quality" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-quality/s4> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-quality/s4> <http://purl.org/dc/terms/title> "Monitor Data Quality Through Governance and Stewardship (Data Monitoring Fundamentals)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-quality/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-quality/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-quality/s4> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/data-monitoring-fundamentals/monitor-data-quality-through-governance-and-stewardship" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-quality/s5> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-quality/s5> <http://purl.org/dc/terms/title> "Understand Salesforce Capabilities for Reliable Data Readiness (AI Data Readiness Assessment Fundamentals)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-quality/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-quality/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-quality/s5> <https://schema.org/url> "https://trailhead.salesforce.com/fr/content/learn/modules/ai-data-readiness-assessment-fundamentals/understand-salesforce-capabilities-for-reliable-data-readiness" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-quality/s6> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-quality/s6> <http://purl.org/dc/terms/title> "Salesforce Certified Platform Data Architect Exam Guide" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-quality/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-quality/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-quality/s6> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=005298972&type=1&language=en_US" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-quality/s7> <http://purl.org/dc/terms/publisher> "Salesforce Admins Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-quality/s7> <http://purl.org/dc/terms/title> "Why Effective Data Stewardship Gives You a Competitive Edge" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-quality/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-quality/s7> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-quality/s7> <https://schema.org/url> "https://admin.salesforce.com/blog/2019/why-effective-data-stewardship-gives-you-a-competitive-edge" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-residency/s1> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-residency/s1> <http://purl.org/dc/terms/title> "Hyperforce Data Residency" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-residency/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

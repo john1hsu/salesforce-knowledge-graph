@@ -7899,6 +7899,100 @@
       ]
     },
     {
+      "@id": "kt:data-quality",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Data Quality",
+      "skos:definition": "The degree to which Salesforce records are fresh, complete, accurate, consistent, unduplicated and actually used; managed through a plan of standards, platform controls (required fields, validation rules, picklists, duplicate management) and ongoing monitoring by data stewards.",
+      "kto:domain": "data-model",
+      "dcterms:created": "2026-11-10",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Get Started with Data Quality (Data Quality module)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/data_quality/data_quality_getting_started",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Assess the Quality of Data (Data Quality module)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/data_quality/data_quality_assess_your_data",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Improve Data Quality (Data Quality module)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/data_quality/data_quality_improve_quality",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Monitor Data Quality Through Governance and Stewardship (Data Monitoring Fundamentals)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/data-monitoring-fundamentals/monitor-data-quality-through-governance-and-stewardship",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Understand Salesforce Capabilities for Reliable Data Readiness (AI Data Readiness Assessment Fundamentals)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/fr/content/learn/modules/ai-data-readiness-assessment-fundamentals/understand-salesforce-capabilities-for-reliable-data-readiness",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Salesforce Certified Platform Data Architect Exam Guide",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=005298972&type=1&language=en_US",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Why Effective Data Stewardship Gives You a Competitive Edge",
+          "dcterms:publisher": "Salesforce Admins Blog",
+          "schema:url": "https://admin.salesforce.com/blog/2019/why-effective-data-stewardship-gives-you-a-competitive-edge",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/data-model/data-quality.md",
+      "skos:altLabel": [
+        "Salesforce data quality",
+        "data quality management",
+        "data hygiene",
+        "CRM data quality",
+        "data quality dimensions"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:data-architecture"
+        },
+        {
+          "@id": "kt:data-governance"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:duplicate-management"
+        },
+        {
+          "@id": "kt:validation-rules"
+        },
+        {
+          "@id": "kt:field-history-tracking"
+        },
+        {
+          "@id": "kt:data-migration-strategy"
+        }
+      ],
+      "kto:enables": [
+        {
+          "@id": "kt:agentforce"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:platform-data-architect-certification"
+        }
+      ]
+    },
+    {
       "@id": "kt:data-skew",
       "@type": "kto:AntiPattern",
       "skos:prefLabel": "Data Skew",
