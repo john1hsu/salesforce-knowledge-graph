@@ -6,13 +6,12 @@ Nodes referenced by existing articles but not yet written, ranked by how many ar
 |---|---|
 | `kt:connect-api` | `kt:business-rules-engine`, `kt:context-service`, `kt:product-configurator`, `kt:salesforce-industries`, `kt:salesforce-pricing`, `kt:data-cloud-segmentation` |
 | `kt:omnistudio` | `kt:business-rules-engine`, `kt:salesforce-industries`, `kt:public-sector-solutions` |
+| `kt:public-groups` | `kt:group-membership-locking`, `kt:queues`, `kt:sharing-rules` |
 | `kt:custom-index-limits` | `kt:external-id-fields`, `kt:custom-indexes` |
-| `kt:group-membership-locking` | `kt:enterprise-territory-management`, `kt:sharing-recalculation` |
 | `kt:invocable-actions-api` | `kt:autolaunched-flow`, `kt:subflows` |
 | `kt:opportunity-teams` | `kt:opportunity-splits`, `kt:opportunity-splits` |
 | `kt:permission-set-licenses` | `kt:identity-connect`, `kt:permission-sets` |
 | `kt:price-books` | `kt:salesforce-cpq`, `kt:salesforce-pricing` |
-| `kt:public-groups` | `kt:queues`, `kt:sharing-rules` |
 | `kt:salesforce-analytics` | `kt:crm-analytics`, `kt:tableau` |
 | `kt:salesforce-apis` | `kt:bulk-api-2`, `kt:graphql-api` |
 | `kt:scratch-org-allocations` | `kt:dev-hub`, `kt:scratch-orgs` |

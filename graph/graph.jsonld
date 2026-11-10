@@ -16746,6 +16746,91 @@
       ]
     },
     {
+      "@id": "kt:group-membership-locking",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Group Membership Locking",
+      "skos:definition": "The org-wide lock Salesforce takes on its group membership tables while roles, territories, public groups, queues or user role assignments change, so that sharing data stays consistent; conflicting operations wait and then fail, and granular locking lets unrelated operations run in parallel.",
+      "kto:domain": "platform-architecture",
+      "dcterms:created": "2026-11-10",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Group Membership Locking (Designing Record Access for Enterprise Scale)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/draes/guide/draes-group-membership-locking.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Group Membership Operation Already in Progress: Managing Group Membership Locks for Success",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2012/09/group-membership-operation-already-in-progress-managing-group-membership-locks-for-success",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Salesforce Group Membership and Sharing for Peak Performance",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2013/01/salesforce-group-membership-sharing-for-peak-performance",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Force.com Record Locking Cheatsheet",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2014/07/record-locking-cheat-sheet",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Deferred Sharing Calculations (Designing Record Access for Enterprise Scale)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/draes/guide/draes-tools-deferred-sharing-maintenance.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/platform-architecture/group-membership-locking.md",
+      "skos:altLabel": [
+        "group membership lock",
+        "granular locking",
+        "Group membership operation already in progress",
+        "could not acquire lock",
+        "org-wide group membership lock"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:record-locking"
+        },
+        {
+          "@id": "kt:salesforce-sharing-model"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:role-hierarchy"
+        },
+        {
+          "@id": "kt:enterprise-territory-management"
+        },
+        {
+          "@id": "kt:public-groups"
+        },
+        {
+          "@id": "kt:queues"
+        },
+        {
+          "@id": "kt:large-data-volumes"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:sharing-recalculation"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:sharing-and-visibility-architect-certification"
+        }
+      ]
+    },
+    {
       "@id": "kt:hyperforce",
       "@type": "kto:Product",
       "skos:prefLabel": "Hyperforce",
@@ -17724,6 +17809,9 @@
         },
         {
           "@id": "kt:bulk-api-2"
+        },
+        {
+          "@id": "kt:group-membership-locking"
         }
       ],
       "kto:queriedWith": [

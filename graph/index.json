@@ -2438,6 +2438,30 @@
     ]
   },
   {
+    "id": "kt:group-membership-locking",
+    "title": "Group Membership Locking",
+    "aliases": [
+      "group membership lock",
+      "granular locking",
+      "Group membership operation already in progress",
+      "could not acquire lock",
+      "org-wide group membership lock"
+    ],
+    "type": "Concept",
+    "domain": "platform-architecture",
+    "file": "articles/platform-architecture/group-membership-locking.md",
+    "created": "2026-11-10",
+    "release": "Winter '27",
+    "status": "current",
+    "source_urls": [
+      "https://developer.salesforce.com/docs/platform/draes/guide/draes-group-membership-locking.html",
+      "https://developer.salesforce.com/blogs/2012/09/group-membership-operation-already-in-progress-managing-group-membership-locks-for-success",
+      "https://developer.salesforce.com/blogs/2013/01/salesforce-group-membership-sharing-for-peak-performance",
+      "https://developer.salesforce.com/blogs/2014/07/record-locking-cheat-sheet",
+      "https://developer.salesforce.com/docs/platform/draes/guide/draes-tools-deferred-sharing-maintenance.html"
+    ]
+  },
+  {
     "id": "kt:headless-identity",
     "title": "Headless Identity",
     "aliases": [

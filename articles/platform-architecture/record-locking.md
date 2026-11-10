@@ -11,7 +11,7 @@ summary: >-
 release: "Winter '27"
 status: current
 broader: [kt:transaction-control, kt:salesforce-platform]
-related: [kt:data-skew, kt:roll-up-summary-field, kt:lookup-vs-master-detail, kt:bulk-api-2]
+related: [kt:data-skew, kt:roll-up-summary-field, kt:lookup-vs-master-detail, kt:bulk-api-2, kt:group-membership-locking]
 relations:
   - {predicate: queriedWith, object: kt:soql}
 sources:

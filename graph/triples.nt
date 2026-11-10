@@ -2771,6 +2771,33 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/graphql-api> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/graphql-api> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#usedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-web-components> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/graphql-api> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/group-membership-locking> <http://purl.org/dc/terms/created> "2026-11-10" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/group-membership-locking> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/group-membership-locking> <http://www.w3.org/2000/01/rdf-schema#label> "Group Membership Locking" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/group-membership-locking> <http://www.w3.org/2004/02/skos/core#altLabel> "Group membership operation already in progress" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/group-membership-locking> <http://www.w3.org/2004/02/skos/core#altLabel> "could not acquire lock" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/group-membership-locking> <http://www.w3.org/2004/02/skos/core#altLabel> "granular locking" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/group-membership-locking> <http://www.w3.org/2004/02/skos/core#altLabel> "group membership lock" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/group-membership-locking> <http://www.w3.org/2004/02/skos/core#altLabel> "org-wide group membership lock" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/group-membership-locking> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/record-locking> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/group-membership-locking> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-sharing-model> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/group-membership-locking> <http://www.w3.org/2004/02/skos/core#definition> "The org-wide lock Salesforce takes on its group membership tables while roles, territories, public groups, queues or user role assignments change, so that sharing data stays consistent; conflicting operations wait and then fail, and granular locking lets unrelated operations run in parallel." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/group-membership-locking> <http://www.w3.org/2004/02/skos/core#prefLabel> "Group Membership Locking" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/group-membership-locking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/enterprise-territory-management> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/group-membership-locking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/large-data-volumes> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/group-membership-locking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/public-groups> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/group-membership-locking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/queues> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/group-membership-locking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/role-hierarchy> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/group-membership-locking> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/group-membership-locking/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/group-membership-locking> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/group-membership-locking/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/group-membership-locking> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/group-membership-locking/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/group-membership-locking> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/group-membership-locking/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/group-membership-locking> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/group-membership-locking/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/group-membership-locking> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#coveredBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-and-visibility-architect-certification> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/group-membership-locking> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-recalculation> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/group-membership-locking> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "platform-architecture" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/group-membership-locking> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/group-membership-locking> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/headless-identity> <http://purl.org/dc/terms/created> "2026-11-06" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/headless-identity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/headless-identity> <http://www.w3.org/2000/01/rdf-schema#label> "Headless Identity" .
@@ -4784,6 +4811,7 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/record-locking> <http://www.w3.org/2004/02/skos/core#prefLabel> "Record Locking" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/record-locking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/bulk-api-2> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/record-locking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-skew> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/record-locking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/group-membership-locking> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/record-locking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/lookup-vs-master-detail> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/record-locking> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/roll-up-summary-field> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/record-locking> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/record-locking/s1> .
@@ -8919,6 +8947,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/graphql-api/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/graphql-api/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/graphql-api/s5> <https://schema.org/url> "https://developer.salesforce.com/blogs/2026/05/graphql-mutations-now-available-in-lwc-create-update-and-delete-records" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/group-membership-locking/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/group-membership-locking/s1> <http://purl.org/dc/terms/title> "Group Membership Locking (Designing Record Access for Enterprise Scale)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/group-membership-locking/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/group-membership-locking/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/group-membership-locking/s1> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/draes/guide/draes-group-membership-locking.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/group-membership-locking/s2> <http://purl.org/dc/terms/publisher> "Salesforce Developers Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/group-membership-locking/s2> <http://purl.org/dc/terms/title> "Group Membership Operation Already in Progress: Managing Group Membership Locks for Success" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/group-membership-locking/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/group-membership-locking/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/group-membership-locking/s2> <https://schema.org/url> "https://developer.salesforce.com/blogs/2012/09/group-membership-operation-already-in-progress-managing-group-membership-locks-for-success" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/group-membership-locking/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/group-membership-locking/s3> <http://purl.org/dc/terms/title> "Salesforce Group Membership and Sharing for Peak Performance" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/group-membership-locking/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/group-membership-locking/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/group-membership-locking/s3> <https://schema.org/url> "https://developer.salesforce.com/blogs/2013/01/salesforce-group-membership-sharing-for-peak-performance" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/group-membership-locking/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/group-membership-locking/s4> <http://purl.org/dc/terms/title> "Force.com Record Locking Cheatsheet" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/group-membership-locking/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/group-membership-locking/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/group-membership-locking/s4> <https://schema.org/url> "https://developer.salesforce.com/blogs/2014/07/record-locking-cheat-sheet" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/group-membership-locking/s5> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/group-membership-locking/s5> <http://purl.org/dc/terms/title> "Deferred Sharing Calculations (Designing Record Access for Enterprise Scale)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/group-membership-locking/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/group-membership-locking/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/group-membership-locking/s5> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/draes/guide/draes-tools-deferred-sharing-maintenance.html" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/headless-identity/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/headless-identity/s1> <http://purl.org/dc/terms/title> "What Is Headless Identity? (Headless Identity Implementation Guide)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/headless-identity/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
