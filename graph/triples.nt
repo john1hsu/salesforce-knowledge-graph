@@ -4110,6 +4110,32 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/openid-connect-authentication-providers> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#implements> <https://github.com/john1hsu/salesforce-knowledge-graph/id/openid-connect> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/openid-connect-authentication-providers> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/openid-connect-authentication-providers> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/openid-connect> <http://purl.org/dc/terms/created> "2026-11-10" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/openid-connect> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#ExternalConcept> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/openid-connect> <http://www.w3.org/2000/01/rdf-schema#label> "OpenID Connect" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/openid-connect> <http://www.w3.org/2004/02/skos/core#altLabel> "OIDC" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/openid-connect> <http://www.w3.org/2004/02/skos/core#altLabel> "OpenID Connect 1.0" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/openid-connect> <http://www.w3.org/2004/02/skos/core#altLabel> "OpenID Connect Core" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/openid-connect> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-2-0> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/openid-connect> <http://www.w3.org/2004/02/skos/core#definition> "The OpenID Foundation standard that adds an identity layer on top of OAuth 2.0: an OpenID Provider authenticates the end-user and returns a signed JWT ID token (plus a UserInfo endpoint) so a relying party can verify who signed in; Salesforce acts both as an OpenID Provider and, through authentication providers, as a relying party." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/openid-connect> <http://www.w3.org/2004/02/skos/core#prefLabel> "OpenID Connect" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/openid-connect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/connected-apps> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/openid-connect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/experience-cloud-identity> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/openid-connect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/external-client-apps> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/openid-connect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-2-flows-in-salesforce> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/openid-connect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-identity> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/openid-connect> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/openid-connect/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/openid-connect> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/openid-connect/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/openid-connect> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/openid-connect/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/openid-connect> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/openid-connect/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/openid-connect> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/openid-connect/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/openid-connect> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/openid-connect/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/openid-connect> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#consumedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/openid-connect-authentication-providers> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/openid-connect> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#contrastsWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/single-sign-on-saml> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/openid-connect> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/json-web-token> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/openid-connect> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "identity" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/openid-connect> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/openid-connect> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/opportunity-splits> <http://purl.org/dc/terms/created> "2026-11-06" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/opportunity-splits> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/opportunity-splits> <http://www.w3.org/2000/01/rdf-schema#label> "Opportunity Splits" .
@@ -10612,6 +10638,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/openid-connect-authentication-providers/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/openid-connect-authentication-providers/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "standards-body" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/openid-connect-authentication-providers/s4> <https://schema.org/url> "https://openid.net/specs/openid-connect-core-1_0.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/openid-connect/s1> <http://purl.org/dc/terms/publisher> "OpenID Foundation" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/openid-connect/s1> <http://purl.org/dc/terms/title> "OpenID Connect Core 1.0 incorporating errata set 2" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/openid-connect/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/openid-connect/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "standards-body" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/openid-connect/s1> <https://schema.org/url> "https://openid.net/specs/openid-connect-core-1_0.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/openid-connect/s2> <http://purl.org/dc/terms/publisher> "OpenID Foundation" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/openid-connect/s2> <http://purl.org/dc/terms/title> "OpenID Connect Discovery 1.0 incorporating errata set 2" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/openid-connect/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/openid-connect/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "standards-body" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/openid-connect/s2> <https://schema.org/url> "https://openid.net/specs/openid-connect-discovery-1_0.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/openid-connect/s3> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/openid-connect/s3> <http://purl.org/dc/terms/title> "Salesforce OpenID Provider Configuration (login.salesforce.com discovery document)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/openid-connect/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/openid-connect/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/openid-connect/s3> <https://schema.org/url> "https://login.salesforce.com/.well-known/openid-configuration" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/openid-connect/s4> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/openid-connect/s4> <http://purl.org/dc/terms/title> "Integrate Service Providers with Salesforce (Connected App Basics)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/openid-connect/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/openid-connect/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/openid-connect/s4> <https://schema.org/url> "https://trailhead.salesforce.com/ko/content/learn/modules/connected-app-basics/connected-app-basics-sso" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/openid-connect/s5> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/openid-connect/s5> <http://purl.org/dc/terms/title> "Using OpenID Tokens to Access External Services (Mobile SDK Development Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/openid-connect/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/openid-connect/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/openid-connect/s5> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/mobile-sdk/guide/auth-openid-tokens.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/openid-connect/s6> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/openid-connect/s6> <http://purl.org/dc/terms/title> "Configure an Authentication Provider Using OpenID Connect (Mobile SDK Development Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/openid-connect/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/openid-connect/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/openid-connect/s6> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.mobile_sdk.meta/mobile_sdk/sso_provider_openid_connect.htm" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/opportunity-splits/s1> <http://purl.org/dc/terms/publisher> "Salesforce" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/opportunity-splits/s1> <http://purl.org/dc/terms/title> "OpportunitySplit (Object Reference for the Salesforce Platform)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/opportunity-splits/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

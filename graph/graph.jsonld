@@ -14768,6 +14768,97 @@
       ]
     },
     {
+      "@id": "kt:openid-connect",
+      "@type": "kto:ExternalConcept",
+      "skos:prefLabel": "OpenID Connect",
+      "skos:definition": "The OpenID Foundation standard that adds an identity layer on top of OAuth 2.0: an OpenID Provider authenticates the end-user and returns a signed JWT ID token (plus a UserInfo endpoint) so a relying party can verify who signed in; Salesforce acts both as an OpenID Provider and, through authentication providers, as a relying party.",
+      "kto:domain": "identity",
+      "dcterms:created": "2026-11-10",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "OpenID Connect Core 1.0 incorporating errata set 2",
+          "dcterms:publisher": "OpenID Foundation",
+          "schema:url": "https://openid.net/specs/openid-connect-core-1_0.html",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "OpenID Connect Discovery 1.0 incorporating errata set 2",
+          "dcterms:publisher": "OpenID Foundation",
+          "schema:url": "https://openid.net/specs/openid-connect-discovery-1_0.html",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "Salesforce OpenID Provider Configuration (login.salesforce.com discovery document)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://login.salesforce.com/.well-known/openid-configuration",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Integrate Service Providers with Salesforce (Connected App Basics)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/ko/content/learn/modules/connected-app-basics/connected-app-basics-sso",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Using OpenID Tokens to Access External Services (Mobile SDK Development Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/mobile-sdk/guide/auth-openid-tokens.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Configure an Authentication Provider Using OpenID Connect (Mobile SDK Development Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.mobile_sdk.meta/mobile_sdk/sso_provider_openid_connect.htm",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/identity/openid-connect.md",
+      "skos:altLabel": [
+        "OIDC",
+        "OpenID Connect 1.0",
+        "OpenID Connect Core"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:oauth-2-0"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:salesforce-identity"
+        },
+        {
+          "@id": "kt:connected-apps"
+        },
+        {
+          "@id": "kt:external-client-apps"
+        },
+        {
+          "@id": "kt:oauth-2-flows-in-salesforce"
+        },
+        {
+          "@id": "kt:experience-cloud-identity"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:single-sign-on-saml"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:openid-connect-authentication-providers"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:json-web-token"
+        }
+      ]
+    },
+    {
       "@id": "kt:password-policies",
       "@type": "kto:SecurityControl",
       "skos:prefLabel": "Password Policies",

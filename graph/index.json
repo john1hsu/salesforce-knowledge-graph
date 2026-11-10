@@ -3613,6 +3613,29 @@
     ]
   },
   {
+    "id": "kt:openid-connect",
+    "title": "OpenID Connect",
+    "aliases": [
+      "OIDC",
+      "OpenID Connect 1.0",
+      "OpenID Connect Core"
+    ],
+    "type": "ExternalConcept",
+    "domain": "identity",
+    "file": "articles/identity/openid-connect.md",
+    "created": "2026-11-10",
+    "release": "Winter '27",
+    "status": "concept",
+    "source_urls": [
+      "https://openid.net/specs/openid-connect-core-1_0.html",
+      "https://openid.net/specs/openid-connect-discovery-1_0.html",
+      "https://login.salesforce.com/.well-known/openid-configuration",
+      "https://trailhead.salesforce.com/ko/content/learn/modules/connected-app-basics/connected-app-basics-sso",
+      "https://developer.salesforce.com/docs/platform/mobile-sdk/guide/auth-openid-tokens.html",
+      "https://developer.salesforce.com/docs/atlas.en-us.mobile_sdk.meta/mobile_sdk/sso_provider_openid_connect.htm"
+    ]
+  },
+  {
     "id": "kt:openid-connect-authentication-providers",
     "title": "OpenID Connect Authentication Providers",
     "aliases": [
