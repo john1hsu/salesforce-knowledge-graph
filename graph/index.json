@@ -5490,6 +5490,29 @@
     ]
   },
   {
+    "id": "kt:soql-injection",
+    "title": "SOQL Injection",
+    "aliases": [
+      "SOQL injection vulnerability",
+      "SOSL injection",
+      "Apex query injection",
+      "insecure database query construction"
+    ],
+    "type": "Concept",
+    "domain": "development",
+    "file": "articles/development/soql-injection.md",
+    "created": "2026-11-10",
+    "release": "Winter '27",
+    "status": "concept",
+    "source_urls": [
+      "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexref/pages_security_tips_soql_injection.htm",
+      "https://trailhead.salesforce.com/content/learn/modules/secure-serverside-development/mitigate-soql-injection",
+      "https://developer.salesforce.com/docs/platform/isvforce/guide/secure-code-violation-soql-injection.html",
+      "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_dynamic_soql.htm",
+      "https://developer.salesforce.com/docs/platform/communities-dev/guide/communities-dev-security-guest-users-soql-injection.html"
+    ]
+  },
+  {
     "id": "kt:sosl",
     "title": "SOSL",
     "aliases": [

@@ -6178,6 +6178,32 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/solution-design-tradeoffs> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/solution-design-tradeoffs> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#usedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-architect> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/solution-design-tradeoffs> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/soql-injection> <http://purl.org/dc/terms/created> "2026-11-10" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/soql-injection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/soql-injection> <http://www.w3.org/2000/01/rdf-schema#label> "SOQL Injection" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/soql-injection> <http://www.w3.org/2004/02/skos/core#altLabel> "Apex query injection" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/soql-injection> <http://www.w3.org/2004/02/skos/core#altLabel> "SOQL injection vulnerability" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/soql-injection> <http://www.w3.org/2004/02/skos/core#altLabel> "SOSL injection" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/soql-injection> <http://www.w3.org/2004/02/skos/core#altLabel> "insecure database query construction" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/soql-injection> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/soql> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/soql-injection> <http://www.w3.org/2004/02/skos/core#definition> "A code vulnerability in which user-controlled input is concatenated into a dynamic SOQL (or SOSL) string, letting the user alter the query's logic and read records the code never meant to return. The Apex counterpart of SQL injection, prevented chiefly with static queries and bind variables, typecasting and allowlisting." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/soql-injection> <http://www.w3.org/2004/02/skos/core#prefLabel> "SOQL Injection" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/soql-injection> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/soql-injection> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/appexchange-security-review> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/soql-injection> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/code-analyzer> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/soql-injection> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/dynamic-soql> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/soql-injection> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/experience-cloud> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/soql-injection> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/field-level-security> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/soql-injection> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soql-injection/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/soql-injection> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soql-injection/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/soql-injection> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soql-injection/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/soql-injection> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soql-injection/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/soql-injection> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soql-injection/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/soql-injection> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#causes> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-breach-risk> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/soql-injection> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-sharing-model> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/soql-injection> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "development" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/soql-injection> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/soql-injection> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/soql> <http://purl.org/dc/terms/created> "2026-11-02" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/soql> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Language> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/soql> <http://www.w3.org/2000/01/rdf-schema#label> "SOQL" .
@@ -12409,6 +12435,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/solution-design-tradeoffs/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/solution-design-tradeoffs/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "community" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/solution-design-tradeoffs/s6> <https://schema.org/url> "https://www.salesforceben.com/how-to-make-salesforce-architecture-decisions-that-actually-last/" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soql-injection/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soql-injection/s1> <http://purl.org/dc/terms/title> "SOQL Injection (Apex Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soql-injection/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soql-injection/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soql-injection/s1> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexref/pages_security_tips_soql_injection.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soql-injection/s2> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soql-injection/s2> <http://purl.org/dc/terms/title> "Mitigate SOQL Injection (Secure Server-Side Development)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soql-injection/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soql-injection/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soql-injection/s2> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/secure-serverside-development/mitigate-soql-injection" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soql-injection/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers (ISVforce Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soql-injection/s3> <http://purl.org/dc/terms/title> "SOQL Injection Due to Insecure Database Query Construction" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soql-injection/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soql-injection/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soql-injection/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/isvforce/guide/secure-code-violation-soql-injection.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soql-injection/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soql-injection/s4> <http://purl.org/dc/terms/title> "Dynamic SOQL (Apex Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soql-injection/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soql-injection/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soql-injection/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_dynamic_soql.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soql-injection/s5> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soql-injection/s5> <http://purl.org/dc/terms/title> "SOQL Injection (Experience Cloud Developer Guide, guest user security)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soql-injection/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soql-injection/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soql-injection/s5> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/communities-dev/guide/communities-dev-security-guest-users-soql-injection.html" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soql/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soql/s1> <http://purl.org/dc/terms/title> "Salesforce Developer Limits and Allocations Quick Reference: SOQL and SOSL Limits for Search Queries" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soql/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

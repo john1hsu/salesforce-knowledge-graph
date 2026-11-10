@@ -10683,6 +10683,90 @@
       ]
     },
     {
+      "@id": "kt:soql-injection",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "SOQL Injection",
+      "skos:definition": "A code vulnerability in which user-controlled input is concatenated into a dynamic SOQL (or SOSL) string, letting the user alter the query's logic and read records the code never meant to return. The Apex counterpart of SQL injection, prevented chiefly with static queries and bind variables, typecasting and allowlisting.",
+      "kto:domain": "development",
+      "dcterms:created": "2026-11-10",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "SOQL Injection (Apex Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexref/pages_security_tips_soql_injection.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Mitigate SOQL Injection (Secure Server-Side Development)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/secure-serverside-development/mitigate-soql-injection",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "SOQL Injection Due to Insecure Database Query Construction",
+          "dcterms:publisher": "Salesforce Developers (ISVforce Guide)",
+          "schema:url": "https://developer.salesforce.com/docs/platform/isvforce/guide/secure-code-violation-soql-injection.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Dynamic SOQL (Apex Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_dynamic_soql.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "SOQL Injection (Experience Cloud Developer Guide, guest user security)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/communities-dev/guide/communities-dev-security-guest-users-soql-injection.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/development/soql-injection.md",
+      "skos:altLabel": [
+        "SOQL injection vulnerability",
+        "SOSL injection",
+        "Apex query injection",
+        "insecure database query construction"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:soql"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:dynamic-soql"
+        },
+        {
+          "@id": "kt:apex"
+        },
+        {
+          "@id": "kt:field-level-security"
+        },
+        {
+          "@id": "kt:experience-cloud"
+        },
+        {
+          "@id": "kt:appexchange-security-review"
+        },
+        {
+          "@id": "kt:code-analyzer"
+        }
+      ],
+      "kto:causes": [
+        {
+          "@id": "kt:data-breach-risk"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:salesforce-sharing-model"
+        }
+      ]
+    },
+    {
       "@id": "kt:soql",
       "@type": "kto:Language",
       "skos:prefLabel": "SOQL",

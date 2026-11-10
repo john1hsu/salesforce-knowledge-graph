@@ -10,7 +10,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:salesforce-apis` | `kt:bulk-api-2`, `kt:graphql-api` |
 | `kt:soap-api` | `kt:external-id-fields`, `kt:rest-api` |
 | `kt:invocable-actions-api` | `kt:autolaunched-flow`, `kt:subflows` |
-| `kt:soql-injection` | `kt:appexchange-security-review`, `kt:code-analyzer` |
 | `kt:custom-index-limits` | `kt:custom-indexes`, `kt:external-id-fields` |
 | `kt:permission-set-licenses` | `kt:identity-connect`, `kt:permission-sets` |
 | `kt:user-interface-api` | `kt:graphql-api`, `kt:lightning-data-service` |
@@ -72,19 +71,19 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:skills-based-routing` | `kt:omni-channel` |
 | `kt:nist-sp-800-60` | `kt:fips-199` |
 | `kt:lightning-message-service` | `kt:aura-components` |
+| `kt:shared-responsibility-model` | `kt:data-breach-risk` |
 | `kt:contacts-to-multiple-accounts` | `kt:person-accounts` |
 | `kt:financial-services-cloud` | `kt:person-accounts` |
-| `kt:shared-responsibility-model` | `kt:data-breach-risk` |
 | `kt:compact-layouts` | `kt:page-layouts` |
 | `kt:platform-administrator-ii-certification` | `kt:platform-administrator-certification` |
 | `kt:custom-objects` | `kt:standard-objects` |
 | `kt:entitlement-process-metadata` | `kt:entitlement-management` |
+| `kt:zero-trust-architecture` | `kt:principle-of-least-privilege` |
 | `kt:dispatcher-console` | `kt:field-service` |
 | `kt:field-service-mobile-app` | `kt:field-service` |
 | `kt:field-service-scheduling-policies` | `kt:field-service` |
 | `kt:service-appointments` | `kt:field-service` |
 | `kt:work-orders` | `kt:field-service` |
-| `kt:zero-trust-architecture` | `kt:principle-of-least-privilege` |
 | `kt:data-detect` | `kt:salesforce-shield` |
 | `kt:dynamic-revenue-orchestrator` | `kt:revenue-cloud` |
 | `kt:revenue-management-consultant-certification` | `kt:revenue-cloud` |
@@ -96,6 +95,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:revenue-intelligence` | `kt:collaborative-forecasts` |
 | `kt:constraint-modeling-language` | `kt:product-configurator` |
 | `kt:product-catalog-management` | `kt:product-configurator` |
+| `kt:agentexchange` | `kt:appexchange-security-review` |
 | `kt:path` | `kt:business-processes` |
 | `kt:decision-tables` | `kt:salesforce-pricing` |
 | `kt:delegated-authentication` | `kt:identity-connect` |
@@ -104,13 +104,13 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:salesforce-ecosystem` | `kt:salesforce-inc` |
 | `kt:hitrust-csf` | `kt:nist-cybersecurity-framework` |
 | `kt:apex-rest-services` | `kt:remote-call-in` |
-| `kt:agentexchange` | `kt:appexchange-security-review` |
 | `kt:apex-mocks` | `kt:apex-enterprise-patterns` |
 | `kt:data-quality` | `kt:duplicate-management` |
 | `kt:einstein-discovery` | `kt:crm-analytics` |
 | `kt:saql` | `kt:crm-analytics` |
 | `kt:data-cloud-activation` | `kt:data-cloud-segmentation` |
 | `kt:data-graphs` | `kt:data-cloud-segmentation` |
+| `kt:dynamic-soql` | `kt:soql-injection` |
 | `kt:heroku` | `kt:salesforce-cpq` |
 | `kt:dynamic-actions` | `kt:dynamic-forms` |
 | `kt:dynamic-highlights-panel` | `kt:dynamic-forms` |
