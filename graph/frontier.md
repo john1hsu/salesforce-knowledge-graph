@@ -9,7 +9,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:omnistudio` | `kt:business-rules-engine`, `kt:public-sector-solutions`, `kt:salesforce-industries` |
 | `kt:soap-api` | `kt:external-id-fields`, `kt:rest-api` |
 | `kt:salesforce-apis` | `kt:bulk-api-2`, `kt:graphql-api` |
-| `kt:invocable-actions-api` | `kt:autolaunched-flow`, `kt:subflows` |
 | `kt:cloud-computing` | `kt:platform-as-a-service`, `kt:shared-responsibility-model` |
 | `kt:heroku` | `kt:platform-as-a-service`, `kt:salesforce-cpq` |
 | `kt:permission-set-licenses` | `kt:identity-connect`, `kt:permission-sets` |
@@ -34,8 +33,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:platform-event-channel-member` | `kt:change-data-capture` |
 | `kt:government-cloud` | `kt:government-cloud-plus` |
 | `kt:custom-domains` | `kt:my-domain` |
-| `kt:external-identity-license` | `kt:experience-cloud-identity` |
 | `kt:apex-flex-queue` | `kt:batch-apex` |
+| `kt:external-identity-license` | `kt:experience-cloud-identity` |
 | `kt:org-check` | `kt:technical-debt-in-salesforce` |
 | `kt:salesforce-optimizer` | `kt:technical-debt-in-salesforce` |
 | `kt:orglimits-class` | `kt:limits-class` |
@@ -61,8 +60,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:backup-and-recover` | `kt:archiving-strategy` |
 | `kt:salesforce-archive` | `kt:archiving-strategy` |
 | `kt:streaming-insights` | `kt:calculated-insights` |
-| `kt:zero-copy-data-sharing` | `kt:zero-copy-data-federation` |
 | `kt:prompt-injection` | `kt:einstein-trust-layer` |
+| `kt:zero-copy-data-sharing` | `kt:zero-copy-data-federation` |
 | `kt:mixed-dml-error` | `kt:future-methods` |
 | `kt:data-categories` | `kt:knowledge-base` |
 | `kt:salesforce-go` | `kt:knowledge-base` |
@@ -78,8 +77,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:data-detect` | `kt:salesforce-shield` |
 | `kt:compact-layouts` | `kt:page-layouts` |
 | `kt:platform-administrator-ii-certification` | `kt:platform-administrator-certification` |
-| `kt:custom-objects` | `kt:standard-objects` |
 | `kt:flow-bulkification` | `kt:bulkification` |
+| `kt:custom-objects` | `kt:standard-objects` |
 | `kt:zero-trust-architecture` | `kt:principle-of-least-privilege` |
 | `kt:entitlement-process-metadata` | `kt:entitlement-management` |
 | `kt:dispatcher-console` | `kt:field-service` |
@@ -119,6 +118,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:generative-ai` | `kt:retrieval-augmented-generation-in-salesforce` |
 | `kt:apexguru` | `kt:scale-test` |
 | `kt:scale-center` | `kt:scale-test` |
+| `kt:flow-limits` | `kt:flow-versioning` |
 | `kt:holidays` | `kt:business-hours` |
 | `kt:ingestion-api` | `kt:data-streams` |
 | `kt:block-kit` | `kt:slack-platform` |
@@ -135,7 +135,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:marketing-cloud-connect` | `kt:marketing-cloud-engagement` |
 | `kt:marketing-cloud-next` | `kt:marketing-cloud-engagement` |
 | `kt:salesforce-marketing-solutions` | `kt:marketing-cloud-engagement` |
-| `kt:flow-limits` | `kt:flow-versioning` |
 | `kt:custom-permissions` | `kt:validation-rules` |
 | `kt:data-governance` | `kt:data-quality` |
 | `kt:platform-cache-partitions` | `kt:platform-cache` |
