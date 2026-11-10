@@ -1140,6 +1140,30 @@
     ]
   },
   {
+    "id": "kt:custom-index-limits",
+    "title": "Custom Index Limits",
+    "aliases": [
+      "custom index allocation",
+      "maximum custom indexes per object",
+      "external ID field limit",
+      "external IDs per object limit",
+      "index limits"
+    ],
+    "type": "Limit",
+    "domain": "platform-architecture",
+    "file": "articles/platform-architecture/custom-index-limits.md",
+    "created": "2026-11-10",
+    "release": "Winter '27",
+    "status": "current",
+    "source_urls": [
+      "https://help.salesforce.com/apex/HTViewSolution?id=000005081",
+      "https://developer.salesforce.com/docs/platform/salesforce-large-data-volumes-bp/guide/ldv-deployments-infrastructure-indexes.html",
+      "https://resources.docs.salesforce.com/256/latest/en-us/sfdc/pdf/salesforce_large_data_volumes_bp.pdf",
+      "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_customindex.htm",
+      "https://developer.salesforce.com/docs/atlas.en-us.bigobjects.meta/bigobjects/big_object_define.htm"
+    ]
+  },
+  {
     "id": "kt:custom-indexes",
     "title": "Custom Indexes",
     "aliases": [

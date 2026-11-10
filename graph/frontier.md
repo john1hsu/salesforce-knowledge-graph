@@ -7,10 +7,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:connect-api` | `kt:business-rules-engine`, `kt:context-service`, `kt:data-cloud-segmentation`, `kt:product-configurator`, `kt:salesforce-industries`, `kt:salesforce-pricing` |
 | `kt:public-groups` | `kt:group-membership-locking`, `kt:queues`, `kt:sharing-rules` |
 | `kt:omnistudio` | `kt:business-rules-engine`, `kt:public-sector-solutions`, `kt:salesforce-industries` |
-| `kt:salesforce-apis` | `kt:bulk-api-2`, `kt:graphql-api` |
 | `kt:soap-api` | `kt:external-id-fields`, `kt:rest-api` |
+| `kt:salesforce-apis` | `kt:bulk-api-2`, `kt:graphql-api` |
 | `kt:invocable-actions-api` | `kt:autolaunched-flow`, `kt:subflows` |
-| `kt:custom-index-limits` | `kt:custom-indexes`, `kt:external-id-fields` |
 | `kt:permission-set-licenses` | `kt:identity-connect`, `kt:permission-sets` |
 | `kt:user-interface-api` | `kt:graphql-api`, `kt:lightning-data-service` |
 | `kt:salesforce-analytics` | `kt:crm-analytics`, `kt:tableau` |
@@ -71,9 +70,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:presence-configuration` | `kt:omni-channel` |
 | `kt:skills-based-routing` | `kt:omni-channel` |
 | `kt:lightning-message-service` | `kt:aura-components` |
-| `kt:shared-responsibility-model` | `kt:data-breach-risk` |
 | `kt:contacts-to-multiple-accounts` | `kt:person-accounts` |
 | `kt:financial-services-cloud` | `kt:person-accounts` |
+| `kt:shared-responsibility-model` | `kt:data-breach-risk` |
 | `kt:compact-layouts` | `kt:page-layouts` |
 | `kt:platform-administrator-ii-certification` | `kt:platform-administrator-certification` |
 | `kt:custom-objects` | `kt:standard-objects` |
@@ -136,6 +135,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:flow-limits` | `kt:flow-versioning` |
 | `kt:ingestion-api` | `kt:data-streams` |
 | `kt:platform-cache-partitions` | `kt:platform-cache` |
+| `kt:validation-rules` | `kt:formula-fields` |
 | `kt:mutual-tls-authentication` | `kt:login-ip-ranges-and-trusted-ip-ranges` |
 | `kt:authority-to-operate` | `kt:fisma` |
 | `kt:continuous-monitoring` | `kt:fisma` |
@@ -143,5 +143,4 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:health-cloud` | `kt:hipaa` |
 | `kt:nist-risk-management-framework` | `kt:fisma` |
 | `kt:salesforce-governance` | `kt:salesforce-center-of-excellence` |
-| `kt:validation-rules` | `kt:formula-fields` |
 | `kt:wcag` | `kt:section-508-accessibility` |

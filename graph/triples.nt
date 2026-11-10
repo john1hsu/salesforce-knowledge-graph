@@ -1298,6 +1298,34 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-fields> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/soql> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-fields> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-fields> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-index-limits> <http://purl.org/dc/terms/created> "2026-11-10" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-index-limits> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Limit> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-index-limits> <http://www.w3.org/2000/01/rdf-schema#label> "Custom Index Limits" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-index-limits> <http://www.w3.org/2004/02/skos/core#altLabel> "custom index allocation" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-index-limits> <http://www.w3.org/2004/02/skos/core#altLabel> "external ID field limit" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-index-limits> <http://www.w3.org/2004/02/skos/core#altLabel> "external IDs per object limit" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-index-limits> <http://www.w3.org/2004/02/skos/core#altLabel> "index limits" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-index-limits> <http://www.w3.org/2004/02/skos/core#altLabel> "maximum custom indexes per object" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-index-limits> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-indexes> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-index-limits> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/governor-limits> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-index-limits> <http://www.w3.org/2004/02/skos/core#definition> "The caps and eligibility rules that bound Salesforce custom indexes: by default 25 custom indexes and 25 External ID fields per object (raisable through Salesforce Support), a set of field types that can never be indexed, and the separate, fixed index rules for custom big objects." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-index-limits> <http://www.w3.org/2004/02/skos/core#prefLabel> "Custom Index Limits" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-index-limits> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/big-objects> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-index-limits> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/external-id-fields> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-index-limits> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/formula-fields> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-index-limits> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/large-data-volumes> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-index-limits> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/query-optimizer-selectivity> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-index-limits> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-index-limits/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-index-limits> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-index-limits/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-index-limits> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-index-limits/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-index-limits> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-index-limits/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-index-limits> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-index-limits/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-index-limits> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-index-limits> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#contrastsWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-and-file-storage-allocations> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-index-limits> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/multitenancy> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-index-limits> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "platform-architecture" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-index-limits> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-index-limits> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-indexes> <http://purl.org/dc/terms/created> "2026-11-09" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-indexes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-indexes> <http://www.w3.org/2000/01/rdf-schema#label> "Custom Indexes" .
@@ -7598,6 +7626,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-fields/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-fields/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-fields/s6> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/customfield.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-index-limits/s1> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-index-limits/s1> <http://purl.org/dc/terms/title> "How Many External ID Fields Can I Create Per Object in Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-index-limits/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-index-limits/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-index-limits/s1> <https://schema.org/url> "https://help.salesforce.com/apex/HTViewSolution?id=000005081" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-index-limits/s2> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-index-limits/s2> <http://purl.org/dc/terms/title> "Best Practices for Deployments with Large Data Volumes: Indexes" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-index-limits/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-index-limits/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-index-limits/s2> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/salesforce-large-data-volumes-bp/guide/ldv-deployments-infrastructure-indexes.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-index-limits/s3> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-index-limits/s3> <http://purl.org/dc/terms/title> "Best Practices for Deployments with Large Data Volumes (PDF)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-index-limits/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-index-limits/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-index-limits/s3> <https://schema.org/url> "https://resources.docs.salesforce.com/256/latest/en-us/sfdc/pdf/salesforce_large_data_volumes_bp.pdf" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-index-limits/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-index-limits/s4> <http://purl.org/dc/terms/title> "Metadata API Developer Guide: CustomIndex" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-index-limits/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-index-limits/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-index-limits/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_customindex.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-index-limits/s5> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-index-limits/s5> <http://purl.org/dc/terms/title> "Big Objects Implementation Guide: Define and Deploy Custom Big Objects" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-index-limits/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-index-limits/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-index-limits/s5> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.bigobjects.meta/bigobjects/big_object_define.htm" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-indexes/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-indexes/s1> <http://purl.org/dc/terms/title> "Best Practices for Deployments with Large Data Volumes: Indexes" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-indexes/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

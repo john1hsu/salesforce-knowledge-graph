@@ -16785,6 +16785,96 @@
       ]
     },
     {
+      "@id": "kt:custom-index-limits",
+      "@type": "kto:Limit",
+      "skos:prefLabel": "Custom Index Limits",
+      "skos:definition": "The caps and eligibility rules that bound Salesforce custom indexes: by default 25 custom indexes and 25 External ID fields per object (raisable through Salesforce Support), a set of field types that can never be indexed, and the separate, fixed index rules for custom big objects.",
+      "kto:domain": "platform-architecture",
+      "dcterms:created": "2026-11-10",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "How Many External ID Fields Can I Create Per Object in Salesforce",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/apex/HTViewSolution?id=000005081",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Best Practices for Deployments with Large Data Volumes: Indexes",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/salesforce-large-data-volumes-bp/guide/ldv-deployments-infrastructure-indexes.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Best Practices for Deployments with Large Data Volumes (PDF)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://resources.docs.salesforce.com/256/latest/en-us/sfdc/pdf/salesforce_large_data_volumes_bp.pdf",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Metadata API Developer Guide: CustomIndex",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_customindex.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Big Objects Implementation Guide: Define and Deploy Custom Big Objects",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.bigobjects.meta/bigobjects/big_object_define.htm",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/platform-architecture/custom-index-limits.md",
+      "skos:altLabel": [
+        "custom index allocation",
+        "maximum custom indexes per object",
+        "external ID field limit",
+        "external IDs per object limit",
+        "index limits"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:governor-limits"
+        },
+        {
+          "@id": "kt:custom-indexes"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:external-id-fields"
+        },
+        {
+          "@id": "kt:query-optimizer-selectivity"
+        },
+        {
+          "@id": "kt:large-data-volumes"
+        },
+        {
+          "@id": "kt:big-objects"
+        },
+        {
+          "@id": "kt:formula-fields"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:data-and-file-storage-allocations"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:metadata-api"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:multitenancy"
+        }
+      ]
+    },
+    {
       "@id": "kt:custom-indexes",
       "@type": "kto:Feature",
       "skos:prefLabel": "Custom Indexes",
