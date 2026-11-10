@@ -19065,6 +19065,99 @@
       ]
     },
     {
+      "@id": "kt:fisma",
+      "@type": "kto:ExternalConcept",
+      "skos:prefLabel": "FISMA",
+      "skos:definition": "The US law (2002, amended 2014) requiring every federal agency to run a risk-based information security program, authorize its systems, and report annually; it is the statutory root of NIST's security standards and of FedRAMP, which together decide how agencies may use Salesforce government clouds.",
+      "kto:domain": "public-sector-and-compliance",
+      "dcterms:created": "2026-11-10",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Federal Information Security Modernization Act",
+          "dcterms:publisher": "Cybersecurity and Infrastructure Security Agency (CISA)",
+          "schema:url": "https://www.cisa.gov/federal-information-security-modernization-act",
+          "kto:sourceType": "government"
+        },
+        {
+          "dcterms:title": "FISMA Background — Risk Management Framework",
+          "dcterms:publisher": "NIST Computer Security Resource Center",
+          "schema:url": "https://csrc.nist.gov/projects/risk-management/fisma-background",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "Federal Risk and Authorization Management Program (FedRAMP)",
+          "dcterms:publisher": "CMS Information Security and Privacy Program",
+          "schema:url": "https://security.cms.gov/learn/fedramp",
+          "kto:sourceType": "government"
+        },
+        {
+          "dcterms:title": "FY 2025 Inspector General FISMA Reporting Metrics, Version 2.0",
+          "dcterms:publisher": "CISA / OMB / CIGIE",
+          "schema:url": "https://cisa.gov/sites/default/files/2025-04/Final%20FY%202025%20IG%20FISMA%20Reporting%20Metrics_Ver%202.0_April%202025-508_0.pdf",
+          "kto:sourceType": "government"
+        },
+        {
+          "dcterms:title": "FedRAMP Moderate — Salesforce Compliance",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://compliance.salesforce.com/en/fedramp-moderate",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "FedRAMP High — Salesforce Compliance",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://compliance.salesforce.com/en/fedramp-high",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/public-sector-and-compliance/fisma.md",
+      "skos:altLabel": [
+        "Federal Information Security Modernization Act",
+        "Federal Information Security Management Act",
+        "FISMA 2014",
+        "FISMA 2002",
+        "Federal Information Security Modernization Act of 2014"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:security-compliance-frameworks"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:authority-to-operate"
+        },
+        {
+          "@id": "kt:continuous-monitoring"
+        },
+        {
+          "@id": "kt:nist-cybersecurity-framework"
+        },
+        {
+          "@id": "kt:government-cloud-plus"
+        }
+      ],
+      "kto:enables": [
+        {
+          "@id": "kt:nist-risk-management-framework"
+        },
+        {
+          "@id": "kt:fedramp"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:nist-sp-800-53"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:fedramp-high"
+        }
+      ]
+    },
+    {
       "@id": "kt:government-cloud-plus",
       "@type": "kto:Product",
       "skos:prefLabel": "Government Cloud Plus",

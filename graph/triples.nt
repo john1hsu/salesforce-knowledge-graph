@@ -2519,6 +2519,34 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/first-generation-managed-packages> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#replacedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/second-generation-managed-packages> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/first-generation-managed-packages> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/first-generation-managed-packages> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fisma> <http://purl.org/dc/terms/created> "2026-11-10" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fisma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#ExternalConcept> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fisma> <http://www.w3.org/2000/01/rdf-schema#label> "FISMA" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fisma> <http://www.w3.org/2004/02/skos/core#altLabel> "FISMA 2002" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fisma> <http://www.w3.org/2004/02/skos/core#altLabel> "FISMA 2014" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fisma> <http://www.w3.org/2004/02/skos/core#altLabel> "Federal Information Security Management Act" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fisma> <http://www.w3.org/2004/02/skos/core#altLabel> "Federal Information Security Modernization Act of 2014" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fisma> <http://www.w3.org/2004/02/skos/core#altLabel> "Federal Information Security Modernization Act" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fisma> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/security-compliance-frameworks> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fisma> <http://www.w3.org/2004/02/skos/core#definition> "The US law (2002, amended 2014) requiring every federal agency to run a risk-based information security program, authorize its systems, and report annually; it is the statutory root of NIST's security standards and of FedRAMP, which together decide how agencies may use Salesforce government clouds." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fisma> <http://www.w3.org/2004/02/skos/core#prefLabel> "FISMA" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fisma> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/authority-to-operate> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fisma> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/continuous-monitoring> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fisma> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/government-cloud-plus> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fisma> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-cybersecurity-framework> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fisma> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fisma/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fisma> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fisma/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fisma> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fisma/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fisma> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fisma/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fisma> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fisma/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fisma> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fisma/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fisma> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#contrastsWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/fedramp-high> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fisma> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-53> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fisma> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "public-sector-and-compliance" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fisma> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#enables> <https://github.com/john1hsu/salesforce-knowledge-graph/id/fedramp> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fisma> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#enables> <https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-risk-management-framework> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fisma> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fisma> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-builder> <http://purl.org/dc/terms/created> "2026-10-30" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-builder> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Tool> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-builder> <http://www.w3.org/2000/01/rdf-schema#label> "Flow Builder" .
@@ -8790,6 +8818,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/first-generation-managed-packages/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/first-generation-managed-packages/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/first-generation-managed-packages/s6> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/cumulusci-for-managed-packages/create-a-packaging-org" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fisma/s1> <http://purl.org/dc/terms/publisher> "Cybersecurity and Infrastructure Security Agency (CISA)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fisma/s1> <http://purl.org/dc/terms/title> "Federal Information Security Modernization Act" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fisma/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fisma/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fisma/s1> <https://schema.org/url> "https://www.cisa.gov/federal-information-security-modernization-act" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fisma/s2> <http://purl.org/dc/terms/publisher> "NIST Computer Security Resource Center" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fisma/s2> <http://purl.org/dc/terms/title> "FISMA Background — Risk Management Framework" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fisma/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fisma/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "standards-body" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fisma/s2> <https://schema.org/url> "https://csrc.nist.gov/projects/risk-management/fisma-background" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fisma/s3> <http://purl.org/dc/terms/publisher> "CMS Information Security and Privacy Program" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fisma/s3> <http://purl.org/dc/terms/title> "Federal Risk and Authorization Management Program (FedRAMP)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fisma/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fisma/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fisma/s3> <https://schema.org/url> "https://security.cms.gov/learn/fedramp" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fisma/s4> <http://purl.org/dc/terms/publisher> "CISA / OMB / CIGIE" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fisma/s4> <http://purl.org/dc/terms/title> "FY 2025 Inspector General FISMA Reporting Metrics, Version 2.0" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fisma/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fisma/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fisma/s4> <https://schema.org/url> "https://cisa.gov/sites/default/files/2025-04/Final%20FY%202025%20IG%20FISMA%20Reporting%20Metrics_Ver%202.0_April%202025-508_0.pdf" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fisma/s5> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fisma/s5> <http://purl.org/dc/terms/title> "FedRAMP Moderate — Salesforce Compliance" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fisma/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fisma/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fisma/s5> <https://schema.org/url> "https://compliance.salesforce.com/en/fedramp-moderate" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fisma/s6> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fisma/s6> <http://purl.org/dc/terms/title> "FedRAMP High — Salesforce Compliance" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fisma/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fisma/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fisma/s6> <https://schema.org/url> "https://compliance.salesforce.com/en/fedramp-high" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-builder/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-builder/s1> <http://purl.org/dc/terms/title> "Flow Basics: Meet Flow Builder" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-builder/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
