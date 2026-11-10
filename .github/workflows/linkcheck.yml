@@ -1,0 +1,47 @@
+name: Check source links
+
+# Weekly sweep of every cited source URL. Dead links are collected into one open issue
+# (label: link-rot) that is updated in place, and closed again when nothing is dead.
+# It never fails the build and never edits articles.
+
+on:
+  schedule:
+    - cron: "23 6 * * 1"   # Mondays 06:23 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: linkcheck
+  cancel-in-progress: true
+
+jobs:
+  linkcheck:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pyyaml
+      - run: python3 scripts/linkcheck.py --out linkcheck.md
+      - name: Open, update or close the link-rot issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          dead=$(cat linkcheck.count)
+          cat linkcheck.md >> "$GITHUB_STEP_SUMMARY"
+          gh label create link-rot --color B60205 --description "Cited source URLs that no longer resolve" 2>/dev/null || true
+          issue=$(gh issue list --label link-rot --state open --json number --jq '.[0].number // empty')
+          if [ "$dead" -gt 0 ]; then
+            if [ -n "$issue" ]; then
+              gh issue edit "$issue" --title "Dead source links: $dead" --body-file linkcheck.md
+            else
+              gh issue create --title "Dead source links: $dead" --label link-rot --body-file linkcheck.md
+            fi
+          elif [ -n "$issue" ]; then
+            gh issue close "$issue" --comment "No dead source links in the latest check."
+          fi

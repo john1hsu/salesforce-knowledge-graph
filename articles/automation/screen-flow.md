@@ -14,7 +14,7 @@ broader: [kt:flow-builder, kt:process-automation]
 related: [kt:record-triggered-flow, kt:autolaunched-flow, kt:flow-orchestrator, kt:experience-cloud]
 relations:
   - {predicate: integratesWith, object: kt:lightning-web-components}
-  - {predicate: governedBy, object: kt:salesforce-sharing-model}
+  - {predicate: dependsOn, object: kt:salesforce-sharing-model}
   - {predicate: dependsOn, object: kt:autolaunched-flow}
 sources:
   - id: s1

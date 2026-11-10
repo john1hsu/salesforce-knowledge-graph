@@ -13,7 +13,7 @@ status: concept
 broader: [kt:security-compliance-frameworks]
 related: [kt:fedramp, kt:government-cloud-plus, kt:dod-cloud-computing-srg, kt:multi-factor-authentication]
 relations:
-  - {predicate: usedBy, object: kt:fedramp-high}
+  - {predicate: consumedBy, object: kt:fedramp-high}
   - {predicate: dependsOn, object: kt:fips-199}
   - {predicate: hasPart, object: kt:nist-sp-800-53b}
 sources:

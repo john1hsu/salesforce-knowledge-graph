@@ -54,8 +54,9 @@ How this node relates to its neighbours, in prose, with citations.[^s3]
 - Required fields: `id, type, title, domain, summary, sources, created, release, status`.
 - `release` looks like `Winter '27`; `status` is one of the allowed values; a `deprecated`/`retired` node must have a `replacedBy` relation (its migration path).
 - `type` must be a class, and every `relations.predicate` a property, in `ontology/ontology.ttl`.
+- Predicate ranges from the ontology are enforced once the target article exists: `governedBy` → `Limit`, `usedBy` → `Role`, `coveredBy` → `Certification`, `requiresLicense` → `Product`, `acquiredBy` → `Organization`, `introducedIn` → `Release`. Use `consumedBy` for use by a product, feature, API or standard, and `dependsOn` for being subject to a concept or control.
 - Every edge target is a `kt:` id. Targets with no article yet become **frontier** nodes (`graph/frontier.md`).
-- Citations: at least 3 sources; at least 2 of a strong type; at least 1 official Salesforce source (`official-docs` or `official-learning`) unless the node is an `ExternalConcept`; https only; no duplicate URLs; every source cited in the body and defined in `## Sources`; every substantive paragraph cited.
+- Citations: at least 3 sources; at least 2 of a strong type; at least 1 official Salesforce source (`official-docs` or `official-learning`) unless the node is an `ExternalConcept`; https only; no duplicate URLs; every source cited in the body and defined in `## Sources`; every substantive paragraph cited; every list item longer than 80 characters cited (an error for articles created from 2026-11-12, a warning for older ones until they are refreshed).
 - Body of at least 350 words.
 - Uniqueness: no duplicate ids, titles or aliases; no near-paraphrase titles; no bodies that overlap another article above the similarity threshold.
 

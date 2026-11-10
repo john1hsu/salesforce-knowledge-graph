@@ -15,7 +15,7 @@ related: [kt:fedramp, kt:nist-sp-800-53, kt:dod-cloud-computing-srg, kt:data-res
 relations:
   - {predicate: hasPart, object: kt:nist-cybersecurity-framework}
   - {predicate: hasPart, object: kt:iso-iec-27001}
-  - {predicate: usedBy, object: kt:well-architected-framework}
+  - {predicate: consumedBy, object: kt:well-architected-framework}
 sources:
   - id: s1
     title: "Trust (Salesforce Well-Architected guide)"

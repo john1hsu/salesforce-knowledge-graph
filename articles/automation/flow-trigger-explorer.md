@@ -13,7 +13,7 @@ status: current
 broader: [kt:flow-builder]
 related: [kt:record-triggered-flow, kt:order-of-execution, kt:flow-orchestrator, kt:workflow-rules, kt:process-builder]
 relations:
-  - {predicate: governedBy, object: kt:order-of-execution}
+  - {predicate: dependsOn, object: kt:order-of-execution}
   - {predicate: partOf, object: kt:process-automation}
 sources:
   - id: s1

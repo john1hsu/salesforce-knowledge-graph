@@ -15,9 +15,9 @@ related: [kt:rest-api, kt:composite-api, kt:lightning-data-service, kt:soql, kt:
 relations:
   - {predicate: dependsOn, object: kt:user-interface-api}
   - {predicate: alternativeTo, object: kt:rest-api}
-  - {predicate: usedBy, object: kt:lightning-web-components}
+  - {predicate: consumedBy, object: kt:lightning-web-components}
   - {predicate: governedBy, object: kt:api-request-limits}
-  - {predicate: governedBy, object: kt:field-level-security}
+  - {predicate: dependsOn, object: kt:field-level-security}
   - {predicate: coveredBy, object: kt:integration-architect-certification}
 sources:
   - id: s1

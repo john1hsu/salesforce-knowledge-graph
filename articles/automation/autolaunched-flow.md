@@ -15,7 +15,7 @@ related: [kt:subflows, kt:screen-flow, kt:record-triggered-flow, kt:flow-orchest
 relations:
   - {predicate: integratesWith, object: kt:apex}
   - {predicate: governedBy, object: kt:governor-limits}
-  - {predicate: usedBy, object: kt:agentforce}
+  - {predicate: consumedBy, object: kt:agentforce}
   - {predicate: queriedWith, object: kt:invocable-actions-api}
 sources:
   - id: s1

@@ -13,7 +13,7 @@ broader: [kt:integration-security]
 related: [kt:apex-callouts, kt:apex-continuations, kt:metadata-api]
 relations:
   - {predicate: alternativeTo, object: kt:named-credentials}
-  - {predicate: usedBy, object: kt:apex-callouts}
+  - {predicate: consumedBy, object: kt:apex-callouts}
   - {predicate: configuredVia, object: kt:metadata-api}
   - {predicate: coveredBy, object: kt:integration-architect-certification}
 sources:

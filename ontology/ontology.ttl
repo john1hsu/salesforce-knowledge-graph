@@ -18,7 +18,7 @@
 
 kto: a owl:Ontology ;
     rdfs:label "Salesforce Knowledge Graph ontology" ;
-    owl:versionInfo "1.0.0" .
+    owl:versionInfo "1.1.0" .
 
 # ---- Classes ---------------------------------------------------------------
 kto:Entity          a owl:Class ; rdfs:label "Entity" .
@@ -79,6 +79,7 @@ kto:requiresLicense a owl:ObjectProperty ; rdfs:range kto:Product ; rdfs:label "
 kto:introducedIn    a owl:ObjectProperty ; rdfs:range kto:Release ; rdfs:label "introduced in release" .
 kto:coveredBy       a owl:ObjectProperty ; rdfs:range kto:Certification ; rdfs:label "covered by certification exam" .
 kto:usedBy          a owl:ObjectProperty ; rdfs:range kto:Role ; rdfs:label "primarily used by role" .
+kto:consumedBy      a owl:ObjectProperty ; rdfs:label "used / consumed by (product, feature, API, language, standard); for a role use usedBy" .
 kto:acquiredBy      a owl:ObjectProperty ; rdfs:range kto:Organization ; rdfs:label "acquired by" .
 kto:contrastsWith   a owl:ObjectProperty , owl:SymmetricProperty ; rdfs:label "contrasts with (commonly confused)" .
 kto:instanceOf      a owl:ObjectProperty ; rdfs:label "instance of" .

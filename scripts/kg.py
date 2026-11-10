@@ -2,7 +2,8 @@
 """Salesforce Knowledge Graph builder and validator.
 
 Usage:
-  python3 scripts/kg.py check            # validate only (exit 1 on errors)
+  python3 scripts/kg.py check [--warnings]
+                                         # validate only (exit 1 on errors); --warnings lists every warning
   python3 scripts/kg.py build            # validate, then regenerate graph/
   python3 scripts/kg.py similar "Title" [--current "Spring '27"]
                                          # find existing articles close to a candidate topic;
@@ -10,6 +11,8 @@ Usage:
   python3 scripts/kg.py stale [--current "Spring '27"] [--next-release-date 2027-06-14] [--domain integration]
                                          # list stale articles, stalest first, and the suggested
                                          # refresh batch for this run (adaptive, 1-4 articles)
+
+  python3 scripts/kg.py seeds            # unwritten seed topics per domain (least-covered domain first)
 
 Articles live in articles/<domain>/<slug>.md with YAML frontmatter (see SCHEMA.md).
 Generated outputs (never hand-edit): graph/graph.jsonld, graph/triples.nt,
@@ -63,6 +66,11 @@ REQUIRED = ["id", "type", "title", "domain", "summary", "sources", "created", "r
 STATUSES = {"current", "beta", "pilot", "deprecated", "retired", "concept"}
 NEAR_DUP_THRESHOLD = 0.45   # shingle Jaccard on body text
 TITLE_DUP_THRESHOLD = 0.85  # token Jaccard on normalized titles/aliases
+LONG_BULLET_CHARS = 80      # list items longer than this make a claim and need a citation
+# Articles created on or after this date must cite every long bullet (an error); older articles
+# only get a warning until a refresh adds the citations. Once `check` prints no bullet warnings,
+# set this to an early date so the rule is enforced everywhere.
+BULLET_CITATIONS_ENFORCED_FROM = "2026-11-12"
 
 
 # ---------------------------------------------------------------- helpers ---
@@ -71,6 +79,31 @@ def ontology_terms() -> tuple[set[str], set[str]]:
     classes = set(re.findall(r"^kto:(\w+)\s+a owl:Class", text, re.M))
     props = set(re.findall(r"^kto:(\w+)\s+a owl:ObjectProperty", text, re.M))
     return classes, props
+
+
+def ontology_ranges() -> dict[str, str]:
+    """predicate -> class its object must be, from `rdfs:range kto:X` in the ontology."""
+    text = ONTOLOGY.read_text()
+    return dict(re.findall(r"^kto:(\w+)\s+a owl:ObjectProperty[^\n]*?rdfs:range kto:(\w+)", text, re.M))
+
+
+def ontology_subclasses() -> dict[str, set[str]]:
+    """class -> itself plus every class declared (transitively) as its subclass."""
+    text = ONTOLOGY.read_text()
+    parents: dict[str, set[str]] = defaultdict(set)
+    for cls, supers in re.findall(r"^kto:(\w+)\s+a owl:Class\s*;\s*rdfs:subClassOf ([^;.\n]+)", text, re.M):
+        parents[cls] |= set(re.findall(r"kto:(\w+)", supers))
+    out: dict[str, set[str]] = defaultdict(set)
+    for cls in set(parents) | {x for v in parents.values() for x in v}:
+        seen, todo = set(), [cls]
+        while todo:
+            c = todo.pop()
+            if c not in seen:
+                seen.add(c)
+                todo += parents.get(c, ())
+        for anc in seen:
+            out[anc].add(cls)
+    return out
 
 
 def norm(s: str) -> str:
@@ -132,8 +165,12 @@ def load_articles() -> tuple[list[dict], list[str]]:
 
 
 # ------------------------------------------------------------- validation ---
-def validate(arts: list[dict]) -> list[str]:
+def validate(arts: list[dict], warns: list[str] | None = None) -> list[str]:
+    """Return errors. Problems that should not block a commit yet are appended to `warns`."""
     classes, props = ontology_terms()
+    ranges, subclasses = ontology_ranges(), ontology_subclasses()
+    types = {a.get("id"): a.get("type") for a in arts}
+    warns = warns if warns is not None else []
     errs: list[str] = []
     ids: dict[str, str] = {}
     names: list[tuple[str, str, set]] = []
@@ -171,6 +208,11 @@ def validate(arts: list[dict]) -> list[str]:
                 errs.append(f"{p}: predicate '{r['predicate']}' not in ontology (add it to ontology.ttl first)")
             if not ID_RE.match(str(r["object"])):
                 errs.append(f"{p}: relation object '{r['object']}' is not a kt: id")
+            # Range: only checkable once the target is written (frontier nodes have no type yet).
+            want, got = ranges.get(r["predicate"]), types.get(r["object"])
+            if want and got and got not in subclasses.get(want, {want}):
+                errs.append(f"{p}: {r['predicate']} must point to a {want}, but {r['object']} is a {got} "
+                            f"(pick a predicate that fits, e.g. dependsOn, consumedBy or related)")
 
         if a.get("release") and not RELEASE_RE.match(str(a["release"])):
             errs.append(f"{p}: release '{a['release']}' must look like \"Winter '27\"")
@@ -227,6 +269,13 @@ def validate(arts: list[dict]) -> list[str]:
                 continue
             if "[^s" not in t:
                 errs.append(f"{p}: uncited paragraph: '{t[:70]}...'")
+        # every long list item must carry a citation too (the paragraph rule skips short blocks,
+        # and one cited bullet used to cover a whole list)
+        strict = str(a.get("created", "")) >= BULLET_CITATIONS_ENFORCED_FROM
+        for line in prose.splitlines():
+            t = line.strip()
+            if re.match(r"(?:[-*+]|\d+[.)]) ", t) and len(t) > LONG_BULLET_CHARS and "[^s" not in t:
+                (errs if strict else warns).append(f"{p}: uncited bullet: '{t[:70]}...'")
         if len(re.findall(r"\w+", prose)) < 350:
             errs.append(f"{p}: body is under 350 words")
 
@@ -263,6 +312,34 @@ def edges(a: dict):
 
 def lit(s: str) -> str:
     return '"' + str(s).replace("\\", "\\\\").replace('"', '\\"').replace("\n", " ") + '"'
+
+
+def rank_frontier(arts: list[dict], frontier: dict[str, list[str]]) -> list[tuple[str, list[str]]]:
+    """Order frontier nodes: most distinct referrers first; ties by the referrers' summed PageRank,
+    then by the smallest domain among the referrers, then by id. Without the PageRank tie-break
+    almost every node ties at one referrer and the order is alphabetical, which biased the
+    depth runs toward ids starting with a, b, c."""
+    by_id = {a["id"]: a for a in arts}
+    dom_size = Counter(a["domain"] for a in arts)
+    pr: dict[str, float] = {}
+    try:
+        import networkx as nx
+        g = nx.DiGraph()
+        g.add_nodes_from(by_id)
+        for a in arts:
+            for _, o in edges(a):
+                g.add_edge(a["id"], o)
+        pr = nx.pagerank(g) if g.number_of_nodes() else {}
+    except ImportError:
+        pass
+
+    def key(kv):
+        node, refs = kv
+        uniq = sorted(set(refs))
+        return (-len(uniq), -round(sum(pr.get(r, 0.0) for r in uniq), 6),
+                min(dom_size[by_id[r]["domain"]] for r in uniq), node)
+
+    return [(k, sorted(set(v))) for k, v in sorted(frontier.items(), key=key)]
 
 
 def build(arts: list[dict]) -> None:
@@ -325,9 +402,10 @@ def build(arts: list[dict]) -> None:
     (GRAPH / "index.json").write_text(json.dumps(sorted(index, key=lambda x: x["id"]), indent=2, ensure_ascii=False) + "\n")
 
     # frontier: referenced-but-unwritten nodes, best candidates for the next article
-    fl = sorted(frontier.items(), key=lambda kv: (-len(kv[1]), kv[0]))
-    lines = ["# Frontier", "", "Nodes referenced by existing articles but not yet written, ranked by how many "
-             "articles point to them. Generated by `scripts/kg.py build`.", ""]
+    fl = rank_frontier(arts, frontier)
+    lines = ["# Frontier", "", "Nodes referenced by existing articles but not yet written. Ranked by how many "
+             "articles point to them; ties go to the node whose referrers are most central (summed PageRank), "
+             "then to the one referenced from the least-covered domain. Generated by `scripts/kg.py build`.", ""]
     if fl:
         lines += ["| Node | Referenced by |", "|---|---|"]
         lines += [f"| `{k}` | {', '.join(f'`{x}`' for x in v)} |" for k, v in fl]
@@ -370,6 +448,11 @@ def build(arts: list[dict]) -> None:
         out += ["_(install networkx for centrality and community metrics)_", ""]
     out += ["## By type", ""] + [f"- {k}: {v}" for k, v in sorted(by_type.items())]
     out += ["", "## By domain", ""] + [f"- {k}: {v}" for k, v in sorted(by_dom.items())]
+    left = unwritten_seeds(arts)
+    if left:
+        out += ["", f"## Unwritten seeds by domain (add more below {MIN_UNWRITTEN_SEEDS})", ""]
+        out += [f"- {d}: {len(v)}" + (" (running low)" if len(v) < MIN_UNWRITTEN_SEEDS else "")
+                for d, v in sorted(left.items())]
     out += ["", "## By verified release (oldest = most likely stale)", ""]
     out += [f"- {k}: {v}" for k, v in sorted(Counter(a["release"] for a in arts).items(), key=lambda kv: release_key(kv[0]))]
     out += ["", "## By status", ""] + [f"- {k}: {v}" for k, v in sorted(Counter(a["status"] for a in arts).items())]
@@ -484,6 +567,31 @@ def stale(arts: list[dict], current: str | None = None, domain: str | None = Non
         print(f"  {i}  {t}  ({d})")
 
 
+MIN_UNWRITTEN_SEEDS = 3
+
+
+def unwritten_seeds(arts: list[dict]) -> dict[str, list[str]]:
+    """domain -> seed topics in topics/seeds.yaml that no article id, title or alias names yet."""
+    path = ROOT / "topics" / "seeds.yaml"
+    if not path.exists():
+        return {}
+    domains = (yaml.safe_load(path.read_text()) or {}).get("domains") or {}
+    ids = {a.get("id") for a in arts}
+    names = {norm(x) for a in arts for x in [a.get("title", "")] + list(a.get("aliases") or [])}
+    return {d: [t for t in (topics or []) if f"kt:{t}" not in ids and norm(str(t).replace("-", " ")) not in names]
+            for d, topics in domains.items()}
+
+
+def seeds(arts: list[dict]) -> None:
+    left = unwritten_seeds(arts)
+    count = Counter(a["domain"] for a in arts)
+    for d in sorted(left, key=lambda d: (count[d], d)):
+        low = "  <- running low, add seeds" if len(left[d]) < MIN_UNWRITTEN_SEEDS else ""
+        print(f"{d} ({count[d]} written, {len(left[d])} unwritten seeds){low}")
+        for t in left[d]:
+            print(f"  {t}")
+
+
 def opt(args: list[str], name: str) -> tuple[str | None, list[str]]:
     if name not in args:
         return None, args
@@ -495,6 +603,9 @@ def opt(args: list[str], name: str) -> tuple[str | None, list[str]]:
 def main() -> int:
     cmd = sys.argv[1] if len(sys.argv) > 1 else "check"
     arts, errs = load_articles()
+    if cmd == "seeds":
+        seeds(arts)
+        return 0
     if cmd == "stale":
         current, args = opt(sys.argv[2:], "--current")
         domain, args = opt(args, "--domain")
@@ -521,7 +632,15 @@ def main() -> int:
             args = args[:k] + args[k + 2:]
         similar(" ".join(args), arts, current)
         return 0
-    errs += validate(arts) if not errs else []
+    warns: list[str] = []
+    errs += validate(arts, warns) if not errs else []
+    if warns:
+        files = len({w.split(": ", 1)[0] for w in warns})
+        print(f"{len(warns)} warning(s) in {files} article(s) (not blocking; fix them when you refresh the article):")
+        for w in (warns if "--warnings" in sys.argv else warns[:5]):
+            print("  -", w)
+        if "--warnings" not in sys.argv and len(warns) > 5:
+            print(f"  ... {len(warns) - 5} more; run `python3 scripts/kg.py check --warnings` to list all")
     if errs:
         print(f"{len(errs)} problem(s):")
         for e in errs:

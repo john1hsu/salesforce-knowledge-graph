@@ -12,7 +12,7 @@ status: current
 broader: [kt:metadata-driven-architecture]
 related: [kt:record-types, kt:page-layouts, kt:path, kt:sales-cloud, kt:service-cloud, kt:lead-conversion]
 relations:
-  - {predicate: usedBy, object: kt:record-types}
+  - {predicate: consumedBy, object: kt:record-types}
   - {predicate: configuredVia, object: kt:metadata-api}
   - {predicate: queriedWith, object: kt:soql}
   - {predicate: contrastsWith, object: kt:process-automation}

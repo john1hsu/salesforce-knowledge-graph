@@ -15,7 +15,7 @@ related: [kt:agentforce, kt:agent-actions, kt:knowledge-base, kt:data-model-obje
 relations:
   - {predicate: dependsOn, object: kt:data-cloud}
   - {predicate: configuredVia, object: kt:prompt-builder}
-  - {predicate: usedBy, object: kt:atlas-reasoning-engine}
+  - {predicate: consumedBy, object: kt:atlas-reasoning-engine}
   - {predicate: hasPart, object: kt:agentforce-data-library}
 sources:
   - id: s1

@@ -13,8 +13,8 @@ broader: [kt:salesforce-platform]
 related: [kt:object-relationships, kt:query-optimizer-selectivity]
 relations:
   - {predicate: governedBy, object: kt:governor-limits}
-  - {predicate: usedBy, object: kt:apex}
-  - {predicate: usedBy, object: kt:bulk-api-2}
+  - {predicate: consumedBy, object: kt:apex}
+  - {predicate: consumedBy, object: kt:bulk-api-2}
   - {predicate: contrastsWith, object: kt:sosl}
 sources:
   - id: s1

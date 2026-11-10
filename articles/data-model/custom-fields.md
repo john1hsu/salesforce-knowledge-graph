@@ -12,7 +12,7 @@ status: current
 broader: [kt:metadata-driven-architecture, kt:standard-objects]
 related: [kt:external-id-fields, kt:roll-up-summary-field, kt:object-relationships, kt:page-layouts, kt:field-history-tracking, kt:dynamic-forms]
 relations:
-  - {predicate: governedBy, object: kt:field-level-security}
+  - {predicate: dependsOn, object: kt:field-level-security}
   - {predicate: configuredVia, object: kt:metadata-api}
   - {predicate: queriedWith, object: kt:soql}
   - {predicate: hasPart, object: kt:lookup-vs-master-detail}

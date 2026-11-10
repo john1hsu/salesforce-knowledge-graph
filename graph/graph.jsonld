@@ -1933,7 +1933,7 @@
           "@id": "kt:governor-limits"
         }
       ],
-      "kto:usedBy": [
+      "kto:consumedBy": [
         {
           "@id": "kt:agentforce"
         }
@@ -2543,7 +2543,7 @@
           "@id": "kt:process-builder"
         }
       ],
-      "kto:governedBy": [
+      "kto:dependsOn": [
         {
           "@id": "kt:order-of-execution"
         }
@@ -3310,12 +3310,10 @@
           "@id": "kt:lightning-web-components"
         }
       ],
-      "kto:governedBy": [
+      "kto:dependsOn": [
         {
           "@id": "kt:salesforce-sharing-model"
-        }
-      ],
-      "kto:dependsOn": [
+        },
         {
           "@id": "kt:autolaunched-flow"
         }
@@ -3661,7 +3659,7 @@
           "@id": "kt:revenue-cloud"
         }
       ],
-      "kto:usedBy": [
+      "kto:consumedBy": [
         {
           "@id": "kt:business-rules-engine"
         },
@@ -3783,7 +3781,7 @@
           "@id": "kt:data-cloud"
         }
       ],
-      "kto:governedBy": [
+      "kto:dependsOn": [
         {
           "@id": "kt:salesforce-sharing-model"
         }
@@ -4336,7 +4334,7 @@
           "@id": "kt:apex"
         }
       ],
-      "kto:governedBy": [
+      "kto:integratesWith": [
         {
           "@id": "kt:duplicate-management"
         }
@@ -7322,7 +7320,7 @@
           "@id": "kt:prompt-builder"
         }
       ],
-      "kto:usedBy": [
+      "kto:consumedBy": [
         {
           "@id": "kt:atlas-reasoning-engine"
         }
@@ -7589,7 +7587,7 @@
           "@id": "kt:lead-conversion"
         }
       ],
-      "kto:usedBy": [
+      "kto:consumedBy": [
         {
           "@id": "kt:record-types"
         }
@@ -7697,7 +7695,7 @@
           "@id": "kt:dynamic-forms"
         }
       ],
-      "kto:governedBy": [
+      "kto:dependsOn": [
         {
           "@id": "kt:field-level-security"
         }
@@ -9042,7 +9040,7 @@
           "@id": "kt:soql"
         }
       ],
-      "kto:usedBy": [
+      "kto:consumedBy": [
         {
           "@id": "kt:person-accounts"
         }
@@ -10755,7 +10753,7 @@
           "@id": "kt:governor-limits"
         }
       ],
-      "kto:usedBy": [
+      "kto:consumedBy": [
         {
           "@id": "kt:apex"
         },
@@ -10842,7 +10840,7 @@
           "@id": "kt:governor-limits"
         }
       ],
-      "kto:usedBy": [
+      "kto:consumedBy": [
         {
           "@id": "kt:apex"
         }
@@ -11797,7 +11795,7 @@
           "@id": "kt:second-generation-managed-packages"
         }
       ],
-      "kto:usedBy": [
+      "kto:consumedBy": [
         {
           "@id": "kt:unlocked-packages"
         }
@@ -15275,6 +15273,9 @@
       "kto:dependsOn": [
         {
           "@id": "kt:user-interface-api"
+        },
+        {
+          "@id": "kt:field-level-security"
         }
       ],
       "kto:alternativeTo": [
@@ -15282,7 +15283,7 @@
           "@id": "kt:rest-api"
         }
       ],
-      "kto:usedBy": [
+      "kto:consumedBy": [
         {
           "@id": "kt:lightning-web-components"
         }
@@ -15290,9 +15291,6 @@
       "kto:governedBy": [
         {
           "@id": "kt:api-request-limits"
-        },
-        {
-          "@id": "kt:field-level-security"
         }
       ],
       "kto:coveredBy": [
@@ -16319,7 +16317,7 @@
           "@id": "kt:named-credentials"
         }
       ],
-      "kto:usedBy": [
+      "kto:consumedBy": [
         {
           "@id": "kt:apex-callouts"
         }
@@ -17713,7 +17711,7 @@
           "@id": "kt:platform-cache-partitions"
         }
       ],
-      "kto:usedBy": [
+      "kto:consumedBy": [
         {
           "@id": "kt:apex"
         }
@@ -18726,7 +18724,7 @@
           "@id": "kt:fips-200"
         }
       ],
-      "kto:usedBy": [
+      "kto:consumedBy": [
         {
           "@id": "kt:fedramp-high"
         }
@@ -18812,7 +18810,7 @@
           "@id": "kt:nist-sp-800-53"
         }
       ],
-      "kto:usedBy": [
+      "kto:consumedBy": [
         {
           "@id": "kt:fedramp"
         }
@@ -19399,7 +19397,7 @@
           "@id": "kt:multi-factor-authentication"
         }
       ],
-      "kto:usedBy": [
+      "kto:consumedBy": [
         {
           "@id": "kt:fedramp-high"
         }
@@ -19757,7 +19755,7 @@
           "@id": "kt:iso-iec-27001"
         }
       ],
-      "kto:usedBy": [
+      "kto:consumedBy": [
         {
           "@id": "kt:well-architected-framework"
         }
@@ -20179,6 +20177,9 @@
         },
         {
           "@id": "kt:restriction-rules"
+        },
+        {
+          "@id": "kt:data-skew"
         }
       ],
       "kto:partOf": [
@@ -20194,11 +20195,6 @@
       "kto:causes": [
         {
           "@id": "kt:group-membership-locking"
-        }
-      ],
-      "kto:governedBy": [
-        {
-          "@id": "kt:data-skew"
         }
       ],
       "kto:coveredBy": [

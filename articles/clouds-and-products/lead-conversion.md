@@ -12,7 +12,7 @@ status: current
 broader: [kt:sales-cloud]
 related: [kt:business-processes, kt:person-accounts, kt:assignment-rules, kt:record-types, kt:standard-objects, kt:apex]
 relations:
-  - {predicate: governedBy, object: kt:duplicate-management}
+  - {predicate: integratesWith, object: kt:duplicate-management}
   - {predicate: configuredVia, object: kt:metadata-api}
   - {predicate: coveredBy, object: kt:sales-cloud-consultant-certification}
   - {predicate: coveredBy, object: kt:platform-administrator-certification}

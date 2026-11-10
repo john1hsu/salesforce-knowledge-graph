@@ -76,6 +76,7 @@ PRED = {
     "introducedIn": ("Introduced in", "Introduced"),
     "coveredBy": ("On the exam for", "Exam covers"),
     "usedBy": ("Used by", "Uses"),
+    "consumedBy": ("Used by", "Uses"),
     "acquiredBy": ("Acquired by", "Acquired"),
     "contrastsWith": ("Often confused with", "Often confused with"),
     "instanceOf": ("Instance of", "Has instance"),
@@ -298,8 +299,10 @@ def main() -> int:
     for a in arts:
         for p, t in out_edges(a):
             incoming[t].append((p, a["id"]))
-    frontier = sorted(((t, srcs) for t, srcs in incoming.items() if t not in written),
-                      key=lambda x: (-len({s for _, s in x[1]}), x[0]))
+    # Same order as graph/frontier.md, so the page shows what the depth runs will pick next.
+    rank = {t: i for i, (t, _) in enumerate(kg.rank_frontier(
+        arts, {t: [s for _, s in srcs] for t, srcs in incoming.items() if t not in written}))}
+    frontier = sorted(((t, srcs) for t, srcs in incoming.items() if t not in written), key=lambda x: rank[x[0]])
     domains = [d for d in sorted(set(seeds) | set(by_domain), key=lambda d: (-len(by_domain.get(d, [])), d))]
     live_domains = [d for d in domains if by_domain.get(d)]
     releases = sorted({a["release"] for a in arts}, key=kg.release_key)

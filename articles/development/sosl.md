@@ -14,7 +14,7 @@ related: [kt:apex, kt:knowledge-base, kt:salesforce-sharing-model]
 relations:
   - {predicate: contrastsWith, object: kt:soql}
   - {predicate: governedBy, object: kt:governor-limits}
-  - {predicate: usedBy, object: kt:apex}
+  - {predicate: consumedBy, object: kt:apex}
   - {predicate: coveredBy, object: kt:platform-developer-certification}
 sources:
   - id: s1

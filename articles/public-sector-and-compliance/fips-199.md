@@ -14,7 +14,7 @@ broader: [kt:security-compliance-frameworks]
 related: [kt:fedramp, kt:nist-sp-800-53, kt:government-cloud-plus, kt:nist-sp-800-60]
 relations:
   - {predicate: enables, object: kt:fips-200}
-  - {predicate: usedBy, object: kt:fedramp-high}
+  - {predicate: consumedBy, object: kt:fedramp-high}
 sources:
   - id: s1
     title: "FIPS 199, Standards for Security Categorization of Federal Information and Information Systems"

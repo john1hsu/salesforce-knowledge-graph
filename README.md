@@ -19,20 +19,23 @@ python3 scripts/site.py && python3 -m http.server -d _site 8000
 | Nodes | One Markdown article per entity, with YAML frontmatter holding its id, class, hierarchy, typed edges, lifecycle status, the release it was verified against, and per-article provenance | `articles/<domain>/` |
 | Graph exports | Linked-data exports regenerated on every commit: JSON-LD, N-Triples, an index | `graph/graph.jsonld`, `graph/triples.nt`, `graph/index.json` |
 | Analytics | PageRank centrality, Louvain communities, connected components, coverage by type, domain, release and status | `graph/stats.md` |
-| Frontier | Nodes existing articles point to but nobody has written yet; the hourly run alternates between expanding this (depth) and the least-covered domain (breadth) | `graph/frontier.md` |
+| Frontier | Nodes existing articles point to but nobody has written yet; ranked by referrer count, then referrer centrality; the hourly run alternates between expanding this (depth) and the least-covered domain (breadth) | `graph/frontier.md` |
 
 ## Guarantees enforced by `scripts/kg.py`
 
-- **Cited:** at least 3 sources per article, at least 2 strong and at least 1 official Salesforce source (docs or Trailhead); every source is cited and every substantive paragraph carries a citation.
+- **Cited:** at least 3 sources per article, at least 2 strong and at least 1 official Salesforce source (docs or Trailhead); every source is cited, and every substantive paragraph and long list item carries a citation (list items are a warning on older articles until their next refresh). A weekly workflow (`.github/workflows/linkcheck.yml`, `scripts/linkcheck.py`) requests every cited URL and keeps one `link-rot` issue listing the dead ones.
 - **Current:** each node records the Salesforce release it was verified against and its lifecycle status; deprecated or retired features must point to their replacement.
 - **Unique:** no duplicate ids, titles or aliases (former product names count); near-paraphrase titles and overlapping text are rejected.
-- **Well-formed:** classes and predicates must exist in the ontology.
+- **Well-formed:** classes and predicates must exist in the ontology, and predicates with a declared range (`governedBy`, `usedBy`, `coveredBy`, …) must point at a node of that class.
 
 ```bash
 pip install pyyaml networkx
 python3 scripts/kg.py check              # validate
 python3 scripts/kg.py build              # validate + regenerate graph/
+python3 scripts/kg.py check --warnings   # also list every non-blocking warning
 python3 scripts/kg.py similar "Topic"    # check a candidate for duplicates
+python3 scripts/kg.py seeds              # unwritten seed topics per domain
+python3 scripts/linkcheck.py             # request every cited source URL (slow)
 ```
 
 Steer what gets written by editing `topics/seeds.yaml`. The run playbook is `CLAUDE.md`; the article format is `SCHEMA.md`. The `.nt` and `.jsonld` exports load into RDF tools (Apache Jena, GraphDB, rdflib) or Neo4j via n10s.

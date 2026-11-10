@@ -13,8 +13,8 @@ status: current
 broader: [kt:salesforce-industries]
 related: [kt:data-model-objects, kt:revenue-cloud]
 relations:
-  - {predicate: usedBy, object: kt:business-rules-engine}
-  - {predicate: usedBy, object: kt:salesforce-pricing}
+  - {predicate: consumedBy, object: kt:business-rules-engine}
+  - {predicate: consumedBy, object: kt:salesforce-pricing}
   - {predicate: queriedWith, object: kt:connect-api}
   - {predicate: configuredVia, object: kt:tooling-api}
   - {predicate: configuredVia, object: kt:metadata-api}

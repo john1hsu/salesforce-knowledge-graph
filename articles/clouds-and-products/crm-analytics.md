@@ -17,7 +17,7 @@ relations:
   - {predicate: queriedWith, object: kt:saql}
   - {predicate: alternativeTo, object: kt:tableau}
   - {predicate: integratesWith, object: kt:data-cloud}
-  - {predicate: governedBy, object: kt:salesforce-sharing-model}
+  - {predicate: dependsOn, object: kt:salesforce-sharing-model}
 sources:
   - id: s1
     title: "CRM Analytics (Salesforce Help)"

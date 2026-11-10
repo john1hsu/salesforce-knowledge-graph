@@ -14,7 +14,7 @@ broader: [kt:salesforce-platform]
 related: [kt:governor-limits, kt:soql, kt:apex-callouts, kt:custom-metadata-types, kt:custom-settings, kt:second-generation-managed-packages]
 relations:
   - {predicate: configuredVia, object: kt:platform-cache-partitions}
-  - {predicate: usedBy, object: kt:apex}
+  - {predicate: consumedBy, object: kt:apex}
 sources:
   - id: s1
     title: "Platform Cache Features (Apex Developer Guide)"

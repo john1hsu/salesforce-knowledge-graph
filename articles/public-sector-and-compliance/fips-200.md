@@ -16,7 +16,7 @@ related: [kt:fips-199, kt:nist-sp-800-53, kt:nist-sp-800-53b, kt:government-clou
 relations:
   - {predicate: dependsOn, object: kt:fips-199}
   - {predicate: dependsOn, object: kt:nist-sp-800-53}
-  - {predicate: usedBy, object: kt:fedramp}
+  - {predicate: consumedBy, object: kt:fedramp}
 sources:
   - id: s1
     title: "FIPS 200, Minimum Security Requirements for Federal Information and Information Systems"

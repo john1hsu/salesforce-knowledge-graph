@@ -11,12 +11,11 @@ summary: >-
 release: "Winter '27"
 status: current
 broader: [kt:salesforce-sharing-model]
-related: [kt:role-hierarchy, kt:sharing-rules, kt:sharing-recalculation, kt:implicit-sharing, kt:restriction-rules]
+related: [kt:role-hierarchy, kt:sharing-rules, kt:sharing-recalculation, kt:implicit-sharing, kt:restriction-rules, kt:data-skew]
 relations:
   - {predicate: partOf, object: kt:sales-cloud}
   - {predicate: contrastsWith, object: kt:role-hierarchy}
   - {predicate: causes, object: kt:group-membership-locking}
-  - {predicate: governedBy, object: kt:data-skew}
   - {predicate: coveredBy, object: kt:sharing-and-visibility-architect-certification}
 sources:
   - id: s1

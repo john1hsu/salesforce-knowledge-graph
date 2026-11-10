@@ -14,7 +14,7 @@ related: [kt:person-accounts, kt:page-layouts, kt:business-processes, kt:apex, k
 relations:
   - {predicate: configuredVia, object: kt:metadata-api}
   - {predicate: queriedWith, object: kt:soql}
-  - {predicate: usedBy, object: kt:person-accounts}
+  - {predicate: consumedBy, object: kt:person-accounts}
   - {predicate: dependsOn, object: kt:business-processes}
 sources:
   - id: s1

@@ -74,6 +74,21 @@
 - public-sector-and-compliance: 19
 - security-and-sharing: 23
 
+## Unwritten seeds by domain (add more below 3)
+
+- architecture-practice: 10
+- automation: 12
+- clouds-and-products: 11
+- data-cloud-and-ai: 9
+- data-model: 10
+- development: 11
+- devops-and-alm: 9
+- identity: 8
+- integration: 10
+- platform-architecture: 6
+- public-sector-and-compliance: 10
+- security-and-sharing: 9
+
 ## By verified release (oldest = most likely stale)
 
 - Winter '27: 248

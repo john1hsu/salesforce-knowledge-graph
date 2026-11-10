@@ -14,7 +14,7 @@ related: [kt:scratch-orgs, kt:first-generation-managed-packages, kt:package-depe
 relations:
   - {predicate: partOf, object: kt:dev-hub}
   - {predicate: enables, object: kt:second-generation-managed-packages}
-  - {predicate: usedBy, object: kt:unlocked-packages}
+  - {predicate: consumedBy, object: kt:unlocked-packages}
 sources:
   - id: s1
     title: "Link a Namespace to a Dev Hub Org"
