@@ -10545,6 +10545,96 @@
       ]
     },
     {
+      "@id": "kt:limit-exception",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "LimitException",
+      "skos:definition": "The built-in Apex exception (System.LimitException) that the runtime throws when a transaction exceeds a governor limit; unlike most exceptions it cannot be caught, so the transaction stops and its uncommitted work is rolled back.",
+      "kto:domain": "development",
+      "dcterms:created": "2026-11-10",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Apex Reference Guide: Exception Class and Built-In Exceptions",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_classes_exception_methods.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Apex Developer Guide: Exception Statements",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.264.0.apexcode.meta/pages/apex_exception_statements.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Apex Developer Guide: Execution Governors and Limits",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_gov_limits.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Apex Reference Guide: Limits Class",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_limits.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Apex Developer Guide: Exceptions in Apex",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_exception_definition.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Platform Developer Certification Prep: Get a Refresh on SOQL, SOSL, and DML",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/platform-developer-i-certification-prep-logic-and-process-automation/pd1-2-soql-sosl-dml",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/development/limit-exception.md",
+      "skos:altLabel": [
+        "System.LimitException",
+        "Apex LimitException",
+        "governor limit exception",
+        "uncatchable limit exception"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:apex"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:limits-class"
+        },
+        {
+          "@id": "kt:bulkification"
+        },
+        {
+          "@id": "kt:asynchronous-apex"
+        },
+        {
+          "@id": "kt:transaction-control"
+        },
+        {
+          "@id": "kt:event-monitoring"
+        },
+        {
+          "@id": "kt:apex-testing"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:governor-limits"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:second-generation-managed-packages"
+        }
+      ]
+    },
+    {
       "@id": "kt:platform-developer-certification",
       "@type": "kto:Certification",
       "skos:prefLabel": "Platform Developer Certification",

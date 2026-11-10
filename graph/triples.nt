@@ -3431,6 +3431,33 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-web-components> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-web-components> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-web-components> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/limit-exception> <http://purl.org/dc/terms/created> "2026-11-10" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/limit-exception> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/limit-exception> <http://www.w3.org/2000/01/rdf-schema#label> "LimitException" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/limit-exception> <http://www.w3.org/2004/02/skos/core#altLabel> "Apex LimitException" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/limit-exception> <http://www.w3.org/2004/02/skos/core#altLabel> "System.LimitException" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/limit-exception> <http://www.w3.org/2004/02/skos/core#altLabel> "governor limit exception" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/limit-exception> <http://www.w3.org/2004/02/skos/core#altLabel> "uncatchable limit exception" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/limit-exception> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/limit-exception> <http://www.w3.org/2004/02/skos/core#definition> "The built-in Apex exception (System.LimitException) that the runtime throws when a transaction exceeds a governor limit; unlike most exceptions it cannot be caught, so the transaction stops and its uncommitted work is rolled back." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/limit-exception> <http://www.w3.org/2004/02/skos/core#prefLabel> "LimitException" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/limit-exception> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-testing> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/limit-exception> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/asynchronous-apex> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/limit-exception> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/bulkification> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/limit-exception> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/event-monitoring> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/limit-exception> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/limits-class> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/limit-exception> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/transaction-control> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/limit-exception> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/limit-exception/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/limit-exception> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/limit-exception/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/limit-exception> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/limit-exception/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/limit-exception> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/limit-exception/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/limit-exception> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/limit-exception/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/limit-exception> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/limit-exception/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/limit-exception> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#consumedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/second-generation-managed-packages> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/limit-exception> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "development" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/limit-exception> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#governedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/governor-limits> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/limit-exception> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/limit-exception> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/login-flows> <http://purl.org/dc/terms/created> "2026-11-06" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/login-flows> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/login-flows> <http://www.w3.org/2000/01/rdf-schema#label> "Login Flows" .
@@ -9768,6 +9795,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lightning-web-components/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lightning-web-components/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lightning-web-components/s6> <https://schema.org/url> "https://developer.salesforce.com/docs/component-library/documentation/en/lwc/lwc.apex_call_imperative" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/limit-exception/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/limit-exception/s1> <http://purl.org/dc/terms/title> "Apex Reference Guide: Exception Class and Built-In Exceptions" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/limit-exception/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/limit-exception/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/limit-exception/s1> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_classes_exception_methods.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/limit-exception/s2> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/limit-exception/s2> <http://purl.org/dc/terms/title> "Apex Developer Guide: Exception Statements" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/limit-exception/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/limit-exception/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/limit-exception/s2> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.264.0.apexcode.meta/pages/apex_exception_statements.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/limit-exception/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/limit-exception/s3> <http://purl.org/dc/terms/title> "Apex Developer Guide: Execution Governors and Limits" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/limit-exception/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/limit-exception/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/limit-exception/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_gov_limits.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/limit-exception/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/limit-exception/s4> <http://purl.org/dc/terms/title> "Apex Reference Guide: Limits Class" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/limit-exception/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/limit-exception/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/limit-exception/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_limits.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/limit-exception/s5> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/limit-exception/s5> <http://purl.org/dc/terms/title> "Apex Developer Guide: Exceptions in Apex" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/limit-exception/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/limit-exception/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/limit-exception/s5> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_exception_definition.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/limit-exception/s6> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/limit-exception/s6> <http://purl.org/dc/terms/title> "Platform Developer Certification Prep: Get a Refresh on SOQL, SOSL, and DML" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/limit-exception/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/limit-exception/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/limit-exception/s6> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/platform-developer-i-certification-prep-logic-and-process-automation/pd1-2-soql-sosl-dml" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/login-flows/s1> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/login-flows/s1> <http://purl.org/dc/terms/title> "Custom Login Flows" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/login-flows/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
