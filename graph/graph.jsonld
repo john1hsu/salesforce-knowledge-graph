@@ -21087,6 +21087,87 @@
       ]
     },
     {
+      "@id": "kt:shared-responsibility-model",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Shared Responsibility Model",
+      "skos:definition": "The cloud security principle that the provider and the customer each own a defined part of security and compliance: on Salesforce, the provider secures the infrastructure and platform, while the customer secures its own users, configuration and data.",
+      "kto:domain": "public-sector-and-compliance",
+      "dcterms:created": "2026-11-10",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Security as a Shared Responsibility Between Provider and Customer",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/blog/shared-responsibility-model/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Security Perspective on the Shared Responsibility Model",
+          "dcterms:publisher": "Salesforce Compliance Portal",
+          "schema:url": "https://compliance.salesforce.com/documents/a006e000010nW2FAAU",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "General Access Control Guidance for Cloud Systems (NIST SP 800-210)",
+          "dcterms:publisher": "National Institute of Standards and Technology",
+          "schema:url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-210.pdf",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "Who is responsible for the cloud security controls?",
+          "dcterms:publisher": "FedRAMP (GSA)",
+          "schema:url": "https://help.fedramp.gov/hc/en-us/articles/27700955089563-Who-is-responsible-for-the-cloud-security-controls",
+          "kto:sourceType": "government"
+        },
+        {
+          "dcterms:title": "Improve Your Org's Security with Salesforce Health Check (Security Basics)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/security_basics/security_basics_healthcheck",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Learn About the Shared Responsibility Model (AWS Cloud Security)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/en/content/learn/modules/aws-cloud-security/learn-about-the-shared-responsibility-model",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/public-sector-and-compliance/shared-responsibility-model.md",
+      "skos:altLabel": [
+        "cloud shared responsibility model",
+        "shared security responsibility",
+        "security of the cloud vs security in the cloud"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:cloud-computing"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:platform-as-a-service"
+        },
+        {
+          "@id": "kt:data-breach-risk"
+        },
+        {
+          "@id": "kt:multi-factor-authentication"
+        },
+        {
+          "@id": "kt:salesforce-shield"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:fedramp"
+        },
+        {
+          "@id": "kt:dod-cloud-computing-srg"
+        }
+      ]
+    },
+    {
       "@id": "kt:soc-2",
       "@type": "kto:ExternalConcept",
       "skos:prefLabel": "SOC 2",
