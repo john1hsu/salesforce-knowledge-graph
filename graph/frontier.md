@@ -14,7 +14,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:permission-set-licenses` | `kt:identity-connect`, `kt:permission-sets` |
 | `kt:user-interface-api` | `kt:graphql-api`, `kt:lightning-data-service` |
 | `kt:salesforce-analytics` | `kt:crm-analytics`, `kt:tableau` |
-| `kt:price-books` | `kt:salesforce-cpq`, `kt:salesforce-pricing` |
 | `kt:continuous-monitoring` | `kt:authority-to-operate`, `kt:fisma` |
 | `kt:nist-risk-management-framework` | `kt:authority-to-operate`, `kt:fisma` |
 | `kt:test-data-factory` | `kt:apex-testing` |
@@ -76,9 +75,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:financial-services-cloud` | `kt:person-accounts` |
 | `kt:data-detect` | `kt:salesforce-shield` |
 | `kt:compact-layouts` | `kt:page-layouts` |
+| `kt:custom-objects` | `kt:standard-objects` |
 | `kt:platform-administrator-ii-certification` | `kt:platform-administrator-certification` |
 | `kt:flow-bulkification` | `kt:bulkification` |
-| `kt:custom-objects` | `kt:standard-objects` |
 | `kt:zero-trust-architecture` | `kt:principle-of-least-privilege` |
 | `kt:entitlement-process-metadata` | `kt:entitlement-management` |
 | `kt:dispatcher-console` | `kt:field-service` |
@@ -86,26 +85,26 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:field-service-scheduling-policies` | `kt:field-service` |
 | `kt:service-appointments` | `kt:field-service` |
 | `kt:work-orders` | `kt:field-service` |
-| `kt:iso-iec-27002` | `kt:iso-iec-27001` |
 | `kt:dynamic-revenue-orchestrator` | `kt:revenue-cloud` |
 | `kt:revenue-management-consultant-certification` | `kt:revenue-cloud` |
+| `kt:iso-iec-27002` | `kt:iso-iec-27001` |
+| `kt:decision-tables` | `kt:salesforce-pricing` |
 | `kt:hitrust-csf` | `kt:nist-cybersecurity-framework` |
+| `kt:constraint-modeling-language` | `kt:product-configurator` |
+| `kt:product-catalog-management` | `kt:product-configurator` |
 | `kt:tableau-next` | `kt:tableau` |
 | `kt:tableau-pulse` | `kt:tableau` |
 | `kt:tableau-semantics` | `kt:tableau` |
+| `kt:opportunity-teams` | `kt:opportunity-splits` |
+| `kt:revenue-intelligence` | `kt:collaborative-forecasts` |
 | `kt:data-cloud-activation` | `kt:data-cloud-segmentation` |
 | `kt:data-graphs` | `kt:data-cloud-segmentation` |
 | `kt:agentexchange` | `kt:appexchange-security-review` |
-| `kt:opportunity-teams` | `kt:opportunity-splits` |
-| `kt:revenue-intelligence` | `kt:collaborative-forecasts` |
-| `kt:constraint-modeling-language` | `kt:product-configurator` |
-| `kt:product-catalog-management` | `kt:product-configurator` |
 | `kt:delegated-authentication` | `kt:identity-connect` |
 | `kt:scim` | `kt:salesforce-scim` |
 | `kt:path` | `kt:business-processes` |
 | `kt:visualforce` | `kt:apex-continuations` |
 | `kt:salesforce-ecosystem` | `kt:salesforce-inc` |
-| `kt:decision-tables` | `kt:salesforce-pricing` |
 | `kt:einstein-discovery` | `kt:crm-analytics` |
 | `kt:saql` | `kt:crm-analytics` |
 | `kt:apex-rest-services` | `kt:remote-call-in` |
@@ -118,6 +117,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:json-web-token` | `kt:openid-connect` |
 | `kt:apexguru` | `kt:scale-test` |
 | `kt:scale-center` | `kt:scale-test` |
+| `kt:multiple-currencies` | `kt:price-books` |
+| `kt:opportunity-products` | `kt:price-books` |
 | `kt:flow-limits` | `kt:flow-versioning` |
 | `kt:holidays` | `kt:business-hours` |
 | `kt:ingestion-api` | `kt:data-streams` |

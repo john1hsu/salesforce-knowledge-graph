@@ -9517,6 +9517,94 @@
       ]
     },
     {
+      "@id": "kt:price-books",
+      "@type": "kto:StandardObject",
+      "skos:prefLabel": "Price Books",
+      "skos:definition": "The Salesforce standard objects that hold what a company charges for its products: Pricebook2 is a list of products, and each PricebookEntry sets one product's price in one price book and currency, with every product priced first in the standard price book before custom price books can override it.",
+      "kto:domain": "data-model",
+      "dcterms:created": "2026-11-10",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "PricebookEntry | Object Reference for the Salesforce Platform",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/object_reference/sforce_api_objects_pricebookentry.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "OpportunityLineItem | Object Reference for the Salesforce Platform",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/object_reference/sforce_api_objects_opportunitylineitem.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Test Class | Apex Reference Guide",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_test.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Create Price Books to Track Your Products",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/en/sales_admin_products_quotes_contracts/sales_admin_products_quotes_contracts_unit_1",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Manage Products, Prices, Quotes, and Orders: Create Custom Price Books",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/projects/manage-products-prices-quotes-orders/create-custom-price-books",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/data-model/price-books.md",
+      "skos:altLabel": [
+        "price book",
+        "Pricebook2",
+        "PricebookEntry",
+        "price book entry",
+        "standard price book",
+        "custom price book"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:standard-objects"
+        },
+        {
+          "@id": "kt:sales-cloud"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:junction-object"
+        },
+        {
+          "@id": "kt:apex-testing"
+        },
+        {
+          "@id": "kt:revenue-cloud"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:salesforce-cpq"
+        },
+        {
+          "@id": "kt:salesforce-pricing"
+        }
+      ],
+      "kto:enables": [
+        {
+          "@id": "kt:opportunity-products"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:multiple-currencies"
+        }
+      ]
+    },
+    {
       "@id": "kt:record-types",
       "@type": "kto:Feature",
       "skos:prefLabel": "Record Types",
