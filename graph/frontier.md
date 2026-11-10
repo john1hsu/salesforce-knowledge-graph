@@ -7,12 +7,11 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:connect-api` | `kt:business-rules-engine`, `kt:context-service`, `kt:data-cloud-segmentation`, `kt:product-configurator`, `kt:salesforce-industries`, `kt:salesforce-pricing` |
 | `kt:public-groups` | `kt:group-membership-locking`, `kt:queues`, `kt:sharing-rules` |
 | `kt:omnistudio` | `kt:business-rules-engine`, `kt:public-sector-solutions`, `kt:salesforce-industries` |
-| `kt:scratch-org-allocations` | `kt:dev-hub`, `kt:scratch-orgs` |
 | `kt:salesforce-apis` | `kt:bulk-api-2`, `kt:graphql-api` |
 | `kt:soap-api` | `kt:external-id-fields`, `kt:rest-api` |
 | `kt:invocable-actions-api` | `kt:autolaunched-flow`, `kt:subflows` |
-| `kt:custom-index-limits` | `kt:custom-indexes`, `kt:external-id-fields` |
 | `kt:soql-injection` | `kt:appexchange-security-review`, `kt:code-analyzer` |
+| `kt:custom-index-limits` | `kt:custom-indexes`, `kt:external-id-fields` |
 | `kt:user-interface-api` | `kt:graphql-api`, `kt:lightning-data-service` |
 | `kt:permission-set-licenses` | `kt:identity-connect`, `kt:permission-sets` |
 | `kt:salesforce-analytics` | `kt:crm-analytics`, `kt:tableau` |
@@ -47,8 +46,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:development-lifecycle-and-deployment-architect-certification` | `kt:system-architect-certification` |
 | `kt:api-led-connectivity` | `kt:mulesoft-anypoint-platform` |
 | `kt:mule-runtime-engine` | `kt:mulesoft-anypoint-platform` |
-| `kt:governance-risk-and-compliance` | `kt:security-compliance-frameworks` |
 | `kt:salesforce-architecture-program` | `kt:salesforce-architecture-center` |
+| `kt:governance-risk-and-compliance` | `kt:security-compliance-frameworks` |
 | `kt:openid-connect` | `kt:openid-connect-authentication-providers` |
 | `kt:legacy-named-credentials` | `kt:named-credentials` |
 | `kt:managed-event-subscriptions` | `kt:pub-sub-api` |
@@ -105,9 +104,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:apex-rest-services` | `kt:remote-call-in` |
 | `kt:delegated-authentication` | `kt:identity-connect` |
 | `kt:salesforce-scim` | `kt:identity-connect` |
+| `kt:agentexchange` | `kt:appexchange-security-review` |
 | `kt:apex-mocks` | `kt:apex-enterprise-patterns` |
 | `kt:data-quality` | `kt:duplicate-management` |
-| `kt:agentexchange` | `kt:appexchange-security-review` |
 | `kt:einstein-discovery` | `kt:crm-analytics` |
 | `kt:saql` | `kt:crm-analytics` |
 | `kt:data-cloud-activation` | `kt:data-cloud-segmentation` |

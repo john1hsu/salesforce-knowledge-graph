@@ -12259,6 +12259,78 @@
       ]
     },
     {
+      "@id": "kt:scratch-org-allocations",
+      "@type": "kto:Limit",
+      "skos:prefLabel": "Scratch Org Allocations",
+      "skos:definition": "The per-Dev Hub caps on how many scratch orgs can exist at once (active allocation) and how many can be created in a rolling 24-hour window (daily allocation), set by the Dev Hub's edition, with separate figures for partner business orgs and a matching cap on scratch org snapshots.",
+      "kto:domain": "devops-and-alm",
+      "dcterms:created": "2026-11-10",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Supported Scratch Org Editions and Allocations",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/sfdx-dev/guide/sfdx-dev-scratch-orgs-editions-and-allocations.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Scratch Org Allocations for Salesforce Partners",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/pkg1-dev/guide/isv-partner-scratch-org-allocations.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Manage Scratch Orgs from the Dev Hub Org",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/pkg1-dev/guide/sfdx-dev-scratch-orgs-view-lex.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Scratch Org Snapshots",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/sfdx-dev/guide/sfdx-dev-snapshots-intro.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/devops-and-alm/scratch-org-allocations.md",
+      "skos:altLabel": [
+        "scratch org limits",
+        "ActiveScratchOrgs",
+        "DailyScratchOrgs",
+        "active scratch org allocation",
+        "daily scratch org allocation",
+        "snapshot allocation"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-dx"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:scratch-orgs"
+        },
+        {
+          "@id": "kt:dev-hub"
+        },
+        {
+          "@id": "kt:second-generation-managed-packages"
+        },
+        {
+          "@id": "kt:salesforce-cli"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:data-and-file-storage-allocations"
+        },
+        {
+          "@id": "kt:api-request-limits"
+        }
+      ]
+    },
+    {
       "@id": "kt:scratch-orgs",
       "@type": "kto:Feature",
       "skos:prefLabel": "Scratch Orgs",
