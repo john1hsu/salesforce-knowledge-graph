@@ -10,11 +10,12 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:soap-api` | `kt:external-id-fields`, `kt:rest-api` |
 | `kt:salesforce-apis` | `kt:bulk-api-2`, `kt:graphql-api` |
 | `kt:invocable-actions-api` | `kt:autolaunched-flow`, `kt:subflows` |
+| `kt:shared-responsibility-model` | `kt:data-breach-risk`, `kt:platform-as-a-service` |
+| `kt:heroku` | `kt:platform-as-a-service`, `kt:salesforce-cpq` |
 | `kt:permission-set-licenses` | `kt:identity-connect`, `kt:permission-sets` |
 | `kt:user-interface-api` | `kt:graphql-api`, `kt:lightning-data-service` |
 | `kt:salesforce-analytics` | `kt:crm-analytics`, `kt:tableau` |
 | `kt:price-books` | `kt:salesforce-cpq`, `kt:salesforce-pricing` |
-| `kt:platform-as-a-service` | `kt:salesforce-platform` |
 | `kt:test-data-factory` | `kt:apex-testing` |
 | `kt:recursive-save` | `kt:order-of-execution` |
 | `kt:salesforce-data-mask` | `kt:environment-strategy` |
@@ -30,8 +31,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:change-data-capture-allocations` | `kt:change-data-capture` |
 | `kt:platform-event-channel-member` | `kt:change-data-capture` |
 | `kt:apex-flex-queue` | `kt:batch-apex` |
-| `kt:external-identity-license` | `kt:experience-cloud-identity` |
 | `kt:custom-domains` | `kt:my-domain` |
+| `kt:external-identity-license` | `kt:experience-cloud-identity` |
 | `kt:government-cloud` | `kt:government-cloud-plus` |
 | `kt:org-check` | `kt:technical-debt-in-salesforce` |
 | `kt:salesforce-optimizer` | `kt:technical-debt-in-salesforce` |
@@ -51,6 +52,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:streaming-api` | `kt:pub-sub-api` |
 | `kt:upsert` | `kt:external-id-fields` |
 | `kt:platform-developer-ii-certification` | `kt:platform-developer-certification` |
+| `kt:cloud-computing` | `kt:platform-as-a-service` |
+| `kt:infrastructure-as-a-service` | `kt:platform-as-a-service` |
+| `kt:software-as-a-service` | `kt:platform-as-a-service` |
 | `kt:external-services` | `kt:apex-callouts` |
 | `kt:scoping-rules` | `kt:restriction-rules` |
 | `kt:backup-and-recover` | `kt:archiving-strategy` |
@@ -70,7 +74,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:lightning-message-service` | `kt:aura-components` |
 | `kt:contacts-to-multiple-accounts` | `kt:person-accounts` |
 | `kt:financial-services-cloud` | `kt:person-accounts` |
-| `kt:shared-responsibility-model` | `kt:data-breach-risk` |
 | `kt:compact-layouts` | `kt:page-layouts` |
 | `kt:platform-administrator-ii-certification` | `kt:platform-administrator-certification` |
 | `kt:custom-objects` | `kt:standard-objects` |
@@ -108,7 +111,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:einstein-discovery` | `kt:crm-analytics` |
 | `kt:saql` | `kt:crm-analytics` |
 | `kt:dynamic-soql` | `kt:soql-injection` |
-| `kt:heroku` | `kt:salesforce-cpq` |
 | `kt:dynamic-actions` | `kt:dynamic-forms` |
 | `kt:dynamic-highlights-panel` | `kt:dynamic-forms` |
 | `kt:json-web-token` | `kt:openid-connect` |

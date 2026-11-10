@@ -18686,6 +18686,87 @@
       ]
     },
     {
+      "@id": "kt:platform-as-a-service",
+      "@type": "kto:ExternalConcept",
+      "skos:prefLabel": "Platform as a Service",
+      "skos:definition": "The cloud service model, defined by NIST SP 800-145, in which a provider runs the network, servers, operating systems and storage while the customer deploys and controls its own applications using the provider's languages, libraries, services and tools; the Salesforce Platform and Heroku are Salesforce's two PaaS offerings.",
+      "kto:domain": "platform-architecture",
+      "dcterms:created": "2026-11-10",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "The NIST Definition of Cloud Computing (NIST SP 800-145)",
+          "dcterms:publisher": "National Institute of Standards and Technology",
+          "schema:url": "https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-145.pdf",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "SP 800-145, The NIST Definition of Cloud Computing (publication page)",
+          "dcterms:publisher": "NIST Computer Security Resource Center",
+          "schema:url": "https://csrc.nist.gov/pubs/sp/800/145/final",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "What Is PaaS (Platform as a Service)?",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/in/paas/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Salesforce Developers Blog post on Platform as a Service (Summer '07 release)",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2007/07/whats-paasd-is",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "How Heroku Works",
+          "dcterms:publisher": "Heroku Dev Center",
+          "schema:url": "https://devcenter.heroku.com/articles/how-heroku-works",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Peek Under the Hood of Heroku (Heroku Enterprise Basics)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/heroku_enterprise_baiscs/under_the_hood",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/platform-architecture/platform-as-a-service.md",
+      "skos:altLabel": [
+        "PaaS",
+        "platform-as-a-service",
+        "PaaS cloud service model"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:cloud-computing"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:salesforce-platform"
+        },
+        {
+          "@id": "kt:heroku"
+        },
+        {
+          "@id": "kt:multitenancy"
+        },
+        {
+          "@id": "kt:shared-responsibility-model"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:infrastructure-as-a-service"
+        },
+        {
+          "@id": "kt:software-as-a-service"
+        }
+      ]
+    },
+    {
       "@id": "kt:platform-cache",
       "@type": "kto:Feature",
       "skos:prefLabel": "Platform Cache",
