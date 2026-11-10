@@ -6455,6 +6455,106 @@
       ]
     },
     {
+      "@id": "kt:ai-models",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "AI Models",
+      "skos:definition": "The Data 360 (Data Cloud) workspace, formerly Einstein Studio and its Model Builder, where teams build no-code predictive models on harmonized data, connect externally hosted predictive models (BYOM) and large language models (BYOLLM), and configure, test and manage the models that predictions, prompts and agents use.",
+      "kto:domain": "data-cloud-and-ai",
+      "dcterms:created": "2026-11-10",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Get to Know Einstein Studio (Build AI Models in Einstein Studio)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/build-ai-models-in-einstein-studio/get-to-know-einstein-studio",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Bring Your Own Large Language Model in Einstein 1 Studio",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2024/03/bring-your-own-large-language-model-in-einstein-1-studio",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Get Started with AI Models (Agentforce Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/ai/agentforce/guide/get-started-einstein-studio.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Supported Models (Agentforce Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/ai/agentforce/guide/supported-models.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "How to Build a Predictive AI Model in Data Cloud",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2024/07/how-to-build-a-predictive-ai-model-in-data-cloud",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Use Model Builder to Integrate Databricks Models with Salesforce",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2024/03/use-model-builder-to-integrate-databricks-models-with-salesforce",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/data-cloud-and-ai/ai-models.md",
+      "skos:altLabel": [
+        "Model Builder",
+        "Einstein Studio",
+        "Einstein 1 Studio Model Builder",
+        "Data 360 AI Models",
+        "bring your own model",
+        "BYOM",
+        "bring your own LLM",
+        "BYOLLM"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:data-cloud"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:agentforce-studio"
+        },
+        {
+          "@id": "kt:retrieval-augmented-generation-in-salesforce"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:data-model-objects"
+        },
+        {
+          "@id": "kt:einstein-trust-layer"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:prompt-builder"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:flow-builder"
+        }
+      ],
+      "kto:enables": [
+        {
+          "@id": "kt:data-cloud-segmentation"
+        }
+      ],
+      "kto:queriedWith": [
+        {
+          "@id": "kt:models-api"
+        }
+      ]
+    },
+    {
       "@id": "kt:atlas-reasoning-engine",
       "@type": "kto:Feature",
       "skos:prefLabel": "Atlas Reasoning Engine",
