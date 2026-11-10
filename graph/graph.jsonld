@@ -9405,6 +9405,106 @@
       ]
     },
     {
+      "@id": "kt:validation-rules",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Validation Rules",
+      "skos:definition": "Declarative, per-object rules whose error condition formula is evaluated on save; when the formula returns true, Salesforce blocks the save and shows a custom error message on a field or at the top of the page.",
+      "kto:domain": "data-model",
+      "dcterms:created": "2026-11-10",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Validation Rules (Formulas and Validations module)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/point_click_business_logic/validation_rules",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Get Started with Validation Rules (Validation Rules module)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/fr/content/learn/modules/validation-rules/get-started-with-validation-rules",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Implement Best Practices (Validation Rules module)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/validation-rules/implement-best-practices",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Bypass Your Validation Rules (Validation Rules module)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Triggers and Order of Execution (Apex Developer Guide, Winter '27)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_triggers_order_of_execution.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "ValidationRule (Tooling API Developer Guide, Winter '27)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api_tooling.meta/api_tooling/tooling_api_objects_validationrule.htm",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/data-model/validation-rules.md",
+      "skos:altLabel": [
+        "validation rule",
+        "custom validation rule",
+        "error condition formula",
+        "ValidationRule"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:data-quality"
+        },
+        {
+          "@id": "kt:formula-fields"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:custom-fields"
+        },
+        {
+          "@id": "kt:duplicate-management"
+        },
+        {
+          "@id": "kt:data-migration-strategy"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:order-of-execution"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:custom-permissions"
+        },
+        {
+          "@id": "kt:permission-sets"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:apex-triggers"
+        },
+        {
+          "@id": "kt:record-triggered-flow"
+        }
+      ],
+      "kto:queriedWith": [
+        {
+          "@id": "kt:tooling-api"
+        }
+      ]
+    },
+    {
       "@id": "kt:apex-callouts",
       "@type": "kto:Feature",
       "skos:prefLabel": "Apex Callouts",
