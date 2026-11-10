@@ -19364,6 +19364,97 @@
       ]
     },
     {
+      "@id": "kt:authority-to-operate",
+      "@type": "kto:ExternalConcept",
+      "skos:prefLabel": "Authority to Operate",
+      "skos:definition": "The formal, risk-based decision by a senior US federal official (the authorizing official) to let an information system operate and to accept its residual risk; for a Salesforce government org it is the agency's own sign-off, usually issued by reusing the provider's FedRAMP security package.",
+      "kto:domain": "public-sector-and-compliance",
+      "dcterms:created": "2026-11-10",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "authorization to operate (ATO) — Glossary",
+          "dcterms:publisher": "NIST Computer Security Resource Center",
+          "schema:url": "https://csrc.nist.gov/glossary/term/authorization_to_operate",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "Agency Authorization Playbook — Authorization",
+          "dcterms:publisher": "FedRAMP (GSA)",
+          "schema:url": "https://www.fedramp.gov/legacy/playbook/agency/authorization/authorization/",
+          "kto:sourceType": "government"
+        },
+        {
+          "dcterms:title": "Reusing Authorizations for Cloud Products Quick Guide",
+          "dcterms:publisher": "FedRAMP (GSA)",
+          "schema:url": "https://www.fedramp.gov/assets/resources/documents/Reusing_Authorizations_for_Cloud_Products_Quick_Guide.pdf",
+          "kto:sourceType": "government"
+        },
+        {
+          "dcterms:title": "How can an agency reuse an existing security package for a FedRAMP Authorized product?",
+          "dcterms:publisher": "FedRAMP Help Center (GSA)",
+          "schema:url": "https://help.fedramp.gov/hc/en-us/articles/27702813350555-How-can-an-agency-reuse-an-existing-security-package-for-a-FedRAMP-Authorized-product",
+          "kto:sourceType": "government"
+        },
+        {
+          "dcterms:title": "FedRAMP High — Salesforce Compliance",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://compliance.salesforce.com/en/fedramp-high",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Salesforce Launches Government Cloud Plus, Achieves FedRAMP Provisional Authority to Operate at the High Security Impact Level",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/news/press-releases/2020/06/18/salesforce-launches-government-cloud-plus-achieves-fedramp-provisional-authority-to-operate-at-the-high-security-impact-level/",
+          "kto:sourceType": "news"
+        }
+      ],
+      "kto:file": "articles/public-sector-and-compliance/authority-to-operate.md",
+      "skos:altLabel": [
+        "Authorization to Operate",
+        "agency authorization to operate",
+        "approval to operate",
+        "security authorization",
+        "agency ATO"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:security-compliance-frameworks"
+        },
+        {
+          "@id": "kt:nist-risk-management-framework"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:fisma"
+        },
+        {
+          "@id": "kt:government-cloud-plus"
+        },
+        {
+          "@id": "kt:fedramp-high"
+        },
+        {
+          "@id": "kt:public-sector-solutions"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:fedramp"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:nist-sp-800-53"
+        },
+        {
+          "@id": "kt:continuous-monitoring"
+        }
+      ]
+    },
+    {
       "@id": "kt:cjis-security-policy",
       "@type": "kto:ExternalConcept",
       "skos:prefLabel": "CJIS Security Policy",
