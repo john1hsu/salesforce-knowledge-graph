@@ -12,8 +12,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:invocable-actions-api` | `kt:autolaunched-flow`, `kt:subflows` |
 | `kt:soql-injection` | `kt:appexchange-security-review`, `kt:code-analyzer` |
 | `kt:custom-index-limits` | `kt:custom-indexes`, `kt:external-id-fields` |
-| `kt:user-interface-api` | `kt:graphql-api`, `kt:lightning-data-service` |
 | `kt:permission-set-licenses` | `kt:identity-connect`, `kt:permission-sets` |
+| `kt:user-interface-api` | `kt:graphql-api`, `kt:lightning-data-service` |
 | `kt:salesforce-analytics` | `kt:crm-analytics`, `kt:tableau` |
 | `kt:price-books` | `kt:salesforce-cpq`, `kt:salesforce-pricing` |
 | `kt:limit-exception` | `kt:governor-limits` |
@@ -33,8 +33,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:lightning-web-security` | `kt:lightning-web-components` |
 | `kt:change-data-capture-allocations` | `kt:change-data-capture` |
 | `kt:platform-event-channel-member` | `kt:change-data-capture` |
-| `kt:external-identity-license` | `kt:experience-cloud-identity` |
 | `kt:custom-domains` | `kt:my-domain` |
+| `kt:external-identity-license` | `kt:experience-cloud-identity` |
 | `kt:government-cloud` | `kt:government-cloud-plus` |
 | `kt:apex-flex-queue` | `kt:batch-apex` |
 | `kt:org-check` | `kt:technical-debt-in-salesforce` |
@@ -66,12 +66,12 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:salesforce-go` | `kt:knowledge-base` |
 | `kt:mixed-dml-error` | `kt:future-methods` |
 | `kt:trailhead` | `kt:salesforce-certification-program` |
+| `kt:user-access-policies` | `kt:permission-sets` |
 | `kt:omni-channel-limits` | `kt:omni-channel` |
 | `kt:presence-configuration` | `kt:omni-channel` |
 | `kt:skills-based-routing` | `kt:omni-channel` |
 | `kt:nist-sp-800-60` | `kt:fips-199` |
 | `kt:lightning-message-service` | `kt:aura-components` |
-| `kt:user-access-policies` | `kt:permission-sets` |
 | `kt:contacts-to-multiple-accounts` | `kt:person-accounts` |
 | `kt:financial-services-cloud` | `kt:person-accounts` |
 | `kt:shared-responsibility-model` | `kt:data-breach-risk` |
@@ -84,8 +84,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:field-service-scheduling-policies` | `kt:field-service` |
 | `kt:service-appointments` | `kt:field-service` |
 | `kt:work-orders` | `kt:field-service` |
-| `kt:data-detect` | `kt:salesforce-shield` |
 | `kt:zero-trust-architecture` | `kt:principle-of-least-privilege` |
+| `kt:data-detect` | `kt:salesforce-shield` |
 | `kt:dynamic-revenue-orchestrator` | `kt:revenue-cloud` |
 | `kt:revenue-management-consultant-certification` | `kt:revenue-cloud` |
 | `kt:iso-iec-27002` | `kt:iso-iec-27001` |
@@ -98,12 +98,12 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:product-catalog-management` | `kt:product-configurator` |
 | `kt:path` | `kt:business-processes` |
 | `kt:decision-tables` | `kt:salesforce-pricing` |
+| `kt:delegated-authentication` | `kt:identity-connect` |
+| `kt:scim` | `kt:salesforce-scim` |
 | `kt:visualforce` | `kt:apex-continuations` |
 | `kt:salesforce-ecosystem` | `kt:salesforce-inc` |
 | `kt:hitrust-csf` | `kt:nist-cybersecurity-framework` |
 | `kt:apex-rest-services` | `kt:remote-call-in` |
-| `kt:delegated-authentication` | `kt:identity-connect` |
-| `kt:salesforce-scim` | `kt:identity-connect` |
 | `kt:agentexchange` | `kt:appexchange-security-review` |
 | `kt:apex-mocks` | `kt:apex-enterprise-patterns` |
 | `kt:data-quality` | `kt:duplicate-management` |

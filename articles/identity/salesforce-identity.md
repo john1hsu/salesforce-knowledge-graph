@@ -11,7 +11,7 @@ summary: >-
 release: "Winter '27"
 status: current
 broader: [kt:salesforce-platform]
-related: [kt:experience-cloud, kt:experience-cloud-identity, kt:identity-connect]
+related: [kt:experience-cloud, kt:experience-cloud-identity, kt:identity-connect, kt:salesforce-scim]
 relations:
   - {predicate: hasPart, object: kt:single-sign-on-saml}
   - {predicate: hasPart, object: kt:multi-factor-authentication}
