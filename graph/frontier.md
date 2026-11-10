@@ -84,9 +84,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:service-appointments` | `kt:field-service` |
 | `kt:work-orders` | `kt:field-service` |
 | `kt:data-detect` | `kt:salesforce-shield` |
-| `kt:iso-iec-27002` | `kt:iso-iec-27001` |
 | `kt:dynamic-revenue-orchestrator` | `kt:revenue-cloud` |
 | `kt:revenue-management-consultant-certification` | `kt:revenue-cloud` |
+| `kt:iso-iec-27002` | `kt:iso-iec-27001` |
 | `kt:hitrust-csf` | `kt:nist-cybersecurity-framework` |
 | `kt:tableau-next` | `kt:tableau` |
 | `kt:tableau-pulse` | `kt:tableau` |
@@ -100,8 +100,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:decision-tables` | `kt:salesforce-pricing` |
 | `kt:delegated-authentication` | `kt:identity-connect` |
 | `kt:scim` | `kt:salesforce-scim` |
-| `kt:visualforce` | `kt:apex-continuations` |
 | `kt:salesforce-ecosystem` | `kt:salesforce-inc` |
+| `kt:visualforce` | `kt:apex-continuations` |
 | `kt:apex-rest-services` | `kt:remote-call-in` |
 | `kt:apex-mocks` | `kt:apex-enterprise-patterns` |
 | `kt:data-quality` | `kt:duplicate-management` |
@@ -136,11 +136,14 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:ingestion-api` | `kt:data-streams` |
 | `kt:platform-cache-partitions` | `kt:platform-cache` |
 | `kt:validation-rules` | `kt:formula-fields` |
+| `kt:salesforce-governance` | `kt:salesforce-center-of-excellence` |
 | `kt:mutual-tls-authentication` | `kt:login-ip-ranges-and-trusted-ip-ranges` |
 | `kt:authority-to-operate` | `kt:fisma` |
 | `kt:continuous-monitoring` | `kt:fisma` |
 | `kt:digital-accessibility` | `kt:section-508-accessibility` |
 | `kt:health-cloud` | `kt:hipaa` |
 | `kt:nist-risk-management-framework` | `kt:fisma` |
-| `kt:salesforce-governance` | `kt:salesforce-center-of-excellence` |
 | `kt:wcag` | `kt:section-508-accessibility` |
+| `kt:business-architecture` | `kt:capability-maps` |
+| `kt:technology-roadmaps` | `kt:capability-maps` |
+| `kt:value-streams` | `kt:capability-maps` |

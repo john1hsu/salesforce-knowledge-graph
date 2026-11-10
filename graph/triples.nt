@@ -951,6 +951,33 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/calculated-insights> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/streaming-insights> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/calculated-insights> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/calculated-insights> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/capability-maps> <http://purl.org/dc/terms/created> "2026-11-10" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/capability-maps> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/capability-maps> <http://www.w3.org/2000/01/rdf-schema#label> "Capability Maps" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/capability-maps> <http://www.w3.org/2004/02/skos/core#altLabel> "business capability map" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/capability-maps> <http://www.w3.org/2004/02/skos/core#altLabel> "business capability model" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/capability-maps> <http://www.w3.org/2004/02/skos/core#altLabel> "capability map" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/capability-maps> <http://www.w3.org/2004/02/skos/core#altLabel> "capability mapping" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/capability-maps> <http://www.w3.org/2004/02/skos/core#altLabel> "technical capability map" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/capability-maps> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/business-architecture> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/capability-maps> <http://www.w3.org/2004/02/skos/core#definition> "A business-architecture artifact that lays out what an organization must be able to do, independent of its org chart, processes and systems, so architects can tie business drivers to Salesforce products, find gaps and prioritize a roadmap; Salesforce Architects publishes capability-map templates in its Reference Architecture Gallery." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/capability-maps> <http://www.w3.org/2004/02/skos/core#prefLabel> "Capability Maps" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/capability-maps> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/architecture-decision-records> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/capability-maps> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-center-of-excellence> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/capability-maps> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-diagrams> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/capability-maps> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-industries> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/capability-maps> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/value-streams> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/capability-maps> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/capability-maps/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/capability-maps> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/capability-maps/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/capability-maps> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/capability-maps/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/capability-maps> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/capability-maps/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/capability-maps> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/capability-maps/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/capability-maps> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/capability-maps/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/capability-maps> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "architecture-practice" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/capability-maps> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#enables> <https://github.com/john1hsu/salesforce-knowledge-graph/id/technology-roadmaps> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/capability-maps> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/capability-maps> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#usedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-architect> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/capability-maps> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/certified-technical-architect> <http://purl.org/dc/terms/created> "2026-11-05" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/certified-technical-architect> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Certification> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/certified-technical-architect> <http://www.w3.org/2000/01/rdf-schema#label> "Certified Technical Architect" .
@@ -7276,6 +7303,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/calculated-insights/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/calculated-insights/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/calculated-insights/s5> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/customer-data-platform-insights/use-insights-in-customer-data-platform" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/capability-maps/s1> <http://purl.org/dc/terms/publisher> "The Open Group" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/capability-maps/s1> <http://purl.org/dc/terms/title> "TOGAF Series Guide: Business Capabilities, Version 2" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/capability-maps/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/capability-maps/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "standards-body" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/capability-maps/s1> <https://schema.org/url> "https://pubs.opengroup.org/togaf-standard/business-architecture/business-capabilities.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/capability-maps/s2> <http://purl.org/dc/terms/publisher> "The Open Group" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/capability-maps/s2> <http://purl.org/dc/terms/title> "TOGAF Series Guide: Business Capability Planning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/capability-maps/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/capability-maps/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "standards-body" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/capability-maps/s2> <https://schema.org/url> "https://pubs.opengroup.org/togaf-standard/business-architecture/business-capability-planning.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/capability-maps/s3> <http://purl.org/dc/terms/publisher> "Salesforce Architects" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/capability-maps/s3> <http://purl.org/dc/terms/title> "Capability Map (Reference Diagrams)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/capability-maps/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/capability-maps/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/capability-maps/s3> <https://schema.org/url> "https://architect.salesforce.com/docs/architect/reference-diagrams/guide/section-capability-map.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/capability-maps/s4> <http://purl.org/dc/terms/publisher> "Salesforce Architects" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/capability-maps/s4> <http://purl.org/dc/terms/title> "Business Capability Map (Reference Diagrams)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/capability-maps/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/capability-maps/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/capability-maps/s4> <https://schema.org/url> "https://architect.salesforce.com/docs/architect/reference-diagrams/guide/business-capability-map" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/capability-maps/s5> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/capability-maps/s5> <http://purl.org/dc/terms/title> "Design a Business Capability Map (Diagramming Essentials)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/capability-maps/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/capability-maps/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/capability-maps/s5> <https://schema.org/url> "https://trailhead.salesforce.com/fr/content/learn/modules/diagramming-essentials/design-a-business-capability-map" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/capability-maps/s6> <http://purl.org/dc/terms/publisher> "Salesforce Architects (Marc Braga)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/capability-maps/s6> <http://purl.org/dc/terms/title> "Architect's Guide to Effective Roadmaps" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/capability-maps/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/capability-maps/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/capability-maps/s6> <https://schema.org/url> "https://medium.com/salesforce-architects/architects-guide-to-effective-roadmaps-fa8cbbb573e9" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/certified-technical-architect/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/certified-technical-architect/s1> <http://purl.org/dc/terms/title> "Certification - Salesforce Certified Technical Architect" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/certified-technical-architect/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

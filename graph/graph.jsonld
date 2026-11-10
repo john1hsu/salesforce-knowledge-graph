@@ -337,6 +337,94 @@
       ]
     },
     {
+      "@id": "kt:capability-maps",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Capability Maps",
+      "skos:definition": "A business-architecture artifact that lays out what an organization must be able to do, independent of its org chart, processes and systems, so architects can tie business drivers to Salesforce products, find gaps and prioritize a roadmap; Salesforce Architects publishes capability-map templates in its Reference Architecture Gallery.",
+      "kto:domain": "architecture-practice",
+      "dcterms:created": "2026-11-10",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "TOGAF Series Guide: Business Capabilities, Version 2",
+          "dcterms:publisher": "The Open Group",
+          "schema:url": "https://pubs.opengroup.org/togaf-standard/business-architecture/business-capabilities.html",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "TOGAF Series Guide: Business Capability Planning",
+          "dcterms:publisher": "The Open Group",
+          "schema:url": "https://pubs.opengroup.org/togaf-standard/business-architecture/business-capability-planning.html",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "Capability Map (Reference Diagrams)",
+          "dcterms:publisher": "Salesforce Architects",
+          "schema:url": "https://architect.salesforce.com/docs/architect/reference-diagrams/guide/section-capability-map.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Business Capability Map (Reference Diagrams)",
+          "dcterms:publisher": "Salesforce Architects",
+          "schema:url": "https://architect.salesforce.com/docs/architect/reference-diagrams/guide/business-capability-map",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Design a Business Capability Map (Diagramming Essentials)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/fr/content/learn/modules/diagramming-essentials/design-a-business-capability-map",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Architect's Guide to Effective Roadmaps",
+          "dcterms:publisher": "Salesforce Architects (Marc Braga)",
+          "schema:url": "https://medium.com/salesforce-architects/architects-guide-to-effective-roadmaps-fa8cbbb573e9",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/architecture-practice/capability-maps.md",
+      "skos:altLabel": [
+        "capability map",
+        "business capability map",
+        "business capability model",
+        "capability mapping",
+        "technical capability map"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:business-architecture"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:salesforce-diagrams"
+        },
+        {
+          "@id": "kt:salesforce-center-of-excellence"
+        },
+        {
+          "@id": "kt:architecture-decision-records"
+        },
+        {
+          "@id": "kt:value-streams"
+        },
+        {
+          "@id": "kt:salesforce-industries"
+        }
+      ],
+      "kto:usedBy": [
+        {
+          "@id": "kt:salesforce-architect"
+        }
+      ],
+      "kto:enables": [
+        {
+          "@id": "kt:technology-roadmaps"
+        }
+      ]
+    },
+    {
       "@id": "kt:certified-technical-architect",
       "@type": "kto:Certification",
       "skos:prefLabel": "Certified Technical Architect",
