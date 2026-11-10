@@ -7,7 +7,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:connect-api` | `kt:business-rules-engine`, `kt:context-service`, `kt:data-cloud-segmentation`, `kt:product-configurator`, `kt:salesforce-industries`, `kt:salesforce-pricing` |
 | `kt:public-groups` | `kt:group-membership-locking`, `kt:queues`, `kt:sharing-rules` |
 | `kt:omnistudio` | `kt:business-rules-engine`, `kt:public-sector-solutions`, `kt:salesforce-industries` |
-| `kt:bulkification` | `kt:limit-exception`, `kt:limits-class` |
 | `kt:soap-api` | `kt:external-id-fields`, `kt:rest-api` |
 | `kt:salesforce-apis` | `kt:bulk-api-2`, `kt:graphql-api` |
 | `kt:invocable-actions-api` | `kt:autolaunched-flow`, `kt:subflows` |
@@ -38,10 +37,10 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:salesforce-optimizer` | `kt:technical-debt-in-salesforce` |
 | `kt:orglimits-class` | `kt:limits-class` |
 | `kt:process-integration` | `kt:data-integration` |
+| `kt:transaction-finalizers` | `kt:queueable-apex` |
 | `kt:data-sovereignty` | `kt:data-residency` |
 | `kt:gdpr-international-transfers` | `kt:data-residency` |
 | `kt:hyperforce-operating-zones` | `kt:data-residency` |
-| `kt:transaction-finalizers` | `kt:queueable-apex` |
 | `kt:development-lifecycle-and-deployment-architect-certification` | `kt:system-architect-certification` |
 | `kt:governance-risk-and-compliance` | `kt:security-compliance-frameworks` |
 | `kt:api-led-connectivity` | `kt:mulesoft-anypoint-platform` |
@@ -76,6 +75,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:compact-layouts` | `kt:page-layouts` |
 | `kt:platform-administrator-ii-certification` | `kt:platform-administrator-certification` |
 | `kt:custom-objects` | `kt:standard-objects` |
+| `kt:flow-bulkification` | `kt:bulkification` |
 | `kt:data-detect` | `kt:salesforce-shield` |
 | `kt:entitlement-process-metadata` | `kt:entitlement-management` |
 | `kt:zero-trust-architecture` | `kt:principle-of-least-privilege` |
@@ -98,9 +98,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:product-catalog-management` | `kt:product-configurator` |
 | `kt:path` | `kt:business-processes` |
 | `kt:visualforce` | `kt:apex-continuations` |
-| `kt:decision-tables` | `kt:salesforce-pricing` |
 | `kt:delegated-authentication` | `kt:identity-connect` |
 | `kt:scim` | `kt:salesforce-scim` |
+| `kt:decision-tables` | `kt:salesforce-pricing` |
 | `kt:salesforce-ecosystem` | `kt:salesforce-inc` |
 | `kt:data-cloud-activation` | `kt:data-cloud-segmentation` |
 | `kt:data-graphs` | `kt:data-cloud-segmentation` |

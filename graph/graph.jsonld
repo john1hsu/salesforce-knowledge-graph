@@ -17129,6 +17129,99 @@
       ]
     },
     {
+      "@id": "kt:bulkification",
+      "@type": "kto:Pattern",
+      "skos:prefLabel": "Bulkification",
+      "skos:definition": "The Salesforce design pattern of writing Apex and automation to process a whole collection of records per execution, keeping SOQL queries and DML statements out of loops, so code stays within per-transaction governor limits whether it receives one record or a 200-record batch.",
+      "kto:domain": "platform-architecture",
+      "dcterms:created": "2026-11-10",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Trailhead: Bulk Apex Triggers (Apex Triggers module)",
+          "dcterms:publisher": "Salesforce Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/apex_triggers/apex_triggers_bulk",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Apex Developer Guide: Trigger and Bulk Request Best Practices",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_triggers_bestpract.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Apex Developer Guide: Running Apex within Governor Execution Limits",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_limits_tips.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Understanding the Bulk of the Salesforce1 Platform",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2014/08/understanding-bulk-salesforce1-platform",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Architect Decision Guide: Record-Triggered Automation",
+          "dcterms:publisher": "Salesforce Architects",
+          "schema:url": "https://architect.salesforce.com/docs/architect/decision-guides/guide/record-triggered",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Salesforce Certified Platform Developer Exam Guide",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=005298965&language=en_US&type=1",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/platform-architecture/bulkification.md",
+      "skos:altLabel": [
+        "bulkify",
+        "bulkified code",
+        "bulk-safe Apex",
+        "bulk trigger pattern"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:governor-limits"
+        },
+        {
+          "@id": "kt:multitenancy"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:apex-triggers"
+        },
+        {
+          "@id": "kt:soql"
+        },
+        {
+          "@id": "kt:record-triggered-flow"
+        },
+        {
+          "@id": "kt:trigger-framework-pattern"
+        },
+        {
+          "@id": "kt:flow-bulkification"
+        },
+        {
+          "@id": "kt:asynchronous-apex"
+        }
+      ],
+      "kto:mitigates": [
+        {
+          "@id": "kt:limit-exception"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:platform-developer-certification"
+        }
+      ]
+    },
+    {
       "@id": "kt:custom-index-limits",
       "@type": "kto:Limit",
       "skos:prefLabel": "Custom Index Limits",

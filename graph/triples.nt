@@ -840,6 +840,34 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/bulk-api-2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#governedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/bulk-api-allocations> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/bulk-api-2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/bulk-api-2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/bulkification> <http://purl.org/dc/terms/created> "2026-11-10" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/bulkification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Pattern> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/bulkification> <http://www.w3.org/2000/01/rdf-schema#label> "Bulkification" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/bulkification> <http://www.w3.org/2004/02/skos/core#altLabel> "bulk trigger pattern" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/bulkification> <http://www.w3.org/2004/02/skos/core#altLabel> "bulk-safe Apex" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/bulkification> <http://www.w3.org/2004/02/skos/core#altLabel> "bulkified code" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/bulkification> <http://www.w3.org/2004/02/skos/core#altLabel> "bulkify" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/bulkification> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/governor-limits> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/bulkification> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/multitenancy> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/bulkification> <http://www.w3.org/2004/02/skos/core#definition> "The Salesforce design pattern of writing Apex and automation to process a whole collection of records per execution, keeping SOQL queries and DML statements out of loops, so code stays within per-transaction governor limits whether it receives one record or a 200-record batch." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/bulkification> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bulkification" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/bulkification> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-triggers> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/bulkification> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/asynchronous-apex> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/bulkification> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-bulkification> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/bulkification> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/record-triggered-flow> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/bulkification> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/soql> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/bulkification> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/trigger-framework-pattern> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/bulkification> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulkification/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/bulkification> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulkification/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/bulkification> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulkification/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/bulkification> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulkification/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/bulkification> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulkification/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/bulkification> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulkification/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/bulkification> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#coveredBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-developer-certification> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/bulkification> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "platform-architecture" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/bulkification> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#mitigates> <https://github.com/john1hsu/salesforce-knowledge-graph/id/limit-exception> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/bulkification> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/bulkification> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/business-hours> <http://purl.org/dc/terms/created> "2026-11-07" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/business-hours> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/business-hours> <http://www.w3.org/2000/01/rdf-schema#label> "Business Hours" .
@@ -7276,6 +7304,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulk-api-2/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulk-api-2/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulk-api-2/s5> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/api-asynch/guide/bulk-common-limits.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulkification/s1> <http://purl.org/dc/terms/publisher> "Salesforce Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulkification/s1> <http://purl.org/dc/terms/title> "Trailhead: Bulk Apex Triggers (Apex Triggers module)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulkification/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulkification/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulkification/s1> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/apex_triggers/apex_triggers_bulk" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulkification/s2> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulkification/s2> <http://purl.org/dc/terms/title> "Apex Developer Guide: Trigger and Bulk Request Best Practices" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulkification/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulkification/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulkification/s2> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_triggers_bestpract.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulkification/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulkification/s3> <http://purl.org/dc/terms/title> "Apex Developer Guide: Running Apex within Governor Execution Limits" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulkification/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulkification/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulkification/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_limits_tips.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulkification/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulkification/s4> <http://purl.org/dc/terms/title> "Understanding the Bulk of the Salesforce1 Platform" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulkification/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulkification/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulkification/s4> <https://schema.org/url> "https://developer.salesforce.com/blogs/2014/08/understanding-bulk-salesforce1-platform" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulkification/s5> <http://purl.org/dc/terms/publisher> "Salesforce Architects" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulkification/s5> <http://purl.org/dc/terms/title> "Architect Decision Guide: Record-Triggered Automation" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulkification/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulkification/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulkification/s5> <https://schema.org/url> "https://architect.salesforce.com/docs/architect/decision-guides/guide/record-triggered" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulkification/s6> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulkification/s6> <http://purl.org/dc/terms/title> "Salesforce Certified Platform Developer Exam Guide" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulkification/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulkification/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulkification/s6> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=005298965&language=en_US&type=1" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-hours/s1> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-hours/s1> <http://purl.org/dc/terms/title> "Set Business Hours" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-hours/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
