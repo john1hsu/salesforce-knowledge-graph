@@ -40,8 +40,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:data-sovereignty` | `kt:data-residency` |
 | `kt:gdpr-international-transfers` | `kt:data-residency` |
 | `kt:hyperforce-operating-zones` | `kt:data-residency` |
-| `kt:process-integration` | `kt:data-integration` |
 | `kt:transaction-finalizers` | `kt:queueable-apex` |
+| `kt:process-integration` | `kt:data-integration` |
 | `kt:governance-risk-and-compliance` | `kt:security-compliance-frameworks` |
 | `kt:development-lifecycle-and-deployment-architect-certification` | `kt:system-architect-certification` |
 | `kt:api-led-connectivity` | `kt:mulesoft-anypoint-platform` |
@@ -146,6 +146,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:health-cloud` | `kt:hipaa` |
 | `kt:iso-iec-25010` | `kt:non-functional-requirements` |
 | `kt:models-api` | `kt:ai-models` |
+| `kt:release-management` | `kt:deployment-validation-and-quick-deploy` |
 | `kt:requirements-engineering` | `kt:non-functional-requirements` |
 | `kt:technology-roadmaps` | `kt:capability-maps` |
 | `kt:value-streams` | `kt:capability-maps` |

@@ -12369,6 +12369,86 @@
       ]
     },
     {
+      "@id": "kt:deployment-validation-and-quick-deploy",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Deployment Validation and Quick Deploy",
+      "skos:definition": "A two-step production release technique: a check-only Metadata API deployment runs the Apex tests and returns a job ID without committing anything, and a later quick deploy of that ID within 10 days commits the same components without re-running tests.",
+      "kto:domain": "devops-and-alm",
+      "dcterms:created": "2026-11-10",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Deploy a Recently Validated Component Set Without Tests",
+          "dcterms:publisher": "Salesforce Developers (Metadata API Developer Guide)",
+          "schema:url": "https://developer.salesforce.com/docs/platform/api-metadata/guide/meta-rest-deploy-recentvalidation.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "project deploy validate",
+          "dcterms:publisher": "Salesforce Developers (Salesforce CLI Command Reference)",
+          "schema:url": "https://developer.salesforce.com/docs/platform/salesforce-cli-reference/guide/cli_reference_project_deploy_validate.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "project deploy quick",
+          "dcterms:publisher": "Salesforce Developers (Salesforce CLI Command Reference)",
+          "schema:url": "https://developer.salesforce.com/docs/platform/salesforce-cli-reference/guide/cli_reference_project_deploy_quick.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Org Development Model: Test and Deploy Changes",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/org-development-model/test-and-deploy-changes",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Take a Deep Dive into Metadata API Deployments",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2025/09/take-a-deep-dive-into-metadata-api-deployments",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/devops-and-alm/deployment-validation-and-quick-deploy.md",
+      "skos:altLabel": [
+        "quick deploy",
+        "validated deployment",
+        "check-only deployment",
+        "checkOnly deployment",
+        "deployRecentValidation",
+        "sf project deploy quick"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:metadata-api"
+        },
+        {
+          "@id": "kt:application-lifecycle-management"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:change-sets"
+        },
+        {
+          "@id": "kt:release-management"
+        },
+        {
+          "@id": "kt:environment-strategy"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:apex-testing"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:salesforce-cli"
+        }
+      ]
+    },
+    {
       "@id": "kt:dev-hub",
       "@type": "kto:Feature",
       "skos:prefLabel": "Dev Hub",
