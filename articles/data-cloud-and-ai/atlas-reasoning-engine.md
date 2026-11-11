@@ -11,7 +11,7 @@ summary: >-
 release: "Winter '27"
 status: current
 broader: [kt:agentforce]
-related: [kt:agent-development-lifecycle, kt:prompt-builder]
+related: [kt:agent-development-lifecycle, kt:prompt-builder, kt:agentforce-subagents]
 relations:
   - {predicate: partOf, object: kt:agentforce}
   - {predicate: configuredVia, object: kt:agent-script}

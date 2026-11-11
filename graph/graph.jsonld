@@ -6995,6 +6995,91 @@
       ]
     },
     {
+      "@id": "kt:agentforce-subagents",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Agentforce Subagents",
+      "skos:definition": "The units of work inside an Agentforce agent (called topics until April 2026): each subagent has a name, classification description, scope, instructions and a set of actions, and the Agent Router picks one per request based only on names and descriptions.",
+      "kto:domain": "data-cloud-and-ai",
+      "dcterms:created": "2026-11-11",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Legacy Guide: Agentforce Reasoning, Subagents, Instructions, and Actions",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/agentforce/legacy-guide/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Agent Script Reference",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/ai/agentforce/guide/ascript-reference.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Customize Agent Topics (Agent Builder Basics)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/agent-builder-basics/customize-agent-topics",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Resolve Routing, Action, and Prompting Issues",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/agent-behavior-troubleshooting-in-agentforce/resolve-routing-action-and-prompting-issues",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Build with Agentforce Builder",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/quick-start-assemble-a-service-agent-with-agentforce-builder/build-with-agentforce-builder",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/data-cloud-and-ai/agentforce-subagents.md",
+      "skos:altLabel": [
+        "Agentforce topics",
+        "agent topics",
+        "agent subagents",
+        "Topic Selector"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:agentforce"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:agentforce-testing-center"
+        },
+        {
+          "@id": "kt:agent-development-lifecycle"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:agentforce"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:agent-actions"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:agent-script"
+        },
+        {
+          "@id": "kt:agentforce-studio"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:atlas-reasoning-engine"
+        }
+      ]
+    },
+    {
       "@id": "kt:agentforce-testing-center",
       "@type": "kto:Tool",
       "skos:prefLabel": "Agentforce Testing Center",
@@ -7348,6 +7433,9 @@
         },
         {
           "@id": "kt:prompt-builder"
+        },
+        {
+          "@id": "kt:agentforce-subagents"
         }
       ],
       "kto:partOf": [

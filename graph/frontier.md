@@ -103,9 +103,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:certificate-and-key-management` | `kt:custom-domains` |
 | `kt:salesforce-edge-network` | `kt:custom-domains` |
 | `kt:salesforce-sites` | `kt:custom-domains` |
+| `kt:dynamic-soql` | `kt:soql-injection` |
 | `kt:agentforce-data-library` | `kt:retrieval-augmented-generation-in-salesforce` |
 | `kt:generative-ai` | `kt:retrieval-augmented-generation-in-salesforce` |
-| `kt:dynamic-soql` | `kt:soql-injection` |
 | `kt:dynamic-actions` | `kt:dynamic-forms` |
 | `kt:dynamic-highlights-panel` | `kt:dynamic-forms` |
 | `kt:ingestion-api` | `kt:data-streams` |
