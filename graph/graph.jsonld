@@ -3115,6 +3115,92 @@
       ]
     },
     {
+      "@id": "kt:flow-transaction-boundaries",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Flow Transaction Boundaries",
+      "skos:definition": "The points at which a running flow interview commits its current database transaction and starts a new one (Screen, Local Action and Wait elements, paused-interview resumes, and actions set to start a new transaction), which decide what shares governor limits and what a failure can roll back.",
+      "kto:domain": "automation",
+      "dcterms:created": "2026-11-11",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "How Flows Run in Transactions (Salesforce Help)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=platform.flow_concepts_transaction.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Paused Flow Interview Considerations (Salesforce Help)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=platform.flow_considerations_design_pause.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Roll Back Changes After an Error (Trailhead, Flow Implementation II)",
+          "dcterms:publisher": "Salesforce Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/flow-implementation-2/roll-back-changes-after-an-error",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Record-Triggered Automation (Platform Decision Guides)",
+          "dcterms:publisher": "Salesforce Architects",
+          "schema:url": "https://architect.salesforce.com/docs/architect/decision-guides/guide/record-triggered",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/automation/flow-transaction-boundaries.md",
+      "skos:altLabel": [
+        "flow transactions",
+        "how flows run in transactions",
+        "flow transaction control setting",
+        "Let the flow decide"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:transaction-control"
+        },
+        {
+          "@id": "kt:flow-builder"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:flow-fault-handling"
+        },
+        {
+          "@id": "kt:screen-flow"
+        },
+        {
+          "@id": "kt:record-triggered-flow"
+        },
+        {
+          "@id": "kt:flow-http-callout"
+        },
+        {
+          "@id": "kt:bulkification"
+        },
+        {
+          "@id": "kt:order-of-execution"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:governor-limits"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:order-of-execution"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:asynchronous-apex"
+        }
+      ]
+    },
+    {
       "@id": "kt:flow-trigger-explorer",
       "@type": "kto:Tool",
       "skos:prefLabel": "Flow Trigger Explorer",

@@ -53,8 +53,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:mixed-dml-error` | `kt:future-methods` |
 | `kt:data-categories` | `kt:knowledge-base` |
 | `kt:salesforce-go` | `kt:knowledge-base` |
-| `kt:nist-sp-800-60` | `kt:fips-199` |
 | `kt:trailhead` | `kt:salesforce-certification-program` |
+| `kt:nist-sp-800-60` | `kt:fips-199` |
 | `kt:user-access-policies` | `kt:permission-sets` |
 | `kt:omni-channel-limits` | `kt:omni-channel` |
 | `kt:presence-configuration` | `kt:omni-channel` |
@@ -63,9 +63,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:financial-services-cloud` | `kt:person-accounts` |
 | `kt:data-detect` | `kt:salesforce-shield` |
 | `kt:compact-layouts` | `kt:page-layouts` |
+| `kt:flow-bulkification` | `kt:bulkification` |
 | `kt:custom-objects` | `kt:standard-objects` |
 | `kt:platform-administrator-ii-certification` | `kt:platform-administrator-certification` |
-| `kt:flow-bulkification` | `kt:bulkification` |
 | `kt:zero-trust-architecture` | `kt:principle-of-least-privilege` |
 | `kt:entitlement-process-metadata` | `kt:entitlement-management` |
 | `kt:dispatcher-console` | `kt:field-service` |
