@@ -6478,6 +6478,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/scheduled-apex> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#governedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/governor-limits> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/scheduled-apex> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/scheduled-apex> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/schema-builder> <http://purl.org/dc/terms/created> "2026-11-11" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/schema-builder> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Tool> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/schema-builder> <http://www.w3.org/2000/01/rdf-schema#label> "Schema Builder" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/schema-builder> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce Schema Builder" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/schema-builder> <http://www.w3.org/2004/02/skos/core#altLabel> "schema builder canvas" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/schema-builder> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-driven-architecture> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/schema-builder> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-platform> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/schema-builder> <http://www.w3.org/2004/02/skos/core#definition> "A Setup tool that draws selected Salesforce objects, their fields and their relationships on a drag-and-drop canvas, and lets admins create custom objects and fields (including formula and relationship fields) directly from that view." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/schema-builder> <http://www.w3.org/2004/02/skos/core#prefLabel> "Schema Builder" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/schema-builder> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-fields> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/schema-builder> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/formula-fields> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/schema-builder> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/object-relationships> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/schema-builder> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-app-builder-certification> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/schema-builder> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-diagrams> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/schema-builder> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/schema-builder/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/schema-builder> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/schema-builder/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/schema-builder> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/schema-builder/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/schema-builder> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/schema-builder/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/schema-builder> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/schema-builder/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/schema-builder> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#alternativeTo> <https://github.com/john1hsu/salesforce-knowledge-graph/id/object-manager> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/schema-builder> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/field-level-security> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/schema-builder> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "data-model" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/schema-builder> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#enables> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-architecture> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/schema-builder> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/schema-builder> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/scratch-org-allocations> <http://purl.org/dc/terms/created> "2026-11-10" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/scratch-org-allocations> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Limit> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/scratch-org-allocations> <http://www.w3.org/2000/01/rdf-schema#label> "Scratch Org Allocations" .
@@ -13572,6 +13597,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scheduled-apex/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scheduled-apex/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scheduled-apex/s3> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/asynchronous_apex/async_apex_scheduled" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/schema-builder/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/schema-builder/s1> <http://purl.org/dc/terms/title> "Data Modeling: Work with Schema Builder" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/schema-builder/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/schema-builder/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/schema-builder/s1> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/data_modeling/schema_builder" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/schema-builder/s2> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/schema-builder/s2> <http://purl.org/dc/terms/title> "Schema Builder Considerations" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/schema-builder/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/schema-builder/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/schema-builder/s2> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=sf.schema_builder_considerations.htm&language=en_US&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/schema-builder/s3> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/schema-builder/s3> <http://purl.org/dc/terms/title> "Create Objects with Schema Builder" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/schema-builder/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/schema-builder/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/schema-builder/s3> <https://schema.org/url> "https://help.salesforce.com/s/articleView?language=en_US&id=schema_builder_elements_objects.htm&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/schema-builder/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/schema-builder/s4> <http://purl.org/dc/terms/title> "Create Custom Objects and Fields with Spring '12 Schema Builder" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/schema-builder/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/schema-builder/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/schema-builder/s4> <https://schema.org/url> "https://developer.salesforce.com/blogs/2012/02/create-custom-objects-and-fields-with-spring-12-schema-builder" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/schema-builder/s5> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/schema-builder/s5> <http://purl.org/dc/terms/title> "Study Up on Data Modeling and Management" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/schema-builder/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/schema-builder/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/schema-builder/s5> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/platform-app-builder-pt2/platform-app-builder-data-modeling-and-management" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scratch-org-allocations/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scratch-org-allocations/s1> <http://purl.org/dc/terms/title> "Supported Scratch Org Editions and Allocations" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scratch-org-allocations/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

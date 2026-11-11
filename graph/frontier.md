@@ -20,7 +20,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:salesforce-ecosystem-roles` | `kt:salesforce-architect` |
 | `kt:lightning-service-console` | `kt:service-cloud` |
 | `kt:service-setup-assistant` | `kt:service-cloud` |
-| `kt:schema-builder` | `kt:data-architecture` |
 | `kt:bulk-api-1` | `kt:bulk-api-2` |
 | `kt:bulk-api-allocations` | `kt:bulk-api-2` |
 | `kt:data-loader` | `kt:bulk-api-2` |
@@ -38,9 +37,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:governance-risk-and-compliance` | `kt:security-compliance-frameworks` |
 | `kt:process-integration` | `kt:data-integration` |
 | `kt:transaction-finalizers` | `kt:queueable-apex` |
+| `kt:salesforce-architecture-program` | `kt:salesforce-architecture-center` |
 | `kt:api-led-connectivity` | `kt:mulesoft-anypoint-platform` |
 | `kt:mule-runtime-engine` | `kt:mulesoft-anypoint-platform` |
-| `kt:salesforce-architecture-program` | `kt:salesforce-architecture-center` |
 | `kt:legacy-named-credentials` | `kt:named-credentials` |
 | `kt:managed-event-subscriptions` | `kt:pub-sub-api` |
 | `kt:streaming-api` | `kt:pub-sub-api` |
@@ -66,10 +65,10 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:contacts-to-multiple-accounts` | `kt:person-accounts` |
 | `kt:financial-services-cloud` | `kt:person-accounts` |
 | `kt:data-detect` | `kt:salesforce-shield` |
-| `kt:custom-objects` | `kt:standard-objects` |
 | `kt:compact-layouts` | `kt:page-layouts` |
-| `kt:flow-bulkification` | `kt:bulkification` |
+| `kt:custom-objects` | `kt:standard-objects` |
 | `kt:platform-administrator-ii-certification` | `kt:platform-administrator-certification` |
+| `kt:flow-bulkification` | `kt:bulkification` |
 | `kt:zero-trust-architecture` | `kt:principle-of-least-privilege` |
 | `kt:entitlement-process-metadata` | `kt:entitlement-management` |
 | `kt:dispatcher-console` | `kt:field-service` |
@@ -98,6 +97,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:salesforce-ecosystem` | `kt:salesforce-inc` |
 | `kt:path` | `kt:business-processes` |
 | `kt:visualforce` | `kt:apex-continuations` |
+| `kt:object-manager` | `kt:schema-builder` |
 | `kt:einstein-discovery` | `kt:crm-analytics` |
 | `kt:saql` | `kt:crm-analytics` |
 | `kt:apex-rest-services` | `kt:remote-call-in` |
@@ -132,9 +132,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:slack-workflow-builder` | `kt:slack-platform` |
 | `kt:custom-permissions` | `kt:validation-rules` |
 | `kt:platform-cache-partitions` | `kt:platform-cache` |
+| `kt:data-cloud-code-extension` | `kt:vector-search-in-data-cloud` |
 | `kt:it-governance` | `kt:salesforce-governance` |
 | `kt:security-governance` | `kt:salesforce-governance` |
-| `kt:data-cloud-code-extension` | `kt:vector-search-in-data-cloud` |
 | `kt:unstructured-data-in-data-cloud` | `kt:vector-search-in-data-cloud` |
 | `kt:models-api` | `kt:ai-models` |
 | `kt:mutual-tls-authentication` | `kt:login-ip-ranges-and-trusted-ip-ranges` |

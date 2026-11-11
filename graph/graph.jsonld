@@ -10444,6 +10444,93 @@
       ]
     },
     {
+      "@id": "kt:schema-builder",
+      "@type": "kto:Tool",
+      "skos:prefLabel": "Schema Builder",
+      "skos:definition": "A Setup tool that draws selected Salesforce objects, their fields and their relationships on a drag-and-drop canvas, and lets admins create custom objects and fields (including formula and relationship fields) directly from that view.",
+      "kto:domain": "data-model",
+      "dcterms:created": "2026-11-11",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Data Modeling: Work with Schema Builder",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/data_modeling/schema_builder",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Schema Builder Considerations",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=sf.schema_builder_considerations.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Create Objects with Schema Builder",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=schema_builder_elements_objects.htm&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Create Custom Objects and Fields with Spring '12 Schema Builder",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2012/02/create-custom-objects-and-fields-with-spring-12-schema-builder",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Study Up on Data Modeling and Management",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/platform-app-builder-pt2/platform-app-builder-data-modeling-and-management",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/data-model/schema-builder.md",
+      "skos:altLabel": [
+        "Salesforce Schema Builder",
+        "schema builder canvas"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-platform"
+        },
+        {
+          "@id": "kt:metadata-driven-architecture"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:object-relationships"
+        },
+        {
+          "@id": "kt:custom-fields"
+        },
+        {
+          "@id": "kt:formula-fields"
+        },
+        {
+          "@id": "kt:salesforce-diagrams"
+        },
+        {
+          "@id": "kt:platform-app-builder-certification"
+        }
+      ],
+      "kto:enables": [
+        {
+          "@id": "kt:data-architecture"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:field-level-security"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:object-manager"
+        }
+      ]
+    },
+    {
       "@id": "kt:standard-objects",
       "@type": "kto:Concept",
       "skos:prefLabel": "Standard Objects",
