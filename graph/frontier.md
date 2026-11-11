@@ -12,6 +12,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:salesforce-optimizer` | `kt:org-check`, `kt:technical-debt-in-salesforce` |
 | `kt:cloud-computing` | `kt:platform-as-a-service`, `kt:shared-responsibility-model` |
 | `kt:heroku` | `kt:platform-as-a-service`, `kt:salesforce-cpq` |
+| `kt:external-services` | `kt:apex-callouts`, `kt:flow-http-callout` |
 | `kt:permission-set-licenses` | `kt:identity-connect`, `kt:permission-sets` |
 | `kt:user-interface-api` | `kt:graphql-api`, `kt:lightning-data-service` |
 | `kt:salesforce-analytics` | `kt:crm-analytics`, `kt:tableau` |
@@ -40,9 +41,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:process-integration` | `kt:data-integration` |
 | `kt:transaction-finalizers` | `kt:queueable-apex` |
 | `kt:governance-risk-and-compliance` | `kt:security-compliance-frameworks` |
-| `kt:salesforce-architecture-program` | `kt:salesforce-architecture-center` |
 | `kt:api-led-connectivity` | `kt:mulesoft-anypoint-platform` |
 | `kt:mule-runtime-engine` | `kt:mulesoft-anypoint-platform` |
+| `kt:salesforce-architecture-program` | `kt:salesforce-architecture-center` |
 | `kt:legacy-named-credentials` | `kt:named-credentials` |
 | `kt:managed-event-subscriptions` | `kt:pub-sub-api` |
 | `kt:streaming-api` | `kt:pub-sub-api` |
@@ -50,7 +51,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:software-as-a-service` | `kt:platform-as-a-service` |
 | `kt:upsert` | `kt:external-id-fields` |
 | `kt:platform-developer-ii-certification` | `kt:platform-developer-certification` |
-| `kt:external-services` | `kt:apex-callouts` |
 | `kt:scoping-rules` | `kt:restriction-rules` |
 | `kt:backup-and-recover` | `kt:archiving-strategy` |
 | `kt:salesforce-archive` | `kt:archiving-strategy` |
@@ -71,8 +71,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:data-detect` | `kt:salesforce-shield` |
 | `kt:compact-layouts` | `kt:page-layouts` |
 | `kt:custom-objects` | `kt:standard-objects` |
-| `kt:platform-administrator-ii-certification` | `kt:platform-administrator-certification` |
 | `kt:flow-bulkification` | `kt:bulkification` |
+| `kt:platform-administrator-ii-certification` | `kt:platform-administrator-certification` |
 | `kt:zero-trust-architecture` | `kt:principle-of-least-privilege` |
 | `kt:entitlement-process-metadata` | `kt:entitlement-management` |
 | `kt:dispatcher-console` | `kt:field-service` |
@@ -98,9 +98,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:scim` | `kt:salesforce-scim` |
 | `kt:opportunity-teams` | `kt:opportunity-splits` |
 | `kt:revenue-intelligence` | `kt:collaborative-forecasts` |
+| `kt:visualforce` | `kt:apex-continuations` |
 | `kt:path` | `kt:business-processes` |
 | `kt:salesforce-ecosystem` | `kt:salesforce-inc` |
-| `kt:visualforce` | `kt:apex-continuations` |
 | `kt:einstein-discovery` | `kt:crm-analytics` |
 | `kt:saql` | `kt:crm-analytics` |
 | `kt:apex-rest-services` | `kt:remote-call-in` |

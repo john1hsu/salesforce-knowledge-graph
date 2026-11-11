@@ -2899,6 +2899,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-fault-handling> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/code-analyzer> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-fault-handling> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-fault-handling> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-http-callout> <http://purl.org/dc/terms/created> "2026-11-11" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-http-callout> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-http-callout> <http://www.w3.org/2000/01/rdf-schema#label> "HTTP Callout in Flow" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-http-callout> <http://www.w3.org/2004/02/skos/core#altLabel> "Create HTTP Callout" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-http-callout> <http://www.w3.org/2004/02/skos/core#altLabel> "Flow HTTP Callout" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-http-callout> <http://www.w3.org/2004/02/skos/core#altLabel> "HTTP Callout action" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-http-callout> <http://www.w3.org/2004/02/skos/core#altLabel> "declarative HTTP callout" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-http-callout> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-integration> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-http-callout> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-builder> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-http-callout> <http://www.w3.org/2004/02/skos/core#definition> "A Flow Builder action that lets admins call an external JSON-based HTTP API without code: a guided wizard captures a named credential, method, path and sample payloads, then generates a reusable External Services registration, invocable action and Apex-defined types." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-http-callout> <http://www.w3.org/2004/02/skos/core#prefLabel> "HTTP Callout in Flow" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-http-callout> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/autolaunched-flow> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-http-callout> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-fault-handling> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-http-callout> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-tests> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-http-callout> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/record-triggered-flow> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-http-callout> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/screen-flow> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-http-callout> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-http-callout/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-http-callout> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-http-callout/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-http-callout> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-http-callout/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-http-callout> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-http-callout/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-http-callout> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-http-callout/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-http-callout> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-http-callout/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-http-callout> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#alternativeTo> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-callouts> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-http-callout> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#consumedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/invocable-actions-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-http-callout> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/external-services> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-http-callout> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/named-credentials> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-http-callout> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "automation" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-http-callout> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#implements> <https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-patterns-request-reply-fire-and-forget> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-http-callout> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-http-callout> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-orchestrator> <http://purl.org/dc/terms/created> "2026-10-31" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-orchestrator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-orchestrator> <http://www.w3.org/2000/01/rdf-schema#label> "Flow Orchestrator" .
@@ -9863,6 +9893,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-fault-handling/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-fault-handling/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-fault-handling/s5> <https://schema.org/url> "https://admin.salesforce.com/blog/2021/the-ultimate-guide-to-flow-best-practices-and-standards" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-http-callout/s1> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-http-callout/s1> <http://purl.org/dc/terms/title> "Connecting to an API Without a Connector Using HTTP Callout" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-http-callout/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-http-callout/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-http-callout/s1> <https://schema.org/url> "https://help.salesforce.com/s/articleView?language=en_US&id=platform.flow_http_callout.htm&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-http-callout/s2> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-http-callout/s2> <http://purl.org/dc/terms/title> "Configure an HTTP Callout Action" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-http-callout/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-http-callout/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-http-callout/s2> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=sf.flow_http_callout_configure.htm&language=en_US&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-http-callout/s3> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-http-callout/s3> <http://purl.org/dc/terms/title> "Callouts and Callbacks: Limits and Usage" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-http-callout/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-http-callout/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-http-callout/s3> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=external_services_schema_def_usage_considerations.htm&language=en_US&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-http-callout/s4> <http://purl.org/dc/terms/publisher> "Salesforce Admins Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-http-callout/s4> <http://purl.org/dc/terms/title> "Easy Integrations with Flow HTTP Callouts" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-http-callout/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-http-callout/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-http-callout/s4> <https://schema.org/url> "https://admin.salesforce.com/blog/2023/integrations-are-easier-than-ever-with-flow-http-callouts" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-http-callout/s5> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-http-callout/s5> <http://purl.org/dc/terms/title> "Maintain Your Integration Architect Certification for Winter '24" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-http-callout/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-http-callout/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-http-callout/s5> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/salesforce-architect-certification-maintenance-winter-24/maintain-your-integration-architect-certification-for-winter-24" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-http-callout/s6> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-http-callout/s6> <http://purl.org/dc/terms/title> "Quick Start: Create HTTP Callouts with Flow Builder — Build the HTTP Callout Flow" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-http-callout/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-http-callout/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-http-callout/s6> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/projects/quick-start-create-http-callouts-with-flow-builder/build-the-http-callout-flow" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-orchestrator/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-orchestrator/s1> <http://purl.org/dc/terms/title> "Flow Orchestration Basics: Flow Orchestration Stages & Types" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-orchestrator/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

@@ -2726,6 +2726,109 @@
       ]
     },
     {
+      "@id": "kt:flow-http-callout",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "HTTP Callout in Flow",
+      "skos:definition": "A Flow Builder action that lets admins call an external JSON-based HTTP API without code: a guided wizard captures a named credential, method, path and sample payloads, then generates a reusable External Services registration, invocable action and Apex-defined types.",
+      "kto:domain": "automation",
+      "dcterms:created": "2026-11-11",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Connecting to an API Without a Connector Using HTTP Callout",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=platform.flow_http_callout.htm&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Configure an HTTP Callout Action",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=sf.flow_http_callout_configure.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Callouts and Callbacks: Limits and Usage",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=external_services_schema_def_usage_considerations.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Easy Integrations with Flow HTTP Callouts",
+          "dcterms:publisher": "Salesforce Admins Blog",
+          "schema:url": "https://admin.salesforce.com/blog/2023/integrations-are-easier-than-ever-with-flow-http-callouts",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Maintain Your Integration Architect Certification for Winter '24",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/salesforce-architect-certification-maintenance-winter-24/maintain-your-integration-architect-certification-for-winter-24",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Quick Start: Create HTTP Callouts with Flow Builder — Build the HTTP Callout Flow",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/projects/quick-start-create-http-callouts-with-flow-builder/build-the-http-callout-flow",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/automation/flow-http-callout.md",
+      "skos:altLabel": [
+        "Flow HTTP Callout",
+        "HTTP Callout action",
+        "Create HTTP Callout",
+        "declarative HTTP callout"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:flow-builder"
+        },
+        {
+          "@id": "kt:data-integration"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:autolaunched-flow"
+        },
+        {
+          "@id": "kt:screen-flow"
+        },
+        {
+          "@id": "kt:record-triggered-flow"
+        },
+        {
+          "@id": "kt:flow-fault-handling"
+        },
+        {
+          "@id": "kt:flow-tests"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:named-credentials"
+        },
+        {
+          "@id": "kt:external-services"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:apex-callouts"
+        }
+      ],
+      "kto:implements": [
+        {
+          "@id": "kt:integration-patterns-request-reply-fire-and-forget"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:invocable-actions-api"
+        }
+      ]
+    },
+    {
       "@id": "kt:flow-orchestrator",
       "@type": "kto:Feature",
       "skos:prefLabel": "Flow Orchestrator",
