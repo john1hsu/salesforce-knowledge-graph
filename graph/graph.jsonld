@@ -5451,6 +5451,115 @@
       ]
     },
     {
+      "@id": "kt:omnistudio",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Omnistudio",
+      "skos:definition": "Salesforce's low-code suite for guided, industry-specific digital experiences, made of FlexCards and Omniscripts for the UI and Integration Procedures and Data Mappers for server-side data work; it began in the Vlocity managed packages and now runs natively on the platform's standard runtime and standard data model.",
+      "kto:domain": "clouds-and-products",
+      "dcterms:created": "2026-11-11",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Get to Know Omnistudio and Its Features (Omnistudio Development Essentials)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/omnistudio-development-essentials/get-to-know-omnistudio-and-its-features",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Explore Data Mapper Integration Within Omnistudio (Omnistudio Data Mapper Fundamentals)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/omnistudio-data-mapper-fundamentals/explore-data-mapper-integration-within-omnistudio",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "OmniStudioSettings (Industries Common Resources Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.industries_reference.meta/industries_reference/meta_omnistudiosettings.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Migrate from Managed Package Runtime to the Omnistudio Standard Runtime",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2026/08/migrate-from-managed-package-runtime-to-the-omnistudio-standard-runtime",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Automate Your Move to the Omnistudio Standard Runtime with the New Migration Assistant",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2025/12/automate-your-move-to-the-omnistudio-standard-runtime-with-the-new-migration-assistant",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Prepare for Your Salesforce Omnistudio Developer Certification (trail)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/en/content/learn/trails/prepare-for-your-salesforce-omnistudio-developer-certification",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Prepare for Your Salesforce Omnistudio Consultant Certification (trail)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/trails/prepare-for-your-salesforce-omnistudio-consultant-certification",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/clouds-and-products/omnistudio.md",
+      "skos:altLabel": [
+        "OmniStudio",
+        "Salesforce Omnistudio",
+        "Vlocity OmniStudio",
+        "Omnistudio for Managed Packages"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-industries"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:screen-flow"
+        },
+        {
+          "@id": "kt:experience-cloud"
+        },
+        {
+          "@id": "kt:public-sector-solutions"
+        },
+        {
+          "@id": "kt:health-cloud"
+        },
+        {
+          "@id": "kt:omnistudio-developer-certification"
+        },
+        {
+          "@id": "kt:omnistudio-consultant-certification"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:lightning-web-components"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:business-rules-engine"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:metadata-api"
+        },
+        {
+          "@id": "kt:salesforce-cli"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:flow-builder"
+        }
+      ]
+    },
+    {
       "@id": "kt:opportunity-splits",
       "@type": "kto:Feature",
       "skos:prefLabel": "Opportunity Splits",

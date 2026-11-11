@@ -5,7 +5,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | Node | Referenced by |
 |---|---|
 | `kt:soap-api` | `kt:external-id-fields`, `kt:rest-api`, `kt:salesforce-apis` |
-| `kt:omnistudio` | `kt:business-rules-engine`, `kt:public-sector-solutions`, `kt:salesforce-industries` |
 | `kt:user-interface-api` | `kt:graphql-api`, `kt:lightning-data-service`, `kt:salesforce-apis` |
 | `kt:api-led-connectivity` | `kt:mulesoft-anypoint-platform`, `kt:mulesoft-platform-architect-certification` |
 | `kt:infrastructure-as-a-service` | `kt:cloud-computing`, `kt:platform-as-a-service` |
@@ -62,8 +61,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:contacts-to-multiple-accounts` | `kt:person-accounts` |
 | `kt:financial-services-cloud` | `kt:person-accounts` |
 | `kt:data-detect` | `kt:salesforce-shield` |
-| `kt:compact-layouts` | `kt:page-layouts` |
 | `kt:flow-bulkification` | `kt:bulkification` |
+| `kt:compact-layouts` | `kt:page-layouts` |
 | `kt:custom-objects` | `kt:standard-objects` |
 | `kt:platform-administrator-ii-certification` | `kt:platform-administrator-certification` |
 | `kt:zero-trust-architecture` | `kt:principle-of-least-privilege` |
@@ -80,19 +79,21 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:agentexchange` | `kt:appexchange-security-review` |
 | `kt:iso-iec-27002` | `kt:iso-iec-27001` |
 | `kt:hitrust-csf` | `kt:nist-cybersecurity-framework` |
+| `kt:omnistudio-consultant-certification` | `kt:omnistudio` |
+| `kt:omnistudio-developer-certification` | `kt:omnistudio` |
 | `kt:decision-tables` | `kt:salesforce-pricing` |
 | `kt:distributed-computing` | `kt:cloud-computing` |
 | `kt:json-web-token` | `kt:openid-connect` |
+| `kt:constraint-modeling-language` | `kt:product-configurator` |
+| `kt:product-catalog-management` | `kt:product-configurator` |
 | `kt:tableau-next` | `kt:tableau` |
 | `kt:tableau-pulse` | `kt:tableau` |
 | `kt:tableau-semantics` | `kt:tableau` |
 | `kt:delegated-authentication` | `kt:identity-connect` |
 | `kt:scim` | `kt:salesforce-scim` |
-| `kt:constraint-modeling-language` | `kt:product-configurator` |
-| `kt:product-catalog-management` | `kt:product-configurator` |
+| `kt:salesforce-ecosystem` | `kt:salesforce-inc` |
 | `kt:opportunity-teams` | `kt:opportunity-splits` |
 | `kt:revenue-intelligence` | `kt:collaborative-forecasts` |
-| `kt:salesforce-ecosystem` | `kt:salesforce-inc` |
 | `kt:path` | `kt:business-processes` |
 | `kt:object-manager` | `kt:schema-builder` |
 | `kt:einstein-discovery` | `kt:crm-analytics` |
@@ -132,6 +133,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:soc-1` | `kt:soc-2` |
 | `kt:trust-services-criteria` | `kt:soc-2` |
 | `kt:custom-permissions` | `kt:validation-rules` |
+| `kt:fhir` | `kt:health-cloud` |
+| `kt:utilization-management` | `kt:health-cloud` |
 | `kt:iso-iec-25010` | `kt:non-functional-requirements` |
 | `kt:requirements-engineering` | `kt:non-functional-requirements` |
 | `kt:it-governance` | `kt:salesforce-governance` |
@@ -141,8 +144,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:unstructured-data-in-data-cloud` | `kt:vector-search-in-data-cloud` |
 | `kt:models-api` | `kt:ai-models` |
 | `kt:mutual-tls-authentication` | `kt:login-ip-ranges-and-trusted-ip-ranges` |
-| `kt:fhir` | `kt:health-cloud` |
-| `kt:utilization-management` | `kt:health-cloud` |
 | `kt:digital-accessibility` | `kt:section-508-accessibility` |
 | `kt:release-management` | `kt:deployment-validation-and-quick-deploy` |
 | `kt:wcag` | `kt:section-508-accessibility` |
