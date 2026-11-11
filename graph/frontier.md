@@ -8,7 +8,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:public-groups` | `kt:group-membership-locking`, `kt:queues`, `kt:sharing-rules` |
 | `kt:omnistudio` | `kt:business-rules-engine`, `kt:public-sector-solutions`, `kt:salesforce-industries` |
 | `kt:nist-risk-management-framework` | `kt:authority-to-operate`, `kt:continuous-monitoring`, `kt:fisma` |
-| `kt:saml-2-0` | `kt:single-logout`, `kt:single-sign-on-saml` |
 | `kt:soap-api` | `kt:external-id-fields`, `kt:rest-api` |
 | `kt:salesforce-apis` | `kt:bulk-api-2`, `kt:graphql-api` |
 | `kt:cloud-computing` | `kt:platform-as-a-service`, `kt:shared-responsibility-model` |
@@ -27,11 +26,11 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:bulk-api-allocations` | `kt:bulk-api-2` |
 | `kt:data-loader` | `kt:bulk-api-2` |
 | `kt:lightning-web-security` | `kt:lightning-web-components` |
+| `kt:custom-domains` | `kt:my-domain` |
+| `kt:external-identity-license` | `kt:experience-cloud-identity` |
 | `kt:change-data-capture-allocations` | `kt:change-data-capture` |
 | `kt:platform-event-channel-member` | `kt:change-data-capture` |
 | `kt:government-cloud` | `kt:government-cloud-plus` |
-| `kt:custom-domains` | `kt:my-domain` |
-| `kt:external-identity-license` | `kt:experience-cloud-identity` |
 | `kt:apex-flex-queue` | `kt:batch-apex` |
 | `kt:org-check` | `kt:technical-debt-in-salesforce` |
 | `kt:salesforce-optimizer` | `kt:technical-debt-in-salesforce` |
@@ -89,18 +88,19 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:iso-iec-27002` | `kt:iso-iec-27001` |
 | `kt:decision-tables` | `kt:salesforce-pricing` |
 | `kt:hitrust-csf` | `kt:nist-cybersecurity-framework` |
-| `kt:constraint-modeling-language` | `kt:product-configurator` |
-| `kt:product-catalog-management` | `kt:product-configurator` |
+| `kt:json-web-token` | `kt:openid-connect` |
 | `kt:tableau-next` | `kt:tableau` |
 | `kt:tableau-pulse` | `kt:tableau` |
 | `kt:tableau-semantics` | `kt:tableau` |
+| `kt:constraint-modeling-language` | `kt:product-configurator` |
+| `kt:product-catalog-management` | `kt:product-configurator` |
+| `kt:delegated-authentication` | `kt:identity-connect` |
+| `kt:scim` | `kt:salesforce-scim` |
 | `kt:opportunity-teams` | `kt:opportunity-splits` |
 | `kt:revenue-intelligence` | `kt:collaborative-forecasts` |
 | `kt:data-cloud-activation` | `kt:data-cloud-segmentation` |
 | `kt:data-graphs` | `kt:data-cloud-segmentation` |
 | `kt:agentexchange` | `kt:appexchange-security-review` |
-| `kt:delegated-authentication` | `kt:identity-connect` |
-| `kt:scim` | `kt:salesforce-scim` |
 | `kt:path` | `kt:business-processes` |
 | `kt:visualforce` | `kt:apex-continuations` |
 | `kt:salesforce-ecosystem` | `kt:salesforce-inc` |
@@ -108,7 +108,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:saql` | `kt:crm-analytics` |
 | `kt:apex-rest-services` | `kt:remote-call-in` |
 | `kt:apex-mocks` | `kt:apex-enterprise-patterns` |
-| `kt:json-web-token` | `kt:openid-connect` |
 | `kt:dynamic-soql` | `kt:soql-injection` |
 | `kt:agentforce-data-library` | `kt:retrieval-augmented-generation-in-salesforce` |
 | `kt:generative-ai` | `kt:retrieval-augmented-generation-in-salesforce` |

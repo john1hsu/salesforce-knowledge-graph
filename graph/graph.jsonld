@@ -15615,6 +15615,90 @@
       ]
     },
     {
+      "@id": "kt:saml-2-0",
+      "@type": "kto:ExternalConcept",
+      "skos:prefLabel": "SAML 2.0",
+      "skos:definition": "The OASIS XML standard (approved March 2005) for exchanging authentication, attribute and authorization statements between an identity provider and a service provider, built from assertions, protocols, bindings and profiles; its Web Browser SSO and Single Logout profiles underpin Salesforce's SAML single sign-on as both service provider and identity provider.",
+      "kto:domain": "identity",
+      "dcterms:created": "2026-11-11",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Security Assertion Markup Language (SAML) V2.0 Technical Overview (Committee Draft 02)",
+          "dcterms:publisher": "OASIS Security Services TC",
+          "schema:url": "https://docs.oasis-open.org/security/saml/Post2.0/sstc-saml-tech-overview-2.0.html",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "Assertions and Protocols for the OASIS Security Assertion Markup Language (SAML) V2.0 (saml-core-2.0-os)",
+          "dcterms:publisher": "OASIS",
+          "schema:url": "https://docs.oasis-open.org/security/saml/v2.0/saml-core-2.0-os.pdf",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "Security and Privacy Considerations for the OASIS SAML V2.0 (saml-sec-consider-2.0-os)",
+          "dcterms:publisher": "OASIS",
+          "schema:url": "https://docs.oasis-open.org/security/saml/v2.0/saml-sec-consider-2.0-os.pdf",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "SAML v2.0 Approved as OASIS Standard (press release)",
+          "dcterms:publisher": "OASIS",
+          "schema:url": "https://www.oasis-open.org/?p=3715",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "Set Up Single Sign-On for Your Internal Users (Identity Basics)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/identity_login/identity_login_sso",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/identity/saml-2-0.md",
+      "skos:altLabel": [
+        "Security Assertion Markup Language 2.0",
+        "SAML V2.0",
+        "SAML2",
+        "OASIS SAML"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:integration-security"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:salesforce-identity"
+        },
+        {
+          "@id": "kt:my-domain"
+        },
+        {
+          "@id": "kt:multi-factor-authentication"
+        },
+        {
+          "@id": "kt:just-in-time-provisioning"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:single-sign-on-saml"
+        },
+        {
+          "@id": "kt:single-logout"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:openid-connect"
+        },
+        {
+          "@id": "kt:oauth-2-0"
+        }
+      ]
+    },
+    {
       "@id": "kt:session-security-levels",
       "@type": "kto:SecurityControl",
       "skos:prefLabel": "Session Security Levels",
