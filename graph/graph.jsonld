@@ -1370,6 +1370,92 @@
       ]
     },
     {
+      "@id": "kt:salesforce-governance",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Salesforce Governance",
+      "skos:definition": "The framework of people, processes and tools, enforced through an operating model, that decides what gets built in a Salesforce environment, sets the standards it is built to, and controls how changes reach production so the org stays healthy as it grows.",
+      "kto:domain": "architecture-practice",
+      "dcterms:created": "2026-11-11",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Learn About Salesforce Governance and Why It Matters (Salesforce Governance with a Center of Excellence)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/salesforce-governance-with-a-center-of-excellence/learn-about-salesforce-governance-and-why-it-matters",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Prioritize Governance (Nonprofit Cloud Implementation Best Practices)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/nonprofit-cloud-implementation-best-practices/prioritize-governance",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Create a Governance Framework (Digital Marketing Roadmap Development)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/digital-marketing-roadmap-development/create-a-governance-framework",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Key Principles for a Successful Salesforce Implementation, Part III: Governance",
+          "dcterms:publisher": "Salesforce Architects",
+          "schema:url": "https://medium.com/salesforce-architects/key-principles-for-a-successful-salesforce-implementation-part-iii-governance-b2a165f431c3",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Six Steps to Establish a Security Governance Model",
+          "dcterms:publisher": "Salesforce Architects",
+          "schema:url": "https://medium.com/salesforce-architects/six-steps-to-establish-a-security-governance-model-3e9cf461ffe1",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/architecture-practice/salesforce-governance.md",
+      "skos:altLabel": [
+        "Salesforce governance framework",
+        "governance framework",
+        "org governance",
+        "governance debt"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:it-governance"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:salesforce-center-of-excellence"
+        },
+        {
+          "@id": "kt:application-lifecycle-management"
+        },
+        {
+          "@id": "kt:org-strategy"
+        },
+        {
+          "@id": "kt:well-architected-framework"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:security-governance"
+        },
+        {
+          "@id": "kt:data-governance"
+        }
+      ],
+      "kto:mitigates": [
+        {
+          "@id": "kt:technical-debt-in-salesforce"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:salesforce-architect"
+        }
+      ]
+    },
+    {
       "@id": "kt:scale-test",
       "@type": "kto:Product",
       "skos:prefLabel": "Scale Test",

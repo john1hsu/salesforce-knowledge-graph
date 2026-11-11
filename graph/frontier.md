@@ -15,6 +15,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:permission-set-licenses` | `kt:identity-connect`, `kt:permission-sets` |
 | `kt:user-interface-api` | `kt:graphql-api`, `kt:lightning-data-service` |
 | `kt:salesforce-analytics` | `kt:crm-analytics`, `kt:tableau` |
+| `kt:data-governance` | `kt:data-quality`, `kt:salesforce-governance` |
 | `kt:test-data-factory` | `kt:apex-testing` |
 | `kt:recursive-save` | `kt:order-of-execution` |
 | `kt:salesforce-data-mask` | `kt:environment-strategy` |
@@ -98,9 +99,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:scim` | `kt:salesforce-scim` |
 | `kt:opportunity-teams` | `kt:opportunity-splits` |
 | `kt:revenue-intelligence` | `kt:collaborative-forecasts` |
+| `kt:agentexchange` | `kt:appexchange-security-review` |
 | `kt:data-cloud-activation` | `kt:data-cloud-segmentation` |
 | `kt:data-graphs` | `kt:data-cloud-segmentation` |
-| `kt:agentexchange` | `kt:appexchange-security-review` |
 | `kt:path` | `kt:business-processes` |
 | `kt:visualforce` | `kt:apex-continuations` |
 | `kt:salesforce-ecosystem` | `kt:salesforce-inc` |
@@ -135,18 +136,18 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:marketing-cloud-next` | `kt:marketing-cloud-engagement` |
 | `kt:salesforce-marketing-solutions` | `kt:marketing-cloud-engagement` |
 | `kt:custom-permissions` | `kt:validation-rules` |
-| `kt:data-governance` | `kt:data-quality` |
 | `kt:security-center` | `kt:continuous-monitoring` |
 | `kt:platform-cache-partitions` | `kt:platform-cache` |
-| `kt:salesforce-governance` | `kt:salesforce-center-of-excellence` |
+| `kt:it-governance` | `kt:salesforce-governance` |
+| `kt:security-governance` | `kt:salesforce-governance` |
 | `kt:mutual-tls-authentication` | `kt:login-ip-ranges-and-trusted-ip-ranges` |
-| `kt:business-architecture` | `kt:capability-maps` |
-| `kt:iso-iec-25010` | `kt:non-functional-requirements` |
 | `kt:models-api` | `kt:ai-models` |
 | `kt:release-management` | `kt:deployment-validation-and-quick-deploy` |
+| `kt:business-architecture` | `kt:capability-maps` |
+| `kt:digital-accessibility` | `kt:section-508-accessibility` |
+| `kt:health-cloud` | `kt:hipaa` |
+| `kt:iso-iec-25010` | `kt:non-functional-requirements` |
 | `kt:requirements-engineering` | `kt:non-functional-requirements` |
 | `kt:technology-roadmaps` | `kt:capability-maps` |
 | `kt:value-streams` | `kt:capability-maps` |
-| `kt:digital-accessibility` | `kt:section-508-accessibility` |
-| `kt:health-cloud` | `kt:hipaa` |
 | `kt:wcag` | `kt:section-508-accessibility` |
