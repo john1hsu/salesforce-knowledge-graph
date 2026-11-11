@@ -23847,6 +23847,91 @@
       ]
     },
     {
+      "@id": "kt:public-groups",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Public Groups",
+      "skos:definition": "Admin-defined collections of users, roles, roles and subordinates, territories and other public groups that act as a single sharing target; stored as Group records of type Regular with membership in GroupMember, and used mainly by sharing rules, manual sharing, queues and list-view or folder access.",
+      "kto:domain": "security-and-sharing",
+      "dcterms:created": "2026-11-11",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Group (Object Reference for the Salesforce Platform)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/object_reference/sforce_api_objects_group.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "GroupMember (Object Reference for the Salesforce Platform)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.264.0.object_reference.meta/object_reference/sforce_api_objects_groupmember.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Group (Metadata API Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_group.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Define Sharing Rules (Data Security module)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/data_security/data_security_sharing_rules",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/security-and-sharing/public-groups.md",
+      "skos:altLabel": [
+        "public group",
+        "Salesforce public groups",
+        "regular group",
+        "Group (Regular)"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-sharing-model"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:sharing-rules"
+        },
+        {
+          "@id": "kt:queues"
+        },
+        {
+          "@id": "kt:role-hierarchy"
+        },
+        {
+          "@id": "kt:group-membership-locking"
+        },
+        {
+          "@id": "kt:enterprise-territory-management"
+        }
+      ],
+      "kto:enables": [
+        {
+          "@id": "kt:sharing-rules"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:role-hierarchy"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:metadata-api"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:sharing-recalculation"
+        }
+      ]
+    },
+    {
       "@id": "kt:queues",
       "@type": "kto:Feature",
       "skos:prefLabel": "Queues",

@@ -5299,6 +5299,32 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/pub-sub-api> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-events> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/pub-sub-api> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/pub-sub-api> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/public-groups> <http://purl.org/dc/terms/created> "2026-11-11" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/public-groups> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/public-groups> <http://www.w3.org/2000/01/rdf-schema#label> "Public Groups" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/public-groups> <http://www.w3.org/2004/02/skos/core#altLabel> "Group (Regular)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/public-groups> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce public groups" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/public-groups> <http://www.w3.org/2004/02/skos/core#altLabel> "public group" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/public-groups> <http://www.w3.org/2004/02/skos/core#altLabel> "regular group" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/public-groups> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-sharing-model> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/public-groups> <http://www.w3.org/2004/02/skos/core#definition> "Admin-defined collections of users, roles, roles and subordinates, territories and other public groups that act as a single sharing target; stored as Group records of type Regular with membership in GroupMember, and used mainly by sharing rules, manual sharing, queues and list-view or folder access." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/public-groups> <http://www.w3.org/2004/02/skos/core#prefLabel> "Public Groups" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/public-groups> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/enterprise-territory-management> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/public-groups> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/group-membership-locking> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/public-groups> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/queues> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/public-groups> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/role-hierarchy> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/public-groups> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-rules> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/public-groups> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/public-groups/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/public-groups> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/public-groups/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/public-groups> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/public-groups/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/public-groups> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/public-groups/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/public-groups> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/public-groups> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/role-hierarchy> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/public-groups> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "security-and-sharing" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/public-groups> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#enables> <https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-rules> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/public-groups> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-recalculation> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/public-groups> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/public-groups> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/public-sector-solutions> <http://purl.org/dc/terms/created> "2026-10-31" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/public-sector-solutions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Product> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/public-sector-solutions> <http://www.w3.org/2000/01/rdf-schema#label> "Public Sector Solutions" .
@@ -12333,6 +12359,26 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/pub-sub-api/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/pub-sub-api/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/pub-sub-api/s6> <https://schema.org/url> "https://developer.salesforce.com/blogs/2021/07/pub-sub-api-building-event-driven-integrations-just-got-even-easier" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/public-groups/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/public-groups/s1> <http://purl.org/dc/terms/title> "Group (Object Reference for the Salesforce Platform)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/public-groups/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/public-groups/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/public-groups/s1> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/object_reference/sforce_api_objects_group.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/public-groups/s2> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/public-groups/s2> <http://purl.org/dc/terms/title> "GroupMember (Object Reference for the Salesforce Platform)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/public-groups/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/public-groups/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/public-groups/s2> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.264.0.object_reference.meta/object_reference/sforce_api_objects_groupmember.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/public-groups/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/public-groups/s3> <http://purl.org/dc/terms/title> "Group (Metadata API Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/public-groups/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/public-groups/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/public-groups/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_group.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/public-groups/s4> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/public-groups/s4> <http://purl.org/dc/terms/title> "Define Sharing Rules (Data Security module)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/public-groups/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/public-groups/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/public-groups/s4> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/data_security/data_security_sharing_rules" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/public-sector-solutions/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/public-sector-solutions/s1> <http://purl.org/dc/terms/title> "Explore the Components of Public Sector Solutions" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/public-sector-solutions/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
