@@ -22129,6 +22129,110 @@
       ]
     },
     {
+      "@id": "kt:nist-risk-management-framework",
+      "@type": "kto:ExternalConcept",
+      "skos:prefLabel": "NIST Risk Management Framework",
+      "skos:definition": "The seven-step process (Prepare, Categorize, Select, Implement, Assess, Authorize, Monitor) defined in NIST SP 800-37 Rev. 2 that US federal agencies use to manage security and privacy risk across a system's life cycle; FedRAMP applies it to cloud services, and agency authorizations of Salesforce Government Cloud Plus follow it.",
+      "kto:domain": "public-sector-and-compliance",
+      "dcterms:created": "2026-11-11",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "SP 800-37 Rev. 2, Risk Management Framework for Information Systems and Organizations: A System Life Cycle Approach for Security and Privacy",
+          "dcterms:publisher": "NIST Computer Security Resource Center",
+          "schema:url": "https://csrc.nist.gov/pubs/sp/800/37/r2/final",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "RMF Update: NIST Publishes SP 800-37 Rev. 2",
+          "dcterms:publisher": "NIST Computer Security Resource Center",
+          "schema:url": "https://csrc.nist.gov/news/2018/rmf-update-nist-publishes-sp-800-37-rev-2",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "ITL Bulletin, February 2019: Risk Management Framework for Information Systems and Organizations (RMF 2.0)",
+          "dcterms:publisher": "NIST Information Technology Laboratory",
+          "schema:url": "https://csrc.nist.gov/files/pubs/shared/itlb/itlbul2019-02.pdf",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "NIST SP 800-37 Rev. 2 (full text PDF)",
+          "dcterms:publisher": "NIST",
+          "schema:url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-37r2.pdf",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "Cloud Security",
+          "dcterms:publisher": "GSA Cloud Information Center",
+          "schema:url": "https://cic.gsa.gov/basics/cloud-security",
+          "kto:sourceType": "government"
+        },
+        {
+          "dcterms:title": "FedRAMP - Salesforce Government Cloud Plus (High)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://compliance.salesforce.com/en/documents/a005A00000t4NpRQAU",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/public-sector-and-compliance/nist-risk-management-framework.md",
+      "skos:altLabel": [
+        "NIST RMF",
+        "RMF",
+        "NIST SP 800-37",
+        "SP 800-37 Rev. 2",
+        "RMF 2.0",
+        "Risk Management Framework for Information Systems and Organizations"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:security-compliance-frameworks"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:fedramp"
+        },
+        {
+          "@id": "kt:government-cloud-plus"
+        },
+        {
+          "@id": "kt:shared-responsibility-model"
+        },
+        {
+          "@id": "kt:fips-200"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:continuous-monitoring"
+        }
+      ],
+      "kto:enables": [
+        {
+          "@id": "kt:authority-to-operate"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:nist-sp-800-53"
+        },
+        {
+          "@id": "kt:fips-199"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:fisma"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:nist-cybersecurity-framework"
+        }
+      ]
+    },
+    {
       "@id": "kt:nist-sp-800-53",
       "@type": "kto:ExternalConcept",
       "skos:prefLabel": "NIST SP 800-53",
