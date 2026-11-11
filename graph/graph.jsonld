@@ -16904,6 +16904,106 @@
       ]
     },
     {
+      "@id": "kt:connect-api",
+      "@type": "kto:API",
+      "skos:prefLabel": "Connect REST API",
+      "skos:definition": "Salesforce's presentation-oriented REST API (with an Apex twin, Connect in Apex / the ConnectApi namespace) for Chatter feeds, files, notifications, Experience Cloud sites, CMS, Commerce and other feature resources, returning localized, display-ready JSON or XML rather than raw sObject records.",
+      "kto:domain": "integration",
+      "dcterms:created": "2026-11-11",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Connect REST API Introduction (Connect REST API Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/connect-rest-api/guide/intro_working_with_chatter_connect.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "What Is Connect REST API? (Connect REST API Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/connect-rest-api/guide/intro_what_is_chatter_connect",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Build the Resource URL (Connect REST API Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/connect-rest-api/guide/intro_building_url.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Understanding Limits for ConnectApi Classes (Apex Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/api/apex_connect_api_limits.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Testing ConnectApi Code (Apex Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/connectAPI_TestingApex.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Connect in Apex Features (Apex Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apex/connectapi_features.htm",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/integration/connect-api.md",
+      "skos:altLabel": [
+        "Connect API",
+        "Connect in Apex",
+        "ConnectApi namespace",
+        "ConnectApi classes"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-apis"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:rest-api"
+        },
+        {
+          "@id": "kt:experience-cloud"
+        },
+        {
+          "@id": "kt:graphql-api"
+        },
+        {
+          "@id": "kt:data-cloud-segmentation"
+        },
+        {
+          "@id": "kt:salesforce-industries"
+        },
+        {
+          "@id": "kt:apex-testing"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:oauth-2-0"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:api-request-limits"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:rest-api"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:apex"
+        }
+      ]
+    },
+    {
       "@id": "kt:data-integration",
       "@type": "kto:Concept",
       "skos:prefLabel": "Data Integration",

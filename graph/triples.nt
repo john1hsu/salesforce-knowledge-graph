@@ -1277,6 +1277,35 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/composite-api> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/soql> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/composite-api> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/composite-api> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/connect-api> <http://purl.org/dc/terms/created> "2026-11-11" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/connect-api> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#API> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/connect-api> <http://www.w3.org/2000/01/rdf-schema#label> "Connect REST API" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/connect-api> <http://www.w3.org/2004/02/skos/core#altLabel> "Connect API" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/connect-api> <http://www.w3.org/2004/02/skos/core#altLabel> "Connect in Apex" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/connect-api> <http://www.w3.org/2004/02/skos/core#altLabel> "ConnectApi classes" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/connect-api> <http://www.w3.org/2004/02/skos/core#altLabel> "ConnectApi namespace" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/connect-api> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-apis> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/connect-api> <http://www.w3.org/2004/02/skos/core#definition> "Salesforce's presentation-oriented REST API (with an Apex twin, Connect in Apex / the ConnectApi namespace) for Chatter feeds, files, notifications, Experience Cloud sites, CMS, Commerce and other feature resources, returning localized, display-ready JSON or XML rather than raw sObject records." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/connect-api> <http://www.w3.org/2004/02/skos/core#prefLabel> "Connect REST API" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/connect-api> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-testing> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/connect-api> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud-segmentation> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/connect-api> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/experience-cloud> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/connect-api> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/graphql-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/connect-api> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/rest-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/connect-api> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-industries> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/connect-api> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/connect-api/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/connect-api> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/connect-api/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/connect-api> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/connect-api/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/connect-api> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/connect-api/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/connect-api> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/connect-api/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/connect-api> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/connect-api/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/connect-api> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#consumedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/connect-api> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#contrastsWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/rest-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/connect-api> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-2-0> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/connect-api> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "integration" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/connect-api> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#governedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/api-request-limits> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/connect-api> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/connect-api> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/connected-apps> <http://purl.org/dc/terms/created> "2026-10-31" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/connected-apps> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/connected-apps> <http://www.w3.org/2000/01/rdf-schema#label> "Connected Apps" .
@@ -8209,6 +8238,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/composite-api/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/composite-api/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/composite-api/s6> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/api-rest/guide/resources-composite-graph-limits.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/connect-api/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/connect-api/s1> <http://purl.org/dc/terms/title> "Connect REST API Introduction (Connect REST API Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/connect-api/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/connect-api/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/connect-api/s1> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/connect-rest-api/guide/intro_working_with_chatter_connect.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/connect-api/s2> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/connect-api/s2> <http://purl.org/dc/terms/title> "What Is Connect REST API? (Connect REST API Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/connect-api/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/connect-api/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/connect-api/s2> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/connect-rest-api/guide/intro_what_is_chatter_connect" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/connect-api/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/connect-api/s3> <http://purl.org/dc/terms/title> "Build the Resource URL (Connect REST API Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/connect-api/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/connect-api/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/connect-api/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/connect-rest-api/guide/intro_building_url.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/connect-api/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/connect-api/s4> <http://purl.org/dc/terms/title> "Understanding Limits for ConnectApi Classes (Apex Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/connect-api/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/connect-api/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/connect-api/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/api/apex_connect_api_limits.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/connect-api/s5> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/connect-api/s5> <http://purl.org/dc/terms/title> "Testing ConnectApi Code (Apex Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/connect-api/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/connect-api/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/connect-api/s5> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/connectAPI_TestingApex.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/connect-api/s6> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/connect-api/s6> <http://purl.org/dc/terms/title> "Connect in Apex Features (Apex Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/connect-api/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/connect-api/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/connect-api/s6> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apex/connectapi_features.htm" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/connected-apps/s1> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/connected-apps/s1> <http://purl.org/dc/terms/title> "Create a Connected App" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/connected-apps/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

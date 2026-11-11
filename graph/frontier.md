@@ -4,12 +4,11 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:connect-api` | `kt:business-rules-engine`, `kt:context-service`, `kt:data-cloud-segmentation`, `kt:product-configurator`, `kt:salesforce-industries`, `kt:salesforce-pricing` |
 | `kt:public-groups` | `kt:group-membership-locking`, `kt:queues`, `kt:sharing-rules` |
+| `kt:salesforce-apis` | `kt:bulk-api-2`, `kt:connect-api`, `kt:graphql-api` |
 | `kt:omnistudio` | `kt:business-rules-engine`, `kt:public-sector-solutions`, `kt:salesforce-industries` |
 | `kt:nist-risk-management-framework` | `kt:authority-to-operate`, `kt:continuous-monitoring`, `kt:fisma` |
 | `kt:soap-api` | `kt:external-id-fields`, `kt:rest-api` |
-| `kt:salesforce-apis` | `kt:bulk-api-2`, `kt:graphql-api` |
 | `kt:salesforce-optimizer` | `kt:org-check`, `kt:technical-debt-in-salesforce` |
 | `kt:cloud-computing` | `kt:platform-as-a-service`, `kt:shared-responsibility-model` |
 | `kt:heroku` | `kt:platform-as-a-service`, `kt:salesforce-cpq` |
@@ -81,11 +80,11 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:field-service-scheduling-policies` | `kt:field-service` |
 | `kt:service-appointments` | `kt:field-service` |
 | `kt:work-orders` | `kt:field-service` |
+| `kt:data-cloud-activation` | `kt:data-cloud-segmentation` |
+| `kt:data-graphs` | `kt:data-cloud-segmentation` |
 | `kt:dynamic-revenue-orchestrator` | `kt:revenue-cloud` |
 | `kt:revenue-management-consultant-certification` | `kt:revenue-cloud` |
 | `kt:agentexchange` | `kt:appexchange-security-review` |
-| `kt:data-cloud-activation` | `kt:data-cloud-segmentation` |
-| `kt:data-graphs` | `kt:data-cloud-segmentation` |
 | `kt:iso-iec-27002` | `kt:iso-iec-27001` |
 | `kt:decision-tables` | `kt:salesforce-pricing` |
 | `kt:hitrust-csf` | `kt:nist-cybersecurity-framework` |
@@ -100,8 +99,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:opportunity-teams` | `kt:opportunity-splits` |
 | `kt:revenue-intelligence` | `kt:collaborative-forecasts` |
 | `kt:path` | `kt:business-processes` |
-| `kt:visualforce` | `kt:apex-continuations` |
 | `kt:salesforce-ecosystem` | `kt:salesforce-inc` |
+| `kt:visualforce` | `kt:apex-continuations` |
 | `kt:einstein-discovery` | `kt:crm-analytics` |
 | `kt:saql` | `kt:crm-analytics` |
 | `kt:apex-rest-services` | `kt:remote-call-in` |
