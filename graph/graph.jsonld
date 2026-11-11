@@ -933,6 +933,87 @@
       ]
     },
     {
+      "@id": "kt:mulesoft-platform-architect-certification",
+      "@type": "kto:Certification",
+      "skos:prefLabel": "MuleSoft Platform Architect Certification",
+      "skos:definition": "Salesforce's architect-tier MuleSoft credential for people who define and own an organization's Anypoint Platform strategy, testing application-network design, API governance, runtime-plane deployment and monitoring rather than hands-on Mule development.",
+      "kto:domain": "architecture-practice",
+      "dcterms:created": "2026-11-11",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Salesforce Certified MuleSoft Platform Architect Exam Guide",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=005298956&language=en_US&type=1",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Certification - Salesforce Certified MuleSoft Platform Architect",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/credentials/mulesoftplatformarchitecti",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Certification - MuleSoft Overview",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/credentials/mulesoftoverview",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Salesforce Certified MuleSoft Platform Integration Architect Exam Guide",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=005298957&language=en_US&type=1",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Maintain Your MuleSoft Architect Certification for Summer '26",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/mulesoft-platform-architect-certification-maintenance-summer-26/maintain-your-mulesoft-architect-certification-for-summer-26",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/architecture-practice/mulesoft-platform-architect-certification.md",
+      "skos:altLabel": [
+        "Salesforce Certified MuleSoft Platform Architect",
+        "MuleSoft Certified Platform Architect",
+        "MCPA",
+        "MuleSoft Platform Architect I"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-certification-program"
+        },
+        {
+          "@id": "kt:salesforce-architect"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:api-led-connectivity"
+        },
+        {
+          "@id": "kt:non-functional-requirements"
+        },
+        {
+          "@id": "kt:salesforce-center-of-excellence"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:mulesoft-platform-integration-architect-certification"
+        },
+        {
+          "@id": "kt:integration-architect-certification"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:mulesoft-anypoint-platform"
+        }
+      ]
+    },
+    {
       "@id": "kt:non-functional-requirements",
       "@type": "kto:Concept",
       "skos:prefLabel": "Non-Functional Requirements",
@@ -18451,6 +18532,9 @@
         },
         {
           "@id": "kt:flow-orchestrator"
+        },
+        {
+          "@id": "kt:mulesoft-platform-architect-certification"
         }
       ],
       "kto:implements": [

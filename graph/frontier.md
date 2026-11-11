@@ -7,6 +7,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:salesforce-apis` | `kt:bulk-api-2`, `kt:connect-api`, `kt:graphql-api` |
 | `kt:omnistudio` | `kt:business-rules-engine`, `kt:public-sector-solutions`, `kt:salesforce-industries` |
 | `kt:soap-api` | `kt:external-id-fields`, `kt:rest-api` |
+| `kt:api-led-connectivity` | `kt:mulesoft-anypoint-platform`, `kt:mulesoft-platform-architect-certification` |
 | `kt:infrastructure-as-a-service` | `kt:cloud-computing`, `kt:platform-as-a-service` |
 | `kt:software-as-a-service` | `kt:cloud-computing`, `kt:platform-as-a-service` |
 | `kt:heroku` | `kt:platform-as-a-service`, `kt:salesforce-cpq` |
@@ -38,14 +39,13 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:governance-risk-and-compliance` | `kt:security-compliance-frameworks` |
 | `kt:process-integration` | `kt:data-integration` |
 | `kt:transaction-finalizers` | `kt:queueable-apex` |
-| `kt:api-led-connectivity` | `kt:mulesoft-anypoint-platform` |
 | `kt:mule-runtime-engine` | `kt:mulesoft-anypoint-platform` |
 | `kt:salesforce-architecture-program` | `kt:salesforce-architecture-center` |
 | `kt:legacy-named-credentials` | `kt:named-credentials` |
 | `kt:managed-event-subscriptions` | `kt:pub-sub-api` |
 | `kt:streaming-api` | `kt:pub-sub-api` |
-| `kt:upsert` | `kt:external-id-fields` |
 | `kt:platform-developer-ii-certification` | `kt:platform-developer-certification` |
+| `kt:upsert` | `kt:external-id-fields` |
 | `kt:scoping-rules` | `kt:restriction-rules` |
 | `kt:backup-and-recover` | `kt:archiving-strategy` |
 | `kt:salesforce-archive` | `kt:archiving-strategy` |
@@ -55,8 +55,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:data-categories` | `kt:knowledge-base` |
 | `kt:salesforce-go` | `kt:knowledge-base` |
 | `kt:nist-sp-800-60` | `kt:fips-199` |
-| `kt:user-access-policies` | `kt:permission-sets` |
 | `kt:trailhead` | `kt:salesforce-certification-program` |
+| `kt:user-access-policies` | `kt:permission-sets` |
 | `kt:omni-channel-limits` | `kt:omni-channel` |
 | `kt:presence-configuration` | `kt:omni-channel` |
 | `kt:skills-based-routing` | `kt:omni-channel` |
@@ -93,8 +93,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:product-catalog-management` | `kt:product-configurator` |
 | `kt:opportunity-teams` | `kt:opportunity-splits` |
 | `kt:revenue-intelligence` | `kt:collaborative-forecasts` |
-| `kt:path` | `kt:business-processes` |
 | `kt:salesforce-ecosystem` | `kt:salesforce-inc` |
+| `kt:path` | `kt:business-processes` |
 | `kt:object-manager` | `kt:schema-builder` |
 | `kt:einstein-discovery` | `kt:crm-analytics` |
 | `kt:saql` | `kt:crm-analytics` |
@@ -109,9 +109,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:dynamic-actions` | `kt:dynamic-forms` |
 | `kt:dynamic-highlights-panel` | `kt:dynamic-forms` |
 | `kt:ingestion-api` | `kt:data-streams` |
-| `kt:data-actions` | `kt:streaming-insights` |
 | `kt:apexguru` | `kt:scale-test` |
 | `kt:scale-center` | `kt:scale-test` |
+| `kt:data-actions` | `kt:streaming-insights` |
 | `kt:automation-studio` | `kt:marketing-cloud-engagement` |
 | `kt:contact-builder` | `kt:marketing-cloud-engagement` |
 | `kt:journey-builder` | `kt:marketing-cloud-engagement` |
@@ -119,33 +119,34 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:marketing-cloud-connect` | `kt:marketing-cloud-engagement` |
 | `kt:marketing-cloud-next` | `kt:marketing-cloud-engagement` |
 | `kt:salesforce-marketing-solutions` | `kt:marketing-cloud-engagement` |
+| `kt:mulesoft-platform-integration-architect-certification` | `kt:mulesoft-platform-architect-certification` |
 | `kt:multiple-currencies` | `kt:price-books` |
 | `kt:opportunity-products` | `kt:price-books` |
 | `kt:flow-limits` | `kt:flow-versioning` |
 | `kt:holidays` | `kt:business-hours` |
 | `kt:security-center` | `kt:continuous-monitoring` |
-| `kt:soc-1` | `kt:soc-2` |
-| `kt:trust-services-criteria` | `kt:soc-2` |
 | `kt:block-kit` | `kt:slack-platform` |
 | `kt:customer-360` | `kt:slack-platform` |
 | `kt:mulesoft-composer` | `kt:slack-platform` |
 | `kt:slack-api-rate-limits` | `kt:slack-platform` |
 | `kt:slack-workflow-builder` | `kt:slack-platform` |
+| `kt:soc-1` | `kt:soc-2` |
+| `kt:trust-services-criteria` | `kt:soc-2` |
 | `kt:custom-permissions` | `kt:validation-rules` |
-| `kt:platform-cache-partitions` | `kt:platform-cache` |
-| `kt:data-cloud-code-extension` | `kt:vector-search-in-data-cloud` |
+| `kt:iso-iec-25010` | `kt:non-functional-requirements` |
+| `kt:requirements-engineering` | `kt:non-functional-requirements` |
 | `kt:it-governance` | `kt:salesforce-governance` |
 | `kt:security-governance` | `kt:salesforce-governance` |
+| `kt:platform-cache-partitions` | `kt:platform-cache` |
+| `kt:data-cloud-code-extension` | `kt:vector-search-in-data-cloud` |
 | `kt:unstructured-data-in-data-cloud` | `kt:vector-search-in-data-cloud` |
 | `kt:models-api` | `kt:ai-models` |
 | `kt:mutual-tls-authentication` | `kt:login-ip-ranges-and-trusted-ip-ranges` |
 | `kt:fhir` | `kt:health-cloud` |
 | `kt:utilization-management` | `kt:health-cloud` |
-| `kt:business-architecture` | `kt:capability-maps` |
 | `kt:digital-accessibility` | `kt:section-508-accessibility` |
-| `kt:iso-iec-25010` | `kt:non-functional-requirements` |
 | `kt:release-management` | `kt:deployment-validation-and-quick-deploy` |
-| `kt:requirements-engineering` | `kt:non-functional-requirements` |
+| `kt:wcag` | `kt:section-508-accessibility` |
+| `kt:business-architecture` | `kt:capability-maps` |
 | `kt:technology-roadmaps` | `kt:capability-maps` |
 | `kt:value-streams` | `kt:capability-maps` |
-| `kt:wcag` | `kt:section-508-accessibility` |

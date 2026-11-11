@@ -11,7 +11,7 @@ summary: >-
 release: "Winter '27"
 status: current
 broader: [kt:data-integration]
-related: [kt:event-driven-architecture, kt:rest-api, kt:salesforce-connect, kt:change-data-capture, kt:flow-orchestrator]
+related: [kt:event-driven-architecture, kt:rest-api, kt:salesforce-connect, kt:change-data-capture, kt:flow-orchestrator, kt:mulesoft-platform-architect-certification]
 relations:
   - {predicate: implements, object: kt:api-led-connectivity}
   - {predicate: integratesWith, object: kt:salesforce-platform}
