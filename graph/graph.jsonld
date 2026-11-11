@@ -2748,6 +2748,112 @@
       ]
     },
     {
+      "@id": "kt:flow-tests",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Flow Tests",
+      "skos:definition": "Declarative, automated tests built in Flow Builder that run a flow against simulated triggering data and check assertions about its path and results, stored as FlowTest metadata and runnable from the UI or the Salesforce CLI.",
+      "kto:domain": "automation",
+      "dcterms:created": "2026-11-11",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Create Flow Tests (Flow Implementation 1 module)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/flow-implementation-1/create-flow-tests",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Drive Your Flow Development with Tests (Flow Implementation 1 module)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/flow-implementation-1/drive-your-flow-development-with-tests",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "FlowTest (Metadata API Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_flowtest.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "FlowTest (Tooling API Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api_tooling.meta/api_tooling/tooling_api_objects_flowtest.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "flow run test (Salesforce CLI Command Reference)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/salesforce-cli-reference/guide/cli_reference_flow_run_test.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Flow Test Mode (Beta): The Future of Flow Testing",
+          "dcterms:publisher": "Salesforce Admins Blog",
+          "schema:url": "https://admin.salesforce.com/blog/2026/flow-test-mode-beta-the-future-of-flow-testing",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/automation/flow-tests.md",
+      "skos:altLabel": [
+        "flow testing",
+        "Flow Builder tests",
+        "automated flow tests",
+        "FlowTest",
+        "Flow Test Mode"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:flow-builder"
+        },
+        {
+          "@id": "kt:testing-strategy"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:record-triggered-flow"
+        },
+        {
+          "@id": "kt:autolaunched-flow"
+        },
+        {
+          "@id": "kt:apex-testing"
+        },
+        {
+          "@id": "kt:process-automation-settings"
+        },
+        {
+          "@id": "kt:flow-fault-handling"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:metadata-api"
+        }
+      ],
+      "kto:queriedWith": [
+        {
+          "@id": "kt:tooling-api"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:salesforce-cli"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:record-triggered-flow"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:apex-testing"
+        }
+      ]
+    },
+    {
       "@id": "kt:flow-trigger-explorer",
       "@type": "kto:Tool",
       "skos:prefLabel": "Flow Trigger Explorer",

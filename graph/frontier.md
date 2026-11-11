@@ -48,9 +48,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:legacy-named-credentials` | `kt:named-credentials` |
 | `kt:managed-event-subscriptions` | `kt:pub-sub-api` |
 | `kt:streaming-api` | `kt:pub-sub-api` |
-| `kt:upsert` | `kt:external-id-fields` |
 | `kt:infrastructure-as-a-service` | `kt:platform-as-a-service` |
 | `kt:software-as-a-service` | `kt:platform-as-a-service` |
+| `kt:upsert` | `kt:external-id-fields` |
 | `kt:platform-developer-ii-certification` | `kt:platform-developer-certification` |
 | `kt:external-services` | `kt:apex-callouts` |
 | `kt:scoping-rules` | `kt:restriction-rules` |
@@ -63,8 +63,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:data-categories` | `kt:knowledge-base` |
 | `kt:salesforce-go` | `kt:knowledge-base` |
 | `kt:user-access-policies` | `kt:permission-sets` |
-| `kt:nist-sp-800-60` | `kt:fips-199` |
 | `kt:trailhead` | `kt:salesforce-certification-program` |
+| `kt:nist-sp-800-60` | `kt:fips-199` |
 | `kt:omni-channel-limits` | `kt:omni-channel` |
 | `kt:presence-configuration` | `kt:omni-channel` |
 | `kt:skills-based-routing` | `kt:omni-channel` |
@@ -120,13 +120,13 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:flow-limits` | `kt:flow-versioning` |
 | `kt:holidays` | `kt:business-hours` |
 | `kt:ingestion-api` | `kt:data-streams` |
+| `kt:soc-1` | `kt:soc-2` |
+| `kt:trust-services-criteria` | `kt:soc-2` |
 | `kt:block-kit` | `kt:slack-platform` |
 | `kt:customer-360` | `kt:slack-platform` |
 | `kt:mulesoft-composer` | `kt:slack-platform` |
 | `kt:slack-api-rate-limits` | `kt:slack-platform` |
 | `kt:slack-workflow-builder` | `kt:slack-platform` |
-| `kt:soc-1` | `kt:soc-2` |
-| `kt:trust-services-criteria` | `kt:soc-2` |
 | `kt:automation-studio` | `kt:marketing-cloud-engagement` |
 | `kt:contact-builder` | `kt:marketing-cloud-engagement` |
 | `kt:journey-builder` | `kt:marketing-cloud-engagement` |
