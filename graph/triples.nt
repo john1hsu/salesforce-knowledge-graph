@@ -6174,6 +6174,30 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-industries> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/connect-api> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-industries> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-industries> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-optimizer> <http://purl.org/dc/terms/created> "2026-11-11" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-optimizer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Tool> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-optimizer> <http://www.w3.org/2000/01/rdf-schema#label> "Salesforce Optimizer" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-optimizer> <http://www.w3.org/2004/02/skos/core#altLabel> "Optimizer Report" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-optimizer> <http://www.w3.org/2004/02/skos/core#altLabel> "Optimizer app" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-optimizer> <http://www.w3.org/2004/02/skos/core#altLabel> "Optimizer" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-optimizer> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce Optimizer Report" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-optimizer> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/application-lifecycle-management> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-optimizer> <http://www.w3.org/2004/02/skos/core#definition> "A free, built-in Setup tool that scanned an org's configuration against 50+ metrics (fields, code, automation, limits, admins) and listed findings with recommended actions; Salesforce retired it starting in Winter '26, and the Admins blog points teams to the Salesforce Labs tool Org Check instead." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-optimizer> <http://www.w3.org/2004/02/skos/core#prefLabel> "Salesforce Optimizer" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-optimizer> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-triggers> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-optimizer> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-fields> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-optimizer> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/hyperforce> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-optimizer> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/technical-debt-in-salesforce> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-optimizer> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-optimizer/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-optimizer> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-optimizer/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-optimizer> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-optimizer/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-optimizer> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-optimizer/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-optimizer> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-optimizer/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-optimizer> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/governor-limits> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-optimizer> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "devops-and-alm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-optimizer> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#replacedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/org-check> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-optimizer> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "retired" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-optimizer> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-platform> <http://purl.org/dc/terms/created> "2026-11-01" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-platform> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Product> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-platform> <http://www.w3.org/2000/01/rdf-schema#label> "Salesforce Platform" .
@@ -13273,6 +13297,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-industries/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-industries/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-industries/s6> <https://schema.org/url> "https://developer.salesforce.com/docs/industries/industries-common-dev/guide/omnistudio-overview.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-optimizer/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-optimizer/s1> <http://purl.org/dc/terms/title> "Salesforce Optimizer: Get Started with Salesforce Optimizer" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-optimizer/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-optimizer/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-optimizer/s1> <https://schema.org/url> "https://trailhead.salesforce.com/en/modules/salesforce-optimizer/units/get-started-with-salesforce-optimizer" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-optimizer/s2> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-optimizer/s2> <http://purl.org/dc/terms/title> "Salesforce Optimizer: Run a Report and Review the Findings" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-optimizer/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-optimizer/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-optimizer/s2> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/salesforce-optimizer/run-a-report-and-review-the-findings" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-optimizer/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-optimizer/s3> <http://purl.org/dc/terms/title> "OrgMetricScanResult (Object Reference for the Salesforce Platform)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-optimizer/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-optimizer/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-optimizer/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/api/sforce_api_objects_orgmetricscanresult.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-optimizer/s4> <http://purl.org/dc/terms/publisher> "Salesforce Admins Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-optimizer/s4> <http://purl.org/dc/terms/title> "Optimizer Is Sunsetting: Learn How To Use Org Check" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-optimizer/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-optimizer/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-optimizer/s4> <https://schema.org/url> "https://admin.salesforce.com/blog/2025/optimizer-is-sunsetting-learn-how-to-use-org-check-kate-clicks-through-it" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-optimizer/s5> <http://purl.org/dc/terms/publisher> "Trailblazer Community" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-optimizer/s5> <http://purl.org/dc/terms/title> "Salesforce Optimizer retirement announcement (Communications & Readiness Connect group)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-optimizer/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-optimizer/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "community" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-optimizer/s5> <https://schema.org/url> "https://trailhead.salesforce.com/trailblazer-community/feed/0D5KX00000mlut50AA" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-platform/s1> <http://purl.org/dc/terms/publisher> "Salesforce Architects" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-platform/s1> <http://purl.org/dc/terms/title> "The Salesforce Platform - Transformed for Tomorrow | Get Started with Fundamentals" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-platform/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

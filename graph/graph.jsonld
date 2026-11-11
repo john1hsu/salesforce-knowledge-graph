@@ -14001,6 +14001,84 @@
       ]
     },
     {
+      "@id": "kt:salesforce-optimizer",
+      "@type": "kto:Tool",
+      "skos:prefLabel": "Salesforce Optimizer",
+      "skos:definition": "A free, built-in Setup tool that scanned an org's configuration against 50+ metrics (fields, code, automation, limits, admins) and listed findings with recommended actions; Salesforce retired it starting in Winter '26, and the Admins blog points teams to the Salesforce Labs tool Org Check instead.",
+      "kto:domain": "devops-and-alm",
+      "dcterms:created": "2026-11-11",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "retired",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Salesforce Optimizer: Get Started with Salesforce Optimizer",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/en/modules/salesforce-optimizer/units/get-started-with-salesforce-optimizer",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Salesforce Optimizer: Run a Report and Review the Findings",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/salesforce-optimizer/run-a-report-and-review-the-findings",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "OrgMetricScanResult (Object Reference for the Salesforce Platform)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/api/sforce_api_objects_orgmetricscanresult.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Optimizer Is Sunsetting: Learn How To Use Org Check",
+          "dcterms:publisher": "Salesforce Admins Blog",
+          "schema:url": "https://admin.salesforce.com/blog/2025/optimizer-is-sunsetting-learn-how-to-use-org-check-kate-clicks-through-it",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Salesforce Optimizer retirement announcement (Communications & Readiness Connect group)",
+          "dcterms:publisher": "Trailblazer Community",
+          "schema:url": "https://trailhead.salesforce.com/trailblazer-community/feed/0D5KX00000mlut50AA",
+          "kto:sourceType": "community"
+        }
+      ],
+      "kto:file": "articles/devops-and-alm/salesforce-optimizer.md",
+      "skos:altLabel": [
+        "Optimizer",
+        "Optimizer app",
+        "Salesforce Optimizer Report",
+        "Optimizer Report"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:application-lifecycle-management"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:technical-debt-in-salesforce"
+        },
+        {
+          "@id": "kt:custom-fields"
+        },
+        {
+          "@id": "kt:apex-triggers"
+        },
+        {
+          "@id": "kt:hyperforce"
+        }
+      ],
+      "kto:replacedBy": [
+        {
+          "@id": "kt:org-check"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:governor-limits"
+        }
+      ]
+    },
+    {
       "@id": "kt:sandbox-templates",
       "@type": "kto:Feature",
       "skos:prefLabel": "Sandbox Templates",

@@ -7,7 +7,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:salesforce-apis` | `kt:bulk-api-2`, `kt:connect-api`, `kt:graphql-api` |
 | `kt:omnistudio` | `kt:business-rules-engine`, `kt:public-sector-solutions`, `kt:salesforce-industries` |
 | `kt:soap-api` | `kt:external-id-fields`, `kt:rest-api` |
-| `kt:salesforce-optimizer` | `kt:org-check`, `kt:technical-debt-in-salesforce` |
 | `kt:cloud-computing` | `kt:platform-as-a-service`, `kt:shared-responsibility-model` |
 | `kt:heroku` | `kt:platform-as-a-service`, `kt:salesforce-cpq` |
 | `kt:external-services` | `kt:apex-callouts`, `kt:flow-http-callout` |
@@ -82,18 +81,18 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:data-graphs` | `kt:data-cloud-segmentation` |
 | `kt:dynamic-revenue-orchestrator` | `kt:revenue-cloud` |
 | `kt:revenue-management-consultant-certification` | `kt:revenue-cloud` |
+| `kt:agentexchange` | `kt:appexchange-security-review` |
 | `kt:iso-iec-27002` | `kt:iso-iec-27001` |
 | `kt:hitrust-csf` | `kt:nist-cybersecurity-framework` |
-| `kt:agentexchange` | `kt:appexchange-security-review` |
 | `kt:decision-tables` | `kt:salesforce-pricing` |
 | `kt:json-web-token` | `kt:openid-connect` |
 | `kt:tableau-next` | `kt:tableau` |
 | `kt:tableau-pulse` | `kt:tableau` |
 | `kt:tableau-semantics` | `kt:tableau` |
-| `kt:constraint-modeling-language` | `kt:product-configurator` |
-| `kt:product-catalog-management` | `kt:product-configurator` |
 | `kt:delegated-authentication` | `kt:identity-connect` |
 | `kt:scim` | `kt:salesforce-scim` |
+| `kt:constraint-modeling-language` | `kt:product-configurator` |
+| `kt:product-catalog-management` | `kt:product-configurator` |
 | `kt:opportunity-teams` | `kt:opportunity-splits` |
 | `kt:revenue-intelligence` | `kt:collaborative-forecasts` |
 | `kt:salesforce-ecosystem` | `kt:salesforce-inc` |
@@ -106,9 +105,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:agentforce-data-library` | `kt:retrieval-augmented-generation-in-salesforce` |
 | `kt:generative-ai` | `kt:retrieval-augmented-generation-in-salesforce` |
 | `kt:dynamic-soql` | `kt:soql-injection` |
-| `kt:ingestion-api` | `kt:data-streams` |
 | `kt:dynamic-actions` | `kt:dynamic-forms` |
 | `kt:dynamic-highlights-panel` | `kt:dynamic-forms` |
+| `kt:ingestion-api` | `kt:data-streams` |
 | `kt:data-actions` | `kt:streaming-insights` |
 | `kt:apexguru` | `kt:scale-test` |
 | `kt:scale-center` | `kt:scale-test` |
@@ -133,18 +132,18 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:slack-workflow-builder` | `kt:slack-platform` |
 | `kt:custom-permissions` | `kt:validation-rules` |
 | `kt:platform-cache-partitions` | `kt:platform-cache` |
-| `kt:data-cloud-code-extension` | `kt:vector-search-in-data-cloud` |
 | `kt:it-governance` | `kt:salesforce-governance` |
 | `kt:security-governance` | `kt:salesforce-governance` |
+| `kt:data-cloud-code-extension` | `kt:vector-search-in-data-cloud` |
 | `kt:unstructured-data-in-data-cloud` | `kt:vector-search-in-data-cloud` |
 | `kt:models-api` | `kt:ai-models` |
 | `kt:mutual-tls-authentication` | `kt:login-ip-ranges-and-trusted-ip-ranges` |
 | `kt:fhir` | `kt:health-cloud` |
 | `kt:utilization-management` | `kt:health-cloud` |
-| `kt:release-management` | `kt:deployment-validation-and-quick-deploy` |
 | `kt:business-architecture` | `kt:capability-maps` |
 | `kt:digital-accessibility` | `kt:section-508-accessibility` |
 | `kt:iso-iec-25010` | `kt:non-functional-requirements` |
+| `kt:release-management` | `kt:deployment-validation-and-quick-deploy` |
 | `kt:requirements-engineering` | `kt:non-functional-requirements` |
 | `kt:technology-roadmaps` | `kt:capability-maps` |
 | `kt:value-streams` | `kt:capability-maps` |
