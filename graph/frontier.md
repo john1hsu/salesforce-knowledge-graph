@@ -7,6 +7,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:connect-api` | `kt:business-rules-engine`, `kt:context-service`, `kt:data-cloud-segmentation`, `kt:product-configurator`, `kt:salesforce-industries`, `kt:salesforce-pricing` |
 | `kt:public-groups` | `kt:group-membership-locking`, `kt:queues`, `kt:sharing-rules` |
 | `kt:omnistudio` | `kt:business-rules-engine`, `kt:public-sector-solutions`, `kt:salesforce-industries` |
+| `kt:nist-risk-management-framework` | `kt:authority-to-operate`, `kt:continuous-monitoring`, `kt:fisma` |
 | `kt:soap-api` | `kt:external-id-fields`, `kt:rest-api` |
 | `kt:salesforce-apis` | `kt:bulk-api-2`, `kt:graphql-api` |
 | `kt:cloud-computing` | `kt:platform-as-a-service`, `kt:shared-responsibility-model` |
@@ -14,8 +15,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:permission-set-licenses` | `kt:identity-connect`, `kt:permission-sets` |
 | `kt:user-interface-api` | `kt:graphql-api`, `kt:lightning-data-service` |
 | `kt:salesforce-analytics` | `kt:crm-analytics`, `kt:tableau` |
-| `kt:continuous-monitoring` | `kt:authority-to-operate`, `kt:fisma` |
-| `kt:nist-risk-management-framework` | `kt:authority-to-operate`, `kt:fisma` |
 | `kt:test-data-factory` | `kt:apex-testing` |
 | `kt:recursive-save` | `kt:order-of-execution` |
 | `kt:salesforce-data-mask` | `kt:environment-strategy` |
@@ -65,8 +64,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:data-categories` | `kt:knowledge-base` |
 | `kt:salesforce-go` | `kt:knowledge-base` |
 | `kt:user-access-policies` | `kt:permission-sets` |
-| `kt:trailhead` | `kt:salesforce-certification-program` |
 | `kt:nist-sp-800-60` | `kt:fips-199` |
+| `kt:trailhead` | `kt:salesforce-certification-program` |
 | `kt:omni-channel-limits` | `kt:omni-channel` |
 | `kt:presence-configuration` | `kt:omni-channel` |
 | `kt:skills-based-routing` | `kt:omni-channel` |
@@ -138,16 +137,17 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:salesforce-marketing-solutions` | `kt:marketing-cloud-engagement` |
 | `kt:custom-permissions` | `kt:validation-rules` |
 | `kt:data-governance` | `kt:data-quality` |
+| `kt:security-center` | `kt:continuous-monitoring` |
 | `kt:platform-cache-partitions` | `kt:platform-cache` |
 | `kt:salesforce-governance` | `kt:salesforce-center-of-excellence` |
 | `kt:mutual-tls-authentication` | `kt:login-ip-ranges-and-trusted-ip-ranges` |
 | `kt:business-architecture` | `kt:capability-maps` |
-| `kt:digital-accessibility` | `kt:section-508-accessibility` |
-| `kt:health-cloud` | `kt:hipaa` |
 | `kt:iso-iec-25010` | `kt:non-functional-requirements` |
 | `kt:models-api` | `kt:ai-models` |
 | `kt:release-management` | `kt:deployment-validation-and-quick-deploy` |
 | `kt:requirements-engineering` | `kt:non-functional-requirements` |
 | `kt:technology-roadmaps` | `kt:capability-maps` |
 | `kt:value-streams` | `kt:capability-maps` |
+| `kt:digital-accessibility` | `kt:section-508-accessibility` |
+| `kt:health-cloud` | `kt:hipaa` |
 | `kt:wcag` | `kt:section-508-accessibility` |

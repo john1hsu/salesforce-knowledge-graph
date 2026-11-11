@@ -1327,6 +1327,33 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/context-service> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/connect-api> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/context-service> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/context-service> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/continuous-monitoring> <http://purl.org/dc/terms/created> "2026-11-11" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/continuous-monitoring> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#ExternalConcept> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/continuous-monitoring> <http://www.w3.org/2000/01/rdf-schema#label> "Continuous Monitoring" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/continuous-monitoring> <http://www.w3.org/2004/02/skos/core#altLabel> "ConMon" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/continuous-monitoring> <http://www.w3.org/2004/02/skos/core#altLabel> "ISCM" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/continuous-monitoring> <http://www.w3.org/2004/02/skos/core#altLabel> "NIST SP 800-137" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/continuous-monitoring> <http://www.w3.org/2004/02/skos/core#altLabel> "collaborative continuous monitoring" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/continuous-monitoring> <http://www.w3.org/2004/02/skos/core#altLabel> "information security continuous monitoring" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/continuous-monitoring> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-risk-management-framework> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/continuous-monitoring> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/security-compliance-frameworks> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/continuous-monitoring> <http://www.w3.org/2004/02/skos/core#definition> "The ongoing, largely automated practice of tracking assets, vulnerabilities, threats and control effectiveness after a system is authorized, defined by NIST SP 800-137 and operationalized by FedRAMP; it is what keeps an Authority to Operate for a Salesforce government cloud deployment valid over time." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/continuous-monitoring> <http://www.w3.org/2004/02/skos/core#prefLabel> "Continuous Monitoring" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/continuous-monitoring> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/event-monitoring> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/continuous-monitoring> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/fedramp> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/continuous-monitoring> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/fisma> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/continuous-monitoring> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/security-center> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/continuous-monitoring> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/continuous-monitoring/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/continuous-monitoring> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/continuous-monitoring/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/continuous-monitoring> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/continuous-monitoring/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/continuous-monitoring> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/continuous-monitoring/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/continuous-monitoring> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/continuous-monitoring/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/continuous-monitoring> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/continuous-monitoring/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/continuous-monitoring> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-53> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/continuous-monitoring> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "public-sector-and-compliance" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/continuous-monitoring> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#enables> <https://github.com/john1hsu/salesforce-knowledge-graph/id/authority-to-operate> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/continuous-monitoring> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/continuous-monitoring> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/crm-analytics> <http://purl.org/dc/terms/created> "2026-11-07" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/crm-analytics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Product> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/crm-analytics> <http://www.w3.org/2000/01/rdf-schema#label> "CRM Analytics" .
@@ -8072,6 +8099,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/context-service/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/context-service/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/context-service/s6> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/automated-compliance-with-business-rules-engine-and-context-service/fetch-opportunity-data" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/continuous-monitoring/s1> <http://purl.org/dc/terms/publisher> "NIST Computer Security Resource Center" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/continuous-monitoring/s1> <http://purl.org/dc/terms/title> "SP 800-137, Information Security Continuous Monitoring (ISCM) for Federal Information Systems and Organizations" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/continuous-monitoring/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/continuous-monitoring/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "standards-body" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/continuous-monitoring/s1> <https://schema.org/url> "https://csrc.nist.gov/pubs/sp/800/137/final" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/continuous-monitoring/s2> <http://purl.org/dc/terms/publisher> "NIST" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/continuous-monitoring/s2> <http://purl.org/dc/terms/title> "SP 800-137A, Assessing Information Security Continuous Monitoring (ISCM) Programs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/continuous-monitoring/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/continuous-monitoring/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "standards-body" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/continuous-monitoring/s2> <https://schema.org/url> "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-137A.pdf" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/continuous-monitoring/s3> <http://purl.org/dc/terms/publisher> "FedRAMP (GSA)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/continuous-monitoring/s3> <http://purl.org/dc/terms/title> "Continuous Monitoring: Vulnerability Scanning (legacy playbook)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/continuous-monitoring/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/continuous-monitoring/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/continuous-monitoring/s3> <https://schema.org/url> "https://fedramp.gov/legacy/playbook/csp/continuous-monitoring/vulnerability-scanning/" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/continuous-monitoring/s4> <http://purl.org/dc/terms/publisher> "FedRAMP (GSA)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/continuous-monitoring/s4> <http://purl.org/dc/terms/title> "Collaborative Continuous Monitoring — Rev5 provider rules (Consolidated Rules for 2026)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/continuous-monitoring/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/continuous-monitoring/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/continuous-monitoring/s4> <https://schema.org/url> "https://fedramp.gov/2026/providers/rev5/rules/collaborative-continuous-monitoring/" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/continuous-monitoring/s5> <http://purl.org/dc/terms/publisher> "Salesforce Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/continuous-monitoring/s5> <http://purl.org/dc/terms/title> "Learn the Core Concepts of Event Monitoring" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/continuous-monitoring/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/continuous-monitoring/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/continuous-monitoring/s5> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/event-monitoring-basics/learn-the-core-concepts-of-event-monitoring" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/continuous-monitoring/s6> <http://purl.org/dc/terms/publisher> "Salesforce Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/continuous-monitoring/s6> <http://purl.org/dc/terms/title> "Learn About Security Center" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/continuous-monitoring/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/continuous-monitoring/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/continuous-monitoring/s6> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/security-center/learn-about-security-center" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/crm-analytics/s1> <http://purl.org/dc/terms/publisher> "Salesforce" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/crm-analytics/s1> <http://purl.org/dc/terms/title> "CRM Analytics (Salesforce Help)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/crm-analytics/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

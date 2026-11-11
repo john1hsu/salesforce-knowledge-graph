@@ -19992,6 +19992,94 @@
       ]
     },
     {
+      "@id": "kt:continuous-monitoring",
+      "@type": "kto:ExternalConcept",
+      "skos:prefLabel": "Continuous Monitoring",
+      "skos:definition": "The ongoing, largely automated practice of tracking assets, vulnerabilities, threats and control effectiveness after a system is authorized, defined by NIST SP 800-137 and operationalized by FedRAMP; it is what keeps an Authority to Operate for a Salesforce government cloud deployment valid over time.",
+      "kto:domain": "public-sector-and-compliance",
+      "dcterms:created": "2026-11-11",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "SP 800-137, Information Security Continuous Monitoring (ISCM) for Federal Information Systems and Organizations",
+          "dcterms:publisher": "NIST Computer Security Resource Center",
+          "schema:url": "https://csrc.nist.gov/pubs/sp/800/137/final",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "SP 800-137A, Assessing Information Security Continuous Monitoring (ISCM) Programs",
+          "dcterms:publisher": "NIST",
+          "schema:url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-137A.pdf",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "Continuous Monitoring: Vulnerability Scanning (legacy playbook)",
+          "dcterms:publisher": "FedRAMP (GSA)",
+          "schema:url": "https://fedramp.gov/legacy/playbook/csp/continuous-monitoring/vulnerability-scanning/",
+          "kto:sourceType": "government"
+        },
+        {
+          "dcterms:title": "Collaborative Continuous Monitoring — Rev5 provider rules (Consolidated Rules for 2026)",
+          "dcterms:publisher": "FedRAMP (GSA)",
+          "schema:url": "https://fedramp.gov/2026/providers/rev5/rules/collaborative-continuous-monitoring/",
+          "kto:sourceType": "government"
+        },
+        {
+          "dcterms:title": "Learn the Core Concepts of Event Monitoring",
+          "dcterms:publisher": "Salesforce Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/event-monitoring-basics/learn-the-core-concepts-of-event-monitoring",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Learn About Security Center",
+          "dcterms:publisher": "Salesforce Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/security-center/learn-about-security-center",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/public-sector-and-compliance/continuous-monitoring.md",
+      "skos:altLabel": [
+        "ConMon",
+        "information security continuous monitoring",
+        "ISCM",
+        "NIST SP 800-137",
+        "collaborative continuous monitoring"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:nist-risk-management-framework"
+        },
+        {
+          "@id": "kt:security-compliance-frameworks"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:fisma"
+        },
+        {
+          "@id": "kt:fedramp"
+        },
+        {
+          "@id": "kt:event-monitoring"
+        },
+        {
+          "@id": "kt:security-center"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:nist-sp-800-53"
+        }
+      ],
+      "kto:enables": [
+        {
+          "@id": "kt:authority-to-operate"
+        }
+      ]
+    },
+    {
       "@id": "kt:data-residency",
       "@type": "kto:Concept",
       "skos:prefLabel": "Data Residency",
