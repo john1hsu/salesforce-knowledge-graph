@@ -1462,6 +1462,33 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/cta-review-board> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/cta-review-board> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#usedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-architect> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/cta-review-board> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-domains> <http://purl.org/dc/terms/created> "2026-11-11" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-domains> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-domains> <http://www.w3.org/2000/01/rdf-schema#label> "Custom Domains" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-domains> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce custom domain" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-domains> <http://www.w3.org/2004/02/skos/core#altLabel> "branded site domain" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-domains> <http://www.w3.org/2004/02/skos/core#altLabel> "custom URLs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-domains> <http://www.w3.org/2004/02/skos/core#altLabel> "custom domain" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-domains> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/experience-cloud> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-domains> <http://www.w3.org/2004/02/skos/core#definition> "A domain the customer owns (for example www.example.com) that is added on the Domains Setup page and mapped, via custom URL records, to Experience Cloud sites and Salesforce Sites so external users reach them on a branded address instead of a Salesforce-managed host." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-domains> <http://www.w3.org/2004/02/skos/core#prefLabel> "Custom Domains" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-domains> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/experience-builder> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-domains> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/experience-cloud-identity> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-domains> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/hyperforce> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-domains> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/my-domain> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-domains> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-edge-network> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-domains> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-domains/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-domains> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-domains/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-domains> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-domains/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-domains> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-domains/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-domains> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-domains/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-domains> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-domains/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-domains> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#consumedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-sites> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-domains> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#contrastsWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/my-domain> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-domains> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/certificate-and-key-management> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-domains> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "identity" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-domains> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-domains> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-fields> <http://purl.org/dc/terms/created> "2026-11-08" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-fields> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-fields> <http://www.w3.org/2000/01/rdf-schema#label> "Custom Fields" .
@@ -8642,6 +8669,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/cta-review-board/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/cta-review-board/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "news" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/cta-review-board/s4> <https://schema.org/url> "https://www.salesforceben.com/salesforce-cta-review-board-to-become-virtual/" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-domains/s1> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-domains/s1> <http://purl.org/dc/terms/title> "Custom Domains in Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-domains/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-domains/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-domains/s1> <https://schema.org/url> "https://help.salesforce.com/s/articleView?language=en_US&id=sf.domain_mgmt_overview.htm&amp=&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-domains/s2> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-domains/s2> <http://purl.org/dc/terms/title> "Set Up a Custom Domain That Uses Your HTTPS Certificate" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-domains/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-domains/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-domains/s2> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=domain_mgmt_cert_setup.htm&language=en_US&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-domains/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers (Identity Implementation Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-domains/s3> <http://purl.org/dc/terms/title> "Brand Your Salesforce Org's Domains" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-domains/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-domains/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-domains/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.identityImplGuide.meta/%20identityImplGuide/domain_name_brand_your_org.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-domains/s4> <http://purl.org/dc/terms/publisher> "Salesforce Help (Knowledge Article 000389364)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-domains/s4> <http://purl.org/dc/terms/title> "Include SNI Extension for Custom Domains Using Salesforce Cloud Option with Salesforce Edge Network" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-domains/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-domains/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-domains/s4> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=000389364&language=en_US&type=1" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-domains/s5> <http://purl.org/dc/terms/publisher> "Salesforce Developers (Identity Implementation Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-domains/s5> <http://purl.org/dc/terms/title> "Considerations for Salesforce Edge Network" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-domains/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-domains/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-domains/s5> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.identityImplGuide.meta/%20identityImplGuide/domain_name_edge_network_considerations.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-domains/s6> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-domains/s6> <http://purl.org/dc/terms/title> "Experience Cloud (Salesforce Help PDF)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-domains/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-domains/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-domains/s6> <https://schema.org/url> "https://resources.docs.salesforce.com/latest/latest/en-us/sfdc/pdf/communities.pdf" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-fields/s1> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-fields/s1> <http://purl.org/dc/terms/title> "Custom Fields Allowed Per Object" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-fields/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

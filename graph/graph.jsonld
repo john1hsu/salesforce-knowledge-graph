@@ -15072,6 +15072,98 @@
       ]
     },
     {
+      "@id": "kt:custom-domains",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Custom Domains",
+      "skos:definition": "A domain the customer owns (for example www.example.com) that is added on the Domains Setup page and mapped, via custom URL records, to Experience Cloud sites and Salesforce Sites so external users reach them on a branded address instead of a Salesforce-managed host.",
+      "kto:domain": "identity",
+      "dcterms:created": "2026-11-11",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Custom Domains in Salesforce",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=sf.domain_mgmt_overview.htm&amp=&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Set Up a Custom Domain That Uses Your HTTPS Certificate",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=domain_mgmt_cert_setup.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Brand Your Salesforce Org's Domains",
+          "dcterms:publisher": "Salesforce Developers (Identity Implementation Guide)",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.identityImplGuide.meta/%20identityImplGuide/domain_name_brand_your_org.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Include SNI Extension for Custom Domains Using Salesforce Cloud Option with Salesforce Edge Network",
+          "dcterms:publisher": "Salesforce Help (Knowledge Article 000389364)",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=000389364&language=en_US&type=1",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Considerations for Salesforce Edge Network",
+          "dcterms:publisher": "Salesforce Developers (Identity Implementation Guide)",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.identityImplGuide.meta/%20identityImplGuide/domain_name_edge_network_considerations.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Experience Cloud (Salesforce Help PDF)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://resources.docs.salesforce.com/latest/latest/en-us/sfdc/pdf/communities.pdf",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/identity/custom-domains.md",
+      "skos:altLabel": [
+        "custom domain",
+        "custom URLs",
+        "branded site domain",
+        "Salesforce custom domain"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:experience-cloud"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:my-domain"
+        },
+        {
+          "@id": "kt:salesforce-edge-network"
+        },
+        {
+          "@id": "kt:experience-builder"
+        },
+        {
+          "@id": "kt:experience-cloud-identity"
+        },
+        {
+          "@id": "kt:hyperforce"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:my-domain"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:salesforce-sites"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:certificate-and-key-management"
+        }
+      ]
+    },
+    {
       "@id": "kt:experience-cloud-identity",
       "@type": "kto:Feature",
       "skos:prefLabel": "Experience Cloud Identity",
