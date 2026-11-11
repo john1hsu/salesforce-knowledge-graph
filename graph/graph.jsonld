@@ -12969,6 +12969,103 @@
       ]
     },
     {
+      "@id": "kt:org-check",
+      "@type": "kto:Tool",
+      "skos:prefLabel": "Org Check",
+      "skos:definition": "A free, open-source Salesforce Labs app (and sf CLI plugin) that reads an org's configuration metadata through standard APIs and scores each component for anti-patterns, helping admins, developers and architects find and prioritize technical debt.",
+      "kto:domain": "devops-and-alm",
+      "dcterms:created": "2026-11-11",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Org Check — FAQ",
+          "dcterms:publisher": "Salesforce Labs (Org Check project)",
+          "schema:url": "https://salesforcelabs.github.io/OrgCheck/faq/",
+          "kto:sourceType": "community"
+        },
+        {
+          "dcterms:title": "Org Check — Security Questions",
+          "dcterms:publisher": "Salesforce Labs (Org Check project)",
+          "schema:url": "https://salesforcelabs.github.io/OrgCheck/security/",
+          "kto:sourceType": "community"
+        },
+        {
+          "dcterms:title": "Org Check — Queries",
+          "dcterms:publisher": "Salesforce Labs (Org Check project)",
+          "schema:url": "https://salesforcelabs.github.io/OrgCheck/queries/",
+          "kto:sourceType": "community"
+        },
+        {
+          "dcterms:title": "SalesforceLabs/OrgCheck (GitHub repository)",
+          "dcterms:publisher": "Salesforce Labs",
+          "schema:url": "https://github.com/SalesforceLabs/OrgCheck",
+          "kto:sourceType": "community"
+        },
+        {
+          "dcterms:title": "Optimizer Is Sunsetting: Learn How To Use Org Check",
+          "dcterms:publisher": "Salesforce Admins Blog",
+          "schema:url": "https://admin.salesforce.com/blog/2025/optimizer-is-sunsetting-learn-how-to-use-org-check-kate-clicks-through-it",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Salesforce Optimizer App Retirement: Optimization without Salesforce Optimizer",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=005167013&language=en_US&type=1",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Org Check by Salesforce Labs (Trailblazer Community group)",
+          "dcterms:publisher": "Trailblazer Community",
+          "schema:url": "https://trailhead.salesforce.com/trailblazer-community/groups/0F94V0000002E6cSAE?tab=discussion",
+          "kto:sourceType": "community"
+        }
+      ],
+      "kto:file": "articles/devops-and-alm/org-check.md",
+      "skos:altLabel": [
+        "Org Check by Salesforce Labs",
+        "OrgCheck",
+        "@orgcheck/sfdx-plugin"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:application-lifecycle-management"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:technical-debt-in-salesforce"
+        },
+        {
+          "@id": "kt:code-analyzer"
+        },
+        {
+          "@id": "kt:salesforce-optimizer"
+        },
+        {
+          "@id": "kt:appexchange-security-review"
+        }
+      ],
+      "kto:queriedWith": [
+        {
+          "@id": "kt:tooling-api"
+        },
+        {
+          "@id": "kt:metadata-api"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:api-request-limits"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:salesforce-cli"
+        }
+      ]
+    },
+    {
       "@id": "kt:package-dependencies",
       "@type": "kto:Feature",
       "skos:prefLabel": "Package Dependencies",

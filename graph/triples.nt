@@ -4385,6 +4385,33 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/order-of-execution> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#governedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/governor-limits> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/order-of-execution> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/order-of-execution> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/org-check> <http://purl.org/dc/terms/created> "2026-11-11" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/org-check> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Tool> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/org-check> <http://www.w3.org/2000/01/rdf-schema#label> "Org Check" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/org-check> <http://www.w3.org/2004/02/skos/core#altLabel> "@orgcheck/sfdx-plugin" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/org-check> <http://www.w3.org/2004/02/skos/core#altLabel> "Org Check by Salesforce Labs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/org-check> <http://www.w3.org/2004/02/skos/core#altLabel> "OrgCheck" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/org-check> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/application-lifecycle-management> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/org-check> <http://www.w3.org/2004/02/skos/core#definition> "A free, open-source Salesforce Labs app (and sf CLI plugin) that reads an org's configuration metadata through standard APIs and scores each component for anti-patterns, helping admins, developers and architects find and prioritize technical debt." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/org-check> <http://www.w3.org/2004/02/skos/core#prefLabel> "Org Check" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/org-check> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/appexchange-security-review> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/org-check> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/code-analyzer> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/org-check> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-optimizer> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/org-check> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/technical-debt-in-salesforce> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/org-check> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/org-check/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/org-check> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/org-check/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/org-check> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/org-check/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/org-check> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/org-check/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/org-check> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/org-check/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/org-check> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/org-check/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/org-check> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/org-check/s7> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/org-check> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "devops-and-alm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/org-check> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#governedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/api-request-limits> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/org-check> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-cli> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/org-check> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/org-check> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/tooling-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/org-check> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/org-check> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/org-strategy> <http://purl.org/dc/terms/created> "2026-11-06" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/org-strategy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/org-strategy> <http://www.w3.org/2000/01/rdf-schema#label> "Org Strategy" .
@@ -11237,6 +11264,41 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/order-of-execution/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/order-of-execution/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/order-of-execution/s4> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/record-triggered-flows/meet-flow-trigger-explorer" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/org-check/s1> <http://purl.org/dc/terms/publisher> "Salesforce Labs (Org Check project)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/org-check/s1> <http://purl.org/dc/terms/title> "Org Check — FAQ" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/org-check/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/org-check/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "community" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/org-check/s1> <https://schema.org/url> "https://salesforcelabs.github.io/OrgCheck/faq/" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/org-check/s2> <http://purl.org/dc/terms/publisher> "Salesforce Labs (Org Check project)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/org-check/s2> <http://purl.org/dc/terms/title> "Org Check — Security Questions" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/org-check/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/org-check/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "community" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/org-check/s2> <https://schema.org/url> "https://salesforcelabs.github.io/OrgCheck/security/" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/org-check/s3> <http://purl.org/dc/terms/publisher> "Salesforce Labs (Org Check project)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/org-check/s3> <http://purl.org/dc/terms/title> "Org Check — Queries" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/org-check/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/org-check/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "community" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/org-check/s3> <https://schema.org/url> "https://salesforcelabs.github.io/OrgCheck/queries/" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/org-check/s4> <http://purl.org/dc/terms/publisher> "Salesforce Labs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/org-check/s4> <http://purl.org/dc/terms/title> "SalesforceLabs/OrgCheck (GitHub repository)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/org-check/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/org-check/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "community" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/org-check/s4> <https://schema.org/url> "https://github.com/SalesforceLabs/OrgCheck" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/org-check/s5> <http://purl.org/dc/terms/publisher> "Salesforce Admins Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/org-check/s5> <http://purl.org/dc/terms/title> "Optimizer Is Sunsetting: Learn How To Use Org Check" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/org-check/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/org-check/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/org-check/s5> <https://schema.org/url> "https://admin.salesforce.com/blog/2025/optimizer-is-sunsetting-learn-how-to-use-org-check-kate-clicks-through-it" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/org-check/s6> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/org-check/s6> <http://purl.org/dc/terms/title> "Salesforce Optimizer App Retirement: Optimization without Salesforce Optimizer" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/org-check/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/org-check/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/org-check/s6> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=005167013&language=en_US&type=1" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/org-check/s7> <http://purl.org/dc/terms/publisher> "Trailblazer Community" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/org-check/s7> <http://purl.org/dc/terms/title> "Org Check by Salesforce Labs (Trailblazer Community group)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/org-check/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/org-check/s7> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "community" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/org-check/s7> <https://schema.org/url> "https://trailhead.salesforce.com/trailblazer-community/groups/0F94V0000002E6cSAE?tab=discussion" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/org-strategy/s1> <http://purl.org/dc/terms/publisher> "Salesforce Architects" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/org-strategy/s1> <http://purl.org/dc/terms/title> "Data Cloud Provisioning (Salesforce Architects decision guide)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/org-strategy/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
