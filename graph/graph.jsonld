@@ -4817,6 +4817,88 @@
       ]
     },
     {
+      "@id": "kt:health-cloud",
+      "@type": "kto:Product",
+      "skos:prefLabel": "Health Cloud",
+      "skos:definition": "Salesforce's industry cloud for healthcare providers, payers and related organizations, which adds a FHIR R4-aligned clinical data model, care management, utilization management and provider network features on top of the Salesforce Platform to give a 360-degree view of patients and members.",
+      "kto:domain": "clouds-and-products",
+      "dcterms:created": "2026-11-11",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Health Cloud — Product Overview and FAQ",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://salesforce.com/products/health-cloud/overview/",
+          "kto:sourceType": "news"
+        },
+        {
+          "dcterms:title": "Meet Health Cloud for Providers (Health Cloud for Providers)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/health-cloud-for-providers/meet-health-cloud-for-providers",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Examine the Clinical Data Model (Health Cloud Data Models)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/fr/content/learn/modules/health-cloud-data-models/examine-the-clinical-data-model",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Clinical Data Model Mapping to FHIR R4 (Salesforce Health Cloud Developer Guide)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.260.0.health_cloud_object_reference.meta/health_cloud_object_reference/map_fhir_overview.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Assign Health Cloud Permission Sets and Permission Set Licenses (Health Cloud Administration)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.health_cloud.meta/healthcare_admin.htm/admin_permissionset_licenses_assign.htm",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/clouds-and-products/health-cloud.md",
+      "skos:altLabel": [
+        "Salesforce Health Cloud"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-industries"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:hipaa"
+        },
+        {
+          "@id": "kt:service-cloud"
+        },
+        {
+          "@id": "kt:experience-cloud"
+        }
+      ],
+      "kto:implements": [
+        {
+          "@id": "kt:fhir"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:person-accounts"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:utilization-management"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:data-cloud"
+        }
+      ]
+    },
+    {
       "@id": "kt:knowledge-base",
       "@type": "kto:Feature",
       "skos:prefLabel": "Salesforce Knowledge",
