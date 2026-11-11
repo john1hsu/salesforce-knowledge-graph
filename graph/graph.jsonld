@@ -19256,6 +19256,107 @@
       ]
     },
     {
+      "@id": "kt:salesforce-apis",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Salesforce APIs",
+      "skos:definition": "The family of programmatic interfaces Salesforce exposes for its platform and products, spanning synchronous REST and SOAP data APIs, asynchronous Bulk and Metadata APIs, event streaming through Pub/Sub API, and UI, tooling and product-specific APIs; choosing among them is driven by data volume, protocol and whether the integration moves data, metadata, events or UI state.",
+      "kto:domain": "integration",
+      "dcterms:created": "2026-11-11",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Get to Know the Salesforce Platform APIs (API Basics)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/api_basics/api_basics_overview",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Accessing Object Data with Salesforce Platform APIs",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2024/04/accessing-object-data-with-salesforce-platform-apis",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "API Request Limits and Allocations (Salesforce Developer Limits and Allocations Quick Reference)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/salesforce-app-limits-cheatsheet/guide/salesforce-app-limits-platform-api.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Browse all APIs (API Library)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/apis",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Get Started with Salesforce APIs — Thanks to Award-Winning Resources",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2024/05/get-started-with-salesforce-apis",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/integration/salesforce-apis.md",
+      "skos:altLabel": [
+        "Salesforce Platform APIs",
+        "Lightning Platform APIs",
+        "Salesforce API family",
+        "Salesforce API Library"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:data-integration"
+        },
+        {
+          "@id": "kt:salesforce-platform"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:rest-api"
+        },
+        {
+          "@id": "kt:bulk-api-2"
+        },
+        {
+          "@id": "kt:pub-sub-api"
+        },
+        {
+          "@id": "kt:metadata-api"
+        },
+        {
+          "@id": "kt:graphql-api"
+        },
+        {
+          "@id": "kt:integration-patterns"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:soap-api"
+        },
+        {
+          "@id": "kt:connect-api"
+        },
+        {
+          "@id": "kt:tooling-api"
+        },
+        {
+          "@id": "kt:user-interface-api"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:api-request-limits"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:oauth-2-0"
+        }
+      ]
+    },
+    {
       "@id": "kt:salesforce-connect",
       "@type": "kto:Product",
       "skos:prefLabel": "Salesforce Connect",

@@ -4,15 +4,14 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:salesforce-apis` | `kt:bulk-api-2`, `kt:connect-api`, `kt:graphql-api` |
+| `kt:soap-api` | `kt:external-id-fields`, `kt:rest-api`, `kt:salesforce-apis` |
 | `kt:omnistudio` | `kt:business-rules-engine`, `kt:public-sector-solutions`, `kt:salesforce-industries` |
-| `kt:soap-api` | `kt:external-id-fields`, `kt:rest-api` |
+| `kt:user-interface-api` | `kt:graphql-api`, `kt:lightning-data-service`, `kt:salesforce-apis` |
 | `kt:api-led-connectivity` | `kt:mulesoft-anypoint-platform`, `kt:mulesoft-platform-architect-certification` |
 | `kt:infrastructure-as-a-service` | `kt:cloud-computing`, `kt:platform-as-a-service` |
 | `kt:software-as-a-service` | `kt:cloud-computing`, `kt:platform-as-a-service` |
 | `kt:heroku` | `kt:platform-as-a-service`, `kt:salesforce-cpq` |
 | `kt:external-services` | `kt:apex-callouts`, `kt:flow-http-callout` |
-| `kt:user-interface-api` | `kt:graphql-api`, `kt:lightning-data-service` |
 | `kt:permission-set-licenses` | `kt:identity-connect`, `kt:permission-sets` |
 | `kt:visualforce` | `kt:apex-continuations`, `kt:lightning-message-service` |
 | `kt:salesforce-analytics` | `kt:crm-analytics`, `kt:tableau` |
@@ -36,16 +35,16 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:data-sovereignty` | `kt:data-residency` |
 | `kt:gdpr-international-transfers` | `kt:data-residency` |
 | `kt:hyperforce-operating-zones` | `kt:data-residency` |
-| `kt:governance-risk-and-compliance` | `kt:security-compliance-frameworks` |
 | `kt:process-integration` | `kt:data-integration` |
+| `kt:governance-risk-and-compliance` | `kt:security-compliance-frameworks` |
 | `kt:transaction-finalizers` | `kt:queueable-apex` |
 | `kt:mule-runtime-engine` | `kt:mulesoft-anypoint-platform` |
 | `kt:salesforce-architecture-program` | `kt:salesforce-architecture-center` |
 | `kt:legacy-named-credentials` | `kt:named-credentials` |
 | `kt:managed-event-subscriptions` | `kt:pub-sub-api` |
 | `kt:streaming-api` | `kt:pub-sub-api` |
-| `kt:platform-developer-ii-certification` | `kt:platform-developer-certification` |
 | `kt:upsert` | `kt:external-id-fields` |
+| `kt:platform-developer-ii-certification` | `kt:platform-developer-certification` |
 | `kt:scoping-rules` | `kt:restriction-rules` |
 | `kt:backup-and-recover` | `kt:archiving-strategy` |
 | `kt:salesforce-archive` | `kt:archiving-strategy` |

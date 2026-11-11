@@ -5934,6 +5934,37 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/sales-cloud> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/enterprise-territory-management> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/sales-cloud> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/sales-cloud> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-apis> <http://purl.org/dc/terms/created> "2026-11-11" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-apis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-apis> <http://www.w3.org/2000/01/rdf-schema#label> "Salesforce APIs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-apis> <http://www.w3.org/2004/02/skos/core#altLabel> "Lightning Platform APIs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-apis> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce API Library" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-apis> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce API family" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-apis> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce Platform APIs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-apis> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-integration> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-apis> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-platform> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-apis> <http://www.w3.org/2004/02/skos/core#definition> "The family of programmatic interfaces Salesforce exposes for its platform and products, spanning synchronous REST and SOAP data APIs, asynchronous Bulk and Metadata APIs, event streaming through Pub/Sub API, and UI, tooling and product-specific APIs; choosing among them is driven by data volume, protocol and whether the integration moves data, metadata, events or UI state." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-apis> <http://www.w3.org/2004/02/skos/core#prefLabel> "Salesforce APIs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-apis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/bulk-api-2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-apis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/graphql-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-apis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-patterns> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-apis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-apis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/pub-sub-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-apis> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/rest-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-apis> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-apis/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-apis> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-apis/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-apis> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-apis/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-apis> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-apis/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-apis> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-apis/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-apis> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-2-0> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-apis> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "integration" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-apis> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#governedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/api-request-limits> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-apis> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/connect-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-apis> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/soap-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-apis> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/tooling-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-apis> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/user-interface-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-apis> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-apis> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-architect> <http://purl.org/dc/terms/created> "2026-11-02" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-architect> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Role> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-architect> <http://www.w3.org/2000/01/rdf-schema#label> "Salesforce Architect" .
@@ -13185,6 +13216,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sales-cloud/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sales-cloud/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sales-cloud/s6> <https://schema.org/url> "https://trailhead.salesforce.com/fr/content/learn/modules/sales-for-small-business/manage-leads-and-sales-pipelines" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-apis/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-apis/s1> <http://purl.org/dc/terms/title> "Get to Know the Salesforce Platform APIs (API Basics)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-apis/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-apis/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-apis/s1> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/api_basics/api_basics_overview" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-apis/s2> <http://purl.org/dc/terms/publisher> "Salesforce Developers Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-apis/s2> <http://purl.org/dc/terms/title> "Accessing Object Data with Salesforce Platform APIs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-apis/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-apis/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-apis/s2> <https://schema.org/url> "https://developer.salesforce.com/blogs/2024/04/accessing-object-data-with-salesforce-platform-apis" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-apis/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-apis/s3> <http://purl.org/dc/terms/title> "API Request Limits and Allocations (Salesforce Developer Limits and Allocations Quick Reference)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-apis/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-apis/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-apis/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/salesforce-app-limits-cheatsheet/guide/salesforce-app-limits-platform-api.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-apis/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-apis/s4> <http://purl.org/dc/terms/title> "Browse all APIs (API Library)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-apis/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-apis/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-apis/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/apis" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-apis/s5> <http://purl.org/dc/terms/publisher> "Salesforce Developers Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-apis/s5> <http://purl.org/dc/terms/title> "Get Started with Salesforce APIs — Thanks to Award-Winning Resources" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-apis/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-apis/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-apis/s5> <https://schema.org/url> "https://developer.salesforce.com/blogs/2024/05/get-started-with-salesforce-apis" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-architect/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-architect/s1> <http://purl.org/dc/terms/title> "Salesforce Architect Role Quick Look: Get to Know the Salesforce Architect Role" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-architect/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
