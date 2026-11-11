@@ -6531,6 +6531,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/shield-platform-encryption> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#requiresLicense> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-shield> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/shield-platform-encryption> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/shield-platform-encryption> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/single-logout> <http://purl.org/dc/terms/created> "2026-11-11" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/single-logout> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/single-logout> <http://www.w3.org/2000/01/rdf-schema#label> "Single Logout" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/single-logout> <http://www.w3.org/2004/02/skos/core#altLabel> "OIDC single logout" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/single-logout> <http://www.w3.org/2004/02/skos/core#altLabel> "OpenID Connect single logout" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/single-logout> <http://www.w3.org/2004/02/skos/core#altLabel> "SAML single logout" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/single-logout> <http://www.w3.org/2004/02/skos/core#altLabel> "SLO" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/single-logout> <http://www.w3.org/2004/02/skos/core#altLabel> "federated logout" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/single-logout> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-identity> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/single-logout> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/single-sign-on-saml> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/single-logout> <http://www.w3.org/2004/02/skos/core#definition> "Salesforce's front-channel single logout (SLO) support, which propagates a logout between Salesforce and a federated partner over SAML 2.0 or OpenID Connect, whether Salesforce is the identity provider, the service provider or the OpenID Connect provider." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/single-logout> <http://www.w3.org/2004/02/skos/core#prefLabel> "Single Logout" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/single-logout> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/connected-apps> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/single-logout> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/event-monitoring> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/single-logout> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/experience-cloud-identity> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/single-logout> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/my-domain> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/single-logout> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/openid-connect-authentication-providers> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/single-logout> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/single-logout/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/single-logout> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/single-logout/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/single-logout> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/single-logout/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/single-logout> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/single-logout/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/single-logout> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/single-logout/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/single-logout> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/single-logout/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/single-logout> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/connected-apps> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/single-logout> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/my-domain> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/single-logout> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "identity" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/single-logout> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#implements> <https://github.com/john1hsu/salesforce-knowledge-graph/id/openid-connect> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/single-logout> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#implements> <https://github.com/john1hsu/salesforce-knowledge-graph/id/saml-2-0> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/single-logout> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/single-logout> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/single-sign-on-saml> <http://purl.org/dc/terms/created> "2026-11-02" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/single-sign-on-saml> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/single-sign-on-saml> <http://www.w3.org/2000/01/rdf-schema#label> "SAML Single Sign-On" .
@@ -6549,6 +6579,7 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/single-sign-on-saml> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/multi-factor-authentication> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/single-sign-on-saml> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/my-domain> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/single-sign-on-saml> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-2-flows-in-salesforce> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/single-sign-on-saml> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/single-logout> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/single-sign-on-saml> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/single-sign-on-saml/s1> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/single-sign-on-saml> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/single-sign-on-saml/s2> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/single-sign-on-saml> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/single-sign-on-saml/s3> .
@@ -13304,6 +13335,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/shield-platform-encryption/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/shield-platform-encryption/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/shield-platform-encryption/s4> <https://schema.org/url> "https://www.salesforce.com/platform/shield/guide/" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/single-logout/s1> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/single-logout/s1> <http://purl.org/dc/terms/title> "Configure SAML Single Logout with Salesforce as the Identity Provider" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/single-logout/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/single-logout/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/single-logout/s1> <https://schema.org/url> "https://help.salesforce.com/s/articleView?language=en_US&id=sf.security_auth_slo_saml_idp_configuring.htm&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/single-logout/s2> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/single-logout/s2> <http://purl.org/dc/terms/title> "Configure SAML Single Logout with Salesforce as the Service Provider" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/single-logout/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/single-logout/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/single-logout/s2> <https://schema.org/url> "https://help.salesforce.com/s/articleView?language=en_US&id=sf.security_auth_slo_saml_sp_configuring.htm&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/single-logout/s3> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/single-logout/s3> <http://purl.org/dc/terms/title> "Configure OpenID Connect Single Logout with Salesforce as the OpenID Connect Provider" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/single-logout/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/single-logout/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/single-logout/s3> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=security_auth_slo_oidc_idp_configuring.htm&language=en_US&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/single-logout/s4> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/single-logout/s4> <http://purl.org/dc/terms/title> "Create Logout Event Triggers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/single-logout/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/single-logout/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/single-logout/s4> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=xcloud.security_auth_create_logout_event_trigger.htm&language=en_US&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/single-logout/s5> <http://purl.org/dc/terms/publisher> "OASIS" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/single-logout/s5> <http://purl.org/dc/terms/title> "Security Assertion Markup Language (SAML) V2.0 Technical Overview" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/single-logout/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/single-logout/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "standards-body" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/single-logout/s5> <https://schema.org/url> "https://docs.oasis-open.org/security/saml/Post2.0/sstc-saml-tech-overview-2.0.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/single-logout/s6> <http://purl.org/dc/terms/publisher> "OpenID Foundation" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/single-logout/s6> <http://purl.org/dc/terms/title> "OpenID Connect Front-Channel Logout 1.0" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/single-logout/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/single-logout/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "standards-body" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/single-logout/s6> <https://schema.org/url> "https://openid.net/specs/openid-connect-frontchannel-1_0.html" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/single-sign-on-saml/s1> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/single-sign-on-saml/s1> <http://purl.org/dc/terms/title> "Step 2: Create a SAML Single Sign-On Setting in Salesforce" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/single-sign-on-saml/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

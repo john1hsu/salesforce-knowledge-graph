@@ -15711,6 +15711,105 @@
       ]
     },
     {
+      "@id": "kt:single-logout",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Single Logout",
+      "skos:definition": "Salesforce's front-channel single logout (SLO) support, which propagates a logout between Salesforce and a federated partner over SAML 2.0 or OpenID Connect, whether Salesforce is the identity provider, the service provider or the OpenID Connect provider.",
+      "kto:domain": "identity",
+      "dcterms:created": "2026-11-11",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Configure SAML Single Logout with Salesforce as the Identity Provider",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=sf.security_auth_slo_saml_idp_configuring.htm&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Configure SAML Single Logout with Salesforce as the Service Provider",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=sf.security_auth_slo_saml_sp_configuring.htm&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Configure OpenID Connect Single Logout with Salesforce as the OpenID Connect Provider",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=security_auth_slo_oidc_idp_configuring.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Create Logout Event Triggers",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=xcloud.security_auth_create_logout_event_trigger.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Security Assertion Markup Language (SAML) V2.0 Technical Overview",
+          "dcterms:publisher": "OASIS",
+          "schema:url": "https://docs.oasis-open.org/security/saml/Post2.0/sstc-saml-tech-overview-2.0.html",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "OpenID Connect Front-Channel Logout 1.0",
+          "dcterms:publisher": "OpenID Foundation",
+          "schema:url": "https://openid.net/specs/openid-connect-frontchannel-1_0.html",
+          "kto:sourceType": "standards-body"
+        }
+      ],
+      "kto:file": "articles/identity/single-logout.md",
+      "skos:altLabel": [
+        "SLO",
+        "SAML single logout",
+        "OpenID Connect single logout",
+        "OIDC single logout",
+        "federated logout"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-identity"
+        },
+        {
+          "@id": "kt:single-sign-on-saml"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:connected-apps"
+        },
+        {
+          "@id": "kt:my-domain"
+        },
+        {
+          "@id": "kt:experience-cloud-identity"
+        },
+        {
+          "@id": "kt:event-monitoring"
+        },
+        {
+          "@id": "kt:openid-connect-authentication-providers"
+        }
+      ],
+      "kto:implements": [
+        {
+          "@id": "kt:saml-2-0"
+        },
+        {
+          "@id": "kt:openid-connect"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:connected-apps"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:my-domain"
+        }
+      ]
+    },
+    {
       "@id": "kt:single-sign-on-saml",
       "@type": "kto:Feature",
       "skos:prefLabel": "SAML Single Sign-On",
@@ -15785,6 +15884,9 @@
         },
         {
           "@id": "kt:just-in-time-provisioning"
+        },
+        {
+          "@id": "kt:single-logout"
         }
       ],
       "kto:implements": [

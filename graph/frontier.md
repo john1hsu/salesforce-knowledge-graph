@@ -8,6 +8,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:public-groups` | `kt:group-membership-locking`, `kt:queues`, `kt:sharing-rules` |
 | `kt:omnistudio` | `kt:business-rules-engine`, `kt:public-sector-solutions`, `kt:salesforce-industries` |
 | `kt:nist-risk-management-framework` | `kt:authority-to-operate`, `kt:continuous-monitoring`, `kt:fisma` |
+| `kt:saml-2-0` | `kt:single-logout`, `kt:single-sign-on-saml` |
 | `kt:soap-api` | `kt:external-id-fields`, `kt:rest-api` |
 | `kt:salesforce-apis` | `kt:bulk-api-2`, `kt:graphql-api` |
 | `kt:cloud-computing` | `kt:platform-as-a-service`, `kt:shared-responsibility-model` |
@@ -22,7 +23,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:lightning-service-console` | `kt:service-cloud` |
 | `kt:service-setup-assistant` | `kt:service-cloud` |
 | `kt:schema-builder` | `kt:data-architecture` |
-| `kt:saml-2-0` | `kt:single-sign-on-saml` |
 | `kt:bulk-api-1` | `kt:bulk-api-2` |
 | `kt:bulk-api-allocations` | `kt:bulk-api-2` |
 | `kt:data-loader` | `kt:bulk-api-2` |
@@ -31,8 +31,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:platform-event-channel-member` | `kt:change-data-capture` |
 | `kt:government-cloud` | `kt:government-cloud-plus` |
 | `kt:custom-domains` | `kt:my-domain` |
-| `kt:apex-flex-queue` | `kt:batch-apex` |
 | `kt:external-identity-license` | `kt:experience-cloud-identity` |
+| `kt:apex-flex-queue` | `kt:batch-apex` |
 | `kt:org-check` | `kt:technical-debt-in-salesforce` |
 | `kt:salesforce-optimizer` | `kt:technical-debt-in-salesforce` |
 | `kt:orglimits-class` | `kt:limits-class` |
@@ -108,12 +108,12 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:saql` | `kt:crm-analytics` |
 | `kt:apex-rest-services` | `kt:remote-call-in` |
 | `kt:apex-mocks` | `kt:apex-enterprise-patterns` |
+| `kt:json-web-token` | `kt:openid-connect` |
 | `kt:dynamic-soql` | `kt:soql-injection` |
 | `kt:agentforce-data-library` | `kt:retrieval-augmented-generation-in-salesforce` |
 | `kt:generative-ai` | `kt:retrieval-augmented-generation-in-salesforce` |
 | `kt:dynamic-actions` | `kt:dynamic-forms` |
 | `kt:dynamic-highlights-panel` | `kt:dynamic-forms` |
-| `kt:json-web-token` | `kt:openid-connect` |
 | `kt:apexguru` | `kt:scale-test` |
 | `kt:scale-center` | `kt:scale-test` |
 | `kt:multiple-currencies` | `kt:price-books` |

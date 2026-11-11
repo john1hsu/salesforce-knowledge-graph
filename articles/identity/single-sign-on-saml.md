@@ -11,7 +11,7 @@ summary: >-
 release: "Winter '27"
 status: current
 broader: [kt:salesforce-identity]
-related: [kt:my-domain, kt:multi-factor-authentication, kt:connected-apps, kt:external-client-apps, kt:experience-cloud-identity, kt:oauth-2-flows-in-salesforce, kt:just-in-time-provisioning]
+related: [kt:my-domain, kt:multi-factor-authentication, kt:connected-apps, kt:external-client-apps, kt:experience-cloud-identity, kt:oauth-2-flows-in-salesforce, kt:just-in-time-provisioning, kt:single-logout]
 relations:
   - {predicate: implements, object: kt:saml-2-0}
   - {predicate: dependsOn, object: kt:my-domain}

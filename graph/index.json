@@ -5790,6 +5790,31 @@
     ]
   },
   {
+    "id": "kt:single-logout",
+    "title": "Single Logout",
+    "aliases": [
+      "SLO",
+      "SAML single logout",
+      "OpenID Connect single logout",
+      "OIDC single logout",
+      "federated logout"
+    ],
+    "type": "Feature",
+    "domain": "identity",
+    "file": "articles/identity/single-logout.md",
+    "created": "2026-11-11",
+    "release": "Winter '27",
+    "status": "current",
+    "source_urls": [
+      "https://help.salesforce.com/s/articleView?language=en_US&id=sf.security_auth_slo_saml_idp_configuring.htm&type=5",
+      "https://help.salesforce.com/s/articleView?language=en_US&id=sf.security_auth_slo_saml_sp_configuring.htm&type=5",
+      "https://help.salesforce.com/s/articleView?id=security_auth_slo_oidc_idp_configuring.htm&language=en_US&type=5",
+      "https://help.salesforce.com/s/articleView?id=xcloud.security_auth_create_logout_event_trigger.htm&language=en_US&type=5",
+      "https://docs.oasis-open.org/security/saml/Post2.0/sstc-saml-tech-overview-2.0.html",
+      "https://openid.net/specs/openid-connect-frontchannel-1_0.html"
+    ]
+  },
+  {
     "id": "kt:single-sign-on-saml",
     "title": "SAML Single Sign-On",
     "aliases": [
