@@ -11851,6 +11851,110 @@
       ]
     },
     {
+      "@id": "kt:lightning-message-service",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Lightning Message Service",
+      "skos:definition": "A client-side publish/subscribe service that lets unrelated Lightning web components, Aura components and Visualforce pages on the same Lightning page exchange JSON messages over metadata-defined message channels.",
+      "kto:domain": "development",
+      "dcterms:created": "2026-11-11",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "LWC Developer Guide: Communicate Across the DOM with Lightning Message Service",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/lwc/guide/use-message-channel",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "LWC Developer Guide: Lightning Message Service Limitations",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/lwc/guide/use-message-channel-considerations.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "LWC Developer Guide: Define the Scope of the Message Service",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/lwc/guide/use-message-channel-scope.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Component Reference: lightning/messageService",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/lightning-component-reference/guide/lightning-message-service.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Metadata API Developer Guide: LightningMessageChannel",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_lightningmessagechannel.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Visualforce Developer Guide: Communicating Across the DOM with Lightning Message Service",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/salesforce-pages-developers-guide/guide/message-channel-intro.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Communicate Between Unrelated Components",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/projects/communicate-between-lightning-web-components/communicate-between-unrelated-components",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Learn MOAR: Lightning Message Service Generally Available in Summer '20",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2020/06/learn-moar-lightning-message-service-generally-available-in-summer-20",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/development/lightning-message-service.md",
+      "skos:altLabel": [
+        "LMS",
+        "lightning/messageService",
+        "message channel",
+        "LightningMessageChannel"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-platform"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:lightning-web-components"
+        },
+        {
+          "@id": "kt:aura-components"
+        },
+        {
+          "@id": "kt:lightning-data-service"
+        },
+        {
+          "@id": "kt:lightning-app-builder"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:visualforce"
+        },
+        {
+          "@id": "kt:experience-builder"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:metadata-api"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:platform-events"
+        }
+      ]
+    },
+    {
       "@id": "kt:lightning-web-components",
       "@type": "kto:Feature",
       "skos:prefLabel": "Lightning Web Components",
@@ -11921,6 +12025,9 @@
         },
         {
           "@id": "kt:lightning-data-service"
+        },
+        {
+          "@id": "kt:lightning-message-service"
         }
       ],
       "kto:alternativeTo": [

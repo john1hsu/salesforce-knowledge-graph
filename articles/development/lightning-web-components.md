@@ -10,7 +10,7 @@ summary: >-
 release: "Winter '27"
 status: current
 broader: [kt:salesforce-platform]
-related: [kt:apex, kt:screen-flow, kt:experience-cloud, kt:lightning-data-service]
+related: [kt:apex, kt:screen-flow, kt:experience-cloud, kt:lightning-data-service, kt:lightning-message-service]
 relations:
   - {predicate: alternativeTo, object: kt:aura-components}
   - {predicate: governedBy, object: kt:lightning-web-security}

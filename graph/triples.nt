@@ -3790,6 +3790,35 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-data-service> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/graphql-api> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-data-service> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-data-service> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-message-service> <http://purl.org/dc/terms/created> "2026-11-11" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-message-service> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-message-service> <http://www.w3.org/2000/01/rdf-schema#label> "Lightning Message Service" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-message-service> <http://www.w3.org/2004/02/skos/core#altLabel> "LMS" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-message-service> <http://www.w3.org/2004/02/skos/core#altLabel> "LightningMessageChannel" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-message-service> <http://www.w3.org/2004/02/skos/core#altLabel> "lightning/messageService" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-message-service> <http://www.w3.org/2004/02/skos/core#altLabel> "message channel" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-message-service> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-platform> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-message-service> <http://www.w3.org/2004/02/skos/core#definition> "A client-side publish/subscribe service that lets unrelated Lightning web components, Aura components and Visualforce pages on the same Lightning page exchange JSON messages over metadata-defined message channels." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-message-service> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lightning Message Service" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-message-service> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/aura-components> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-message-service> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-app-builder> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-message-service> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-data-service> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-message-service> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-web-components> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-message-service> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lightning-message-service/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-message-service> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lightning-message-service/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-message-service> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lightning-message-service/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-message-service> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lightning-message-service/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-message-service> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lightning-message-service/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-message-service> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lightning-message-service/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-message-service> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lightning-message-service/s7> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-message-service> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lightning-message-service/s8> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-message-service> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-message-service> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#contrastsWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-events> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-message-service> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "development" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-message-service> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/experience-builder> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-message-service> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/visualforce> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-message-service> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-message-service> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-web-components> <http://purl.org/dc/terms/created> "2026-11-03" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-web-components> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-web-components> <http://www.w3.org/2000/01/rdf-schema#label> "Lightning Web Components" .
@@ -3803,6 +3832,7 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-web-components> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-web-components> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/experience-cloud> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-web-components> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-data-service> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-web-components> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-message-service> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-web-components> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/screen-flow> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-web-components> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lightning-web-components/s1> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-web-components> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lightning-web-components/s2> .
@@ -10917,6 +10947,46 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lightning-data-service/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lightning-data-service/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lightning-data-service/s5> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/graphql/guide/graphql-wire-lwc.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lightning-message-service/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lightning-message-service/s1> <http://purl.org/dc/terms/title> "LWC Developer Guide: Communicate Across the DOM with Lightning Message Service" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lightning-message-service/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lightning-message-service/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lightning-message-service/s1> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/lwc/guide/use-message-channel" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lightning-message-service/s2> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lightning-message-service/s2> <http://purl.org/dc/terms/title> "LWC Developer Guide: Lightning Message Service Limitations" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lightning-message-service/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lightning-message-service/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lightning-message-service/s2> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/lwc/guide/use-message-channel-considerations.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lightning-message-service/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lightning-message-service/s3> <http://purl.org/dc/terms/title> "LWC Developer Guide: Define the Scope of the Message Service" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lightning-message-service/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lightning-message-service/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lightning-message-service/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/lwc/guide/use-message-channel-scope.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lightning-message-service/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lightning-message-service/s4> <http://purl.org/dc/terms/title> "Component Reference: lightning/messageService" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lightning-message-service/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lightning-message-service/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lightning-message-service/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/lightning-component-reference/guide/lightning-message-service.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lightning-message-service/s5> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lightning-message-service/s5> <http://purl.org/dc/terms/title> "Metadata API Developer Guide: LightningMessageChannel" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lightning-message-service/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lightning-message-service/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lightning-message-service/s5> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_lightningmessagechannel.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lightning-message-service/s6> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lightning-message-service/s6> <http://purl.org/dc/terms/title> "Visualforce Developer Guide: Communicating Across the DOM with Lightning Message Service" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lightning-message-service/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lightning-message-service/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lightning-message-service/s6> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/salesforce-pages-developers-guide/guide/message-channel-intro.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lightning-message-service/s7> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lightning-message-service/s7> <http://purl.org/dc/terms/title> "Communicate Between Unrelated Components" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lightning-message-service/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lightning-message-service/s7> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lightning-message-service/s7> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/projects/communicate-between-lightning-web-components/communicate-between-unrelated-components" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lightning-message-service/s8> <http://purl.org/dc/terms/publisher> "Salesforce Developers Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lightning-message-service/s8> <http://purl.org/dc/terms/title> "Learn MOAR: Lightning Message Service Generally Available in Summer '20" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lightning-message-service/s8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lightning-message-service/s8> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lightning-message-service/s8> <https://schema.org/url> "https://developer.salesforce.com/blogs/2020/06/learn-moar-lightning-message-service-generally-available-in-summer-20" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lightning-web-components/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers Blog" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lightning-web-components/s1> <http://purl.org/dc/terms/title> "Introducing Lightning Web Components" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lightning-web-components/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
