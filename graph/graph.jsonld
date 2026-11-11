@@ -8230,6 +8230,9 @@
         },
         {
           "@id": "kt:einstein-trust-layer"
+        },
+        {
+          "@id": "kt:vector-search-in-data-cloud"
         }
       ],
       "kto:dependsOn": [
@@ -8345,6 +8348,105 @@
       "kto:governedBy": [
         {
           "@id": "kt:data-cloud-limits"
+        }
+      ]
+    },
+    {
+      "@id": "kt:vector-search-in-data-cloud",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Vector Search in Data 360",
+      "skos:definition": "The Data 360 search index feature that chunks text from data model objects, embeds each chunk as a vector, and serves semantic (vector), hybrid (vector plus keyword) or enriched retrieval to retrievers, Agentforce, Prompt Builder, Flow and Tableau.",
+      "kto:domain": "data-cloud-and-ai",
+      "dcterms:created": "2026-11-11",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Get to Know Search Index Types in Data Cloud (Search Index Types in Data Cloud: Quick Look)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/search-index-types-data-cloud-quick-look/get-to-know-search-index-types-in-data-cloud",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Create a Search Index Configuration (Unstructured Data in Data Cloud)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/projects/unstructured-data-in-data-cloud/create-a-search-index-configuration",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Step 3: Create Search Index and Retriever (Ground Agentforce on Website Content)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/ai/ground-agentforce-on-website/guide/aes-create-search-index-and-retriever.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Use a Custom Chunking Function in a Search Index",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/data/data-cloud-code-ext/guide/use-chunking-in-search-index.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "How Data Cloud Hybrid Search Combines Keyword and Vector Retrieval to Elevate the Search Experience",
+          "dcterms:publisher": "Salesforce Engineering",
+          "schema:url": "https://engineering.salesforce.com/how-data-cloud-hybrid-search-combines-keyword-and-vector-retrieval-to-elevate-the-search-experience/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Pro-Code Chunking of Data 360 Search Indexes for Agentforce",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2026/09/pro-code-chunking-of-data-360-search-indexes-for-agentforce",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/data-cloud-and-ai/vector-search-in-data-cloud.md",
+      "skos:altLabel": [
+        "Vector Search in Data Cloud",
+        "Data 360 search index",
+        "Data Cloud search index",
+        "hybrid search in Data 360",
+        "enriched search index",
+        "semantic search in Data 360"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:data-cloud"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:retrieval-augmented-generation-in-salesforce"
+        },
+        {
+          "@id": "kt:ai-models"
+        },
+        {
+          "@id": "kt:data-lake-objects"
+        },
+        {
+          "@id": "kt:unstructured-data-in-data-cloud"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:data-model-objects"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:retrieval-augmented-generation-in-salesforce"
+        },
+        {
+          "@id": "kt:agentforce"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:data-cloud-code-extension"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:sosl"
         }
       ]
     },

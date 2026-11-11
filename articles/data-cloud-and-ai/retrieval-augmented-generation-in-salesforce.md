@@ -11,7 +11,7 @@ summary: >-
 release: "Winter '27"
 status: current
 broader: [kt:data-cloud, kt:generative-ai]
-related: [kt:agentforce, kt:agent-actions, kt:knowledge-base, kt:data-model-objects, kt:einstein-trust-layer]
+related: [kt:agentforce, kt:agent-actions, kt:knowledge-base, kt:data-model-objects, kt:einstein-trust-layer, kt:vector-search-in-data-cloud]
 relations:
   - {predicate: dependsOn, object: kt:data-cloud}
   - {predicate: configuredVia, object: kt:prompt-builder}
