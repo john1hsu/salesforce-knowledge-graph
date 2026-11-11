@@ -7992,6 +7992,101 @@
       ]
     },
     {
+      "@id": "kt:streaming-insights",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Streaming Insights",
+      "skos:definition": "Near-real-time, time-windowed aggregations in Data 360 (formerly Data Cloud) that compute counts and sums over streaming engagement data, such as Web and Mobile SDK events, and feed data actions that start workflows in Flow, webhooks or Marketing Cloud.",
+      "kto:domain": "data-cloud-and-ai",
+      "dcterms:created": "2026-11-11",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Learn About Data 360 Insights",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/customer-data-platform-insights/learn-about-customer-data-platform-insights",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Create Insights in Data 360",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/customer-data-platform-insights/create-insights-in-customer-data-platform",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Review SQL Examples",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/customer-data-platform-insights-using-sql/review-sql-examples",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Data 360 Architecture",
+          "dcterms:publisher": "Salesforce Architects",
+          "schema:url": "https://architect.salesforce.com/fundamentals/data-360-architecture",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Data Insights",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/en-us/wp-content/uploads/sites/4/Data-Insights.pdf?bc=OTH",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Unleashing the Power of Data Actions Using a Webhook as a Target",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2024/01/unleashing-the-power-of-data-actions-using-a-webhook-as-a-target",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/data-cloud-and-ai/streaming-insights.md",
+      "skos:altLabel": [
+        "streaming insight",
+        "Data 360 streaming insights",
+        "Data Cloud streaming insights"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:data-cloud"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:data-cloud-segmentation"
+        },
+        {
+          "@id": "kt:platform-events"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:calculated-insights"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:data-streams"
+        },
+        {
+          "@id": "kt:identity-resolution"
+        }
+      ],
+      "kto:enables": [
+        {
+          "@id": "kt:data-actions"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:marketing-cloud-engagement"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:data-cloud-limits"
+        }
+      ]
+    },
+    {
       "@id": "kt:zero-copy-data-federation",
       "@type": "kto:Feature",
       "skos:prefLabel": "Zero Copy Data Federation",
