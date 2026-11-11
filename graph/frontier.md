@@ -7,7 +7,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:salesforce-apis` | `kt:bulk-api-2`, `kt:connect-api`, `kt:graphql-api` |
 | `kt:omnistudio` | `kt:business-rules-engine`, `kt:public-sector-solutions`, `kt:salesforce-industries` |
 | `kt:soap-api` | `kt:external-id-fields`, `kt:rest-api` |
-| `kt:cloud-computing` | `kt:platform-as-a-service`, `kt:shared-responsibility-model` |
+| `kt:infrastructure-as-a-service` | `kt:cloud-computing`, `kt:platform-as-a-service` |
+| `kt:software-as-a-service` | `kt:cloud-computing`, `kt:platform-as-a-service` |
 | `kt:heroku` | `kt:platform-as-a-service`, `kt:salesforce-cpq` |
 | `kt:external-services` | `kt:apex-callouts`, `kt:flow-http-callout` |
 | `kt:permission-set-licenses` | `kt:identity-connect`, `kt:permission-sets` |
@@ -24,8 +25,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:bulk-api-allocations` | `kt:bulk-api-2` |
 | `kt:data-loader` | `kt:bulk-api-2` |
 | `kt:lightning-web-security` | `kt:lightning-web-components` |
-| `kt:custom-domains` | `kt:my-domain` |
 | `kt:government-cloud` | `kt:government-cloud-plus` |
+| `kt:custom-domains` | `kt:my-domain` |
 | `kt:change-data-capture-allocations` | `kt:change-data-capture` |
 | `kt:platform-event-channel-member` | `kt:change-data-capture` |
 | `kt:external-identity-license` | `kt:experience-cloud-identity` |
@@ -43,8 +44,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:legacy-named-credentials` | `kt:named-credentials` |
 | `kt:managed-event-subscriptions` | `kt:pub-sub-api` |
 | `kt:streaming-api` | `kt:pub-sub-api` |
-| `kt:infrastructure-as-a-service` | `kt:platform-as-a-service` |
-| `kt:software-as-a-service` | `kt:platform-as-a-service` |
 | `kt:upsert` | `kt:external-id-fields` |
 | `kt:platform-developer-ii-certification` | `kt:platform-developer-certification` |
 | `kt:scoping-rules` | `kt:restriction-rules` |
@@ -84,6 +83,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:iso-iec-27002` | `kt:iso-iec-27001` |
 | `kt:hitrust-csf` | `kt:nist-cybersecurity-framework` |
 | `kt:decision-tables` | `kt:salesforce-pricing` |
+| `kt:distributed-computing` | `kt:cloud-computing` |
 | `kt:json-web-token` | `kt:openid-connect` |
 | `kt:tableau-next` | `kt:tableau` |
 | `kt:tableau-pulse` | `kt:tableau` |
@@ -94,10 +94,10 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:product-catalog-management` | `kt:product-configurator` |
 | `kt:opportunity-teams` | `kt:opportunity-splits` |
 | `kt:revenue-intelligence` | `kt:collaborative-forecasts` |
-| `kt:salesforce-ecosystem` | `kt:salesforce-inc` |
 | `kt:path` | `kt:business-processes` |
-| `kt:visualforce` | `kt:apex-continuations` |
+| `kt:salesforce-ecosystem` | `kt:salesforce-inc` |
 | `kt:object-manager` | `kt:schema-builder` |
+| `kt:visualforce` | `kt:apex-continuations` |
 | `kt:einstein-discovery` | `kt:crm-analytics` |
 | `kt:saql` | `kt:crm-analytics` |
 | `kt:apex-rest-services` | `kt:remote-call-in` |
@@ -132,9 +132,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:slack-workflow-builder` | `kt:slack-platform` |
 | `kt:custom-permissions` | `kt:validation-rules` |
 | `kt:platform-cache-partitions` | `kt:platform-cache` |
-| `kt:data-cloud-code-extension` | `kt:vector-search-in-data-cloud` |
 | `kt:it-governance` | `kt:salesforce-governance` |
 | `kt:security-governance` | `kt:salesforce-governance` |
+| `kt:data-cloud-code-extension` | `kt:vector-search-in-data-cloud` |
 | `kt:unstructured-data-in-data-cloud` | `kt:vector-search-in-data-cloud` |
 | `kt:models-api` | `kt:ai-models` |
 | `kt:mutual-tls-authentication` | `kt:login-ip-ranges-and-trusted-ip-ranges` |

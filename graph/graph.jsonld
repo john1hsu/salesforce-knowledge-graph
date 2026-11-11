@@ -19165,6 +19165,87 @@
       ]
     },
     {
+      "@id": "kt:cloud-computing",
+      "@type": "kto:ExternalConcept",
+      "skos:prefLabel": "Cloud Computing",
+      "skos:definition": "The model, defined by NIST SP 800-145, for on-demand network access to a shared pool of configurable computing resources that can be provisioned and released quickly with minimal provider interaction; it is described by five essential characteristics, three service models (SaaS, PaaS, IaaS) and four deployment models.",
+      "kto:domain": "platform-architecture",
+      "dcterms:created": "2026-11-11",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "The NIST Definition of Cloud Computing (NIST SP 800-145)",
+          "dcterms:publisher": "National Institute of Standards and Technology",
+          "schema:url": "https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-145.pdf",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "NIST Cloud Computing Reference Architecture (NIST SP 500-292)",
+          "dcterms:publisher": "National Institute of Standards and Technology",
+          "schema:url": "https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication500-292.pdf",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "Learn About the Cloud (Cloud Security Engineering)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/cloud-security-engineering/learn-about-the-cloud",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "What Is Cloud Computing?",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/ca/cloudcomputing",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "The History of Salesforce",
+          "dcterms:publisher": "Salesforce Newsroom",
+          "schema:url": "https://www.salesforce.com/in/news/stories/the-history-of-salesforce/",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/platform-architecture/cloud-computing.md",
+      "skos:altLabel": [
+        "the cloud",
+        "cloud services",
+        "NIST cloud model"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:distributed-computing"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:multitenancy"
+        },
+        {
+          "@id": "kt:hyperforce"
+        },
+        {
+          "@id": "kt:shared-responsibility-model"
+        },
+        {
+          "@id": "kt:salesforce-platform"
+        },
+        {
+          "@id": "kt:fedramp"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:software-as-a-service"
+        },
+        {
+          "@id": "kt:platform-as-a-service"
+        },
+        {
+          "@id": "kt:infrastructure-as-a-service"
+        }
+      ]
+    },
+    {
       "@id": "kt:custom-index-limits",
       "@type": "kto:Limit",
       "skos:prefLabel": "Custom Index Limits",
