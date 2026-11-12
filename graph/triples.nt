@@ -1381,6 +1381,33 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/connected-apps> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#replacedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/external-client-apps> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/connected-apps> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/connected-apps> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/content-document-model> <http://purl.org/dc/terms/created> "2026-11-12" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/content-document-model> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/content-document-model> <http://www.w3.org/2000/01/rdf-schema#label> "Content Document Model" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/content-document-model> <http://www.w3.org/2004/02/skos/core#altLabel> "contentdocument" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/content-document-model> <http://www.w3.org/2004/02/skos/core#altLabel> "contentdocumentlink" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/content-document-model> <http://www.w3.org/2004/02/skos/core#altLabel> "contentversion" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/content-document-model> <http://www.w3.org/2004/02/skos/core#altLabel> "files object model" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/content-document-model> <http://www.w3.org/2004/02/skos/core#altLabel> "salesforce files data model" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/content-document-model> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-architecture> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/content-document-model> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/standard-objects> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/content-document-model> <http://www.w3.org/2004/02/skos/core#definition> "The trio of standard objects behind Salesforce Files: ContentDocument (the file's identity), ContentVersion (each version's binary data) and ContentDocumentLink (the junction that shares a file with users, groups, records and libraries)." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/content-document-model> <http://www.w3.org/2004/02/skos/core#prefLabel> "Content Document Model" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/content-document-model> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-triggers> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/content-document-model> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/polymorphic-relationships> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/content-document-model> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-sharing-model> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/content-document-model> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/content-document-model/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/content-document-model> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/content-document-model/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/content-document-model> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/content-document-model/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/content-document-model> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/content-document-model/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/content-document-model> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/content-document-model/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/content-document-model> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#contrastsWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/notes-and-attachments> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/content-document-model> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "data-model" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/content-document-model> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#governedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-and-file-storage-allocations> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/content-document-model> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#implements> <https://github.com/john1hsu/salesforce-knowledge-graph/id/junction-object> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/content-document-model> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/soql> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/content-document-model> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/content-document-model> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/context-service> <http://purl.org/dc/terms/created> "2026-11-09" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/context-service> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/context-service> <http://www.w3.org/2000/01/rdf-schema#label> "Context Service" .
@@ -8749,6 +8776,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/connected-apps/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/connected-apps/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "standards-body" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/connected-apps/s5> <https://schema.org/url> "https://rfc-editor.org/rfc/rfc6749" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/content-document-model/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/content-document-model/s1> <http://purl.org/dc/terms/title> "Object Reference: ContentDocument" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/content-document-model/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/content-document-model/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/content-document-model/s1> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/object_reference/sforce_api_objects_contentdocument.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/content-document-model/s2> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/content-document-model/s2> <http://purl.org/dc/terms/title> "Object Reference: ContentDocumentLink" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/content-document-model/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/content-document-model/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/content-document-model/s2> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/object_reference/sforce_api_objects_contentdocumentlink.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/content-document-model/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/content-document-model/s3> <http://purl.org/dc/terms/title> "Understand File Uploads in Salesforce (Mobile and Offline Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/content-document-model/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/content-document-model/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/content-document-model/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/mobile-offline/guide/use-images-upload-file-representation.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/content-document-model/s4> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/content-document-model/s4> <http://purl.org/dc/terms/title> "Lightning Experience Productivity: Work with Notes and Files (unit)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/content-document-model/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/content-document-model/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/content-document-model/s4> <https://schema.org/url> "https://trailhead.salesforce.com/en/modules/lightning-experience-productivity/units/work-with-notes-and-files" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/content-document-model/s5> <http://purl.org/dc/terms/publisher> "Salesforce Admins Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/content-document-model/s5> <http://purl.org/dc/terms/title> "Pro Tip: Simplify File Management with Salesforce Files in Lightning Experience" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/content-document-model/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/content-document-model/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/content-document-model/s5> <https://schema.org/url> "https://admin.salesforce.com/blog/2017/pro-tip-simplify-file-management-salesforce-files-lightning-experience" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/context-service/s1> <http://purl.org/dc/terms/publisher> "Salesforce" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/context-service/s1> <http://purl.org/dc/terms/title> "Context Service Overview (Industries Common Resources Developer Guide)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/context-service/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

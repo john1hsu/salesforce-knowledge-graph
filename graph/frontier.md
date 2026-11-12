@@ -60,9 +60,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:contacts-to-multiple-accounts` | `kt:person-accounts` |
 | `kt:financial-services-cloud` | `kt:person-accounts` |
 | `kt:data-detect` | `kt:salesforce-shield` |
+| `kt:custom-objects` | `kt:standard-objects` |
 | `kt:flow-bulkification` | `kt:bulkification` |
 | `kt:compact-layouts` | `kt:page-layouts` |
-| `kt:custom-objects` | `kt:standard-objects` |
 | `kt:platform-administrator-ii-certification` | `kt:platform-administrator-certification` |
 | `kt:zero-trust-architecture` | `kt:principle-of-least-privilege` |
 | `kt:entitlement-process-metadata` | `kt:entitlement-management` |
@@ -93,8 +93,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:salesforce-ecosystem` | `kt:salesforce-inc` |
 | `kt:opportunity-teams` | `kt:opportunity-splits` |
 | `kt:revenue-intelligence` | `kt:collaborative-forecasts` |
-| `kt:path` | `kt:business-processes` |
 | `kt:object-manager` | `kt:schema-builder` |
+| `kt:path` | `kt:business-processes` |
 | `kt:einstein-discovery` | `kt:crm-analytics` |
 | `kt:saql` | `kt:crm-analytics` |
 | `kt:apex-rest-services` | `kt:remote-call-in` |
@@ -147,5 +147,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:release-management` | `kt:deployment-validation-and-quick-deploy` |
 | `kt:wcag` | `kt:section-508-accessibility` |
 | `kt:business-architecture` | `kt:capability-maps` |
+| `kt:notes-and-attachments` | `kt:content-document-model` |
 | `kt:technology-roadmaps` | `kt:capability-maps` |
 | `kt:value-streams` | `kt:capability-maps` |

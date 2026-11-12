@@ -9097,6 +9097,95 @@
       ]
     },
     {
+      "@id": "kt:content-document-model",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Content Document Model",
+      "skos:definition": "The trio of standard objects behind Salesforce Files: ContentDocument (the file's identity), ContentVersion (each version's binary data) and ContentDocumentLink (the junction that shares a file with users, groups, records and libraries).",
+      "kto:domain": "data-model",
+      "dcterms:created": "2026-11-12",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Object Reference: ContentDocument",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/object_reference/sforce_api_objects_contentdocument.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Object Reference: ContentDocumentLink",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/object_reference/sforce_api_objects_contentdocumentlink.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Understand File Uploads in Salesforce (Mobile and Offline Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/mobile-offline/guide/use-images-upload-file-representation.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Lightning Experience Productivity: Work with Notes and Files (unit)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/en/modules/lightning-experience-productivity/units/work-with-notes-and-files",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Pro Tip: Simplify File Management with Salesforce Files in Lightning Experience",
+          "dcterms:publisher": "Salesforce Admins Blog",
+          "schema:url": "https://admin.salesforce.com/blog/2017/pro-tip-simplify-file-management-salesforce-files-lightning-experience",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/data-model/content-document-model.md",
+      "skos:altLabel": [
+        "salesforce files data model",
+        "contentdocument",
+        "contentversion",
+        "contentdocumentlink",
+        "files object model"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:standard-objects"
+        },
+        {
+          "@id": "kt:data-architecture"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:polymorphic-relationships"
+        },
+        {
+          "@id": "kt:salesforce-sharing-model"
+        },
+        {
+          "@id": "kt:apex-triggers"
+        }
+      ],
+      "kto:implements": [
+        {
+          "@id": "kt:junction-object"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:data-and-file-storage-allocations"
+        }
+      ],
+      "kto:queriedWith": [
+        {
+          "@id": "kt:soql"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:notes-and-attachments"
+        }
+      ]
+    },
+    {
       "@id": "kt:custom-fields",
       "@type": "kto:Feature",
       "skos:prefLabel": "Custom Fields",
