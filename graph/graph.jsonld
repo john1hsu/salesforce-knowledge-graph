@@ -9559,6 +9559,132 @@
       ]
     },
     {
+      "@id": "kt:data-governance",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Data Governance",
+      "skos:definition": "The practice of setting and enforcing policies, standards, procedures and accountability so Salesforce data stays trusted, secure, usable and compliant across its lifecycle; carried out by data stewards and supported by platform features such as field classification metadata, Data 360 tags and policies, access controls and masking.",
+      "kto:domain": "data-model",
+      "dcterms:created": "2026-11-12",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Describe Data Management (Data Management Fundamentals)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/data-management-fundamentals/describe-data-management",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Review Data Management Concepts (Data Management Fundamentals)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/es-MX/content/learn/modules/data-management-fundamentals/review-data-management-concepts",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Monitor Data Quality Through Governance and Stewardship (Data Monitoring Fundamentals)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/data-monitoring-fundamentals/monitor-data-quality-through-governance-and-stewardship",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Understand the Importance of Data Governance (Data 360 Data Governance Strategies)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/data-cloud-data-governance-strategies/understand-the-importance-of-data-governance",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Design Your Governance Strategy (Data 360 Data Governance Strategies)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/data-cloud-data-governance-strategies/design-your-governance-strategy",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Know Your Metadata (Data Reliability Risk Factors for AI)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/it/content/learn/modules/data-reliability-risk-factors-for-ai/know-your-metadata",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Salesforce Data Security: The Role of Effective Data Classification",
+          "dcterms:publisher": "Salesforce Blog (Australia)",
+          "schema:url": "https://www.salesforce.com/au/blog/salesforce-data-security-the-role-of-effective-data-classification/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Salesforce Certified Platform Data Architect Exam Guide",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=005298972&type=1&language=en_US",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Salesforce Certified Data 360 Consultant Exam Guide",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=005298940&type=1&language=en_US",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/data-model/data-governance.md",
+      "skos:altLabel": [
+        "Salesforce data governance",
+        "enterprise data governance",
+        "data governance program",
+        "data governance framework"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:data-management"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:data-quality"
+        },
+        {
+          "@id": "kt:data-sovereignty"
+        },
+        {
+          "@id": "kt:data-residency"
+        },
+        {
+          "@id": "kt:salesforce-center-of-excellence"
+        },
+        {
+          "@id": "kt:salesforce-data-mask"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:salesforce-governance"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:data-stewardship"
+        },
+        {
+          "@id": "kt:data-classification"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:field-level-security"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:data-cloud"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:platform-data-architect-certification"
+        },
+        {
+          "@id": "kt:data-cloud-consultant-certification"
+        }
+      ]
+    },
+    {
       "@id": "kt:data-quality",
       "@type": "kto:Concept",
       "skos:prefLabel": "Data Quality",

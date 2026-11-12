@@ -1874,6 +1874,40 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/zero-copy-data-federation> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-governance> <http://purl.org/dc/terms/created> "2026-11-12" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-governance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-governance> <http://www.w3.org/2000/01/rdf-schema#label> "Data Governance" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-governance> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce data governance" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-governance> <http://www.w3.org/2004/02/skos/core#altLabel> "data governance framework" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-governance> <http://www.w3.org/2004/02/skos/core#altLabel> "data governance program" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-governance> <http://www.w3.org/2004/02/skos/core#altLabel> "enterprise data governance" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-governance> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-management> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-governance> <http://www.w3.org/2004/02/skos/core#definition> "The practice of setting and enforcing policies, standards, procedures and accountability so Salesforce data stays trusted, secure, usable and compliant across its lifecycle; carried out by data stewards and supported by platform features such as field classification metadata, Data 360 tags and policies, access controls and masking." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-governance> <http://www.w3.org/2004/02/skos/core#prefLabel> "Data Governance" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-governance> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-quality> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-governance> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-residency> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-governance> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-sovereignty> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-governance> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-center-of-excellence> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-governance> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-data-mask> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-governance> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-governance/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-governance> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-governance/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-governance> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-governance/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-governance> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-governance/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-governance> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-governance/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-governance> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-governance/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-governance> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-governance/s7> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-governance> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-governance/s8> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-governance> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-governance/s9> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-governance> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#coveredBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud-consultant-certification> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-governance> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#coveredBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-data-architect-certification> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-governance> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/field-level-security> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-governance> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "data-model" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-governance> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-classification> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-governance> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-stewardship> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-governance> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-governance> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#partOf> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-governance> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-governance> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-governance> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-integration> <http://purl.org/dc/terms/created> "2026-11-04" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-integration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-integration> <http://www.w3.org/2000/01/rdf-schema#label> "Data Integration" .
@@ -9503,6 +9537,51 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud/s5> <https://schema.org/url> "https://architect.salesforce.com/docs/architect/decision-guides/guide/data-360-interoperability" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-governance/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-governance/s1> <http://purl.org/dc/terms/title> "Describe Data Management (Data Management Fundamentals)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-governance/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-governance/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-governance/s1> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/data-management-fundamentals/describe-data-management" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-governance/s2> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-governance/s2> <http://purl.org/dc/terms/title> "Review Data Management Concepts (Data Management Fundamentals)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-governance/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-governance/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-governance/s2> <https://schema.org/url> "https://trailhead.salesforce.com/es-MX/content/learn/modules/data-management-fundamentals/review-data-management-concepts" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-governance/s3> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-governance/s3> <http://purl.org/dc/terms/title> "Monitor Data Quality Through Governance and Stewardship (Data Monitoring Fundamentals)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-governance/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-governance/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-governance/s3> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/data-monitoring-fundamentals/monitor-data-quality-through-governance-and-stewardship" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-governance/s4> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-governance/s4> <http://purl.org/dc/terms/title> "Understand the Importance of Data Governance (Data 360 Data Governance Strategies)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-governance/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-governance/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-governance/s4> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/data-cloud-data-governance-strategies/understand-the-importance-of-data-governance" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-governance/s5> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-governance/s5> <http://purl.org/dc/terms/title> "Design Your Governance Strategy (Data 360 Data Governance Strategies)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-governance/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-governance/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-governance/s5> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/data-cloud-data-governance-strategies/design-your-governance-strategy" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-governance/s6> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-governance/s6> <http://purl.org/dc/terms/title> "Know Your Metadata (Data Reliability Risk Factors for AI)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-governance/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-governance/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-governance/s6> <https://schema.org/url> "https://trailhead.salesforce.com/it/content/learn/modules/data-reliability-risk-factors-for-ai/know-your-metadata" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-governance/s7> <http://purl.org/dc/terms/publisher> "Salesforce Blog (Australia)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-governance/s7> <http://purl.org/dc/terms/title> "Salesforce Data Security: The Role of Effective Data Classification" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-governance/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-governance/s7> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-governance/s7> <https://schema.org/url> "https://www.salesforce.com/au/blog/salesforce-data-security-the-role-of-effective-data-classification/" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-governance/s8> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-governance/s8> <http://purl.org/dc/terms/title> "Salesforce Certified Platform Data Architect Exam Guide" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-governance/s8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-governance/s8> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-governance/s8> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=005298972&type=1&language=en_US" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-governance/s9> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-governance/s9> <http://purl.org/dc/terms/title> "Salesforce Certified Data 360 Consultant Exam Guide" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-governance/s9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-governance/s9> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-governance/s9> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=005298940&type=1&language=en_US" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-integration/s1> <http://purl.org/dc/terms/publisher> "Salesforce Architects" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-integration/s1> <http://purl.org/dc/terms/title> "Data Integration with Salesforce (Architect Decision Guide)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-integration/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

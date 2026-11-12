@@ -5,7 +5,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | Node | Referenced by |
 |---|---|
 | `kt:user-interface-api` | `kt:graphql-api`, `kt:lightning-data-service`, `kt:salesforce-apis` |
-| `kt:data-governance` | `kt:data-quality`, `kt:data-sovereignty`, `kt:salesforce-governance` |
+| `kt:salesforce-data-mask` | `kt:data-governance`, `kt:environment-strategy` |
 | `kt:gdpr-international-transfers` | `kt:data-residency`, `kt:data-sovereignty` |
 | `kt:hyperforce-operating-zones` | `kt:data-residency`, `kt:data-sovereignty` |
 | `kt:heroku` | `kt:platform-as-a-service`, `kt:salesforce-cpq` |
@@ -16,7 +16,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:user-licenses` | `kt:external-identity-license`, `kt:permission-set-licenses` |
 | `kt:test-data-factory` | `kt:apex-testing` |
 | `kt:recursive-save` | `kt:order-of-execution` |
-| `kt:salesforce-data-mask` | `kt:environment-strategy` |
 | `kt:salesforce-ecosystem-roles` | `kt:salesforce-architect` |
 | `kt:lightning-service-console` | `kt:service-cloud` |
 | `kt:service-setup-assistant` | `kt:service-cloud` |
@@ -108,6 +107,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:apexguru` | `kt:scale-test` |
 | `kt:scale-center` | `kt:scale-test` |
 | `kt:ingestion-api` | `kt:data-streams` |
+| `kt:data-classification` | `kt:data-governance` |
+| `kt:data-management` | `kt:data-governance` |
+| `kt:data-stewardship` | `kt:data-governance` |
 | `kt:data-actions` | `kt:streaming-insights` |
 | `kt:mulesoft-platform-integration-architect-certification` | `kt:mulesoft-platform-architect-certification` |
 | `kt:automation-studio` | `kt:marketing-cloud-engagement` |
@@ -121,6 +123,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:flow-limits` | `kt:flow-versioning` |
 | `kt:multiple-currencies` | `kt:price-books` |
 | `kt:opportunity-products` | `kt:price-books` |
+| `kt:it-governance` | `kt:salesforce-governance` |
+| `kt:security-governance` | `kt:salesforce-governance` |
 | `kt:holidays` | `kt:business-hours` |
 | `kt:security-center` | `kt:continuous-monitoring` |
 | `kt:fhir` | `kt:health-cloud` |
@@ -132,8 +136,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:mulesoft-composer` | `kt:slack-platform` |
 | `kt:slack-api-rate-limits` | `kt:slack-platform` |
 | `kt:slack-workflow-builder` | `kt:slack-platform` |
-| `kt:it-governance` | `kt:salesforce-governance` |
-| `kt:security-governance` | `kt:salesforce-governance` |
 | `kt:iso-iec-25010` | `kt:non-functional-requirements` |
 | `kt:requirements-engineering` | `kt:non-functional-requirements` |
 | `kt:custom-permissions` | `kt:validation-rules` |
@@ -143,11 +145,11 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:models-api` | `kt:ai-models` |
 | `kt:mutual-tls-authentication` | `kt:login-ip-ranges-and-trusted-ip-ranges` |
 | `kt:digital-accessibility` | `kt:section-508-accessibility` |
-| `kt:notes-and-attachments` | `kt:content-document-model` |
 | `kt:release-management` | `kt:deployment-validation-and-quick-deploy` |
 | `kt:wcag` | `kt:section-508-accessibility` |
 | `kt:business-architecture` | `kt:capability-maps` |
 | `kt:email-templates` | `kt:email-alerts` |
+| `kt:notes-and-attachments` | `kt:content-document-model` |
 | `kt:organization-wide-email-addresses` | `kt:email-alerts` |
 | `kt:technology-roadmaps` | `kt:capability-maps` |
 | `kt:value-streams` | `kt:capability-maps` |
