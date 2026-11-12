@@ -20436,6 +20436,89 @@
       ]
     },
     {
+      "@id": "kt:infrastructure-as-a-service",
+      "@type": "kto:ExternalConcept",
+      "skos:prefLabel": "Infrastructure as a Service",
+      "skos:definition": "The cloud service model, defined by NIST SP 800-145, in which a provider supplies processing, storage, networks and other fundamental computing resources on which the customer deploys and runs arbitrary software, including its own operating systems; Salesforce's Hyperforce infrastructure is built on public cloud IaaS.",
+      "kto:domain": "platform-architecture",
+      "dcterms:created": "2026-11-12",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "The NIST Definition of Cloud Computing (NIST SP 800-145)",
+          "dcterms:publisher": "National Institute of Standards and Technology",
+          "schema:url": "https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-145.pdf",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "NIST Cloud Computing Reference Architecture (NIST SP 500-292)",
+          "dcterms:publisher": "National Institute of Standards and Technology",
+          "schema:url": "https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication500-292.pdf",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "What is IaaS (Infrastructure as a Service)?",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/platform/iaas/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Learn About the Cloud (Cloud Security Engineering)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/cloud-security-engineering/learn-about-the-cloud",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Behind the Scenes of Hyperforce: Salesforce's Infrastructure for the Public Cloud",
+          "dcterms:publisher": "Salesforce Engineering",
+          "schema:url": "https://engineering.salesforce.com/behind-the-scenes-of-hyperforce-salesforces-infrastructure-for-the-public-cloud-429309542d8e",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Hyperforce: Public Cloud Infrastructure",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/platform/public-cloud-infrastructure/",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/platform-architecture/infrastructure-as-a-service.md",
+      "skos:altLabel": [
+        "IaaS",
+        "infrastructure-as-a-service",
+        "IaaS cloud service model"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:cloud-computing"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:shared-responsibility-model"
+        },
+        {
+          "@id": "kt:multitenancy"
+        },
+        {
+          "@id": "kt:data-residency"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:platform-as-a-service"
+        },
+        {
+          "@id": "kt:software-as-a-service"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:hyperforce"
+        }
+      ]
+    },
+    {
       "@id": "kt:large-data-volumes",
       "@type": "kto:Concept",
       "skos:prefLabel": "Large Data Volumes",

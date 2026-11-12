@@ -5,11 +5,10 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | Node | Referenced by |
 |---|---|
 | `kt:soap-api` | `kt:external-id-fields`, `kt:rest-api`, `kt:salesforce-apis` |
+| `kt:software-as-a-service` | `kt:cloud-computing`, `kt:infrastructure-as-a-service`, `kt:platform-as-a-service` |
 | `kt:user-interface-api` | `kt:graphql-api`, `kt:lightning-data-service`, `kt:salesforce-apis` |
-| `kt:api-led-connectivity` | `kt:mulesoft-anypoint-platform`, `kt:mulesoft-platform-architect-certification` |
-| `kt:infrastructure-as-a-service` | `kt:cloud-computing`, `kt:platform-as-a-service` |
-| `kt:software-as-a-service` | `kt:cloud-computing`, `kt:platform-as-a-service` |
 | `kt:heroku` | `kt:platform-as-a-service`, `kt:salesforce-cpq` |
+| `kt:api-led-connectivity` | `kt:mulesoft-anypoint-platform`, `kt:mulesoft-platform-architect-certification` |
 | `kt:external-services` | `kt:apex-callouts`, `kt:flow-http-callout` |
 | `kt:permission-set-licenses` | `kt:identity-connect`, `kt:permission-sets` |
 | `kt:visualforce` | `kt:apex-continuations`, `kt:lightning-message-service` |
@@ -25,15 +24,15 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:bulk-api-allocations` | `kt:bulk-api-2` |
 | `kt:data-loader` | `kt:bulk-api-2` |
 | `kt:lightning-web-security` | `kt:lightning-web-components` |
-| `kt:external-identity-license` | `kt:experience-cloud-identity` |
 | `kt:government-cloud` | `kt:government-cloud-plus` |
+| `kt:external-identity-license` | `kt:experience-cloud-identity` |
 | `kt:change-data-capture-allocations` | `kt:change-data-capture` |
 | `kt:platform-event-channel-member` | `kt:change-data-capture` |
 | `kt:apex-flex-queue` | `kt:batch-apex` |
-| `kt:orglimits-class` | `kt:limits-class` |
 | `kt:data-sovereignty` | `kt:data-residency` |
 | `kt:gdpr-international-transfers` | `kt:data-residency` |
 | `kt:hyperforce-operating-zones` | `kt:data-residency` |
+| `kt:orglimits-class` | `kt:limits-class` |
 | `kt:process-integration` | `kt:data-integration` |
 | `kt:governance-risk-and-compliance` | `kt:security-compliance-frameworks` |
 | `kt:transaction-finalizers` | `kt:queueable-apex` |
@@ -52,8 +51,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:mixed-dml-error` | `kt:future-methods` |
 | `kt:data-categories` | `kt:knowledge-base` |
 | `kt:salesforce-go` | `kt:knowledge-base` |
-| `kt:trailhead` | `kt:salesforce-certification-program` |
 | `kt:nist-sp-800-60` | `kt:fips-199` |
+| `kt:trailhead` | `kt:salesforce-certification-program` |
 | `kt:user-access-policies` | `kt:permission-sets` |
 | `kt:omni-channel-limits` | `kt:omni-channel` |
 | `kt:presence-configuration` | `kt:omni-channel` |
@@ -74,6 +73,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:work-orders` | `kt:field-service` |
 | `kt:data-cloud-activation` | `kt:data-cloud-segmentation` |
 | `kt:data-graphs` | `kt:data-cloud-segmentation` |
+| `kt:distributed-computing` | `kt:cloud-computing` |
 | `kt:dynamic-revenue-orchestrator` | `kt:revenue-cloud` |
 | `kt:revenue-management-consultant-certification` | `kt:revenue-cloud` |
 | `kt:agentexchange` | `kt:appexchange-security-review` |
@@ -82,7 +82,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:omnistudio-consultant-certification` | `kt:omnistudio` |
 | `kt:omnistudio-developer-certification` | `kt:omnistudio` |
 | `kt:decision-tables` | `kt:salesforce-pricing` |
-| `kt:distributed-computing` | `kt:cloud-computing` |
 | `kt:json-web-token` | `kt:openid-connect` |
 | `kt:constraint-modeling-language` | `kt:product-configurator` |
 | `kt:product-catalog-management` | `kt:product-configurator` |
@@ -118,8 +117,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:marketing-cloud-account-engagement` | `kt:marketing-cloud-engagement` |
 | `kt:marketing-cloud-connect` | `kt:marketing-cloud-engagement` |
 | `kt:marketing-cloud-next` | `kt:marketing-cloud-engagement` |
-| `kt:salesforce-marketing-solutions` | `kt:marketing-cloud-engagement` |
 | `kt:mulesoft-platform-integration-architect-certification` | `kt:mulesoft-platform-architect-certification` |
+| `kt:salesforce-marketing-solutions` | `kt:marketing-cloud-engagement` |
 | `kt:multiple-currencies` | `kt:price-books` |
 | `kt:opportunity-products` | `kt:price-books` |
 | `kt:flow-limits` | `kt:flow-versioning` |
