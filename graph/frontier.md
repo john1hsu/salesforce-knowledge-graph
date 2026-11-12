@@ -10,7 +10,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:heroku` | `kt:platform-as-a-service`, `kt:salesforce-cpq` |
 | `kt:api-led-connectivity` | `kt:mulesoft-anypoint-platform`, `kt:mulesoft-platform-architect-certification` |
 | `kt:external-services` | `kt:apex-callouts`, `kt:flow-http-callout` |
-| `kt:permission-set-licenses` | `kt:identity-connect`, `kt:permission-sets` |
+| `kt:user-access-policies` | `kt:permission-set-licenses`, `kt:permission-sets` |
 | `kt:visualforce` | `kt:apex-continuations`, `kt:lightning-message-service` |
 | `kt:salesforce-analytics` | `kt:crm-analytics`, `kt:tableau` |
 | `kt:data-governance` | `kt:data-quality`, `kt:salesforce-governance` |
@@ -24,8 +24,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:bulk-api-allocations` | `kt:bulk-api-2` |
 | `kt:data-loader` | `kt:bulk-api-2` |
 | `kt:lightning-web-security` | `kt:lightning-web-components` |
-| `kt:government-cloud` | `kt:government-cloud-plus` |
 | `kt:external-identity-license` | `kt:experience-cloud-identity` |
+| `kt:government-cloud` | `kt:government-cloud-plus` |
 | `kt:change-data-capture-allocations` | `kt:change-data-capture` |
 | `kt:platform-event-channel-member` | `kt:change-data-capture` |
 | `kt:apex-flex-queue` | `kt:batch-apex` |
@@ -53,7 +53,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:salesforce-go` | `kt:knowledge-base` |
 | `kt:nist-sp-800-60` | `kt:fips-199` |
 | `kt:trailhead` | `kt:salesforce-certification-program` |
-| `kt:user-access-policies` | `kt:permission-sets` |
 | `kt:omni-channel-limits` | `kt:omni-channel` |
 | `kt:presence-configuration` | `kt:omni-channel` |
 | `kt:skills-based-routing` | `kt:omni-channel` |
@@ -61,8 +60,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:financial-services-cloud` | `kt:person-accounts` |
 | `kt:data-detect` | `kt:salesforce-shield` |
 | `kt:custom-objects` | `kt:standard-objects` |
-| `kt:flow-bulkification` | `kt:bulkification` |
 | `kt:compact-layouts` | `kt:page-layouts` |
+| `kt:flow-bulkification` | `kt:bulkification` |
 | `kt:platform-administrator-ii-certification` | `kt:platform-administrator-certification` |
 | `kt:zero-trust-architecture` | `kt:principle-of-least-privilege` |
 | `kt:entitlement-process-metadata` | `kt:entitlement-management` |
@@ -81,20 +80,20 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:hitrust-csf` | `kt:nist-cybersecurity-framework` |
 | `kt:omnistudio-consultant-certification` | `kt:omnistudio` |
 | `kt:omnistudio-developer-certification` | `kt:omnistudio` |
+| `kt:delegated-authentication` | `kt:identity-connect` |
 | `kt:decision-tables` | `kt:salesforce-pricing` |
 | `kt:json-web-token` | `kt:openid-connect` |
+| `kt:scim` | `kt:salesforce-scim` |
 | `kt:constraint-modeling-language` | `kt:product-configurator` |
 | `kt:product-catalog-management` | `kt:product-configurator` |
 | `kt:tableau-next` | `kt:tableau` |
 | `kt:tableau-pulse` | `kt:tableau` |
 | `kt:tableau-semantics` | `kt:tableau` |
-| `kt:delegated-authentication` | `kt:identity-connect` |
-| `kt:scim` | `kt:salesforce-scim` |
 | `kt:salesforce-ecosystem` | `kt:salesforce-inc` |
 | `kt:opportunity-teams` | `kt:opportunity-splits` |
 | `kt:revenue-intelligence` | `kt:collaborative-forecasts` |
-| `kt:object-manager` | `kt:schema-builder` |
 | `kt:path` | `kt:business-processes` |
+| `kt:object-manager` | `kt:schema-builder` |
 | `kt:einstein-discovery` | `kt:crm-analytics` |
 | `kt:saql` | `kt:crm-analytics` |
 | `kt:apex-rest-services` | `kt:remote-call-in` |
@@ -122,6 +121,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:multiple-currencies` | `kt:price-books` |
 | `kt:opportunity-products` | `kt:price-books` |
 | `kt:flow-limits` | `kt:flow-versioning` |
+| `kt:user-licenses` | `kt:permission-set-licenses` |
 | `kt:holidays` | `kt:business-hours` |
 | `kt:security-center` | `kt:continuous-monitoring` |
 | `kt:block-kit` | `kt:slack-platform` |

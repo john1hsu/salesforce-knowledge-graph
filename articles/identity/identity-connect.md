@@ -16,7 +16,7 @@ relations:
   - {predicate: replacedBy, object: kt:salesforce-scim}
   - {predicate: dependsOn, object: kt:connected-apps}
   - {predicate: governedBy, object: kt:api-request-limits}
-  - {predicate: requiresLicense, object: kt:permission-set-licenses}
+  - {predicate: dependsOn, object: kt:permission-set-licenses}
   - {predicate: alternativeTo, object: kt:just-in-time-provisioning}
   - {predicate: coveredBy, object: kt:identity-and-access-management-architect-certification}
 sources:

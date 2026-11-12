@@ -15,7 +15,7 @@ related: [kt:permission-set-groups, kt:connected-apps, kt:session-security-level
 relations:
   - {predicate: contrastsWith, object: kt:profiles}
   - {predicate: implements, object: kt:principle-of-least-privilege}
-  - {predicate: requiresLicense, object: kt:permission-set-licenses}
+  - {predicate: dependsOn, object: kt:permission-set-licenses}
   - {predicate: hasPart, object: kt:field-level-security}
   - {predicate: queriedWith, object: kt:soql}
   - {predicate: configuredVia, object: kt:metadata-api}
