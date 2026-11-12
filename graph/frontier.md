@@ -5,8 +5,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | Node | Referenced by |
 |---|---|
 | `kt:user-interface-api` | `kt:graphql-api`, `kt:lightning-data-service`, `kt:salesforce-apis`, `kt:wire-service` |
-| `kt:gdpr-international-transfers` | `kt:data-residency`, `kt:data-sovereignty` |
-| `kt:hyperforce-operating-zones` | `kt:data-residency`, `kt:data-sovereignty` |
+| `kt:hyperforce-operating-zones` | `kt:data-residency`, `kt:data-sovereignty`, `kt:gdpr-international-transfers` |
 | `kt:heroku` | `kt:platform-as-a-service`, `kt:salesforce-cpq` |
 | `kt:api-led-connectivity` | `kt:mulesoft-anypoint-platform`, `kt:mulesoft-platform-architect-certification` |
 | `kt:external-services` | `kt:apex-callouts`, `kt:flow-http-callout` |
@@ -29,8 +28,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:apex-flex-queue` | `kt:batch-apex` |
 | `kt:orglimits-class` | `kt:limits-class` |
 | `kt:process-integration` | `kt:data-integration` |
-| `kt:transaction-finalizers` | `kt:queueable-apex` |
 | `kt:governance-risk-and-compliance` | `kt:security-compliance-frameworks` |
+| `kt:transaction-finalizers` | `kt:queueable-apex` |
 | `kt:mule-runtime-engine` | `kt:mulesoft-anypoint-platform` |
 | `kt:salesforce-architecture-program` | `kt:salesforce-architecture-center` |
 | `kt:legacy-named-credentials` | `kt:named-credentials` |
@@ -46,17 +45,17 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:mixed-dml-error` | `kt:future-methods` |
 | `kt:data-categories` | `kt:knowledge-base` |
 | `kt:salesforce-go` | `kt:knowledge-base` |
-| `kt:trailhead` | `kt:salesforce-certification-program` |
 | `kt:nist-sp-800-60` | `kt:fips-199` |
+| `kt:trailhead` | `kt:salesforce-certification-program` |
 | `kt:omni-channel-limits` | `kt:omni-channel` |
 | `kt:presence-configuration` | `kt:omni-channel` |
 | `kt:skills-based-routing` | `kt:omni-channel` |
 | `kt:contacts-to-multiple-accounts` | `kt:person-accounts` |
-| `kt:compact-layouts` | `kt:page-layouts` |
 | `kt:data-detect` | `kt:salesforce-shield` |
+| `kt:compact-layouts` | `kt:page-layouts` |
+| `kt:distributed-computing` | `kt:cloud-computing` |
 | `kt:custom-objects` | `kt:standard-objects` |
 | `kt:flow-bulkification` | `kt:bulkification` |
-| `kt:distributed-computing` | `kt:cloud-computing` |
 | `kt:data-mask-and-seed` | `kt:salesforce-data-mask` |
 | `kt:platform-administrator-ii-certification` | `kt:platform-administrator-certification` |
 | `kt:zero-trust-architecture` | `kt:principle-of-least-privilege` |
@@ -74,6 +73,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:omnistudio-developer-certification` | `kt:omnistudio` |
 | `kt:iso-iec-27002` | `kt:iso-iec-27001` |
 | `kt:hitrust-csf` | `kt:nist-cybersecurity-framework` |
+| `kt:data-classification` | `kt:data-governance` |
+| `kt:data-management` | `kt:data-governance` |
+| `kt:data-stewardship` | `kt:data-governance` |
 | `kt:delegated-authentication` | `kt:identity-connect` |
 | `kt:decision-tables` | `kt:salesforce-pricing` |
 | `kt:scim` | `kt:salesforce-scim` |
@@ -87,13 +89,10 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:constraint-modeling-language` | `kt:product-configurator` |
 | `kt:product-catalog-management` | `kt:product-configurator` |
 | `kt:path` | `kt:business-processes` |
+| `kt:object-manager` | `kt:schema-builder` |
 | `kt:opportunity-teams` | `kt:opportunity-splits` |
 | `kt:revenue-intelligence` | `kt:collaborative-forecasts` |
-| `kt:object-manager` | `kt:schema-builder` |
 | `kt:salesforce-ecosystem` | `kt:salesforce-inc` |
-| `kt:data-classification` | `kt:data-governance` |
-| `kt:data-management` | `kt:data-governance` |
-| `kt:data-stewardship` | `kt:data-governance` |
 | `kt:einstein-discovery` | `kt:crm-analytics` |
 | `kt:saql` | `kt:crm-analytics` |
 | `kt:apex-mocks` | `kt:apex-enterprise-patterns` |
@@ -120,11 +119,11 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:marketing-cloud-next` | `kt:marketing-cloud-engagement` |
 | `kt:salesforce-marketing-solutions` | `kt:marketing-cloud-engagement` |
 | `kt:flow-limits` | `kt:flow-versioning` |
+| `kt:it-governance` | `kt:salesforce-governance` |
 | `kt:salesforce-lightning-design-system` | `kt:visualforce` |
+| `kt:security-governance` | `kt:salesforce-governance` |
 | `kt:multiple-currencies` | `kt:price-books` |
 | `kt:opportunity-products` | `kt:price-books` |
-| `kt:it-governance` | `kt:salesforce-governance` |
-| `kt:security-governance` | `kt:salesforce-governance` |
 | `kt:holidays` | `kt:business-hours` |
 | `kt:security-center` | `kt:continuous-monitoring` |
 | `kt:fhir` | `kt:health-cloud` |
@@ -136,17 +135,16 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:mulesoft-composer` | `kt:slack-platform` |
 | `kt:slack-api-rate-limits` | `kt:slack-platform` |
 | `kt:slack-workflow-builder` | `kt:slack-platform` |
+| `kt:custom-permissions` | `kt:validation-rules` |
 | `kt:iso-iec-25010` | `kt:non-functional-requirements` |
 | `kt:requirements-engineering` | `kt:non-functional-requirements` |
-| `kt:custom-permissions` | `kt:validation-rules` |
 | `kt:platform-cache-partitions` | `kt:platform-cache` |
 | `kt:data-cloud-code-extension` | `kt:vector-search-in-data-cloud` |
 | `kt:unstructured-data-in-data-cloud` | `kt:vector-search-in-data-cloud` |
 | `kt:models-api` | `kt:ai-models` |
 | `kt:mutual-tls-authentication` | `kt:login-ip-ranges-and-trusted-ip-ranges` |
-| `kt:digital-accessibility` | `kt:section-508-accessibility` |
-| `kt:wcag` | `kt:section-508-accessibility` |
 | `kt:business-architecture` | `kt:capability-maps` |
+| `kt:digital-accessibility` | `kt:section-508-accessibility` |
 | `kt:email-templates` | `kt:email-alerts` |
 | `kt:model-context-protocol` | `kt:model-context-protocol-in-agentforce` |
 | `kt:notes-and-attachments` | `kt:content-document-model` |
@@ -155,3 +153,4 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:salesforce-hosted-mcp-servers` | `kt:model-context-protocol-in-agentforce` |
 | `kt:technology-roadmaps` | `kt:capability-maps` |
 | `kt:value-streams` | `kt:capability-maps` |
+| `kt:wcag` | `kt:section-508-accessibility` |

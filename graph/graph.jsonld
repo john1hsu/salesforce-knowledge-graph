@@ -24016,6 +24016,92 @@
       ]
     },
     {
+      "@id": "kt:gdpr-international-transfers",
+      "@type": "kto:ExternalConcept",
+      "skos:prefLabel": "GDPR International Data Transfers",
+      "skos:definition": "The rules in Chapter V of the EU General Data Protection Regulation that govern moving personal data from the EEA to a third country or international organisation, which is lawful only under an adequacy decision, an appropriate safeguard such as standard contractual clauses or binding corporate rules, or a narrow derogation.",
+      "kto:domain": "public-sector-and-compliance",
+      "dcterms:created": "2026-11-12",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "International data transfers (Data Protection Guide for Small Business)",
+          "dcterms:publisher": "European Data Protection Board",
+          "schema:url": "https://www.edpb.europa.eu/sme/be-compliant/international-data-transfers_en",
+          "kto:sourceType": "government"
+        },
+        {
+          "dcterms:title": "Transfers of Personal Data to Third Countries or International Organisations",
+          "dcterms:publisher": "Data Protection Commission (Ireland)",
+          "schema:url": "https://dataprotection.ie/en/organisations/international-transfers/transfers-personal-data-third-countries-or-international-organisations",
+          "kto:sourceType": "government"
+        },
+        {
+          "dcterms:title": "Adequacy decisions",
+          "dcterms:publisher": "European Commission",
+          "schema:url": "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_lv",
+          "kto:sourceType": "government"
+        },
+        {
+          "dcterms:title": "EU Data Transfer Mechanisms FAQ",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/CONTENT/DAM/WEB/EN_US/WWW/DOCUMENTS/LEGAL/AGREEMENTS/EU-DATA-TRANSFER-MECHANISMS-FAQ.PDF",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Salesforce BCRs — Salesforce Compliance",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://compliance.salesforce.com/en/categories/salesforce-bcrs",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "European General Court dismisses Latombe challenge, upholds EU-US Data Privacy Framework",
+          "dcterms:publisher": "IAPP",
+          "schema:url": "https://iapp.org/news/a/european-general-court-dismisses-latombe-challenge-upholds-eu-us-data-privacy-framework",
+          "kto:sourceType": "news"
+        }
+      ],
+      "kto:file": "articles/public-sector-and-compliance/gdpr-international-transfers.md",
+      "skos:altLabel": [
+        "GDPR Chapter V",
+        "GDPR cross-border transfers",
+        "EU data transfer mechanisms",
+        "third-country transfers",
+        "Schrems II transfers"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:security-compliance-frameworks"
+        },
+        {
+          "@id": "kt:data-governance"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:data-sovereignty"
+        },
+        {
+          "@id": "kt:hyperforce"
+        },
+        {
+          "@id": "kt:hyperforce-operating-zones"
+        },
+        {
+          "@id": "kt:shield-platform-encryption"
+        },
+        {
+          "@id": "kt:shared-responsibility-model"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:data-residency"
+        }
+      ]
+    },
+    {
       "@id": "kt:government-cloud-plus",
       "@type": "kto:Product",
       "skos:prefLabel": "Government Cloud Plus",

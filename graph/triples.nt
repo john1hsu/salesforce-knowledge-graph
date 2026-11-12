@@ -3360,6 +3360,33 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/future-methods> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#mitigates> <https://github.com/john1hsu/salesforce-knowledge-graph/id/mixed-dml-error> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/future-methods> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/future-methods> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/gdpr-international-transfers> <http://purl.org/dc/terms/created> "2026-11-12" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/gdpr-international-transfers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#ExternalConcept> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/gdpr-international-transfers> <http://www.w3.org/2000/01/rdf-schema#label> "GDPR International Data Transfers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/gdpr-international-transfers> <http://www.w3.org/2004/02/skos/core#altLabel> "EU data transfer mechanisms" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/gdpr-international-transfers> <http://www.w3.org/2004/02/skos/core#altLabel> "GDPR Chapter V" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/gdpr-international-transfers> <http://www.w3.org/2004/02/skos/core#altLabel> "GDPR cross-border transfers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/gdpr-international-transfers> <http://www.w3.org/2004/02/skos/core#altLabel> "Schrems II transfers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/gdpr-international-transfers> <http://www.w3.org/2004/02/skos/core#altLabel> "third-country transfers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/gdpr-international-transfers> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-governance> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/gdpr-international-transfers> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/security-compliance-frameworks> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/gdpr-international-transfers> <http://www.w3.org/2004/02/skos/core#definition> "The rules in Chapter V of the EU General Data Protection Regulation that govern moving personal data from the EEA to a third country or international organisation, which is lawful only under an adequacy decision, an appropriate safeguard such as standard contractual clauses or binding corporate rules, or a narrow derogation." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/gdpr-international-transfers> <http://www.w3.org/2004/02/skos/core#prefLabel> "GDPR International Data Transfers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/gdpr-international-transfers> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-sovereignty> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/gdpr-international-transfers> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/hyperforce-operating-zones> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/gdpr-international-transfers> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/hyperforce> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/gdpr-international-transfers> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/shared-responsibility-model> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/gdpr-international-transfers> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/shield-platform-encryption> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/gdpr-international-transfers> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/gdpr-international-transfers/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/gdpr-international-transfers> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/gdpr-international-transfers/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/gdpr-international-transfers> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/gdpr-international-transfers/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/gdpr-international-transfers> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/gdpr-international-transfers/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/gdpr-international-transfers> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/gdpr-international-transfers/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/gdpr-international-transfers> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/gdpr-international-transfers/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/gdpr-international-transfers> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#contrastsWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-residency> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/gdpr-international-transfers> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "public-sector-and-compliance" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/gdpr-international-transfers> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/gdpr-international-transfers> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/government-cloud-plus> <http://purl.org/dc/terms/created> "2026-10-31" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/government-cloud-plus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Product> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/government-cloud-plus> <http://www.w3.org/2000/01/rdf-schema#label> "Government Cloud Plus" .
@@ -11103,6 +11130,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/future-methods/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/future-methods/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/future-methods/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apex/apex_dml_non_mix_sobjects.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/gdpr-international-transfers/s1> <http://purl.org/dc/terms/publisher> "European Data Protection Board" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/gdpr-international-transfers/s1> <http://purl.org/dc/terms/title> "International data transfers (Data Protection Guide for Small Business)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/gdpr-international-transfers/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/gdpr-international-transfers/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/gdpr-international-transfers/s1> <https://schema.org/url> "https://www.edpb.europa.eu/sme/be-compliant/international-data-transfers_en" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/gdpr-international-transfers/s2> <http://purl.org/dc/terms/publisher> "Data Protection Commission (Ireland)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/gdpr-international-transfers/s2> <http://purl.org/dc/terms/title> "Transfers of Personal Data to Third Countries or International Organisations" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/gdpr-international-transfers/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/gdpr-international-transfers/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/gdpr-international-transfers/s2> <https://schema.org/url> "https://dataprotection.ie/en/organisations/international-transfers/transfers-personal-data-third-countries-or-international-organisations" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/gdpr-international-transfers/s3> <http://purl.org/dc/terms/publisher> "European Commission" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/gdpr-international-transfers/s3> <http://purl.org/dc/terms/title> "Adequacy decisions" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/gdpr-international-transfers/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/gdpr-international-transfers/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/gdpr-international-transfers/s3> <https://schema.org/url> "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_lv" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/gdpr-international-transfers/s4> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/gdpr-international-transfers/s4> <http://purl.org/dc/terms/title> "EU Data Transfer Mechanisms FAQ" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/gdpr-international-transfers/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/gdpr-international-transfers/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/gdpr-international-transfers/s4> <https://schema.org/url> "https://www.salesforce.com/CONTENT/DAM/WEB/EN_US/WWW/DOCUMENTS/LEGAL/AGREEMENTS/EU-DATA-TRANSFER-MECHANISMS-FAQ.PDF" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/gdpr-international-transfers/s5> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/gdpr-international-transfers/s5> <http://purl.org/dc/terms/title> "Salesforce BCRs — Salesforce Compliance" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/gdpr-international-transfers/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/gdpr-international-transfers/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/gdpr-international-transfers/s5> <https://schema.org/url> "https://compliance.salesforce.com/en/categories/salesforce-bcrs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/gdpr-international-transfers/s6> <http://purl.org/dc/terms/publisher> "IAPP" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/gdpr-international-transfers/s6> <http://purl.org/dc/terms/title> "European General Court dismisses Latombe challenge, upholds EU-US Data Privacy Framework" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/gdpr-international-transfers/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/gdpr-international-transfers/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "news" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/gdpr-international-transfers/s6> <https://schema.org/url> "https://iapp.org/news/a/european-general-court-dismisses-latombe-challenge-upholds-eu-us-data-privacy-framework" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/government-cloud-plus/s1> <http://purl.org/dc/terms/publisher> "Salesforce" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/government-cloud-plus/s1> <http://purl.org/dc/terms/title> "Government Cloud Plus (Compliance services page)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/government-cloud-plus/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
