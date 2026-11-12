@@ -11,7 +11,7 @@ summary: >-
 release: "Winter '27"
 status: current
 broader: [kt:flow-builder, kt:process-automation]
-related: [kt:order-of-execution, kt:flow-trigger-explorer, kt:screen-flow, kt:autolaunched-flow]
+related: [kt:order-of-execution, kt:flow-trigger-explorer, kt:screen-flow, kt:autolaunched-flow, kt:scheduled-paths]
 relations:
   - {predicate: alternativeTo, object: kt:apex-triggers}
   - {predicate: replaces, object: kt:workflow-rules}

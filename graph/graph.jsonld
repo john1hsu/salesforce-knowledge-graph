@@ -4208,6 +4208,9 @@
         },
         {
           "@id": "kt:autolaunched-flow"
+        },
+        {
+          "@id": "kt:scheduled-paths"
         }
       ],
       "kto:alternativeTo": [
@@ -4300,6 +4303,97 @@
       "kto:configuredVia": [
         {
           "@id": "kt:process-automation-settings"
+        }
+      ]
+    },
+    {
+      "@id": "kt:scheduled-paths",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Scheduled Paths",
+      "skos:definition": "An optional branch of an after-save record-triggered flow whose elements run later than the triggering save, at an offset before or after the triggering event or a date/time field on the record, processed asynchronously in batches and monitored from the Time-Based Automations page.",
+      "kto:domain": "automation",
+      "dcterms:created": "2026-11-12",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Scheduled Paths",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=platform.flow_concepts_trigger_scheduled_path.htm&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Record-Triggered Flows: Add a Scheduled Task to Your Flow",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/record-triggered-flows/add-a-scheduled-task-to-your-flow",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Schedule Your Path in Salesforce Flow",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2021/03/schedule-your-path-in-salesforce-flow",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "How I Solved It: Run a Flow Scheduled Path Based on a Field Change",
+          "dcterms:publisher": "Salesforce Admins Blog",
+          "schema:url": "https://admin.salesforce.com/blog/2022/how-i-solved-it-run-a-flow-scheduled-path-based-on-a-field-change",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Asynchronous Processing on the Lightning Platform",
+          "dcterms:publisher": "Salesforce Architects",
+          "schema:url": "https://architect.salesforce.com/docs/architect/fundamentals/guide/async-fundamentals.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/automation/scheduled-paths.md",
+      "skos:altLabel": [
+        "scheduled path",
+        "flow scheduled paths",
+        "record-triggered flow scheduled path",
+        "time-based flow actions"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:record-triggered-flow"
+        },
+        {
+          "@id": "kt:process-automation"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:schedule-triggered-flow"
+        },
+        {
+          "@id": "kt:flow-fault-handling"
+        },
+        {
+          "@id": "kt:asynchronous-apex"
+        }
+      ],
+      "kto:replaces": [
+        {
+          "@id": "kt:workflow-rules"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:queueable-apex"
+        },
+        {
+          "@id": "kt:future-methods"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:process-automation-settings"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:governor-limits"
         }
       ]
     },

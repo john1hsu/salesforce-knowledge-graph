@@ -26,8 +26,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:apex-flex-queue` | `kt:batch-apex` |
 | `kt:orglimits-class` | `kt:limits-class` |
 | `kt:process-integration` | `kt:data-integration` |
-| `kt:governance-risk-and-compliance` | `kt:security-compliance-frameworks` |
 | `kt:transaction-finalizers` | `kt:queueable-apex` |
+| `kt:governance-risk-and-compliance` | `kt:security-compliance-frameworks` |
 | `kt:mule-runtime-engine` | `kt:mulesoft-anypoint-platform` |
 | `kt:legacy-named-credentials` | `kt:named-credentials` |
 | `kt:salesforce-architecture-program` | `kt:salesforce-architecture-center` |
@@ -39,8 +39,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:backup-and-recover` | `kt:archiving-strategy` |
 | `kt:salesforce-archive` | `kt:archiving-strategy` |
 | `kt:prompt-injection` | `kt:einstein-trust-layer` |
-| `kt:zero-copy-data-sharing` | `kt:zero-copy-data-federation` |
 | `kt:mixed-dml-error` | `kt:future-methods` |
+| `kt:zero-copy-data-sharing` | `kt:zero-copy-data-federation` |
 | `kt:data-categories` | `kt:knowledge-base` |
 | `kt:salesforce-go` | `kt:knowledge-base` |
 | `kt:trailhead` | `kt:salesforce-certification-program` |
@@ -116,8 +116,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:ingestion-api` | `kt:data-streams` |
 | `kt:data-actions` | `kt:streaming-insights` |
 | `kt:mulesoft-platform-integration-architect-certification` | `kt:mulesoft-platform-architect-certification` |
-| `kt:user-management` | `kt:user-access-policies` |
 | `kt:flow-limits` | `kt:flow-versioning` |
+| `kt:user-management` | `kt:user-access-policies` |
 | `kt:salesforce-lightning-design-system` | `kt:visualforce` |
 | `kt:it-governance` | `kt:salesforce-governance` |
 | `kt:security-governance` | `kt:salesforce-governance` |
@@ -143,15 +143,15 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:unstructured-data-in-data-cloud` | `kt:vector-search-in-data-cloud` |
 | `kt:models-api` | `kt:ai-models` |
 | `kt:digital-accessibility` | `kt:section-508-accessibility` |
-| `kt:email-templates` | `kt:email-alerts` |
 | `kt:model-context-protocol` | `kt:model-context-protocol-in-agentforce` |
 | `kt:notes-and-attachments` | `kt:content-document-model` |
-| `kt:organization-wide-email-addresses` | `kt:email-alerts` |
 | `kt:release-management` | `kt:deployment-validation-and-quick-deploy` |
 | `kt:salesforce-hosted-mcp-servers` | `kt:model-context-protocol-in-agentforce` |
 | `kt:wcag` | `kt:section-508-accessibility` |
 | `kt:b2c-commerce-architect-certification` | `kt:b2c-solution-architect-certification` |
 | `kt:business-architecture` | `kt:capability-maps` |
 | `kt:commerce-cloud` | `kt:b2c-solution-architect-certification` |
+| `kt:email-templates` | `kt:email-alerts` |
+| `kt:organization-wide-email-addresses` | `kt:email-alerts` |
 | `kt:technology-roadmaps` | `kt:capability-maps` |
 | `kt:value-streams` | `kt:capability-maps` |
