@@ -1106,6 +1106,81 @@
       ]
     },
     {
+      "@id": "kt:risk-and-assumption-logs",
+      "@type": "kto:ExternalConcept",
+      "skos:prefLabel": "Risk and Assumption Logs",
+      "skos:definition": "Living project registers that record each identified risk with its probability, impact, owner and response, and each planning assumption with what happens if it proves false; a general project-management practice that Salesforce implementation teams and architects use to surface and govern delivery and design risk.",
+      "kto:domain": "architecture-practice",
+      "dcterms:created": "2026-11-12",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Project Risk Management Techniques (Best Practices for Project Management module)",
+          "dcterms:publisher": "Salesforce Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/best-practices-for-project-management/manage-risk",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Conduct a Risk Assessment for AI Projects",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=generative_ai_plan_trust.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Chapter 20: Risk management (Government Project Delivery Framework, Teal Book)",
+          "dcterms:publisher": "UK Government Project Delivery Function",
+          "schema:url": "https://projectdelivery.gov.uk/teal-book/home/part-e-planning-and-control/chapter-20-risk-management/",
+          "kto:sourceType": "government"
+        },
+        {
+          "dcterms:title": "Risks vs. issues",
+          "dcterms:publisher": "PMI (PM Network, D. Sankararajan and N. K. Shrivastava, 2012)",
+          "schema:url": "https://www.pmi.org/learning/library/risks-vs-issues-project-failure-2328",
+          "kto:sourceType": "community"
+        }
+      ],
+      "kto:file": "articles/architecture-practice/risk-and-assumption-logs.md",
+      "skos:altLabel": [
+        "RAID log",
+        "risk register",
+        "assumptions log",
+        "risk and issue log"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-governance"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:architecture-decision-records"
+        },
+        {
+          "@id": "kt:non-functional-requirements"
+        },
+        {
+          "@id": "kt:solution-design-tradeoffs"
+        },
+        {
+          "@id": "kt:salesforce-center-of-excellence"
+        },
+        {
+          "@id": "kt:einstein-trust-layer"
+        }
+      ],
+      "kto:usedBy": [
+        {
+          "@id": "kt:salesforce-architect"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:architecture-decision-records"
+        }
+      ]
+    },
+    {
       "@id": "kt:salesforce-architect",
       "@type": "kto:Role",
       "skos:prefLabel": "Salesforce Architect",
