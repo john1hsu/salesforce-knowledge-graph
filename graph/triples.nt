@@ -4952,6 +4952,33 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/package-dependencies> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "devops-and-alm" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/package-dependencies> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/package-dependencies> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/package-versioning-and-ancestry> <http://purl.org/dc/terms/created> "2026-11-12" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/package-versioning-and-ancestry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/package-versioning-and-ancestry> <http://www.w3.org/2000/01/rdf-schema#label> "Package Versioning and Ancestry" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/package-versioning-and-ancestry> <http://www.w3.org/2004/02/skos/core#altLabel> "2GP version numbering" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/package-versioning-and-ancestry> <http://www.w3.org/2004/02/skos/core#altLabel> "ancestorId" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/package-versioning-and-ancestry> <http://www.w3.org/2004/02/skos/core#altLabel> "ancestorVersion" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/package-versioning-and-ancestry> <http://www.w3.org/2004/02/skos/core#altLabel> "package ancestor" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/package-versioning-and-ancestry> <http://www.w3.org/2004/02/skos/core#altLabel> "package ancestry" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/package-versioning-and-ancestry> <http://www.w3.org/2004/02/skos/core#altLabel> "package version ancestry tree" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/package-versioning-and-ancestry> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/application-lifecycle-management> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/package-versioning-and-ancestry> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/second-generation-managed-packages> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/package-versioning-and-ancestry> <http://www.w3.org/2004/02/skos/core#definition> "How second-generation managed package versions are numbered (MAJOR.MINOR.PATCH.BUILD) and linked to the released version they build on, which together decide what subscribers can upgrade from and to." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/package-versioning-and-ancestry> <http://www.w3.org/2004/02/skos/core#prefLabel> "Package Versioning and Ancestry" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/package-versioning-and-ancestry> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/appexchange-security-review> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/package-versioning-and-ancestry> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/package-dependencies> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/package-versioning-and-ancestry> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-dx> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/package-versioning-and-ancestry> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/package-versioning-and-ancestry/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/package-versioning-and-ancestry> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/package-versioning-and-ancestry/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/package-versioning-and-ancestry> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/package-versioning-and-ancestry/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/package-versioning-and-ancestry> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/package-versioning-and-ancestry/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/package-versioning-and-ancestry> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/package-versioning-and-ancestry/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/package-versioning-and-ancestry> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-cli> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/package-versioning-and-ancestry> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#contrastsWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/first-generation-managed-packages> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/package-versioning-and-ancestry> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/dev-hub> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/package-versioning-and-ancestry> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "devops-and-alm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/package-versioning-and-ancestry> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/package-versioning-and-ancestry> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/package-xml-manifest> <http://purl.org/dc/terms/created> "2026-11-09" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/package-xml-manifest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/package-xml-manifest> <http://www.w3.org/2000/01/rdf-schema#label> "package.xml Manifest" .
@@ -12420,6 +12447,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/package-dependencies/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/package-dependencies/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/package-dependencies/s5> <https://schema.org/url> "https://medium.com/salesforce-architects/5-anti-patterns-in-package-dependency-design-and-how-to-avoid-them-87bb50331cb8" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/package-versioning-and-ancestry/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/package-versioning-and-ancestry/s1> <http://purl.org/dc/terms/title> "Guidance for Package Version Numbering (Second-Generation Managed Packaging Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/package-versioning-and-ancestry/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/package-versioning-and-ancestry/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/package-versioning-and-ancestry/s1> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/pkg2-dev/guide/dev2gp-version-guidance.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/package-versioning-and-ancestry/s2> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/package-versioning-and-ancestry/s2> <http://purl.org/dc/terms/title> "Package Ancestors for Second-Generation Managed Packages" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/package-versioning-and-ancestry/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/package-versioning-and-ancestry/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/package-versioning-and-ancestry/s2> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/pkg2-dev/guide/sfdx-dev-dev2gp-package-ancestor-intro.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/package-versioning-and-ancestry/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/package-versioning-and-ancestry/s3> <http://purl.org/dc/terms/title> "Specify a Package Ancestor in the Project File for a Second-Generation Managed Package" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/package-versioning-and-ancestry/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/package-versioning-and-ancestry/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/package-versioning-and-ancestry/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/pkg2-dev/guide/sfdx-dev-dev2gp-config-ancestors.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/package-versioning-and-ancestry/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/package-versioning-and-ancestry/s4> <http://purl.org/dc/terms/title> "Patch Versions for Second-Generation Managed Packages" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/package-versioning-and-ancestry/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/package-versioning-and-ancestry/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/package-versioning-and-ancestry/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/pkg2-dev/guide/sfdx-dev-dev2gp-create-patch-version.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/package-versioning-and-ancestry/s5> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/package-versioning-and-ancestry/s5> <http://purl.org/dc/terms/title> "package version displayancestry (Salesforce CLI Command Reference)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/package-versioning-and-ancestry/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/package-versioning-and-ancestry/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/package-versioning-and-ancestry/s5> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/salesforce-cli-reference/guide/cli_reference_package_version_displayancestry.html" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/package-xml-manifest/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/package-xml-manifest/s1> <http://purl.org/dc/terms/title> "Constructing a Project Manifest (Ant Migration Tool Guide)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/package-xml-manifest/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

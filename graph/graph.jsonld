@@ -14459,6 +14459,91 @@
       ]
     },
     {
+      "@id": "kt:package-versioning-and-ancestry",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Package Versioning and Ancestry",
+      "skos:definition": "How second-generation managed package versions are numbered (MAJOR.MINOR.PATCH.BUILD) and linked to the released version they build on, which together decide what subscribers can upgrade from and to.",
+      "kto:domain": "devops-and-alm",
+      "dcterms:created": "2026-11-12",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Guidance for Package Version Numbering (Second-Generation Managed Packaging Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/pkg2-dev/guide/dev2gp-version-guidance.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Package Ancestors for Second-Generation Managed Packages",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/pkg2-dev/guide/sfdx-dev-dev2gp-package-ancestor-intro.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Specify a Package Ancestor in the Project File for a Second-Generation Managed Package",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/pkg2-dev/guide/sfdx-dev-dev2gp-config-ancestors.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Patch Versions for Second-Generation Managed Packages",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/pkg2-dev/guide/sfdx-dev-dev2gp-create-patch-version.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "package version displayancestry (Salesforce CLI Command Reference)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/salesforce-cli-reference/guide/cli_reference_package_version_displayancestry.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/devops-and-alm/package-versioning-and-ancestry.md",
+      "skos:altLabel": [
+        "package ancestry",
+        "package ancestor",
+        "ancestorVersion",
+        "ancestorId",
+        "2GP version numbering",
+        "package version ancestry tree"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:second-generation-managed-packages"
+        },
+        {
+          "@id": "kt:application-lifecycle-management"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:package-dependencies"
+        },
+        {
+          "@id": "kt:salesforce-dx"
+        },
+        {
+          "@id": "kt:appexchange-security-review"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:salesforce-cli"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:dev-hub"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:first-generation-managed-packages"
+        }
+      ]
+    },
+    {
       "@id": "kt:package-xml-manifest",
       "@type": "kto:Feature",
       "skos:prefLabel": "package.xml Manifest",

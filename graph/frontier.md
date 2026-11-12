@@ -50,8 +50,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:mixed-dml-error` | `kt:future-methods` |
 | `kt:data-categories` | `kt:knowledge-base` |
 | `kt:salesforce-go` | `kt:knowledge-base` |
-| `kt:nist-sp-800-60` | `kt:fips-199` |
 | `kt:trailhead` | `kt:salesforce-certification-program` |
+| `kt:nist-sp-800-60` | `kt:fips-199` |
 | `kt:omni-channel-limits` | `kt:omni-channel` |
 | `kt:presence-configuration` | `kt:omni-channel` |
 | `kt:skills-based-routing` | `kt:omni-channel` |
@@ -72,9 +72,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:distributed-computing` | `kt:cloud-computing` |
 | `kt:data-cloud-activation` | `kt:data-cloud-segmentation` |
 | `kt:data-graphs` | `kt:data-cloud-segmentation` |
+| `kt:agentexchange` | `kt:appexchange-security-review` |
 | `kt:dynamic-revenue-orchestrator` | `kt:revenue-cloud` |
 | `kt:revenue-management-consultant-certification` | `kt:revenue-cloud` |
-| `kt:agentexchange` | `kt:appexchange-security-review` |
 | `kt:iso-iec-27002` | `kt:iso-iec-27001` |
 | `kt:hitrust-csf` | `kt:nist-cybersecurity-framework` |
 | `kt:delegated-authentication` | `kt:identity-connect` |
@@ -97,8 +97,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:object-manager` | `kt:schema-builder` |
 | `kt:einstein-discovery` | `kt:crm-analytics` |
 | `kt:saql` | `kt:crm-analytics` |
-| `kt:apex-rest-services` | `kt:remote-call-in` |
 | `kt:apex-mocks` | `kt:apex-enterprise-patterns` |
+| `kt:apex-rest-services` | `kt:remote-call-in` |
 | `kt:certificate-and-key-management` | `kt:custom-domains` |
 | `kt:salesforce-edge-network` | `kt:custom-domains` |
 | `kt:salesforce-sites` | `kt:custom-domains` |
@@ -111,13 +111,13 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:apexguru` | `kt:scale-test` |
 | `kt:scale-center` | `kt:scale-test` |
 | `kt:data-actions` | `kt:streaming-insights` |
+| `kt:mulesoft-platform-integration-architect-certification` | `kt:mulesoft-platform-architect-certification` |
 | `kt:automation-studio` | `kt:marketing-cloud-engagement` |
 | `kt:contact-builder` | `kt:marketing-cloud-engagement` |
 | `kt:journey-builder` | `kt:marketing-cloud-engagement` |
 | `kt:marketing-cloud-account-engagement` | `kt:marketing-cloud-engagement` |
 | `kt:marketing-cloud-connect` | `kt:marketing-cloud-engagement` |
 | `kt:marketing-cloud-next` | `kt:marketing-cloud-engagement` |
-| `kt:mulesoft-platform-integration-architect-certification` | `kt:mulesoft-platform-architect-certification` |
 | `kt:salesforce-marketing-solutions` | `kt:marketing-cloud-engagement` |
 | `kt:salesforce-lightning-design-system` | `kt:visualforce` |
 | `kt:multiple-currencies` | `kt:price-books` |
@@ -145,9 +145,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:models-api` | `kt:ai-models` |
 | `kt:mutual-tls-authentication` | `kt:login-ip-ranges-and-trusted-ip-ranges` |
 | `kt:digital-accessibility` | `kt:section-508-accessibility` |
-| `kt:release-management` | `kt:deployment-validation-and-quick-deploy` |
 | `kt:wcag` | `kt:section-508-accessibility` |
 | `kt:business-architecture` | `kt:capability-maps` |
 | `kt:notes-and-attachments` | `kt:content-document-model` |
+| `kt:release-management` | `kt:deployment-validation-and-quick-deploy` |
 | `kt:technology-roadmaps` | `kt:capability-maps` |
 | `kt:value-streams` | `kt:capability-maps` |
