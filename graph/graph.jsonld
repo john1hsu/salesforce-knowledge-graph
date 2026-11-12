@@ -4656,6 +4656,86 @@
       ]
     },
     {
+      "@id": "kt:agentforce-nonprofit",
+      "@type": "kto:Product",
+      "skos:prefLabel": "Agentforce Nonprofit",
+      "skos:definition": "Salesforce's built-in industry solution for nonprofits (formerly Nonprofit Cloud), which adds standard objects and apps for fundraising, program and case management, outcome management and stakeholder relationships to the core platform, as the native successor path to the Nonprofit Success Pack managed package.",
+      "kto:domain": "clouds-and-products",
+      "dcterms:created": "2026-11-12",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Learn About Salesforce for Nonprofits (Nonprofit Cloud Basics)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/nonprofit-cloud-basics/learn-about-salesforceorg-nonprofit-cloud",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Track Stakeholders and Their Relationships in Nonprofit Cloud",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/stakeholder-management-in-nonprofit-cloud/track-stakeholders-and-their-relationships-in-nonprofit-cloud",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Meet Nonprofit Cloud for Fundraising",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/nonprofit-cloud-for-fundraising-quick-look/meet-nonprofit-cloud-for-fundraising",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Fundraising Standard Objects (Nonprofit Cloud Developer Guide)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.nonprofit_cloud.meta/nonprofit_cloud/npc_fundraising_standard_objects.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Program Management Standard Objects (Nonprofit Cloud Developer Guide)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.nonprofit_cloud.meta/nonprofit_cloud/npc_pm_standard_objects.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Salesforce Certified Agentforce Nonprofit Consultant (credential page)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/it/credentials/agfnonprofitconsultant",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/clouds-and-products/agentforce-nonprofit.md",
+      "skos:altLabel": [
+        "Nonprofit Cloud",
+        "Salesforce Nonprofit Cloud",
+        "NPC"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-industries"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:contacts-to-multiple-accounts"
+        },
+        {
+          "@id": "kt:agentforce"
+        },
+        {
+          "@id": "kt:agentforce-nonprofit-consultant-certification"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:person-accounts"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:nonprofit-success-pack"
+        }
+      ]
+    },
+    {
       "@id": "kt:collaborative-forecasts",
       "@type": "kto:Feature",
       "skos:prefLabel": "Collaborative Forecasts",
