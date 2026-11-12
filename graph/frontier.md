@@ -4,7 +4,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:user-interface-api` | `kt:graphql-api`, `kt:lightning-data-service`, `kt:salesforce-apis`, `kt:wire-service` |
 | `kt:hyperforce-operating-zones` | `kt:data-residency`, `kt:data-sovereignty`, `kt:gdpr-international-transfers` |
 | `kt:heroku` | `kt:platform-as-a-service`, `kt:salesforce-cpq` |
 | `kt:api-led-connectivity` | `kt:mulesoft-anypoint-platform`, `kt:mulesoft-platform-architect-certification` |
@@ -30,8 +29,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:governance-risk-and-compliance` | `kt:security-compliance-frameworks` |
 | `kt:transaction-finalizers` | `kt:queueable-apex` |
 | `kt:mule-runtime-engine` | `kt:mulesoft-anypoint-platform` |
-| `kt:salesforce-architecture-program` | `kt:salesforce-architecture-center` |
 | `kt:legacy-named-credentials` | `kt:named-credentials` |
+| `kt:salesforce-architecture-program` | `kt:salesforce-architecture-center` |
 | `kt:managed-event-subscriptions` | `kt:pub-sub-api` |
 | `kt:streaming-api` | `kt:pub-sub-api` |
 | `kt:upsert` | `kt:external-id-fields` |
@@ -50,10 +49,10 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:presence-configuration` | `kt:omni-channel` |
 | `kt:skills-based-routing` | `kt:omni-channel` |
 | `kt:contacts-to-multiple-accounts` | `kt:person-accounts` |
-| `kt:data-detect` | `kt:salesforce-shield` |
 | `kt:compact-layouts` | `kt:page-layouts` |
-| `kt:distributed-computing` | `kt:cloud-computing` |
+| `kt:data-detect` | `kt:salesforce-shield` |
 | `kt:custom-objects` | `kt:standard-objects` |
+| `kt:distributed-computing` | `kt:cloud-computing` |
 | `kt:flow-bulkification` | `kt:bulkification` |
 | `kt:data-mask-and-seed` | `kt:salesforce-data-mask` |
 | `kt:platform-administrator-ii-certification` | `kt:platform-administrator-certification` |
@@ -72,12 +71,12 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:omnistudio-developer-certification` | `kt:omnistudio` |
 | `kt:iso-iec-27002` | `kt:iso-iec-27001` |
 | `kt:hitrust-csf` | `kt:nist-cybersecurity-framework` |
+| `kt:delegated-authentication` | `kt:identity-connect` |
 | `kt:data-classification` | `kt:data-governance` |
 | `kt:data-management` | `kt:data-governance` |
 | `kt:data-stewardship` | `kt:data-governance` |
-| `kt:delegated-authentication` | `kt:identity-connect` |
-| `kt:decision-tables` | `kt:salesforce-pricing` |
 | `kt:scim` | `kt:salesforce-scim` |
+| `kt:decision-tables` | `kt:salesforce-pricing` |
 | `kt:json-web-token` | `kt:openid-connect` |
 | `kt:tableau-next` | `kt:tableau` |
 | `kt:tableau-pulse` | `kt:tableau` |
@@ -85,9 +84,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:api-experience-hub` | `kt:external-identity-license` |
 | `kt:customer-community-licenses` | `kt:external-identity-license` |
 | `kt:apex-rest-services` | `kt:remote-call-in` |
+| `kt:path` | `kt:business-processes` |
 | `kt:constraint-modeling-language` | `kt:product-configurator` |
 | `kt:product-catalog-management` | `kt:product-configurator` |
-| `kt:path` | `kt:business-processes` |
 | `kt:object-manager` | `kt:schema-builder` |
 | `kt:opportunity-teams` | `kt:opportunity-splits` |
 | `kt:revenue-intelligence` | `kt:collaborative-forecasts` |
@@ -128,13 +127,13 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:security-center` | `kt:continuous-monitoring` |
 | `kt:fhir` | `kt:health-cloud` |
 | `kt:utilization-management` | `kt:health-cloud` |
+| `kt:soc-1` | `kt:soc-2` |
+| `kt:trust-services-criteria` | `kt:soc-2` |
 | `kt:block-kit` | `kt:slack-platform` |
 | `kt:customer-360` | `kt:slack-platform` |
 | `kt:mulesoft-composer` | `kt:slack-platform` |
 | `kt:slack-api-rate-limits` | `kt:slack-platform` |
 | `kt:slack-workflow-builder` | `kt:slack-platform` |
-| `kt:soc-1` | `kt:soc-2` |
-| `kt:trust-services-criteria` | `kt:soc-2` |
 | `kt:custom-permissions` | `kt:validation-rules` |
 | `kt:iso-iec-25010` | `kt:non-functional-requirements` |
 | `kt:requirements-engineering` | `kt:non-functional-requirements` |

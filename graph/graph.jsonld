@@ -21065,6 +21065,109 @@
       ]
     },
     {
+      "@id": "kt:user-interface-api",
+      "@type": "kto:API",
+      "skos:prefLabel": "User Interface API",
+      "skos:definition": "A Salesforce REST API under /services/data/vXX.X/ui-api that returns record data together with the metadata needed to render it (layouts, object info, picklists, actions, list views), already shaped by the running user's permissions and locale; it is the API that Lightning Experience and Lightning Data Service build on.",
+      "kto:domain": "integration",
+      "dcterms:created": "2026-11-12",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Get Started with User Interface API (User Interface API Developer Guide, v68.0)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.264.0.uiapi.meta/uiapi/ui_api_get_started_intro.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Supported Objects (User Interface API Developer Guide, v68.0)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.264.0.uiapi.meta/uiapi/ui_api_get_started_supported_objects.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Records (User Interface API Developer Guide, v68.0)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.264.0.uiapi.meta/uiapi/ui_api_resources_record.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "User Interface API Resources (User Interface API Developer Guide, v68.0)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.264.0.uiapi.meta/uiapi/ui_api_resources_overview.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Work with Records (User Interface API Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.uiapi.meta/uiapi/ui_api_features_records.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Introduction to the Salesforce UI API",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2018/01/introduction-salesforce-ui-api",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/integration/user-interface-api.md",
+      "skos:altLabel": [
+        "UI API",
+        "Salesforce UI API",
+        "ui-api",
+        "User Interface REST API"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-apis"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:rest-api"
+        },
+        {
+          "@id": "kt:page-layouts"
+        },
+        {
+          "@id": "kt:external-objects"
+        },
+        {
+          "@id": "kt:wire-service"
+        },
+        {
+          "@id": "kt:duplicate-management"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:lightning-data-service"
+        },
+        {
+          "@id": "kt:graphql-api"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:api-request-limits"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:field-level-security"
+        },
+        {
+          "@id": "kt:oauth-2-0"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:connect-api"
+        }
+      ]
+    },
+    {
       "@id": "kt:bulkification",
       "@type": "kto:Pattern",
       "skos:prefLabel": "Bulkification",
