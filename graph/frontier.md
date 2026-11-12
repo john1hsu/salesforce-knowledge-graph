@@ -4,7 +4,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:soap-api` | `kt:external-id-fields`, `kt:rest-api`, `kt:salesforce-apis` |
 | `kt:software-as-a-service` | `kt:cloud-computing`, `kt:infrastructure-as-a-service`, `kt:platform-as-a-service` |
 | `kt:user-interface-api` | `kt:graphql-api`, `kt:lightning-data-service`, `kt:salesforce-apis` |
 | `kt:data-governance` | `kt:data-quality`, `kt:data-sovereignty`, `kt:salesforce-governance` |
@@ -39,8 +38,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:legacy-named-credentials` | `kt:named-credentials` |
 | `kt:managed-event-subscriptions` | `kt:pub-sub-api` |
 | `kt:streaming-api` | `kt:pub-sub-api` |
-| `kt:platform-developer-ii-certification` | `kt:platform-developer-certification` |
 | `kt:upsert` | `kt:external-id-fields` |
+| `kt:platform-developer-ii-certification` | `kt:platform-developer-certification` |
 | `kt:scoping-rules` | `kt:restriction-rules` |
 | `kt:backup-and-recover` | `kt:archiving-strategy` |
 | `kt:salesforce-archive` | `kt:archiving-strategy` |
@@ -85,6 +84,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:tableau-next` | `kt:tableau` |
 | `kt:tableau-pulse` | `kt:tableau` |
 | `kt:tableau-semantics` | `kt:tableau` |
+| `kt:apex-rest-services` | `kt:remote-call-in` |
 | `kt:api-experience-hub` | `kt:external-identity-license` |
 | `kt:customer-community-licenses` | `kt:external-identity-license` |
 | `kt:constraint-modeling-language` | `kt:product-configurator` |
@@ -97,7 +97,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:einstein-discovery` | `kt:crm-analytics` |
 | `kt:saql` | `kt:crm-analytics` |
 | `kt:apex-mocks` | `kt:apex-enterprise-patterns` |
-| `kt:apex-rest-services` | `kt:remote-call-in` |
 | `kt:certificate-and-key-management` | `kt:custom-domains` |
 | `kt:salesforce-edge-network` | `kt:custom-domains` |
 | `kt:salesforce-sites` | `kt:custom-domains` |

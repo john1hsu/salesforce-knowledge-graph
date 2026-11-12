@@ -7374,6 +7374,37 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/slack-platform> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/mulesoft-composer> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/slack-platform> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/slack-platform> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/soap-api> <http://purl.org/dc/terms/created> "2026-11-12" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/soap-api> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#API> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/soap-api> <http://www.w3.org/2000/01/rdf-schema#label> "SOAP API" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/soap-api> <http://www.w3.org/2004/02/skos/core#altLabel> "Enterprise WSDL" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/soap-api> <http://www.w3.org/2004/02/skos/core#altLabel> "Force.com Web Services API" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/soap-api> <http://www.w3.org/2004/02/skos/core#altLabel> "Lightning Platform SOAP API" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/soap-api> <http://www.w3.org/2004/02/skos/core#altLabel> "Partner WSDL" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/soap-api> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce SOAP API" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/soap-api> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-integration> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/soap-api> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-apis> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/soap-api> <http://www.w3.org/2004/02/skos/core#definition> "Salesforce's synchronous, WSDL-described web services interface for creating, reading, updating, deleting and querying org records over SOAP 1.1 and XML; a formal-contract alternative to the REST API, typed per org (enterprise WSDL) or generically (partner WSDL)." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/soap-api> <http://www.w3.org/2004/02/skos/core#prefLabel> "SOAP API" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/soap-api> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/external-id-fields> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/soap-api> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/soap-api> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/remote-call-in> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/soap-api> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/tooling-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/soap-api> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soap-api/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/soap-api> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soap-api/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/soap-api> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soap-api/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/soap-api> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soap-api/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/soap-api> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soap-api/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/soap-api> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soap-api/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/soap-api> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#alternativeTo> <https://github.com/john1hsu/salesforce-knowledge-graph/id/bulk-api-2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/soap-api> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#contrastsWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/rest-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/soap-api> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-2-0> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/soap-api> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "integration" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/soap-api> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#governedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/api-request-limits> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/soap-api> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/soql> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/soap-api> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/sosl> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/soap-api> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/soap-api> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/soc-2> <http://purl.org/dc/terms/created> "2026-11-07" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/soc-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#ExternalConcept> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/soc-2> <http://www.w3.org/2000/01/rdf-schema#label> "SOC 2" .
@@ -14895,6 +14926,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/slack-platform/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/slack-platform/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "news" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/slack-platform/s6> <https://schema.org/url> "https://www.salesforce.com/news/wp-json/wp/v2/posts/49205" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soap-api/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soap-api/s1> <http://purl.org/dc/terms/title> "About SOAP API (SOAP API Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soap-api/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soap-api/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soap-api/s1> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.api.meta/api/" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soap-api/s2> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soap-api/s2> <http://purl.org/dc/terms/title> "API Call Basics (SOAP API Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soap-api/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soap-api/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soap-api/s2> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.api.meta/api/calls.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soap-api/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soap-api/s3> <http://purl.org/dc/terms/title> "SOAP API Call Limits (Salesforce Developer Limits and Allocations Quick Reference)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soap-api/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soap-api/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soap-api/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/salesforce-app-limits-cheatsheet/guide/salesforce-app-limits-platform-apicalls.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soap-api/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soap-api/s4> <http://purl.org/dc/terms/title> "SOAP API End-of-Life Policy" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soap-api/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soap-api/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soap-api/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/api/guide/api-eol-soap.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soap-api/s5> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soap-api/s5> <http://purl.org/dc/terms/title> "login() (SOAP API Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soap-api/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soap-api/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soap-api/s5> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.api.meta/workdotcom_dev/sforce_api_calls_login.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soap-api/s6> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soap-api/s6> <http://purl.org/dc/terms/title> "Get to Know the Salesforce Platform APIs (Trailhead, API Basics)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soap-api/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soap-api/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soap-api/s6> <https://schema.org/url> "https://trailhead.salesforce.com/api_basics/api_basics_overview" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soc-2/s1> <http://purl.org/dc/terms/publisher> "AICPA & CIMA" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soc-2/s1> <http://purl.org/dc/terms/title> "System and Organization Controls: SOC Suite of Services" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soc-2/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

@@ -20175,6 +20175,112 @@
       ]
     },
     {
+      "@id": "kt:soap-api",
+      "@type": "kto:API",
+      "skos:prefLabel": "SOAP API",
+      "skos:definition": "Salesforce's synchronous, WSDL-described web services interface for creating, reading, updating, deleting and querying org records over SOAP 1.1 and XML; a formal-contract alternative to the REST API, typed per org (enterprise WSDL) or generically (partner WSDL).",
+      "kto:domain": "integration",
+      "dcterms:created": "2026-11-12",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "About SOAP API (SOAP API Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api.meta/api/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "API Call Basics (SOAP API Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api.meta/api/calls.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "SOAP API Call Limits (Salesforce Developer Limits and Allocations Quick Reference)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/salesforce-app-limits-cheatsheet/guide/salesforce-app-limits-platform-apicalls.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "SOAP API End-of-Life Policy",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/api/guide/api-eol-soap.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "login() (SOAP API Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api.meta/workdotcom_dev/sforce_api_calls_login.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Get to Know the Salesforce Platform APIs (Trailhead, API Basics)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/api_basics/api_basics_overview",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/integration/soap-api.md",
+      "skos:altLabel": [
+        "Salesforce SOAP API",
+        "Lightning Platform SOAP API",
+        "Force.com Web Services API",
+        "Enterprise WSDL",
+        "Partner WSDL"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-apis"
+        },
+        {
+          "@id": "kt:data-integration"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:metadata-api"
+        },
+        {
+          "@id": "kt:tooling-api"
+        },
+        {
+          "@id": "kt:external-id-fields"
+        },
+        {
+          "@id": "kt:remote-call-in"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:rest-api"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:bulk-api-2"
+        }
+      ],
+      "kto:queriedWith": [
+        {
+          "@id": "kt:soql"
+        },
+        {
+          "@id": "kt:sosl"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:oauth-2-0"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:api-request-limits"
+        }
+      ]
+    },
+    {
       "@id": "kt:bulkification",
       "@type": "kto:Pattern",
       "skos:prefLabel": "Bulkification",
