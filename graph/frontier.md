@@ -4,7 +4,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:software-as-a-service` | `kt:cloud-computing`, `kt:infrastructure-as-a-service`, `kt:platform-as-a-service` |
 | `kt:user-interface-api` | `kt:graphql-api`, `kt:lightning-data-service`, `kt:salesforce-apis` |
 | `kt:data-governance` | `kt:data-quality`, `kt:data-sovereignty`, `kt:salesforce-governance` |
 | `kt:gdpr-international-transfers` | `kt:data-residency`, `kt:data-sovereignty` |
@@ -59,6 +58,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:data-detect` | `kt:salesforce-shield` |
 | `kt:custom-objects` | `kt:standard-objects` |
 | `kt:flow-bulkification` | `kt:bulkification` |
+| `kt:distributed-computing` | `kt:cloud-computing` |
 | `kt:platform-administrator-ii-certification` | `kt:platform-administrator-certification` |
 | `kt:zero-trust-architecture` | `kt:principle-of-least-privilege` |
 | `kt:entitlement-process-metadata` | `kt:entitlement-management` |
@@ -67,7 +67,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:field-service-scheduling-policies` | `kt:field-service` |
 | `kt:service-appointments` | `kt:field-service` |
 | `kt:work-orders` | `kt:field-service` |
-| `kt:distributed-computing` | `kt:cloud-computing` |
 | `kt:data-cloud-activation` | `kt:data-cloud-segmentation` |
 | `kt:data-graphs` | `kt:data-cloud-segmentation` |
 | `kt:agentexchange` | `kt:appexchange-security-review` |
@@ -89,8 +88,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:apex-rest-services` | `kt:remote-call-in` |
 | `kt:constraint-modeling-language` | `kt:product-configurator` |
 | `kt:product-catalog-management` | `kt:product-configurator` |
-| `kt:salesforce-ecosystem` | `kt:salesforce-inc` |
 | `kt:path` | `kt:business-processes` |
+| `kt:salesforce-ecosystem` | `kt:salesforce-inc` |
 | `kt:opportunity-teams` | `kt:opportunity-splits` |
 | `kt:revenue-intelligence` | `kt:collaborative-forecasts` |
 | `kt:object-manager` | `kt:schema-builder` |

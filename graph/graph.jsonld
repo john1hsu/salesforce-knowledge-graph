@@ -22402,6 +22402,85 @@
       ]
     },
     {
+      "@id": "kt:software-as-a-service",
+      "@type": "kto:ExternalConcept",
+      "skos:prefLabel": "Software as a Service",
+      "skos:definition": "The cloud service model, defined by NIST SP 800-145, in which the consumer uses the provider's applications running on cloud infrastructure through a browser or program interface, controlling at most limited user-specific settings; Salesforce, founded in 1999 to deliver web-based CRM, is one of the model's early examples.",
+      "kto:domain": "platform-architecture",
+      "dcterms:created": "2026-11-12",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "The NIST Definition of Cloud Computing (NIST SP 800-145)",
+          "dcterms:publisher": "National Institute of Standards and Technology",
+          "schema:url": "https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-145.pdf",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "What is Software as a Service (SaaS)?",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/ap/saas/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Learn About the Cloud (Cloud Security Engineering)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/cloud-security-engineering/learn-about-the-cloud",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Understand the Salesforce Architecture (Platform Basics)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/starting_force_com/starting_understanding_arch",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Platform Multitenant Architecture",
+          "dcterms:publisher": "Salesforce Architects",
+          "schema:url": "https://architect.salesforce.com/fundamentals/platform-multitenant-architecture",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/platform-architecture/software-as-a-service.md",
+      "skos:altLabel": [
+        "SaaS",
+        "software-as-a-service",
+        "SaaS cloud service model",
+        "on-demand software"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:cloud-computing"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:multitenancy"
+        },
+        {
+          "@id": "kt:salesforce-platform"
+        },
+        {
+          "@id": "kt:shared-responsibility-model"
+        },
+        {
+          "@id": "kt:metadata-driven-architecture"
+        },
+        {
+          "@id": "kt:governor-limits"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:platform-as-a-service"
+        },
+        {
+          "@id": "kt:infrastructure-as-a-service"
+        }
+      ]
+    },
+    {
       "@id": "kt:transaction-control",
       "@type": "kto:Concept",
       "skos:prefLabel": "Transaction Control",
