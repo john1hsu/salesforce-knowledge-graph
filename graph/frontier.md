@@ -9,7 +9,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:heroku` | `kt:platform-as-a-service`, `kt:salesforce-cpq` |
 | `kt:api-led-connectivity` | `kt:mulesoft-anypoint-platform`, `kt:mulesoft-platform-architect-certification` |
 | `kt:external-services` | `kt:apex-callouts`, `kt:flow-http-callout` |
-| `kt:user-access-policies` | `kt:permission-set-licenses`, `kt:permission-sets` |
 | `kt:salesforce-analytics` | `kt:crm-analytics`, `kt:tableau` |
 | `kt:user-licenses` | `kt:external-identity-license`, `kt:permission-set-licenses` |
 | `kt:agentexchange` | `kt:appexchange-security-review`, `kt:model-context-protocol-in-agentforce` |
@@ -118,10 +117,11 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:marketing-cloud-connect` | `kt:marketing-cloud-engagement` |
 | `kt:marketing-cloud-next` | `kt:marketing-cloud-engagement` |
 | `kt:salesforce-marketing-solutions` | `kt:marketing-cloud-engagement` |
+| `kt:user-management` | `kt:user-access-policies` |
 | `kt:flow-limits` | `kt:flow-versioning` |
 | `kt:it-governance` | `kt:salesforce-governance` |
-| `kt:security-governance` | `kt:salesforce-governance` |
 | `kt:salesforce-lightning-design-system` | `kt:visualforce` |
+| `kt:security-governance` | `kt:salesforce-governance` |
 | `kt:multiple-currencies` | `kt:price-books` |
 | `kt:opportunity-products` | `kt:price-books` |
 | `kt:holidays` | `kt:business-hours` |

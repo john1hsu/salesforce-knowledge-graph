@@ -27694,6 +27694,97 @@
           "@id": "kt:apex"
         }
       ]
+    },
+    {
+      "@id": "kt:user-access-policies",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "User Access Policies",
+      "skos:definition": "Setup-defined rules that grant or revoke permission sets, permission set groups, permission set licenses, package licenses, public groups and queues for every user who matches a set of criteria, either automatically when users are created or updated, or on demand as a bulk migration.",
+      "kto:domain": "security-and-sharing",
+      "dcterms:created": "2026-11-12",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Get Started with User Access Policies (Trailhead, User Access Policies module)",
+          "dcterms:publisher": "Salesforce Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/user-access-policies/get-started-with-user-access-policies",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Create a User Access Policy (Trailhead, User Access Policies module)",
+          "dcterms:publisher": "Salesforce Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/user-access-policies/create-user-access-policy",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Migrate Users with User Access Policies (Trailhead, User Access Policies module)",
+          "dcterms:publisher": "Salesforce Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/ko/content/learn/modules/user-access-policies/migrate-users-with-user-access-policies",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "UserAccessPolicy (Metadata API Developer Guide)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_useraccesspolicy.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Permissions Updates | Learn MOAR Spring '23",
+          "dcterms:publisher": "Salesforce Admins Blog",
+          "schema:url": "https://admin.salesforce.com/blog/2023/permissions-updates-learn-moar-spring-23",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "The Future of User Management | Summer '24 Be Release Ready",
+          "dcterms:publisher": "Salesforce Admins Blog",
+          "schema:url": "https://admin.salesforce.com/blog/2024/the-future-of-user-management-summer-24-be-release-ready",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/security-and-sharing/user-access-policies.md",
+      "skos:altLabel": [
+        "user access policy",
+        "UserAccessPolicy",
+        "UAP"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:user-management"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:permission-sets"
+        },
+        {
+          "@id": "kt:permission-set-groups"
+        },
+        {
+          "@id": "kt:permission-set-licenses"
+        },
+        {
+          "@id": "kt:public-groups"
+        },
+        {
+          "@id": "kt:queues"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:profiles"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:metadata-api"
+        }
+      ],
+      "kto:queriedWith": [
+        {
+          "@id": "kt:tooling-api"
+        }
+      ]
     }
   ]
 }
