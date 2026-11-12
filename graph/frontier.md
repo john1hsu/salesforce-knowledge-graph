@@ -11,7 +11,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:api-led-connectivity` | `kt:mulesoft-anypoint-platform`, `kt:mulesoft-platform-architect-certification` |
 | `kt:external-services` | `kt:apex-callouts`, `kt:flow-http-callout` |
 | `kt:user-access-policies` | `kt:permission-set-licenses`, `kt:permission-sets` |
-| `kt:visualforce` | `kt:apex-continuations`, `kt:lightning-message-service` |
 | `kt:salesforce-analytics` | `kt:crm-analytics`, `kt:tableau` |
 | `kt:data-governance` | `kt:data-quality`, `kt:salesforce-governance` |
 | `kt:test-data-factory` | `kt:apex-testing` |
@@ -58,9 +57,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:skills-based-routing` | `kt:omni-channel` |
 | `kt:contacts-to-multiple-accounts` | `kt:person-accounts` |
 | `kt:financial-services-cloud` | `kt:person-accounts` |
+| `kt:compact-layouts` | `kt:page-layouts` |
 | `kt:data-detect` | `kt:salesforce-shield` |
 | `kt:custom-objects` | `kt:standard-objects` |
-| `kt:compact-layouts` | `kt:page-layouts` |
 | `kt:flow-bulkification` | `kt:bulkification` |
 | `kt:platform-administrator-ii-certification` | `kt:platform-administrator-certification` |
 | `kt:zero-trust-architecture` | `kt:principle-of-least-privilege` |
@@ -70,9 +69,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:field-service-scheduling-policies` | `kt:field-service` |
 | `kt:service-appointments` | `kt:field-service` |
 | `kt:work-orders` | `kt:field-service` |
+| `kt:distributed-computing` | `kt:cloud-computing` |
 | `kt:data-cloud-activation` | `kt:data-cloud-segmentation` |
 | `kt:data-graphs` | `kt:data-cloud-segmentation` |
-| `kt:distributed-computing` | `kt:cloud-computing` |
 | `kt:dynamic-revenue-orchestrator` | `kt:revenue-cloud` |
 | `kt:revenue-management-consultant-certification` | `kt:revenue-cloud` |
 | `kt:agentexchange` | `kt:appexchange-security-review` |
@@ -118,6 +117,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:marketing-cloud-next` | `kt:marketing-cloud-engagement` |
 | `kt:mulesoft-platform-integration-architect-certification` | `kt:mulesoft-platform-architect-certification` |
 | `kt:salesforce-marketing-solutions` | `kt:marketing-cloud-engagement` |
+| `kt:salesforce-lightning-design-system` | `kt:visualforce` |
 | `kt:multiple-currencies` | `kt:price-books` |
 | `kt:opportunity-products` | `kt:price-books` |
 | `kt:flow-limits` | `kt:flow-versioning` |

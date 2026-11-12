@@ -13228,6 +13228,101 @@
       ]
     },
     {
+      "@id": "kt:visualforce",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Visualforce",
+      "skos:definition": "Salesforce's original server-rendered UI framework: tag-based page markup bound to a standard controller, custom Apex controller or controller extension, still supported but superseded by Lightning Web Components for new custom UI.",
+      "kto:domain": "development",
+      "dcterms:created": "2026-11-12",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Visualforce Developer Guide: What is Visualforce?",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/salesforce-pages-developers-guide/guide/pages-intro-what-is-it.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Visualforce Developer Guide: Optimize the View State",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/pages_best_practices_perf_view_state.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Visualforce Basics: Use Standard Controllers",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/visualforce_fundamentals/visualforce_standard_controllers",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Visualforce & Lightning Experience: Known Issues",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/lex_dev_visualforce/lex_dev_visualforce_known_issues",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Visualforce Developer Guide: Style Existing Visualforce Pages with Lightning Experience Stylesheets",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/salesforce-pages-developers-guide/guide/vf-dev-best-practices-slds-lightningstylesheets.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Platform Developer I Certification Prep: User Interfaces — Visualforce",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/platform-developer-i-certification-prep-user-interfaces/pd1-3-ui-visualforce",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/development/visualforce.md",
+      "skos:altLabel": [
+        "Visualforce pages",
+        "VF pages",
+        "apex:page markup",
+        "Visualforce framework"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-platform"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aura-components"
+        },
+        {
+          "@id": "kt:apex-continuations"
+        },
+        {
+          "@id": "kt:page-layouts"
+        },
+        {
+          "@id": "kt:experience-cloud"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:lightning-web-components"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:apex"
+        },
+        {
+          "@id": "kt:salesforce-sharing-model"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:lightning-message-service"
+        },
+        {
+          "@id": "kt:salesforce-lightning-design-system"
+        }
+      ]
+    },
+    {
       "@id": "kt:agentforce-dx",
       "@type": "kto:Tool",
       "skos:prefLabel": "Agentforce DX",
