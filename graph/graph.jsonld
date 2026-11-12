@@ -15220,6 +15220,98 @@
       ]
     },
     {
+      "@id": "kt:salesforce-data-mask",
+      "@type": "kto:Product",
+      "skos:prefLabel": "Salesforce Data Mask",
+      "skos:definition": "Salesforce's legacy, platform-native managed package that irreversibly masks or deletes sensitive data in Full and Partial Copy sandboxes; it is configured from production, runs only in sandboxes, and reaches end of service on December 31, 2026, with Data Mask & Seed as its successor.",
+      "kto:domain": "devops-and-alm",
+      "dcterms:created": "2026-11-12",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "deprecated",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Secure Your Sandbox Data with Salesforce Data Mask (Legacy)",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=platform.data_mask_overview.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Run a Data Mask Job",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=data_mask_manual_run.htm&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Data Mask Best Practices",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=data_mask_recommended_data.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Get to Know Salesforce Data Mask (Trailhead)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/salesforce-data-mask/get-to-know-salesforce-data-mask",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Install and Configure Salesforce Data Mask (Trailhead)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/salesforce-data-mask/install-and-configure-salesforce-data-mask",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Data Mask: Secure Your Sandbox",
+          "dcterms:publisher": "Salesforce Blog",
+          "schema:url": "https://www.salesforce.com/blog/data-mask-secure-sandbox/",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/devops-and-alm/salesforce-data-mask.md",
+      "skos:altLabel": [
+        "Data Mask",
+        "Data Mask managed package",
+        "Data Mask (Legacy)",
+        "Salesforce Data Mask (Legacy)"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:environment-strategy"
+        },
+        {
+          "@id": "kt:data-governance"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:sandbox-types"
+        },
+        {
+          "@id": "kt:sandbox-templates"
+        },
+        {
+          "@id": "kt:field-history-tracking"
+        },
+        {
+          "@id": "kt:order-of-execution"
+        }
+      ],
+      "kto:replacedBy": [
+        {
+          "@id": "kt:data-mask-and-seed"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:sandbox-types"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:sandbox-templates"
+        }
+      ]
+    },
+    {
       "@id": "kt:salesforce-dx",
       "@type": "kto:Tool",
       "skos:prefLabel": "Salesforce DX",
