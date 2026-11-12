@@ -2376,6 +2376,34 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/einstein-trust-layer> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#mitigates> <https://github.com/john1hsu/salesforce-knowledge-graph/id/prompt-injection> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/einstein-trust-layer> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/einstein-trust-layer> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/email-alerts> <http://purl.org/dc/terms/created> "2026-11-12" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/email-alerts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/email-alerts> <http://www.w3.org/2000/01/rdf-schema#label> "Email Alerts" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/email-alerts> <http://www.w3.org/2004/02/skos/core#altLabel> "Email Alert actions" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/email-alerts> <http://www.w3.org/2004/02/skos/core#altLabel> "WorkflowAlert" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/email-alerts> <http://www.w3.org/2004/02/skos/core#altLabel> "email alert action" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/email-alerts> <http://www.w3.org/2004/02/skos/core#altLabel> "email alert" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/email-alerts> <http://www.w3.org/2004/02/skos/core#altLabel> "email alerts and actions" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/email-alerts> <http://www.w3.org/2004/02/skos/core#altLabel> "workflow email alert" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/email-alerts> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/process-automation> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/email-alerts> <http://www.w3.org/2004/02/skos/core#definition> "Reusable, object-specific email actions defined in Setup that pair an email template with a recipient list, extra CC addresses and a sender, and that flows and other automation invoke against one record to send a templated notification." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/email-alerts> <http://www.w3.org/2004/02/skos/core#prefLabel> "Email Alerts" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/email-alerts> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/approval-processes> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/email-alerts> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/record-triggered-flow> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/email-alerts> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/workflow-rules> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/email-alerts> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-alerts/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/email-alerts> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-alerts/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/email-alerts> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-alerts/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/email-alerts> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-alerts/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/email-alerts> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-alerts/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/email-alerts> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/email-alerts> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#consumedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-builder> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/email-alerts> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/email-templates> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/email-alerts> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/organization-wide-email-addresses> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/email-alerts> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "automation" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/email-alerts> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/invocable-actions-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/email-alerts> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/email-alerts> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/enterprise-territory-management> <http://purl.org/dc/terms/created> "2026-11-03" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/enterprise-territory-management> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/enterprise-territory-management> <http://www.w3.org/2000/01/rdf-schema#label> "Sales Territories" .
@@ -9906,6 +9934,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/einstein-trust-layer/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/einstein-trust-layer/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/einstein-trust-layer/s5> <https://schema.org/url> "https://help.tableau.com/current/tableau/en-us/tableau_gai_einstein_trust_layer.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-alerts/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-alerts/s1> <http://purl.org/dc/terms/title> "Email Alert Actions (Actions Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-alerts/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-alerts/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-alerts/s1> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.api_action.meta/api_action/actions_obj_email_alert.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-alerts/s2> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-alerts/s2> <http://purl.org/dc/terms/title> "Simple Email Actions (Actions Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-alerts/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-alerts/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-alerts/s2> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.api_action.meta/api_action/actions_obj_email_simple.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-alerts/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-alerts/s3> <http://purl.org/dc/terms/title> "Workflow (Metadata API Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-alerts/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-alerts/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-alerts/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_workflow.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-alerts/s4> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-alerts/s4> <http://purl.org/dc/terms/title> "Data and Actions in Flows: Communicate Using the Action Element" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-alerts/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-alerts/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-alerts/s4> <https://schema.org/url> "https://trailhead.salesforce.com/de/content/learn/modules/data-and-actions-in-flows/communicate-with-users-flow" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-alerts/s5> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-alerts/s5> <http://purl.org/dc/terms/title> "Use an Organization-Wide Address on a Notification (ISVforce Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-alerts/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-alerts/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-alerts/s5> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/isvforce/guide/cma-customize-email-org-wide-address.html" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/enterprise-territory-management/s1> <http://purl.org/dc/terms/publisher> "Salesforce" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/enterprise-territory-management/s1> <http://purl.org/dc/terms/title> "Sales Territories (Salesforce Help)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/enterprise-territory-management/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

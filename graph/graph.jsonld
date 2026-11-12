@@ -2619,6 +2619,96 @@
       ]
     },
     {
+      "@id": "kt:email-alerts",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Email Alerts",
+      "skos:definition": "Reusable, object-specific email actions defined in Setup that pair an email template with a recipient list, extra CC addresses and a sender, and that flows and other automation invoke against one record to send a templated notification.",
+      "kto:domain": "automation",
+      "dcterms:created": "2026-11-12",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Email Alert Actions (Actions Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api_action.meta/api_action/actions_obj_email_alert.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Simple Email Actions (Actions Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api_action.meta/api_action/actions_obj_email_simple.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Workflow (Metadata API Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_workflow.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Data and Actions in Flows: Communicate Using the Action Element",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/de/content/learn/modules/data-and-actions-in-flows/communicate-with-users-flow",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Use an Organization-Wide Address on a Notification (ISVforce Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/isvforce/guide/cma-customize-email-org-wide-address.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/automation/email-alerts.md",
+      "skos:altLabel": [
+        "email alert",
+        "Email Alert actions",
+        "email alert action",
+        "workflow email alert",
+        "WorkflowAlert",
+        "email alerts and actions"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:process-automation"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:workflow-rules"
+        },
+        {
+          "@id": "kt:record-triggered-flow"
+        },
+        {
+          "@id": "kt:approval-processes"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:flow-builder"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:invocable-actions-api"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:metadata-api"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:email-templates"
+        },
+        {
+          "@id": "kt:organization-wide-email-addresses"
+        }
+      ]
+    },
+    {
       "@id": "kt:escalation-rules",
       "@type": "kto:Feature",
       "skos:prefLabel": "Escalation Rules",
