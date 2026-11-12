@@ -79,10 +79,10 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:delegated-authentication` | `kt:identity-connect` |
 | `kt:decision-tables` | `kt:salesforce-pricing` |
 | `kt:scim` | `kt:salesforce-scim` |
+| `kt:json-web-token` | `kt:openid-connect` |
 | `kt:tableau-next` | `kt:tableau` |
 | `kt:tableau-pulse` | `kt:tableau` |
 | `kt:tableau-semantics` | `kt:tableau` |
-| `kt:json-web-token` | `kt:openid-connect` |
 | `kt:api-experience-hub` | `kt:external-identity-license` |
 | `kt:customer-community-licenses` | `kt:external-identity-license` |
 | `kt:apex-rest-services` | `kt:remote-call-in` |
@@ -120,8 +120,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:salesforce-marketing-solutions` | `kt:marketing-cloud-engagement` |
 | `kt:flow-limits` | `kt:flow-versioning` |
 | `kt:it-governance` | `kt:salesforce-governance` |
-| `kt:salesforce-lightning-design-system` | `kt:visualforce` |
 | `kt:security-governance` | `kt:salesforce-governance` |
+| `kt:salesforce-lightning-design-system` | `kt:visualforce` |
 | `kt:multiple-currencies` | `kt:price-books` |
 | `kt:opportunity-products` | `kt:price-books` |
 | `kt:holidays` | `kt:business-hours` |
@@ -138,11 +138,11 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:custom-permissions` | `kt:validation-rules` |
 | `kt:iso-iec-25010` | `kt:non-functional-requirements` |
 | `kt:requirements-engineering` | `kt:non-functional-requirements` |
+| `kt:mutual-tls-authentication` | `kt:login-ip-ranges-and-trusted-ip-ranges` |
 | `kt:platform-cache-partitions` | `kt:platform-cache` |
 | `kt:data-cloud-code-extension` | `kt:vector-search-in-data-cloud` |
 | `kt:unstructured-data-in-data-cloud` | `kt:vector-search-in-data-cloud` |
 | `kt:models-api` | `kt:ai-models` |
-| `kt:mutual-tls-authentication` | `kt:login-ip-ranges-and-trusted-ip-ranges` |
 | `kt:business-architecture` | `kt:capability-maps` |
 | `kt:digital-accessibility` | `kt:section-508-accessibility` |
 | `kt:email-templates` | `kt:email-alerts` |

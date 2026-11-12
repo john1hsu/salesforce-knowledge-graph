@@ -6062,6 +6062,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/record-types> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/soql> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/record-types> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/record-types> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/refresh-token-policies> <http://purl.org/dc/terms/created> "2026-11-12" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/refresh-token-policies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#SecurityControl> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/refresh-token-policies> <http://www.w3.org/2000/01/rdf-schema#label> "OAuth Refresh Token Policies" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/refresh-token-policies> <http://www.w3.org/2004/02/skos/core#altLabel> "Refresh Token Idle TTL" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/refresh-token-policies> <http://www.w3.org/2004/02/skos/core#altLabel> "Refresh Token Policy" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/refresh-token-policies> <http://www.w3.org/2004/02/skos/core#altLabel> "refresh token expiration policy" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/refresh-token-policies> <http://www.w3.org/2004/02/skos/core#altLabel> "refresh token rotation" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/refresh-token-policies> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-security> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/refresh-token-policies> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-2-flows-in-salesforce> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/refresh-token-policies> <http://www.w3.org/2004/02/skos/core#definition> "The per-app OAuth policies that decide how long a Salesforce refresh token stays usable — valid until revoked, immediately expired, expired after an inactivity window, or expired after a fixed lifetime — plus the newer hardening controls for connected and external client apps: a 30-day idle time-to-live, refresh token rotation and a refresh token IP allowlist." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/refresh-token-policies> <http://www.w3.org/2004/02/skos/core#prefLabel> "OAuth Refresh Token Policies" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/refresh-token-policies> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/appexchange-security-review> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/refresh-token-policies> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/connected-apps> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/refresh-token-policies> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/external-client-apps> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/refresh-token-policies> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/login-ip-ranges-and-trusted-ip-ranges> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/refresh-token-policies> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-cli> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/refresh-token-policies> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/refresh-token-policies/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/refresh-token-policies> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/refresh-token-policies/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/refresh-token-policies> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/refresh-token-policies/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/refresh-token-policies> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/refresh-token-policies/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/refresh-token-policies> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/refresh-token-policies/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/refresh-token-policies> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/refresh-token-policies/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/refresh-token-policies> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/refresh-token-policies/s7> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/refresh-token-policies> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/connected-apps> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/refresh-token-policies> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/external-client-apps> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/refresh-token-policies> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "identity" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/refresh-token-policies> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#implements> <https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-2-0> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/refresh-token-policies> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#mitigates> <https://github.com/john1hsu/salesforce-knowledge-graph/id/account-takeover> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/refresh-token-policies> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/refresh-token-policies> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/remote-call-in> <http://purl.org/dc/terms/created> "2026-11-09" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/remote-call-in> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Pattern> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/remote-call-in> <http://www.w3.org/2000/01/rdf-schema#label> "Remote Call-In" .
@@ -13875,6 +13905,41 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/record-types/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/record-types/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/record-types/s6> <https://schema.org/url> "https://help.salesforce.com/s/articleView?language=en_US&id=referencing_record_types_in_formulas.htm&type=0" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/refresh-token-policies/s1> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/refresh-token-policies/s1> <http://purl.org/dc/terms/title> "Manage OAuth Access Policies for a Connected App" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/refresh-token-policies/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/refresh-token-policies/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/refresh-token-policies/s1> <https://schema.org/url> "https://help.salesforce.com/s/articleView?language=en_US&id=sf.connected_app_manage_oauth.htm&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/refresh-token-policies/s2> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/refresh-token-policies/s2> <http://purl.org/dc/terms/title> "Limit the Idle Refresh Token TTL in Connected Apps" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/refresh-token-policies/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/refresh-token-policies/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/refresh-token-policies/s2> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=xcloud.connected_app_limit_idle_ttl.htm&amp=&language=en_US&amp=&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/refresh-token-policies/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers (ISVforce Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/refresh-token-policies/s3> <http://purl.org/dc/terms/title> "Secure Your Connected Apps and External Client Apps" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/refresh-token-policies/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/refresh-token-policies/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/refresh-token-policies/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/isvforce/guide/secure-code-ac-eca.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/refresh-token-policies/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers (Metadata API Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/refresh-token-policies/s4> <http://purl.org/dc/terms/title> "ExtlClntAppOauthConfigurablePolicies" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/refresh-token-policies/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/refresh-token-policies/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/refresh-token-policies/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_extlclntappoauthconfigurablepolicies.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/refresh-token-policies/s5> <http://purl.org/dc/terms/publisher> "Salesforce Developers (Salesforce DX Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/refresh-token-policies/s5> <http://purl.org/dc/terms/title> "Use the Default Connected App Securely" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/refresh-token-policies/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/refresh-token-policies/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/refresh-token-policies/s5> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_auth_default_conn_app.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/refresh-token-policies/s6> <http://purl.org/dc/terms/publisher> "IETF Datatracker" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/refresh-token-policies/s6> <http://purl.org/dc/terms/title> "RFC 9700: Best Current Practice for OAuth 2.0 Security" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/refresh-token-policies/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/refresh-token-policies/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "standards-body" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/refresh-token-policies/s6> <https://schema.org/url> "https://datatracker.ietf.org/doc/rfc9700/" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/refresh-token-policies/s7> <http://purl.org/dc/terms/publisher> "Salesforce Developers (Mobile SDK Development Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/refresh-token-policies/s7> <http://purl.org/dc/terms/title> "OAuth 2.0 Refresh Token Flow" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/refresh-token-policies/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/refresh-token-policies/s7> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/refresh-token-policies/s7> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.mobile_sdk.meta/pages/oauth_refresh_token_flow.htm" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/remote-call-in/s1> <http://purl.org/dc/terms/publisher> "Salesforce Architects" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/remote-call-in/s1> <http://purl.org/dc/terms/title> "Integration Patterns Overview" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/remote-call-in/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

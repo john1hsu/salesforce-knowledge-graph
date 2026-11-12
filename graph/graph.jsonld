@@ -17925,6 +17925,110 @@
       ]
     },
     {
+      "@id": "kt:refresh-token-policies",
+      "@type": "kto:SecurityControl",
+      "skos:prefLabel": "OAuth Refresh Token Policies",
+      "skos:definition": "The per-app OAuth policies that decide how long a Salesforce refresh token stays usable — valid until revoked, immediately expired, expired after an inactivity window, or expired after a fixed lifetime — plus the newer hardening controls for connected and external client apps: a 30-day idle time-to-live, refresh token rotation and a refresh token IP allowlist.",
+      "kto:domain": "identity",
+      "dcterms:created": "2026-11-12",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Manage OAuth Access Policies for a Connected App",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=sf.connected_app_manage_oauth.htm&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Limit the Idle Refresh Token TTL in Connected Apps",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=xcloud.connected_app_limit_idle_ttl.htm&amp=&language=en_US&amp=&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Secure Your Connected Apps and External Client Apps",
+          "dcterms:publisher": "Salesforce Developers (ISVforce Guide)",
+          "schema:url": "https://developer.salesforce.com/docs/platform/isvforce/guide/secure-code-ac-eca.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "ExtlClntAppOauthConfigurablePolicies",
+          "dcterms:publisher": "Salesforce Developers (Metadata API Developer Guide)",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_extlclntappoauthconfigurablepolicies.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Use the Default Connected App Securely",
+          "dcterms:publisher": "Salesforce Developers (Salesforce DX Developer Guide)",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_auth_default_conn_app.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "RFC 9700: Best Current Practice for OAuth 2.0 Security",
+          "dcterms:publisher": "IETF Datatracker",
+          "schema:url": "https://datatracker.ietf.org/doc/rfc9700/",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "OAuth 2.0 Refresh Token Flow",
+          "dcterms:publisher": "Salesforce Developers (Mobile SDK Development Guide)",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.mobile_sdk.meta/pages/oauth_refresh_token_flow.htm",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/identity/refresh-token-policies.md",
+      "skos:altLabel": [
+        "Refresh Token Policy",
+        "refresh token expiration policy",
+        "Refresh Token Idle TTL",
+        "refresh token rotation"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:oauth-2-flows-in-salesforce"
+        },
+        {
+          "@id": "kt:integration-security"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:connected-apps"
+        },
+        {
+          "@id": "kt:external-client-apps"
+        },
+        {
+          "@id": "kt:login-ip-ranges-and-trusted-ip-ranges"
+        },
+        {
+          "@id": "kt:salesforce-cli"
+        },
+        {
+          "@id": "kt:appexchange-security-review"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:connected-apps"
+        },
+        {
+          "@id": "kt:external-client-apps"
+        }
+      ],
+      "kto:implements": [
+        {
+          "@id": "kt:oauth-2-0"
+        }
+      ],
+      "kto:mitigates": [
+        {
+          "@id": "kt:account-takeover"
+        }
+      ]
+    },
+    {
       "@id": "kt:salesforce-identity",
       "@type": "kto:Product",
       "skos:prefLabel": "Salesforce Identity",

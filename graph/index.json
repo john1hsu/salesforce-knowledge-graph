@@ -5364,6 +5364,31 @@
     ]
   },
   {
+    "id": "kt:refresh-token-policies",
+    "title": "OAuth Refresh Token Policies",
+    "aliases": [
+      "Refresh Token Policy",
+      "refresh token expiration policy",
+      "Refresh Token Idle TTL",
+      "refresh token rotation"
+    ],
+    "type": "SecurityControl",
+    "domain": "identity",
+    "file": "articles/identity/refresh-token-policies.md",
+    "created": "2026-11-12",
+    "release": "Winter '27",
+    "status": "current",
+    "source_urls": [
+      "https://help.salesforce.com/s/articleView?language=en_US&id=sf.connected_app_manage_oauth.htm&type=5",
+      "https://help.salesforce.com/s/articleView?id=xcloud.connected_app_limit_idle_ttl.htm&amp=&language=en_US&amp=&type=5",
+      "https://developer.salesforce.com/docs/platform/isvforce/guide/secure-code-ac-eca.html",
+      "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_extlclntappoauthconfigurablepolicies.htm",
+      "https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_auth_default_conn_app.htm",
+      "https://datatracker.ietf.org/doc/rfc9700/",
+      "https://developer.salesforce.com/docs/atlas.en-us.mobile_sdk.meta/pages/oauth_refresh_token_flow.htm"
+    ]
+  },
+  {
     "id": "kt:remote-call-in",
     "title": "Remote Call-In",
     "aliases": [
