@@ -4,7 +4,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:user-interface-api` | `kt:graphql-api`, `kt:lightning-data-service`, `kt:salesforce-apis` |
+| `kt:user-interface-api` | `kt:graphql-api`, `kt:lightning-data-service`, `kt:salesforce-apis`, `kt:wire-service` |
 | `kt:gdpr-international-transfers` | `kt:data-residency`, `kt:data-sovereignty` |
 | `kt:hyperforce-operating-zones` | `kt:data-residency`, `kt:data-sovereignty` |
 | `kt:heroku` | `kt:platform-as-a-service`, `kt:salesforce-cpq` |
@@ -119,8 +119,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:marketing-cloud-connect` | `kt:marketing-cloud-engagement` |
 | `kt:marketing-cloud-next` | `kt:marketing-cloud-engagement` |
 | `kt:salesforce-marketing-solutions` | `kt:marketing-cloud-engagement` |
-| `kt:salesforce-lightning-design-system` | `kt:visualforce` |
 | `kt:flow-limits` | `kt:flow-versioning` |
+| `kt:salesforce-lightning-design-system` | `kt:visualforce` |
 | `kt:multiple-currencies` | `kt:price-books` |
 | `kt:opportunity-products` | `kt:price-books` |
 | `kt:it-governance` | `kt:salesforce-governance` |
@@ -129,13 +129,13 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:security-center` | `kt:continuous-monitoring` |
 | `kt:fhir` | `kt:health-cloud` |
 | `kt:utilization-management` | `kt:health-cloud` |
+| `kt:soc-1` | `kt:soc-2` |
+| `kt:trust-services-criteria` | `kt:soc-2` |
 | `kt:block-kit` | `kt:slack-platform` |
 | `kt:customer-360` | `kt:slack-platform` |
 | `kt:mulesoft-composer` | `kt:slack-platform` |
 | `kt:slack-api-rate-limits` | `kt:slack-platform` |
 | `kt:slack-workflow-builder` | `kt:slack-platform` |
-| `kt:soc-1` | `kt:soc-2` |
-| `kt:trust-services-criteria` | `kt:soc-2` |
 | `kt:iso-iec-25010` | `kt:non-functional-requirements` |
 | `kt:requirements-engineering` | `kt:non-functional-requirements` |
 | `kt:custom-permissions` | `kt:validation-rules` |
