@@ -2653,6 +2653,34 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/external-id-fields> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/soap-api> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/external-id-fields> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/external-id-fields> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-identity-license> <http://purl.org/dc/terms/created> "2026-11-12" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-identity-license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Product> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-identity-license> <http://www.w3.org/2000/01/rdf-schema#label> "External Identity License" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-identity-license> <http://www.w3.org/2004/02/skos/core#altLabel> "Customer 360 Identity license" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-identity-license> <http://www.w3.org/2004/02/skos/core#altLabel> "Customer Identity license" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-identity-license> <http://www.w3.org/2004/02/skos/core#altLabel> "External Identity User profile" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-identity-license> <http://www.w3.org/2004/02/skos/core#altLabel> "External Identity user license" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-identity-license> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-identity> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-identity-license> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/user-licenses> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-identity-license> <http://www.w3.org/2004/02/skos/core#definition> "The Salesforce user license, sold in blocks of active users, that gives customers, partners and other external users a login identity (self-registration, sign-in, profile management and single sign-on to web and mobile apps) with only narrow CRM data access; it underpins Salesforce Customer Identity and can be upgraded to a Community license." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-identity-license> <http://www.w3.org/2004/02/skos/core#prefLabel> "External Identity License" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-identity-license> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/experience-cloud-identity> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-identity-license> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/experience-cloud> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-identity-license> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/headless-identity> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-identity-license> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/permission-set-licenses> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-identity-license> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/profiles> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-identity-license> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-identity-license/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-identity-license> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-identity-license/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-identity-license> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-identity-license/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-identity-license> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-identity-license/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-identity-license> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-identity-license/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-identity-license> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#alternativeTo> <https://github.com/john1hsu/salesforce-knowledge-graph/id/customer-community-licenses> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-identity-license> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#consumedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/api-experience-hub> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-identity-license> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/role-hierarchy> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-identity-license> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "identity" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-identity-license> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#enables> <https://github.com/john1hsu/salesforce-knowledge-graph/id/experience-cloud-identity> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-identity-license> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-identity-license> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/external-objects> <http://purl.org/dc/terms/created> "2026-11-04" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/external-objects> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/external-objects> <http://www.w3.org/2000/01/rdf-schema#label> "External Objects" .
@@ -10047,6 +10075,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-id-fields/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-id-fields/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-id-fields/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.264.0.object_reference.meta/object_reference/custom_fields.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-identity-license/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-identity-license/s1> <http://purl.org/dc/terms/title> "External Identity License Details (Salesforce Identity Implementation Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-identity-license/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-identity-license/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-identity-license/s1> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.identityImplGuide.meta/%20identityImplGuide/users_license_types_external_identity.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-identity-license/s2> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-identity-license/s2> <http://purl.org/dc/terms/title> "Customer 360 Identity (Salesforce Identity Implementation Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-identity-license/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-identity-license/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-identity-license/s2> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.identityImplGuide.meta/%20identityImplGuide/identity_external.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-identity-license/s3> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-identity-license/s3> <http://purl.org/dc/terms/title> "Prepare Your Org for Salesforce Customer Identity (Trailhead unit)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-identity-license/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-identity-license/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-identity-license/s3> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/identity_external/identity_external_prepare" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-identity-license/s4> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-identity-license/s4> <http://purl.org/dc/terms/title> "Salesforce Customer Identity module, introduction unit (Trailhead)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-identity-license/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-identity-license/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-identity-license/s4> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/identity_external/identity_external_intro" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-identity-license/s5> <http://purl.org/dc/terms/publisher> "MuleSoft (Salesforce)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-identity-license/s5> <http://purl.org/dc/terms/title> "API Experience Hub Licensing" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-identity-license/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-identity-license/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-identity-license/s5> <https://schema.org/url> "https://docs.mulesoft.com/api-experience-hub/licensing" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-objects/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-objects/s1> <http://purl.org/dc/terms/title> "External Objects — Object Reference for the Salesforce Platform" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-objects/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

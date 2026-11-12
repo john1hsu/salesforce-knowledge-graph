@@ -15901,6 +15901,100 @@
       ]
     },
     {
+      "@id": "kt:external-identity-license",
+      "@type": "kto:Product",
+      "skos:prefLabel": "External Identity License",
+      "skos:definition": "The Salesforce user license, sold in blocks of active users, that gives customers, partners and other external users a login identity (self-registration, sign-in, profile management and single sign-on to web and mobile apps) with only narrow CRM data access; it underpins Salesforce Customer Identity and can be upgraded to a Community license.",
+      "kto:domain": "identity",
+      "dcterms:created": "2026-11-12",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "External Identity License Details (Salesforce Identity Implementation Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.identityImplGuide.meta/%20identityImplGuide/users_license_types_external_identity.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Customer 360 Identity (Salesforce Identity Implementation Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.identityImplGuide.meta/%20identityImplGuide/identity_external.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Prepare Your Org for Salesforce Customer Identity (Trailhead unit)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/identity_external/identity_external_prepare",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Salesforce Customer Identity module, introduction unit (Trailhead)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/identity_external/identity_external_intro",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "API Experience Hub Licensing",
+          "dcterms:publisher": "MuleSoft (Salesforce)",
+          "schema:url": "https://docs.mulesoft.com/api-experience-hub/licensing",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/identity/external-identity-license.md",
+      "skos:altLabel": [
+        "External Identity user license",
+        "External Identity User profile",
+        "Customer 360 Identity license",
+        "Customer Identity license"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-identity"
+        },
+        {
+          "@id": "kt:user-licenses"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:experience-cloud-identity"
+        },
+        {
+          "@id": "kt:headless-identity"
+        },
+        {
+          "@id": "kt:permission-set-licenses"
+        },
+        {
+          "@id": "kt:profiles"
+        },
+        {
+          "@id": "kt:experience-cloud"
+        }
+      ],
+      "kto:enables": [
+        {
+          "@id": "kt:experience-cloud-identity"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:customer-community-licenses"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:role-hierarchy"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:api-experience-hub"
+        }
+      ]
+    },
+    {
       "@id": "kt:headless-identity",
       "@type": "kto:Feature",
       "skos:prefLabel": "Headless Identity",

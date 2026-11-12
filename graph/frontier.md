@@ -12,6 +12,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:external-services` | `kt:apex-callouts`, `kt:flow-http-callout` |
 | `kt:user-access-policies` | `kt:permission-set-licenses`, `kt:permission-sets` |
 | `kt:salesforce-analytics` | `kt:crm-analytics`, `kt:tableau` |
+| `kt:user-licenses` | `kt:external-identity-license`, `kt:permission-set-licenses` |
 | `kt:data-governance` | `kt:data-quality`, `kt:salesforce-governance` |
 | `kt:test-data-factory` | `kt:apex-testing` |
 | `kt:recursive-save` | `kt:order-of-execution` |
@@ -23,7 +24,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:bulk-api-allocations` | `kt:bulk-api-2` |
 | `kt:data-loader` | `kt:bulk-api-2` |
 | `kt:lightning-web-security` | `kt:lightning-web-components` |
-| `kt:external-identity-license` | `kt:experience-cloud-identity` |
 | `kt:government-cloud` | `kt:government-cloud-plus` |
 | `kt:change-data-capture-allocations` | `kt:change-data-capture` |
 | `kt:platform-event-channel-member` | `kt:change-data-capture` |
@@ -77,21 +77,23 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:agentexchange` | `kt:appexchange-security-review` |
 | `kt:iso-iec-27002` | `kt:iso-iec-27001` |
 | `kt:hitrust-csf` | `kt:nist-cybersecurity-framework` |
+| `kt:delegated-authentication` | `kt:identity-connect` |
 | `kt:omnistudio-consultant-certification` | `kt:omnistudio` |
 | `kt:omnistudio-developer-certification` | `kt:omnistudio` |
-| `kt:delegated-authentication` | `kt:identity-connect` |
 | `kt:decision-tables` | `kt:salesforce-pricing` |
-| `kt:json-web-token` | `kt:openid-connect` |
 | `kt:scim` | `kt:salesforce-scim` |
+| `kt:json-web-token` | `kt:openid-connect` |
+| `kt:api-experience-hub` | `kt:external-identity-license` |
+| `kt:customer-community-licenses` | `kt:external-identity-license` |
 | `kt:constraint-modeling-language` | `kt:product-configurator` |
 | `kt:product-catalog-management` | `kt:product-configurator` |
 | `kt:tableau-next` | `kt:tableau` |
 | `kt:tableau-pulse` | `kt:tableau` |
 | `kt:tableau-semantics` | `kt:tableau` |
 | `kt:salesforce-ecosystem` | `kt:salesforce-inc` |
+| `kt:path` | `kt:business-processes` |
 | `kt:opportunity-teams` | `kt:opportunity-splits` |
 | `kt:revenue-intelligence` | `kt:collaborative-forecasts` |
-| `kt:path` | `kt:business-processes` |
 | `kt:object-manager` | `kt:schema-builder` |
 | `kt:einstein-discovery` | `kt:crm-analytics` |
 | `kt:saql` | `kt:crm-analytics` |
@@ -121,7 +123,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:multiple-currencies` | `kt:price-books` |
 | `kt:opportunity-products` | `kt:price-books` |
 | `kt:flow-limits` | `kt:flow-versioning` |
-| `kt:user-licenses` | `kt:permission-set-licenses` |
 | `kt:holidays` | `kt:business-hours` |
 | `kt:security-center` | `kt:continuous-monitoring` |
 | `kt:block-kit` | `kt:slack-platform` |
