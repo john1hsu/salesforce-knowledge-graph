@@ -337,6 +337,91 @@
       ]
     },
     {
+      "@id": "kt:b2c-solution-architect-certification",
+      "@type": "kto:Certification",
+      "skos:prefLabel": "B2C Solution Architect Certification",
+      "skos:definition": "A Salesforce architect credential with its own exam that validates designing multi-cloud B2C customer solutions across service, commerce and marketing; Trailhead lists Platform App Builder and Platform Integration Architect as prerequisites, and the exam weights discovery, data models and integration most heavily.",
+      "kto:domain": "architecture-practice",
+      "dcterms:created": "2026-11-12",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Certification - Salesforce Certified B2C Solution Architect",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/en/credentials/b2csolutionarchitect",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "B2C Solution Architect Certification Prep: Get Started (unit)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/b2c-study-cert-get-started/b2c-p1-study-cert-get-started",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Review Data Model and Management",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/b2c-solution-architect-cert-prep-architecture-and-integration/b2b-p2-data-model-and-management",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Review Integration (B2C Solution Architect Cert Prep)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/b2c-solution-architect-cert-prep-architecture-and-integration/b2b-p3-ntegration",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "B2C Solution Architect Certification: Guiding Companies Through Digital Transformation",
+          "dcterms:publisher": "Trailhead (Medium)",
+          "schema:url": "https://medium.com/trailhead/salesforce-b2c-solution-architect-certification-39af4bef3d7c",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/architecture-practice/b2c-solution-architect-certification.md",
+      "skos:altLabel": [
+        "Salesforce Certified B2C Solution Architect",
+        "B2C Solution Architect credential"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-architect"
+        },
+        {
+          "@id": "kt:salesforce-certification-program"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:commerce-cloud"
+        },
+        {
+          "@id": "kt:data-cloud"
+        },
+        {
+          "@id": "kt:marketing-cloud-engagement"
+        },
+        {
+          "@id": "kt:service-cloud"
+        },
+        {
+          "@id": "kt:identity-resolution"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:platform-app-builder-certification"
+        },
+        {
+          "@id": "kt:integration-architect-certification"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:b2c-commerce-architect-certification"
+        }
+      ]
+    },
+    {
       "@id": "kt:capability-maps",
       "@type": "kto:Concept",
       "skos:prefLabel": "Capability Maps",
