@@ -8693,6 +8693,103 @@
       ]
     },
     {
+      "@id": "kt:model-context-protocol-in-agentforce",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "MCP for Agentforce",
+      "skos:definition": "Agentforce's native Model Context Protocol (MCP) client, which lets admins register external or Salesforce-hosted MCP servers in Agentforce Registry or API Catalog and turn allowlisted server tools into agent actions governed by Agentforce Gateway policies.",
+      "kto:domain": "data-cloud-and-ai",
+      "dcterms:created": "2026-11-12",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Discover MCP for Agentforce (MCP for Agentforce: Quick Look)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/mcp-for-agentforce-quick-look/discover-mcp-for-agentforce",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Summer '26 Release Architect Highlights: Sharing, Security, and Agentic Integration",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/blog/summer-26-release-architect-highlights/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "MCP for Agentforce Metadata in Managed Packages",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/pkg2-dev/guide/dev2gp-package-mcp-agentforce.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "MCP Solutions for Developers",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/ai/agentforce/guide/mcp.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Introducing MCP Support Across Salesforce",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2025/06/introducing-mcp-support-across-salesforce",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Model Context Protocol Specification (2025-11-25): Architecture",
+          "dcterms:publisher": "Model Context Protocol",
+          "schema:url": "https://modelcontextprotocol.io/specification/2025-11-25/architecture",
+          "kto:sourceType": "standards-body"
+        }
+      ],
+      "kto:file": "articles/data-cloud-and-ai/model-context-protocol-in-agentforce.md",
+      "skos:altLabel": [
+        "Model Context Protocol in Agentforce",
+        "Agentforce MCP client",
+        "Agentforce MCP Support",
+        "native MCP client in Agentforce"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:agentforce"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:agent-actions"
+        },
+        {
+          "@id": "kt:salesforce-hosted-mcp-servers"
+        },
+        {
+          "@id": "kt:agentexchange"
+        },
+        {
+          "@id": "kt:mulesoft-anypoint-platform"
+        }
+      ],
+      "kto:implements": [
+        {
+          "@id": "kt:model-context-protocol"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:named-credentials"
+        },
+        {
+          "@id": "kt:einstein-trust-layer"
+        }
+      ],
+      "kto:enables": [
+        {
+          "@id": "kt:agent-actions"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:salesforce-hosted-mcp-servers"
+        }
+      ]
+    },
+    {
       "@id": "kt:prompt-builder",
       "@type": "kto:Tool",
       "skos:prefLabel": "Prompt Builder",

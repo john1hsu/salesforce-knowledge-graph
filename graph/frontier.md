@@ -14,6 +14,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:user-access-policies` | `kt:permission-set-licenses`, `kt:permission-sets` |
 | `kt:salesforce-analytics` | `kt:crm-analytics`, `kt:tableau` |
 | `kt:user-licenses` | `kt:external-identity-license`, `kt:permission-set-licenses` |
+| `kt:agentexchange` | `kt:appexchange-security-review`, `kt:model-context-protocol-in-agentforce` |
 | `kt:test-data-factory` | `kt:apex-testing` |
 | `kt:recursive-save` | `kt:order-of-execution` |
 | `kt:salesforce-ecosystem-roles` | `kt:salesforce-architect` |
@@ -29,8 +30,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:apex-flex-queue` | `kt:batch-apex` |
 | `kt:orglimits-class` | `kt:limits-class` |
 | `kt:process-integration` | `kt:data-integration` |
-| `kt:governance-risk-and-compliance` | `kt:security-compliance-frameworks` |
 | `kt:transaction-finalizers` | `kt:queueable-apex` |
+| `kt:governance-risk-and-compliance` | `kt:security-compliance-frameworks` |
 | `kt:mule-runtime-engine` | `kt:mulesoft-anypoint-platform` |
 | `kt:salesforce-architecture-program` | `kt:salesforce-architecture-center` |
 | `kt:legacy-named-credentials` | `kt:named-credentials` |
@@ -46,8 +47,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:mixed-dml-error` | `kt:future-methods` |
 | `kt:data-categories` | `kt:knowledge-base` |
 | `kt:salesforce-go` | `kt:knowledge-base` |
-| `kt:nist-sp-800-60` | `kt:fips-199` |
 | `kt:trailhead` | `kt:salesforce-certification-program` |
+| `kt:nist-sp-800-60` | `kt:fips-199` |
 | `kt:omni-channel-limits` | `kt:omni-channel` |
 | `kt:presence-configuration` | `kt:omni-channel` |
 | `kt:skills-based-routing` | `kt:omni-channel` |
@@ -67,7 +68,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:work-orders` | `kt:field-service` |
 | `kt:data-cloud-activation` | `kt:data-cloud-segmentation` |
 | `kt:data-graphs` | `kt:data-cloud-segmentation` |
-| `kt:agentexchange` | `kt:appexchange-security-review` |
 | `kt:dynamic-revenue-orchestrator` | `kt:revenue-cloud` |
 | `kt:revenue-management-consultant-certification` | `kt:revenue-cloud` |
 | `kt:omnistudio-consultant-certification` | `kt:omnistudio` |
@@ -77,10 +77,10 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:delegated-authentication` | `kt:identity-connect` |
 | `kt:decision-tables` | `kt:salesforce-pricing` |
 | `kt:scim` | `kt:salesforce-scim` |
-| `kt:json-web-token` | `kt:openid-connect` |
 | `kt:tableau-next` | `kt:tableau` |
 | `kt:tableau-pulse` | `kt:tableau` |
 | `kt:tableau-semantics` | `kt:tableau` |
+| `kt:json-web-token` | `kt:openid-connect` |
 | `kt:api-experience-hub` | `kt:external-identity-license` |
 | `kt:customer-community-licenses` | `kt:external-identity-license` |
 | `kt:apex-rest-services` | `kt:remote-call-in` |
@@ -149,7 +149,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:wcag` | `kt:section-508-accessibility` |
 | `kt:business-architecture` | `kt:capability-maps` |
 | `kt:email-templates` | `kt:email-alerts` |
+| `kt:model-context-protocol` | `kt:model-context-protocol-in-agentforce` |
 | `kt:notes-and-attachments` | `kt:content-document-model` |
 | `kt:organization-wide-email-addresses` | `kt:email-alerts` |
+| `kt:salesforce-hosted-mcp-servers` | `kt:model-context-protocol-in-agentforce` |
 | `kt:technology-roadmaps` | `kt:capability-maps` |
 | `kt:value-streams` | `kt:capability-maps` |
