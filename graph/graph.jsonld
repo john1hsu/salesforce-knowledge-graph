@@ -5149,6 +5149,103 @@
       ]
     },
     {
+      "@id": "kt:financial-services-cloud",
+      "@type": "kto:Product",
+      "skos:prefLabel": "Financial Services Cloud",
+      "skos:definition": "Salesforce's industry cloud for banks, wealth managers, lenders and insurers, now also branded Agentforce Financial Services, which adds financial-account, household, onboarding/KYC and compliance data models and tools on top of Sales Cloud and Service Cloud.",
+      "kto:domain": "clouds-and-products",
+      "dcterms:created": "2026-11-12",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Meet Financial Services Cloud (Financial Services Cloud Basics)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/financial-services-cloud-basics/meet-financial-services-cloud",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Explore Financial Services Cloud Sectors (Financial Services Cloud Basics)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/financial-services-cloud-basics/explore-financial-services-cloud-sectors",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Dive into Financial Services Cloud Solutions (Financial Services Cloud Basics)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/financial-services-cloud-basics/dive-into-financial-services-cloud-solutions",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Build Households and Groups (Client Management in Financial Services Cloud)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/client-management-in-financial-services-cloud/build-households-and-groups",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Financial Services Cloud Developer Guide (Winter '27, API 68.0)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.financial_services_cloud_object_reference.meta/fsc_business_apis.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Financial Services Cloud — Product Overview",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/financial-services/cloud/",
+          "kto:sourceType": "news"
+        }
+      ],
+      "kto:file": "articles/clouds-and-products/financial-services-cloud.md",
+      "skos:altLabel": [
+        "Agentforce Financial Services",
+        "Salesforce Financial Services Cloud",
+        "FSC"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-industries"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:sales-cloud"
+        },
+        {
+          "@id": "kt:service-cloud"
+        },
+        {
+          "@id": "kt:omnistudio"
+        },
+        {
+          "@id": "kt:experience-cloud"
+        },
+        {
+          "@id": "kt:health-cloud"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:person-accounts"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:compliant-data-sharing"
+        },
+        {
+          "@id": "kt:actionable-relationship-center"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:data-cloud"
+        },
+        {
+          "@id": "kt:agentforce"
+        }
+      ]
+    },
+    {
       "@id": "kt:health-cloud",
       "@type": "kto:Product",
       "skos:prefLabel": "Health Cloud",
@@ -6399,6 +6496,9 @@
         },
         {
           "@id": "kt:revenue-cloud"
+        },
+        {
+          "@id": "kt:financial-services-cloud"
         }
       ],
       "kto:hasPart": [
@@ -10605,7 +10705,7 @@
           "@id": "kt:change-data-capture"
         }
       ],
-      "kto:usedBy": [
+      "kto:consumedBy": [
         {
           "@id": "kt:financial-services-cloud"
         }

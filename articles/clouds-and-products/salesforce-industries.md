@@ -11,7 +11,7 @@ summary: >-
 release: "Winter '27"
 status: current
 broader: [kt:salesforce-platform]
-related: [kt:public-sector-solutions, kt:revenue-cloud]
+related: [kt:public-sector-solutions, kt:revenue-cloud, kt:financial-services-cloud]
 relations:
   - {predicate: hasPart, object: kt:omnistudio}
   - {predicate: hasPart, object: kt:context-service}

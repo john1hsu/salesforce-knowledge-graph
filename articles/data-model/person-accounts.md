@@ -15,7 +15,7 @@ relations:
   - {predicate: dependsOn, object: kt:record-types}
   - {predicate: dependsOn, object: kt:organization-wide-defaults}
   - {predicate: integratesWith, object: kt:change-data-capture}
-  - {predicate: usedBy, object: kt:financial-services-cloud}
+  - {predicate: consumedBy, object: kt:financial-services-cloud}
 sources:
   - id: s1
     title: "Setting Up Person Accounts (implementation guide)"
