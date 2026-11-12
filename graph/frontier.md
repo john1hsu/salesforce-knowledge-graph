@@ -4,7 +4,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:hyperforce-operating-zones` | `kt:data-residency`, `kt:data-sovereignty`, `kt:gdpr-international-transfers` |
 | `kt:heroku` | `kt:platform-as-a-service`, `kt:salesforce-cpq` |
 | `kt:api-led-connectivity` | `kt:mulesoft-anypoint-platform`, `kt:mulesoft-platform-architect-certification` |
 | `kt:external-services` | `kt:apex-callouts`, `kt:flow-http-callout` |
@@ -26,8 +25,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:apex-flex-queue` | `kt:batch-apex` |
 | `kt:orglimits-class` | `kt:limits-class` |
 | `kt:process-integration` | `kt:data-integration` |
-| `kt:transaction-finalizers` | `kt:queueable-apex` |
 | `kt:governance-risk-and-compliance` | `kt:security-compliance-frameworks` |
+| `kt:transaction-finalizers` | `kt:queueable-apex` |
 | `kt:mule-runtime-engine` | `kt:mulesoft-anypoint-platform` |
 | `kt:legacy-named-credentials` | `kt:named-credentials` |
 | `kt:salesforce-architecture-program` | `kt:salesforce-architecture-center` |
@@ -49,8 +48,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:presence-configuration` | `kt:omni-channel` |
 | `kt:skills-based-routing` | `kt:omni-channel` |
 | `kt:contacts-to-multiple-accounts` | `kt:person-accounts` |
-| `kt:compact-layouts` | `kt:page-layouts` |
 | `kt:data-detect` | `kt:salesforce-shield` |
+| `kt:compact-layouts` | `kt:page-layouts` |
 | `kt:custom-objects` | `kt:standard-objects` |
 | `kt:distributed-computing` | `kt:cloud-computing` |
 | `kt:flow-bulkification` | `kt:bulkification` |
@@ -65,6 +64,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:work-orders` | `kt:field-service` |
 | `kt:data-cloud-activation` | `kt:data-cloud-segmentation` |
 | `kt:data-graphs` | `kt:data-cloud-segmentation` |
+| `kt:data-classification` | `kt:data-governance` |
+| `kt:data-management` | `kt:data-governance` |
+| `kt:data-stewardship` | `kt:data-governance` |
 | `kt:dynamic-revenue-orchestrator` | `kt:revenue-cloud` |
 | `kt:revenue-management-consultant-certification` | `kt:revenue-cloud` |
 | `kt:omnistudio-consultant-certification` | `kt:omnistudio` |
@@ -72,9 +74,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:iso-iec-27002` | `kt:iso-iec-27001` |
 | `kt:hitrust-csf` | `kt:nist-cybersecurity-framework` |
 | `kt:delegated-authentication` | `kt:identity-connect` |
-| `kt:data-classification` | `kt:data-governance` |
-| `kt:data-management` | `kt:data-governance` |
-| `kt:data-stewardship` | `kt:data-governance` |
+| `kt:certificate-and-key-management` | `kt:custom-domains` |
+| `kt:salesforce-edge-network` | `kt:custom-domains` |
+| `kt:salesforce-sites` | `kt:custom-domains` |
 | `kt:scim` | `kt:salesforce-scim` |
 | `kt:decision-tables` | `kt:salesforce-pricing` |
 | `kt:json-web-token` | `kt:openid-connect` |
@@ -90,13 +92,10 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:object-manager` | `kt:schema-builder` |
 | `kt:opportunity-teams` | `kt:opportunity-splits` |
 | `kt:revenue-intelligence` | `kt:collaborative-forecasts` |
-| `kt:salesforce-ecosystem` | `kt:salesforce-inc` |
 | `kt:einstein-discovery` | `kt:crm-analytics` |
+| `kt:salesforce-ecosystem` | `kt:salesforce-inc` |
 | `kt:saql` | `kt:crm-analytics` |
 | `kt:apex-mocks` | `kt:apex-enterprise-patterns` |
-| `kt:certificate-and-key-management` | `kt:custom-domains` |
-| `kt:salesforce-edge-network` | `kt:custom-domains` |
-| `kt:salesforce-sites` | `kt:custom-domains` |
 | `kt:dynamic-soql` | `kt:soql-injection` |
 | `kt:agentforce-data-library` | `kt:retrieval-augmented-generation-in-salesforce` |
 | `kt:generative-ai` | `kt:retrieval-augmented-generation-in-salesforce` |
@@ -118,9 +117,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:mulesoft-platform-integration-architect-certification` | `kt:mulesoft-platform-architect-certification` |
 | `kt:flow-limits` | `kt:flow-versioning` |
 | `kt:user-management` | `kt:user-access-policies` |
-| `kt:salesforce-lightning-design-system` | `kt:visualforce` |
 | `kt:it-governance` | `kt:salesforce-governance` |
 | `kt:security-governance` | `kt:salesforce-governance` |
+| `kt:salesforce-lightning-design-system` | `kt:visualforce` |
 | `kt:multiple-currencies` | `kt:price-books` |
 | `kt:opportunity-products` | `kt:price-books` |
 | `kt:holidays` | `kt:business-hours` |
