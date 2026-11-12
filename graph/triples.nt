@@ -2061,6 +2061,30 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-skew> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "data-model" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-skew> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-skew> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-sovereignty> <http://purl.org/dc/terms/created> "2026-11-12" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-sovereignty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-sovereignty> <http://www.w3.org/2000/01/rdf-schema#label> "Data Sovereignty" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-sovereignty> <http://www.w3.org/2004/02/skos/core#altLabel> "cloud sovereignty" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-sovereignty> <http://www.w3.org/2004/02/skos/core#altLabel> "digital sovereignty" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-sovereignty> <http://www.w3.org/2004/02/skos/core#altLabel> "sovereign cloud" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-sovereignty> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-governance> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-sovereignty> <http://www.w3.org/2004/02/skos/core#definition> "The principle that data, and the cloud services that process it, stay subject to the laws, jurisdiction and operational control of a chosen state or bloc; broader than data residency because it also covers who can compel access, who operates the service and who controls the encryption keys." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-sovereignty> <http://www.w3.org/2004/02/skos/core#prefLabel> "Data Sovereignty" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-sovereignty> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/gdpr-international-transfers> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-sovereignty> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/government-cloud-plus> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-sovereignty> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/hyperforce-operating-zones> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-sovereignty> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/hyperforce> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-sovereignty> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/shield-platform-encryption> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-sovereignty> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-sovereignty/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-sovereignty> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-sovereignty/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-sovereignty> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-sovereignty/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-sovereignty> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-sovereignty/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-sovereignty> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-sovereignty/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-sovereignty> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-sovereignty/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-sovereignty> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#contrastsWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-residency> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-sovereignty> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "public-sector-and-compliance" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-sovereignty> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-sovereignty> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-spaces> <http://purl.org/dc/terms/created> "2026-11-10" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-spaces> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-spaces> <http://www.w3.org/2000/01/rdf-schema#label> "Data Spaces" .
@@ -9527,6 +9551,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-skew/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-skew/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-skew/s4> <https://schema.org/url> "https://developer.salesforce.com/blogs/engineering/2012/06/architect-salesforce-record-ownership-skew-for-peak-performance-in-large-data-volume-environments" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-sovereignty/s1> <http://purl.org/dc/terms/publisher> "European Commission" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-sovereignty/s1> <http://purl.org/dc/terms/title> "Cloud Sovereignty Framework: Implementation guidance" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-sovereignty/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-sovereignty/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-sovereignty/s1> <https://schema.org/url> "https://commission.europa.eu/document/download/2ad80a48-166f-4c77-a513-80c53ca2a128_en" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-sovereignty/s2> <http://purl.org/dc/terms/publisher> "European Commission" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-sovereignty/s2> <http://purl.org/dc/terms/title> "Commission advances cloud sovereignty through strategic procurement" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-sovereignty/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-sovereignty/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-sovereignty/s2> <https://schema.org/url> "https://commission.europa.eu/news-and-media/news/commission-advances-cloud-sovereignty-through-strategic-procurement-2026-04-17_sl" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-sovereignty/s3> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-sovereignty/s3> <http://purl.org/dc/terms/title> "Shield Platform Encryption (Salesforce Help PDF guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-sovereignty/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-sovereignty/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-sovereignty/s3> <https://schema.org/url> "https://resources.docs.salesforce.com/latest/latest/en-us/sfdc/pdf/security_shield_platform_encryption.pdf" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-sovereignty/s4> <http://purl.org/dc/terms/publisher> "Salesforce Newsroom" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-sovereignty/s4> <http://purl.org/dc/terms/title> "How the EU-US Data Privacy Framework Benefits Salesforce Customer Data Transfers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-sovereignty/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-sovereignty/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-sovereignty/s4> <https://schema.org/url> "https://www.salesforce.com/news/stories/salesforce-transatlantic-data-privacy-update/" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-sovereignty/s5> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-sovereignty/s5> <http://purl.org/dc/terms/title> "Hyperforce Operating Zone (EU and Switzerland)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-sovereignty/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-sovereignty/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-sovereignty/s5> <https://schema.org/url> "https://www.salesforce.com/platform/data-residence-eu-oz/" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-sovereignty/s6> <http://purl.org/dc/terms/publisher> "Salesforce Newsroom (Australia)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-sovereignty/s6> <http://purl.org/dc/terms/title> "MuleSoft on Hyperforce in Australia (news story)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-sovereignty/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-sovereignty/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "news" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-sovereignty/s6> <https://schema.org/url> "https://www.salesforce.com/au/news/stories/salesforce-mulesoft-hyperforce-australia-2026/" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-spaces/s1> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-spaces/s1> <http://purl.org/dc/terms/title> "About Data Spaces" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-spaces/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

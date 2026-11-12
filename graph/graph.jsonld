@@ -22557,6 +22557,87 @@
       ]
     },
     {
+      "@id": "kt:data-sovereignty",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Data Sovereignty",
+      "skos:definition": "The principle that data, and the cloud services that process it, stay subject to the laws, jurisdiction and operational control of a chosen state or bloc; broader than data residency because it also covers who can compel access, who operates the service and who controls the encryption keys.",
+      "kto:domain": "public-sector-and-compliance",
+      "dcterms:created": "2026-11-12",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Cloud Sovereignty Framework: Implementation guidance",
+          "dcterms:publisher": "European Commission",
+          "schema:url": "https://commission.europa.eu/document/download/2ad80a48-166f-4c77-a513-80c53ca2a128_en",
+          "kto:sourceType": "government"
+        },
+        {
+          "dcterms:title": "Commission advances cloud sovereignty through strategic procurement",
+          "dcterms:publisher": "European Commission",
+          "schema:url": "https://commission.europa.eu/news-and-media/news/commission-advances-cloud-sovereignty-through-strategic-procurement-2026-04-17_sl",
+          "kto:sourceType": "government"
+        },
+        {
+          "dcterms:title": "Shield Platform Encryption (Salesforce Help PDF guide)",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://resources.docs.salesforce.com/latest/latest/en-us/sfdc/pdf/security_shield_platform_encryption.pdf",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "How the EU-US Data Privacy Framework Benefits Salesforce Customer Data Transfers",
+          "dcterms:publisher": "Salesforce Newsroom",
+          "schema:url": "https://www.salesforce.com/news/stories/salesforce-transatlantic-data-privacy-update/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Hyperforce Operating Zone (EU and Switzerland)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/platform/data-residence-eu-oz/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "MuleSoft on Hyperforce in Australia (news story)",
+          "dcterms:publisher": "Salesforce Newsroom (Australia)",
+          "schema:url": "https://www.salesforce.com/au/news/stories/salesforce-mulesoft-hyperforce-australia-2026/",
+          "kto:sourceType": "news"
+        }
+      ],
+      "kto:file": "articles/public-sector-and-compliance/data-sovereignty.md",
+      "skos:altLabel": [
+        "digital sovereignty",
+        "cloud sovereignty",
+        "sovereign cloud"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:data-governance"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:hyperforce"
+        },
+        {
+          "@id": "kt:hyperforce-operating-zones"
+        },
+        {
+          "@id": "kt:shield-platform-encryption"
+        },
+        {
+          "@id": "kt:gdpr-international-transfers"
+        },
+        {
+          "@id": "kt:government-cloud-plus"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:data-residency"
+        }
+      ]
+    },
+    {
       "@id": "kt:dod-cloud-computing-srg",
       "@type": "kto:ExternalConcept",
       "skos:prefLabel": "DoD Cloud Computing Security Requirements Guide",

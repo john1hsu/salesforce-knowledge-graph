@@ -7,13 +7,15 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:soap-api` | `kt:external-id-fields`, `kt:rest-api`, `kt:salesforce-apis` |
 | `kt:software-as-a-service` | `kt:cloud-computing`, `kt:infrastructure-as-a-service`, `kt:platform-as-a-service` |
 | `kt:user-interface-api` | `kt:graphql-api`, `kt:lightning-data-service`, `kt:salesforce-apis` |
+| `kt:data-governance` | `kt:data-quality`, `kt:data-sovereignty`, `kt:salesforce-governance` |
+| `kt:gdpr-international-transfers` | `kt:data-residency`, `kt:data-sovereignty` |
+| `kt:hyperforce-operating-zones` | `kt:data-residency`, `kt:data-sovereignty` |
 | `kt:heroku` | `kt:platform-as-a-service`, `kt:salesforce-cpq` |
 | `kt:api-led-connectivity` | `kt:mulesoft-anypoint-platform`, `kt:mulesoft-platform-architect-certification` |
 | `kt:external-services` | `kt:apex-callouts`, `kt:flow-http-callout` |
 | `kt:user-access-policies` | `kt:permission-set-licenses`, `kt:permission-sets` |
 | `kt:salesforce-analytics` | `kt:crm-analytics`, `kt:tableau` |
 | `kt:user-licenses` | `kt:external-identity-license`, `kt:permission-set-licenses` |
-| `kt:data-governance` | `kt:data-quality`, `kt:salesforce-governance` |
 | `kt:test-data-factory` | `kt:apex-testing` |
 | `kt:recursive-save` | `kt:order-of-execution` |
 | `kt:salesforce-data-mask` | `kt:environment-strategy` |
@@ -28,9 +30,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:change-data-capture-allocations` | `kt:change-data-capture` |
 | `kt:platform-event-channel-member` | `kt:change-data-capture` |
 | `kt:apex-flex-queue` | `kt:batch-apex` |
-| `kt:data-sovereignty` | `kt:data-residency` |
-| `kt:gdpr-international-transfers` | `kt:data-residency` |
-| `kt:hyperforce-operating-zones` | `kt:data-residency` |
 | `kt:orglimits-class` | `kt:limits-class` |
 | `kt:process-integration` | `kt:data-integration` |
 | `kt:governance-risk-and-compliance` | `kt:security-compliance-frameworks` |
@@ -50,8 +49,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:mixed-dml-error` | `kt:future-methods` |
 | `kt:data-categories` | `kt:knowledge-base` |
 | `kt:salesforce-go` | `kt:knowledge-base` |
-| `kt:trailhead` | `kt:salesforce-certification-program` |
 | `kt:nist-sp-800-60` | `kt:fips-199` |
+| `kt:trailhead` | `kt:salesforce-certification-program` |
 | `kt:omni-channel-limits` | `kt:omni-channel` |
 | `kt:presence-configuration` | `kt:omni-channel` |
 | `kt:skills-based-routing` | `kt:omni-channel` |
@@ -85,11 +84,11 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:json-web-token` | `kt:openid-connect` |
 | `kt:api-experience-hub` | `kt:external-identity-license` |
 | `kt:customer-community-licenses` | `kt:external-identity-license` |
-| `kt:constraint-modeling-language` | `kt:product-configurator` |
-| `kt:product-catalog-management` | `kt:product-configurator` |
 | `kt:tableau-next` | `kt:tableau` |
 | `kt:tableau-pulse` | `kt:tableau` |
 | `kt:tableau-semantics` | `kt:tableau` |
+| `kt:constraint-modeling-language` | `kt:product-configurator` |
+| `kt:product-catalog-management` | `kt:product-configurator` |
 | `kt:salesforce-ecosystem` | `kt:salesforce-inc` |
 | `kt:path` | `kt:business-processes` |
 | `kt:opportunity-teams` | `kt:opportunity-splits` |
@@ -144,10 +143,10 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:unstructured-data-in-data-cloud` | `kt:vector-search-in-data-cloud` |
 | `kt:models-api` | `kt:ai-models` |
 | `kt:mutual-tls-authentication` | `kt:login-ip-ranges-and-trusted-ip-ranges` |
-| `kt:digital-accessibility` | `kt:section-508-accessibility` |
-| `kt:wcag` | `kt:section-508-accessibility` |
 | `kt:business-architecture` | `kt:capability-maps` |
+| `kt:digital-accessibility` | `kt:section-508-accessibility` |
 | `kt:notes-and-attachments` | `kt:content-document-model` |
 | `kt:release-management` | `kt:deployment-validation-and-quick-deploy` |
 | `kt:technology-roadmaps` | `kt:capability-maps` |
 | `kt:value-streams` | `kt:capability-maps` |
+| `kt:wcag` | `kt:section-508-accessibility` |
