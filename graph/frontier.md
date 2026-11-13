@@ -70,18 +70,17 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:dynamic-revenue-orchestrator` | `kt:revenue-cloud` |
 | `kt:revenue-management-consultant-certification` | `kt:revenue-cloud` |
 | `kt:iso-iec-27002` | `kt:iso-iec-27001` |
-| `kt:delegated-authentication` | `kt:identity-connect` |
 | `kt:hitrust-csf` | `kt:nist-cybersecurity-framework` |
 | `kt:api-experience-hub` | `kt:external-identity-license` |
-| `kt:certificate-and-key-management` | `kt:custom-domains` |
 | `kt:customer-community-licenses` | `kt:external-identity-license` |
+| `kt:certificate-and-key-management` | `kt:custom-domains` |
 | `kt:salesforce-edge-network` | `kt:custom-domains` |
 | `kt:salesforce-sites` | `kt:custom-domains` |
 | `kt:scim` | `kt:salesforce-scim` |
+| `kt:json-web-token` | `kt:openid-connect` |
 | `kt:tableau-next` | `kt:tableau` |
 | `kt:tableau-pulse` | `kt:tableau` |
 | `kt:tableau-semantics` | `kt:tableau` |
-| `kt:json-web-token` | `kt:openid-connect` |
 | `kt:decision-tables` | `kt:salesforce-pricing` |
 | `kt:apex-rest-services` | `kt:remote-call-in` |
 | `kt:path` | `kt:business-processes` |
@@ -112,8 +111,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:session-settings` | `kt:lightning-locker` |
 | `kt:apexguru` | `kt:scale-test` |
 | `kt:scale-center` | `kt:scale-test` |
-| `kt:ingestion-api` | `kt:data-streams` |
 | `kt:data-actions` | `kt:streaming-insights` |
+| `kt:ingestion-api` | `kt:data-streams` |
 | `kt:fhir` | `kt:health-cloud` |
 | `kt:utilization-management` | `kt:health-cloud` |
 | `kt:mulesoft-platform-integration-architect-certification` | `kt:mulesoft-platform-architect-certification` |
@@ -127,6 +126,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:holidays` | `kt:business-hours` |
 | `kt:security-center` | `kt:continuous-monitoring` |
 | `kt:salesforce-licensing` | `kt:user-licenses` |
+| `kt:mutual-tls-authentication` | `kt:login-ip-ranges-and-trusted-ip-ranges` |
 | `kt:block-kit` | `kt:slack-platform` |
 | `kt:customer-360` | `kt:slack-platform` |
 | `kt:mulesoft-composer` | `kt:slack-platform` |
@@ -137,7 +137,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:custom-permissions` | `kt:validation-rules` |
 | `kt:iso-iec-25010` | `kt:non-functional-requirements` |
 | `kt:requirements-engineering` | `kt:non-functional-requirements` |
-| `kt:mutual-tls-authentication` | `kt:login-ip-ranges-and-trusted-ip-ranges` |
+| `kt:ldap` | `kt:delegated-authentication` |
 | `kt:platform-cache-partitions` | `kt:platform-cache` |
 | `kt:data-cloud-code-extension` | `kt:vector-search-in-data-cloud` |
 | `kt:unstructured-data-in-data-cloud` | `kt:vector-search-in-data-cloud` |

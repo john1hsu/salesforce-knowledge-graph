@@ -2328,6 +2328,28 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-virtualization> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#partOf> <https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-patterns> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-virtualization> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-virtualization> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/delegated-authentication> <http://purl.org/dc/terms/created> "2026-11-13" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/delegated-authentication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/delegated-authentication> <http://www.w3.org/2000/01/rdf-schema#label> "Delegated Authentication" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/delegated-authentication> <http://www.w3.org/2004/02/skos/core#altLabel> "Delegated Gateway URL" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/delegated-authentication> <http://www.w3.org/2004/02/skos/core#altLabel> "delegated SSO" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/delegated-authentication> <http://www.w3.org/2004/02/skos/core#altLabel> "delegated authentication SSO" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/delegated-authentication> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-identity> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/delegated-authentication> <http://www.w3.org/2004/02/skos/core#definition> "A Salesforce single sign-on method in which Salesforce validates a user's password by calling a customer-hosted SOAP web service (often wrapping LDAP) that answers true or false, so passwords and their policies live in the external system rather than in Salesforce." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/delegated-authentication> <http://www.w3.org/2004/02/skos/core#prefLabel> "Delegated Authentication" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/delegated-authentication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/login-ip-ranges-and-trusted-ip-ranges> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/delegated-authentication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/multi-factor-authentication> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/delegated-authentication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/password-policies> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/delegated-authentication> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/delegated-authentication/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/delegated-authentication> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/delegated-authentication/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/delegated-authentication> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/delegated-authentication/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/delegated-authentication> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/delegated-authentication/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/delegated-authentication> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#alternativeTo> <https://github.com/john1hsu/salesforce-knowledge-graph/id/openid-connect-authentication-providers> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/delegated-authentication> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#alternativeTo> <https://github.com/john1hsu/salesforce-knowledge-graph/id/single-sign-on-saml> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/delegated-authentication> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "identity" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/delegated-authentication> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/ldap> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/delegated-authentication> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/delegated-authentication> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/deployment-validation-and-quick-deploy> <http://purl.org/dc/terms/created> "2026-11-10" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/deployment-validation-and-quick-deploy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/deployment-validation-and-quick-deploy> <http://www.w3.org/2000/01/rdf-schema#label> "Deployment Validation and Quick Deploy" .
@@ -10356,6 +10378,26 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-virtualization/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-virtualization/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-virtualization/s5> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/salesforce_heroku_integration/integrating_with_salesforce_connect" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/delegated-authentication/s1> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/delegated-authentication/s1> <http://purl.org/dc/terms/title> "Delegated Authentication" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/delegated-authentication/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/delegated-authentication/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/delegated-authentication/s1> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=sf.sso_delauthentication.htm&language=en_US&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/delegated-authentication/s2> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/delegated-authentication/s2> <http://purl.org/dc/terms/title> "Configure Salesforce for Delegated Authentication" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/delegated-authentication/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/delegated-authentication/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/delegated-authentication/s2> <https://schema.org/url> "https://help.salesforce.com/s/articleView?language=en_US&id=sf.sso_delauthentication_configuring.htm&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/delegated-authentication/s3> <http://purl.org/dc/terms/publisher> "Salesforce Help (Knowledge Article 000385305)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/delegated-authentication/s3> <http://purl.org/dc/terms/title> "Single Sign-On and Password Management FAQ for Salesforce Delegated Authentication" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/delegated-authentication/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/delegated-authentication/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/delegated-authentication/s3> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=000385305&language=en_US&type=1" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/delegated-authentication/s4> <http://purl.org/dc/terms/publisher> "Salesforce Security" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/delegated-authentication/s4> <http://purl.org/dc/terms/title> "Multi-Factor Authentication (MFA)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/delegated-authentication/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/delegated-authentication/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/delegated-authentication/s4> <https://schema.org/url> "https://security.salesforce.com/mfa" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/deployment-validation-and-quick-deploy/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers (Metadata API Developer Guide)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/deployment-validation-and-quick-deploy/s1> <http://purl.org/dc/terms/title> "Deploy a Recently Validated Component Set Without Tests" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/deployment-validation-and-quick-deploy/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
