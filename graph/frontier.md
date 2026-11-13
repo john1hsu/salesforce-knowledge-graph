@@ -6,7 +6,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 |---|---|
 | `kt:agentexchange` | `kt:appexchange-security-review`, `kt:build-vs-buy-decisions`, `kt:model-context-protocol-in-agentforce` |
 | `kt:heroku` | `kt:platform-as-a-service`, `kt:salesforce-cpq` |
-| `kt:api-led-connectivity` | `kt:mulesoft-anypoint-platform`, `kt:mulesoft-platform-architect-certification` |
 | `kt:external-services` | `kt:apex-callouts`, `kt:flow-http-callout` |
 | `kt:content-security-policy` | `kt:lightning-locker`, `kt:lightning-web-security` |
 | `kt:session-settings` | `kt:lightning-locker`, `kt:lightning-web-security` |
@@ -25,8 +24,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:change-data-capture-allocations` | `kt:change-data-capture` |
 | `kt:platform-event-channel-member` | `kt:change-data-capture` |
 | `kt:apex-flex-queue` | `kt:batch-apex` |
-| `kt:orglimits-class` | `kt:limits-class` |
 | `kt:process-integration` | `kt:data-integration` |
+| `kt:orglimits-class` | `kt:limits-class` |
 | `kt:transaction-finalizers` | `kt:queueable-apex` |
 | `kt:governance-risk-and-compliance` | `kt:security-compliance-frameworks` |
 | `kt:mule-runtime-engine` | `kt:mulesoft-anypoint-platform` |
@@ -98,6 +97,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:lightning-out` | `kt:lightning-locker` |
 | `kt:apex-mocks` | `kt:apex-enterprise-patterns` |
 | `kt:dynamic-soql` | `kt:soql-injection` |
+| `kt:application-network` | `kt:api-led-connectivity` |
+| `kt:mulesoft-platform-integration-architect-certification` | `kt:mulesoft-platform-architect-certification` |
+| `kt:point-to-point-integration` | `kt:api-led-connectivity` |
 | `kt:generative-ai` | `kt:retrieval-augmented-generation-in-salesforce` |
 | `kt:automation-studio` | `kt:marketing-cloud-engagement` |
 | `kt:contact-builder` | `kt:marketing-cloud-engagement` |
@@ -116,14 +118,13 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:ingestion-api` | `kt:data-streams` |
 | `kt:fhir` | `kt:health-cloud` |
 | `kt:utilization-management` | `kt:health-cloud` |
-| `kt:mulesoft-platform-integration-architect-certification` | `kt:mulesoft-platform-architect-certification` |
 | `kt:user-management` | `kt:user-access-policies` |
 | `kt:flow-limits` | `kt:flow-versioning` |
-| `kt:salesforce-lightning-design-system` | `kt:visualforce` |
 | `kt:it-governance` | `kt:salesforce-governance` |
+| `kt:salesforce-lightning-design-system` | `kt:visualforce` |
+| `kt:security-governance` | `kt:salesforce-governance` |
 | `kt:multiple-currencies` | `kt:price-books` |
 | `kt:opportunity-products` | `kt:price-books` |
-| `kt:security-governance` | `kt:salesforce-governance` |
 | `kt:holidays` | `kt:business-hours` |
 | `kt:security-center` | `kt:continuous-monitoring` |
 | `kt:salesforce-licensing` | `kt:user-licenses` |
@@ -134,9 +135,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:slack-workflow-builder` | `kt:slack-platform` |
 | `kt:soc-1` | `kt:soc-2` |
 | `kt:trust-services-criteria` | `kt:soc-2` |
-| `kt:custom-permissions` | `kt:validation-rules` |
 | `kt:iso-iec-25010` | `kt:non-functional-requirements` |
 | `kt:requirements-engineering` | `kt:non-functional-requirements` |
+| `kt:custom-permissions` | `kt:validation-rules` |
 | `kt:ldap` | `kt:delegated-authentication` |
 | `kt:platform-cache-partitions` | `kt:platform-cache` |
 | `kt:agentforce-nonprofit-consultant-certification` | `kt:agentforce-nonprofit` |

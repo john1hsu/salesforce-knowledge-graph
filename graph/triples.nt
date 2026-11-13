@@ -538,6 +538,32 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/soql> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/api-led-connectivity> <http://purl.org/dc/terms/created> "2026-11-13" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/api-led-connectivity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Pattern> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/api-led-connectivity> <http://www.w3.org/2000/01/rdf-schema#label> "API-led Connectivity" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/api-led-connectivity> <http://www.w3.org/2004/02/skos/core#altLabel> "API-led integration" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/api-led-connectivity> <http://www.w3.org/2004/02/skos/core#altLabel> "System Process Experience APIs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/api-led-connectivity> <http://www.w3.org/2004/02/skos/core#altLabel> "three-layer API architecture" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/api-led-connectivity> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-integration> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/api-led-connectivity> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-patterns> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/api-led-connectivity> <http://www.w3.org/2004/02/skos/core#definition> "MuleSoft's integration approach that connects data to applications through reusable, purpose-built APIs organized in three layers: System APIs that unlock systems of record, Process APIs that compose business logic, and Experience APIs that shape data for specific channels, replacing brittle point-to-point connections." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/api-led-connectivity> <http://www.w3.org/2004/02/skos/core#prefLabel> "API-led Connectivity" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/api-led-connectivity> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/event-driven-architecture> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/api-led-connectivity> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/mulesoft-anypoint-platform> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/api-led-connectivity> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/mulesoft-platform-architect-certification> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/api-led-connectivity> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-apis> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/api-led-connectivity> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/api-led-connectivity/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/api-led-connectivity> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/api-led-connectivity/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/api-led-connectivity> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/api-led-connectivity/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/api-led-connectivity> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/api-led-connectivity/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/api-led-connectivity> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/api-led-connectivity/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/api-led-connectivity> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/api-led-connectivity/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/api-led-connectivity> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/api-led-connectivity/s7> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/api-led-connectivity> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#contrastsWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/point-to-point-integration> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/api-led-connectivity> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "integration" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/api-led-connectivity> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#enables> <https://github.com/john1hsu/salesforce-knowledge-graph/id/application-network> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/api-led-connectivity> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/api-led-connectivity> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/api-request-limits> <http://purl.org/dc/terms/created> "2026-11-05" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/api-request-limits> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Limit> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/api-request-limits> <http://www.w3.org/2000/01/rdf-schema#label> "API Request Limits" .
@@ -8760,6 +8786,41 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex/s6> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/apex_database/apex_database_intro" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/api-led-connectivity/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/api-led-connectivity/s1> <http://purl.org/dc/terms/title> "Explore API-Led Connectivity (Application Networks and API-Led Connectivity in MuleSoft)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/api-led-connectivity/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/api-led-connectivity/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/api-led-connectivity/s1> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/application-networks-and-api-led-connectivity-in-mulesoft/explore-api-led-connectivity" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/api-led-connectivity/s2> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/api-led-connectivity/s2> <http://purl.org/dc/terms/title> "Discover Application Networks (Application Networks and API-Led Connectivity in MuleSoft)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/api-led-connectivity/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/api-led-connectivity/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/api-led-connectivity/s2> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/application-networks-and-api-led-connectivity-in-mulesoft/discover-application-networks" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/api-led-connectivity/s3> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/api-led-connectivity/s3> <http://purl.org/dc/terms/title> "Explore the Application Network (MuleSoft Basics)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/api-led-connectivity/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/api-led-connectivity/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/api-led-connectivity/s3> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/mulesoft-basics/app-network" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/api-led-connectivity/s4> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/api-led-connectivity/s4> <http://purl.org/dc/terms/title> "What Is API-led Connectivity?" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/api-led-connectivity/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/api-led-connectivity/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/api-led-connectivity/s4> <https://schema.org/url> "https://www.salesforce.com/blog/api-led-connectivity/?bc=OTH" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/api-led-connectivity/s5> <http://purl.org/dc/terms/publisher> "MuleSoft (Salesforce)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/api-led-connectivity/s5> <http://purl.org/dc/terms/title> "Patterns to debunk API-led connectivity myths" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/api-led-connectivity/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/api-led-connectivity/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/api-led-connectivity/s5> <https://schema.org/url> "https://blogs.mulesoft.com/api-integration/patterns/patterns-to-debunk-api-led-connectivity-myths/" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/api-led-connectivity/s6> <http://purl.org/dc/terms/publisher> "Salesforce Architects" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/api-led-connectivity/s6> <http://purl.org/dc/terms/title> "Get Started with Integration Decision Guides" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/api-led-connectivity/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/api-led-connectivity/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/api-led-connectivity/s6> <https://schema.org/url> "https://architect.salesforce.com/docs/architect/decision-guides/guide/get-started-integration-decision-guides.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/api-led-connectivity/s7> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/api-led-connectivity/s7> <http://purl.org/dc/terms/title> "Salesforce Certified MuleSoft Platform Architect" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/api-led-connectivity/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/api-led-connectivity/s7> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/api-led-connectivity/s7> <https://schema.org/url> "https://trailhead.salesforce.com/en/credentials/mulesoftplatformarchitecti" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/api-request-limits/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/api-request-limits/s1> <http://purl.org/dc/terms/title> "API Request Limits and Allocations (Salesforce Developer Limits and Allocations Quick Reference)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/api-request-limits/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

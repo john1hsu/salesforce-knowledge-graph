@@ -19805,6 +19805,98 @@
       ]
     },
     {
+      "@id": "kt:api-led-connectivity",
+      "@type": "kto:Pattern",
+      "skos:prefLabel": "API-led Connectivity",
+      "skos:definition": "MuleSoft's integration approach that connects data to applications through reusable, purpose-built APIs organized in three layers: System APIs that unlock systems of record, Process APIs that compose business logic, and Experience APIs that shape data for specific channels, replacing brittle point-to-point connections.",
+      "kto:domain": "integration",
+      "dcterms:created": "2026-11-13",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Explore API-Led Connectivity (Application Networks and API-Led Connectivity in MuleSoft)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/application-networks-and-api-led-connectivity-in-mulesoft/explore-api-led-connectivity",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Discover Application Networks (Application Networks and API-Led Connectivity in MuleSoft)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/application-networks-and-api-led-connectivity-in-mulesoft/discover-application-networks",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Explore the Application Network (MuleSoft Basics)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/mulesoft-basics/app-network",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "What Is API-led Connectivity?",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/blog/api-led-connectivity/?bc=OTH",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Patterns to debunk API-led connectivity myths",
+          "dcterms:publisher": "MuleSoft (Salesforce)",
+          "schema:url": "https://blogs.mulesoft.com/api-integration/patterns/patterns-to-debunk-api-led-connectivity-myths/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Get Started with Integration Decision Guides",
+          "dcterms:publisher": "Salesforce Architects",
+          "schema:url": "https://architect.salesforce.com/docs/architect/decision-guides/guide/get-started-integration-decision-guides.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Salesforce Certified MuleSoft Platform Architect",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/en/credentials/mulesoftplatformarchitecti",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/integration/api-led-connectivity.md",
+      "skos:altLabel": [
+        "API-led integration",
+        "three-layer API architecture",
+        "System Process Experience APIs"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:integration-patterns"
+        },
+        {
+          "@id": "kt:data-integration"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:mulesoft-anypoint-platform"
+        },
+        {
+          "@id": "kt:salesforce-apis"
+        },
+        {
+          "@id": "kt:event-driven-architecture"
+        },
+        {
+          "@id": "kt:mulesoft-platform-architect-certification"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:point-to-point-integration"
+        }
+      ],
+      "kto:enables": [
+        {
+          "@id": "kt:application-network"
+        }
+      ]
+    },
+    {
       "@id": "kt:api-request-limits",
       "@type": "kto:Limit",
       "skos:prefLabel": "API Request Limits",
