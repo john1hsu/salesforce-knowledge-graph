@@ -972,6 +972,33 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/big-objects> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/soql> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/big-objects> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/big-objects> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/branching-strategy> <http://purl.org/dc/terms/created> "2026-11-13" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/branching-strategy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/branching-strategy> <http://www.w3.org/2000/01/rdf-schema#label> "Branching Strategy" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/branching-strategy> <http://www.w3.org/2004/02/skos/core#altLabel> "Git branching strategy" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/branching-strategy> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce branching strategy" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/branching-strategy> <http://www.w3.org/2004/02/skos/core#altLabel> "branching model" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/branching-strategy> <http://www.w3.org/2004/02/skos/core#altLabel> "source control branching model" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/branching-strategy> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/application-lifecycle-management> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/branching-strategy> <http://www.w3.org/2004/02/skos/core#definition> "The team convention for how Git branches are created, named, merged and mapped to Salesforce environments, which decides how metadata changes move from development orgs through test sandboxes to production." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/branching-strategy> <http://www.w3.org/2004/02/skos/core#prefLabel> "Branching Strategy" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/branching-strategy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/change-sets> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/branching-strategy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/continuous-integration-for-salesforce> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/branching-strategy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/environment-strategy> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/branching-strategy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/scratch-orgs> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/branching-strategy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source-tracking> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/branching-strategy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/branching-strategy/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/branching-strategy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/branching-strategy/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/branching-strategy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/branching-strategy/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/branching-strategy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/branching-strategy/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/branching-strategy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/branching-strategy/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/branching-strategy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/branching-strategy/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/branching-strategy> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/devops-center> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/branching-strategy> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-types> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/branching-strategy> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "devops-and-alm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/branching-strategy> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-cli> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/branching-strategy> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/branching-strategy> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/bulk-api-2> <http://purl.org/dc/terms/created> "2026-11-02" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/bulk-api-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#API> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/bulk-api-2> <http://www.w3.org/2000/01/rdf-schema#label> "Bulk API 2.0" .
@@ -8979,6 +9006,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/big-objects/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/big-objects/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/big-objects/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.254.0.bigobjects.meta/bigobjects/big_object_querying.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/branching-strategy/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/branching-strategy/s1> <http://purl.org/dc/terms/title> "Build and Activate a Lifecycle Center Release Pipeline (Lifecycle Center Setup)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/branching-strategy/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/branching-strategy/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/branching-strategy/s1> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/devops-center-setup/build-your-release-pipeline" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/branching-strategy/s2> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/branching-strategy/s2> <http://purl.org/dc/terms/title> "Unbundled Promotions: A Deeper Look (DevOps Center Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/branching-strategy/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/branching-strategy/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/branching-strategy/s2> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.devops_center_dev.meta/devops_center_dev/devops_center_dev_promotions_unbundled.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/branching-strategy/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/branching-strategy/s3> <http://purl.org/dc/terms/title> "DevOps Center for Hybrid Teams" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/branching-strategy/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/branching-strategy/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/branching-strategy/s3> <https://schema.org/url> "https://developer.salesforce.com/blogs/2024/09/devops-center-for-hybrid-teams" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/branching-strategy/s4> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/branching-strategy/s4> <http://purl.org/dc/terms/title> "Work with Teams in GitHub (Git and GitHub Basics)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/branching-strategy/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/branching-strategy/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/branching-strategy/s4> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/git-and-git-hub-basics/work-with-teams-in-git-hub" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/branching-strategy/s5> <http://purl.org/dc/terms/publisher> "Gearset" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/branching-strategy/s5> <http://purl.org/dc/terms/title> "Choosing the right Git branching strategy for your Salesforce team" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/branching-strategy/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/branching-strategy/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "partner" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/branching-strategy/s5> <https://schema.org/url> "https://gearset.com/blog/choosing-the-right-git-branching-strategy-for-your-team/" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/branching-strategy/s6> <http://purl.org/dc/terms/publisher> "Gearset" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/branching-strategy/s6> <http://purl.org/dc/terms/title> "How to avoid and resolve merge conflicts in your Salesforce CI/CD pipeline" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/branching-strategy/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/branching-strategy/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "partner" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/branching-strategy/s6> <https://schema.org/url> "https://gearset.com/blog/how-to-resolve-salesforce-merge-conflicts/" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulk-api-2/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulk-api-2/s1> <http://purl.org/dc/terms/title> "Bulk API 2.0 (Bulk API 2.0 and Bulk API Developer Guide)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulk-api-2/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

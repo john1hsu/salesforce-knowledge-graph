@@ -14688,6 +14688,98 @@
       ]
     },
     {
+      "@id": "kt:branching-strategy",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Branching Strategy",
+      "skos:definition": "The team convention for how Git branches are created, named, merged and mapped to Salesforce environments, which decides how metadata changes move from development orgs through test sandboxes to production.",
+      "kto:domain": "devops-and-alm",
+      "dcterms:created": "2026-11-13",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Build and Activate a Lifecycle Center Release Pipeline (Lifecycle Center Setup)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/devops-center-setup/build-your-release-pipeline",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Unbundled Promotions: A Deeper Look (DevOps Center Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.devops_center_dev.meta/devops_center_dev/devops_center_dev_promotions_unbundled.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "DevOps Center for Hybrid Teams",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2024/09/devops-center-for-hybrid-teams",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Work with Teams in GitHub (Git and GitHub Basics)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/git-and-git-hub-basics/work-with-teams-in-git-hub",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Choosing the right Git branching strategy for your Salesforce team",
+          "dcterms:publisher": "Gearset",
+          "schema:url": "https://gearset.com/blog/choosing-the-right-git-branching-strategy-for-your-team/",
+          "kto:sourceType": "partner"
+        },
+        {
+          "dcterms:title": "How to avoid and resolve merge conflicts in your Salesforce CI/CD pipeline",
+          "dcterms:publisher": "Gearset",
+          "schema:url": "https://gearset.com/blog/how-to-resolve-salesforce-merge-conflicts/",
+          "kto:sourceType": "partner"
+        }
+      ],
+      "kto:file": "articles/devops-and-alm/branching-strategy.md",
+      "skos:altLabel": [
+        "Git branching strategy",
+        "Salesforce branching strategy",
+        "branching model",
+        "source control branching model"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:application-lifecycle-management"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:environment-strategy"
+        },
+        {
+          "@id": "kt:scratch-orgs"
+        },
+        {
+          "@id": "kt:source-tracking"
+        },
+        {
+          "@id": "kt:change-sets"
+        },
+        {
+          "@id": "kt:continuous-integration-for-salesforce"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:devops-center"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:sandbox-types"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:salesforce-cli"
+        }
+      ]
+    },
+    {
       "@id": "kt:change-sets",
       "@type": "kto:Tool",
       "skos:prefLabel": "Change Sets",
