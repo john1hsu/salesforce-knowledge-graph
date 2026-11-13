@@ -7,7 +7,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:heroku` | `kt:platform-as-a-service`, `kt:salesforce-cpq` |
 | `kt:api-led-connectivity` | `kt:mulesoft-anypoint-platform`, `kt:mulesoft-platform-architect-certification` |
 | `kt:external-services` | `kt:apex-callouts`, `kt:flow-http-callout` |
-| `kt:contacts-to-multiple-accounts` | `kt:agentforce-nonprofit`, `kt:person-accounts` |
 | `kt:salesforce-analytics` | `kt:crm-analytics`, `kt:tableau` |
 | `kt:user-licenses` | `kt:external-identity-license`, `kt:permission-set-licenses` |
 | `kt:agentexchange` | `kt:appexchange-security-review`, `kt:model-context-protocol-in-agentforce` |
@@ -26,8 +25,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:apex-flex-queue` | `kt:batch-apex` |
 | `kt:orglimits-class` | `kt:limits-class` |
 | `kt:process-integration` | `kt:data-integration` |
-| `kt:governance-risk-and-compliance` | `kt:security-compliance-frameworks` |
 | `kt:transaction-finalizers` | `kt:queueable-apex` |
+| `kt:governance-risk-and-compliance` | `kt:security-compliance-frameworks` |
 | `kt:mule-runtime-engine` | `kt:mulesoft-anypoint-platform` |
 | `kt:legacy-named-credentials` | `kt:named-credentials` |
 | `kt:salesforce-architecture-program` | `kt:salesforce-architecture-center` |
@@ -114,6 +113,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:scale-center` | `kt:scale-test` |
 | `kt:ingestion-api` | `kt:data-streams` |
 | `kt:data-actions` | `kt:streaming-insights` |
+| `kt:fhir` | `kt:health-cloud` |
+| `kt:utilization-management` | `kt:health-cloud` |
 | `kt:mulesoft-platform-integration-architect-certification` | `kt:mulesoft-platform-architect-certification` |
 | `kt:flow-limits` | `kt:flow-versioning` |
 | `kt:user-management` | `kt:user-access-policies` |
@@ -123,8 +124,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:multiple-currencies` | `kt:price-books` |
 | `kt:opportunity-products` | `kt:price-books` |
 | `kt:holidays` | `kt:business-hours` |
-| `kt:fhir` | `kt:health-cloud` |
-| `kt:utilization-management` | `kt:health-cloud` |
 | `kt:security-center` | `kt:continuous-monitoring` |
 | `kt:soc-1` | `kt:soc-2` |
 | `kt:trust-services-criteria` | `kt:soc-2` |
@@ -140,19 +139,19 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:platform-cache-partitions` | `kt:platform-cache` |
 | `kt:data-cloud-code-extension` | `kt:vector-search-in-data-cloud` |
 | `kt:unstructured-data-in-data-cloud` | `kt:vector-search-in-data-cloud` |
+| `kt:agentforce-nonprofit-consultant-certification` | `kt:agentforce-nonprofit` |
+| `kt:nonprofit-success-pack` | `kt:agentforce-nonprofit` |
 | `kt:models-api` | `kt:ai-models` |
 | `kt:digital-accessibility` | `kt:section-508-accessibility` |
 | `kt:model-context-protocol` | `kt:model-context-protocol-in-agentforce` |
-| `kt:notes-and-attachments` | `kt:content-document-model` |
 | `kt:release-management` | `kt:deployment-validation-and-quick-deploy` |
 | `kt:salesforce-hosted-mcp-servers` | `kt:model-context-protocol-in-agentforce` |
 | `kt:wcag` | `kt:section-508-accessibility` |
-| `kt:agentforce-nonprofit-consultant-certification` | `kt:agentforce-nonprofit` |
 | `kt:b2c-commerce-architect-certification` | `kt:b2c-solution-architect-certification` |
 | `kt:business-architecture` | `kt:capability-maps` |
 | `kt:commerce-cloud` | `kt:b2c-solution-architect-certification` |
 | `kt:email-templates` | `kt:email-alerts` |
-| `kt:nonprofit-success-pack` | `kt:agentforce-nonprofit` |
+| `kt:notes-and-attachments` | `kt:content-document-model` |
 | `kt:organization-wide-email-addresses` | `kt:email-alerts` |
 | `kt:technology-roadmaps` | `kt:capability-maps` |
 | `kt:value-streams` | `kt:capability-maps` |

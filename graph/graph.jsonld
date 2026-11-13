@@ -9718,6 +9718,93 @@
       ]
     },
     {
+      "@id": "kt:contacts-to-multiple-accounts",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Contacts to Multiple Accounts",
+      "skos:definition": "An Account Settings option that lets one contact be related to several accounts: the contact's primary account is a direct relationship and every other link is an indirect relationship stored as an AccountContactRelation record.",
+      "kto:domain": "data-model",
+      "dcterms:created": "2026-11-13",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Considerations for Relating a Contact to Multiple Accounts",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=sales.shared_contacts_considerations.htm&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Object Reference for the Salesforce Platform: AccountContactRelation",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/object_reference/sforce_api_objects_accountcontactrelation.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Accounts and Contacts: Understand Account and Contact Relationships",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/accounts_contacts_lightning_experience/understand-account-and-contact-relationships-lightning",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Health Cloud Administration: Enable Contacts to Relate to Multiple Accounts",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.health_cloud.meta/null/enable_shared_contacts.htm",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/data-model/contacts-to-multiple-accounts.md",
+      "skos:altLabel": [
+        "AccountContactRelation",
+        "Account Contact Relationship",
+        "shared contacts",
+        "indirect account relationships",
+        "relate a contact to multiple accounts"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:standard-objects"
+        },
+        {
+          "@id": "kt:object-relationships"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:person-accounts"
+        },
+        {
+          "@id": "kt:junction-object"
+        },
+        {
+          "@id": "kt:duplicate-management"
+        },
+        {
+          "@id": "kt:salesforce-sharing-model"
+        },
+        {
+          "@id": "kt:agentforce-nonprofit"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:salesforce-sharing-model"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:change-data-capture"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:health-cloud"
+        },
+        {
+          "@id": "kt:experience-cloud"
+        }
+      ]
+    },
+    {
       "@id": "kt:content-document-model",
       "@type": "kto:Concept",
       "skos:prefLabel": "Content Document Model",
