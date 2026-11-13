@@ -12777,6 +12777,9 @@
         },
         {
           "@id": "kt:lightning-message-service"
+        },
+        {
+          "@id": "kt:lightning-locker"
         }
       ],
       "kto:alternativeTo": [
@@ -13215,6 +13218,97 @@
       "kto:coveredBy": [
         {
           "@id": "kt:platform-developer-certification"
+        }
+      ]
+    },
+    {
+      "@id": "kt:lightning-locker",
+      "@type": "kto:SecurityControl",
+      "skos:prefLabel": "Lightning Locker",
+      "skos:definition": "The original client-side security architecture for Lightning components, which wraps JavaScript globals and DOM objects in secure wrappers so a component can only reach what it created; the predecessor to Lightning Web Security.",
+      "kto:domain": "development",
+      "dcterms:created": "2026-11-13",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Lightning Components Security Guide: How Lightning Web Security Compares to Lightning Locker",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/lightning-components-security/guide/get-started-compare-lws-locker.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Lightning Aura Components Developer Guide (264.0): Get Started with Security for Lightning Components",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.264.0.lightning.meta/lightning/security_intro.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Lightning Components Security Guide: Disable Lightning Locker for an Aura Component",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/lightning-components-security/guide/locker-disable.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Lightning Components Security Guide: Enable Lightning Web Security in an Org",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/lightning-components-security/guide/lws-enable.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Lightning Components Security Guide: When to Enable Lightning Web Security",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/lightning-components-security/guide/lws-when.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Experience Cloud LWR Sites Developer Guide: Lightning Web Security in LWR Sites",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/exp-cloud-lwr/guide/template-differences-locker.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/development/lightning-locker.md",
+      "skos:altLabel": [
+        "Locker Service",
+        "LockerService",
+        "Lightning LockerService",
+        "Salesforce Locker"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-platform"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aura-components"
+        },
+        {
+          "@id": "kt:lightning-web-components"
+        },
+        {
+          "@id": "kt:experience-cloud"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:lightning-web-security"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:session-settings"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:content-security-policy"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:lightning-out"
         }
       ]
     },

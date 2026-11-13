@@ -10,7 +10,7 @@ summary: >-
 release: "Winter '27"
 status: current
 broader: [kt:salesforce-platform]
-related: [kt:lightning-web-components, kt:lightning-data-service, kt:lightning-message-service]
+related: [kt:lightning-web-components, kt:lightning-data-service, kt:lightning-message-service, kt:lightning-locker]
 relations:
   - {predicate: alternativeTo, object: kt:lightning-web-components}
   - {predicate: integratesWith, object: kt:apex}
