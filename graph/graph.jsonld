@@ -28394,6 +28394,101 @@
           "@id": "kt:tooling-api"
         }
       ]
+    },
+    {
+      "@id": "kt:user-licenses",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "User Licenses",
+      "skos:definition": "The single license every Salesforce user is assigned, which sets the ceiling of user-level functionality and determines which profiles and permission sets that user can be given; permission set licenses can raise it, but profiles and permission sets can never exceed it.",
+      "kto:domain": "security-and-sharing",
+      "dcterms:created": "2026-11-13",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Understand How Licenses Work (Salesforce Licensing module)",
+          "dcterms:publisher": "Salesforce Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/salesforce-licensing/understand-how-licenses-work",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Give Users the Functionality They Need (Salesforce Licensing module)",
+          "dcterms:publisher": "Salesforce Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/salesforce-licensing/give-users-the-functionality-they-need",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "UserLicense (Object Reference for the Salesforce Platform)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/api/sforce_api_objects_userlicense.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "OEM User License Guide (ISVforce Guide)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/platform/isvforce/guide/oem-user-license-comparison.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Best Practices for Configuring Your Integration User",
+          "dcterms:publisher": "Salesforce Admins",
+          "schema:url": "https://admin.salesforce.com/blog/2023/best-practices-for-configuring-your-integration-user",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/security-and-sharing/user-licenses.md",
+      "skos:altLabel": [
+        "user license",
+        "Salesforce user license",
+        "UserLicense",
+        "user license types",
+        "License Def. ID"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-licensing"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:permission-set-licenses"
+        },
+        {
+          "@id": "kt:profiles"
+        },
+        {
+          "@id": "kt:permission-sets"
+        },
+        {
+          "@id": "kt:external-identity-license"
+        },
+        {
+          "@id": "kt:integration-security"
+        },
+        {
+          "@id": "kt:experience-cloud"
+        }
+      ],
+      "kto:enables": [
+        {
+          "@id": "kt:profiles"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:permission-set-licenses"
+        }
+      ],
+      "kto:queriedWith": [
+        {
+          "@id": "kt:soql"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:experience-cloud"
+        }
+      ]
     }
   ]
 }

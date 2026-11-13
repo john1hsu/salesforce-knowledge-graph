@@ -8,7 +8,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:api-led-connectivity` | `kt:mulesoft-anypoint-platform`, `kt:mulesoft-platform-architect-certification` |
 | `kt:external-services` | `kt:apex-callouts`, `kt:flow-http-callout` |
 | `kt:salesforce-analytics` | `kt:crm-analytics`, `kt:tableau` |
-| `kt:user-licenses` | `kt:external-identity-license`, `kt:permission-set-licenses` |
 | `kt:agentexchange` | `kt:appexchange-security-review`, `kt:model-context-protocol-in-agentforce` |
 | `kt:agentforce-data-library` | `kt:agentforce-specialist-certification`, `kt:retrieval-augmented-generation-in-salesforce` |
 | `kt:test-data-factory` | `kt:apex-testing` |
@@ -51,8 +50,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:data-detect` | `kt:salesforce-shield` |
 | `kt:compact-layouts` | `kt:page-layouts` |
 | `kt:custom-objects` | `kt:standard-objects` |
-| `kt:platform-administrator-ii-certification` | `kt:platform-administrator-certification` |
 | `kt:distributed-computing` | `kt:cloud-computing` |
+| `kt:platform-administrator-ii-certification` | `kt:platform-administrator-certification` |
 | `kt:flow-bulkification` | `kt:bulkification` |
 | `kt:data-mask-and-seed` | `kt:salesforce-data-mask` |
 | `kt:zero-trust-architecture` | `kt:principle-of-least-privilege` |
@@ -72,8 +71,10 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:omnistudio-consultant-certification` | `kt:omnistudio` |
 | `kt:omnistudio-developer-certification` | `kt:omnistudio` |
 | `kt:iso-iec-27002` | `kt:iso-iec-27001` |
-| `kt:hitrust-csf` | `kt:nist-cybersecurity-framework` |
 | `kt:delegated-authentication` | `kt:identity-connect` |
+| `kt:hitrust-csf` | `kt:nist-cybersecurity-framework` |
+| `kt:api-experience-hub` | `kt:external-identity-license` |
+| `kt:customer-community-licenses` | `kt:external-identity-license` |
 | `kt:certificate-and-key-management` | `kt:custom-domains` |
 | `kt:salesforce-edge-network` | `kt:custom-domains` |
 | `kt:salesforce-sites` | `kt:custom-domains` |
@@ -83,8 +84,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:tableau-semantics` | `kt:tableau` |
 | `kt:decision-tables` | `kt:salesforce-pricing` |
 | `kt:json-web-token` | `kt:openid-connect` |
-| `kt:api-experience-hub` | `kt:external-identity-license` |
-| `kt:customer-community-licenses` | `kt:external-identity-license` |
 | `kt:apex-rest-services` | `kt:remote-call-in` |
 | `kt:path` | `kt:business-processes` |
 | `kt:constraint-modeling-language` | `kt:product-configurator` |
@@ -116,8 +115,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:fhir` | `kt:health-cloud` |
 | `kt:utilization-management` | `kt:health-cloud` |
 | `kt:mulesoft-platform-integration-architect-certification` | `kt:mulesoft-platform-architect-certification` |
-| `kt:flow-limits` | `kt:flow-versioning` |
 | `kt:user-management` | `kt:user-access-policies` |
+| `kt:flow-limits` | `kt:flow-versioning` |
 | `kt:it-governance` | `kt:salesforce-governance` |
 | `kt:security-governance` | `kt:salesforce-governance` |
 | `kt:salesforce-lightning-design-system` | `kt:visualforce` |
@@ -125,13 +124,14 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:opportunity-products` | `kt:price-books` |
 | `kt:holidays` | `kt:business-hours` |
 | `kt:security-center` | `kt:continuous-monitoring` |
-| `kt:soc-1` | `kt:soc-2` |
-| `kt:trust-services-criteria` | `kt:soc-2` |
+| `kt:salesforce-licensing` | `kt:user-licenses` |
 | `kt:block-kit` | `kt:slack-platform` |
 | `kt:customer-360` | `kt:slack-platform` |
 | `kt:mulesoft-composer` | `kt:slack-platform` |
 | `kt:slack-api-rate-limits` | `kt:slack-platform` |
 | `kt:slack-workflow-builder` | `kt:slack-platform` |
+| `kt:soc-1` | `kt:soc-2` |
+| `kt:trust-services-criteria` | `kt:soc-2` |
 | `kt:custom-permissions` | `kt:validation-rules` |
 | `kt:iso-iec-25010` | `kt:non-functional-requirements` |
 | `kt:requirements-engineering` | `kt:non-functional-requirements` |

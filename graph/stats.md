@@ -1,9 +1,9 @@
 # Graph statistics
 
-- Articles (nodes written): **319**
+- Articles (nodes written): **320**
 - Frontier nodes (referenced, unwritten): **151**
-- Edges: **2921**
-- Citations: **1704**
+- Edges: **2932**
+- Citations: **1709**
 
 - Weakly connected components: **1**
 - Isolated articles (no edges): **0**
@@ -14,7 +14,7 @@
 |---|---|---|
 | `kt:governor-limits` | 0.0222 | yes |
 | `kt:salesforce-platform` | 0.0176 | yes |
-| `kt:flow-builder` | 0.0171 | yes |
+| `kt:flow-builder` | 0.0170 | yes |
 | `kt:apex-triggers` | 0.0164 | yes |
 | `kt:apex` | 0.0156 | yes |
 | `kt:metadata-api` | 0.0135 | yes |
@@ -28,25 +28,24 @@
 | `kt:salesforce-sharing-model` | 0.0109 | yes |
 | `kt:salesforce-cli` | 0.0103 | yes |
 
-## Communities (Louvain): 10
+## Communities (Louvain): 9
 
-1. `kt:actionable-relationship-center`, `kt:apex-managed-sharing`, `kt:archiving-strategy`, `kt:assignment-rules`, `kt:backup-and-recover`, `kt:big-objects`, `kt:bulk-api-1`, `kt:bulk-api-2`, `kt:bulk-api-allocations`, `kt:business-processes`, `kt:collaborative-forecasts`, `kt:compliant-data-sharing` …
+1. `kt:apex`, `kt:apex-enterprise-patterns`, `kt:apex-flex-queue`, `kt:apex-mocks`, `kt:apex-testing`, `kt:apex-triggers`, `kt:approval-processes`, `kt:assignment-rules`, `kt:asynchronous-apex`, `kt:autolaunched-flow`, `kt:batch-apex`, `kt:bulkification` …
 2. `kt:agent-actions`, `kt:agent-development-lifecycle`, `kt:agent-script`, `kt:agentexchange`, `kt:agentforce`, `kt:agentforce-data-library`, `kt:agentforce-dx`, `kt:agentforce-specialist-certification`, `kt:agentforce-studio`, `kt:agentforce-subagents`, `kt:agentforce-testing-center`, `kt:ai-models` …
-3. `kt:apex`, `kt:apex-enterprise-patterns`, `kt:apex-flex-queue`, `kt:apex-mocks`, `kt:apex-testing`, `kt:apex-triggers`, `kt:approval-processes`, `kt:asynchronous-apex`, `kt:autolaunched-flow`, `kt:batch-apex`, `kt:bulkification`, `kt:business-hours` …
-4. `kt:authority-to-operate`, `kt:cjis-security-policy`, `kt:classic-encryption`, `kt:cloud-computing`, `kt:continuous-monitoring`, `kt:data-detect`, `kt:data-residency`, `kt:data-sovereignty`, `kt:digital-accessibility`, `kt:distributed-computing`, `kt:dod-cloud-computing-srg`, `kt:fedramp` …
-5. `kt:account-takeover`, `kt:api-experience-hub`, `kt:connected-apps`, `kt:customer-community-licenses`, `kt:data-breach-risk`, `kt:delegated-authentication`, `kt:event-monitoring`, `kt:experience-cloud-identity`, `kt:external-client-apps`, `kt:external-identity-license`, `kt:headless-identity`, `kt:identity-and-access-management-architect-certification` …
-6. `kt:apex-callouts`, `kt:apex-continuations`, `kt:apex-rest-services`, `kt:api-request-limits`, `kt:batch-data-synchronization`, `kt:change-data-capture`, `kt:change-data-capture-allocations`, `kt:compact-layouts`, `kt:composite-api`, `kt:data-integration`, `kt:data-virtualization`, `kt:event-driven-architecture` …
+3. `kt:apex-managed-sharing`, `kt:archiving-strategy`, `kt:backup-and-recover`, `kt:big-objects`, `kt:bulk-api-1`, `kt:bulk-api-2`, `kt:bulk-api-allocations`, `kt:business-processes`, `kt:collaborative-forecasts`, `kt:contacts-to-multiple-accounts`, `kt:content-document-model`, `kt:custom-fields` …
+4. `kt:apex-callouts`, `kt:apex-continuations`, `kt:apex-rest-services`, `kt:api-request-limits`, `kt:aura-components`, `kt:batch-data-synchronization`, `kt:change-data-capture`, `kt:change-data-capture-allocations`, `kt:compact-layouts`, `kt:composite-api`, `kt:data-integration`, `kt:data-virtualization` …
+5. `kt:account-takeover`, `kt:api-experience-hub`, `kt:certificate-and-key-management`, `kt:connected-apps`, `kt:custom-domains`, `kt:customer-community-licenses`, `kt:data-breach-risk`, `kt:delegated-authentication`, `kt:event-monitoring`, `kt:experience-cloud`, `kt:experience-cloud-identity`, `kt:external-client-apps` …
+6. `kt:authority-to-operate`, `kt:cjis-security-policy`, `kt:classic-encryption`, `kt:cloud-computing`, `kt:continuous-monitoring`, `kt:data-detect`, `kt:data-residency`, `kt:data-sovereignty`, `kt:digital-accessibility`, `kt:distributed-computing`, `kt:dod-cloud-computing-srg`, `kt:fedramp` …
 7. `kt:apexguru`, `kt:api-led-connectivity`, `kt:application-architect-certification`, `kt:architect-decision-guides`, `kt:architecture-decision-records`, `kt:business-architecture`, `kt:capability-maps`, `kt:certified-technical-architect`, `kt:cta-review-board`, `kt:iso-iec-25010`, `kt:it-governance`, `kt:mulesoft-platform-architect-certification` …
 8. `kt:appexchange-security-review`, `kt:application-lifecycle-management`, `kt:change-sets`, `kt:code-analyzer`, `kt:data-mask-and-seed`, `kt:deployment-validation-and-quick-deploy`, `kt:dev-hub`, `kt:development-lifecycle-and-deployment-architect-certification`, `kt:devops-center`, `kt:dynamic-soql`, `kt:environment-strategy`, `kt:first-generation-managed-packages` …
-9. `kt:agentforce-nonprofit`, `kt:agentforce-nonprofit-consultant-certification`, `kt:block-kit`, `kt:business-rules-engine`, `kt:connect-api`, `kt:constraint-modeling-language`, `kt:context-service`, `kt:customer-360`, `kt:decision-tables`, `kt:dynamic-revenue-orchestrator`, `kt:mulesoft-composer`, `kt:multiple-currencies` …
-10. `kt:aura-components`, `kt:certificate-and-key-management`, `kt:custom-domains`, `kt:dispatcher-console`, `kt:dynamic-actions`, `kt:dynamic-forms`, `kt:dynamic-highlights-panel`, `kt:experience-builder`, `kt:experience-cloud`, `kt:field-service`, `kt:field-service-mobile-app`, `kt:field-service-scheduling-policies` …
+9. `kt:actionable-relationship-center`, `kt:agentforce-nonprofit`, `kt:agentforce-nonprofit-consultant-certification`, `kt:business-rules-engine`, `kt:compliant-data-sharing`, `kt:connect-api`, `kt:constraint-modeling-language`, `kt:context-service`, `kt:decision-tables`, `kt:dynamic-revenue-orchestrator`, `kt:fhir`, `kt:financial-services-cloud` …
 
 ## By type
 
 - API: 12
 - AntiPattern: 1
 - Certification: 17
-- Concept: 52
+- Concept: 53
 - ExternalConcept: 29
 - Feature: 114
 - Language: 4
@@ -73,7 +72,7 @@
 - integration: 27
 - platform-architecture: 27
 - public-sector-and-compliance: 26
-- security-and-sharing: 26
+- security-and-sharing: 27
 
 ## Unwritten seeds by domain (add more below 3)
 
@@ -92,12 +91,12 @@
 
 ## By verified release (oldest = most likely stale)
 
-- Winter '27: 319
+- Winter '27: 320
 
 ## By status
 
 - beta: 1
 - concept: 68
-- current: 244
+- current: 245
 - deprecated: 5
 - retired: 1
