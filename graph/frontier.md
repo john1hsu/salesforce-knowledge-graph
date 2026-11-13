@@ -11,6 +11,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:external-services` | `kt:apex-callouts`, `kt:flow-http-callout` |
 | `kt:salesforce-analytics` | `kt:crm-analytics`, `kt:tableau` |
 | `kt:agentforce-data-library` | `kt:agentforce-specialist-certification`, `kt:retrieval-augmented-generation-in-salesforce` |
+| `kt:customer-360` | `kt:commerce-cloud`, `kt:slack-platform` |
 | `kt:test-data-factory` | `kt:apex-testing` |
 | `kt:recursive-save` | `kt:order-of-execution` |
 | `kt:salesforce-ecosystem-roles` | `kt:salesforce-architect` |
@@ -95,10 +96,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:apex-mocks` | `kt:apex-enterprise-patterns` |
 | `kt:dynamic-soql` | `kt:soql-injection` |
 | `kt:generative-ai` | `kt:retrieval-augmented-generation-in-salesforce` |
-| `kt:dynamic-actions` | `kt:dynamic-forms` |
-| `kt:dynamic-highlights-panel` | `kt:dynamic-forms` |
-| `kt:actionable-relationship-center` | `kt:financial-services-cloud` |
-| `kt:compliant-data-sharing` | `kt:financial-services-cloud` |
 | `kt:automation-studio` | `kt:marketing-cloud-engagement` |
 | `kt:contact-builder` | `kt:marketing-cloud-engagement` |
 | `kt:journey-builder` | `kt:marketing-cloud-engagement` |
@@ -106,6 +103,10 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:marketing-cloud-connect` | `kt:marketing-cloud-engagement` |
 | `kt:marketing-cloud-next` | `kt:marketing-cloud-engagement` |
 | `kt:salesforce-marketing-solutions` | `kt:marketing-cloud-engagement` |
+| `kt:dynamic-actions` | `kt:dynamic-forms` |
+| `kt:dynamic-highlights-panel` | `kt:dynamic-forms` |
+| `kt:actionable-relationship-center` | `kt:financial-services-cloud` |
+| `kt:compliant-data-sharing` | `kt:financial-services-cloud` |
 | `kt:content-security-policy` | `kt:lightning-locker` |
 | `kt:lightning-out` | `kt:lightning-locker` |
 | `kt:session-settings` | `kt:lightning-locker` |
@@ -127,13 +128,12 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:security-center` | `kt:continuous-monitoring` |
 | `kt:salesforce-licensing` | `kt:user-licenses` |
 | `kt:mutual-tls-authentication` | `kt:login-ip-ranges-and-trusted-ip-ranges` |
+| `kt:soc-1` | `kt:soc-2` |
+| `kt:trust-services-criteria` | `kt:soc-2` |
 | `kt:block-kit` | `kt:slack-platform` |
-| `kt:customer-360` | `kt:slack-platform` |
 | `kt:mulesoft-composer` | `kt:slack-platform` |
 | `kt:slack-api-rate-limits` | `kt:slack-platform` |
 | `kt:slack-workflow-builder` | `kt:slack-platform` |
-| `kt:soc-1` | `kt:soc-2` |
-| `kt:trust-services-criteria` | `kt:soc-2` |
 | `kt:custom-permissions` | `kt:validation-rules` |
 | `kt:iso-iec-25010` | `kt:non-functional-requirements` |
 | `kt:requirements-engineering` | `kt:non-functional-requirements` |
@@ -146,6 +146,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:model-context-protocol` | `kt:model-context-protocol-in-agentforce` |
 | `kt:salesforce-hosted-mcp-servers` | `kt:model-context-protocol-in-agentforce` |
 | `kt:models-api` | `kt:ai-models` |
+| `kt:b2b-commerce` | `kt:commerce-cloud` |
+| `kt:b2c-commerce` | `kt:commerce-cloud` |
+| `kt:salesforce-order-management` | `kt:commerce-cloud` |
 | `kt:continuous-integration-for-salesforce` | `kt:branching-strategy` |
 | `kt:digital-accessibility` | `kt:section-508-accessibility` |
 | `kt:notes-and-attachments` | `kt:content-document-model` |
@@ -153,7 +156,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:wcag` | `kt:section-508-accessibility` |
 | `kt:b2c-commerce-architect-certification` | `kt:b2c-solution-architect-certification` |
 | `kt:business-architecture` | `kt:capability-maps` |
-| `kt:commerce-cloud` | `kt:b2c-solution-architect-certification` |
 | `kt:einstein-prediction-builder` | `kt:einstein-next-best-action` |
 | `kt:email-templates` | `kt:email-alerts` |
 | `kt:organization-wide-email-addresses` | `kt:email-alerts` |

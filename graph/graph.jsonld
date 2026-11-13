@@ -4998,6 +4998,95 @@
       ]
     },
     {
+      "@id": "kt:commerce-cloud",
+      "@type": "kto:Product",
+      "skos:prefLabel": "Commerce Cloud",
+      "skos:definition": "Salesforce's commerce product family, now taught on Trailhead under the umbrella name Agentforce Commerce, spanning B2C Commerce storefronts, B2B and D2C Commerce stores on the core platform, Order Management, Payments and point of sale.",
+      "kto:domain": "clouds-and-products",
+      "dcterms:created": "2026-11-13",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Discover Commerce Cloud (Commerce Cloud Quick Look, Trailhead unit)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/commerce-cloud-quick-look/discover-commerce-cloud",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Get to Know the Agentforce Commerce Products (Trailhead unit)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/agentforce-commerce-and-the-unified-commerce-platform/get-to-know-the-agentforce-commerce-products",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "B2C Commerce Storefront Options",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/commerce/sfra/guide/which-product.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "B2B Commerce Developer Guide: Get Started",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/commerce/salesforce-commerce/guide",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/clouds-and-products/commerce-cloud.md",
+      "skos:altLabel": [
+        "Agentforce Commerce",
+        "Salesforce Commerce Cloud",
+        "SFCC",
+        "Demandware"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:customer-360"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:experience-cloud"
+        },
+        {
+          "@id": "kt:lightning-web-components"
+        },
+        {
+          "@id": "kt:marketing-cloud-engagement"
+        },
+        {
+          "@id": "kt:service-cloud"
+        },
+        {
+          "@id": "kt:connect-api"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:b2c-commerce"
+        },
+        {
+          "@id": "kt:b2b-commerce"
+        },
+        {
+          "@id": "kt:salesforce-order-management"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:data-cloud"
+        },
+        {
+          "@id": "kt:agentforce"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:experience-builder"
+        }
+      ]
+    },
+    {
       "@id": "kt:context-service",
       "@type": "kto:Feature",
       "skos:prefLabel": "Context Service",
