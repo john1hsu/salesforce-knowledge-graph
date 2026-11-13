@@ -3516,6 +3516,32 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/government-cloud-plus> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#implements> <https://github.com/john1hsu/salesforce-knowledge-graph/id/fedramp-high> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/government-cloud-plus> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/government-cloud-plus> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/government-cloud> <http://purl.org/dc/terms/created> "2026-11-13" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/government-cloud> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Product> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/government-cloud> <http://www.w3.org/2000/01/rdf-schema#label> "Government Cloud" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/government-cloud> <http://www.w3.org/2004/02/skos/core#altLabel> "Government Cloud orgs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/government-cloud> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce GovCloud" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/government-cloud> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce Government Cloud" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/government-cloud> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-platform> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/government-cloud> <http://www.w3.org/2004/02/skos/core#definition> "Salesforce's family of government-only environments, launched in 2014 as a dedicated, US-staffed instance with a FedRAMP Moderate agency ATO and now sold as Government Cloud Plus, Plus - Defense and Plus - Premium editions on AWS GovCloud (US)." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/government-cloud> <http://www.w3.org/2004/02/skos/core#prefLabel> "Government Cloud" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/government-cloud> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-residency> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/government-cloud> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/il4-and-il5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/government-cloud> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/multitenancy> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/government-cloud> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/public-sector-solutions> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/government-cloud> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-shield> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/government-cloud> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/government-cloud/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/government-cloud> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/government-cloud/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/government-cloud> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/government-cloud/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/government-cloud> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/government-cloud/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/government-cloud> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/government-cloud/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/government-cloud> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/government-cloud/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/government-cloud> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#contrastsWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/government-cloud-plus> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/government-cloud> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/my-domain> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/government-cloud> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "public-sector-and-compliance" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/government-cloud> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#implements> <https://github.com/john1hsu/salesforce-knowledge-graph/id/fedramp> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/government-cloud> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/government-cloud> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/governor-limits> <http://purl.org/dc/terms/created> "2026-10-30" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/governor-limits> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Limit> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/governor-limits> <http://www.w3.org/2000/01/rdf-schema#label> "Governor Limits" .
@@ -11508,6 +11534,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/government-cloud-plus/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/government-cloud-plus/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/government-cloud-plus/s6> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/agentforcevibes/guide/afv-government-cloud.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/government-cloud/s1> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/government-cloud/s1> <http://purl.org/dc/terms/title> "Salesforce.com announces new Salesforce Government Cloud" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/government-cloud/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/government-cloud/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "news" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/government-cloud/s1> <https://schema.org/url> "https://www.salesforce.com/news/?p=20732" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/government-cloud/s2> <http://purl.org/dc/terms/publisher> "Salesforce (hosted by the California Department of Technology)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/government-cloud/s2> <http://purl.org/dc/terms/title> "Salesforce Security White Paper for Salesforce Government Cloud (November 2018)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/government-cloud/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/government-cloud/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/government-cloud/s2> <https://schema.org/url> "https://etp.ca.gov/wp-content/uploads/sites/70/2019/10/salesforce-security-white-paper-for-salesforce-government-cloud.pdf" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/government-cloud/s3> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/government-cloud/s3> <http://purl.org/dc/terms/title> "Salesforce Government Cloud" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/government-cloud/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/government-cloud/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/government-cloud/s3> <https://schema.org/url> "https://www.salesforce.com/government/cloud/" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/government-cloud/s4> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/government-cloud/s4> <http://purl.org/dc/terms/title> "FedRAMP and Government Cloud FAQ" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/government-cloud/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/government-cloud/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/government-cloud/s4> <https://schema.org/url> "https://www.salesforce.com/fedramp/" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/government-cloud/s5> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/government-cloud/s5> <http://purl.org/dc/terms/title> "Prepare for a migration to Government Cloud" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/government-cloud/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/government-cloud/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/government-cloud/s5> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=000387917&language=en_US&type=1" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/government-cloud/s6> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/government-cloud/s6> <http://purl.org/dc/terms/title> "Use Agentforce Vibes with Government Cloud Orgs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/government-cloud/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/government-cloud/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/government-cloud/s6> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/agentforcevibes/guide/afv-government-cloud.html" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/governor-limits/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/governor-limits/s1> <http://purl.org/dc/terms/title> "Apex Developer Guide: Execution Governors and Limits" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/governor-limits/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

@@ -25000,6 +25000,97 @@
       ]
     },
     {
+      "@id": "kt:government-cloud",
+      "@type": "kto:Product",
+      "skos:prefLabel": "Government Cloud",
+      "skos:definition": "Salesforce's family of government-only environments, launched in 2014 as a dedicated, US-staffed instance with a FedRAMP Moderate agency ATO and now sold as Government Cloud Plus, Plus - Defense and Plus - Premium editions on AWS GovCloud (US).",
+      "kto:domain": "public-sector-and-compliance",
+      "dcterms:created": "2026-11-13",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Salesforce.com announces new Salesforce Government Cloud",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/news/?p=20732",
+          "kto:sourceType": "news"
+        },
+        {
+          "dcterms:title": "Salesforce Security White Paper for Salesforce Government Cloud (November 2018)",
+          "dcterms:publisher": "Salesforce (hosted by the California Department of Technology)",
+          "schema:url": "https://etp.ca.gov/wp-content/uploads/sites/70/2019/10/salesforce-security-white-paper-for-salesforce-government-cloud.pdf",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Salesforce Government Cloud",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/government/cloud/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "FedRAMP and Government Cloud FAQ",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/fedramp/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Prepare for a migration to Government Cloud",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=000387917&language=en_US&type=1",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Use Agentforce Vibes with Government Cloud Orgs",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/agentforcevibes/guide/afv-government-cloud.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/public-sector-and-compliance/government-cloud.md",
+      "skos:altLabel": [
+        "Salesforce Government Cloud",
+        "Salesforce GovCloud",
+        "Government Cloud orgs"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-platform"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:public-sector-solutions"
+        },
+        {
+          "@id": "kt:il4-and-il5"
+        },
+        {
+          "@id": "kt:salesforce-shield"
+        },
+        {
+          "@id": "kt:data-residency"
+        },
+        {
+          "@id": "kt:multitenancy"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:government-cloud-plus"
+        }
+      ],
+      "kto:implements": [
+        {
+          "@id": "kt:fedramp"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:my-domain"
+        }
+      ]
+    },
+    {
       "@id": "kt:hipaa",
       "@type": "kto:ExternalConcept",
       "skos:prefLabel": "HIPAA",
