@@ -15468,6 +15468,105 @@
       ]
     },
     {
+      "@id": "kt:continuous-integration-for-salesforce",
+      "@type": "kto:Pattern",
+      "skos:prefLabel": "Continuous Integration for Salesforce",
+      "skos:definition": "The practice of automatically validating every Salesforce change merged into source control by having a CI server authenticate headlessly with Salesforce CLI, deploy the change to a disposable scratch org or sandbox, and run Apex tests and static analysis before the change can merge.",
+      "kto:domain": "devops-and-alm",
+      "dcterms:created": "2026-11-13",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Learn How to Test, Build, and Release (Package Development Model)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/sfdx_dev_model/sfdx_dev_model_release",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Authorize an Org Using the JWT Flow (Salesforce DX Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/sfdx-dev/guide/sfdx-dev-auth-jwt-flow.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "project deploy validate (Salesforce CLI Command Reference)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/salesforce-cli-reference/guide/cli_reference_project_deploy_validate.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Run Relevant Apex Tests in a Deployment (Beta) (Metadata API Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/api-metadata/guide/meta-deploy-run-relevant-tests.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "CI/CD Integration with Code Analyzer",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/salesforce-code-analyzer/guide/ci-cd.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Continuous Integration with Salesforce DX",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2019/05/continuous-integration-with-salesforce-dx",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/devops-and-alm/continuous-integration-for-salesforce.md",
+      "skos:altLabel": [
+        "Salesforce continuous integration",
+        "Salesforce CI",
+        "CI for Salesforce DX",
+        "Salesforce CI pipeline"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:application-lifecycle-management"
+        },
+        {
+          "@id": "kt:salesforce-dx"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:branching-strategy"
+        },
+        {
+          "@id": "kt:scratch-orgs"
+        },
+        {
+          "@id": "kt:deployment-validation-and-quick-deploy"
+        },
+        {
+          "@id": "kt:unlocked-packages"
+        },
+        {
+          "@id": "kt:testing-strategy"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:salesforce-cli"
+        },
+        {
+          "@id": "kt:jwt-bearer-flow"
+        },
+        {
+          "@id": "kt:apex-testing"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:code-analyzer"
+        },
+        {
+          "@id": "kt:devops-center"
+        }
+      ]
+    },
+    {
       "@id": "kt:deployment-validation-and-quick-deploy",
       "@type": "kto:Feature",
       "skos:prefLabel": "Deployment Validation and Quick Deploy",
