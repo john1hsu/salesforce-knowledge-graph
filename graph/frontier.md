@@ -4,12 +4,12 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
+| `kt:agentexchange` | `kt:appexchange-security-review`, `kt:build-vs-buy-decisions`, `kt:model-context-protocol-in-agentforce` |
 | `kt:lightning-web-security` | `kt:lightning-locker`, `kt:lightning-web-components` |
 | `kt:heroku` | `kt:platform-as-a-service`, `kt:salesforce-cpq` |
 | `kt:api-led-connectivity` | `kt:mulesoft-anypoint-platform`, `kt:mulesoft-platform-architect-certification` |
 | `kt:external-services` | `kt:apex-callouts`, `kt:flow-http-callout` |
 | `kt:salesforce-analytics` | `kt:crm-analytics`, `kt:tableau` |
-| `kt:agentexchange` | `kt:appexchange-security-review`, `kt:model-context-protocol-in-agentforce` |
 | `kt:agentforce-data-library` | `kt:agentforce-specialist-certification`, `kt:retrieval-augmented-generation-in-salesforce` |
 | `kt:test-data-factory` | `kt:apex-testing` |
 | `kt:recursive-save` | `kt:order-of-execution` |
@@ -27,8 +27,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:governance-risk-and-compliance` | `kt:security-compliance-frameworks` |
 | `kt:transaction-finalizers` | `kt:queueable-apex` |
 | `kt:mule-runtime-engine` | `kt:mulesoft-anypoint-platform` |
-| `kt:legacy-named-credentials` | `kt:named-credentials` |
 | `kt:salesforce-architecture-program` | `kt:salesforce-architecture-center` |
+| `kt:legacy-named-credentials` | `kt:named-credentials` |
 | `kt:managed-event-subscriptions` | `kt:pub-sub-api` |
 | `kt:streaming-api` | `kt:pub-sub-api` |
 | `kt:upsert` | `kt:external-id-fields` |
@@ -72,8 +72,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:iso-iec-27002` | `kt:iso-iec-27001` |
 | `kt:hitrust-csf` | `kt:nist-cybersecurity-framework` |
 | `kt:api-experience-hub` | `kt:external-identity-license` |
-| `kt:customer-community-licenses` | `kt:external-identity-license` |
 | `kt:certificate-and-key-management` | `kt:custom-domains` |
+| `kt:customer-community-licenses` | `kt:external-identity-license` |
 | `kt:salesforce-edge-network` | `kt:custom-domains` |
 | `kt:salesforce-sites` | `kt:custom-domains` |
 | `kt:scim` | `kt:salesforce-scim` |
@@ -146,15 +146,15 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:model-context-protocol` | `kt:model-context-protocol-in-agentforce` |
 | `kt:salesforce-hosted-mcp-servers` | `kt:model-context-protocol-in-agentforce` |
 | `kt:models-api` | `kt:ai-models` |
-| `kt:b2c-commerce-architect-certification` | `kt:b2c-solution-architect-certification` |
-| `kt:business-architecture` | `kt:capability-maps` |
-| `kt:commerce-cloud` | `kt:b2c-solution-architect-certification` |
 | `kt:continuous-integration-for-salesforce` | `kt:branching-strategy` |
 | `kt:digital-accessibility` | `kt:section-508-accessibility` |
 | `kt:email-templates` | `kt:email-alerts` |
 | `kt:notes-and-attachments` | `kt:content-document-model` |
 | `kt:organization-wide-email-addresses` | `kt:email-alerts` |
 | `kt:release-management` | `kt:deployment-validation-and-quick-deploy` |
+| `kt:wcag` | `kt:section-508-accessibility` |
+| `kt:b2c-commerce-architect-certification` | `kt:b2c-solution-architect-certification` |
+| `kt:business-architecture` | `kt:capability-maps` |
+| `kt:commerce-cloud` | `kt:b2c-solution-architect-certification` |
 | `kt:technology-roadmaps` | `kt:capability-maps` |
 | `kt:value-streams` | `kt:capability-maps` |
-| `kt:wcag` | `kt:section-508-accessibility` |

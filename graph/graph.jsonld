@@ -422,6 +422,85 @@
       ]
     },
     {
+      "@id": "kt:build-vs-buy-decisions",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Build vs. Buy Decisions",
+      "skos:definition": "The architect's choice, requirement by requirement, between standard configuration, custom development and a third-party AppExchange (AgentExchange) product, weighed on fit, total cost, support, longevity, security and limits.",
+      "kto:domain": "architecture-practice",
+      "dcterms:created": "2026-11-13",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What Is a Salesforce Architect?",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/blog/what-is-a-salesforce-architect/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Get Started with AppExchange (AppExchange Basics)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/appexchange_basics/appexchange_basics_overview",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Understand the Need for Solution Security (ISV Security Review)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/modules/isv_security_review/units/isv_security_review_intro",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Execution Governors and Limits (Apex Reference)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexref/apex_gov_limits.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Component attributes and their importance in decisions and component selection",
+          "dcterms:publisher": "Software Quality Journal (Springer)",
+          "schema:url": "https://link.springer.com/article/10.1007/s11219-019-09465-2",
+          "kto:sourceType": "peer-reviewed"
+        }
+      ],
+      "kto:file": "articles/architecture-practice/build-vs-buy-decisions.md",
+      "skos:altLabel": [
+        "build versus buy",
+        "build-or-buy",
+        "make-or-buy decision",
+        "clicks vs. code vs. AppExchange"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:solution-design-tradeoffs"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:agentexchange"
+        },
+        {
+          "@id": "kt:appexchange-security-review"
+        },
+        {
+          "@id": "kt:technical-debt-in-salesforce"
+        },
+        {
+          "@id": "kt:second-generation-managed-packages"
+        },
+        {
+          "@id": "kt:governor-limits"
+        },
+        {
+          "@id": "kt:architecture-decision-records"
+        }
+      ],
+      "kto:usedBy": [
+        {
+          "@id": "kt:salesforce-architect"
+        }
+      ]
+    },
+    {
       "@id": "kt:capability-maps",
       "@type": "kto:Concept",
       "skos:prefLabel": "Capability Maps",
