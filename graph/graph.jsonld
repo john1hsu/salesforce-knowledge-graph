@@ -7423,6 +7423,87 @@
       ]
     },
     {
+      "@id": "kt:agentforce-specialist-certification",
+      "@type": "kto:Certification",
+      "skos:prefLabel": "Agentforce Specialist Certification",
+      "skos:definition": "Salesforce's credential for people who build, ground, test and deploy agents with Agentforce, covering agent design, prompt engineering, Data 360 grounding, the deployment lifecycle and multi-agent interoperability. It replaced the Salesforce AI Specialist credential in March 2025.",
+      "kto:domain": "data-cloud-and-ai",
+      "dcterms:created": "2026-11-13",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Salesforce Certified Agentforce Specialist (credential page)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/credentials/aispecialist",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Get Started with Salesforce Agentforce Specialist Certification Prep",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/cert-prep-agentforce-specialist/get-started-with-salesforce-agentforce-specialist-certification-prep",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Get Started with Salesforce AI Specialist Certification Prep",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/ko/content/learn/modules/cert-prep-ai-specialist/get-started-with-salesforce-ai-specialist-certification-prep",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Prepare for the Agentforce Specialist Exam",
+          "dcterms:publisher": "Salesforce Admins blog",
+          "schema:url": "https://admin.salesforce.com/blog/2024/prepare-for-the-salesforce-ai-specialist-exam-and-agentforce",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Salesforce AI certification",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/blog/ai-certification/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Salesforce Changes AI Specialist Exam to Certified Agentforce Specialist",
+          "dcterms:publisher": "Salesforce Ben",
+          "schema:url": "https://www.salesforceben.com/salesforce-changes-ai-specialist-exam-to-certified-agentforce-specialist/",
+          "kto:sourceType": "news"
+        }
+      ],
+      "kto:file": "articles/data-cloud-and-ai/agentforce-specialist-certification.md",
+      "skos:altLabel": [
+        "Salesforce Certified Agentforce Specialist",
+        "AI Specialist Certification",
+        "Salesforce Certified AI Specialist",
+        "Agentforce Specialist exam",
+        "AI-201"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-certification-program"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:agentforce"
+        },
+        {
+          "@id": "kt:prompt-builder"
+        },
+        {
+          "@id": "kt:agentforce-data-library"
+        },
+        {
+          "@id": "kt:agentforce-testing-center"
+        },
+        {
+          "@id": "kt:model-context-protocol-in-agentforce"
+        },
+        {
+          "@id": "kt:platform-administrator-certification"
+        }
+      ]
+    },
+    {
       "@id": "kt:agentforce-studio",
       "@type": "kto:Tool",
       "skos:prefLabel": "Agentforce Studio",
