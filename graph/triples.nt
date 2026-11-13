@@ -3174,6 +3174,34 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/external-objects> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#requiresLicense> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-connect> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/external-objects> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/external-objects> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-services> <http://purl.org/dc/terms/created> "2026-11-13" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-services> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-services> <http://www.w3.org/2000/01/rdf-schema#label> "External Services" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-services> <http://www.w3.org/2004/02/skos/core#altLabel> "External Service Registration" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-services> <http://www.w3.org/2004/02/skos/core#altLabel> "External Service actions" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-services> <http://www.w3.org/2004/02/skos/core#altLabel> "External Service" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-services> <http://www.w3.org/2004/02/skos/core#altLabel> "ExternalServiceRegistration" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-services> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-integration> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-services> <http://www.w3.org/2004/02/skos/core#definition> "A declarative integration feature that imports an OpenAPI specification for a REST API, authenticated through a named credential, and turns its selected operations into invocable actions for Flow and Agentforce and into strongly typed Apex classes in the ExternalService namespace." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-services> <http://www.w3.org/2004/02/skos/core#prefLabel> "External Services" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-services> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-builder> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-services> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/heroku> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-services> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/mulesoft-anypoint-platform> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-services> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-services/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-services> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-services/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-services> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-services/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-services> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-services/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-services> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-services/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-services> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-services/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-services> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#alternativeTo> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-callouts> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-services> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-services> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#consumedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/agent-actions> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-services> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#consumedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-http-callout> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-services> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/named-credentials> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-services> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "integration" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-services> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#implements> <https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-patterns-request-reply-fire-and-forget> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-services> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/external-services> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/fedramp-high> <http://purl.org/dc/terms/created> "2026-11-03" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/fedramp-high> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#ExternalConcept> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/fedramp-high> <http://www.w3.org/2000/01/rdf-schema#label> "FedRAMP High" .
@@ -11531,6 +11559,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-objects/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-objects/s7> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-objects/s7> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/api/apex_connector_example_github.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-services/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-services/s1> <http://purl.org/dc/terms/title> "ExternalServiceRegistration — Metadata API Developer Guide (Winter '27, API 68.0)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-services/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-services/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-services/s1> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_externalserviceregistration.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-services/s2> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-services/s2> <http://purl.org/dc/terms/title> "External Services — Apex Developer Guide" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-services/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-services/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-services/s2> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/api/apex_external_services.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-services/s3> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-services/s3> <http://purl.org/dc/terms/title> "Use External Services with a Flow — Register an External Service" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-services/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-services/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-services/s3> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/projects/use-external-services-with-a-flow/register-external-service" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-services/s4> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-services/s4> <http://purl.org/dc/terms/title> "External Services — Define an API Specification for an External Service" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-services/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-services/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-services/s4> <https://schema.org/url> "https://trailhead.salesforce.com/en/content/learn/modules/external-services/define-a-schema-for-an-external-service" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-services/s5> <http://purl.org/dc/terms/publisher> "Salesforce Developers Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-services/s5> <http://purl.org/dc/terms/title> "Call Third-Party APIs from an Agent with External Service Actions" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-services/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-services/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-services/s5> <https://schema.org/url> "https://developer.salesforce.com/blogs/2025/05/call-third-party-apis-from-an-agent-with-external-service-actions" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-services/s6> <http://purl.org/dc/terms/publisher> "Salesforce Developers Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-services/s6> <http://purl.org/dc/terms/title> "External Services, API Updates & Learn MOAR in Spring '23" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-services/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-services/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/external-services/s6> <https://schema.org/url> "https://developer.salesforce.com/blogs/2023/01/external-services-api-updates-learn-moar-spring-23" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fedramp-high/s1> <http://purl.org/dc/terms/publisher> "FedRAMP (GSA)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fedramp-high/s1> <http://purl.org/dc/terms/title> "Understanding Baselines and Impact Levels for FedRAMP Authorizations" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fedramp-high/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

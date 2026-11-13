@@ -21106,6 +21106,105 @@
       ]
     },
     {
+      "@id": "kt:external-services",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "External Services",
+      "skos:definition": "A declarative integration feature that imports an OpenAPI specification for a REST API, authenticated through a named credential, and turns its selected operations into invocable actions for Flow and Agentforce and into strongly typed Apex classes in the ExternalService namespace.",
+      "kto:domain": "integration",
+      "dcterms:created": "2026-11-13",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "ExternalServiceRegistration — Metadata API Developer Guide (Winter '27, API 68.0)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_externalserviceregistration.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "External Services — Apex Developer Guide",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/api/apex_external_services.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Use External Services with a Flow — Register an External Service",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/projects/use-external-services-with-a-flow/register-external-service",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "External Services — Define an API Specification for an External Service",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/en/content/learn/modules/external-services/define-a-schema-for-an-external-service",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Call Third-Party APIs from an Agent with External Service Actions",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2025/05/call-third-party-apis-from-an-agent-with-external-service-actions",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "External Services, API Updates & Learn MOAR in Spring '23",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2023/01/external-services-api-updates-learn-moar-spring-23",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/integration/external-services.md",
+      "skos:altLabel": [
+        "External Service",
+        "External Service Registration",
+        "ExternalServiceRegistration",
+        "External Service actions"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:data-integration"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:flow-builder"
+        },
+        {
+          "@id": "kt:mulesoft-anypoint-platform"
+        },
+        {
+          "@id": "kt:heroku"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:named-credentials"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:apex-callouts"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:flow-http-callout"
+        },
+        {
+          "@id": "kt:agent-actions"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:metadata-api"
+        }
+      ],
+      "kto:implements": [
+        {
+          "@id": "kt:integration-patterns-request-reply-fire-and-forget"
+        }
+      ]
+    },
+    {
       "@id": "kt:graphql-api",
       "@type": "kto:API",
       "skos:prefLabel": "GraphQL API",

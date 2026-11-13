@@ -5,7 +5,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | Node | Referenced by |
 |---|---|
 | `kt:agentexchange` | `kt:appexchange-security-review`, `kt:build-vs-buy-decisions`, `kt:model-context-protocol-in-agentforce` |
-| `kt:external-services` | `kt:apex-callouts`, `kt:flow-http-callout` |
 | `kt:content-security-policy` | `kt:lightning-locker`, `kt:lightning-web-security` |
 | `kt:session-settings` | `kt:lightning-locker`, `kt:lightning-web-security` |
 | `kt:salesforce-analytics` | `kt:crm-analytics`, `kt:tableau` |
@@ -26,8 +25,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:process-integration` | `kt:data-integration` |
 | `kt:orglimits-class` | `kt:limits-class` |
 | `kt:transaction-finalizers` | `kt:queueable-apex` |
-| `kt:governance-risk-and-compliance` | `kt:security-compliance-frameworks` |
 | `kt:mule-runtime-engine` | `kt:mulesoft-anypoint-platform` |
+| `kt:governance-risk-and-compliance` | `kt:security-compliance-frameworks` |
 | `kt:legacy-named-credentials` | `kt:named-credentials` |
 | `kt:salesforce-architecture-program` | `kt:salesforce-architecture-center` |
 | `kt:managed-event-subscriptions` | `kt:pub-sub-api` |
@@ -51,8 +50,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:compact-layouts` | `kt:page-layouts` |
 | `kt:custom-objects` | `kt:standard-objects` |
 | `kt:distributed-computing` | `kt:cloud-computing` |
-| `kt:platform-administrator-ii-certification` | `kt:platform-administrator-certification` |
 | `kt:flow-bulkification` | `kt:bulkification` |
+| `kt:platform-administrator-ii-certification` | `kt:platform-administrator-certification` |
 | `kt:data-mask-and-seed` | `kt:salesforce-data-mask` |
 | `kt:zero-trust-architecture` | `kt:principle-of-least-privilege` |
 | `kt:entitlement-process-metadata` | `kt:entitlement-management` |
@@ -66,6 +65,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:certificate-and-key-management` | `kt:custom-domains` |
 | `kt:salesforce-sites` | `kt:custom-domains` |
 | `kt:cross-site-scripting` | `kt:lightning-web-security` |
+| `kt:heroku-applink` | `kt:heroku` |
+| `kt:heroku-connect` | `kt:heroku` |
 | `kt:omnistudio-consultant-certification` | `kt:omnistudio` |
 | `kt:omnistudio-developer-certification` | `kt:omnistudio` |
 | `kt:data-classification` | `kt:data-governance` |
@@ -77,8 +78,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:api-experience-hub` | `kt:external-identity-license` |
 | `kt:customer-community-licenses` | `kt:external-identity-license` |
 | `kt:hitrust-csf` | `kt:nist-cybersecurity-framework` |
-| `kt:heroku-applink` | `kt:heroku` |
-| `kt:heroku-connect` | `kt:heroku` |
 | `kt:decision-tables` | `kt:salesforce-pricing` |
 | `kt:scim` | `kt:salesforce-scim` |
 | `kt:content-delivery-network` | `kt:salesforce-edge-network` |
@@ -99,8 +98,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:generative-ai` | `kt:retrieval-augmented-generation-in-salesforce` |
 | `kt:apex-mocks` | `kt:apex-enterprise-patterns` |
 | `kt:dynamic-soql` | `kt:soql-injection` |
-| `kt:application-network` | `kt:api-led-connectivity` |
 | `kt:mulesoft-platform-integration-architect-certification` | `kt:mulesoft-platform-architect-certification` |
+| `kt:application-network` | `kt:api-led-connectivity` |
 | `kt:point-to-point-integration` | `kt:api-led-connectivity` |
 | `kt:mutual-tls-authentication` | `kt:login-ip-ranges-and-trusted-ip-ranges` |
 | `kt:automation-studio` | `kt:marketing-cloud-engagement` |
