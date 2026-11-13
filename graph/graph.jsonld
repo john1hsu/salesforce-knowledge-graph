@@ -26434,6 +26434,91 @@
       ]
     },
     {
+      "@id": "kt:govramp",
+      "@type": "kto:ExternalConcept",
+      "skos:prefLabel": "GovRAMP",
+      "skos:definition": "A nonprofit, FedRAMP-modelled program (founded in 2021 as StateRAMP and rebranded in 2025) that verifies the security of cloud products sold to US state and local governments against NIST SP 800-53 controls, with statuses from Core through Ready to Provisionally Authorized and Authorized, plus ongoing continuous monitoring.",
+      "kto:domain": "public-sector-and-compliance",
+      "dcterms:created": "2026-11-13",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "StateRAMP Rebrands to GovRAMP: PerfCon",
+          "dcterms:publisher": "StateTech Magazine",
+          "schema:url": "https://statetechmagazine.com/article/2025/04/stateramp-rebrands-to-govramp-perfcon",
+          "kto:sourceType": "news"
+        },
+        {
+          "dcterms:title": "GovRAMP for Service Providers",
+          "dcterms:publisher": "GovRAMP",
+          "schema:url": "https://govramp.org/providers/",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "GovRAMP Introduces Core Status: A New Milestone in Cloud Security Validation",
+          "dcterms:publisher": "GovRAMP",
+          "schema:url": "https://govramp.org/?p=16489",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "GovRAMP Adoption",
+          "dcterms:publisher": "North Carolina Department of Information Technology",
+          "schema:url": "https://it.nc.gov/programs/cybersecurity-risk-management/esrmo-initiatives/govramp-adoption",
+          "kto:sourceType": "government"
+        },
+        {
+          "dcterms:title": "GovRAMP Adoption",
+          "dcterms:publisher": "Georgia Technology Authority",
+          "schema:url": "https://gta.georgia.gov/node/20221",
+          "kto:sourceType": "government"
+        },
+        {
+          "dcterms:title": "Government Cloud Plus (compliance service page)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://compliance.salesforce.com/en/services/salesforce-government-cloud-plus-hyperforce",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/public-sector-and-compliance/govramp.md",
+      "skos:altLabel": [
+        "StateRAMP",
+        "State Risk and Authorization Management Program",
+        "GovRAMP verification"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:security-compliance-frameworks"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:government-cloud-plus"
+        },
+        {
+          "@id": "kt:cjis-security-policy"
+        },
+        {
+          "@id": "kt:tx-ramp"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:nist-sp-800-53"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:fedramp"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:continuous-monitoring"
+        }
+      ]
+    },
+    {
       "@id": "kt:hipaa",
       "@type": "kto:ExternalConcept",
       "skos:prefLabel": "HIPAA",
