@@ -13,7 +13,7 @@ broader: [kt:salesforce-platform]
 related: [kt:apex, kt:screen-flow, kt:experience-cloud, kt:lightning-data-service, kt:lightning-message-service, kt:wire-service]
 relations:
   - {predicate: alternativeTo, object: kt:aura-components}
-  - {predicate: governedBy, object: kt:lightning-web-security}
+  - {predicate: dependsOn, object: kt:lightning-web-security}
   - {predicate: integratesWith, object: kt:apex}
   - {predicate: dependsOn, object: kt:lightning-data-service}
 sources:
@@ -85,7 +85,7 @@ Salesforce recommends LWC for all new component work and suggests migrating Aura
 
 ## Connections
 
-LWC is the UI layer of `kt:salesforce-platform`, and is the modern `alternativeTo` `kt:aura-components`, which it can interoperate with on the same page.[^s1] It `dependsOn` `kt:lightning-data-service` for cached record access, and `integratesWith` `kt:apex` through `@AuraEnabled` methods called by wire or imperatively.[^s5][^s6] Its runtime is `governedBy` `kt:lightning-web-security` (or the older Lightning Locker).[^s3][^s4] In the wider graph, `kt:screen-flow` and `kt:experience-cloud` both point here as consumers of custom components, and the Aura-to-LWC data guidance links LWC back to the platform's shared UI services.[^s1][^s5]
+LWC is the UI layer of `kt:salesforce-platform`, and is the modern `alternativeTo` `kt:aura-components`, which it can interoperate with on the same page.[^s1] It `dependsOn` `kt:lightning-data-service` for cached record access, and `integratesWith` `kt:apex` through `@AuraEnabled` methods called by wire or imperatively.[^s5][^s6] Its runtime `dependsOn` `kt:lightning-web-security` (or the older Lightning Locker).[^s3][^s4] In the wider graph, `kt:screen-flow` and `kt:experience-cloud` both point here as consumers of custom components, and the Aura-to-LWC data guidance links LWC back to the platform's shared UI services.[^s1][^s5]
 
 ## Sources
 

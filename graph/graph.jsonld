@@ -13836,19 +13836,102 @@
           "@id": "kt:aura-components"
         }
       ],
-      "kto:governedBy": [
+      "kto:dependsOn": [
         {
           "@id": "kt:lightning-web-security"
+        },
+        {
+          "@id": "kt:lightning-data-service"
         }
       ],
       "kto:integratesWith": [
         {
           "@id": "kt:apex"
         }
+      ]
+    },
+    {
+      "@id": "kt:lightning-web-security",
+      "@type": "kto:SecurityControl",
+      "skos:prefLabel": "Lightning Web Security",
+      "skos:definition": "The current client-side security architecture for Lightning web components and Aura components, which isolates each namespace's JavaScript in its own virtualized sandbox and uses distortions of native APIs instead of secure wrappers.",
+      "kto:domain": "development",
+      "dcterms:created": "2026-11-13",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Lightning Components Security Guide: How Lightning Web Security Works",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/lightning-components-security/guide/lws-architecture.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Lightning Web Components Developer Guide: Lightning Web Security",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/lwc/guide/security-lwsec-intro.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Lightning Components Security Guide: Build Components to Work with Lightning Web Security",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/lightning-components-security/guide/lws-build-components.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Lightning Components Security Guide: Understand How LWS Architecture Affects Component Performance",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/lightning-components-security/guide/lws-performance.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Lightning Components Security Guide: Look Up Distortion Details in Lightning Web Security Distortion Viewer",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/lightning-components-security/guide/lws-tools-distortion-viewer.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Lightning Web Security Basics: Dig Deeper into Lightning Web Security",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/lightning-web-security-basics/dig-deeper-into-lightning-web-security",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/development/lightning-web-security.md",
+      "skos:altLabel": [
+        "LWS"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-platform"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:lightning-web-components"
+        },
+        {
+          "@id": "kt:aura-components"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:lightning-locker"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:session-settings"
+        }
+      ],
+      "kto:mitigates": [
+        {
+          "@id": "kt:cross-site-scripting"
+        }
       ],
       "kto:dependsOn": [
         {
-          "@id": "kt:lightning-data-service"
+          "@id": "kt:content-security-policy"
         }
       ]
     },
