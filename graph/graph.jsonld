@@ -9947,6 +9947,102 @@
       ]
     },
     {
+      "@id": "kt:activity-data-model",
+      "@type": "kto:StandardObject",
+      "skos:prefLabel": "Activity Data Model",
+      "skos:definition": "How Salesforce stores activities: the Task and Event standard objects, their relation records (TaskRelation, EventRelation), the read-only ActivityHistory and OpenActivity views, and the automatic archiving of old activities.",
+      "kto:domain": "data-model",
+      "dcterms:created": "2026-11-13",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Event (Object Reference for the Salesforce Platform)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api.meta/api/sforce_api_objects_event.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "TaskRelation (Object Reference for the Salesforce Platform)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api.meta/api/sforce_api_objects_taskrelation.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "ActivityHistory (Object Reference for the Salesforce Platform)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api.meta/api/sforce_api_objects_activityhistory.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Archived Activities (Object Reference for the Salesforce Platform)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api.meta/api/sforce_api_guidelines_archive.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Maximize Sales Productivity: Shared Activities",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/modules/sales_admin_maximize_productivity/units/sales_admin_maximize_productivity_unit_1",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Shared Activities and Parent Records for Tasks and Events (Change Data Capture Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.change_data_capture.meta/change_data_capture/cdc_standard_objects_task_event_shared.htm",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/data-model/activity-data-model.md",
+      "skos:altLabel": [
+        "activities",
+        "tasks and events",
+        "Task and Event objects",
+        "ActivityHistory",
+        "OpenActivity",
+        "TaskRelation",
+        "EventRelation",
+        "archived activities"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:standard-objects"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:polymorphic-relationships"
+        },
+        {
+          "@id": "kt:contacts-to-multiple-accounts"
+        },
+        {
+          "@id": "kt:sales-cloud"
+        },
+        {
+          "@id": "kt:archiving-strategy"
+        },
+        {
+          "@id": "kt:data-skew"
+        }
+      ],
+      "kto:queriedWith": [
+        {
+          "@id": "kt:soql"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:change-data-capture"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:shared-activities"
+        }
+      ]
+    },
+    {
       "@id": "kt:big-objects",
       "@type": "kto:Feature",
       "skos:prefLabel": "Big Objects",

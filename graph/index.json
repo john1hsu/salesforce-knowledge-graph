@@ -23,6 +23,34 @@
     ]
   },
   {
+    "id": "kt:activity-data-model",
+    "title": "Activity Data Model",
+    "aliases": [
+      "activities",
+      "tasks and events",
+      "Task and Event objects",
+      "ActivityHistory",
+      "OpenActivity",
+      "TaskRelation",
+      "EventRelation",
+      "archived activities"
+    ],
+    "type": "StandardObject",
+    "domain": "data-model",
+    "file": "articles/data-model/activity-data-model.md",
+    "created": "2026-11-13",
+    "release": "Winter '27",
+    "status": "current",
+    "source_urls": [
+      "https://developer.salesforce.com/docs/atlas.en-us.api.meta/api/sforce_api_objects_event.htm",
+      "https://developer.salesforce.com/docs/atlas.en-us.api.meta/api/sforce_api_objects_taskrelation.htm",
+      "https://developer.salesforce.com/docs/atlas.en-us.api.meta/api/sforce_api_objects_activityhistory.htm",
+      "https://developer.salesforce.com/docs/atlas.en-us.api.meta/api/sforce_api_guidelines_archive.htm",
+      "https://trailhead.salesforce.com/modules/sales_admin_maximize_productivity/units/sales_admin_maximize_productivity_unit_1",
+      "https://developer.salesforce.com/docs/atlas.en-us.change_data_capture.meta/change_data_capture/cdc_standard_objects_task_event_shared.htm"
+    ]
+  },
+  {
     "id": "kt:agent-actions",
     "title": "Agent Actions",
     "aliases": [
