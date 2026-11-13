@@ -51,8 +51,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:custom-objects` | `kt:standard-objects` |
 | `kt:distributed-computing` | `kt:cloud-computing` |
 | `kt:platform-administrator-ii-certification` | `kt:platform-administrator-certification` |
-| `kt:data-mask-and-seed` | `kt:salesforce-data-mask` |
 | `kt:flow-bulkification` | `kt:bulkification` |
+| `kt:data-mask-and-seed` | `kt:salesforce-data-mask` |
 | `kt:zero-trust-architecture` | `kt:principle-of-least-privilege` |
 | `kt:entitlement-process-metadata` | `kt:entitlement-management` |
 | `kt:dispatcher-console` | `kt:field-service` |
@@ -72,8 +72,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:iso-iec-27002` | `kt:iso-iec-27001` |
 | `kt:hitrust-csf` | `kt:nist-cybersecurity-framework` |
 | `kt:api-experience-hub` | `kt:external-identity-license` |
-| `kt:certificate-and-key-management` | `kt:custom-domains` |
 | `kt:customer-community-licenses` | `kt:external-identity-license` |
+| `kt:certificate-and-key-management` | `kt:custom-domains` |
 | `kt:salesforce-edge-network` | `kt:custom-domains` |
 | `kt:salesforce-sites` | `kt:custom-domains` |
 | `kt:scim` | `kt:salesforce-scim` |
@@ -148,13 +148,14 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:models-api` | `kt:ai-models` |
 | `kt:continuous-integration-for-salesforce` | `kt:branching-strategy` |
 | `kt:digital-accessibility` | `kt:section-508-accessibility` |
-| `kt:email-templates` | `kt:email-alerts` |
 | `kt:notes-and-attachments` | `kt:content-document-model` |
-| `kt:organization-wide-email-addresses` | `kt:email-alerts` |
 | `kt:release-management` | `kt:deployment-validation-and-quick-deploy` |
 | `kt:wcag` | `kt:section-508-accessibility` |
 | `kt:b2c-commerce-architect-certification` | `kt:b2c-solution-architect-certification` |
 | `kt:business-architecture` | `kt:capability-maps` |
 | `kt:commerce-cloud` | `kt:b2c-solution-architect-certification` |
+| `kt:einstein-prediction-builder` | `kt:einstein-next-best-action` |
+| `kt:email-templates` | `kt:email-alerts` |
+| `kt:organization-wide-email-addresses` | `kt:email-alerts` |
 | `kt:technology-roadmaps` | `kt:capability-maps` |
 | `kt:value-streams` | `kt:capability-maps` |
