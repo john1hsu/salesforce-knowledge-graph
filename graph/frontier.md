@@ -5,7 +5,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | Node | Referenced by |
 |---|---|
 | `kt:agentexchange` | `kt:appexchange-security-review`, `kt:build-vs-buy-decisions`, `kt:model-context-protocol-in-agentforce` |
-| `kt:heroku` | `kt:platform-as-a-service`, `kt:salesforce-cpq` |
 | `kt:external-services` | `kt:apex-callouts`, `kt:flow-http-callout` |
 | `kt:content-security-policy` | `kt:lightning-locker`, `kt:lightning-web-security` |
 | `kt:session-settings` | `kt:lightning-locker`, `kt:lightning-web-security` |
@@ -39,8 +38,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:backup-and-recover` | `kt:archiving-strategy` |
 | `kt:salesforce-archive` | `kt:archiving-strategy` |
 | `kt:prompt-injection` | `kt:einstein-trust-layer` |
-| `kt:mixed-dml-error` | `kt:future-methods` |
 | `kt:zero-copy-data-sharing` | `kt:zero-copy-data-federation` |
+| `kt:mixed-dml-error` | `kt:future-methods` |
 | `kt:data-categories` | `kt:knowledge-base` |
 | `kt:salesforce-go` | `kt:knowledge-base` |
 | `kt:trailhead` | `kt:salesforce-certification-program` |
@@ -67,11 +66,11 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:cross-site-scripting` | `kt:lightning-web-security` |
 | `kt:omnistudio-consultant-certification` | `kt:omnistudio` |
 | `kt:omnistudio-developer-certification` | `kt:omnistudio` |
-| `kt:dynamic-revenue-orchestrator` | `kt:revenue-cloud` |
-| `kt:revenue-management-consultant-certification` | `kt:revenue-cloud` |
 | `kt:data-classification` | `kt:data-governance` |
 | `kt:data-management` | `kt:data-governance` |
 | `kt:data-stewardship` | `kt:data-governance` |
+| `kt:dynamic-revenue-orchestrator` | `kt:revenue-cloud` |
+| `kt:revenue-management-consultant-certification` | `kt:revenue-cloud` |
 | `kt:iso-iec-27002` | `kt:iso-iec-27001` |
 | `kt:api-experience-hub` | `kt:external-identity-license` |
 | `kt:customer-community-licenses` | `kt:external-identity-license` |
@@ -79,6 +78,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:certificate-and-key-management` | `kt:custom-domains` |
 | `kt:salesforce-edge-network` | `kt:custom-domains` |
 | `kt:salesforce-sites` | `kt:custom-domains` |
+| `kt:heroku-applink` | `kt:heroku` |
+| `kt:heroku-connect` | `kt:heroku` |
 | `kt:decision-tables` | `kt:salesforce-pricing` |
 | `kt:scim` | `kt:salesforce-scim` |
 | `kt:json-web-token` | `kt:openid-connect` |

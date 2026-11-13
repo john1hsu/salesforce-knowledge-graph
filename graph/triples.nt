@@ -3939,6 +3939,29 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/health-cloud> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/health-cloud> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/health-cloud> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/heroku> <http://purl.org/dc/terms/created> "2026-11-13" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/heroku> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Product> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/heroku> <http://www.w3.org/2000/01/rdf-schema#label> "Heroku" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/heroku> <http://www.w3.org/2004/02/skos/core#altLabel> "Heroku PaaS" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/heroku> <http://www.w3.org/2004/02/skos/core#altLabel> "Heroku Platform" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/heroku> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-as-a-service> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/heroku> <http://www.w3.org/2004/02/skos/core#definition> "Salesforce's container-based platform as a service for running custom applications in languages such as Node.js, Python, Java and Ruby on managed dynos, with add-ons such as Heroku Postgres and Salesforce-specific bridges (Heroku Connect, Heroku External Objects, Heroku AppLink); since February 2026 it runs on a sustaining-engineering model." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/heroku> <http://www.w3.org/2004/02/skos/core#prefLabel> "Heroku" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/heroku> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-platform> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/heroku> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/heroku/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/heroku> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/heroku/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/heroku> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/heroku/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/heroku> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/heroku/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/heroku> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/heroku/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/heroku> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/heroku/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/heroku> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "clouds-and-products" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/heroku> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/heroku-applink> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/heroku> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/heroku-connect> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/heroku> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/heroku> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-connect> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/heroku> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#mitigates> <https://github.com/john1hsu/salesforce-knowledge-graph/id/api-request-limits> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/heroku> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/heroku> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/hipaa> <http://purl.org/dc/terms/created> "2026-11-08" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/hipaa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#ExternalConcept> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/hipaa> <http://www.w3.org/2000/01/rdf-schema#label> "HIPAA" .
@@ -12279,6 +12302,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/health-cloud/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/health-cloud/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/health-cloud/s5> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.health_cloud.meta/healthcare_admin.htm/admin_permissionset_licenses_assign.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/heroku/s1> <http://purl.org/dc/terms/publisher> "Heroku Dev Center (Salesforce)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/heroku/s1> <http://purl.org/dc/terms/title> "How Heroku Works" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/heroku/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/heroku/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/heroku/s1> <https://schema.org/url> "https://devcenter.heroku.com/articles/how-heroku-works" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/heroku/s2> <http://purl.org/dc/terms/publisher> "Heroku Dev Center (Salesforce)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/heroku/s2> <http://purl.org/dc/terms/title> "Heroku Connect" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/heroku/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/heroku/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/heroku/s2> <https://schema.org/url> "https://devcenter.heroku.com/articles/herokuconnect" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/heroku/s3> <http://purl.org/dc/terms/publisher> "Heroku Dev Center (Salesforce)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/heroku/s3> <http://purl.org/dc/terms/title> "Heroku External Objects" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/heroku/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/heroku/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/heroku/s3> <https://schema.org/url> "https://devcenter.heroku.com/articles/heroku-external-objects" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/heroku/s4> <http://purl.org/dc/terms/publisher> "Heroku Dev Center (Salesforce)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/heroku/s4> <http://purl.org/dc/terms/title> "Heroku AppLink" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/heroku/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/heroku/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/heroku/s4> <https://schema.org/url> "https://devcenter.heroku.com/articles/heroku-applink" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/heroku/s5> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/heroku/s5> <http://purl.org/dc/terms/title> "AppLink Architecture Overview (Heroku AppLink Integrations)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/heroku/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/heroku/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/heroku/s5> <https://schema.org/url> "https://trailhead.salesforce.com/zh-CN/content/learn/modules/heroku-applink-integrations/applink-architecture-overview" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/heroku/s6> <http://purl.org/dc/terms/publisher> "Heroku Blog (Salesforce)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/heroku/s6> <http://purl.org/dc/terms/title> "An Update on Heroku" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/heroku/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/heroku/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/heroku/s6> <https://schema.org/url> "https://heroku.com/blog/an-update-on-heroku" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hipaa/s1> <http://purl.org/dc/terms/publisher> "Salesforce" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hipaa/s1> <http://purl.org/dc/terms/title> "HIPAA — Salesforce Compliance" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hipaa/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

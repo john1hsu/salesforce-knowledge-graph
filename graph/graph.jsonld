@@ -5838,6 +5838,90 @@
       ]
     },
     {
+      "@id": "kt:heroku",
+      "@type": "kto:Product",
+      "skos:prefLabel": "Heroku",
+      "skos:definition": "Salesforce's container-based platform as a service for running custom applications in languages such as Node.js, Python, Java and Ruby on managed dynos, with add-ons such as Heroku Postgres and Salesforce-specific bridges (Heroku Connect, Heroku External Objects, Heroku AppLink); since February 2026 it runs on a sustaining-engineering model.",
+      "kto:domain": "clouds-and-products",
+      "dcterms:created": "2026-11-13",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "How Heroku Works",
+          "dcterms:publisher": "Heroku Dev Center (Salesforce)",
+          "schema:url": "https://devcenter.heroku.com/articles/how-heroku-works",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Heroku Connect",
+          "dcterms:publisher": "Heroku Dev Center (Salesforce)",
+          "schema:url": "https://devcenter.heroku.com/articles/herokuconnect",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Heroku External Objects",
+          "dcterms:publisher": "Heroku Dev Center (Salesforce)",
+          "schema:url": "https://devcenter.heroku.com/articles/heroku-external-objects",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Heroku AppLink",
+          "dcterms:publisher": "Heroku Dev Center (Salesforce)",
+          "schema:url": "https://devcenter.heroku.com/articles/heroku-applink",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AppLink Architecture Overview (Heroku AppLink Integrations)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/zh-CN/content/learn/modules/heroku-applink-integrations/applink-architecture-overview",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "An Update on Heroku",
+          "dcterms:publisher": "Heroku Blog (Salesforce)",
+          "schema:url": "https://heroku.com/blog/an-update-on-heroku",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/clouds-and-products/heroku.md",
+      "skos:altLabel": [
+        "Heroku Platform",
+        "Heroku PaaS"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:platform-as-a-service"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:salesforce-platform"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:heroku-connect"
+        },
+        {
+          "@id": "kt:heroku-applink"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:salesforce-connect"
+        },
+        {
+          "@id": "kt:agentforce"
+        }
+      ],
+      "kto:mitigates": [
+        {
+          "@id": "kt:api-request-limits"
+        }
+      ]
+    },
+    {
       "@id": "kt:knowledge-base",
       "@type": "kto:Feature",
       "skos:prefLabel": "Salesforce Knowledge",
