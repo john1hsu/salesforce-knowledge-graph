@@ -9116,6 +9116,91 @@
       ]
     },
     {
+      "@id": "kt:digital-wallet",
+      "@type": "kto:Tool",
+      "skos:prefLabel": "Digital Wallet",
+      "skos:definition": "Salesforce's free account-management tool for consumption-based products such as Data 360 and Agentforce, showing near real-time credit and capacity usage per consumption card, with alerts, tags and forecasting.",
+      "kto:domain": "data-cloud-and-ai",
+      "dcterms:created": "2026-11-13",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Get to Know Salesforce Digital Wallet",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/salesforce-digital-wallet-quick-look/get-to-know-salesforce-digital-wallet",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Get Started with Data Cloud Credit Consumption",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/es/content/learn/modules/data-cloud-credit-consumption-quick-look/get-started-with-data-cloud-credit-consumption",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Manage Costs and Optimize Consumption",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/agentforce-model-switching-and-monetization/manage-costs-and-optimize-consumption",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Flex Credits Rate Card (updated November 3, 2026)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/en-us/wp-content/uploads/sites/4/assets/pdf/agentforce/Flex-Credits-Rate-Card-11.3.2026.pdf",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Optimize Your Consumption with Digital Wallet",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/agentforce/digital-wallet/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "TenantConsumptionAlert | Object Reference for the Salesforce Platform",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/api/sforce_api_objects_tenantconsumptionalert.htm",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/data-cloud-and-ai/digital-wallet.md",
+      "skos:altLabel": [
+        "Salesforce Digital Wallet",
+        "Data Cloud credits and consumption",
+        "Data 360 credits and consumption",
+        "consumption cards",
+        "Data 360 credit consumption"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-pricing"
+        },
+        {
+          "@id": "kt:data-cloud"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:agentforce"
+        },
+        {
+          "@id": "kt:data-cloud-limits"
+        },
+        {
+          "@id": "kt:zero-copy-data-federation"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:flow-builder"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:tableau-next"
+        }
+      ]
+    },
+    {
       "@id": "kt:einstein-trust-layer",
       "@type": "kto:SecurityControl",
       "skos:prefLabel": "Einstein Trust Layer",

@@ -10,6 +10,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:api-led-connectivity` | `kt:mulesoft-anypoint-platform`, `kt:mulesoft-platform-architect-certification` |
 | `kt:external-services` | `kt:apex-callouts`, `kt:flow-http-callout` |
 | `kt:salesforce-analytics` | `kt:crm-analytics`, `kt:tableau` |
+| `kt:tableau-next` | `kt:digital-wallet`, `kt:tableau` |
 | `kt:agentforce-data-library` | `kt:agentforce-specialist-certification`, `kt:retrieval-augmented-generation-in-salesforce` |
 | `kt:customer-360` | `kt:commerce-cloud`, `kt:slack-platform` |
 | `kt:test-data-factory` | `kt:apex-testing` |
@@ -65,11 +66,11 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:data-graphs` | `kt:data-cloud-segmentation` |
 | `kt:omnistudio-consultant-certification` | `kt:omnistudio` |
 | `kt:omnistudio-developer-certification` | `kt:omnistudio` |
+| `kt:dynamic-revenue-orchestrator` | `kt:revenue-cloud` |
+| `kt:revenue-management-consultant-certification` | `kt:revenue-cloud` |
 | `kt:data-classification` | `kt:data-governance` |
 | `kt:data-management` | `kt:data-governance` |
 | `kt:data-stewardship` | `kt:data-governance` |
-| `kt:dynamic-revenue-orchestrator` | `kt:revenue-cloud` |
-| `kt:revenue-management-consultant-certification` | `kt:revenue-cloud` |
 | `kt:iso-iec-27002` | `kt:iso-iec-27001` |
 | `kt:hitrust-csf` | `kt:nist-cybersecurity-framework` |
 | `kt:api-experience-hub` | `kt:external-identity-license` |
@@ -77,16 +78,15 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:certificate-and-key-management` | `kt:custom-domains` |
 | `kt:salesforce-edge-network` | `kt:custom-domains` |
 | `kt:salesforce-sites` | `kt:custom-domains` |
+| `kt:decision-tables` | `kt:salesforce-pricing` |
 | `kt:scim` | `kt:salesforce-scim` |
 | `kt:json-web-token` | `kt:openid-connect` |
-| `kt:tableau-next` | `kt:tableau` |
 | `kt:tableau-pulse` | `kt:tableau` |
 | `kt:tableau-semantics` | `kt:tableau` |
-| `kt:decision-tables` | `kt:salesforce-pricing` |
 | `kt:apex-rest-services` | `kt:remote-call-in` |
-| `kt:path` | `kt:business-processes` |
 | `kt:constraint-modeling-language` | `kt:product-configurator` |
 | `kt:product-catalog-management` | `kt:product-configurator` |
+| `kt:path` | `kt:business-processes` |
 | `kt:salesforce-ecosystem` | `kt:salesforce-inc` |
 | `kt:object-manager` | `kt:schema-builder` |
 | `kt:einstein-discovery` | `kt:crm-analytics` |
@@ -119,21 +119,21 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:mulesoft-platform-integration-architect-certification` | `kt:mulesoft-platform-architect-certification` |
 | `kt:user-management` | `kt:user-access-policies` |
 | `kt:flow-limits` | `kt:flow-versioning` |
+| `kt:multiple-currencies` | `kt:price-books` |
+| `kt:opportunity-products` | `kt:price-books` |
 | `kt:it-governance` | `kt:salesforce-governance` |
 | `kt:security-governance` | `kt:salesforce-governance` |
 | `kt:salesforce-lightning-design-system` | `kt:visualforce` |
-| `kt:multiple-currencies` | `kt:price-books` |
-| `kt:opportunity-products` | `kt:price-books` |
 | `kt:holidays` | `kt:business-hours` |
 | `kt:security-center` | `kt:continuous-monitoring` |
 | `kt:salesforce-licensing` | `kt:user-licenses` |
 | `kt:mutual-tls-authentication` | `kt:login-ip-ranges-and-trusted-ip-ranges` |
-| `kt:soc-1` | `kt:soc-2` |
-| `kt:trust-services-criteria` | `kt:soc-2` |
 | `kt:block-kit` | `kt:slack-platform` |
 | `kt:mulesoft-composer` | `kt:slack-platform` |
 | `kt:slack-api-rate-limits` | `kt:slack-platform` |
 | `kt:slack-workflow-builder` | `kt:slack-platform` |
+| `kt:soc-1` | `kt:soc-2` |
+| `kt:trust-services-criteria` | `kt:soc-2` |
 | `kt:custom-permissions` | `kt:validation-rules` |
 | `kt:iso-iec-25010` | `kt:non-functional-requirements` |
 | `kt:requirements-engineering` | `kt:non-functional-requirements` |
