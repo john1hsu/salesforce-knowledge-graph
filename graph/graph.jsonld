@@ -7674,6 +7674,115 @@
       ]
     },
     {
+      "@id": "kt:agentforce-data-library",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Agentforce Data Library",
+      "skos:definition": "A Setup-managed container of grounding content (Knowledge articles, uploaded files, web content or an existing retriever) that automatically provisions the Data 360 data streams, objects, search index and retriever an Agentforce agent or prompt needs to answer from an organization's own content.",
+      "kto:domain": "data-cloud-and-ai",
+      "dcterms:created": "2026-11-13",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Upgrade AI with Real-World Data (Agentforce Data Library Basics)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/agentforce-data-library-basics/upgrade-ai-with-real-world-data",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Build a File-Based Data Library for an Agent (Agentforce Data Library Basics)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/agentforce-data-library-basics/build-a-file-based-data-library-for-an-agent",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Agentforce Data Libraries resources (Connect REST API Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.chatterapi.meta/chatterapi/connect_resources_adl.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Use Knowledge in Agentforce for Service",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/agentforce-service-agent-quick-look/use-knowledge-in-agentforce-for-service",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Get Started with Salesforce Agentforce Specialist Certification Prep",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/cert-prep-agentforce-specialist/get-started-with-salesforce-agentforce-specialist-certification-prep",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Manage Data Libraries with the ADL API (Agentforce Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/ai/agentforce/guide/adl.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/data-cloud-and-ai/agentforce-data-library.md",
+      "skos:altLabel": [
+        "ADL",
+        "Agentforce Data Libraries",
+        "data library for Agentforce",
+        "ADL API",
+        "Data Libraries Connect API"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:retrieval-augmented-generation-in-salesforce"
+        },
+        {
+          "@id": "kt:agentforce"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:knowledge-base"
+        },
+        {
+          "@id": "kt:vector-search-in-data-cloud"
+        },
+        {
+          "@id": "kt:prompt-builder"
+        },
+        {
+          "@id": "kt:data-streams"
+        },
+        {
+          "@id": "kt:data-model-objects"
+        },
+        {
+          "@id": "kt:unstructured-data-in-data-cloud"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:data-cloud"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:agentforce-studio"
+        }
+      ],
+      "kto:queriedWith": [
+        {
+          "@id": "kt:connect-api"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:agentforce"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:agentforce-specialist-certification"
+        }
+      ]
+    },
+    {
       "@id": "kt:agentforce-specialist-certification",
       "@type": "kto:Certification",
       "skos:prefLabel": "Agentforce Specialist Certification",
