@@ -29,8 +29,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:transaction-finalizers` | `kt:queueable-apex` |
 | `kt:governance-risk-and-compliance` | `kt:security-compliance-frameworks` |
 | `kt:mule-runtime-engine` | `kt:mulesoft-anypoint-platform` |
-| `kt:salesforce-architecture-program` | `kt:salesforce-architecture-center` |
 | `kt:legacy-named-credentials` | `kt:named-credentials` |
+| `kt:salesforce-architecture-program` | `kt:salesforce-architecture-center` |
 | `kt:managed-event-subscriptions` | `kt:pub-sub-api` |
 | `kt:streaming-api` | `kt:pub-sub-api` |
 | `kt:upsert` | `kt:external-id-fields` |
@@ -73,9 +73,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:data-management` | `kt:data-governance` |
 | `kt:data-stewardship` | `kt:data-governance` |
 | `kt:iso-iec-27002` | `kt:iso-iec-27001` |
-| `kt:hitrust-csf` | `kt:nist-cybersecurity-framework` |
 | `kt:api-experience-hub` | `kt:external-identity-license` |
 | `kt:customer-community-licenses` | `kt:external-identity-license` |
+| `kt:hitrust-csf` | `kt:nist-cybersecurity-framework` |
 | `kt:certificate-and-key-management` | `kt:custom-domains` |
 | `kt:salesforce-edge-network` | `kt:custom-domains` |
 | `kt:salesforce-sites` | `kt:custom-domains` |
@@ -120,6 +120,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:utilization-management` | `kt:health-cloud` |
 | `kt:user-management` | `kt:user-access-policies` |
 | `kt:flow-limits` | `kt:flow-versioning` |
+| `kt:mutual-tls-authentication` | `kt:login-ip-ranges-and-trusted-ip-ranges` |
 | `kt:salesforce-lightning-design-system` | `kt:visualforce` |
 | `kt:it-governance` | `kt:salesforce-governance` |
 | `kt:security-governance` | `kt:salesforce-governance` |
@@ -128,7 +129,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:holidays` | `kt:business-hours` |
 | `kt:security-center` | `kt:continuous-monitoring` |
 | `kt:salesforce-licensing` | `kt:user-licenses` |
-| `kt:mutual-tls-authentication` | `kt:login-ip-ranges-and-trusted-ip-ranges` |
 | `kt:block-kit` | `kt:slack-platform` |
 | `kt:mulesoft-composer` | `kt:slack-platform` |
 | `kt:slack-api-rate-limits` | `kt:slack-platform` |

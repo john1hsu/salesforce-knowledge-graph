@@ -18417,6 +18417,92 @@
       ]
     },
     {
+      "@id": "kt:identity-verification",
+      "@type": "kto:SecurityControl",
+      "skos:prefLabel": "Identity Verification",
+      "skos:definition": "Salesforce's framework for making a user prove they own an account — at login, when activating an unrecognized device or browser, or before a sensitive action — using a registered verification method such as a passkey, security key, Salesforce Authenticator, a TOTP app or (for external users) SMS or email codes. Every attempt is logged in Identity Verification History for six months.",
+      "kto:domain": "identity",
+      "dcterms:created": "2026-11-13",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Identity Verification Overview",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=sf.security_identity_verification_concept_overview.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Methods for Verifying Your Identity",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=activating_computer.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Configure the MFA Verification Methods Available to Your Users for Salesforce Orgs",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=xcloud.mfa_config_available_verifiers.htm&amp=&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "VerificationHistory (Object Reference)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/object_reference/sforce_api_objects_verificationhistory.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Create Identity Verification Reports and Dashboards (Identity for Mobile-Centric Customers)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/identity-for-mobile-centric-customers/identity_mfi_reports",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/identity/identity-verification.md",
+      "skos:altLabel": [
+        "Salesforce identity verification",
+        "device activation",
+        "Identity Verification History",
+        "verification methods"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-identity"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:multi-factor-authentication"
+        },
+        {
+          "@id": "kt:session-security-levels"
+        },
+        {
+          "@id": "kt:login-ip-ranges-and-trusted-ip-ranges"
+        },
+        {
+          "@id": "kt:experience-cloud-identity"
+        },
+        {
+          "@id": "kt:login-flows"
+        }
+      ],
+      "kto:mitigates": [
+        {
+          "@id": "kt:account-takeover"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:multi-factor-authentication"
+        }
+      ],
+      "kto:queriedWith": [
+        {
+          "@id": "kt:soql"
+        }
+      ]
+    },
+    {
       "@id": "kt:just-in-time-provisioning",
       "@type": "kto:Feature",
       "skos:prefLabel": "Just-in-Time User Provisioning",

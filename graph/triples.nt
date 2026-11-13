@@ -4092,6 +4092,32 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-resolution> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#enables> <https://github.com/john1hsu/salesforce-knowledge-graph/id/calculated-insights> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-resolution> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-resolution> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-verification> <http://purl.org/dc/terms/created> "2026-11-13" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-verification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#SecurityControl> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-verification> <http://www.w3.org/2000/01/rdf-schema#label> "Identity Verification" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-verification> <http://www.w3.org/2004/02/skos/core#altLabel> "Identity Verification History" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-verification> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce identity verification" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-verification> <http://www.w3.org/2004/02/skos/core#altLabel> "device activation" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-verification> <http://www.w3.org/2004/02/skos/core#altLabel> "verification methods" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-verification> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-identity> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-verification> <http://www.w3.org/2004/02/skos/core#definition> "Salesforce's framework for making a user prove they own an account — at login, when activating an unrecognized device or browser, or before a sensitive action — using a registered verification method such as a passkey, security key, Salesforce Authenticator, a TOTP app or (for external users) SMS or email codes. Every attempt is logged in Identity Verification History for six months." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-verification> <http://www.w3.org/2004/02/skos/core#prefLabel> "Identity Verification" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-verification> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/experience-cloud-identity> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-verification> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/login-flows> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-verification> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/login-ip-ranges-and-trusted-ip-ranges> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-verification> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/multi-factor-authentication> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-verification> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/session-security-levels> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-verification> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-verification/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-verification> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-verification/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-verification> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-verification/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-verification> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-verification/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-verification> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-verification/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-verification> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "identity" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-verification> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/multi-factor-authentication> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-verification> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#mitigates> <https://github.com/john1hsu/salesforce-knowledge-graph/id/account-takeover> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-verification> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/soql> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-verification> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-verification> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/il4-and-il5> <http://purl.org/dc/terms/created> "2026-11-01" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/il4-and-il5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#ExternalConcept> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/il4-and-il5> <http://www.w3.org/2000/01/rdf-schema#label> "DoD Impact Levels 4 and 5" .
@@ -12403,6 +12429,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-resolution/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-resolution/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-resolution/s6> <https://schema.org/url> "https://www.salesforce.com/blog/real-time-identity-resolution/" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-verification/s1> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-verification/s1> <http://purl.org/dc/terms/title> "Identity Verification Overview" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-verification/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-verification/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-verification/s1> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=sf.security_identity_verification_concept_overview.htm&language=en_US&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-verification/s2> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-verification/s2> <http://purl.org/dc/terms/title> "Methods for Verifying Your Identity" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-verification/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-verification/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-verification/s2> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=activating_computer.htm&language=en_US&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-verification/s3> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-verification/s3> <http://purl.org/dc/terms/title> "Configure the MFA Verification Methods Available to Your Users for Salesforce Orgs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-verification/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-verification/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-verification/s3> <https://schema.org/url> "https://help.salesforce.com/s/articleView?language=en_US&id=xcloud.mfa_config_available_verifiers.htm&amp=&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-verification/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-verification/s4> <http://purl.org/dc/terms/title> "VerificationHistory (Object Reference)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-verification/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-verification/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-verification/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/object_reference/sforce_api_objects_verificationhistory.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-verification/s5> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-verification/s5> <http://purl.org/dc/terms/title> "Create Identity Verification Reports and Dashboards (Identity for Mobile-Centric Customers)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-verification/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-verification/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-verification/s5> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/identity-for-mobile-centric-customers/identity_mfi_reports" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/il4-and-il5/s1> <http://purl.org/dc/terms/publisher> "Defense Information Systems Agency (copy hosted by RMF.org)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/il4-and-il5/s1> <http://purl.org/dc/terms/title> "Cloud Service Provider Security Requirements Guide, Version 1, Release 2 (30 January 2025)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/il4-and-il5/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
