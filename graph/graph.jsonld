@@ -19020,6 +19020,9 @@
         },
         {
           "@id": "kt:scratch-orgs"
+        },
+        {
+          "@id": "kt:salesforce-edge-network"
         }
       ],
       "kto:enables": [
@@ -24607,6 +24610,99 @@
       "kto:queriedWith": [
         {
           "@id": "kt:soql"
+        }
+      ]
+    },
+    {
+      "@id": "kt:salesforce-edge-network",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Salesforce Edge Network",
+      "skos:definition": "Salesforce's own edge layer, which routes My Domain traffic to the nearest Salesforce edge location for TLS termination, caching of cacheable static content, intelligent routing and TCP optimizations before forwarding requests to the org's data center over Salesforce's backbone.",
+      "kto:domain": "platform-architecture",
+      "dcterms:created": "2026-11-13",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What Is Salesforce Edge Network?",
+          "dcterms:publisher": "Salesforce Developers (Identity Implementation Guide)",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.identityImplGuide.meta/%20identityImplGuide/domain_name_edge_network_what_is.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Considerations for Salesforce Edge Network",
+          "dcterms:publisher": "Salesforce Developers (Identity Implementation Guide)",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.identityImplGuide.meta/%20identityImplGuide/domain_name_edge_network_considerations.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Route My Domain Through Salesforce Edge Network",
+          "dcterms:publisher": "Salesforce Developers (Identity Implementation Guide)",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.identityImplGuide.meta/%20identityImplGuide/domain_name_edge_network_route_my_domain.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Enhanced Domains",
+          "dcterms:publisher": "Salesforce Developers (Identity Implementation Guide)",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.identityImplGuide.meta/%20identityImplGuide/domain_name_enhanced.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Optimizing Global Performance for the World's Most Trusted Enterprise Cloud",
+          "dcterms:publisher": "Salesforce Engineering",
+          "schema:url": "https://engineering.salesforce.com/optimizing-global-performance-for-the-worlds-most-trusted-enterprise-cloud-58979125c9b6/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "How Hyperforce Edge Networking Scales to Handle 20 Million Domains on Just 30GB of RAM",
+          "dcterms:publisher": "Salesforce Engineering",
+          "schema:url": "https://engineering.salesforce.com/how-hyperforce-edge-networking-scales-to-handle-20-million-domains-on-just-30gb-of-ram/",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/platform-architecture/salesforce-edge-network.md",
+      "skos:altLabel": [
+        "Edge Network",
+        "Salesforce Edge",
+        "Salesforce EDGE",
+        "Hyperforce Edge Networking",
+        "Use Salesforce Edge Network"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-platform"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:hyperforce"
+        },
+        {
+          "@id": "kt:custom-domains"
+        },
+        {
+          "@id": "kt:login-ip-ranges-and-trusted-ip-ranges"
+        },
+        {
+          "@id": "kt:content-delivery-network"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:my-domain"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:hyperforce"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:custom-domains"
+        },
+        {
+          "@id": "kt:government-cloud"
         }
       ]
     },

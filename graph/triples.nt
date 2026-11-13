@@ -5026,6 +5026,7 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/my-domain> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/experience-cloud> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/my-domain> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/hyperforce> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/my-domain> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/multi-factor-authentication> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/my-domain> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-edge-network> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/my-domain> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-types> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/my-domain> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/scratch-orgs> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/my-domain> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/single-sign-on-saml> .
@@ -7200,6 +7201,34 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-dx> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source-tracking> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-dx> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-dx> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-edge-network> <http://purl.org/dc/terms/created> "2026-11-13" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-edge-network> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-edge-network> <http://www.w3.org/2000/01/rdf-schema#label> "Salesforce Edge Network" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-edge-network> <http://www.w3.org/2004/02/skos/core#altLabel> "Edge Network" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-edge-network> <http://www.w3.org/2004/02/skos/core#altLabel> "Hyperforce Edge Networking" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-edge-network> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce EDGE" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-edge-network> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce Edge" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-edge-network> <http://www.w3.org/2004/02/skos/core#altLabel> "Use Salesforce Edge Network" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-edge-network> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-platform> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-edge-network> <http://www.w3.org/2004/02/skos/core#definition> "Salesforce's own edge layer, which routes My Domain traffic to the nearest Salesforce edge location for TLS termination, caching of cacheable static content, intelligent routing and TCP optimizations before forwarding requests to the org's data center over Salesforce's backbone." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-edge-network> <http://www.w3.org/2004/02/skos/core#prefLabel> "Salesforce Edge Network" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-edge-network> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/content-delivery-network> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-edge-network> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-domains> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-edge-network> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/hyperforce> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-edge-network> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/login-ip-ranges-and-trusted-ip-ranges> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-edge-network> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-edge-network/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-edge-network> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-edge-network/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-edge-network> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-edge-network/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-edge-network> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-edge-network/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-edge-network> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-edge-network/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-edge-network> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-edge-network/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-edge-network> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#contrastsWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-domains> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-edge-network> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#contrastsWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/government-cloud> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-edge-network> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/my-domain> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-edge-network> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "platform-architecture" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-edge-network> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/hyperforce> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-edge-network> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-edge-network> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-governance> <http://purl.org/dc/terms/created> "2026-11-11" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-governance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-governance> <http://www.w3.org/2000/01/rdf-schema#label> "Salesforce Governance" .
@@ -15607,6 +15636,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-dx/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-dx/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-dx/s6> <https://schema.org/url> "https://developer.salesforce.com/blogs/2017/10/salesforce-dx-is-now-generally-available" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-edge-network/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers (Identity Implementation Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-edge-network/s1> <http://purl.org/dc/terms/title> "What Is Salesforce Edge Network?" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-edge-network/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-edge-network/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-edge-network/s1> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.identityImplGuide.meta/%20identityImplGuide/domain_name_edge_network_what_is.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-edge-network/s2> <http://purl.org/dc/terms/publisher> "Salesforce Developers (Identity Implementation Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-edge-network/s2> <http://purl.org/dc/terms/title> "Considerations for Salesforce Edge Network" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-edge-network/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-edge-network/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-edge-network/s2> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.identityImplGuide.meta/%20identityImplGuide/domain_name_edge_network_considerations.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-edge-network/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers (Identity Implementation Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-edge-network/s3> <http://purl.org/dc/terms/title> "Route My Domain Through Salesforce Edge Network" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-edge-network/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-edge-network/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-edge-network/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.identityImplGuide.meta/%20identityImplGuide/domain_name_edge_network_route_my_domain.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-edge-network/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers (Identity Implementation Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-edge-network/s4> <http://purl.org/dc/terms/title> "Enhanced Domains" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-edge-network/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-edge-network/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-edge-network/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.identityImplGuide.meta/%20identityImplGuide/domain_name_enhanced.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-edge-network/s5> <http://purl.org/dc/terms/publisher> "Salesforce Engineering" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-edge-network/s5> <http://purl.org/dc/terms/title> "Optimizing Global Performance for the World's Most Trusted Enterprise Cloud" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-edge-network/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-edge-network/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-edge-network/s5> <https://schema.org/url> "https://engineering.salesforce.com/optimizing-global-performance-for-the-worlds-most-trusted-enterprise-cloud-58979125c9b6/" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-edge-network/s6> <http://purl.org/dc/terms/publisher> "Salesforce Engineering" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-edge-network/s6> <http://purl.org/dc/terms/title> "How Hyperforce Edge Networking Scales to Handle 20 Million Domains on Just 30GB of RAM" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-edge-network/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-edge-network/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-edge-network/s6> <https://schema.org/url> "https://engineering.salesforce.com/how-hyperforce-edge-networking-scales-to-handle-20-million-domains-on-just-30gb-of-ram/" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-governance/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-governance/s1> <http://purl.org/dc/terms/title> "Learn About Salesforce Governance and Why It Matters (Salesforce Governance with a Center of Excellence)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-governance/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

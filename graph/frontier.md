@@ -52,8 +52,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:custom-objects` | `kt:standard-objects` |
 | `kt:distributed-computing` | `kt:cloud-computing` |
 | `kt:platform-administrator-ii-certification` | `kt:platform-administrator-certification` |
-| `kt:data-mask-and-seed` | `kt:salesforce-data-mask` |
 | `kt:flow-bulkification` | `kt:bulkification` |
+| `kt:data-mask-and-seed` | `kt:salesforce-data-mask` |
 | `kt:zero-trust-architecture` | `kt:principle-of-least-privilege` |
 | `kt:entitlement-process-metadata` | `kt:entitlement-management` |
 | `kt:dispatcher-console` | `kt:field-service` |
@@ -63,6 +63,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:work-orders` | `kt:field-service` |
 | `kt:data-cloud-activation` | `kt:data-cloud-segmentation` |
 | `kt:data-graphs` | `kt:data-cloud-segmentation` |
+| `kt:certificate-and-key-management` | `kt:custom-domains` |
+| `kt:salesforce-sites` | `kt:custom-domains` |
 | `kt:cross-site-scripting` | `kt:lightning-web-security` |
 | `kt:omnistudio-consultant-certification` | `kt:omnistudio` |
 | `kt:omnistudio-developer-certification` | `kt:omnistudio` |
@@ -75,13 +77,11 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:api-experience-hub` | `kt:external-identity-license` |
 | `kt:customer-community-licenses` | `kt:external-identity-license` |
 | `kt:hitrust-csf` | `kt:nist-cybersecurity-framework` |
-| `kt:certificate-and-key-management` | `kt:custom-domains` |
-| `kt:salesforce-edge-network` | `kt:custom-domains` |
-| `kt:salesforce-sites` | `kt:custom-domains` |
 | `kt:heroku-applink` | `kt:heroku` |
 | `kt:heroku-connect` | `kt:heroku` |
 | `kt:decision-tables` | `kt:salesforce-pricing` |
 | `kt:scim` | `kt:salesforce-scim` |
+| `kt:content-delivery-network` | `kt:salesforce-edge-network` |
 | `kt:json-web-token` | `kt:openid-connect` |
 | `kt:tableau-pulse` | `kt:tableau` |
 | `kt:tableau-semantics` | `kt:tableau` |
@@ -91,10 +91,10 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:product-catalog-management` | `kt:product-configurator` |
 | `kt:object-manager` | `kt:schema-builder` |
 | `kt:salesforce-ecosystem` | `kt:salesforce-inc` |
-| `kt:opportunity-teams` | `kt:opportunity-splits` |
-| `kt:revenue-intelligence` | `kt:collaborative-forecasts` |
 | `kt:einstein-discovery` | `kt:crm-analytics` |
 | `kt:saql` | `kt:crm-analytics` |
+| `kt:opportunity-teams` | `kt:opportunity-splits` |
+| `kt:revenue-intelligence` | `kt:collaborative-forecasts` |
 | `kt:lightning-out` | `kt:lightning-locker` |
 | `kt:generative-ai` | `kt:retrieval-augmented-generation-in-salesforce` |
 | `kt:apex-mocks` | `kt:apex-enterprise-patterns` |
@@ -102,6 +102,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:application-network` | `kt:api-led-connectivity` |
 | `kt:mulesoft-platform-integration-architect-certification` | `kt:mulesoft-platform-architect-certification` |
 | `kt:point-to-point-integration` | `kt:api-led-connectivity` |
+| `kt:mutual-tls-authentication` | `kt:login-ip-ranges-and-trusted-ip-ranges` |
 | `kt:automation-studio` | `kt:marketing-cloud-engagement` |
 | `kt:contact-builder` | `kt:marketing-cloud-engagement` |
 | `kt:journey-builder` | `kt:marketing-cloud-engagement` |
@@ -121,7 +122,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:utilization-management` | `kt:health-cloud` |
 | `kt:user-management` | `kt:user-access-policies` |
 | `kt:flow-limits` | `kt:flow-versioning` |
-| `kt:mutual-tls-authentication` | `kt:login-ip-ranges-and-trusted-ip-ranges` |
 | `kt:salesforce-lightning-design-system` | `kt:visualforce` |
 | `kt:it-governance` | `kt:salesforce-governance` |
 | `kt:security-governance` | `kt:salesforce-governance` |
@@ -143,8 +143,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:ldap` | `kt:delegated-authentication` |
 | `kt:platform-cache-partitions` | `kt:platform-cache` |
 | `kt:agentforce-nonprofit-consultant-certification` | `kt:agentforce-nonprofit` |
-| `kt:nonprofit-success-pack` | `kt:agentforce-nonprofit` |
 | `kt:model-context-protocol` | `kt:model-context-protocol-in-agentforce` |
+| `kt:nonprofit-success-pack` | `kt:agentforce-nonprofit` |
 | `kt:salesforce-hosted-mcp-servers` | `kt:model-context-protocol-in-agentforce` |
 | `kt:models-api` | `kt:ai-models` |
 | `kt:jwt-bearer-flow` | `kt:continuous-integration-for-salesforce` |

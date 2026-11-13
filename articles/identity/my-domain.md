@@ -11,7 +11,7 @@ summary: >-
 release: "Winter '27"
 status: current
 broader: [kt:salesforce-identity]
-related: [kt:single-sign-on-saml, kt:multi-factor-authentication, kt:experience-cloud, kt:hyperforce, kt:sandbox-types, kt:scratch-orgs]
+related: [kt:single-sign-on-saml, kt:multi-factor-authentication, kt:experience-cloud, kt:hyperforce, kt:sandbox-types, kt:scratch-orgs, kt:salesforce-edge-network]
 relations:
   - {predicate: enables, object: kt:single-sign-on-saml}
   - {predicate: enables, object: kt:openid-connect-authentication-providers}
