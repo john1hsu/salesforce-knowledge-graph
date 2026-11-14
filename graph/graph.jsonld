@@ -16910,6 +16910,90 @@
       ]
     },
     {
+      "@id": "kt:release-management",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Release Management",
+      "skos:definition": "The discipline of planning, building, testing, deploying and communicating a coordinated set of approved changes to a Salesforce org, including scheduling those releases around Salesforce's own three seasonal platform upgrades.",
+      "kto:domain": "devops-and-alm",
+      "dcterms:created": "2026-11-14",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Org Development Model: Plan for Changes to Your Org",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/org-development-model/plan-for-changes-to-your-org2",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Salesforce DX Development Model: Release Your App",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/sfdx_dev_model/sfdx_dev_model_release",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Package Development Readiness: Develop a Release Management Strategy",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/package-development-readiness/develop-a-release-management-strategy",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Get to Know the Salesforce Release Process",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/sf_releases/sf_releases_start",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Admin Release Countdown: Get Ready for Winter '27",
+          "dcterms:publisher": "Salesforce Admins Blog",
+          "schema:url": "https://admin.salesforce.com/blog/2026/admin-winter-27-release-countdown",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Release Management in Agentforce IT Service: Get to Know Release Management",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/release-management-in-agentforce-it-service/get-to-know-release-management",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/devops-and-alm/release-management.md",
+      "skos:altLabel": [
+        "Salesforce release management",
+        "release process",
+        "release planning",
+        "release strategy"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:application-lifecycle-management"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:environment-strategy"
+        },
+        {
+          "@id": "kt:branching-strategy"
+        },
+        {
+          "@id": "kt:change-management-and-adoption"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:deployment-validation-and-quick-deploy"
+        },
+        {
+          "@id": "kt:package-xml-manifest"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:sandbox-types"
+        }
+      ]
+    },
+    {
       "@id": "kt:salesforce-cli",
       "@type": "kto:Tool",
       "skos:prefLabel": "Salesforce CLI",

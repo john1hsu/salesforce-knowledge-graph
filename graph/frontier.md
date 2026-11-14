@@ -10,7 +10,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:tableau-next` | `kt:digital-wallet`, `kt:tableau` |
 | `kt:unstructured-data-in-data-cloud` | `kt:agentforce-data-library`, `kt:vector-search-in-data-cloud` |
 | `kt:customer-360` | `kt:commerce-cloud`, `kt:slack-platform` |
-| `kt:release-management` | `kt:change-management-and-adoption`, `kt:deployment-validation-and-quick-deploy` |
 | `kt:test-data-factory` | `kt:apex-testing` |
 | `kt:recursive-save` | `kt:order-of-execution` |
 | `kt:salesforce-ecosystem-roles` | `kt:salesforce-architect` |
@@ -64,13 +63,13 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:data-graphs` | `kt:data-cloud-segmentation` |
 | `kt:certificate-and-key-management` | `kt:custom-domains` |
 | `kt:salesforce-sites` | `kt:custom-domains` |
+| `kt:data-classification` | `kt:data-governance` |
+| `kt:data-management` | `kt:data-governance` |
+| `kt:data-stewardship` | `kt:data-governance` |
 | `kt:heroku-applink` | `kt:heroku` |
 | `kt:heroku-connect` | `kt:heroku` |
 | `kt:omnistudio-consultant-certification` | `kt:omnistudio` |
 | `kt:omnistudio-developer-certification` | `kt:omnistudio` |
-| `kt:data-classification` | `kt:data-governance` |
-| `kt:data-management` | `kt:data-governance` |
-| `kt:data-stewardship` | `kt:data-governance` |
 | `kt:dynamic-revenue-orchestrator` | `kt:revenue-cloud` |
 | `kt:revenue-management-consultant-certification` | `kt:revenue-cloud` |
 | `kt:iso-iec-27002` | `kt:iso-iec-27001` |
@@ -140,13 +139,15 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:requirements-engineering` | `kt:non-functional-requirements` |
 | `kt:data-cloud-code-extension` | `kt:vector-search-in-data-cloud` |
 | `kt:ldap` | `kt:delegated-authentication` |
+| `kt:in-app-guidance` | `kt:change-management-and-adoption` |
+| `kt:requirements-gathering` | `kt:change-management-and-adoption` |
 | `kt:platform-cache-partitions` | `kt:platform-cache` |
 | `kt:agentforce-nonprofit-consultant-certification` | `kt:agentforce-nonprofit` |
 | `kt:nonprofit-success-pack` | `kt:agentforce-nonprofit` |
 | `kt:model-context-protocol` | `kt:model-context-protocol-in-agentforce` |
 | `kt:salesforce-hosted-mcp-servers` | `kt:model-context-protocol-in-agentforce` |
-| `kt:models-api` | `kt:ai-models` |
 | `kt:jwt-bearer-flow` | `kt:continuous-integration-for-salesforce` |
+| `kt:models-api` | `kt:ai-models` |
 | `kt:b2b-commerce` | `kt:commerce-cloud` |
 | `kt:b2c-commerce` | `kt:commerce-cloud` |
 | `kt:salesforce-order-management` | `kt:commerce-cloud` |
@@ -157,10 +158,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:business-architecture` | `kt:capability-maps` |
 | `kt:einstein-prediction-builder` | `kt:einstein-next-best-action` |
 | `kt:email-templates` | `kt:email-alerts` |
-| `kt:in-app-guidance` | `kt:change-management-and-adoption` |
 | `kt:notes-and-attachments` | `kt:content-document-model` |
 | `kt:organization-wide-email-addresses` | `kt:email-alerts` |
-| `kt:requirements-gathering` | `kt:change-management-and-adoption` |
 | `kt:shared-activities` | `kt:activity-data-model` |
 | `kt:technology-roadmaps` | `kt:capability-maps` |
 | `kt:ui-api` | `kt:field-dependencies` |
