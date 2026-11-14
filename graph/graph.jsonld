@@ -26650,6 +26650,87 @@
       ]
     },
     {
+      "@id": "kt:trust-and-status-site",
+      "@type": "kto:Tool",
+      "skos:prefLabel": "Salesforce Trust and Status Site",
+      "skos:definition": "Salesforce's public transparency site (trust.salesforce.com) and its Status pages (status.salesforce.com), which report real-time availability, incidents and maintenance per instance and send subscribable Trust Notifications.",
+      "kto:domain": "platform-architecture",
+      "dcterms:created": "2026-11-14",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Get Acquainted with the Critical Incident Center (Critical Incident Management at Salesforce)",
+          "dcterms:publisher": "Salesforce Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/critical-incident-management-at-salesforce/get-acquainted-with-the-critical-incident-center-learn",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Trust Notification User Guide",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://trust1-public.s3.amazonaws.com/notifiction_guide/en/TrustNotificationGuide.pdf",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Introducing My Trust Center: Personalized Trust and Status",
+          "dcterms:publisher": "Salesforce Admins Blog",
+          "schema:url": "https://admin.salesforce.com/blog/2026/introducing-my-trust-center",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Stay Up-to-Date on Salesforce System Availability with Trust Notifications",
+          "dcterms:publisher": "Salesforce Admins Blog",
+          "schema:url": "https://admin.salesforce.com/blog/2017/stay-date-salesforce-system-availability-trust-notifications",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Navigate the Salesforce Trust Site",
+          "dcterms:publisher": "Salesforce Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/mc_trust/navigate_trust",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Salesforce Trust is now the primary channel for all Heroku incident and maintenance communications",
+          "dcterms:publisher": "Heroku Dev Center",
+          "schema:url": "https://devcenter.heroku.com/changelog-items/3422",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/platform-architecture/trust-and-status-site.md",
+      "skos:altLabel": [
+        "trust.salesforce.com",
+        "status.salesforce.com",
+        "Salesforce Trust",
+        "Salesforce Status site",
+        "Trust Notifications"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-platform"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:hyperforce"
+        },
+        {
+          "@id": "kt:my-domain"
+        },
+        {
+          "@id": "kt:sandbox-types"
+        },
+        {
+          "@id": "kt:heroku"
+        },
+        {
+          "@id": "kt:security-compliance-frameworks"
+        },
+        {
+          "@id": "kt:instance-refresh-and-org-migration"
+        }
+      ]
+    },
+    {
       "@id": "kt:authority-to-operate",
       "@type": "kto:ExternalConcept",
       "skos:prefLabel": "Authority to Operate",
