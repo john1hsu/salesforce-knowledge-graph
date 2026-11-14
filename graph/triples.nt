@@ -1903,6 +1903,34 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/crm-analytics> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/saql> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/crm-analytics> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/crm-analytics> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/cross-site-scripting> <http://purl.org/dc/terms/created> "2026-11-14" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/cross-site-scripting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/cross-site-scripting> <http://www.w3.org/2000/01/rdf-schema#label> "Cross-Site Scripting" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/cross-site-scripting> <http://www.w3.org/2004/02/skos/core#altLabel> "DOM-based XSS" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/cross-site-scripting> <http://www.w3.org/2004/02/skos/core#altLabel> "XSS" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/cross-site-scripting> <http://www.w3.org/2004/02/skos/core#altLabel> "cross site scripting" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/cross-site-scripting> <http://www.w3.org/2004/02/skos/core#altLabel> "reflected XSS" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/cross-site-scripting> <http://www.w3.org/2004/02/skos/core#altLabel> "script injection" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/cross-site-scripting> <http://www.w3.org/2004/02/skos/core#altLabel> "stored XSS" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/cross-site-scripting> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/secure-coding> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/cross-site-scripting> <http://www.w3.org/2004/02/skos/core#definition> "A web injection vulnerability in which untrusted data reaches a page in a form the browser executes as script, letting an attacker act with the viewing user's session. On Salesforce it arises mainly from unescaped Visualforce output and formulas and from manual DOM manipulation in Lightning components." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/cross-site-scripting> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cross-Site Scripting" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/cross-site-scripting> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/content-security-policy> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/cross-site-scripting> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-web-components> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/cross-site-scripting> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-web-security> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/cross-site-scripting> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/soql-injection> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/cross-site-scripting> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/static-resources> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/cross-site-scripting> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/visualforce> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/cross-site-scripting> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/cross-site-scripting/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/cross-site-scripting> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/cross-site-scripting/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/cross-site-scripting> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/cross-site-scripting/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/cross-site-scripting> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/cross-site-scripting/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/cross-site-scripting> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/cross-site-scripting/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/cross-site-scripting> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#causes> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-breach-risk> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/cross-site-scripting> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#contrastsWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/soql-injection> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/cross-site-scripting> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "security-and-sharing" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/cross-site-scripting> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/cross-site-scripting> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/cta-review-board> <http://purl.org/dc/terms/created> "2026-11-04" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/cta-review-board> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Certification> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/cta-review-board> <http://www.w3.org/2000/01/rdf-schema#label> "CTA Review Board" .
@@ -10693,6 +10721,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/crm-analytics/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/crm-analytics/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "community" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/crm-analytics/s6> <https://schema.org/url> "https://automationchampion.com/2022/11/07/data-security-to-control-access-to-rows/" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/cross-site-scripting/s1> <http://purl.org/dc/terms/publisher> "Salesforce Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/cross-site-scripting/s1> <http://purl.org/dc/terms/title> "Secure Client-Side Development: Mitigate Cross-Site Scripting" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/cross-site-scripting/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/cross-site-scripting/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/cross-site-scripting/s1> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/secure-clientside-development/mitigate-crosssite-scripting" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/cross-site-scripting/s2> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/cross-site-scripting/s2> <http://purl.org/dc/terms/title> "Visualforce Developer Guide: Cross Site Scripting (XSS) — Unescaped Output and Formulas" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/cross-site-scripting/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/cross-site-scripting/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/cross-site-scripting/s2> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/salesforce-pages-developers-guide/guide/pages-security-tips-scontrols.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/cross-site-scripting/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/cross-site-scripting/s3> <http://purl.org/dc/terms/title> "Lightning Components Security Guide: Lightning Web Security Sanitization" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/cross-site-scripting/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/cross-site-scripting/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/cross-site-scripting/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/lightning-components-security/guide/lws-sanitize.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/cross-site-scripting/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/cross-site-scripting/s4> <http://purl.org/dc/terms/title> "Security Anti-Patterns in Lightning Web Components" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/cross-site-scripting/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/cross-site-scripting/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/cross-site-scripting/s4> <https://schema.org/url> "https://developer.salesforce.com/blogs/2026/06/security-anti-patterns-in-lightning-web-components" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/cross-site-scripting/s5> <http://purl.org/dc/terms/publisher> "OWASP Cheat Sheet Series" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/cross-site-scripting/s5> <http://purl.org/dc/terms/title> "Cross Site Scripting Prevention Cheat Sheet" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/cross-site-scripting/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/cross-site-scripting/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "community" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/cross-site-scripting/s5> <https://schema.org/url> "https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/cta-review-board/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/cta-review-board/s1> <http://purl.org/dc/terms/title> "Certified Technical Architect Credential" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/cta-review-board/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

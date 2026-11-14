@@ -28900,6 +28900,92 @@
       ]
     },
     {
+      "@id": "kt:cross-site-scripting",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Cross-Site Scripting",
+      "skos:definition": "A web injection vulnerability in which untrusted data reaches a page in a form the browser executes as script, letting an attacker act with the viewing user's session. On Salesforce it arises mainly from unescaped Visualforce output and formulas and from manual DOM manipulation in Lightning components.",
+      "kto:domain": "security-and-sharing",
+      "dcterms:created": "2026-11-14",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Secure Client-Side Development: Mitigate Cross-Site Scripting",
+          "dcterms:publisher": "Salesforce Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/secure-clientside-development/mitigate-crosssite-scripting",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Visualforce Developer Guide: Cross Site Scripting (XSS) — Unescaped Output and Formulas",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/salesforce-pages-developers-guide/guide/pages-security-tips-scontrols.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Lightning Components Security Guide: Lightning Web Security Sanitization",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/lightning-components-security/guide/lws-sanitize.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Security Anti-Patterns in Lightning Web Components",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2026/06/security-anti-patterns-in-lightning-web-components",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Cross Site Scripting Prevention Cheat Sheet",
+          "dcterms:publisher": "OWASP Cheat Sheet Series",
+          "schema:url": "https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html",
+          "kto:sourceType": "community"
+        }
+      ],
+      "kto:file": "articles/security-and-sharing/cross-site-scripting.md",
+      "skos:altLabel": [
+        "XSS",
+        "cross site scripting",
+        "stored XSS",
+        "reflected XSS",
+        "DOM-based XSS",
+        "script injection"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:secure-coding"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:visualforce"
+        },
+        {
+          "@id": "kt:lightning-web-components"
+        },
+        {
+          "@id": "kt:lightning-web-security"
+        },
+        {
+          "@id": "kt:content-security-policy"
+        },
+        {
+          "@id": "kt:soql-injection"
+        },
+        {
+          "@id": "kt:static-resources"
+        }
+      ],
+      "kto:causes": [
+        {
+          "@id": "kt:data-breach-risk"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:soql-injection"
+        }
+      ]
+    },
+    {
       "@id": "kt:data-breach-risk",
       "@type": "kto:Concept",
       "skos:prefLabel": "Data Breach Risk",

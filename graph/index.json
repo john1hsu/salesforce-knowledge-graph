@@ -1674,6 +1674,31 @@
     ]
   },
   {
+    "id": "kt:cross-site-scripting",
+    "title": "Cross-Site Scripting",
+    "aliases": [
+      "XSS",
+      "cross site scripting",
+      "stored XSS",
+      "reflected XSS",
+      "DOM-based XSS",
+      "script injection"
+    ],
+    "type": "Concept",
+    "domain": "security-and-sharing",
+    "file": "articles/security-and-sharing/cross-site-scripting.md",
+    "created": "2026-11-14",
+    "release": "Winter '27",
+    "status": "concept",
+    "source_urls": [
+      "https://trailhead.salesforce.com/content/learn/modules/secure-clientside-development/mitigate-crosssite-scripting",
+      "https://developer.salesforce.com/docs/platform/salesforce-pages-developers-guide/guide/pages-security-tips-scontrols.html",
+      "https://developer.salesforce.com/docs/platform/lightning-components-security/guide/lws-sanitize.html",
+      "https://developer.salesforce.com/blogs/2026/06/security-anti-patterns-in-lightning-web-components",
+      "https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html"
+    ]
+  },
+  {
     "id": "kt:cta-review-board",
     "title": "CTA Review Board",
     "aliases": [
