@@ -675,6 +675,94 @@
       ]
     },
     {
+      "@id": "kt:change-management-and-adoption",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Change Management and Adoption",
+      "skos:definition": "The people side of a Salesforce rollout: planning, communicating, training and measuring so that users actually change how they work, structured by Salesforce around a Discover, Rollout and Optimize cycle and the LEVERS of Change model (Leadership, Ecosystem, Values, Enablement, Rewards, Structure).",
+      "kto:domain": "architecture-practice",
+      "dcterms:created": "2026-11-14",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Build Your Own LEVERS Model (LEVERS of Change Model)",
+          "dcterms:publisher": "Salesforce Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/levers-of-change-model/build-you-own-leversmodel",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Manage Organizational Change (Drucker School—Organizational Change Leadership)",
+          "dcterms:publisher": "Salesforce Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/drucker_org_change_leadership/manage-organizational-change",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Encourage and Support Users (User Training and Enablement)",
+          "dcterms:publisher": "Salesforce Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/user-training-and-motivation/encourage-and-support-users",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "6 Guiding Principles to Maximize Your Salesforce Adoption",
+          "dcterms:publisher": "Salesforce Admins Blog",
+          "schema:url": "https://admin.salesforce.com/blog/2021/6-guiding-principles-to-maximize-your-salesforce-adoption",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Manage Change During Your Lightning Experience Transition",
+          "dcterms:publisher": "Salesforce Admins Blog",
+          "schema:url": "https://admin.salesforce.com/manage-change-during-your-lightning-experience-transition",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Create Prompts in Agentforce 360 Platform (User Engagement)",
+          "dcterms:publisher": "Salesforce Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/user-engagement/create-in-app-prompts",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/architecture-practice/change-management-and-adoption.md",
+      "skos:altLabel": [
+        "user adoption",
+        "organizational change management",
+        "OCM",
+        "Salesforce adoption strategy",
+        "LEVERS of Change model"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-governance"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:salesforce-center-of-excellence"
+        },
+        {
+          "@id": "kt:requirements-gathering"
+        },
+        {
+          "@id": "kt:release-management"
+        },
+        {
+          "@id": "kt:in-app-guidance"
+        },
+        {
+          "@id": "kt:salesforce-optimizer"
+        }
+      ],
+      "kto:usedBy": [
+        {
+          "@id": "kt:salesforce-architect"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:application-lifecycle-management"
+        }
+      ]
+    },
+    {
       "@id": "kt:cta-review-board",
       "@type": "kto:Certification",
       "skos:prefLabel": "CTA Review Board",
