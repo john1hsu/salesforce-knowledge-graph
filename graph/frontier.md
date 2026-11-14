@@ -5,7 +5,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | Node | Referenced by |
 |---|---|
 | `kt:agentexchange` | `kt:appexchange-security-review`, `kt:build-vs-buy-decisions`, `kt:model-context-protocol-in-agentforce` |
-| `kt:session-settings` | `kt:lightning-locker`, `kt:lightning-web-security` |
 | `kt:cross-site-scripting` | `kt:content-security-policy`, `kt:lightning-web-security` |
 | `kt:salesforce-analytics` | `kt:crm-analytics`, `kt:tableau` |
 | `kt:tableau-next` | `kt:digital-wallet`, `kt:tableau` |
@@ -51,8 +50,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:compact-layouts` | `kt:page-layouts` |
 | `kt:custom-objects` | `kt:standard-objects` |
 | `kt:distributed-computing` | `kt:cloud-computing` |
-| `kt:flow-bulkification` | `kt:bulkification` |
 | `kt:data-mask-and-seed` | `kt:salesforce-data-mask` |
+| `kt:flow-bulkification` | `kt:bulkification` |
 | `kt:platform-administrator-ii-certification` | `kt:platform-administrator-certification` |
 | `kt:zero-trust-architecture` | `kt:principle-of-least-privilege` |
 | `kt:entitlement-process-metadata` | `kt:entitlement-management` |
@@ -65,10 +64,10 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:data-graphs` | `kt:data-cloud-segmentation` |
 | `kt:certificate-and-key-management` | `kt:custom-domains` |
 | `kt:salesforce-sites` | `kt:custom-domains` |
-| `kt:omnistudio-consultant-certification` | `kt:omnistudio` |
-| `kt:omnistudio-developer-certification` | `kt:omnistudio` |
 | `kt:heroku-applink` | `kt:heroku` |
 | `kt:heroku-connect` | `kt:heroku` |
+| `kt:omnistudio-consultant-certification` | `kt:omnistudio` |
+| `kt:omnistudio-developer-certification` | `kt:omnistudio` |
 | `kt:data-classification` | `kt:data-governance` |
 | `kt:data-management` | `kt:data-governance` |
 | `kt:data-stewardship` | `kt:data-governance` |
@@ -78,8 +77,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:hitrust-csf` | `kt:nist-cybersecurity-framework` |
 | `kt:api-experience-hub` | `kt:external-identity-license` |
 | `kt:customer-community-licenses` | `kt:external-identity-license` |
-| `kt:decision-tables` | `kt:salesforce-pricing` |
 | `kt:lightning-out` | `kt:lightning-locker` |
+| `kt:decision-tables` | `kt:salesforce-pricing` |
 | `kt:scim` | `kt:salesforce-scim` |
 | `kt:content-delivery-network` | `kt:salesforce-edge-network` |
 | `kt:json-web-token` | `kt:openid-connect` |
@@ -95,15 +94,16 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:saql` | `kt:crm-analytics` |
 | `kt:opportunity-teams` | `kt:opportunity-splits` |
 | `kt:revenue-intelligence` | `kt:collaborative-forecasts` |
+| `kt:mutual-tls-authentication` | `kt:login-ip-ranges-and-trusted-ip-ranges` |
 | `kt:generative-ai` | `kt:retrieval-augmented-generation-in-salesforce` |
 | `kt:apex-mocks` | `kt:apex-enterprise-patterns` |
 | `kt:dynamic-soql` | `kt:soql-injection` |
 | `kt:application-network` | `kt:api-led-connectivity` |
 | `kt:mulesoft-platform-integration-architect-certification` | `kt:mulesoft-platform-architect-certification` |
 | `kt:point-to-point-integration` | `kt:api-led-connectivity` |
-| `kt:mutual-tls-authentication` | `kt:login-ip-ranges-and-trusted-ip-ranges` |
 | `kt:dynamic-actions` | `kt:dynamic-forms` |
 | `kt:dynamic-highlights-panel` | `kt:dynamic-forms` |
+| `kt:salesforce-lightning-design-system` | `kt:visualforce` |
 | `kt:automation-studio` | `kt:marketing-cloud-engagement` |
 | `kt:contact-builder` | `kt:marketing-cloud-engagement` |
 | `kt:journey-builder` | `kt:marketing-cloud-engagement` |
@@ -111,7 +111,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:marketing-cloud-connect` | `kt:marketing-cloud-engagement` |
 | `kt:marketing-cloud-next` | `kt:marketing-cloud-engagement` |
 | `kt:salesforce-marketing-solutions` | `kt:marketing-cloud-engagement` |
-| `kt:salesforce-lightning-design-system` | `kt:visualforce` |
 | `kt:ingestion-api` | `kt:data-streams` |
 | `kt:actionable-relationship-center` | `kt:financial-services-cloud` |
 | `kt:compliant-data-sharing` | `kt:financial-services-cloud` |
@@ -120,6 +119,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:apexguru` | `kt:scale-test` |
 | `kt:scale-center` | `kt:scale-test` |
 | `kt:data-actions` | `kt:streaming-insights` |
+| `kt:security-health-check` | `kt:session-settings` |
 | `kt:fhir` | `kt:health-cloud` |
 | `kt:utilization-management` | `kt:health-cloud` |
 | `kt:security-center` | `kt:continuous-monitoring` |

@@ -8044,6 +8044,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/session-security-levels> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#mitigates> <https://github.com/john1hsu/salesforce-knowledge-graph/id/account-takeover> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/session-security-levels> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/session-security-levels> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/session-settings> <http://purl.org/dc/terms/created> "2026-11-14" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/session-settings> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#SecurityControl> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/session-settings> <http://www.w3.org/2000/01/rdf-schema#label> "Session Settings" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/session-settings> <http://www.w3.org/2004/02/skos/core#altLabel> "Session Settings page" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/session-settings> <http://www.w3.org/2004/02/skos/core#altLabel> "SessionSettings metadata" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/session-settings> <http://www.w3.org/2004/02/skos/core#altLabel> "org-wide session settings" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/session-settings> <http://www.w3.org/2004/02/skos/core#altLabel> "session security settings" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/session-settings> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-identity> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/session-settings> <http://www.w3.org/2004/02/skos/core#definition> "The org-wide Setup page (stored as the sessionSettings part of SecuritySettings metadata) that controls how Salesforce UI sessions time out, are bound to IP and domain, protect cookies and caching, enforce browser security policies such as Stricter CSP and Lightning Web Security, and map login methods to session security levels." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/session-settings> <http://www.w3.org/2004/02/skos/core#prefLabel> "Session Settings" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/session-settings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/experience-cloud> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/session-settings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/login-ip-ranges-and-trusted-ip-ranges> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/session-settings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/profiles> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/session-settings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/security-health-check> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/session-settings> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/session-settings/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/session-settings> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/session-settings/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/session-settings> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/session-settings/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/session-settings> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/session-settings/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/session-settings> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/session-settings> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "security-and-sharing" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/session-settings> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/session-security-levels> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/session-settings> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/content-security-policy> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/session-settings> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#mitigates> <https://github.com/john1hsu/salesforce-knowledge-graph/id/account-takeover> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/session-settings> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/session-settings> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/shared-responsibility-model> <http://purl.org/dc/terms/created> "2026-11-10" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/shared-responsibility-model> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/shared-responsibility-model> <http://www.w3.org/2000/01/rdf-schema#label> "Shared Responsibility Model" .
@@ -16599,6 +16624,26 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/session-security-levels/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/session-security-levels/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/session-security-levels/s6> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_enum_Auth_SessionLevel.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/session-settings/s1> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/session-settings/s1> <http://purl.org/dc/terms/title> "Modify Session Security Settings" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/session-settings/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/session-settings/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/session-settings/s1> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=sf.admin_sessions.htm&language=en_US&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/session-settings/s2> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/session-settings/s2> <http://purl.org/dc/terms/title> "Edit Session Settings in Profiles" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/session-settings/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/session-settings/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/session-settings/s2> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=platform.users_profiles_session.htm&language=en_US&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/session-settings/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/session-settings/s3> <http://purl.org/dc/terms/title> "Metadata API Developer Guide: SecuritySettings" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/session-settings/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/session-settings/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/session-settings/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_securitysettings.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/session-settings/s4> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/session-settings/s4> <http://purl.org/dc/terms/title> "Secure Your Salesforce Configuration: Enhance Salesforce Org Security" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/session-settings/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/session-settings/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/session-settings/s4> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/secure-salesforce-configuration/run-health-check" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/shared-responsibility-model/s1> <http://purl.org/dc/terms/publisher> "Salesforce" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/shared-responsibility-model/s1> <http://purl.org/dc/terms/title> "Security as a Shared Responsibility Between Provider and Customer" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/shared-responsibility-model/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

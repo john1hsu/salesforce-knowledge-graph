@@ -29703,6 +29703,88 @@
       ]
     },
     {
+      "@id": "kt:session-settings",
+      "@type": "kto:SecurityControl",
+      "skos:prefLabel": "Session Settings",
+      "skos:definition": "The org-wide Setup page (stored as the sessionSettings part of SecuritySettings metadata) that controls how Salesforce UI sessions time out, are bound to IP and domain, protect cookies and caching, enforce browser security policies such as Stricter CSP and Lightning Web Security, and map login methods to session security levels.",
+      "kto:domain": "security-and-sharing",
+      "dcterms:created": "2026-11-14",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Modify Session Security Settings",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=sf.admin_sessions.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Edit Session Settings in Profiles",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=platform.users_profiles_session.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Metadata API Developer Guide: SecuritySettings",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_securitysettings.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Secure Your Salesforce Configuration: Enhance Salesforce Org Security",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/secure-salesforce-configuration/run-health-check",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/security-and-sharing/session-settings.md",
+      "skos:altLabel": [
+        "Session Settings page",
+        "session security settings",
+        "org-wide session settings",
+        "SessionSettings metadata"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-identity"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:profiles"
+        },
+        {
+          "@id": "kt:login-ip-ranges-and-trusted-ip-ranges"
+        },
+        {
+          "@id": "kt:security-health-check"
+        },
+        {
+          "@id": "kt:experience-cloud"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:session-security-levels"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:metadata-api"
+        }
+      ],
+      "kto:mitigates": [
+        {
+          "@id": "kt:account-takeover"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:content-security-policy"
+        }
+      ]
+    },
+    {
       "@id": "kt:sharing-and-visibility-architect-certification",
       "@type": "kto:Certification",
       "skos:prefLabel": "Sharing and Visibility Architect Certification",
