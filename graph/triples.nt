@@ -4989,6 +4989,32 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-driven-architecture> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#enables> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-dx> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-driven-architecture> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-driven-architecture> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/migrate-to-flow-tool> <http://purl.org/dc/terms/created> "2026-11-14" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/migrate-to-flow-tool> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Tool> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/migrate-to-flow-tool> <http://www.w3.org/2000/01/rdf-schema#label> "Migrate to Flow Tool" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/migrate-to-flow-tool> <http://www.w3.org/2004/02/skos/core#altLabel> "Migrate to Flow (Beta)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/migrate-to-flow-tool> <http://www.w3.org/2004/02/skos/core#altLabel> "Migrate to Flow setup page" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/migrate-to-flow-tool> <http://www.w3.org/2004/02/skos/core#altLabel> "Migrate to Flow" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/migrate-to-flow-tool> <http://www.w3.org/2004/02/skos/core#altLabel> "process-to-flow migration tool" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/migrate-to-flow-tool> <http://www.w3.org/2004/02/skos/core#altLabel> "workflow-to-flow migration tool" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/migrate-to-flow-tool> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-builder> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/migrate-to-flow-tool> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/process-automation> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/migrate-to-flow-tool> <http://www.w3.org/2004/02/skos/core#definition> "A Setup page that converts legacy workflow rules and record-change Process Builder processes into record-triggered flows, creating each flow inactive so it can be tested in Flow Builder before the old automation is switched off; some actions convert only partially and others not at all." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/migrate-to-flow-tool> <http://www.w3.org/2004/02/skos/core#prefLabel> "Migrate to Flow Tool" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/migrate-to-flow-tool> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-trigger-explorer> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/migrate-to-flow-tool> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/process-builder> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/migrate-to-flow-tool> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/subflows> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/migrate-to-flow-tool> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/technical-debt-in-salesforce> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/migrate-to-flow-tool> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/workflow-rules> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/migrate-to-flow-tool> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/migrate-to-flow-tool/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/migrate-to-flow-tool> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/migrate-to-flow-tool/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/migrate-to-flow-tool> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/migrate-to-flow-tool/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/migrate-to-flow-tool> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/migrate-to-flow-tool/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/migrate-to-flow-tool> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/migrate-to-flow-tool/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/migrate-to-flow-tool> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "automation" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/migrate-to-flow-tool> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#enables> <https://github.com/john1hsu/salesforce-knowledge-graph/id/record-triggered-flow> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/migrate-to-flow-tool> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/migrate-to-flow-tool> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/model-context-protocol-in-agentforce> <http://purl.org/dc/terms/created> "2026-11-12" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/model-context-protocol-in-agentforce> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/model-context-protocol-in-agentforce> <http://www.w3.org/2000/01/rdf-schema#label> "MCP for Agentforce" .
@@ -6358,6 +6384,7 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/process-builder> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/process-automation> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/process-builder> <http://www.w3.org/2004/02/skos/core#definition> "Salesforce's legacy point-and-click tool for building \"processes\" that run actions when a record changes, a platform event arrives or another process invokes them; support and bug fixes ended December 31, 2025, existing processes still run, and Salesforce directs customers to migrate them to Flow with the Migrate to Flow tool." .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/process-builder> <http://www.w3.org/2004/02/skos/core#prefLabel> "Process Builder" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/process-builder> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/migrate-to-flow-tool> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/process-builder> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/order-of-execution> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/process-builder> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-events> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/process-builder> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/technical-debt-in-salesforce> .
@@ -13502,6 +13529,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/metadata-driven-architecture/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/metadata-driven-architecture/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/metadata-driven-architecture/s5> <https://schema.org/url> "https://pubs.dbs.uni-leipzig.de/cloud/sites/cloud.pubs.dbs.uni-leipzig.de/files/p889-weissman-1.pdf" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/migrate-to-flow-tool/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/migrate-to-flow-tool/s1> <http://purl.org/dc/terms/title> "Migrate Workflows and Processes to Flows: Understand Automation Changes" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/migrate-to-flow-tool/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/migrate-to-flow-tool/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/migrate-to-flow-tool/s1> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/projects/migrate-workflows-and-processes-to-flows/understand-automation-changes" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/migrate-to-flow-tool/s2> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/migrate-to-flow-tool/s2> <http://purl.org/dc/terms/title> "Migrate Workflows and Processes to Flows: Migrate a Workflow Rule" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/migrate-to-flow-tool/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/migrate-to-flow-tool/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/migrate-to-flow-tool/s2> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/projects/migrate-workflows-and-processes-to-flows/migrate-a-workflow-rule" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/migrate-to-flow-tool/s3> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/migrate-to-flow-tool/s3> <http://purl.org/dc/terms/title> "Migrate Workflows and Processes to Flows: Migrate a Process" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/migrate-to-flow-tool/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/migrate-to-flow-tool/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/migrate-to-flow-tool/s3> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/projects/migrate-workflows-and-processes-to-flows/migrate-a-process" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/migrate-to-flow-tool/s4> <http://purl.org/dc/terms/publisher> "Salesforce Admins Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/migrate-to-flow-tool/s4> <http://purl.org/dc/terms/title> "Automate This! Migrate Workflow Rules and Processes to Flow" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/migrate-to-flow-tool/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/migrate-to-flow-tool/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/migrate-to-flow-tool/s4> <https://schema.org/url> "https://admin.salesforce.com/blog/2022/automate-this-migrate-workflow-rules-and-processes-to-flow" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/migrate-to-flow-tool/s5> <http://purl.org/dc/terms/publisher> "Salesforce Time" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/migrate-to-flow-tool/s5> <http://purl.org/dc/terms/title> "Migrate to Flow Tool (Beta)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/migrate-to-flow-tool/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/migrate-to-flow-tool/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "community" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/migrate-to-flow-tool/s5> <https://schema.org/url> "https://salesforcetime.com/2022/03/17/migrate-to-flow-tool-beta/" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/model-context-protocol-in-agentforce/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/model-context-protocol-in-agentforce/s1> <http://purl.org/dc/terms/title> "Discover MCP for Agentforce (MCP for Agentforce: Quick Look)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/model-context-protocol-in-agentforce/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
@@ -18136,6 +18188,7 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/workflow-rules> <http://www.w3.org/2004/02/skos/core#definition> "Salesforce's original declarative \"if criteria, then actions\" automation, which fires field updates, email alerts, tasks and outbound messages when a record is saved; new rules can no longer be created and the feature has been out of support since December 31, 2025, with record-triggered flows as the migration path." .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/workflow-rules> <http://www.w3.org/2004/02/skos/core#prefLabel> "Workflow Rules" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/workflow-rules> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/approval-processes> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/workflow-rules> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/migrate-to-flow-tool> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/workflow-rules> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/order-of-execution> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/workflow-rules> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/outbound-messaging> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/workflow-rules> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/process-builder> .

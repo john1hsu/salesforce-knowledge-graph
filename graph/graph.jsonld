@@ -3958,6 +3958,86 @@
       ]
     },
     {
+      "@id": "kt:migrate-to-flow-tool",
+      "@type": "kto:Tool",
+      "skos:prefLabel": "Migrate to Flow Tool",
+      "skos:definition": "A Setup page that converts legacy workflow rules and record-change Process Builder processes into record-triggered flows, creating each flow inactive so it can be tested in Flow Builder before the old automation is switched off; some actions convert only partially and others not at all.",
+      "kto:domain": "automation",
+      "dcterms:created": "2026-11-14",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Migrate Workflows and Processes to Flows: Understand Automation Changes",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/projects/migrate-workflows-and-processes-to-flows/understand-automation-changes",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Migrate Workflows and Processes to Flows: Migrate a Workflow Rule",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/projects/migrate-workflows-and-processes-to-flows/migrate-a-workflow-rule",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Migrate Workflows and Processes to Flows: Migrate a Process",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/projects/migrate-workflows-and-processes-to-flows/migrate-a-process",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Automate This! Migrate Workflow Rules and Processes to Flow",
+          "dcterms:publisher": "Salesforce Admins Blog",
+          "schema:url": "https://admin.salesforce.com/blog/2022/automate-this-migrate-workflow-rules-and-processes-to-flow",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Migrate to Flow Tool (Beta)",
+          "dcterms:publisher": "Salesforce Time",
+          "schema:url": "https://salesforcetime.com/2022/03/17/migrate-to-flow-tool-beta/",
+          "kto:sourceType": "community"
+        }
+      ],
+      "kto:file": "articles/automation/migrate-to-flow-tool.md",
+      "skos:altLabel": [
+        "Migrate to Flow",
+        "Migrate to Flow (Beta)",
+        "Migrate to Flow setup page",
+        "workflow-to-flow migration tool",
+        "process-to-flow migration tool"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:process-automation"
+        },
+        {
+          "@id": "kt:flow-builder"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:workflow-rules"
+        },
+        {
+          "@id": "kt:process-builder"
+        },
+        {
+          "@id": "kt:flow-trigger-explorer"
+        },
+        {
+          "@id": "kt:subflows"
+        },
+        {
+          "@id": "kt:technical-debt-in-salesforce"
+        }
+      ],
+      "kto:enables": [
+        {
+          "@id": "kt:record-triggered-flow"
+        }
+      ]
+    },
+    {
       "@id": "kt:orchestration-work-guide",
       "@type": "kto:Feature",
       "skos:prefLabel": "Orchestration Work Guide",
@@ -4377,6 +4457,9 @@
         },
         {
           "@id": "kt:technical-debt-in-salesforce"
+        },
+        {
+          "@id": "kt:migrate-to-flow-tool"
         }
       ],
       "kto:replacedBy": [
@@ -4887,6 +4970,9 @@
         },
         {
           "@id": "kt:technical-debt-in-salesforce"
+        },
+        {
+          "@id": "kt:migrate-to-flow-tool"
         }
       ],
       "kto:replacedBy": [

@@ -11,7 +11,7 @@ summary: >-
 release: "Winter '27"
 status: deprecated
 broader: [kt:process-automation]
-related: [kt:process-builder, kt:approval-processes, kt:outbound-messaging, kt:order-of-execution, kt:technical-debt-in-salesforce]
+related: [kt:process-builder, kt:approval-processes, kt:outbound-messaging, kt:order-of-execution, kt:technical-debt-in-salesforce, kt:migrate-to-flow-tool]
 relations:
   - {predicate: replacedBy, object: kt:record-triggered-flow}
   - {predicate: configuredVia, object: kt:flow-builder}

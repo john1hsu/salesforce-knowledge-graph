@@ -11,7 +11,7 @@ summary: >-
 release: "Winter '27"
 status: deprecated
 broader: [kt:process-automation]
-related: [kt:workflow-rules, kt:platform-events, kt:order-of-execution, kt:technical-debt-in-salesforce]
+related: [kt:workflow-rules, kt:platform-events, kt:order-of-execution, kt:technical-debt-in-salesforce, kt:migrate-to-flow-tool]
 relations:
   - {predicate: replacedBy, object: kt:record-triggered-flow}
   - {predicate: governedBy, object: kt:governor-limits}
