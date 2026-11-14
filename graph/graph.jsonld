@@ -21533,6 +21533,89 @@
       ]
     },
     {
+      "@id": "kt:bulk-api-1",
+      "@type": "kto:API",
+      "skos:prefLabel": "Bulk API 1.0",
+      "skos:definition": "Salesforce's original asynchronous API for loading and extracting large record sets, in which the client creates a job and then splits its data into batches of CSV, XML or JSON that it submits, monitors and collects results for itself, with options such as serial concurrency mode and PK chunking that Bulk API 2.0 does not expose.",
+      "kto:domain": "integration",
+      "dcterms:created": "2026-11-14",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "How Bulk API Works (Bulk API 2.0 and Bulk API Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/api-asynch/guide/api-asynch-introduction-how-bulk-api-works.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "JobInfo (Bulk API 2.0 and Bulk API Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api_asynch.meta/api_asynch/asynch_api_reference_jobinfo.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Bulk API and Bulk API 2.0 Limits and Allocations (Salesforce Developer Limits and Allocations Quick Reference)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/salesforce-app-limits-cheatsheet/guide/salesforce-app-limits-platform-bulkapi.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "PK Chunking (Bulk API 2.0 and Bulk API Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/api-asynch/guide/async-api-headers-enable-pk-chunking.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/integration/bulk-api-1.md",
+      "skos:altLabel": [
+        "Bulk API v1",
+        "original Bulk API",
+        "Bulk API (1.0)",
+        "client-managed batch Bulk API"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-apis"
+        },
+        {
+          "@id": "kt:data-integration"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:large-data-volumes"
+        },
+        {
+          "@id": "kt:record-locking"
+        },
+        {
+          "@id": "kt:external-id-fields"
+        },
+        {
+          "@id": "kt:data-loader"
+        },
+        {
+          "@id": "kt:soql"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:bulk-api-2"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:bulk-api-allocations"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:soap-api"
+        }
+      ]
+    },
+    {
       "@id": "kt:bulk-api-2",
       "@type": "kto:API",
       "skos:prefLabel": "Bulk API 2.0",

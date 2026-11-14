@@ -1171,6 +1171,32 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/build-vs-buy-decisions> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/build-vs-buy-decisions> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#usedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-architect> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/build-vs-buy-decisions> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/bulk-api-1> <http://purl.org/dc/terms/created> "2026-11-14" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/bulk-api-1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#API> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/bulk-api-1> <http://www.w3.org/2000/01/rdf-schema#label> "Bulk API 1.0" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/bulk-api-1> <http://www.w3.org/2004/02/skos/core#altLabel> "Bulk API (1.0)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/bulk-api-1> <http://www.w3.org/2004/02/skos/core#altLabel> "Bulk API v1" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/bulk-api-1> <http://www.w3.org/2004/02/skos/core#altLabel> "client-managed batch Bulk API" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/bulk-api-1> <http://www.w3.org/2004/02/skos/core#altLabel> "original Bulk API" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/bulk-api-1> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-integration> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/bulk-api-1> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-apis> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/bulk-api-1> <http://www.w3.org/2004/02/skos/core#definition> "Salesforce's original asynchronous API for loading and extracting large record sets, in which the client creates a job and then splits its data into batches of CSV, XML or JSON that it submits, monitors and collects results for itself, with options such as serial concurrency mode and PK chunking that Bulk API 2.0 does not expose." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/bulk-api-1> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bulk API 1.0" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/bulk-api-1> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-loader> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/bulk-api-1> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/external-id-fields> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/bulk-api-1> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/large-data-volumes> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/bulk-api-1> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/record-locking> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/bulk-api-1> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/soql> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/bulk-api-1> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulk-api-1/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/bulk-api-1> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulk-api-1/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/bulk-api-1> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulk-api-1/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/bulk-api-1> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulk-api-1/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/bulk-api-1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#alternativeTo> <https://github.com/john1hsu/salesforce-knowledge-graph/id/soap-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/bulk-api-1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#contrastsWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/bulk-api-2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/bulk-api-1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "integration" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/bulk-api-1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#governedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/bulk-api-allocations> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/bulk-api-1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/bulk-api-1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/bulk-api-2> <http://purl.org/dc/terms/created> "2026-11-02" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/bulk-api-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#API> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/bulk-api-2> <http://www.w3.org/2000/01/rdf-schema#label> "Bulk API 2.0" .
@@ -10051,6 +10077,26 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/build-vs-buy-decisions/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/build-vs-buy-decisions/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "peer-reviewed" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/build-vs-buy-decisions/s5> <https://schema.org/url> "https://link.springer.com/article/10.1007/s11219-019-09465-2" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulk-api-1/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulk-api-1/s1> <http://purl.org/dc/terms/title> "How Bulk API Works (Bulk API 2.0 and Bulk API Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulk-api-1/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulk-api-1/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulk-api-1/s1> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/api-asynch/guide/api-asynch-introduction-how-bulk-api-works.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulk-api-1/s2> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulk-api-1/s2> <http://purl.org/dc/terms/title> "JobInfo (Bulk API 2.0 and Bulk API Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulk-api-1/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulk-api-1/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulk-api-1/s2> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.api_asynch.meta/api_asynch/asynch_api_reference_jobinfo.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulk-api-1/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulk-api-1/s3> <http://purl.org/dc/terms/title> "Bulk API and Bulk API 2.0 Limits and Allocations (Salesforce Developer Limits and Allocations Quick Reference)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulk-api-1/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulk-api-1/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulk-api-1/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/salesforce-app-limits-cheatsheet/guide/salesforce-app-limits-platform-bulkapi.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulk-api-1/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulk-api-1/s4> <http://purl.org/dc/terms/title> "PK Chunking (Bulk API 2.0 and Bulk API Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulk-api-1/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulk-api-1/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulk-api-1/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/api-asynch/guide/async-api-headers-enable-pk-chunking.html" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulk-api-2/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulk-api-2/s1> <http://purl.org/dc/terms/title> "Bulk API 2.0 (Bulk API 2.0 and Bulk API Developer Guide)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulk-api-2/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

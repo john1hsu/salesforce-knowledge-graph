@@ -4,6 +4,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
+| `kt:bulk-api-allocations` | `kt:bulk-api-1`, `kt:bulk-api-2` |
+| `kt:data-loader` | `kt:bulk-api-1`, `kt:bulk-api-2` |
 | `kt:salesforce-analytics` | `kt:crm-analytics`, `kt:tableau` |
 | `kt:tableau-next` | `kt:digital-wallet`, `kt:tableau` |
 | `kt:customer-360` | `kt:commerce-cloud`, `kt:slack-platform` |
@@ -13,33 +15,30 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:salesforce-ecosystem-roles` | `kt:salesforce-architect` |
 | `kt:lightning-service-console` | `kt:service-cloud` |
 | `kt:service-setup-assistant` | `kt:service-cloud` |
-| `kt:bulk-api-1` | `kt:bulk-api-2` |
-| `kt:bulk-api-allocations` | `kt:bulk-api-2` |
-| `kt:data-loader` | `kt:bulk-api-2` |
 | `kt:change-data-capture-allocations` | `kt:change-data-capture` |
 | `kt:platform-event-channel-member` | `kt:change-data-capture` |
 | `kt:apex-flex-queue` | `kt:batch-apex` |
-| `kt:orglimits-class` | `kt:limits-class` |
 | `kt:process-integration` | `kt:data-integration` |
+| `kt:orglimits-class` | `kt:limits-class` |
 | `kt:transaction-finalizers` | `kt:queueable-apex` |
 | `kt:mule-runtime-engine` | `kt:mulesoft-anypoint-platform` |
 | `kt:legacy-named-credentials` | `kt:named-credentials` |
 | `kt:salesforce-architecture-program` | `kt:salesforce-architecture-center` |
 | `kt:managed-event-subscriptions` | `kt:pub-sub-api` |
 | `kt:streaming-api` | `kt:pub-sub-api` |
-| `kt:platform-developer-ii-certification` | `kt:platform-developer-certification` |
 | `kt:upsert` | `kt:external-id-fields` |
+| `kt:platform-developer-ii-certification` | `kt:platform-developer-certification` |
 | `kt:scoping-rules` | `kt:restriction-rules` |
-| `kt:prompt-injection` | `kt:einstein-trust-layer` |
 | `kt:backup-and-recover` | `kt:archiving-strategy` |
 | `kt:salesforce-archive` | `kt:archiving-strategy` |
+| `kt:prompt-injection` | `kt:einstein-trust-layer` |
 | `kt:mixed-dml-error` | `kt:future-methods` |
 | `kt:zero-copy-data-sharing` | `kt:zero-copy-data-federation` |
 | `kt:data-categories` | `kt:knowledge-base` |
 | `kt:salesforce-go` | `kt:knowledge-base` |
-| `kt:trailhead` | `kt:salesforce-certification-program` |
 | `kt:seealldata` | `kt:test-data-factory` |
 | `kt:test-loaddata` | `kt:test-data-factory` |
+| `kt:trailhead` | `kt:salesforce-certification-program` |
 | `kt:nist-sp-800-60` | `kt:fips-199` |
 | `kt:data-detect` | `kt:salesforce-shield` |
 | `kt:omni-channel-limits` | `kt:omni-channel` |
@@ -80,10 +79,10 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:scim` | `kt:salesforce-scim` |
 | `kt:dynamic-soql` | `kt:soql-injection` |
 | `kt:content-delivery-network` | `kt:salesforce-edge-network` |
-| `kt:tableau-pulse` | `kt:tableau` |
-| `kt:tableau-semantics` | `kt:tableau` |
 | `kt:json-web-token` | `kt:openid-connect` |
 | `kt:apex-rest-services` | `kt:remote-call-in` |
+| `kt:tableau-pulse` | `kt:tableau` |
+| `kt:tableau-semantics` | `kt:tableau` |
 | `kt:path` | `kt:business-processes` |
 | `kt:client-credentials-flow` | `kt:jwt-bearer-flow` |
 | `kt:object-manager` | `kt:schema-builder` |
@@ -100,8 +99,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:mutual-tls-authentication` | `kt:login-ip-ranges-and-trusted-ip-ranges` |
 | `kt:generative-ai` | `kt:retrieval-augmented-generation-in-salesforce` |
 | `kt:application-network` | `kt:api-led-connectivity` |
-| `kt:point-to-point-integration` | `kt:api-led-connectivity` |
 | `kt:mulesoft-platform-integration-architect-certification` | `kt:mulesoft-platform-architect-certification` |
+| `kt:point-to-point-integration` | `kt:api-led-connectivity` |
 | `kt:dynamic-actions` | `kt:dynamic-forms` |
 | `kt:dynamic-highlights-panel` | `kt:dynamic-forms` |
 | `kt:corporate-governance` | `kt:governance-risk-and-compliance` |
