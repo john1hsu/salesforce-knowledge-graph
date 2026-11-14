@@ -8,6 +8,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:cross-site-scripting` | `kt:content-security-policy`, `kt:lightning-web-security` |
 | `kt:salesforce-analytics` | `kt:crm-analytics`, `kt:tableau` |
 | `kt:tableau-next` | `kt:digital-wallet`, `kt:tableau` |
+| `kt:requirements-engineering` | `kt:non-functional-requirements`, `kt:requirements-gathering` |
 | `kt:unstructured-data-in-data-cloud` | `kt:agentforce-data-library`, `kt:vector-search-in-data-cloud` |
 | `kt:customer-360` | `kt:commerce-cloud`, `kt:slack-platform` |
 | `kt:test-data-factory` | `kt:apex-testing` |
@@ -86,21 +87,21 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:client-credentials-flow` | `kt:jwt-bearer-flow` |
 | `kt:object-manager` | `kt:schema-builder` |
 | `kt:constraint-modeling-language` | `kt:product-configurator` |
-| `kt:product-catalog-management` | `kt:product-configurator` |
 | `kt:einstein-discovery` | `kt:crm-analytics` |
+| `kt:product-catalog-management` | `kt:product-configurator` |
 | `kt:saql` | `kt:crm-analytics` |
 | `kt:salesforce-ecosystem` | `kt:salesforce-inc` |
 | `kt:opportunity-teams` | `kt:opportunity-splits` |
 | `kt:revenue-intelligence` | `kt:collaborative-forecasts` |
-| `kt:dynamic-soql` | `kt:soql-injection` |
 | `kt:it-governance` | `kt:salesforce-governance` |
 | `kt:security-governance` | `kt:salesforce-governance` |
+| `kt:dynamic-soql` | `kt:soql-injection` |
 | `kt:mutual-tls-authentication` | `kt:login-ip-ranges-and-trusted-ip-ranges` |
 | `kt:apex-mocks` | `kt:apex-enterprise-patterns` |
 | `kt:generative-ai` | `kt:retrieval-augmented-generation-in-salesforce` |
 | `kt:application-network` | `kt:api-led-connectivity` |
-| `kt:mulesoft-platform-integration-architect-certification` | `kt:mulesoft-platform-architect-certification` |
 | `kt:point-to-point-integration` | `kt:api-led-connectivity` |
+| `kt:mulesoft-platform-integration-architect-certification` | `kt:mulesoft-platform-architect-certification` |
 | `kt:dynamic-actions` | `kt:dynamic-forms` |
 | `kt:dynamic-highlights-panel` | `kt:dynamic-forms` |
 | `kt:corporate-governance` | `kt:governance-risk-and-compliance` |
@@ -126,6 +127,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:user-management` | `kt:user-access-policies` |
 | `kt:multiple-currencies` | `kt:price-books` |
 | `kt:opportunity-products` | `kt:price-books` |
+| `kt:iso-iec-25010` | `kt:non-functional-requirements` |
 | `kt:holidays` | `kt:business-hours` |
 | `kt:salesforce-licensing` | `kt:user-licenses` |
 | `kt:custom-permissions` | `kt:validation-rules` |
@@ -135,32 +137,32 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:mulesoft-composer` | `kt:slack-platform` |
 | `kt:slack-api-rate-limits` | `kt:slack-platform` |
 | `kt:slack-workflow-builder` | `kt:slack-platform` |
-| `kt:iso-iec-25010` | `kt:non-functional-requirements` |
-| `kt:requirements-engineering` | `kt:non-functional-requirements` |
+| `kt:in-app-guidance` | `kt:change-management-and-adoption` |
 | `kt:data-cloud-code-extension` | `kt:vector-search-in-data-cloud` |
 | `kt:ldap` | `kt:delegated-authentication` |
-| `kt:in-app-guidance` | `kt:change-management-and-adoption` |
-| `kt:requirements-gathering` | `kt:change-management-and-adoption` |
 | `kt:platform-cache-partitions` | `kt:platform-cache` |
 | `kt:agentforce-nonprofit-consultant-certification` | `kt:agentforce-nonprofit` |
-| `kt:model-context-protocol` | `kt:model-context-protocol-in-agentforce` |
 | `kt:nonprofit-success-pack` | `kt:agentforce-nonprofit` |
+| `kt:business-analyst` | `kt:requirements-gathering` |
+| `kt:business-process-mapping` | `kt:requirements-gathering` |
+| `kt:user-stories` | `kt:requirements-gathering` |
+| `kt:model-context-protocol` | `kt:model-context-protocol-in-agentforce` |
 | `kt:salesforce-hosted-mcp-servers` | `kt:model-context-protocol-in-agentforce` |
 | `kt:models-api` | `kt:ai-models` |
 | `kt:b2b-commerce` | `kt:commerce-cloud` |
 | `kt:b2c-commerce` | `kt:commerce-cloud` |
 | `kt:salesforce-order-management` | `kt:commerce-cloud` |
 | `kt:apex-user-mode` | `kt:apex-security-with-sharing` |
-| `kt:b2c-commerce-architect-certification` | `kt:b2c-solution-architect-certification` |
-| `kt:business-architecture` | `kt:capability-maps` |
 | `kt:digital-accessibility` | `kt:section-508-accessibility` |
 | `kt:einstein-prediction-builder` | `kt:einstein-next-best-action` |
 | `kt:email-templates` | `kt:email-alerts` |
 | `kt:notes-and-attachments` | `kt:content-document-model` |
 | `kt:organization-wide-email-addresses` | `kt:email-alerts` |
 | `kt:shared-activities` | `kt:activity-data-model` |
-| `kt:technology-roadmaps` | `kt:capability-maps` |
 | `kt:tx-ramp` | `kt:govramp` |
 | `kt:ui-api` | `kt:field-dependencies` |
-| `kt:value-streams` | `kt:capability-maps` |
 | `kt:wcag` | `kt:section-508-accessibility` |
+| `kt:b2c-commerce-architect-certification` | `kt:b2c-solution-architect-certification` |
+| `kt:business-architecture` | `kt:capability-maps` |
+| `kt:technology-roadmaps` | `kt:capability-maps` |
+| `kt:value-streams` | `kt:capability-maps` |

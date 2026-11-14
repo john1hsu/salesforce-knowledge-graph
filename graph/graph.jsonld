@@ -1358,6 +1358,96 @@
       ]
     },
     {
+      "@id": "kt:requirements-gathering",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Requirements Gathering",
+      "skos:definition": "The practice of drawing out, analysing and confirming what stakeholders need from a Salesforce solution, using techniques such as interviews, workshops, observation and process mapping, and recording the results as requirements, user stories and acceptance criteria that design, build and testing can trace back to.",
+      "kto:domain": "architecture-practice",
+      "dcterms:created": "2026-11-14",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Explore Techniques for Information Discovery",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/business-analyst_skills-strategies/explore-techniques--information-discovery",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Learn About User Stories",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/user-story-creation/learn-about-user-stories",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Construct a User Story",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/user-story-creation/construct-a-user-story",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "See Business Process Mapping in Practice",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/business-process-mapping/see-business-process-mapping-in-practice",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Get Started with Salesforce Business Analyst Certification Prep",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/salesforce-business-analyst-certification-prep/get-started-with-salesforce-business-analyst-certification-prep",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "The state-of-practice in requirements elicitation: an extended interview study at 12 companies",
+          "dcterms:publisher": "Requirements Engineering (Springer), preprint on arXiv",
+          "schema:url": "https://arxiv.org/pdf/2102.11556",
+          "kto:sourceType": "peer-reviewed"
+        }
+      ],
+      "kto:file": "articles/architecture-practice/requirements-gathering.md",
+      "skos:altLabel": [
+        "requirements elicitation",
+        "requirements discovery",
+        "customer discovery",
+        "discovery workshops"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:requirements-engineering"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:non-functional-requirements"
+        },
+        {
+          "@id": "kt:salesforce-diagrams"
+        },
+        {
+          "@id": "kt:change-management-and-adoption"
+        },
+        {
+          "@id": "kt:testing-strategy"
+        }
+      ],
+      "kto:usedBy": [
+        {
+          "@id": "kt:salesforce-architect"
+        },
+        {
+          "@id": "kt:business-analyst"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:user-stories"
+        },
+        {
+          "@id": "kt:business-process-mapping"
+        }
+      ]
+    },
+    {
       "@id": "kt:risk-and-assumption-logs",
       "@type": "kto:ExternalConcept",
       "skos:prefLabel": "Risk and Assumption Logs",

@@ -6967,6 +6967,33 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/remote-site-settings> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "integration" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/remote-site-settings> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/remote-site-settings> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/requirements-gathering> <http://purl.org/dc/terms/created> "2026-11-14" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/requirements-gathering> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/requirements-gathering> <http://www.w3.org/2000/01/rdf-schema#label> "Requirements Gathering" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/requirements-gathering> <http://www.w3.org/2004/02/skos/core#altLabel> "customer discovery" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/requirements-gathering> <http://www.w3.org/2004/02/skos/core#altLabel> "discovery workshops" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/requirements-gathering> <http://www.w3.org/2004/02/skos/core#altLabel> "requirements discovery" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/requirements-gathering> <http://www.w3.org/2004/02/skos/core#altLabel> "requirements elicitation" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/requirements-gathering> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/requirements-engineering> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/requirements-gathering> <http://www.w3.org/2004/02/skos/core#definition> "The practice of drawing out, analysing and confirming what stakeholders need from a Salesforce solution, using techniques such as interviews, workshops, observation and process mapping, and recording the results as requirements, user stories and acceptance criteria that design, build and testing can trace back to." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/requirements-gathering> <http://www.w3.org/2004/02/skos/core#prefLabel> "Requirements Gathering" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/requirements-gathering> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/change-management-and-adoption> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/requirements-gathering> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/non-functional-requirements> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/requirements-gathering> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-diagrams> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/requirements-gathering> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/testing-strategy> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/requirements-gathering> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/requirements-gathering/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/requirements-gathering> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/requirements-gathering/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/requirements-gathering> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/requirements-gathering/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/requirements-gathering> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/requirements-gathering/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/requirements-gathering> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/requirements-gathering/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/requirements-gathering> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/requirements-gathering/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/requirements-gathering> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "architecture-practice" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/requirements-gathering> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/business-process-mapping> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/requirements-gathering> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/user-stories> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/requirements-gathering> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/requirements-gathering> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#usedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/business-analyst> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/requirements-gathering> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#usedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-architect> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/requirements-gathering> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/rest-api> <http://purl.org/dc/terms/created> "2026-11-04" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/rest-api> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#API> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/rest-api> <http://www.w3.org/2000/01/rdf-schema#label> "REST API" .
@@ -15729,6 +15756,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/remote-site-settings/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/remote-site-settings/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/remote-site-settings/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/cms/guide/cms-dev-step-1__configure-a-remote-site.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/requirements-gathering/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/requirements-gathering/s1> <http://purl.org/dc/terms/title> "Explore Techniques for Information Discovery" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/requirements-gathering/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/requirements-gathering/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/requirements-gathering/s1> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/business-analyst_skills-strategies/explore-techniques--information-discovery" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/requirements-gathering/s2> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/requirements-gathering/s2> <http://purl.org/dc/terms/title> "Learn About User Stories" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/requirements-gathering/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/requirements-gathering/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/requirements-gathering/s2> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/user-story-creation/learn-about-user-stories" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/requirements-gathering/s3> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/requirements-gathering/s3> <http://purl.org/dc/terms/title> "Construct a User Story" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/requirements-gathering/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/requirements-gathering/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/requirements-gathering/s3> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/user-story-creation/construct-a-user-story" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/requirements-gathering/s4> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/requirements-gathering/s4> <http://purl.org/dc/terms/title> "See Business Process Mapping in Practice" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/requirements-gathering/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/requirements-gathering/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/requirements-gathering/s4> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/business-process-mapping/see-business-process-mapping-in-practice" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/requirements-gathering/s5> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/requirements-gathering/s5> <http://purl.org/dc/terms/title> "Get Started with Salesforce Business Analyst Certification Prep" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/requirements-gathering/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/requirements-gathering/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/requirements-gathering/s5> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/salesforce-business-analyst-certification-prep/get-started-with-salesforce-business-analyst-certification-prep" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/requirements-gathering/s6> <http://purl.org/dc/terms/publisher> "Requirements Engineering (Springer), preprint on arXiv" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/requirements-gathering/s6> <http://purl.org/dc/terms/title> "The state-of-practice in requirements elicitation: an extended interview study at 12 companies" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/requirements-gathering/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/requirements-gathering/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/requirements-gathering/s6> <https://schema.org/url> "https://arxiv.org/pdf/2102.11556" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/rest-api/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/rest-api/s1> <http://purl.org/dc/terms/title> "REST Resources and Requests (REST API Developer Guide)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/rest-api/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
