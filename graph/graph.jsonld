@@ -19137,6 +19137,98 @@
       ]
     },
     {
+      "@id": "kt:jwt-bearer-flow",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "OAuth 2.0 JWT Bearer Flow",
+      "skos:definition": "Salesforce's implementation of the RFC 7523 JWT bearer authorization grant: a server signs a short-lived JWT with a certificate's private key and exchanges it at the token endpoint for an access token for a pre-approved user, with no browser login and no refresh token. Salesforce also acts as the client side of the same grant through Apex and JWT-based external credentials.",
+      "kto:domain": "identity",
+      "dcterms:created": "2026-11-14",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "OAuth 2.0 JWT Bearer Flow for Server-to-Server Integration",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=sf.remoteaccess_oauth_jwt_flow.htm&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "RFC 7523: JSON Web Token (JWT) Profile for OAuth 2.0 Client Authentication and Authorization Grants",
+          "dcterms:publisher": "IETF / RFC Editor",
+          "schema:url": "https://www.rfc-editor.org/rfc/rfc7523",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "Authorize an Org Using the JWT Flow",
+          "dcterms:publisher": "Salesforce Developers (Salesforce DX Developer Guide)",
+          "schema:url": "https://developer.salesforce.com/docs/platform/sfdx-dev/guide/sfdx-dev-auth-jwt-flow.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "JWTBearerTokenExchange Class",
+          "dcterms:publisher": "Salesforce Developers (Apex Reference Guide)",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_class_Auth_JWTBearerTokenExchange.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Create or Edit an OAuth External Credential with the JWT Bearer Flow",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=xcloud.nc_create_edit_oath_jwt_bearer_ext_cred.htm&type=5",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/identity/jwt-bearer-flow.md",
+      "skos:altLabel": [
+        "JWT bearer flow",
+        "JWT bearer token flow",
+        "JWT bearer grant",
+        "RFC 7523 bearer grant",
+        "sf org login jwt"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:oauth-2-flows-in-salesforce"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:continuous-integration-for-salesforce"
+        },
+        {
+          "@id": "kt:session-security-levels"
+        },
+        {
+          "@id": "kt:scratch-orgs"
+        }
+      ],
+      "kto:implements": [
+        {
+          "@id": "kt:oauth-2-0"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:external-client-apps"
+        },
+        {
+          "@id": "kt:connected-apps"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:client-credentials-flow"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:salesforce-cli"
+        },
+        {
+          "@id": "kt:named-credentials"
+        }
+      ]
+    },
+    {
       "@id": "kt:login-flows",
       "@type": "kto:Feature",
       "skos:prefLabel": "Login Flows",
@@ -19668,6 +19760,9 @@
         },
         {
           "@id": "kt:openid-connect-authentication-providers"
+        },
+        {
+          "@id": "kt:jwt-bearer-flow"
         }
       ],
       "kto:implements": [

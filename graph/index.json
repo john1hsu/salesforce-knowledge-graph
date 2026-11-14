@@ -4072,6 +4072,30 @@
     ]
   },
   {
+    "id": "kt:jwt-bearer-flow",
+    "title": "OAuth 2.0 JWT Bearer Flow",
+    "aliases": [
+      "JWT bearer flow",
+      "JWT bearer token flow",
+      "JWT bearer grant",
+      "RFC 7523 bearer grant",
+      "sf org login jwt"
+    ],
+    "type": "Feature",
+    "domain": "identity",
+    "file": "articles/identity/jwt-bearer-flow.md",
+    "created": "2026-11-14",
+    "release": "Winter '27",
+    "status": "current",
+    "source_urls": [
+      "https://help.salesforce.com/s/articleView?language=en_US&id=sf.remoteaccess_oauth_jwt_flow.htm&type=5",
+      "https://www.rfc-editor.org/rfc/rfc7523",
+      "https://developer.salesforce.com/docs/platform/sfdx-dev/guide/sfdx-dev-auth-jwt-flow.html",
+      "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_class_Auth_JWTBearerTokenExchange.htm",
+      "https://help.salesforce.com/s/articleView?language=en_US&id=xcloud.nc_create_edit_oath_jwt_bearer_ext_cred.htm&type=5"
+    ]
+  },
+  {
     "id": "kt:knowledge-base",
     "title": "Salesforce Knowledge",
     "aliases": [

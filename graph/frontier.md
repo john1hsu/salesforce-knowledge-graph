@@ -84,11 +84,12 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:tableau-semantics` | `kt:tableau` |
 | `kt:apex-rest-services` | `kt:remote-call-in` |
 | `kt:path` | `kt:business-processes` |
+| `kt:client-credentials-flow` | `kt:jwt-bearer-flow` |
 | `kt:object-manager` | `kt:schema-builder` |
 | `kt:constraint-modeling-language` | `kt:product-configurator` |
 | `kt:product-catalog-management` | `kt:product-configurator` |
-| `kt:salesforce-ecosystem` | `kt:salesforce-inc` |
 | `kt:einstein-discovery` | `kt:crm-analytics` |
+| `kt:salesforce-ecosystem` | `kt:salesforce-inc` |
 | `kt:saql` | `kt:crm-analytics` |
 | `kt:opportunity-teams` | `kt:opportunity-splits` |
 | `kt:revenue-intelligence` | `kt:collaborative-forecasts` |
@@ -143,10 +144,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:requirements-gathering` | `kt:change-management-and-adoption` |
 | `kt:platform-cache-partitions` | `kt:platform-cache` |
 | `kt:agentforce-nonprofit-consultant-certification` | `kt:agentforce-nonprofit` |
-| `kt:nonprofit-success-pack` | `kt:agentforce-nonprofit` |
 | `kt:model-context-protocol` | `kt:model-context-protocol-in-agentforce` |
+| `kt:nonprofit-success-pack` | `kt:agentforce-nonprofit` |
 | `kt:salesforce-hosted-mcp-servers` | `kt:model-context-protocol-in-agentforce` |
-| `kt:jwt-bearer-flow` | `kt:continuous-integration-for-salesforce` |
 | `kt:models-api` | `kt:ai-models` |
 | `kt:b2b-commerce` | `kt:commerce-cloud` |
 | `kt:b2c-commerce` | `kt:commerce-cloud` |

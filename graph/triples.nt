@@ -4621,6 +4621,34 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/just-in-time-provisioning> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/just-in-time-provisioning> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/just-in-time-provisioning> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/jwt-bearer-flow> <http://purl.org/dc/terms/created> "2026-11-14" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/jwt-bearer-flow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/jwt-bearer-flow> <http://www.w3.org/2000/01/rdf-schema#label> "OAuth 2.0 JWT Bearer Flow" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/jwt-bearer-flow> <http://www.w3.org/2004/02/skos/core#altLabel> "JWT bearer flow" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/jwt-bearer-flow> <http://www.w3.org/2004/02/skos/core#altLabel> "JWT bearer grant" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/jwt-bearer-flow> <http://www.w3.org/2004/02/skos/core#altLabel> "JWT bearer token flow" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/jwt-bearer-flow> <http://www.w3.org/2004/02/skos/core#altLabel> "RFC 7523 bearer grant" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/jwt-bearer-flow> <http://www.w3.org/2004/02/skos/core#altLabel> "sf org login jwt" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/jwt-bearer-flow> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-2-flows-in-salesforce> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/jwt-bearer-flow> <http://www.w3.org/2004/02/skos/core#definition> "Salesforce's implementation of the RFC 7523 JWT bearer authorization grant: a server signs a short-lived JWT with a certificate's private key and exchanges it at the token endpoint for an access token for a pre-approved user, with no browser login and no refresh token. Salesforce also acts as the client side of the same grant through Apex and JWT-based external credentials." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/jwt-bearer-flow> <http://www.w3.org/2004/02/skos/core#prefLabel> "OAuth 2.0 JWT Bearer Flow" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/jwt-bearer-flow> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/continuous-integration-for-salesforce> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/jwt-bearer-flow> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/scratch-orgs> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/jwt-bearer-flow> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/session-security-levels> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/jwt-bearer-flow> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/jwt-bearer-flow/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/jwt-bearer-flow> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/jwt-bearer-flow/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/jwt-bearer-flow> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/jwt-bearer-flow/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/jwt-bearer-flow> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/jwt-bearer-flow/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/jwt-bearer-flow> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/jwt-bearer-flow/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/jwt-bearer-flow> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#alternativeTo> <https://github.com/john1hsu/salesforce-knowledge-graph/id/client-credentials-flow> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/jwt-bearer-flow> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/connected-apps> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/jwt-bearer-flow> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/external-client-apps> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/jwt-bearer-flow> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#consumedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/named-credentials> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/jwt-bearer-flow> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#consumedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-cli> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/jwt-bearer-flow> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "identity" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/jwt-bearer-flow> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#implements> <https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-2-0> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/jwt-bearer-flow> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/jwt-bearer-flow> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/knowledge-base> <http://purl.org/dc/terms/created> "2026-11-02" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/knowledge-base> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/knowledge-base> <http://www.w3.org/2000/01/rdf-schema#label> "Salesforce Knowledge" .
@@ -5507,6 +5535,7 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-2-flows-in-salesforce> <http://www.w3.org/2004/02/skos/core#prefLabel> "OAuth 2.0 Flows in Salesforce" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-2-flows-in-salesforce> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/connected-apps> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-2-flows-in-salesforce> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/external-client-apps> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-2-flows-in-salesforce> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/jwt-bearer-flow> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-2-flows-in-salesforce> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/my-domain> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-2-flows-in-salesforce> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/named-credentials> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-2-flows-in-salesforce> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/openid-connect-authentication-providers> .
@@ -13280,6 +13309,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/just-in-time-provisioning/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/just-in-time-provisioning/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/just-in-time-provisioning/s6> <https://schema.org/url> "https://developer.salesforce.com/blogs/2011/05/just-in-time-user-provisioning-in-summer-11" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/jwt-bearer-flow/s1> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/jwt-bearer-flow/s1> <http://purl.org/dc/terms/title> "OAuth 2.0 JWT Bearer Flow for Server-to-Server Integration" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/jwt-bearer-flow/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/jwt-bearer-flow/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/jwt-bearer-flow/s1> <https://schema.org/url> "https://help.salesforce.com/s/articleView?language=en_US&id=sf.remoteaccess_oauth_jwt_flow.htm&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/jwt-bearer-flow/s2> <http://purl.org/dc/terms/publisher> "IETF / RFC Editor" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/jwt-bearer-flow/s2> <http://purl.org/dc/terms/title> "RFC 7523: JSON Web Token (JWT) Profile for OAuth 2.0 Client Authentication and Authorization Grants" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/jwt-bearer-flow/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/jwt-bearer-flow/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "standards-body" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/jwt-bearer-flow/s2> <https://schema.org/url> "https://www.rfc-editor.org/rfc/rfc7523" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/jwt-bearer-flow/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers (Salesforce DX Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/jwt-bearer-flow/s3> <http://purl.org/dc/terms/title> "Authorize an Org Using the JWT Flow" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/jwt-bearer-flow/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/jwt-bearer-flow/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/jwt-bearer-flow/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/sfdx-dev/guide/sfdx-dev-auth-jwt-flow.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/jwt-bearer-flow/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers (Apex Reference Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/jwt-bearer-flow/s4> <http://purl.org/dc/terms/title> "JWTBearerTokenExchange Class" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/jwt-bearer-flow/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/jwt-bearer-flow/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/jwt-bearer-flow/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_class_Auth_JWTBearerTokenExchange.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/jwt-bearer-flow/s5> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/jwt-bearer-flow/s5> <http://purl.org/dc/terms/title> "Create or Edit an OAuth External Credential with the JWT Bearer Flow" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/jwt-bearer-flow/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/jwt-bearer-flow/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/jwt-bearer-flow/s5> <https://schema.org/url> "https://help.salesforce.com/s/articleView?language=en_US&id=xcloud.nc_create_edit_oath_jwt_bearer_ext_cred.htm&type=5" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/knowledge-base/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/knowledge-base/s1> <http://purl.org/dc/terms/title> "Get Started with Knowledge (Knowledge Basics, Trailhead unit)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/knowledge-base/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

@@ -12,7 +12,7 @@ summary: >-
 release: "Winter '27"
 status: current
 broader: [kt:salesforce-identity, kt:oauth-2-0]
-related: [kt:connected-apps, kt:external-client-apps, kt:named-credentials, kt:my-domain, kt:openid-connect-authentication-providers]
+related: [kt:connected-apps, kt:external-client-apps, kt:named-credentials, kt:my-domain, kt:openid-connect-authentication-providers, kt:jwt-bearer-flow]
 relations:
   - {predicate: implements, object: kt:oauth-2-0}
   - {predicate: configuredVia, object: kt:external-client-apps}
