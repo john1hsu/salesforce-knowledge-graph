@@ -2350,6 +2350,35 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-governance> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#partOf> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-governance> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-governance> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-governance> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-graphs> <http://purl.org/dc/terms/created> "2026-11-14" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-graphs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-graphs> <http://www.w3.org/2000/01/rdf-schema#label> "Data Graphs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-graphs> <http://www.w3.org/2004/02/skos/core#altLabel> "Data 360 data graphs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-graphs> <http://www.w3.org/2004/02/skos/core#altLabel> "Data Cloud data graphs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-graphs> <http://www.w3.org/2004/02/skos/core#altLabel> "data graph" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-graphs> <http://www.w3.org/2004/02/skos/core#altLabel> "real-time data graph" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-graphs> <http://www.w3.org/2004/02/skos/core#altLabel> "standard data graph" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-graphs> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-graphs> <http://www.w3.org/2004/02/skos/core#definition> "Precomputed, read-only views in Data 360 (formerly Data Cloud) that join a primary data model object with related DMOs and store the result as one JSON record per entity, so apps and agents can fetch connected data in one lookup." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-graphs> <http://www.w3.org/2004/02/skos/core#prefLabel> "Data Graphs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-graphs> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud-segmentation> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-graphs> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-kits> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-graphs> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-model-objects> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-graphs> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-spaces> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-graphs> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-resolution> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-graphs> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/streaming-insights> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-graphs> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-graphs/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-graphs> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-graphs/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-graphs> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-graphs/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-graphs> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-graphs/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-graphs> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-graphs/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-graphs> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#consumedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-graphs> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-model-objects> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-graphs> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-spaces> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-graphs> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "data-cloud-and-ai" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-graphs> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud-query-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-graphs> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-graphs> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-integration> <http://purl.org/dc/terms/created> "2026-11-04" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-integration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-integration> <http://www.w3.org/2000/01/rdf-schema#label> "Data Integration" .
@@ -11156,6 +11185,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-governance/s9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-governance/s9> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-governance/s9> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=005298940&type=1&language=en_US" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-graphs/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-graphs/s1> <http://purl.org/dc/terms/title> "Get to Know Data Graphs (Data Graphs in Data 360)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-graphs/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-graphs/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-graphs/s1> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/data-graphs-in-data-cloud/get-to-know-data-graphs-1" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-graphs/s2> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-graphs/s2> <http://purl.org/dc/terms/title> "Create a Data Graph (Data Graphs in Data 360)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-graphs/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-graphs/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-graphs/s2> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/data-graphs-in-data-cloud/create-a-data-graph" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-graphs/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-graphs/s3> <http://purl.org/dc/terms/title> "Query Data Graph Data" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-graphs/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-graphs/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-graphs/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/data/data-cloud-ref/guide/c360a-api-data-graphs-overview.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-graphs/s4> <http://purl.org/dc/terms/publisher> "Salesforce Engineering" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-graphs/s4> <http://purl.org/dc/terms/title> "How Data Cloud's Data Graph Delivers Sub-Second Insights from 200 Million Records" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-graphs/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-graphs/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-graphs/s4> <https://schema.org/url> "https://engineering.salesforce.com/how-data-clouds-data-graph-delivers-sub-second-insights-from-200-million-records/" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-graphs/s5> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-graphs/s5> <http://purl.org/dc/terms/title> "Configure an Additional Real-Time Data Graph for GetContext" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-graphs/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-graphs/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-graphs/s5> <https://schema.org/url> "https://developer.salesforce.com/docs/data/agentic-memory-context/guide/agentic-memory-create-rtdg-for-getcontext.html" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-integration/s1> <http://purl.org/dc/terms/publisher> "Salesforce Architects" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-integration/s1> <http://purl.org/dc/terms/title> "Data Integration with Salesforce (Architect Decision Guide)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-integration/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

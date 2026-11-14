@@ -9392,6 +9392,99 @@
       ]
     },
     {
+      "@id": "kt:data-graphs",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Data Graphs",
+      "skos:definition": "Precomputed, read-only views in Data 360 (formerly Data Cloud) that join a primary data model object with related DMOs and store the result as one JSON record per entity, so apps and agents can fetch connected data in one lookup.",
+      "kto:domain": "data-cloud-and-ai",
+      "dcterms:created": "2026-11-14",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Get to Know Data Graphs (Data Graphs in Data 360)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/data-graphs-in-data-cloud/get-to-know-data-graphs-1",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Create a Data Graph (Data Graphs in Data 360)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/data-graphs-in-data-cloud/create-a-data-graph",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Query Data Graph Data",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/data/data-cloud-ref/guide/c360a-api-data-graphs-overview.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "How Data Cloud's Data Graph Delivers Sub-Second Insights from 200 Million Records",
+          "dcterms:publisher": "Salesforce Engineering",
+          "schema:url": "https://engineering.salesforce.com/how-data-clouds-data-graph-delivers-sub-second-insights-from-200-million-records/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Configure an Additional Real-Time Data Graph for GetContext",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/data/agentic-memory-context/guide/agentic-memory-create-rtdg-for-getcontext.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/data-cloud-and-ai/data-graphs.md",
+      "skos:altLabel": [
+        "data graph",
+        "Data 360 data graphs",
+        "Data Cloud data graphs",
+        "real-time data graph",
+        "standard data graph"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:data-cloud"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:data-model-objects"
+        },
+        {
+          "@id": "kt:data-spaces"
+        },
+        {
+          "@id": "kt:identity-resolution"
+        },
+        {
+          "@id": "kt:data-cloud-segmentation"
+        },
+        {
+          "@id": "kt:data-kits"
+        },
+        {
+          "@id": "kt:streaming-insights"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:data-model-objects"
+        },
+        {
+          "@id": "kt:data-spaces"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:agentforce"
+        }
+      ],
+      "kto:queriedWith": [
+        {
+          "@id": "kt:data-cloud-query-api"
+        }
+      ]
+    },
+    {
       "@id": "kt:data-lake-objects",
       "@type": "kto:Feature",
       "skos:prefLabel": "Data Lake Objects",
