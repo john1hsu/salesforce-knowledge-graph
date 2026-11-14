@@ -26714,6 +26714,85 @@
       ]
     },
     {
+      "@id": "kt:governance-risk-and-compliance",
+      "@type": "kto:ExternalConcept",
+      "skos:prefLabel": "Governance, Risk and Compliance",
+      "skos:definition": "The integrated management discipline, named and modeled by OCEG, that aligns how an organization sets direction (governance), handles uncertainty (risk management) and meets legal, regulatory and policy obligations (compliance); for a Salesforce org it is the program that decides which frameworks apply, which risks are accepted, and which controls are evidenced.",
+      "kto:domain": "public-sector-and-compliance",
+      "dcterms:created": "2026-11-14",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What Is GRC (Governance, Risk, and Compliance)?",
+          "dcterms:publisher": "OCEG",
+          "schema:url": "https://oceg.org/ideas/what-is-grc",
+          "kto:sourceType": "community"
+        },
+        {
+          "dcterms:title": "The NIST Cybersecurity Framework (CSF) 2.0 (NIST CSWP 29, PDF)",
+          "dcterms:publisher": "NIST",
+          "schema:url": "https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.pdf",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "Manage Security Risks (Cybersecurity Training for Executives)",
+          "dcterms:publisher": "Salesforce Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/executive-security-awareness/manage-security-risks",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Manage Compliance Risks and Implement Controls (Cybersecurity Compliance Analyst Responsibilities)",
+          "dcterms:publisher": "Salesforce Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/cybersecurity-compliance-analyst-responsibilities/manage-compliance-risks-and-implement-controls",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Make Solutions Trusted (Salesforce Well-Architected)",
+          "dcterms:publisher": "Salesforce Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/salesforce-well-architected/make-solutions-secure",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Trust and Compliance Documentation",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/company/legal/trust-and-compliance-documentation/",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/public-sector-and-compliance/governance-risk-and-compliance.md",
+      "skos:altLabel": [
+        "GRC",
+        "governance, risk, and compliance",
+        "security GRC",
+        "integrated GRC"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:corporate-governance"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:salesforce-governance"
+        },
+        {
+          "@id": "kt:data-governance"
+        },
+        {
+          "@id": "kt:shared-responsibility-model"
+        },
+        {
+          "@id": "kt:nist-cybersecurity-framework"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:security-compliance-frameworks"
+        }
+      ]
+    },
+    {
       "@id": "kt:government-cloud-plus",
       "@type": "kto:Product",
       "skos:prefLabel": "Government Cloud Plus",
