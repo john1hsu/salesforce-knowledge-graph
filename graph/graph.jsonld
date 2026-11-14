@@ -4029,6 +4029,9 @@
         },
         {
           "@id": "kt:agent-actions"
+        },
+        {
+          "@id": "kt:invocable-apex-actions"
         }
       ],
       "kto:alternativeTo": [
@@ -4044,6 +4047,94 @@
       "kto:consumedBy": [
         {
           "@id": "kt:flow-builder"
+        }
+      ]
+    },
+    {
+      "@id": "kt:invocable-apex-actions",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Invocable Apex Actions",
+      "skos:definition": "Apex methods marked with the @InvocableMethod annotation, with inputs and outputs exposed through @InvocableVariable members, so that flows, agents, Apex and the REST API can call custom code as a reusable, bulk-aware action.",
+      "kto:domain": "automation",
+      "dcterms:created": "2026-11-14",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "InvocableMethod Annotation (Apex Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/api/apex_classes_annotation_InvocableMethod.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "InvocableVariable Annotation (Apex Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/api/apex_classes_annotation_InvocableVariable.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Get Ready to Create an Apex Action (Trailhead: Agent Customization with Apex)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/agent-customization-with-apex/get-ready-to-create-an-apex-action",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Get to Know Automation Comps (Trailhead Quick Start)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/projects/quick-start-explore-the-automation-comps-sample-app/get-to-know-automation-comps",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Salesforce Certified Platform Developer Exam Guide",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=005298965&type=1&language=en_US",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/automation/invocable-apex-actions.md",
+      "skos:altLabel": [
+        "custom invocable actions",
+        "InvocableMethod",
+        "@InvocableMethod",
+        "InvocableVariable",
+        "Apex actions in Flow",
+        "invocable Apex methods"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:process-automation"
+        },
+        {
+          "@id": "kt:apex"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:bulkification"
+        },
+        {
+          "@id": "kt:second-generation-managed-packages"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:flow-builder"
+        },
+        {
+          "@id": "kt:agent-actions"
+        },
+        {
+          "@id": "kt:invocable-actions-api"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:permission-sets"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:platform-developer-certification"
         }
       ]
     },

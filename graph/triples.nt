@@ -4558,6 +4558,7 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/invocable-actions-api> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/invocable-actions-api> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/autolaunched-flow> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/invocable-actions-api> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/bulkification> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/invocable-actions-api> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/invocable-apex-actions> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/invocable-actions-api> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/prompt-builder> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/invocable-actions-api> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/subflows> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/invocable-actions-api> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/invocable-actions-api/s1> .
@@ -4572,6 +4573,34 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/invocable-actions-api> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "automation" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/invocable-actions-api> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/invocable-actions-api> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/invocable-apex-actions> <http://purl.org/dc/terms/created> "2026-11-14" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/invocable-apex-actions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/invocable-apex-actions> <http://www.w3.org/2000/01/rdf-schema#label> "Invocable Apex Actions" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/invocable-apex-actions> <http://www.w3.org/2004/02/skos/core#altLabel> "@InvocableMethod" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/invocable-apex-actions> <http://www.w3.org/2004/02/skos/core#altLabel> "Apex actions in Flow" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/invocable-apex-actions> <http://www.w3.org/2004/02/skos/core#altLabel> "InvocableMethod" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/invocable-apex-actions> <http://www.w3.org/2004/02/skos/core#altLabel> "InvocableVariable" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/invocable-apex-actions> <http://www.w3.org/2004/02/skos/core#altLabel> "custom invocable actions" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/invocable-apex-actions> <http://www.w3.org/2004/02/skos/core#altLabel> "invocable Apex methods" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/invocable-apex-actions> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/invocable-apex-actions> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/process-automation> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/invocable-apex-actions> <http://www.w3.org/2004/02/skos/core#definition> "Apex methods marked with the @InvocableMethod annotation, with inputs and outputs exposed through @InvocableVariable members, so that flows, agents, Apex and the REST API can call custom code as a reusable, bulk-aware action." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/invocable-apex-actions> <http://www.w3.org/2004/02/skos/core#prefLabel> "Invocable Apex Actions" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/invocable-apex-actions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/bulkification> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/invocable-apex-actions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/second-generation-managed-packages> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/invocable-apex-actions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/invocable-apex-actions/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/invocable-apex-actions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/invocable-apex-actions/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/invocable-apex-actions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/invocable-apex-actions/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/invocable-apex-actions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/invocable-apex-actions/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/invocable-apex-actions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/invocable-apex-actions/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/invocable-apex-actions> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#consumedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/agent-actions> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/invocable-apex-actions> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#consumedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-builder> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/invocable-apex-actions> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#consumedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/invocable-actions-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/invocable-apex-actions> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#coveredBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-developer-certification> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/invocable-apex-actions> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/permission-sets> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/invocable-apex-actions> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "automation" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/invocable-apex-actions> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/invocable-apex-actions> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/iso-iec-27001> <http://purl.org/dc/terms/created> "2026-11-06" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/iso-iec-27001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#ExternalConcept> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/iso-iec-27001> <http://www.w3.org/2000/01/rdf-schema#label> "ISO/IEC 27001" .
@@ -13334,6 +13363,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/invocable-actions-api/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/invocable-actions-api/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/invocable-actions-api/s6> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/api/apex_classes_annotation_InvocableMethod.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/invocable-apex-actions/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/invocable-apex-actions/s1> <http://purl.org/dc/terms/title> "InvocableMethod Annotation (Apex Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/invocable-apex-actions/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/invocable-apex-actions/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/invocable-apex-actions/s1> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/api/apex_classes_annotation_InvocableMethod.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/invocable-apex-actions/s2> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/invocable-apex-actions/s2> <http://purl.org/dc/terms/title> "InvocableVariable Annotation (Apex Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/invocable-apex-actions/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/invocable-apex-actions/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/invocable-apex-actions/s2> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/api/apex_classes_annotation_InvocableVariable.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/invocable-apex-actions/s3> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/invocable-apex-actions/s3> <http://purl.org/dc/terms/title> "Get Ready to Create an Apex Action (Trailhead: Agent Customization with Apex)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/invocable-apex-actions/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/invocable-apex-actions/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/invocable-apex-actions/s3> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/agent-customization-with-apex/get-ready-to-create-an-apex-action" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/invocable-apex-actions/s4> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/invocable-apex-actions/s4> <http://purl.org/dc/terms/title> "Get to Know Automation Comps (Trailhead Quick Start)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/invocable-apex-actions/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/invocable-apex-actions/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/invocable-apex-actions/s4> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/projects/quick-start-explore-the-automation-comps-sample-app/get-to-know-automation-comps" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/invocable-apex-actions/s5> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/invocable-apex-actions/s5> <http://purl.org/dc/terms/title> "Salesforce Certified Platform Developer Exam Guide" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/invocable-apex-actions/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/invocable-apex-actions/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/invocable-apex-actions/s5> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=005298965&type=1&language=en_US" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/iso-iec-27001/s1> <http://purl.org/dc/terms/publisher> "IEC Webstore" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/iso-iec-27001/s1> <http://purl.org/dc/terms/title> "ISO/IEC 27001:2022 Information security, cybersecurity and privacy protection — Information security management systems — Requirements" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/iso-iec-27001/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

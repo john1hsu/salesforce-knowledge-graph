@@ -11,7 +11,7 @@ summary: >-
 release: "Winter '27"
 status: current
 broader: [kt:rest-api, kt:process-automation]
-related: [kt:autolaunched-flow, kt:subflows, kt:apex, kt:bulkification, kt:prompt-builder, kt:agent-actions]
+related: [kt:autolaunched-flow, kt:subflows, kt:apex, kt:bulkification, kt:prompt-builder, kt:agent-actions, kt:invocable-apex-actions]
 relations:
   - {predicate: alternativeTo, object: kt:subflows}
   - {predicate: dependsOn, object: kt:flow-versioning}
