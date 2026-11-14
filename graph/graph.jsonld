@@ -15618,6 +15618,83 @@
       ]
     },
     {
+      "@id": "kt:test-data-factory",
+      "@type": "kto:Pattern",
+      "skos:prefLabel": "Test Data Factory",
+      "skos:definition": "An Apex testing pattern in which a public @IsTest utility class exposes reusable methods that build (and optionally insert) the records unit tests need, so every test creates its own isolated, predictable data instead of relying on org data.",
+      "kto:domain": "development",
+      "dcterms:created": "2026-11-14",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Apex Developer Guide (Winter '27): Common Test Utility Classes for Test Data Creation",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.264.0.apexcode.meta/pages/apex_testing_utility_classes.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Apex Developer Guide (Winter '27): Using Test Setup Methods",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.264.0.apexcode.meta/pages/apex_testing_testsetup_using.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Apex Testing: Create Test Data for Apex Tests",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/apex_testing/apex_testing_data",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Prepare for Unit Testing: Get Data for Your Tests",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/apex-testing-prepare-for-unit-testing/get-data-for-your-tests",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/development/test-data-factory.md",
+      "skos:altLabel": [
+        "TestDataFactory",
+        "test utility class",
+        "Apex test utility classes",
+        "test data builder"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:apex-testing"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:testing-strategy"
+        },
+        {
+          "@id": "kt:bulkification"
+        },
+        {
+          "@id": "kt:apex-enterprise-patterns"
+        },
+        {
+          "@id": "kt:scratch-orgs"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:governor-limits"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:test-loaddata"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:seealldata"
+        }
+      ]
+    },
+    {
       "@id": "kt:trigger-framework-pattern",
       "@type": "kto:Pattern",
       "skos:prefLabel": "Trigger Framework Pattern",

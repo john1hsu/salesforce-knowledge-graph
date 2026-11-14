@@ -9,7 +9,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:customer-360` | `kt:commerce-cloud`, `kt:slack-platform` |
 | `kt:requirements-engineering` | `kt:non-functional-requirements`, `kt:requirements-gathering` |
 | `kt:unstructured-data-in-data-cloud` | `kt:agentforce-data-library`, `kt:vector-search-in-data-cloud` |
-| `kt:test-data-factory` | `kt:apex-testing` |
 | `kt:salesforce-ecosystem-roles` | `kt:salesforce-architect` |
 | `kt:lightning-service-console` | `kt:service-cloud` |
 | `kt:service-setup-assistant` | `kt:service-cloud` |
@@ -19,8 +18,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:change-data-capture-allocations` | `kt:change-data-capture` |
 | `kt:platform-event-channel-member` | `kt:change-data-capture` |
 | `kt:apex-flex-queue` | `kt:batch-apex` |
-| `kt:process-integration` | `kt:data-integration` |
 | `kt:orglimits-class` | `kt:limits-class` |
+| `kt:process-integration` | `kt:data-integration` |
 | `kt:transaction-finalizers` | `kt:queueable-apex` |
 | `kt:mule-runtime-engine` | `kt:mulesoft-anypoint-platform` |
 | `kt:legacy-named-credentials` | `kt:named-credentials` |
@@ -38,15 +37,17 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:data-categories` | `kt:knowledge-base` |
 | `kt:salesforce-go` | `kt:knowledge-base` |
 | `kt:trailhead` | `kt:salesforce-certification-program` |
+| `kt:seealldata` | `kt:test-data-factory` |
+| `kt:test-loaddata` | `kt:test-data-factory` |
 | `kt:nist-sp-800-60` | `kt:fips-199` |
 | `kt:data-detect` | `kt:salesforce-shield` |
 | `kt:omni-channel-limits` | `kt:omni-channel` |
 | `kt:presence-configuration` | `kt:omni-channel` |
 | `kt:skills-based-routing` | `kt:omni-channel` |
+| `kt:flow-bulkification` | `kt:bulkification` |
 | `kt:compact-layouts` | `kt:page-layouts` |
 | `kt:custom-objects` | `kt:standard-objects` |
 | `kt:distributed-computing` | `kt:cloud-computing` |
-| `kt:flow-bulkification` | `kt:bulkification` |
 | `kt:data-mask-and-seed` | `kt:salesforce-data-mask` |
 | `kt:platform-administrator-ii-certification` | `kt:platform-administrator-certification` |
 | `kt:zero-trust-architecture` | `kt:principle-of-least-privilege` |
@@ -65,6 +66,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:salesforce-sites` | `kt:custom-domains` |
 | `kt:heroku-applink` | `kt:heroku` |
 | `kt:heroku-connect` | `kt:heroku` |
+| `kt:apex-mocks` | `kt:apex-enterprise-patterns` |
 | `kt:iso-iec-27002` | `kt:iso-iec-27001` |
 | `kt:omnistudio-consultant-certification` | `kt:omnistudio` |
 | `kt:omnistudio-developer-certification` | `kt:omnistudio` |
@@ -95,7 +97,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:it-governance` | `kt:salesforce-governance` |
 | `kt:security-governance` | `kt:salesforce-governance` |
 | `kt:mutual-tls-authentication` | `kt:login-ip-ranges-and-trusted-ip-ranges` |
-| `kt:apex-mocks` | `kt:apex-enterprise-patterns` |
 | `kt:generative-ai` | `kt:retrieval-augmented-generation-in-salesforce` |
 | `kt:application-network` | `kt:api-led-connectivity` |
 | `kt:point-to-point-integration` | `kt:api-led-connectivity` |
@@ -112,10 +113,10 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:marketing-cloud-next` | `kt:marketing-cloud-engagement` |
 | `kt:salesforce-marketing-solutions` | `kt:marketing-cloud-engagement` |
 | `kt:ingestion-api` | `kt:data-streams` |
-| `kt:actionable-relationship-center` | `kt:financial-services-cloud` |
-| `kt:compliant-data-sharing` | `kt:financial-services-cloud` |
 | `kt:apexguru` | `kt:scale-test` |
 | `kt:scale-center` | `kt:scale-test` |
+| `kt:actionable-relationship-center` | `kt:financial-services-cloud` |
+| `kt:compliant-data-sharing` | `kt:financial-services-cloud` |
 | `kt:security-health-check` | `kt:session-settings` |
 | `kt:secure-coding` | `kt:cross-site-scripting` |
 | `kt:static-resources` | `kt:cross-site-scripting` |
@@ -154,13 +155,13 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:b2b-commerce` | `kt:commerce-cloud` |
 | `kt:b2c-commerce` | `kt:commerce-cloud` |
 | `kt:salesforce-order-management` | `kt:commerce-cloud` |
-| `kt:apex-user-mode` | `kt:apex-security-with-sharing` |
 | `kt:digital-accessibility` | `kt:section-508-accessibility` |
 | `kt:notes-and-attachments` | `kt:content-document-model` |
 | `kt:shared-activities` | `kt:activity-data-model` |
 | `kt:tx-ramp` | `kt:govramp` |
 | `kt:ui-api` | `kt:field-dependencies` |
 | `kt:wcag` | `kt:section-508-accessibility` |
+| `kt:apex-user-mode` | `kt:apex-security-with-sharing` |
 | `kt:b2c-commerce-architect-certification` | `kt:b2c-solution-architect-certification` |
 | `kt:business-architecture` | `kt:capability-maps` |
 | `kt:einstein-prediction-builder` | `kt:einstein-next-best-action` |
