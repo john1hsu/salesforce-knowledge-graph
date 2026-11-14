@@ -3336,6 +3336,38 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/field-audit-trail> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#requiresLicense> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-shield> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/field-audit-trail> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/field-audit-trail> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-dependencies> <http://purl.org/dc/terms/created> "2026-11-14" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-dependencies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-dependencies> <http://www.w3.org/2000/01/rdf-schema#label> "Field Dependencies" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-dependencies> <http://www.w3.org/2004/02/skos/core#altLabel> "controlling field" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-dependencies> <http://www.w3.org/2004/02/skos/core#altLabel> "controlling picklist" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-dependencies> <http://www.w3.org/2004/02/skos/core#altLabel> "dependent picklist" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-dependencies> <http://www.w3.org/2004/02/skos/core#altLabel> "dependent picklists" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-dependencies> <http://www.w3.org/2004/02/skos/core#altLabel> "field dependency matrix" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-dependencies> <http://www.w3.org/2004/02/skos/core#altLabel> "field dependency" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-dependencies> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-fields> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-dependencies> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-quality> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-dependencies> <http://www.w3.org/2004/02/skos/core#definition> "A declarative filter that limits the values offered in a dependent picklist or multi-select picklist according to the value of a controlling picklist or checkbox on the same record, configured through a field dependency matrix." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-dependencies> <http://www.w3.org/2004/02/skos/core#prefLabel> "Field Dependencies" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-dependencies> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/dynamic-forms> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-dependencies> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/lead-conversion> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-dependencies> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/page-layouts> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-dependencies> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/record-types> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-dependencies> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/validation-rules> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-dependencies> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-dependencies/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-dependencies> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-dependencies/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-dependencies> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-dependencies/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-dependencies> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-dependencies/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-dependencies> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-dependencies/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-dependencies> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-dependencies/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-dependencies> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-dependencies> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#consumedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-web-components> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-dependencies> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#consumedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/visualforce> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-dependencies> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/field-level-security> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-dependencies> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "data-model" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-dependencies> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/ui-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-dependencies> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-dependencies> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/field-history-tracking> <http://purl.org/dc/terms/created> "2026-11-05" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/field-history-tracking> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/field-history-tracking> <http://www.w3.org/2000/01/rdf-schema#label> "Field History Tracking" .
@@ -11864,6 +11896,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-audit-trail/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-audit-trail/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-audit-trail/s6> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/secure-salesforce-configuration/protect-apps-with-shield" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-dependencies/s1> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-dependencies/s1> <http://purl.org/dc/terms/title> "Dependent Picklist Considerations" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-dependencies/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-dependencies/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-dependencies/s1> <https://schema.org/url> "https://help.salesforce.com/s/articleView?language=en_US&id=platform.fields_dependent_field_considerations.htm&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-dependencies/s2> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-dependencies/s2> <http://purl.org/dc/terms/title> "Dependent Picklists" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-dependencies/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-dependencies/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-dependencies/s2> <https://schema.org/url> "https://help.salesforce.com/s/articleView?language=en_US&id=platform.fields_about_dependent_fields.htm&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-dependencies/s3> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-dependencies/s3> <http://purl.org/dc/terms/title> "Customize a Salesforce Object: Create Picklists and Field Dependencies" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-dependencies/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-dependencies/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-dependencies/s3> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/projects/customize-a-salesforce-object/picklists-field-dependencies" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-dependencies/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-dependencies/s4> <http://purl.org/dc/terms/title> "User Interface API Developer Guide: Build UI for Picklists" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-dependencies/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-dependencies/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-dependencies/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.uiapi.meta/uiapi/ui_api_features_records_dependent_picklist.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-dependencies/s5> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-dependencies/s5> <http://purl.org/dc/terms/title> "Visualforce Developer Guide: Adding Dependent Fields to a Page" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-dependencies/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-dependencies/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-dependencies/s5> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/pages_quick_start_dependent_picklists.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-dependencies/s6> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-dependencies/s6> <http://purl.org/dc/terms/title> "LWC Developer Guide: getPicklistValues wire adapter" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-dependencies/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-dependencies/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-dependencies/s6> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/lwc/guide/reference-wire-adapters-picklist-values" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-history-tracking/s1> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-history-tracking/s1> <http://purl.org/dc/terms/title> "Track Object Field History" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-history-tracking/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

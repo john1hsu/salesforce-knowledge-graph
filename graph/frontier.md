@@ -129,6 +129,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:opportunity-products` | `kt:price-books` |
 | `kt:holidays` | `kt:business-hours` |
 | `kt:salesforce-licensing` | `kt:user-licenses` |
+| `kt:custom-permissions` | `kt:validation-rules` |
 | `kt:soc-1` | `kt:soc-2` |
 | `kt:trust-services-criteria` | `kt:soc-2` |
 | `kt:block-kit` | `kt:slack-platform` |
@@ -137,13 +138,12 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:slack-workflow-builder` | `kt:slack-platform` |
 | `kt:iso-iec-25010` | `kt:non-functional-requirements` |
 | `kt:requirements-engineering` | `kt:non-functional-requirements` |
-| `kt:custom-permissions` | `kt:validation-rules` |
 | `kt:data-cloud-code-extension` | `kt:vector-search-in-data-cloud` |
 | `kt:ldap` | `kt:delegated-authentication` |
 | `kt:platform-cache-partitions` | `kt:platform-cache` |
 | `kt:agentforce-nonprofit-consultant-certification` | `kt:agentforce-nonprofit` |
-| `kt:model-context-protocol` | `kt:model-context-protocol-in-agentforce` |
 | `kt:nonprofit-success-pack` | `kt:agentforce-nonprofit` |
+| `kt:model-context-protocol` | `kt:model-context-protocol-in-agentforce` |
 | `kt:salesforce-hosted-mcp-servers` | `kt:model-context-protocol-in-agentforce` |
 | `kt:models-api` | `kt:ai-models` |
 | `kt:jwt-bearer-flow` | `kt:continuous-integration-for-salesforce` |
@@ -151,8 +151,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:b2c-commerce` | `kt:commerce-cloud` |
 | `kt:salesforce-order-management` | `kt:commerce-cloud` |
 | `kt:digital-accessibility` | `kt:section-508-accessibility` |
-| `kt:notes-and-attachments` | `kt:content-document-model` |
-| `kt:shared-activities` | `kt:activity-data-model` |
 | `kt:tx-ramp` | `kt:govramp` |
 | `kt:wcag` | `kt:section-508-accessibility` |
 | `kt:b2c-commerce-architect-certification` | `kt:b2c-solution-architect-certification` |
@@ -160,7 +158,10 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:einstein-prediction-builder` | `kt:einstein-next-best-action` |
 | `kt:email-templates` | `kt:email-alerts` |
 | `kt:in-app-guidance` | `kt:change-management-and-adoption` |
+| `kt:notes-and-attachments` | `kt:content-document-model` |
 | `kt:organization-wide-email-addresses` | `kt:email-alerts` |
 | `kt:requirements-gathering` | `kt:change-management-and-adoption` |
+| `kt:shared-activities` | `kt:activity-data-model` |
 | `kt:technology-roadmaps` | `kt:capability-maps` |
+| `kt:ui-api` | `kt:field-dependencies` |
 | `kt:value-streams` | `kt:capability-maps` |
