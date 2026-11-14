@@ -5666,6 +5666,33 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-53b> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#partOf> <https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-53> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-53b> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-53b> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-60> <http://purl.org/dc/terms/created> "2026-11-14" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-60> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#ExternalConcept> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-60> <http://www.w3.org/2000/01/rdf-schema#label> "NIST SP 800-60" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-60> <http://www.w3.org/2004/02/skos/core#altLabel> "Guide for Mapping Types of Information and Information Systems to Security Categories" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-60> <http://www.w3.org/2004/02/skos/core#altLabel> "NIST 800-60" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-60> <http://www.w3.org/2004/02/skos/core#altLabel> "NIST information types catalog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-60> <http://www.w3.org/2004/02/skos/core#altLabel> "SP 800-60 Rev. 2" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-60> <http://www.w3.org/2004/02/skos/core#altLabel> "SP 800-60 Vol. 1 Rev. 1" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-60> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/security-compliance-frameworks> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-60> <http://www.w3.org/2004/02/skos/core#definition> "NIST Special Publication 800-60, the guide and catalog US federal agencies and FedRAMP cloud providers use to map the information types a system handles to provisional FIPS 199 impact levels, then roll them up into the system's security category; it is the working method behind deciding whether a Salesforce government org needs a Low, Moderate or High baseline." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-60> <http://www.w3.org/2004/02/skos/core#prefLabel> "NIST SP 800-60" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-60> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-classification> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-60> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/fedramp-high> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-60> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/government-cloud-plus> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-60> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-53> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-60> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-60/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-60> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-60/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-60> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-60/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-60> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-60/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-60> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-60/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-60> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-60/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-60> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#consumedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/fedramp> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-60> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "public-sector-and-compliance" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-60> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#implements> <https://github.com/john1hsu/salesforce-knowledge-graph/id/fips-199> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-60> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#partOf> <https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-risk-management-framework> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-60> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-60> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/non-functional-requirements> <http://purl.org/dc/terms/created> "2026-11-10" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/non-functional-requirements> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/non-functional-requirements> <http://www.w3.org/2000/01/rdf-schema#label> "Non-Functional Requirements" .
@@ -14627,6 +14654,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-53b/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-53b/s7> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-53b/s7> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=ind.government_cloud_access_documentation.htm&language=en_US&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-60/s1> <http://purl.org/dc/terms/publisher> "NIST Computer Security Resource Center" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-60/s1> <http://purl.org/dc/terms/title> "SP 800-60 Vol. 1 Rev. 1, Guide for Mapping Types of Information and Information Systems to Security Categories" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-60/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-60/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "standards-body" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-60/s1> <https://schema.org/url> "https://csrc.nist.gov/pubs/sp/800/60/v1/r1/final" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-60/s2> <http://purl.org/dc/terms/publisher> "NIST" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-60/s2> <http://purl.org/dc/terms/title> "NIST Special Publication 800-60 Volume I Revision 1 (PDF)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-60/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-60/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "standards-body" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-60/s2> <https://schema.org/url> "https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-60v1r1.pdf" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-60/s3> <http://purl.org/dc/terms/publisher> "NIST Computer Security Resource Center" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-60/s3> <http://purl.org/dc/terms/title> "SP 800-60 Rev. 2 (Initial Working Draft), Guide for Mapping Types of Information and Systems to Security Categories" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-60/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-60/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "standards-body" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-60/s3> <https://schema.org/url> "https://csrc.nist.gov/pubs/sp/800/60/r2/iwd" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-60/s4> <http://purl.org/dc/terms/publisher> "NIST Computer Security Resource Center" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-60/s4> <http://purl.org/dc/terms/title> "Categorize Step: Tips and Techniques for Systems (RMF Quick Start Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-60/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-60/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "standards-body" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-60/s4> <https://schema.org/url> "https://csrc.nist.gov/CSRC/media/Projects/Risk-Management/documents/categorize/QSG_categorize_tips-and-techniques-for-systems.pdf" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-60/s5> <http://purl.org/dc/terms/publisher> "FedRAMP (GSA)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-60/s5> <http://purl.org/dc/terms/title> "Understanding Baselines and Impact Levels for FedRAMP Authorizations" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-60/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-60/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-60/s5> <https://schema.org/url> "https://www.fedramp.gov/rev5/baselines" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-60/s6> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-60/s6> <http://purl.org/dc/terms/title> "FedRAMP High — Salesforce Compliance" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-60/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-60/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-60/s6> <https://schema.org/url> "https://compliance.salesforce.com/en/fedramp-high" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/non-functional-requirements/s1> <http://purl.org/dc/terms/publisher> "Software Engineering Institute, Carnegie Mellon University" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/non-functional-requirements/s1> <http://purl.org/dc/terms/title> "Eliciting and Specifying Quality Attribute Requirements" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/non-functional-requirements/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

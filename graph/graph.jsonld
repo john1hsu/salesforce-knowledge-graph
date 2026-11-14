@@ -28810,6 +28810,96 @@
       ]
     },
     {
+      "@id": "kt:nist-sp-800-60",
+      "@type": "kto:ExternalConcept",
+      "skos:prefLabel": "NIST SP 800-60",
+      "skos:definition": "NIST Special Publication 800-60, the guide and catalog US federal agencies and FedRAMP cloud providers use to map the information types a system handles to provisional FIPS 199 impact levels, then roll them up into the system's security category; it is the working method behind deciding whether a Salesforce government org needs a Low, Moderate or High baseline.",
+      "kto:domain": "public-sector-and-compliance",
+      "dcterms:created": "2026-11-14",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "SP 800-60 Vol. 1 Rev. 1, Guide for Mapping Types of Information and Information Systems to Security Categories",
+          "dcterms:publisher": "NIST Computer Security Resource Center",
+          "schema:url": "https://csrc.nist.gov/pubs/sp/800/60/v1/r1/final",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "NIST Special Publication 800-60 Volume I Revision 1 (PDF)",
+          "dcterms:publisher": "NIST",
+          "schema:url": "https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-60v1r1.pdf",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "SP 800-60 Rev. 2 (Initial Working Draft), Guide for Mapping Types of Information and Systems to Security Categories",
+          "dcterms:publisher": "NIST Computer Security Resource Center",
+          "schema:url": "https://csrc.nist.gov/pubs/sp/800/60/r2/iwd",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "Categorize Step: Tips and Techniques for Systems (RMF Quick Start Guide)",
+          "dcterms:publisher": "NIST Computer Security Resource Center",
+          "schema:url": "https://csrc.nist.gov/CSRC/media/Projects/Risk-Management/documents/categorize/QSG_categorize_tips-and-techniques-for-systems.pdf",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "Understanding Baselines and Impact Levels for FedRAMP Authorizations",
+          "dcterms:publisher": "FedRAMP (GSA)",
+          "schema:url": "https://www.fedramp.gov/rev5/baselines",
+          "kto:sourceType": "government"
+        },
+        {
+          "dcterms:title": "FedRAMP High — Salesforce Compliance",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://compliance.salesforce.com/en/fedramp-high",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/public-sector-and-compliance/nist-sp-800-60.md",
+      "skos:altLabel": [
+        "NIST 800-60",
+        "SP 800-60 Vol. 1 Rev. 1",
+        "Guide for Mapping Types of Information and Information Systems to Security Categories",
+        "SP 800-60 Rev. 2",
+        "NIST information types catalog"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:security-compliance-frameworks"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:nist-sp-800-53"
+        },
+        {
+          "@id": "kt:government-cloud-plus"
+        },
+        {
+          "@id": "kt:data-classification"
+        },
+        {
+          "@id": "kt:fedramp-high"
+        }
+      ],
+      "kto:implements": [
+        {
+          "@id": "kt:fips-199"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:nist-risk-management-framework"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:fedramp"
+        }
+      ]
+    },
+    {
       "@id": "kt:public-sector-solutions",
       "@type": "kto:Product",
       "skos:prefLabel": "Public Sector Solutions",
