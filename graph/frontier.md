@@ -94,9 +94,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:opportunity-teams` | `kt:opportunity-splits` |
 | `kt:revenue-intelligence` | `kt:collaborative-forecasts` |
 | `kt:mutual-tls-authentication` | `kt:login-ip-ranges-and-trusted-ip-ranges` |
+| `kt:dynamic-soql` | `kt:soql-injection` |
 | `kt:generative-ai` | `kt:retrieval-augmented-generation-in-salesforce` |
 | `kt:apex-mocks` | `kt:apex-enterprise-patterns` |
-| `kt:dynamic-soql` | `kt:soql-injection` |
 | `kt:application-network` | `kt:api-led-connectivity` |
 | `kt:mulesoft-platform-integration-architect-certification` | `kt:mulesoft-platform-architect-certification` |
 | `kt:point-to-point-integration` | `kt:api-led-connectivity` |
@@ -143,8 +143,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:requirements-gathering` | `kt:change-management-and-adoption` |
 | `kt:platform-cache-partitions` | `kt:platform-cache` |
 | `kt:agentforce-nonprofit-consultant-certification` | `kt:agentforce-nonprofit` |
-| `kt:nonprofit-success-pack` | `kt:agentforce-nonprofit` |
 | `kt:model-context-protocol` | `kt:model-context-protocol-in-agentforce` |
+| `kt:nonprofit-success-pack` | `kt:agentforce-nonprofit` |
 | `kt:salesforce-hosted-mcp-servers` | `kt:model-context-protocol-in-agentforce` |
 | `kt:jwt-bearer-flow` | `kt:continuous-integration-for-salesforce` |
 | `kt:models-api` | `kt:ai-models` |
@@ -154,6 +154,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:digital-accessibility` | `kt:section-508-accessibility` |
 | `kt:tx-ramp` | `kt:govramp` |
 | `kt:wcag` | `kt:section-508-accessibility` |
+| `kt:apex-user-mode` | `kt:apex-security-with-sharing` |
 | `kt:b2c-commerce-architect-certification` | `kt:b2c-solution-architect-certification` |
 | `kt:business-architecture` | `kt:capability-maps` |
 | `kt:einstein-prediction-builder` | `kt:einstein-next-best-action` |

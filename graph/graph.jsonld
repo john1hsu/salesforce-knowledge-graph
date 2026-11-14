@@ -13269,6 +13269,105 @@
       ]
     },
     {
+      "@id": "kt:apex-security-with-sharing",
+      "@type": "kto:SecurityControl",
+      "skos:prefLabel": "Apex Sharing Keywords",
+      "skos:definition": "The class-level declarations with sharing, without sharing and inherited sharing, which decide whether Apex code enforces the running user's record-level sharing. They govern record visibility only; object and field permissions are enforced separately through access modes such as user mode.",
+      "kto:domain": "development",
+      "dcterms:created": "2026-11-14",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Use the with sharing, without sharing, and inherited sharing Keywords (Apex Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_classes_keywords_sharing.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Apex Versioned Behavior Changes",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apex/versioned_behavior_changes.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Protect Your Application from Sharing Violations (Secure Coding Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/secure-coding/guide/secure-coding-access-control-protect-from-sharing-violations.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Secure Apex Classes (Lightning Web Components Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/lwc/guide/apex-security",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Write Secure Apex Controllers (Secure Server-Side Development)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/secure-serverside-development/write-secure-apex-controllers",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Salesforce Certified Platform Developer Exam Guide",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=005298965&type=1&language=en_US",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/development/apex-security-with-sharing.md",
+      "skos:altLabel": [
+        "with sharing",
+        "without sharing",
+        "inherited sharing",
+        "Apex sharing declarations",
+        "Apex class sharing mode"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:apex"
+        },
+        {
+          "@id": "kt:salesforce-sharing-model"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:apex-managed-sharing"
+        },
+        {
+          "@id": "kt:field-level-security"
+        },
+        {
+          "@id": "kt:soql-injection"
+        },
+        {
+          "@id": "kt:apex-triggers"
+        },
+        {
+          "@id": "kt:lightning-web-components"
+        },
+        {
+          "@id": "kt:appexchange-security-review"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:sharing-rules"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:apex-user-mode"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:platform-developer-certification"
+        }
+      ]
+    },
+    {
       "@id": "kt:apex-testing",
       "@type": "kto:Feature",
       "skos:prefLabel": "Apex Testing",
