@@ -5082,6 +5082,101 @@
       ]
     },
     {
+      "@id": "kt:agentexchange",
+      "@type": "kto:Product",
+      "skos:prefLabel": "AgentExchange",
+      "skos:definition": "Salesforce's unified marketplace where partners publish, and customers discover, buy and install, apps, AI agents, components, integrations and consulting services for Salesforce orgs and Slack workspaces; since April 2026 it combines the former AppExchange, Slack Marketplace and the original Agentforce-focused AgentExchange.",
+      "kto:domain": "clouds-and-products",
+      "dcterms:created": "2026-11-14",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What Is AgentExchange?",
+          "dcterms:publisher": "Salesforce Developers (AgentExchange Install Guide)",
+          "schema:url": "https://developer.salesforce.com/docs/platform/appexchange-install-guide/guide/appexchange-install-whatis.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Experience the New AgentExchange (AgentExchange: Quick Look)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/agentexchange-quick-look/experience-the-new-agentexchange",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Receive Private Offers from AgentExchange Partners",
+          "dcterms:publisher": "Salesforce Developers (AgentExchange Install Guide)",
+          "schema:url": "https://developer.salesforce.com/docs/platform/appexchange-install-guide/guide/appexchange-install-private-offers.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Go-To-Market App: Prerequisites and Considerations",
+          "dcterms:publisher": "Salesforce Developers (ISVforce Guide)",
+          "schema:url": "https://developer.salesforce.com/docs/platform/isvforce/guide/partner-marketplace-considerations-prerequisites.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Salesforce TDX 2026: only one market now as AgentExchange becomes corporate",
+          "dcterms:publisher": "diginomica",
+          "schema:url": "https://diginomica.com/salesforce-tdx-2026-market-marketbut-actually-only-one-market-now-agentexchange-becomes-corporate",
+          "kto:sourceType": "news"
+        },
+        {
+          "dcterms:title": "Salesforce $50 million partner investment and agent marketplace",
+          "dcterms:publisher": "Channel Dive",
+          "schema:url": "https://www.channeldive.com/news/salesforce-50-million-partner-investment-agent-marketplace/817587/",
+          "kto:sourceType": "news"
+        }
+      ],
+      "kto:file": "articles/clouds-and-products/agentexchange.md",
+      "skos:altLabel": [
+        "AppExchange",
+        "Salesforce AppExchange",
+        "Slack Marketplace",
+        "Salesforce marketplace"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-platform"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:agentforce"
+        },
+        {
+          "@id": "kt:slack-platform"
+        },
+        {
+          "@id": "kt:build-vs-buy-decisions"
+        },
+        {
+          "@id": "kt:model-context-protocol-in-agentforce"
+        },
+        {
+          "@id": "kt:salesforce-pricing"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:appexchange-security-review"
+        },
+        {
+          "@id": "kt:agentexchange-go-to-market-app"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:second-generation-managed-packages"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:slack-platform"
+        }
+      ]
+    },
+    {
       "@id": "kt:agentforce-nonprofit",
       "@type": "kto:Product",
       "skos:prefLabel": "Agentforce Nonprofit",

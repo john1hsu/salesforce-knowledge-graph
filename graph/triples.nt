@@ -134,6 +134,34 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/agent-script> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#partOf> <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/agent-script> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/agent-script> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentexchange> <http://purl.org/dc/terms/created> "2026-11-14" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentexchange> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Product> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentexchange> <http://www.w3.org/2000/01/rdf-schema#label> "AgentExchange" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentexchange> <http://www.w3.org/2004/02/skos/core#altLabel> "AppExchange" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentexchange> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce AppExchange" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentexchange> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce marketplace" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentexchange> <http://www.w3.org/2004/02/skos/core#altLabel> "Slack Marketplace" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentexchange> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-platform> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentexchange> <http://www.w3.org/2004/02/skos/core#definition> "Salesforce's unified marketplace where partners publish, and customers discover, buy and install, apps, AI agents, components, integrations and consulting services for Salesforce orgs and Slack workspaces; since April 2026 it combines the former AppExchange, Slack Marketplace and the original Agentforce-focused AgentExchange." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentexchange> <http://www.w3.org/2004/02/skos/core#prefLabel> "AgentExchange" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentexchange> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentexchange> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/build-vs-buy-decisions> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentexchange> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/model-context-protocol-in-agentforce> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentexchange> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-pricing> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentexchange> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/slack-platform> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentexchange> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentexchange/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentexchange> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentexchange/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentexchange> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentexchange/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentexchange> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentexchange/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentexchange> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentexchange/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentexchange> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentexchange/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentexchange> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/second-generation-managed-packages> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentexchange> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "clouds-and-products" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentexchange> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentexchange-go-to-market-app> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentexchange> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/appexchange-security-review> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentexchange> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/slack-platform> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentexchange> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentexchange> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-data-library> <http://purl.org/dc/terms/created> "2026-11-13" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-data-library> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-data-library> <http://www.w3.org/2000/01/rdf-schema#label> "Agentforce Data Library" .
@@ -8861,6 +8889,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agent-script/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agent-script/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agent-script/s6> <https://schema.org/url> "https://developer.salesforce.com/blogs/2025/10/introducing-hybrid-reasoning-with-agent-script" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentexchange/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers (AgentExchange Install Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentexchange/s1> <http://purl.org/dc/terms/title> "What Is AgentExchange?" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentexchange/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentexchange/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentexchange/s1> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/appexchange-install-guide/guide/appexchange-install-whatis.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentexchange/s2> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentexchange/s2> <http://purl.org/dc/terms/title> "Experience the New AgentExchange (AgentExchange: Quick Look)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentexchange/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentexchange/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentexchange/s2> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/agentexchange-quick-look/experience-the-new-agentexchange" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentexchange/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers (AgentExchange Install Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentexchange/s3> <http://purl.org/dc/terms/title> "Receive Private Offers from AgentExchange Partners" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentexchange/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentexchange/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentexchange/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/appexchange-install-guide/guide/appexchange-install-private-offers.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentexchange/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers (ISVforce Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentexchange/s4> <http://purl.org/dc/terms/title> "Go-To-Market App: Prerequisites and Considerations" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentexchange/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentexchange/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentexchange/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/isvforce/guide/partner-marketplace-considerations-prerequisites.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentexchange/s5> <http://purl.org/dc/terms/publisher> "diginomica" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentexchange/s5> <http://purl.org/dc/terms/title> "Salesforce TDX 2026: only one market now as AgentExchange becomes corporate" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentexchange/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentexchange/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "news" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentexchange/s5> <https://schema.org/url> "https://diginomica.com/salesforce-tdx-2026-market-marketbut-actually-only-one-market-now-agentexchange-becomes-corporate" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentexchange/s6> <http://purl.org/dc/terms/publisher> "Channel Dive" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentexchange/s6> <http://purl.org/dc/terms/title> "Salesforce $50 million partner investment and agent marketplace" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentexchange/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentexchange/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "news" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentexchange/s6> <https://schema.org/url> "https://www.channeldive.com/news/salesforce-50-million-partner-investment-agent-marketplace/817587/" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-data-library/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-data-library/s1> <http://purl.org/dc/terms/title> "Upgrade AI with Real-World Data (Agentforce Data Library Basics)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-data-library/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
