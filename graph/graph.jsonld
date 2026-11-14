@@ -12227,6 +12227,91 @@
       ]
     },
     {
+      "@id": "kt:hierarchical-relationships",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Hierarchical Relationships",
+      "skos:definition": "A special lookup relationship field type available only on the User object, used to link one user to another (as the standard Manager field does) so that management chains can drive approval routing and other user-to-user logic.",
+      "kto:domain": "data-model",
+      "dcterms:created": "2026-11-14",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Data Modeling: Create Object Relationships (unit)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/data_modeling/object_relationships",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Salesforce Field Reference Guide: User",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.sfFieldRef.meta/sfFieldRef/salesforce_field_reference_User.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Force.com Platform Fundamentals: Try It Out — Create an Approval Process (archived v36 docs)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.200.0.fundamentals.meta/fundamentals/adg_workflow_approval_process_try_it_out.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Object Reference: Relationships Among Standard Objects and Fields",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/api/relationships_among_objects.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Create a User Role",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/apex/HTViewHelpDoc?id=admin_roles.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Relationships in Salesforce",
+          "dcterms:publisher": "Salesforce Ben (Jonathan Fox)",
+          "schema:url": "https://salesforceben.com/relationships-in-salesforce",
+          "kto:sourceType": "community"
+        }
+      ],
+      "kto:file": "articles/data-model/hierarchical-relationships.md",
+      "skos:altLabel": [
+        "hierarchical relationship",
+        "hierarchical relationship field",
+        "user hierarchy field",
+        "manager hierarchy",
+        "user-to-user lookup"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:object-relationships"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:lookup-vs-master-detail"
+        },
+        {
+          "@id": "kt:standard-objects"
+        },
+        {
+          "@id": "kt:polymorphic-relationships"
+        },
+        {
+          "@id": "kt:user-management"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:approval-processes"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:role-hierarchy"
+        }
+      ]
+    },
+    {
       "@id": "kt:junction-object",
       "@type": "kto:Pattern",
       "skos:prefLabel": "Junction Object",

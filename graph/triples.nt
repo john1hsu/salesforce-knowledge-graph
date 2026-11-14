@@ -4239,6 +4239,32 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/heroku> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#mitigates> <https://github.com/john1hsu/salesforce-knowledge-graph/id/api-request-limits> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/heroku> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/heroku> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hierarchical-relationships> <http://purl.org/dc/terms/created> "2026-11-14" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hierarchical-relationships> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hierarchical-relationships> <http://www.w3.org/2000/01/rdf-schema#label> "Hierarchical Relationships" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hierarchical-relationships> <http://www.w3.org/2004/02/skos/core#altLabel> "hierarchical relationship field" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hierarchical-relationships> <http://www.w3.org/2004/02/skos/core#altLabel> "hierarchical relationship" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hierarchical-relationships> <http://www.w3.org/2004/02/skos/core#altLabel> "manager hierarchy" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hierarchical-relationships> <http://www.w3.org/2004/02/skos/core#altLabel> "user hierarchy field" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hierarchical-relationships> <http://www.w3.org/2004/02/skos/core#altLabel> "user-to-user lookup" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hierarchical-relationships> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/object-relationships> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hierarchical-relationships> <http://www.w3.org/2004/02/skos/core#definition> "A special lookup relationship field type available only on the User object, used to link one user to another (as the standard Manager field does) so that management chains can drive approval routing and other user-to-user logic." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hierarchical-relationships> <http://www.w3.org/2004/02/skos/core#prefLabel> "Hierarchical Relationships" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hierarchical-relationships> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/lookup-vs-master-detail> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hierarchical-relationships> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/polymorphic-relationships> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hierarchical-relationships> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/standard-objects> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hierarchical-relationships> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/user-management> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hierarchical-relationships> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hierarchical-relationships/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hierarchical-relationships> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hierarchical-relationships/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hierarchical-relationships> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hierarchical-relationships/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hierarchical-relationships> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hierarchical-relationships/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hierarchical-relationships> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hierarchical-relationships/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hierarchical-relationships> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hierarchical-relationships/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hierarchical-relationships> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#consumedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/approval-processes> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hierarchical-relationships> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#contrastsWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/role-hierarchy> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hierarchical-relationships> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "data-model" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hierarchical-relationships> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hierarchical-relationships> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/hipaa> <http://purl.org/dc/terms/created> "2026-11-08" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/hipaa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#ExternalConcept> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/hipaa> <http://www.w3.org/2000/01/rdf-schema#label> "HIPAA" .
@@ -13110,6 +13136,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/heroku/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/heroku/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/heroku/s6> <https://schema.org/url> "https://heroku.com/blog/an-update-on-heroku" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hierarchical-relationships/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hierarchical-relationships/s1> <http://purl.org/dc/terms/title> "Data Modeling: Create Object Relationships (unit)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hierarchical-relationships/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hierarchical-relationships/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hierarchical-relationships/s1> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/data_modeling/object_relationships" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hierarchical-relationships/s2> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hierarchical-relationships/s2> <http://purl.org/dc/terms/title> "Salesforce Field Reference Guide: User" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hierarchical-relationships/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hierarchical-relationships/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hierarchical-relationships/s2> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.sfFieldRef.meta/sfFieldRef/salesforce_field_reference_User.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hierarchical-relationships/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hierarchical-relationships/s3> <http://purl.org/dc/terms/title> "Force.com Platform Fundamentals: Try It Out — Create an Approval Process (archived v36 docs)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hierarchical-relationships/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hierarchical-relationships/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hierarchical-relationships/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.200.0.fundamentals.meta/fundamentals/adg_workflow_approval_process_try_it_out.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hierarchical-relationships/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hierarchical-relationships/s4> <http://purl.org/dc/terms/title> "Object Reference: Relationships Among Standard Objects and Fields" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hierarchical-relationships/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hierarchical-relationships/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hierarchical-relationships/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/api/relationships_among_objects.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hierarchical-relationships/s5> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hierarchical-relationships/s5> <http://purl.org/dc/terms/title> "Create a User Role" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hierarchical-relationships/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hierarchical-relationships/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hierarchical-relationships/s5> <https://schema.org/url> "https://help.salesforce.com/apex/HTViewHelpDoc?id=admin_roles.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hierarchical-relationships/s6> <http://purl.org/dc/terms/publisher> "Salesforce Ben (Jonathan Fox)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hierarchical-relationships/s6> <http://purl.org/dc/terms/title> "Relationships in Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hierarchical-relationships/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hierarchical-relationships/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "community" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hierarchical-relationships/s6> <https://schema.org/url> "https://salesforceben.com/relationships-in-salesforce" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hipaa/s1> <http://purl.org/dc/terms/publisher> "Salesforce" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hipaa/s1> <http://purl.org/dc/terms/title> "HIPAA — Salesforce Compliance" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hipaa/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
