@@ -11,7 +11,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:tableau-next` | `kt:digital-wallet`, `kt:tableau` |
 | `kt:customer-360` | `kt:commerce-cloud`, `kt:slack-platform` |
 | `kt:requirements-engineering` | `kt:non-functional-requirements`, `kt:requirements-gathering` |
-| `kt:user-management` | `kt:hierarchical-relationships`, `kt:user-access-policies` |
 | `kt:unstructured-data-in-data-cloud` | `kt:agentforce-data-library`, `kt:vector-search-in-data-cloud` |
 | `kt:salesforce-ecosystem-roles` | `kt:salesforce-architect` |
 | `kt:lightning-service-console` | `kt:service-cloud` |
@@ -72,16 +71,16 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:dynamic-revenue-orchestrator` | `kt:revenue-cloud` |
 | `kt:revenue-management-consultant-certification` | `kt:revenue-cloud` |
 | `kt:decision-tables` | `kt:salesforce-pricing` |
-| `kt:lightning-out` | `kt:lightning-locker` |
 | `kt:api-experience-hub` | `kt:external-identity-license` |
 | `kt:customer-community-licenses` | `kt:external-identity-license` |
-| `kt:dynamic-soql` | `kt:soql-injection` |
+| `kt:lightning-out` | `kt:lightning-locker` |
 | `kt:scim` | `kt:salesforce-scim` |
+| `kt:dynamic-soql` | `kt:soql-injection` |
 | `kt:content-delivery-network` | `kt:salesforce-edge-network` |
+| `kt:json-web-token` | `kt:openid-connect` |
 | `kt:apex-rest-services` | `kt:remote-call-in` |
 | `kt:tableau-pulse` | `kt:tableau` |
 | `kt:tableau-semantics` | `kt:tableau` |
-| `kt:json-web-token` | `kt:openid-connect` |
 | `kt:path` | `kt:business-processes` |
 | `kt:client-credentials-flow` | `kt:jwt-bearer-flow` |
 | `kt:object-manager` | `kt:schema-builder` |
@@ -112,8 +111,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:marketing-cloud-next` | `kt:marketing-cloud-engagement` |
 | `kt:salesforce-marketing-solutions` | `kt:marketing-cloud-engagement` |
 | `kt:apexguru` | `kt:scale-test` |
-| `kt:ingestion-api` | `kt:data-streams` |
 | `kt:scale-center` | `kt:scale-test` |
+| `kt:ingestion-api` | `kt:data-streams` |
 | `kt:actionable-relationship-center` | `kt:financial-services-cloud` |
 | `kt:compliant-data-sharing` | `kt:financial-services-cloud` |
 | `kt:security-health-check` | `kt:session-settings` |
@@ -122,8 +121,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:agentexchange-go-to-market-app` | `kt:agentexchange` |
 | `kt:fhir` | `kt:health-cloud` |
 | `kt:utilization-management` | `kt:health-cloud` |
-| `kt:security-center` | `kt:continuous-monitoring` |
+| `kt:salesforce-licensing` | `kt:user-licenses` |
 | `kt:flow-limits` | `kt:flow-versioning` |
+| `kt:security-center` | `kt:continuous-monitoring` |
 | `kt:block-kit` | `kt:slack-platform` |
 | `kt:mulesoft-composer` | `kt:slack-platform` |
 | `kt:slack-api-rate-limits` | `kt:slack-platform` |
@@ -132,7 +132,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:opportunity-products` | `kt:price-books` |
 | `kt:iso-iec-25010` | `kt:non-functional-requirements` |
 | `kt:holidays` | `kt:business-hours` |
-| `kt:salesforce-licensing` | `kt:user-licenses` |
 | `kt:custom-permissions` | `kt:validation-rules` |
 | `kt:soc-1` | `kt:soc-2` |
 | `kt:trust-services-criteria` | `kt:soc-2` |

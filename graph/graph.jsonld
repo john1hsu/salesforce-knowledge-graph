@@ -21375,6 +21375,89 @@
       ]
     },
     {
+      "@id": "kt:user-management",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "User Management",
+      "skos:definition": "The Setup tasks an admin uses to run the lifecycle of Salesforce User records: creating users with a license, profile and optional role, resetting passwords and unlocking accounts, freezing logins, and deactivating users (who can't be deleted) so their licenses are released.",
+      "kto:domain": "identity",
+      "dcterms:created": "2026-11-14",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Deactivate Users",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=sf.how_to_deactivate_users.htm&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Considerations for Deactivating Users",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=sf.users_deactivate_considerations.htm&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Freeze or Unfreeze User Accounts",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=sf.users_freeze.htm&amp=&type=5&amp=&language=en_US",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Add Users (Lightning Experience Implementation: User Setup and Management)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/lex_implementation_user_setup_mgmt/lex_implementation_user_setup_mgmt_adding_users-hoc",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Control Access to the Org (Data Security)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/data_security/data_security_org",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/identity/user-management.md",
+      "skos:altLabel": [
+        "Salesforce user management",
+        "user administration",
+        "manage users",
+        "user lifecycle management",
+        "freeze users",
+        "deactivate users"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-identity"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:profiles"
+        },
+        {
+          "@id": "kt:permission-sets"
+        },
+        {
+          "@id": "kt:password-policies"
+        },
+        {
+          "@id": "kt:just-in-time-provisioning"
+        },
+        {
+          "@id": "kt:hierarchical-relationships"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:user-licenses"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:user-access-policies"
+        }
+      ]
+    },
+    {
       "@id": "kt:api-led-connectivity",
       "@type": "kto:Pattern",
       "skos:prefLabel": "API-led Connectivity",
