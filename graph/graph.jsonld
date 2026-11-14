@@ -16669,6 +16669,107 @@
       ]
     },
     {
+      "@id": "kt:data-mask-and-seed",
+      "@type": "kto:Product",
+      "skos:prefLabel": "Data Mask & Seed",
+      "skos:definition": "Salesforce's add-on for populating sandboxes with reusable, relationship-preserving subsets of production or sandbox data while masking sensitive fields; it combines the original Data Mask with seeding capabilities from Own Accelerate.",
+      "kto:domain": "devops-and-alm",
+      "dcterms:created": "2026-11-14",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Get Started with Seeding (Seeding Basics)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/seeding-basics/get-started-with-seeding",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Data Masking & Seeding Tools",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/platform/data-masking/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "A New Level of Data Resilience, Compliance, and Security",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/platform/own-integration/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Summer '26 Release: Top Development & Security Features",
+          "dcterms:publisher": "Salesforce Blog",
+          "schema:url": "https://www.salesforce.com/blog/platform-summer-26-release/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Platform Add-On Features and Pricing",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/platform/pricing-add-ons/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "What is Data Seeding? How It Works, Methods, and Best Practices",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/platform/data-seeding/",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/devops-and-alm/data-mask-and-seed.md",
+      "skos:altLabel": [
+        "Salesforce Data Mask & Seed",
+        "Data Mask and Seed",
+        "Own Accelerate",
+        "Salesforce Seeding",
+        "sandbox seeding"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:environment-strategy"
+        },
+        {
+          "@id": "kt:data-governance"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:sandbox-types"
+        },
+        {
+          "@id": "kt:test-data-factory"
+        },
+        {
+          "@id": "kt:scratch-orgs"
+        },
+        {
+          "@id": "kt:testing-strategy"
+        },
+        {
+          "@id": "kt:backup-and-recover"
+        }
+      ],
+      "kto:replaces": [
+        {
+          "@id": "kt:salesforce-data-mask"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:sandbox-types"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:sandbox-templates"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:backup-and-recover"
+        }
+      ]
+    },
+    {
       "@id": "kt:deployment-validation-and-quick-deploy",
       "@type": "kto:Feature",
       "skos:prefLabel": "Deployment Validation and Quick Deploy",

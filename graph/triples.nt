@@ -2461,6 +2461,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-lake-objects> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#governedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud-limits> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-lake-objects> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-lake-objects> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-mask-and-seed> <http://purl.org/dc/terms/created> "2026-11-14" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-mask-and-seed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Product> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-mask-and-seed> <http://www.w3.org/2000/01/rdf-schema#label> "Data Mask & Seed" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-mask-and-seed> <http://www.w3.org/2004/02/skos/core#altLabel> "Data Mask and Seed" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-mask-and-seed> <http://www.w3.org/2004/02/skos/core#altLabel> "Own Accelerate" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-mask-and-seed> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce Data Mask & Seed" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-mask-and-seed> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce Seeding" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-mask-and-seed> <http://www.w3.org/2004/02/skos/core#altLabel> "sandbox seeding" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-mask-and-seed> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-governance> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-mask-and-seed> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/environment-strategy> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-mask-and-seed> <http://www.w3.org/2004/02/skos/core#definition> "Salesforce's add-on for populating sandboxes with reusable, relationship-preserving subsets of production or sandbox data while masking sensitive fields; it combines the original Data Mask with seeding capabilities from Own Accelerate." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-mask-and-seed> <http://www.w3.org/2004/02/skos/core#prefLabel> "Data Mask & Seed" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-mask-and-seed> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/backup-and-recover> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-mask-and-seed> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-types> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-mask-and-seed> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/scratch-orgs> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-mask-and-seed> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/test-data-factory> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-mask-and-seed> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/testing-strategy> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-mask-and-seed> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-mask-and-seed/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-mask-and-seed> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-mask-and-seed/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-mask-and-seed> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-mask-and-seed/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-mask-and-seed> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-mask-and-seed/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-mask-and-seed> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-mask-and-seed/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-mask-and-seed> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-mask-and-seed/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-mask-and-seed> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#alternativeTo> <https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-templates> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-mask-and-seed> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-types> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-mask-and-seed> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "devops-and-alm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-mask-and-seed> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/backup-and-recover> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-mask-and-seed> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#replaces> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-data-mask> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-mask-and-seed> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-mask-and-seed> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-migration-strategy> <http://purl.org/dc/terms/created> "2026-11-01" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-migration-strategy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-migration-strategy> <http://www.w3.org/2000/01/rdf-schema#label> "Data Migration Strategy" .
@@ -11337,6 +11367,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-lake-objects/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-lake-objects/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "community" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-lake-objects/s6> <https://schema.org/url> "https://www.salesforceben.com/what-are-the-data-stream-categories-in-data-cloud/" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-mask-and-seed/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-mask-and-seed/s1> <http://purl.org/dc/terms/title> "Get Started with Seeding (Seeding Basics)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-mask-and-seed/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-mask-and-seed/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-mask-and-seed/s1> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/seeding-basics/get-started-with-seeding" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-mask-and-seed/s2> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-mask-and-seed/s2> <http://purl.org/dc/terms/title> "Data Masking & Seeding Tools" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-mask-and-seed/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-mask-and-seed/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-mask-and-seed/s2> <https://schema.org/url> "https://www.salesforce.com/platform/data-masking/" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-mask-and-seed/s3> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-mask-and-seed/s3> <http://purl.org/dc/terms/title> "A New Level of Data Resilience, Compliance, and Security" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-mask-and-seed/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-mask-and-seed/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-mask-and-seed/s3> <https://schema.org/url> "https://www.salesforce.com/platform/own-integration/" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-mask-and-seed/s4> <http://purl.org/dc/terms/publisher> "Salesforce Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-mask-and-seed/s4> <http://purl.org/dc/terms/title> "Summer '26 Release: Top Development & Security Features" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-mask-and-seed/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-mask-and-seed/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-mask-and-seed/s4> <https://schema.org/url> "https://www.salesforce.com/blog/platform-summer-26-release/" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-mask-and-seed/s5> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-mask-and-seed/s5> <http://purl.org/dc/terms/title> "Platform Add-On Features and Pricing" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-mask-and-seed/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-mask-and-seed/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-mask-and-seed/s5> <https://schema.org/url> "https://www.salesforce.com/platform/pricing-add-ons/" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-mask-and-seed/s6> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-mask-and-seed/s6> <http://purl.org/dc/terms/title> "What is Data Seeding? How It Works, Methods, and Best Practices" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-mask-and-seed/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-mask-and-seed/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-mask-and-seed/s6> <https://schema.org/url> "https://www.salesforce.com/platform/data-seeding/" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-migration-strategy/s1> <http://purl.org/dc/terms/publisher> "Salesforce" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-migration-strategy/s1> <http://purl.org/dc/terms/title> "Loading Data from the API (Best Practices for Deployments with Large Data Volumes)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-migration-strategy/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
