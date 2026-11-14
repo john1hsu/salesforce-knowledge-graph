@@ -25270,6 +25270,82 @@
       ]
     },
     {
+      "@id": "kt:recursive-save",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Recursive Save",
+      "skos:definition": "The platform behaviour in which automation that updates a record after it was saved sends that record through the save order of execution again in the same transaction, re-running early steps such as triggers while skipping others.",
+      "kto:domain": "platform-architecture",
+      "dcterms:created": "2026-11-14",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Apex Developer Guide: Triggers and Order of Execution",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_triggers_order_of_execution.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Record-Triggered Automation Decision Guide",
+          "dcterms:publisher": "Salesforce Architects",
+          "schema:url": "https://architect.salesforce.com/decision-guides/trigger-automation",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Platform Decision Guides: Record-Triggered Automation",
+          "dcterms:publisher": "Salesforce Architects",
+          "schema:url": "https://architect.salesforce.com/docs/architect/decision-guides/guide/record-triggered",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Apex Developer Guide: Static and Instance Methods, Variables, and Initialization Code",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_classes_static.htm",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/platform-architecture/recursive-save.md",
+      "skos:altLabel": [
+        "recursive save cycle",
+        "save recursion",
+        "same-record update recursion",
+        "re-entering the save order"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:order-of-execution"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:record-triggered-flow"
+        },
+        {
+          "@id": "kt:apex-triggers"
+        },
+        {
+          "@id": "kt:trigger-framework-pattern"
+        },
+        {
+          "@id": "kt:workflow-rules"
+        },
+        {
+          "@id": "kt:process-builder"
+        },
+        {
+          "@id": "kt:roll-up-summary-field"
+        },
+        {
+          "@id": "kt:transaction-control"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:governor-limits"
+        }
+      ]
+    },
+    {
       "@id": "kt:salesforce-edge-network",
       "@type": "kto:Feature",
       "skos:prefLabel": "Salesforce Edge Network",

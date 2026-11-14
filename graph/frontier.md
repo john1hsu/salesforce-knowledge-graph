@@ -11,7 +11,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:unstructured-data-in-data-cloud` | `kt:agentforce-data-library`, `kt:vector-search-in-data-cloud` |
 | `kt:customer-360` | `kt:commerce-cloud`, `kt:slack-platform` |
 | `kt:test-data-factory` | `kt:apex-testing` |
-| `kt:recursive-save` | `kt:order-of-execution` |
 | `kt:salesforce-ecosystem-roles` | `kt:salesforce-architect` |
 | `kt:lightning-service-console` | `kt:service-cloud` |
 | `kt:service-setup-assistant` | `kt:service-cloud` |
@@ -66,9 +65,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:data-graphs` | `kt:data-cloud-segmentation` |
 | `kt:certificate-and-key-management` | `kt:custom-domains` |
 | `kt:salesforce-sites` | `kt:custom-domains` |
-| `kt:iso-iec-27002` | `kt:iso-iec-27001` |
 | `kt:heroku-applink` | `kt:heroku` |
 | `kt:heroku-connect` | `kt:heroku` |
+| `kt:iso-iec-27002` | `kt:iso-iec-27001` |
 | `kt:omnistudio-consultant-certification` | `kt:omnistudio` |
 | `kt:omnistudio-developer-certification` | `kt:omnistudio` |
 | `kt:dynamic-revenue-orchestrator` | `kt:revenue-cloud` |
@@ -89,16 +88,16 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:constraint-modeling-language` | `kt:product-configurator` |
 | `kt:product-catalog-management` | `kt:product-configurator` |
 | `kt:einstein-discovery` | `kt:crm-analytics` |
-| `kt:salesforce-ecosystem` | `kt:salesforce-inc` |
 | `kt:saql` | `kt:crm-analytics` |
+| `kt:salesforce-ecosystem` | `kt:salesforce-inc` |
 | `kt:opportunity-teams` | `kt:opportunity-splits` |
 | `kt:revenue-intelligence` | `kt:collaborative-forecasts` |
+| `kt:dynamic-soql` | `kt:soql-injection` |
 | `kt:it-governance` | `kt:salesforce-governance` |
 | `kt:security-governance` | `kt:salesforce-governance` |
 | `kt:mutual-tls-authentication` | `kt:login-ip-ranges-and-trusted-ip-ranges` |
-| `kt:dynamic-soql` | `kt:soql-injection` |
-| `kt:generative-ai` | `kt:retrieval-augmented-generation-in-salesforce` |
 | `kt:apex-mocks` | `kt:apex-enterprise-patterns` |
+| `kt:generative-ai` | `kt:retrieval-augmented-generation-in-salesforce` |
 | `kt:application-network` | `kt:api-led-connectivity` |
 | `kt:mulesoft-platform-integration-architect-certification` | `kt:mulesoft-platform-architect-certification` |
 | `kt:point-to-point-integration` | `kt:api-led-connectivity` |
