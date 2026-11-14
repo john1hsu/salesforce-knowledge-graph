@@ -27825,6 +27825,93 @@
       ]
     },
     {
+      "@id": "kt:content-security-policy",
+      "@type": "kto:SecurityControl",
+      "skos:prefLabel": "Content Security Policy",
+      "skos:definition": "The W3C browser standard, applied by Salesforce to Lightning pages, Experience Builder sites and opted-in Visualforce pages, that limits which origins a page may load scripts, styles, images, fonts, frames and connections from; admins widen it per host with Trusted URLs (formerly CSP Trusted Sites).",
+      "kto:domain": "security-and-sharing",
+      "dcterms:created": "2026-11-14",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Lightning Components Security Guide: Content Security Policy Overview",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/lightning-components-security/guide/content-security-policy-intro.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Lightning Web Components Developer Guide: Content Security Policy Overview",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/lwc/guide/security-csp.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Metadata API Developer Guide: CspTrustedSite",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_csptrustedsite.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Experience Cloud Developer Guide: Develop Secure Sites: CSP, LWS, and Lightning Locker",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/communities-dev/guide/communities-dev-security-locker-csp.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Content Security Policy Level 3 (W3C Working Draft)",
+          "dcterms:publisher": "W3C Web Application Security Working Group",
+          "schema:url": "https://www.w3.org/TR/CSP3/Overview.html",
+          "kto:sourceType": "standards-body"
+        }
+      ],
+      "kto:file": "articles/security-and-sharing/content-security-policy.md",
+      "skos:altLabel": [
+        "CSP",
+        "Lightning CSP",
+        "CSP Trusted Sites",
+        "Trusted URLs",
+        "CspTrustedSite"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-platform"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:lightning-web-security"
+        },
+        {
+          "@id": "kt:lightning-locker"
+        },
+        {
+          "@id": "kt:experience-builder"
+        },
+        {
+          "@id": "kt:remote-site-settings"
+        },
+        {
+          "@id": "kt:visualforce"
+        }
+      ],
+      "kto:mitigates": [
+        {
+          "@id": "kt:cross-site-scripting"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:metadata-api"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:remote-site-settings"
+        }
+      ]
+    },
+    {
       "@id": "kt:data-breach-risk",
       "@type": "kto:Concept",
       "skos:prefLabel": "Data Breach Risk",
