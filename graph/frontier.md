@@ -62,8 +62,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:heroku-connect` | `kt:heroku` |
 | `kt:certificate-and-key-management` | `kt:custom-domains` |
 | `kt:salesforce-sites` | `kt:custom-domains` |
-| `kt:iso-iec-27002` | `kt:iso-iec-27001` |
 | `kt:apex-mocks` | `kt:apex-enterprise-patterns` |
+| `kt:iso-iec-27002` | `kt:iso-iec-27001` |
 | `kt:omnistudio-consultant-certification` | `kt:omnistudio` |
 | `kt:omnistudio-developer-certification` | `kt:omnistudio` |
 | `kt:salesforce-lightning-design-system` | `kt:visualforce` |

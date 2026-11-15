@@ -17776,6 +17776,88 @@
       ]
     },
     {
+      "@id": "kt:metadata-coverage-report",
+      "@type": "kto:Tool",
+      "skos:prefLabel": "Metadata Coverage Report",
+      "skos:definition": "Salesforce's per-API-version reference table showing, for every metadata type, which deployment and development channels support it: Metadata API, source tracking, unlocked packages, 2GP and 1GP managed packages, change sets and the Apex Metadata API.",
+      "kto:domain": "devops-and-alm",
+      "dcterms:created": "2026-11-15",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Metadata Coverage Report",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/metadata-coverage/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Break Up Your Metadata (Unlocked Packages for Customers)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/unlocked-packages-for-customers/break-up-your-metadata",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Track Changes Between Your Project and Org (Salesforce DX Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/sfdx-dev/guide/sfdx-dev-source-tracking.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Supported Metadata Types (Apex Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/api/apex_metadata_supported_types.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Change Sets",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/apex/HTViewHelpDoc?id=changesets.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Components Available in Second-Generation Managed Packages",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.pkg2_dev.meta/pkg2_dev/packaging_packageable_components.htm",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/devops-and-alm/metadata-coverage-report.md",
+      "skos:altLabel": [
+        "Metadata Coverage report",
+        "metadata coverage",
+        "Salesforce Metadata Coverage Report"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:metadata-api"
+        },
+        {
+          "@id": "kt:application-lifecycle-management"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:source-tracking"
+        },
+        {
+          "@id": "kt:unlocked-packages"
+        },
+        {
+          "@id": "kt:second-generation-managed-packages"
+        },
+        {
+          "@id": "kt:first-generation-managed-packages"
+        },
+        {
+          "@id": "kt:change-sets"
+        },
+        {
+          "@id": "kt:custom-metadata-types"
+        }
+      ]
+    },
+    {
       "@id": "kt:namespace-registry",
       "@type": "kto:Feature",
       "skos:prefLabel": "Namespace Registry",
