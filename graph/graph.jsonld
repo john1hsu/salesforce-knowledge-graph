@@ -5544,6 +5544,104 @@
       ]
     },
     {
+      "@id": "kt:backup-and-recover",
+      "@type": "kto:Product",
+      "skos:prefLabel": "Salesforce Backup & Recover",
+      "skos:definition": "Salesforce's paid backup and restore product, formerly Own Recover, that keeps automated, independently stored backups of an org's data, files and metadata and lets admins compare backups and restore selected records or fields.",
+      "kto:domain": "clouds-and-products",
+      "dcterms:created": "2026-11-15",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Get Started with Backup & Recover (Backup & Recover Basics)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/backup-recover-basics/get-started-with-backup-recover",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Create Your First Salesforce Backup (Backup & Recover Basics)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/backup-recover-basics/create-your-first-salesforce-backup",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Backup & Recover for Salesforce",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=platform.backup_recover_o.htm&amp=&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Back Up and Recover Data with Salesforce Backup & Recover Next",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=xcloud.backup_recover.htm&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Data Backup and Recovery",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/platform/data-backup-recovery/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Introducing Salesforce Backup & Recover Next",
+          "dcterms:publisher": "Salesforce Blog",
+          "schema:url": "https://www.salesforce.com/blog/introducing-salesforce-backup-recover-next/",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/clouds-and-products/backup-and-recover.md",
+      "skos:altLabel": [
+        "Backup & Recover",
+        "Backup and Recover",
+        "Backup & Recover for Salesforce",
+        "Own Recover",
+        "OwnBackup Recover"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:data-governance"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:shared-responsibility-model"
+        },
+        {
+          "@id": "kt:backup-and-recover-next"
+        },
+        {
+          "@id": "kt:sandbox-types"
+        },
+        {
+          "@id": "kt:data-loader"
+        },
+        {
+          "@id": "kt:shield-platform-encryption"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:archiving-strategy"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:data-mask-and-seed"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:connected-apps"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:api-request-limits"
+        }
+      ]
+    },
+    {
       "@id": "kt:collaborative-forecasts",
       "@type": "kto:Feature",
       "skos:prefLabel": "Collaborative Forecasts",

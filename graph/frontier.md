@@ -4,8 +4,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:data-loader` | `kt:bulk-api-1`, `kt:bulk-api-2`, `kt:bulk-api-allocations` |
-| `kt:backup-and-recover` | `kt:archiving-strategy`, `kt:data-mask-and-seed` |
+| `kt:data-loader` | `kt:backup-and-recover`, `kt:bulk-api-1`, `kt:bulk-api-2`, `kt:bulk-api-allocations` |
 | `kt:data-classification` | `kt:data-governance`, `kt:nist-sp-800-60` |
 | `kt:salesforce-analytics` | `kt:crm-analytics`, `kt:tableau` |
 | `kt:heroku-applink` | `kt:heroku`, `kt:heroku-architect-certification` |
@@ -30,8 +29,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:streaming-api` | `kt:pub-sub-api` |
 | `kt:upsert` | `kt:external-id-fields` |
 | `kt:platform-developer-ii-certification` | `kt:platform-developer-certification` |
-| `kt:scoping-rules` | `kt:restriction-rules` |
 | `kt:salesforce-archive` | `kt:archiving-strategy` |
+| `kt:scoping-rules` | `kt:restriction-rules` |
 | `kt:prompt-injection` | `kt:einstein-trust-layer` |
 | `kt:mixed-dml-error` | `kt:future-methods` |
 | `kt:zero-copy-data-sharing` | `kt:zero-copy-data-federation` |
@@ -47,9 +46,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:compact-layouts` | `kt:page-layouts` |
 | `kt:custom-objects` | `kt:standard-objects` |
 | `kt:distributed-computing` | `kt:cloud-computing` |
-| `kt:platform-administrator-ii-certification` | `kt:platform-administrator-certification` |
 | `kt:data-management` | `kt:data-governance` |
 | `kt:data-stewardship` | `kt:data-governance` |
+| `kt:platform-administrator-ii-certification` | `kt:platform-administrator-certification` |
 | `kt:zero-trust-architecture` | `kt:principle-of-least-privilege` |
 | `kt:entitlement-process-metadata` | `kt:entitlement-management` |
 | `kt:dispatcher-console` | `kt:field-service` |
@@ -79,18 +78,18 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:apex-rest-services` | `kt:remote-call-in` |
 | `kt:tableau-pulse` | `kt:tableau` |
 | `kt:tableau-semantics` | `kt:tableau` |
-| `kt:path` | `kt:business-processes` |
 | `kt:client-credentials-flow` | `kt:jwt-bearer-flow` |
+| `kt:path` | `kt:business-processes` |
 | `kt:object-manager` | `kt:schema-builder` |
 | `kt:salesforce-ecosystem` | `kt:salesforce-inc` |
 | `kt:constraint-modeling-language` | `kt:product-configurator` |
-| `kt:product-catalog-management` | `kt:product-configurator` |
 | `kt:einstein-discovery` | `kt:crm-analytics` |
+| `kt:product-catalog-management` | `kt:product-configurator` |
 | `kt:saql` | `kt:crm-analytics` |
 | `kt:salesforce-lightning-design-system` | `kt:visualforce` |
+| `kt:it-governance` | `kt:salesforce-governance` |
 | `kt:opportunity-teams` | `kt:opportunity-splits` |
 | `kt:revenue-intelligence` | `kt:collaborative-forecasts` |
-| `kt:it-governance` | `kt:salesforce-governance` |
 | `kt:security-governance` | `kt:salesforce-governance` |
 | `kt:mutual-tls-authentication` | `kt:login-ip-ranges-and-trusted-ip-ranges` |
 | `kt:mulesoft-platform-integration-architect-certification` | `kt:mulesoft-platform-architect-certification` |
@@ -100,6 +99,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:point-to-point-integration` | `kt:api-led-connectivity` |
 | `kt:dynamic-actions` | `kt:dynamic-forms` |
 | `kt:dynamic-highlights-panel` | `kt:dynamic-forms` |
+| `kt:backup-and-recover-next` | `kt:backup-and-recover` |
 | `kt:data-actions` | `kt:streaming-insights` |
 | `kt:automation-studio` | `kt:marketing-cloud-engagement` |
 | `kt:contact-builder` | `kt:marketing-cloud-engagement` |
@@ -141,9 +141,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:ldap` | `kt:delegated-authentication` |
 | `kt:platform-cache-partitions` | `kt:platform-cache` |
 | `kt:agentforce-nonprofit-consultant-certification` | `kt:agentforce-nonprofit` |
-| `kt:nonprofit-success-pack` | `kt:agentforce-nonprofit` |
 | `kt:business-analyst` | `kt:requirements-gathering` |
 | `kt:business-process-mapping` | `kt:requirements-gathering` |
+| `kt:nonprofit-success-pack` | `kt:agentforce-nonprofit` |
 | `kt:user-stories` | `kt:requirements-gathering` |
 | `kt:models-api` | `kt:ai-models` |
 | `kt:b2b-commerce` | `kt:commerce-cloud` |
