@@ -30072,6 +30072,116 @@
       ]
     },
     {
+      "@id": "kt:apex-user-mode",
+      "@type": "kto:SecurityControl",
+      "skos:prefLabel": "Apex User Mode",
+      "skos:definition": "The Apex access mode that runs a query, search or DML operation with the running user's object permissions, field-level security and record sharing enforced, selected per operation with WITH USER_MODE, as user or AccessLevel.USER_MODE and, from Apex API version 67.0, the default for database operations.",
+      "kto:domain": "security-and-sharing",
+      "dcterms:created": "2026-11-15",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Set an Access Mode for Database Operations (Apex Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexref/apex_classes_enforce_usermode.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AccessLevel Class (Apex Reference Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apex/apex_class_System_AccessLevel.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Apex Versioned Behavior Changes",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apex/versioned_behavior_changes.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Protect Your Application from CRUD/FLS Vulnerabilities (Secure Coding Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/secure-coding/guide/secure-coding-access-control-protect-from-crud-fls-vulnerabilities.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Write Simplified and Secure Apex with Spring '23 Updates",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2023/05/write-simplified-and-secure-apex-with-spring-23-updates",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Write Secure Apex Controllers (Trailhead: Secure Server-Side Development)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/secure-serverside-development/write-secure-apex-controllers",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/security-and-sharing/apex-user-mode.md",
+      "skos:altLabel": [
+        "user mode database operations",
+        "WITH USER_MODE",
+        "AccessLevel.USER_MODE",
+        "as user DML",
+        "Apex access modes",
+        "Apex system mode"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:apex"
+        },
+        {
+          "@id": "kt:salesforce-sharing-model"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:field-level-security"
+        },
+        {
+          "@id": "kt:dynamic-soql"
+        },
+        {
+          "@id": "kt:soql-injection"
+        },
+        {
+          "@id": "kt:appexchange-security-review"
+        },
+        {
+          "@id": "kt:restriction-rules"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:apex-security-with-sharing"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:security-stripinaccessible"
+        }
+      ],
+      "kto:replaces": [
+        {
+          "@id": "kt:with-security-enforced"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:permission-sets"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:soql"
+        },
+        {
+          "@id": "kt:sosl"
+        }
+      ]
+    },
+    {
       "@id": "kt:classic-encryption",
       "@type": "kto:SecurityControl",
       "skos:prefLabel": "Classic Encryption",

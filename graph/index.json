@@ -554,6 +554,32 @@
     ]
   },
   {
+    "id": "kt:apex-user-mode",
+    "title": "Apex User Mode",
+    "aliases": [
+      "user mode database operations",
+      "WITH USER_MODE",
+      "AccessLevel.USER_MODE",
+      "as user DML",
+      "Apex access modes",
+      "Apex system mode"
+    ],
+    "type": "SecurityControl",
+    "domain": "security-and-sharing",
+    "file": "articles/security-and-sharing/apex-user-mode.md",
+    "created": "2026-11-15",
+    "release": "Winter '27",
+    "status": "current",
+    "source_urls": [
+      "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexref/apex_classes_enforce_usermode.htm",
+      "https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apex/apex_class_System_AccessLevel.htm",
+      "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apex/versioned_behavior_changes.htm",
+      "https://developer.salesforce.com/docs/platform/secure-coding/guide/secure-coding-access-control-protect-from-crud-fls-vulnerabilities.html",
+      "https://developer.salesforce.com/blogs/2023/05/write-simplified-and-secure-apex-with-spring-23-updates",
+      "https://trailhead.salesforce.com/content/learn/modules/secure-serverside-development/write-secure-apex-controllers"
+    ]
+  },
+  {
     "id": "kt:api-led-connectivity",
     "title": "API-led Connectivity",
     "aliases": [

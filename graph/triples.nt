@@ -601,6 +601,39 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-triggers> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#partOf> <https://github.com/john1hsu/salesforce-knowledge-graph/id/order-of-execution> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-triggers> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-triggers> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-user-mode> <http://purl.org/dc/terms/created> "2026-11-15" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-user-mode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#SecurityControl> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-user-mode> <http://www.w3.org/2000/01/rdf-schema#label> "Apex User Mode" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-user-mode> <http://www.w3.org/2004/02/skos/core#altLabel> "AccessLevel.USER_MODE" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-user-mode> <http://www.w3.org/2004/02/skos/core#altLabel> "Apex access modes" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-user-mode> <http://www.w3.org/2004/02/skos/core#altLabel> "Apex system mode" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-user-mode> <http://www.w3.org/2004/02/skos/core#altLabel> "WITH USER_MODE" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-user-mode> <http://www.w3.org/2004/02/skos/core#altLabel> "as user DML" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-user-mode> <http://www.w3.org/2004/02/skos/core#altLabel> "user mode database operations" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-user-mode> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-user-mode> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-sharing-model> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-user-mode> <http://www.w3.org/2004/02/skos/core#definition> "The Apex access mode that runs a query, search or DML operation with the running user's object permissions, field-level security and record sharing enforced, selected per operation with WITH USER_MODE, as user or AccessLevel.USER_MODE and, from Apex API version 67.0, the default for database operations." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-user-mode> <http://www.w3.org/2004/02/skos/core#prefLabel> "Apex User Mode" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-user-mode> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/appexchange-security-review> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-user-mode> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/dynamic-soql> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-user-mode> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/field-level-security> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-user-mode> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/restriction-rules> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-user-mode> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/soql-injection> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-user-mode> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-user-mode/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-user-mode> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-user-mode/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-user-mode> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-user-mode/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-user-mode> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-user-mode/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-user-mode> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-user-mode/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-user-mode> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-user-mode/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-user-mode> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#alternativeTo> <https://github.com/john1hsu/salesforce-knowledge-graph/id/security-stripinaccessible> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-user-mode> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#consumedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/soql> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-user-mode> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#consumedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/sosl> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-user-mode> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#contrastsWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-security-with-sharing> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-user-mode> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/permission-sets> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-user-mode> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "security-and-sharing" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-user-mode> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#replaces> <https://github.com/john1hsu/salesforce-knowledge-graph/id/with-security-enforced> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-user-mode> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-user-mode> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex> <http://purl.org/dc/terms/created> "2026-11-01" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Language> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex> <http://www.w3.org/2000/01/rdf-schema#label> "Apex" .
@@ -9755,6 +9788,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-triggers/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-triggers/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-triggers/s5> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/winter-27-release-highlights/" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-user-mode/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-user-mode/s1> <http://purl.org/dc/terms/title> "Set an Access Mode for Database Operations (Apex Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-user-mode/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-user-mode/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-user-mode/s1> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexref/apex_classes_enforce_usermode.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-user-mode/s2> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-user-mode/s2> <http://purl.org/dc/terms/title> "AccessLevel Class (Apex Reference Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-user-mode/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-user-mode/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-user-mode/s2> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apex/apex_class_System_AccessLevel.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-user-mode/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-user-mode/s3> <http://purl.org/dc/terms/title> "Apex Versioned Behavior Changes" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-user-mode/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-user-mode/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-user-mode/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apex/versioned_behavior_changes.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-user-mode/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-user-mode/s4> <http://purl.org/dc/terms/title> "Protect Your Application from CRUD/FLS Vulnerabilities (Secure Coding Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-user-mode/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-user-mode/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-user-mode/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/secure-coding/guide/secure-coding-access-control-protect-from-crud-fls-vulnerabilities.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-user-mode/s5> <http://purl.org/dc/terms/publisher> "Salesforce Developers Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-user-mode/s5> <http://purl.org/dc/terms/title> "Write Simplified and Secure Apex with Spring '23 Updates" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-user-mode/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-user-mode/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-user-mode/s5> <https://schema.org/url> "https://developer.salesforce.com/blogs/2023/05/write-simplified-and-secure-apex-with-spring-23-updates" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-user-mode/s6> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-user-mode/s6> <http://purl.org/dc/terms/title> "Write Secure Apex Controllers (Trailhead: Secure Server-Side Development)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-user-mode/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-user-mode/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-user-mode/s6> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/secure-serverside-development/write-secure-apex-controllers" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex/s1> <http://purl.org/dc/terms/title> "Apex Developer Guide (Winter '27, API version 68.0)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
