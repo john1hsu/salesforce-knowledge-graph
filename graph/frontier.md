@@ -16,7 +16,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:service-setup-assistant` | `kt:service-cloud` |
 | `kt:change-data-capture-allocations` | `kt:change-data-capture` |
 | `kt:platform-event-channel-member` | `kt:change-data-capture` |
-| `kt:apex-flex-queue` | `kt:batch-apex` |
 | `kt:process-integration` | `kt:data-integration` |
 | `kt:orglimits-class` | `kt:limits-class` |
 | `kt:transaction-finalizers` | `kt:queueable-apex` |
@@ -140,9 +139,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:ldap` | `kt:delegated-authentication` |
 | `kt:username-password-flow` | `kt:client-credentials-flow` |
 | `kt:agentforce-nonprofit-consultant-certification` | `kt:agentforce-nonprofit` |
-| `kt:nonprofit-success-pack` | `kt:agentforce-nonprofit` |
 | `kt:business-analyst` | `kt:requirements-gathering` |
 | `kt:business-process-mapping` | `kt:requirements-gathering` |
+| `kt:nonprofit-success-pack` | `kt:agentforce-nonprofit` |
 | `kt:user-stories` | `kt:requirements-gathering` |
 | `kt:apex-defined-types` | `kt:transform-element` |
 | `kt:flow-loop-element` | `kt:transform-element` |

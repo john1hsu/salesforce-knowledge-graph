@@ -14654,6 +14654,80 @@
       ]
     },
     {
+      "@id": "kt:apex-flex-queue",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Apex Flex Queue",
+      "skos:definition": "The org-wide holding area where submitted Batch Apex jobs wait in Holding status, up to 100 at a time, until one of the five active batch slots frees up; jobs can be reordered from Setup or with the System.FlexQueue methods.",
+      "kto:domain": "development",
+      "dcterms:created": "2026-11-15",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Apex Reference Guide: FlexQueue Class",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_class_System_FlexQueue.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Apex Developer Guide: Use Batch Apex",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apex/apex_batch_interface.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Trailhead: Monitor Asynchronous Apex",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/asynchronous_apex/async_apex_monitoring",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Apex Reference Guide: Test Class",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexcode/apex_methods_system_test.htm",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/development/apex-flex-queue.md",
+      "skos:altLabel": [
+        "flex queue",
+        "System.FlexQueue",
+        "FlexQueue class",
+        "Holding status batch jobs"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:asynchronous-apex"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:scheduled-apex"
+        },
+        {
+          "@id": "kt:apex-testing"
+        },
+        {
+          "@id": "kt:queueable-apex"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:batch-apex"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:governor-limits"
+        }
+      ],
+      "kto:causes": [
+        {
+          "@id": "kt:limit-exception"
+        }
+      ]
+    },
+    {
       "@id": "kt:apex-security-with-sharing",
       "@type": "kto:SecurityControl",
       "skos:prefLabel": "Apex Sharing Keywords",

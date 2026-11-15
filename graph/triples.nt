@@ -493,6 +493,29 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-enterprise-patterns> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/soql> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-enterprise-patterns> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-enterprise-patterns> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-flex-queue> <http://purl.org/dc/terms/created> "2026-11-15" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-flex-queue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-flex-queue> <http://www.w3.org/2000/01/rdf-schema#label> "Apex Flex Queue" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-flex-queue> <http://www.w3.org/2004/02/skos/core#altLabel> "FlexQueue class" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-flex-queue> <http://www.w3.org/2004/02/skos/core#altLabel> "Holding status batch jobs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-flex-queue> <http://www.w3.org/2004/02/skos/core#altLabel> "System.FlexQueue" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-flex-queue> <http://www.w3.org/2004/02/skos/core#altLabel> "flex queue" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-flex-queue> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/asynchronous-apex> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-flex-queue> <http://www.w3.org/2004/02/skos/core#definition> "The org-wide holding area where submitted Batch Apex jobs wait in Holding status, up to 100 at a time, until one of the five active batch slots frees up; jobs can be reordered from Setup or with the System.FlexQueue methods." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-flex-queue> <http://www.w3.org/2004/02/skos/core#prefLabel> "Apex Flex Queue" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-flex-queue> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-testing> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-flex-queue> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/queueable-apex> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-flex-queue> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/scheduled-apex> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-flex-queue> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-flex-queue/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-flex-queue> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-flex-queue/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-flex-queue> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-flex-queue/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-flex-queue> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-flex-queue/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-flex-queue> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#causes> <https://github.com/john1hsu/salesforce-knowledge-graph/id/limit-exception> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-flex-queue> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#consumedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/batch-apex> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-flex-queue> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "development" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-flex-queue> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#governedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/governor-limits> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-flex-queue> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-flex-queue> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-managed-sharing> <http://purl.org/dc/terms/created> "2026-11-03" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-managed-sharing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#SecurityControl> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-managed-sharing> <http://www.w3.org/2000/01/rdf-schema#label> "Apex Managed Sharing" .
@@ -9891,6 +9914,26 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-enterprise-patterns/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-enterprise-patterns/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "community" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-enterprise-patterns/s5> <https://schema.org/url> "https://github.com/apex-enterprise-patterns/fflib-apex-common" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-flex-queue/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-flex-queue/s1> <http://purl.org/dc/terms/title> "Apex Reference Guide: FlexQueue Class" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-flex-queue/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-flex-queue/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-flex-queue/s1> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_class_System_FlexQueue.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-flex-queue/s2> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-flex-queue/s2> <http://purl.org/dc/terms/title> "Apex Developer Guide: Use Batch Apex" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-flex-queue/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-flex-queue/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-flex-queue/s2> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apex/apex_batch_interface.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-flex-queue/s3> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-flex-queue/s3> <http://purl.org/dc/terms/title> "Trailhead: Monitor Asynchronous Apex" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-flex-queue/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-flex-queue/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-flex-queue/s3> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/asynchronous_apex/async_apex_monitoring" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-flex-queue/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-flex-queue/s4> <http://purl.org/dc/terms/title> "Apex Reference Guide: Test Class" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-flex-queue/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-flex-queue/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-flex-queue/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexcode/apex_methods_system_test.htm" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-managed-sharing/s1> <http://purl.org/dc/terms/publisher> "Salesforce" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-managed-sharing/s1> <http://purl.org/dc/terms/title> "Sharing a Record Using Apex (Apex Developer Guide, Winter '27)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-managed-sharing/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
