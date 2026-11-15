@@ -10,6 +10,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:salesforce-analytics` | `kt:crm-analytics`, `kt:tableau` |
 | `kt:heroku-applink` | `kt:heroku`, `kt:heroku-architect-certification` |
 | `kt:tableau-next` | `kt:digital-wallet`, `kt:tableau` |
+| `kt:flow-limits` | `kt:flow-bulkification`, `kt:flow-versioning` |
 | `kt:customer-360` | `kt:commerce-cloud`, `kt:slack-platform` |
 | `kt:requirements-engineering` | `kt:non-functional-requirements`, `kt:requirements-gathering` |
 | `kt:unstructured-data-in-data-cloud` | `kt:agentforce-data-library`, `kt:vector-search-in-data-cloud` |
@@ -43,7 +44,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:omni-channel-limits` | `kt:omni-channel` |
 | `kt:presence-configuration` | `kt:omni-channel` |
 | `kt:skills-based-routing` | `kt:omni-channel` |
-| `kt:flow-bulkification` | `kt:bulkification` |
 | `kt:compact-layouts` | `kt:page-layouts` |
 | `kt:custom-objects` | `kt:standard-objects` |
 | `kt:distributed-computing` | `kt:cloud-computing` |
@@ -121,7 +121,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:utilization-management` | `kt:health-cloud` |
 | `kt:salesforce-licensing` | `kt:user-licenses` |
 | `kt:security-center` | `kt:continuous-monitoring` |
-| `kt:flow-limits` | `kt:flow-versioning` |
 | `kt:block-kit` | `kt:slack-platform` |
 | `kt:mulesoft-composer` | `kt:slack-platform` |
 | `kt:slack-api-rate-limits` | `kt:slack-platform` |
@@ -152,18 +151,18 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:salesforce-order-management` | `kt:commerce-cloud` |
 | `kt:apex-user-mode` | `kt:apex-security-with-sharing` |
 | `kt:digital-accessibility` | `kt:section-508-accessibility` |
-| `kt:einstein-prediction-builder` | `kt:einstein-next-best-action` |
-| `kt:email-templates` | `kt:email-alerts` |
 | `kt:instance-refresh-and-org-migration` | `kt:trust-and-status-site` |
 | `kt:notes-and-attachments` | `kt:content-document-model` |
-| `kt:organization-wide-email-addresses` | `kt:email-alerts` |
 | `kt:shared-activities` | `kt:activity-data-model` |
 | `kt:tx-ramp` | `kt:govramp` |
 | `kt:ui-api` | `kt:field-dependencies` |
 | `kt:wcag` | `kt:section-508-accessibility` |
 | `kt:b2c-commerce-architect-certification` | `kt:b2c-solution-architect-certification` |
 | `kt:business-architecture` | `kt:capability-maps` |
+| `kt:einstein-prediction-builder` | `kt:einstein-next-best-action` |
+| `kt:email-templates` | `kt:email-alerts` |
 | `kt:heroku-fir` | `kt:heroku-architect-certification` |
+| `kt:organization-wide-email-addresses` | `kt:email-alerts` |
 | `kt:technology-roadmaps` | `kt:capability-maps` |
 | `kt:twelve-factor-app` | `kt:heroku-architect-certification` |
 | `kt:value-streams` | `kt:capability-maps` |

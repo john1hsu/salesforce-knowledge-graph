@@ -3414,6 +3414,99 @@
       ]
     },
     {
+      "@id": "kt:flow-bulkification",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Flow Bulkification",
+      "skos:definition": "How Salesforce Flow groups the interviews of a multi-record transaction so that their Get, Create, Update and Delete operations run as shared SOQL queries and DML statements, and the matching design rule of keeping data elements out of loops so a flow stays within per-transaction governor limits.",
+      "kto:domain": "automation",
+      "dcterms:created": "2026-11-15",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Flow Bulkification in Transactions (Salesforce Help)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=flow_concepts_bulkification.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Bulkified Record Processing to Avoid CPU Limits Example (Salesforce Help)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=platform.automate_flow_build_example_bulkified_processing.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Trailhead: Avoid Flow Limits (Flow Implementation module)",
+          "dcterms:publisher": "Salesforce Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/flow-implementation-1/avoid-flow-limits",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Record-Triggered Automation Decision Guide",
+          "dcterms:publisher": "Salesforce Architects",
+          "schema:url": "https://architect.salesforce.com/docs/architect/decision-guides/guide/record-triggered",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Flow Scanner Rules Reference (Salesforce Code Analyzer)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/salesforce-code-analyzer/guide/rules-flow.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "How Flows Run in Transactions (Salesforce Help)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=flow_concepts_transaction.htm&type=0",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/automation/flow-bulkification.md",
+      "skos:altLabel": [
+        "flow bulkification in transactions",
+        "bulkify flows",
+        "bulkified flow",
+        "flow interview bulkification"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:bulkification"
+        },
+        {
+          "@id": "kt:flow-builder"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:record-triggered-flow"
+        },
+        {
+          "@id": "kt:flow-transaction-boundaries"
+        },
+        {
+          "@id": "kt:flow-fault-handling"
+        },
+        {
+          "@id": "kt:code-analyzer"
+        },
+        {
+          "@id": "kt:apex-triggers"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:governor-limits"
+        },
+        {
+          "@id": "kt:flow-limits"
+        }
+      ],
+      "kto:mitigates": [
+        {
+          "@id": "kt:limit-exception"
+        }
+      ]
+    },
+    {
       "@id": "kt:flow-fault-handling",
       "@type": "kto:Pattern",
       "skos:prefLabel": "Flow Fault Handling",
