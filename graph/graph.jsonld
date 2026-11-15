@@ -7124,6 +7124,91 @@
       ]
     },
     {
+      "@id": "kt:net-zero-cloud",
+      "@type": "kto:Product",
+      "skos:prefLabel": "Agentforce Net Zero",
+      "skos:definition": "Salesforce's sustainability management product, formerly Net Zero Cloud, which records energy and activity data, calculates scope 1, 2 and 3 greenhouse-gas emissions with emissions factors, and supports targets, forecasting and ESG disclosure reporting on the Salesforce Platform.",
+      "kto:domain": "clouds-and-products",
+      "dcterms:created": "2026-11-15",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Introduction to Net Zero Cloud (Net Zero Cloud Developer Guide)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/industries/netzero-cloud-dev-guide/guide/netzero-cloud-std-objects-intro.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Net Zero Cloud Calculations (Net Zero Cloud Developer Guide)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/industries/netzero-cloud-dev-guide/guide/netzero-cloud-calculations.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Track Emissions with Net Zero Cloud (Net Zero Cloud Basics)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/net-zero-cloud-basics/track-emissions-with-net-zero-cloud",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Learn the Foundations of Carbon Accounting (Carbon Accounting for Assets with Net Zero Cloud)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/carbon-accounting-for-assets-with-net-zero-cloud/learn-the-foundations-carbon-accounting",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Net Zero Cloud Guide",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/net-zero/cloud/guide/",
+          "kto:sourceType": "news"
+        },
+        {
+          "dcterms:title": "Agentforce for Net Zero Cloud announcement",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/news/stories/agentforce-for-net-zero-cloud-announcement/",
+          "kto:sourceType": "news"
+        }
+      ],
+      "kto:file": "articles/clouds-and-products/net-zero-cloud.md",
+      "skos:altLabel": [
+        "Net Zero Cloud",
+        "Salesforce Net Zero Cloud",
+        "Agentforce for Net Zero Cloud"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-industries"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:agentforce"
+        },
+        {
+          "@id": "kt:salesforce-platform"
+        }
+      ],
+      "kto:implements": [
+        {
+          "@id": "kt:greenhouse-gas-protocol"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:data-cloud"
+        },
+        {
+          "@id": "kt:crm-analytics"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:einstein-trust-layer"
+        }
+      ]
+    },
+    {
       "@id": "kt:omni-channel",
       "@type": "kto:Feature",
       "skos:prefLabel": "Omni-Channel",
