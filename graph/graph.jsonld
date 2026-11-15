@@ -2614,6 +2614,106 @@
       ]
     },
     {
+      "@id": "kt:user-acceptance-testing",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "User Acceptance Testing",
+      "skos:definition": "The final test phase before a Salesforce change goes live, in which business users and subject matter experts run real-world scenarios in a sandbox and formally accept or reject the delivery, producing the written sign-off that acts as the go/no-go gate for production.",
+      "kto:domain": "architecture-practice",
+      "dcterms:created": "2026-11-15",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Learn About User Acceptance Testing",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/user-acceptance-testing-video/learn-about-user-acceptance-testing",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Explore User Acceptance (Salesforce Business Analyst Certification Prep)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/salesforce-business-analyst-certification-prep/explore-user-acceptance",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Test New Features Before a Release",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/advanced-salesforce-release-readiness-strategies/test-new-features-before-a-release",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Ask an Architect: UAT Strategies for Large Data Volume Scenarios",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/blog/ask-an-architect-uat-strategies-for-large-data-volume-scenarios/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Secure Testing (sandboxes for building and testing AI)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/blog/secure-testing/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Sandboxes: Staging Environments for Customizing and Testing",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://resources.docs.salesforce.com/latest/latest/en-us/sfdc/pdf/deploy_sandboxes.pdf",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/architecture-practice/user-acceptance-testing.md",
+      "skos:altLabel": [
+        "UAT",
+        "Salesforce UAT",
+        "acceptance testing",
+        "business acceptance testing"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:testing-strategy"
+        },
+        {
+          "@id": "kt:application-lifecycle-management"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:requirements-gathering"
+        },
+        {
+          "@id": "kt:environment-strategy"
+        },
+        {
+          "@id": "kt:release-management"
+        },
+        {
+          "@id": "kt:change-management-and-adoption"
+        },
+        {
+          "@id": "kt:large-data-volumes"
+        }
+      ],
+      "kto:usedBy": [
+        {
+          "@id": "kt:business-analyst"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:sandbox-types"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:apex-testing"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:business-analyst-certification"
+        }
+      ]
+    },
+    {
       "@id": "kt:well-architected-framework",
       "@type": "kto:Concept",
       "skos:prefLabel": "Salesforce Well-Architected Framework",

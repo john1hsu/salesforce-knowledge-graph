@@ -8,9 +8,10 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:heroku-connect` | `kt:heroku`, `kt:heroku-applink` |
 | `kt:tableau-next` | `kt:digital-wallet`, `kt:tableau` |
 | `kt:flow-limits` | `kt:flow-bulkification`, `kt:flow-versioning` |
-| `kt:customer-360` | `kt:commerce-cloud`, `kt:slack-platform` |
 | `kt:requirements-engineering` | `kt:non-functional-requirements`, `kt:requirements-gathering` |
+| `kt:customer-360` | `kt:commerce-cloud`, `kt:slack-platform` |
 | `kt:unstructured-data-in-data-cloud` | `kt:agentforce-data-library`, `kt:vector-search-in-data-cloud` |
+| `kt:business-analyst` | `kt:requirements-gathering`, `kt:user-acceptance-testing` |
 | `kt:salesforce-ecosystem-roles` | `kt:salesforce-architect` |
 | `kt:lightning-service-console` | `kt:service-cloud` |
 | `kt:service-setup-assistant` | `kt:service-cloud` |
@@ -114,56 +115,56 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:static-resources` | `kt:cross-site-scripting` |
 | `kt:fhir` | `kt:health-cloud` |
 | `kt:utilization-management` | `kt:health-cloud` |
+| `kt:security-center` | `kt:continuous-monitoring` |
 | `kt:block-kit` | `kt:slack-platform` |
 | `kt:mulesoft-composer` | `kt:slack-platform` |
-| `kt:security-center` | `kt:continuous-monitoring` |
 | `kt:slack-api-rate-limits` | `kt:slack-platform` |
 | `kt:slack-workflow-builder` | `kt:slack-platform` |
-| `kt:security-stripinaccessible` | `kt:apex-user-mode` |
-| `kt:with-security-enforced` | `kt:apex-user-mode` |
 | `kt:multiple-currencies` | `kt:price-books` |
 | `kt:opportunity-products` | `kt:price-books` |
+| `kt:security-stripinaccessible` | `kt:apex-user-mode` |
+| `kt:with-security-enforced` | `kt:apex-user-mode` |
 | `kt:iso-iec-25010` | `kt:non-functional-requirements` |
 | `kt:holidays` | `kt:business-hours` |
 | `kt:custom-permissions` | `kt:validation-rules` |
-| `kt:data-cloud-query-api` | `kt:data-graphs` |
+| `kt:in-app-guidance` | `kt:change-management-and-adoption` |
 | `kt:cap-theorem` | `kt:distributed-computing` |
 | `kt:computer-science` | `kt:distributed-computing` |
+| `kt:data-cloud-query-api` | `kt:data-graphs` |
 | `kt:platform-cache-partitions` | `kt:platform-cache` |
 | `kt:model-context-protocol` | `kt:model-context-protocol-in-agentforce` |
 | `kt:salesforce-hosted-mcp-servers` | `kt:model-context-protocol-in-agentforce` |
-| `kt:in-app-guidance` | `kt:change-management-and-adoption` |
 | `kt:data-cloud-code-extension` | `kt:vector-search-in-data-cloud` |
+| `kt:business-process-mapping` | `kt:requirements-gathering` |
+| `kt:user-stories` | `kt:requirements-gathering` |
 | `kt:models-api` | `kt:ai-models` |
 | `kt:ldap` | `kt:delegated-authentication` |
 | `kt:username-password-flow` | `kt:client-credentials-flow` |
 | `kt:agentforce-nonprofit-consultant-certification` | `kt:agentforce-nonprofit` |
 | `kt:nonprofit-success-pack` | `kt:agentforce-nonprofit` |
-| `kt:business-analyst` | `kt:requirements-gathering` |
-| `kt:business-process-mapping` | `kt:requirements-gathering` |
-| `kt:user-stories` | `kt:requirements-gathering` |
 | `kt:apex-defined-types` | `kt:transform-element` |
 | `kt:flow-loop-element` | `kt:transform-element` |
 | `kt:b2b-commerce` | `kt:commerce-cloud` |
 | `kt:b2c-commerce` | `kt:commerce-cloud` |
 | `kt:salesforce-order-management` | `kt:commerce-cloud` |
 | `kt:api-access-control` | `kt:device-flow` |
-| `kt:b2c-commerce-architect-certification` | `kt:b2c-solution-architect-certification` |
-| `kt:business-architecture` | `kt:capability-maps` |
 | `kt:digital-accessibility` | `kt:section-508-accessibility` |
 | `kt:einstein-prediction-builder` | `kt:einstein-next-best-action` |
 | `kt:email-templates` | `kt:email-alerts` |
 | `kt:greenhouse-gas-protocol` | `kt:net-zero-cloud` |
-| `kt:heroku-fir` | `kt:heroku-architect-certification` |
 | `kt:instance-refresh-and-org-migration` | `kt:trust-and-status-site` |
 | `kt:notes-and-attachments` | `kt:content-document-model` |
 | `kt:organization-wide-email-addresses` | `kt:email-alerts` |
-| `kt:proof-of-concept` | `kt:total-cost-of-ownership` |
 | `kt:shared-activities` | `kt:activity-data-model` |
-| `kt:technology-roadmaps` | `kt:capability-maps` |
-| `kt:twelve-factor-app` | `kt:heroku-architect-certification` |
 | `kt:tx-ramp` | `kt:govramp` |
 | `kt:ui-api` | `kt:field-dependencies` |
-| `kt:value-streams` | `kt:capability-maps` |
 | `kt:wcag` | `kt:section-508-accessibility` |
 | `kt:web-server-flow` | `kt:device-flow` |
+| `kt:b2c-commerce-architect-certification` | `kt:b2c-solution-architect-certification` |
+| `kt:business-analyst-certification` | `kt:user-acceptance-testing` |
+| `kt:business-architecture` | `kt:capability-maps` |
+| `kt:heroku-fir` | `kt:heroku-architect-certification` |
+| `kt:proof-of-concept` | `kt:total-cost-of-ownership` |
+| `kt:technology-roadmaps` | `kt:capability-maps` |
+| `kt:twelve-factor-app` | `kt:heroku-architect-certification` |
+| `kt:value-streams` | `kt:capability-maps` |
