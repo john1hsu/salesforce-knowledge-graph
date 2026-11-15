@@ -27725,6 +27725,105 @@
       ]
     },
     {
+      "@id": "kt:data-classification",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Data Classification",
+      "skos:definition": "The practice of labelling data by sensitivity and applicable regulation, and the built-in Salesforce field metadata (Data Owner, Field Usage, Data Sensitivity Level, Compliance Categorization) that records those labels on every field so that access, encryption, monitoring and compliance decisions can be driven from one inventory.",
+      "kto:domain": "public-sector-and-compliance",
+      "dcterms:created": "2026-11-15",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Data Classification Metadata Fields",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=platform.data_classification_metadata_fields.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Set Up Data Classification Metadata",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=sf.data_classification_set_up.htm&amp=&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "FieldDefinition — Tooling API Developer Guide",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api_tooling.meta/api_tooling/tooling_api_objects_fielddefinition.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Design Your Governance Strategy (Data 360 Data Governance Strategies)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/data-cloud-data-governance-strategies/design-your-governance-strategy",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "ITL Bulletin March 2004: Federal Information Processing Standard (FIPS) 199",
+          "dcterms:publisher": "NIST Computer Security Resource Center",
+          "schema:url": "https://csrc.nist.gov/files/pubs/shared/itlb/itlbul2004-03.pdf",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "Guide to Data Classification: Types and Examples",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/platform/data-security/data-classification/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Know Your Metadata (Data Reliability and Risk Factors for AI)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/data-reliability-risk-factors-for-ai/know-your-metadata",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/public-sector-and-compliance/data-classification.md",
+      "skos:altLabel": [
+        "data classification metadata",
+        "field data classification",
+        "Data Sensitivity Level",
+        "Compliance Categorization",
+        "Data Classification Settings"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:data-governance"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:nist-sp-800-60"
+        },
+        {
+          "@id": "kt:fips-199"
+        },
+        {
+          "@id": "kt:salesforce-shield"
+        },
+        {
+          "@id": "kt:field-level-security"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:metadata-api"
+        }
+      ],
+      "kto:queriedWith": [
+        {
+          "@id": "kt:tooling-api"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:data-detect"
+        },
+        {
+          "@id": "kt:data-cloud"
+        }
+      ]
+    },
+    {
       "@id": "kt:data-residency",
       "@type": "kto:Concept",
       "skos:prefLabel": "Data Residency",

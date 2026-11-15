@@ -2324,6 +2324,35 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-breach-risk> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "security-and-sharing" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-breach-risk> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-breach-risk> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-classification> <http://purl.org/dc/terms/created> "2026-11-15" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-classification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-classification> <http://www.w3.org/2000/01/rdf-schema#label> "Data Classification" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-classification> <http://www.w3.org/2004/02/skos/core#altLabel> "Compliance Categorization" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-classification> <http://www.w3.org/2004/02/skos/core#altLabel> "Data Classification Settings" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-classification> <http://www.w3.org/2004/02/skos/core#altLabel> "Data Sensitivity Level" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-classification> <http://www.w3.org/2004/02/skos/core#altLabel> "data classification metadata" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-classification> <http://www.w3.org/2004/02/skos/core#altLabel> "field data classification" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-classification> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-governance> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-classification> <http://www.w3.org/2004/02/skos/core#definition> "The practice of labelling data by sensitivity and applicable regulation, and the built-in Salesforce field metadata (Data Owner, Field Usage, Data Sensitivity Level, Compliance Categorization) that records those labels on every field so that access, encryption, monitoring and compliance decisions can be driven from one inventory." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-classification> <http://www.w3.org/2004/02/skos/core#prefLabel> "Data Classification" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-classification> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/field-level-security> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-classification> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/fips-199> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-classification> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-60> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-classification> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-shield> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-classification> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-classification/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-classification> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-classification/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-classification> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-classification/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-classification> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-classification/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-classification> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-classification/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-classification> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-classification/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-classification> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-classification/s7> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-classification> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-classification> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "public-sector-and-compliance" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-classification> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-classification> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-detect> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-classification> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/tooling-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-classification> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-classification> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud-consultant-certification> <http://purl.org/dc/terms/created> "2026-11-03" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud-consultant-certification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Certification> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud-consultant-certification> <http://www.w3.org/2000/01/rdf-schema#label> "Data 360 Consultant Certification" .
@@ -11503,6 +11532,41 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-breach-risk/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-breach-risk/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-breach-risk/s5> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/security_basics/security_basics_healthcheck" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-classification/s1> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-classification/s1> <http://purl.org/dc/terms/title> "Data Classification Metadata Fields" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-classification/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-classification/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-classification/s1> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=platform.data_classification_metadata_fields.htm&language=en_US&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-classification/s2> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-classification/s2> <http://purl.org/dc/terms/title> "Set Up Data Classification Metadata" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-classification/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-classification/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-classification/s2> <https://schema.org/url> "https://help.salesforce.com/s/articleView?language=en_US&id=sf.data_classification_set_up.htm&amp=&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-classification/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-classification/s3> <http://purl.org/dc/terms/title> "FieldDefinition — Tooling API Developer Guide" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-classification/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-classification/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-classification/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.api_tooling.meta/api_tooling/tooling_api_objects_fielddefinition.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-classification/s4> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-classification/s4> <http://purl.org/dc/terms/title> "Design Your Governance Strategy (Data 360 Data Governance Strategies)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-classification/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-classification/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-classification/s4> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/data-cloud-data-governance-strategies/design-your-governance-strategy" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-classification/s5> <http://purl.org/dc/terms/publisher> "NIST Computer Security Resource Center" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-classification/s5> <http://purl.org/dc/terms/title> "ITL Bulletin March 2004: Federal Information Processing Standard (FIPS) 199" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-classification/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-classification/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "standards-body" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-classification/s5> <https://schema.org/url> "https://csrc.nist.gov/files/pubs/shared/itlb/itlbul2004-03.pdf" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-classification/s6> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-classification/s6> <http://purl.org/dc/terms/title> "Guide to Data Classification: Types and Examples" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-classification/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-classification/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-classification/s6> <https://schema.org/url> "https://www.salesforce.com/platform/data-security/data-classification/" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-classification/s7> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-classification/s7> <http://purl.org/dc/terms/title> "Know Your Metadata (Data Reliability and Risk Factors for AI)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-classification/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-classification/s7> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-classification/s7> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/data-reliability-risk-factors-for-ai/know-your-metadata" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud-consultant-certification/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud-consultant-certification/s1> <http://purl.org/dc/terms/title> "Data Certification - Salesforce Certified Data 360 Consultant" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud-consultant-certification/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
