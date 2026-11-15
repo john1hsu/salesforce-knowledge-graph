@@ -2531,6 +2531,89 @@
       ]
     },
     {
+      "@id": "kt:total-cost-of-ownership",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Total Cost of Ownership",
+      "skos:definition": "The full direct and indirect cost of acquiring, implementing, running and changing a Salesforce solution over its life — licenses and add-ons, third-party apps, implementation, staff, training and the maintenance burden of customization — used by architects to compare options rather than looking only at purchase price.",
+      "kto:domain": "architecture-practice",
+      "dcterms:created": "2026-11-15",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Understand Total Cost of Ownership (Nonprofit Cloud Readiness)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/nonprofit-cloud-readiness/understand-total-cost-of-ownership",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Understand How Licenses Work (Salesforce Licensing)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/salesforce-licensing/understand-how-licenses-work",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Simple (Well-Architected: Easy)",
+          "dcterms:publisher": "Salesforce Architects",
+          "schema:url": "https://architect.salesforce.com/well-architected/easy/simple",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Ecommerce Total Cost of Ownership (TCO)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/ap/commerce/ecommerce-tco-total-cost-of-ownership/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Total Cost of Ownership in the Services Sector: A Case Study",
+          "dcterms:publisher": "Journal of Supply Chain Management (Hurkens, van der Valk, Wynstra)",
+          "schema:url": "https://repub.eur.nl/pub/57069/57069.pdf",
+          "kto:sourceType": "peer-reviewed"
+        }
+      ],
+      "kto:file": "articles/architecture-practice/total-cost-of-ownership.md",
+      "skos:altLabel": [
+        "TCO",
+        "total cost of ownership (TCO)",
+        "lifetime cost of a Salesforce solution"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:solution-design-tradeoffs"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:build-vs-buy-decisions"
+        },
+        {
+          "@id": "kt:technical-debt-in-salesforce"
+        },
+        {
+          "@id": "kt:user-licenses"
+        },
+        {
+          "@id": "kt:permission-set-licenses"
+        },
+        {
+          "@id": "kt:agentexchange"
+        },
+        {
+          "@id": "kt:proof-of-concept"
+        }
+      ],
+      "kto:usedBy": [
+        {
+          "@id": "kt:salesforce-architect"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:well-architected-framework"
+        }
+      ]
+    },
+    {
       "@id": "kt:well-architected-framework",
       "@type": "kto:Concept",
       "skos:prefLabel": "Salesforce Well-Architected Framework",
