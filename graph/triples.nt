@@ -2754,6 +2754,39 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-streams> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/ingestion-api> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-streams> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-streams> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-transforms> <http://purl.org/dc/terms/created> "2026-11-15" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-transforms> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-transforms> <http://www.w3.org/2000/01/rdf-schema#label> "Data Transforms" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-transforms> <http://www.w3.org/2004/02/skos/core#altLabel> "Data 360 data transforms" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-transforms> <http://www.w3.org/2004/02/skos/core#altLabel> "Data Cloud data transforms" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-transforms> <http://www.w3.org/2004/02/skos/core#altLabel> "batch data transform" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-transforms> <http://www.w3.org/2004/02/skos/core#altLabel> "batch data transforms" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-transforms> <http://www.w3.org/2004/02/skos/core#altLabel> "data transform" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-transforms> <http://www.w3.org/2004/02/skos/core#altLabel> "streaming data transform" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-transforms> <http://www.w3.org/2004/02/skos/core#altLabel> "streaming data transforms" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-transforms> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-transforms> <http://www.w3.org/2004/02/skos/core#definition> "Data 360 (formerly Data Cloud) jobs that clean, reshape, join and aggregate data lake objects or data model objects into new target objects, either as scheduled, visually built batch transforms or as continuously running, SQL-defined streaming transforms." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-transforms> <http://www.w3.org/2004/02/skos/core#prefLabel> "Data Transforms" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-transforms> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/calculated-insights> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-transforms> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-model-objects> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-transforms> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-streams> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-transforms> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/transform-element> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-transforms> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-transforms/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-transforms> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-transforms/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-transforms> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-transforms/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-transforms> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-transforms/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-transforms> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-transforms/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-transforms> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-transforms/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-transforms> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-transforms/s7> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-transforms> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-transforms/s8> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-transforms> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#coveredBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud-consultant-certification> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-transforms> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-lake-objects> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-transforms> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "data-cloud-and-ai" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-transforms> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#enables> <https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-resolution> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-transforms> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#governedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud-limits> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-transforms> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/ai-models> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-transforms> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-transforms> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-virtualization> <http://purl.org/dc/terms/created> "2026-11-05" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-virtualization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Pattern> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-virtualization> <http://www.w3.org/2000/01/rdf-schema#label> "Data Virtualization" .
@@ -11795,6 +11828,46 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-streams/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-streams/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-streams/s5> <https://schema.org/url> "https://developer.salesforce.com/docs/data/data-cloud-int/references/data-cloud-ingestionapi-ref/c360-a-api-insert-records.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-transforms/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-transforms/s1> <http://purl.org/dc/terms/title> "Get Started with Batch Data Transforms in Data 360" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-transforms/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-transforms/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-transforms/s1> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/batch-data-transforms-in-data-cloud-quick-look/get-started-with-batch-data-transforms-in-data-360" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-transforms/s2> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-transforms/s2> <http://purl.org/dc/terms/title> "Get Started with Streaming Data Transforms in Data Cloud" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-transforms/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-transforms/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-transforms/s2> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/streaming-data-transforms-quick-look/get-started-with-streaming-data-transforms-in-data-cloud" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-transforms/s3> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-transforms/s3> <http://purl.org/dc/terms/title> "Streaming Data Transforms" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-transforms/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-transforms/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-transforms/s3> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=data.c360_a_streaming_transform_overview.htm&language=en_US&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-transforms/s4> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-transforms/s4> <http://purl.org/dc/terms/title> "Create a Batch Data Transform" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-transforms/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-transforms/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-transforms/s4> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=sf.c360_a_batch_transform_create.htm&language=en_US&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-transforms/s5> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-transforms/s5> <http://purl.org/dc/terms/title> "Batch Data Transforms Limitations" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-transforms/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-transforms/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-transforms/s5> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=sf.c360_a_batch_transform_limitations.htm&language=en_US&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-transforms/s6> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-transforms/s6> <http://purl.org/dc/terms/title> "Data 360 Limits and Guidelines" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-transforms/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-transforms/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-transforms/s6> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=sf.c360_a_limits_and_guidelines.htm&type=5&language=en_US" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-transforms/s7> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-transforms/s7> <http://purl.org/dc/terms/title> "Explore Data Ingestion and Modeling (Data Cloud Consultant Certification Prep)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-transforms/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-transforms/s7> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-transforms/s7> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/cert-prep-data-cloud-consultant/explore-data-ingestion-and-modeling" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-transforms/s8> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-transforms/s8> <http://purl.org/dc/terms/title> "Connect and Transform Data for Enhanced Insights" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-transforms/s8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-transforms/s8> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-transforms/s8> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/data-cloud-connect-and-unify/connect-and-transform-data" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-virtualization/s1> <http://purl.org/dc/terms/publisher> "Salesforce Architects" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-virtualization/s1> <http://purl.org/dc/terms/title> "Data Virtualization — Salesforce Architects" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-virtualization/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

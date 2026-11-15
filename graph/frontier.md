@@ -50,6 +50,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:data-stewardship` | `kt:data-governance` |
 | `kt:platform-administrator-ii-certification` | `kt:platform-administrator-certification` |
 | `kt:zero-trust-architecture` | `kt:principle-of-least-privilege` |
+| `kt:data-cloud-activation` | `kt:data-cloud-segmentation` |
 | `kt:entitlement-process-metadata` | `kt:entitlement-management` |
 | `kt:dispatcher-console` | `kt:field-service` |
 | `kt:field-service-mobile-app` | `kt:field-service` |
@@ -58,7 +59,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:work-orders` | `kt:field-service` |
 | `kt:hitrust-csf` | `kt:nist-cybersecurity-framework` |
 | `kt:heroku-connect` | `kt:heroku` |
-| `kt:data-cloud-activation` | `kt:data-cloud-segmentation` |
 | `kt:certificate-and-key-management` | `kt:custom-domains` |
 | `kt:salesforce-sites` | `kt:custom-domains` |
 | `kt:iso-iec-27002` | `kt:iso-iec-27001` |
@@ -82,14 +82,14 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:path` | `kt:business-processes` |
 | `kt:object-manager` | `kt:schema-builder` |
 | `kt:salesforce-ecosystem` | `kt:salesforce-inc` |
-| `kt:constraint-modeling-language` | `kt:product-configurator` |
 | `kt:einstein-discovery` | `kt:crm-analytics` |
-| `kt:product-catalog-management` | `kt:product-configurator` |
 | `kt:saql` | `kt:crm-analytics` |
+| `kt:constraint-modeling-language` | `kt:product-configurator` |
+| `kt:product-catalog-management` | `kt:product-configurator` |
 | `kt:salesforce-lightning-design-system` | `kt:visualforce` |
-| `kt:it-governance` | `kt:salesforce-governance` |
 | `kt:opportunity-teams` | `kt:opportunity-splits` |
 | `kt:revenue-intelligence` | `kt:collaborative-forecasts` |
+| `kt:it-governance` | `kt:salesforce-governance` |
 | `kt:security-governance` | `kt:salesforce-governance` |
 | `kt:mutual-tls-authentication` | `kt:login-ip-ranges-and-trusted-ip-ranges` |
 | `kt:mulesoft-platform-integration-architect-certification` | `kt:mulesoft-platform-architect-certification` |
@@ -97,6 +97,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:corporate-governance` | `kt:governance-risk-and-compliance` |
 | `kt:application-network` | `kt:api-led-connectivity` |
 | `kt:point-to-point-integration` | `kt:api-led-connectivity` |
+| `kt:ingestion-api` | `kt:data-streams` |
 | `kt:dynamic-actions` | `kt:dynamic-forms` |
 | `kt:dynamic-highlights-panel` | `kt:dynamic-forms` |
 | `kt:backup-and-recover-next` | `kt:backup-and-recover` |
@@ -110,7 +111,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:salesforce-marketing-solutions` | `kt:marketing-cloud-engagement` |
 | `kt:apexguru` | `kt:scale-test` |
 | `kt:scale-center` | `kt:scale-test` |
-| `kt:ingestion-api` | `kt:data-streams` |
 | `kt:actionable-relationship-center` | `kt:financial-services-cloud` |
 | `kt:compliant-data-sharing` | `kt:financial-services-cloud` |
 | `kt:security-health-check` | `kt:session-settings` |
@@ -138,6 +138,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:data-cloud-code-extension` | `kt:vector-search-in-data-cloud` |
 | `kt:data-cloud-query-api` | `kt:data-graphs` |
 | `kt:data-kits` | `kt:data-graphs` |
+| `kt:models-api` | `kt:ai-models` |
 | `kt:ldap` | `kt:delegated-authentication` |
 | `kt:platform-cache-partitions` | `kt:platform-cache` |
 | `kt:agentforce-nonprofit-consultant-certification` | `kt:agentforce-nonprofit` |
@@ -145,7 +146,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:business-process-mapping` | `kt:requirements-gathering` |
 | `kt:nonprofit-success-pack` | `kt:agentforce-nonprofit` |
 | `kt:user-stories` | `kt:requirements-gathering` |
-| `kt:models-api` | `kt:ai-models` |
 | `kt:b2b-commerce` | `kt:commerce-cloud` |
 | `kt:b2c-commerce` | `kt:commerce-cloud` |
 | `kt:salesforce-order-management` | `kt:commerce-cloud` |
@@ -164,5 +164,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:heroku-fir` | `kt:heroku-architect-certification` |
 | `kt:organization-wide-email-addresses` | `kt:email-alerts` |
 | `kt:technology-roadmaps` | `kt:capability-maps` |
+| `kt:transform-element` | `kt:data-transforms` |
 | `kt:twelve-factor-app` | `kt:heroku-architect-certification` |
 | `kt:value-streams` | `kt:capability-maps` |
