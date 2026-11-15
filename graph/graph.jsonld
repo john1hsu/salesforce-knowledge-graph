@@ -5368,6 +5368,91 @@
       ]
     },
     {
+      "@id": "kt:transform-element",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Transform Element",
+      "skos:definition": "A Flow Builder element that maps data from one or more source resources into a new target resource in a single step: it can reshape records, extract field values into a simple collection, sum or count a collection, and join two collections on a shared key, often replacing Loop and Assignment patterns.",
+      "kto:domain": "automation",
+      "dcterms:created": "2026-11-15",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Transform Multiple Records in Flow Builder (Multirecord Elements and Transforms in Flows)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/multirecord-elements-and-transforms-in-flows/transform-multiple-records",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Transform Data From One Form to Another (Multirecord Elements and Transforms in Flows)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/multirecord-elements-and-transforms-in-flows/transform-data-from-one-form-to-another",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Sum or Count Items in Collections with the Transform Element",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=sf.flow_build_logic_transform_sum_or_count.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "How to Join Collections Using the Transform Element in Salesforce Flow",
+          "dcterms:publisher": "Salesforce Time (Yumi Ibrahimzade)",
+          "schema:url": "https://salesforcetime.com/2026/07/26/how-to-join-collections-using-the-transform-element-in-salesforce-flow/",
+          "kto:sourceType": "community"
+        },
+        {
+          "dcterms:title": "The Transform Element in Salesforce Flow: Simplifying Data Mapping",
+          "dcterms:publisher": "Salesforce Ben",
+          "schema:url": "https://www.salesforceben.com/the-transform-element-in-salesforce-flow-simplifying-data-mapping/",
+          "kto:sourceType": "partner"
+        }
+      ],
+      "kto:file": "articles/automation/transform-element.md",
+      "skos:altLabel": [
+        "Flow Transform element",
+        "Transform element in Flow",
+        "Flow Builder Transform"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:flow-builder"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:flow-bulkification"
+        },
+        {
+          "@id": "kt:screen-flow"
+        },
+        {
+          "@id": "kt:flow-http-callout"
+        },
+        {
+          "@id": "kt:autolaunched-flow"
+        },
+        {
+          "@id": "kt:data-transforms"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:flow-loop-element"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:governor-limits"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:apex-defined-types"
+        }
+      ]
+    },
+    {
       "@id": "kt:workflow-rules",
       "@type": "kto:Feature",
       "skos:prefLabel": "Workflow Rules",
