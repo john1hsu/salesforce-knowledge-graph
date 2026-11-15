@@ -10,7 +10,7 @@ summary: >-
 release: "Winter '27"
 status: current
 broader: [kt:application-lifecycle-management]
-related: [kt:devops-center, kt:change-sets, kt:sandbox-types]
+related: [kt:devops-center, kt:change-sets, kt:sandbox-types, kt:salesforce-extensions-for-vs-code]
 relations:
   - {predicate: hasPart, object: kt:salesforce-cli}
   - {predicate: hasPart, object: kt:scratch-orgs}

@@ -58,6 +58,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:salesforce-sites` | `kt:custom-domains` |
 | `kt:apex-mocks` | `kt:apex-enterprise-patterns` |
 | `kt:iso-iec-27002` | `kt:iso-iec-27001` |
+| `kt:agentforce-vibes-ide` | `kt:salesforce-extensions-for-vs-code` |
 | `kt:omnistudio-consultant-certification` | `kt:omnistudio` |
 | `kt:omnistudio-developer-certification` | `kt:omnistudio` |
 | `kt:salesforce-lightning-design-system` | `kt:visualforce` |
@@ -95,6 +96,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:dynamic-highlights-panel` | `kt:dynamic-forms` |
 | `kt:backup-and-recover-next` | `kt:backup-and-recover` |
 | `kt:data-actions` | `kt:streaming-insights` |
+| `kt:apexguru` | `kt:scale-test` |
 | `kt:automation-studio` | `kt:marketing-cloud-engagement` |
 | `kt:contact-builder` | `kt:marketing-cloud-engagement` |
 | `kt:journey-builder` | `kt:marketing-cloud-engagement` |
@@ -102,7 +104,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:marketing-cloud-connect` | `kt:marketing-cloud-engagement` |
 | `kt:marketing-cloud-next` | `kt:marketing-cloud-engagement` |
 | `kt:salesforce-marketing-solutions` | `kt:marketing-cloud-engagement` |
-| `kt:apexguru` | `kt:scale-test` |
 | `kt:scale-center` | `kt:scale-test` |
 | `kt:agentexchange-go-to-market-app` | `kt:agentexchange` |
 | `kt:salesforce-licensing` | `kt:user-licenses` |
@@ -118,10 +119,10 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:mulesoft-composer` | `kt:slack-platform` |
 | `kt:slack-api-rate-limits` | `kt:slack-platform` |
 | `kt:slack-workflow-builder` | `kt:slack-platform` |
-| `kt:multiple-currencies` | `kt:price-books` |
-| `kt:opportunity-products` | `kt:price-books` |
 | `kt:security-stripinaccessible` | `kt:apex-user-mode` |
 | `kt:with-security-enforced` | `kt:apex-user-mode` |
+| `kt:multiple-currencies` | `kt:price-books` |
+| `kt:opportunity-products` | `kt:price-books` |
 | `kt:iso-iec-25010` | `kt:non-functional-requirements` |
 | `kt:holidays` | `kt:business-hours` |
 | `kt:custom-permissions` | `kt:validation-rules` |
@@ -139,9 +140,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:ldap` | `kt:delegated-authentication` |
 | `kt:username-password-flow` | `kt:client-credentials-flow` |
 | `kt:agentforce-nonprofit-consultant-certification` | `kt:agentforce-nonprofit` |
+| `kt:nonprofit-success-pack` | `kt:agentforce-nonprofit` |
 | `kt:business-analyst` | `kt:requirements-gathering` |
 | `kt:business-process-mapping` | `kt:requirements-gathering` |
-| `kt:nonprofit-success-pack` | `kt:agentforce-nonprofit` |
 | `kt:user-stories` | `kt:requirements-gathering` |
 | `kt:apex-defined-types` | `kt:transform-element` |
 | `kt:flow-loop-element` | `kt:transform-element` |
