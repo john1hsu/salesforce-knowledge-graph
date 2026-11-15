@@ -29896,6 +29896,95 @@
       ]
     },
     {
+      "@id": "kt:hitrust-csf",
+      "@type": "kto:ExternalConcept",
+      "skos:prefLabel": "HITRUST CSF",
+      "skos:definition": "HITRUST's certifiable control framework that harmonizes dozens of security and privacy standards and regulations (ISO/IEC 27001/27002, NIST SP 800-53, HIPAA, PCI DSS, GDPR and others) into one control library assessed through e1, i1 and r2 assessments; Salesforce holds HITRUST certificates for several services and participates in the HITRUST Shared Responsibility and Inheritance Program.",
+      "kto:domain": "public-sector-and-compliance",
+      "dcterms:created": "2026-11-15",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "HITRUST Framework",
+          "dcterms:publisher": "HITRUST Alliance",
+          "schema:url": "https://hitrustalliance.net/hitrust-framework",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "Introduction to the HITRUST CSF, Version 11.8.0",
+          "dcterms:publisher": "HITRUST Alliance",
+          "schema:url": "https://hitrustalliance.net/hubfs/CSF%20v11.8/Introduction%20to%20HITRUST%20CSF%20v11.8.0.pdf",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "Shared Responsibility and Inheritance Program",
+          "dcterms:publisher": "HITRUST Alliance",
+          "schema:url": "https://hitrustalliance.net/shared-responsibility-and-inheritance-program",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "HITRUST — Salesforce Compliance (category listing)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://compliance.salesforce.com/en/categories/hitrust",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "HITRUST Certificate - Corporate + Salesforce Services (1P & SSoH AWS)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://compliance.salesforce.com/en/documents/a005A00000k4ayfQAA",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Salesforce is now part of the HITRUST Shared Responsibility and Inheritance program",
+          "dcterms:publisher": "Salesforce Security",
+          "schema:url": "https://security.salesforce.com/blog/hitrust-shared-responsibility-and-inheritance-program",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "HITRUST CSF Assessments: e1, i1, r2—What's the Difference?",
+          "dcterms:publisher": "Cloud Security Alliance (republished from BARR Advisory)",
+          "schema:url": "https://cloudsecurityalliance.org/articles/hitrust-csf-assessments-e1-i1-r2-what-s-the-difference",
+          "kto:sourceType": "partner"
+        }
+      ],
+      "kto:file": "articles/public-sector-and-compliance/hitrust-csf.md",
+      "skos:altLabel": [
+        "HITRUST Common Security Framework",
+        "HITRUST certification",
+        "HITRUST r2",
+        "HITRUST i1",
+        "HITRUST e1"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:security-compliance-frameworks"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:hipaa"
+        },
+        {
+          "@id": "kt:nist-cybersecurity-framework"
+        },
+        {
+          "@id": "kt:iso-iec-27001"
+        },
+        {
+          "@id": "kt:shared-responsibility-model"
+        },
+        {
+          "@id": "kt:hyperforce"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:soc-2"
+        }
+      ]
+    },
+    {
       "@id": "kt:il4-and-il5",
       "@type": "kto:ExternalConcept",
       "skos:prefLabel": "DoD Impact Levels 4 and 5",

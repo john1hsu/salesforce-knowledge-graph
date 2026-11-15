@@ -4759,6 +4759,33 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/hipaa> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#mitigates> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-breach-risk> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/hipaa> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/hipaa> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hitrust-csf> <http://purl.org/dc/terms/created> "2026-11-15" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hitrust-csf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#ExternalConcept> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hitrust-csf> <http://www.w3.org/2000/01/rdf-schema#label> "HITRUST CSF" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hitrust-csf> <http://www.w3.org/2004/02/skos/core#altLabel> "HITRUST Common Security Framework" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hitrust-csf> <http://www.w3.org/2004/02/skos/core#altLabel> "HITRUST certification" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hitrust-csf> <http://www.w3.org/2004/02/skos/core#altLabel> "HITRUST e1" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hitrust-csf> <http://www.w3.org/2004/02/skos/core#altLabel> "HITRUST i1" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hitrust-csf> <http://www.w3.org/2004/02/skos/core#altLabel> "HITRUST r2" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hitrust-csf> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/security-compliance-frameworks> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hitrust-csf> <http://www.w3.org/2004/02/skos/core#definition> "HITRUST's certifiable control framework that harmonizes dozens of security and privacy standards and regulations (ISO/IEC 27001/27002, NIST SP 800-53, HIPAA, PCI DSS, GDPR and others) into one control library assessed through e1, i1 and r2 assessments; Salesforce holds HITRUST certificates for several services and participates in the HITRUST Shared Responsibility and Inheritance Program." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hitrust-csf> <http://www.w3.org/2004/02/skos/core#prefLabel> "HITRUST CSF" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hitrust-csf> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/hipaa> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hitrust-csf> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/hyperforce> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hitrust-csf> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/iso-iec-27001> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hitrust-csf> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-cybersecurity-framework> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hitrust-csf> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/shared-responsibility-model> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hitrust-csf> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hitrust-csf/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hitrust-csf> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hitrust-csf/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hitrust-csf> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hitrust-csf/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hitrust-csf> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hitrust-csf/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hitrust-csf> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hitrust-csf/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hitrust-csf> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hitrust-csf/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hitrust-csf> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hitrust-csf/s7> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hitrust-csf> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#contrastsWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/soc-2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hitrust-csf> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "public-sector-and-compliance" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hitrust-csf> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hitrust-csf> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/hyperforce-operating-zones> <http://purl.org/dc/terms/created> "2026-11-12" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/hyperforce-operating-zones> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Product> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/hyperforce-operating-zones> <http://www.w3.org/2000/01/rdf-schema#label> "Hyperforce Operating Zones" .
@@ -14242,6 +14269,41 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hipaa/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hipaa/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hipaa/s5> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.health_cloud.meta/null/admin_salesforce_shield.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hitrust-csf/s1> <http://purl.org/dc/terms/publisher> "HITRUST Alliance" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hitrust-csf/s1> <http://purl.org/dc/terms/title> "HITRUST Framework" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hitrust-csf/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hitrust-csf/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "standards-body" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hitrust-csf/s1> <https://schema.org/url> "https://hitrustalliance.net/hitrust-framework" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hitrust-csf/s2> <http://purl.org/dc/terms/publisher> "HITRUST Alliance" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hitrust-csf/s2> <http://purl.org/dc/terms/title> "Introduction to the HITRUST CSF, Version 11.8.0" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hitrust-csf/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hitrust-csf/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "standards-body" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hitrust-csf/s2> <https://schema.org/url> "https://hitrustalliance.net/hubfs/CSF%20v11.8/Introduction%20to%20HITRUST%20CSF%20v11.8.0.pdf" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hitrust-csf/s3> <http://purl.org/dc/terms/publisher> "HITRUST Alliance" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hitrust-csf/s3> <http://purl.org/dc/terms/title> "Shared Responsibility and Inheritance Program" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hitrust-csf/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hitrust-csf/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "standards-body" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hitrust-csf/s3> <https://schema.org/url> "https://hitrustalliance.net/shared-responsibility-and-inheritance-program" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hitrust-csf/s4> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hitrust-csf/s4> <http://purl.org/dc/terms/title> "HITRUST — Salesforce Compliance (category listing)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hitrust-csf/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hitrust-csf/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hitrust-csf/s4> <https://schema.org/url> "https://compliance.salesforce.com/en/categories/hitrust" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hitrust-csf/s5> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hitrust-csf/s5> <http://purl.org/dc/terms/title> "HITRUST Certificate - Corporate + Salesforce Services (1P & SSoH AWS)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hitrust-csf/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hitrust-csf/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hitrust-csf/s5> <https://schema.org/url> "https://compliance.salesforce.com/en/documents/a005A00000k4ayfQAA" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hitrust-csf/s6> <http://purl.org/dc/terms/publisher> "Salesforce Security" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hitrust-csf/s6> <http://purl.org/dc/terms/title> "Salesforce is now part of the HITRUST Shared Responsibility and Inheritance program" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hitrust-csf/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hitrust-csf/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hitrust-csf/s6> <https://schema.org/url> "https://security.salesforce.com/blog/hitrust-shared-responsibility-and-inheritance-program" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hitrust-csf/s7> <http://purl.org/dc/terms/publisher> "Cloud Security Alliance (republished from BARR Advisory)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hitrust-csf/s7> <http://purl.org/dc/terms/title> "HITRUST CSF Assessments: e1, i1, r2—What's the Difference?" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hitrust-csf/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hitrust-csf/s7> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "partner" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hitrust-csf/s7> <https://schema.org/url> "https://cloudsecurityalliance.org/articles/hitrust-csf-assessments-e1-i1-r2-what-s-the-difference" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hyperforce-operating-zones/s1> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hyperforce-operating-zones/s1> <http://purl.org/dc/terms/title> "Hyperforce OZ - General Information and FAQ" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hyperforce-operating-zones/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
