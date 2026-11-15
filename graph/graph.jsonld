@@ -19467,6 +19467,103 @@
       ]
     },
     {
+      "@id": "kt:client-credentials-flow",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "OAuth 2.0 Client Credentials Flow",
+      "skos:definition": "Salesforce's implementation of the RFC 6749 client credentials grant: a back-end client exchanges an external client app's or connected app's consumer key and secret for an access token that always runs as one designated run-as (integration) user, with no browser login and no refresh token.",
+      "kto:domain": "identity",
+      "dcterms:created": "2026-11-15",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "RFC 6749: The OAuth 2.0 Authorization Framework",
+          "dcterms:publisher": "IETF",
+          "schema:url": "https://datatracker.ietf.org/doc/html/rfc6749.html",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "Using the Client Credentials Flow for Easier API Authentication",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2023/03/using-the-client-credentials-flow-for-easier-api-authentication",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Invoke REST APIs with the Salesforce Integration User and OAuth Client Credentials",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2024/02/invoke-rest-apis-with-the-salesforce-integration-user-and-oauth-client-credentials",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "ExtlClntAppOauthConfigurablePolicies (Metadata API Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_extlclntappoauthconfigurablepolicies.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Create an External Client App for the OAuth 2.0 Client Credentials Flow",
+          "dcterms:publisher": "Salesforce Developers (Loyalty Management Developer Guide)",
+          "schema:url": "https://developer.salesforce.com/docs/industries/loyalty/guide/authorization.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Connected App Basics: Integrate with an API",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/connected-app-basics/connected-app-basics-api-integration",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/identity/client-credentials-flow.md",
+      "skos:altLabel": [
+        "client credentials flow",
+        "client credentials grant",
+        "grant_type=client_credentials",
+        "run-as user flow"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:oauth-2-flows-in-salesforce"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:permission-set-licenses"
+        },
+        {
+          "@id": "kt:rest-api"
+        },
+        {
+          "@id": "kt:jwt-bearer-flow"
+        }
+      ],
+      "kto:implements": [
+        {
+          "@id": "kt:oauth-2-0"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:external-client-apps"
+        },
+        {
+          "@id": "kt:connected-apps"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:jwt-bearer-flow"
+        },
+        {
+          "@id": "kt:username-password-flow"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:permission-sets"
+        }
+      ]
+    },
+    {
       "@id": "kt:connected-apps",
       "@type": "kto:Feature",
       "skos:prefLabel": "Connected Apps",

@@ -1442,6 +1442,30 @@
     ]
   },
   {
+    "id": "kt:client-credentials-flow",
+    "title": "OAuth 2.0 Client Credentials Flow",
+    "aliases": [
+      "client credentials flow",
+      "client credentials grant",
+      "grant_type=client_credentials",
+      "run-as user flow"
+    ],
+    "type": "Feature",
+    "domain": "identity",
+    "file": "articles/identity/client-credentials-flow.md",
+    "created": "2026-11-15",
+    "release": "Winter '27",
+    "status": "current",
+    "source_urls": [
+      "https://datatracker.ietf.org/doc/html/rfc6749.html",
+      "https://developer.salesforce.com/blogs/2023/03/using-the-client-credentials-flow-for-easier-api-authentication",
+      "https://developer.salesforce.com/blogs/2024/02/invoke-rest-apis-with-the-salesforce-integration-user-and-oauth-client-credentials",
+      "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_extlclntappoauthconfigurablepolicies.htm",
+      "https://developer.salesforce.com/docs/industries/loyalty/guide/authorization.html",
+      "https://trailhead.salesforce.com/content/learn/modules/connected-app-basics/connected-app-basics-api-integration"
+    ]
+  },
+  {
     "id": "kt:cloud-computing",
     "title": "Cloud Computing",
     "aliases": [

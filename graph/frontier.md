@@ -49,8 +49,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:distributed-computing` | `kt:cloud-computing` |
 | `kt:platform-administrator-ii-certification` | `kt:platform-administrator-certification` |
 | `kt:zero-trust-architecture` | `kt:principle-of-least-privilege` |
-| `kt:data-cloud-activation` | `kt:data-cloud-segmentation` |
 | `kt:data-import-wizard` | `kt:data-loader` |
+| `kt:data-cloud-activation` | `kt:data-cloud-segmentation` |
 | `kt:entitlement-process-metadata` | `kt:entitlement-management` |
 | `kt:dispatcher-console` | `kt:field-service` |
 | `kt:field-service-mobile-app` | `kt:field-service` |
@@ -79,7 +79,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:tableau-pulse` | `kt:tableau` |
 | `kt:tableau-semantics` | `kt:tableau` |
 | `kt:path` | `kt:business-processes` |
-| `kt:client-credentials-flow` | `kt:jwt-bearer-flow` |
 | `kt:object-manager` | `kt:schema-builder` |
 | `kt:einstein-discovery` | `kt:crm-analytics` |
 | `kt:saql` | `kt:crm-analytics` |
@@ -116,9 +115,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:agentexchange-go-to-market-app` | `kt:agentexchange` |
 | `kt:secure-coding` | `kt:cross-site-scripting` |
 | `kt:static-resources` | `kt:cross-site-scripting` |
+| `kt:salesforce-licensing` | `kt:user-licenses` |
 | `kt:fhir` | `kt:health-cloud` |
 | `kt:utilization-management` | `kt:health-cloud` |
-| `kt:salesforce-licensing` | `kt:user-licenses` |
 | `kt:security-center` | `kt:continuous-monitoring` |
 | `kt:block-kit` | `kt:slack-platform` |
 | `kt:mulesoft-composer` | `kt:slack-platform` |
@@ -141,6 +140,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:data-kits` | `kt:data-graphs` |
 | `kt:models-api` | `kt:ai-models` |
 | `kt:ldap` | `kt:delegated-authentication` |
+| `kt:username-password-flow` | `kt:client-credentials-flow` |
 | `kt:platform-cache-partitions` | `kt:platform-cache` |
 | `kt:agentforce-nonprofit-consultant-certification` | `kt:agentforce-nonprofit` |
 | `kt:business-analyst` | `kt:requirements-gathering` |
