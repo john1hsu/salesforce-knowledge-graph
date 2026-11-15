@@ -11785,6 +11785,89 @@
       ]
     },
     {
+      "@id": "kt:data-loader",
+      "@type": "kto:Tool",
+      "skos:prefLabel": "Data Loader",
+      "skos:definition": "Salesforce's downloadable client application for bulk importing, updating, upserting, deleting and exporting records from CSV files, through a desktop interface or (on Windows) a scriptable command line, using SOAP API, Bulk API or Bulk API 2.0 under the hood.",
+      "kto:domain": "data-model",
+      "dcterms:created": "2026-11-15",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "When to Use Data Loader (Data Loader Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.dataLoader.meta/dataLoader/when_to_use_the_data_loader.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Configure Data Loader (Data Loader Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/data-loader-impl/guide/configuring-the-data-loader.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Considerations for Installing Data Loader (Data Loader Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/data-loader-impl/guide/installing-the-data-loader.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Data Loader Command-Line Operations and Exit Codes (Data Loader Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/data-loader-impl/guide/loader-operations.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Import Data (Data Management module)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/lex_implementation_data_management/lex_implementation_data_import",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/data-model/data-loader.md",
+      "skos:altLabel": [
+        "Salesforce Data Loader",
+        "dataloader",
+        "Data Loader CLI"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:data-integration"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:data-migration-strategy"
+        },
+        {
+          "@id": "kt:external-id-fields"
+        },
+        {
+          "@id": "kt:upsert"
+        },
+        {
+          "@id": "kt:large-data-volumes"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:soap-api"
+        },
+        {
+          "@id": "kt:bulk-api-1"
+        },
+        {
+          "@id": "kt:bulk-api-2"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:data-import-wizard"
+        }
+      ]
+    },
+    {
       "@id": "kt:data-quality",
       "@type": "kto:Concept",
       "skos:prefLabel": "Data Quality",
