@@ -20417,6 +20417,104 @@
       ]
     },
     {
+      "@id": "kt:device-flow",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "OAuth 2.0 Device Flow",
+      "skos:definition": "Salesforce's OAuth flow for input-constrained clients such as smart TVs, appliances, IoT devices and command-line tools: the client gets a device code and a short user code, the user approves on a separate browser, and the client polls the token endpoint until Salesforce issues an access token.",
+      "kto:domain": "identity",
+      "dcterms:created": "2026-11-15",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "RFC 8628: OAuth 2.0 Device Authorization Grant",
+          "dcterms:publisher": "IETF",
+          "schema:url": "https://rfc-editor.org/rfc/rfc8628",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "Configure an OAuth 2.0 Device Flow for External Client Apps",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=xcloud.meta_configure_device_flow_external_client_apps.htm&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Configure a Device Flow",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=xcloud.configure_device_flow_external_client_apps.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "device Commands (Deprecated) — Salesforce CLI Command Reference",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.248.0.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference_auth_device.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Get Ready for Changes to Connected App Usage Restrictions",
+          "dcterms:publisher": "Salesforce Admins Blog",
+          "schema:url": "https://admin.salesforce.com/blog/2025/get-ready-for-changes-to-connected-app-usage-restrictions",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Salesforce Hardens Connected Apps Security Amid Social Engineering Attacks",
+          "dcterms:publisher": "Salesforce Ben",
+          "schema:url": "https://www.salesforceben.com/salesforce-hardens-connected-apps-security-amid-social-engineering-attacks/",
+          "kto:sourceType": "news"
+        }
+      ],
+      "kto:file": "articles/identity/device-flow.md",
+      "skos:altLabel": [
+        "device flow",
+        "device authorization grant",
+        "device code flow",
+        "OAuth 2.0 Device Flow for IoT Integration",
+        "RFC 8628 device grant"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:oauth-2-flows-in-salesforce"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:account-takeover"
+        },
+        {
+          "@id": "kt:data-loader"
+        },
+        {
+          "@id": "kt:api-access-control"
+        }
+      ],
+      "kto:implements": [
+        {
+          "@id": "kt:oauth-2-0"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:external-client-apps"
+        },
+        {
+          "@id": "kt:connected-apps"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:salesforce-cli"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:web-server-flow"
+        },
+        {
+          "@id": "kt:jwt-bearer-flow"
+        }
+      ]
+    },
+    {
       "@id": "kt:experience-cloud-identity",
       "@type": "kto:Feature",
       "skos:prefLabel": "Experience Cloud Identity",

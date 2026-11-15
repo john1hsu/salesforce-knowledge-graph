@@ -44,8 +44,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:data-management` | `kt:data-governance` |
 | `kt:data-stewardship` | `kt:data-governance` |
 | `kt:platform-administrator-ii-certification` | `kt:platform-administrator-certification` |
-| `kt:zero-trust-architecture` | `kt:principle-of-least-privilege` |
 | `kt:data-import-wizard` | `kt:data-loader` |
+| `kt:zero-trust-architecture` | `kt:principle-of-least-privilege` |
 | `kt:iso-iec-27002` | `kt:iso-iec-27001` |
 | `kt:data-cloud-activation` | `kt:data-cloud-segmentation` |
 | `kt:entitlement-process-metadata` | `kt:entitlement-management` |
@@ -149,6 +149,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:b2c-commerce` | `kt:commerce-cloud` |
 | `kt:salesforce-order-management` | `kt:commerce-cloud` |
 | `kt:instance-refresh-and-org-migration` | `kt:trust-and-status-site` |
+| `kt:api-access-control` | `kt:device-flow` |
 | `kt:b2c-commerce-architect-certification` | `kt:b2c-solution-architect-certification` |
 | `kt:business-architecture` | `kt:capability-maps` |
 | `kt:digital-accessibility` | `kt:section-508-accessibility` |
@@ -166,3 +167,4 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:ui-api` | `kt:field-dependencies` |
 | `kt:value-streams` | `kt:capability-maps` |
 | `kt:wcag` | `kt:section-508-accessibility` |
+| `kt:web-server-flow` | `kt:device-flow` |
