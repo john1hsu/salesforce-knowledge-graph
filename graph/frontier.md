@@ -46,7 +46,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:custom-objects` | `kt:standard-objects` |
 | `kt:data-management` | `kt:data-governance` |
 | `kt:data-stewardship` | `kt:data-governance` |
-| `kt:distributed-computing` | `kt:cloud-computing` |
 | `kt:platform-administrator-ii-certification` | `kt:platform-administrator-certification` |
 | `kt:zero-trust-architecture` | `kt:principle-of-least-privilege` |
 | `kt:data-import-wizard` | `kt:data-loader` |
@@ -132,6 +131,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:custom-permissions` | `kt:validation-rules` |
 | `kt:soc-1` | `kt:soc-2` |
 | `kt:trust-services-criteria` | `kt:soc-2` |
+| `kt:cap-theorem` | `kt:distributed-computing` |
+| `kt:computer-science` | `kt:distributed-computing` |
+| `kt:platform-cache-partitions` | `kt:platform-cache` |
 | `kt:model-context-protocol` | `kt:model-context-protocol-in-agentforce` |
 | `kt:salesforce-hosted-mcp-servers` | `kt:model-context-protocol-in-agentforce` |
 | `kt:in-app-guidance` | `kt:change-management-and-adoption` |
@@ -141,7 +143,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:models-api` | `kt:ai-models` |
 | `kt:ldap` | `kt:delegated-authentication` |
 | `kt:username-password-flow` | `kt:client-credentials-flow` |
-| `kt:platform-cache-partitions` | `kt:platform-cache` |
 | `kt:agentforce-nonprofit-consultant-certification` | `kt:agentforce-nonprofit` |
 | `kt:business-analyst` | `kt:requirements-gathering` |
 | `kt:business-process-mapping` | `kt:requirements-gathering` |
@@ -150,13 +151,13 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:b2b-commerce` | `kt:commerce-cloud` |
 | `kt:b2c-commerce` | `kt:commerce-cloud` |
 | `kt:salesforce-order-management` | `kt:commerce-cloud` |
-| `kt:instance-refresh-and-org-migration` | `kt:trust-and-status-site` |
 | `kt:b2c-commerce-architect-certification` | `kt:b2c-solution-architect-certification` |
 | `kt:business-architecture` | `kt:capability-maps` |
 | `kt:digital-accessibility` | `kt:section-508-accessibility` |
 | `kt:einstein-prediction-builder` | `kt:einstein-next-best-action` |
 | `kt:email-templates` | `kt:email-alerts` |
 | `kt:heroku-fir` | `kt:heroku-architect-certification` |
+| `kt:instance-refresh-and-org-migration` | `kt:trust-and-status-site` |
 | `kt:notes-and-attachments` | `kt:content-document-model` |
 | `kt:organization-wide-email-addresses` | `kt:email-alerts` |
 | `kt:shared-activities` | `kt:activity-data-model` |

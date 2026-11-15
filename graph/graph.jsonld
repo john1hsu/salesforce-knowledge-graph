@@ -25507,6 +25507,80 @@
       ]
     },
     {
+      "@id": "kt:distributed-computing",
+      "@type": "kto:ExternalConcept",
+      "skos:prefLabel": "Distributed Computing",
+      "skos:definition": "The study and practice of systems made of spatially separated processes that cooperate only by exchanging messages, where message delay, partial failure and the lack of a shared clock force explicit trade-offs between consistency, availability and partition tolerance; it is the foundation that cloud platforms such as Hyperforce are built on.",
+      "kto:domain": "platform-architecture",
+      "dcterms:created": "2026-11-15",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Time, Clocks, and the Ordering of Events in a Distributed System",
+          "dcterms:publisher": "Communications of the ACM (Leslie Lamport)",
+          "schema:url": "https://amturing.acm.org/p558-lamport.pdf",
+          "kto:sourceType": "peer-reviewed"
+        },
+        {
+          "dcterms:title": "Brewer's Conjecture and the Feasibility of Consistent, Available, Partition-Tolerant Web Services",
+          "dcterms:publisher": "Seth Gilbert and Nancy Lynch, MIT Laboratory for Computer Science",
+          "schema:url": "https://www.cs.princeton.edu/courses/archive/spring22/cos418/papers/cap.pdf",
+          "kto:sourceType": "peer-reviewed"
+        },
+        {
+          "dcterms:title": "Perspectives on the CAP Theorem",
+          "dcterms:publisher": "Seth Gilbert and Nancy A. Lynch (MIT CSAIL)",
+          "schema:url": "https://groups.csail.mit.edu/tds/papers/Gilbert/Brewer2.pdf",
+          "kto:sourceType": "academic"
+        },
+        {
+          "dcterms:title": "Platform Transformation (Salesforce Architecture Fundamentals)",
+          "dcterms:publisher": "Salesforce Architects",
+          "schema:url": "https://architect.salesforce.com/fundamentals/platform-transformation",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Behind the Scenes of Hyperforce: Salesforce's Infrastructure for the Public Cloud",
+          "dcterms:publisher": "Salesforce Engineering",
+          "schema:url": "https://engineering.salesforce.com/behind-the-scenes-of-hyperforce-salesforces-infrastructure-for-the-public-cloud-429309542d8e",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/platform-architecture/distributed-computing.md",
+      "skos:altLabel": [
+        "distributed systems",
+        "distributed system"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:computer-science"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:cloud-computing"
+        },
+        {
+          "@id": "kt:hyperforce"
+        },
+        {
+          "@id": "kt:multitenancy"
+        },
+        {
+          "@id": "kt:event-driven-architecture"
+        },
+        {
+          "@id": "kt:platform-cache"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:cap-theorem"
+        }
+      ]
+    },
+    {
       "@id": "kt:governor-limits",
       "@type": "kto:Limit",
       "skos:prefLabel": "Governor Limits",
