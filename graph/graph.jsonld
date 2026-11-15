@@ -23839,6 +23839,87 @@
       ]
     },
     {
+      "@id": "kt:heroku-applink",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Heroku AppLink",
+      "skos:definition": "A Heroku add-on that publishes a Heroku app's OpenAPI-described endpoints into connected Salesforce orgs as External Services, so Apex, Flow, Agentforce and Data Cloud can invoke them while the app works on Salesforce data under a chosen user context (user, user-plus or authorized-user).",
+      "kto:domain": "integration",
+      "dcterms:created": "2026-11-15",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Heroku AppLink",
+          "dcterms:publisher": "Heroku Dev Center (Salesforce)",
+          "schema:url": "https://devcenter.heroku.com/articles/heroku-applink",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Getting Started with Heroku AppLink and Salesforce",
+          "dcterms:publisher": "Heroku Dev Center (Salesforce)",
+          "schema:url": "https://devcenter.heroku.com/articles/getting-started-heroku-applink",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Heroku AppLink User Modes",
+          "dcterms:publisher": "Heroku Dev Center (Salesforce)",
+          "schema:url": "https://devcenter.heroku.com/articles/heroku-applink-user-modes",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AppLink Architecture Overview (Heroku AppLink Integrations)",
+          "dcterms:publisher": "Trailhead (Salesforce)",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/heroku-applink-integrations/applink-architecture-overview",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "When to Use Heroku AppLink (Heroku AppLink Integrations)",
+          "dcterms:publisher": "Trailhead (Salesforce)",
+          "schema:url": "https://trailhead.salesforce.com/ko/content/learn/modules/heroku-applink-integrations/when-to-use-heroku-applink",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/integration/heroku-applink.md",
+      "skos:altLabel": [
+        "AppLink",
+        "Heroku Integration",
+        "heroku-applink add-on"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:heroku"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:heroku-connect"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:external-services"
+        },
+        {
+          "@id": "kt:external-client-apps"
+        }
+      ],
+      "kto:enables": [
+        {
+          "@id": "kt:agent-actions"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:data-cloud"
+        }
+      ],
+      "kto:mitigates": [
+        {
+          "@id": "kt:governor-limits"
+        }
+      ]
+    },
+    {
       "@id": "kt:integration-architect-certification",
       "@type": "kto:Certification",
       "skos:prefLabel": "Integration Architect Certification",

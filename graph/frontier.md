@@ -5,7 +5,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | Node | Referenced by |
 |---|---|
 | `kt:salesforce-analytics` | `kt:crm-analytics`, `kt:tableau` |
-| `kt:heroku-applink` | `kt:heroku`, `kt:heroku-architect-certification` |
+| `kt:heroku-connect` | `kt:heroku`, `kt:heroku-applink` |
 | `kt:tableau-next` | `kt:digital-wallet`, `kt:tableau` |
 | `kt:flow-limits` | `kt:flow-bulkification`, `kt:flow-versioning` |
 | `kt:customer-360` | `kt:commerce-cloud`, `kt:slack-platform` |
@@ -55,7 +55,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:service-appointments` | `kt:field-service` |
 | `kt:work-orders` | `kt:field-service` |
 | `kt:hitrust-csf` | `kt:nist-cybersecurity-framework` |
-| `kt:heroku-connect` | `kt:heroku` |
 | `kt:certificate-and-key-management` | `kt:custom-domains` |
 | `kt:salesforce-sites` | `kt:custom-domains` |
 | `kt:apex-mocks` | `kt:apex-enterprise-patterns` |
@@ -77,8 +76,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:tableau-pulse` | `kt:tableau` |
 | `kt:tableau-semantics` | `kt:tableau` |
 | `kt:json-web-token` | `kt:openid-connect` |
-| `kt:path` | `kt:business-processes` |
 | `kt:object-manager` | `kt:schema-builder` |
+| `kt:path` | `kt:business-processes` |
 | `kt:salesforce-ecosystem` | `kt:salesforce-inc` |
 | `kt:constraint-modeling-language` | `kt:product-configurator` |
 | `kt:product-catalog-management` | `kt:product-configurator` |
@@ -142,9 +141,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:ldap` | `kt:delegated-authentication` |
 | `kt:username-password-flow` | `kt:client-credentials-flow` |
 | `kt:agentforce-nonprofit-consultant-certification` | `kt:agentforce-nonprofit` |
+| `kt:nonprofit-success-pack` | `kt:agentforce-nonprofit` |
 | `kt:business-analyst` | `kt:requirements-gathering` |
 | `kt:business-process-mapping` | `kt:requirements-gathering` |
-| `kt:nonprofit-success-pack` | `kt:agentforce-nonprofit` |
 | `kt:user-stories` | `kt:requirements-gathering` |
 | `kt:apex-defined-types` | `kt:transform-element` |
 | `kt:flow-loop-element` | `kt:transform-element` |
