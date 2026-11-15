@@ -15007,6 +15007,90 @@
       ]
     },
     {
+      "@id": "kt:dynamic-soql",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Dynamic SOQL",
+      "skos:definition": "The Apex capability to build a SOQL query as a string at run time and execute it through Database methods such as query, queryWithBinds, countQuery and getQueryLocator, instead of writing the query inline in square brackets.",
+      "kto:domain": "development",
+      "dcterms:created": "2026-11-15",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Apex Developer Guide: Dynamic SOQL",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.264.0.apexcode.meta/apexcode/apex_dynamic_soql.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Platform Developer I Certification Maintenance (Winter '24): Get Hands-on with Bind Variables in a SOQL Query",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/de/content/learn/modules/platform-developer-i-certification-maintenance-winter-24/get-hands-on-with-bind-variables-in-a-soql-query",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Execution Governors and Limits",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexref/apex_gov_limits.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Visualforce Developer Guide: SOQL Injection",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.264.0.pages.meta/pages/pages_security_tips_soql_injection.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Apex Reference Guide: QueryLocator Class",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.264.0.apexref.meta/apexref/apex_methods_system_database_batch.htm",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/development/dynamic-soql.md",
+      "skos:altLabel": [
+        "Database.query",
+        "Database.queryWithBinds",
+        "runtime SOQL",
+        "dynamic SOQL query"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:soql"
+        },
+        {
+          "@id": "kt:apex"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:soql-injection"
+        },
+        {
+          "@id": "kt:batch-apex"
+        },
+        {
+          "@id": "kt:apex-security-with-sharing"
+        },
+        {
+          "@id": "kt:apex-user-mode"
+        },
+        {
+          "@id": "kt:visualforce"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:governor-limits"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:static-soql"
+        }
+      ]
+    },
+    {
       "@id": "kt:future-methods",
       "@type": "kto:Feature",
       "skos:prefLabel": "Future Methods",
@@ -16088,6 +16172,9 @@
         },
         {
           "@id": "kt:query-optimizer-selectivity"
+        },
+        {
+          "@id": "kt:dynamic-soql"
         }
       ],
       "kto:governedBy": [

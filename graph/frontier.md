@@ -5,6 +5,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | Node | Referenced by |
 |---|---|
 | `kt:upsert` | `kt:data-loader`, `kt:external-id-fields` |
+| `kt:apex-user-mode` | `kt:apex-security-with-sharing`, `kt:dynamic-soql` |
 | `kt:data-classification` | `kt:data-governance`, `kt:nist-sp-800-60` |
 | `kt:salesforce-analytics` | `kt:crm-analytics`, `kt:tableau` |
 | `kt:heroku-applink` | `kt:heroku`, `kt:heroku-architect-certification` |
@@ -42,6 +43,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:omni-channel-limits` | `kt:omni-channel` |
 | `kt:presence-configuration` | `kt:omni-channel` |
 | `kt:skills-based-routing` | `kt:omni-channel` |
+| `kt:static-soql` | `kt:dynamic-soql` |
 | `kt:compact-layouts` | `kt:page-layouts` |
 | `kt:custom-objects` | `kt:standard-objects` |
 | `kt:distributed-computing` | `kt:cloud-computing` |
@@ -49,16 +51,16 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:data-stewardship` | `kt:data-governance` |
 | `kt:platform-administrator-ii-certification` | `kt:platform-administrator-certification` |
 | `kt:zero-trust-architecture` | `kt:principle-of-least-privilege` |
-| `kt:data-import-wizard` | `kt:data-loader` |
 | `kt:data-cloud-activation` | `kt:data-cloud-segmentation` |
+| `kt:data-import-wizard` | `kt:data-loader` |
 | `kt:entitlement-process-metadata` | `kt:entitlement-management` |
 | `kt:dispatcher-console` | `kt:field-service` |
 | `kt:field-service-mobile-app` | `kt:field-service` |
 | `kt:field-service-scheduling-policies` | `kt:field-service` |
 | `kt:service-appointments` | `kt:field-service` |
 | `kt:work-orders` | `kt:field-service` |
-| `kt:heroku-connect` | `kt:heroku` |
 | `kt:hitrust-csf` | `kt:nist-cybersecurity-framework` |
+| `kt:heroku-connect` | `kt:heroku` |
 | `kt:certificate-and-key-management` | `kt:custom-domains` |
 | `kt:salesforce-sites` | `kt:custom-domains` |
 | `kt:iso-iec-27002` | `kt:iso-iec-27001` |
@@ -67,29 +69,28 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:omnistudio-developer-certification` | `kt:omnistudio` |
 | `kt:dynamic-revenue-orchestrator` | `kt:revenue-cloud` |
 | `kt:revenue-management-consultant-certification` | `kt:revenue-cloud` |
+| `kt:salesforce-lightning-design-system` | `kt:visualforce` |
 | `kt:decision-tables` | `kt:salesforce-pricing` |
 | `kt:api-experience-hub` | `kt:external-identity-license` |
 | `kt:customer-community-licenses` | `kt:external-identity-license` |
 | `kt:lightning-out` | `kt:lightning-locker` |
 | `kt:scim` | `kt:salesforce-scim` |
-| `kt:dynamic-soql` | `kt:soql-injection` |
 | `kt:content-delivery-network` | `kt:salesforce-edge-network` |
 | `kt:apex-rest-services` | `kt:remote-call-in` |
 | `kt:json-web-token` | `kt:openid-connect` |
 | `kt:tableau-pulse` | `kt:tableau` |
 | `kt:tableau-semantics` | `kt:tableau` |
+| `kt:path` | `kt:business-processes` |
 | `kt:client-credentials-flow` | `kt:jwt-bearer-flow` |
 | `kt:object-manager` | `kt:schema-builder` |
-| `kt:path` | `kt:business-processes` |
 | `kt:salesforce-ecosystem` | `kt:salesforce-inc` |
 | `kt:einstein-discovery` | `kt:crm-analytics` |
 | `kt:saql` | `kt:crm-analytics` |
 | `kt:constraint-modeling-language` | `kt:product-configurator` |
 | `kt:product-catalog-management` | `kt:product-configurator` |
-| `kt:salesforce-lightning-design-system` | `kt:visualforce` |
-| `kt:it-governance` | `kt:salesforce-governance` |
 | `kt:opportunity-teams` | `kt:opportunity-splits` |
 | `kt:revenue-intelligence` | `kt:collaborative-forecasts` |
+| `kt:it-governance` | `kt:salesforce-governance` |
 | `kt:security-governance` | `kt:salesforce-governance` |
 | `kt:mutual-tls-authentication` | `kt:login-ip-ranges-and-trusted-ip-ranges` |
 | `kt:mulesoft-platform-integration-architect-certification` | `kt:mulesoft-platform-architect-certification` |
@@ -97,9 +98,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:corporate-governance` | `kt:governance-risk-and-compliance` |
 | `kt:application-network` | `kt:api-led-connectivity` |
 | `kt:point-to-point-integration` | `kt:api-led-connectivity` |
-| `kt:ingestion-api` | `kt:data-streams` |
 | `kt:dynamic-actions` | `kt:dynamic-forms` |
 | `kt:dynamic-highlights-panel` | `kt:dynamic-forms` |
+| `kt:ingestion-api` | `kt:data-streams` |
 | `kt:backup-and-recover-next` | `kt:backup-and-recover` |
 | `kt:data-actions` | `kt:streaming-insights` |
 | `kt:automation-studio` | `kt:marketing-cloud-engagement` |
@@ -149,7 +150,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:b2b-commerce` | `kt:commerce-cloud` |
 | `kt:b2c-commerce` | `kt:commerce-cloud` |
 | `kt:salesforce-order-management` | `kt:commerce-cloud` |
-| `kt:apex-user-mode` | `kt:apex-security-with-sharing` |
 | `kt:digital-accessibility` | `kt:section-508-accessibility` |
 | `kt:instance-refresh-and-org-migration` | `kt:trust-and-status-site` |
 | `kt:tx-ramp` | `kt:govramp` |

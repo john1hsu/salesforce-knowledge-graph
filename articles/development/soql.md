@@ -10,7 +10,7 @@ summary: >-
 release: "Winter '27"
 status: current
 broader: [kt:salesforce-platform]
-related: [kt:object-relationships, kt:query-optimizer-selectivity]
+related: [kt:object-relationships, kt:query-optimizer-selectivity, kt:dynamic-soql]
 relations:
   - {predicate: governedBy, object: kt:governor-limits}
   - {predicate: consumedBy, object: kt:apex}

@@ -3074,6 +3074,32 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/dynamic-forms> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "data-model" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/dynamic-forms> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/dynamic-forms> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dynamic-soql> <http://purl.org/dc/terms/created> "2026-11-15" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dynamic-soql> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dynamic-soql> <http://www.w3.org/2000/01/rdf-schema#label> "Dynamic SOQL" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dynamic-soql> <http://www.w3.org/2004/02/skos/core#altLabel> "Database.query" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dynamic-soql> <http://www.w3.org/2004/02/skos/core#altLabel> "Database.queryWithBinds" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dynamic-soql> <http://www.w3.org/2004/02/skos/core#altLabel> "dynamic SOQL query" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dynamic-soql> <http://www.w3.org/2004/02/skos/core#altLabel> "runtime SOQL" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dynamic-soql> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dynamic-soql> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/soql> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dynamic-soql> <http://www.w3.org/2004/02/skos/core#definition> "The Apex capability to build a SOQL query as a string at run time and execute it through Database methods such as query, queryWithBinds, countQuery and getQueryLocator, instead of writing the query inline in square brackets." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dynamic-soql> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dynamic SOQL" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dynamic-soql> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-security-with-sharing> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dynamic-soql> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-user-mode> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dynamic-soql> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/batch-apex> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dynamic-soql> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/soql-injection> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dynamic-soql> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/visualforce> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dynamic-soql> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dynamic-soql/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dynamic-soql> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dynamic-soql/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dynamic-soql> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dynamic-soql/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dynamic-soql> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dynamic-soql/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dynamic-soql> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dynamic-soql/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dynamic-soql> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#alternativeTo> <https://github.com/john1hsu/salesforce-knowledge-graph/id/static-soql> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dynamic-soql> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "development" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dynamic-soql> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#governedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/governor-limits> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dynamic-soql> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dynamic-soql> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/einstein-next-best-action> <http://purl.org/dc/terms/created> "2026-11-13" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/einstein-next-best-action> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/einstein-next-best-action> <http://www.w3.org/2000/01/rdf-schema#label> "Einstein Next Best Action" .
@@ -9046,6 +9072,7 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/soql> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-platform> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/soql> <http://www.w3.org/2004/02/skos/core#definition> "Salesforce Object Query Language, the read-only, SQL-like language for retrieving records from Salesforce objects by field API name, used from Apex, the REST and SOAP APIs, Bulk API and developer tools." .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/soql> <http://www.w3.org/2004/02/skos/core#prefLabel> "SOQL" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/soql> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/dynamic-soql> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/soql> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/object-relationships> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/soql> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/query-optimizer-selectivity> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/soql> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soql/s1> .
@@ -12163,6 +12190,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dynamic-forms/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dynamic-forms/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dynamic-forms/s5> <https://schema.org/url> "https://admin.salesforce.com/blog/2023/3-ways-to-drive-productivity-with-dynamic-forms" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dynamic-soql/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dynamic-soql/s1> <http://purl.org/dc/terms/title> "Apex Developer Guide: Dynamic SOQL" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dynamic-soql/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dynamic-soql/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dynamic-soql/s1> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.264.0.apexcode.meta/apexcode/apex_dynamic_soql.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dynamic-soql/s2> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dynamic-soql/s2> <http://purl.org/dc/terms/title> "Platform Developer I Certification Maintenance (Winter '24): Get Hands-on with Bind Variables in a SOQL Query" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dynamic-soql/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dynamic-soql/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dynamic-soql/s2> <https://schema.org/url> "https://trailhead.salesforce.com/de/content/learn/modules/platform-developer-i-certification-maintenance-winter-24/get-hands-on-with-bind-variables-in-a-soql-query" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dynamic-soql/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dynamic-soql/s3> <http://purl.org/dc/terms/title> "Execution Governors and Limits" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dynamic-soql/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dynamic-soql/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dynamic-soql/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexref/apex_gov_limits.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dynamic-soql/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dynamic-soql/s4> <http://purl.org/dc/terms/title> "Visualforce Developer Guide: SOQL Injection" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dynamic-soql/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dynamic-soql/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dynamic-soql/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.264.0.pages.meta/pages/pages_security_tips_soql_injection.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dynamic-soql/s5> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dynamic-soql/s5> <http://purl.org/dc/terms/title> "Apex Reference Guide: QueryLocator Class" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dynamic-soql/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dynamic-soql/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dynamic-soql/s5> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.264.0.apexref.meta/apexref/apex_methods_system_database_batch.htm" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/einstein-next-best-action/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/einstein-next-best-action/s1> <http://purl.org/dc/terms/title> "Einstein Next Best Action: Understand How Einstein Next Best Action Works" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/einstein-next-best-action/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
