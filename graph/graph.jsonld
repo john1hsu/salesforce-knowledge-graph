@@ -13916,6 +13916,99 @@
       ]
     },
     {
+      "@id": "kt:upsert",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Upsert",
+      "skos:definition": "A single write operation that inserts a record when its matching key finds no existing record and updates the record when the key finds exactly one, available in Apex DML, SOAP API, REST API and Bulk API 2.0.",
+      "kto:domain": "data-model",
+      "dcterms:created": "2026-11-15",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "upsert() — SOAP API Developer Guide",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api.meta/api/sforce_api_calls_upsert.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Upserting Records — Apex Developer Guide",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.264.0.apexcode.meta/pages/langCon_apex_dml_examples_upsert.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Upsert Records Using sObject Rows by External ID — REST API Developer Guide",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/api-rest/guide/resources-sobject-upsert-patch.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Step 5: Bulk Upsert — Bulk API 2.0 and Bulk API Developer Guide",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/api-asynch/guide/walkthrough-upsert.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Manipulate Records with DML — Apex Basics & Database",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/apex_database/apex_database_dml",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/data-model/upsert.md",
+      "skos:altLabel": [
+        "upsert operation",
+        "upsert call",
+        "insert or update",
+        "Database.upsert",
+        "upsert DML"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:data-integration"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:data-loader"
+        },
+        {
+          "@id": "kt:data-migration-strategy"
+        },
+        {
+          "@id": "kt:batch-data-synchronization"
+        },
+        {
+          "@id": "kt:object-relationships"
+        },
+        {
+          "@id": "kt:duplicate-management"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:external-id-fields"
+        }
+      ],
+      "kto:queriedWith": [
+        {
+          "@id": "kt:soap-api"
+        },
+        {
+          "@id": "kt:rest-api"
+        },
+        {
+          "@id": "kt:bulk-api-2"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:apex"
+        }
+      ]
+    },
+    {
       "@id": "kt:validation-rules",
       "@type": "kto:Feature",
       "skos:prefLabel": "Validation Rules",
