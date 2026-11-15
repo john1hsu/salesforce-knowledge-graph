@@ -1078,6 +1078,30 @@
     ]
   },
   {
+    "id": "kt:bulk-api-allocations",
+    "title": "Bulk API Allocations",
+    "aliases": [
+      "Bulk API limits",
+      "Bulk API 2.0 limits",
+      "DailyBulkApiBatches",
+      "DailyBulkV2QueryJobs",
+      "DailyBulkV2QueryFileStorageMB",
+      "daily bulk batch allocation"
+    ],
+    "type": "Limit",
+    "domain": "integration",
+    "file": "articles/integration/bulk-api-allocations.md",
+    "created": "2026-11-15",
+    "release": "Winter '27",
+    "status": "current",
+    "source_urls": [
+      "https://developer.salesforce.com/docs/platform/salesforce-app-limits-cheatsheet/guide/salesforce-app-limits-platform-bulkapi.html",
+      "https://developer.salesforce.com/docs/platform/api-asynch/guide/datafiles-understanding-bulk2-ingest.html",
+      "https://developer.salesforce.com/docs/platform/api-asynch/guide/bulk-common-limits.html",
+      "https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/resources_limits.htm"
+    ]
+  },
+  {
     "id": "kt:bulkification",
     "title": "Bulkification",
     "aliases": [

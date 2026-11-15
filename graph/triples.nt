@@ -1225,6 +1225,32 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/bulk-api-2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#governedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/bulk-api-allocations> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/bulk-api-2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/bulk-api-2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/bulk-api-allocations> <http://purl.org/dc/terms/created> "2026-11-15" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/bulk-api-allocations> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Limit> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/bulk-api-allocations> <http://www.w3.org/2000/01/rdf-schema#label> "Bulk API Allocations" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/bulk-api-allocations> <http://www.w3.org/2004/02/skos/core#altLabel> "Bulk API 2.0 limits" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/bulk-api-allocations> <http://www.w3.org/2004/02/skos/core#altLabel> "Bulk API limits" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/bulk-api-allocations> <http://www.w3.org/2004/02/skos/core#altLabel> "DailyBulkApiBatches" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/bulk-api-allocations> <http://www.w3.org/2004/02/skos/core#altLabel> "DailyBulkV2QueryFileStorageMB" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/bulk-api-allocations> <http://www.w3.org/2004/02/skos/core#altLabel> "DailyBulkV2QueryJobs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/bulk-api-allocations> <http://www.w3.org/2004/02/skos/core#altLabel> "daily bulk batch allocation" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/bulk-api-allocations> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/governor-limits> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/bulk-api-allocations> <http://www.w3.org/2004/02/skos/core#definition> "The org-wide quotas and per-job limits that govern Bulk API and Bulk API 2.0: a shared pool of batches per rolling 24 hours, a separate daily allowance of Bulk API 2.0 query jobs and result storage, and size, lifespan, retry and CPU limits on individual jobs and batches." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/bulk-api-allocations> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bulk API Allocations" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/bulk-api-allocations> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/bulk-api-1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/bulk-api-allocations> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/bulk-api-2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/bulk-api-allocations> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-loader> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/bulk-api-allocations> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-migration-strategy> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/bulk-api-allocations> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/large-data-volumes> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/bulk-api-allocations> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulk-api-allocations/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/bulk-api-allocations> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulk-api-allocations/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/bulk-api-allocations> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulk-api-allocations/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/bulk-api-allocations> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulk-api-allocations/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/bulk-api-allocations> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#contrastsWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/api-request-limits> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/bulk-api-allocations> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "integration" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/bulk-api-allocations> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/rest-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/bulk-api-allocations> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/bulk-api-allocations> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/bulkification> <http://purl.org/dc/terms/created> "2026-11-10" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/bulkification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Pattern> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/bulkification> <http://www.w3.org/2000/01/rdf-schema#label> "Bulkification" .
@@ -10207,6 +10233,26 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulk-api-2/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulk-api-2/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulk-api-2/s5> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/api-asynch/guide/bulk-common-limits.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulk-api-allocations/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulk-api-allocations/s1> <http://purl.org/dc/terms/title> "Bulk API and Bulk API 2.0 Limits and Allocations (Salesforce Developer Limits and Allocations Quick Reference)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulk-api-allocations/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulk-api-allocations/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulk-api-allocations/s1> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/salesforce-app-limits-cheatsheet/guide/salesforce-app-limits-platform-bulkapi.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulk-api-allocations/s2> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulk-api-allocations/s2> <http://purl.org/dc/terms/title> "Understanding Bulk API 2.0 Ingest (Bulk API 2.0 and Bulk API Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulk-api-allocations/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulk-api-allocations/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulk-api-allocations/s2> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/api-asynch/guide/datafiles-understanding-bulk2-ingest.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulk-api-allocations/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulk-api-allocations/s3> <http://purl.org/dc/terms/title> "Limits (Bulk API 2.0 and Bulk API Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulk-api-allocations/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulk-api-allocations/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulk-api-allocations/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/api-asynch/guide/bulk-common-limits.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulk-api-allocations/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulk-api-allocations/s4> <http://purl.org/dc/terms/title> "Limits (REST API Developer Guide, resources)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulk-api-allocations/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulk-api-allocations/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulk-api-allocations/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/resources_limits.htm" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulkification/s1> <http://purl.org/dc/terms/publisher> "Salesforce Trailhead" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulkification/s1> <http://purl.org/dc/terms/title> "Trailhead: Bulk Apex Triggers (Apex Triggers module)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulkification/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

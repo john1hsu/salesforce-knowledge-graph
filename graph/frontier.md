@@ -4,8 +4,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:bulk-api-allocations` | `kt:bulk-api-1`, `kt:bulk-api-2` |
-| `kt:data-loader` | `kt:bulk-api-1`, `kt:bulk-api-2` |
+| `kt:data-loader` | `kt:bulk-api-1`, `kt:bulk-api-2`, `kt:bulk-api-allocations` |
 | `kt:backup-and-recover` | `kt:archiving-strategy`, `kt:data-mask-and-seed` |
 | `kt:data-classification` | `kt:data-governance`, `kt:nist-sp-800-60` |
 | `kt:salesforce-analytics` | `kt:crm-analytics`, `kt:tableau` |
