@@ -4,7 +4,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:data-detect` | `kt:data-classification`, `kt:salesforce-shield` |
 | `kt:salesforce-analytics` | `kt:crm-analytics`, `kt:tableau` |
 | `kt:heroku-applink` | `kt:heroku`, `kt:heroku-architect-certification` |
 | `kt:tableau-next` | `kt:digital-wallet`, `kt:tableau` |
@@ -27,8 +26,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:managed-event-subscriptions` | `kt:pub-sub-api` |
 | `kt:streaming-api` | `kt:pub-sub-api` |
 | `kt:platform-developer-ii-certification` | `kt:platform-developer-certification` |
-| `kt:scoping-rules` | `kt:restriction-rules` |
 | `kt:salesforce-archive` | `kt:archiving-strategy` |
+| `kt:scoping-rules` | `kt:restriction-rules` |
 | `kt:prompt-injection` | `kt:einstein-trust-layer` |
 | `kt:mixed-dml-error` | `kt:future-methods` |
 | `kt:zero-copy-data-sharing` | `kt:zero-copy-data-federation` |
@@ -55,12 +54,12 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:field-service-scheduling-policies` | `kt:field-service` |
 | `kt:service-appointments` | `kt:field-service` |
 | `kt:work-orders` | `kt:field-service` |
-| `kt:heroku-connect` | `kt:heroku` |
 | `kt:hitrust-csf` | `kt:nist-cybersecurity-framework` |
+| `kt:heroku-connect` | `kt:heroku` |
 | `kt:certificate-and-key-management` | `kt:custom-domains` |
 | `kt:salesforce-sites` | `kt:custom-domains` |
-| `kt:apex-mocks` | `kt:apex-enterprise-patterns` |
 | `kt:iso-iec-27002` | `kt:iso-iec-27001` |
+| `kt:apex-mocks` | `kt:apex-enterprise-patterns` |
 | `kt:omnistudio-consultant-certification` | `kt:omnistudio` |
 | `kt:omnistudio-developer-certification` | `kt:omnistudio` |
 | `kt:salesforce-lightning-design-system` | `kt:visualforce` |
@@ -76,8 +75,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:json-web-token` | `kt:openid-connect` |
 | `kt:tableau-pulse` | `kt:tableau` |
 | `kt:tableau-semantics` | `kt:tableau` |
-| `kt:path` | `kt:business-processes` |
 | `kt:object-manager` | `kt:schema-builder` |
+| `kt:path` | `kt:business-processes` |
 | `kt:einstein-discovery` | `kt:crm-analytics` |
 | `kt:saql` | `kt:crm-analytics` |
 | `kt:salesforce-ecosystem` | `kt:salesforce-inc` |
@@ -90,8 +89,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:mutual-tls-authentication` | `kt:login-ip-ranges-and-trusted-ip-ranges` |
 | `kt:mulesoft-platform-integration-architect-certification` | `kt:mulesoft-platform-architect-certification` |
 | `kt:generative-ai` | `kt:retrieval-augmented-generation-in-salesforce` |
-| `kt:application-network` | `kt:api-led-connectivity` |
 | `kt:corporate-governance` | `kt:governance-risk-and-compliance` |
+| `kt:application-network` | `kt:api-led-connectivity` |
 | `kt:point-to-point-integration` | `kt:api-led-connectivity` |
 | `kt:ingestion-api` | `kt:data-streams` |
 | `kt:dynamic-actions` | `kt:dynamic-forms` |

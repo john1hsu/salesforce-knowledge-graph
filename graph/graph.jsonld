@@ -31130,6 +31130,104 @@
       ]
     },
     {
+      "@id": "kt:data-detect",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Data Detect",
+      "skos:definition": "Salesforce Shield component that scans the actual contents of text fields for sensitive values such as government IDs or card numbers, using predefined and regex-based detection patterns, so admins can classify, encrypt, mask or monitor the fields where that data turns up.",
+      "kto:domain": "security-and-sharing",
+      "dcterms:created": "2026-11-15",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Get to Know Data Detect (Data Detect Quick Look)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/data-detect-quick-look/get-to-know-data-detect",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Get Started with Data Detect (Precise Data Detection at Scale)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/precise-data-detection-at-scale/get-started-with-data-detect",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "View Data Detect Policy Scan Results",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/precise-data-detection-at-scale/view-data-detect-policy-scan-results",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "How to Detect Sensitive Data at Scale",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/blog/how-to-detect-sensitive-data-at-scale/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Data Detect with Shield (Admin Security Workshop)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/workshops/admin-security-workshop/data-security/1-data-detect-with-shield",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "DataDetectPolicy (Object Reference for the Salesforce Platform)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/api/sforce_api_objects_datadetectpolicy.htm",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/security-and-sharing/data-detect.md",
+      "skos:altLabel": [
+        "Salesforce Data Detect",
+        "Shield Data Detect",
+        "Einstein Data Detect"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-shield"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:salesforce-data-mask"
+        },
+        {
+          "@id": "kt:field-audit-trail"
+        },
+        {
+          "@id": "kt:event-monitoring"
+        }
+      ],
+      "kto:requiresLicense": [
+        {
+          "@id": "kt:salesforce-shield"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:data-classification"
+        },
+        {
+          "@id": "kt:transaction-security-policies"
+        }
+      ],
+      "kto:enables": [
+        {
+          "@id": "kt:shield-platform-encryption"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:field-level-security"
+        }
+      ],
+      "kto:queriedWith": [
+        {
+          "@id": "kt:soql"
+        }
+      ]
+    },
+    {
       "@id": "kt:enterprise-territory-management",
       "@type": "kto:Feature",
       "skos:prefLabel": "Sales Territories",
