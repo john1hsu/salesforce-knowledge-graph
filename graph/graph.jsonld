@@ -7392,6 +7392,104 @@
       ]
     },
     {
+      "@id": "kt:loyalty-management",
+      "@type": "kto:Product",
+      "skos:prefLabel": "Loyalty Management",
+      "skos:definition": "Salesforce product, now part of Marketing Cloud Next, for running B2C and B2B loyalty programs on the core platform: members earn and spend qualifying and non-qualifying currencies, move through tiers that carry benefits, and redeem vouchers, with activity recorded as transaction journals and processed by promotions.",
+      "kto:domain": "clouds-and-products",
+      "dcterms:created": "2026-11-16",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Get Started with Loyalty Management (Loyalty Management Basics)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/loyalty-management-basics/get-started-loyalty-management",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Set Up a Loyalty Program (Loyalty Management Basics)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/loyalty-management-basics/set-up-loyalty-program",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Explore Actions and Processes (Loyalty Management Basics)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/loyalty-management-basics/explore-actions-processes",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Loyalty Management Standard Objects",
+          "dcterms:publisher": "Salesforce Developers (Loyalty Management Developer Guide)",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.loyalty.meta/loyalty/loyalty_api_overview.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "TransactionJournal",
+          "dcterms:publisher": "Salesforce Developers (Loyalty Management Developer Guide)",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.loyalty.meta/loyalty/sforce_api_objects_transactionjournal.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Loyalty Management Pricing",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/marketing/loyalty/pricing/",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/clouds-and-products/loyalty-management.md",
+      "skos:altLabel": [
+        "Salesforce Loyalty Management",
+        "Loyalty Management Cloud"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:marketing-cloud-next"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:data-cloud"
+        },
+        {
+          "@id": "kt:marketing-cloud-engagement"
+        },
+        {
+          "@id": "kt:experience-cloud"
+        },
+        {
+          "@id": "kt:crm-analytics"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:marketing-cloud-next"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:decision-tables"
+        },
+        {
+          "@id": "kt:data-processing-engine"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:flow-builder"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:data-cloud"
+        },
+        {
+          "@id": "kt:journey-builder"
+        }
+      ]
+    },
+    {
       "@id": "kt:marketing-cloud-engagement",
       "@type": "kto:Product",
       "skos:prefLabel": "Marketing Cloud Engagement",
