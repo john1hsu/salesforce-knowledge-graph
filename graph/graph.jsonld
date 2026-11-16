@@ -17892,6 +17892,81 @@
       ]
     },
     {
+      "@id": "kt:transaction-finalizers",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Transaction Finalizers",
+      "skos:definition": "An Apex feature that attaches a class implementing System.Finalizer to a Queueable job so that post-execution logic, such as logging, notification or retry, runs in its own transaction after the job succeeds or fails.",
+      "kto:domain": "development",
+      "dcterms:created": "2026-11-16",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Apex Developer Guide: Transaction Finalizers",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_transaction_finalizers.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Apex Reference Guide: FinalizerContext Interface",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_interface_System_FinalizerContext.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Learn MOAR in Spring '20: Introducing Transaction Finalizers",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2020/01/learn-moar-in-spring-20-introducing-transaction-finalizers",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/development/transaction-finalizers.md",
+      "skos:altLabel": [
+        "System.Finalizer",
+        "Finalizer interface",
+        "System.attachFinalizer",
+        "FinalizerContext",
+        "Queueable finalizer"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:queueable-apex"
+        },
+        {
+          "@id": "kt:asynchronous-apex"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:apex-callouts"
+        },
+        {
+          "@id": "kt:apex-user-mode"
+        },
+        {
+          "@id": "kt:transaction-control"
+        },
+        {
+          "@id": "kt:event-monitoring"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:queueable-apex"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:governor-limits"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:batch-apex-error-event"
+        }
+      ]
+    },
+    {
       "@id": "kt:trigger-framework-pattern",
       "@type": "kto:Pattern",
       "skos:prefLabel": "Trigger Framework Pattern",

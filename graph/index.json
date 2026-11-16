@@ -9077,6 +9077,28 @@
     ]
   },
   {
+    "id": "kt:transaction-finalizers",
+    "title": "Transaction Finalizers",
+    "aliases": [
+      "System.Finalizer",
+      "Finalizer interface",
+      "System.attachFinalizer",
+      "FinalizerContext",
+      "Queueable finalizer"
+    ],
+    "type": "Feature",
+    "domain": "development",
+    "file": "articles/development/transaction-finalizers.md",
+    "created": "2026-11-16",
+    "release": "Winter '27",
+    "status": "current",
+    "source_urls": [
+      "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_transaction_finalizers.htm",
+      "https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_interface_System_FinalizerContext.htm",
+      "https://developer.salesforce.com/blogs/2020/01/learn-moar-in-spring-20-introducing-transaction-finalizers"
+    ]
+  },
+  {
     "id": "kt:transaction-security-policies",
     "title": "Transaction Security Policies",
     "aliases": [

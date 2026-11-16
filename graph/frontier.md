@@ -22,7 +22,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:change-data-capture-allocations` | `kt:change-data-capture` |
 | `kt:platform-event-channel-member` | `kt:change-data-capture` |
 | `kt:process-integration` | `kt:data-integration` |
-| `kt:transaction-finalizers` | `kt:queueable-apex` |
 | `kt:mule-runtime-engine` | `kt:mulesoft-anypoint-platform` |
 | `kt:managed-event-subscriptions` | `kt:pub-sub-api` |
 | `kt:legacy-named-credentials` | `kt:named-credentials` |
@@ -35,8 +34,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:seealldata` | `kt:test-data-factory` |
 | `kt:test-loaddata` | `kt:test-data-factory` |
 | `kt:trailhead` | `kt:salesforce-certification-program` |
-| `kt:custom-objects` | `kt:standard-objects` |
 | `kt:static-soql` | `kt:dynamic-soql` |
+| `kt:custom-objects` | `kt:standard-objects` |
 | `kt:omni-channel-limits` | `kt:omni-channel` |
 | `kt:presence-configuration` | `kt:omni-channel` |
 | `kt:skills-based-routing` | `kt:omni-channel` |
@@ -81,6 +80,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:rest-api-limits-resource` | `kt:orglimits-class` |
 | `kt:opportunity-teams` | `kt:opportunity-splits` |
 | `kt:revenue-intelligence` | `kt:collaborative-forecasts` |
+| `kt:batch-apex-error-event` | `kt:transaction-finalizers` |
 | `kt:it-governance` | `kt:salesforce-governance` |
 | `kt:security-governance` | `kt:salesforce-governance` |
 | `kt:constraint-modeling-language` | `kt:product-configurator` |
@@ -92,6 +92,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:corporate-governance` | `kt:governance-risk-and-compliance` |
 | `kt:salesforce-licensing` | `kt:user-licenses` |
 | `kt:generative-ai` | `kt:retrieval-augmented-generation-in-salesforce` |
+| `kt:security-stripinaccessible` | `kt:apex-user-mode` |
+| `kt:with-security-enforced` | `kt:apex-user-mode` |
 | `kt:application-network` | `kt:api-led-connectivity` |
 | `kt:point-to-point-integration` | `kt:api-led-connectivity` |
 | `kt:agentexchange-go-to-market-app` | `kt:agentexchange` |
@@ -107,8 +109,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:mulesoft-composer` | `kt:slack-platform` |
 | `kt:slack-api-rate-limits` | `kt:slack-platform` |
 | `kt:slack-workflow-builder` | `kt:slack-platform` |
-| `kt:security-stripinaccessible` | `kt:apex-user-mode` |
-| `kt:with-security-enforced` | `kt:apex-user-mode` |
 | `kt:soc-1` | `kt:soc-2` |
 | `kt:trust-services-criteria` | `kt:soc-2` |
 | `kt:security-health-check` | `kt:session-settings` |
@@ -125,8 +125,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:cap-theorem` | `kt:distributed-computing` |
 | `kt:computer-science` | `kt:distributed-computing` |
 | `kt:agentforce-vibes` | `kt:agentforce-vibes-ide` |
-| `kt:platform-cache-partitions` | `kt:platform-cache` |
 | `kt:iso-iec-27017` | `kt:iso-iec-27002` |
+| `kt:platform-cache-partitions` | `kt:platform-cache` |
 | `kt:model-context-protocol` | `kt:model-context-protocol-in-agentforce` |
 | `kt:salesforce-hosted-mcp-servers` | `kt:model-context-protocol-in-agentforce` |
 | `kt:data-cloud-triggered-flows` | `kt:data-actions` |
@@ -141,8 +141,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:nonprofit-success-pack` | `kt:agentforce-nonprofit` |
 | `kt:ui-api` | `kt:field-dependencies` |
 | `kt:einstein-prediction-builder` | `kt:einstein-next-best-action` |
-| `kt:web-server-flow` | `kt:device-flow` |
 | `kt:business-analyst-certification` | `kt:user-acceptance-testing` |
+| `kt:web-server-flow` | `kt:device-flow` |
 | `kt:b2b-commerce` | `kt:commerce-cloud` |
 | `kt:b2c-commerce` | `kt:commerce-cloud` |
 | `kt:salesforce-order-management` | `kt:commerce-cloud` |
