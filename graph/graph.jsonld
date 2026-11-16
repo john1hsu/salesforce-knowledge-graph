@@ -1461,6 +1461,102 @@
       ]
     },
     {
+      "@id": "kt:proof-of-concept",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Proof of Concept",
+      "skos:definition": "A small, time-boxed build that tests whether a proposed Salesforce design, product or AI use case can work before the organization commits to full delivery, judged against success criteria agreed in advance and usually run in a disposable org such as a scratch org, Developer Edition org or sandbox.",
+      "kto:domain": "architecture-practice",
+      "dcterms:created": "2026-11-16",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Technology Readiness Levels",
+          "dcterms:publisher": "NASA",
+          "schema:url": "https://www.nasa.gov/directorates/spacetech/spinoff/feature/technology-readiness-levels",
+          "kto:sourceType": "government"
+        },
+        {
+          "dcterms:title": "Scratch Orgs (Salesforce DX Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/sfdx-dev/guide/sfdx-dev-scratch-orgs.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Explore Available Developer Environments (Environments for Salesforce Developers)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/es/content/learn/modules/environments-for-developers/explore-available-developer-environments",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Create a Prototyping Plan (Strategy Design Prototyping)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/design-strategy-prototyping/create-prototyping-plan",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "New Report Says Most AI Pilots 'Remain Stuck' — Here's How To Move Ahead",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/blog/agentic-ai-pilot-launch/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "The Agentforce Operations Process Evolution Playbook: 8 Steps to Scale AI Process Automation",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/agentforce/process-evolution-playbook/",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/architecture-practice/proof-of-concept.md",
+      "skos:altLabel": [
+        "POC",
+        "PoC",
+        "proof-of-concept",
+        "technical spike",
+        "feasibility prototype"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:solution-design-tradeoffs"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:scratch-orgs"
+        },
+        {
+          "@id": "kt:sandbox-types"
+        },
+        {
+          "@id": "kt:scale-test"
+        },
+        {
+          "@id": "kt:risk-and-assumption-logs"
+        },
+        {
+          "@id": "kt:build-vs-buy-decisions"
+        },
+        {
+          "@id": "kt:agent-development-lifecycle"
+        }
+      ],
+      "kto:usedBy": [
+        {
+          "@id": "kt:salesforce-architect"
+        }
+      ],
+      "kto:mitigates": [
+        {
+          "@id": "kt:technical-debt-in-salesforce"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:user-acceptance-testing"
+        }
+      ]
+    },
+    {
       "@id": "kt:requirements-gathering",
       "@type": "kto:Concept",
       "skos:prefLabel": "Requirements Gathering",
