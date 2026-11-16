@@ -10163,6 +10163,111 @@
       ]
     },
     {
+      "@id": "kt:data-cloud-activation",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Data 360 Activation",
+      "skos:definition": "The Data 360 (formerly Data Cloud) process that sends a published segment, with chosen contact points and attributes, to an activation target such as Marketing Cloud, an ad platform, cloud storage or Data 360 itself, so the audience can be used outside the segment definition.",
+      "kto:domain": "data-cloud-and-ai",
+      "dcterms:created": "2026-11-16",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Create and Activate a Segment in Data Cloud (Quick Start)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/projects/quick-start-create-a-data-cloud-segment/create-and-activate-a-segment-in-data-cloud",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Get to Know the Data 360 Activation Toolkit",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/data-360-activation-toolkit-for-independent-software-vendors/get-to-know-the-data-360-activation-toolkit",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Meta Activation Connector (Data 360 Integration Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/data/data-cloud-int/guide/c360-a-metaadaudiences-connector.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "CdpActivation Class (Apex Reference Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexcode/apex_ConnectAPI_CdpActivation_static_methods.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "ActivationPlatform (Metadata API Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_activationplatform.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Data 360 Integration Patterns and Practices",
+          "dcterms:publisher": "Salesforce Architects",
+          "schema:url": "https://architect.salesforce.com/docs/architect/fundamentals/guide/data360_integration_patterns_and_practices",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/data-cloud-and-ai/data-cloud-activation.md",
+      "skos:altLabel": [
+        "Data Cloud activation",
+        "Data 360 activations",
+        "activation targets",
+        "segment activation",
+        "CdpActivation"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:data-cloud"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:identity-resolution"
+        },
+        {
+          "@id": "kt:data-spaces"
+        },
+        {
+          "@id": "kt:agentexchange"
+        },
+        {
+          "@id": "kt:zero-copy-data-sharing"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:data-cloud-segmentation"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:marketing-cloud-engagement"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:data-actions"
+        }
+      ],
+      "kto:queriedWith": [
+        {
+          "@id": "kt:connect-api"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:metadata-api"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:data-cloud-limits"
+        }
+      ]
+    },
+    {
       "@id": "kt:data-cloud-consultant-certification",
       "@type": "kto:Certification",
       "skos:prefLabel": "Data 360 Consultant Certification",

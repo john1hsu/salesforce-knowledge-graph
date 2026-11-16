@@ -5,7 +5,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | Node | Referenced by |
 |---|---|
 | `kt:salesforce-analytics` | `kt:crm-analytics`, `kt:tableau`, `kt:tableau-next` |
-| `kt:data-cloud-activation` | `kt:data-actions`, `kt:data-cloud-segmentation` |
+| `kt:zero-copy-data-sharing` | `kt:data-cloud-activation`, `kt:zero-copy-data-federation` |
 | `kt:tableau-semantics` | `kt:tableau`, `kt:tableau-next` |
 | `kt:flow-limits` | `kt:flow-bulkification`, `kt:flow-versioning` |
 | `kt:secure-coding` | `kt:cross-site-scripting`, `kt:iso-iec-27002` |
@@ -29,7 +29,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:salesforce-archive` | `kt:archiving-strategy` |
 | `kt:prompt-injection` | `kt:einstein-trust-layer` |
 | `kt:mixed-dml-error` | `kt:future-methods` |
-| `kt:zero-copy-data-sharing` | `kt:zero-copy-data-federation` |
 | `kt:data-categories` | `kt:knowledge-base` |
 | `kt:seealldata` | `kt:test-data-factory` |
 | `kt:test-loaddata` | `kt:test-data-factory` |
@@ -38,8 +37,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:omni-channel-limits` | `kt:omni-channel` |
 | `kt:presence-configuration` | `kt:omni-channel` |
 | `kt:skills-based-routing` | `kt:omni-channel` |
-| `kt:compact-layouts` | `kt:page-layouts` |
 | `kt:custom-objects` | `kt:standard-objects` |
+| `kt:compact-layouts` | `kt:page-layouts` |
 | `kt:data-management` | `kt:data-governance` |
 | `kt:data-stewardship` | `kt:data-governance` |
 | `kt:zero-trust-architecture` | `kt:principle-of-least-privilege` |
@@ -65,8 +64,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:decision-tables` | `kt:salesforce-pricing` |
 | `kt:lightning-out` | `kt:lightning-locker` |
 | `kt:tableau-pulse` | `kt:tableau` |
-| `kt:apex-rest-services` | `kt:remote-call-in` |
 | `kt:scim` | `kt:salesforce-scim` |
+| `kt:apex-rest-services` | `kt:remote-call-in` |
 | `kt:content-delivery-network` | `kt:salesforce-edge-network` |
 | `kt:pushtopic-streaming-allocations` | `kt:streaming-api` |
 | `kt:json-web-token` | `kt:openid-connect` |
@@ -80,15 +79,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:revenue-intelligence` | `kt:collaborative-forecasts` |
 | `kt:constraint-modeling-language` | `kt:product-configurator` |
 | `kt:product-catalog-management` | `kt:product-configurator` |
-| `kt:heroku-postgres` | `kt:heroku-connect` |
-| `kt:mulesoft-platform-integration-architect-certification` | `kt:mulesoft-platform-architect-certification` |
-| `kt:ingestion-api` | `kt:data-streams` |
-| `kt:mutual-tls-authentication` | `kt:login-ip-ranges-and-trusted-ip-ranges` |
-| `kt:corporate-governance` | `kt:governance-risk-and-compliance` |
-| `kt:generative-ai` | `kt:retrieval-augmented-generation-in-salesforce` |
-| `kt:salesforce-licensing` | `kt:user-licenses` |
-| `kt:application-network` | `kt:api-led-connectivity` |
-| `kt:point-to-point-integration` | `kt:api-led-connectivity` |
 | `kt:automation-studio` | `kt:marketing-cloud-engagement` |
 | `kt:contact-builder` | `kt:marketing-cloud-engagement` |
 | `kt:journey-builder` | `kt:marketing-cloud-engagement` |
@@ -96,12 +86,21 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:marketing-cloud-connect` | `kt:marketing-cloud-engagement` |
 | `kt:marketing-cloud-next` | `kt:marketing-cloud-engagement` |
 | `kt:salesforce-marketing-solutions` | `kt:marketing-cloud-engagement` |
+| `kt:ingestion-api` | `kt:data-streams` |
+| `kt:heroku-postgres` | `kt:heroku-connect` |
+| `kt:mulesoft-platform-integration-architect-certification` | `kt:mulesoft-platform-architect-certification` |
+| `kt:mutual-tls-authentication` | `kt:login-ip-ranges-and-trusted-ip-ranges` |
+| `kt:corporate-governance` | `kt:governance-risk-and-compliance` |
+| `kt:generative-ai` | `kt:retrieval-augmented-generation-in-salesforce` |
+| `kt:salesforce-licensing` | `kt:user-licenses` |
+| `kt:application-network` | `kt:api-led-connectivity` |
+| `kt:point-to-point-integration` | `kt:api-led-connectivity` |
 | `kt:dynamic-actions` | `kt:dynamic-forms` |
 | `kt:dynamic-highlights-panel` | `kt:dynamic-forms` |
 | `kt:apexguru` | `kt:scale-test` |
 | `kt:scale-center` | `kt:scale-test` |
-| `kt:backup-and-recover-next` | `kt:backup-and-recover` |
 | `kt:agentexchange-go-to-market-app` | `kt:agentexchange` |
+| `kt:backup-and-recover-next` | `kt:backup-and-recover` |
 | `kt:actionable-relationship-center` | `kt:financial-services-cloud` |
 | `kt:compliant-data-sharing` | `kt:financial-services-cloud` |
 | `kt:block-kit` | `kt:slack-platform` |
@@ -123,14 +122,15 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:holidays` | `kt:business-hours` |
 | `kt:custom-permissions` | `kt:validation-rules` |
 | `kt:in-app-guidance` | `kt:change-management-and-adoption` |
+| `kt:data-cloud-query-api` | `kt:data-graphs` |
 | `kt:cap-theorem` | `kt:distributed-computing` |
 | `kt:computer-science` | `kt:distributed-computing` |
-| `kt:data-cloud-query-api` | `kt:data-graphs` |
 | `kt:agentforce-vibes` | `kt:agentforce-vibes-ide` |
 | `kt:iso-iec-27017` | `kt:iso-iec-27002` |
 | `kt:platform-cache-partitions` | `kt:platform-cache` |
 | `kt:model-context-protocol` | `kt:model-context-protocol-in-agentforce` |
 | `kt:salesforce-hosted-mcp-servers` | `kt:model-context-protocol-in-agentforce` |
+| `kt:data-cloud-triggered-flows` | `kt:data-actions` |
 | `kt:data-cloud-code-extension` | `kt:vector-search-in-data-cloud` |
 | `kt:business-process-mapping` | `kt:requirements-gathering` |
 | `kt:user-stories` | `kt:requirements-gathering` |
@@ -138,7 +138,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:ldap` | `kt:delegated-authentication` |
 | `kt:apex-defined-types` | `kt:transform-element` |
 | `kt:username-password-flow` | `kt:client-credentials-flow` |
-| `kt:data-cloud-triggered-flows` | `kt:data-actions` |
 | `kt:agentforce-nonprofit-consultant-certification` | `kt:agentforce-nonprofit` |
 | `kt:nonprofit-success-pack` | `kt:agentforce-nonprofit` |
 | `kt:ui-api` | `kt:field-dependencies` |
