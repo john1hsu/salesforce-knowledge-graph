@@ -9324,6 +9324,30 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/section-508-accessibility> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "public-sector-and-compliance" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/section-508-accessibility> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/section-508-accessibility> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/secure-coding> <http://purl.org/dc/terms/created> "2026-11-16" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/secure-coding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/secure-coding> <http://www.w3.org/2000/01/rdf-schema#label> "Secure Coding" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/secure-coding> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce Secure Coding Guide" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/secure-coding> <http://www.w3.org/2004/02/skos/core#altLabel> "Secure Coding Guidelines" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/secure-coding> <http://www.w3.org/2004/02/skos/core#altLabel> "secure development practices" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/secure-coding> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-platform> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/secure-coding> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/shared-responsibility-model> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/secure-coding> <http://www.w3.org/2004/02/skos/core#definition> "The practice of writing Apex, Visualforce, Lightning and integration code so it enforces the running user's access and resists common web attacks. Salesforce's Secure Coding Guidelines catalogue the issues it finds most often (injection, XSS, CSRF, broken access control, insecure secrets) and note where the platform already helps." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/secure-coding> <http://www.w3.org/2004/02/skos/core#prefLabel> "Secure Coding" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/secure-coding> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-security-with-sharing> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/secure-coding> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-user-mode> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/secure-coding> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/appexchange-security-review> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/secure-coding> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/secure-coding/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/secure-coding> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/secure-coding/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/secure-coding> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/secure-coding/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/secure-coding> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/secure-coding/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/secure-coding> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/secure-coding/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/secure-coding> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "security-and-sharing" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/secure-coding> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/cross-site-scripting> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/secure-coding> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/soql-injection> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/secure-coding> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#mitigates> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-breach-risk> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/secure-coding> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/secure-coding> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/security-compliance-frameworks> <http://purl.org/dc/terms/created> "2026-11-05" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/security-compliance-frameworks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/security-compliance-frameworks> <http://www.w3.org/2000/01/rdf-schema#label> "Security Compliance Frameworks" .
@@ -19324,6 +19348,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/section-508-accessibility/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/section-508-accessibility/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/section-508-accessibility/s6> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/accessible-salesforce-customizations/restructure-page-layouts" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/secure-coding/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/secure-coding/s1> <http://purl.org/dc/terms/title> "Secure Coding Guidelines" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/secure-coding/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/secure-coding/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/secure-coding/s1> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/secure-coding/guide/secure-coding-guidelines.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/secure-coding/s2> <http://purl.org/dc/terms/publisher> "Salesforce Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/secure-coding/s2> <http://purl.org/dc/terms/title> "Secure Server-Side Development: Write Secure Apex Controllers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/secure-coding/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/secure-coding/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/secure-coding/s2> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/secure-serverside-development/write-secure-apex-controllers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/secure-coding/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/secure-coding/s3> <http://purl.org/dc/terms/title> "Secure Coding SQL Injection" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/secure-coding/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/secure-coding/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/secure-coding/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/secure-coding/guide/secure-coding-sql-injection.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/secure-coding/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/secure-coding/s4> <http://purl.org/dc/terms/title> "ISVforce Guide: Prevent Secure Coding Violations — Cross-Site Request Forgery" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/secure-coding/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/secure-coding/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/secure-coding/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/isvforce/guide/secure-code-violation-request-forgery.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/secure-coding/s5> <http://purl.org/dc/terms/publisher> "OWASP" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/secure-coding/s5> <http://purl.org/dc/terms/title> "OWASP Secure Coding Practices - Quick Reference Guide: Overview" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/secure-coding/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/secure-coding/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "community" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/secure-coding/s5> <https://schema.org/url> "https://owasp.github.io/www-project-secure-coding-practices-quick-reference-guide/stable-en/03-appendices/03-overview.html" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-compliance-frameworks/s1> <http://purl.org/dc/terms/publisher> "Salesforce" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-compliance-frameworks/s1> <http://purl.org/dc/terms/title> "Trust (Salesforce Well-Architected guide)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-compliance-frameworks/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

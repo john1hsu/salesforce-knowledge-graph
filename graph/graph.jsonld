@@ -35047,6 +35047,86 @@
       ]
     },
     {
+      "@id": "kt:secure-coding",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Secure Coding",
+      "skos:definition": "The practice of writing Apex, Visualforce, Lightning and integration code so it enforces the running user's access and resists common web attacks. Salesforce's Secure Coding Guidelines catalogue the issues it finds most often (injection, XSS, CSRF, broken access control, insecure secrets) and note where the platform already helps.",
+      "kto:domain": "security-and-sharing",
+      "dcterms:created": "2026-11-16",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Secure Coding Guidelines",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/secure-coding/guide/secure-coding-guidelines.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Secure Server-Side Development: Write Secure Apex Controllers",
+          "dcterms:publisher": "Salesforce Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/secure-serverside-development/write-secure-apex-controllers",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Secure Coding SQL Injection",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/secure-coding/guide/secure-coding-sql-injection.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "ISVforce Guide: Prevent Secure Coding Violations — Cross-Site Request Forgery",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/isvforce/guide/secure-code-violation-request-forgery.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "OWASP Secure Coding Practices - Quick Reference Guide: Overview",
+          "dcterms:publisher": "OWASP",
+          "schema:url": "https://owasp.github.io/www-project-secure-coding-practices-quick-reference-guide/stable-en/03-appendices/03-overview.html",
+          "kto:sourceType": "community"
+        }
+      ],
+      "kto:file": "articles/security-and-sharing/secure-coding.md",
+      "skos:altLabel": [
+        "Secure Coding Guidelines",
+        "Salesforce Secure Coding Guide",
+        "secure development practices"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:shared-responsibility-model"
+        },
+        {
+          "@id": "kt:salesforce-platform"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:apex-user-mode"
+        },
+        {
+          "@id": "kt:apex-security-with-sharing"
+        },
+        {
+          "@id": "kt:appexchange-security-review"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:soql-injection"
+        },
+        {
+          "@id": "kt:cross-site-scripting"
+        }
+      ],
+      "kto:mitigates": [
+        {
+          "@id": "kt:data-breach-risk"
+        }
+      ]
+    },
+    {
       "@id": "kt:session-settings",
       "@type": "kto:SecurityControl",
       "skos:prefLabel": "Session Settings",
