@@ -3862,6 +3862,104 @@
       ]
     },
     {
+      "@id": "kt:flow-debugging",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Flow Debugging",
+      "skos:definition": "The Debug capability of Flow Builder, which runs a flow interview with chosen inputs, optionally as another user or in rollback mode, and shows element-by-element debug details, complemented by Workflow-category debug logs and flow error emails for failures outside the builder.",
+      "kto:domain": "automation",
+      "dcterms:created": "2026-11-16",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Make Sure Your Flow Works (Flow Testing and Distribution module)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/en/content/learn/modules/flow-testing-and-distribution/make-sure-your-flow-works",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Debug Flows as Another User (Flow Implementation 2 module)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/flow-implementation-2/debug-flows-as-another-user",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Fix Access Issues in a Flow (Flow Troubleshooting module)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/flow-troubleshooting/fix-access-issues-in-a-flow",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Process Automation Settings",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=platform.automation_about_settings.htm&amp=&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Working with Logs in the Developer Console (Apex Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.264.0.apexcode.meta/pages/apex_debugging_system_log_console.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Salesforce Winter '26 Release: The New Debug Panel in Flow Builder",
+          "dcterms:publisher": "Salesforce Ben",
+          "schema:url": "https://www.salesforceben.com/salesforce-winter-26-release-the-new-debug-panel-in-flow-builder/",
+          "kto:sourceType": "community"
+        }
+      ],
+      "kto:file": "articles/automation/flow-debugging.md",
+      "skos:altLabel": [
+        "debug a flow",
+        "Flow Builder debug",
+        "flow debug panel",
+        "debug flows as another user",
+        "flow debug details"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:flow-builder"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:flow-tests"
+        },
+        {
+          "@id": "kt:flow-fault-handling"
+        },
+        {
+          "@id": "kt:record-triggered-flow"
+        },
+        {
+          "@id": "kt:screen-flow"
+        },
+        {
+          "@id": "kt:process-automation-settings"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:process-automation-settings"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:salesforce-sharing-model"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:apex-logging-and-debug-logs"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:flow-tests"
+        }
+      ]
+    },
+    {
       "@id": "kt:flow-fault-handling",
       "@type": "kto:Pattern",
       "skos:prefLabel": "Flow Fault Handling",
