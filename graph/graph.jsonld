@@ -8568,6 +8568,97 @@
       ]
     },
     {
+      "@id": "kt:tableau-next",
+      "@type": "kto:Product",
+      "skos:prefLabel": "Tableau Next",
+      "skos:definition": "Salesforce's agentic, API-first analytics platform built on the Agentforce 360 Platform and Data 360: workspaces hold semantic models (Tableau Semantics), metrics, vizzes and dashboards over Data 360 objects, with Agentforce analytics skills and Slack and Flow actions built in.",
+      "kto:domain": "clouds-and-products",
+      "dcterms:created": "2026-11-16",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Tableau Next Overview",
+          "dcterms:publisher": "Tableau (Salesforce)",
+          "schema:url": "https://help.tableau.com/current/online/en-us/tableau_next_overview.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Tableau Next Features Overview",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/analytics/tableau-next-isv-dev/guide/tn-features-overview.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Get to Know Semantic Models (Semantic Models in Tableau Next: Quick Look)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/semantic-models-in-tableau-next-quick-look/get-to-know-semantic-models",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Learn the Basics of Tableau Semantics",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/tableau-semantics/learn-the-basics-of-tableau-semantics",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "What Is Tableau Next?",
+          "dcterms:publisher": "Tableau (Salesforce)",
+          "schema:url": "https://www.tableau.com/blog/what-is-tableau-next",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/clouds-and-products/tableau-next.md",
+      "skos:altLabel": [
+        "Tableau Next agentic analytics platform"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:tableau"
+        },
+        {
+          "@id": "kt:salesforce-analytics"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:crm-analytics"
+        },
+        {
+          "@id": "kt:data-model-objects"
+        },
+        {
+          "@id": "kt:slack-platform"
+        },
+        {
+          "@id": "kt:flow-builder"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:tableau"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:data-cloud"
+        },
+        {
+          "@id": "kt:data-spaces"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:tableau-semantics"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:agentforce"
+        }
+      ]
+    },
+    {
       "@id": "kt:tableau",
       "@type": "kto:Product",
       "skos:prefLabel": "Tableau",

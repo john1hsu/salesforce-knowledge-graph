@@ -4,12 +4,12 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
+| `kt:salesforce-analytics` | `kt:crm-analytics`, `kt:tableau`, `kt:tableau-next` |
 | `kt:streaming-api` | `kt:heroku-connect`, `kt:pub-sub-api` |
-| `kt:salesforce-analytics` | `kt:crm-analytics`, `kt:tableau` |
-| `kt:tableau-next` | `kt:digital-wallet`, `kt:tableau` |
+| `kt:tableau-semantics` | `kt:tableau`, `kt:tableau-next` |
 | `kt:flow-limits` | `kt:flow-bulkification`, `kt:flow-versioning` |
-| `kt:requirements-engineering` | `kt:non-functional-requirements`, `kt:requirements-gathering` |
 | `kt:customer-360` | `kt:commerce-cloud`, `kt:slack-platform` |
+| `kt:requirements-engineering` | `kt:non-functional-requirements`, `kt:requirements-gathering` |
 | `kt:unstructured-data-in-data-cloud` | `kt:agentforce-data-library`, `kt:vector-search-in-data-cloud` |
 | `kt:business-analyst` | `kt:requirements-gathering`, `kt:user-acceptance-testing` |
 | `kt:flow-loop-element` | `kt:collection-filter-and-sort`, `kt:transform-element` |
@@ -63,17 +63,16 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:salesforce-lightning-design-system` | `kt:visualforce` |
 | `kt:dynamic-revenue-orchestrator` | `kt:revenue-cloud` |
 | `kt:revenue-management-consultant-certification` | `kt:revenue-cloud` |
+| `kt:einstein-discovery` | `kt:crm-analytics` |
+| `kt:saql` | `kt:crm-analytics` |
 | `kt:api-experience-hub` | `kt:external-identity-license` |
 | `kt:customer-community-licenses` | `kt:external-identity-license` |
 | `kt:decision-tables` | `kt:salesforce-pricing` |
 | `kt:lightning-out` | `kt:lightning-locker` |
-| `kt:einstein-discovery` | `kt:crm-analytics` |
-| `kt:saql` | `kt:crm-analytics` |
+| `kt:tableau-pulse` | `kt:tableau` |
 | `kt:scim` | `kt:salesforce-scim` |
 | `kt:apex-rest-services` | `kt:remote-call-in` |
 | `kt:content-delivery-network` | `kt:salesforce-edge-network` |
-| `kt:tableau-pulse` | `kt:tableau` |
-| `kt:tableau-semantics` | `kt:tableau` |
 | `kt:json-web-token` | `kt:openid-connect` |
 | `kt:object-manager` | `kt:schema-builder` |
 | `kt:path` | `kt:business-processes` |
@@ -85,16 +84,16 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:opportunity-teams` | `kt:opportunity-splits` |
 | `kt:revenue-intelligence` | `kt:collaborative-forecasts` |
 | `kt:mulesoft-platform-integration-architect-certification` | `kt:mulesoft-platform-architect-certification` |
-| `kt:mutual-tls-authentication` | `kt:login-ip-ranges-and-trusted-ip-ranges` |
 | `kt:ingestion-api` | `kt:data-streams` |
+| `kt:mutual-tls-authentication` | `kt:login-ip-ranges-and-trusted-ip-ranges` |
 | `kt:generative-ai` | `kt:retrieval-augmented-generation-in-salesforce` |
 | `kt:corporate-governance` | `kt:governance-risk-and-compliance` |
 | `kt:application-network` | `kt:api-led-connectivity` |
 | `kt:point-to-point-integration` | `kt:api-led-connectivity` |
 | `kt:dynamic-actions` | `kt:dynamic-forms` |
 | `kt:dynamic-highlights-panel` | `kt:dynamic-forms` |
-| `kt:backup-and-recover-next` | `kt:backup-and-recover` |
 | `kt:data-actions` | `kt:streaming-insights` |
+| `kt:backup-and-recover-next` | `kt:backup-and-recover` |
 | `kt:automation-studio` | `kt:marketing-cloud-engagement` |
 | `kt:contact-builder` | `kt:marketing-cloud-engagement` |
 | `kt:journey-builder` | `kt:marketing-cloud-engagement` |
@@ -108,6 +107,10 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:salesforce-licensing` | `kt:user-licenses` |
 | `kt:actionable-relationship-center` | `kt:financial-services-cloud` |
 | `kt:compliant-data-sharing` | `kt:financial-services-cloud` |
+| `kt:block-kit` | `kt:slack-platform` |
+| `kt:mulesoft-composer` | `kt:slack-platform` |
+| `kt:slack-api-rate-limits` | `kt:slack-platform` |
+| `kt:slack-workflow-builder` | `kt:slack-platform` |
 | `kt:security-health-check` | `kt:session-settings` |
 | `kt:soc-1` | `kt:soc-2` |
 | `kt:trust-services-criteria` | `kt:soc-2` |
@@ -116,11 +119,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:static-resources` | `kt:cross-site-scripting` |
 | `kt:fhir` | `kt:health-cloud` |
 | `kt:utilization-management` | `kt:health-cloud` |
-| `kt:block-kit` | `kt:slack-platform` |
-| `kt:mulesoft-composer` | `kt:slack-platform` |
 | `kt:security-center` | `kt:continuous-monitoring` |
-| `kt:slack-api-rate-limits` | `kt:slack-platform` |
-| `kt:slack-workflow-builder` | `kt:slack-platform` |
 | `kt:security-stripinaccessible` | `kt:apex-user-mode` |
 | `kt:with-security-enforced` | `kt:apex-user-mode` |
 | `kt:multiple-currencies` | `kt:price-books` |
@@ -139,8 +138,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:business-process-mapping` | `kt:requirements-gathering` |
 | `kt:user-stories` | `kt:requirements-gathering` |
 | `kt:models-api` | `kt:ai-models` |
-| `kt:ldap` | `kt:delegated-authentication` |
 | `kt:apex-defined-types` | `kt:transform-element` |
+| `kt:ldap` | `kt:delegated-authentication` |
 | `kt:username-password-flow` | `kt:client-credentials-flow` |
 | `kt:agentforce-nonprofit-consultant-certification` | `kt:agentforce-nonprofit` |
 | `kt:nonprofit-success-pack` | `kt:agentforce-nonprofit` |
@@ -150,7 +149,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:salesforce-order-management` | `kt:commerce-cloud` |
 | `kt:api-access-control` | `kt:device-flow` |
 | `kt:digital-accessibility` | `kt:section-508-accessibility` |
-| `kt:greenhouse-gas-protocol` | `kt:net-zero-cloud` |
 | `kt:instance-refresh-and-org-migration` | `kt:trust-and-status-site` |
 | `kt:notes-and-attachments` | `kt:content-document-model` |
 | `kt:shared-activities` | `kt:activity-data-model` |
@@ -163,6 +161,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:business-architecture` | `kt:capability-maps` |
 | `kt:email-templates` | `kt:email-alerts` |
 | `kt:get-records-element` | `kt:collection-filter-and-sort` |
+| `kt:greenhouse-gas-protocol` | `kt:net-zero-cloud` |
 | `kt:heroku-fir` | `kt:heroku-architect-certification` |
 | `kt:organization-wide-email-addresses` | `kt:email-alerts` |
 | `kt:proof-of-concept` | `kt:total-cost-of-ownership` |
