@@ -3247,6 +3247,82 @@
       ]
     },
     {
+      "@id": "kt:collection-filter-and-sort",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Collection Filter and Collection Sort Elements",
+      "skos:definition": "Two Flow Builder logic elements that work on a collection variable already in memory: Collection Filter copies the items that meet conditions or a formula into a new collection, and Collection Sort reorders (and can truncate) the collection in place, without a new query or a Loop.",
+      "kto:domain": "automation",
+      "dcterms:created": "2026-11-16",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Organize Data in a Collection Variable (Multirecord Elements and Transforms in Flows)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/multirecord-elements-and-transforms-in-flows/organize-data-in-a-collection-variable",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Flow (Metadata API Developer Guide)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/platform/api-metadata/references/meta-types/metadata-flow.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Learn MOAR in Spring '22 with Flow Enhancements",
+          "dcterms:publisher": "Salesforce Admins",
+          "schema:url": "https://admin.salesforce.com/blog/2022/learn-moar-in-spring-22-with-flow-enhancements",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "How to Use the Collection Sort Element",
+          "dcterms:publisher": "Salesforce Time",
+          "schema:url": "https://salesforcetime.com/2023/08/15/how-to-use-the-collection-sort-element/",
+          "kto:sourceType": "community"
+        }
+      ],
+      "kto:file": "articles/automation/collection-filter-and-sort.md",
+      "skos:altLabel": [
+        "Collection Filter element",
+        "Collection Sort element",
+        "Flow collection processor",
+        "FlowCollectionProcessor",
+        "Collection Filter and Sort"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:flow-builder"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:transform-element"
+        },
+        {
+          "@id": "kt:flow-bulkification"
+        },
+        {
+          "@id": "kt:screen-flow"
+        },
+        {
+          "@id": "kt:einstein-next-best-action"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:flow-loop-element"
+        },
+        {
+          "@id": "kt:get-records-element"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:metadata-api"
+        }
+      ]
+    },
+    {
       "@id": "kt:einstein-next-best-action",
       "@type": "kto:Feature",
       "skos:prefLabel": "Einstein Next Best Action",

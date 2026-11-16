@@ -12,6 +12,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:customer-360` | `kt:commerce-cloud`, `kt:slack-platform` |
 | `kt:unstructured-data-in-data-cloud` | `kt:agentforce-data-library`, `kt:vector-search-in-data-cloud` |
 | `kt:business-analyst` | `kt:requirements-gathering`, `kt:user-acceptance-testing` |
+| `kt:flow-loop-element` | `kt:collection-filter-and-sort`, `kt:transform-element` |
 | `kt:salesforce-ecosystem-roles` | `kt:salesforce-architect` |
 | `kt:lightning-service-console` | `kt:service-cloud` |
 | `kt:service-setup-assistant` | `kt:service-cloud` |
@@ -45,8 +46,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:data-stewardship` | `kt:data-governance` |
 | `kt:data-import-wizard` | `kt:data-loader` |
 | `kt:zero-trust-architecture` | `kt:principle-of-least-privilege` |
-| `kt:iso-iec-27002` | `kt:iso-iec-27001` |
 | `kt:data-cloud-activation` | `kt:data-cloud-segmentation` |
+| `kt:iso-iec-27002` | `kt:iso-iec-27001` |
 | `kt:entitlement-process-metadata` | `kt:entitlement-management` |
 | `kt:dispatcher-console` | `kt:field-service` |
 | `kt:field-service-mobile-app` | `kt:field-service` |
@@ -139,22 +140,19 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:user-stories` | `kt:requirements-gathering` |
 | `kt:models-api` | `kt:ai-models` |
 | `kt:ldap` | `kt:delegated-authentication` |
+| `kt:apex-defined-types` | `kt:transform-element` |
 | `kt:username-password-flow` | `kt:client-credentials-flow` |
 | `kt:agentforce-nonprofit-consultant-certification` | `kt:agentforce-nonprofit` |
 | `kt:nonprofit-success-pack` | `kt:agentforce-nonprofit` |
-| `kt:apex-defined-types` | `kt:transform-element` |
-| `kt:flow-loop-element` | `kt:transform-element` |
+| `kt:einstein-prediction-builder` | `kt:einstein-next-best-action` |
 | `kt:b2b-commerce` | `kt:commerce-cloud` |
 | `kt:b2c-commerce` | `kt:commerce-cloud` |
 | `kt:salesforce-order-management` | `kt:commerce-cloud` |
 | `kt:api-access-control` | `kt:device-flow` |
 | `kt:digital-accessibility` | `kt:section-508-accessibility` |
-| `kt:einstein-prediction-builder` | `kt:einstein-next-best-action` |
-| `kt:email-templates` | `kt:email-alerts` |
 | `kt:greenhouse-gas-protocol` | `kt:net-zero-cloud` |
 | `kt:instance-refresh-and-org-migration` | `kt:trust-and-status-site` |
 | `kt:notes-and-attachments` | `kt:content-document-model` |
-| `kt:organization-wide-email-addresses` | `kt:email-alerts` |
 | `kt:shared-activities` | `kt:activity-data-model` |
 | `kt:tx-ramp` | `kt:govramp` |
 | `kt:ui-api` | `kt:field-dependencies` |
@@ -163,7 +161,10 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:b2c-commerce-architect-certification` | `kt:b2c-solution-architect-certification` |
 | `kt:business-analyst-certification` | `kt:user-acceptance-testing` |
 | `kt:business-architecture` | `kt:capability-maps` |
+| `kt:email-templates` | `kt:email-alerts` |
+| `kt:get-records-element` | `kt:collection-filter-and-sort` |
 | `kt:heroku-fir` | `kt:heroku-architect-certification` |
+| `kt:organization-wide-email-addresses` | `kt:email-alerts` |
 | `kt:proof-of-concept` | `kt:total-cost-of-ownership` |
 | `kt:technology-roadmaps` | `kt:capability-maps` |
 | `kt:twelve-factor-app` | `kt:heroku-architect-certification` |
