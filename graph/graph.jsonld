@@ -33035,6 +33035,89 @@
       ]
     },
     {
+      "@id": "kt:zero-trust-architecture",
+      "@type": "kto:ExternalConcept",
+      "skos:prefLabel": "Zero Trust Architecture",
+      "skos:definition": "A security architecture, defined by NIST SP 800-207, that grants no implicit trust based on network location and instead authenticates, authorizes and continually re-evaluates every access request to each resource; US federal agencies were directed toward it by OMB M-22-09, and it shapes how Salesforce orgs and Salesforce's own Hyperforce infrastructure are secured.",
+      "kto:domain": "public-sector-and-compliance",
+      "dcterms:created": "2026-11-16",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Zero Trust Architecture (NIST SP 800-207)",
+          "dcterms:publisher": "NIST",
+          "schema:url": "https://www.nist.gov/publications/zero-trust-architecture",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "NIST Special Publication 800-207, Zero Trust Architecture (PDF)",
+          "dcterms:publisher": "NIST",
+          "schema:url": "https://nvlpubs.nist.gov/nistpubs/specialpublications/NIST.SP.800-207.pdf",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "M-22-09, Moving the U.S. Government Toward Zero Trust Cybersecurity Principles",
+          "dcterms:publisher": "Office of Management and Budget, The White House",
+          "schema:url": "https://www.whitehouse.gov/wp-content/uploads/2022/01/M-22-09.pdf",
+          "kto:sourceType": "government"
+        },
+        {
+          "dcterms:title": "Identify Technologies Behind Zero Trust (Zero Trust Security Model module)",
+          "dcterms:publisher": "Salesforce Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/zero-trust-security-model/identify-technologies-behind-zero-trust",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Behind the Zero-Trust Infrastructure Powering Agentforce 360 Platform, Protecting 20 Trillion Transactions",
+          "dcterms:publisher": "Salesforce Engineering",
+          "schema:url": "https://engineering.salesforce.com/behind-the-zero-trust-infrastructure-powering-agentforce-360-platform-protecting-20-trillion-transactions/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Enhance Integration Security with mTLS for Salesforce and MuleSoft",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2025/10/enhance-integration-security-with-mtls-for-salesforce-and-mulesoft",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/public-sector-and-compliance/zero-trust-architecture.md",
+      "skos:altLabel": [
+        "zero trust",
+        "ZTA",
+        "NIST SP 800-207",
+        "zero trust security model",
+        "never trust always verify"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:security-compliance-frameworks"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:nist-sp-800-53"
+        },
+        {
+          "@id": "kt:shared-responsibility-model"
+        },
+        {
+          "@id": "kt:hyperforce"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:principle-of-least-privilege"
+        },
+        {
+          "@id": "kt:multi-factor-authentication"
+        },
+        {
+          "@id": "kt:mutual-tls-authentication"
+        }
+      ]
+    },
+    {
       "@id": "kt:apex-managed-sharing",
       "@type": "kto:SecurityControl",
       "skos:prefLabel": "Apex Managed Sharing",

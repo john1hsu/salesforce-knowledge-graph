@@ -9548,5 +9548,30 @@
       "https://www.salesforce.com/data/connectivity/zero-copy/",
       "https://docs.snowflake.com/en/user-guide/data-integration/zero-copy/salesforce/setup-salesforce"
     ]
+  },
+  {
+    "id": "kt:zero-trust-architecture",
+    "title": "Zero Trust Architecture",
+    "aliases": [
+      "zero trust",
+      "ZTA",
+      "NIST SP 800-207",
+      "zero trust security model",
+      "never trust always verify"
+    ],
+    "type": "ExternalConcept",
+    "domain": "public-sector-and-compliance",
+    "file": "articles/public-sector-and-compliance/zero-trust-architecture.md",
+    "created": "2026-11-16",
+    "release": "Winter '27",
+    "status": "concept",
+    "source_urls": [
+      "https://www.nist.gov/publications/zero-trust-architecture",
+      "https://nvlpubs.nist.gov/nistpubs/specialpublications/NIST.SP.800-207.pdf",
+      "https://www.whitehouse.gov/wp-content/uploads/2022/01/M-22-09.pdf",
+      "https://trailhead.salesforce.com/content/learn/modules/zero-trust-security-model/identify-technologies-behind-zero-trust",
+      "https://engineering.salesforce.com/behind-the-zero-trust-infrastructure-powering-agentforce-360-platform-protecting-20-trillion-transactions/",
+      "https://developer.salesforce.com/blogs/2025/10/enhance-integration-security-with-mtls-for-salesforce-and-mulesoft"
+    ]
   }
 ]
