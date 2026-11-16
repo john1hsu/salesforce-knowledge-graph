@@ -12343,6 +12343,9 @@
         },
         {
           "@id": "kt:dynamic-forms"
+        },
+        {
+          "@id": "kt:picklist-value-sets"
         }
       ],
       "kto:dependsOn": [
@@ -13920,6 +13923,98 @@
       "kto:consumedBy": [
         {
           "@id": "kt:financial-services-cloud"
+        }
+      ]
+    },
+    {
+      "@id": "kt:picklist-value-sets",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Picklist Value Sets",
+      "skos:definition": "Reusable lists of picklist values that are defined once and shared by several picklist fields: custom global value sets an admin creates, and the standard value sets behind standard picklists. Editing the set updates every field that uses it.",
+      "kto:domain": "data-model",
+      "dcterms:created": "2026-11-16",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Picklist Administration: Share Values with Global Value Sets",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/picklist_admin/picklist_admin_global",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Picklist Administration: Get Started with Picklists",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/picklist_admin/picklist_admin_start",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Metadata API Developer Guide: GlobalValueSet",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_globalvalueset.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Tooling API Developer Guide: GlobalValueSet",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api_tooling.meta/api_tooling/tooling_api_objects_globalvalueset.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Global Picklists: Define Globally, Use Locally",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2016/12/global-picklists-define-globally-use-locally",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Why does Connect fail to write a value in my Global Picklist?",
+          "dcterms:publisher": "Heroku Help",
+          "schema:url": "https://help.heroku.com/S35URKRN/why-does-connect-fail-to-write-a-value-in-my-global-picklist",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/data-model/picklist-value-sets.md",
+      "skos:altLabel": [
+        "global value set",
+        "global value sets",
+        "global picklist",
+        "global picklists",
+        "GlobalValueSet",
+        "standard value set",
+        "Promote to Global Value Set"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:custom-fields"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:field-dependencies"
+        },
+        {
+          "@id": "kt:data-quality"
+        },
+        {
+          "@id": "kt:standard-objects"
+        },
+        {
+          "@id": "kt:heroku-connect"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:metadata-api"
+        }
+      ],
+      "kto:queriedWith": [
+        {
+          "@id": "kt:tooling-api"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:record-types"
         }
       ]
     },
