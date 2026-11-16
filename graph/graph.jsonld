@@ -10,6 +10,93 @@
   },
   "@graph": [
     {
+      "@id": "kt:agentforce-architecture-patterns",
+      "@type": "kto:Pattern",
+      "skos:prefLabel": "Agentforce Architecture Patterns",
+      "skos:definition": "Salesforce Architects' catalog of reusable designs for Agentforce solutions: agent types (conversational, proactive, ambient, autonomous, collaborative), named agent roles such as Greeter, Operator, Orchestrator and Judge & Jury, multi-agent archetypes (SOMA, MOMA, multi-vendor A2A) and integration patterns over MCP and A2A.",
+      "kto:domain": "architecture-practice",
+      "dcterms:created": "2026-11-16",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Enterprise Agentic Architecture and Design Patterns",
+          "dcterms:publisher": "Salesforce Architects",
+          "schema:url": "https://architect.salesforce.com/fundamentals/enterprise-agentic-architecture",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Agentic Patterns",
+          "dcterms:publisher": "Salesforce Architects",
+          "schema:url": "https://architect.salesforce.com/fundamentals/agentic-patterns",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Agentic Integration Patterns",
+          "dcterms:publisher": "Salesforce Architects",
+          "schema:url": "https://architect.salesforce.com/docs/architect/fundamentals/guide/agentic-integration-patterns",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Determining Agentic vs. Traditional Workflow Automation (Decision Guide)",
+          "dcterms:publisher": "Salesforce Architects",
+          "schema:url": "https://architect.salesforce.com/docs/architect/decision-guides/guide/determining-agentic-vs-traditional-workflow-automation",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "How to Set Up a Super Agent with Connected Subagents",
+          "dcterms:publisher": "Salesforce Admins Blog",
+          "schema:url": "https://admin.salesforce.com/blog/2026/how-to-set-up-a-super-agent-with-connected-subagents",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/architecture-practice/agentforce-architecture-patterns.md",
+      "skos:altLabel": [
+        "agentic patterns",
+        "enterprise agentic architecture patterns",
+        "agentic design patterns",
+        "multi-agent architecture patterns",
+        "agentic integration patterns"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:agentforce"
+        },
+        {
+          "@id": "kt:solution-design-tradeoffs"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:agentforce-subagents"
+        },
+        {
+          "@id": "kt:agent-script"
+        },
+        {
+          "@id": "kt:architect-decision-guides"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:model-context-protocol-in-agentforce"
+        },
+        {
+          "@id": "kt:agent-to-agent-protocol"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:multi-agent-orchestration"
+        }
+      ],
+      "kto:usedBy": [
+        {
+          "@id": "kt:salesforce-architect"
+        }
+      ]
+    },
+    {
       "@id": "kt:application-architect-certification",
       "@type": "kto:Certification",
       "skos:prefLabel": "Application Architect Certification",
