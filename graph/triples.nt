@@ -8944,6 +8944,33 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/schema-builder> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#enables> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-architecture> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/schema-builder> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/schema-builder> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scoping-rules> <http://purl.org/dc/terms/created> "2026-11-16" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scoping-rules> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scoping-rules> <http://www.w3.org/2000/01/rdf-schema#label> "Scoping Rules" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scoping-rules> <http://www.w3.org/2004/02/skos/core#altLabel> "Filter by scope" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scoping-rules> <http://www.w3.org/2004/02/skos/core#altLabel> "USING SCOPE scopingRule" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scoping-rules> <http://www.w3.org/2004/02/skos/core#altLabel> "enforcementType Scoping" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scoping-rules> <http://www.w3.org/2004/02/skos/core#altLabel> "scoping rule" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scoping-rules> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-sharing-model> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scoping-rules> <http://www.w3.org/2004/02/skos/core#definition> "Admin-defined user and record criteria that set which records a user sees by default in list views, reports and SOQL on supported objects, without removing any access granted by the sharing model." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scoping-rules> <http://www.w3.org/2004/02/skos/core#prefLabel> "Scoping Rules" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scoping-rules> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/duplicate-management> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scoping-rules> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/large-data-volumes> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scoping-rules> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/organization-wide-defaults> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scoping-rules> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/screen-flow> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scoping-rules> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scoping-rules/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scoping-rules> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scoping-rules/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scoping-rules> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scoping-rules/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scoping-rules> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scoping-rules/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scoping-rules> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scoping-rules/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scoping-rules> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scoping-rules/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scoping-rules> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scoping-rules> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/tooling-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scoping-rules> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#contrastsWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/restriction-rules> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scoping-rules> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "security-and-sharing" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scoping-rules> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/soql> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scoping-rules> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scoping-rules> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/scratch-org-allocations> <http://purl.org/dc/terms/created> "2026-11-10" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/scratch-org-allocations> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Limit> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/scratch-org-allocations> <http://www.w3.org/2000/01/rdf-schema#label> "Scratch Org Allocations" .
@@ -18675,6 +18702,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/schema-builder/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/schema-builder/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/schema-builder/s5> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/platform-app-builder-pt2/platform-app-builder-data-modeling-and-management" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scoping-rules/s1> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scoping-rules/s1> <http://purl.org/dc/terms/title> "Scoping Rules (Scoping Rules Developer Guide, Winter '27)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scoping-rules/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scoping-rules/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scoping-rules/s1> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.264.0.scoping_rules.meta/scoping_rules/scoping_rules_about.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scoping-rules/s2> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scoping-rules/s2> <http://purl.org/dc/terms/title> "Considerations for Scoping Rules (Scoping Rules Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scoping-rules/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scoping-rules/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scoping-rules/s2> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.scoping_rules.meta/scoping_rules/scoping_rules_considerations.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scoping-rules/s3> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scoping-rules/s3> <http://purl.org/dc/terms/title> "Use the SOQL Operator in Scoping Rule Record Criteria (Scoping Rules Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scoping-rules/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scoping-rules/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scoping-rules/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.scoping_rules.meta/scoping_rules/scoping_rules_quickstart_use_soql_operator.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scoping-rules/s4> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scoping-rules/s4> <http://purl.org/dc/terms/title> "USING SCOPE (SOQL and SOSL Reference)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scoping-rules/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scoping-rules/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scoping-rules/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.soql_sosl.meta/api/sforce_api_calls_soql_select_using_scope.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scoping-rules/s5> <http://purl.org/dc/terms/publisher> "Salesforce Admins Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scoping-rules/s5> <http://purl.org/dc/terms/title> "Learn MOAR in Winter '23 with Scoping Rules" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scoping-rules/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scoping-rules/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scoping-rules/s5> <https://schema.org/url> "https://admin.salesforce.com/blog/2022/learn-moar-in-winter-23-with-scoping-rules" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scoping-rules/s6> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scoping-rules/s6> <http://purl.org/dc/terms/title> "Scoping Rule Examples (Scoping Rules Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scoping-rules/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scoping-rules/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scoping-rules/s6> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.scoping_rules.meta/scoping_rules/scoping_rules_examples.htm" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scratch-org-allocations/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scratch-org-allocations/s1> <http://purl.org/dc/terms/title> "Supported Scratch Org Editions and Allocations" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scratch-org-allocations/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

@@ -34094,6 +34094,98 @@
       ]
     },
     {
+      "@id": "kt:scoping-rules",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Scoping Rules",
+      "skos:definition": "Admin-defined user and record criteria that set which records a user sees by default in list views, reports and SOQL on supported objects, without removing any access granted by the sharing model.",
+      "kto:domain": "security-and-sharing",
+      "dcterms:created": "2026-11-16",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Scoping Rules (Scoping Rules Developer Guide, Winter '27)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.264.0.scoping_rules.meta/scoping_rules/scoping_rules_about.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Considerations for Scoping Rules (Scoping Rules Developer Guide)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.scoping_rules.meta/scoping_rules/scoping_rules_considerations.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Use the SOQL Operator in Scoping Rule Record Criteria (Scoping Rules Developer Guide)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.scoping_rules.meta/scoping_rules/scoping_rules_quickstart_use_soql_operator.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "USING SCOPE (SOQL and SOSL Reference)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.soql_sosl.meta/api/sforce_api_calls_soql_select_using_scope.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Learn MOAR in Winter '23 with Scoping Rules",
+          "dcterms:publisher": "Salesforce Admins Blog",
+          "schema:url": "https://admin.salesforce.com/blog/2022/learn-moar-in-winter-23-with-scoping-rules",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Scoping Rule Examples (Scoping Rules Developer Guide)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.scoping_rules.meta/scoping_rules/scoping_rules_examples.htm",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/security-and-sharing/scoping-rules.md",
+      "skos:altLabel": [
+        "scoping rule",
+        "enforcementType Scoping",
+        "Filter by scope",
+        "USING SCOPE scopingRule"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-sharing-model"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:organization-wide-defaults"
+        },
+        {
+          "@id": "kt:screen-flow"
+        },
+        {
+          "@id": "kt:duplicate-management"
+        },
+        {
+          "@id": "kt:large-data-volumes"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:restriction-rules"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:tooling-api"
+        },
+        {
+          "@id": "kt:metadata-api"
+        }
+      ],
+      "kto:queriedWith": [
+        {
+          "@id": "kt:soql"
+        }
+      ]
+    },
+    {
       "@id": "kt:session-settings",
       "@type": "kto:SecurityControl",
       "skos:prefLabel": "Session Settings",

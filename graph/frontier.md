@@ -27,7 +27,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:salesforce-architecture-program` | `kt:salesforce-architecture-center` |
 | `kt:platform-developer-ii-certification` | `kt:platform-developer-certification` |
 | `kt:salesforce-archive` | `kt:archiving-strategy` |
-| `kt:scoping-rules` | `kt:restriction-rules` |
 | `kt:prompt-injection` | `kt:einstein-trust-layer` |
 | `kt:mixed-dml-error` | `kt:future-methods` |
 | `kt:zero-copy-data-sharing` | `kt:zero-copy-data-federation` |
@@ -137,8 +136,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:business-process-mapping` | `kt:requirements-gathering` |
 | `kt:user-stories` | `kt:requirements-gathering` |
 | `kt:models-api` | `kt:ai-models` |
-| `kt:ldap` | `kt:delegated-authentication` |
 | `kt:apex-defined-types` | `kt:transform-element` |
+| `kt:ldap` | `kt:delegated-authentication` |
 | `kt:username-password-flow` | `kt:client-credentials-flow` |
 | `kt:data-cloud-triggered-flows` | `kt:data-actions` |
 | `kt:agentforce-nonprofit-consultant-certification` | `kt:agentforce-nonprofit` |
