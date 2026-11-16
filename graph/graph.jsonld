@@ -31237,6 +31237,90 @@
       ]
     },
     {
+      "@id": "kt:iso-iec-27002",
+      "@type": "kto:ExternalConcept",
+      "skos:prefLabel": "ISO/IEC 27002",
+      "skos:definition": "The ISO/IEC code of practice that supplies a reference set of 93 generic information security controls, each with a purpose and implementation guidance, used to select and implement controls within an ISO/IEC 27001 information security management system and extended for cloud services by ISO/IEC 27017.",
+      "kto:domain": "public-sector-and-compliance",
+      "dcterms:created": "2026-11-16",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "ISO/IEC 27002:2022 Information security, cybersecurity and privacy protection — Information security controls",
+          "dcterms:publisher": "IEC Webstore",
+          "schema:url": "https://webstore.iec.ch/en/publication/74287",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "ISO/IEC 27002:2022 — Understanding the Update",
+          "dcterms:publisher": "Cloud Security Alliance",
+          "schema:url": "https://cloudsecurityalliance.org/articles/iso-iec-27002-2022-understanding-the-update",
+          "kto:sourceType": "partner"
+        },
+        {
+          "dcterms:title": "Key Changes in ISO/IEC 27002:2022",
+          "dcterms:publisher": "SGS",
+          "schema:url": "https://www.sgs.com/en-ch/news/2022/07/key-changes-in-iso-iec-27002-2022",
+          "kto:sourceType": "partner"
+        },
+        {
+          "dcterms:title": "ISO 27017 — Salesforce Compliance",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://compliance.salesforce.com/en/iso-27017",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "General (not service specific) — Salesforce Compliance",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://compliance.salesforce.com/en/services/general",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "SP 800-53 Rev. 5, Security and Privacy Controls for Information Systems and Organizations (upd1)",
+          "dcterms:publisher": "NIST Computer Security Resource Center",
+          "schema:url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+          "kto:sourceType": "standards-body"
+        }
+      ],
+      "kto:file": "articles/public-sector-and-compliance/iso-iec-27002.md",
+      "skos:altLabel": [
+        "ISO 27002",
+        "ISO/IEC 27002:2022",
+        "Information security controls",
+        "ISO 27002 control catalog"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:security-compliance-frameworks"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:iso-iec-27017"
+        },
+        {
+          "@id": "kt:shared-responsibility-model"
+        },
+        {
+          "@id": "kt:hyperforce"
+        },
+        {
+          "@id": "kt:secure-coding"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:iso-iec-27001"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:nist-sp-800-53"
+        }
+      ]
+    },
+    {
       "@id": "kt:nist-cybersecurity-framework",
       "@type": "kto:ExternalConcept",
       "skos:prefLabel": "NIST Cybersecurity Framework",
