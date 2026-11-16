@@ -3353,6 +3353,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/distributed-computing> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/cap-theorem> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/distributed-computing> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/distributed-computing> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/divisions> <http://purl.org/dc/terms/created> "2026-11-16" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/divisions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/divisions> <http://www.w3.org/2000/01/rdf-schema#label> "Divisions" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/divisions> <http://www.w3.org/2004/02/skos/core#altLabel> "Division object" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/divisions> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce divisions" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/divisions> <http://www.w3.org/2004/02/skos/core#altLabel> "default division" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/divisions> <http://www.w3.org/2004/02/skos/core#altLabel> "global division" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/divisions> <http://www.w3.org/2004/02/skos/core#altLabel> "record divisions" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/divisions> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/large-data-volumes> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/divisions> <http://www.w3.org/2004/02/skos/core#definition> "A Salesforce feature, enabled by Customer Support for large orgs, that tags records with a logical segment of the org's data (such as a region or business unit) so searches, reports and list views can be pre-filtered to a smaller, more relevant set of records." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/divisions> <http://www.w3.org/2004/02/skos/core#prefLabel> "Divisions" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/divisions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-indexes> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/divisions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/skinny-tables> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/divisions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/standard-objects> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/divisions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/user-management> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/divisions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/divisions/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/divisions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/divisions/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/divisions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/divisions/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/divisions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/divisions/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/divisions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/divisions/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/divisions> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#contrastsWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-sharing-model> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/divisions> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "data-model" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/divisions> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/sosl> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/divisions> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/divisions> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/dod-cloud-computing-srg> <http://purl.org/dc/terms/created> "2026-11-03" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/dod-cloud-computing-srg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#ExternalConcept> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/dod-cloud-computing-srg> <http://www.w3.org/2000/01/rdf-schema#label> "DoD Cloud Computing Security Requirements Guide" .
@@ -5569,6 +5594,7 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/large-data-volumes> <http://www.w3.org/2004/02/skos/core#prefLabel> "Large Data Volumes" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/large-data-volumes> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/archiving-strategy> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/large-data-volumes> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-skew> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/large-data-volumes> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/divisions> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/large-data-volumes> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/multitenancy> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/large-data-volumes> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/large-data-volumes/s1> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/large-data-volumes> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/large-data-volumes/s2> .
@@ -13263,6 +13289,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/distributed-computing/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/distributed-computing/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/distributed-computing/s5> <https://schema.org/url> "https://engineering.salesforce.com/behind-the-scenes-of-hyperforce-salesforces-infrastructure-for-the-public-cloud-429309542d8e" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/divisions/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/divisions/s1> <http://purl.org/dc/terms/title> "Large Data Volumes Best Practices: Divisions" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/divisions/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/divisions/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/divisions/s1> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/salesforce-large-data-volumes-bp/guide/ldv-deployments-infrastructure-divisions.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/divisions/s2> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/divisions/s2> <http://purl.org/dc/terms/title> "Object Reference for the Salesforce Platform (Winter '27): Division" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/divisions/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/divisions/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/divisions/s2> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.264.0.object_reference.meta/object_reference/sforce_api_objects_division.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/divisions/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/divisions/s3> <http://purl.org/dc/terms/title> "SOQL and SOSL Reference: WITH DivisionFilter" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/divisions/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/divisions/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/divisions/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.252.0.soql_sosl.meta/soql_sosl/sforce_api_calls_sosl_with.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/divisions/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/divisions/s4> <http://purl.org/dc/terms/title> "Large Data Volumes Best Practices: Infrastructure for Systems with Large Data Volumes" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/divisions/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/divisions/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/divisions/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/salesforce-large-data-volumes-bp/guide/ldv-deployments-infrastructure-for-performance.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/divisions/s5> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/divisions/s5> <http://purl.org/dc/terms/title> "Large Data Volumes Best Practices: Searching" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/divisions/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/divisions/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/divisions/s5> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/salesforce-large-data-volumes-bp/guide/ldv-deployments-best-practices-searching.html" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dod-cloud-computing-srg/s1> <http://purl.org/dc/terms/publisher> "Defense Information Systems Agency (copy hosted by RMF.org)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dod-cloud-computing-srg/s1> <http://purl.org/dc/terms/title> "Cloud Service Provider Security Requirements Guide, Version 1, Release 2 (30 January 2025)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dod-cloud-computing-srg/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

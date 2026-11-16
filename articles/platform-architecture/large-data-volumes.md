@@ -11,7 +11,7 @@ summary: >-
 release: "Winter '27"
 status: concept
 broader: [kt:data-architecture]
-related: [kt:data-skew, kt:archiving-strategy, kt:multitenancy]
+related: [kt:data-skew, kt:archiving-strategy, kt:multitenancy, kt:divisions]
 relations:
   - {predicate: hasPart, object: kt:query-optimizer-selectivity}
   - {predicate: hasPart, object: kt:skinny-tables}

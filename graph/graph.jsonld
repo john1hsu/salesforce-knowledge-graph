@@ -13148,6 +13148,85 @@
       ]
     },
     {
+      "@id": "kt:divisions",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Divisions",
+      "skos:definition": "A Salesforce feature, enabled by Customer Support for large orgs, that tags records with a logical segment of the org's data (such as a region or business unit) so searches, reports and list views can be pre-filtered to a smaller, more relevant set of records.",
+      "kto:domain": "data-model",
+      "dcterms:created": "2026-11-16",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Large Data Volumes Best Practices: Divisions",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/salesforce-large-data-volumes-bp/guide/ldv-deployments-infrastructure-divisions.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Object Reference for the Salesforce Platform (Winter '27): Division",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.264.0.object_reference.meta/object_reference/sforce_api_objects_division.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "SOQL and SOSL Reference: WITH DivisionFilter",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.252.0.soql_sosl.meta/soql_sosl/sforce_api_calls_sosl_with.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Large Data Volumes Best Practices: Infrastructure for Systems with Large Data Volumes",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/salesforce-large-data-volumes-bp/guide/ldv-deployments-infrastructure-for-performance.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Large Data Volumes Best Practices: Searching",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/salesforce-large-data-volumes-bp/guide/ldv-deployments-best-practices-searching.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/data-model/divisions.md",
+      "skos:altLabel": [
+        "Salesforce divisions",
+        "Division object",
+        "record divisions",
+        "default division",
+        "global division"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:large-data-volumes"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:standard-objects"
+        },
+        {
+          "@id": "kt:user-management"
+        },
+        {
+          "@id": "kt:skinny-tables"
+        },
+        {
+          "@id": "kt:custom-indexes"
+        }
+      ],
+      "kto:queriedWith": [
+        {
+          "@id": "kt:sosl"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:salesforce-sharing-model"
+        }
+      ]
+    },
+    {
       "@id": "kt:duplicate-management",
       "@type": "kto:Feature",
       "skos:prefLabel": "Duplicate Management",
@@ -28147,6 +28226,9 @@
         },
         {
           "@id": "kt:multitenancy"
+        },
+        {
+          "@id": "kt:divisions"
         }
       ],
       "kto:hasPart": [
