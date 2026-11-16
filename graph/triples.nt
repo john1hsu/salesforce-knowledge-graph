@@ -7795,6 +7795,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/public-sector-solutions> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/public-sector-solutions> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/public-sector-solutions> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/push-upgrades> <http://purl.org/dc/terms/created> "2026-11-16" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/push-upgrades> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/push-upgrades> <http://www.w3.org/2000/01/rdf-schema#label> "Push Upgrades" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/push-upgrades> <http://www.w3.org/2004/02/skos/core#altLabel> "Push Upgrade Exclusion List" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/push-upgrades> <http://www.w3.org/2004/02/skos/core#altLabel> "customized push upgrades" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/push-upgrades> <http://www.w3.org/2004/02/skos/core#altLabel> "package push upgrade" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/push-upgrades> <http://www.w3.org/2004/02/skos/core#altLabel> "push package upgrade" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/push-upgrades> <http://www.w3.org/2004/02/skos/core#altLabel> "push upgrade" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/push-upgrades> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/application-lifecycle-management> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/push-upgrades> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/release-management> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/push-upgrades> <http://www.w3.org/2004/02/skos/core#definition> "A packaging capability that lets a package owner upgrade installed managed or unlocked packages in chosen subscriber orgs to a chosen version at a scheduled time, without the subscriber installing anything; driven from the UI (1GP), Salesforce CLI (2GP and unlocked) or SOAP API objects such as PackagePushRequest and PackagePushJob." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/push-upgrades> <http://www.w3.org/2004/02/skos/core#prefLabel> "Push Upgrades" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/push-upgrades> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/first-generation-managed-packages> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/push-upgrades> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/package-versioning-and-ancestry> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/push-upgrades> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/post-install-scripts> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/push-upgrades> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/second-generation-managed-packages> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/push-upgrades> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/unlocked-packages> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/push-upgrades> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/push-upgrades/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/push-upgrades> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/push-upgrades/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/push-upgrades> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/push-upgrades/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/push-upgrades> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/push-upgrades/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/push-upgrades> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/push-upgrades/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/push-upgrades> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/push-upgrades/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/push-upgrades> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-cli> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/push-upgrades> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/soap-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/push-upgrades> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/appexchange-security-review> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/push-upgrades> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/dev-hub> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/push-upgrades> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "devops-and-alm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/push-upgrades> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/push-upgrades> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/query-optimizer-selectivity> <http://purl.org/dc/terms/created> "2026-11-04" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/query-optimizer-selectivity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/query-optimizer-selectivity> <http://www.w3.org/2000/01/rdf-schema#label> "Query Optimizer Selectivity" .
@@ -17879,6 +17909,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/public-sector-solutions/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/public-sector-solutions/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/public-sector-solutions/s6> <https://schema.org/url> "https://resources.docs.salesforce.com/latest/latest/en-us/sfdc/pdf/admin_public_sector_cloud.pdf" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/push-upgrades/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/push-upgrades/s1> <http://purl.org/dc/terms/title> "Push a Package Upgrade for Second-Generation Managed Packages" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/push-upgrades/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/push-upgrades/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/push-upgrades/s1> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/push_upgrade_intro_2GP.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/push-upgrades/s2> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/push-upgrades/s2> <http://purl.org/dc/terms/title> "Schedule a Push Upgrade Using CLI" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/push-upgrades/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/push-upgrades/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/push-upgrades/s2> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/pkg2-dev/guide/push-upgrade-cli.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/push-upgrades/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/push-upgrades/s3> <http://purl.org/dc/terms/title> "Schedule a Push Upgrade Using SOAP API for First- and Second-Generation Managed Packages" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/push-upgrades/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/push-upgrades/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/push-upgrades/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.pkg2_dev.meta/pkg2_dev/push_upgrade_use_api.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/push-upgrades/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/push-upgrades/s4> <http://purl.org/dc/terms/title> "Enable a Package Subscriber to Restrict Push Upgrades" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/push-upgrades/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/push-upgrades/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/push-upgrades/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/pkg2-dev/guide/push-upgrade-customized.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/push-upgrades/s5> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/push-upgrades/s5> <http://purl.org/dc/terms/title> "Push Package Upgrades to Subscribers (First-Generation Managed Packaging Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/push-upgrades/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/push-upgrades/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/push-upgrades/s5> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/pkg1-dev/guide/push-upgrade-intro.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/push-upgrades/s6> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/push-upgrades/s6> <http://purl.org/dc/terms/title> "Push Upgrades (First-Generation Managed Packaging Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/push-upgrades/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/push-upgrades/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/push-upgrades/s6> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/pkg1-dev/guide/packaging-push-about.html" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/query-optimizer-selectivity/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/query-optimizer-selectivity/s1> <http://purl.org/dc/terms/title> "Apex Developer Guide: Working with Very Large SOQL Queries" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/query-optimizer-selectivity/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

@@ -20017,6 +20017,103 @@
       ]
     },
     {
+      "@id": "kt:push-upgrades",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Push Upgrades",
+      "skos:definition": "A packaging capability that lets a package owner upgrade installed managed or unlocked packages in chosen subscriber orgs to a chosen version at a scheduled time, without the subscriber installing anything; driven from the UI (1GP), Salesforce CLI (2GP and unlocked) or SOAP API objects such as PackagePushRequest and PackagePushJob.",
+      "kto:domain": "devops-and-alm",
+      "dcterms:created": "2026-11-16",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Push a Package Upgrade for Second-Generation Managed Packages",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/push_upgrade_intro_2GP.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Schedule a Push Upgrade Using CLI",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/pkg2-dev/guide/push-upgrade-cli.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Schedule a Push Upgrade Using SOAP API for First- and Second-Generation Managed Packages",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.pkg2_dev.meta/pkg2_dev/push_upgrade_use_api.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Enable a Package Subscriber to Restrict Push Upgrades",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/pkg2-dev/guide/push-upgrade-customized.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Push Package Upgrades to Subscribers (First-Generation Managed Packaging Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/pkg1-dev/guide/push-upgrade-intro.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Push Upgrades (First-Generation Managed Packaging Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/pkg1-dev/guide/packaging-push-about.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/devops-and-alm/push-upgrades.md",
+      "skos:altLabel": [
+        "push upgrade",
+        "package push upgrade",
+        "push package upgrade",
+        "customized push upgrades",
+        "Push Upgrade Exclusion List"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:release-management"
+        },
+        {
+          "@id": "kt:application-lifecycle-management"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:second-generation-managed-packages"
+        },
+        {
+          "@id": "kt:first-generation-managed-packages"
+        },
+        {
+          "@id": "kt:unlocked-packages"
+        },
+        {
+          "@id": "kt:package-versioning-and-ancestry"
+        },
+        {
+          "@id": "kt:post-install-scripts"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:appexchange-security-review"
+        },
+        {
+          "@id": "kt:dev-hub"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:salesforce-cli"
+        },
+        {
+          "@id": "kt:soap-api"
+        }
+      ]
+    },
+    {
       "@id": "kt:release-management",
       "@type": "kto:Concept",
       "skos:prefLabel": "Release Management",

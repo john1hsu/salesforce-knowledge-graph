@@ -52,8 +52,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:work-orders` | `kt:field-service` |
 | `kt:certificate-and-key-management` | `kt:custom-domains` |
 | `kt:salesforce-sites` | `kt:custom-domains` |
-| `kt:salesforce-lightning-design-system` | `kt:visualforce` |
 | `kt:apex-mocks` | `kt:apex-enterprise-patterns` |
+| `kt:salesforce-lightning-design-system` | `kt:visualforce` |
 | `kt:einstein-discovery` | `kt:crm-analytics` |
 | `kt:saql` | `kt:crm-analytics` |
 | `kt:omnistudio-consultant-certification` | `kt:omnistudio` |
@@ -64,8 +64,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:revenue-management-consultant-certification` | `kt:revenue-cloud` |
 | `kt:lightning-out` | `kt:lightning-locker` |
 | `kt:tableau-pulse` | `kt:tableau` |
-| `kt:scim` | `kt:salesforce-scim` |
 | `kt:apex-rest-services` | `kt:remote-call-in` |
+| `kt:scim` | `kt:salesforce-scim` |
 | `kt:content-delivery-network` | `kt:salesforce-edge-network` |
 | `kt:pushtopic-streaming-allocations` | `kt:streaming-api` |
 | `kt:json-web-token` | `kt:openid-connect` |
@@ -80,9 +80,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:rest-api-limits-resource` | `kt:orglimits-class` |
 | `kt:opportunity-teams` | `kt:opportunity-splits` |
 | `kt:revenue-intelligence` | `kt:collaborative-forecasts` |
-| `kt:batch-apex-error-event` | `kt:transaction-finalizers` |
 | `kt:it-governance` | `kt:salesforce-governance` |
 | `kt:security-governance` | `kt:salesforce-governance` |
+| `kt:batch-apex-error-event` | `kt:transaction-finalizers` |
 | `kt:constraint-modeling-language` | `kt:product-configurator` |
 | `kt:product-catalog-management` | `kt:product-configurator` |
 | `kt:ingestion-api` | `kt:data-streams` |
@@ -98,9 +98,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:point-to-point-integration` | `kt:api-led-connectivity` |
 | `kt:agentexchange-go-to-market-app` | `kt:agentexchange` |
 | `kt:apexguru` | `kt:scale-test` |
+| `kt:scale-center` | `kt:scale-test` |
 | `kt:dynamic-actions` | `kt:dynamic-forms` |
 | `kt:dynamic-highlights-panel` | `kt:dynamic-forms` |
-| `kt:scale-center` | `kt:scale-test` |
 | `kt:backup-and-recover-next` | `kt:backup-and-recover` |
 | `kt:static-resources` | `kt:cross-site-scripting` |
 | `kt:actionable-relationship-center` | `kt:financial-services-cloud` |
@@ -109,9 +109,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:mulesoft-composer` | `kt:slack-platform` |
 | `kt:slack-api-rate-limits` | `kt:slack-platform` |
 | `kt:slack-workflow-builder` | `kt:slack-platform` |
+| `kt:security-health-check` | `kt:session-settings` |
 | `kt:soc-1` | `kt:soc-2` |
 | `kt:trust-services-criteria` | `kt:soc-2` |
-| `kt:security-health-check` | `kt:session-settings` |
 | `kt:fhir` | `kt:health-cloud` |
 | `kt:utilization-management` | `kt:health-cloud` |
 | `kt:security-center` | `kt:continuous-monitoring` |
@@ -141,8 +141,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:nonprofit-success-pack` | `kt:agentforce-nonprofit` |
 | `kt:ui-api` | `kt:field-dependencies` |
 | `kt:einstein-prediction-builder` | `kt:einstein-next-best-action` |
-| `kt:business-analyst-certification` | `kt:user-acceptance-testing` |
 | `kt:web-server-flow` | `kt:device-flow` |
+| `kt:business-analyst-certification` | `kt:user-acceptance-testing` |
 | `kt:b2b-commerce` | `kt:commerce-cloud` |
 | `kt:b2c-commerce` | `kt:commerce-cloud` |
 | `kt:salesforce-order-management` | `kt:commerce-cloud` |
@@ -160,6 +160,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:heroku-fir` | `kt:heroku-architect-certification` |
 | `kt:notes-and-attachments` | `kt:content-document-model` |
 | `kt:organization-wide-email-addresses` | `kt:email-alerts` |
+| `kt:post-install-scripts` | `kt:push-upgrades` |
 | `kt:shared-activities` | `kt:activity-data-model` |
 | `kt:technology-roadmaps` | `kt:capability-maps` |
 | `kt:twelve-factor-app` | `kt:heroku-architect-certification` |
