@@ -5,7 +5,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | Node | Referenced by |
 |---|---|
 | `kt:salesforce-analytics` | `kt:crm-analytics`, `kt:tableau`, `kt:tableau-next` |
-| `kt:streaming-api` | `kt:heroku-connect`, `kt:pub-sub-api` |
 | `kt:data-cloud-activation` | `kt:data-actions`, `kt:data-cloud-segmentation` |
 | `kt:tableau-semantics` | `kt:tableau`, `kt:tableau-next` |
 | `kt:flow-limits` | `kt:flow-bulkification`, `kt:flow-versioning` |
@@ -23,9 +22,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:process-integration` | `kt:data-integration` |
 | `kt:transaction-finalizers` | `kt:queueable-apex` |
 | `kt:mule-runtime-engine` | `kt:mulesoft-anypoint-platform` |
+| `kt:managed-event-subscriptions` | `kt:pub-sub-api` |
 | `kt:legacy-named-credentials` | `kt:named-credentials` |
 | `kt:salesforce-architecture-program` | `kt:salesforce-architecture-center` |
-| `kt:managed-event-subscriptions` | `kt:pub-sub-api` |
 | `kt:platform-developer-ii-certification` | `kt:platform-developer-certification` |
 | `kt:salesforce-archive` | `kt:archiving-strategy` |
 | `kt:prompt-injection` | `kt:einstein-trust-layer` |
@@ -66,12 +65,13 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:decision-tables` | `kt:salesforce-pricing` |
 | `kt:lightning-out` | `kt:lightning-locker` |
 | `kt:tableau-pulse` | `kt:tableau` |
-| `kt:scim` | `kt:salesforce-scim` |
 | `kt:apex-rest-services` | `kt:remote-call-in` |
+| `kt:scim` | `kt:salesforce-scim` |
 | `kt:content-delivery-network` | `kt:salesforce-edge-network` |
+| `kt:pushtopic-streaming-allocations` | `kt:streaming-api` |
 | `kt:json-web-token` | `kt:openid-connect` |
-| `kt:path` | `kt:business-processes` |
 | `kt:object-manager` | `kt:schema-builder` |
+| `kt:path` | `kt:business-processes` |
 | `kt:salesforce-ecosystem` | `kt:salesforce-inc` |
 | `kt:rest-api-limits-resource` | `kt:orglimits-class` |
 | `kt:it-governance` | `kt:salesforce-governance` |
@@ -80,8 +80,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:revenue-intelligence` | `kt:collaborative-forecasts` |
 | `kt:constraint-modeling-language` | `kt:product-configurator` |
 | `kt:product-catalog-management` | `kt:product-configurator` |
-| `kt:ingestion-api` | `kt:data-streams` |
+| `kt:heroku-postgres` | `kt:heroku-connect` |
 | `kt:mulesoft-platform-integration-architect-certification` | `kt:mulesoft-platform-architect-certification` |
+| `kt:ingestion-api` | `kt:data-streams` |
 | `kt:mutual-tls-authentication` | `kt:login-ip-ranges-and-trusted-ip-ranges` |
 | `kt:corporate-governance` | `kt:governance-risk-and-compliance` |
 | `kt:generative-ai` | `kt:retrieval-augmented-generation-in-salesforce` |
@@ -100,7 +101,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:apexguru` | `kt:scale-test` |
 | `kt:scale-center` | `kt:scale-test` |
 | `kt:backup-and-recover-next` | `kt:backup-and-recover` |
-| `kt:heroku-postgres` | `kt:heroku-connect` |
 | `kt:agentexchange-go-to-market-app` | `kt:agentexchange` |
 | `kt:actionable-relationship-center` | `kt:financial-services-cloud` |
 | `kt:compliant-data-sharing` | `kt:financial-services-cloud` |

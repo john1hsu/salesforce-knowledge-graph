@@ -26650,6 +26650,105 @@
       ]
     },
     {
+      "@id": "kt:streaming-api",
+      "@type": "kto:API",
+      "skos:prefLabel": "Streaming API",
+      "skos:definition": "Salesforce's original push-style event API: clients use CometD over the Bayeux protocol (HTTP long polling) to subscribe to channels for platform events, change data capture events and the legacy PushTopic and generic events, receiving notifications in near real time instead of polling for changes.",
+      "kto:domain": "integration",
+      "dcterms:created": "2026-11-16",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Getting Started with Streaming API (Streaming API Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/api-streaming/guide/intro-stream.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "PushTopic Events (Legacy)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api_streaming.meta/api_streaming/pushtopic_events_intro.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "PushTopic Streaming Allocations",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api_streaming.meta/api_streaming/limits.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Generic Events (Legacy)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api_streaming.meta/api_streaming/generic_streaming_intro.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Streaming Event Features",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api_streaming.meta/api_streaming/event_comparison.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Subscribe to Platform Event Notifications with CometD (Platform Events Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.platform_events.meta/platform_events/platform_events_subscribe_cometd.htm",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/integration/streaming-api.md",
+      "skos:altLabel": [
+        "Salesforce Streaming API",
+        "CometD Streaming API",
+        "Bayeux Streaming API"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-apis"
+        },
+        {
+          "@id": "kt:event-driven-architecture"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:platform-events"
+        },
+        {
+          "@id": "kt:change-data-capture"
+        },
+        {
+          "@id": "kt:pub-sub-api"
+        },
+        {
+          "@id": "kt:heroku-connect"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:pub-sub-api"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:platform-events"
+        },
+        {
+          "@id": "kt:change-data-capture"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:pushtopic-streaming-allocations"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:salesforce-sharing-model"
+        }
+      ]
+    },
+    {
       "@id": "kt:user-interface-api",
       "@type": "kto:API",
       "skos:prefLabel": "User Interface API",
