@@ -27678,6 +27678,106 @@
       ]
     },
     {
+      "@id": "kt:content-delivery-network",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Content Delivery Network",
+      "skos:definition": "A distributed set of caching servers that delivers publicly cacheable content from locations close to users; in Salesforce it appears as the partner-run Salesforce CDN for Experience Cloud and custom domains, the option to front a custom domain with a third-party CDN, and the Lightning CDN that serves framework JavaScript and CSS.",
+      "kto:domain": "platform-architecture",
+      "dcterms:created": "2026-11-16",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Content Delivery Networks (CDNs) and Salesforce",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=platform.community_builder_cdn_overview.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Considerations for the Salesforce CDN",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=sf.community_builder_cdn_considerations.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Options to Serve a Custom Domain",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=platform.domain_mgmt_domain_config_options.htm&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Enable CDN to Load Applications Faster",
+          "dcterms:publisher": "Salesforce Developers (Lightning Web Components Developer Guide)",
+          "schema:url": "https://developer.salesforce.com/docs/platform/lwc/guide/perf-cdn.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Which Performance Tools Do I Need Based on My Experience Cloud Site?",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=sf.exp_cloud_site_use_cases.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "RFC 9111: HTTP Caching",
+          "dcterms:publisher": "IETF (RFC Editor)",
+          "schema:url": "https://www.rfc-editor.org/rfc/rfc9111",
+          "kto:sourceType": "standards-body"
+        }
+      ],
+      "kto:file": "articles/platform-architecture/content-delivery-network.md",
+      "skos:altLabel": [
+        "CDN",
+        "Salesforce CDN",
+        "Lightning CDN",
+        "content delivery networks in Salesforce"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-platform"
+        },
+        {
+          "@id": "kt:distributed-computing"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:salesforce-edge-network"
+        },
+        {
+          "@id": "kt:custom-domains"
+        },
+        {
+          "@id": "kt:experience-cloud"
+        },
+        {
+          "@id": "kt:platform-cache"
+        },
+        {
+          "@id": "kt:session-settings"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:experience-cloud"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:custom-domains"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:salesforce-edge-network"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:session-settings"
+        }
+      ]
+    },
+    {
       "@id": "kt:custom-index-limits",
       "@type": "kto:Limit",
       "skos:prefLabel": "Custom Index Limits",

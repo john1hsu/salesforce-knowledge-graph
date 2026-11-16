@@ -2018,6 +2018,35 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/contacts-to-multiple-accounts> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/change-data-capture> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/contacts-to-multiple-accounts> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/contacts-to-multiple-accounts> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/content-delivery-network> <http://purl.org/dc/terms/created> "2026-11-16" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/content-delivery-network> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/content-delivery-network> <http://www.w3.org/2000/01/rdf-schema#label> "Content Delivery Network" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/content-delivery-network> <http://www.w3.org/2004/02/skos/core#altLabel> "CDN" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/content-delivery-network> <http://www.w3.org/2004/02/skos/core#altLabel> "Lightning CDN" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/content-delivery-network> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce CDN" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/content-delivery-network> <http://www.w3.org/2004/02/skos/core#altLabel> "content delivery networks in Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/content-delivery-network> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/distributed-computing> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/content-delivery-network> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-platform> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/content-delivery-network> <http://www.w3.org/2004/02/skos/core#definition> "A distributed set of caching servers that delivers publicly cacheable content from locations close to users; in Salesforce it appears as the partner-run Salesforce CDN for Experience Cloud and custom domains, the option to front a custom domain with a third-party CDN, and the Lightning CDN that serves framework JavaScript and CSS." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/content-delivery-network> <http://www.w3.org/2004/02/skos/core#prefLabel> "Content Delivery Network" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/content-delivery-network> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-domains> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/content-delivery-network> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/experience-cloud> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/content-delivery-network> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-cache> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/content-delivery-network> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-edge-network> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/content-delivery-network> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/session-settings> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/content-delivery-network> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/content-delivery-network/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/content-delivery-network> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/content-delivery-network/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/content-delivery-network> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/content-delivery-network/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/content-delivery-network> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/content-delivery-network/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/content-delivery-network> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/content-delivery-network/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/content-delivery-network> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/content-delivery-network/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/content-delivery-network> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/session-settings> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/content-delivery-network> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#consumedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/experience-cloud> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/content-delivery-network> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#contrastsWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-edge-network> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/content-delivery-network> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-domains> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/content-delivery-network> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "platform-architecture" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/content-delivery-network> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/content-delivery-network> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/content-document-model> <http://purl.org/dc/terms/created> "2026-11-12" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/content-document-model> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/content-document-model> <http://www.w3.org/2000/01/rdf-schema#label> "Content Document Model" .
@@ -12015,6 +12044,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/contacts-to-multiple-accounts/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/contacts-to-multiple-accounts/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/contacts-to-multiple-accounts/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.health_cloud.meta/null/enable_shared_contacts.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/content-delivery-network/s1> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/content-delivery-network/s1> <http://purl.org/dc/terms/title> "Content Delivery Networks (CDNs) and Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/content-delivery-network/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/content-delivery-network/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/content-delivery-network/s1> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=platform.community_builder_cdn_overview.htm&language=en_US&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/content-delivery-network/s2> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/content-delivery-network/s2> <http://purl.org/dc/terms/title> "Considerations for the Salesforce CDN" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/content-delivery-network/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/content-delivery-network/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/content-delivery-network/s2> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=sf.community_builder_cdn_considerations.htm&language=en_US&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/content-delivery-network/s3> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/content-delivery-network/s3> <http://purl.org/dc/terms/title> "Options to Serve a Custom Domain" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/content-delivery-network/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/content-delivery-network/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/content-delivery-network/s3> <https://schema.org/url> "https://help.salesforce.com/s/articleView?language=en_US&id=platform.domain_mgmt_domain_config_options.htm&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/content-delivery-network/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers (Lightning Web Components Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/content-delivery-network/s4> <http://purl.org/dc/terms/title> "Enable CDN to Load Applications Faster" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/content-delivery-network/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/content-delivery-network/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/content-delivery-network/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/lwc/guide/perf-cdn.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/content-delivery-network/s5> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/content-delivery-network/s5> <http://purl.org/dc/terms/title> "Which Performance Tools Do I Need Based on My Experience Cloud Site?" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/content-delivery-network/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/content-delivery-network/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/content-delivery-network/s5> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=sf.exp_cloud_site_use_cases.htm&language=en_US&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/content-delivery-network/s6> <http://purl.org/dc/terms/publisher> "IETF (RFC Editor)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/content-delivery-network/s6> <http://purl.org/dc/terms/title> "RFC 9111: HTTP Caching" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/content-delivery-network/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/content-delivery-network/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "standards-body" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/content-delivery-network/s6> <https://schema.org/url> "https://www.rfc-editor.org/rfc/rfc9111" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/content-document-model/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/content-document-model/s1> <http://purl.org/dc/terms/title> "Object Reference: ContentDocument" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/content-document-model/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
