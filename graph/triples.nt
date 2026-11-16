@@ -4711,6 +4711,29 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/heroku-architect-certification> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-architect-certification> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/heroku-architect-certification> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/heroku-architect-certification> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/heroku-connect> <http://purl.org/dc/terms/created> "2026-11-16" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/heroku-connect> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/heroku-connect> <http://www.w3.org/2000/01/rdf-schema#label> "Heroku Connect" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/heroku-connect> <http://www.w3.org/2004/02/skos/core#altLabel> "Heroku Connect add-on" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/heroku-connect> <http://www.w3.org/2004/02/skos/core#altLabel> "herokuconnect add-on" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/heroku-connect> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-integration> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/heroku-connect> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/heroku> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/heroku-connect> <http://www.w3.org/2004/02/skos/core#definition> "A Heroku add-on that replicates Salesforce object data into tables in a Heroku Postgres database, one-way or bidirectionally, so Heroku apps can read and write CRM data with plain SQL while Connect polls Salesforce for changes and pushes database edits back through the SOAP or Bulk API." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/heroku-connect> <http://www.w3.org/2004/02/skos/core#prefLabel> "Heroku Connect" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/heroku-connect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/batch-data-synchronization> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/heroku-connect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/heroku-applink> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/heroku-connect> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/heroku-connect/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/heroku-connect> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/heroku-connect/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/heroku-connect> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/heroku-connect/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/heroku-connect> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/heroku-connect/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/heroku-connect> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/heroku-connect/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/heroku-connect> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#alternativeTo> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-connect> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/heroku-connect> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/heroku-postgres> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/heroku-connect> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "integration" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/heroku-connect> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/change-data-capture> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/heroku-connect> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/streaming-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/heroku-connect> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/heroku-connect> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/heroku> <http://purl.org/dc/terms/created> "2026-11-13" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/heroku> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Product> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/heroku> <http://www.w3.org/2000/01/rdf-schema#label> "Heroku" .
@@ -14268,6 +14291,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/heroku-architect-certification/s8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/heroku-architect-certification/s8> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/heroku-architect-certification/s8> <https://schema.org/url> "https://www.heroku.com/heroku-learning-journey" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/heroku-connect/s1> <http://purl.org/dc/terms/publisher> "Heroku Dev Center (Salesforce)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/heroku-connect/s1> <http://purl.org/dc/terms/title> "Heroku Connect" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/heroku-connect/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/heroku-connect/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/heroku-connect/s1> <https://schema.org/url> "https://devcenter.heroku.com/articles/herokuconnect" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/heroku-connect/s2> <http://purl.org/dc/terms/publisher> "Heroku Dev Center (Salesforce)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/heroku-connect/s2> <http://purl.org/dc/terms/title> "Writing Data to Salesforce with Heroku Connect" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/heroku-connect/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/heroku-connect/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/heroku-connect/s2> <https://schema.org/url> "https://devcenter.heroku.com/articles/writing-data-to-salesforce-with-heroku-connect" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/heroku-connect/s3> <http://purl.org/dc/terms/publisher> "Heroku Dev Center (Salesforce)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/heroku-connect/s3> <http://purl.org/dc/terms/title> "Heroku Connect Mapping Configuration Options" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/heroku-connect/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/heroku-connect/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/heroku-connect/s3> <https://schema.org/url> "https://devcenter.heroku.com/articles/mapping-configuration-options" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/heroku-connect/s4> <http://purl.org/dc/terms/publisher> "Trailhead (Salesforce)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/heroku-connect/s4> <http://purl.org/dc/terms/title> "Integrate Salesforce and Heroku with Heroku Connect (Salesforce & Heroku Integration)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/heroku-connect/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/heroku-connect/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/heroku-connect/s4> <https://schema.org/url> "https://trailhead.salesforce.com/salesforce_heroku_integration/integrating_with_heroku_connect" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/heroku-connect/s5> <http://purl.org/dc/terms/publisher> "Heroku Dev Center changelog (Salesforce)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/heroku-connect/s5> <http://purl.org/dc/terms/title> "Change Data Capture for accelerated polling is now available for all Heroku Connect customers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/heroku-connect/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/heroku-connect/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/heroku-connect/s5> <https://schema.org/url> "https://devcenter.heroku.com/changelog-items/3432" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/heroku/s1> <http://purl.org/dc/terms/publisher> "Heroku Dev Center (Salesforce)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/heroku/s1> <http://purl.org/dc/terms/title> "How Heroku Works" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/heroku/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

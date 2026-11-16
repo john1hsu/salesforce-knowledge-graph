@@ -24380,6 +24380,87 @@
       ]
     },
     {
+      "@id": "kt:heroku-connect",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Heroku Connect",
+      "skos:definition": "A Heroku add-on that replicates Salesforce object data into tables in a Heroku Postgres database, one-way or bidirectionally, so Heroku apps can read and write CRM data with plain SQL while Connect polls Salesforce for changes and pushes database edits back through the SOAP or Bulk API.",
+      "kto:domain": "integration",
+      "dcterms:created": "2026-11-16",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Heroku Connect",
+          "dcterms:publisher": "Heroku Dev Center (Salesforce)",
+          "schema:url": "https://devcenter.heroku.com/articles/herokuconnect",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Writing Data to Salesforce with Heroku Connect",
+          "dcterms:publisher": "Heroku Dev Center (Salesforce)",
+          "schema:url": "https://devcenter.heroku.com/articles/writing-data-to-salesforce-with-heroku-connect",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Heroku Connect Mapping Configuration Options",
+          "dcterms:publisher": "Heroku Dev Center (Salesforce)",
+          "schema:url": "https://devcenter.heroku.com/articles/mapping-configuration-options",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Integrate Salesforce and Heroku with Heroku Connect (Salesforce & Heroku Integration)",
+          "dcterms:publisher": "Trailhead (Salesforce)",
+          "schema:url": "https://trailhead.salesforce.com/salesforce_heroku_integration/integrating_with_heroku_connect",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Change Data Capture for accelerated polling is now available for all Heroku Connect customers",
+          "dcterms:publisher": "Heroku Dev Center changelog (Salesforce)",
+          "schema:url": "https://devcenter.heroku.com/changelog-items/3432",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/integration/heroku-connect.md",
+      "skos:altLabel": [
+        "herokuconnect add-on",
+        "Heroku Connect add-on"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:heroku"
+        },
+        {
+          "@id": "kt:data-integration"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:heroku-applink"
+        },
+        {
+          "@id": "kt:batch-data-synchronization"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:heroku-postgres"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:salesforce-connect"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:change-data-capture"
+        },
+        {
+          "@id": "kt:streaming-api"
+        }
+      ]
+    },
+    {
       "@id": "kt:integration-architect-certification",
       "@type": "kto:Certification",
       "skos:prefLabel": "Integration Architect Certification",

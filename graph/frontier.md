@@ -4,8 +4,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
+| `kt:streaming-api` | `kt:heroku-connect`, `kt:pub-sub-api` |
 | `kt:salesforce-analytics` | `kt:crm-analytics`, `kt:tableau` |
-| `kt:heroku-connect` | `kt:heroku`, `kt:heroku-applink` |
 | `kt:tableau-next` | `kt:digital-wallet`, `kt:tableau` |
 | `kt:flow-limits` | `kt:flow-bulkification`, `kt:flow-versioning` |
 | `kt:requirements-engineering` | `kt:non-functional-requirements`, `kt:requirements-gathering` |
@@ -24,7 +24,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:legacy-named-credentials` | `kt:named-credentials` |
 | `kt:salesforce-architecture-program` | `kt:salesforce-architecture-center` |
 | `kt:managed-event-subscriptions` | `kt:pub-sub-api` |
-| `kt:streaming-api` | `kt:pub-sub-api` |
 | `kt:platform-developer-ii-certification` | `kt:platform-developer-certification` |
 | `kt:scoping-rules` | `kt:restriction-rules` |
 | `kt:salesforce-archive` | `kt:archiving-strategy` |
@@ -111,26 +110,27 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:security-health-check` | `kt:session-settings` |
 | `kt:soc-1` | `kt:soc-2` |
 | `kt:trust-services-criteria` | `kt:soc-2` |
+| `kt:heroku-postgres` | `kt:heroku-connect` |
 | `kt:secure-coding` | `kt:cross-site-scripting` |
 | `kt:static-resources` | `kt:cross-site-scripting` |
 | `kt:fhir` | `kt:health-cloud` |
 | `kt:utilization-management` | `kt:health-cloud` |
-| `kt:security-center` | `kt:continuous-monitoring` |
 | `kt:block-kit` | `kt:slack-platform` |
 | `kt:mulesoft-composer` | `kt:slack-platform` |
+| `kt:security-center` | `kt:continuous-monitoring` |
 | `kt:slack-api-rate-limits` | `kt:slack-platform` |
 | `kt:slack-workflow-builder` | `kt:slack-platform` |
-| `kt:multiple-currencies` | `kt:price-books` |
-| `kt:opportunity-products` | `kt:price-books` |
 | `kt:security-stripinaccessible` | `kt:apex-user-mode` |
 | `kt:with-security-enforced` | `kt:apex-user-mode` |
+| `kt:multiple-currencies` | `kt:price-books` |
+| `kt:opportunity-products` | `kt:price-books` |
 | `kt:iso-iec-25010` | `kt:non-functional-requirements` |
 | `kt:holidays` | `kt:business-hours` |
 | `kt:custom-permissions` | `kt:validation-rules` |
 | `kt:in-app-guidance` | `kt:change-management-and-adoption` |
+| `kt:data-cloud-query-api` | `kt:data-graphs` |
 | `kt:cap-theorem` | `kt:distributed-computing` |
 | `kt:computer-science` | `kt:distributed-computing` |
-| `kt:data-cloud-query-api` | `kt:data-graphs` |
 | `kt:platform-cache-partitions` | `kt:platform-cache` |
 | `kt:model-context-protocol` | `kt:model-context-protocol-in-agentforce` |
 | `kt:salesforce-hosted-mcp-servers` | `kt:model-context-protocol-in-agentforce` |
