@@ -16679,6 +16679,89 @@
       ]
     },
     {
+      "@id": "kt:orglimits-class",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "OrgLimits Class",
+      "skos:definition": "The Apex System.OrgLimits class and its companion System.OrgLimit: static methods that return the org's Salesforce API and platform allocations (such as daily API requests or Bulk API batches) with current usage and maximum, so Apex code can check org-wide headroom without calling the REST limits resource.",
+      "kto:domain": "development",
+      "dcterms:created": "2026-11-16",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Apex Reference Guide: OrgLimits Class",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexcode/apex_class_System_OrgLimits.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Apex Reference Guide: OrgLimit Class",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexcode/apex_class_System_OrgLimit.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "REST API Developer Guide: Limits",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/resources_limits.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "API Limits and Monitoring Your API Usage",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2024/11/api-limits-and-monitoring-your-api-usage",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/development/orglimits-class.md",
+      "skos:altLabel": [
+        "System.OrgLimits",
+        "OrgLimit class",
+        "System.OrgLimit",
+        "Apex org limits"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:apex"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:api-request-limits"
+        },
+        {
+          "@id": "kt:rest-api"
+        },
+        {
+          "@id": "kt:bulk-api-allocations"
+        },
+        {
+          "@id": "kt:platform-event-allocations"
+        },
+        {
+          "@id": "kt:event-monitoring"
+        },
+        {
+          "@id": "kt:scheduled-apex"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:limits-class"
+        }
+      ],
+      "kto:mitigates": [
+        {
+          "@id": "kt:api-request-limits"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:rest-api-limits-resource"
+        }
+      ]
+    },
+    {
       "@id": "kt:platform-developer-certification",
       "@type": "kto:Certification",
       "skos:prefLabel": "Platform Developer Certification",
