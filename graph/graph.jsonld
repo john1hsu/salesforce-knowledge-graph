@@ -28746,6 +28746,85 @@
       ]
     },
     {
+      "@id": "kt:salesforce-go",
+      "@type": "kto:Tool",
+      "skos:prefLabel": "Salesforce Go",
+      "skos:definition": "Salesforce's in-Setup hub for discovering, turning on, configuring and monitoring features across clouds, grouped into goal-based feature sets with guided setup steps and license-usage data.",
+      "kto:domain": "platform-architecture",
+      "dcterms:created": "2026-11-16",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Get Started with Salesforce Go",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/sales-cloud-go-quick-look/get-started-with-salesforce-go",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Explore the Salesforce Go Interface for Admins",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/sales-cloud-go-quick-look/streamline-your-sales-setup-with-sales-cloud-go",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Set Up, Configure, and Monitor Features",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/sales-cloud-go-quick-look/discover-set-up-and-configure-a-feature",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Discover and set up features fast with Sales Cloud Go",
+          "dcterms:publisher": "Salesforce Admins",
+          "schema:url": "https://admin.salesforce.com/blog/2024/discover-sales-cloud-go",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Lightning Knowledge Basics: Set Up a Simple Knowledge Base",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/lightning-knowledge-basics/set-up-a-simple-knowledge-base",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/platform-architecture/salesforce-go.md",
+      "skos:altLabel": [
+        "Sales Cloud Go",
+        "Salesforce Go feature setup hub"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-platform"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:knowledge-base"
+        },
+        {
+          "@id": "kt:sales-cloud"
+        },
+        {
+          "@id": "kt:service-cloud"
+        },
+        {
+          "@id": "kt:agentforce"
+        },
+        {
+          "@id": "kt:user-licenses"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:lightning-app-builder"
+        }
+      ],
+      "kto:enables": [
+        {
+          "@id": "kt:knowledge-base"
+        }
+      ]
+    },
+    {
       "@id": "kt:salesforce-platform",
       "@type": "kto:Product",
       "skos:prefLabel": "Salesforce Platform",
