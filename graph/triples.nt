@@ -2320,6 +2320,34 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-settings> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/soql> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-settings> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-settings> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-actions> <http://purl.org/dc/terms/created> "2026-11-16" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-actions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-actions> <http://www.w3.org/2000/01/rdf-schema#label> "Data Actions" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-actions> <http://www.w3.org/2004/02/skos/core#altLabel> "Data 360 data actions" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-actions> <http://www.w3.org/2004/02/skos/core#altLabel> "Data Cloud data actions" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-actions> <http://www.w3.org/2004/02/skos/core#altLabel> "data action targets" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-actions> <http://www.w3.org/2004/02/skos/core#altLabel> "data action" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-actions> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-actions> <http://www.w3.org/2004/02/skos/core#definition> "Event-driven Data 360 (formerly Data Cloud) automations that watch a data model object, streaming insight or calculated insight for record changes, test optional conditions, and send an enriched event in near real time to a data action target: a Salesforce platform event, a webhook, or Marketing Cloud Engagement." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-actions> <http://www.w3.org/2004/02/skos/core#prefLabel> "Data Actions" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-actions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/calculated-insights> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-actions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/event-driven-architecture> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-actions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-actions/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-actions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-actions/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-actions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-actions/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-actions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-actions/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-actions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-actions/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-actions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-actions/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-actions> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#alternativeTo> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud-triggered-flows> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-actions> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#contrastsWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud-activation> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-actions> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-model-objects> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-actions> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-spaces> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-actions> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "data-cloud-and-ai" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-actions> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#governedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud-limits> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-actions> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/marketing-cloud-engagement> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-actions> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-events> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-actions> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-actions> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-and-file-storage-allocations> <http://purl.org/dc/terms/created> "2026-11-08" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-and-file-storage-allocations> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Limit> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-and-file-storage-allocations> <http://www.w3.org/2000/01/rdf-schema#label> "Data and File Storage Allocations" .
@@ -11851,6 +11879,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-settings/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-settings/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-settings/s4> <https://schema.org/url> "https://developer.salesforce.com/blogs/2015/05/how-to-use-custom-metadata-types" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-actions/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-actions/s1> <http://purl.org/dc/terms/title> "Use Insights in Data Cloud" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-actions/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-actions/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-actions/s1> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/customer-data-platform-insights/use-insights-in-customer-data-platform" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-actions/s2> <http://purl.org/dc/terms/publisher> "Salesforce Developers Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-actions/s2> <http://purl.org/dc/terms/title> "Unleashing the Power of Data Actions Using a Webhook as a Target" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-actions/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-actions/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-actions/s2> <https://schema.org/url> "https://developer.salesforce.com/blogs/2024/01/unleashing-the-power-of-data-actions-using-a-webhook-as-a-target" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-actions/s3> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-actions/s3> <http://purl.org/dc/terms/title> "Webhook Data Action Targets in Data 360" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-actions/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-actions/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-actions/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/data/data-cloud-int/references/webhook-data-action-targets" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-actions/s4> <http://purl.org/dc/terms/publisher> "Salesforce Architects" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-actions/s4> <http://purl.org/dc/terms/title> "Data 360 Integration Patterns and Practices" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-actions/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-actions/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-actions/s4> <https://schema.org/url> "https://architect.salesforce.com/docs/architect/fundamentals/guide/data360_integration_patterns_and_practices" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-actions/s5> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-actions/s5> <http://purl.org/dc/terms/title> "Trigger Flows from Data Cloud" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-actions/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-actions/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-actions/s5> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/data-cloud-in-flows/trigger-flows-from-data-cloud" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-actions/s6> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-actions/s6> <http://purl.org/dc/terms/title> "Learn How to Act on Data" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-actions/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-actions/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-actions/s6> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/cert-prep-data-cloud-consultant/learn-how-to-act-on-data" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-and-file-storage-allocations/s1> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-and-file-storage-allocations/s1> <http://purl.org/dc/terms/title> "Data and File Storage Allocations" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-and-file-storage-allocations/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

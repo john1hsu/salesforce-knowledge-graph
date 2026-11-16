@@ -9870,6 +9870,105 @@
       ]
     },
     {
+      "@id": "kt:data-actions",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Data Actions",
+      "skos:definition": "Event-driven Data 360 (formerly Data Cloud) automations that watch a data model object, streaming insight or calculated insight for record changes, test optional conditions, and send an enriched event in near real time to a data action target: a Salesforce platform event, a webhook, or Marketing Cloud Engagement.",
+      "kto:domain": "data-cloud-and-ai",
+      "dcterms:created": "2026-11-16",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Use Insights in Data Cloud",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/customer-data-platform-insights/use-insights-in-customer-data-platform",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Unleashing the Power of Data Actions Using a Webhook as a Target",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2024/01/unleashing-the-power-of-data-actions-using-a-webhook-as-a-target",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Webhook Data Action Targets in Data 360",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/data/data-cloud-int/references/webhook-data-action-targets",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Data 360 Integration Patterns and Practices",
+          "dcterms:publisher": "Salesforce Architects",
+          "schema:url": "https://architect.salesforce.com/docs/architect/fundamentals/guide/data360_integration_patterns_and_practices",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Trigger Flows from Data Cloud",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/data-cloud-in-flows/trigger-flows-from-data-cloud",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Learn How to Act on Data",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/cert-prep-data-cloud-consultant/learn-how-to-act-on-data",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/data-cloud-and-ai/data-actions.md",
+      "skos:altLabel": [
+        "data action",
+        "Data 360 data actions",
+        "Data Cloud data actions",
+        "data action targets"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:data-cloud"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:calculated-insights"
+        },
+        {
+          "@id": "kt:event-driven-architecture"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:data-model-objects"
+        },
+        {
+          "@id": "kt:data-spaces"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:platform-events"
+        },
+        {
+          "@id": "kt:marketing-cloud-engagement"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:data-cloud-activation"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:data-cloud-triggered-flows"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:data-cloud-limits"
+        }
+      ]
+    },
+    {
       "@id": "kt:data-cloud-consultant-certification",
       "@type": "kto:Certification",
       "skos:prefLabel": "Data 360 Consultant Certification",

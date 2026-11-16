@@ -6,6 +6,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 |---|---|
 | `kt:salesforce-analytics` | `kt:crm-analytics`, `kt:tableau`, `kt:tableau-next` |
 | `kt:streaming-api` | `kt:heroku-connect`, `kt:pub-sub-api` |
+| `kt:data-cloud-activation` | `kt:data-actions`, `kt:data-cloud-segmentation` |
 | `kt:tableau-semantics` | `kt:tableau`, `kt:tableau-next` |
 | `kt:flow-limits` | `kt:flow-bulkification`, `kt:flow-versioning` |
 | `kt:customer-360` | `kt:commerce-cloud`, `kt:slack-platform` |
@@ -46,7 +47,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:data-stewardship` | `kt:data-governance` |
 | `kt:data-import-wizard` | `kt:data-loader` |
 | `kt:zero-trust-architecture` | `kt:principle-of-least-privilege` |
-| `kt:data-cloud-activation` | `kt:data-cloud-segmentation` |
 | `kt:iso-iec-27002` | `kt:iso-iec-27001` |
 | `kt:entitlement-process-metadata` | `kt:entitlement-management` |
 | `kt:dispatcher-console` | `kt:field-service` |
@@ -83,17 +83,13 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:security-governance` | `kt:salesforce-governance` |
 | `kt:opportunity-teams` | `kt:opportunity-splits` |
 | `kt:revenue-intelligence` | `kt:collaborative-forecasts` |
-| `kt:mulesoft-platform-integration-architect-certification` | `kt:mulesoft-platform-architect-certification` |
 | `kt:ingestion-api` | `kt:data-streams` |
+| `kt:mulesoft-platform-integration-architect-certification` | `kt:mulesoft-platform-architect-certification` |
 | `kt:mutual-tls-authentication` | `kt:login-ip-ranges-and-trusted-ip-ranges` |
 | `kt:generative-ai` | `kt:retrieval-augmented-generation-in-salesforce` |
 | `kt:corporate-governance` | `kt:governance-risk-and-compliance` |
 | `kt:application-network` | `kt:api-led-connectivity` |
 | `kt:point-to-point-integration` | `kt:api-led-connectivity` |
-| `kt:dynamic-actions` | `kt:dynamic-forms` |
-| `kt:dynamic-highlights-panel` | `kt:dynamic-forms` |
-| `kt:data-actions` | `kt:streaming-insights` |
-| `kt:backup-and-recover-next` | `kt:backup-and-recover` |
 | `kt:automation-studio` | `kt:marketing-cloud-engagement` |
 | `kt:contact-builder` | `kt:marketing-cloud-engagement` |
 | `kt:journey-builder` | `kt:marketing-cloud-engagement` |
@@ -101,6 +97,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:marketing-cloud-connect` | `kt:marketing-cloud-engagement` |
 | `kt:marketing-cloud-next` | `kt:marketing-cloud-engagement` |
 | `kt:salesforce-marketing-solutions` | `kt:marketing-cloud-engagement` |
+| `kt:dynamic-actions` | `kt:dynamic-forms` |
+| `kt:dynamic-highlights-panel` | `kt:dynamic-forms` |
+| `kt:backup-and-recover-next` | `kt:backup-and-recover` |
 | `kt:apexguru` | `kt:scale-test` |
 | `kt:scale-center` | `kt:scale-test` |
 | `kt:agentexchange-go-to-market-app` | `kt:agentexchange` |
@@ -138,9 +137,10 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:business-process-mapping` | `kt:requirements-gathering` |
 | `kt:user-stories` | `kt:requirements-gathering` |
 | `kt:models-api` | `kt:ai-models` |
-| `kt:apex-defined-types` | `kt:transform-element` |
 | `kt:ldap` | `kt:delegated-authentication` |
+| `kt:apex-defined-types` | `kt:transform-element` |
 | `kt:username-password-flow` | `kt:client-credentials-flow` |
+| `kt:data-cloud-triggered-flows` | `kt:data-actions` |
 | `kt:agentforce-nonprofit-consultant-certification` | `kt:agentforce-nonprofit` |
 | `kt:nonprofit-success-pack` | `kt:agentforce-nonprofit` |
 | `kt:einstein-prediction-builder` | `kt:einstein-next-best-action` |
