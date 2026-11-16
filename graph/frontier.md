@@ -32,9 +32,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:zero-copy-data-sharing` | `kt:zero-copy-data-federation` |
 | `kt:data-categories` | `kt:knowledge-base` |
 | `kt:salesforce-go` | `kt:knowledge-base` |
-| `kt:trailhead` | `kt:salesforce-certification-program` |
 | `kt:seealldata` | `kt:test-data-factory` |
 | `kt:test-loaddata` | `kt:test-data-factory` |
+| `kt:trailhead` | `kt:salesforce-certification-program` |
 | `kt:static-soql` | `kt:dynamic-soql` |
 | `kt:omni-channel-limits` | `kt:omni-channel` |
 | `kt:presence-configuration` | `kt:omni-channel` |
@@ -55,7 +55,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:certificate-and-key-management` | `kt:custom-domains` |
 | `kt:salesforce-sites` | `kt:custom-domains` |
 | `kt:apex-mocks` | `kt:apex-enterprise-patterns` |
-| `kt:agentforce-vibes-ide` | `kt:salesforce-extensions-for-vs-code` |
 | `kt:omnistudio-consultant-certification` | `kt:omnistudio` |
 | `kt:omnistudio-developer-certification` | `kt:omnistudio` |
 | `kt:salesforce-lightning-design-system` | `kt:visualforce` |
@@ -130,14 +129,15 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:cap-theorem` | `kt:distributed-computing` |
 | `kt:computer-science` | `kt:distributed-computing` |
 | `kt:platform-cache-partitions` | `kt:platform-cache` |
+| `kt:agentforce-vibes` | `kt:agentforce-vibes-ide` |
 | `kt:model-context-protocol` | `kt:model-context-protocol-in-agentforce` |
 | `kt:salesforce-hosted-mcp-servers` | `kt:model-context-protocol-in-agentforce` |
 | `kt:data-cloud-code-extension` | `kt:vector-search-in-data-cloud` |
 | `kt:business-process-mapping` | `kt:requirements-gathering` |
 | `kt:user-stories` | `kt:requirements-gathering` |
 | `kt:models-api` | `kt:ai-models` |
-| `kt:apex-defined-types` | `kt:transform-element` |
 | `kt:ldap` | `kt:delegated-authentication` |
+| `kt:apex-defined-types` | `kt:transform-element` |
 | `kt:username-password-flow` | `kt:client-credentials-flow` |
 | `kt:data-cloud-triggered-flows` | `kt:data-actions` |
 | `kt:agentforce-nonprofit-consultant-certification` | `kt:agentforce-nonprofit` |

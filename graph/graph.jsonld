@@ -17770,6 +17770,113 @@
       ]
     },
     {
+      "@id": "kt:agentforce-vibes-ide",
+      "@type": "kto:Tool",
+      "skos:prefLabel": "Agentforce Vibes IDE",
+      "skos:definition": "Salesforce's browser-based development environment, formerly Code Builder: a cloud-hosted Visual Studio Code launched from Setup that bundles Salesforce Extensions, Salesforce CLI, GitHub integration and the Agentforce Vibes AI extension, and loads the org's metadata into a Salesforce DX project with no local install.",
+      "kto:domain": "devops-and-alm",
+      "dcterms:created": "2026-11-16",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Agentforce Vibes IDE Developer Guide",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/code-builder/guide",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Enable Agentforce Vibes IDE",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/code-builder/guide/codebuilder-enable-install.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Supported Editions (Agentforce Vibes IDE)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/code-builder/guide/codebuilder-supported-editions.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Web Versus Desktop (Agentforce Vibes IDE)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/code-builder/guide/codebuilder-differences.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Known Issues and FAQ (Agentforce Vibes IDE)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/code-builder/guide/codebuilder-known-issues.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Set Up Agentforce Vibes IDE (Agentforce Vibes IDE Fundamentals)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/agentforce-vibes-ide-fundamentals/set-up-agentforce-vibes-ide",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "New Developer Edition with Agentforce Vibes, Claude and MCP",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2026/04/new-developer-edition-agentforce-vibes-claude-mcp",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/devops-and-alm/agentforce-vibes-ide.md",
+      "skos:altLabel": [
+        "Code Builder",
+        "Salesforce Code Builder",
+        "web-based VS Code for Salesforce",
+        "browser IDE for Salesforce"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-dx"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:scratch-orgs"
+        },
+        {
+          "@id": "kt:sandbox-types"
+        },
+        {
+          "@id": "kt:devops-center"
+        },
+        {
+          "@id": "kt:agentforce-dx"
+        },
+        {
+          "@id": "kt:apex"
+        },
+        {
+          "@id": "kt:lightning-web-components"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:salesforce-extensions-for-vs-code"
+        },
+        {
+          "@id": "kt:salesforce-cli"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:salesforce-extensions-for-vs-code"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:agentforce-vibes"
+        },
+        {
+          "@id": "kt:code-analyzer"
+        }
+      ]
+    },
+    {
       "@id": "kt:appexchange-security-review",
       "@type": "kto:Concept",
       "skos:prefLabel": "AgentExchange Security Review",
