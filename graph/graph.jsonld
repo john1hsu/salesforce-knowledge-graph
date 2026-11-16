@@ -21469,6 +21469,106 @@
       ]
     },
     {
+      "@id": "kt:certificate-and-key-management",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Certificate and Key Management",
+      "skos:definition": "The Setup page and Certificate metadata type where an org creates, imports, renews and stores the X.509 certificates and key pairs it uses to sign SAML and JWT assertions, present a client certificate on mutual-TLS callouts, and trust inbound mutual-authentication clients.",
+      "kto:domain": "identity",
+      "dcterms:created": "2026-11-16",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Certificate (Metadata API Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_certificate.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Generate a Salesforce Compatible JKS From PFX or P12 (Knowledge Article 000381987)",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=000381987&language=en_US&type=1",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Resolving 'Keystore contains an entry whose alias is not acceptable for import' Error (Knowledge Article 000387657)",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=000387657&language=en_US&type=1",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "\"Data Not Available\" Error When Importing Keystore Certificate (Knowledge Article 005228563)",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=005228563&language=en_US&type=1",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Enhance Integration Security with mTLS for Salesforce and MuleSoft",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2025/10/enhance-integration-security-with-mtls-for-salesforce-and-mulesoft",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "From Manual to Automated: A Taxonomy to Secure Your Salesforce Environment in the Short-Lived Certificate Era",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/blog/?p=138659",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/identity/certificate-and-key-management.md",
+      "skos:altLabel": [
+        "Certificates and Keys",
+        "Certificate and Key Management page",
+        "Salesforce certificates",
+        "self-signed certificate",
+        "CA-signed certificate",
+        "Import from Keystore"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-identity"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:custom-domains"
+        },
+        {
+          "@id": "kt:mutual-tls-authentication"
+        },
+        {
+          "@id": "kt:salesforce-as-identity-provider"
+        },
+        {
+          "@id": "kt:mulesoft-anypoint-platform"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:single-sign-on-saml"
+        },
+        {
+          "@id": "kt:jwt-bearer-flow"
+        },
+        {
+          "@id": "kt:named-credentials"
+        },
+        {
+          "@id": "kt:apex-callouts"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:metadata-api"
+        }
+      ],
+      "kto:enables": [
+        {
+          "@id": "kt:mutual-tls-authentication"
+        }
+      ]
+    },
+    {
       "@id": "kt:client-credentials-flow",
       "@type": "kto:Feature",
       "skos:prefLabel": "OAuth 2.0 Client Credentials Flow",
