@@ -10,7 +10,7 @@ summary: >-
 release: "Winter '27"
 status: current
 broader: [kt:application-lifecycle-management]
-related: [kt:environment-strategy, kt:scratch-orgs, kt:sandbox-types, kt:source-tracking]
+related: [kt:environment-strategy, kt:scratch-orgs, kt:sandbox-types, kt:source-tracking, kt:devops-testing]
 relations:
   - {predicate: alternativeTo, object: kt:change-sets}
   - {predicate: integratesWith, object: kt:salesforce-cli}

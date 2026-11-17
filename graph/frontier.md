@@ -22,15 +22,15 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:managed-event-subscriptions` | `kt:pub-sub-api` |
 | `kt:legacy-named-credentials` | `kt:named-credentials` |
 | `kt:salesforce-architecture-program` | `kt:salesforce-architecture-center` |
-| `kt:prompt-injection` | `kt:einstein-trust-layer` |
 | `kt:salesforce-archive` | `kt:archiving-strategy` |
+| `kt:prompt-injection` | `kt:einstein-trust-layer` |
 | `kt:mixed-dml-error` | `kt:future-methods` |
 | `kt:data-categories` | `kt:knowledge-base` |
 | `kt:trailhead` | `kt:salesforce-certification-program` |
 | `kt:seealldata` | `kt:test-data-factory` |
 | `kt:test-loaddata` | `kt:test-data-factory` |
-| `kt:custom-objects` | `kt:standard-objects` |
 | `kt:static-soql` | `kt:dynamic-soql` |
+| `kt:custom-objects` | `kt:standard-objects` |
 | `kt:omni-channel-limits` | `kt:omni-channel` |
 | `kt:presence-configuration` | `kt:omni-channel` |
 | `kt:skills-based-routing` | `kt:omni-channel` |
@@ -61,6 +61,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:rest-api-limits-resource` | `kt:orglimits-class` |
 | `kt:scim` | `kt:salesforce-scim` |
 | `kt:apex-rest-services` | `kt:remote-call-in` |
+| `kt:apexguru` | `kt:scale-test` |
+| `kt:scale-center` | `kt:scale-test` |
 | `kt:json-web-token` | `kt:openid-connect` |
 | `kt:path` | `kt:business-processes` |
 | `kt:object-manager` | `kt:schema-builder` |
@@ -90,8 +92,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:dynamic-actions` | `kt:dynamic-forms` |
 | `kt:dynamic-highlights-panel` | `kt:dynamic-forms` |
 | `kt:agentexchange-go-to-market-app` | `kt:agentexchange` |
-| `kt:apexguru` | `kt:scale-test` |
-| `kt:scale-center` | `kt:scale-test` |
 | `kt:security-health-check` | `kt:session-settings` |
 | `kt:backup-and-recover-next` | `kt:backup-and-recover` |
 | `kt:static-resources` | `kt:cross-site-scripting` |
@@ -143,7 +143,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:salesforce-order-management` | `kt:commerce-cloud` |
 | `kt:digital-accessibility` | `kt:section-508-accessibility` |
 | `kt:instance-refresh-and-org-migration` | `kt:trust-and-status-site` |
-| `kt:post-install-scripts` | `kt:push-upgrades` |
 | `kt:tx-ramp` | `kt:govramp` |
 | `kt:wcag` | `kt:section-508-accessibility` |
 | `kt:agent-to-agent-protocol` | `kt:agentforce-architecture-patterns` |
@@ -157,6 +156,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:multi-agent-orchestration` | `kt:agentforce-architecture-patterns` |
 | `kt:notes-and-attachments` | `kt:content-document-model` |
 | `kt:organization-wide-email-addresses` | `kt:email-alerts` |
+| `kt:post-install-scripts` | `kt:push-upgrades` |
 | `kt:shared-activities` | `kt:activity-data-model` |
 | `kt:technology-roadmaps` | `kt:capability-maps` |
 | `kt:twelve-factor-app` | `kt:heroku-architect-certification` |

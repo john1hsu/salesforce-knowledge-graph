@@ -19831,6 +19831,9 @@
         },
         {
           "@id": "kt:source-tracking"
+        },
+        {
+          "@id": "kt:devops-testing"
         }
       ],
       "kto:alternativeTo": [
@@ -19849,6 +19852,95 @@
       "kto:dependsOn": [
         {
           "@id": "kt:apex-testing"
+        }
+      ]
+    },
+    {
+      "@id": "kt:devops-testing",
+      "@type": "kto:Tool",
+      "skos:prefLabel": "DevOps Testing",
+      "skos:definition": "The testing layer of DevOps Center (now Lifecycle Center) that syncs test suites from Salesforce and partner providers, runs them automatically at pipeline stages, and blocks promotion with quality gate rules.",
+      "kto:domain": "devops-and-alm",
+      "dcterms:created": "2026-11-17",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Application Lifecycle Management with DevOps Testing and DevOps Center",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=platform.devops_testing_application_lifecycle_management_with_devops_testing_and_devops_center.htm&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Create a Test Suite",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=platform.devops_testing_create_a_test_suite.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Supercharge DevOps with Built-In Testing and Quality Gates",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2025/04/supercharge-devops-with-built-in-testing-and-quality-gates",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Shift Left Natively: Testing and Quality Gates in DevOps Center",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2026/08/shift-left-natively-testing-and-quality-gates-in-devops-center",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Improve Release Quality with DevOps Center Testing",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/devops-center-tests-quick-look/improve-release-quality-with-devops-center-testing",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Enhance Development Lifecycles with Winter '26 Innovations",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/salesforce-architect-certification-maintenance-winter-26/discover-whats-new-with-development-lifecycles-for-winter-26",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/devops-and-alm/devops-testing.md",
+      "skos:altLabel": [
+        "Salesforce DevOps Testing",
+        "DevOps Center Testing",
+        "Lifecycle Center Testing"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:devops-center"
+        },
+        {
+          "@id": "kt:testing-strategy"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:apex-testing"
+        },
+        {
+          "@id": "kt:flow-tests"
+        },
+        {
+          "@id": "kt:continuous-integration-for-salesforce"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:code-analyzer"
+        },
+        {
+          "@id": "kt:agentforce-testing-center"
+        },
+        {
+          "@id": "kt:scale-test"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:devops-center"
         }
       ]
     },
