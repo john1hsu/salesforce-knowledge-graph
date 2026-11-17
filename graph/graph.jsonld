@@ -25377,6 +25377,86 @@
       ]
     },
     {
+      "@id": "kt:change-data-capture-allocations",
+      "@type": "kto:Limit",
+      "skos:prefLabel": "Change Data Capture Allocations",
+      "skos:definition": "The org-wide caps that govern Change Data Capture: how many objects can be selected for change events, how many custom channels exist, how many change events API-based subscribers may receive in a rolling 24 hours, and the concurrency and message-size ceilings shared with other streaming events, plus the add-on license that lifts them.",
+      "kto:domain": "integration",
+      "dcterms:created": "2026-11-17",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Change Data Capture Allocations (Change Data Capture Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/change-data-capture/guide/cdc-allocations.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Change Data Capture Allocations: Default Allocations (Change Data Capture Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.change_data_capture.meta/change_data_capture/cdc_allocations_default_allocations.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Filter Your Stream of Change Events with Channels",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/change-data-capture/guide/cdc-filter-section.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Stream Events at Scale with Event Filters and Field Enrichment",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2023/01/stream-events-at-scale-with-event-filters-and-field-enrichment",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Learn About Daily Rate Limits (App Development Without Limits)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/app-development-without-limits/app-development-without-limits-rate",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/integration/change-data-capture-allocations.md",
+      "skos:altLabel": [
+        "CDC allocations",
+        "CDC limits",
+        "change event allocations",
+        "selected entities limit",
+        "Change Data Capture add-on license"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:governor-limits"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:change-data-capture"
+        },
+        {
+          "@id": "kt:pub-sub-api"
+        },
+        {
+          "@id": "kt:streaming-api"
+        },
+        {
+          "@id": "kt:platform-event-channel-member"
+        },
+        {
+          "@id": "kt:orglimits-class"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:platform-event-allocations"
+        },
+        {
+          "@id": "kt:api-request-limits"
+        }
+      ]
+    },
+    {
       "@id": "kt:change-data-capture",
       "@type": "kto:Feature",
       "skos:prefLabel": "Change Data Capture",

@@ -6,6 +6,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 |---|---|
 | `kt:tableau-semantics` | `kt:salesforce-analytics`, `kt:tableau`, `kt:tableau-next` |
 | `kt:flow-limits` | `kt:flow-bulkification`, `kt:flow-loop-element`, `kt:flow-versioning` |
+| `kt:platform-event-channel-member` | `kt:change-data-capture`, `kt:change-data-capture-allocations` |
 | `kt:zero-copy-data-sharing` | `kt:data-cloud-activation`, `kt:zero-copy-data-federation` |
 | `kt:decision-tables` | `kt:loyalty-management`, `kt:salesforce-pricing` |
 | `kt:journey-builder` | `kt:loyalty-management`, `kt:marketing-cloud-engagement` |
@@ -16,12 +17,10 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:salesforce-ecosystem-roles` | `kt:salesforce-architect` |
 | `kt:lightning-service-console` | `kt:service-cloud` |
 | `kt:service-setup-assistant` | `kt:service-cloud` |
-| `kt:change-data-capture-allocations` | `kt:change-data-capture` |
-| `kt:platform-event-channel-member` | `kt:change-data-capture` |
 | `kt:process-integration` | `kt:data-integration` |
 | `kt:mule-runtime-engine` | `kt:mulesoft-anypoint-platform` |
-| `kt:legacy-named-credentials` | `kt:named-credentials` |
 | `kt:managed-event-subscriptions` | `kt:pub-sub-api` |
+| `kt:legacy-named-credentials` | `kt:named-credentials` |
 | `kt:salesforce-architecture-program` | `kt:salesforce-architecture-center` |
 | `kt:platform-developer-ii-certification` | `kt:platform-developer-certification` |
 | `kt:prompt-injection` | `kt:einstein-trust-layer` |
@@ -51,38 +50,38 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:saql` | `kt:crm-analytics` |
 | `kt:apex-mocks` | `kt:apex-enterprise-patterns` |
 | `kt:salesforce-lightning-design-system` | `kt:visualforce` |
+| `kt:pushtopic-streaming-allocations` | `kt:streaming-api` |
 | `kt:tableau-pulse` | `kt:tableau` |
-| `kt:omnistudio-consultant-certification` | `kt:omnistudio` |
-| `kt:omnistudio-developer-certification` | `kt:omnistudio` |
 | `kt:api-experience-hub` | `kt:external-identity-license` |
 | `kt:customer-community-licenses` | `kt:external-identity-license` |
+| `kt:omnistudio-consultant-certification` | `kt:omnistudio` |
+| `kt:omnistudio-developer-certification` | `kt:omnistudio` |
+| `kt:lightning-out` | `kt:lightning-locker` |
 | `kt:dynamic-revenue-orchestrator` | `kt:revenue-cloud` |
 | `kt:revenue-management-consultant-certification` | `kt:revenue-cloud` |
-| `kt:lightning-out` | `kt:lightning-locker` |
+| `kt:rest-api-limits-resource` | `kt:orglimits-class` |
 | `kt:scim` | `kt:salesforce-scim` |
 | `kt:apex-rest-services` | `kt:remote-call-in` |
-| `kt:pushtopic-streaming-allocations` | `kt:streaming-api` |
 | `kt:json-web-token` | `kt:openid-connect` |
 | `kt:path` | `kt:business-processes` |
-| `kt:ingestion-api` | `kt:data-streams` |
 | `kt:object-manager` | `kt:schema-builder` |
+| `kt:ingestion-api` | `kt:data-streams` |
 | `kt:salesforce-ecosystem` | `kt:salesforce-inc` |
 | `kt:automation-studio` | `kt:marketing-cloud-engagement` |
 | `kt:contact-builder` | `kt:marketing-cloud-engagement` |
 | `kt:marketing-cloud-account-engagement` | `kt:marketing-cloud-engagement` |
 | `kt:marketing-cloud-connect` | `kt:marketing-cloud-engagement` |
 | `kt:salesforce-marketing-solutions` | `kt:marketing-cloud-engagement` |
-| `kt:rest-api-limits-resource` | `kt:orglimits-class` |
 | `kt:generative-ai` | `kt:retrieval-augmented-generation-in-salesforce` |
 | `kt:batch-apex-error-event` | `kt:transaction-finalizers` |
 | `kt:opportunity-teams` | `kt:opportunity-splits` |
 | `kt:revenue-intelligence` | `kt:collaborative-forecasts` |
 | `kt:it-governance` | `kt:salesforce-governance` |
 | `kt:security-governance` | `kt:salesforce-governance` |
+| `kt:heroku-postgres` | `kt:heroku-connect` |
 | `kt:mulesoft-platform-integration-architect-certification` | `kt:mulesoft-platform-architect-certification` |
 | `kt:constraint-modeling-language` | `kt:product-configurator` |
 | `kt:product-catalog-management` | `kt:product-configurator` |
-| `kt:heroku-postgres` | `kt:heroku-connect` |
 | `kt:corporate-governance` | `kt:governance-risk-and-compliance` |
 | `kt:salesforce-licensing` | `kt:user-licenses` |
 | `kt:application-network` | `kt:api-led-connectivity` |
