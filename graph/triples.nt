@@ -6525,6 +6525,35 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/multi-factor-authentication> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#mitigates> <https://github.com/john1hsu/salesforce-knowledge-graph/id/account-takeover> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/multi-factor-authentication> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/multi-factor-authentication> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multiple-currencies> <http://purl.org/dc/terms/created> "2026-11-17" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multiple-currencies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multiple-currencies> <http://www.w3.org/2000/01/rdf-schema#label> "Multiple Currencies" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multiple-currencies> <http://www.w3.org/2004/02/skos/core#altLabel> "ACM" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multiple-currencies> <http://www.w3.org/2004/02/skos/core#altLabel> "advanced currency management" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multiple-currencies> <http://www.w3.org/2004/02/skos/core#altLabel> "corporate currency" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multiple-currencies> <http://www.w3.org/2004/02/skos/core#altLabel> "dated exchange rates" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multiple-currencies> <http://www.w3.org/2004/02/skos/core#altLabel> "multi-currency and advanced currency management" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multiple-currencies> <http://www.w3.org/2004/02/skos/core#altLabel> "multi-currency" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multiple-currencies> <http://www.w3.org/2004/02/skos/core#altLabel> "multicurrency" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multiple-currencies> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-platform> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multiple-currencies> <http://www.w3.org/2004/02/skos/core#definition> "The org-level setting that lets a Salesforce org store each record's amounts in its own ISO currency, convert them through admin-maintained rates against a single corporate currency, and, with Advanced Currency Management, apply dated exchange rates to opportunities by close date." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multiple-currencies> <http://www.w3.org/2004/02/skos/core#prefLabel> "Multiple Currencies" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multiple-currencies> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/roll-up-summary-field> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multiple-currencies> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/sales-cloud> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multiple-currencies> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/standard-objects> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multiple-currencies> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/visualforce> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multiple-currencies> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multiple-currencies/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multiple-currencies> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multiple-currencies/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multiple-currencies> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multiple-currencies/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multiple-currencies> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multiple-currencies/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multiple-currencies> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multiple-currencies/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multiple-currencies> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multiple-currencies/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multiple-currencies> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#consumedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/collaborative-forecasts> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multiple-currencies> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#consumedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/price-books> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multiple-currencies> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/currency-type-object> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multiple-currencies> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "data-model" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multiple-currencies> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multiple-currencies> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/multitenancy> <http://purl.org/dc/terms/created> "2026-10-31" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/multitenancy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/multitenancy> <http://www.w3.org/2000/01/rdf-schema#label> "Multitenancy" .
@@ -17019,6 +17048,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multi-factor-authentication/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multi-factor-authentication/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "standards-body" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multi-factor-authentication/s5> <https://schema.org/url> "https://pages.nist.gov/800-63-4/sp800-63b/aal" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multiple-currencies/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multiple-currencies/s1> <http://purl.org/dc/terms/title> "Company-Wide Org Settings: Configure Multiple Currencies" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multiple-currencies/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multiple-currencies/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multiple-currencies/s1> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/company_wide_org_settings/org_settings_currency" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multiple-currencies/s2> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multiple-currencies/s2> <http://purl.org/dc/terms/title> "Considerations for Enabling Multiple Currencies" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multiple-currencies/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multiple-currencies/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multiple-currencies/s2> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=sf.admin_enable_multicurrency_implications.htm&language=en_US&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multiple-currencies/s3> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multiple-currencies/s3> <http://purl.org/dc/terms/title> "International Organizations: Using Multiple Currencies" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multiple-currencies/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multiple-currencies/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multiple-currencies/s3> <https://schema.org/url> "https://login.salesforce.com/help/doc/en/salesforce_using_multiple_currencies.pdf" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multiple-currencies/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multiple-currencies/s4> <http://purl.org/dc/terms/title> "Object Reference: CurrencyType" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multiple-currencies/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multiple-currencies/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multiple-currencies/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.api.meta/api/sforce_api_objects_currencytype.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multiple-currencies/s5> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multiple-currencies/s5> <http://purl.org/dc/terms/title> "Prepare Your Salesforce Org for Users: Update the Exchange Rate with ACM" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multiple-currencies/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multiple-currencies/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multiple-currencies/s5> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/projects/prepare-your-salesforce-org-for-users/update-the-exchange-rate" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multiple-currencies/s6> <http://purl.org/dc/terms/publisher> "Salesforce Help (Knowledge Article 000041377)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multiple-currencies/s6> <http://purl.org/dc/terms/title> "Roll-up summary field not calculating with Advanced Currency Management enabled" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multiple-currencies/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multiple-currencies/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multiple-currencies/s6> <https://schema.org/url> "https://help.salesforce.com/HTViewSolution?id=000041377" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multitenancy/s1> <http://purl.org/dc/terms/publisher> "Salesforce Architects" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multitenancy/s1> <http://purl.org/dc/terms/title> "Platform Multitenant Architecture | Get Started with Fundamentals" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multitenancy/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

@@ -27,8 +27,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:trailhead` | `kt:salesforce-certification-program` |
 | `kt:seealldata` | `kt:test-data-factory` |
 | `kt:test-loaddata` | `kt:test-data-factory` |
-| `kt:static-soql` | `kt:dynamic-soql` |
 | `kt:custom-objects` | `kt:standard-objects` |
+| `kt:static-soql` | `kt:dynamic-soql` |
 | `kt:omni-channel-limits` | `kt:omni-channel` |
 | `kt:presence-configuration` | `kt:omni-channel` |
 | `kt:skills-based-routing` | `kt:omni-channel` |
@@ -46,8 +46,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:service-appointments` | `kt:field-service` |
 | `kt:work-orders` | `kt:field-service` |
 | `kt:einstein-discovery` | `kt:crm-analytics` |
-| `kt:saql` | `kt:crm-analytics` |
 | `kt:salesforce-lightning-design-system` | `kt:visualforce` |
+| `kt:saql` | `kt:crm-analytics` |
 | `kt:apex-mocks` | `kt:apex-enterprise-patterns` |
 | `kt:rest-api-limits-resource` | `kt:orglimits-class` |
 | `kt:api-experience-hub` | `kt:external-identity-license` |
@@ -66,6 +66,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:automation-studio` | `kt:marketing-cloud-engagement` |
 | `kt:contact-builder` | `kt:marketing-cloud-engagement` |
 | `kt:marketing-cloud-connect` | `kt:marketing-cloud-engagement` |
+| `kt:revenue-intelligence` | `kt:collaborative-forecasts` |
 | `kt:apexguru` | `kt:scale-test` |
 | `kt:scale-center` | `kt:scale-test` |
 | `kt:json-web-token` | `kt:openid-connect` |
@@ -73,9 +74,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:batch-apex-error-event` | `kt:transaction-finalizers` |
 | `kt:ingestion-api` | `kt:data-streams` |
 | `kt:object-manager` | `kt:schema-builder` |
-| `kt:agentexchange-go-to-market-app` | `kt:agentexchange` |
 | `kt:opportunity-teams` | `kt:opportunity-splits` |
-| `kt:revenue-intelligence` | `kt:collaborative-forecasts` |
+| `kt:agentexchange-go-to-market-app` | `kt:agentexchange` |
 | `kt:heroku-postgres` | `kt:heroku-connect` |
 | `kt:mulesoft-platform-integration-architect-certification` | `kt:mulesoft-platform-architect-certification` |
 | `kt:security-stripinaccessible` | `kt:apex-user-mode` |
@@ -99,6 +99,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:compliant-data-sharing` | `kt:financial-services-cloud` |
 | `kt:soc-1` | `kt:soc-2` |
 | `kt:trust-services-criteria` | `kt:soc-2` |
+| `kt:opportunity-products` | `kt:price-books` |
 | `kt:fhir` | `kt:health-cloud` |
 | `kt:utilization-management` | `kt:health-cloud` |
 | `kt:security-center` | `kt:continuous-monitoring` |
@@ -107,8 +108,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:cap-theorem` | `kt:distributed-computing` |
 | `kt:computer-science` | `kt:distributed-computing` |
 | `kt:platform-cache-partitions` | `kt:platform-cache` |
-| `kt:multiple-currencies` | `kt:price-books` |
-| `kt:opportunity-products` | `kt:price-books` |
 | `kt:iso-iec-25010` | `kt:non-functional-requirements` |
 | `kt:holidays` | `kt:business-hours` |
 | `kt:salesforce-as-identity-provider` | `kt:certificate-and-key-management` |
@@ -130,6 +129,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:ldap` | `kt:delegated-authentication` |
 | `kt:ui-api` | `kt:field-dependencies` |
 | `kt:engagement-studio` | `kt:marketing-cloud-account-engagement` |
+| `kt:currency-type-object` | `kt:multiple-currencies` |
 | `kt:agentforce-nonprofit-consultant-certification` | `kt:agentforce-nonprofit` |
 | `kt:nonprofit-success-pack` | `kt:agentforce-nonprofit` |
 | `kt:einstein-prediction-builder` | `kt:einstein-next-best-action` |
@@ -144,9 +144,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:organization-wide-email-addresses` | `kt:email-alerts` |
 | `kt:digital-accessibility` | `kt:section-508-accessibility` |
 | `kt:instance-refresh-and-org-migration` | `kt:trust-and-status-site` |
-| `kt:notes-and-attachments` | `kt:content-document-model` |
 | `kt:post-install-scripts` | `kt:push-upgrades` |
-| `kt:shared-activities` | `kt:activity-data-model` |
 | `kt:tx-ramp` | `kt:govramp` |
 | `kt:wcag` | `kt:section-508-accessibility` |
 | `kt:agent-to-agent-protocol` | `kt:agentforce-architecture-patterns` |
@@ -156,6 +154,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:data-processing-engine` | `kt:loyalty-management` |
 | `kt:greenhouse-gas-protocol` | `kt:net-zero-cloud` |
 | `kt:multi-agent-orchestration` | `kt:agentforce-architecture-patterns` |
+| `kt:notes-and-attachments` | `kt:content-document-model` |
+| `kt:shared-activities` | `kt:activity-data-model` |
 | `kt:tableau-blueprint` | `kt:tableau-architect-certification` |
 | `kt:tableau-server-administrator-certification` | `kt:tableau-architect-certification` |
 | `kt:technology-roadmaps` | `kt:capability-maps` |

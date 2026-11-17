@@ -15001,6 +15001,96 @@
       ]
     },
     {
+      "@id": "kt:multiple-currencies",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Multiple Currencies",
+      "skos:definition": "The org-level setting that lets a Salesforce org store each record's amounts in its own ISO currency, convert them through admin-maintained rates against a single corporate currency, and, with Advanced Currency Management, apply dated exchange rates to opportunities by close date.",
+      "kto:domain": "data-model",
+      "dcterms:created": "2026-11-17",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Company-Wide Org Settings: Configure Multiple Currencies",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/company_wide_org_settings/org_settings_currency",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Considerations for Enabling Multiple Currencies",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=sf.admin_enable_multicurrency_implications.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "International Organizations: Using Multiple Currencies",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://login.salesforce.com/help/doc/en/salesforce_using_multiple_currencies.pdf",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Object Reference: CurrencyType",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api.meta/api/sforce_api_objects_currencytype.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Prepare Your Salesforce Org for Users: Update the Exchange Rate with ACM",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/projects/prepare-your-salesforce-org-for-users/update-the-exchange-rate",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Roll-up summary field not calculating with Advanced Currency Management enabled",
+          "dcterms:publisher": "Salesforce Help (Knowledge Article 000041377)",
+          "schema:url": "https://help.salesforce.com/HTViewSolution?id=000041377",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/data-model/multiple-currencies.md",
+      "skos:altLabel": [
+        "multi-currency",
+        "multicurrency",
+        "multi-currency and advanced currency management",
+        "advanced currency management",
+        "ACM",
+        "dated exchange rates",
+        "corporate currency"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-platform"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:roll-up-summary-field"
+        },
+        {
+          "@id": "kt:standard-objects"
+        },
+        {
+          "@id": "kt:visualforce"
+        },
+        {
+          "@id": "kt:sales-cloud"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:collaborative-forecasts"
+        },
+        {
+          "@id": "kt:price-books"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:currency-type-object"
+        }
+      ]
+    },
+    {
       "@id": "kt:object-relationships",
       "@type": "kto:Concept",
       "skos:prefLabel": "Object Relationships",
