@@ -1272,6 +1272,105 @@
       ]
     },
     {
+      "@id": "kt:fit-gap-analysis",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Fit-Gap Analysis",
+      "skos:definition": "A design-phase technique that compares each requirement against what the standard platform (or a chosen reference application) already delivers, classifies it as a fit, a configuration, a customization or something else, and sizes and prioritizes the gaps so the team builds only what the standard product cannot do.",
+      "kto:domain": "architecture-practice",
+      "dcterms:created": "2026-11-17",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Learn About the Functional Consulting Workflow",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/cc-functional-consulting/cc-functional-consulting-workflow",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Documenting B2C Commerce Technical Requirements",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/b2c-project-docs-for-technical-architects/b2c-technical-project-docs",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Comparing Business Requirements and Storefront Design",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/b2c-solution-functional-launch-readiness/b2c-review-business-requirements",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Map Salesforce Capabilities to Business Needs (Salesforce Industry Blueprints: Quick Look)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/ko/content/learn/modules/salesforce-industry-blueprints-quick-look/map-salesforce-capabilities-to-business-needs",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Complete fit-gap analysis",
+          "dcterms:publisher": "Microsoft Learn",
+          "schema:url": "https://learn.microsoft.com/en-us/training/modules/functional-consultant-skills/5-complete-fit-gap-analysis",
+          "kto:sourceType": "partner"
+        },
+        {
+          "dcterms:title": "Optimize your implementation with a fit-to-standard and fit-gap analysis",
+          "dcterms:publisher": "Microsoft Learn (Dynamics 365 Implementation Guide)",
+          "schema:url": "https://learn.microsoft.com/en-us/dynamics365/guidance/implementation-guide/process-focused-solution-fit-to-standard-fit-gap-analysis",
+          "kto:sourceType": "partner"
+        }
+      ],
+      "kto:file": "articles/architecture-practice/fit-gap-analysis.md",
+      "skos:altLabel": [
+        "fit gap analysis",
+        "gap-fit analysis",
+        "fit/gap analysis",
+        "fit-to-standard analysis",
+        "requirements gap analysis"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:solution-design-tradeoffs"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:requirements-gathering"
+        },
+        {
+          "@id": "kt:build-vs-buy-decisions"
+        },
+        {
+          "@id": "kt:capability-maps"
+        },
+        {
+          "@id": "kt:salesforce-industries"
+        },
+        {
+          "@id": "kt:user-acceptance-testing"
+        },
+        {
+          "@id": "kt:commerce-cloud"
+        }
+      ],
+      "kto:usedBy": [
+        {
+          "@id": "kt:salesforce-architect"
+        },
+        {
+          "@id": "kt:business-analyst"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:user-stories"
+        }
+      ],
+      "kto:mitigates": [
+        {
+          "@id": "kt:technical-debt-in-salesforce"
+        }
+      ]
+    },
+    {
       "@id": "kt:heroku-architect-certification",
       "@type": "kto:Certification",
       "skos:prefLabel": "Heroku Architect Certification",
