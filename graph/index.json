@@ -5555,6 +5555,31 @@
     ]
   },
   {
+    "id": "kt:mutual-tls-authentication",
+    "title": "Mutual TLS Authentication",
+    "aliases": [
+      "mTLS",
+      "mutual TLS",
+      "two-way SSL",
+      "2-way SSL",
+      "mutual authentication",
+      "Enforce SSL/TLS Mutual Authentication"
+    ],
+    "type": "SecurityControl",
+    "domain": "identity",
+    "file": "articles/identity/mutual-tls-authentication.md",
+    "created": "2026-11-17",
+    "release": "Winter '27",
+    "status": "current",
+    "source_urls": [
+      "https://developer.salesforce.com/blogs/2025/10/enhance-integration-security-with-mtls-for-salesforce-and-mulesoft",
+      "https://www.salesforce.com/blog/from-manual-to-automated-a-taxonomy-to-secure-your-salesforce-environment-in-the-short-lived-certificate-era/",
+      "https://help.salesforce.com/HTViewSolution?id=000007225",
+      "https://www.rfc-editor.org/rfc/rfc8705.html",
+      "https://fivetran.com/docs/connectors/applications/salesforce/setup-guide/mtls"
+    ]
+  },
+  {
     "id": "kt:my-domain",
     "title": "My Domain",
     "aliases": [

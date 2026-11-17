@@ -6306,6 +6306,35 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/multitenancy> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#enables> <https://github.com/john1hsu/salesforce-knowledge-graph/id/governor-limits> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/multitenancy> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/multitenancy> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/mutual-tls-authentication> <http://purl.org/dc/terms/created> "2026-11-17" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/mutual-tls-authentication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#SecurityControl> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/mutual-tls-authentication> <http://www.w3.org/2000/01/rdf-schema#label> "Mutual TLS Authentication" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/mutual-tls-authentication> <http://www.w3.org/2004/02/skos/core#altLabel> "2-way SSL" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/mutual-tls-authentication> <http://www.w3.org/2004/02/skos/core#altLabel> "Enforce SSL/TLS Mutual Authentication" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/mutual-tls-authentication> <http://www.w3.org/2004/02/skos/core#altLabel> "mTLS" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/mutual-tls-authentication> <http://www.w3.org/2004/02/skos/core#altLabel> "mutual TLS" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/mutual-tls-authentication> <http://www.w3.org/2004/02/skos/core#altLabel> "mutual authentication" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/mutual-tls-authentication> <http://www.w3.org/2004/02/skos/core#altLabel> "two-way SSL" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/mutual-tls-authentication> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-identity> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/mutual-tls-authentication> <http://www.w3.org/2004/02/skos/core#definition> "A TLS handshake in which both sides present X.509 certificates, so the server also authenticates the client. In Salesforce it secures inbound API calls (port 8443, a trusted Mutual Authentication certificate and the Enforce SSL/TLS Mutual Authentication permission) and outbound callouts that present an org client certificate." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/mutual-tls-authentication> <http://www.w3.org/2004/02/skos/core#prefLabel> "Mutual TLS Authentication" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/mutual-tls-authentication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/login-ip-ranges-and-trusted-ip-ranges> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/mutual-tls-authentication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/mulesoft-anypoint-platform> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/mutual-tls-authentication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-2-0> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/mutual-tls-authentication> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/zero-trust-architecture> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/mutual-tls-authentication> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/mutual-tls-authentication/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/mutual-tls-authentication> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/mutual-tls-authentication/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/mutual-tls-authentication> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/mutual-tls-authentication/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/mutual-tls-authentication> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/mutual-tls-authentication/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/mutual-tls-authentication> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/mutual-tls-authentication/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/mutual-tls-authentication> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/external-client-apps> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/mutual-tls-authentication> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#consumedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-callouts> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/mutual-tls-authentication> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#consumedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/named-credentials> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/mutual-tls-authentication> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/certificate-and-key-management> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/mutual-tls-authentication> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "identity" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/mutual-tls-authentication> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/jwt-bearer-flow> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/mutual-tls-authentication> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/mutual-tls-authentication> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/my-domain> <http://purl.org/dc/terms/created> "2026-11-02" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/my-domain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/my-domain> <http://www.w3.org/2000/01/rdf-schema#label> "My Domain" .
@@ -16431,6 +16460,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multitenancy/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multitenancy/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multitenancy/s4> <https://schema.org/url> "https://admin.salesforce.com/blog/2025/the-apartment-analogy-making-sense-of-salesforces-multitenant-architecture" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/mutual-tls-authentication/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/mutual-tls-authentication/s1> <http://purl.org/dc/terms/title> "Enhance Integration Security with mTLS for Salesforce and MuleSoft" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/mutual-tls-authentication/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/mutual-tls-authentication/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/mutual-tls-authentication/s1> <https://schema.org/url> "https://developer.salesforce.com/blogs/2025/10/enhance-integration-security-with-mtls-for-salesforce-and-mulesoft" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/mutual-tls-authentication/s2> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/mutual-tls-authentication/s2> <http://purl.org/dc/terms/title> "From Manual to Automated: A Taxonomy to Secure Your Salesforce Environment in the Short-Lived Certificate Era" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/mutual-tls-authentication/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/mutual-tls-authentication/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/mutual-tls-authentication/s2> <https://schema.org/url> "https://www.salesforce.com/blog/from-manual-to-automated-a-taxonomy-to-secure-your-salesforce-environment-in-the-short-lived-certificate-era/" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/mutual-tls-authentication/s3> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/mutual-tls-authentication/s3> <http://purl.org/dc/terms/title> "Certificate requirements for two-way SSL (Salesforce Help knowledge article 000007225)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/mutual-tls-authentication/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/mutual-tls-authentication/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/mutual-tls-authentication/s3> <https://schema.org/url> "https://help.salesforce.com/HTViewSolution?id=000007225" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/mutual-tls-authentication/s4> <http://purl.org/dc/terms/publisher> "IETF" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/mutual-tls-authentication/s4> <http://purl.org/dc/terms/title> "RFC 8705: OAuth 2.0 Mutual-TLS Client Authentication and Certificate-Bound Access Tokens" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/mutual-tls-authentication/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/mutual-tls-authentication/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "standards-body" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/mutual-tls-authentication/s4> <https://schema.org/url> "https://www.rfc-editor.org/rfc/rfc8705.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/mutual-tls-authentication/s5> <http://purl.org/dc/terms/publisher> "Fivetran" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/mutual-tls-authentication/s5> <http://purl.org/dc/terms/title> "Salesforce Setup Guide: Mutual Authentication (mTLS)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/mutual-tls-authentication/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/mutual-tls-authentication/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "partner" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/mutual-tls-authentication/s5> <https://schema.org/url> "https://fivetran.com/docs/connectors/applications/salesforce/setup-guide/mtls" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/my-domain/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/my-domain/s1> <http://purl.org/dc/terms/title> "Set Up Your Salesforce My Domain (Identity Basics: Customize Your Login Process)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/my-domain/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

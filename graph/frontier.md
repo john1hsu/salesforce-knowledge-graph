@@ -5,7 +5,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | Node | Referenced by |
 |---|---|
 | `kt:salesforce-analytics` | `kt:crm-analytics`, `kt:tableau`, `kt:tableau-next` |
-| `kt:mutual-tls-authentication` | `kt:certificate-and-key-management`, `kt:login-ip-ranges-and-trusted-ip-ranges`, `kt:zero-trust-architecture` |
 | `kt:zero-copy-data-sharing` | `kt:data-cloud-activation`, `kt:zero-copy-data-federation` |
 | `kt:tableau-semantics` | `kt:tableau`, `kt:tableau-next` |
 | `kt:decision-tables` | `kt:loyalty-management`, `kt:salesforce-pricing` |
@@ -89,15 +88,15 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:corporate-governance` | `kt:governance-risk-and-compliance` |
 | `kt:salesforce-licensing` | `kt:user-licenses` |
 | `kt:generative-ai` | `kt:retrieval-augmented-generation-in-salesforce` |
-| `kt:security-stripinaccessible` | `kt:apex-user-mode` |
-| `kt:with-security-enforced` | `kt:apex-user-mode` |
 | `kt:application-network` | `kt:api-led-connectivity` |
 | `kt:point-to-point-integration` | `kt:api-led-connectivity` |
+| `kt:security-stripinaccessible` | `kt:apex-user-mode` |
+| `kt:with-security-enforced` | `kt:apex-user-mode` |
 | `kt:agentexchange-go-to-market-app` | `kt:agentexchange` |
-| `kt:dynamic-actions` | `kt:dynamic-forms` |
-| `kt:dynamic-highlights-panel` | `kt:dynamic-forms` |
 | `kt:apexguru` | `kt:scale-test` |
 | `kt:scale-center` | `kt:scale-test` |
+| `kt:dynamic-actions` | `kt:dynamic-forms` |
+| `kt:dynamic-highlights-panel` | `kt:dynamic-forms` |
 | `kt:security-health-check` | `kt:session-settings` |
 | `kt:backup-and-recover-next` | `kt:backup-and-recover` |
 | `kt:static-resources` | `kt:cross-site-scripting` |
@@ -119,28 +118,28 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:opportunity-products` | `kt:price-books` |
 | `kt:iso-iec-25010` | `kt:non-functional-requirements` |
 | `kt:holidays` | `kt:business-hours` |
+| `kt:salesforce-as-identity-provider` | `kt:certificate-and-key-management` |
+| `kt:custom-permissions` | `kt:validation-rules` |
 | `kt:model-context-protocol` | `kt:model-context-protocol-in-agentforce` |
 | `kt:salesforce-hosted-mcp-servers` | `kt:model-context-protocol-in-agentforce` |
-| `kt:custom-permissions` | `kt:validation-rules` |
 | `kt:in-app-guidance` | `kt:change-management-and-adoption` |
 | `kt:data-cloud-query-api` | `kt:data-graphs` |
 | `kt:agentforce-vibes` | `kt:agentforce-vibes-ide` |
 | `kt:iso-iec-27017` | `kt:iso-iec-27002` |
-| `kt:salesforce-as-identity-provider` | `kt:certificate-and-key-management` |
 | `kt:data-cloud-triggered-flows` | `kt:data-actions` |
 | `kt:data-cloud-code-extension` | `kt:vector-search-in-data-cloud` |
 | `kt:business-process-mapping` | `kt:requirements-gathering` |
 | `kt:user-stories` | `kt:requirements-gathering` |
-| `kt:models-api` | `kt:ai-models` |
 | `kt:username-password-flow` | `kt:client-credentials-flow` |
+| `kt:models-api` | `kt:ai-models` |
 | `kt:ldap` | `kt:delegated-authentication` |
 | `kt:apex-defined-types` | `kt:transform-element` |
 | `kt:agentforce-nonprofit-consultant-certification` | `kt:agentforce-nonprofit` |
 | `kt:nonprofit-success-pack` | `kt:agentforce-nonprofit` |
 | `kt:ui-api` | `kt:field-dependencies` |
 | `kt:einstein-prediction-builder` | `kt:einstein-next-best-action` |
-| `kt:web-server-flow` | `kt:device-flow` |
 | `kt:business-analyst-certification` | `kt:user-acceptance-testing` |
+| `kt:web-server-flow` | `kt:device-flow` |
 | `kt:b2b-commerce` | `kt:commerce-cloud` |
 | `kt:b2c-commerce` | `kt:commerce-cloud` |
 | `kt:salesforce-order-management` | `kt:commerce-cloud` |

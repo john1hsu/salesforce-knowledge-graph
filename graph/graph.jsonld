@@ -23180,6 +23180,99 @@
       ]
     },
     {
+      "@id": "kt:mutual-tls-authentication",
+      "@type": "kto:SecurityControl",
+      "skos:prefLabel": "Mutual TLS Authentication",
+      "skos:definition": "A TLS handshake in which both sides present X.509 certificates, so the server also authenticates the client. In Salesforce it secures inbound API calls (port 8443, a trusted Mutual Authentication certificate and the Enforce SSL/TLS Mutual Authentication permission) and outbound callouts that present an org client certificate.",
+      "kto:domain": "identity",
+      "dcterms:created": "2026-11-17",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Enhance Integration Security with mTLS for Salesforce and MuleSoft",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2025/10/enhance-integration-security-with-mtls-for-salesforce-and-mulesoft",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "From Manual to Automated: A Taxonomy to Secure Your Salesforce Environment in the Short-Lived Certificate Era",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/blog/from-manual-to-automated-a-taxonomy-to-secure-your-salesforce-environment-in-the-short-lived-certificate-era/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Certificate requirements for two-way SSL (Salesforce Help knowledge article 000007225)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://help.salesforce.com/HTViewSolution?id=000007225",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "RFC 8705: OAuth 2.0 Mutual-TLS Client Authentication and Certificate-Bound Access Tokens",
+          "dcterms:publisher": "IETF",
+          "schema:url": "https://www.rfc-editor.org/rfc/rfc8705.html",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "Salesforce Setup Guide: Mutual Authentication (mTLS)",
+          "dcterms:publisher": "Fivetran",
+          "schema:url": "https://fivetran.com/docs/connectors/applications/salesforce/setup-guide/mtls",
+          "kto:sourceType": "partner"
+        }
+      ],
+      "kto:file": "articles/identity/mutual-tls-authentication.md",
+      "skos:altLabel": [
+        "mTLS",
+        "mutual TLS",
+        "two-way SSL",
+        "2-way SSL",
+        "mutual authentication",
+        "Enforce SSL/TLS Mutual Authentication"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-identity"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:zero-trust-architecture"
+        },
+        {
+          "@id": "kt:login-ip-ranges-and-trusted-ip-ranges"
+        },
+        {
+          "@id": "kt:mulesoft-anypoint-platform"
+        },
+        {
+          "@id": "kt:oauth-2-0"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:certificate-and-key-management"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:named-credentials"
+        },
+        {
+          "@id": "kt:apex-callouts"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:jwt-bearer-flow"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:external-client-apps"
+        }
+      ]
+    },
+    {
       "@id": "kt:my-domain",
       "@type": "kto:Feature",
       "skos:prefLabel": "My Domain",
