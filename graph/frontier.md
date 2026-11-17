@@ -22,7 +22,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:managed-event-subscriptions` | `kt:pub-sub-api` |
 | `kt:legacy-named-credentials` | `kt:named-credentials` |
 | `kt:salesforce-architecture-program` | `kt:salesforce-architecture-center` |
-| `kt:mixed-dml-error` | `kt:future-methods` |
 | `kt:salesforce-archive` | `kt:archiving-strategy` |
 | `kt:data-categories` | `kt:knowledge-base` |
 | `kt:trailhead` | `kt:salesforce-certification-program` |
@@ -71,9 +70,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:scale-center` | `kt:scale-test` |
 | `kt:json-web-token` | `kt:openid-connect` |
 | `kt:path` | `kt:business-processes` |
+| `kt:batch-apex-error-event` | `kt:transaction-finalizers` |
 | `kt:ingestion-api` | `kt:data-streams` |
 | `kt:object-manager` | `kt:schema-builder` |
-| `kt:batch-apex-error-event` | `kt:transaction-finalizers` |
 | `kt:agentexchange-go-to-market-app` | `kt:agentexchange` |
 | `kt:opportunity-teams` | `kt:opportunity-splits` |
 | `kt:revenue-intelligence` | `kt:collaborative-forecasts` |
@@ -83,9 +82,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:with-security-enforced` | `kt:apex-user-mode` |
 | `kt:constraint-modeling-language` | `kt:product-configurator` |
 | `kt:product-catalog-management` | `kt:product-configurator` |
+| `kt:salesforce-licensing` | `kt:user-licenses` |
 | `kt:application-network` | `kt:api-led-connectivity` |
 | `kt:point-to-point-integration` | `kt:api-led-connectivity` |
-| `kt:salesforce-licensing` | `kt:user-licenses` |
 | `kt:dynamic-actions` | `kt:dynamic-forms` |
 | `kt:dynamic-highlights-panel` | `kt:dynamic-forms` |
 | `kt:security-health-check` | `kt:session-settings` |
@@ -124,8 +123,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:organizational-governance` | `kt:corporate-governance` |
 | `kt:data-cloud-triggered-flows` | `kt:data-actions` |
 | `kt:business-process-mapping` | `kt:requirements-gathering` |
-| `kt:document-ai` | `kt:unstructured-data-in-data-cloud` |
 | `kt:user-stories` | `kt:requirements-gathering` |
+| `kt:document-ai` | `kt:unstructured-data-in-data-cloud` |
 | `kt:models-api` | `kt:ai-models` |
 | `kt:username-password-flow` | `kt:client-credentials-flow` |
 | `kt:ldap` | `kt:delegated-authentication` |

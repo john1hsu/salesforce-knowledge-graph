@@ -18099,6 +18099,78 @@
       ]
     },
     {
+      "@id": "kt:mixed-dml-error",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Mixed DML Error",
+      "skos:definition": "The Apex runtime error raised when one transaction performs DML on setup sObjects (such as User, UserRole, Group or PermissionSetAssignment) and on ordinary non-setup sObjects (such as Account); it is avoided by splitting the work into separate transactions, for example with a future or Queueable job, or with System.runAs in tests.",
+      "kto:domain": "development",
+      "dcterms:created": "2026-11-17",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Apex Developer Guide: sObjects That Can't Be Used Together in DML Operations",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexref/apex_dml_non_mix_sobjects.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Apex Developer Guide: Mixed DML Operations in Test Methods",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexref/apex_dml_non_mix_sobjects_test_methods.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Apex Developer Guide: Using the runAs Method",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_testing_tools_runas.htm",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/development/mixed-dml-error.md",
+      "skos:altLabel": [
+        "MIXED_DML_OPERATION",
+        "mixed DML operation",
+        "setup and non-setup object DML",
+        "mixed DML"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:transaction-control"
+        },
+        {
+          "@id": "kt:apex"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:future-methods"
+        },
+        {
+          "@id": "kt:queueable-apex"
+        },
+        {
+          "@id": "kt:apex-testing"
+        },
+        {
+          "@id": "kt:just-in-time-provisioning"
+        },
+        {
+          "@id": "kt:user-management"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:salesforce-sharing-model"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:order-of-execution"
+        }
+      ]
+    },
+    {
       "@id": "kt:orglimits-class",
       "@type": "kto:Feature",
       "skos:prefLabel": "OrgLimits Class",

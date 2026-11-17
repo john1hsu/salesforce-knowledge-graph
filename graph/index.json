@@ -5631,6 +5631,27 @@
     ]
   },
   {
+    "id": "kt:mixed-dml-error",
+    "title": "Mixed DML Error",
+    "aliases": [
+      "MIXED_DML_OPERATION",
+      "mixed DML operation",
+      "setup and non-setup object DML",
+      "mixed DML"
+    ],
+    "type": "Concept",
+    "domain": "development",
+    "file": "articles/development/mixed-dml-error.md",
+    "created": "2026-11-17",
+    "release": "Winter '27",
+    "status": "concept",
+    "source_urls": [
+      "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexref/apex_dml_non_mix_sobjects.htm",
+      "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexref/apex_dml_non_mix_sobjects_test_methods.htm",
+      "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_testing_tools_runas.htm"
+    ]
+  },
+  {
     "id": "kt:model-context-protocol-in-agentforce",
     "title": "MCP for Agentforce",
     "aliases": [
