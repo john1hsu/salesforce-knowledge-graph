@@ -7021,6 +7021,31 @@
     ]
   },
   {
+    "id": "kt:prompt-injection",
+    "title": "Prompt Injection",
+    "aliases": [
+      "prompt injection attack",
+      "direct prompt injection",
+      "indirect prompt injection",
+      "LLM prompt injection",
+      "LLM01"
+    ],
+    "type": "Concept",
+    "domain": "security-and-sharing",
+    "file": "articles/security-and-sharing/prompt-injection.md",
+    "created": "2026-11-17",
+    "release": "Winter '27",
+    "status": "concept",
+    "source_urls": [
+      "https://developer.salesforce.com/docs/platform/isvforce/guide/secure-agentforce-prompts.html",
+      "https://developer.salesforce.com/docs/platform/isvforce/guide/secure-agentforce-prompt-injection-harden.html",
+      "https://developer.salesforce.com/docs/platform/isvforce/guide/secure-agentforce-prompt-injection-enclosure.html",
+      "https://developer.salesforce.com/blogs/2023/10/inside-the-einstein-trust-layer",
+      "https://nvlpubs.nist.gov/nistpubs/ai/nist.ai.100-2e2025.pdf",
+      "https://genai.owasp.org/llmrisk/llm01-prompt-injection/"
+    ]
+  },
+  {
     "id": "kt:proof-of-concept",
     "title": "Proof of Concept",
     "aliases": [

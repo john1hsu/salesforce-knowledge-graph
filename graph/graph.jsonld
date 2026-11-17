@@ -35787,6 +35787,94 @@
       ]
     },
     {
+      "@id": "kt:prompt-injection",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Prompt Injection",
+      "skos:definition": "An attack on LLM-based applications in which crafted input, typed by a user or hidden in data the model reads, changes the model's behaviour against its instructions. In Salesforce it threatens Agentforce agents and prompt templates that merge untrusted record data, and is mitigated in layers rather than prevented outright.",
+      "kto:domain": "security-and-sharing",
+      "dcterms:created": "2026-11-17",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Secure Your Agentforce Prompts",
+          "dcterms:publisher": "Salesforce Developers (ISVforce Guide)",
+          "schema:url": "https://developer.salesforce.com/docs/platform/isvforce/guide/secure-agentforce-prompts.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Design Security-Hardened Prompts",
+          "dcterms:publisher": "Salesforce Developers (ISVforce Guide)",
+          "schema:url": "https://developer.salesforce.com/docs/platform/isvforce/guide/secure-agentforce-prompt-injection-harden.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Use Random Sequence Enclosures and Prompt Sandwiching",
+          "dcterms:publisher": "Salesforce Developers (ISVforce Guide)",
+          "schema:url": "https://developer.salesforce.com/docs/platform/isvforce/guide/secure-agentforce-prompt-injection-enclosure.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Inside the Einstein Trust Layer",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2023/10/inside-the-einstein-trust-layer",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "NIST AI 100-2 E2025: Adversarial Machine Learning — A Taxonomy and Terminology of Attacks and Mitigations",
+          "dcterms:publisher": "NIST",
+          "schema:url": "https://nvlpubs.nist.gov/nistpubs/ai/nist.ai.100-2e2025.pdf",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "LLM01:2025 Prompt Injection",
+          "dcterms:publisher": "OWASP Gen AI Security Project",
+          "schema:url": "https://genai.owasp.org/llmrisk/llm01-prompt-injection/",
+          "kto:sourceType": "community"
+        }
+      ],
+      "kto:file": "articles/security-and-sharing/prompt-injection.md",
+      "skos:altLabel": [
+        "prompt injection attack",
+        "direct prompt injection",
+        "indirect prompt injection",
+        "LLM prompt injection",
+        "LLM01"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:secure-coding"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:einstein-trust-layer"
+        },
+        {
+          "@id": "kt:agentforce"
+        },
+        {
+          "@id": "kt:prompt-builder"
+        },
+        {
+          "@id": "kt:retrieval-augmented-generation-in-salesforce"
+        },
+        {
+          "@id": "kt:agentexchange"
+        }
+      ],
+      "kto:causes": [
+        {
+          "@id": "kt:data-breach-risk"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:soql-injection"
+        }
+      ]
+    },
+    {
       "@id": "kt:public-groups",
       "@type": "kto:Feature",
       "skos:prefLabel": "Public Groups",

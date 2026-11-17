@@ -23,7 +23,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:legacy-named-credentials` | `kt:named-credentials` |
 | `kt:salesforce-architecture-program` | `kt:salesforce-architecture-center` |
 | `kt:salesforce-archive` | `kt:archiving-strategy` |
-| `kt:prompt-injection` | `kt:einstein-trust-layer` |
 | `kt:mixed-dml-error` | `kt:future-methods` |
 | `kt:data-categories` | `kt:knowledge-base` |
 | `kt:trailhead` | `kt:salesforce-certification-program` |
@@ -49,8 +48,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:saql` | `kt:crm-analytics` |
 | `kt:salesforce-lightning-design-system` | `kt:visualforce` |
 | `kt:apex-mocks` | `kt:apex-enterprise-patterns` |
-| `kt:pushtopic-streaming-allocations` | `kt:streaming-api` |
 | `kt:tableau-pulse` | `kt:tableau` |
+| `kt:pushtopic-streaming-allocations` | `kt:streaming-api` |
 | `kt:api-experience-hub` | `kt:external-identity-license` |
 | `kt:customer-community-licenses` | `kt:external-identity-license` |
 | `kt:omnistudio-consultant-certification` | `kt:omnistudio` |
@@ -61,6 +60,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:rest-api-limits-resource` | `kt:orglimits-class` |
 | `kt:scim` | `kt:salesforce-scim` |
 | `kt:apex-rest-services` | `kt:remote-call-in` |
+| `kt:generative-ai` | `kt:retrieval-augmented-generation-in-salesforce` |
 | `kt:apexguru` | `kt:scale-test` |
 | `kt:scale-center` | `kt:scale-test` |
 | `kt:json-web-token` | `kt:openid-connect` |
@@ -73,7 +73,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:marketing-cloud-account-engagement` | `kt:marketing-cloud-engagement` |
 | `kt:marketing-cloud-connect` | `kt:marketing-cloud-engagement` |
 | `kt:salesforce-marketing-solutions` | `kt:marketing-cloud-engagement` |
-| `kt:generative-ai` | `kt:retrieval-augmented-generation-in-salesforce` |
+| `kt:agentexchange-go-to-market-app` | `kt:agentexchange` |
 | `kt:batch-apex-error-event` | `kt:transaction-finalizers` |
 | `kt:opportunity-teams` | `kt:opportunity-splits` |
 | `kt:revenue-intelligence` | `kt:collaborative-forecasts` |
@@ -84,14 +84,13 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:constraint-modeling-language` | `kt:product-configurator` |
 | `kt:product-catalog-management` | `kt:product-configurator` |
 | `kt:corporate-governance` | `kt:governance-risk-and-compliance` |
+| `kt:security-stripinaccessible` | `kt:apex-user-mode` |
+| `kt:with-security-enforced` | `kt:apex-user-mode` |
 | `kt:salesforce-licensing` | `kt:user-licenses` |
 | `kt:application-network` | `kt:api-led-connectivity` |
 | `kt:point-to-point-integration` | `kt:api-led-connectivity` |
-| `kt:security-stripinaccessible` | `kt:apex-user-mode` |
-| `kt:with-security-enforced` | `kt:apex-user-mode` |
 | `kt:dynamic-actions` | `kt:dynamic-forms` |
 | `kt:dynamic-highlights-panel` | `kt:dynamic-forms` |
-| `kt:agentexchange-go-to-market-app` | `kt:agentexchange` |
 | `kt:security-health-check` | `kt:session-settings` |
 | `kt:backup-and-recover-next` | `kt:backup-and-recover` |
 | `kt:static-resources` | `kt:cross-site-scripting` |

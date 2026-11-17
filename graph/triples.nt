@@ -7938,6 +7938,33 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/prompt-builder> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/prompt-builder> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/prompt-builder> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/prompt-injection> <http://purl.org/dc/terms/created> "2026-11-17" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/prompt-injection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/prompt-injection> <http://www.w3.org/2000/01/rdf-schema#label> "Prompt Injection" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/prompt-injection> <http://www.w3.org/2004/02/skos/core#altLabel> "LLM prompt injection" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/prompt-injection> <http://www.w3.org/2004/02/skos/core#altLabel> "LLM01" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/prompt-injection> <http://www.w3.org/2004/02/skos/core#altLabel> "direct prompt injection" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/prompt-injection> <http://www.w3.org/2004/02/skos/core#altLabel> "indirect prompt injection" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/prompt-injection> <http://www.w3.org/2004/02/skos/core#altLabel> "prompt injection attack" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/prompt-injection> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/secure-coding> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/prompt-injection> <http://www.w3.org/2004/02/skos/core#definition> "An attack on LLM-based applications in which crafted input, typed by a user or hidden in data the model reads, changes the model's behaviour against its instructions. In Salesforce it threatens Agentforce agents and prompt templates that merge untrusted record data, and is mitigated in layers rather than prevented outright." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/prompt-injection> <http://www.w3.org/2004/02/skos/core#prefLabel> "Prompt Injection" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/prompt-injection> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentexchange> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/prompt-injection> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/prompt-injection> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/einstein-trust-layer> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/prompt-injection> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/prompt-builder> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/prompt-injection> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/retrieval-augmented-generation-in-salesforce> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/prompt-injection> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/prompt-injection/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/prompt-injection> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/prompt-injection/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/prompt-injection> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/prompt-injection/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/prompt-injection> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/prompt-injection/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/prompt-injection> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/prompt-injection/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/prompt-injection> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/prompt-injection/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/prompt-injection> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#causes> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-breach-risk> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/prompt-injection> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#contrastsWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/soql-injection> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/prompt-injection> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "security-and-sharing" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/prompt-injection> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/prompt-injection> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/proof-of-concept> <http://purl.org/dc/terms/created> "2026-11-16" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/proof-of-concept> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/proof-of-concept> <http://www.w3.org/2000/01/rdf-schema#label> "Proof of Concept" .
@@ -18310,6 +18337,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/prompt-builder/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/prompt-builder/s7> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/prompt-builder/s7> <https://schema.org/url> "https://admin.salesforce.com/blog/2026/jens-top-winter-27-release-features-for-admins" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/prompt-injection/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers (ISVforce Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/prompt-injection/s1> <http://purl.org/dc/terms/title> "Secure Your Agentforce Prompts" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/prompt-injection/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/prompt-injection/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/prompt-injection/s1> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/isvforce/guide/secure-agentforce-prompts.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/prompt-injection/s2> <http://purl.org/dc/terms/publisher> "Salesforce Developers (ISVforce Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/prompt-injection/s2> <http://purl.org/dc/terms/title> "Design Security-Hardened Prompts" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/prompt-injection/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/prompt-injection/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/prompt-injection/s2> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/isvforce/guide/secure-agentforce-prompt-injection-harden.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/prompt-injection/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers (ISVforce Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/prompt-injection/s3> <http://purl.org/dc/terms/title> "Use Random Sequence Enclosures and Prompt Sandwiching" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/prompt-injection/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/prompt-injection/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/prompt-injection/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/isvforce/guide/secure-agentforce-prompt-injection-enclosure.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/prompt-injection/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/prompt-injection/s4> <http://purl.org/dc/terms/title> "Inside the Einstein Trust Layer" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/prompt-injection/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/prompt-injection/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/prompt-injection/s4> <https://schema.org/url> "https://developer.salesforce.com/blogs/2023/10/inside-the-einstein-trust-layer" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/prompt-injection/s5> <http://purl.org/dc/terms/publisher> "NIST" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/prompt-injection/s5> <http://purl.org/dc/terms/title> "NIST AI 100-2 E2025: Adversarial Machine Learning — A Taxonomy and Terminology of Attacks and Mitigations" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/prompt-injection/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/prompt-injection/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "standards-body" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/prompt-injection/s5> <https://schema.org/url> "https://nvlpubs.nist.gov/nistpubs/ai/nist.ai.100-2e2025.pdf" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/prompt-injection/s6> <http://purl.org/dc/terms/publisher> "OWASP Gen AI Security Project" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/prompt-injection/s6> <http://purl.org/dc/terms/title> "LLM01:2025 Prompt Injection" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/prompt-injection/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/prompt-injection/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "community" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/prompt-injection/s6> <https://schema.org/url> "https://genai.owasp.org/llmrisk/llm01-prompt-injection/" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/proof-of-concept/s1> <http://purl.org/dc/terms/publisher> "NASA" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/proof-of-concept/s1> <http://purl.org/dc/terms/title> "Technology Readiness Levels" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/proof-of-concept/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
