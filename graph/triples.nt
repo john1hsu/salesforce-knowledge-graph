@@ -8521,6 +8521,32 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/sales-cloud> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/enterprise-territory-management> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/sales-cloud> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/sales-cloud> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-analytics> <http://purl.org/dc/terms/created> "2026-11-17" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-analytics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-analytics> <http://www.w3.org/2000/01/rdf-schema#label> "Salesforce Analytics" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-analytics> <http://www.w3.org/2004/02/skos/core#altLabel> "Analytics (Salesforce Help product area)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-analytics> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce analytics portfolio" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-analytics> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-platform> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-analytics> <http://www.w3.org/2004/02/skos/core#definition> "The umbrella for Salesforce's analytics offerings: built-in Reports and Dashboards on the core platform, CRM Analytics, the Tableau family (including the Data 360-based Tableau Next) and Tableau Semantics. Choosing among these layers is a recurring architecture decision about data scope, licensing and where insights surface." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-analytics> <http://www.w3.org/2004/02/skos/core#prefLabel> "Salesforce Analytics" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-analytics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-analytics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/calculated-insights> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-analytics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-analytics> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-sharing-model> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-analytics> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-analytics/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-analytics> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-analytics/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-analytics> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-analytics/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-analytics> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-analytics/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-analytics> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-analytics/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-analytics> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-analytics/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-analytics> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "clouds-and-products" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-analytics> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/crm-analytics> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-analytics> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/reports-and-dashboards> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-analytics> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/tableau-next> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-analytics> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/tableau-semantics> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-analytics> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/tableau> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-analytics> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-analytics> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-apis> <http://purl.org/dc/terms/created> "2026-11-11" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-apis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-apis> <http://www.w3.org/2000/01/rdf-schema#label> "Salesforce APIs" .
@@ -18735,6 +18761,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sales-cloud/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sales-cloud/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sales-cloud/s6> <https://schema.org/url> "https://trailhead.salesforce.com/fr/content/learn/modules/sales-for-small-business/manage-leads-and-sales-pipelines" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-analytics/s1> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-analytics/s1> <http://purl.org/dc/terms/title> "Analytics (Salesforce Help product page)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-analytics/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-analytics/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-analytics/s1> <https://schema.org/url> "https://help.salesforce.com/s/products/analytics" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-analytics/s2> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-analytics/s2> <http://purl.org/dc/terms/title> "Analyze Your Data with Reports and Dashboards (Lightning Experience Productivity)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-analytics/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-analytics/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-analytics/s2> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/lightning-experience-productivity/analyze-your-data-with-reports-and-dashboards" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-analytics/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-analytics/s3> <http://purl.org/dc/terms/title> "Reports and Dashboards REST API: Requirements and Limitations" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-analytics/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-analytics/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-analytics/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.api_analytics.meta/api_analytics/sforce_analytics_rest_api_limits_limitations.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-analytics/s4> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-analytics/s4> <http://purl.org/dc/terms/title> "CRM Analytics (Salesforce Help)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-analytics/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-analytics/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-analytics/s4> <https://schema.org/url> "https://help.salesforce.com/HTViewHelpDoc?id=bi.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-analytics/s5> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-analytics/s5> <http://purl.org/dc/terms/title> "Tableau Next Features Overview" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-analytics/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-analytics/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-analytics/s5> <https://schema.org/url> "https://developer.salesforce.com/docs/analytics/tableau-next-isv-dev/guide/tn-features-overview.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-analytics/s6> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-analytics/s6> <http://purl.org/dc/terms/title> "All Analytics Products" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-analytics/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-analytics/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-analytics/s6> <https://schema.org/url> "https://salesforce.com/analytics/all-products" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-apis/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-apis/s1> <http://purl.org/dc/terms/title> "Get to Know the Salesforce Platform APIs (API Basics)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-apis/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
