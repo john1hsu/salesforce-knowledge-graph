@@ -4,7 +4,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:tableau-semantics` | `kt:salesforce-analytics`, `kt:tableau`, `kt:tableau-next` |
 | `kt:flow-limits` | `kt:flow-bulkification`, `kt:flow-loop-element`, `kt:flow-versioning` |
 | `kt:platform-event-channel-member` | `kt:change-data-capture`, `kt:change-data-capture-allocations` |
 | `kt:zero-copy-data-sharing` | `kt:data-cloud-activation`, `kt:zero-copy-data-federation` |
@@ -38,15 +37,15 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:data-stewardship` | `kt:data-governance` |
 | `kt:data-import-wizard` | `kt:data-loader` |
 | `kt:salesforce-sites` | `kt:custom-domains` |
+| `kt:tableau-pulse` | `kt:tableau` |
 | `kt:dispatcher-console` | `kt:field-service` |
-| `kt:entitlement-process-metadata` | `kt:entitlement-management` |
 | `kt:field-service-mobile-app` | `kt:field-service` |
 | `kt:field-service-scheduling-policies` | `kt:field-service` |
 | `kt:service-appointments` | `kt:field-service` |
 | `kt:work-orders` | `kt:field-service` |
+| `kt:entitlement-process-metadata` | `kt:entitlement-management` |
 | `kt:einstein-discovery` | `kt:crm-analytics` |
 | `kt:saql` | `kt:crm-analytics` |
-| `kt:tableau-pulse` | `kt:tableau` |
 | `kt:salesforce-lightning-design-system` | `kt:visualforce` |
 | `kt:apex-mocks` | `kt:apex-enterprise-patterns` |
 | `kt:pushtopic-streaming-allocations` | `kt:streaming-api` |
@@ -68,9 +67,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:scale-center` | `kt:scale-test` |
 | `kt:json-web-token` | `kt:openid-connect` |
 | `kt:path` | `kt:business-processes` |
+| `kt:ingestion-api` | `kt:data-streams` |
 | `kt:object-manager` | `kt:schema-builder` |
 | `kt:batch-apex-error-event` | `kt:transaction-finalizers` |
-| `kt:ingestion-api` | `kt:data-streams` |
 | `kt:automation-studio` | `kt:marketing-cloud-engagement` |
 | `kt:contact-builder` | `kt:marketing-cloud-engagement` |
 | `kt:marketing-cloud-account-engagement` | `kt:marketing-cloud-engagement` |
@@ -85,13 +84,14 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:with-security-enforced` | `kt:apex-user-mode` |
 | `kt:constraint-modeling-language` | `kt:product-configurator` |
 | `kt:product-catalog-management` | `kt:product-configurator` |
-| `kt:salesforce-licensing` | `kt:user-licenses` |
 | `kt:application-network` | `kt:api-led-connectivity` |
 | `kt:point-to-point-integration` | `kt:api-led-connectivity` |
+| `kt:salesforce-licensing` | `kt:user-licenses` |
 | `kt:dynamic-actions` | `kt:dynamic-forms` |
 | `kt:dynamic-highlights-panel` | `kt:dynamic-forms` |
 | `kt:security-health-check` | `kt:session-settings` |
 | `kt:backup-and-recover-next` | `kt:backup-and-recover` |
+| `kt:reports-and-dashboards` | `kt:salesforce-analytics` |
 | `kt:static-resources` | `kt:cross-site-scripting` |
 | `kt:block-kit` | `kt:slack-platform` |
 | `kt:mulesoft-composer` | `kt:slack-platform` |
@@ -101,10 +101,10 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:compliant-data-sharing` | `kt:financial-services-cloud` |
 | `kt:soc-1` | `kt:soc-2` |
 | `kt:trust-services-criteria` | `kt:soc-2` |
-| `kt:reports-and-dashboards` | `kt:salesforce-analytics` |
 | `kt:fhir` | `kt:health-cloud` |
 | `kt:utilization-management` | `kt:health-cloud` |
 | `kt:security-center` | `kt:continuous-monitoring` |
+| `kt:semantic-layer` | `kt:tableau-semantics` |
 | `kt:custom-permissions` | `kt:validation-rules` |
 | `kt:cap-theorem` | `kt:distributed-computing` |
 | `kt:computer-science` | `kt:distributed-computing` |
@@ -124,8 +124,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:iso-iec-27017` | `kt:iso-iec-27002` |
 | `kt:organizational-governance` | `kt:corporate-governance` |
 | `kt:data-cloud-triggered-flows` | `kt:data-actions` |
-| `kt:document-ai` | `kt:unstructured-data-in-data-cloud` |
 | `kt:business-process-mapping` | `kt:requirements-gathering` |
+| `kt:document-ai` | `kt:unstructured-data-in-data-cloud` |
 | `kt:user-stories` | `kt:requirements-gathering` |
 | `kt:models-api` | `kt:ai-models` |
 | `kt:username-password-flow` | `kt:client-credentials-flow` |

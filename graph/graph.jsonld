@@ -12363,6 +12363,94 @@
       ]
     },
     {
+      "@id": "kt:tableau-semantics",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Tableau Semantics",
+      "skos:definition": "The semantic layer built into Data 360: semantic models map data model objects, data lake objects and calculated insights to governed business definitions (dimensions, measures, relationships, metrics) that Tableau Next, Tableau Desktop/Cloud, Data 360 reports and AI agents all query the same way.",
+      "kto:domain": "data-cloud-and-ai",
+      "dcterms:created": "2026-11-17",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What is the Tableau Semantics?",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/data/semantic-layer/guide/tableau-semantics-concepts.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Create a Semantic Model (Tableau Semantics module)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/tableau-semantics/create-a-semantic-model",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Test and Consume Your Semantic Model (Tableau Semantics module)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/tableau-semantics/test-and-consume-your-semantic-model",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Tableau Semantics (connector)",
+          "dcterms:publisher": "Tableau Desktop and Web Authoring Help",
+          "schema:url": "https://help.tableau.com/current/pro/desktop/en-us/examples_tableau_semantics.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Best Practices for Creating a Performant Semantic Model in Tableau Semantics",
+          "dcterms:publisher": "Tableau",
+          "schema:url": "https://www.tableau.com/blog/tableau-semantics-best-practices-performant-semantic-model",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Tableau Semantics",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/in/analytics/tableau-semantics/",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/data-cloud-and-ai/tableau-semantics.md",
+      "skos:altLabel": [
+        "Data 360 semantic layer",
+        "Data Cloud semantic layer",
+        "Salesforce semantic models"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-analytics"
+        },
+        {
+          "@id": "kt:semantic-layer"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:data-model-objects"
+        },
+        {
+          "@id": "kt:calculated-insights"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:data-cloud"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:data-spaces"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:tableau-next"
+        },
+        {
+          "@id": "kt:tableau"
+        }
+      ]
+    },
+    {
       "@id": "kt:unstructured-data-in-data-cloud",
       "@type": "kto:Feature",
       "skos:prefLabel": "Unstructured Data in Data 360",
