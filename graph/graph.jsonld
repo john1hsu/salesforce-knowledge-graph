@@ -31511,6 +31511,75 @@
       ]
     },
     {
+      "@id": "kt:corporate-governance",
+      "@type": "kto:ExternalConcept",
+      "skos:prefLabel": "Corporate Governance",
+      "skos:definition": "The rules and practices by which a company is directed and controlled — the relationships among its board, managers, shareholders and other stakeholders — benchmarked internationally by the G20/OECD Principles of Corporate Governance; it is the top-level system that a GRC program, and ultimately Salesforce-specific governance, answers to.",
+      "kto:domain": "public-sector-and-compliance",
+      "dcterms:created": "2026-11-17",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "G20/OECD Principles of Corporate Governance 2023 (full report)",
+          "dcterms:publisher": "OECD",
+          "schema:url": "https://www.oecd.org/en/publications/2023/09/g20-oecd-principles-of-corporate-governance-2023_60836fcb/full-report",
+          "kto:sourceType": "government"
+        },
+        {
+          "dcterms:title": "Leaders endorse revised G20/OECD Principles of Corporate Governance to promote corporate sustainability, market confidence and financial stability",
+          "dcterms:publisher": "OECD",
+          "schema:url": "https://search.oecd.org/newsroom/leaders-endorse-revised-g20-oecd-principles-of-corporate-governance-to-promote-corporate-sustainability-market-confidence-and-financial-stability.htm",
+          "kto:sourceType": "government"
+        },
+        {
+          "dcterms:title": "Corporate governance",
+          "dcterms:publisher": "Encyclopaedia Britannica (Britannica Money)",
+          "schema:url": "https://www.britannica.com/money/corporate-governance",
+          "kto:sourceType": "textbook"
+        },
+        {
+          "dcterms:title": "SEC Adopts Rules on Cybersecurity Risk Management, Strategy, Governance, and Incident Disclosure by Public Companies (Press Release 2023-139)",
+          "dcterms:publisher": "U.S. Securities and Exchange Commission",
+          "schema:url": "https://sec.gov/news/press-release/2023-139",
+          "kto:sourceType": "government"
+        },
+        {
+          "dcterms:title": "Salesforce, Inc. Corporate Governance Guidelines (amended and restated March 27, 2025)",
+          "dcterms:publisher": "Salesforce, Inc.",
+          "schema:url": "https://s205.q4cdn.com/626266368/files/doc_governance/2025/Jun/26/Salesforce-Corporate-Governance-Guidelines-A-R-March-26-2024-Final-for-Website-March-2025-9d5830.pdf",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/public-sector-and-compliance/corporate-governance.md",
+      "skos:altLabel": [
+        "company governance",
+        "board governance",
+        "G20/OECD Principles of Corporate Governance"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:organizational-governance"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:governance-risk-and-compliance"
+        },
+        {
+          "@id": "kt:data-breach-risk"
+        },
+        {
+          "@id": "kt:salesforce-inc"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:salesforce-governance"
+        }
+      ]
+    },
+    {
       "@id": "kt:data-classification",
       "@type": "kto:Feature",
       "skos:prefLabel": "Data Classification",
