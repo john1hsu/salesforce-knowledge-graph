@@ -10,7 +10,7 @@ summary: >-
 release: "Winter '27"
 status: current
 broader: [kt:salesforce-dx, kt:application-lifecycle-management]
-related: [kt:environment-strategy, kt:devops-center, kt:source-tracking]
+related: [kt:environment-strategy, kt:devops-center, kt:source-tracking, kt:org-shape]
 relations:
   - {predicate: dependsOn, object: kt:dev-hub}
   - {predicate: configuredVia, object: kt:salesforce-cli}

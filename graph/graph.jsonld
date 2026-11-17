@@ -20933,6 +20933,98 @@
       ]
     },
     {
+      "@id": "kt:org-shape",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Org Shape for Scratch Orgs",
+      "skos:definition": "A Salesforce DX feature that captures a production-type source org's edition, features, limits, package licenses and Boolean Metadata API settings as an internal shape in the Dev Hub, so scratch orgs can be created to mirror that org by naming it as sourceOrg instead of hand-writing every feature and setting.",
+      "kto:domain": "devops-and-alm",
+      "dcterms:created": "2026-11-17",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Create a Scratch Org Based on an Org Shape (Salesforce DX Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.264.0.sfdx_dev.meta/sfdx_dev/sfdx_dev_shape_intro.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Create and Manage Org Shapes (Salesforce DX Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/sfdx-dev/guide/sfdx-dev-shape-create-shape.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Enable Org Shape for Scratch Orgs (Salesforce DX Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_shape_enable_org_shape.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Org Shape Permissions (Salesforce DX Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.264.0.sfdx_dev.meta/sfdx_dev/sfdx_dev_shape_permissions.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Scratch Org Definition for Org Shape (Salesforce DX Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/sfdx-dev/guide/sfdx-dev-shape-scratch-def.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Scratch Org Definition Files vs Org Shape in Package Development (Second-Generation Packaging Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/pkg2-dev/guide/dev2gp-so-orgshape-vs-def-file.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/devops-and-alm/org-shape.md",
+      "skos:altLabel": [
+        "org shape",
+        "scratch org shape",
+        "sourceOrg",
+        "Enable Org Shape for Scratch Orgs",
+        "sf org create shape"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:scratch-orgs"
+        },
+        {
+          "@id": "kt:salesforce-dx"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:sandbox-types"
+        },
+        {
+          "@id": "kt:first-generation-managed-packages"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:dev-hub"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:salesforce-cli"
+        }
+      ],
+      "kto:enables": [
+        {
+          "@id": "kt:unlocked-packages"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:devops-center"
+        }
+      ]
+    },
+    {
       "@id": "kt:package-dependencies",
       "@type": "kto:Feature",
       "skos:prefLabel": "Package Dependencies",
@@ -22056,6 +22148,9 @@
         },
         {
           "@id": "kt:source-tracking"
+        },
+        {
+          "@id": "kt:org-shape"
         }
       ],
       "kto:dependsOn": [

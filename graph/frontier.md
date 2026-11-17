@@ -68,11 +68,11 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:revenue-intelligence` | `kt:collaborative-forecasts` |
 | `kt:apexguru` | `kt:scale-test` |
 | `kt:scale-center` | `kt:scale-test` |
-| `kt:json-web-token` | `kt:openid-connect` |
 | `kt:path` | `kt:business-processes` |
+| `kt:json-web-token` | `kt:openid-connect` |
 | `kt:batch-apex-error-event` | `kt:transaction-finalizers` |
-| `kt:ingestion-api` | `kt:data-streams` |
 | `kt:object-manager` | `kt:schema-builder` |
+| `kt:ingestion-api` | `kt:data-streams` |
 | `kt:opportunity-teams` | `kt:opportunity-splits` |
 | `kt:agentexchange-go-to-market-app` | `kt:agentexchange` |
 | `kt:salesforce-licensing` | `kt:user-licenses` |
@@ -103,9 +103,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:utilization-management` | `kt:health-cloud` |
 | `kt:security-center` | `kt:continuous-monitoring` |
 | `kt:semantic-layer` | `kt:tableau-semantics` |
-| `kt:custom-permissions` | `kt:validation-rules` |
 | `kt:cap-theorem` | `kt:distributed-computing` |
 | `kt:computer-science` | `kt:distributed-computing` |
+| `kt:custom-permissions` | `kt:validation-rules` |
 | `kt:platform-cache-partitions` | `kt:platform-cache` |
 | `kt:iso-iec-25010` | `kt:non-functional-requirements` |
 | `kt:holidays` | `kt:business-hours` |
@@ -146,7 +146,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:organization-wide-email-addresses` | `kt:email-alerts` |
 | `kt:digital-accessibility` | `kt:section-508-accessibility` |
 | `kt:instance-refresh-and-org-migration` | `kt:trust-and-status-site` |
-| `kt:post-install-scripts` | `kt:push-upgrades` |
 | `kt:tx-ramp` | `kt:govramp` |
 | `kt:wcag` | `kt:section-508-accessibility` |
 | `kt:agent-to-agent-protocol` | `kt:agentforce-architecture-patterns` |
@@ -157,6 +156,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:greenhouse-gas-protocol` | `kt:net-zero-cloud` |
 | `kt:multi-agent-orchestration` | `kt:agentforce-architecture-patterns` |
 | `kt:notes-and-attachments` | `kt:content-document-model` |
+| `kt:post-install-scripts` | `kt:push-upgrades` |
 | `kt:shared-activities` | `kt:activity-data-model` |
 | `kt:tableau-blueprint` | `kt:tableau-architect-certification` |
 | `kt:tableau-server-administrator-certification` | `kt:tableau-architect-certification` |
