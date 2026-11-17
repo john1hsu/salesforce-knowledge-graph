@@ -14429,6 +14429,107 @@
       ]
     },
     {
+      "@id": "kt:lookup-filters",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Lookup Filters",
+      "skos:definition": "An administrator-defined filter on a lookup, master-detail or hierarchical relationship field that restricts which target records users can pick and save, using criteria on the source record, the target record, the running user and records one relationship away from the target.",
+      "kto:domain": "data-model",
+      "dcterms:created": "2026-11-17",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Lookup Filters",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=sf.fields_lookup_filters.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Considerations for Lookup Filters",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/apex/HTViewHelpDoc?id=sf.fields_lookup_filters_notes.htm&language=en_us",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Limitations on Lookup Filters",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=fields_lookup_limitations.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Define Lookup Filters",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=sf.fields_lookup_filters_defining.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Customize a Salesforce Object: Create Lookup Filters",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/projects/customize-a-salesforce-object/create-lookup-filters",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Metadata API Developer Guide: NamedFilter",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/namedfilter.htm",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/data-model/lookup-filters.md",
+      "skos:altLabel": [
+        "lookup filter",
+        "filtered lookup",
+        "filtered lookups",
+        "dependent lookup",
+        "dependent lookups",
+        "related lookup filters",
+        "lookupFilter"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:object-relationships"
+        },
+        {
+          "@id": "kt:data-quality"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:lookup-vs-master-detail"
+        },
+        {
+          "@id": "kt:hierarchical-relationships"
+        },
+        {
+          "@id": "kt:field-dependencies"
+        },
+        {
+          "@id": "kt:page-layouts"
+        },
+        {
+          "@id": "kt:custom-fields"
+        },
+        {
+          "@id": "kt:unlocked-packages"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:validation-rules"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:metadata-api"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:visualforce"
+        }
+      ]
+    },
+    {
       "@id": "kt:lookup-vs-master-detail",
       "@type": "kto:Concept",
       "skos:prefLabel": "Lookup vs. Master-Detail Relationships",
