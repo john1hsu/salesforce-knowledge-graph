@@ -7857,6 +7857,106 @@
       ]
     },
     {
+      "@id": "kt:marketing-cloud-account-engagement",
+      "@type": "kto:Product",
+      "skos:prefLabel": "Marketing Cloud Account Engagement",
+      "skos:definition": "Salesforce's B2B marketing automation product (formerly Pardot), built around prospects, scoring and grading, lists, automation rules and Engagement Studio programs, and synced to Sales Cloud leads, contacts and campaigns through the Salesforce connector and per-business-unit configuration.",
+      "kto:domain": "clouds-and-products",
+      "dcterms:created": "2026-11-17",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Discover Salesforce Marketing Solutions (Salesforce Marketing Cloud Quick Look)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/salesforce-marketing-cloud-quick-look/discover-salesforce-marketing-solutions",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Get Started with Account Engagement Lightning (Account Engagement Basics)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/pardot-basics-lightning/get-started-with-pardot-lightning",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Plan Your Integration (Account Engagement and Salesforce Integration)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/pardot-salesforce-integration-for-lightning-app/plan-your-integration",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Get Started with Lead Scoring (Lead Scoring and Grading in Account Engagement)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/lead-scoring-and-grading-in-account-engagement/get-started-with-lead-scoring",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Get Started with Lead Grading (Lead Scoring and Grading in Account Engagement)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/lead-scoring-and-grading-in-account-engagement/get-started-with-lead-grading",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Create an Engagement Studio Program (Engagement Studio)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/pardot-engagement-studio-lightning/create-an-engagement-studio-program-lightning",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Marketing Cloud Account Engagement Pricing",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/in/editions-pricing/marketing-cloud/account-engagement/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Pardot Renamed Marketing Cloud Account Engagement",
+          "dcterms:publisher": "Salesforce Ben",
+          "schema:url": "https://www.salesforceben.com/the-drip/pardot-renamed-marketing-cloud-account-engagement/",
+          "kto:sourceType": "community"
+        }
+      ],
+      "kto:file": "articles/clouds-and-products/marketing-cloud-account-engagement.md",
+      "skos:altLabel": [
+        "Pardot",
+        "Salesforce Pardot",
+        "Account Engagement",
+        "MCAE"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-marketing-solutions"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:marketing-cloud-next"
+        },
+        {
+          "@id": "kt:lead-conversion"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:marketing-cloud-engagement"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:sales-cloud"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:engagement-studio"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:connected-apps"
+        }
+      ]
+    },
+    {
       "@id": "kt:marketing-cloud-engagement",
       "@type": "kto:Product",
       "skos:prefLabel": "Marketing Cloud Engagement",
