@@ -25400,6 +25400,102 @@
       ]
     },
     {
+      "@id": "kt:scim",
+      "@type": "kto:ExternalConcept",
+      "skos:prefLabel": "SCIM (System for Cross-domain Identity Management)",
+      "skos:definition": "The IETF standard (RFC 7642, 7643 and 7644, later extended by RFC 9865 and RFC 9967) that defines a JSON schema for users and groups and an HTTP/REST protocol for creating, reading, updating and deprovisioning identities across domains; Salesforce and Slack both expose SCIM endpoints so identity providers can manage their users.",
+      "kto:domain": "identity",
+      "dcterms:created": "2026-11-17",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "RFC 7642: System for Cross-domain Identity Management: Definitions, Overview, Concepts, and Requirements",
+          "dcterms:publisher": "IETF / RFC Editor",
+          "schema:url": "https://www.rfc-editor.org/info/rfc7642",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "RFC 7643: System for Cross-domain Identity Management: Core Schema",
+          "dcterms:publisher": "IETF / RFC Editor",
+          "schema:url": "https://www.rfc-editor.org/rfc/rfc7643",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "RFC 7644: System for Cross-domain Identity Management: Protocol",
+          "dcterms:publisher": "IETF / RFC Editor",
+          "schema:url": "https://rfc-editor.org/rfc/rfc7644",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "RFC 9865: Cursor-Based Pagination of SCIM Resources",
+          "dcterms:publisher": "IETF Datatracker",
+          "schema:url": "https://datatracker.ietf.org/doc/rfc9865/",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "RFC 9967: SCIM Profile for Security Event Tokens (SETs)",
+          "dcterms:publisher": "IETF / RFC Editor",
+          "schema:url": "https://www.rfc-editor.org/rfc/rfc9967",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "Provision Users and Groups with SCIM",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/slack-apis-for-automating-and-managing-your-org/provision-users-and-groups-with-scim",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/identity/scim.md",
+      "skos:altLabel": [
+        "SCIM 2.0",
+        "System for Cross-domain Identity Management",
+        "SCIM standard",
+        "RFC 7643",
+        "RFC 7644"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:user-provisioning"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:salesforce-identity"
+        },
+        {
+          "@id": "kt:saml-2-0"
+        },
+        {
+          "@id": "kt:openid-connect"
+        },
+        {
+          "@id": "kt:identity-connect"
+        },
+        {
+          "@id": "kt:user-management"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:salesforce-scim"
+        },
+        {
+          "@id": "kt:slack-platform"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:just-in-time-provisioning"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:oauth-2-0"
+        }
+      ]
+    },
+    {
       "@id": "kt:session-security-levels",
       "@type": "kto:SecurityControl",
       "skos:prefLabel": "Session Security Levels",
