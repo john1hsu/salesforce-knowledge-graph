@@ -22,14 +22,13 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:managed-event-subscriptions` | `kt:pub-sub-api` |
 | `kt:legacy-named-credentials` | `kt:named-credentials` |
 | `kt:salesforce-architecture-program` | `kt:salesforce-architecture-center` |
-| `kt:platform-developer-ii-certification` | `kt:platform-developer-certification` |
 | `kt:prompt-injection` | `kt:einstein-trust-layer` |
 | `kt:salesforce-archive` | `kt:archiving-strategy` |
 | `kt:mixed-dml-error` | `kt:future-methods` |
 | `kt:data-categories` | `kt:knowledge-base` |
+| `kt:trailhead` | `kt:salesforce-certification-program` |
 | `kt:seealldata` | `kt:test-data-factory` |
 | `kt:test-loaddata` | `kt:test-data-factory` |
-| `kt:trailhead` | `kt:salesforce-certification-program` |
 | `kt:custom-objects` | `kt:standard-objects` |
 | `kt:static-soql` | `kt:dynamic-soql` |
 | `kt:omni-channel-limits` | `kt:omni-channel` |
@@ -65,8 +64,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:json-web-token` | `kt:openid-connect` |
 | `kt:path` | `kt:business-processes` |
 | `kt:object-manager` | `kt:schema-builder` |
-| `kt:ingestion-api` | `kt:data-streams` |
 | `kt:salesforce-ecosystem` | `kt:salesforce-inc` |
+| `kt:ingestion-api` | `kt:data-streams` |
 | `kt:automation-studio` | `kt:marketing-cloud-engagement` |
 | `kt:contact-builder` | `kt:marketing-cloud-engagement` |
 | `kt:marketing-cloud-account-engagement` | `kt:marketing-cloud-engagement` |
