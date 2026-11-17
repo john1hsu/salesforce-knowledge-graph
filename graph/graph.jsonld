@@ -35029,6 +35029,86 @@
       ]
     },
     {
+      "@id": "kt:soc-1",
+      "@type": "kto:ExternalConcept",
+      "skos:prefLabel": "SOC 1",
+      "skos:definition": "The AICPA attestation report, performed under AT-C section 320, in which a service auditor examines a service organization's controls that are relevant to its customers' internal control over financial reporting; Salesforce publishes SOC 1 reports per service and infrastructure on its compliance site.",
+      "kto:domain": "public-sector-and-compliance",
+      "dcterms:created": "2026-11-17",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Explaining the 3 faces of SOC",
+          "dcterms:publisher": "Journal of Accountancy (AICPA & CIMA)",
+          "schema:url": "https://www.journalofaccountancy.com/newsletters/2016/jun/3-face-of-soc/",
+          "kto:sourceType": "news"
+        },
+        {
+          "dcterms:title": "Reporting on an Examination of Controls at a Service Organization Relevant to User Entities' Internal Control Over Financial Reporting (SOC 1) Guide",
+          "dcterms:publisher": "AICPA & CIMA",
+          "schema:url": "https://www.aicpa-cima.com/cpe-learning/publication/reporting-on-an-examination-of-controls-at-a-service-organization-relevant-to-user-entities-internal-control-over-financial-reporting-soc-1-guide",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "SOC 1 — Salesforce Compliance",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://compliance.salesforce.com/en/soc-1",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "SOC 1 Report - Salesforce Services on Hyperforce",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://compliance.salesforce.com/en/documents/a006e00000xpn1JAAQ",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "SOC 1 Report - Corporate Services",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://compliance.salesforce.com/en/documents/a005A00000qM6abQAC",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Subservice Organizations in SOC Reports: Carve-Out vs. Inclusive Method",
+          "dcterms:publisher": "Compass IT Compliance",
+          "schema:url": "https://www.compassitc.com/blog/subservice-organizations-in-soc-reports-carve-out-vs.-inclusive-method",
+          "kto:sourceType": "partner"
+        }
+      ],
+      "kto:file": "articles/public-sector-and-compliance/soc-1.md",
+      "skos:altLabel": [
+        "SOC 1 report",
+        "SOC 1 Type 2",
+        "SOC 1 Type II",
+        "SOC for Service Organizations: ICFR",
+        "System and Organization Controls 1"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:security-compliance-frameworks"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:hyperforce"
+        },
+        {
+          "@id": "kt:shared-responsibility-model"
+        },
+        {
+          "@id": "kt:governance-risk-and-compliance"
+        },
+        {
+          "@id": "kt:sarbanes-oxley-act"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:soc-2"
+        }
+      ]
+    },
+    {
       "@id": "kt:soc-2",
       "@type": "kto:ExternalConcept",
       "skos:prefLabel": "SOC 2",
