@@ -27628,6 +27628,98 @@
       ]
     },
     {
+      "@id": "kt:platform-event-channel-member",
+      "@type": "kto:MetadataType",
+      "skos:prefLabel": "Platform Event Channel Member",
+      "skos:definition": "The metadata component that places one event entity on a streaming channel: it selects a change event on the standard ChangeEvents channel or a custom channel, or a platform event on a custom channel, and can carry a SOQL-like filter expression and enriched fields that shape what subscribers receive.",
+      "kto:domain": "integration",
+      "dcterms:created": "2026-11-17",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "PlatformEventChannelMember (Metadata API Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_platformeventchannelmember.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Group Platform Events into One Stream with a Custom Channel (Platform Events Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.platform_events.meta/platform_events/platform_events_subscribe_custom_channels.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Create a Custom Channel and Add Platform Events with Tooling API (Platform Events Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.platform_events.meta/platform_events/platform_events_custom_channel_tooling_api.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Filter Your Stream of Change Events with Channels (Change Data Capture Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/change-data-capture/guide/cdc-filter-section.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Stream Events at Scale with Event Filters and Field Enrichment",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2023/01/stream-events-at-scale-with-event-filters-and-field-enrichment",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Add the Order Event and the Filter Expression to a Channel Member (Filter Your Platform Event Stream project)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/projects/filter-your-platform-event-stream/add-the-order-event-and-the-filter-expression-to-a-channel-member",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/integration/platform-event-channel-member.md",
+      "skos:altLabel": [
+        "PlatformEventChannelMember",
+        "channel member",
+        "event channel member",
+        "custom channel member"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:metadata-api"
+        },
+        {
+          "@id": "kt:event-driven-architecture"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:change-data-capture"
+        },
+        {
+          "@id": "kt:platform-events"
+        },
+        {
+          "@id": "kt:platform-event-allocations"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:tooling-api"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:pub-sub-api"
+        },
+        {
+          "@id": "kt:streaming-api"
+        }
+      ],
+      "kto:mitigates": [
+        {
+          "@id": "kt:change-data-capture-allocations"
+        }
+      ]
+    },
+    {
       "@id": "kt:platform-events",
       "@type": "kto:Feature",
       "skos:prefLabel": "Platform Events",
