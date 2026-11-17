@@ -4508,6 +4508,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-http-callout> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#implements> <https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-patterns-request-reply-fire-and-forget> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-http-callout> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-http-callout> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-loop-element> <http://purl.org/dc/terms/created> "2026-11-17" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-loop-element> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-loop-element> <http://www.w3.org/2000/01/rdf-schema#label> "Loop Element" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-loop-element> <http://www.w3.org/2004/02/skos/core#altLabel> "Flow Builder Loop" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-loop-element> <http://www.w3.org/2004/02/skos/core#altLabel> "Flow Loop element" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-loop-element> <http://www.w3.org/2004/02/skos/core#altLabel> "Loop element in Flow" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-loop-element> <http://www.w3.org/2004/02/skos/core#altLabel> "loops in Flow Builder" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-loop-element> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-builder> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-loop-element> <http://www.w3.org/2004/02/skos/core#definition> "A Flow Builder element that walks through a collection variable one item at a time, running the elements on its For Each path for every item and then following its After Last path; the standard way to apply per-record logic in a flow when a Transform element can't do the job." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-loop-element> <http://www.w3.org/2004/02/skos/core#prefLabel> "Loop Element" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-loop-element> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/autolaunched-flow> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-loop-element> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-bulkification> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-loop-element> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-limits> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-loop-element> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/record-triggered-flow> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-loop-element> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/screen-flow> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-loop-element> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-loop-element/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-loop-element> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-loop-element/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-loop-element> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-loop-element/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-loop-element> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-loop-element/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-loop-element> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#alternativeTo> <https://github.com/john1hsu/salesforce-knowledge-graph/id/collection-filter-and-sort> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-loop-element> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#alternativeTo> <https://github.com/john1hsu/salesforce-knowledge-graph/id/transform-element> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-loop-element> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "automation" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-loop-element> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#governedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/governor-limits> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-loop-element> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-loop-element> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-orchestrator> <http://purl.org/dc/terms/created> "2026-10-31" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-orchestrator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-orchestrator> <http://www.w3.org/2000/01/rdf-schema#label> "Flow Orchestrator" .
@@ -14615,6 +14640,26 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-http-callout/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-http-callout/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-http-callout/s6> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/projects/quick-start-create-http-callouts-with-flow-builder/build-the-http-callout-flow" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-loop-element/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-loop-element/s1> <http://purl.org/dc/terms/title> "Know When to Loop (Loops in Flow Builder)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-loop-element/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-loop-element/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-loop-element/s1> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/loops-in-flow-builder/know-when-to-loop" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-loop-element/s2> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-loop-element/s2> <http://purl.org/dc/terms/title> "Build a Loop (Loops in Flow Builder)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-loop-element/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-loop-element/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-loop-element/s2> <https://schema.org/url> "https://trailhead.salesforce.com/fr/content/learn/modules/loops-in-flow-builder/build-a-loop" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-loop-element/s3> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-loop-element/s3> <http://purl.org/dc/terms/title> "Avoid Flow Limits (Flow Implementation 1)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-loop-element/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-loop-element/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-loop-element/s3> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/flow-implementation-1/avoid-flow-limits" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-loop-element/s4> <http://purl.org/dc/terms/publisher> "Salesforce Admins Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-loop-element/s4> <http://purl.org/dc/terms/title> "Automate This! — Use Loops in Record-Triggered Flows with Sarah Pilzer" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-loop-element/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-loop-element/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-loop-element/s4> <https://schema.org/url> "https://admin.salesforce.com/blog/2022/automate-this-use-loops-in-record-triggered-flows-with-sarah-pilzer" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-orchestrator/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-orchestrator/s1> <http://purl.org/dc/terms/title> "Flow Orchestration Basics: Flow Orchestration Stages & Types" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-orchestrator/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

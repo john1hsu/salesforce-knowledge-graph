@@ -4236,6 +4236,84 @@
       ]
     },
     {
+      "@id": "kt:flow-loop-element",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Loop Element",
+      "skos:definition": "A Flow Builder element that walks through a collection variable one item at a time, running the elements on its For Each path for every item and then following its After Last path; the standard way to apply per-record logic in a flow when a Transform element can't do the job.",
+      "kto:domain": "automation",
+      "dcterms:created": "2026-11-17",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Know When to Loop (Loops in Flow Builder)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/loops-in-flow-builder/know-when-to-loop",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Build a Loop (Loops in Flow Builder)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/fr/content/learn/modules/loops-in-flow-builder/build-a-loop",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Avoid Flow Limits (Flow Implementation 1)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/flow-implementation-1/avoid-flow-limits",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Automate This! — Use Loops in Record-Triggered Flows with Sarah Pilzer",
+          "dcterms:publisher": "Salesforce Admins Blog",
+          "schema:url": "https://admin.salesforce.com/blog/2022/automate-this-use-loops-in-record-triggered-flows-with-sarah-pilzer",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/automation/flow-loop-element.md",
+      "skos:altLabel": [
+        "Flow Loop element",
+        "Loop element in Flow",
+        "Flow Builder Loop",
+        "loops in Flow Builder"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:flow-builder"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:flow-bulkification"
+        },
+        {
+          "@id": "kt:record-triggered-flow"
+        },
+        {
+          "@id": "kt:screen-flow"
+        },
+        {
+          "@id": "kt:autolaunched-flow"
+        },
+        {
+          "@id": "kt:flow-limits"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:transform-element"
+        },
+        {
+          "@id": "kt:collection-filter-and-sort"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:governor-limits"
+        }
+      ]
+    },
+    {
       "@id": "kt:flow-orchestrator",
       "@type": "kto:Feature",
       "skos:prefLabel": "Flow Orchestrator",
