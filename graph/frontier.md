@@ -13,6 +13,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:customer-360` | `kt:commerce-cloud`, `kt:slack-platform` |
 | `kt:requirements-engineering` | `kt:non-functional-requirements`, `kt:requirements-gathering` |
 | `kt:business-analyst` | `kt:requirements-gathering`, `kt:user-acceptance-testing` |
+| `kt:email-templates` | `kt:auto-response-rules`, `kt:email-alerts` |
 | `kt:salesforce-ecosystem-roles` | `kt:salesforce-architect` |
 | `kt:lightning-service-console` | `kt:service-cloud` |
 | `kt:service-setup-assistant` | `kt:service-cloud` |
@@ -38,12 +39,12 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:data-import-wizard` | `kt:data-loader` |
 | `kt:salesforce-sites` | `kt:custom-domains` |
 | `kt:tableau-pulse` | `kt:tableau` |
+| `kt:entitlement-process-metadata` | `kt:entitlement-management` |
 | `kt:dispatcher-console` | `kt:field-service` |
 | `kt:field-service-mobile-app` | `kt:field-service` |
 | `kt:field-service-scheduling-policies` | `kt:field-service` |
 | `kt:service-appointments` | `kt:field-service` |
 | `kt:work-orders` | `kt:field-service` |
-| `kt:entitlement-process-metadata` | `kt:entitlement-management` |
 | `kt:einstein-discovery` | `kt:crm-analytics` |
 | `kt:saql` | `kt:crm-analytics` |
 | `kt:salesforce-lightning-design-system` | `kt:visualforce` |
@@ -58,9 +59,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:lightning-out` | `kt:lightning-locker` |
 | `kt:dynamic-revenue-orchestrator` | `kt:revenue-cloud` |
 | `kt:revenue-management-consultant-certification` | `kt:revenue-cloud` |
+| `kt:scim` | `kt:salesforce-scim` |
 | `kt:it-governance` | `kt:salesforce-governance` |
 | `kt:security-governance` | `kt:salesforce-governance` |
-| `kt:scim` | `kt:salesforce-scim` |
 | `kt:apex-rest-services` | `kt:remote-call-in` |
 | `kt:generative-ai` | `kt:retrieval-augmented-generation-in-salesforce` |
 | `kt:apexguru` | `kt:scale-test` |
@@ -142,19 +143,18 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:b2b-commerce` | `kt:commerce-cloud` |
 | `kt:b2c-commerce` | `kt:commerce-cloud` |
 | `kt:salesforce-order-management` | `kt:commerce-cloud` |
-| `kt:apex-logging-and-debug-logs` | `kt:flow-debugging` |
+| `kt:organization-wide-email-addresses` | `kt:email-alerts` |
 | `kt:data-processing-engine` | `kt:loyalty-management` |
 | `kt:digital-accessibility` | `kt:section-508-accessibility` |
-| `kt:email-templates` | `kt:email-alerts` |
 | `kt:greenhouse-gas-protocol` | `kt:net-zero-cloud` |
 | `kt:instance-refresh-and-org-migration` | `kt:trust-and-status-site` |
 | `kt:notes-and-attachments` | `kt:content-document-model` |
-| `kt:organization-wide-email-addresses` | `kt:email-alerts` |
 | `kt:post-install-scripts` | `kt:push-upgrades` |
 | `kt:shared-activities` | `kt:activity-data-model` |
 | `kt:tx-ramp` | `kt:govramp` |
 | `kt:wcag` | `kt:section-508-accessibility` |
 | `kt:agent-to-agent-protocol` | `kt:agentforce-architecture-patterns` |
+| `kt:apex-logging-and-debug-logs` | `kt:flow-debugging` |
 | `kt:b2c-commerce-architect-certification` | `kt:b2c-solution-architect-certification` |
 | `kt:business-architecture` | `kt:capability-maps` |
 | `kt:multi-agent-orchestration` | `kt:agentforce-architecture-patterns` |
@@ -162,3 +162,5 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:tableau-server-administrator-certification` | `kt:tableau-architect-certification` |
 | `kt:technology-roadmaps` | `kt:capability-maps` |
 | `kt:value-streams` | `kt:capability-maps` |
+| `kt:web-to-case` | `kt:auto-response-rules` |
+| `kt:web-to-lead` | `kt:auto-response-rules` |

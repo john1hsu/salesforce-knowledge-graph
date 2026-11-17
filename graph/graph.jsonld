@@ -3260,6 +3260,107 @@
       ]
     },
     {
+      "@id": "kt:auto-response-rules",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Auto-Response Rules",
+      "skos:definition": "Declarative rules that pick which email template to send automatically to the submitter of a new lead or case, using ordered rule entries where the first match wins and only one rule per object is active.",
+      "kto:domain": "automation",
+      "dcterms:created": "2026-11-17",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Automate Case Management (Agentforce Service Administration)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/modules/service_lex/units/service_lex_case_manage",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Case Management Implementation Guide (PDF)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://resources.docs.salesforce.com/242/latest/en-us/sfdc/pdf/salesforce_case_implementation_guide.pdf",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Lead Implementation Guide (PDF)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://resources.docs.salesforce.com/242/latest/en-us/sfdc/pdf/salesforce_lead_implementation_guide.pdf",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AutoResponseRules",
+          "dcterms:publisher": "Salesforce Developers (Metadata API Developer Guide)",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_autoresponserules.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Triggers and Order of Execution",
+          "dcterms:publisher": "Salesforce Developers (Apex Developer Guide)",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_triggers_order_of_execution.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Setting DML Options",
+          "dcterms:publisher": "Salesforce Developers (Apex Developer Guide)",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/langCon_apex_dml_database_dmloptions.htm",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/automation/auto-response-rules.md",
+      "skos:altLabel": [
+        "auto-response rule",
+        "Case Auto-Response Rules",
+        "Lead Auto-Response Rules",
+        "autoresponse rules",
+        "AutoResponseRules"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:process-automation"
+        },
+        {
+          "@id": "kt:service-cloud"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:order-of-execution"
+        },
+        {
+          "@id": "kt:escalation-rules"
+        },
+        {
+          "@id": "kt:email-alerts"
+        },
+        {
+          "@id": "kt:sales-cloud"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:assignment-rules"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:email-templates"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:web-to-case"
+        },
+        {
+          "@id": "kt:web-to-lead"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:metadata-api"
+        }
+      ]
+    },
+    {
       "@id": "kt:autolaunched-flow",
       "@type": "kto:Feature",
       "skos:prefLabel": "Autolaunched Flow",
