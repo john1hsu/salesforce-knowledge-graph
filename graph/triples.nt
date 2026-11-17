@@ -525,6 +525,34 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-continuations> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#partOf> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-callouts> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-continuations> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-continuations> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-cursors> <http://purl.org/dc/terms/created> "2026-11-17" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-cursors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-cursors> <http://www.w3.org/2000/01/rdf-schema#label> "Apex Cursors" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-cursors> <http://www.w3.org/2004/02/skos/core#altLabel> "Apex pagination cursors" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-cursors> <http://www.w3.org/2004/02/skos/core#altLabel> "Database.Cursor" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-cursors> <http://www.w3.org/2004/02/skos/core#altLabel> "Database.getCursor" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-cursors> <http://www.w3.org/2004/02/skos/core#altLabel> "PaginationCursor" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-cursors> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-cursors> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/large-data-volumes> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-cursors> <http://www.w3.org/2004/02/skos/core#definition> "A server-side Apex feature that holds the result set of a SOQL query (up to 50 million rows) and lets code fetch it in chunks across transactions, typically from chained Queueable jobs, as a flexible alternative to Batch Apex." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-cursors> <http://www.w3.org/2004/02/skos/core#prefLabel> "Apex Cursors" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-cursors> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-user-mode> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-cursors> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-cursors> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-web-components> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-cursors> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/limits-class> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-cursors> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/orglimits-class> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-cursors> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-cursors/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-cursors> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-cursors/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-cursors> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-cursors/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-cursors> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-cursors/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-cursors> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#alternativeTo> <https://github.com/john1hsu/salesforce-knowledge-graph/id/batch-apex> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-cursors> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#consumedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/queueable-apex> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-cursors> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/transaction-finalizers> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-cursors> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "platform-architecture" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-cursors> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#governedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/governor-limits> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-cursors> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/soql> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-cursors> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-cursors> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-enterprise-patterns> <http://purl.org/dc/terms/created> "2026-11-08" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-enterprise-patterns> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Pattern> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-enterprise-patterns> <http://www.w3.org/2000/01/rdf-schema#label> "Apex Enterprise Patterns" .
@@ -10822,6 +10850,26 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-continuations/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-continuations/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-continuations/s6> <https://schema.org/url> "https://developer.salesforce.com/blogs/2020/05/apex-continuations-implementation-and-testing-in-aura-lwc" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-cursors/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-cursors/s1> <http://purl.org/dc/terms/title> "Apex Developer Guide: Apex Cursors" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-cursors/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-cursors/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-cursors/s1> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_cursors.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-cursors/s2> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-cursors/s2> <http://purl.org/dc/terms/title> "Apex Developer Guide: Large Data Processing with Cursors and Queueable Apex Versus Batch Apex" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-cursors/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-cursors/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-cursors/s2> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apex/apex_cursors_versus_batch.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-cursors/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-cursors/s3> <http://purl.org/dc/terms/title> "The Salesforce Developer's Guide to the Spring '26 Release" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-cursors/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-cursors/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-cursors/s3> <https://schema.org/url> "https://developer.salesforce.com/blogs/2026/01/developers-guide-to-the-spring-26-release" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-cursors/s4> <http://purl.org/dc/terms/publisher> "Salesforce Architects" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-cursors/s4> <http://purl.org/dc/terms/title> "Step-Based Async Framework" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-cursors/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-cursors/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-cursors/s4> <https://schema.org/url> "https://architect.salesforce.com/docs/architect/fundamentals/guide/step-based-async-framework" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-enterprise-patterns/s1> <http://purl.org/dc/terms/publisher> "Salesforce Trailhead" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-enterprise-patterns/s1> <http://purl.org/dc/terms/title> "Trailhead: Apex Enterprise Patterns: Service Layer — Learn About Separation of Concerns" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-enterprise-patterns/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

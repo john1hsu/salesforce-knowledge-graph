@@ -28301,6 +28301,99 @@
       ]
     },
     {
+      "@id": "kt:apex-cursors",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Apex Cursors",
+      "skos:definition": "A server-side Apex feature that holds the result set of a SOQL query (up to 50 million rows) and lets code fetch it in chunks across transactions, typically from chained Queueable jobs, as a flexible alternative to Batch Apex.",
+      "kto:domain": "platform-architecture",
+      "dcterms:created": "2026-11-17",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Apex Developer Guide: Apex Cursors",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_cursors.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Apex Developer Guide: Large Data Processing with Cursors and Queueable Apex Versus Batch Apex",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apex/apex_cursors_versus_batch.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "The Salesforce Developer's Guide to the Spring '26 Release",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2026/01/developers-guide-to-the-spring-26-release",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Step-Based Async Framework",
+          "dcterms:publisher": "Salesforce Architects",
+          "schema:url": "https://architect.salesforce.com/docs/architect/fundamentals/guide/step-based-async-framework",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/platform-architecture/apex-cursors.md",
+      "skos:altLabel": [
+        "Database.Cursor",
+        "Database.getCursor",
+        "Apex pagination cursors",
+        "PaginationCursor"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:apex"
+        },
+        {
+          "@id": "kt:large-data-volumes"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:limits-class"
+        },
+        {
+          "@id": "kt:orglimits-class"
+        },
+        {
+          "@id": "kt:lightning-web-components"
+        },
+        {
+          "@id": "kt:data-cloud"
+        },
+        {
+          "@id": "kt:apex-user-mode"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:governor-limits"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:batch-apex"
+        }
+      ],
+      "kto:queriedWith": [
+        {
+          "@id": "kt:soql"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:queueable-apex"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:transaction-finalizers"
+        }
+      ]
+    },
+    {
       "@id": "kt:bulkification",
       "@type": "kto:Pattern",
       "skos:prefLabel": "Bulkification",
