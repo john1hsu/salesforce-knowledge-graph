@@ -2555,6 +2555,107 @@
       ]
     },
     {
+      "@id": "kt:tableau-architect-certification",
+      "@type": "kto:Certification",
+      "skos:prefLabel": "Tableau Architect Certification",
+      "skos:definition": "A Salesforce architect credential for people who design, deploy, monitor and maintain a scalable Tableau platform (Tableau Server, Tableau Cloud and Tableau Bridge), including migrations from Server to Cloud; it sits in the Trailhead architect catalogue alongside the Salesforce platform, MuleSoft and Heroku architect credentials.",
+      "kto:domain": "architecture-practice",
+      "dcterms:created": "2026-11-17",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Certification - Salesforce Certified Tableau Architect",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/credentials/tableauarchitect",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Certification - Architect Overview",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/credentials/architectoverview",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Tableau Certified Architect is available for everyone (Trailblazer Community announcement)",
+          "dcterms:publisher": "Trailblazer Community (Salesforce)",
+          "schema:url": "https://trailhead.salesforce.com/trailblazer-community/feed/0D54V000079RGoPSAW",
+          "kto:sourceType": "community"
+        },
+        {
+          "dcterms:title": "Tableau Blueprint: Tableau Deployment",
+          "dcterms:publisher": "Tableau (Salesforce)",
+          "schema:url": "https://help.tableau.com/current/blueprint/en-us/bp_deployment.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Tableau Blueprint: Tableau Enterprise Architecture Survey",
+          "dcterms:publisher": "Tableau (Salesforce)",
+          "schema:url": "https://help.tableau.com/current/blueprint/en-us/bp_enterprise_architecture.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Tableau Blueprint: Move Tableau to the Cloud",
+          "dcterms:publisher": "Tableau (Salesforce)",
+          "schema:url": "https://help.tableau.com/current/blueprint/en-us/bp_move_to_cloud.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Tableau Server Enterprise Deployment Guide",
+          "dcterms:publisher": "Tableau (Salesforce)",
+          "schema:url": "https://help.tableau.com/current/guides/enterprise-deployment/en-us/edg_intro.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Certification - Salesforce Certified Tableau Server Administrator",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/credentials/tableauserveradministrator",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/architecture-practice/tableau-architect-certification.md",
+      "skos:altLabel": [
+        "Salesforce Certified Tableau Architect",
+        "Tableau Certified Architect",
+        "Tableau Architect credential"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-architect"
+        },
+        {
+          "@id": "kt:salesforce-certification-program"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:tableau"
+        },
+        {
+          "@id": "kt:heroku-architect-certification"
+        },
+        {
+          "@id": "kt:certified-technical-architect"
+        },
+        {
+          "@id": "kt:tableau-server-administrator-certification"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:tableau-blueprint"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:system-architect-certification"
+        },
+        {
+          "@id": "kt:tableau-server-administrator-certification"
+        }
+      ]
+    },
+    {
       "@id": "kt:technical-debt-in-salesforce",
       "@type": "kto:Concept",
       "skos:prefLabel": "Technical Debt in Salesforce",
