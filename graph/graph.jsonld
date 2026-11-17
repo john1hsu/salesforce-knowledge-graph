@@ -12262,6 +12262,110 @@
       ]
     },
     {
+      "@id": "kt:unstructured-data-in-data-cloud",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Unstructured Data in Data 360",
+      "skos:definition": "The Data 360 capability that references documents, transcripts, web pages and other unstructured content in external stores through unstructured data lake objects (UDLOs) mapped to unstructured data model objects (UDMOs), so the content can be indexed and used to ground AI, automation and analytics.",
+      "kto:domain": "data-cloud-and-ai",
+      "dcterms:created": "2026-11-17",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Get Started with Unstructured Data in Data Cloud (Unstructured Data in Data Cloud)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/projects/unstructured-data-in-data-cloud/get-started-with-unstructured-data-in-data-cloud",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Salesforce Data Cloud Objects (Object Reference)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/object_reference/sforce_api_concepts_data_cloud_objects.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Create a Microsoft SharePoint Unstructured (Documents) Data Lake Object",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/data/data-cloud-int/guide/c360-a-create-microsoftsharepoint-udlo.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Microsoft SharePoint Unstructured (Documents) Limitations and Troubleshooting",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/data/data-cloud-int/guide/c360-a-microsoftsharepoint-unstructured-connector-limitations.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Process Content for Use with AI (Data 360 content processing)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/de/content/learn/modules/data-cloud-process-content/process-content-for-use-with-ai",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Salesforce Enterprise Knowledge: Data Cloud Unstructured Data",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/blog/salesforce-enterprise-knowledge-data-cloud-unstructured-data/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Ingest Knowledge Article Data (Unstructured Data in Data Cloud)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/es/content/learn/projects/unstructured-data-in-data-cloud/ingest-knowledge-article-data",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/data-cloud-and-ai/unstructured-data-in-data-cloud.md",
+      "skos:altLabel": [
+        "Unstructured Data in Data Cloud",
+        "unstructured data lake object",
+        "UDLO",
+        "unstructured data model object",
+        "UDMO",
+        "Enterprise Knowledge powered by Data Cloud",
+        "unstructured data connectors"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:data-cloud"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:data-lake-objects"
+        },
+        {
+          "@id": "kt:data-model-objects"
+        },
+        {
+          "@id": "kt:agentforce-data-library"
+        },
+        {
+          "@id": "kt:data-streams"
+        },
+        {
+          "@id": "kt:knowledge-base"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:vector-search-in-data-cloud"
+        },
+        {
+          "@id": "kt:retrieval-augmented-generation-in-salesforce"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:data-spaces"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:document-ai"
+        }
+      ]
+    },
+    {
       "@id": "kt:vector-search-in-data-cloud",
       "@type": "kto:Feature",
       "skos:prefLabel": "Vector Search in Data 360",

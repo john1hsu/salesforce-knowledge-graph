@@ -12,7 +12,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:marketing-cloud-next` | `kt:loyalty-management`, `kt:marketing-cloud-engagement` |
 | `kt:customer-360` | `kt:commerce-cloud`, `kt:slack-platform` |
 | `kt:requirements-engineering` | `kt:non-functional-requirements`, `kt:requirements-gathering` |
-| `kt:unstructured-data-in-data-cloud` | `kt:agentforce-data-library`, `kt:vector-search-in-data-cloud` |
 | `kt:business-analyst` | `kt:requirements-gathering`, `kt:user-acceptance-testing` |
 | `kt:salesforce-ecosystem-roles` | `kt:salesforce-architect` |
 | `kt:lightning-service-console` | `kt:service-cloud` |
@@ -65,6 +64,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:pushtopic-streaming-allocations` | `kt:streaming-api` |
 | `kt:json-web-token` | `kt:openid-connect` |
 | `kt:path` | `kt:business-processes` |
+| `kt:ingestion-api` | `kt:data-streams` |
 | `kt:object-manager` | `kt:schema-builder` |
 | `kt:salesforce-ecosystem` | `kt:salesforce-inc` |
 | `kt:automation-studio` | `kt:marketing-cloud-engagement` |
@@ -73,19 +73,18 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:marketing-cloud-connect` | `kt:marketing-cloud-engagement` |
 | `kt:salesforce-marketing-solutions` | `kt:marketing-cloud-engagement` |
 | `kt:rest-api-limits-resource` | `kt:orglimits-class` |
+| `kt:generative-ai` | `kt:retrieval-augmented-generation-in-salesforce` |
 | `kt:batch-apex-error-event` | `kt:transaction-finalizers` |
-| `kt:it-governance` | `kt:salesforce-governance` |
 | `kt:opportunity-teams` | `kt:opportunity-splits` |
 | `kt:revenue-intelligence` | `kt:collaborative-forecasts` |
+| `kt:it-governance` | `kt:salesforce-governance` |
 | `kt:security-governance` | `kt:salesforce-governance` |
-| `kt:constraint-modeling-language` | `kt:product-configurator` |
 | `kt:mulesoft-platform-integration-architect-certification` | `kt:mulesoft-platform-architect-certification` |
+| `kt:constraint-modeling-language` | `kt:product-configurator` |
 | `kt:product-catalog-management` | `kt:product-configurator` |
-| `kt:ingestion-api` | `kt:data-streams` |
 | `kt:heroku-postgres` | `kt:heroku-connect` |
 | `kt:corporate-governance` | `kt:governance-risk-and-compliance` |
 | `kt:salesforce-licensing` | `kt:user-licenses` |
-| `kt:generative-ai` | `kt:retrieval-augmented-generation-in-salesforce` |
 | `kt:application-network` | `kt:api-led-connectivity` |
 | `kt:point-to-point-integration` | `kt:api-led-connectivity` |
 | `kt:security-stripinaccessible` | `kt:apex-user-mode` |
@@ -122,16 +121,17 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:salesforce-hosted-mcp-servers` | `kt:model-context-protocol-in-agentforce` |
 | `kt:custom-permissions` | `kt:validation-rules` |
 | `kt:in-app-guidance` | `kt:change-management-and-adoption` |
+| `kt:data-cloud-code-extension` | `kt:vector-search-in-data-cloud` |
 | `kt:data-cloud-query-api` | `kt:data-graphs` |
 | `kt:apex-defined-types` | `kt:transform-element` |
 | `kt:agentforce-vibes` | `kt:agentforce-vibes-ide` |
 | `kt:iso-iec-27017` | `kt:iso-iec-27002` |
 | `kt:data-cloud-triggered-flows` | `kt:data-actions` |
-| `kt:data-cloud-code-extension` | `kt:vector-search-in-data-cloud` |
 | `kt:business-process-mapping` | `kt:requirements-gathering` |
 | `kt:user-stories` | `kt:requirements-gathering` |
-| `kt:username-password-flow` | `kt:client-credentials-flow` |
+| `kt:document-ai` | `kt:unstructured-data-in-data-cloud` |
 | `kt:models-api` | `kt:ai-models` |
+| `kt:username-password-flow` | `kt:client-credentials-flow` |
 | `kt:ldap` | `kt:delegated-authentication` |
 | `kt:agentforce-nonprofit-consultant-certification` | `kt:agentforce-nonprofit` |
 | `kt:nonprofit-success-pack` | `kt:agentforce-nonprofit` |
