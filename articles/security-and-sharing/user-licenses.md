@@ -11,7 +11,7 @@ summary: >-
 release: "Winter '27"
 status: current
 broader: [kt:salesforce-licensing]
-related: [kt:permission-set-licenses, kt:profiles, kt:permission-sets, kt:external-identity-license, kt:integration-security, kt:experience-cloud]
+related: [kt:permission-set-licenses, kt:profiles, kt:permission-sets, kt:external-identity-license, kt:customer-community-licenses, kt:integration-security, kt:experience-cloud]
 relations:
   - {predicate: enables, object: kt:profiles}
   - {predicate: hasPart, object: kt:permission-set-licenses}

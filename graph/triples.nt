@@ -2572,6 +2572,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-settings> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/soql> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-settings> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-settings> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/customer-community-licenses> <http://purl.org/dc/terms/created> "2026-11-17" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/customer-community-licenses> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Product> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/customer-community-licenses> <http://www.w3.org/2000/01/rdf-schema#label> "Customer Community Licenses" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/customer-community-licenses> <http://www.w3.org/2004/02/skos/core#altLabel> "Customer Community Login license" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/customer-community-licenses> <http://www.w3.org/2004/02/skos/core#altLabel> "Customer Community Plus Login license" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/customer-community-licenses> <http://www.w3.org/2004/02/skos/core#altLabel> "Customer Community Plus license" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/customer-community-licenses> <http://www.w3.org/2004/02/skos/core#altLabel> "Customer Community license" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/customer-community-licenses> <http://www.w3.org/2004/02/skos/core#altLabel> "Experience Cloud customer licenses" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/customer-community-licenses> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/experience-cloud> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/customer-community-licenses> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/user-licenses> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/customer-community-licenses> <http://www.w3.org/2004/02/skos/core#definition> "The Experience Cloud user licenses for authenticated B2C customers: Customer Community, a roleless high-volume license that reaches records through sharing sets and share groups, and Customer Community Plus, which adds roles, standard sharing and reports; both come in member-based and login-based variants." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/customer-community-licenses> <http://www.w3.org/2004/02/skos/core#prefLabel> "Customer Community Licenses" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/customer-community-licenses> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/external-identity-license> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/customer-community-licenses> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/implicit-sharing> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/customer-community-licenses> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/person-accounts> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/customer-community-licenses> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/role-hierarchy> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/customer-community-licenses> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-sharing-model> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/customer-community-licenses> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/customer-community-licenses/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/customer-community-licenses> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/customer-community-licenses/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/customer-community-licenses> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/customer-community-licenses/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/customer-community-licenses> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/customer-community-licenses/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/customer-community-licenses> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/customer-community-licenses/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/customer-community-licenses> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#alternativeTo> <https://github.com/john1hsu/salesforce-knowledge-graph/id/external-identity-license> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/customer-community-licenses> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#consumedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/experience-cloud> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/customer-community-licenses> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#contrastsWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/partner-community-licenses> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/customer-community-licenses> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/share-groups> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/customer-community-licenses> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-sets> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/customer-community-licenses> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "security-and-sharing" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/customer-community-licenses> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/customer-community-licenses> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-actions> <http://purl.org/dc/terms/created> "2026-11-16" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-actions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-actions> <http://www.w3.org/2000/01/rdf-schema#label> "Data Actions" .
@@ -13003,6 +13033,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-settings/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-settings/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-settings/s4> <https://schema.org/url> "https://developer.salesforce.com/blogs/2015/05/how-to-use-custom-metadata-types" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/customer-community-licenses/s1> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/customer-community-licenses/s1> <http://purl.org/dc/terms/title> "Experience Cloud User Licenses" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/customer-community-licenses/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/customer-community-licenses/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/customer-community-licenses/s1> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=users_license_types_communities.htm&language=en_US&type=0" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/customer-community-licenses/s2> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/customer-community-licenses/s2> <http://purl.org/dc/terms/title> "About High-Volume Community or Site Users" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/customer-community-licenses/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/customer-community-licenses/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/customer-community-licenses/s2> <https://schema.org/url> "https://help.salesforce.com/s/articleView?language=en_US&id=platform.networks_about_hvpu.htm&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/customer-community-licenses/s3> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/customer-community-licenses/s3> <http://purl.org/dc/terms/title> "Experience Cloud Licenses Eligible for Upgrades" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/customer-community-licenses/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/customer-community-licenses/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/customer-community-licenses/s3> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=networks_license_upgrade_eligible.htm&language=en_US&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/customer-community-licenses/s4> <http://purl.org/dc/terms/publisher> "Salesforce Architects" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/customer-community-licenses/s4> <http://purl.org/dc/terms/title> "Platform Sharing Architecture" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/customer-community-licenses/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/customer-community-licenses/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/customer-community-licenses/s4> <https://schema.org/url> "https://architect.salesforce.com/fundamentals/platform-sharing-architecture" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/customer-community-licenses/s5> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/customer-community-licenses/s5> <http://purl.org/dc/terms/title> "Learn More About Experience Cloud Licenses" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/customer-community-licenses/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/customer-community-licenses/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/customer-community-licenses/s5> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=experience.exp_cloud_plan_licenses.htm&language=en_US&type=5" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-actions/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-actions/s1> <http://purl.org/dc/terms/title> "Use Insights in Data Cloud" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-actions/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
@@ -22698,6 +22753,7 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/user-licenses> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-licensing> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/user-licenses> <http://www.w3.org/2004/02/skos/core#definition> "The single license every Salesforce user is assigned, which sets the ceiling of user-level functionality and determines which profiles and permission sets that user can be given; permission set licenses can raise it, but profiles and permission sets can never exceed it." .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/user-licenses> <http://www.w3.org/2004/02/skos/core#prefLabel> "User Licenses" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/user-licenses> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/customer-community-licenses> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/user-licenses> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/experience-cloud> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/user-licenses> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/external-identity-license> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/user-licenses> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-security> .
