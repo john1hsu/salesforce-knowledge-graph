@@ -17668,6 +17668,78 @@
       ]
     },
     {
+      "@id": "kt:custom-exceptions",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Custom Exceptions",
+      "skos:definition": "Developer-defined Apex exception classes that extend the built-in Exception class, letting code signal and catch domain-specific error conditions (such as an invalid order state) instead of relying only on system exceptions.",
+      "kto:domain": "development",
+      "dcterms:created": "2026-11-18",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Apex Developer Guide: Create Custom Exceptions",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_exception_custom.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Apex Reference Guide: Exception Class and Built-In Exceptions",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_classes_exception_methods.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Apex Developer Guide: Exception Statements",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/pages/apex_exception_statements.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Lightning Web Components Developer Guide: Handle Errors from Apex",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/lwc/guide/apex-error-handling.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/development/custom-exceptions.md",
+      "skos:altLabel": [
+        "Apex custom exceptions",
+        "user-defined exceptions",
+        "custom exception classes"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:apex"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:limit-exception"
+        },
+        {
+          "@id": "kt:transaction-control"
+        },
+        {
+          "@id": "kt:apex-testing"
+        },
+        {
+          "@id": "kt:trigger-framework-pattern"
+        },
+        {
+          "@id": "kt:apex-logging-and-debug-logs"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:lightning-web-components"
+        },
+        {
+          "@id": "kt:aura-components"
+        }
+      ]
+    },
+    {
       "@id": "kt:custom-metadata-types",
       "@type": "kto:MetadataType",
       "skos:prefLabel": "Custom Metadata Types",
