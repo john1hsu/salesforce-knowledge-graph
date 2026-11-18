@@ -16411,6 +16411,101 @@
       ]
     },
     {
+      "@id": "kt:state-and-country-territory-picklists",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "State and Country/Territory Picklists",
+      "skos:definition": "An org-wide setting that replaces the free-text state and country fields of standard addresses with standardized picklists backed by ISO codes and customizable integration values, configured in Setup or through the AddressSettings metadata type.",
+      "kto:domain": "data-model",
+      "dcterms:created": "2026-11-18",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Let Users Select States, Countries, and Territories from Picklists",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=sf.admin_state_country_picklists_overview.htm&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Enable and Disable State and Country/Territory Picklists",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=sf.admin_state_country_picklist_enable.htm&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Integration Values for State and Country/Territory Picklists",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=xcloud.admin_state_country_picklists_integ_values.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "State and Country/Territory Picklist Field-Syncing Logic",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=admin_state_country_picklists_field_syncing.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Metadata API Developer Guide: AddressSettings",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_addresssettings.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Custom Address Fields Developer Guide: Configure State and Country/Territory Picklists",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.caf_dev_guide.meta/caf_dev_guide/caf_dev_configure_picklists.htm",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/data-model/state-and-country-territory-picklists.md",
+      "skos:altLabel": [
+        "state and country picklists",
+        "state and country/territory picklist",
+        "country picklists",
+        "AddressSettings",
+        "StateCode and CountryCode",
+        "address picklists"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:custom-fields"
+        },
+        {
+          "@id": "kt:data-quality"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:picklist-value-sets"
+        },
+        {
+          "@id": "kt:standard-objects"
+        },
+        {
+          "@id": "kt:validation-rules"
+        },
+        {
+          "@id": "kt:person-accounts"
+        },
+        {
+          "@id": "kt:change-sets"
+        },
+        {
+          "@id": "kt:field-history-tracking"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:metadata-api"
+        }
+      ],
+      "kto:enables": [
+        {
+          "@id": "kt:custom-address-fields"
+        }
+      ]
+    },
+    {
       "@id": "kt:upsert",
       "@type": "kto:Concept",
       "skos:prefLabel": "Upsert",
