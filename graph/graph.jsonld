@@ -20670,6 +20670,97 @@
       ]
     },
     {
+      "@id": "kt:dependency-api",
+      "@type": "kto:API",
+      "skos:prefLabel": "Dependency API",
+      "skos:definition": "A beta Salesforce API, exposed as the MetadataComponentDependency object in Tooling API and Bulk API 2.0, that returns which metadata components reference which others in an org, for impact analysis and package decomposition.",
+      "kto:domain": "devops-and-alm",
+      "dcterms:created": "2026-11-18",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "beta",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "MetadataComponentDependency (Beta) (Tooling API Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/api-tooling/references/tooling-objects/tooling-metadatacomponentdependency.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Where Is This Field Used? With Vladimir Gerasimov (Salesforce Admins Podcast)",
+          "dcterms:publisher": "Salesforce Admins",
+          "schema:url": "https://admin.salesforce.com/blog/2019/where-is-this-field-used-with-vladimir-gerasimov",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Learn MOAR with Spring '20 Release Highlights for Developers",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2020/01/learn-moar-with-spring-20-release-highlights-for-developers",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Extract Dependency Information from Unlocked Packages (Salesforce DX Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_unlocked_pkg_extract_dependency_info.htm",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/devops-and-alm/dependency-api.md",
+      "skos:altLabel": [
+        "Metadata Dependency API",
+        "Dependencies API",
+        "MetadataComponentDependency",
+        "Salesforce Dependency API"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:tooling-api"
+        },
+        {
+          "@id": "kt:application-lifecycle-management"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:unlocked-packages"
+        },
+        {
+          "@id": "kt:package-dependencies"
+        },
+        {
+          "@id": "kt:custom-fields"
+        },
+        {
+          "@id": "kt:technical-debt-in-salesforce"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:tooling-api"
+        }
+      ],
+      "kto:queriedWith": [
+        {
+          "@id": "kt:soql"
+        },
+        {
+          "@id": "kt:bulk-api-2"
+        },
+        {
+          "@id": "kt:salesforce-cli"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:metadata-api"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:api-request-limits"
+        }
+      ]
+    },
+    {
       "@id": "kt:deployment-validation-and-quick-deploy",
       "@type": "kto:Feature",
       "skos:prefLabel": "Deployment Validation and Quick Deploy",

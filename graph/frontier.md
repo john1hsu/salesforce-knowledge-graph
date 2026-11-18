@@ -146,7 +146,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:technology-roadmaps` | `kt:capability-maps` |
 | `kt:value-streams` | `kt:capability-maps` |
 | `kt:digital-accessibility` | `kt:section-508-accessibility` |
-| `kt:post-install-scripts` | `kt:push-upgrades` |
 | `kt:tx-ramp` | `kt:govramp` |
 | `kt:wcag` | `kt:section-508-accessibility` |
 | `kt:agent-to-agent-protocol` | `kt:agentforce-architecture-patterns` |
@@ -156,6 +155,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:greenhouse-gas-protocol` | `kt:net-zero-cloud` |
 | `kt:multi-agent-orchestration` | `kt:agentforce-architecture-patterns` |
 | `kt:notes-and-attachments` | `kt:content-document-model` |
+| `kt:post-install-scripts` | `kt:push-upgrades` |
 | `kt:shared-activities` | `kt:activity-data-model` |
 | `kt:tableau-blueprint` | `kt:tableau-architect-certification` |
 | `kt:tableau-server-administrator-certification` | `kt:tableau-architect-certification` |
