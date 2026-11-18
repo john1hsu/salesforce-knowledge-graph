@@ -19,6 +19,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:data-cloud-triggered-flows` | `kt:data-actions`, `kt:generative-ai-audit-and-feedback-data` |
 | `kt:email-templates` | `kt:auto-response-rules`, `kt:email-alerts` |
 | `kt:apex-logging-and-debug-logs` | `kt:custom-exceptions`, `kt:flow-debugging` |
+| `kt:custom-address-fields` | `kt:geolocation-fields`, `kt:state-and-country-territory-picklists` |
 | `kt:salesforce-ecosystem-roles` | `kt:salesforce-architect` |
 | `kt:lightning-service-console` | `kt:service-cloud` |
 | `kt:service-setup-assistant` | `kt:service-cloud` |
@@ -40,16 +41,16 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:data-management` | `kt:data-governance` |
 | `kt:data-stewardship` | `kt:data-governance` |
 | `kt:data-import-wizard` | `kt:data-loader` |
-| `kt:salesforce-sites` | `kt:custom-domains` |
-| `kt:pushtopic-streaming-allocations` | `kt:streaming-api` |
-| `kt:tableau-pulse` | `kt:tableau` |
-| `kt:salesforce-lightning-design-system` | `kt:visualforce` |
-| `kt:entitlement-process-metadata` | `kt:entitlement-management` |
 | `kt:dispatcher-console` | `kt:field-service` |
 | `kt:field-service-mobile-app` | `kt:field-service` |
 | `kt:field-service-scheduling-policies` | `kt:field-service` |
 | `kt:service-appointments` | `kt:field-service` |
 | `kt:work-orders` | `kt:field-service` |
+| `kt:salesforce-sites` | `kt:custom-domains` |
+| `kt:pushtopic-streaming-allocations` | `kt:streaming-api` |
+| `kt:tableau-pulse` | `kt:tableau` |
+| `kt:salesforce-lightning-design-system` | `kt:visualforce` |
+| `kt:entitlement-process-metadata` | `kt:entitlement-management` |
 | `kt:einstein-discovery` | `kt:crm-analytics` |
 | `kt:saql` | `kt:crm-analytics` |
 | `kt:apex-mocks` | `kt:apex-enterprise-patterns` |
@@ -91,9 +92,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:static-resources` | `kt:cross-site-scripting` |
 | `kt:actionable-relationship-center` | `kt:financial-services-cloud` |
 | `kt:compliant-data-sharing` | `kt:financial-services-cloud` |
+| `kt:custom-permissions` | `kt:validation-rules` |
 | `kt:iso-iec-25010` | `kt:non-functional-requirements` |
 | `kt:opportunity-products` | `kt:price-books` |
-| `kt:custom-permissions` | `kt:validation-rules` |
 | `kt:fhir` | `kt:health-cloud` |
 | `kt:utilization-management` | `kt:health-cloud` |
 | `kt:salesforce-as-identity-provider` | `kt:certificate-and-key-management` |
@@ -137,22 +138,22 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:data-processing-engine` | `kt:loyalty-management` |
 | `kt:heroku-fir` | `kt:heroku-architect-certification` |
 | `kt:twelve-factor-app` | `kt:heroku-architect-certification` |
-| `kt:b2c-commerce-architect-certification` | `kt:b2c-solution-architect-certification` |
 | `kt:web-server-flow` | `kt:device-flow` |
+| `kt:b2c-commerce-architect-certification` | `kt:b2c-solution-architect-certification` |
 | `kt:business-architecture` | `kt:capability-maps` |
 | `kt:technology-roadmaps` | `kt:capability-maps` |
 | `kt:value-streams` | `kt:capability-maps` |
 | `kt:organization-wide-email-addresses` | `kt:email-alerts` |
-| `kt:custom-address-fields` | `kt:state-and-country-territory-picklists` |
 | `kt:digital-accessibility` | `kt:section-508-accessibility` |
-| `kt:notes-and-attachments` | `kt:content-document-model` |
 | `kt:post-install-scripts` | `kt:push-upgrades` |
-| `kt:shared-activities` | `kt:activity-data-model` |
 | `kt:tx-ramp` | `kt:govramp` |
 | `kt:wcag` | `kt:section-508-accessibility` |
 | `kt:agent-to-agent-protocol` | `kt:agentforce-architecture-patterns` |
 | `kt:greenhouse-gas-protocol` | `kt:net-zero-cloud` |
 | `kt:multi-agent-orchestration` | `kt:agentforce-architecture-patterns` |
+| `kt:notes-and-attachments` | `kt:content-document-model` |
+| `kt:salesforce-maps` | `kt:geolocation-fields` |
+| `kt:shared-activities` | `kt:activity-data-model` |
 | `kt:tableau-blueprint` | `kt:tableau-architect-certification` |
 | `kt:tableau-server-administrator-certification` | `kt:tableau-architect-certification` |
 | `kt:web-to-case` | `kt:auto-response-rules` |
