@@ -5151,6 +5151,30 @@
     ]
   },
   {
+    "id": "kt:json-web-token",
+    "title": "JSON Web Token",
+    "aliases": [
+      "JWT",
+      "RFC 7519",
+      "JWT claims set"
+    ],
+    "type": "ExternalConcept",
+    "domain": "identity",
+    "file": "articles/identity/json-web-token.md",
+    "created": "2026-11-18",
+    "release": "Winter '27",
+    "status": "concept",
+    "source_urls": [
+      "https://rfc-editor.org/rfc/rfc7519",
+      "https://rfc-editor.org/rfc/rfc8725.html",
+      "https://help.salesforce.com/s/articleView?language=en_US&id=sf.jwt_access_tokens.htm&amp=&type=5",
+      "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_class_Auth_JWT.htm",
+      "https://developer.salesforce.com/docs/atlas.en-us.264.0.apexref.meta/apexref/apex_class_Auth_JWS.htm",
+      "https://developer.salesforce.com/docs/platform/named-credentials/references/named-credentials-reference/jwt-claims.html",
+      "https://developer.salesforce.com/docs/platform/sfdx-dev/guide/sfdx-dev-auth-jwt-flow.html"
+    ]
+  },
+  {
     "id": "kt:junction-object",
     "title": "Junction Object",
     "aliases": [

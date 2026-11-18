@@ -39,8 +39,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:salesforce-sites` | `kt:custom-domains` |
 | `kt:pushtopic-streaming-allocations` | `kt:streaming-api` |
 | `kt:tableau-pulse` | `kt:tableau` |
-| `kt:dispatcher-console` | `kt:field-service` |
 | `kt:entitlement-process-metadata` | `kt:entitlement-management` |
+| `kt:dispatcher-console` | `kt:field-service` |
 | `kt:field-service-mobile-app` | `kt:field-service` |
 | `kt:field-service-scheduling-policies` | `kt:field-service` |
 | `kt:service-appointments` | `kt:field-service` |
@@ -56,7 +56,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:lightning-out` | `kt:lightning-locker` |
 | `kt:dynamic-revenue-orchestrator` | `kt:revenue-cloud` |
 | `kt:revenue-management-consultant-certification` | `kt:revenue-cloud` |
-| `kt:json-web-token` | `kt:openid-connect` |
 | `kt:it-governance` | `kt:salesforce-governance` |
 | `kt:security-governance` | `kt:salesforce-governance` |
 | `kt:automation-studio` | `kt:marketing-cloud-engagement` |
@@ -64,8 +63,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:marketing-cloud-connect` | `kt:marketing-cloud-engagement` |
 | `kt:generative-ai` | `kt:retrieval-augmented-generation-in-salesforce` |
 | `kt:apexguru` | `kt:scale-test` |
-| `kt:revenue-intelligence` | `kt:collaborative-forecasts` |
 | `kt:scale-center` | `kt:scale-test` |
+| `kt:revenue-intelligence` | `kt:collaborative-forecasts` |
 | `kt:ingestion-api` | `kt:data-streams` |
 | `kt:path` | `kt:business-processes` |
 | `kt:heroku-postgres` | `kt:heroku-connect` |
@@ -75,10 +74,10 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:agentexchange-go-to-market-app` | `kt:agentexchange` |
 | `kt:salesforce-licensing` | `kt:user-licenses` |
 | `kt:mulesoft-platform-integration-architect-certification` | `kt:mulesoft-platform-architect-certification` |
-| `kt:constraint-modeling-language` | `kt:product-configurator` |
-| `kt:product-catalog-management` | `kt:product-configurator` |
 | `kt:security-stripinaccessible` | `kt:apex-user-mode` |
 | `kt:with-security-enforced` | `kt:apex-user-mode` |
+| `kt:constraint-modeling-language` | `kt:product-configurator` |
+| `kt:product-catalog-management` | `kt:product-configurator` |
 | `kt:application-network` | `kt:api-led-connectivity` |
 | `kt:point-to-point-integration` | `kt:api-led-connectivity` |
 | `kt:dynamic-actions` | `kt:dynamic-forms` |
@@ -98,6 +97,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:custom-permissions` | `kt:validation-rules` |
 | `kt:fhir` | `kt:health-cloud` |
 | `kt:utilization-management` | `kt:health-cloud` |
+| `kt:salesforce-as-identity-provider` | `kt:certificate-and-key-management` |
 | `kt:security-center` | `kt:continuous-monitoring` |
 | `kt:semantic-layer` | `kt:tableau-semantics` |
 | `kt:cap-theorem` | `kt:distributed-computing` |
@@ -105,7 +105,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:platform-cache-partitions` | `kt:platform-cache` |
 | `kt:iso-iec-25010` | `kt:non-functional-requirements` |
 | `kt:holidays` | `kt:business-hours` |
-| `kt:salesforce-as-identity-provider` | `kt:certificate-and-key-management` |
 | `kt:model-context-protocol` | `kt:model-context-protocol-in-agentforce` |
 | `kt:salesforce-hosted-mcp-servers` | `kt:model-context-protocol-in-agentforce` |
 | `kt:partner-community-licenses` | `kt:customer-community-licenses` |
@@ -117,11 +116,12 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:organizational-governance` | `kt:corporate-governance` |
 | `kt:apex-defined-types` | `kt:transform-element` |
 | `kt:agentforce-vibes` | `kt:agentforce-vibes-ide` |
-| `kt:iso-iec-27017` | `kt:iso-iec-27002` |
 | `kt:business-process-mapping` | `kt:requirements-gathering` |
+| `kt:iso-iec-27017` | `kt:iso-iec-27002` |
 | `kt:data-cloud-triggered-flows` | `kt:data-actions` |
-| `kt:document-ai` | `kt:unstructured-data-in-data-cloud` |
 | `kt:username-password-flow` | `kt:client-credentials-flow` |
+| `kt:document-ai` | `kt:unstructured-data-in-data-cloud` |
+| `kt:json-web-signature` | `kt:json-web-token` |
 | `kt:models-api` | `kt:ai-models` |
 | `kt:ldap` | `kt:delegated-authentication` |
 | `kt:ui-api` | `kt:field-dependencies` |

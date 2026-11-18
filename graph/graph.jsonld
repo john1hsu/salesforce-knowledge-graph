@@ -24431,6 +24431,109 @@
       ]
     },
     {
+      "@id": "kt:json-web-token",
+      "@type": "kto:ExternalConcept",
+      "skos:prefLabel": "JSON Web Token",
+      "skos:definition": "The IETF standard (RFC 7519) for a compact, URL-safe token that carries a JSON set of claims, protected by a JSON Web Signature or JSON Web Encryption; Salesforce uses JWTs as bearer assertions in the JWT bearer flow, as OpenID Connect ID tokens, and optionally as self-contained RS256-signed access tokens.",
+      "kto:domain": "identity",
+      "dcterms:created": "2026-11-18",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "RFC 7519: JSON Web Token (JWT)",
+          "dcterms:publisher": "IETF / RFC Editor",
+          "schema:url": "https://rfc-editor.org/rfc/rfc7519",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "RFC 8725: JSON Web Token Best Current Practices",
+          "dcterms:publisher": "IETF / RFC Editor",
+          "schema:url": "https://rfc-editor.org/rfc/rfc8725.html",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "JWT-Based Access Tokens",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=sf.jwt_access_tokens.htm&amp=&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Apex Reference: Auth.JWT Class",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_class_Auth_JWT.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Apex Reference: Auth.JWS Class",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.264.0.apexref.meta/apexref/apex_class_Auth_JWS.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Named Credentials Reference: JWT Bearer Flow Claims",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/named-credentials/references/named-credentials-reference/jwt-claims.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Authorize an Org Using the JWT Flow (Salesforce DX Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/sfdx-dev/guide/sfdx-dev-auth-jwt-flow.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/identity/json-web-token.md",
+      "skos:altLabel": [
+        "JWT",
+        "RFC 7519",
+        "JWT claims set"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:integration-security"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:oauth-2-0"
+        },
+        {
+          "@id": "kt:salesforce-identity"
+        },
+        {
+          "@id": "kt:certificate-and-key-management"
+        },
+        {
+          "@id": "kt:external-client-apps"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:jwt-bearer-flow"
+        },
+        {
+          "@id": "kt:openid-connect"
+        },
+        {
+          "@id": "kt:named-credentials"
+        },
+        {
+          "@id": "kt:salesforce-cli"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:json-web-signature"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:saml-2-0"
+        }
+      ]
+    },
+    {
       "@id": "kt:just-in-time-provisioning",
       "@type": "kto:Feature",
       "skos:prefLabel": "Just-in-Time User Provisioning",

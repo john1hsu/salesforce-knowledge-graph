@@ -5860,6 +5860,35 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/iso-iec-27002> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "public-sector-and-compliance" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/iso-iec-27002> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/iso-iec-27002> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/json-web-token> <http://purl.org/dc/terms/created> "2026-11-18" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/json-web-token> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#ExternalConcept> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/json-web-token> <http://www.w3.org/2000/01/rdf-schema#label> "JSON Web Token" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/json-web-token> <http://www.w3.org/2004/02/skos/core#altLabel> "JWT claims set" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/json-web-token> <http://www.w3.org/2004/02/skos/core#altLabel> "JWT" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/json-web-token> <http://www.w3.org/2004/02/skos/core#altLabel> "RFC 7519" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/json-web-token> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-security> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/json-web-token> <http://www.w3.org/2004/02/skos/core#definition> "The IETF standard (RFC 7519) for a compact, URL-safe token that carries a JSON set of claims, protected by a JSON Web Signature or JSON Web Encryption; Salesforce uses JWTs as bearer assertions in the JWT bearer flow, as OpenID Connect ID tokens, and optionally as self-contained RS256-signed access tokens." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/json-web-token> <http://www.w3.org/2004/02/skos/core#prefLabel> "JSON Web Token" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/json-web-token> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/certificate-and-key-management> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/json-web-token> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/external-client-apps> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/json-web-token> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-2-0> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/json-web-token> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-identity> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/json-web-token> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/json-web-token/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/json-web-token> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/json-web-token/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/json-web-token> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/json-web-token/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/json-web-token> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/json-web-token/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/json-web-token> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/json-web-token/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/json-web-token> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/json-web-token/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/json-web-token> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/json-web-token/s7> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/json-web-token> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#consumedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/jwt-bearer-flow> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/json-web-token> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#consumedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/named-credentials> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/json-web-token> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#consumedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/openid-connect> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/json-web-token> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#consumedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-cli> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/json-web-token> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#contrastsWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/saml-2-0> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/json-web-token> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/json-web-signature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/json-web-token> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "identity" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/json-web-token> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/json-web-token> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/junction-object> <http://purl.org/dc/terms/created> "2026-11-01" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/junction-object> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Pattern> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/junction-object> <http://www.w3.org/2000/01/rdf-schema#label> "Junction Object" .
@@ -16624,6 +16653,41 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/iso-iec-27002/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/iso-iec-27002/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "standards-body" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/iso-iec-27002/s6> <https://schema.org/url> "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/json-web-token/s1> <http://purl.org/dc/terms/publisher> "IETF / RFC Editor" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/json-web-token/s1> <http://purl.org/dc/terms/title> "RFC 7519: JSON Web Token (JWT)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/json-web-token/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/json-web-token/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "standards-body" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/json-web-token/s1> <https://schema.org/url> "https://rfc-editor.org/rfc/rfc7519" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/json-web-token/s2> <http://purl.org/dc/terms/publisher> "IETF / RFC Editor" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/json-web-token/s2> <http://purl.org/dc/terms/title> "RFC 8725: JSON Web Token Best Current Practices" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/json-web-token/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/json-web-token/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "standards-body" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/json-web-token/s2> <https://schema.org/url> "https://rfc-editor.org/rfc/rfc8725.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/json-web-token/s3> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/json-web-token/s3> <http://purl.org/dc/terms/title> "JWT-Based Access Tokens" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/json-web-token/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/json-web-token/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/json-web-token/s3> <https://schema.org/url> "https://help.salesforce.com/s/articleView?language=en_US&id=sf.jwt_access_tokens.htm&amp=&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/json-web-token/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/json-web-token/s4> <http://purl.org/dc/terms/title> "Apex Reference: Auth.JWT Class" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/json-web-token/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/json-web-token/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/json-web-token/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_class_Auth_JWT.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/json-web-token/s5> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/json-web-token/s5> <http://purl.org/dc/terms/title> "Apex Reference: Auth.JWS Class" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/json-web-token/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/json-web-token/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/json-web-token/s5> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.264.0.apexref.meta/apexref/apex_class_Auth_JWS.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/json-web-token/s6> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/json-web-token/s6> <http://purl.org/dc/terms/title> "Named Credentials Reference: JWT Bearer Flow Claims" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/json-web-token/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/json-web-token/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/json-web-token/s6> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/named-credentials/references/named-credentials-reference/jwt-claims.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/json-web-token/s7> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/json-web-token/s7> <http://purl.org/dc/terms/title> "Authorize an Org Using the JWT Flow (Salesforce DX Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/json-web-token/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/json-web-token/s7> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/json-web-token/s7> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/sfdx-dev/guide/sfdx-dev-auth-jwt-flow.html" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/junction-object/s1> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/junction-object/s1> <http://purl.org/dc/terms/title> "Create a Many-to-Many Object Relationship" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/junction-object/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
