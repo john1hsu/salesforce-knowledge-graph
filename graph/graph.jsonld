@@ -25512,6 +25512,106 @@
       ]
     },
     {
+      "@id": "kt:login-history",
+      "@type": "kto:SecurityControl",
+      "skos:prefLabel": "Login History",
+      "skos:definition": "Salesforce's built-in record of login attempts to an org and its Experience Cloud sites, shown on the Setup Login History page and exposed through the LoginHistory object, with six months of data available to view or download without an add-on licence.",
+      "kto:domain": "identity",
+      "dcterms:created": "2026-11-18",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Monitor Login History",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=sf.users_login_history.htm&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "LoginHistory | Object Reference for the Salesforce Platform",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/object_reference/sforce_api_objects_loginhistory.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "LoginEvent | Platform Events Developer Guide",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.262.0.platform_events.meta/platform_events/sforce_api_objects_loginevent.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Get to Know Real-Time Events and Transaction Security",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/realtime-event-monitoring/get-to-know-realtime-events-and-transaction-security",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Monitor and Audit Security in Salesforce",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=xcloud.security_audit.htm&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Admin Security Workshop: Audit Trail",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/workshops/admin-security-workshop/monitoring-and-response/1-audit-trail",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/identity/login-history.md",
+      "skos:altLabel": [
+        "LoginHistory object",
+        "LoginHistory",
+        "Login History page",
+        "Monitor Login History",
+        "user login history"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-identity"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:login-ip-ranges-and-trusted-ip-ranges"
+        },
+        {
+          "@id": "kt:multi-factor-authentication"
+        },
+        {
+          "@id": "kt:account-takeover"
+        },
+        {
+          "@id": "kt:oauth-2-flows-in-salesforce"
+        }
+      ],
+      "kto:queriedWith": [
+        {
+          "@id": "kt:soql"
+        }
+      ],
+      "kto:instanceOf": [
+        {
+          "@id": "kt:standard-objects"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:event-monitoring"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:field-audit-trail"
+        }
+      ],
+      "kto:mitigates": [
+        {
+          "@id": "kt:account-takeover"
+        }
+      ]
+    },
+    {
       "@id": "kt:login-ip-ranges-and-trusted-ip-ranges",
       "@type": "kto:SecurityControl",
       "skos:prefLabel": "Login IP Ranges and Trusted IP Ranges",

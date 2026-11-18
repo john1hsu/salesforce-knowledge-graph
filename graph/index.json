@@ -5672,6 +5672,31 @@
     ]
   },
   {
+    "id": "kt:login-history",
+    "title": "Login History",
+    "aliases": [
+      "LoginHistory object",
+      "LoginHistory",
+      "Login History page",
+      "Monitor Login History",
+      "user login history"
+    ],
+    "type": "SecurityControl",
+    "domain": "identity",
+    "file": "articles/identity/login-history.md",
+    "created": "2026-11-18",
+    "release": "Winter '27",
+    "status": "current",
+    "source_urls": [
+      "https://help.salesforce.com/s/articleView?language=en_US&id=sf.users_login_history.htm&type=5",
+      "https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/object_reference/sforce_api_objects_loginhistory.htm",
+      "https://developer.salesforce.com/docs/atlas.en-us.262.0.platform_events.meta/platform_events/sforce_api_objects_loginevent.htm",
+      "https://trailhead.salesforce.com/content/learn/modules/realtime-event-monitoring/get-to-know-realtime-events-and-transaction-security",
+      "https://help.salesforce.com/s/articleView?language=en_US&id=xcloud.security_audit.htm&type=5",
+      "https://developer.salesforce.com/workshops/admin-security-workshop/monitoring-and-response/1-audit-trail"
+    ]
+  },
+  {
     "id": "kt:login-ip-ranges-and-trusted-ip-ranges",
     "title": "Login IP Ranges and Trusted IP Ranges",
     "aliases": [

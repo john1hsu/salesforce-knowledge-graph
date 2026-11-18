@@ -6455,6 +6455,35 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/login-flows> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/session-security-levels> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/login-flows> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/login-flows> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/login-history> <http://purl.org/dc/terms/created> "2026-11-18" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/login-history> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#SecurityControl> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/login-history> <http://www.w3.org/2000/01/rdf-schema#label> "Login History" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/login-history> <http://www.w3.org/2004/02/skos/core#altLabel> "Login History page" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/login-history> <http://www.w3.org/2004/02/skos/core#altLabel> "LoginHistory object" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/login-history> <http://www.w3.org/2004/02/skos/core#altLabel> "LoginHistory" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/login-history> <http://www.w3.org/2004/02/skos/core#altLabel> "Monitor Login History" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/login-history> <http://www.w3.org/2004/02/skos/core#altLabel> "user login history" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/login-history> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-identity> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/login-history> <http://www.w3.org/2004/02/skos/core#definition> "Salesforce's built-in record of login attempts to an org and its Experience Cloud sites, shown on the Setup Login History page and exposed through the LoginHistory object, with six months of data available to view or download without an add-on licence." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/login-history> <http://www.w3.org/2004/02/skos/core#prefLabel> "Login History" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/login-history> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/account-takeover> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/login-history> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/login-ip-ranges-and-trusted-ip-ranges> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/login-history> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/multi-factor-authentication> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/login-history> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-2-flows-in-salesforce> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/login-history> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/login-history/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/login-history> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/login-history/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/login-history> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/login-history/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/login-history> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/login-history/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/login-history> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/login-history/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/login-history> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/login-history/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/login-history> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#alternativeTo> <https://github.com/john1hsu/salesforce-knowledge-graph/id/event-monitoring> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/login-history> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#contrastsWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/field-audit-trail> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/login-history> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "identity" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/login-history> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#instanceOf> <https://github.com/john1hsu/salesforce-knowledge-graph/id/standard-objects> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/login-history> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#mitigates> <https://github.com/john1hsu/salesforce-knowledge-graph/id/account-takeover> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/login-history> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/soql> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/login-history> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/login-history> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/login-ip-ranges-and-trusted-ip-ranges> <http://purl.org/dc/terms/created> "2026-11-08" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/login-ip-ranges-and-trusted-ip-ranges> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#SecurityControl> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/login-ip-ranges-and-trusted-ip-ranges> <http://www.w3.org/2000/01/rdf-schema#label> "Login IP Ranges and Trusted IP Ranges" .
@@ -17609,6 +17638,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/login-flows/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/login-flows/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/login-flows/s4> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/selfregistration-in-a-portal/assign-the-login-flow-and-test-it-in-your-portal" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/login-history/s1> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/login-history/s1> <http://purl.org/dc/terms/title> "Monitor Login History" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/login-history/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/login-history/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/login-history/s1> <https://schema.org/url> "https://help.salesforce.com/s/articleView?language=en_US&id=sf.users_login_history.htm&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/login-history/s2> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/login-history/s2> <http://purl.org/dc/terms/title> "LoginHistory | Object Reference for the Salesforce Platform" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/login-history/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/login-history/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/login-history/s2> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/object_reference/sforce_api_objects_loginhistory.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/login-history/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/login-history/s3> <http://purl.org/dc/terms/title> "LoginEvent | Platform Events Developer Guide" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/login-history/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/login-history/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/login-history/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.262.0.platform_events.meta/platform_events/sforce_api_objects_loginevent.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/login-history/s4> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/login-history/s4> <http://purl.org/dc/terms/title> "Get to Know Real-Time Events and Transaction Security" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/login-history/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/login-history/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/login-history/s4> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/realtime-event-monitoring/get-to-know-realtime-events-and-transaction-security" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/login-history/s5> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/login-history/s5> <http://purl.org/dc/terms/title> "Monitor and Audit Security in Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/login-history/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/login-history/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/login-history/s5> <https://schema.org/url> "https://help.salesforce.com/s/articleView?language=en_US&id=xcloud.security_audit.htm&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/login-history/s6> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/login-history/s6> <http://purl.org/dc/terms/title> "Admin Security Workshop: Audit Trail" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/login-history/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/login-history/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/login-history/s6> <https://schema.org/url> "https://developer.salesforce.com/workshops/admin-security-workshop/monitoring-and-response/1-audit-trail" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/login-ip-ranges-and-trusted-ip-ranges/s1> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/login-ip-ranges-and-trusted-ip-ranges/s1> <http://purl.org/dc/terms/title> "Set Trusted IP Ranges for Your Org" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/login-ip-ranges-and-trusted-ip-ranges/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

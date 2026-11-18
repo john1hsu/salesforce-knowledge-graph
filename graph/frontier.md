@@ -120,8 +120,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:username-password-flow` | `kt:client-credentials-flow` |
 | `kt:document-ai` | `kt:unstructured-data-in-data-cloud` |
 | `kt:json-web-signature` | `kt:json-web-token` |
-| `kt:models-api` | `kt:ai-models` |
 | `kt:ldap` | `kt:delegated-authentication` |
+| `kt:models-api` | `kt:ai-models` |
 | `kt:ui-api` | `kt:field-dependencies` |
 | `kt:user-provisioning` | `kt:scim` |
 | `kt:b2b-commerce` | `kt:commerce-cloud` |
@@ -138,8 +138,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:heroku-fir` | `kt:heroku-architect-certification` |
 | `kt:post-install-scripts` | `kt:push-upgrades` |
 | `kt:twelve-factor-app` | `kt:heroku-architect-certification` |
-| `kt:web-server-flow` | `kt:device-flow` |
 | `kt:b2c-commerce-architect-certification` | `kt:b2c-solution-architect-certification` |
+| `kt:web-server-flow` | `kt:device-flow` |
 | `kt:business-architecture` | `kt:capability-maps` |
 | `kt:technology-roadmaps` | `kt:capability-maps` |
 | `kt:value-streams` | `kt:capability-maps` |
