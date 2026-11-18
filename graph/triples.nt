@@ -8209,6 +8209,33 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/process-builder> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#replacedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/record-triggered-flow> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/process-builder> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "deprecated" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/process-builder> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/process-integration> <http://purl.org/dc/terms/created> "2026-11-18" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/process-integration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/process-integration> <http://www.w3.org/2000/01/rdf-schema#label> "Process Integration" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/process-integration> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce process integration" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/process-integration> <http://www.w3.org/2004/02/skos/core#altLabel> "business process integration" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/process-integration> <http://www.w3.org/2004/02/skos/core#altLabel> "process-based integration" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/process-integration> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-patterns> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/process-integration> <http://www.w3.org/2004/02/skos/core#definition> "The integration category in which a single business process spans Salesforce and one or more other applications, so one system invokes processing in another; implemented with the Remote Process Invocation and Remote Call-In patterns and coordinated by orchestration or choreography, as distinct from data and virtual integration." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/process-integration> <http://www.w3.org/2004/02/skos/core#prefLabel> "Process Integration" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/process-integration> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-callouts> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/process-integration> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/event-driven-architecture> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/process-integration> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-orchestrator> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/process-integration> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-events> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/process-integration> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/transaction-control> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/process-integration> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/process-integration/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/process-integration> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/process-integration/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/process-integration> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/process-integration/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/process-integration> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/process-integration/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/process-integration> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#contrastsWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-integration> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/process-integration> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#contrastsWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-virtualization> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/process-integration> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "integration" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/process-integration> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#governedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/governor-limits> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/process-integration> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-patterns-request-reply-fire-and-forget> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/process-integration> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/remote-call-in> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/process-integration> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/mulesoft-anypoint-platform> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/process-integration> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/process-integration> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/product-configurator> <http://purl.org/dc/terms/created> "2026-11-09" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/product-configurator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/product-configurator> <http://www.w3.org/2000/01/rdf-schema#label> "Product Configurator" .
@@ -19014,6 +19041,26 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/process-builder/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/process-builder/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/process-builder/s6> <https://schema.org/url> "https://admin.salesforce.com/blog/2022/automate-this-migrate-workflow-rules-and-processes-to-flow" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/process-integration/s1> <http://purl.org/dc/terms/publisher> "Salesforce Architects" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/process-integration/s1> <http://purl.org/dc/terms/title> "Integration Patterns Overview" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/process-integration/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/process-integration/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/process-integration/s1> <https://schema.org/url> "https://architect.salesforce.com/fundamentals/integration-patterns" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/process-integration/s2> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/process-integration/s2> <http://purl.org/dc/terms/title> "Pattern Selection Guide (Integration Patterns and Practices)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/process-integration/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/process-integration/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/process-integration/s2> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.integration_patterns_and_practices.meta/integ/integ_pat_selection_guide.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/process-integration/s3> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/process-integration/s3> <http://purl.org/dc/terms/title> "Learn About Integration Patterns and Designs (Application Integration Patterns for Salesforce Lightning Platform)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/process-integration/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/process-integration/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/process-integration/s3> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/app-integration-patterns/app-integration-patterns-1" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/process-integration/s4> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/process-integration/s4> <http://purl.org/dc/terms/title> "Identify Business Uses for Flow Orchestration (Build a Flow Orchestration)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/process-integration/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/process-integration/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/process-integration/s4> <https://schema.org/url> "https://trailhead.salesforce.com/fr/content/learn/modules/build-a-flow-orchestration/identify-business-uses-for-flow-orchestration" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/product-configurator/s1> <http://purl.org/dc/terms/publisher> "Salesforce" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/product-configurator/s1> <http://purl.org/dc/terms/title> "Product Configurator (Revenue Management Developer Guide)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/product-configurator/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
