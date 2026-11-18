@@ -29187,6 +29187,86 @@
       ]
     },
     {
+      "@id": "kt:mule-runtime-engine",
+      "@type": "kto:Product",
+      "skos:prefLabel": "Mule Runtime Engine",
+      "skos:definition": "The lightweight integration engine at the heart of MuleSoft Anypoint Platform that executes Mule applications, shared domains and API policies, using a reactive, non-blocking execution model and deployable to CloudHub 2.0, CloudHub 1.0, Runtime Fabric or customer-managed servers.",
+      "kto:domain": "integration",
+      "dcterms:created": "2026-11-18",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Mule Runtime Engine Overview",
+          "dcterms:publisher": "MuleSoft (Salesforce)",
+          "schema:url": "https://docs.mulesoft.com/mule-runtime/latest/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Edge and LTS Releases for Mule",
+          "dcterms:publisher": "MuleSoft (Salesforce)",
+          "schema:url": "https://docs.mulesoft.com/release-notes/mule-runtime/lts-edge-release-cadence",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Mule Runtime Execution Engine",
+          "dcterms:publisher": "MuleSoft (Salesforce)",
+          "schema:url": "https://docs.mulesoft.com/mule-runtime/latest/execution-engine",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Get to Know Anypoint Platform (Understanding Anypoint Platform for Integration Success)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/fr/content/learn/modules/anypoint-platform-basics/get-to-know-anypoint-platform",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/integration/mule-runtime-engine.md",
+      "skos:altLabel": [
+        "Mule runtime",
+        "Mule 4 runtime",
+        "Mule ESB",
+        "Mule server"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:mulesoft-anypoint-platform"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:api-led-connectivity"
+        },
+        {
+          "@id": "kt:integration-patterns"
+        },
+        {
+          "@id": "kt:event-driven-architecture"
+        },
+        {
+          "@id": "kt:data-integration"
+        },
+        {
+          "@id": "kt:mulesoft-platform-architect-certification"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:mulesoft-anypoint-platform"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:salesforce-platform"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:anypoint-runtime-manager"
+        }
+      ]
+    },
+    {
       "@id": "kt:mulesoft-anypoint-platform",
       "@type": "kto:Product",
       "skos:prefLabel": "MuleSoft Anypoint Platform",
