@@ -8336,6 +8336,113 @@
       ]
     },
     {
+      "@id": "kt:marketing-cloud-next",
+      "@type": "kto:Product",
+      "skos:prefLabel": "Marketing Cloud Next",
+      "skos:definition": "Salesforce's agentic marketing product built natively on the core Salesforce Platform, using Data 360 (Data Cloud) as its data layer, Flow Builder for orchestration and Agentforce for segment, content and campaign assistance; sold as Growth and Advanced editions for B2B, B2C and hybrid marketing.",
+      "kto:domain": "clouds-and-products",
+      "dcterms:created": "2026-11-18",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Get Started with Marketing Cloud Next Channel Marketing",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/channel-marketing-fundamentals-for-marketing-cloud-next/get-started-with-marketing-cloud-next-channel-marketing",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Explore Marketing Cloud Next Use Cases (Marketing Cloud Next Basics)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/marketing-cloud-next-basics/explore-marketing-cloud-next-use-cases",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Prepare Your Org for Email Sending (Marketing Cloud Next Email Sending Essentials)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/marketing-cloud-next-email-sending-essentials/prepare-your-org-for-email-sending",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Set Up a Marketing Cloud Next Campaign (Campaign Optimization with Flows in Marketing Cloud Next)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/campaign-optimization-with-flows-in-marketing-cloud-next/set-up-a-marketing-cloud-next-campaign",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Marketing Cloud Next Documentation Resources",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/marketing/marketing-cloud-growth/guide/mc-resources-documentation.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Prepare for Your Marketing Cloud Next Consultant Certification (trail)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/trails/prepare-for-your-marketing-cloud-next-consultant-certification",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Salesforce Marketing Cloud Innovations Enable Marketers to Build Lasting Customer Relationships with Actionable Data and AI Agents",
+          "dcterms:publisher": "Salesforce Newsroom",
+          "schema:url": "https://www.salesforce.com/news/?p=81453",
+          "kto:sourceType": "news"
+        }
+      ],
+      "kto:file": "articles/clouds-and-products/marketing-cloud-next.md",
+      "skos:altLabel": [
+        "Marketing Cloud Next Growth Edition",
+        "Marketing Cloud Next Advanced Edition",
+        "Marketing Cloud Growth Edition",
+        "Marketing Cloud Advanced Edition",
+        "MC Next"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-marketing-solutions"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:marketing-cloud-account-engagement"
+        },
+        {
+          "@id": "kt:loyalty-management"
+        },
+        {
+          "@id": "kt:tableau-next"
+        },
+        {
+          "@id": "kt:experience-cloud"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:data-cloud"
+        },
+        {
+          "@id": "kt:identity-resolution"
+        },
+        {
+          "@id": "kt:data-graphs"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:flow-builder"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:agentforce"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:marketing-cloud-engagement"
+        }
+      ]
+    },
+    {
       "@id": "kt:net-zero-cloud",
       "@type": "kto:Product",
       "skos:prefLabel": "Agentforce Net Zero",
