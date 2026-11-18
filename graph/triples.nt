@@ -7679,6 +7679,28 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/organization-wide-defaults> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "security-and-sharing" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/organization-wide-defaults> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/organization-wide-defaults> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/organizational-governance> <http://purl.org/dc/terms/created> "2026-11-18" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/organizational-governance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#ExternalConcept> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/organizational-governance> <http://www.w3.org/2000/01/rdf-schema#label> "Organizational Governance" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/organizational-governance> <http://www.w3.org/2004/02/skos/core#altLabel> "ISO 37000" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/organizational-governance> <http://www.w3.org/2004/02/skos/core#altLabel> "governance of organizations" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/organizational-governance> <http://www.w3.org/2004/02/skos/core#altLabel> "organisational governance" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/organizational-governance> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/management> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/organizational-governance> <http://www.w3.org/2004/02/skos/core#definition> "The system by which any organization (company, public agency, nonprofit) is directed, overseen and held accountable by its governing body, benchmarked internationally by ISO 37000:2021 and structured in practice by the IIA's Three Lines Model; corporate governance and IT governance are its company-level and technology-level applications, and Salesforce governance ultimately answers to it." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/organizational-governance> <http://www.w3.org/2004/02/skos/core#prefLabel> "Organizational Governance" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/organizational-governance> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-governance> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/organizational-governance> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/governance-risk-and-compliance> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/organizational-governance> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-center-of-excellence> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/organizational-governance> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/organizational-governance/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/organizational-governance> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/organizational-governance/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/organizational-governance> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/organizational-governance/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/organizational-governance> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/organizational-governance/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/organizational-governance> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/organizational-governance/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/organizational-governance> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "public-sector-and-compliance" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/organizational-governance> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/corporate-governance> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/organizational-governance> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/it-governance> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/organizational-governance> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/organizational-governance> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/orglimits-class> <http://purl.org/dc/terms/created> "2026-11-16" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/orglimits-class> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/orglimits-class> <http://www.w3.org/2000/01/rdf-schema#label> "OrgLimits Class" .
@@ -18857,6 +18879,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/organization-wide-defaults/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/organization-wide-defaults/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/organization-wide-defaults/s5> <https://schema.org/url> "https://resources.docs.salesforce.com/242/latest/en-us/sfdc/pdf/salesforce_defer_sharing_tipsheet.pdf" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/organizational-governance/s1> <http://purl.org/dc/terms/publisher> "ISO" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/organizational-governance/s1> <http://purl.org/dc/terms/title> "ISO 37000:2021 Governance of organizations — Guidance" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/organizational-governance/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/organizational-governance/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "standards-body" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/organizational-governance/s1> <https://schema.org/url> "https://www.iso.org/standard/65036.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/organizational-governance/s2> <http://purl.org/dc/terms/publisher> "ISO/TC 309" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/organizational-governance/s2> <http://purl.org/dc/terms/title> "ISO 37000 - the first ever international benchmark for good governance" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/organizational-governance/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/organizational-governance/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "standards-body" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/organizational-governance/s2> <https://schema.org/url> "https://committee.iso.org/ISO_37000_Governance" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/organizational-governance/s3> <http://purl.org/dc/terms/publisher> "The Institute of Internal Auditors" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/organizational-governance/s3> <http://purl.org/dc/terms/title> "The IIA's Three Lines Model: An update of the Three Lines of Defense" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/organizational-governance/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/organizational-governance/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "standards-body" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/organizational-governance/s3> <https://schema.org/url> "https://www.theiia.org/globalassets/site/communication/2020/three-lines-model-updated.pdf" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/organizational-governance/s4> <http://purl.org/dc/terms/publisher> "Encyclopaedia Britannica (Mark Bevir)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/organizational-governance/s4> <http://purl.org/dc/terms/title> "Governance" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/organizational-governance/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/organizational-governance/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "textbook" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/organizational-governance/s4> <https://schema.org/url> "https://www.Britannica.Com/topic/governance" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/organizational-governance/s5> <http://purl.org/dc/terms/publisher> "ASQ" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/organizational-governance/s5> <http://purl.org/dc/terms/title> "What is ISO 26000?" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/organizational-governance/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/organizational-governance/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "community" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/organizational-governance/s5> <https://schema.org/url> "https://asq.org/quality-resources/iso-26000" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/orglimits-class/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/orglimits-class/s1> <http://purl.org/dc/terms/title> "Apex Reference Guide: OrgLimits Class" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/orglimits-class/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

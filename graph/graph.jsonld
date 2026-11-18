@@ -36402,6 +36402,78 @@
       ]
     },
     {
+      "@id": "kt:organizational-governance",
+      "@type": "kto:ExternalConcept",
+      "skos:prefLabel": "Organizational Governance",
+      "skos:definition": "The system by which any organization (company, public agency, nonprofit) is directed, overseen and held accountable by its governing body, benchmarked internationally by ISO 37000:2021 and structured in practice by the IIA's Three Lines Model; corporate governance and IT governance are its company-level and technology-level applications, and Salesforce governance ultimately answers to it.",
+      "kto:domain": "public-sector-and-compliance",
+      "dcterms:created": "2026-11-18",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "ISO 37000:2021 Governance of organizations — Guidance",
+          "dcterms:publisher": "ISO",
+          "schema:url": "https://www.iso.org/standard/65036.html",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "ISO 37000 - the first ever international benchmark for good governance",
+          "dcterms:publisher": "ISO/TC 309",
+          "schema:url": "https://committee.iso.org/ISO_37000_Governance",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "The IIA's Three Lines Model: An update of the Three Lines of Defense",
+          "dcterms:publisher": "The Institute of Internal Auditors",
+          "schema:url": "https://www.theiia.org/globalassets/site/communication/2020/three-lines-model-updated.pdf",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "Governance",
+          "dcterms:publisher": "Encyclopaedia Britannica (Mark Bevir)",
+          "schema:url": "https://www.Britannica.Com/topic/governance",
+          "kto:sourceType": "textbook"
+        },
+        {
+          "dcterms:title": "What is ISO 26000?",
+          "dcterms:publisher": "ASQ",
+          "schema:url": "https://asq.org/quality-resources/iso-26000",
+          "kto:sourceType": "community"
+        }
+      ],
+      "kto:file": "articles/public-sector-and-compliance/organizational-governance.md",
+      "skos:altLabel": [
+        "governance of organizations",
+        "organisational governance",
+        "ISO 37000"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:management"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:governance-risk-and-compliance"
+        },
+        {
+          "@id": "kt:data-governance"
+        },
+        {
+          "@id": "kt:salesforce-center-of-excellence"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:corporate-governance"
+        },
+        {
+          "@id": "kt:it-governance"
+        }
+      ]
+    },
+    {
       "@id": "kt:public-sector-solutions",
       "@type": "kto:Product",
       "skos:prefLabel": "Public Sector Solutions",
