@@ -6,7 +6,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 |---|---|
 | `kt:business-analyst` | `kt:fit-gap-analysis`, `kt:omnistudio-consultant-certification`, `kt:requirements-gathering`, `kt:user-acceptance-testing` |
 | `kt:marketing-cloud-next` | `kt:loyalty-management`, `kt:marketing-cloud-account-engagement`, `kt:marketing-cloud-engagement` |
-| `kt:zero-copy-data-sharing` | `kt:data-cloud-activation`, `kt:zero-copy-data-federation` |
 | `kt:omnistudio-developer-certification` | `kt:omnistudio`, `kt:omnistudio-consultant-certification` |
 | `kt:salesforce-marketing-solutions` | `kt:marketing-cloud-account-engagement`, `kt:marketing-cloud-engagement` |
 | `kt:decision-tables` | `kt:loyalty-management`, `kt:salesforce-pricing` |
@@ -40,8 +39,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:salesforce-sites` | `kt:custom-domains` |
 | `kt:pushtopic-streaming-allocations` | `kt:streaming-api` |
 | `kt:tableau-pulse` | `kt:tableau` |
-| `kt:dispatcher-console` | `kt:field-service` |
 | `kt:entitlement-process-metadata` | `kt:entitlement-management` |
+| `kt:dispatcher-console` | `kt:field-service` |
 | `kt:field-service-mobile-app` | `kt:field-service` |
 | `kt:field-service-scheduling-policies` | `kt:field-service` |
 | `kt:service-appointments` | `kt:field-service` |
@@ -59,22 +58,22 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:it-governance` | `kt:salesforce-governance` |
 | `kt:security-governance` | `kt:salesforce-governance` |
 | `kt:json-web-token` | `kt:openid-connect` |
-| `kt:apex-rest-services` | `kt:remote-call-in` |
 | `kt:automation-studio` | `kt:marketing-cloud-engagement` |
 | `kt:contact-builder` | `kt:marketing-cloud-engagement` |
 | `kt:marketing-cloud-connect` | `kt:marketing-cloud-engagement` |
+| `kt:apex-rest-services` | `kt:remote-call-in` |
 | `kt:generative-ai` | `kt:retrieval-augmented-generation-in-salesforce` |
 | `kt:apexguru` | `kt:scale-test` |
 | `kt:revenue-intelligence` | `kt:collaborative-forecasts` |
 | `kt:scale-center` | `kt:scale-test` |
+| `kt:ingestion-api` | `kt:data-streams` |
 | `kt:path` | `kt:business-processes` |
 | `kt:heroku-postgres` | `kt:heroku-connect` |
 | `kt:batch-apex-error-event` | `kt:transaction-finalizers` |
 | `kt:object-manager` | `kt:schema-builder` |
-| `kt:ingestion-api` | `kt:data-streams` |
+| `kt:agentexchange-go-to-market-app` | `kt:agentexchange` |
 | `kt:opportunity-teams` | `kt:opportunity-splits` |
 | `kt:salesforce-licensing` | `kt:user-licenses` |
-| `kt:agentexchange-go-to-market-app` | `kt:agentexchange` |
 | `kt:mulesoft-platform-integration-architect-certification` | `kt:mulesoft-platform-architect-certification` |
 | `kt:constraint-modeling-language` | `kt:product-configurator` |
 | `kt:product-catalog-management` | `kt:product-configurator` |
@@ -115,11 +114,11 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:in-app-guidance` | `kt:change-management-and-adoption` |
 | `kt:data-cloud-code-extension` | `kt:vector-search-in-data-cloud` |
 | `kt:data-cloud-query-api` | `kt:data-graphs` |
-| `kt:organizational-governance` | `kt:corporate-governance` |
 | `kt:apex-defined-types` | `kt:transform-element` |
+| `kt:organizational-governance` | `kt:corporate-governance` |
 | `kt:agentforce-vibes` | `kt:agentforce-vibes-ide` |
-| `kt:business-process-mapping` | `kt:requirements-gathering` |
 | `kt:iso-iec-27017` | `kt:iso-iec-27002` |
+| `kt:business-process-mapping` | `kt:requirements-gathering` |
 | `kt:data-cloud-triggered-flows` | `kt:data-actions` |
 | `kt:document-ai` | `kt:unstructured-data-in-data-cloud` |
 | `kt:models-api` | `kt:ai-models` |

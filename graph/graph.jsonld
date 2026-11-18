@@ -13211,6 +13211,99 @@
       ]
     },
     {
+      "@id": "kt:zero-copy-data-sharing",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Zero Copy Data Sharing",
+      "skos:definition": "The outbound half of Data 360 zero copy: an admin bundles data lake objects, data model objects and calculated insight objects into a data share and links it to a data share target, so external platforms such as Snowflake, Databricks or another Data 360 org can read the data in place without an ETL copy.",
+      "kto:domain": "data-cloud-and-ai",
+      "dcterms:created": "2026-11-18",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Get Started with Zero Copy Data Sharing (Data 360 with Zero Copy)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/data-cloud-with-zero-copy/get-started-with-zero-copy-data-sharing",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Create a Data Share Target to Connect with Databricks",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=data.c360_a_create_data_share_target_databricks.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Create Data Share Target to Connect with a Data 360 Org",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=data.c360_a_create_data_share_target_datacloud.htm&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Share Your Data from Salesforce Data Cloud to Snowflake",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2024/08/share-your-data-from-salesforce-data-cloud-to-snowflake",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Migrate from the legacy Snowflake data share target",
+          "dcterms:publisher": "Snowflake Documentation",
+          "schema:url": "https://docs.snowflake.com/en/user-guide/data-integration/zero-copy/salesforce/migrate-legacy-share",
+          "kto:sourceType": "partner"
+        },
+        {
+          "dcterms:title": "Salesforce Data 360 File Sharing",
+          "dcterms:publisher": "Microsoft Learn (Azure Databricks documentation)",
+          "schema:url": "https://learn.microsoft.com/hi-in/azure/databricks/query-federation/salesforce-data-cloud-file-sharing",
+          "kto:sourceType": "partner"
+        }
+      ],
+      "kto:file": "articles/data-cloud-and-ai/zero-copy-data-sharing.md",
+      "skos:altLabel": [
+        "Data 360 data sharing",
+        "Data Cloud data sharing",
+        "Data Shares",
+        "Data Share Targets",
+        "Zero Copy data out"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:data-cloud"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:zero-copy-data-federation"
+        },
+        {
+          "@id": "kt:data-cloud-activation"
+        },
+        {
+          "@id": "kt:data-model-objects"
+        },
+        {
+          "@id": "kt:calculated-insights"
+        }
+      ],
+      "kto:implements": [
+        {
+          "@id": "kt:data-virtualization"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:data-spaces"
+        },
+        {
+          "@id": "kt:data-lake-objects"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:data-cloud-activation"
+        }
+      ]
+    },
+    {
       "@id": "kt:activity-data-model",
       "@type": "kto:StandardObject",
       "skos:prefLabel": "Activity Data Model",
