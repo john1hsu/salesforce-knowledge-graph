@@ -33149,6 +33149,89 @@
       ]
     },
     {
+      "@id": "kt:scale-center",
+      "@type": "kto:Tool",
+      "skos:prefLabel": "Scale Center",
+      "skos:definition": "A self-serve Setup tool that shows near real-time org performance metrics (request time, CPU, errors, row locks) and generates analysis reports and insights that help teams find the root cause of scale problems in production and Full Copy sandboxes.",
+      "kto:domain": "platform-architecture",
+      "dcterms:created": "2026-11-18",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "View and Compare Org Performance Metrics with Scale Center (Scale Center Quick Look)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/scale-center-quick-look/view-and-compare-org-performance-metrics-with-scale-center",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Salesforce Scale Center Is Generally Available",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2023/07/salesforce-scale-center-is-generally-available",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Monitor and Improve Org Performance with Scale Center",
+          "dcterms:publisher": "Salesforce Admins Blog",
+          "schema:url": "https://admin.salesforce.com/blog/2025/scale-center-gives-admins-the-insights-and-tools-to-improve-org-performance",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Empowering Admins: Build Org Scalability With New Scale Center Features",
+          "dcterms:publisher": "Salesforce Admins Blog",
+          "schema:url": "https://admin.salesforce.com/blog/2026/empowering-admins-build-org-scalability-with-new-scale-center-features",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Load Test on the Salesforce Platform Using Scalability Tools",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2025/02/load-test-on-the-salesforce-platform-using-scalability-tools",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/platform-architecture/scale-center.md",
+      "skos:altLabel": [
+        "Salesforce Scale Center",
+        "Scale Insights",
+        "org performance analysis"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-platform"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:lightning-experience-performance"
+        },
+        {
+          "@id": "kt:large-data-volumes"
+        },
+        {
+          "@id": "kt:record-locking"
+        },
+        {
+          "@id": "kt:governor-limits"
+        },
+        {
+          "@id": "kt:sandbox-types"
+        },
+        {
+          "@id": "kt:well-architected-framework"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:scale-test"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:apexguru"
+        }
+      ]
+    },
+    {
       "@id": "kt:skinny-tables",
       "@type": "kto:Feature",
       "skos:prefLabel": "Skinny Tables",

@@ -9978,6 +9978,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-types> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#partOf> <https://github.com/john1hsu/salesforce-knowledge-graph/id/environment-strategy> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-types> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-types> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scale-center> <http://purl.org/dc/terms/created> "2026-11-18" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scale-center> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Tool> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scale-center> <http://www.w3.org/2000/01/rdf-schema#label> "Scale Center" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scale-center> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce Scale Center" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scale-center> <http://www.w3.org/2004/02/skos/core#altLabel> "Scale Insights" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scale-center> <http://www.w3.org/2004/02/skos/core#altLabel> "org performance analysis" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scale-center> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-platform> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scale-center> <http://www.w3.org/2004/02/skos/core#definition> "A self-serve Setup tool that shows near real-time org performance metrics (request time, CPU, errors, row locks) and generates analysis reports and insights that help teams find the root cause of scale problems in production and Full Copy sandboxes." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scale-center> <http://www.w3.org/2004/02/skos/core#prefLabel> "Scale Center" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scale-center> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/governor-limits> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scale-center> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/large-data-volumes> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scale-center> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-experience-performance> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scale-center> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/record-locking> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scale-center> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-types> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scale-center> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/well-architected-framework> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scale-center> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scale-center/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scale-center> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scale-center/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scale-center> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scale-center/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scale-center> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scale-center/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scale-center> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scale-center/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scale-center> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "platform-architecture" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scale-center> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apexguru> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scale-center> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/scale-test> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scale-center> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scale-center> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/scale-test> <http://purl.org/dc/terms/created> "2026-11-09" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/scale-test> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Product> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/scale-test> <http://www.w3.org/2000/01/rdf-schema#label> "Scale Test" .
@@ -21081,6 +21106,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sandbox-types/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sandbox-types/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sandbox-types/s6> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/nonprofit-success-pack-maintenance/set-up-a-sandbox-in-your-salesforce-org" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scale-center/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scale-center/s1> <http://purl.org/dc/terms/title> "View and Compare Org Performance Metrics with Scale Center (Scale Center Quick Look)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scale-center/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scale-center/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scale-center/s1> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/scale-center-quick-look/view-and-compare-org-performance-metrics-with-scale-center" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scale-center/s2> <http://purl.org/dc/terms/publisher> "Salesforce Developers Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scale-center/s2> <http://purl.org/dc/terms/title> "Salesforce Scale Center Is Generally Available" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scale-center/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scale-center/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scale-center/s2> <https://schema.org/url> "https://developer.salesforce.com/blogs/2023/07/salesforce-scale-center-is-generally-available" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scale-center/s3> <http://purl.org/dc/terms/publisher> "Salesforce Admins Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scale-center/s3> <http://purl.org/dc/terms/title> "Monitor and Improve Org Performance with Scale Center" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scale-center/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scale-center/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scale-center/s3> <https://schema.org/url> "https://admin.salesforce.com/blog/2025/scale-center-gives-admins-the-insights-and-tools-to-improve-org-performance" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scale-center/s4> <http://purl.org/dc/terms/publisher> "Salesforce Admins Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scale-center/s4> <http://purl.org/dc/terms/title> "Empowering Admins: Build Org Scalability With New Scale Center Features" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scale-center/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scale-center/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scale-center/s4> <https://schema.org/url> "https://admin.salesforce.com/blog/2026/empowering-admins-build-org-scalability-with-new-scale-center-features" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scale-center/s5> <http://purl.org/dc/terms/publisher> "Salesforce Developers Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scale-center/s5> <http://purl.org/dc/terms/title> "Load Test on the Salesforce Platform Using Scalability Tools" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scale-center/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scale-center/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scale-center/s5> <https://schema.org/url> "https://developer.salesforce.com/blogs/2025/02/load-test-on-the-salesforce-platform-using-scalability-tools" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scale-test/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scale-test/s1> <http://purl.org/dc/terms/title> "Plan, Schedule, and Run Scale Tests (Scale Test Quick Look)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scale-test/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

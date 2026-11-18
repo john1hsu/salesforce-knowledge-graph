@@ -7,10 +7,10 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:business-analyst` | `kt:fit-gap-analysis`, `kt:omnistudio-consultant-certification`, `kt:requirements-gathering`, `kt:user-acceptance-testing` |
 | `kt:salesforce-marketing-solutions` | `kt:marketing-cloud-account-engagement`, `kt:marketing-cloud-engagement`, `kt:marketing-cloud-next` |
 | `kt:omnistudio-developer-certification` | `kt:omnistudio`, `kt:omnistudio-consultant-certification` |
+| `kt:apexguru` | `kt:scale-center`, `kt:scale-test` |
 | `kt:journey-builder` | `kt:loyalty-management`, `kt:marketing-cloud-engagement` |
 | `kt:decision-tables` | `kt:loyalty-management`, `kt:salesforce-pricing` |
 | `kt:with-security-enforced` | `kt:apex-user-mode`, `kt:security-stripinaccessible` |
-| `kt:scale-center` | `kt:lightning-experience-performance`, `kt:scale-test` |
 | `kt:requirements-engineering` | `kt:non-functional-requirements`, `kt:requirements-gathering` |
 | `kt:customer-360` | `kt:commerce-cloud`, `kt:slack-platform` |
 | `kt:organizational-governance` | `kt:corporate-governance`, `kt:it-governance` |
@@ -43,28 +43,27 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:salesforce-sites` | `kt:custom-domains` |
 | `kt:pushtopic-streaming-allocations` | `kt:streaming-api` |
 | `kt:tableau-pulse` | `kt:tableau` |
-| `kt:dispatcher-console` | `kt:field-service` |
+| `kt:salesforce-lightning-design-system` | `kt:visualforce` |
 | `kt:entitlement-process-metadata` | `kt:entitlement-management` |
+| `kt:dispatcher-console` | `kt:field-service` |
 | `kt:field-service-mobile-app` | `kt:field-service` |
 | `kt:field-service-scheduling-policies` | `kt:field-service` |
 | `kt:service-appointments` | `kt:field-service` |
 | `kt:work-orders` | `kt:field-service` |
-| `kt:salesforce-lightning-design-system` | `kt:visualforce` |
 | `kt:einstein-discovery` | `kt:crm-analytics` |
 | `kt:saql` | `kt:crm-analytics` |
 | `kt:apex-mocks` | `kt:apex-enterprise-patterns` |
 | `kt:api-experience-hub` | `kt:external-identity-license` |
 | `kt:rest-api-limits-resource` | `kt:orglimits-class` |
 | `kt:salesforce-ecosystem` | `kt:salesforce-inc` |
+| `kt:apex-rest-services` | `kt:remote-call-in` |
 | `kt:automation-studio` | `kt:marketing-cloud-engagement` |
 | `kt:contact-builder` | `kt:marketing-cloud-engagement` |
 | `kt:marketing-cloud-connect` | `kt:marketing-cloud-engagement` |
-| `kt:apex-rest-services` | `kt:remote-call-in` |
 | `kt:lightning-out` | `kt:lightning-locker` |
 | `kt:dynamic-revenue-orchestrator` | `kt:revenue-cloud` |
 | `kt:revenue-management-consultant-certification` | `kt:revenue-cloud` |
 | `kt:generative-ai` | `kt:retrieval-augmented-generation-in-salesforce` |
-| `kt:apexguru` | `kt:scale-test` |
 | `kt:ingestion-api` | `kt:data-streams` |
 | `kt:revenue-intelligence` | `kt:collaborative-forecasts` |
 | `kt:path` | `kt:business-processes` |
