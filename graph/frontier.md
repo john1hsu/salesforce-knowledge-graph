@@ -11,6 +11,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:decision-tables` | `kt:loyalty-management`, `kt:salesforce-pricing` |
 | `kt:with-security-enforced` | `kt:apex-user-mode`, `kt:security-stripinaccessible` |
 | `kt:journey-builder` | `kt:loyalty-management`, `kt:marketing-cloud-engagement` |
+| `kt:scale-center` | `kt:lightning-experience-performance`, `kt:scale-test` |
 | `kt:customer-360` | `kt:commerce-cloud`, `kt:slack-platform` |
 | `kt:requirements-engineering` | `kt:non-functional-requirements`, `kt:requirements-gathering` |
 | `kt:user-stories` | `kt:fit-gap-analysis`, `kt:requirements-gathering` |
@@ -40,13 +41,13 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:salesforce-sites` | `kt:custom-domains` |
 | `kt:pushtopic-streaming-allocations` | `kt:streaming-api` |
 | `kt:tableau-pulse` | `kt:tableau` |
-| `kt:entitlement-process-metadata` | `kt:entitlement-management` |
+| `kt:salesforce-lightning-design-system` | `kt:visualforce` |
 | `kt:dispatcher-console` | `kt:field-service` |
+| `kt:entitlement-process-metadata` | `kt:entitlement-management` |
 | `kt:field-service-mobile-app` | `kt:field-service` |
 | `kt:field-service-scheduling-policies` | `kt:field-service` |
 | `kt:service-appointments` | `kt:field-service` |
 | `kt:work-orders` | `kt:field-service` |
-| `kt:salesforce-lightning-design-system` | `kt:visualforce` |
 | `kt:einstein-discovery` | `kt:crm-analytics` |
 | `kt:saql` | `kt:crm-analytics` |
 | `kt:apex-mocks` | `kt:apex-enterprise-patterns` |
@@ -64,7 +65,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:marketing-cloud-connect` | `kt:marketing-cloud-engagement` |
 | `kt:generative-ai` | `kt:retrieval-augmented-generation-in-salesforce` |
 | `kt:apexguru` | `kt:scale-test` |
-| `kt:scale-center` | `kt:scale-test` |
 | `kt:revenue-intelligence` | `kt:collaborative-forecasts` |
 | `kt:ingestion-api` | `kt:data-streams` |
 | `kt:path` | `kt:business-processes` |
@@ -85,8 +85,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:mulesoft-composer` | `kt:slack-platform` |
 | `kt:slack-api-rate-limits` | `kt:slack-platform` |
 | `kt:slack-workflow-builder` | `kt:slack-platform` |
-| `kt:backup-and-recover-next` | `kt:backup-and-recover` |
 | `kt:security-health-check` | `kt:session-settings` |
+| `kt:backup-and-recover-next` | `kt:backup-and-recover` |
 | `kt:trust-services-criteria` | `kt:soc-2` |
 | `kt:static-resources` | `kt:cross-site-scripting` |
 | `kt:reports-and-dashboards` | `kt:salesforce-analytics` |
@@ -96,13 +96,13 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:custom-permissions` | `kt:validation-rules` |
 | `kt:fhir` | `kt:health-cloud` |
 | `kt:utilization-management` | `kt:health-cloud` |
+| `kt:iso-iec-25010` | `kt:non-functional-requirements` |
 | `kt:salesforce-as-identity-provider` | `kt:certificate-and-key-management` |
 | `kt:security-center` | `kt:continuous-monitoring` |
-| `kt:semantic-layer` | `kt:tableau-semantics` |
 | `kt:cap-theorem` | `kt:distributed-computing` |
 | `kt:computer-science` | `kt:distributed-computing` |
+| `kt:semantic-layer` | `kt:tableau-semantics` |
 | `kt:platform-cache-partitions` | `kt:platform-cache` |
-| `kt:iso-iec-25010` | `kt:non-functional-requirements` |
 | `kt:holidays` | `kt:business-hours` |
 | `kt:model-context-protocol` | `kt:model-context-protocol-in-agentforce` |
 | `kt:salesforce-hosted-mcp-servers` | `kt:model-context-protocol-in-agentforce` |
@@ -126,8 +126,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:ui-api` | `kt:field-dependencies` |
 | `kt:user-provisioning` | `kt:scim` |
 | `kt:engagement-studio` | `kt:marketing-cloud-account-engagement` |
-| `kt:sarbanes-oxley-act` | `kt:soc-1` |
 | `kt:business-analyst-certification` | `kt:user-acceptance-testing` |
+| `kt:sarbanes-oxley-act` | `kt:soc-1` |
 | `kt:b2b-commerce` | `kt:commerce-cloud` |
 | `kt:b2c-commerce` | `kt:commerce-cloud` |
 | `kt:salesforce-order-management` | `kt:commerce-cloud` |
