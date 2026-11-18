@@ -2488,6 +2488,91 @@
       ]
     },
     {
+      "@id": "kt:solution-design-document",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Solution Design Document",
+      "skos:definition": "The versioned, signed-off project document in which an architect records how a Salesforce solution will meet its requirements: in-scope systems and diagrams, data flows and systems of record, integrations, customizations, design options and risks. Delivery teams build from it and support teams use it to understand the implementation.",
+      "kto:domain": "architecture-practice",
+      "dcterms:created": "2026-11-18",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Document Requirements and Build the Storefront",
+          "dcterms:publisher": "Salesforce Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/cc-project-mgmt/cc-document-and-build",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Document the Architectural Landscape (Project Documentation for Salesforce B2C Commerce Technical Architects)",
+          "dcterms:publisher": "Salesforce Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/b2c-project-docs-for-technical-architects/b2c-doc-architectural-landscape",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Review Solution Design for Architects (Cert Prep: B2B Solution Architect: Delivery and Design)",
+          "dcterms:publisher": "Salesforce Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/b2b-solution-architect-cert-delivery-and-design/review-design",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "IEEE 1016-2009: Standard for Information Technology—Systems Design—Software Design Descriptions",
+          "dcterms:publisher": "IEEE (via ANSI Webstore)",
+          "schema:url": "https://webstore.ansi.org/Standards/IEEE/IEEE10162009",
+          "kto:sourceType": "standards-body"
+        }
+      ],
+      "kto:file": "articles/architecture-practice/solution-design-document.md",
+      "skos:altLabel": [
+        "solution design doc",
+        "SDD",
+        "technical design specification",
+        "TSD",
+        "technical specification",
+        "software design description"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:solution-design-tradeoffs"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:requirements-gathering"
+        },
+        {
+          "@id": "kt:fit-gap-analysis"
+        },
+        {
+          "@id": "kt:architecture-decision-records"
+        },
+        {
+          "@id": "kt:non-functional-requirements"
+        },
+        {
+          "@id": "kt:user-acceptance-testing"
+        },
+        {
+          "@id": "kt:b2c-solution-architect-certification"
+        }
+      ],
+      "kto:usedBy": [
+        {
+          "@id": "kt:salesforce-architect"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:salesforce-diagrams"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:requirements-gathering"
+        }
+      ]
+    },
+    {
       "@id": "kt:solution-design-tradeoffs",
       "@type": "kto:Concept",
       "skos:prefLabel": "Solution Design Trade-offs",

@@ -10749,6 +10749,34 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/software-as-a-service> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "platform-architecture" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/software-as-a-service> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/software-as-a-service> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/solution-design-document> <http://purl.org/dc/terms/created> "2026-11-18" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/solution-design-document> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/solution-design-document> <http://www.w3.org/2000/01/rdf-schema#label> "Solution Design Document" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/solution-design-document> <http://www.w3.org/2004/02/skos/core#altLabel> "SDD" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/solution-design-document> <http://www.w3.org/2004/02/skos/core#altLabel> "TSD" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/solution-design-document> <http://www.w3.org/2004/02/skos/core#altLabel> "software design description" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/solution-design-document> <http://www.w3.org/2004/02/skos/core#altLabel> "solution design doc" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/solution-design-document> <http://www.w3.org/2004/02/skos/core#altLabel> "technical design specification" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/solution-design-document> <http://www.w3.org/2004/02/skos/core#altLabel> "technical specification" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/solution-design-document> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/solution-design-tradeoffs> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/solution-design-document> <http://www.w3.org/2004/02/skos/core#definition> "The versioned, signed-off project document in which an architect records how a Salesforce solution will meet its requirements: in-scope systems and diagrams, data flows and systems of record, integrations, customizations, design options and risks. Delivery teams build from it and support teams use it to understand the implementation." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/solution-design-document> <http://www.w3.org/2004/02/skos/core#prefLabel> "Solution Design Document" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/solution-design-document> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/architecture-decision-records> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/solution-design-document> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/b2c-solution-architect-certification> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/solution-design-document> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/fit-gap-analysis> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/solution-design-document> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/non-functional-requirements> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/solution-design-document> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/requirements-gathering> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/solution-design-document> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/user-acceptance-testing> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/solution-design-document> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/solution-design-document/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/solution-design-document> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/solution-design-document/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/solution-design-document> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/solution-design-document/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/solution-design-document> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/solution-design-document/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/solution-design-document> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/requirements-gathering> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/solution-design-document> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "architecture-practice" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/solution-design-document> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-diagrams> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/solution-design-document> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/solution-design-document> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#usedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-architect> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/solution-design-document> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/solution-design-tradeoffs> <http://purl.org/dc/terms/created> "2026-11-04" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/solution-design-tradeoffs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/solution-design-tradeoffs> <http://www.w3.org/2000/01/rdf-schema#label> "Solution Design Trade-offs" .
@@ -21713,6 +21741,26 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/software-as-a-service/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/software-as-a-service/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/software-as-a-service/s5> <https://schema.org/url> "https://architect.salesforce.com/fundamentals/platform-multitenant-architecture" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/solution-design-document/s1> <http://purl.org/dc/terms/publisher> "Salesforce Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/solution-design-document/s1> <http://purl.org/dc/terms/title> "Document Requirements and Build the Storefront" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/solution-design-document/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/solution-design-document/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/solution-design-document/s1> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/cc-project-mgmt/cc-document-and-build" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/solution-design-document/s2> <http://purl.org/dc/terms/publisher> "Salesforce Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/solution-design-document/s2> <http://purl.org/dc/terms/title> "Document the Architectural Landscape (Project Documentation for Salesforce B2C Commerce Technical Architects)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/solution-design-document/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/solution-design-document/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/solution-design-document/s2> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/b2c-project-docs-for-technical-architects/b2c-doc-architectural-landscape" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/solution-design-document/s3> <http://purl.org/dc/terms/publisher> "Salesforce Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/solution-design-document/s3> <http://purl.org/dc/terms/title> "Review Solution Design for Architects (Cert Prep: B2B Solution Architect: Delivery and Design)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/solution-design-document/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/solution-design-document/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/solution-design-document/s3> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/b2b-solution-architect-cert-delivery-and-design/review-design" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/solution-design-document/s4> <http://purl.org/dc/terms/publisher> "IEEE (via ANSI Webstore)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/solution-design-document/s4> <http://purl.org/dc/terms/title> "IEEE 1016-2009: Standard for Information Technology—Systems Design—Software Design Descriptions" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/solution-design-document/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/solution-design-document/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "standards-body" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/solution-design-document/s4> <https://schema.org/url> "https://webstore.ansi.org/Standards/IEEE/IEEE10162009" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/solution-design-tradeoffs/s1> <http://purl.org/dc/terms/publisher> "Software Engineering Institute, Carnegie Mellon University" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/solution-design-tradeoffs/s1> <http://purl.org/dc/terms/title> "The Architecture Tradeoff Analysis Method (CMU/SEI-98-TR-008)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/solution-design-tradeoffs/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
