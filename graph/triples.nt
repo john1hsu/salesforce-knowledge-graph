@@ -3472,6 +3472,33 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/deployment-validation-and-quick-deploy> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "devops-and-alm" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/deployment-validation-and-quick-deploy> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/deployment-validation-and-quick-deploy> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/design-authority> <http://purl.org/dc/terms/created> "2026-11-18" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/design-authority> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/design-authority> <http://www.w3.org/2000/01/rdf-schema#label> "Design Authority" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/design-authority> <http://www.w3.org/2004/02/skos/core#altLabel> "DA" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/design-authority> <http://www.w3.org/2004/02/skos/core#altLabel> "Design Authority board" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/design-authority> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce design authority" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/design-authority> <http://www.w3.org/2004/02/skos/core#altLabel> "architecture design authority" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/design-authority> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-center-of-excellence> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/design-authority> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-governance> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/design-authority> <http://www.w3.org/2004/02/skos/core#definition> "The architecture-focused subgroup of a Salesforce Center of Excellence that sets architectural guidelines, reviews how requests will be built for cross-team impact, approves rare exceptions to standards, and records the decisions and trade-offs it makes so they stay visible and revisitable." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/design-authority> <http://www.w3.org/2004/02/skos/core#prefLabel> "Design Authority" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/design-authority> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/architecture-decision-records> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/design-authority> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-migration-strategy> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/design-authority> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/principle-of-least-privilege> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/design-authority> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/solution-design-tradeoffs> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/design-authority> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/well-architected-framework> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/design-authority> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/design-authority/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/design-authority> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/design-authority/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/design-authority> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/design-authority/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/design-authority> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/design-authority/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/design-authority> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/design-authority/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/design-authority> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-architect> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/design-authority> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "architecture-practice" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/design-authority> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#mitigates> <https://github.com/john1hsu/salesforce-knowledge-graph/id/technical-debt-in-salesforce> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/design-authority> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#partOf> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-center-of-excellence> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/design-authority> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/design-authority> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/dev-hub> <http://purl.org/dc/terms/created> "2026-11-01" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/dev-hub> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/dev-hub> <http://www.w3.org/2000/01/rdf-schema#label> "Dev Hub" .
@@ -14603,6 +14630,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/deployment-validation-and-quick-deploy/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/deployment-validation-and-quick-deploy/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/deployment-validation-and-quick-deploy/s5> <https://schema.org/url> "https://developer.salesforce.com/blogs/2025/09/take-a-deep-dive-into-metadata-api-deployments" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/design-authority/s1> <http://purl.org/dc/terms/publisher> "Trailhead (Salesforce)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/design-authority/s1> <http://purl.org/dc/terms/title> "Implement Your Salesforce CoE's Core Capabilities (Salesforce Governance with a Center of Excellence)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/design-authority/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/design-authority/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/design-authority/s1> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/salesforce-governance-with-a-center-of-excellence/implement-your-salesforce-coes-core-capabilities" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/design-authority/s2> <http://purl.org/dc/terms/publisher> "Trailhead (Salesforce)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/design-authority/s2> <http://purl.org/dc/terms/title> "Learn About Salesforce Governance and Why It Matters (Salesforce Governance with a Center of Excellence)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/design-authority/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/design-authority/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/design-authority/s2> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/salesforce-governance-with-a-center-of-excellence/learn-about-salesforce-governance-and-why-it-matters" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/design-authority/s3> <http://purl.org/dc/terms/publisher> "Salesforce Architects (Dave Norris)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/design-authority/s3> <http://purl.org/dc/terms/title> "Architectural Decisions: A Human-Led, AI-Powered Approach" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/design-authority/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/design-authority/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/design-authority/s3> <https://schema.org/url> "https://www.salesforce.com/blog/architectural-decisions-human-led-ai-powered-approach/" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/design-authority/s4> <http://purl.org/dc/terms/publisher> "Salesforce (Allison Park)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/design-authority/s4> <http://purl.org/dc/terms/title> "Build a Salesforce Center of Excellence That Keeps Pace with AI" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/design-authority/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/design-authority/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/design-authority/s4> <https://schema.org/url> "https://www.salesforce.com/blog/center-of-excellence-ai-governance/?bc=OTH" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/design-authority/s5> <http://purl.org/dc/terms/publisher> "Salesforce Ben (Senthil Jayachandran)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/design-authority/s5> <http://purl.org/dc/terms/title> "Why Design Authority Is Crucial in Salesforce Architecture" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/design-authority/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/design-authority/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "community" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/design-authority/s5> <https://schema.org/url> "https://www.salesforceben.com/why-design-authority-is-crucial-in-salesforce-architecture/" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dev-hub/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dev-hub/s1> <http://purl.org/dc/terms/title> "Select and Enable a Dev Hub Org" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dev-hub/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

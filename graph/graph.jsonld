@@ -1112,6 +1112,95 @@
       ]
     },
     {
+      "@id": "kt:design-authority",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Design Authority",
+      "skos:definition": "The architecture-focused subgroup of a Salesforce Center of Excellence that sets architectural guidelines, reviews how requests will be built for cross-team impact, approves rare exceptions to standards, and records the decisions and trade-offs it makes so they stay visible and revisitable.",
+      "kto:domain": "architecture-practice",
+      "dcterms:created": "2026-11-18",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Implement Your Salesforce CoE's Core Capabilities (Salesforce Governance with a Center of Excellence)",
+          "dcterms:publisher": "Trailhead (Salesforce)",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/salesforce-governance-with-a-center-of-excellence/implement-your-salesforce-coes-core-capabilities",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Learn About Salesforce Governance and Why It Matters (Salesforce Governance with a Center of Excellence)",
+          "dcterms:publisher": "Trailhead (Salesforce)",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/salesforce-governance-with-a-center-of-excellence/learn-about-salesforce-governance-and-why-it-matters",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Architectural Decisions: A Human-Led, AI-Powered Approach",
+          "dcterms:publisher": "Salesforce Architects (Dave Norris)",
+          "schema:url": "https://www.salesforce.com/blog/architectural-decisions-human-led-ai-powered-approach/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Build a Salesforce Center of Excellence That Keeps Pace with AI",
+          "dcterms:publisher": "Salesforce (Allison Park)",
+          "schema:url": "https://www.salesforce.com/blog/center-of-excellence-ai-governance/?bc=OTH",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Why Design Authority Is Crucial in Salesforce Architecture",
+          "dcterms:publisher": "Salesforce Ben (Senthil Jayachandran)",
+          "schema:url": "https://www.salesforceben.com/why-design-authority-is-crucial-in-salesforce-architecture/",
+          "kto:sourceType": "community"
+        }
+      ],
+      "kto:file": "articles/architecture-practice/design-authority.md",
+      "skos:altLabel": [
+        "Design Authority board",
+        "DA",
+        "Salesforce design authority",
+        "architecture design authority"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-center-of-excellence"
+        },
+        {
+          "@id": "kt:salesforce-governance"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:architecture-decision-records"
+        },
+        {
+          "@id": "kt:solution-design-tradeoffs"
+        },
+        {
+          "@id": "kt:data-migration-strategy"
+        },
+        {
+          "@id": "kt:principle-of-least-privilege"
+        },
+        {
+          "@id": "kt:well-architected-framework"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:salesforce-center-of-excellence"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:salesforce-architect"
+        }
+      ],
+      "kto:mitigates": [
+        {
+          "@id": "kt:technical-debt-in-salesforce"
+        }
+      ]
+    },
+    {
       "@id": "kt:development-lifecycle-and-deployment-architect-certification",
       "@type": "kto:Certification",
       "skos:prefLabel": "Development Lifecycle and Deployment Architect Certification",
