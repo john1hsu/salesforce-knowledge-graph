@@ -6,7 +6,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 |---|---|
 | `kt:business-analyst` | `kt:fit-gap-analysis`, `kt:omnistudio-consultant-certification`, `kt:requirements-gathering`, `kt:user-acceptance-testing` |
 | `kt:salesforce-marketing-solutions` | `kt:marketing-cloud-account-engagement`, `kt:marketing-cloud-engagement`, `kt:marketing-cloud-next` |
-| `kt:omnistudio-developer-certification` | `kt:omnistudio`, `kt:omnistudio-consultant-certification` |
 | `kt:apexguru` | `kt:scale-center`, `kt:scale-test` |
 | `kt:journey-builder` | `kt:loyalty-management`, `kt:marketing-cloud-engagement` |
 | `kt:decision-tables` | `kt:loyalty-management`, `kt:salesforce-pricing` |
@@ -47,16 +46,16 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:service-appointments` | `kt:field-service` |
 | `kt:work-orders` | `kt:field-service` |
 | `kt:salesforce-sites` | `kt:custom-domains` |
-| `kt:pushtopic-streaming-allocations` | `kt:streaming-api` |
 | `kt:tableau-pulse` | `kt:tableau` |
-| `kt:salesforce-lightning-design-system` | `kt:visualforce` |
+| `kt:pushtopic-streaming-allocations` | `kt:streaming-api` |
 | `kt:entitlement-process-metadata` | `kt:entitlement-management` |
+| `kt:salesforce-lightning-design-system` | `kt:visualforce` |
 | `kt:einstein-discovery` | `kt:crm-analytics` |
 | `kt:saql` | `kt:crm-analytics` |
 | `kt:apex-mocks` | `kt:apex-enterprise-patterns` |
 | `kt:api-experience-hub` | `kt:external-identity-license` |
-| `kt:rest-api-limits-resource` | `kt:orglimits-class` |
 | `kt:salesforce-ecosystem` | `kt:salesforce-inc` |
+| `kt:rest-api-limits-resource` | `kt:orglimits-class` |
 | `kt:apex-rest-services` | `kt:remote-call-in` |
 | `kt:automation-studio` | `kt:marketing-cloud-engagement` |
 | `kt:contact-builder` | `kt:marketing-cloud-engagement` |
@@ -65,8 +64,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:dynamic-revenue-orchestrator` | `kt:revenue-cloud` |
 | `kt:revenue-management-consultant-certification` | `kt:revenue-cloud` |
 | `kt:generative-ai` | `kt:retrieval-augmented-generation-in-salesforce` |
-| `kt:ingestion-api` | `kt:data-streams` |
 | `kt:revenue-intelligence` | `kt:collaborative-forecasts` |
+| `kt:ingestion-api` | `kt:data-streams` |
 | `kt:path` | `kt:business-processes` |
 | `kt:object-manager` | `kt:schema-builder` |
 | `kt:batch-apex-error-event` | `kt:transaction-finalizers` |
@@ -88,8 +87,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:security-health-check` | `kt:session-settings` |
 | `kt:trust-services-criteria` | `kt:soc-2` |
 | `kt:backup-and-recover-next` | `kt:backup-and-recover` |
-| `kt:reports-and-dashboards` | `kt:salesforce-analytics` |
 | `kt:static-resources` | `kt:cross-site-scripting` |
+| `kt:reports-and-dashboards` | `kt:salesforce-analytics` |
 | `kt:actionable-relationship-center` | `kt:financial-services-cloud` |
 | `kt:compliant-data-sharing` | `kt:financial-services-cloud` |
 | `kt:custom-permissions` | `kt:validation-rules` |
