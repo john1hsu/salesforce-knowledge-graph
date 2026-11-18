@@ -35069,6 +35069,97 @@
       ]
     },
     {
+      "@id": "kt:it-governance",
+      "@type": "kto:ExternalConcept",
+      "skos:prefLabel": "IT Governance",
+      "skos:definition": "The part of organizational governance that directs and controls how an organization uses information technology, codified in ISO/IEC 38500 and operationalized by frameworks such as ISACA's COBIT; it sets the direction, decision rights and accountability that Salesforce-specific governance and a Center of Excellence then carry out for one platform.",
+      "kto:domain": "public-sector-and-compliance",
+      "dcterms:created": "2026-11-18",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "ISO/IEC 38500:2024 Information technology — Governance of IT for the organization",
+          "dcterms:publisher": "ISO",
+          "schema:url": "https://www.iso.org/standard/81684.html",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "White paper on the differences between ISO/IEC 38500:2015 and ISO/IEC 38500:2024",
+          "dcterms:publisher": "ISO/IEC JTC 1/SC 40",
+          "schema:url": "https://committee.iso.org/sites/jtc1sc40/home/projects/wg-1/published-wg1/content-left-area/isoiec-sc-40-wg-1-develops-the-s/white-paper-on-the-differences-b.html",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "A New COBIT Is in Town, and I Really Like How It Looks",
+          "dcterms:publisher": "ISACA",
+          "schema:url": "https://www.isaca.org/resources/news-and-trends/industry-news/2018/a-new-cobit-is-in-town-and-i-really-like-how-it-looks",
+          "kto:sourceType": "community"
+        },
+        {
+          "dcterms:title": "Cybersecurity Framework FAQs",
+          "dcterms:publisher": "NIST",
+          "schema:url": "https://nist.gov/cyberframework/faqs",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "Learn About Salesforce Governance and Why It Matters (Salesforce Governance with a Center of Excellence)",
+          "dcterms:publisher": "Salesforce Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/salesforce-governance-with-a-center-of-excellence/learn-about-salesforce-governance-and-why-it-matters",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Define Your Salesforce CoE (Salesforce Governance with a Center of Excellence)",
+          "dcterms:publisher": "Salesforce Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/salesforce-governance-with-a-center-of-excellence/define-your-salesforce-coe",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/public-sector-and-compliance/it-governance.md",
+      "skos:altLabel": [
+        "governance of IT",
+        "enterprise governance of IT",
+        "governance of information and technology",
+        "I&T governance",
+        "ISO/IEC 38500"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:organizational-governance"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:corporate-governance"
+        },
+        {
+          "@id": "kt:governance-risk-and-compliance"
+        },
+        {
+          "@id": "kt:salesforce-center-of-excellence"
+        },
+        {
+          "@id": "kt:nist-cybersecurity-framework"
+        },
+        {
+          "@id": "kt:cobit"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:salesforce-governance"
+        },
+        {
+          "@id": "kt:security-governance"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:data-governance"
+        }
+      ]
+    },
+    {
       "@id": "kt:nist-cybersecurity-framework",
       "@type": "kto:ExternalConcept",
       "skos:prefLabel": "NIST Cybersecurity Framework",

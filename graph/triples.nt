@@ -5888,6 +5888,34 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/iso-iec-27002> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "public-sector-and-compliance" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/iso-iec-27002> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/iso-iec-27002> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/it-governance> <http://purl.org/dc/terms/created> "2026-11-18" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/it-governance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#ExternalConcept> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/it-governance> <http://www.w3.org/2000/01/rdf-schema#label> "IT Governance" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/it-governance> <http://www.w3.org/2004/02/skos/core#altLabel> "I&T governance" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/it-governance> <http://www.w3.org/2004/02/skos/core#altLabel> "ISO/IEC 38500" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/it-governance> <http://www.w3.org/2004/02/skos/core#altLabel> "enterprise governance of IT" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/it-governance> <http://www.w3.org/2004/02/skos/core#altLabel> "governance of IT" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/it-governance> <http://www.w3.org/2004/02/skos/core#altLabel> "governance of information and technology" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/it-governance> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/organizational-governance> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/it-governance> <http://www.w3.org/2004/02/skos/core#definition> "The part of organizational governance that directs and controls how an organization uses information technology, codified in ISO/IEC 38500 and operationalized by frameworks such as ISACA's COBIT; it sets the direction, decision rights and accountability that Salesforce-specific governance and a Center of Excellence then carry out for one platform." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/it-governance> <http://www.w3.org/2004/02/skos/core#prefLabel> "IT Governance" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/it-governance> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/cobit> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/it-governance> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/corporate-governance> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/it-governance> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/governance-risk-and-compliance> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/it-governance> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-cybersecurity-framework> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/it-governance> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-center-of-excellence> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/it-governance> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/it-governance/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/it-governance> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/it-governance/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/it-governance> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/it-governance/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/it-governance> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/it-governance/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/it-governance> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/it-governance/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/it-governance> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/it-governance/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/it-governance> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#contrastsWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-governance> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/it-governance> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "public-sector-and-compliance" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/it-governance> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-governance> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/it-governance> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/security-governance> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/it-governance> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/it-governance> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/json-web-token> <http://purl.org/dc/terms/created> "2026-11-18" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/json-web-token> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#ExternalConcept> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/json-web-token> <http://www.w3.org/2000/01/rdf-schema#label> "JSON Web Token" .
@@ -16760,6 +16788,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/iso-iec-27002/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/iso-iec-27002/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "standards-body" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/iso-iec-27002/s6> <https://schema.org/url> "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/it-governance/s1> <http://purl.org/dc/terms/publisher> "ISO" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/it-governance/s1> <http://purl.org/dc/terms/title> "ISO/IEC 38500:2024 Information technology — Governance of IT for the organization" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/it-governance/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/it-governance/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "standards-body" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/it-governance/s1> <https://schema.org/url> "https://www.iso.org/standard/81684.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/it-governance/s2> <http://purl.org/dc/terms/publisher> "ISO/IEC JTC 1/SC 40" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/it-governance/s2> <http://purl.org/dc/terms/title> "White paper on the differences between ISO/IEC 38500:2015 and ISO/IEC 38500:2024" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/it-governance/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/it-governance/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "standards-body" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/it-governance/s2> <https://schema.org/url> "https://committee.iso.org/sites/jtc1sc40/home/projects/wg-1/published-wg1/content-left-area/isoiec-sc-40-wg-1-develops-the-s/white-paper-on-the-differences-b.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/it-governance/s3> <http://purl.org/dc/terms/publisher> "ISACA" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/it-governance/s3> <http://purl.org/dc/terms/title> "A New COBIT Is in Town, and I Really Like How It Looks" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/it-governance/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/it-governance/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "community" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/it-governance/s3> <https://schema.org/url> "https://www.isaca.org/resources/news-and-trends/industry-news/2018/a-new-cobit-is-in-town-and-i-really-like-how-it-looks" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/it-governance/s4> <http://purl.org/dc/terms/publisher> "NIST" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/it-governance/s4> <http://purl.org/dc/terms/title> "Cybersecurity Framework FAQs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/it-governance/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/it-governance/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "standards-body" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/it-governance/s4> <https://schema.org/url> "https://nist.gov/cyberframework/faqs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/it-governance/s5> <http://purl.org/dc/terms/publisher> "Salesforce Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/it-governance/s5> <http://purl.org/dc/terms/title> "Learn About Salesforce Governance and Why It Matters (Salesforce Governance with a Center of Excellence)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/it-governance/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/it-governance/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/it-governance/s5> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/salesforce-governance-with-a-center-of-excellence/learn-about-salesforce-governance-and-why-it-matters" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/it-governance/s6> <http://purl.org/dc/terms/publisher> "Salesforce Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/it-governance/s6> <http://purl.org/dc/terms/title> "Define Your Salesforce CoE (Salesforce Governance with a Center of Excellence)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/it-governance/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/it-governance/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/it-governance/s6> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/salesforce-governance-with-a-center-of-excellence/define-your-salesforce-coe" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/json-web-token/s1> <http://purl.org/dc/terms/publisher> "IETF / RFC Editor" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/json-web-token/s1> <http://purl.org/dc/terms/title> "RFC 7519: JSON Web Token (JWT)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/json-web-token/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
