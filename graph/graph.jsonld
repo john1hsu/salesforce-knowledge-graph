@@ -21741,6 +21741,89 @@
       ]
     },
     {
+      "@id": "kt:license-management-app",
+      "@type": "kto:Tool",
+      "skos:prefLabel": "License Management App",
+      "skos:definition": "A Salesforce-provided managed package that ISV partners install in their partner business org to receive a lead and a license record for every install of their 1GP or 2GP managed packages, and to change seats, expiration and status of those licenses in subscriber orgs.",
+      "kto:domain": "devops-and-alm",
+      "dcterms:created": "2026-11-18",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Manage Licenses for Managed Packages",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.pkg1_dev.meta/pkg2_dev/lma_intro.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Install the License Management App",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/pkg2-dev/guide/lma-install-app.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Manage Your Licenses (App Licensing and Customer Support for AgentExchange)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/appexchange_licensing/appexchange_licensing_manage",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Best Practices for the License Management App",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.264.0.pkg1_dev.meta/pkg1_dev/lma_best_practices.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Associate a Package with the License Management App",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.pkg2_dev.meta/pkg2_dev/lma_associate_package.htm",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/devops-and-alm/license-management-app.md",
+      "skos:altLabel": [
+        "LMA",
+        "Salesforce License Management App",
+        "License Management Org",
+        "LMO"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:agentexchange"
+        },
+        {
+          "@id": "kt:application-lifecycle-management"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:first-generation-managed-packages"
+        },
+        {
+          "@id": "kt:second-generation-managed-packages"
+        },
+        {
+          "@id": "kt:push-upgrades"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:partner-business-org"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:partner-console"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:subscriber-support-console"
+        }
+      ]
+    },
+    {
       "@id": "kt:metadata-api",
       "@type": "kto:API",
       "skos:prefLabel": "Metadata API",
