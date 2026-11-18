@@ -8431,6 +8431,76 @@
       ]
     },
     {
+      "@id": "kt:omnistudio-consultant-certification",
+      "@type": "kto:Certification",
+      "skos:prefLabel": "Omnistudio Consultant Certification",
+      "skos:definition": "Salesforce's consultant-level credential for designing maintainable, scalable solutions with Omnistudio tools (FlexCards, OmniScripts, Integration Procedures and Data Mappers); a 60-question proctored exam with no prerequisite, maintained through a yearly Omnistudio Consultant maintenance module.",
+      "kto:domain": "clouds-and-products",
+      "dcterms:created": "2026-11-18",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Salesforce Certified Omnistudio Consultant Exam Guide",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=005298970&language=en_US&type=1",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Certification - Salesforce Certified Omnistudio Consultant",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/en/credentials/omnistudioconsultant",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Prepare for Your Salesforce Omnistudio Consultant Certification (trail)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/trails/prepare-for-your-salesforce-omnistudio-consultant-certification",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Maintain Your Omnistudio Consultant Certification for Summer '26",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/omnistudio-consultant-certification-maintenance-summer-26/maintain-your-omnistudio-consultant-certification-for-summer-26",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/clouds-and-products/omnistudio-consultant-certification.md",
+      "skos:altLabel": [
+        "Salesforce Certified Omnistudio Consultant",
+        "Salesforce Certified OmniStudio Consultant",
+        "OmniStudio Consultant Certification",
+        "Salesforce Omnistudio Consultant Certification"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-certification-program"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:omnistudio"
+        },
+        {
+          "@id": "kt:omnistudio-developer-certification"
+        },
+        {
+          "@id": "kt:salesforce-industries"
+        },
+        {
+          "@id": "kt:business-analyst"
+        },
+        {
+          "@id": "kt:experience-cloud"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:business-rules-engine"
+        }
+      ]
+    },
+    {
       "@id": "kt:omnistudio",
       "@type": "kto:Feature",
       "skos:prefLabel": "Omnistudio",
