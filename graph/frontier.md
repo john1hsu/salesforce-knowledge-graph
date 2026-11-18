@@ -9,6 +9,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:omnistudio-developer-certification` | `kt:omnistudio`, `kt:omnistudio-consultant-certification` |
 | `kt:salesforce-marketing-solutions` | `kt:marketing-cloud-account-engagement`, `kt:marketing-cloud-engagement` |
 | `kt:decision-tables` | `kt:loyalty-management`, `kt:salesforce-pricing` |
+| `kt:with-security-enforced` | `kt:apex-user-mode`, `kt:security-stripinaccessible` |
 | `kt:journey-builder` | `kt:loyalty-management`, `kt:marketing-cloud-engagement` |
 | `kt:customer-360` | `kt:commerce-cloud`, `kt:slack-platform` |
 | `kt:requirements-engineering` | `kt:non-functional-requirements`, `kt:requirements-gathering` |
@@ -70,12 +71,10 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:heroku-postgres` | `kt:heroku-connect` |
 | `kt:batch-apex-error-event` | `kt:transaction-finalizers` |
 | `kt:object-manager` | `kt:schema-builder` |
-| `kt:opportunity-teams` | `kt:opportunity-splits` |
 | `kt:agentexchange-go-to-market-app` | `kt:agentexchange` |
+| `kt:opportunity-teams` | `kt:opportunity-splits` |
 | `kt:salesforce-licensing` | `kt:user-licenses` |
 | `kt:mulesoft-platform-integration-architect-certification` | `kt:mulesoft-platform-architect-certification` |
-| `kt:security-stripinaccessible` | `kt:apex-user-mode` |
-| `kt:with-security-enforced` | `kt:apex-user-mode` |
 | `kt:constraint-modeling-language` | `kt:product-configurator` |
 | `kt:product-catalog-management` | `kt:product-configurator` |
 | `kt:application-network` | `kt:api-led-connectivity` |
@@ -86,8 +85,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:mulesoft-composer` | `kt:slack-platform` |
 | `kt:slack-api-rate-limits` | `kt:slack-platform` |
 | `kt:slack-workflow-builder` | `kt:slack-platform` |
-| `kt:security-health-check` | `kt:session-settings` |
 | `kt:backup-and-recover-next` | `kt:backup-and-recover` |
+| `kt:security-health-check` | `kt:session-settings` |
 | `kt:trust-services-criteria` | `kt:soc-2` |
 | `kt:static-resources` | `kt:cross-site-scripting` |
 | `kt:reports-and-dashboards` | `kt:salesforce-analytics` |
@@ -116,8 +115,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:organizational-governance` | `kt:corporate-governance` |
 | `kt:apex-defined-types` | `kt:transform-element` |
 | `kt:agentforce-vibes` | `kt:agentforce-vibes-ide` |
-| `kt:business-process-mapping` | `kt:requirements-gathering` |
 | `kt:iso-iec-27017` | `kt:iso-iec-27002` |
+| `kt:business-process-mapping` | `kt:requirements-gathering` |
 | `kt:data-cloud-triggered-flows` | `kt:data-actions` |
 | `kt:username-password-flow` | `kt:client-credentials-flow` |
 | `kt:document-ai` | `kt:unstructured-data-in-data-cloud` |
@@ -127,8 +126,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:ui-api` | `kt:field-dependencies` |
 | `kt:user-provisioning` | `kt:scim` |
 | `kt:engagement-studio` | `kt:marketing-cloud-account-engagement` |
-| `kt:business-analyst-certification` | `kt:user-acceptance-testing` |
 | `kt:sarbanes-oxley-act` | `kt:soc-1` |
+| `kt:business-analyst-certification` | `kt:user-acceptance-testing` |
 | `kt:b2b-commerce` | `kt:commerce-cloud` |
 | `kt:b2c-commerce` | `kt:commerce-cloud` |
 | `kt:salesforce-order-management` | `kt:commerce-cloud` |
