@@ -4537,6 +4537,99 @@
       ]
     },
     {
+      "@id": "kt:flow-limits",
+      "@type": "kto:Limit",
+      "skos:prefLabel": "Flow Limits",
+      "skos:definition": "The limits that apply to Salesforce Flow: per-transaction governor limits that flows share with Apex (SOQL, DML, CPU time), plus org-level allocations such as versions per flow, active flows per flow type, interview size and schedule-triggered interviews per 24 hours.",
+      "kto:domain": "automation",
+      "dcterms:created": "2026-11-18",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Per-Transaction Flow Limits (Salesforce Help)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=platform.flow_considerations_limit_transaction.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Flow Limits per Org (Salesforce Help)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=sf.flow_considerations_limit.htm&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Schedule-Triggered Flow Limits and Considerations (Salesforce Help)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=platform.flow_considerations_trigger_schedule.htm&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Paused Flow Interview Considerations (Salesforce Help)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=platform.flow_considerations_design_pause.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Trailhead: Avoid Flow Limits (Flow Implementation I)",
+          "dcterms:publisher": "Salesforce Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/flow-implementation-1/avoid-flow-limits",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Flow Limits and Considerations (Salesforce Help)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=flow_considerations.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/automation/flow-limits.md",
+      "skos:altLabel": [
+        "flow limits and considerations",
+        "flow limits per org",
+        "per-transaction flow limits",
+        "general flow limits"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:governor-limits"
+        },
+        {
+          "@id": "kt:flow-builder"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:flow-bulkification"
+        },
+        {
+          "@id": "kt:flow-transaction-boundaries"
+        },
+        {
+          "@id": "kt:schedule-triggered-flow"
+        },
+        {
+          "@id": "kt:flow-fault-handling"
+        },
+        {
+          "@id": "kt:flow-versioning"
+        },
+        {
+          "@id": "kt:workflow-rules"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:governor-limits"
+        }
+      ],
+      "kto:causes": [
+        {
+          "@id": "kt:limit-exception"
+        }
+      ]
+    },
+    {
       "@id": "kt:flow-loop-element",
       "@type": "kto:Feature",
       "skos:prefLabel": "Loop Element",
