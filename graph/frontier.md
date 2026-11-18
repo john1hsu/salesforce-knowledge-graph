@@ -16,6 +16,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:organizational-governance` | `kt:corporate-governance`, `kt:it-governance` |
 | `kt:security-center` | `kt:continuous-monitoring`, `kt:security-governance` |
 | `kt:user-stories` | `kt:fit-gap-analysis`, `kt:requirements-gathering` |
+| `kt:data-cloud-triggered-flows` | `kt:data-actions`, `kt:generative-ai-audit-and-feedback-data` |
 | `kt:email-templates` | `kt:auto-response-rules`, `kt:email-alerts` |
 | `kt:apex-logging-and-debug-logs` | `kt:custom-exceptions`, `kt:flow-debugging` |
 | `kt:salesforce-ecosystem-roles` | `kt:salesforce-architect` |
@@ -55,20 +56,20 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:api-experience-hub` | `kt:external-identity-license` |
 | `kt:rest-api-limits-resource` | `kt:orglimits-class` |
 | `kt:salesforce-ecosystem` | `kt:salesforce-inc` |
-| `kt:apex-rest-services` | `kt:remote-call-in` |
 | `kt:automation-studio` | `kt:marketing-cloud-engagement` |
 | `kt:contact-builder` | `kt:marketing-cloud-engagement` |
 | `kt:marketing-cloud-connect` | `kt:marketing-cloud-engagement` |
+| `kt:apex-rest-services` | `kt:remote-call-in` |
 | `kt:lightning-out` | `kt:lightning-locker` |
 | `kt:dynamic-revenue-orchestrator` | `kt:revenue-cloud` |
 | `kt:revenue-management-consultant-certification` | `kt:revenue-cloud` |
 | `kt:generative-ai` | `kt:retrieval-augmented-generation-in-salesforce` |
 | `kt:apexguru` | `kt:scale-test` |
-| `kt:revenue-intelligence` | `kt:collaborative-forecasts` |
 | `kt:ingestion-api` | `kt:data-streams` |
+| `kt:revenue-intelligence` | `kt:collaborative-forecasts` |
 | `kt:path` | `kt:business-processes` |
-| `kt:batch-apex-error-event` | `kt:transaction-finalizers` |
 | `kt:object-manager` | `kt:schema-builder` |
+| `kt:batch-apex-error-event` | `kt:transaction-finalizers` |
 | `kt:heroku-postgres` | `kt:heroku-connect` |
 | `kt:agentexchange-go-to-market-app` | `kt:agentexchange` |
 | `kt:opportunity-teams` | `kt:opportunity-splits` |
@@ -116,13 +117,12 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:iso-iec-27017` | `kt:iso-iec-27002` |
 | `kt:agentforce-vibes` | `kt:agentforce-vibes-ide` |
 | `kt:engagement-studio` | `kt:marketing-cloud-account-engagement` |
-| `kt:data-cloud-triggered-flows` | `kt:data-actions` |
 | `kt:business-analyst-certification` | `kt:user-acceptance-testing` |
 | `kt:username-password-flow` | `kt:client-credentials-flow` |
 | `kt:document-ai` | `kt:unstructured-data-in-data-cloud` |
 | `kt:json-web-signature` | `kt:json-web-token` |
-| `kt:ldap` | `kt:delegated-authentication` |
 | `kt:models-api` | `kt:ai-models` |
+| `kt:ldap` | `kt:delegated-authentication` |
 | `kt:ui-api` | `kt:field-dependencies` |
 | `kt:user-provisioning` | `kt:scim` |
 | `kt:b2b-commerce` | `kt:commerce-cloud` |

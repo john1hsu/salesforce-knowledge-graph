@@ -12640,6 +12640,96 @@
       ]
     },
     {
+      "@id": "kt:generative-ai-audit-and-feedback-data",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Generative AI Audit and Feedback Data",
+      "skos:definition": "The opt-in data collection that stores a record of every Einstein generative AI and Agentforce LLM call (prompts, masked prompts, responses, safety scores, tags and user feedback) as standard GenAI data model objects in Data 360, where admins report on, query and alert on it.",
+      "kto:domain": "data-cloud-and-ai",
+      "dcterms:created": "2026-11-18",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Generative AI Audit & Feedback Data Model",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/data-models/guide/generative-ai-audit-feedback-dmos.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "The Einstein Audit and Feedback Data Model in Data Cloud",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2024/07/the-einstein-audit-and-feedback-data-model-in-data-cloud",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Discover Insights from Einstein Generative AI Audit and Feedback Data",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/search-analytics-for-ai-generated-search-answers/discover-insights-from-einstein-generative-ai-audit-and-feedback-data",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "How to Create a Continuous Optimization Loop with Salesforce Einstein and Data Cloud",
+          "dcterms:publisher": "Salesforce Admins Blog",
+          "schema:url": "https://admin.salesforce.com/blog/2024/how-to-create-a-continuous-optimization-loop-with-salesforce-einstein-and-data-cloud",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Enable Trusted Agents with Data Cloud",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/data-cloud-powered-agentforce/enable-trusted-agents-with-data-cloud",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/data-cloud-and-ai/generative-ai-audit-and-feedback-data.md",
+      "skos:altLabel": [
+        "Einstein Generative AI Audit and Feedback Data",
+        "Einstein audit and feedback data model",
+        "GenAI audit trail",
+        "Einstein Generative AI Data Collection"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:data-model-objects"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:agentforce"
+        },
+        {
+          "@id": "kt:prompt-builder"
+        },
+        {
+          "@id": "kt:data-lake-objects"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:einstein-trust-layer"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:data-cloud"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:calculated-insights"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:data-cloud-triggered-flows"
+        }
+      ],
+      "kto:queriedWith": [
+        {
+          "@id": "kt:soql"
+        }
+      ]
+    },
+    {
       "@id": "kt:identity-resolution",
       "@type": "kto:Feature",
       "skos:prefLabel": "Identity Resolution",
