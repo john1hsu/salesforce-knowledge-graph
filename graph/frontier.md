@@ -67,9 +67,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:revenue-intelligence` | `kt:collaborative-forecasts` |
 | `kt:ingestion-api` | `kt:data-streams` |
 | `kt:path` | `kt:business-processes` |
-| `kt:heroku-postgres` | `kt:heroku-connect` |
-| `kt:object-manager` | `kt:schema-builder` |
 | `kt:batch-apex-error-event` | `kt:transaction-finalizers` |
+| `kt:object-manager` | `kt:schema-builder` |
+| `kt:heroku-postgres` | `kt:heroku-connect` |
 | `kt:agentexchange-go-to-market-app` | `kt:agentexchange` |
 | `kt:opportunity-teams` | `kt:opportunity-splits` |
 | `kt:salesforce-licensing` | `kt:user-licenses` |
@@ -85,8 +85,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:slack-api-rate-limits` | `kt:slack-platform` |
 | `kt:slack-workflow-builder` | `kt:slack-platform` |
 | `kt:security-health-check` | `kt:session-settings` |
-| `kt:trust-services-criteria` | `kt:soc-2` |
 | `kt:backup-and-recover-next` | `kt:backup-and-recover` |
+| `kt:trust-services-criteria` | `kt:soc-2` |
 | `kt:static-resources` | `kt:cross-site-scripting` |
 | `kt:reports-and-dashboards` | `kt:salesforce-analytics` |
 | `kt:actionable-relationship-center` | `kt:financial-services-cloud` |
@@ -152,10 +152,10 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:shared-activities` | `kt:activity-data-model` |
 | `kt:tx-ramp` | `kt:govramp` |
 | `kt:wcag` | `kt:section-508-accessibility` |
-| `kt:web-to-case` | `kt:auto-response-rules` |
-| `kt:web-to-lead` | `kt:auto-response-rules` |
 | `kt:agent-to-agent-protocol` | `kt:agentforce-architecture-patterns` |
 | `kt:greenhouse-gas-protocol` | `kt:net-zero-cloud` |
 | `kt:multi-agent-orchestration` | `kt:agentforce-architecture-patterns` |
 | `kt:tableau-blueprint` | `kt:tableau-architect-certification` |
 | `kt:tableau-server-administrator-certification` | `kt:tableau-architect-certification` |
+| `kt:web-to-case` | `kt:auto-response-rules` |
+| `kt:web-to-lead` | `kt:auto-response-rules` |

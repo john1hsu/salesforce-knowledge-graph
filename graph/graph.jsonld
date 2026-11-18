@@ -6467,6 +6467,101 @@
       ]
     },
     {
+      "@id": "kt:wait-elements",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Wait Elements",
+      "skos:definition": "The Flow Builder elements (Wait for Amount of Time, Wait Until Date and Wait for Conditions) that pause an autolaunched flow interview, save it, and resume it later when a time-based or platform event resume event occurs.",
+      "kto:domain": "automation",
+      "dcterms:created": "2026-11-18",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Flow Elements",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=sf.flow_ref_elements.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Wait for Conditions Element",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=sf.flow_ref_elements_pause.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Wait for Amount of Time Element",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=sf.flow_ref_elements_wait_for_amount_of_time.htm&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Paused Flow Interview Considerations",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=platform.flow_considerations_design_pause.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Subscribe to Platform Event Messages with Flows (Platform Events Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/platform-events/guide/platform-events-subscribe-flow.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "How Do Salesforce Flow Wait Elements Work? Use Cases, Examples and Best Practices",
+          "dcterms:publisher": "Salesforce Ben",
+          "schema:url": "https://www.salesforceben.com/how-do-salesforce-flow-wait-elements-work-use-cases-examples-and-best-practices/",
+          "kto:sourceType": "partner"
+        }
+      ],
+      "kto:file": "articles/automation/wait-elements.md",
+      "skos:altLabel": [
+        "Flow Wait elements",
+        "Wait for Amount of Time",
+        "Wait Until Date",
+        "Wait for Conditions",
+        "Pause element",
+        "paused flow interviews"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:flow-builder"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:autolaunched-flow"
+        },
+        {
+          "@id": "kt:scheduled-paths"
+        },
+        {
+          "@id": "kt:flow-orchestrator"
+        },
+        {
+          "@id": "kt:flow-fault-handling"
+        },
+        {
+          "@id": "kt:subflows"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:flow-transaction-boundaries"
+        },
+        {
+          "@id": "kt:platform-events"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:flow-limits"
+        },
+        {
+          "@id": "kt:governor-limits"
+        }
+      ]
+    },
+    {
       "@id": "kt:workflow-rules",
       "@type": "kto:Feature",
       "skos:prefLabel": "Workflow Rules",
