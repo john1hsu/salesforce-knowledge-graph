@@ -10314,6 +10314,29 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/security-compliance-frameworks> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-cybersecurity-framework> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/security-compliance-frameworks> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/security-compliance-frameworks> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/security-governance> <http://purl.org/dc/terms/created> "2026-11-18" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/security-governance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/security-governance> <http://www.w3.org/2000/01/rdf-schema#label> "Security Governance" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/security-governance> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce security governance" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/security-governance> <http://www.w3.org/2004/02/skos/core#altLabel> "cybersecurity governance" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/security-governance> <http://www.w3.org/2004/02/skos/core#altLabel> "security governance model" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/security-governance> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/it-governance> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/security-governance> <http://www.w3.org/2004/02/skos/core#definition> "The ownership, policies, review forums and audit cycle that set and enforce how a Salesforce estate is kept secure across its lifecycle; the security strand of IT and Salesforce governance, corresponding to the Govern function of NIST CSF 2.0." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/security-governance> <http://www.w3.org/2004/02/skos/core#prefLabel> "Security Governance" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/security-governance> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-cybersecurity-framework> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/security-governance> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-center-of-excellence> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/security-governance> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/security-center> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/security-governance> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/technical-debt-in-salesforce> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/security-governance> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-governance/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/security-governance> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-governance/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/security-governance> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-governance/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/security-governance> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-governance/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/security-governance> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-governance/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/security-governance> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/principle-of-least-privilege> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/security-governance> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "security-and-sharing" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/security-governance> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#partOf> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-governance> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/security-governance> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/security-governance> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/security-stripinaccessible> <http://purl.org/dc/terms/created> "2026-11-18" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/security-stripinaccessible> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#SecurityControl> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/security-stripinaccessible> <http://www.w3.org/2000/01/rdf-schema#label> "Security.stripInaccessible" .
@@ -21347,6 +21370,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-compliance-frameworks/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-compliance-frameworks/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "standards-body" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-compliance-frameworks/s6> <https://schema.org/url> "https://webstore.iec.ch/publication/79694" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-governance/s1> <http://purl.org/dc/terms/publisher> "Salesforce Architects" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-governance/s1> <http://purl.org/dc/terms/title> "Six Steps to Establish a Security Governance Model" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-governance/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-governance/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-governance/s1> <https://schema.org/url> "https://medium.com/salesforce-architects/six-steps-to-establish-a-security-governance-model-3e9cf461ffe1" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-governance/s2> <http://purl.org/dc/terms/publisher> "NIST" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-governance/s2> <http://purl.org/dc/terms/title> "The NIST Cybersecurity Framework (CSF) 2.0 (NIST CSWP 29)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-governance/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-governance/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "standards-body" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-governance/s2> <https://schema.org/url> "https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.pdf" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-governance/s3> <http://purl.org/dc/terms/publisher> "NIST Computer Security Resource Center" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-governance/s3> <http://purl.org/dc/terms/title> "CSWP 29, The NIST Cybersecurity Framework (CSF) 2.0 (publication record)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-governance/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-governance/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "standards-body" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-governance/s3> <https://schema.org/url> "https://csrc.nist.gov/pubs/cswp/29/the-nist-cybersecurity-framework-csf-20/final" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-governance/s4> <http://purl.org/dc/terms/publisher> "Salesforce Architects (architect.salesforce.com)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-governance/s4> <http://purl.org/dc/terms/title> "Security Policy Template" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-governance/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-governance/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-governance/s4> <https://schema.org/url> "https://architect.salesforce.com/1/asset/immutable/s/c9884a1/assets/pdf/security-policy-template.pdf" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-governance/s5> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-governance/s5> <http://purl.org/dc/terms/title> "Learn About Security Center (Security Center module)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-governance/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-governance/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-governance/s5> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/security-center/learn-about-security-center" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-stripinaccessible/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-stripinaccessible/s1> <http://purl.org/dc/terms/title> "Enforce Security with the stripInaccessible Method (Apex Developer Guide)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-stripinaccessible/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
