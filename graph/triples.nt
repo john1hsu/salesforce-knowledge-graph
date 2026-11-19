@@ -4533,6 +4533,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/field-service> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/service-cloud> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/field-service> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/field-service> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-sets> <http://purl.org/dc/terms/created> "2026-11-19" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-sets> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-sets> <http://www.w3.org/2000/01/rdf-schema#label> "Field Sets" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-sets> <http://www.w3.org/2004/02/skos/core#altLabel> "FieldSet metadata type" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-sets> <http://www.w3.org/2004/02/skos/core#altLabel> "Schema.FieldSet" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-sets> <http://www.w3.org/2004/02/skos/core#altLabel> "field set" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-sets> <http://www.w3.org/2004/02/skos/core#altLabel> "fieldSets" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-sets> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/visualforce> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-sets> <http://www.w3.org/2004/02/skos/core#definition> "An admin-maintained, ordered grouping of an object's fields (FieldSet metadata) that Visualforce pages and Apex read dynamically, so the fields a page shows can change in Setup without code changes, including in subscriber orgs of a managed package." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-sets> <http://www.w3.org/2004/02/skos/core#prefLabel> "Field Sets" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-sets> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-user-mode> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-sets> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-fields> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-sets> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/dynamic-forms> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-sets> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/dynamic-soql> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-sets> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/field-level-security> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-sets> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/page-layouts> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-sets> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-sets/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-sets> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-sets/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-sets> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-sets/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-sets> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-sets/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-sets> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-sets/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-sets> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-sets/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-sets> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-sets/s7> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-sets> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-sets> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#consumedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-sets> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#consumedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/first-generation-managed-packages> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-sets> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "data-model" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-sets> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/tooling-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-sets> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-sets> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/financial-services-cloud> <http://purl.org/dc/terms/created> "2026-11-12" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/financial-services-cloud> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Product> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/financial-services-cloud> <http://www.w3.org/2000/01/rdf-schema#label> "Financial Services Cloud" .
@@ -15810,6 +15840,41 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-service/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-service/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-service/s6> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/field-service-mobile/work-from-anywhere" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-sets/s1> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-sets/s1> <http://purl.org/dc/terms/title> "About Field Sets — Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-sets/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-sets/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-sets/s1> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=fields_about_field_sets.htm&language=en_US&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-sets/s2> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-sets/s2> <http://purl.org/dc/terms/title> "Create and Edit Field Sets — Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-sets/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-sets/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-sets/s2> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=platform.fields_editing_field_sets.htm&language=en_US&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-sets/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-sets/s3> <http://purl.org/dc/terms/title> "Working with Field Sets — Visualforce Developer Guide" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-sets/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-sets/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-sets/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/pages_dynamic_vf_field_sets.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-sets/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-sets/s4> <http://purl.org/dc/terms/title> "FieldSet Class — Apex Reference Guide" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-sets/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-sets/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-sets/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_fieldsets_describe.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-sets/s5> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-sets/s5> <http://purl.org/dc/terms/title> "FieldSetMember Class — Apex Reference Guide" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-sets/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-sets/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-sets/s5> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apex/apex_class_Schema_FieldSetMember.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-sets/s6> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-sets/s6> <http://purl.org/dc/terms/title> "FieldSet — Metadata API Developer Guide" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-sets/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-sets/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-sets/s6> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_fieldset.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-sets/s7> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-sets/s7> <http://purl.org/dc/terms/title> "FieldSet — Tooling API Developer Guide" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-sets/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-sets/s7> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-sets/s7> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.api_tooling.meta/api_tooling/tooling_api_objects_fieldset.htm" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/financial-services-cloud/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/financial-services-cloud/s1> <http://purl.org/dc/terms/title> "Meet Financial Services Cloud (Financial Services Cloud Basics)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/financial-services-cloud/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

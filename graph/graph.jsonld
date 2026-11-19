@@ -15642,6 +15642,110 @@
       ]
     },
     {
+      "@id": "kt:field-sets",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Field Sets",
+      "skos:definition": "An admin-maintained, ordered grouping of an object's fields (FieldSet metadata) that Visualforce pages and Apex read dynamically, so the fields a page shows can change in Setup without code changes, including in subscriber orgs of a managed package.",
+      "kto:domain": "data-model",
+      "dcterms:created": "2026-11-19",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "About Field Sets — Salesforce Help",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=fields_about_field_sets.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Create and Edit Field Sets — Salesforce Help",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=platform.fields_editing_field_sets.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Working with Field Sets — Visualforce Developer Guide",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/pages_dynamic_vf_field_sets.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "FieldSet Class — Apex Reference Guide",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_fieldsets_describe.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "FieldSetMember Class — Apex Reference Guide",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apex/apex_class_Schema_FieldSetMember.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "FieldSet — Metadata API Developer Guide",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_fieldset.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "FieldSet — Tooling API Developer Guide",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api_tooling.meta/api_tooling/tooling_api_objects_fieldset.htm",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/data-model/field-sets.md",
+      "skos:altLabel": [
+        "field set",
+        "FieldSet metadata type",
+        "Schema.FieldSet",
+        "fieldSets"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:visualforce"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:custom-fields"
+        },
+        {
+          "@id": "kt:page-layouts"
+        },
+        {
+          "@id": "kt:dynamic-forms"
+        },
+        {
+          "@id": "kt:dynamic-soql"
+        },
+        {
+          "@id": "kt:field-level-security"
+        },
+        {
+          "@id": "kt:apex-user-mode"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:metadata-api"
+        }
+      ],
+      "kto:queriedWith": [
+        {
+          "@id": "kt:tooling-api"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:apex"
+        },
+        {
+          "@id": "kt:first-generation-managed-packages"
+        }
+      ]
+    },
+    {
       "@id": "kt:formula-fields",
       "@type": "kto:Feature",
       "skos:prefLabel": "Formula Fields",
