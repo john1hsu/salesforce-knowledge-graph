@@ -2562,6 +2562,33 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-fields> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/soql> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-fields> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-fields> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-flow-screen-components> <http://purl.org/dc/terms/created> "2026-11-19" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-flow-screen-components> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-flow-screen-components> <http://www.w3.org/2000/01/rdf-schema#label> "Custom Flow Screen Components" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-flow-screen-components> <http://www.w3.org/2004/02/skos/core#altLabel> "LWC flow screen components" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-flow-screen-components> <http://www.w3.org/2004/02/skos/core#altLabel> "custom screen components" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-flow-screen-components> <http://www.w3.org/2004/02/skos/core#altLabel> "flow screen LWC" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-flow-screen-components> <http://www.w3.org/2004/02/skos/core#altLabel> "lightning__FlowScreen components" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-flow-screen-components> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-web-components> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-flow-screen-components> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/screen-flow> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-flow-screen-components> <http://www.w3.org/2004/02/skos/core#definition> "Lightning web components exposed to the lightning__FlowScreen target so admins can drop them onto screen-flow screens; they exchange data with the flow through @api properties declared in the component's js-meta.xml, report changes with FlowAttributeChangeEvent, can drive navigation, validate input, and can ship a custom property editor for Flow Builder." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-flow-screen-components> <http://www.w3.org/2004/02/skos/core#prefLabel> "Custom Flow Screen Components" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-flow-screen-components> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/aura-components> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-flow-screen-components> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-builder> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-flow-screen-components> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/invocable-apex-actions> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-flow-screen-components> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-data-service> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-flow-screen-components> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-flow-screen-components/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-flow-screen-components> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-flow-screen-components/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-flow-screen-components> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-flow-screen-components/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-flow-screen-components> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-flow-screen-components/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-flow-screen-components> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-flow-screen-components/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-flow-screen-components> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-flow-screen-components/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-flow-screen-components> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-property-editors> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-flow-screen-components> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-defined-types> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-flow-screen-components> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "automation" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-flow-screen-components> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-builder> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-flow-screen-components> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-flow-screen-components> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-index-limits> <http://purl.org/dc/terms/created> "2026-11-10" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-index-limits> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Limit> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-index-limits> <http://www.w3.org/2000/01/rdf-schema#label> "Custom Index Limits" .
@@ -10697,6 +10724,7 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/screen-flow> <http://www.w3.org/2004/02/skos/core#definition> "A Flow Builder flow type that presents one or more screens to a user, collects their input and acts on it; launched from Lightning pages, actions, the utility bar, Experience Builder pages and other entry points, and running in user context by default." .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/screen-flow> <http://www.w3.org/2004/02/skos/core#prefLabel> "Screen Flow" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/screen-flow> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/autolaunched-flow> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/screen-flow> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-flow-screen-components> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/screen-flow> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/experience-cloud> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/screen-flow> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-orchestrator> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/screen-flow> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/record-triggered-flow> .
@@ -14011,6 +14039,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-fields/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-fields/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-fields/s6> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/customfield.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-flow-screen-components/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-flow-screen-components/s1> <http://purl.org/dc/terms/title> "Flow Support (lightning/flowSupport)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-flow-screen-components/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-flow-screen-components/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-flow-screen-components/s1> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/lightning-component-reference/guide/lightning-flow-support.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-flow-screen-components/s2> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-flow-screen-components/s2> <http://purl.org/dc/terms/title> "lightning__FlowScreen Target" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-flow-screen-components/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-flow-screen-components/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-flow-screen-components/s2> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/lwc/guide/targets-lightning-flow-screen.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-flow-screen-components/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-flow-screen-components/s3> <http://purl.org/dc/terms/title> "Validate User Input for Custom Flow Screen Components" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-flow-screen-components/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-flow-screen-components/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-flow-screen-components/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/lwc/guide/use-flow-validate-user-input-for-custom-components.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-flow-screen-components/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-flow-screen-components/s4> <http://purl.org/dc/terms/title> "Runtime Considerations for Flow Screen Components" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-flow-screen-components/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-flow-screen-components/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-flow-screen-components/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/lwc/guide/use-flow-runtime-considerations.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-flow-screen-components/s5> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-flow-screen-components/s5> <http://purl.org/dc/terms/title> "Best Practices for Reactivity in Screen Flows" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-flow-screen-components/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-flow-screen-components/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-flow-screen-components/s5> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/lwc/guide/use-best-practices-reactivity.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-flow-screen-components/s6> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-flow-screen-components/s6> <http://purl.org/dc/terms/title> "Custom Property Editor JavaScript Interface" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-flow-screen-components/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-flow-screen-components/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-flow-screen-components/s6> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/lwc/guide/use-flow-custom-property-editor-interface.html" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-index-limits/s1> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-index-limits/s1> <http://purl.org/dc/terms/title> "How Many External ID Fields Can I Create Per Object in Salesforce" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-index-limits/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

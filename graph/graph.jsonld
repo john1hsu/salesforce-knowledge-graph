@@ -4083,6 +4083,98 @@
       ]
     },
     {
+      "@id": "kt:custom-flow-screen-components",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Custom Flow Screen Components",
+      "skos:definition": "Lightning web components exposed to the lightning__FlowScreen target so admins can drop them onto screen-flow screens; they exchange data with the flow through @api properties declared in the component's js-meta.xml, report changes with FlowAttributeChangeEvent, can drive navigation, validate input, and can ship a custom property editor for Flow Builder.",
+      "kto:domain": "automation",
+      "dcterms:created": "2026-11-19",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Flow Support (lightning/flowSupport)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/lightning-component-reference/guide/lightning-flow-support.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "lightning__FlowScreen Target",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/lwc/guide/targets-lightning-flow-screen.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Validate User Input for Custom Flow Screen Components",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/lwc/guide/use-flow-validate-user-input-for-custom-components.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Runtime Considerations for Flow Screen Components",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/lwc/guide/use-flow-runtime-considerations.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Best Practices for Reactivity in Screen Flows",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/lwc/guide/use-best-practices-reactivity.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Custom Property Editor JavaScript Interface",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/lwc/guide/use-flow-custom-property-editor-interface.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/automation/custom-flow-screen-components.md",
+      "skos:altLabel": [
+        "custom screen components",
+        "LWC flow screen components",
+        "lightning__FlowScreen components",
+        "flow screen LWC"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:screen-flow"
+        },
+        {
+          "@id": "kt:lightning-web-components"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:flow-builder"
+        },
+        {
+          "@id": "kt:aura-components"
+        },
+        {
+          "@id": "kt:invocable-apex-actions"
+        },
+        {
+          "@id": "kt:lightning-data-service"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:flow-builder"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:custom-property-editors"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:apex-defined-types"
+        }
+      ]
+    },
+    {
       "@id": "kt:einstein-next-best-action",
       "@type": "kto:Feature",
       "skos:prefLabel": "Einstein Next Best Action",
@@ -6551,6 +6643,9 @@
         },
         {
           "@id": "kt:experience-cloud"
+        },
+        {
+          "@id": "kt:custom-flow-screen-components"
         }
       ],
       "kto:integratesWith": [
