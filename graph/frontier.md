@@ -55,8 +55,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:dynamic-revenue-orchestrator` | `kt:revenue-cloud` |
 | `kt:revenue-management-consultant-certification` | `kt:revenue-cloud` |
 | `kt:mulesoft-platform-integration-architect-certification` | `kt:mulesoft-platform-architect-certification` |
-| `kt:generative-ai` | `kt:retrieval-augmented-generation-in-salesforce` |
 | `kt:agentexchange-go-to-market-app` | `kt:agentexchange` |
+| `kt:generative-ai` | `kt:retrieval-augmented-generation-in-salesforce` |
 | `kt:path` | `kt:business-processes` |
 | `kt:revenue-intelligence` | `kt:collaborative-forecasts` |
 | `kt:object-manager` | `kt:schema-builder` |
@@ -103,14 +103,14 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:in-app-guidance` | `kt:change-management-and-adoption` |
 | `kt:invocable-methods` | `kt:apex-defined-types` |
 | `kt:data-cloud-code-extension` | `kt:vector-search-in-data-cloud` |
+| `kt:username-password-flow` | `kt:client-credentials-flow` |
 | `kt:iso-iec-27017` | `kt:iso-iec-27002` |
 | `kt:agentforce-vibes` | `kt:agentforce-vibes-ide` |
 | `kt:b2b-commerce` | `kt:commerce-cloud` |
 | `kt:b2c-commerce` | `kt:commerce-cloud` |
-| `kt:salesforce-order-management` | `kt:commerce-cloud` |
 | `kt:json-web-signature` | `kt:json-web-token` |
+| `kt:salesforce-order-management` | `kt:commerce-cloud` |
 | `kt:business-analyst-certification` | `kt:user-acceptance-testing` |
-| `kt:username-password-flow` | `kt:client-credentials-flow` |
 | `kt:developer-console` | `kt:apex-logging-and-debug-logs` |
 | `kt:ldap` | `kt:delegated-authentication` |
 | `kt:document-ai` | `kt:unstructured-data-in-data-cloud` |
@@ -131,7 +131,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:shared-activities` | `kt:activity-data-model` |
 | `kt:twelve-factor-app` | `kt:heroku-architect-certification` |
 | `kt:b2c-commerce-architect-certification` | `kt:b2c-solution-architect-certification` |
-| `kt:web-server-flow` | `kt:device-flow` |
 | `kt:salesforce-maps` | `kt:geolocation-fields` |
 | `kt:business-architecture` | `kt:capability-maps` |
 | `kt:technology-roadmaps` | `kt:capability-maps` |

@@ -28694,6 +28694,107 @@
       ]
     },
     {
+      "@id": "kt:web-server-flow",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "OAuth 2.0 Web Server Flow",
+      "skos:definition": "Salesforce's implementation of the OAuth 2.0 authorization code grant: the user logs in and approves the app in a browser, Salesforce sends a short-lived authorization code to the app's callback URL, and the app's server exchanges that code (with its consumer secret and, increasingly, a PKCE code verifier) for access and refresh tokens.",
+      "kto:domain": "identity",
+      "dcterms:created": "2026-11-19",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Implement the OAuth 2.0 Web Server Flow (Build Integrations with External Client Apps)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/projects/build-integrations-with-external-client-apps/implement-the-oauth-20-web-server-flow",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Web Server OAuth Authentication Flow (Connect REST API Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.250.0.chatterapi.meta/chatterapi/intro_oauth_web_server_flow.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Secure Your Connected Apps and External Client Apps",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.packagingGuide.meta/packagingGuide/secure_code_ac_eca.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "RFC 6749: The OAuth 2.0 Authorization Framework",
+          "dcterms:publisher": "IETF",
+          "schema:url": "https://rfc-editor.org/rfc/rfc6749",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "RFC 7636: Proof Key for Code Exchange by OAuth Public Clients",
+          "dcterms:publisher": "IETF",
+          "schema:url": "https://www.rfc-editor.org/rfc/rfc7636",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "RFC 9700: Best Current Practice for OAuth 2.0 Security",
+          "dcterms:publisher": "IETF",
+          "schema:url": "https://www.rfc-editor.org/rfc/rfc9700.html?lang=en",
+          "kto:sourceType": "standards-body"
+        }
+      ],
+      "kto:file": "articles/identity/web-server-flow.md",
+      "skos:altLabel": [
+        "web server flow",
+        "web server OAuth authentication flow",
+        "Salesforce authorization code flow",
+        "OAuth 2.0 Web Server Flow for Web App Integration"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:oauth-2-flows-in-salesforce"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:refresh-token-policies"
+        },
+        {
+          "@id": "kt:openid-connect"
+        },
+        {
+          "@id": "kt:my-domain"
+        },
+        {
+          "@id": "kt:headless-identity"
+        },
+        {
+          "@id": "kt:appexchange-security-review"
+        }
+      ],
+      "kto:implements": [
+        {
+          "@id": "kt:oauth-2-0"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:external-client-apps"
+        },
+        {
+          "@id": "kt:connected-apps"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:device-flow"
+        },
+        {
+          "@id": "kt:jwt-bearer-flow"
+        },
+        {
+          "@id": "kt:client-credentials-flow"
+        }
+      ]
+    },
+    {
       "@id": "kt:api-led-connectivity",
       "@type": "kto:Pattern",
       "skos:prefLabel": "API-led Connectivity",
