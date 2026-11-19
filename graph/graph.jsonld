@@ -35797,6 +35797,86 @@
       ]
     },
     {
+      "@id": "kt:cobit",
+      "@type": "kto:ExternalConcept",
+      "skos:prefLabel": "COBIT",
+      "skos:definition": "ISACA's framework for the governance and management of enterprise information and technology (I&T), which organizes the work into 40 governance and management objectives across five domains and is tailored to each enterprise through design factors; the current edition is COBIT 7, successor to COBIT 2019.",
+      "kto:domain": "public-sector-and-compliance",
+      "dcterms:created": "2026-11-19",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "COBIT 7 IT Enterprise Governance Framework",
+          "dcterms:publisher": "ISACA",
+          "schema:url": "https://www.isaca.org/resources/cobit",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "A New COBIT Is in Town, and I Really Like How It Looks",
+          "dcterms:publisher": "ISACA",
+          "schema:url": "https://www.isaca.org/resources/news-and-trends/industry-news/2018/a-new-cobit-is-in-town-and-i-really-like-how-it-looks",
+          "kto:sourceType": "community"
+        },
+        {
+          "dcterms:title": "COBIT Design Factors",
+          "dcterms:publisher": "ISACA",
+          "schema:url": "https://www.isaca.org/resources/news-and-trends/industry-news/2019/cobit-design-factors",
+          "kto:sourceType": "community"
+        },
+        {
+          "dcterms:title": "What is COBIT? A framework for alignment and governance",
+          "dcterms:publisher": "CIO",
+          "schema:url": "https://www.cio.com/article/228151/what-is-cobit-a-framework-for-alignment-and-governance.html",
+          "kto:sourceType": "news"
+        },
+        {
+          "dcterms:title": "New ISACA Resources Offer Step-by-Step Guidance for NIST Cybersecurity Framework Implementation",
+          "dcterms:publisher": "ISACA",
+          "schema:url": "https://www.isaca.org/about-us/newsroom/press-releases/2019/new-isaca-resources-offer-step-by-step-guidance-for-nist-cybersecurity-framework-implementation",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "Learn About Salesforce Governance and Why It Matters (Salesforce Governance with a Center of Excellence)",
+          "dcterms:publisher": "Salesforce Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/salesforce-governance-with-a-center-of-excellence/learn-about-salesforce-governance-and-why-it-matters",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/public-sector-and-compliance/cobit.md",
+      "skos:altLabel": [
+        "COBIT 7",
+        "COBIT 2019",
+        "COBIT 5",
+        "Control Objectives for Information and Related Technologies",
+        "ISACA COBIT framework"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:it-governance"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:governance-risk-and-compliance"
+        },
+        {
+          "@id": "kt:salesforce-governance"
+        },
+        {
+          "@id": "kt:salesforce-center-of-excellence"
+        },
+        {
+          "@id": "kt:security-compliance-frameworks"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:nist-cybersecurity-framework"
+        }
+      ]
+    },
+    {
       "@id": "kt:continuous-monitoring",
       "@type": "kto:ExternalConcept",
       "skos:prefLabel": "Continuous Monitoring",

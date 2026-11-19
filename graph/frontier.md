@@ -81,7 +81,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:compliant-data-sharing` | `kt:financial-services-cloud` |
 | `kt:custom-permissions` | `kt:validation-rules` |
 | `kt:iso-iec-25010` | `kt:non-functional-requirements` |
-| `kt:cobit` | `kt:it-governance` |
 | `kt:opportunity-products` | `kt:price-books` |
 | `kt:fhir` | `kt:health-cloud` |
 | `kt:utilization-management` | `kt:health-cloud` |
@@ -97,8 +96,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:partner-community-licenses` | `kt:customer-community-licenses` |
 | `kt:share-groups` | `kt:customer-community-licenses` |
 | `kt:sharing-sets` | `kt:customer-community-licenses` |
-| `kt:data-processing-engine` | `kt:loyalty-management` |
 | `kt:management` | `kt:organizational-governance` |
+| `kt:data-processing-engine` | `kt:loyalty-management` |
 | `kt:holidays` | `kt:business-hours` |
 | `kt:business-process-mapping` | `kt:requirements-gathering` |
 | `kt:in-app-guidance` | `kt:change-management-and-adoption` |
@@ -138,10 +137,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:technology-roadmaps` | `kt:capability-maps` |
 | `kt:value-streams` | `kt:capability-maps` |
 | `kt:organization-wide-email-addresses` | `kt:email-alerts` |
-| `kt:digital-accessibility` | `kt:section-508-accessibility` |
-| `kt:tx-ramp` | `kt:govramp` |
-| `kt:wcag` | `kt:section-508-accessibility` |
 | `kt:agent-to-agent-protocol` | `kt:agentforce-architecture-patterns` |
+| `kt:digital-accessibility` | `kt:section-508-accessibility` |
 | `kt:experience-cloud-consultant-certification` | `kt:licensing-strategy` |
 | `kt:greenhouse-gas-protocol` | `kt:net-zero-cloud` |
 | `kt:multi-agent-orchestration` | `kt:agentforce-architecture-patterns` |
@@ -152,5 +149,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:subscriber-support-console` | `kt:license-management-app` |
 | `kt:tableau-blueprint` | `kt:tableau-architect-certification` |
 | `kt:tableau-server-administrator-certification` | `kt:tableau-architect-certification` |
+| `kt:tx-ramp` | `kt:govramp` |
+| `kt:wcag` | `kt:section-508-accessibility` |
 | `kt:web-to-case` | `kt:auto-response-rules` |
 | `kt:web-to-lead` | `kt:auto-response-rules` |
