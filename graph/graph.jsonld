@@ -23908,6 +23908,79 @@
       ]
     },
     {
+      "@id": "kt:release-updates",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Release Updates",
+      "skos:definition": "The Setup page where Salesforce lists platform behaviour changes that it will enforce on every org in a future release, with recommended steps, a due date and, for many updates, a test run toggle so admins can try the new behaviour before enforcement. It replaced the older Critical Updates console.",
+      "kto:domain": "devops-and-alm",
+      "dcterms:created": "2026-11-19",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Release Updates (Salesforce Help)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=sf.release_updates.htm&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Learn MOAR with Summer '20 Release Updates Setup Page",
+          "dcterms:publisher": "Salesforce Admins Blog",
+          "schema:url": "https://admin.salesforce.com/blog/2020/learn-moar-with-summer-20-release-updates-setup-page",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Master the Release Readiness Process (Advanced Salesforce Release Readiness Strategies)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/en/content/learn/modules/advanced-salesforce-release-readiness-strategies/master-the-release-readiness-process",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Ultimate Guide to Salesforce Release Updates",
+          "dcterms:publisher": "Salesforce Ben",
+          "schema:url": "https://www.salesforceben.com/ultimate-guide-to-salesforce-release-updates/",
+          "kto:sourceType": "partner"
+        }
+      ],
+      "kto:file": "articles/devops-and-alm/release-updates.md",
+      "skos:altLabel": [
+        "Release Updates node",
+        "Release Updates page",
+        "Critical Updates",
+        "Critical Updates console",
+        "Enable Test Run"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:release-management"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:salesforce-seasonal-releases"
+        },
+        {
+          "@id": "kt:sandbox-types"
+        },
+        {
+          "@id": "kt:testing-strategy"
+        },
+        {
+          "@id": "kt:org-check"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:application-lifecycle-management"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:environment-strategy"
+        }
+      ]
+    },
+    {
       "@id": "kt:salesforce-cli",
       "@type": "kto:Tool",
       "skos:prefLabel": "Salesforce CLI",

@@ -9481,6 +9481,30 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/release-management> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/package-xml-manifest> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/release-management> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/release-management> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/release-updates> <http://purl.org/dc/terms/created> "2026-11-19" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/release-updates> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/release-updates> <http://www.w3.org/2000/01/rdf-schema#label> "Release Updates" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/release-updates> <http://www.w3.org/2004/02/skos/core#altLabel> "Critical Updates console" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/release-updates> <http://www.w3.org/2004/02/skos/core#altLabel> "Critical Updates" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/release-updates> <http://www.w3.org/2004/02/skos/core#altLabel> "Enable Test Run" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/release-updates> <http://www.w3.org/2004/02/skos/core#altLabel> "Release Updates node" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/release-updates> <http://www.w3.org/2004/02/skos/core#altLabel> "Release Updates page" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/release-updates> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/release-management> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/release-updates> <http://www.w3.org/2004/02/skos/core#definition> "The Setup page where Salesforce lists platform behaviour changes that it will enforce on every org in a future release, with recommended steps, a due date and, for many updates, a test run toggle so admins can try the new behaviour before enforcement. It replaced the older Critical Updates console." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/release-updates> <http://www.w3.org/2004/02/skos/core#prefLabel> "Release Updates" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/release-updates> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/org-check> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/release-updates> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-seasonal-releases> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/release-updates> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-types> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/release-updates> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/testing-strategy> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/release-updates> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/release-updates/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/release-updates> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/release-updates/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/release-updates> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/release-updates/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/release-updates> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/release-updates/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/release-updates> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/environment-strategy> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/release-updates> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "devops-and-alm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/release-updates> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#partOf> <https://github.com/john1hsu/salesforce-knowledge-graph/id/application-lifecycle-management> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/release-updates> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/release-updates> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/remote-call-in> <http://purl.org/dc/terms/created> "2026-11-09" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/remote-call-in> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Pattern> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/remote-call-in> <http://www.w3.org/2000/01/rdf-schema#label> "Remote Call-In" .
@@ -21238,6 +21262,26 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/release-management/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/release-management/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/release-management/s6> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/release-management-in-agentforce-it-service/get-to-know-release-management" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/release-updates/s1> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/release-updates/s1> <http://purl.org/dc/terms/title> "Release Updates (Salesforce Help)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/release-updates/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/release-updates/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/release-updates/s1> <https://schema.org/url> "https://help.salesforce.com/s/articleView?language=en_US&id=sf.release_updates.htm&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/release-updates/s2> <http://purl.org/dc/terms/publisher> "Salesforce Admins Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/release-updates/s2> <http://purl.org/dc/terms/title> "Learn MOAR with Summer '20 Release Updates Setup Page" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/release-updates/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/release-updates/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/release-updates/s2> <https://schema.org/url> "https://admin.salesforce.com/blog/2020/learn-moar-with-summer-20-release-updates-setup-page" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/release-updates/s3> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/release-updates/s3> <http://purl.org/dc/terms/title> "Master the Release Readiness Process (Advanced Salesforce Release Readiness Strategies)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/release-updates/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/release-updates/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/release-updates/s3> <https://schema.org/url> "https://trailhead.salesforce.com/en/content/learn/modules/advanced-salesforce-release-readiness-strategies/master-the-release-readiness-process" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/release-updates/s4> <http://purl.org/dc/terms/publisher> "Salesforce Ben" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/release-updates/s4> <http://purl.org/dc/terms/title> "Ultimate Guide to Salesforce Release Updates" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/release-updates/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/release-updates/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "partner" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/release-updates/s4> <https://schema.org/url> "https://www.salesforceben.com/ultimate-guide-to-salesforce-release-updates/" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/remote-call-in/s1> <http://purl.org/dc/terms/publisher> "Salesforce Architects" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/remote-call-in/s1> <http://purl.org/dc/terms/title> "Integration Patterns Overview" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/remote-call-in/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
