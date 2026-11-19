@@ -32681,6 +32681,70 @@
       ]
     },
     {
+      "@id": "kt:cap-theorem",
+      "@type": "kto:ExternalConcept",
+      "skos:prefLabel": "CAP Theorem",
+      "skos:definition": "The impossibility result, conjectured by Eric Brewer and proved by Gilbert and Lynch in 2002, that a replicated read/write service cannot guarantee both linearizable consistency and availability while the network can drop messages; later refinements such as PACELC add the consistency-versus-latency trade-off that applies even without partitions.",
+      "kto:domain": "platform-architecture",
+      "dcterms:created": "2026-11-19",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Brewer's Conjecture and the Feasibility of Consistent, Available, Partition-Tolerant Web Services",
+          "dcterms:publisher": "Seth Gilbert and Nancy Lynch (ACM SIGACT News, 2002)",
+          "schema:url": "https://www.comp.nus.edu.sg/~gilbert/pubs/BrewersConjecture-SigAct.pdf",
+          "kto:sourceType": "peer-reviewed"
+        },
+        {
+          "dcterms:title": "CAP Twelve Years Later: How the \"Rules\" Have Changed",
+          "dcterms:publisher": "Eric Brewer (IEEE Computer, February 2012)",
+          "schema:url": "https://sites.cs.ucsb.edu/~rich/class/cs293b-cloud/papers/brewer-cap.pdf",
+          "kto:sourceType": "peer-reviewed"
+        },
+        {
+          "dcterms:title": "Consistency Tradeoffs in Modern Distributed Database System Design",
+          "dcterms:publisher": "Daniel J. Abadi (IEEE Computer, February 2012)",
+          "schema:url": "https://cs.umd.edu/~abadi/papers/abadi-pacelc.pdf",
+          "kto:sourceType": "peer-reviewed"
+        },
+        {
+          "dcterms:title": "Platform Transformation (Salesforce Architecture Fundamentals)",
+          "dcterms:publisher": "Salesforce Architects",
+          "schema:url": "https://architect.salesforce.com/fundamentals/platform-transformation",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/platform-architecture/cap-theorem.md",
+      "skos:altLabel": [
+        "Brewer's theorem",
+        "Brewer's conjecture",
+        "consistency availability partition tolerance"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:distributed-computing"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:hyperforce"
+        },
+        {
+          "@id": "kt:platform-cache"
+        },
+        {
+          "@id": "kt:event-driven-architecture"
+        },
+        {
+          "@id": "kt:platform-events"
+        },
+        {
+          "@id": "kt:multitenancy"
+        }
+      ]
+    },
+    {
       "@id": "kt:cloud-computing",
       "@type": "kto:ExternalConcept",
       "skos:prefLabel": "Cloud Computing",

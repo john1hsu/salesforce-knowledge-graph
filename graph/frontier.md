@@ -50,8 +50,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:apex-mocks` | `kt:apex-enterprise-patterns` |
 | `kt:salesforce-ecosystem` | `kt:salesforce-inc` |
 | `kt:rest-api-limits-resource` | `kt:orglimits-class` |
-| `kt:lightning-out` | `kt:lightning-locker` |
 | `kt:apex-rest-services` | `kt:remote-call-in` |
+| `kt:lightning-out` | `kt:lightning-locker` |
 | `kt:dynamic-revenue-orchestrator` | `kt:revenue-cloud` |
 | `kt:revenue-management-consultant-certification` | `kt:revenue-cloud` |
 | `kt:mulesoft-platform-integration-architect-certification` | `kt:mulesoft-platform-architect-certification` |
@@ -59,8 +59,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:generative-ai` | `kt:retrieval-augmented-generation-in-salesforce` |
 | `kt:path` | `kt:business-processes` |
 | `kt:revenue-intelligence` | `kt:collaborative-forecasts` |
-| `kt:object-manager` | `kt:schema-builder` |
 | `kt:application-network` | `kt:api-led-connectivity` |
+| `kt:object-manager` | `kt:schema-builder` |
 | `kt:point-to-point-integration` | `kt:api-led-connectivity` |
 | `kt:batch-apex-error-event` | `kt:transaction-finalizers` |
 | `kt:heroku-postgres` | `kt:heroku-connect` |
@@ -81,6 +81,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:compliant-data-sharing` | `kt:financial-services-cloud` |
 | `kt:custom-permissions` | `kt:validation-rules` |
 | `kt:iso-iec-25010` | `kt:non-functional-requirements` |
+| `kt:computer-science` | `kt:distributed-computing` |
+| `kt:platform-cache-partitions` | `kt:platform-cache` |
 | `kt:opportunity-products` | `kt:price-books` |
 | `kt:fhir` | `kt:health-cloud` |
 | `kt:utilization-management` | `kt:health-cloud` |
@@ -89,10 +91,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:salesforce-as-identity-provider` | `kt:certificate-and-key-management` |
 | `kt:engagement-studio` | `kt:marketing-cloud-account-engagement` |
 | `kt:semantic-layer` | `kt:tableau-semantics` |
-| `kt:cap-theorem` | `kt:distributed-computing` |
-| `kt:computer-science` | `kt:distributed-computing` |
 | `kt:data-cloud-query-api` | `kt:data-graphs` |
-| `kt:platform-cache-partitions` | `kt:platform-cache` |
 | `kt:partner-community-licenses` | `kt:customer-community-licenses` |
 | `kt:share-groups` | `kt:customer-community-licenses` |
 | `kt:sharing-sets` | `kt:customer-community-licenses` |
@@ -108,12 +107,12 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:agentforce-vibes` | `kt:agentforce-vibes-ide` |
 | `kt:b2b-commerce` | `kt:commerce-cloud` |
 | `kt:b2c-commerce` | `kt:commerce-cloud` |
-| `kt:json-web-signature` | `kt:json-web-token` |
 | `kt:salesforce-order-management` | `kt:commerce-cloud` |
+| `kt:json-web-signature` | `kt:json-web-token` |
 | `kt:business-analyst-certification` | `kt:user-acceptance-testing` |
 | `kt:developer-console` | `kt:apex-logging-and-debug-logs` |
-| `kt:ldap` | `kt:delegated-authentication` |
 | `kt:document-ai` | `kt:unstructured-data-in-data-cloud` |
+| `kt:ldap` | `kt:delegated-authentication` |
 | `kt:models-api` | `kt:ai-models` |
 | `kt:ui-api` | `kt:field-dependencies` |
 | `kt:user-provisioning` | `kt:scim` |
