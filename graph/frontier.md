@@ -7,7 +7,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:business-analyst` | `kt:fit-gap-analysis`, `kt:omnistudio-consultant-certification`, `kt:requirements-gathering`, `kt:user-acceptance-testing` |
 | `kt:journey-builder` | `kt:loyalty-management`, `kt:marketing-cloud-engagement`, `kt:salesforce-marketing-solutions` |
 | `kt:customer-360` | `kt:commerce-cloud`, `kt:salesforce-marketing-solutions`, `kt:slack-platform` |
-| `kt:apexguru` | `kt:scale-center`, `kt:scale-test` |
 | `kt:decision-tables` | `kt:loyalty-management`, `kt:salesforce-pricing` |
 | `kt:with-security-enforced` | `kt:apex-user-mode`, `kt:security-stripinaccessible` |
 | `kt:requirements-engineering` | `kt:non-functional-requirements`, `kt:requirements-gathering` |
@@ -63,8 +62,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:mulesoft-platform-integration-architect-certification` | `kt:mulesoft-platform-architect-certification` |
 | `kt:generative-ai` | `kt:retrieval-augmented-generation-in-salesforce` |
 | `kt:revenue-intelligence` | `kt:collaborative-forecasts` |
-| `kt:path` | `kt:business-processes` |
 | `kt:agentexchange-go-to-market-app` | `kt:agentexchange` |
+| `kt:path` | `kt:business-processes` |
 | `kt:ingestion-api` | `kt:data-streams` |
 | `kt:application-network` | `kt:api-led-connectivity` |
 | `kt:object-manager` | `kt:schema-builder` |
@@ -82,8 +81,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:slack-api-rate-limits` | `kt:slack-platform` |
 | `kt:slack-workflow-builder` | `kt:slack-platform` |
 | `kt:security-health-check` | `kt:session-settings` |
-| `kt:backup-and-recover-next` | `kt:backup-and-recover` |
 | `kt:trust-services-criteria` | `kt:soc-2` |
+| `kt:backup-and-recover-next` | `kt:backup-and-recover` |
 | `kt:static-resources` | `kt:cross-site-scripting` |
 | `kt:reports-and-dashboards` | `kt:salesforce-analytics` |
 | `kt:anypoint-runtime-manager` | `kt:mule-runtime-engine` |

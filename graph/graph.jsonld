@@ -31099,6 +31099,100 @@
       ]
     },
     {
+      "@id": "kt:apexguru",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "ApexGuru",
+      "skos:definition": "An AI-powered, runtime-aware analysis feature in Scale Center that finds performance anti-patterns, expensive methods and unused code in an org's Apex, ranks them by observed runtime impact and proposes code fixes; it is also exposed as an engine in Salesforce Code Analyzer.",
+      "kto:domain": "platform-architecture",
+      "dcterms:created": "2026-11-19",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Meet ApexGuru",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/apexguru/meet-apexguru",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Get AI-Powered Insights for Your Apex Code with ApexGuru",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2024/02/get-ai-powered-insights-for-your-apex-code-with-apexguru",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Optimize Your Apex for Apps and Agentforce with ApexGuru",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2025/02/optimize-your-apex-for-apps-and-agentforce-with-apexguru",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "The ApexGuru AI Engine Explained",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2025/06/the-apexguru-ai-engine-explained",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "ApexGuru Engine (Salesforce Code Analyzer Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/salesforce-code-analyzer/guide/engine-apexguru.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Scale Center Gives Admins the Insights and Tools to Improve Org Performance",
+          "dcterms:publisher": "Salesforce Admins Blog",
+          "schema:url": "https://admin.salesforce.com/blog/2025/scale-center-gives-admins-the-insights-and-tools-to-improve-org-performance",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/platform-architecture/apexguru.md",
+      "skos:altLabel": [
+        "ApexGuru Insights",
+        "Apex Guru",
+        "ApexGuru engine"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:scale-center"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:apex"
+        },
+        {
+          "@id": "kt:soql"
+        },
+        {
+          "@id": "kt:bulkification"
+        },
+        {
+          "@id": "kt:apex-triggers"
+        },
+        {
+          "@id": "kt:scale-test"
+        },
+        {
+          "@id": "kt:technical-debt-in-salesforce"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:scale-center"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:code-analyzer"
+        }
+      ],
+      "kto:mitigates": [
+        {
+          "@id": "kt:governor-limits"
+        }
+      ]
+    },
+    {
       "@id": "kt:bulkification",
       "@type": "kto:Pattern",
       "skos:prefLabel": "Bulkification",
