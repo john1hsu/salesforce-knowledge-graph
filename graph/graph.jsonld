@@ -41252,6 +41252,90 @@
       ]
     },
     {
+      "@id": "kt:security-center",
+      "@type": "kto:Product",
+      "skos:prefLabel": "Security Center",
+      "skos:definition": "A separately licensed Salesforce app that collects security and governance metrics (authentication, permissions, users, packages, configuration and Health Check) from many orgs into one parent tenant, with trends, threshold alerts and deployable security policies.",
+      "kto:domain": "security-and-sharing",
+      "dcterms:created": "2026-11-19",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Learn About Security Center",
+          "dcterms:publisher": "Salesforce Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/security-center/learn-about-security-center",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Gather and Review Security Data",
+          "dcterms:publisher": "Salesforce Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/ko/content/learn/modules/security-center/gather-and-review-security-data",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Security Center: A Single View Into Your Security Controls Across All Your Orgs",
+          "dcterms:publisher": "Salesforce Admins Blog",
+          "schema:url": "https://admin.salesforce.com/blog/2020/security-center-a-single-view-into-your-security-controls-across-all-your-orgs",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Learn About Security Center with Agentforce",
+          "dcterms:publisher": "Salesforce Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/security-center-with-agentforce-quick-look/learn-about-security-center-with-agentforce",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Winter '27 Release: Architect Highlights",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/blog/winter-27-release-architect-highlights/",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/security-and-sharing/security-center.md",
+      "skos:altLabel": [
+        "Salesforce Security Center",
+        "Security Center app"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:security-governance"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:event-monitoring"
+        },
+        {
+          "@id": "kt:continuous-monitoring"
+        },
+        {
+          "@id": "kt:salesforce-shield"
+        },
+        {
+          "@id": "kt:transaction-security-policies"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:security-health-check"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:agentforce"
+        },
+        {
+          "@id": "kt:data-cloud"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:model-context-protocol-in-agentforce"
+        }
+      ]
+    },
+    {
       "@id": "kt:security-governance",
       "@type": "kto:Concept",
       "skos:prefLabel": "Security Governance",
