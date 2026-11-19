@@ -14854,6 +14854,109 @@
       ]
     },
     {
+      "@id": "kt:custom-address-fields",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Custom Address Fields",
+      "skos:definition": "An org-level, irreversible setting that adds an Address data type for custom fields, so standard and custom objects can store structured compound addresses (street, city, state code, country code, postal code and geocode) that mirror standard address fields, at a cost of nine custom field allocations each.",
+      "kto:domain": "data-model",
+      "dcterms:created": "2026-11-19",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Custom Address Fields — Custom Address Fields Developer Guide",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.caf_dev_guide.meta/caf_dev_guide/caf_dev_guide.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Custom Address Fields Requirements and Limitations",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.caf_dev_guide.meta/caf_dev_guide/caf_dev_limitations.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Enable Custom Address Fields",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.caf_dev_guide.meta/caf_dev_guide/caf_dev_manage.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Apex Examples — Custom Address Fields Developer Guide",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.264.0.caf_dev_guide.meta/caf_dev_guide/caf_dev_examples_apex.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Address Compound Fields — Object Reference for the Salesforce Platform",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/object_reference/compound_fields_address.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Add a Geocode to a Custom Address Field",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.caf_dev_guide.meta/caf_dev_guide/caf_dev_add_geocode.htm",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/data-model/custom-address-fields.md",
+      "skos:altLabel": [
+        "custom address field",
+        "Address field type",
+        "Address data type",
+        "CustomAddressFieldSettings",
+        "enableCustomAddressField"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:custom-fields"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:geolocation-fields"
+        },
+        {
+          "@id": "kt:standard-objects"
+        },
+        {
+          "@id": "kt:field-sets"
+        },
+        {
+          "@id": "kt:sosl"
+        },
+        {
+          "@id": "kt:data-loader"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:state-and-country-territory-picklists"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:metadata-api"
+        }
+      ],
+      "kto:queriedWith": [
+        {
+          "@id": "kt:soql"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:apex"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:bulk-api-2"
+        }
+      ]
+    },
+    {
       "@id": "kt:custom-fields",
       "@type": "kto:Feature",
       "skos:prefLabel": "Custom Fields",
