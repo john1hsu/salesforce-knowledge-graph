@@ -6461,6 +6461,30 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/lead-conversion> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/duplicate-management> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/lead-conversion> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/lead-conversion> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/legacy-named-credentials> <http://purl.org/dc/terms/created> "2026-11-19" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/legacy-named-credentials> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/legacy-named-credentials> <http://www.w3.org/2000/01/rdf-schema#label> "Legacy Named Credentials" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/legacy-named-credentials> <http://www.w3.org/2004/02/skos/core#altLabel> "NamedCredentialType Legacy" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/legacy-named-credentials> <http://www.w3.org/2004/02/skos/core#altLabel> "legacy named credential" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/legacy-named-credentials> <http://www.w3.org/2004/02/skos/core#altLabel> "pre-Winter '23 named credentials" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/legacy-named-credentials> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-security> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/legacy-named-credentials> <http://www.w3.org/2004/02/skos/core#definition> "The original, pre-Winter '23 form of Salesforce named credentials, in which one record holds both a callout endpoint URL and its authentication settings; deprecated in favour of the extensible named credential plus external credential model, and no longer enhanced." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/legacy-named-credentials> <http://www.w3.org/2004/02/skos/core#prefLabel> "Legacy Named Credentials" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/legacy-named-credentials> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-callouts> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/legacy-named-credentials> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/remote-site-settings> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/legacy-named-credentials> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/legacy-named-credentials/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/legacy-named-credentials> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/legacy-named-credentials/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/legacy-named-credentials> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/legacy-named-credentials/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/legacy-named-credentials> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/legacy-named-credentials/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/legacy-named-credentials> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/legacy-named-credentials/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/legacy-named-credentials> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/legacy-named-credentials> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#consumedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/external-services> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/legacy-named-credentials> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#consumedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-connect> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/legacy-named-credentials> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/permission-sets> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/legacy-named-credentials> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "integration" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/legacy-named-credentials> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#replacedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/named-credentials> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/legacy-named-credentials> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "deprecated" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/legacy-named-credentials> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/license-management-app> <http://purl.org/dc/terms/created> "2026-11-18" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/license-management-app> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Tool> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/license-management-app> <http://www.w3.org/2000/01/rdf-schema#label> "License Management App" .
@@ -18114,6 +18138,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lead-conversion/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lead-conversion/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lead-conversion/s6> <https://schema.org/url> "https://trailhead.salesforce.com/en/content/learn/modules/leads_opportunities_lightning_experience/create-and-convert-leads-lightning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/legacy-named-credentials/s1> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/legacy-named-credentials/s1> <http://purl.org/dc/terms/title> "Understand Legacy Named Credentials" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/legacy-named-credentials/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/legacy-named-credentials/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/legacy-named-credentials/s1> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=xcloud.named_credentials_legacy_about.htm&language=en_US&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/legacy-named-credentials/s2> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/legacy-named-credentials/s2> <http://purl.org/dc/terms/title> "Define a Legacy Named Credential" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/legacy-named-credentials/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/legacy-named-credentials/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/legacy-named-credentials/s2> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=named_credentials_define.htm&language=en_US&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/legacy-named-credentials/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/legacy-named-credentials/s3> <http://purl.org/dc/terms/title> "Get Started with Named Credentials" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/legacy-named-credentials/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/legacy-named-credentials/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/legacy-named-credentials/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/named-credentials/guide/get-started.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/legacy-named-credentials/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/legacy-named-credentials/s4> <http://purl.org/dc/terms/title> "NamedCredential (Metadata API Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/legacy-named-credentials/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/legacy-named-credentials/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/legacy-named-credentials/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/api-metadata/references/meta-types/metadata-namedcredential.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/legacy-named-credentials/s5> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/legacy-named-credentials/s5> <http://purl.org/dc/terms/title> "Named Credentials Glossary" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/legacy-named-credentials/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/legacy-named-credentials/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/legacy-named-credentials/s5> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/named-credentials/references/named-credentials-reference/nc-glossary.html" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/license-management-app/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/license-management-app/s1> <http://purl.org/dc/terms/title> "Manage Licenses for Managed Packages" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/license-management-app/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

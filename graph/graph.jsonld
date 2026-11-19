@@ -30492,6 +30492,90 @@
       ]
     },
     {
+      "@id": "kt:legacy-named-credentials",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Legacy Named Credentials",
+      "skos:definition": "The original, pre-Winter '23 form of Salesforce named credentials, in which one record holds both a callout endpoint URL and its authentication settings; deprecated in favour of the extensible named credential plus external credential model, and no longer enhanced.",
+      "kto:domain": "integration",
+      "dcterms:created": "2026-11-19",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "deprecated",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Understand Legacy Named Credentials",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=xcloud.named_credentials_legacy_about.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Define a Legacy Named Credential",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=named_credentials_define.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Get Started with Named Credentials",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/named-credentials/guide/get-started.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "NamedCredential (Metadata API Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/api-metadata/references/meta-types/metadata-namedcredential.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Named Credentials Glossary",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/named-credentials/references/named-credentials-reference/nc-glossary.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/integration/legacy-named-credentials.md",
+      "skos:altLabel": [
+        "legacy named credential",
+        "NamedCredentialType Legacy",
+        "pre-Winter '23 named credentials"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:integration-security"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:apex-callouts"
+        },
+        {
+          "@id": "kt:remote-site-settings"
+        }
+      ],
+      "kto:replacedBy": [
+        {
+          "@id": "kt:named-credentials"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:salesforce-connect"
+        },
+        {
+          "@id": "kt:external-services"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:metadata-api"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:permission-sets"
+        }
+      ]
+    },
+    {
       "@id": "kt:managed-event-subscriptions",
       "@type": "kto:Feature",
       "skos:prefLabel": "Managed Event Subscriptions",
