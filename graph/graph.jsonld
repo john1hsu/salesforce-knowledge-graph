@@ -17976,6 +17976,100 @@
       ]
     },
     {
+      "@id": "kt:apex-logging-and-debug-logs",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Apex Logging and Debug Logs",
+      "skos:definition": "Salesforce debug logs record a transaction's database operations, system processes, Apex messages and errors; they are switched on by time-boxed trace flags, filtered by per-category debug levels, and written to from Apex with System.debug and a LoggingLevel.",
+      "kto:domain": "development",
+      "dcterms:created": "2026-11-19",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Apex Developer Guide: Debug Log",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/apex-dev/references/apex-dev/apex-debugging-debug-log.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Debug Logs",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=platform.code_debug_log.htm&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Debug Log Levels",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=code_setting_debug_log_levels.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Tooling API: TraceFlag",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api_tooling.meta/api_tooling/tooling_api_objects_traceflag.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Apex Reference Guide: System Class",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/apex-ref/references/apex-ref/apex-methods-system-system.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "The Salesforce Developer's Guide to the Winter '27 Release",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2026/10/developers-guide-to-the-winter-27-release",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/development/apex-logging-and-debug-logs.md",
+      "skos:altLabel": [
+        "debug logs",
+        "Apex debug log",
+        "System.debug",
+        "trace flags",
+        "debug levels",
+        "LoggingLevel"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:apex"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:custom-exceptions"
+        },
+        {
+          "@id": "kt:flow-debugging"
+        },
+        {
+          "@id": "kt:apex-testing"
+        },
+        {
+          "@id": "kt:limits-class"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:tooling-api"
+        },
+        {
+          "@id": "kt:developer-console"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:salesforce-cli"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:event-monitoring"
+        }
+      ]
+    },
+    {
       "@id": "kt:apex-security-with-sharing",
       "@type": "kto:SecurityControl",
       "skos:prefLabel": "Apex Sharing Keywords",

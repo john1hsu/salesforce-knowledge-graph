@@ -12,7 +12,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:security-center` | `kt:continuous-monitoring`, `kt:security-governance` |
 | `kt:user-stories` | `kt:fit-gap-analysis`, `kt:requirements-gathering` |
 | `kt:email-templates` | `kt:auto-response-rules`, `kt:email-alerts` |
-| `kt:apex-logging-and-debug-logs` | `kt:custom-exceptions`, `kt:flow-debugging` |
 | `kt:custom-address-fields` | `kt:geolocation-fields`, `kt:state-and-country-territory-picklists` |
 | `kt:salesforce-ecosystem-roles` | `kt:salesforce-architect` |
 | `kt:lightning-service-console` | `kt:service-cloud` |
@@ -118,6 +117,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:business-analyst-certification` | `kt:user-acceptance-testing` |
 | `kt:data-processing-engine` | `kt:loyalty-management` |
 | `kt:username-password-flow` | `kt:client-credentials-flow` |
+| `kt:developer-console` | `kt:apex-logging-and-debug-logs` |
 | `kt:document-ai` | `kt:unstructured-data-in-data-cloud` |
 | `kt:json-web-signature` | `kt:json-web-token` |
 | `kt:ldap` | `kt:delegated-authentication` |
