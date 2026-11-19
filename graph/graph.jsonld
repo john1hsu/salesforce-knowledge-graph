@@ -41131,6 +41131,94 @@
           "@id": "kt:experience-cloud"
         }
       ]
+    },
+    {
+      "@id": "kt:with-security-enforced",
+      "@type": "kto:SecurityControl",
+      "skos:prefLabel": "WITH SECURITY_ENFORCED",
+      "skos:definition": "A legacy Apex-only SOQL clause that checks object and field-level permissions for the fields and objects in a SELECT query and throws a QueryException if any are inaccessible; superseded by WITH USER_MODE and not allowed in Apex saved at API version 67.0 or later.",
+      "kto:domain": "security-and-sharing",
+      "dcterms:created": "2026-11-19",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "deprecated",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Filter SOQL Queries Using WITH SECURITY_ENFORCED (Apex Developer Guide, Spring '26)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.260.0.apexcode.meta/pages/apex_classes_with_security_enforced.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Apex Security and Sharing (Apex Developer Guide, Winter '27)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/apex-dev/references/apex-dev/apex-security-sharing-chapter.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Enforce User Mode for Database Operations (Apex Developer Guide, Spring '26)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.260.0.apexcode.meta/pages/apex_classes_enforce_usermode.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Protect Your Application from CRUD/FLS Vulnerabilities (Secure Coding Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/secure-coding/guide/secure-coding-access-control-protect-from-crud-fls-vulnerabilities.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Write Secure Apex Controllers (Trailhead, Secure Server-Side Development)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/secure-serverside-development/write-secure-apex-controllers",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/security-and-sharing/with-security-enforced.md",
+      "skos:altLabel": [
+        "WITH SECURITY_ENFORCED clause",
+        "SOQL WITH SECURITY_ENFORCED",
+        "Filter SOQL Queries Using WITH SECURITY_ENFORCED"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:field-level-security"
+        },
+        {
+          "@id": "kt:soql"
+        },
+        {
+          "@id": "kt:secure-coding"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:apex-security-with-sharing"
+        },
+        {
+          "@id": "kt:appexchange-security-review"
+        },
+        {
+          "@id": "kt:polymorphic-relationships"
+        }
+      ],
+      "kto:replacedBy": [
+        {
+          "@id": "kt:apex-user-mode"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:security-stripinaccessible"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:permission-sets"
+        },
+        {
+          "@id": "kt:profiles"
+        }
+      ]
     }
   ]
 }

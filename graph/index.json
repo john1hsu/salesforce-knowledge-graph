@@ -10790,6 +10790,28 @@
     ]
   },
   {
+    "id": "kt:with-security-enforced",
+    "title": "WITH SECURITY_ENFORCED",
+    "aliases": [
+      "WITH SECURITY_ENFORCED clause",
+      "SOQL WITH SECURITY_ENFORCED",
+      "Filter SOQL Queries Using WITH SECURITY_ENFORCED"
+    ],
+    "type": "SecurityControl",
+    "domain": "security-and-sharing",
+    "file": "articles/security-and-sharing/with-security-enforced.md",
+    "created": "2026-11-19",
+    "release": "Winter '27",
+    "status": "deprecated",
+    "source_urls": [
+      "https://developer.salesforce.com/docs/atlas.en-us.260.0.apexcode.meta/pages/apex_classes_with_security_enforced.htm",
+      "https://developer.salesforce.com/docs/platform/apex-dev/references/apex-dev/apex-security-sharing-chapter.html",
+      "https://developer.salesforce.com/docs/atlas.en-us.260.0.apexcode.meta/pages/apex_classes_enforce_usermode.htm",
+      "https://developer.salesforce.com/docs/platform/secure-coding/guide/secure-coding-access-control-protect-from-crud-fls-vulnerabilities.html",
+      "https://trailhead.salesforce.com/content/learn/modules/secure-serverside-development/write-secure-apex-controllers"
+    ]
+  },
+  {
     "id": "kt:workflow-rules",
     "title": "Workflow Rules",
     "aliases": [
