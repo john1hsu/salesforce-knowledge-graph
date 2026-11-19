@@ -1,9 +1,9 @@
 # Graph statistics
 
-- Articles (nodes written): **465**
-- Frontier nodes (referenced, unwritten): **152**
-- Edges: **4268**
-- Citations: **2513**
+- Articles (nodes written): **466**
+- Frontier nodes (referenced, unwritten): **151**
+- Edges: **4278**
+- Citations: **2518**
 
 - Weakly connected components: **1**
 - Isolated articles (no edges): **0**
@@ -15,11 +15,11 @@
 | `kt:governor-limits` | 0.0230 | yes |
 | `kt:salesforce-platform` | 0.0181 | yes |
 | `kt:flow-builder` | 0.0172 | yes |
-| `kt:apex-triggers` | 0.0165 | yes |
+| `kt:apex-triggers` | 0.0166 | yes |
 | `kt:apex` | 0.0160 | yes |
 | `kt:metadata-api` | 0.0133 | yes |
 | `kt:multitenancy` | 0.0129 | yes |
-| `kt:application-lifecycle-management` | 0.0127 | yes |
+| `kt:application-lifecycle-management` | 0.0128 | yes |
 | `kt:apex-testing` | 0.0124 | yes |
 | `kt:asynchronous-apex` | 0.0121 | yes |
 | `kt:sandbox-types` | 0.0112 | yes |
@@ -30,15 +30,15 @@
 
 ## Communities (Louvain): 9
 
-1. `kt:agent-actions`, `kt:agent-development-lifecycle`, `kt:agent-script`, `kt:agent-to-agent-protocol`, `kt:agentexchange`, `kt:agentexchange-go-to-market-app`, `kt:agentforce`, `kt:agentforce-architecture-patterns`, `kt:agentforce-data-library`, `kt:agentforce-dx`, `kt:agentforce-specialist-certification`, `kt:agentforce-studio` …
-2. `kt:apex`, `kt:apex-cursors`, `kt:apex-defined-types`, `kt:apex-enterprise-patterns`, `kt:apex-flex-queue`, `kt:apex-mocks`, `kt:apex-triggers`, `kt:apexguru`, `kt:approval-processes`, `kt:assignment-rules`, `kt:asynchronous-apex`, `kt:auto-response-rules` …
-3. `kt:activity-data-model`, `kt:anypoint-runtime-manager`, `kt:apex-callouts`, `kt:apex-continuations`, `kt:apex-rest-services`, `kt:api-led-connectivity`, `kt:api-request-limits`, `kt:application-network`, `kt:archiving-strategy`, `kt:backup-and-recover`, `kt:backup-and-recover-next`, `kt:batch-data-synchronization` …
-4. `kt:agentforce-nonprofit`, `kt:agentforce-nonprofit-consultant-certification`, `kt:apex-managed-sharing`, `kt:business-processes`, `kt:collaborative-forecasts`, `kt:compact-layouts`, `kt:constraint-modeling-language`, `kt:contacts-to-multiple-accounts`, `kt:currency-type-object`, `kt:custom-address-fields`, `kt:custom-fields`, `kt:custom-objects` …
-5. `kt:authority-to-operate`, `kt:cap-theorem`, `kt:cjis-security-policy`, `kt:classic-encryption`, `kt:cloud-computing`, `kt:cobit`, `kt:computer-science`, `kt:continuous-monitoring`, `kt:corporate-governance`, `kt:data-breach-risk`, `kt:data-classification`, `kt:data-detect` …
-6. `kt:account-takeover`, `kt:api-access-control`, `kt:api-experience-hub`, `kt:certificate-and-key-management`, `kt:client-credentials-flow`, `kt:connected-apps`, `kt:delegated-authentication`, `kt:device-flow`, `kt:experience-cloud-identity`, `kt:external-client-apps`, `kt:external-identity-license`, `kt:headless-identity` …
-7. `kt:application-architect-certification`, `kt:architect-decision-guides`, `kt:architecture-decision-records`, `kt:build-vs-buy-decisions`, `kt:business-analyst`, `kt:business-analyst-certification`, `kt:business-architecture`, `kt:business-process-mapping`, `kt:capability-maps`, `kt:certified-technical-architect`, `kt:change-management-and-adoption`, `kt:cta-review-board` …
-8. `kt:agentforce-vibes`, `kt:agentforce-vibes-ide`, `kt:ant-migration-tool`, `kt:apex-logging-and-debug-logs`, `kt:apex-testing`, `kt:application-lifecycle-management`, `kt:branching-strategy`, `kt:change-sets`, `kt:code-analyzer`, `kt:continuous-integration-for-salesforce`, `kt:data-mask-and-seed`, `kt:dependency-api` …
-9. `kt:actionable-relationship-center`, `kt:apex-security-with-sharing`, `kt:apex-user-mode`, `kt:appexchange-security-review`, `kt:aura-components`, `kt:business-rules-engine`, `kt:compliant-data-sharing`, `kt:content-delivery-network`, `kt:content-security-policy`, `kt:context-service`, `kt:cross-site-scripting`, `kt:custom-domains` …
+1. `kt:actionable-relationship-center`, `kt:agentforce-nonprofit`, `kt:agentforce-nonprofit-consultant-certification`, `kt:apex-managed-sharing`, `kt:api-experience-hub`, `kt:assignment-rules`, `kt:business-hours`, `kt:business-rules-engine`, `kt:collaborative-forecasts`, `kt:compliant-data-sharing`, `kt:constraint-modeling-language`, `kt:contacts-to-multiple-accounts` …
+2. `kt:agent-actions`, `kt:agent-development-lifecycle`, `kt:agent-script`, `kt:agent-to-agent-protocol`, `kt:agentexchange`, `kt:agentexchange-go-to-market-app`, `kt:agentforce`, `kt:agentforce-architecture-patterns`, `kt:agentforce-data-library`, `kt:agentforce-specialist-certification`, `kt:agentforce-studio`, `kt:agentforce-subagents` …
+3. `kt:activity-data-model`, `kt:apex`, `kt:apex-continuations`, `kt:apex-enterprise-patterns`, `kt:apex-mocks`, `kt:apex-security-with-sharing`, `kt:apex-user-mode`, `kt:appexchange-security-review`, `kt:aura-components`, `kt:business-processes`, `kt:compact-layouts`, `kt:content-document-model` …
+4. `kt:apex-cursors`, `kt:apex-defined-types`, `kt:apex-flex-queue`, `kt:apex-logging-and-debug-logs`, `kt:apex-testing`, `kt:apex-triggers`, `kt:apexguru`, `kt:approval-processes`, `kt:asynchronous-apex`, `kt:auto-response-rules`, `kt:autolaunched-flow`, `kt:batch-apex` …
+5. `kt:anypoint-runtime-manager`, `kt:apex-callouts`, `kt:apex-rest-services`, `kt:api-led-connectivity`, `kt:api-request-limits`, `kt:application-network`, `kt:archiving-strategy`, `kt:backup-and-recover`, `kt:backup-and-recover-next`, `kt:batch-data-synchronization`, `kt:big-objects`, `kt:bulk-api-1` …
+6. `kt:application-architect-certification`, `kt:architect-decision-guides`, `kt:architecture-decision-records`, `kt:b2c-commerce-architect-certification`, `kt:b2c-solution-architect-certification`, `kt:build-vs-buy-decisions`, `kt:business-analyst`, `kt:business-analyst-certification`, `kt:business-architecture`, `kt:business-process-mapping`, `kt:capability-maps`, `kt:certified-technical-architect` …
+7. `kt:authority-to-operate`, `kt:cap-theorem`, `kt:cjis-security-policy`, `kt:classic-encryption`, `kt:cloud-computing`, `kt:computer-science`, `kt:continuous-monitoring`, `kt:data-breach-risk`, `kt:data-classification`, `kt:data-detect`, `kt:data-residency`, `kt:data-sovereignty` …
+8. `kt:account-takeover`, `kt:api-access-control`, `kt:certificate-and-key-management`, `kt:client-credentials-flow`, `kt:connected-apps`, `kt:content-delivery-network`, `kt:custom-domains`, `kt:delegated-authentication`, `kt:device-flow`, `kt:experience-cloud-identity`, `kt:external-client-apps`, `kt:headless-identity` …
+9. `kt:agentforce-dx`, `kt:agentforce-vibes`, `kt:agentforce-vibes-ide`, `kt:ant-migration-tool`, `kt:application-lifecycle-management`, `kt:branching-strategy`, `kt:change-management-and-adoption`, `kt:change-sets`, `kt:code-analyzer`, `kt:continuous-integration-for-salesforce`, `kt:custom-metadata-types`, `kt:data-mask-and-seed` …
 
 ## By type
 
@@ -47,7 +47,7 @@
 - Certification: 23
 - Concept: 78
 - ExternalConcept: 42
-- Feature: 165
+- Feature: 166
 - Language: 4
 - Limit: 10
 - MetadataType: 3
@@ -69,7 +69,7 @@
 - development: 39
 - devops-and-alm: 39
 - identity: 38
-- integration: 38
+- integration: 39
 - platform-architecture: 39
 - public-sector-and-compliance: 38
 - security-and-sharing: 39
@@ -91,11 +91,11 @@
 
 ## By verified release (oldest = most likely stale)
 
-- Winter '27: 465
+- Winter '27: 466
 
 ## By status
 
-- beta: 2
+- beta: 3
 - concept: 103
 - current: 352
 - deprecated: 6

@@ -16,7 +16,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:salesforce-ecosystem-roles` | `kt:salesforce-architect` |
 | `kt:lightning-service-console` | `kt:service-cloud` |
 | `kt:service-setup-assistant` | `kt:service-cloud` |
-| `kt:managed-event-subscriptions` | `kt:pub-sub-api` |
 | `kt:legacy-named-credentials` | `kt:named-credentials` |
 | `kt:salesforce-architecture-program` | `kt:salesforce-architecture-center` |
 | `kt:salesforce-archive` | `kt:archiving-strategy` |
@@ -34,13 +33,13 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:data-stewardship` | `kt:data-governance` |
 | `kt:data-import-wizard` | `kt:data-loader` |
 | `kt:salesforce-lightning-design-system` | `kt:visualforce` |
+| `kt:pushtopic-streaming-allocations` | `kt:streaming-api` |
 | `kt:dispatcher-console` | `kt:field-service` |
 | `kt:field-service-mobile-app` | `kt:field-service` |
 | `kt:field-service-scheduling-policies` | `kt:field-service` |
 | `kt:service-appointments` | `kt:field-service` |
 | `kt:work-orders` | `kt:field-service` |
 | `kt:salesforce-sites` | `kt:custom-domains` |
-| `kt:pushtopic-streaming-allocations` | `kt:streaming-api` |
 | `kt:tableau-pulse` | `kt:tableau` |
 | `kt:entitlement-process-metadata` | `kt:entitlement-management` |
 | `kt:einstein-discovery` | `kt:crm-analytics` |
@@ -62,8 +61,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:path` | `kt:business-processes` |
 | `kt:revenue-intelligence` | `kt:collaborative-forecasts` |
 | `kt:ingestion-api` | `kt:data-streams` |
-| `kt:object-manager` | `kt:schema-builder` |
 | `kt:application-network` | `kt:api-led-connectivity` |
+| `kt:object-manager` | `kt:schema-builder` |
 | `kt:point-to-point-integration` | `kt:api-led-connectivity` |
 | `kt:batch-apex-error-event` | `kt:transaction-finalizers` |
 | `kt:heroku-postgres` | `kt:heroku-connect` |
@@ -98,8 +97,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:platform-cache-partitions` | `kt:platform-cache` |
 | `kt:data-cloud-query-api` | `kt:data-graphs` |
 | `kt:engagement-studio` | `kt:marketing-cloud-account-engagement` |
-| `kt:management` | `kt:organizational-governance` |
 | `kt:holidays` | `kt:business-hours` |
+| `kt:management` | `kt:organizational-governance` |
 | `kt:model-context-protocol` | `kt:model-context-protocol-in-agentforce` |
 | `kt:salesforce-hosted-mcp-servers` | `kt:model-context-protocol-in-agentforce` |
 | `kt:business-process-mapping` | `kt:requirements-gathering` |
@@ -109,8 +108,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:sharing-sets` | `kt:customer-community-licenses` |
 | `kt:data-cloud-code-extension` | `kt:vector-search-in-data-cloud` |
 | `kt:apex-defined-types` | `kt:transform-element` |
-| `kt:iso-iec-27017` | `kt:iso-iec-27002` |
 | `kt:agentforce-vibes` | `kt:agentforce-vibes-ide` |
+| `kt:iso-iec-27017` | `kt:iso-iec-27002` |
 | `kt:b2b-commerce` | `kt:commerce-cloud` |
 | `kt:b2c-commerce` | `kt:commerce-cloud` |
 | `kt:salesforce-order-management` | `kt:commerce-cloud` |
@@ -118,8 +117,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:data-processing-engine` | `kt:loyalty-management` |
 | `kt:username-password-flow` | `kt:client-credentials-flow` |
 | `kt:developer-console` | `kt:apex-logging-and-debug-logs` |
-| `kt:document-ai` | `kt:unstructured-data-in-data-cloud` |
 | `kt:json-web-signature` | `kt:json-web-token` |
+| `kt:document-ai` | `kt:unstructured-data-in-data-cloud` |
 | `kt:ldap` | `kt:delegated-authentication` |
 | `kt:models-api` | `kt:ai-models` |
 | `kt:ui-api` | `kt:field-dependencies` |
