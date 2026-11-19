@@ -1563,6 +1563,108 @@
       ]
     },
     {
+      "@id": "kt:licensing-strategy",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Licensing Strategy",
+      "skos:definition": "The architect's practice of mapping each user persona to the least expensive Salesforce license combination that still meets its functional, security and scale needs — edition, user license, permission set licenses, member- or login-based external licenses — and of keeping that mix aligned with production as the org changes.",
+      "kto:domain": "architecture-practice",
+      "dcterms:created": "2026-11-19",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Understand How Licenses Work (Salesforce Licensing module)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/salesforce-licensing/understand-how-licenses-work",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Give Users the Functionality They Need (Salesforce Licensing module)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/salesforce-licensing/give-users-the-functionality-they-need",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "User Licenses",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=platform.users_understanding_license_types.htm&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "When to Use an Internal or External License",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=platform.users_internal_external_license_types.htm&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Experience Cloud User Licenses",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=users_license_types_communities.htm&language=en_US&type=0",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Salesforce Certified Experience Cloud Consultant Exam Guide",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=005298944&language=en_US&type=1",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/architecture-practice/licensing-strategy.md",
+      "skos:altLabel": [
+        "Salesforce licensing strategy",
+        "license strategy",
+        "license selection",
+        "license mix design",
+        "persona-to-license mapping"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:solution-design-tradeoffs"
+        },
+        {
+          "@id": "kt:salesforce-licensing"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:user-licenses"
+        },
+        {
+          "@id": "kt:permission-set-licenses"
+        },
+        {
+          "@id": "kt:customer-community-licenses"
+        },
+        {
+          "@id": "kt:external-identity-license"
+        },
+        {
+          "@id": "kt:total-cost-of-ownership"
+        },
+        {
+          "@id": "kt:org-strategy"
+        }
+      ],
+      "kto:usedBy": [
+        {
+          "@id": "kt:salesforce-architect"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:profiles"
+        },
+        {
+          "@id": "kt:permission-sets"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:experience-cloud-consultant-certification"
+        }
+      ]
+    },
+    {
       "@id": "kt:mulesoft-platform-architect-certification",
       "@type": "kto:Certification",
       "skos:prefLabel": "MuleSoft Platform Architect Certification",

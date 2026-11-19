@@ -6350,6 +6350,37 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/license-management-app> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/partner-console> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/license-management-app> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/license-management-app> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/licensing-strategy> <http://purl.org/dc/terms/created> "2026-11-19" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/licensing-strategy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/licensing-strategy> <http://www.w3.org/2000/01/rdf-schema#label> "Licensing Strategy" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/licensing-strategy> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce licensing strategy" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/licensing-strategy> <http://www.w3.org/2004/02/skos/core#altLabel> "license mix design" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/licensing-strategy> <http://www.w3.org/2004/02/skos/core#altLabel> "license selection" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/licensing-strategy> <http://www.w3.org/2004/02/skos/core#altLabel> "license strategy" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/licensing-strategy> <http://www.w3.org/2004/02/skos/core#altLabel> "persona-to-license mapping" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/licensing-strategy> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-licensing> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/licensing-strategy> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/solution-design-tradeoffs> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/licensing-strategy> <http://www.w3.org/2004/02/skos/core#definition> "The architect's practice of mapping each user persona to the least expensive Salesforce license combination that still meets its functional, security and scale needs — edition, user license, permission set licenses, member- or login-based external licenses — and of keeping that mix aligned with production as the org changes." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/licensing-strategy> <http://www.w3.org/2004/02/skos/core#prefLabel> "Licensing Strategy" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/licensing-strategy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/customer-community-licenses> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/licensing-strategy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/external-identity-license> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/licensing-strategy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/org-strategy> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/licensing-strategy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/permission-set-licenses> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/licensing-strategy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/total-cost-of-ownership> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/licensing-strategy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/user-licenses> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/licensing-strategy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/licensing-strategy/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/licensing-strategy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/licensing-strategy/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/licensing-strategy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/licensing-strategy/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/licensing-strategy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/licensing-strategy/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/licensing-strategy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/licensing-strategy/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/licensing-strategy> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/licensing-strategy/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/licensing-strategy> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#coveredBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/experience-cloud-consultant-certification> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/licensing-strategy> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/permission-sets> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/licensing-strategy> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/profiles> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/licensing-strategy> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "architecture-practice" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/licensing-strategy> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/licensing-strategy> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#usedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-architect> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/licensing-strategy> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-app-builder> <http://purl.org/dc/terms/created> "2026-11-08" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-app-builder> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Tool> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-app-builder> <http://www.w3.org/2000/01/rdf-schema#label> "Lightning App Builder" .
@@ -17802,6 +17833,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/license-management-app/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/license-management-app/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/license-management-app/s5> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.pkg2_dev.meta/pkg2_dev/lma_associate_package.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/licensing-strategy/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/licensing-strategy/s1> <http://purl.org/dc/terms/title> "Understand How Licenses Work (Salesforce Licensing module)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/licensing-strategy/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/licensing-strategy/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/licensing-strategy/s1> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/salesforce-licensing/understand-how-licenses-work" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/licensing-strategy/s2> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/licensing-strategy/s2> <http://purl.org/dc/terms/title> "Give Users the Functionality They Need (Salesforce Licensing module)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/licensing-strategy/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/licensing-strategy/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/licensing-strategy/s2> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/salesforce-licensing/give-users-the-functionality-they-need" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/licensing-strategy/s3> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/licensing-strategy/s3> <http://purl.org/dc/terms/title> "User Licenses" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/licensing-strategy/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/licensing-strategy/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/licensing-strategy/s3> <https://schema.org/url> "https://help.salesforce.com/s/articleView?language=en_US&id=platform.users_understanding_license_types.htm&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/licensing-strategy/s4> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/licensing-strategy/s4> <http://purl.org/dc/terms/title> "When to Use an Internal or External License" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/licensing-strategy/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/licensing-strategy/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/licensing-strategy/s4> <https://schema.org/url> "https://help.salesforce.com/s/articleView?language=en_US&id=platform.users_internal_external_license_types.htm&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/licensing-strategy/s5> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/licensing-strategy/s5> <http://purl.org/dc/terms/title> "Experience Cloud User Licenses" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/licensing-strategy/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/licensing-strategy/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/licensing-strategy/s5> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=users_license_types_communities.htm&language=en_US&type=0" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/licensing-strategy/s6> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/licensing-strategy/s6> <http://purl.org/dc/terms/title> "Salesforce Certified Experience Cloud Consultant Exam Guide" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/licensing-strategy/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/licensing-strategy/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/licensing-strategy/s6> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=005298944&language=en_US&type=1" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lightning-app-builder/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lightning-app-builder/s1> <http://purl.org/dc/terms/title> "Lightning App Builder: Get Started with the Lightning App Builder" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lightning-app-builder/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
