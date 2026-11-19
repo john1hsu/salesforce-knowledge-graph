@@ -8222,6 +8222,87 @@
       ]
     },
     {
+      "@id": "kt:journey-builder",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Journey Builder",
+      "skos:definition": "The Marketing Cloud Engagement application for designing and running automated, multi-step, multi-channel customer journeys on a drag-and-drop canvas, where contacts enter from one entry source and move through message, advertising, flow-control, data-update and Sales and Service Cloud activities.",
+      "kto:domain": "clouds-and-products",
+      "dcterms:created": "2026-11-19",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Get Started with Journey Builder (Journey Builder Basics)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/journey-builder-basics/get-started-with-journey-builder",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Prepare the Entry Source (Journey Builder Campaigns)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/journey-builder-campaigns/prepare-the-entry-source",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Journey Builder Glossary",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/marketing/marketing-cloud/guide/glossary.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Build Custom Activities and Events",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/marketing/marketing-cloud/guide/creating-activities",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Marketing Cloud Journey Builder Implementation Guide (PDF)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://resources.docs.salesforce.com/latest/latest/en-us/sfdc/pdf/mc_jb_implementation_guide.pdf",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/clouds-and-products/journey-builder.md",
+      "skos:altLabel": [
+        "Marketing Cloud Journey Builder",
+        "SFMC Journey Builder"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:marketing-cloud-engagement"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:loyalty-management"
+        },
+        {
+          "@id": "kt:salesforce-marketing-solutions"
+        },
+        {
+          "@id": "kt:marketing-cloud-next"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:marketing-cloud-engagement"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:contact-builder"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:automation-studio"
+        },
+        {
+          "@id": "kt:marketing-cloud-connect"
+        }
+      ]
+    },
+    {
       "@id": "kt:knowledge-base",
       "@type": "kto:Feature",
       "skos:prefLabel": "Salesforce Knowledge",

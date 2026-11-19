@@ -6135,6 +6135,29 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/it-governance> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/security-governance> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/it-governance> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/it-governance> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/journey-builder> <http://purl.org/dc/terms/created> "2026-11-19" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/journey-builder> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/journey-builder> <http://www.w3.org/2000/01/rdf-schema#label> "Journey Builder" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/journey-builder> <http://www.w3.org/2004/02/skos/core#altLabel> "Marketing Cloud Journey Builder" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/journey-builder> <http://www.w3.org/2004/02/skos/core#altLabel> "SFMC Journey Builder" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/journey-builder> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/marketing-cloud-engagement> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/journey-builder> <http://www.w3.org/2004/02/skos/core#definition> "The Marketing Cloud Engagement application for designing and running automated, multi-step, multi-channel customer journeys on a drag-and-drop canvas, where contacts enter from one entry source and move through message, advertising, flow-control, data-update and Sales and Service Cloud activities." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/journey-builder> <http://www.w3.org/2004/02/skos/core#prefLabel> "Journey Builder" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/journey-builder> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/loyalty-management> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/journey-builder> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/marketing-cloud-next> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/journey-builder> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-marketing-solutions> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/journey-builder> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/journey-builder/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/journey-builder> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/journey-builder/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/journey-builder> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/journey-builder/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/journey-builder> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/journey-builder/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/journey-builder> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/journey-builder/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/journey-builder> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/contact-builder> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/journey-builder> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "clouds-and-products" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/journey-builder> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/automation-studio> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/journey-builder> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/marketing-cloud-connect> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/journey-builder> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#partOf> <https://github.com/john1hsu/salesforce-knowledge-graph/id/marketing-cloud-engagement> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/journey-builder> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/journey-builder> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/json-web-token> <http://purl.org/dc/terms/created> "2026-11-18" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/json-web-token> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#ExternalConcept> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/json-web-token> <http://www.w3.org/2000/01/rdf-schema#label> "JSON Web Token" .
@@ -17613,6 +17636,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/it-governance/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/it-governance/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/it-governance/s6> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/salesforce-governance-with-a-center-of-excellence/define-your-salesforce-coe" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/journey-builder/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/journey-builder/s1> <http://purl.org/dc/terms/title> "Get Started with Journey Builder (Journey Builder Basics)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/journey-builder/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/journey-builder/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/journey-builder/s1> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/journey-builder-basics/get-started-with-journey-builder" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/journey-builder/s2> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/journey-builder/s2> <http://purl.org/dc/terms/title> "Prepare the Entry Source (Journey Builder Campaigns)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/journey-builder/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/journey-builder/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/journey-builder/s2> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/journey-builder-campaigns/prepare-the-entry-source" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/journey-builder/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/journey-builder/s3> <http://purl.org/dc/terms/title> "Journey Builder Glossary" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/journey-builder/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/journey-builder/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/journey-builder/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/marketing/marketing-cloud/guide/glossary.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/journey-builder/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/journey-builder/s4> <http://purl.org/dc/terms/title> "Build Custom Activities and Events" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/journey-builder/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/journey-builder/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/journey-builder/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/marketing/marketing-cloud/guide/creating-activities" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/journey-builder/s5> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/journey-builder/s5> <http://purl.org/dc/terms/title> "Marketing Cloud Journey Builder Implementation Guide (PDF)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/journey-builder/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/journey-builder/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/journey-builder/s5> <https://schema.org/url> "https://resources.docs.salesforce.com/latest/latest/en-us/sfdc/pdf/mc_jb_implementation_guide.pdf" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/json-web-token/s1> <http://purl.org/dc/terms/publisher> "IETF / RFC Editor" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/json-web-token/s1> <http://purl.org/dc/terms/title> "RFC 7519: JSON Web Token (JWT)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/json-web-token/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
