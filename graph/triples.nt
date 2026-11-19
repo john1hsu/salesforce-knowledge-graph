@@ -468,6 +468,32 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/ai-models> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/models-api> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/ai-models> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/ai-models> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/ant-migration-tool> <http://purl.org/dc/terms/created> "2026-11-19" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/ant-migration-tool> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Tool> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/ant-migration-tool> <http://www.w3.org/2000/01/rdf-schema#label> "Ant Migration Tool" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/ant-migration-tool> <http://www.w3.org/2004/02/skos/core#altLabel> "ANT Migration Tool" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/ant-migration-tool> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce Ant tasks" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/ant-migration-tool> <http://www.w3.org/2004/02/skos/core#altLabel> "ant-salesforce.jar" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/ant-migration-tool> <http://www.w3.org/2004/02/skos/core#altLabel> "sf:deploy Ant task" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/ant-migration-tool> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/application-lifecycle-management> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/ant-migration-tool> <http://www.w3.org/2004/02/skos/core#definition> "Salesforce's retired Java/Apache Ant-based command-line utility for retrieving and deploying metadata and Apex between a local directory and an org through the Metadata API, driven by build.xml targets and a package.xml manifest; retired with Spring '24 in favour of Salesforce CLI." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/ant-migration-tool> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ant Migration Tool" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/ant-migration-tool> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/continuous-integration-for-salesforce> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/ant-migration-tool> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/deployment-validation-and-quick-deploy> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/ant-migration-tool> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/package-xml-manifest> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/ant-migration-tool> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/ant-migration-tool/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/ant-migration-tool> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/ant-migration-tool/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/ant-migration-tool> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/ant-migration-tool/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/ant-migration-tool> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/ant-migration-tool/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/ant-migration-tool> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/ant-migration-tool/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/ant-migration-tool> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/ant-migration-tool/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/ant-migration-tool> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#alternativeTo> <https://github.com/john1hsu/salesforce-knowledge-graph/id/change-sets> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/ant-migration-tool> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-testing> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/ant-migration-tool> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "devops-and-alm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/ant-migration-tool> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/ant-migration-tool> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#replacedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-cli> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/ant-migration-tool> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "retired" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/ant-migration-tool> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-callouts> <http://purl.org/dc/terms/created> "2026-11-04" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-callouts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-callouts> <http://www.w3.org/2000/01/rdf-schema#label> "Apex Callouts" .
@@ -11849,6 +11875,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/ai-models/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/ai-models/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/ai-models/s6> <https://schema.org/url> "https://developer.salesforce.com/blogs/2024/03/use-model-builder-to-integrate-databricks-models-with-salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/ant-migration-tool/s1> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/ant-migration-tool/s1> <http://purl.org/dc/terms/title> "Ant Migration Tool (Salesforce Migration Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/ant-migration-tool/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/ant-migration-tool/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/ant-migration-tool/s1> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/salesforce-migration-guide/guide" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/ant-migration-tool/s2> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/ant-migration-tool/s2> <http://purl.org/dc/terms/title> "Deploying Changes to a Salesforce Org (Ant Migration Tool Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/ant-migration-tool/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/ant-migration-tool/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/ant-migration-tool/s2> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.daas.meta/daas/forcemigrationtool_deploy.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/ant-migration-tool/s3> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/ant-migration-tool/s3> <http://purl.org/dc/terms/title> "Deploying a Recent Validation (Ant Migration Tool Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/ant-migration-tool/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/ant-migration-tool/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/ant-migration-tool/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.daas.meta/daas/forcemigrationtool_deploy_validation.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/ant-migration-tool/s4> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/ant-migration-tool/s4> <http://purl.org/dc/terms/title> "Prerequisites for Using the Ant Migration Tool" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/ant-migration-tool/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/ant-migration-tool/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/ant-migration-tool/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/salesforce-migration-guide/guide/forcemigrationtool-prereq.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/ant-migration-tool/s5> <http://purl.org/dc/terms/publisher> "Salesforce Developers Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/ant-migration-tool/s5> <http://purl.org/dc/terms/title> "Moving on from the Ant Migration Tool to sf CLI (v2)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/ant-migration-tool/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/ant-migration-tool/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/ant-migration-tool/s5> <https://schema.org/url> "https://developer.salesforce.com/blogs/2024/01/moving-on-from-the-ant-migration-tool-to-sf-cli-v2" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/ant-migration-tool/s6> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/ant-migration-tool/s6> <http://purl.org/dc/terms/title> "Retrieving Components (Ant Migration Tool Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/ant-migration-tool/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/ant-migration-tool/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/ant-migration-tool/s6> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.daas.meta/daas/forcemigrationtool_retrieve.htm" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-callouts/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-callouts/s1> <http://purl.org/dc/terms/title> "Apex Developer Guide: Invoking Callouts Using Apex" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-callouts/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

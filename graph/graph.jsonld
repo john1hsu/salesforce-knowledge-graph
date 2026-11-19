@@ -21120,6 +21120,97 @@
       ]
     },
     {
+      "@id": "kt:ant-migration-tool",
+      "@type": "kto:Tool",
+      "skos:prefLabel": "Ant Migration Tool",
+      "skos:definition": "Salesforce's retired Java/Apache Ant-based command-line utility for retrieving and deploying metadata and Apex between a local directory and an org through the Metadata API, driven by build.xml targets and a package.xml manifest; retired with Spring '24 in favour of Salesforce CLI.",
+      "kto:domain": "devops-and-alm",
+      "dcterms:created": "2026-11-19",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "retired",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Ant Migration Tool (Salesforce Migration Guide)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/platform/salesforce-migration-guide/guide",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Deploying Changes to a Salesforce Org (Ant Migration Tool Guide)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.daas.meta/daas/forcemigrationtool_deploy.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Deploying a Recent Validation (Ant Migration Tool Guide)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.daas.meta/daas/forcemigrationtool_deploy_validation.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Prerequisites for Using the Ant Migration Tool",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/platform/salesforce-migration-guide/guide/forcemigrationtool-prereq.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Moving on from the Ant Migration Tool to sf CLI (v2)",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2024/01/moving-on-from-the-ant-migration-tool-to-sf-cli-v2",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Retrieving Components (Ant Migration Tool Guide)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.daas.meta/daas/forcemigrationtool_retrieve.htm",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/devops-and-alm/ant-migration-tool.md",
+      "skos:altLabel": [
+        "ANT Migration Tool",
+        "ant-salesforce.jar",
+        "Salesforce Ant tasks",
+        "sf:deploy Ant task"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:application-lifecycle-management"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:package-xml-manifest"
+        },
+        {
+          "@id": "kt:deployment-validation-and-quick-deploy"
+        },
+        {
+          "@id": "kt:continuous-integration-for-salesforce"
+        }
+      ],
+      "kto:replacedBy": [
+        {
+          "@id": "kt:salesforce-cli"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:metadata-api"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:change-sets"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:apex-testing"
+        }
+      ]
+    },
+    {
       "@id": "kt:appexchange-security-review",
       "@type": "kto:Concept",
       "skos:prefLabel": "AgentExchange Security Review",
