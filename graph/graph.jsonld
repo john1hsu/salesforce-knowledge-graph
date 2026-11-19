@@ -38085,6 +38085,92 @@
       ]
     },
     {
+      "@id": "kt:trust-services-criteria",
+      "@type": "kto:ExternalConcept",
+      "skos:prefLabel": "Trust Services Criteria",
+      "skos:definition": "The control criteria set by the AICPA's Assurance Services Executive Committee for evaluating controls over security, availability, processing integrity, confidentiality and privacy; they are the yardstick a CPA applies in SOC 2, SOC 3 and SOC for Cybersecurity engagements, and a 2027 revision is out for comment.",
+      "kto:domain": "public-sector-and-compliance",
+      "dcterms:created": "2026-11-19",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "2017 Trust Services Criteria (With Revised Points of Focus – 2022)",
+          "dcterms:publisher": "AICPA & CIMA",
+          "schema:url": "https://www.aicpa-cima.com/resources/article/2017-trust-services-criteria-with-revised-points-of-focus-2022",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "TSP Section 100, 2017 Trust Services Criteria for Security, Availability, Processing Integrity, Confidentiality, and Privacy (copy hosted by Arpio)",
+          "dcterms:publisher": "AICPA",
+          "schema:url": "https://arpio.io/wp-content/uploads/2020/08/trust-services-criteria.pdf",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "AICPA proposes update of SOC 2 Trust Services Criteria to enhance the relevance, usability and value of CPAs' reports",
+          "dcterms:publisher": "AICPA & CIMA",
+          "schema:url": "https://www.aicpa-cima.com/news/article/aicpa-proposes-update-of-soc-2-r-trust-services-criteria-to-enhance-the-relevance-usability-and-value-of-cpas-reports",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "AICPA proposes improvements to SOC 2 Trust Services Criteria",
+          "dcterms:publisher": "Journal of Accountancy",
+          "schema:url": "https://www.journalofaccountancy.com/news/2026/oct/aicpa-proposes-improvements-to-soc-2-trust-services-criteria.html",
+          "kto:sourceType": "news"
+        },
+        {
+          "dcterms:title": "Technical Line, 2 November 2022: revised SOC 2 points of focus and description criteria",
+          "dcterms:publisher": "EY",
+          "schema:url": "https://ey.com/content/dam/ey-unified-site/ey-com/en-us/technical/accountinglink/documents/ey-ttp17549-221us-11-02-2022.pdf",
+          "kto:sourceType": "partner"
+        },
+        {
+          "dcterms:title": "SOC 2 — Salesforce Compliance",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://compliance.salesforce.com/en/soc-2",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/public-sector-and-compliance/trust-services-criteria.md",
+      "skos:altLabel": [
+        "TSC",
+        "AICPA Trust Services Criteria",
+        "TSP Section 100",
+        "2017 Trust Services Criteria"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:security-compliance-frameworks"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:governance-risk-and-compliance"
+        },
+        {
+          "@id": "kt:shared-responsibility-model"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:soc-2"
+        },
+        {
+          "@id": "kt:soc-3"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:coso-internal-control-framework"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:nist-sp-800-53"
+        }
+      ]
+    },
+    {
       "@id": "kt:zero-trust-architecture",
       "@type": "kto:ExternalConcept",
       "skos:prefLabel": "Zero Trust Architecture",

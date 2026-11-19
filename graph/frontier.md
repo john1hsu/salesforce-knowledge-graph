@@ -57,8 +57,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:revenue-management-consultant-certification` | `kt:revenue-cloud` |
 | `kt:mulesoft-platform-integration-architect-certification` | `kt:mulesoft-platform-architect-certification` |
 | `kt:generative-ai` | `kt:retrieval-augmented-generation-in-salesforce` |
-| `kt:agentexchange-go-to-market-app` | `kt:agentexchange` |
 | `kt:path` | `kt:business-processes` |
+| `kt:agentexchange-go-to-market-app` | `kt:agentexchange` |
 | `kt:revenue-intelligence` | `kt:collaborative-forecasts` |
 | `kt:ingestion-api` | `kt:data-streams` |
 | `kt:application-network` | `kt:api-led-connectivity` |
@@ -78,14 +78,13 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:slack-workflow-builder` | `kt:slack-platform` |
 | `kt:security-health-check` | `kt:session-settings` |
 | `kt:backup-and-recover-next` | `kt:backup-and-recover` |
-| `kt:trust-services-criteria` | `kt:soc-2` |
 | `kt:static-resources` | `kt:cross-site-scripting` |
 | `kt:reports-and-dashboards` | `kt:salesforce-analytics` |
 | `kt:anypoint-runtime-manager` | `kt:mule-runtime-engine` |
 | `kt:actionable-relationship-center` | `kt:financial-services-cloud` |
 | `kt:compliant-data-sharing` | `kt:financial-services-cloud` |
-| `kt:custom-permissions` | `kt:validation-rules` |
 | `kt:iso-iec-25010` | `kt:non-functional-requirements` |
+| `kt:custom-permissions` | `kt:validation-rules` |
 | `kt:cobit` | `kt:it-governance` |
 | `kt:opportunity-products` | `kt:price-books` |
 | `kt:fhir` | `kt:health-cloud` |
@@ -97,8 +96,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:platform-cache-partitions` | `kt:platform-cache` |
 | `kt:data-cloud-query-api` | `kt:data-graphs` |
 | `kt:engagement-studio` | `kt:marketing-cloud-account-engagement` |
-| `kt:holidays` | `kt:business-hours` |
 | `kt:management` | `kt:organizational-governance` |
+| `kt:holidays` | `kt:business-hours` |
 | `kt:model-context-protocol` | `kt:model-context-protocol-in-agentforce` |
 | `kt:salesforce-hosted-mcp-servers` | `kt:model-context-protocol-in-agentforce` |
 | `kt:business-process-mapping` | `kt:requirements-gathering` |
@@ -123,7 +122,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:models-api` | `kt:ai-models` |
 | `kt:ui-api` | `kt:field-dependencies` |
 | `kt:user-provisioning` | `kt:scim` |
+| `kt:coso-internal-control-framework` | `kt:trust-services-criteria` |
 | `kt:sarbanes-oxley-act` | `kt:soc-1` |
+| `kt:soc-3` | `kt:trust-services-criteria` |
 | `kt:currency-type-object` | `kt:multiple-currencies` |
 | `kt:agentforce-nonprofit-consultant-certification` | `kt:agentforce-nonprofit` |
 | `kt:nonprofit-success-pack` | `kt:agentforce-nonprofit` |
@@ -140,10 +141,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:technology-roadmaps` | `kt:capability-maps` |
 | `kt:value-streams` | `kt:capability-maps` |
 | `kt:organization-wide-email-addresses` | `kt:email-alerts` |
-| `kt:digital-accessibility` | `kt:section-508-accessibility` |
-| `kt:tx-ramp` | `kt:govramp` |
-| `kt:wcag` | `kt:section-508-accessibility` |
 | `kt:agent-to-agent-protocol` | `kt:agentforce-architecture-patterns` |
+| `kt:digital-accessibility` | `kt:section-508-accessibility` |
 | `kt:greenhouse-gas-protocol` | `kt:net-zero-cloud` |
 | `kt:multi-agent-orchestration` | `kt:agentforce-architecture-patterns` |
 | `kt:notes-and-attachments` | `kt:content-document-model` |
@@ -153,5 +152,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:subscriber-support-console` | `kt:license-management-app` |
 | `kt:tableau-blueprint` | `kt:tableau-architect-certification` |
 | `kt:tableau-server-administrator-certification` | `kt:tableau-architect-certification` |
+| `kt:tx-ramp` | `kt:govramp` |
+| `kt:wcag` | `kt:section-508-accessibility` |
 | `kt:web-to-case` | `kt:auto-response-rules` |
 | `kt:web-to-lead` | `kt:auto-response-rules` |
