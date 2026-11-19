@@ -10,9 +10,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:contact-builder` | `kt:journey-builder`, `kt:marketing-cloud-engagement` |
 | `kt:marketing-cloud-connect` | `kt:journey-builder`, `kt:marketing-cloud-engagement` |
 | `kt:decision-tables` | `kt:loyalty-management`, `kt:salesforce-pricing` |
+| `kt:requirements-engineering` | `kt:non-functional-requirements`, `kt:requirements-gathering` |
 | `kt:security-health-check` | `kt:security-center`, `kt:session-settings` |
 | `kt:salesforce-licensing` | `kt:licensing-strategy`, `kt:user-licenses` |
-| `kt:requirements-engineering` | `kt:non-functional-requirements`, `kt:requirements-gathering` |
 | `kt:user-stories` | `kt:fit-gap-analysis`, `kt:requirements-gathering` |
 | `kt:email-templates` | `kt:auto-response-rules`, `kt:email-alerts` |
 | `kt:salesforce-ecosystem-roles` | `kt:salesforce-architect` |
@@ -59,8 +59,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:generative-ai` | `kt:retrieval-augmented-generation-in-salesforce` |
 | `kt:path` | `kt:business-processes` |
 | `kt:revenue-intelligence` | `kt:collaborative-forecasts` |
-| `kt:application-network` | `kt:api-led-connectivity` |
 | `kt:object-manager` | `kt:schema-builder` |
+| `kt:application-network` | `kt:api-led-connectivity` |
 | `kt:point-to-point-integration` | `kt:api-led-connectivity` |
 | `kt:batch-apex-error-event` | `kt:transaction-finalizers` |
 | `kt:heroku-postgres` | `kt:heroku-connect` |
@@ -79,8 +79,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:anypoint-runtime-manager` | `kt:mule-runtime-engine` |
 | `kt:actionable-relationship-center` | `kt:financial-services-cloud` |
 | `kt:compliant-data-sharing` | `kt:financial-services-cloud` |
-| `kt:custom-permissions` | `kt:validation-rules` |
 | `kt:iso-iec-25010` | `kt:non-functional-requirements` |
+| `kt:custom-permissions` | `kt:validation-rules` |
 | `kt:computer-science` | `kt:distributed-computing` |
 | `kt:platform-cache-partitions` | `kt:platform-cache` |
 | `kt:opportunity-products` | `kt:price-books` |
@@ -88,6 +88,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:utilization-management` | `kt:health-cloud` |
 | `kt:model-context-protocol` | `kt:model-context-protocol-in-agentforce` |
 | `kt:salesforce-hosted-mcp-servers` | `kt:model-context-protocol-in-agentforce` |
+| `kt:business-process-mapping` | `kt:requirements-gathering` |
 | `kt:salesforce-as-identity-provider` | `kt:certificate-and-key-management` |
 | `kt:engagement-studio` | `kt:marketing-cloud-account-engagement` |
 | `kt:semantic-layer` | `kt:tableau-semantics` |
@@ -98,9 +99,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:management` | `kt:organizational-governance` |
 | `kt:data-processing-engine` | `kt:loyalty-management` |
 | `kt:holidays` | `kt:business-hours` |
-| `kt:business-process-mapping` | `kt:requirements-gathering` |
 | `kt:in-app-guidance` | `kt:change-management-and-adoption` |
 | `kt:invocable-methods` | `kt:apex-defined-types` |
+| `kt:business-analyst-certification` | `kt:user-acceptance-testing` |
 | `kt:data-cloud-code-extension` | `kt:vector-search-in-data-cloud` |
 | `kt:username-password-flow` | `kt:client-credentials-flow` |
 | `kt:iso-iec-27017` | `kt:iso-iec-27002` |
@@ -109,7 +110,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:b2c-commerce` | `kt:commerce-cloud` |
 | `kt:salesforce-order-management` | `kt:commerce-cloud` |
 | `kt:json-web-signature` | `kt:json-web-token` |
-| `kt:business-analyst-certification` | `kt:user-acceptance-testing` |
 | `kt:developer-console` | `kt:apex-logging-and-debug-logs` |
 | `kt:document-ai` | `kt:unstructured-data-in-data-cloud` |
 | `kt:ldap` | `kt:delegated-authentication` |
@@ -125,29 +125,31 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:hyperforce-assistant` | `kt:instance-refresh-and-org-migration` |
 | `kt:einstein-prediction-builder` | `kt:einstein-next-best-action` |
 | `kt:get-records-element` | `kt:collection-filter-and-sort` |
-| `kt:heroku-fir` | `kt:heroku-architect-certification` |
 | `kt:post-install-scripts` | `kt:push-upgrades` |
 | `kt:shared-activities` | `kt:activity-data-model` |
+| `kt:heroku-fir` | `kt:heroku-architect-certification` |
 | `kt:twelve-factor-app` | `kt:heroku-architect-certification` |
-| `kt:b2c-commerce-architect-certification` | `kt:b2c-solution-architect-certification` |
 | `kt:salesforce-maps` | `kt:geolocation-fields` |
+| `kt:b2c-commerce-architect-certification` | `kt:b2c-solution-architect-certification` |
 | `kt:business-architecture` | `kt:capability-maps` |
+| `kt:change-order-process` | `kt:statement-of-work` |
+| `kt:performance-work-statement` | `kt:statement-of-work` |
 | `kt:technology-roadmaps` | `kt:capability-maps` |
 | `kt:value-streams` | `kt:capability-maps` |
 | `kt:organization-wide-email-addresses` | `kt:email-alerts` |
-| `kt:agent-to-agent-protocol` | `kt:agentforce-architecture-patterns` |
 | `kt:digital-accessibility` | `kt:section-508-accessibility` |
-| `kt:experience-cloud-consultant-certification` | `kt:licensing-strategy` |
 | `kt:greenhouse-gas-protocol` | `kt:net-zero-cloud` |
-| `kt:multi-agent-orchestration` | `kt:agentforce-architecture-patterns` |
 | `kt:notes-and-attachments` | `kt:content-document-model` |
 | `kt:partner-business-org` | `kt:license-management-app` |
 | `kt:partner-console` | `kt:license-management-app` |
 | `kt:salesforce-seasonal-releases` | `kt:release-updates` |
 | `kt:subscriber-support-console` | `kt:license-management-app` |
-| `kt:tableau-blueprint` | `kt:tableau-architect-certification` |
-| `kt:tableau-server-administrator-certification` | `kt:tableau-architect-certification` |
 | `kt:tx-ramp` | `kt:govramp` |
 | `kt:wcag` | `kt:section-508-accessibility` |
 | `kt:web-to-case` | `kt:auto-response-rules` |
 | `kt:web-to-lead` | `kt:auto-response-rules` |
+| `kt:agent-to-agent-protocol` | `kt:agentforce-architecture-patterns` |
+| `kt:experience-cloud-consultant-certification` | `kt:licensing-strategy` |
+| `kt:multi-agent-orchestration` | `kt:agentforce-architecture-patterns` |
+| `kt:tableau-blueprint` | `kt:tableau-architect-certification` |
+| `kt:tableau-server-administrator-certification` | `kt:tableau-architect-certification` |

@@ -11,7 +11,7 @@ summary: >-
 release: "Winter '27"
 status: concept
 broader: [kt:solution-design-tradeoffs]
-related: [kt:requirements-gathering, kt:fit-gap-analysis, kt:architecture-decision-records, kt:non-functional-requirements, kt:user-acceptance-testing, kt:b2c-solution-architect-certification]
+related: [kt:requirements-gathering, kt:fit-gap-analysis, kt:architecture-decision-records, kt:non-functional-requirements, kt:user-acceptance-testing, kt:b2c-solution-architect-certification, kt:statement-of-work]
 relations:
   - {predicate: usedBy, object: kt:salesforce-architect}
   - {predicate: hasPart, object: kt:salesforce-diagrams}

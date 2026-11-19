@@ -2745,6 +2745,9 @@
         },
         {
           "@id": "kt:b2c-solution-architect-certification"
+        },
+        {
+          "@id": "kt:statement-of-work"
         }
       ],
       "kto:usedBy": [
@@ -2847,6 +2850,82 @@
       "kto:coveredBy": [
         {
           "@id": "kt:certified-technical-architect"
+        }
+      ]
+    },
+    {
+      "@id": "kt:statement-of-work",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Statement of Work",
+      "skos:definition": "The contract document in which a Salesforce consulting partner and a customer agree what an implementation will deliver, how and when it will be done, who is responsible for what, and what it costs. Once signed it is the scope baseline, and any departure from it goes through a formal change request.",
+      "kto:domain": "architecture-practice",
+      "dcterms:created": "2026-11-19",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Understand Statements of Work (Statement of Work Best Practices)",
+          "dcterms:publisher": "Salesforce Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/sow-best-practices/understand-a-sow",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Build a Statement of Work (Statement of Work Best Practices)",
+          "dcterms:publisher": "Salesforce Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/sow-best-practices/build-a-sow",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "FAR 37.602 Performance work statement",
+          "dcterms:publisher": "U.S. General Services Administration (Acquisition.gov)",
+          "schema:url": "https://www.acquisition.gov/far/37.602",
+          "kto:sourceType": "government"
+        }
+      ],
+      "kto:file": "articles/architecture-practice/statement-of-work.md",
+      "skos:altLabel": [
+        "SOW",
+        "statement of work best practices",
+        "implementation statement of work"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-governance"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:requirements-gathering"
+        },
+        {
+          "@id": "kt:solution-design-document"
+        },
+        {
+          "@id": "kt:fit-gap-analysis"
+        },
+        {
+          "@id": "kt:risk-and-assumption-logs"
+        },
+        {
+          "@id": "kt:user-acceptance-testing"
+        },
+        {
+          "@id": "kt:data-migration-strategy"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:requirements-gathering"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:change-order-process"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:performance-work-statement"
         }
       ]
     },
