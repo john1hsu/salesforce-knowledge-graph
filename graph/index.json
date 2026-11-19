@@ -10363,6 +10363,31 @@
     ]
   },
   {
+    "id": "kt:token-exchange-flow",
+    "title": "OAuth 2.0 Token Exchange Flow",
+    "aliases": [
+      "token exchange flow",
+      "Salesforce token exchange",
+      "RFC 8693 token exchange grant",
+      "token exchange handler",
+      "Oauth2TokenExchangeHandler"
+    ],
+    "type": "Feature",
+    "domain": "identity",
+    "file": "articles/identity/token-exchange-flow.md",
+    "created": "2026-11-19",
+    "release": "Winter '27",
+    "status": "current",
+    "source_urls": [
+      "https://help.salesforce.com/s/articleView?id=xcloud.remoteaccess_token_exchange_diagram.htm&language=en_US&type=5",
+      "https://help.salesforce.com/s/articleView?language=en_US&id=xcloud.remoteaccess_token_exchange_use_cases.htm&type=5",
+      "https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_class_Auth_Oauth2TokenExchangeHandler.htm",
+      "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexref/token_exchange_handler.htm",
+      "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_oauthtokenexchangehandler.htm",
+      "https://www.rfc-editor.org/rfc/rfc8693"
+    ]
+  },
+  {
     "id": "kt:tooling-api",
     "title": "Tooling API",
     "aliases": [

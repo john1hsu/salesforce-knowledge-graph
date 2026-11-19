@@ -27868,6 +27868,107 @@
       ]
     },
     {
+      "@id": "kt:token-exchange-flow",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "OAuth 2.0 Token Exchange Flow",
+      "skos:definition": "Salesforce's implementation of the RFC 8693 token exchange grant: a client that already holds a token from an external identity provider posts it to the Salesforce token endpoint, an Apex token exchange handler validates it and maps its subject to a Salesforce user (optionally creating one), and Salesforce issues its own access token.",
+      "kto:domain": "identity",
+      "dcterms:created": "2026-11-19",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Token Exchange Flow Diagram and Process",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=xcloud.remoteaccess_token_exchange_diagram.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Token Exchange Flow Use Cases",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=xcloud.remoteaccess_token_exchange_use_cases.htm&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Oauth2TokenExchangeHandler Class (Apex Reference Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_class_Auth_Oauth2TokenExchangeHandler.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "OAuth 2.0 Token Exchange Handler Examples (Apex Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexref/token_exchange_handler.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "OauthTokenExchangeHandler (Metadata API Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_oauthtokenexchangehandler.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "RFC 8693: OAuth 2.0 Token Exchange",
+          "dcterms:publisher": "IETF",
+          "schema:url": "https://www.rfc-editor.org/rfc/rfc8693",
+          "kto:sourceType": "standards-body"
+        }
+      ],
+      "kto:file": "articles/identity/token-exchange-flow.md",
+      "skos:altLabel": [
+        "token exchange flow",
+        "Salesforce token exchange",
+        "RFC 8693 token exchange grant",
+        "token exchange handler",
+        "Oauth2TokenExchangeHandler"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:oauth-2-flows-in-salesforce"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:openid-connect"
+        },
+        {
+          "@id": "kt:saml-2-0"
+        },
+        {
+          "@id": "kt:just-in-time-provisioning"
+        },
+        {
+          "@id": "kt:experience-cloud-identity"
+        },
+        {
+          "@id": "kt:json-web-token"
+        }
+      ],
+      "kto:implements": [
+        {
+          "@id": "kt:oauth-2-0"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:external-client-apps"
+        },
+        {
+          "@id": "kt:connected-apps"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:apex"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:jwt-bearer-flow"
+        }
+      ]
+    },
+    {
       "@id": "kt:user-management",
       "@type": "kto:Feature",
       "skos:prefLabel": "User Management",

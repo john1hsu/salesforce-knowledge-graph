@@ -108,8 +108,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:sharing-sets` | `kt:customer-community-licenses` |
 | `kt:data-cloud-code-extension` | `kt:vector-search-in-data-cloud` |
 | `kt:apex-defined-types` | `kt:transform-element` |
-| `kt:agentforce-vibes` | `kt:agentforce-vibes-ide` |
 | `kt:iso-iec-27017` | `kt:iso-iec-27002` |
+| `kt:agentforce-vibes` | `kt:agentforce-vibes-ide` |
+| `kt:json-web-signature` | `kt:json-web-token` |
 | `kt:b2b-commerce` | `kt:commerce-cloud` |
 | `kt:b2c-commerce` | `kt:commerce-cloud` |
 | `kt:salesforce-order-management` | `kt:commerce-cloud` |
@@ -117,7 +118,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:data-processing-engine` | `kt:loyalty-management` |
 | `kt:username-password-flow` | `kt:client-credentials-flow` |
 | `kt:developer-console` | `kt:apex-logging-and-debug-logs` |
-| `kt:json-web-signature` | `kt:json-web-token` |
 | `kt:document-ai` | `kt:unstructured-data-in-data-cloud` |
 | `kt:ldap` | `kt:delegated-authentication` |
 | `kt:models-api` | `kt:ai-models` |
@@ -134,8 +134,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:post-install-scripts` | `kt:push-upgrades` |
 | `kt:shared-activities` | `kt:activity-data-model` |
 | `kt:twelve-factor-app` | `kt:heroku-architect-certification` |
-| `kt:web-server-flow` | `kt:device-flow` |
 | `kt:b2c-commerce-architect-certification` | `kt:b2c-solution-architect-certification` |
+| `kt:web-server-flow` | `kt:device-flow` |
 | `kt:business-architecture` | `kt:capability-maps` |
 | `kt:technology-roadmaps` | `kt:capability-maps` |
 | `kt:value-streams` | `kt:capability-maps` |
