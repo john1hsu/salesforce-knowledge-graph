@@ -12,7 +12,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:requirements-engineering` | `kt:non-functional-requirements`, `kt:requirements-gathering` |
 | `kt:security-center` | `kt:continuous-monitoring`, `kt:security-governance` |
 | `kt:user-stories` | `kt:fit-gap-analysis`, `kt:requirements-gathering` |
-| `kt:data-cloud-triggered-flows` | `kt:data-actions`, `kt:generative-ai-audit-and-feedback-data` |
 | `kt:email-templates` | `kt:auto-response-rules`, `kt:email-alerts` |
 | `kt:apex-logging-and-debug-logs` | `kt:custom-exceptions`, `kt:flow-debugging` |
 | `kt:custom-address-fields` | `kt:geolocation-fields`, `kt:state-and-country-territory-picklists` |
@@ -63,10 +62,10 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:generative-ai` | `kt:retrieval-augmented-generation-in-salesforce` |
 | `kt:revenue-intelligence` | `kt:collaborative-forecasts` |
 | `kt:agentexchange-go-to-market-app` | `kt:agentexchange` |
-| `kt:path` | `kt:business-processes` |
 | `kt:ingestion-api` | `kt:data-streams` |
-| `kt:application-network` | `kt:api-led-connectivity` |
+| `kt:path` | `kt:business-processes` |
 | `kt:object-manager` | `kt:schema-builder` |
+| `kt:application-network` | `kt:api-led-connectivity` |
 | `kt:point-to-point-integration` | `kt:api-led-connectivity` |
 | `kt:batch-apex-error-event` | `kt:transaction-finalizers` |
 | `kt:heroku-postgres` | `kt:heroku-connect` |
@@ -81,8 +80,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:slack-api-rate-limits` | `kt:slack-platform` |
 | `kt:slack-workflow-builder` | `kt:slack-platform` |
 | `kt:security-health-check` | `kt:session-settings` |
-| `kt:trust-services-criteria` | `kt:soc-2` |
 | `kt:backup-and-recover-next` | `kt:backup-and-recover` |
+| `kt:trust-services-criteria` | `kt:soc-2` |
 | `kt:static-resources` | `kt:cross-site-scripting` |
 | `kt:reports-and-dashboards` | `kt:salesforce-analytics` |
 | `kt:anypoint-runtime-manager` | `kt:mule-runtime-engine` |
@@ -137,8 +136,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:shared-activities` | `kt:activity-data-model` |
 | `kt:heroku-fir` | `kt:heroku-architect-certification` |
 | `kt:twelve-factor-app` | `kt:heroku-architect-certification` |
-| `kt:web-server-flow` | `kt:device-flow` |
 | `kt:b2c-commerce-architect-certification` | `kt:b2c-solution-architect-certification` |
+| `kt:web-server-flow` | `kt:device-flow` |
 | `kt:business-architecture` | `kt:capability-maps` |
 | `kt:technology-roadmaps` | `kt:capability-maps` |
 | `kt:value-streams` | `kt:capability-maps` |

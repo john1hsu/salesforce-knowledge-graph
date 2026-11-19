@@ -11987,6 +11987,93 @@
       ]
     },
     {
+      "@id": "kt:data-cloud-triggered-flows",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Data Cloud-Triggered Flow",
+      "skos:definition": "A Flow Builder flow type that starts when a new or changed record in a Data 360 (formerly Data Cloud) data model object, calculated insight object or accelerated external object meets the conditions set in its Start element, letting admins act on unified customer data inside the Salesforce org without code.",
+      "kto:domain": "data-cloud-and-ai",
+      "dcterms:created": "2026-11-19",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Trigger Flows with Data 360 Data",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=sf.flow_concepts_trigger_data_cloud.htm&amp=&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Data 360: Data Cloud Triggered Flow Fails to Trigger for All Records",
+          "dcterms:publisher": "Salesforce Help (Knowledge Article)",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=005314323&language=en_US&type=1",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Trigger Flows from Data Cloud",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/data-cloud-in-flows/trigger-flows-from-data-cloud",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Access Data Cloud from Flows",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/data-cloud-in-flows/access-data-cloud-from-flows",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Power Automation with Flows and Agents (Data 360: Act on Data)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/data-cloud-act-on-data/power-automation-with-flows-and-agents",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Automate Your Workflow with Data Cloud-Triggered Flows and Invocable Actions",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2024/08/automate-your-workflow-with-data-cloud-triggered-flows-and-invocable-actions",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/data-cloud-and-ai/data-cloud-triggered-flows.md",
+      "skos:altLabel": [
+        "Data Cloud-triggered flows",
+        "Data 360-triggered flow",
+        "Data 360-triggered flows",
+        "flows triggered by Data 360 data"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:data-cloud"
+        },
+        {
+          "@id": "kt:flow-builder"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:record-triggered-flow"
+        },
+        {
+          "@id": "kt:platform-event-triggered-flow"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:data-model-objects"
+        },
+        {
+          "@id": "kt:calculated-insights"
+        },
+        {
+          "@id": "kt:data-actions"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:zero-copy-data-federation"
+        }
+      ]
+    },
+    {
       "@id": "kt:data-cloud",
       "@type": "kto:Product",
       "skos:prefLabel": "Data 360",

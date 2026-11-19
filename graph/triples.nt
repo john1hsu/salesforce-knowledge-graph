@@ -2900,6 +2900,32 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud-segmentation> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/connect-api> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud-segmentation> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud-segmentation> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud-triggered-flows> <http://purl.org/dc/terms/created> "2026-11-19" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud-triggered-flows> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud-triggered-flows> <http://www.w3.org/2000/01/rdf-schema#label> "Data Cloud-Triggered Flow" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud-triggered-flows> <http://www.w3.org/2004/02/skos/core#altLabel> "Data 360-triggered flow" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud-triggered-flows> <http://www.w3.org/2004/02/skos/core#altLabel> "Data 360-triggered flows" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud-triggered-flows> <http://www.w3.org/2004/02/skos/core#altLabel> "Data Cloud-triggered flows" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud-triggered-flows> <http://www.w3.org/2004/02/skos/core#altLabel> "flows triggered by Data 360 data" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud-triggered-flows> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud-triggered-flows> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-builder> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud-triggered-flows> <http://www.w3.org/2004/02/skos/core#definition> "A Flow Builder flow type that starts when a new or changed record in a Data 360 (formerly Data Cloud) data model object, calculated insight object or accelerated external object meets the conditions set in its Start element, letting admins act on unified customer data inside the Salesforce org without code." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud-triggered-flows> <http://www.w3.org/2004/02/skos/core#prefLabel> "Data Cloud-Triggered Flow" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud-triggered-flows> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-event-triggered-flow> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud-triggered-flows> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/record-triggered-flow> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud-triggered-flows> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud-triggered-flows/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud-triggered-flows> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud-triggered-flows/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud-triggered-flows> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud-triggered-flows/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud-triggered-flows> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud-triggered-flows/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud-triggered-flows> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud-triggered-flows/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud-triggered-flows> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud-triggered-flows/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud-triggered-flows> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/calculated-insights> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud-triggered-flows> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-actions> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud-triggered-flows> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-model-objects> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud-triggered-flows> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "data-cloud-and-ai" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud-triggered-flows> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/zero-copy-data-federation> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud-triggered-flows> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud-triggered-flows> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud> <http://purl.org/dc/terms/created> "2026-11-01" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Product> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud> <http://www.w3.org/2000/01/rdf-schema#label> "Data 360" .
@@ -14139,6 +14165,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud-segmentation/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud-segmentation/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud-segmentation/s5> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/data-cloud-query-and-segment/run-queries-and-personalize-engagement-with-segmentation" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud-triggered-flows/s1> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud-triggered-flows/s1> <http://purl.org/dc/terms/title> "Trigger Flows with Data 360 Data" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud-triggered-flows/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud-triggered-flows/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud-triggered-flows/s1> <https://schema.org/url> "https://help.salesforce.com/s/articleView?language=en_US&id=sf.flow_concepts_trigger_data_cloud.htm&amp=&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud-triggered-flows/s2> <http://purl.org/dc/terms/publisher> "Salesforce Help (Knowledge Article)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud-triggered-flows/s2> <http://purl.org/dc/terms/title> "Data 360: Data Cloud Triggered Flow Fails to Trigger for All Records" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud-triggered-flows/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud-triggered-flows/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud-triggered-flows/s2> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=005314323&language=en_US&type=1" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud-triggered-flows/s3> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud-triggered-flows/s3> <http://purl.org/dc/terms/title> "Trigger Flows from Data Cloud" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud-triggered-flows/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud-triggered-flows/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud-triggered-flows/s3> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/data-cloud-in-flows/trigger-flows-from-data-cloud" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud-triggered-flows/s4> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud-triggered-flows/s4> <http://purl.org/dc/terms/title> "Access Data Cloud from Flows" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud-triggered-flows/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud-triggered-flows/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud-triggered-flows/s4> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/data-cloud-in-flows/access-data-cloud-from-flows" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud-triggered-flows/s5> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud-triggered-flows/s5> <http://purl.org/dc/terms/title> "Power Automation with Flows and Agents (Data 360: Act on Data)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud-triggered-flows/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud-triggered-flows/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud-triggered-flows/s5> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/data-cloud-act-on-data/power-automation-with-flows-and-agents" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud-triggered-flows/s6> <http://purl.org/dc/terms/publisher> "Salesforce Developers Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud-triggered-flows/s6> <http://purl.org/dc/terms/title> "Automate Your Workflow with Data Cloud-Triggered Flows and Invocable Actions" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud-triggered-flows/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud-triggered-flows/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud-triggered-flows/s6> <https://schema.org/url> "https://developer.salesforce.com/blogs/2024/08/automate-your-workflow-with-data-cloud-triggered-flows-and-invocable-actions" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud/s1> <http://purl.org/dc/terms/title> "Object Model in Data 360" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-cloud/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
