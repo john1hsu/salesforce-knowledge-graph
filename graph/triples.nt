@@ -5918,6 +5918,33 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/infrastructure-as-a-service> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "platform-architecture" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/infrastructure-as-a-service> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/infrastructure-as-a-service> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/ingestion-api> <http://purl.org/dc/terms/created> "2026-11-19" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/ingestion-api> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#API> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/ingestion-api> <http://www.w3.org/2000/01/rdf-schema#label> "Ingestion API" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/ingestion-api> <http://www.w3.org/2004/02/skos/core#altLabel> "CDP Ingestion API" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/ingestion-api> <http://www.w3.org/2004/02/skos/core#altLabel> "Data 360 Ingestion API" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/ingestion-api> <http://www.w3.org/2004/02/skos/core#altLabel> "Data Cloud Ingestion API" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/ingestion-api> <http://www.w3.org/2004/02/skos/core#altLabel> "Ingestion API connector" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/ingestion-api> <http://www.w3.org/2004/02/skos/core#altLabel> "cdp_ingest_api" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/ingestion-api> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/ingestion-api> <http://www.w3.org/2004/02/skos/core#definition> "The REST API for pushing records from an external system into Data 360 (formerly Data Cloud), either as streaming JSON micro-batches or as bulk CSV jobs, through an Ingestion API connector whose objects are defined by an OpenAPI schema." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/ingestion-api> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ingestion API" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/ingestion-api> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/change-data-capture> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/ingestion-api> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-lake-objects> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/ingestion-api> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-model-objects> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/ingestion-api> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/ingestion-api/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/ingestion-api> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/ingestion-api/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/ingestion-api> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/ingestion-api/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/ingestion-api> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/ingestion-api/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/ingestion-api> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/ingestion-api/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/ingestion-api> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#alternativeTo> <https://github.com/john1hsu/salesforce-knowledge-graph/id/bulk-api-2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/ingestion-api> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/external-client-apps> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/ingestion-api> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/jwt-bearer-flow> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/ingestion-api> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "data-cloud-and-ai" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/ingestion-api> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#enables> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-streams> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/ingestion-api> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#governedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud-limits> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/ingestion-api> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/ingestion-api> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/instance-refresh-and-org-migration> <http://purl.org/dc/terms/created> "2026-11-17" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/instance-refresh-and-org-migration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/instance-refresh-and-org-migration> <http://www.w3.org/2000/01/rdf-schema#label> "Instance Refresh and Org Migration" .
@@ -17503,6 +17530,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/infrastructure-as-a-service/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/infrastructure-as-a-service/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/infrastructure-as-a-service/s6> <https://schema.org/url> "https://www.salesforce.com/platform/public-cloud-infrastructure/" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/ingestion-api/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/ingestion-api/s1> <http://purl.org/dc/terms/title> "Ingestion API (Data 360 Integration Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/ingestion-api/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/ingestion-api/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/ingestion-api/s1> <https://schema.org/url> "https://developer.salesforce.com/docs/data/data-cloud-int/guide/c360-a-ingestion-api.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/ingestion-api/s2> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/ingestion-api/s2> <http://purl.org/dc/terms/title> "Get Started with Ingestion API (Ingestion API Reference)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/ingestion-api/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/ingestion-api/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/ingestion-api/s2> <https://schema.org/url> "https://developer.salesforce.com/docs/data/data-cloud-int/references/data-cloud-ingestionapi-ref/c360-a-api-get-started.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/ingestion-api/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/ingestion-api/s3> <http://purl.org/dc/terms/title> "Requirements for Ingestion API Schema File" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/ingestion-api/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/ingestion-api/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/ingestion-api/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/data/data-cloud-int/guide/c360-a-ingestion-api-schema-req.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/ingestion-api/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/ingestion-api/s4> <http://purl.org/dc/terms/title> "Set Up Ingestion API Connector" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/ingestion-api/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/ingestion-api/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/ingestion-api/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/data/data-cloud-int/guide/c360-a-connect-an-ingestion-source.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/ingestion-api/s5> <http://purl.org/dc/terms/publisher> "Salesforce Developers Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/ingestion-api/s5> <http://purl.org/dc/terms/title> "Load Data Programmatically with the Ingestion API" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/ingestion-api/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/ingestion-api/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/ingestion-api/s5> <https://schema.org/url> "https://developer.salesforce.com/blogs/2023/07/load-data-programmatically-with-the-ingestion-api" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/instance-refresh-and-org-migration/s1> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/instance-refresh-and-org-migration/s1> <http://purl.org/dc/terms/title> "Salesforce maintenance windows and notifications (Knowledge Article 000176208)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/instance-refresh-and-org-migration/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

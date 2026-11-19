@@ -13442,6 +13442,95 @@
       ]
     },
     {
+      "@id": "kt:ingestion-api",
+      "@type": "kto:API",
+      "skos:prefLabel": "Ingestion API",
+      "skos:definition": "The REST API for pushing records from an external system into Data 360 (formerly Data Cloud), either as streaming JSON micro-batches or as bulk CSV jobs, through an Ingestion API connector whose objects are defined by an OpenAPI schema.",
+      "kto:domain": "data-cloud-and-ai",
+      "dcterms:created": "2026-11-19",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Ingestion API (Data 360 Integration Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/data/data-cloud-int/guide/c360-a-ingestion-api.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Get Started with Ingestion API (Ingestion API Reference)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/data/data-cloud-int/references/data-cloud-ingestionapi-ref/c360-a-api-get-started.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Requirements for Ingestion API Schema File",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/data/data-cloud-int/guide/c360-a-ingestion-api-schema-req.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Set Up Ingestion API Connector",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/data/data-cloud-int/guide/c360-a-connect-an-ingestion-source.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Load Data Programmatically with the Ingestion API",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2023/07/load-data-programmatically-with-the-ingestion-api",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/data-cloud-and-ai/ingestion-api.md",
+      "skos:altLabel": [
+        "Data 360 Ingestion API",
+        "Data Cloud Ingestion API",
+        "Ingestion API connector",
+        "CDP Ingestion API",
+        "cdp_ingest_api"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:data-cloud"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:data-lake-objects"
+        },
+        {
+          "@id": "kt:data-model-objects"
+        },
+        {
+          "@id": "kt:change-data-capture"
+        }
+      ],
+      "kto:enables": [
+        {
+          "@id": "kt:data-streams"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:data-cloud-limits"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:external-client-apps"
+        },
+        {
+          "@id": "kt:jwt-bearer-flow"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:bulk-api-2"
+        }
+      ]
+    },
+    {
       "@id": "kt:model-context-protocol-in-agentforce",
       "@type": "kto:Feature",
       "skos:prefLabel": "MCP for Agentforce",
