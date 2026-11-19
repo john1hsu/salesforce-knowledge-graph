@@ -18094,6 +18094,105 @@
       ]
     },
     {
+      "@id": "kt:apex-defined-types",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Apex-Defined Types",
+      "skos:definition": "A Flow data type backed by an Apex class whose @AuraEnabled fields describe a structured object, letting flows, invocable actions, External Services and flow screen components pass and manipulate complex, nested data such as web-service payloads without converting it to records or text.",
+      "kto:domain": "development",
+      "dcterms:created": "2026-11-19",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Supported Data Types in Flows (Lightning Web Components Developer Guide)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/platform/lwc/guide/use-flow-data-types.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "InvocableVariable Annotation (Apex Developer Guide)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/api/apex_classes_annotation_InvocableVariable.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Create a Flow Using External Services Actions (Use External Services with a Flow)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/projects/use-external-services-with-a-flow/create-a-flow-using-external-services-actions",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "External Services (Apex Developer Guide)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/api/apex_external_services.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Apex-Based Custom Lightning Types (Lightning Types Developer Guide)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/platform/lightning-types/guide/lightning-types-apex.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Part 1: Manipulate Complex Internet Data in Flow Without Code",
+          "dcterms:publisher": "UnofficialSF",
+          "schema:url": "https://unofficialsf.com/part-1-manipulate-complex-internet-data-in-flow-without-code/",
+          "kto:sourceType": "community"
+        },
+        {
+          "dcterms:title": "Part 2: Manipulate Complex Internet Data in Flow Without Code",
+          "dcterms:publisher": "UnofficialSF",
+          "schema:url": "https://unofficialsf.com/part-2-manipulate-complex-internet-data-in-flow-without-code/",
+          "kto:sourceType": "community"
+        }
+      ],
+      "kto:file": "articles/development/apex-defined-types.md",
+      "skos:altLabel": [
+        "Apex-defined data type",
+        "Apex-Defined variable",
+        "Apex-defined types in Flow",
+        "Apex class data type in Flow"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:apex"
+        },
+        {
+          "@id": "kt:flow-builder"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:transform-element"
+        },
+        {
+          "@id": "kt:custom-flow-screen-components"
+        },
+        {
+          "@id": "kt:flow-http-callout"
+        },
+        {
+          "@id": "kt:lightning-web-components"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:external-services"
+        },
+        {
+          "@id": "kt:agent-actions"
+        },
+        {
+          "@id": "kt:invocable-methods"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:standard-objects"
+        }
+      ]
+    },
+    {
       "@id": "kt:apex-enterprise-patterns",
       "@type": "kto:Pattern",
       "skos:prefLabel": "Apex Enterprise Patterns",

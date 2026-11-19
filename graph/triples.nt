@@ -579,6 +579,35 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-cursors> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/soql> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-cursors> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-cursors> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-defined-types> <http://purl.org/dc/terms/created> "2026-11-19" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-defined-types> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-defined-types> <http://www.w3.org/2000/01/rdf-schema#label> "Apex-Defined Types" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-defined-types> <http://www.w3.org/2004/02/skos/core#altLabel> "Apex class data type in Flow" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-defined-types> <http://www.w3.org/2004/02/skos/core#altLabel> "Apex-Defined variable" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-defined-types> <http://www.w3.org/2004/02/skos/core#altLabel> "Apex-defined data type" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-defined-types> <http://www.w3.org/2004/02/skos/core#altLabel> "Apex-defined types in Flow" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-defined-types> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-defined-types> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-builder> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-defined-types> <http://www.w3.org/2004/02/skos/core#definition> "A Flow data type backed by an Apex class whose @AuraEnabled fields describe a structured object, letting flows, invocable actions, External Services and flow screen components pass and manipulate complex, nested data such as web-service payloads without converting it to records or text." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-defined-types> <http://www.w3.org/2004/02/skos/core#prefLabel> "Apex-Defined Types" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-defined-types> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-flow-screen-components> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-defined-types> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-http-callout> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-defined-types> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-web-components> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-defined-types> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/transform-element> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-defined-types> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-defined-types/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-defined-types> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-defined-types/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-defined-types> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-defined-types/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-defined-types> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-defined-types/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-defined-types> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-defined-types/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-defined-types> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-defined-types/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-defined-types> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-defined-types/s7> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-defined-types> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#consumedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/agent-actions> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-defined-types> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#consumedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/external-services> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-defined-types> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#consumedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/invocable-methods> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-defined-types> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#contrastsWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/standard-objects> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-defined-types> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "development" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-defined-types> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-defined-types> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-enterprise-patterns> <http://purl.org/dc/terms/created> "2026-11-08" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-enterprise-patterns> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Pattern> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-enterprise-patterns> <http://www.w3.org/2000/01/rdf-schema#label> "Apex Enterprise Patterns" .
@@ -12084,6 +12113,41 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-cursors/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-cursors/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-cursors/s4> <https://schema.org/url> "https://architect.salesforce.com/docs/architect/fundamentals/guide/step-based-async-framework" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-defined-types/s1> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-defined-types/s1> <http://purl.org/dc/terms/title> "Supported Data Types in Flows (Lightning Web Components Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-defined-types/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-defined-types/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-defined-types/s1> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/lwc/guide/use-flow-data-types.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-defined-types/s2> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-defined-types/s2> <http://purl.org/dc/terms/title> "InvocableVariable Annotation (Apex Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-defined-types/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-defined-types/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-defined-types/s2> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/api/apex_classes_annotation_InvocableVariable.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-defined-types/s3> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-defined-types/s3> <http://purl.org/dc/terms/title> "Create a Flow Using External Services Actions (Use External Services with a Flow)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-defined-types/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-defined-types/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-defined-types/s3> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/projects/use-external-services-with-a-flow/create-a-flow-using-external-services-actions" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-defined-types/s4> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-defined-types/s4> <http://purl.org/dc/terms/title> "External Services (Apex Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-defined-types/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-defined-types/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-defined-types/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/api/apex_external_services.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-defined-types/s5> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-defined-types/s5> <http://purl.org/dc/terms/title> "Apex-Based Custom Lightning Types (Lightning Types Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-defined-types/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-defined-types/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-defined-types/s5> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/lightning-types/guide/lightning-types-apex.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-defined-types/s6> <http://purl.org/dc/terms/publisher> "UnofficialSF" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-defined-types/s6> <http://purl.org/dc/terms/title> "Part 1: Manipulate Complex Internet Data in Flow Without Code" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-defined-types/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-defined-types/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "community" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-defined-types/s6> <https://schema.org/url> "https://unofficialsf.com/part-1-manipulate-complex-internet-data-in-flow-without-code/" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-defined-types/s7> <http://purl.org/dc/terms/publisher> "UnofficialSF" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-defined-types/s7> <http://purl.org/dc/terms/title> "Part 2: Manipulate Complex Internet Data in Flow Without Code" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-defined-types/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-defined-types/s7> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "community" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-defined-types/s7> <https://schema.org/url> "https://unofficialsf.com/part-2-manipulate-complex-internet-data-in-flow-without-code/" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-enterprise-patterns/s1> <http://purl.org/dc/terms/publisher> "Salesforce Trailhead" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-enterprise-patterns/s1> <http://purl.org/dc/terms/title> "Trailhead: Apex Enterprise Patterns: Service Layer — Learn About Separation of Concerns" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-enterprise-patterns/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

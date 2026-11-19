@@ -9,7 +9,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:automation-studio` | `kt:journey-builder`, `kt:marketing-cloud-engagement` |
 | `kt:contact-builder` | `kt:journey-builder`, `kt:marketing-cloud-engagement` |
 | `kt:marketing-cloud-connect` | `kt:journey-builder`, `kt:marketing-cloud-engagement` |
-| `kt:apex-defined-types` | `kt:custom-flow-screen-components`, `kt:transform-element` |
 | `kt:decision-tables` | `kt:loyalty-management`, `kt:salesforce-pricing` |
 | `kt:salesforce-licensing` | `kt:licensing-strategy`, `kt:user-licenses` |
 | `kt:requirements-engineering` | `kt:non-functional-requirements`, `kt:requirements-gathering` |
@@ -48,10 +47,10 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:entitlement-process-metadata` | `kt:entitlement-management` |
 | `kt:einstein-discovery` | `kt:crm-analytics` |
 | `kt:saql` | `kt:crm-analytics` |
+| `kt:custom-property-editors` | `kt:custom-flow-screen-components` |
 | `kt:api-experience-hub` | `kt:external-identity-license` |
 | `kt:apex-mocks` | `kt:apex-enterprise-patterns` |
 | `kt:salesforce-ecosystem` | `kt:salesforce-inc` |
-| `kt:custom-property-editors` | `kt:custom-flow-screen-components` |
 | `kt:rest-api-limits-resource` | `kt:orglimits-class` |
 | `kt:lightning-out` | `kt:lightning-locker` |
 | `kt:apex-rest-services` | `kt:remote-call-in` |
@@ -84,8 +83,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:anypoint-runtime-manager` | `kt:mule-runtime-engine` |
 | `kt:actionable-relationship-center` | `kt:financial-services-cloud` |
 | `kt:compliant-data-sharing` | `kt:financial-services-cloud` |
-| `kt:custom-permissions` | `kt:validation-rules` |
 | `kt:iso-iec-25010` | `kt:non-functional-requirements` |
+| `kt:custom-permissions` | `kt:validation-rules` |
 | `kt:cobit` | `kt:it-governance` |
 | `kt:opportunity-products` | `kt:price-books` |
 | `kt:fhir` | `kt:health-cloud` |
@@ -106,6 +105,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:model-context-protocol` | `kt:model-context-protocol-in-agentforce` |
 | `kt:salesforce-hosted-mcp-servers` | `kt:model-context-protocol-in-agentforce` |
 | `kt:business-process-mapping` | `kt:requirements-gathering` |
+| `kt:invocable-methods` | `kt:apex-defined-types` |
 | `kt:in-app-guidance` | `kt:change-management-and-adoption` |
 | `kt:data-cloud-code-extension` | `kt:vector-search-in-data-cloud` |
 | `kt:iso-iec-27017` | `kt:iso-iec-27002` |
