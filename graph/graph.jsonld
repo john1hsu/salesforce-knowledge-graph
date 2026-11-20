@@ -24245,6 +24245,107 @@
       ]
     },
     {
+      "@id": "kt:post-install-scripts",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Post Install Scripts",
+      "skos:definition": "Apex classes that a managed package runs automatically in the subscriber org: an InstallHandler after the package is installed or upgraded, and an optional UninstallHandler before it is uninstalled.",
+      "kto:domain": "devops-and-alm",
+      "dcterms:created": "2026-11-20",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "How Does a Post Install Script Work? (First-Generation Managed Packaging Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/pkg1-dev/guide/apex-post-install-script-intro.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "InstallHandler Interface (Apex Reference Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_install_handler.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Customize Second-Generation Managed Package Installs and Uninstalls Using Scripts",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/pkg2-dev/guide/sfdx-dev-dev2gp-customize-installs.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "How Does an Uninstall Script Work? (First-Generation Managed Packaging Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/pkg1-dev/guide/apex-uninstall-script-intro.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Example of a Post Install Script (First-Generation Managed Packaging Developer Guide, Winter '27)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.264.0.pkg1_dev.meta/pkg1_dev/apex_post_install_script_create.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Advanced Project Configuration Parameters for Second-Generation Managed Packages",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/pkg2-dev/guide/sfdx-dev2gp-adv-config-file.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/devops-and-alm/post-install-scripts.md",
+      "skos:altLabel": [
+        "post-install script",
+        "post install script",
+        "InstallHandler",
+        "UninstallHandler",
+        "uninstall script",
+        "onInstall",
+        "postInstallScript"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:first-generation-managed-packages"
+        },
+        {
+          "@id": "kt:second-generation-managed-packages"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:push-upgrades"
+        },
+        {
+          "@id": "kt:package-versioning-and-ancestry"
+        },
+        {
+          "@id": "kt:apex-testing"
+        },
+        {
+          "@id": "kt:asynchronous-apex"
+        },
+        {
+          "@id": "kt:salesforce-dx"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:apex"
+        },
+        {
+          "@id": "kt:apex-security-with-sharing"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:governor-limits"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:salesforce-cli"
+        }
+      ]
+    },
+    {
       "@id": "kt:push-upgrades",
       "@type": "kto:Feature",
       "skos:prefLabel": "Push Upgrades",
