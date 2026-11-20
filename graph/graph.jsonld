@@ -1563,6 +1563,85 @@
       ]
     },
     {
+      "@id": "kt:hypercare",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Hypercare",
+      "skos:definition": "The short, deliberately over-staffed support period that follows a Salesforce go-live, in which the project and support teams watch the new solution closely, fix issues fast and then hand it over to business-as-usual support once agreed exit criteria are met.",
+      "kto:domain": "architecture-practice",
+      "dcterms:created": "2026-11-20",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Hypercare Defined: A Complete Guide with Benefits and Best Practices",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/service/hypercare/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Manage the Launch and Post-Launch Activities",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/cc-project-mgmt/cc-launch-and-post-launch",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Plan your support operations (Dynamics 365 implementation guide)",
+          "dcterms:publisher": "Microsoft Learn",
+          "schema:url": "https://learn.microsoft.com/en-za/Dynamics365/guidance/implementation-guide/transition-to-support-operations",
+          "kto:sourceType": "partner"
+        },
+        {
+          "dcterms:title": "Hypercare Strategy (Accelerate Cookbook for Content Hub)",
+          "dcterms:publisher": "Sitecore",
+          "schema:url": "https://developers.sitecore.com/learn/accelerate/content-hub/final-steps/hypercare-strategy",
+          "kto:sourceType": "partner"
+        }
+      ],
+      "kto:file": "articles/architecture-practice/hypercare.md",
+      "skos:altLabel": [
+        "hypercare period",
+        "post-go-live support",
+        "go-live support",
+        "stabilization period",
+        "hypercare support"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:release-management"
+        },
+        {
+          "@id": "kt:change-management-and-adoption"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:user-acceptance-testing"
+        },
+        {
+          "@id": "kt:salesforce-center-of-excellence"
+        },
+        {
+          "@id": "kt:statement-of-work"
+        },
+        {
+          "@id": "kt:salesforce-governance"
+        },
+        {
+          "@id": "kt:service-cloud"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:application-lifecycle-management"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:rollback-plan"
+        }
+      ]
+    },
+    {
       "@id": "kt:licensing-strategy",
       "@type": "kto:Concept",
       "skos:prefLabel": "Licensing Strategy",
