@@ -11,7 +11,7 @@ summary: >-
 release: "Winter '27"
 status: concept
 broader: [kt:salesforce-center-of-excellence, kt:salesforce-governance]
-related: [kt:architecture-decision-records, kt:solution-design-tradeoffs, kt:data-migration-strategy, kt:principle-of-least-privilege, kt:well-architected-framework]
+related: [kt:architecture-decision-records, kt:solution-design-tradeoffs, kt:data-migration-strategy, kt:principle-of-least-privilege, kt:well-architected-framework, kt:raci-matrix]
 relations:
   - {predicate: partOf, object: kt:salesforce-center-of-excellence}
   - {predicate: dependsOn, object: kt:salesforce-architect}

@@ -1182,6 +1182,9 @@
         },
         {
           "@id": "kt:well-architected-framework"
+        },
+        {
+          "@id": "kt:raci-matrix"
         }
       ],
       "kto:partOf": [
@@ -2009,6 +2012,94 @@
       "kto:contrastsWith": [
         {
           "@id": "kt:user-acceptance-testing"
+        }
+      ]
+    },
+    {
+      "@id": "kt:raci-matrix",
+      "@type": "kto:ExternalConcept",
+      "skos:prefLabel": "RACI Matrix",
+      "skos:definition": "A responsibility assignment grid that maps each task, deliverable or decision to the roles that are Responsible, Accountable, Consulted and Informed; a general project-management tool that Salesforce programs and Centers of Excellence use to make decision rights explicit.",
+      "kto:domain": "architecture-practice",
+      "dcterms:created": "2026-11-20",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "RACI and RASCI Definitions",
+          "dcterms:publisher": "IT@Cornell (Cornell University)",
+          "schema:url": "https://it.cornell.edu/index.php/it-service-management/raci-and-rasci-definitions",
+          "kto:sourceType": "academic"
+        },
+        {
+          "dcterms:title": "Responsibility matrix",
+          "dcterms:publisher": "University of Essex, Strategic Projects Office",
+          "schema:url": "https://www.essex.ac.uk/staff/strategic-project-delivery/responsibility-matrix",
+          "kto:sourceType": "academic"
+        },
+        {
+          "dcterms:title": "Lessons Learned: The RACI Diagram Tool (Sexual Risk Avoidance Program Evaluation)",
+          "dcterms:publisher": "U.S. HHS Office of Population Affairs",
+          "schema:url": "https://www.opa.hhs.gov/sites/default/files/2020-12/short-lesson-learned-raci-diagram-tool.pdf",
+          "kto:sourceType": "government"
+        },
+        {
+          "dcterms:title": "Stakeholder Management and RACI: Who Does What, and Who Answers for It",
+          "dcterms:publisher": "Project Management Institute (blog, 2026-07-29)",
+          "schema:url": "https://www.pmi.org/blog/stakeholder-management-raci",
+          "kto:sourceType": "community"
+        },
+        {
+          "dcterms:title": "Build a Salesforce Center of Excellence That Keeps Pace with AI",
+          "dcterms:publisher": "Salesforce Architect blog (Allison Park, 2026-08-11)",
+          "schema:url": "https://www.salesforce.com/blog/center-of-excellence-ai-governance/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Implement Your Salesforce CoE's Core Capabilities",
+          "dcterms:publisher": "Salesforce Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/salesforce-governance-with-a-center-of-excellence/implement-your-salesforce-coes-core-capabilities",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/architecture-practice/raci-matrix.md",
+      "skos:altLabel": [
+        "RACI chart",
+        "responsibility assignment matrix",
+        "RASCI",
+        "RACI-VS",
+        "responsibility matrix"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-governance"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:salesforce-center-of-excellence"
+        },
+        {
+          "@id": "kt:design-authority"
+        },
+        {
+          "@id": "kt:risk-and-assumption-logs"
+        },
+        {
+          "@id": "kt:statement-of-work"
+        },
+        {
+          "@id": "kt:agentforce"
+        }
+      ],
+      "kto:usedBy": [
+        {
+          "@id": "kt:salesforce-architect"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:architecture-decision-records"
         }
       ]
     },

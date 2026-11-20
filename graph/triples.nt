@@ -3945,6 +3945,7 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/design-authority> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/architecture-decision-records> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/design-authority> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-migration-strategy> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/design-authority> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/principle-of-least-privilege> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/design-authority> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/raci-matrix> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/design-authority> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/solution-design-tradeoffs> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/design-authority> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/well-architected-framework> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/design-authority> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/design-authority/s1> .
@@ -9833,6 +9834,33 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/quick-actions> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/visualforce> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/quick-actions> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/quick-actions> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/raci-matrix> <http://purl.org/dc/terms/created> "2026-11-20" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/raci-matrix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#ExternalConcept> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/raci-matrix> <http://www.w3.org/2000/01/rdf-schema#label> "RACI Matrix" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/raci-matrix> <http://www.w3.org/2004/02/skos/core#altLabel> "RACI chart" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/raci-matrix> <http://www.w3.org/2004/02/skos/core#altLabel> "RACI-VS" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/raci-matrix> <http://www.w3.org/2004/02/skos/core#altLabel> "RASCI" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/raci-matrix> <http://www.w3.org/2004/02/skos/core#altLabel> "responsibility assignment matrix" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/raci-matrix> <http://www.w3.org/2004/02/skos/core#altLabel> "responsibility matrix" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/raci-matrix> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-governance> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/raci-matrix> <http://www.w3.org/2004/02/skos/core#definition> "A responsibility assignment grid that maps each task, deliverable or decision to the roles that are Responsible, Accountable, Consulted and Informed; a general project-management tool that Salesforce programs and Centers of Excellence use to make decision rights explicit." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/raci-matrix> <http://www.w3.org/2004/02/skos/core#prefLabel> "RACI Matrix" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/raci-matrix> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/raci-matrix> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/design-authority> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/raci-matrix> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/risk-and-assumption-logs> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/raci-matrix> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-center-of-excellence> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/raci-matrix> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/statement-of-work> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/raci-matrix> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/raci-matrix/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/raci-matrix> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/raci-matrix/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/raci-matrix> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/raci-matrix/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/raci-matrix> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/raci-matrix/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/raci-matrix> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/raci-matrix/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/raci-matrix> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/raci-matrix/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/raci-matrix> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#contrastsWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/architecture-decision-records> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/raci-matrix> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "architecture-practice" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/raci-matrix> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/raci-matrix> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#usedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-architect> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/raci-matrix> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/record-locking> <http://purl.org/dc/terms/created> "2026-11-01" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/record-locking> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/record-locking> <http://www.w3.org/2000/01/rdf-schema#label> "Record Locking" .
@@ -22259,6 +22287,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/quick-actions/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/quick-actions/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/quick-actions/s6> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/lwc/guide/use-config-for-quick-actions" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/raci-matrix/s1> <http://purl.org/dc/terms/publisher> "IT@Cornell (Cornell University)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/raci-matrix/s1> <http://purl.org/dc/terms/title> "RACI and RASCI Definitions" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/raci-matrix/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/raci-matrix/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/raci-matrix/s1> <https://schema.org/url> "https://it.cornell.edu/index.php/it-service-management/raci-and-rasci-definitions" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/raci-matrix/s2> <http://purl.org/dc/terms/publisher> "University of Essex, Strategic Projects Office" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/raci-matrix/s2> <http://purl.org/dc/terms/title> "Responsibility matrix" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/raci-matrix/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/raci-matrix/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "academic" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/raci-matrix/s2> <https://schema.org/url> "https://www.essex.ac.uk/staff/strategic-project-delivery/responsibility-matrix" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/raci-matrix/s3> <http://purl.org/dc/terms/publisher> "U.S. HHS Office of Population Affairs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/raci-matrix/s3> <http://purl.org/dc/terms/title> "Lessons Learned: The RACI Diagram Tool (Sexual Risk Avoidance Program Evaluation)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/raci-matrix/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/raci-matrix/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/raci-matrix/s3> <https://schema.org/url> "https://www.opa.hhs.gov/sites/default/files/2020-12/short-lesson-learned-raci-diagram-tool.pdf" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/raci-matrix/s4> <http://purl.org/dc/terms/publisher> "Project Management Institute (blog, 2026-07-29)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/raci-matrix/s4> <http://purl.org/dc/terms/title> "Stakeholder Management and RACI: Who Does What, and Who Answers for It" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/raci-matrix/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/raci-matrix/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "community" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/raci-matrix/s4> <https://schema.org/url> "https://www.pmi.org/blog/stakeholder-management-raci" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/raci-matrix/s5> <http://purl.org/dc/terms/publisher> "Salesforce Architect blog (Allison Park, 2026-08-11)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/raci-matrix/s5> <http://purl.org/dc/terms/title> "Build a Salesforce Center of Excellence That Keeps Pace with AI" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/raci-matrix/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/raci-matrix/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/raci-matrix/s5> <https://schema.org/url> "https://www.salesforce.com/blog/center-of-excellence-ai-governance/" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/raci-matrix/s6> <http://purl.org/dc/terms/publisher> "Salesforce Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/raci-matrix/s6> <http://purl.org/dc/terms/title> "Implement Your Salesforce CoE's Core Capabilities" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/raci-matrix/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/raci-matrix/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/raci-matrix/s6> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/salesforce-governance-with-a-center-of-excellence/implement-your-salesforce-coes-core-capabilities" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/record-locking/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/record-locking/s1> <http://purl.org/dc/terms/title> "Locking Statements (Apex Developer Guide)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/record-locking/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
