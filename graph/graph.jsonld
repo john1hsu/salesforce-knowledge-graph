@@ -37966,6 +37966,110 @@
       ]
     },
     {
+      "@id": "kt:coso-internal-control-framework",
+      "@type": "kto:ExternalConcept",
+      "skos:prefLabel": "COSO Internal Control Framework",
+      "skos:definition": "The Internal Control–Integrated Framework from the Committee of Sponsoring Organizations of the Treadway Commission (COSO), first issued in 1992 and refreshed in 2013, which defines internal control around three objective categories, five components and 17 principles; it is a framework many US public companies use for their Sarbanes-Oxley ICFR assessments and the control backbone beneath the AICPA Trust Services Criteria.",
+      "kto:domain": "public-sector-and-compliance",
+      "dcterms:created": "2026-11-20",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Internal Control | COSO (Guidance on Internal Control)",
+          "dcterms:publisher": "COSO",
+          "schema:url": "https://coso.org/guidance-on-ic",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "Internal Control | COSO",
+          "dcterms:publisher": "COSO",
+          "schema:url": "https://coso.org/internal-control",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "Internal Control — Integrated Framework: Framework and Appendices (post public exposure version, September 2012)",
+          "dcterms:publisher": "COSO",
+          "schema:url": "https://experience.famu.edu/administration/audit/standards/coso_IC%20Integrated%20Framework.pdf",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "Newly released COSO framework a fresh look at internal control",
+          "dcterms:publisher": "Journal of Accountancy (AICPA & CIMA)",
+          "schema:url": "https://www.journalofaccountancy.com/news/2013/may/20137970.html",
+          "kto:sourceType": "news"
+        },
+        {
+          "dcterms:title": "Commission Guidance Regarding Management's Report on Internal Control Over Financial Reporting (Release Nos. 33-8810; 34-55929)",
+          "dcterms:publisher": "U.S. Securities and Exchange Commission, Federal Register",
+          "schema:url": "https://www.govinfo.gov/content/pkg/FR-2007-06-27/html/E7-12299.htm",
+          "kto:sourceType": "government"
+        },
+        {
+          "dcterms:title": "4310 Management's annual report on internal control over financial reporting",
+          "dcterms:publisher": "PwC Viewpoint",
+          "schema:url": "https://viewpoint.pwc.com/dt/us/en/sec/financial_reporting_m/financial_reporting___4_US/topic_4_independent__US/4300_report_on_inter_US/4310_managements_ann_US.html",
+          "kto:sourceType": "partner"
+        },
+        {
+          "dcterms:title": "SOC 1 — Salesforce Compliance",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://compliance.salesforce.com/en/soc-1",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Admin Security Workshop — Exercise 1: Using the Audit Trail",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/workshops/admin-security-workshop/monitoring-and-response/1-audit-trail",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/public-sector-and-compliance/coso-internal-control-framework.md",
+      "skos:altLabel": [
+        "COSO",
+        "COSO Internal Control–Integrated Framework",
+        "Internal Control–Integrated Framework",
+        "ICIF-2013",
+        "COSO 2013",
+        "COSO cube"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:governance-risk-and-compliance"
+        },
+        {
+          "@id": "kt:security-compliance-frameworks"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:sarbanes-oxley-act"
+        },
+        {
+          "@id": "kt:soc-1"
+        },
+        {
+          "@id": "kt:corporate-governance"
+        },
+        {
+          "@id": "kt:organizational-governance"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:trust-services-criteria"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:cobit"
+        },
+        {
+          "@id": "kt:nist-sp-800-53"
+        }
+      ]
+    },
+    {
       "@id": "kt:data-classification",
       "@type": "kto:Feature",
       "skos:prefLabel": "Data Classification",
