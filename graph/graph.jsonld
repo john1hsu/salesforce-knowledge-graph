@@ -11563,6 +11563,95 @@
       ]
     },
     {
+      "@id": "kt:agentforce-observability",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Agentforce Observability",
+      "skos:definition": "The set of Agentforce tools for watching deployed AI agents in production: Agent Analytics dashboards, Agentforce Session Tracing, Agent Optimization (intent clustering and quality scoring) and Agent Health Monitoring alerts, all built on session telemetry stored in a Data 360 data model.",
+      "kto:domain": "data-cloud-and-ai",
+      "dcterms:created": "2026-11-20",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Get Started with Agent Monitoring (Agent Analytics and Monitoring)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/agent-analytics-and-monitoring/get-started-with-agent-monitoring",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Monitor Agent Health (Agent Analytics and Monitoring)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/agent-analytics-and-monitoring/monitor-agent-health",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Your Agents Are Getting More Capable. Is Your Observability Tooling Keeping Up?",
+          "dcterms:publisher": "Salesforce Blog",
+          "schema:url": "https://www.salesforce.com/blog/agentforce-observability/?bc=OTH",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Salesforce Deepens Observability in Agentforce 360",
+          "dcterms:publisher": "Salesforce Newsroom",
+          "schema:url": "https://salesforce.com/news/stories/agentforce-studio-observability-tools-announcement",
+          "kto:sourceType": "news"
+        },
+        {
+          "dcterms:title": "Agentforce Observability",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/agentforce/observability/",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/data-cloud-and-ai/agentforce-observability.md",
+      "skos:altLabel": [
+        "Agent Monitoring",
+        "Agentforce Monitoring",
+        "Agent Analytics and Monitoring",
+        "Observe & Optimize"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:agentforce"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:agentforce-studio"
+        },
+        {
+          "@id": "kt:agent-development-lifecycle"
+        },
+        {
+          "@id": "kt:agentforce-testing-center"
+        },
+        {
+          "@id": "kt:agentforce-subagents"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:agentforce-studio"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:data-cloud"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:generative-ai-audit-and-feedback-data"
+        },
+        {
+          "@id": "kt:einstein-trust-layer"
+        },
+        {
+          "@id": "kt:digital-wallet"
+        }
+      ]
+    },
+    {
       "@id": "kt:agentforce-specialist-certification",
       "@type": "kto:Certification",
       "skos:prefLabel": "Agentforce Specialist Certification",
@@ -11713,6 +11802,9 @@
         },
         {
           "@id": "kt:agent-actions"
+        },
+        {
+          "@id": "kt:agentforce-observability"
         }
       ],
       "kto:partOf": [

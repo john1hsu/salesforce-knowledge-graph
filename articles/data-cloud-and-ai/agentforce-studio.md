@@ -11,7 +11,7 @@ summary: >-
 release: "Winter '27"
 status: current
 broader: [kt:agentforce]
-related: [kt:agent-script, kt:agent-development-lifecycle, kt:atlas-reasoning-engine, kt:agent-actions]
+related: [kt:agent-script, kt:agent-development-lifecycle, kt:atlas-reasoning-engine, kt:agent-actions, kt:agentforce-observability]
 relations:
   - {predicate: partOf, object: kt:agentforce}
   - {predicate: hasPart, object: kt:prompt-builder}

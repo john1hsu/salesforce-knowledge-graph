@@ -6,8 +6,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 |---|---|
 | `kt:business-analyst` | `kt:fit-gap-analysis`, `kt:omnistudio-consultant-certification`, `kt:requirements-gathering`, `kt:user-acceptance-testing` |
 | `kt:customer-360` | `kt:commerce-cloud`, `kt:salesforce-marketing-solutions`, `kt:slack-platform` |
-| `kt:data-extensions` | `kt:automation-studio`, `kt:contact-builder` |
 | `kt:decision-tables` | `kt:loyalty-management`, `kt:salesforce-pricing` |
+| `kt:data-extensions` | `kt:automation-studio`, `kt:contact-builder` |
 | `kt:test-setup-methods` | `kt:seealldata`, `kt:test-loaddata` |
 | `kt:static-resources` | `kt:cross-site-scripting`, `kt:test-loaddata` |
 | `kt:requirements-engineering` | `kt:non-functional-requirements`, `kt:requirements-gathering` |
@@ -37,8 +37,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:service-appointments` | `kt:field-service` |
 | `kt:work-orders` | `kt:field-service` |
 | `kt:salesforce-sites` | `kt:custom-domains` |
-| `kt:entitlement-process-metadata` | `kt:entitlement-management` |
 | `kt:tableau-pulse` | `kt:tableau` |
+| `kt:entitlement-process-metadata` | `kt:entitlement-management` |
 | `kt:einstein-discovery` | `kt:crm-analytics` |
 | `kt:saql` | `kt:crm-analytics` |
 | `kt:custom-property-editors` | `kt:custom-flow-screen-components` |
@@ -72,8 +72,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:slack-api-rate-limits` | `kt:slack-platform` |
 | `kt:slack-workflow-builder` | `kt:slack-platform` |
 | `kt:backup-and-recover-next` | `kt:backup-and-recover` |
-| `kt:anypoint-runtime-manager` | `kt:mule-runtime-engine` |
 | `kt:reports-and-dashboards` | `kt:salesforce-analytics` |
+| `kt:anypoint-runtime-manager` | `kt:mule-runtime-engine` |
 | `kt:actionable-relationship-center` | `kt:financial-services-cloud` |
 | `kt:compliant-data-sharing` | `kt:financial-services-cloud` |
 | `kt:invocable-methods` | `kt:apex-defined-types` |
@@ -134,13 +134,13 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:value-streams` | `kt:capability-maps` |
 | `kt:salesforce-maps` | `kt:geolocation-fields` |
 | `kt:organization-wide-email-addresses` | `kt:email-alerts` |
-| `kt:consent-data-model` | `kt:consent-management-in-data-cloud` |
 | `kt:digital-accessibility` | `kt:section-508-accessibility` |
 | `kt:notes-and-attachments` | `kt:content-document-model` |
 | `kt:salesforce-seasonal-releases` | `kt:release-updates` |
 | `kt:tx-ramp` | `kt:govramp` |
 | `kt:wcag` | `kt:section-508-accessibility` |
 | `kt:agent-to-agent-protocol` | `kt:agentforce-architecture-patterns` |
+| `kt:consent-data-model` | `kt:consent-management-in-data-cloud` |
 | `kt:greenhouse-gas-protocol` | `kt:net-zero-cloud` |
 | `kt:multi-agent-orchestration` | `kt:agentforce-architecture-patterns` |
 | `kt:rollback-plan` | `kt:hypercare` |

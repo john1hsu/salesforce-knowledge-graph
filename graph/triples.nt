@@ -272,6 +272,33 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-nonprofit> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "clouds-and-products" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-nonprofit> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-nonprofit> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-observability> <http://purl.org/dc/terms/created> "2026-11-20" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-observability> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-observability> <http://www.w3.org/2000/01/rdf-schema#label> "Agentforce Observability" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-observability> <http://www.w3.org/2004/02/skos/core#altLabel> "Agent Analytics and Monitoring" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-observability> <http://www.w3.org/2004/02/skos/core#altLabel> "Agent Monitoring" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-observability> <http://www.w3.org/2004/02/skos/core#altLabel> "Agentforce Monitoring" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-observability> <http://www.w3.org/2004/02/skos/core#altLabel> "Observe & Optimize" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-observability> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-observability> <http://www.w3.org/2004/02/skos/core#definition> "The set of Agentforce tools for watching deployed AI agents in production: Agent Analytics dashboards, Agentforce Session Tracing, Agent Optimization (intent clustering and quality scoring) and Agent Health Monitoring alerts, all built on session telemetry stored in a Data 360 data model." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-observability> <http://www.w3.org/2004/02/skos/core#prefLabel> "Agentforce Observability" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-observability> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/agent-development-lifecycle> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-observability> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-studio> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-observability> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-subagents> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-observability> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-testing-center> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-observability> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-observability/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-observability> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-observability/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-observability> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-observability/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-observability> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-observability/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-observability> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-observability/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-observability> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-observability> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "data-cloud-and-ai" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-observability> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/digital-wallet> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-observability> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/einstein-trust-layer> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-observability> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/generative-ai-audit-and-feedback-data> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-observability> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#partOf> <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-studio> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-observability> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-observability> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-specialist-certification> <http://purl.org/dc/terms/created> "2026-11-13" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-specialist-certification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Certification> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-specialist-certification> <http://www.w3.org/2000/01/rdf-schema#label> "Agentforce Specialist Certification" .
@@ -310,6 +337,7 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-studio> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/agent-actions> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-studio> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/agent-development-lifecycle> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-studio> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/agent-script> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-studio> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-observability> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-studio> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/atlas-reasoning-engine> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-studio> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-studio/s1> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-studio> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-studio/s2> .
@@ -12359,6 +12387,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-nonprofit/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-nonprofit/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-nonprofit/s6> <https://schema.org/url> "https://trailhead.salesforce.com/it/credentials/agfnonprofitconsultant" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-observability/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-observability/s1> <http://purl.org/dc/terms/title> "Get Started with Agent Monitoring (Agent Analytics and Monitoring)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-observability/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-observability/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-observability/s1> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/agent-analytics-and-monitoring/get-started-with-agent-monitoring" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-observability/s2> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-observability/s2> <http://purl.org/dc/terms/title> "Monitor Agent Health (Agent Analytics and Monitoring)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-observability/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-observability/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-observability/s2> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/agent-analytics-and-monitoring/monitor-agent-health" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-observability/s3> <http://purl.org/dc/terms/publisher> "Salesforce Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-observability/s3> <http://purl.org/dc/terms/title> "Your Agents Are Getting More Capable. Is Your Observability Tooling Keeping Up?" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-observability/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-observability/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-observability/s3> <https://schema.org/url> "https://www.salesforce.com/blog/agentforce-observability/?bc=OTH" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-observability/s4> <http://purl.org/dc/terms/publisher> "Salesforce Newsroom" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-observability/s4> <http://purl.org/dc/terms/title> "Salesforce Deepens Observability in Agentforce 360" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-observability/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-observability/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "news" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-observability/s4> <https://schema.org/url> "https://salesforce.com/news/stories/agentforce-studio-observability-tools-announcement" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-observability/s5> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-observability/s5> <http://purl.org/dc/terms/title> "Agentforce Observability" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-observability/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-observability/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-observability/s5> <https://schema.org/url> "https://www.salesforce.com/agentforce/observability/" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-specialist-certification/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-specialist-certification/s1> <http://purl.org/dc/terms/title> "Salesforce Certified Agentforce Specialist (credential page)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-specialist-certification/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
