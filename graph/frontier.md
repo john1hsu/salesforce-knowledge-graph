@@ -11,7 +11,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:decision-tables` | `kt:loyalty-management`, `kt:salesforce-pricing` |
 | `kt:get-records-element` | `kt:collection-filter-and-sort`, `kt:data-table-screen-component` |
 | `kt:requirements-engineering` | `kt:non-functional-requirements`, `kt:requirements-gathering` |
-| `kt:security-health-check` | `kt:security-center`, `kt:session-settings` |
 | `kt:salesforce-licensing` | `kt:licensing-strategy`, `kt:user-licenses` |
 | `kt:user-stories` | `kt:fit-gap-analysis`, `kt:requirements-gathering` |
 | `kt:email-templates` | `kt:auto-response-rules`, `kt:email-alerts` |
@@ -90,8 +89,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:engagement-studio` | `kt:marketing-cloud-account-engagement` |
 | `kt:model-context-protocol` | `kt:model-context-protocol-in-agentforce` |
 | `kt:salesforce-hosted-mcp-servers` | `kt:model-context-protocol-in-agentforce` |
-| `kt:business-process-mapping` | `kt:requirements-gathering` |
 | `kt:salesforce-as-identity-provider` | `kt:certificate-and-key-management` |
+| `kt:business-process-mapping` | `kt:requirements-gathering` |
 | `kt:data-processing-engine` | `kt:loyalty-management` |
 | `kt:semantic-layer` | `kt:tableau-semantics` |
 | `kt:data-cloud-query-api` | `kt:data-graphs` |
@@ -113,8 +112,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:agentforce-vibes` | `kt:agentforce-vibes-ide` |
 | `kt:json-web-signature` | `kt:json-web-token` |
 | `kt:developer-console` | `kt:apex-logging-and-debug-logs` |
-| `kt:ldap` | `kt:delegated-authentication` |
 | `kt:document-ai` | `kt:unstructured-data-in-data-cloud` |
+| `kt:ldap` | `kt:delegated-authentication` |
 | `kt:models-api` | `kt:ai-models` |
 | `kt:ui-api` | `kt:field-dependencies` |
 | `kt:user-provisioning` | `kt:scim` |
@@ -130,11 +129,11 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:shared-activities` | `kt:activity-data-model` |
 | `kt:heroku-fir` | `kt:heroku-architect-certification` |
 | `kt:twelve-factor-app` | `kt:heroku-architect-certification` |
-| `kt:salesforce-maps` | `kt:geolocation-fields` |
 | `kt:b2c-commerce-architect-certification` | `kt:b2c-solution-architect-certification` |
-| `kt:business-architecture` | `kt:capability-maps` |
 | `kt:change-order-process` | `kt:statement-of-work` |
 | `kt:performance-work-statement` | `kt:statement-of-work` |
+| `kt:salesforce-maps` | `kt:geolocation-fields` |
+| `kt:business-architecture` | `kt:capability-maps` |
 | `kt:technology-roadmaps` | `kt:capability-maps` |
 | `kt:value-streams` | `kt:capability-maps` |
 | `kt:organization-wide-email-addresses` | `kt:email-alerts` |
