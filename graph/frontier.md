@@ -88,7 +88,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:test-setup-methods` | `kt:seealldata` |
 | `kt:model-context-protocol` | `kt:model-context-protocol-in-agentforce` |
 | `kt:salesforce-hosted-mcp-servers` | `kt:model-context-protocol-in-agentforce` |
-| `kt:salesforce-as-identity-provider` | `kt:certificate-and-key-management` |
 | `kt:business-process-mapping` | `kt:requirements-gathering` |
 | `kt:data-cloud-query-api` | `kt:data-graphs` |
 | `kt:semantic-layer` | `kt:tableau-semantics` |
@@ -131,9 +130,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:partner-console` | `kt:license-management-app` |
 | `kt:subscriber-support-console` | `kt:license-management-app` |
 | `kt:b2c-commerce-architect-certification` | `kt:b2c-solution-architect-certification` |
-| `kt:business-architecture` | `kt:capability-maps` |
 | `kt:change-order-process` | `kt:statement-of-work` |
 | `kt:performance-work-statement` | `kt:statement-of-work` |
+| `kt:business-architecture` | `kt:capability-maps` |
 | `kt:salesforce-maps` | `kt:geolocation-fields` |
 | `kt:technology-roadmaps` | `kt:capability-maps` |
 | `kt:value-streams` | `kt:capability-maps` |

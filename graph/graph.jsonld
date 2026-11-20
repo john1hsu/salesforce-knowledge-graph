@@ -28456,6 +28456,104 @@
       ]
     },
     {
+      "@id": "kt:salesforce-as-identity-provider",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Salesforce as Identity Provider",
+      "skos:definition": "The Salesforce capability that lets an org (or its Experience Cloud sites) act as the SAML 2.0 identity provider for external service providers, so users who authenticate to Salesforce get single sign-on into other apps that are registered as SAML- or OpenID Connect-enabled connected apps.",
+      "kto:domain": "identity",
+      "dcterms:created": "2026-11-20",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Enable Salesforce as a SAML Identity Provider",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=sf.identity_provider_enable.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Complete Prerequisites for SAML Service Provider Integration",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=sf.service_provider_prerequisites.htm&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Integrate Service Providers with Salesforce (Connected App Basics)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/connected-app-basics/connected-app-basics-sso",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Learn the Language of Identity (Identity Basics)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/identity_basics/identity_basics_protocols",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Security Assertion Markup Language (SAML) V2.0 Technical Overview",
+          "dcterms:publisher": "OASIS",
+          "schema:url": "https://docs.oasis-open.org/security/saml/Post2.0/sstc-saml-tech-overview-2.0.html",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "Salesforce Certified Platform Identity and Access Management Architect",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/credentials/platformidentityandaccessmanagementarchitect",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/identity/salesforce-as-identity-provider.md",
+      "skos:altLabel": [
+        "Salesforce as IdP",
+        "Salesforce identity provider",
+        "Salesforce SAML identity provider",
+        "Salesforce IdP",
+        "Enable Identity Provider"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-identity"
+        },
+        {
+          "@id": "kt:single-sign-on-saml"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:single-logout"
+        },
+        {
+          "@id": "kt:my-domain"
+        },
+        {
+          "@id": "kt:experience-cloud-identity"
+        }
+      ],
+      "kto:implements": [
+        {
+          "@id": "kt:saml-2-0"
+        },
+        {
+          "@id": "kt:openid-connect"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:connected-apps"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:certificate-and-key-management"
+        }
+      ],
+      "kto:coveredBy": [
+        {
+          "@id": "kt:identity-and-access-management-architect-certification"
+        }
+      ]
+    },
+    {
       "@id": "kt:salesforce-identity",
       "@type": "kto:Product",
       "skos:prefLabel": "Salesforce Identity",
