@@ -2918,6 +2918,35 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-metadata-types> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/soql> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-metadata-types> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-metadata-types> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-objects> <http://purl.org/dc/terms/created> "2026-11-20" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-objects> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-objects> <http://www.w3.org/2000/01/rdf-schema#label> "Custom Objects" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-objects> <http://www.w3.org/2004/02/skos/core#altLabel> "CustomObject metadata" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-objects> <http://www.w3.org/2004/02/skos/core#altLabel> "__c object" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-objects> <http://www.w3.org/2004/02/skos/core#altLabel> "custom database table" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-objects> <http://www.w3.org/2004/02/skos/core#altLabel> "custom object" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-objects> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-architecture> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-objects> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-driven-architecture> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-objects> <http://www.w3.org/2004/02/skos/core#definition> "Org-defined database tables, created in Object Manager or deployed as CustomObject metadata, whose API names end in __c and which hold the business data that Salesforce's standard objects don't cover." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-objects> <http://www.w3.org/2004/02/skos/core#prefLabel> "Custom Objects" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-objects> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-fields> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-objects> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/field-history-tracking> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-objects> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/lookup-vs-master-detail> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-objects> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/object-relationships> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-objects> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/page-layouts> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-objects> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-objects/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-objects> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-objects/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-objects> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-objects/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-objects> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-objects/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-objects> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#alternativeTo> <https://github.com/john1hsu/salesforce-knowledge-graph/id/big-objects> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-objects> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#alternativeTo> <https://github.com/john1hsu/salesforce-knowledge-graph/id/external-objects> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-objects> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-objects> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/schema-builder> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-objects> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#contrastsWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/standard-objects> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-objects> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/organization-wide-defaults> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-objects> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "data-model" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-objects> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-objects> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-settings> <http://purl.org/dc/terms/created> "2026-11-08" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-settings> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#MetadataType> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-settings> <http://www.w3.org/2000/01/rdf-schema#label> "Custom Settings" .
@@ -15027,6 +15056,26 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-metadata-types/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-metadata-types/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-metadata-types/s6> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/custom_metadata_types_dec/cmt_formulas" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-objects/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-objects/s1> <http://purl.org/dc/terms/title> "Custom Objects — Object Reference for the Salesforce Platform (Winter '27, API 68.0)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-objects/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-objects/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-objects/s1> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/api/sforce_api_objects_custom_objects.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-objects/s2> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-objects/s2> <http://purl.org/dc/terms/title> "CustomObject — Metadata API Developer Guide" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-objects/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-objects/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-objects/s2> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/customobject.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-objects/s3> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-objects/s3> <http://purl.org/dc/terms/title> "Optimize Customer Data with Standard and Custom Objects — Data Modeling (Trailhead)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-objects/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-objects/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-objects/s3> <https://schema.org/url> "https://trailhead.salesforce.com/en/data_modeling/objects_intro" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-objects/s4> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-objects/s4> <http://purl.org/dc/terms/title> "Create a Custom Object — Create a Custom Object Quick Look (Trailhead)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-objects/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-objects/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-objects/s4> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/create-a-custom-object-quick-look/create-a-custom-object" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-settings/s1> <http://purl.org/dc/terms/publisher> "Salesforce" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-settings/s1> <http://purl.org/dc/terms/title> "Apex Developer Guide: Custom Settings" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-settings/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

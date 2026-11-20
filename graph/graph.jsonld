@@ -15855,6 +15855,100 @@
       ]
     },
     {
+      "@id": "kt:custom-objects",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Custom Objects",
+      "skos:definition": "Org-defined database tables, created in Object Manager or deployed as CustomObject metadata, whose API names end in __c and which hold the business data that Salesforce's standard objects don't cover.",
+      "kto:domain": "data-model",
+      "dcterms:created": "2026-11-20",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Custom Objects — Object Reference for the Salesforce Platform (Winter '27, API 68.0)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/api/sforce_api_objects_custom_objects.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "CustomObject — Metadata API Developer Guide",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/customobject.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Optimize Customer Data with Standard and Custom Objects — Data Modeling (Trailhead)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/en/data_modeling/objects_intro",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Create a Custom Object — Create a Custom Object Quick Look (Trailhead)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/create-a-custom-object-quick-look/create-a-custom-object",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/data-model/custom-objects.md",
+      "skos:altLabel": [
+        "custom object",
+        "__c object",
+        "custom database table",
+        "CustomObject metadata"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:data-architecture"
+        },
+        {
+          "@id": "kt:metadata-driven-architecture"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:custom-fields"
+        },
+        {
+          "@id": "kt:object-relationships"
+        },
+        {
+          "@id": "kt:lookup-vs-master-detail"
+        },
+        {
+          "@id": "kt:field-history-tracking"
+        },
+        {
+          "@id": "kt:page-layouts"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:standard-objects"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:external-objects"
+        },
+        {
+          "@id": "kt:big-objects"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:metadata-api"
+        },
+        {
+          "@id": "kt:schema-builder"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:organization-wide-defaults"
+        }
+      ]
+    },
+    {
       "@id": "kt:data-governance",
       "@type": "kto:Concept",
       "skos:prefLabel": "Data Governance",
