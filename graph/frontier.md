@@ -11,7 +11,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:decision-tables` | `kt:loyalty-management`, `kt:salesforce-pricing` |
 | `kt:get-records-element` | `kt:collection-filter-and-sort`, `kt:data-table-screen-component` |
 | `kt:requirements-engineering` | `kt:non-functional-requirements`, `kt:requirements-gathering` |
-| `kt:salesforce-licensing` | `kt:licensing-strategy`, `kt:user-licenses` |
 | `kt:user-stories` | `kt:fit-gap-analysis`, `kt:requirements-gathering` |
 | `kt:email-templates` | `kt:auto-response-rules`, `kt:email-alerts` |
 | `kt:salesforce-ecosystem-roles` | `kt:salesforce-architect` |
@@ -43,8 +42,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:einstein-discovery` | `kt:crm-analytics` |
 | `kt:saql` | `kt:crm-analytics` |
 | `kt:custom-property-editors` | `kt:custom-flow-screen-components` |
-| `kt:apex-mocks` | `kt:apex-enterprise-patterns` |
 | `kt:api-experience-hub` | `kt:external-identity-license` |
+| `kt:apex-mocks` | `kt:apex-enterprise-patterns` |
 | `kt:salesforce-ecosystem` | `kt:salesforce-inc` |
 | `kt:rest-api-limits-resource` | `kt:orglimits-class` |
 | `kt:apex-rest-services` | `kt:remote-call-in` |
@@ -93,11 +92,11 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:business-process-mapping` | `kt:requirements-gathering` |
 | `kt:data-cloud-query-api` | `kt:data-graphs` |
 | `kt:semantic-layer` | `kt:tableau-semantics` |
-| `kt:data-extensions` | `kt:automation-studio` |
-| `kt:marketing-cloud-sql` | `kt:automation-studio` |
 | `kt:partner-community-licenses` | `kt:customer-community-licenses` |
 | `kt:share-groups` | `kt:customer-community-licenses` |
 | `kt:sharing-sets` | `kt:customer-community-licenses` |
+| `kt:data-extensions` | `kt:automation-studio` |
+| `kt:marketing-cloud-sql` | `kt:automation-studio` |
 | `kt:management` | `kt:organizational-governance` |
 | `kt:holidays` | `kt:business-hours` |
 | `kt:in-app-guidance` | `kt:change-management-and-adoption` |
@@ -127,27 +126,27 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:heroku-fir` | `kt:heroku-architect-certification` |
 | `kt:shared-activities` | `kt:activity-data-model` |
 | `kt:twelve-factor-app` | `kt:heroku-architect-certification` |
+| `kt:experience-cloud-consultant-certification` | `kt:licensing-strategy` |
+| `kt:partner-business-org` | `kt:license-management-app` |
+| `kt:partner-console` | `kt:license-management-app` |
+| `kt:subscriber-support-console` | `kt:license-management-app` |
 | `kt:b2c-commerce-architect-certification` | `kt:b2c-solution-architect-certification` |
 | `kt:business-architecture` | `kt:capability-maps` |
 | `kt:change-order-process` | `kt:statement-of-work` |
 | `kt:performance-work-statement` | `kt:statement-of-work` |
+| `kt:salesforce-maps` | `kt:geolocation-fields` |
 | `kt:technology-roadmaps` | `kt:capability-maps` |
 | `kt:value-streams` | `kt:capability-maps` |
-| `kt:salesforce-maps` | `kt:geolocation-fields` |
 | `kt:organization-wide-email-addresses` | `kt:email-alerts` |
 | `kt:digital-accessibility` | `kt:section-508-accessibility` |
 | `kt:tx-ramp` | `kt:govramp` |
 | `kt:wcag` | `kt:section-508-accessibility` |
 | `kt:agent-to-agent-protocol` | `kt:agentforce-architecture-patterns` |
 | `kt:consent-data-model` | `kt:consent-management-in-data-cloud` |
-| `kt:experience-cloud-consultant-certification` | `kt:licensing-strategy` |
 | `kt:greenhouse-gas-protocol` | `kt:net-zero-cloud` |
 | `kt:multi-agent-orchestration` | `kt:agentforce-architecture-patterns` |
 | `kt:notes-and-attachments` | `kt:content-document-model` |
-| `kt:partner-business-org` | `kt:license-management-app` |
-| `kt:partner-console` | `kt:license-management-app` |
 | `kt:salesforce-seasonal-releases` | `kt:release-updates` |
-| `kt:subscriber-support-console` | `kt:license-management-app` |
 | `kt:tableau-blueprint` | `kt:tableau-architect-certification` |
 | `kt:tableau-server-administrator-certification` | `kt:tableau-architect-certification` |
 | `kt:web-to-case` | `kt:auto-response-rules` |

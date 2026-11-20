@@ -35918,6 +35918,116 @@
       ]
     },
     {
+      "@id": "kt:salesforce-licensing",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Salesforce Licensing",
+      "skos:definition": "The layered model by which a Salesforce org's purchased editions and add-ons (product licenses) are provisioned as platform, user and permission set licenses (settings licenses) that switch on org-wide and per-user permissions and preferences, which profiles and permission sets then grant within those ceilings.",
+      "kto:domain": "platform-architecture",
+      "dcterms:created": "2026-11-20",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Understand How Licenses Work (Salesforce Licensing module)",
+          "dcterms:publisher": "Salesforce Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/salesforce-licensing/understand-how-licenses-work",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Give Users the Functionality They Need (Salesforce Licensing module)",
+          "dcterms:publisher": "Salesforce Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/salesforce-licensing/give-users-the-functionality-they-need",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Keep Up with Upgrades and Add-ons (Salesforce Licensing module)",
+          "dcterms:publisher": "Salesforce Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/salesforce-licensing/keep-up-with-upgrades-and-addons",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Choosing the Right Salesforce Edition for Your App",
+          "dcterms:publisher": "Salesforce Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/isv_plan/isv_plan_editions",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "OEM User License Guide (ISVforce Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.packagingGuide.meta/packageGuide/oem_user_license_comparison.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "TenantUsageEntitlement (Object Reference for the Salesforce Platform)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/api/sforce_api_objects_tenantusageentitlement.htm",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/platform-architecture/salesforce-licensing.md",
+      "skos:altLabel": [
+        "Salesforce license model",
+        "Salesforce licensing model",
+        "license definitions",
+        "settings licenses",
+        "product licenses"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-platform"
+        },
+        {
+          "@id": "kt:metadata-driven-architecture"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:user-licenses"
+        },
+        {
+          "@id": "kt:permission-set-licenses"
+        },
+        {
+          "@id": "kt:licensing-strategy"
+        },
+        {
+          "@id": "kt:profiles"
+        },
+        {
+          "@id": "kt:permission-sets"
+        },
+        {
+          "@id": "kt:sandbox-types"
+        },
+        {
+          "@id": "kt:total-cost-of-ownership"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:user-licenses"
+        },
+        {
+          "@id": "kt:permission-set-licenses"
+        }
+      ],
+      "kto:enables": [
+        {
+          "@id": "kt:profiles"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:license-management-app"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:api-request-limits"
+        }
+      ]
+    },
+    {
       "@id": "kt:salesforce-platform",
       "@type": "kto:Product",
       "skos:prefLabel": "Salesforce Platform",
