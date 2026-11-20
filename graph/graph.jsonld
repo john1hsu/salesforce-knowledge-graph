@@ -7802,6 +7802,95 @@
       ]
     },
     {
+      "@id": "kt:contact-builder",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Contact Builder",
+      "skos:definition": "The Marketing Cloud Engagement application that holds the account's contact data model: it stores contacts and their channel addresses under one contact key, and links data extensions into attribute groups and populations that Journey Builder and the messaging channels use.",
+      "kto:domain": "clouds-and-products",
+      "dcterms:created": "2026-11-20",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Understand Contacts and Contact Model Relationships (Marketing Cloud Engagement Contact Management)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/marketing-cloud-contact-management/understand-contacts-and-contact-model-relationships",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Organize Your Data (Contact Builder Implementation Basics)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/contact-builder-implementation-basics/organize-data",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Configure Contact Models (Marketing Cloud Engagement Contact Management)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/marketing-cloud-contact-management/configure-contact-models",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Design Your Data Model (Marketing Cloud Engagement Data Management)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/marketing-cloud-data-management/design-your-mc-data-model",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Build Your Data Model (Marketing Cloud Engagement Data Management)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/marketing-cloud-data-management/build-your-data-model",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Manage Contact Data (Marketing Cloud Engagement Contact Management)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/marketing-cloud-contact-management/manage-contact-data",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/clouds-and-products/contact-builder.md",
+      "skos:altLabel": [
+        "Marketing Cloud Contact Builder",
+        "SFMC Contact Builder"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:marketing-cloud-engagement"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:journey-builder"
+        },
+        {
+          "@id": "kt:automation-studio"
+        },
+        {
+          "@id": "kt:marketing-cloud-connect"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:marketing-cloud-engagement"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:data-extensions"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:journey-builder"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:marketing-cloud-connect"
+        }
+      ]
+    },
+    {
       "@id": "kt:context-service",
       "@type": "kto:Feature",
       "skos:prefLabel": "Context Service",

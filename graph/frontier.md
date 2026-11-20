@@ -4,10 +4,10 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
-| `kt:contact-builder` | `kt:automation-studio`, `kt:journey-builder`, `kt:marketing-cloud-connect`, `kt:marketing-cloud-engagement` |
 | `kt:business-analyst` | `kt:fit-gap-analysis`, `kt:omnistudio-consultant-certification`, `kt:requirements-gathering`, `kt:user-acceptance-testing` |
 | `kt:customer-360` | `kt:commerce-cloud`, `kt:salesforce-marketing-solutions`, `kt:slack-platform` |
 | `kt:test-loaddata` | `kt:seealldata`, `kt:test-data-factory` |
+| `kt:data-extensions` | `kt:automation-studio`, `kt:contact-builder` |
 | `kt:decision-tables` | `kt:loyalty-management`, `kt:salesforce-pricing` |
 | `kt:get-records-element` | `kt:collection-filter-and-sort`, `kt:data-table-screen-component` |
 | `kt:requirements-engineering` | `kt:non-functional-requirements`, `kt:requirements-gathering` |
@@ -48,9 +48,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:rest-api-limits-resource` | `kt:orglimits-class` |
 | `kt:apex-rest-services` | `kt:remote-call-in` |
 | `kt:lightning-out` | `kt:lightning-locker` |
+| `kt:heroku-postgres` | `kt:heroku-connect` |
 | `kt:dynamic-revenue-orchestrator` | `kt:revenue-cloud` |
 | `kt:revenue-management-consultant-certification` | `kt:revenue-cloud` |
-| `kt:heroku-postgres` | `kt:heroku-connect` |
 | `kt:mulesoft-platform-integration-architect-certification` | `kt:mulesoft-platform-architect-certification` |
 | `kt:agentexchange-go-to-market-app` | `kt:agentexchange` |
 | `kt:path` | `kt:business-processes` |
@@ -65,6 +65,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:dynamic-highlights-panel` | `kt:dynamic-forms` |
 | `kt:constraint-modeling-language` | `kt:product-configurator` |
 | `kt:product-catalog-management` | `kt:product-configurator` |
+| `kt:marketing-cloud-sql` | `kt:automation-studio` |
+| `kt:engagement-studio` | `kt:marketing-cloud-account-engagement` |
 | `kt:block-kit` | `kt:slack-platform` |
 | `kt:mulesoft-composer` | `kt:slack-platform` |
 | `kt:slack-api-rate-limits` | `kt:slack-platform` |
@@ -73,7 +75,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:static-resources` | `kt:cross-site-scripting` |
 | `kt:reports-and-dashboards` | `kt:salesforce-analytics` |
 | `kt:anypoint-runtime-manager` | `kt:mule-runtime-engine` |
-| `kt:engagement-studio` | `kt:marketing-cloud-account-engagement` |
 | `kt:actionable-relationship-center` | `kt:financial-services-cloud` |
 | `kt:compliant-data-sharing` | `kt:financial-services-cloud` |
 | `kt:iso-iec-25010` | `kt:non-functional-requirements` |
@@ -81,8 +82,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:invocable-methods` | `kt:apex-defined-types` |
 | `kt:platform-cache-partitions` | `kt:platform-cache` |
 | `kt:computer-science` | `kt:distributed-computing` |
-| `kt:opportunity-products` | `kt:price-books` |
 | `kt:data-processing-engine` | `kt:loyalty-management` |
+| `kt:opportunity-products` | `kt:price-books` |
 | `kt:fhir` | `kt:health-cloud` |
 | `kt:utilization-management` | `kt:health-cloud` |
 | `kt:test-setup-methods` | `kt:seealldata` |
@@ -95,15 +96,13 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:partner-community-licenses` | `kt:customer-community-licenses` |
 | `kt:share-groups` | `kt:customer-community-licenses` |
 | `kt:sharing-sets` | `kt:customer-community-licenses` |
-| `kt:data-extensions` | `kt:automation-studio` |
-| `kt:marketing-cloud-sql` | `kt:automation-studio` |
 | `kt:management` | `kt:organizational-governance` |
 | `kt:business-analyst-certification` | `kt:user-acceptance-testing` |
 | `kt:holidays` | `kt:business-hours` |
-| `kt:data-cloud-code-extension` | `kt:vector-search-in-data-cloud` |
 | `kt:b2b-commerce` | `kt:commerce-cloud` |
 | `kt:b2c-commerce` | `kt:commerce-cloud` |
 | `kt:salesforce-order-management` | `kt:commerce-cloud` |
+| `kt:data-cloud-code-extension` | `kt:vector-search-in-data-cloud` |
 | `kt:username-password-flow` | `kt:client-credentials-flow` |
 | `kt:agentforce-vibes` | `kt:agentforce-vibes-ide` |
 | `kt:json-web-signature` | `kt:json-web-token` |
@@ -132,14 +131,13 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:subscriber-support-console` | `kt:license-management-app` |
 | `kt:experience-cloud-consultant-certification` | `kt:licensing-strategy` |
 | `kt:b2c-commerce-architect-certification` | `kt:b2c-solution-architect-certification` |
+| `kt:salesforce-maps` | `kt:geolocation-fields` |
 | `kt:business-architecture` | `kt:capability-maps` |
 | `kt:technology-roadmaps` | `kt:capability-maps` |
 | `kt:value-streams` | `kt:capability-maps` |
-| `kt:salesforce-maps` | `kt:geolocation-fields` |
 | `kt:organization-wide-email-addresses` | `kt:email-alerts` |
 | `kt:consent-data-model` | `kt:consent-management-in-data-cloud` |
 | `kt:digital-accessibility` | `kt:section-508-accessibility` |
-| `kt:greenhouse-gas-protocol` | `kt:net-zero-cloud` |
 | `kt:notes-and-attachments` | `kt:content-document-model` |
 | `kt:salesforce-seasonal-releases` | `kt:release-updates` |
 | `kt:tx-ramp` | `kt:govramp` |
@@ -147,6 +145,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:web-to-case` | `kt:auto-response-rules` |
 | `kt:web-to-lead` | `kt:auto-response-rules` |
 | `kt:agent-to-agent-protocol` | `kt:agentforce-architecture-patterns` |
+| `kt:greenhouse-gas-protocol` | `kt:net-zero-cloud` |
 | `kt:multi-agent-orchestration` | `kt:agentforce-architecture-patterns` |
 | `kt:rollback-plan` | `kt:hypercare` |
 | `kt:tableau-blueprint` | `kt:tableau-architect-certification` |
