@@ -31169,6 +31169,89 @@
       ]
     },
     {
+      "@id": "kt:marketing-cloud-connect",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Marketing Cloud Connect",
+      "skos:definition": "The managed-package connector that links a Marketing Cloud Engagement account to a Sales Cloud or Service Cloud org, so CRM users can send Marketing Cloud email to leads, contacts, campaigns and reports, CRM records can be synchronized into Marketing Cloud data extensions, and email tracking and Journey Builder activity flow back to CRM.",
+      "kto:domain": "integration",
+      "dcterms:created": "2026-11-20",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Guide to Marketing Cloud Connect Setup (Marketing Cloud Connect module)",
+          "dcterms:publisher": "Trailhead (Salesforce)",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/marketing-cloud-connect/get-started-with-mc-connect",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Salesforce CRM Setup & Configuration (Marketing Cloud Connect module)",
+          "dcterms:publisher": "Trailhead (Salesforce)",
+          "schema:url": "https://trailhead.salesforce.com/en/modules/marketing-cloud-connect/units/install-mc-connect",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Integrate Marketing Cloud with Salesforce CRM (Marketing Cloud Connect module)",
+          "dcterms:publisher": "Trailhead (Salesforce)",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/marketing-cloud-connect/finish-mc-connect-configuration",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Explore Synchronized Data Sources (Marketing Cloud Engagement Contact Management)",
+          "dcterms:publisher": "Trailhead (Salesforce)",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/marketing-cloud-contact-management/explore-synchronized-data-sources",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/integration/marketing-cloud-connect.md",
+      "skos:altLabel": [
+        "MC Connect",
+        "MCC",
+        "Marketing Cloud Connector",
+        "Marketing Cloud Connect managed package"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:data-integration"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:heroku-connect"
+        },
+        {
+          "@id": "kt:marketing-cloud-account-engagement"
+        },
+        {
+          "@id": "kt:salesforce-marketing-solutions"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:marketing-cloud-engagement"
+        },
+        {
+          "@id": "kt:journey-builder"
+        },
+        {
+          "@id": "kt:contact-builder"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:connected-apps"
+        },
+        {
+          "@id": "kt:platform-events"
+        }
+      ],
+      "kto:requiresLicense": [
+        {
+          "@id": "kt:marketing-cloud-engagement"
+        }
+      ]
+    },
+    {
       "@id": "kt:mule-runtime-engine",
       "@type": "kto:Product",
       "skos:prefLabel": "Mule Runtime Engine",

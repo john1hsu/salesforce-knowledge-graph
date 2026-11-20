@@ -4,10 +4,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 
 | Node | Referenced by |
 |---|---|
+| `kt:contact-builder` | `kt:automation-studio`, `kt:journey-builder`, `kt:marketing-cloud-connect`, `kt:marketing-cloud-engagement` |
 | `kt:business-analyst` | `kt:fit-gap-analysis`, `kt:omnistudio-consultant-certification`, `kt:requirements-gathering`, `kt:user-acceptance-testing` |
-| `kt:contact-builder` | `kt:automation-studio`, `kt:journey-builder`, `kt:marketing-cloud-engagement` |
 | `kt:customer-360` | `kt:commerce-cloud`, `kt:salesforce-marketing-solutions`, `kt:slack-platform` |
-| `kt:marketing-cloud-connect` | `kt:journey-builder`, `kt:marketing-cloud-engagement` |
 | `kt:decision-tables` | `kt:loyalty-management`, `kt:salesforce-pricing` |
 | `kt:get-records-element` | `kt:collection-filter-and-sort`, `kt:data-table-screen-component` |
 | `kt:requirements-engineering` | `kt:non-functional-requirements`, `kt:requirements-gathering` |
@@ -53,6 +52,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:lightning-out` | `kt:lightning-locker` |
 | `kt:dynamic-revenue-orchestrator` | `kt:revenue-cloud` |
 | `kt:revenue-management-consultant-certification` | `kt:revenue-cloud` |
+| `kt:heroku-postgres` | `kt:heroku-connect` |
 | `kt:mulesoft-platform-integration-architect-certification` | `kt:mulesoft-platform-architect-certification` |
 | `kt:agentexchange-go-to-market-app` | `kt:agentexchange` |
 | `kt:generative-ai` | `kt:retrieval-augmented-generation-in-salesforce` |
@@ -62,7 +62,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:application-network` | `kt:api-led-connectivity` |
 | `kt:point-to-point-integration` | `kt:api-led-connectivity` |
 | `kt:batch-apex-error-event` | `kt:transaction-finalizers` |
-| `kt:heroku-postgres` | `kt:heroku-connect` |
 | `kt:opportunity-teams` | `kt:opportunity-splits` |
 | `kt:dynamic-actions` | `kt:dynamic-forms` |
 | `kt:dynamic-highlights-panel` | `kt:dynamic-forms` |
@@ -75,6 +74,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:backup-and-recover-next` | `kt:backup-and-recover` |
 | `kt:static-resources` | `kt:cross-site-scripting` |
 | `kt:reports-and-dashboards` | `kt:salesforce-analytics` |
+| `kt:engagement-studio` | `kt:marketing-cloud-account-engagement` |
 | `kt:anypoint-runtime-manager` | `kt:mule-runtime-engine` |
 | `kt:actionable-relationship-center` | `kt:financial-services-cloud` |
 | `kt:compliant-data-sharing` | `kt:financial-services-cloud` |
@@ -84,22 +84,21 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:computer-science` | `kt:distributed-computing` |
 | `kt:platform-cache-partitions` | `kt:platform-cache` |
 | `kt:opportunity-products` | `kt:price-books` |
-| `kt:engagement-studio` | `kt:marketing-cloud-account-engagement` |
+| `kt:data-processing-engine` | `kt:loyalty-management` |
 | `kt:fhir` | `kt:health-cloud` |
 | `kt:utilization-management` | `kt:health-cloud` |
 | `kt:model-context-protocol` | `kt:model-context-protocol-in-agentforce` |
 | `kt:salesforce-hosted-mcp-servers` | `kt:model-context-protocol-in-agentforce` |
 | `kt:salesforce-as-identity-provider` | `kt:certificate-and-key-management` |
 | `kt:business-process-mapping` | `kt:requirements-gathering` |
-| `kt:data-processing-engine` | `kt:loyalty-management` |
 | `kt:data-cloud-query-api` | `kt:data-graphs` |
 | `kt:semantic-layer` | `kt:tableau-semantics` |
+| `kt:data-extensions` | `kt:automation-studio` |
+| `kt:marketing-cloud-sql` | `kt:automation-studio` |
 | `kt:partner-community-licenses` | `kt:customer-community-licenses` |
 | `kt:share-groups` | `kt:customer-community-licenses` |
 | `kt:sharing-sets` | `kt:customer-community-licenses` |
 | `kt:management` | `kt:organizational-governance` |
-| `kt:data-extensions` | `kt:automation-studio` |
-| `kt:marketing-cloud-sql` | `kt:automation-studio` |
 | `kt:holidays` | `kt:business-hours` |
 | `kt:in-app-guidance` | `kt:change-management-and-adoption` |
 | `kt:business-analyst-certification` | `kt:user-acceptance-testing` |
@@ -130,12 +129,12 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:heroku-fir` | `kt:heroku-architect-certification` |
 | `kt:twelve-factor-app` | `kt:heroku-architect-certification` |
 | `kt:b2c-commerce-architect-certification` | `kt:b2c-solution-architect-certification` |
+| `kt:business-architecture` | `kt:capability-maps` |
 | `kt:change-order-process` | `kt:statement-of-work` |
 | `kt:performance-work-statement` | `kt:statement-of-work` |
-| `kt:salesforce-maps` | `kt:geolocation-fields` |
-| `kt:business-architecture` | `kt:capability-maps` |
 | `kt:technology-roadmaps` | `kt:capability-maps` |
 | `kt:value-streams` | `kt:capability-maps` |
+| `kt:salesforce-maps` | `kt:geolocation-fields` |
 | `kt:organization-wide-email-addresses` | `kt:email-alerts` |
 | `kt:digital-accessibility` | `kt:section-508-accessibility` |
 | `kt:notes-and-attachments` | `kt:content-document-model` |
