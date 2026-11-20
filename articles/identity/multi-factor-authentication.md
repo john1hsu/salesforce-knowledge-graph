@@ -11,7 +11,7 @@ summary: >-
 release: "Winter '27"
 status: current
 broader: [kt:salesforce-identity]
-related: [kt:single-sign-on-saml, kt:connected-apps, kt:external-client-apps, kt:my-domain, kt:experience-cloud-identity]
+related: [kt:single-sign-on-saml, kt:connected-apps, kt:external-client-apps, kt:my-domain, kt:experience-cloud-identity, kt:salesforce-authenticator]
 relations:
   - {predicate: mitigates, object: kt:account-takeover}
   - {predicate: implements, object: kt:nist-digital-identity-guidelines}
