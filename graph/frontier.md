@@ -30,7 +30,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:data-stewardship` | `kt:data-governance` |
 | `kt:data-import-wizard` | `kt:data-loader` |
 | `kt:salesforce-lightning-design-system` | `kt:visualforce` |
-| `kt:pushtopic-streaming-allocations` | `kt:streaming-api` |
 | `kt:dispatcher-console` | `kt:field-service` |
 | `kt:field-service-mobile-app` | `kt:field-service` |
 | `kt:field-service-scheduling-policies` | `kt:field-service` |
@@ -43,15 +42,15 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:saql` | `kt:crm-analytics` |
 | `kt:custom-property-editors` | `kt:custom-flow-screen-components` |
 | `kt:apex-mocks` | `kt:apex-enterprise-patterns` |
-| `kt:api-experience-hub` | `kt:external-identity-license` |
 | `kt:rest-api-limits-resource` | `kt:orglimits-class` |
+| `kt:api-experience-hub` | `kt:external-identity-license` |
 | `kt:salesforce-ecosystem` | `kt:salesforce-inc` |
 | `kt:apex-rest-services` | `kt:remote-call-in` |
 | `kt:lightning-out` | `kt:lightning-locker` |
 | `kt:heroku-postgres` | `kt:heroku-connect` |
+| `kt:agentexchange-go-to-market-app` | `kt:agentexchange` |
 | `kt:dynamic-revenue-orchestrator` | `kt:revenue-cloud` |
 | `kt:revenue-management-consultant-certification` | `kt:revenue-cloud` |
-| `kt:agentexchange-go-to-market-app` | `kt:agentexchange` |
 | `kt:object-manager` | `kt:schema-builder` |
 | `kt:mulesoft-platform-integration-architect-certification` | `kt:mulesoft-platform-architect-certification` |
 | `kt:path` | `kt:business-processes` |
@@ -122,6 +121,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:currency-type-object` | `kt:multiple-currencies` |
 | `kt:agentforce-nonprofit-consultant-certification` | `kt:agentforce-nonprofit` |
 | `kt:nonprofit-success-pack` | `kt:agentforce-nonprofit` |
+| `kt:trialforce` | `kt:environment-hub` |
 | `kt:hyperforce-assistant` | `kt:instance-refresh-and-org-migration` |
 | `kt:heroku-fir` | `kt:heroku-architect-certification` |
 | `kt:shared-activities` | `kt:activity-data-model` |
@@ -129,9 +129,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:experience-cloud-consultant-certification` | `kt:licensing-strategy` |
 | `kt:b2c-commerce-architect-certification` | `kt:b2c-solution-architect-certification` |
 | `kt:business-architecture` | `kt:capability-maps` |
-| `kt:salesforce-maps` | `kt:geolocation-fields` |
 | `kt:technology-roadmaps` | `kt:capability-maps` |
 | `kt:value-streams` | `kt:capability-maps` |
+| `kt:salesforce-maps` | `kt:geolocation-fields` |
 | `kt:organization-wide-email-addresses` | `kt:email-alerts` |
 | `kt:digital-accessibility` | `kt:section-508-accessibility` |
 | `kt:tx-ramp` | `kt:govramp` |
@@ -145,6 +145,5 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:salesforce-seasonal-releases` | `kt:release-updates` |
 | `kt:tableau-blueprint` | `kt:tableau-architect-certification` |
 | `kt:tableau-server-administrator-certification` | `kt:tableau-architect-certification` |
-| `kt:trialforce` | `kt:environment-hub` |
 | `kt:web-to-case` | `kt:auto-response-rules` |
 | `kt:web-to-lead` | `kt:auto-response-rules` |

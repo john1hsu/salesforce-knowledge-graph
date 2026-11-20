@@ -8490,6 +8490,30 @@
     ]
   },
   {
+    "id": "kt:pushtopic-streaming-allocations",
+    "title": "PushTopic Streaming Allocations",
+    "aliases": [
+      "PushTopic allocations",
+      "PushTopic limits",
+      "generic streaming allocations",
+      "legacy Streaming API allocations",
+      "DailyDurableStreamingApiEvents"
+    ],
+    "type": "Limit",
+    "domain": "integration",
+    "file": "articles/integration/pushtopic-streaming-allocations.md",
+    "created": "2026-11-20",
+    "release": "Winter '27",
+    "status": "current",
+    "source_urls": [
+      "https://developer.salesforce.com/docs/atlas.en-us.264.0.api_streaming.meta/api_streaming/limits.htm",
+      "https://developer.salesforce.com/docs/atlas.en-us.api_streaming.meta/api_streaming/limits_generic.htm",
+      "https://developer.salesforce.com/docs/atlas.en-us.api_streaming.meta/api_streaming/using_streaming_api_monitoring_events_usage.htm",
+      "https://developer.salesforce.com/docs/atlas.en-us.262.0.api_streaming.meta/api_streaming/using_streaming_api_monitoring_events_usage_api.htm",
+      "https://developer.salesforce.com/docs/atlas.en-us.api_streaming.meta/api_streaming/using_streaming_api_multiple_notifications.htm"
+    ]
+  },
+  {
     "id": "kt:query-optimizer-selectivity",
     "title": "Query Optimizer Selectivity",
     "aliases": [
