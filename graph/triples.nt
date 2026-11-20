@@ -4378,6 +4378,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/entitlement-management> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#partOf> <https://github.com/john1hsu/salesforce-knowledge-graph/id/service-cloud> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/entitlement-management> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/entitlement-management> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/environment-hub> <http://purl.org/dc/terms/created> "2026-11-20" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/environment-hub> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Tool> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/environment-hub> <http://www.w3.org/2000/01/rdf-schema#label> "Environment Hub" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/environment-hub> <http://www.w3.org/2004/02/skos/core#altLabel> "Env Hub" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/environment-hub> <http://www.w3.org/2004/02/skos/core#altLabel> "Environment Hub app" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/environment-hub> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce Environment Hub" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/environment-hub> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/application-lifecycle-management> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/environment-hub> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/environment-strategy> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/environment-hub> <http://www.w3.org/2004/02/skos/core#definition> "A Salesforce app, preinstalled in every ISV partner business org, that lets a team connect, create, filter and single-sign-on into many orgs (development, test, demo and Trialforce source orgs) from one hub org, with each member represented as an EnvironmentHubMember record." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/environment-hub> <http://www.w3.org/2004/02/skos/core#prefLabel> "Environment Hub" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/environment-hub> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentexchange> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/environment-hub> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/dev-hub> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/environment-hub> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/first-generation-managed-packages> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/environment-hub> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-types> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/environment-hub> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/scratch-orgs> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/environment-hub> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/second-generation-managed-packages> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/environment-hub> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/environment-hub/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/environment-hub> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/environment-hub/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/environment-hub> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/environment-hub/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/environment-hub> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/environment-hub/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/environment-hub> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/environment-hub/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/environment-hub> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/environment-hub/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/environment-hub> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/connected-apps> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/environment-hub> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/partner-business-org> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/environment-hub> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/single-sign-on-saml> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/environment-hub> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "devops-and-alm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/environment-hub> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/license-management-app> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/environment-hub> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/trialforce> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/environment-hub> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/environment-hub> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/environment-strategy> <http://purl.org/dc/terms/created> "2026-10-31" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/environment-strategy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/environment-strategy> <http://www.w3.org/2000/01/rdf-schema#label> "Environment Strategy" .
@@ -16496,6 +16526,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/entitlement-management/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/entitlement-management/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/entitlement-management/s6> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/sla-and-entitlements-setup/set-up-milestone-actions-and-automate-policy-allotment" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/environment-hub/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/environment-hub/s1> <http://purl.org/dc/terms/title> "Manage Orgs with Environment Hub (ISVforce Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/environment-hub/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/environment-hub/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/environment-hub/s1> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/isvforce/guide/environment-hub-intro.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/environment-hub/s2> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/environment-hub/s2> <http://purl.org/dc/terms/title> "Connect an Org to the Environment Hub (ISVforce Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/environment-hub/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/environment-hub/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/environment-hub/s2> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/isvforce/guide/environment-hub-manage-connect-org.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/environment-hub/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/environment-hub/s3> <http://purl.org/dc/terms/title> "Single Sign-on in the Environment Hub (ISVforce Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/environment-hub/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/environment-hub/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/environment-hub/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/isvforce/guide/environment-hub-sso-mapping.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/environment-hub/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/environment-hub/s4> <http://purl.org/dc/terms/title> "Create an Org from the Environment Hub (ISVforce Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/environment-hub/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/environment-hub/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/environment-hub/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/isvforce/guide/environment-hub-manage-create-org.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/environment-hub/s5> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/environment-hub/s5> <http://purl.org/dc/terms/title> "Configure the Environment Hub (ISVforce Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/environment-hub/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/environment-hub/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/environment-hub/s5> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/isvforce/guide/environment-hub-get-started-configure-app.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/environment-hub/s6> <http://purl.org/dc/terms/publisher> "Salesforce Developers Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/environment-hub/s6> <http://purl.org/dc/terms/title> "Salesforce Org Recommendations for ISVs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/environment-hub/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/environment-hub/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/environment-hub/s6> <https://schema.org/url> "https://developer.salesforce.com/blogs/2024/07/salesforce-org-recommendations-for-isvs" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/environment-strategy/s1> <http://purl.org/dc/terms/publisher> "Salesforce" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/environment-strategy/s1> <http://purl.org/dc/terms/title> "Deploy Your Changes and Sandboxes (Salesforce Help PDF)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/environment-strategy/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

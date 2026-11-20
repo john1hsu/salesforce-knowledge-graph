@@ -23886,6 +23886,107 @@
       ]
     },
     {
+      "@id": "kt:environment-hub",
+      "@type": "kto:Tool",
+      "skos:prefLabel": "Environment Hub",
+      "skos:definition": "A Salesforce app, preinstalled in every ISV partner business org, that lets a team connect, create, filter and single-sign-on into many orgs (development, test, demo and Trialforce source orgs) from one hub org, with each member represented as an EnvironmentHubMember record.",
+      "kto:domain": "devops-and-alm",
+      "dcterms:created": "2026-11-20",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Manage Orgs with Environment Hub (ISVforce Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/isvforce/guide/environment-hub-intro.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Connect an Org to the Environment Hub (ISVforce Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/isvforce/guide/environment-hub-manage-connect-org.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Single Sign-on in the Environment Hub (ISVforce Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/isvforce/guide/environment-hub-sso-mapping.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Create an Org from the Environment Hub (ISVforce Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/isvforce/guide/environment-hub-manage-create-org.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Configure the Environment Hub (ISVforce Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/isvforce/guide/environment-hub-get-started-configure-app.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Salesforce Org Recommendations for ISVs",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2024/07/salesforce-org-recommendations-for-isvs",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/devops-and-alm/environment-hub.md",
+      "skos:altLabel": [
+        "Salesforce Environment Hub",
+        "Env Hub",
+        "Environment Hub app"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:application-lifecycle-management"
+        },
+        {
+          "@id": "kt:environment-strategy"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:agentexchange"
+        },
+        {
+          "@id": "kt:sandbox-types"
+        },
+        {
+          "@id": "kt:scratch-orgs"
+        },
+        {
+          "@id": "kt:dev-hub"
+        },
+        {
+          "@id": "kt:second-generation-managed-packages"
+        },
+        {
+          "@id": "kt:first-generation-managed-packages"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:partner-business-org"
+        },
+        {
+          "@id": "kt:connected-apps"
+        },
+        {
+          "@id": "kt:single-sign-on-saml"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:license-management-app"
+        },
+        {
+          "@id": "kt:trialforce"
+        }
+      ]
+    },
+    {
       "@id": "kt:first-generation-managed-packages",
       "@type": "kto:Feature",
       "skos:prefLabel": "First-Generation Managed Packages",
