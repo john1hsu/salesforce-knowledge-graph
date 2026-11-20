@@ -14818,6 +14818,113 @@
       ]
     },
     {
+      "@id": "kt:auto-number-fields",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Auto-Number Fields",
+      "skos:definition": "A read-only field type that stamps each new record with a system-generated, incrementing value rendered through a display format (prefix, zero-padded number, suffix and optional date tokens), commonly used as a custom object's Record Name; values increase but are not guaranteed to be consecutive.",
+      "kto:domain": "data-model",
+      "dcterms:created": "2026-11-20",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Custom Field Attributes",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=platform.custom_field_attributes.htm&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Salesforce Auto-Number Fields Are Not Always Sequential",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=000383836&language=en_US&type=1",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Restart or Reset an Auto-Number Field",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=000385217&language=en_US&type=1",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Change the format of an auto number field on existing records",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=000322921&language=en_US&type=1",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "CustomField — Metadata API Developer Guide",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/api-metadata/references/meta-types/metadata-customfield.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Considerations for Converting the Field Type of a Custom Field",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&amp=&id=notes_on_changing_custom_field_types.htm&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Create a Custom Object for Reviews",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/projects/build-a-data-model-for-a-recruiting-app/create-a-custom-object-for-reviews",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Optimize Customer Data with Standard and Custom Objects",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/data_modeling/objects_intro",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Guidelines for Mapping Custom Lead Fields for Lead Conversion",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&amp=&id=platform.custom_field_types.htm&type=5",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/data-model/auto-number-fields.md",
+      "skos:altLabel": [
+        "auto number field",
+        "auto-number field type",
+        "Auto Number data type",
+        "autonumber field",
+        "displayFormat",
+        "startingNumber"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:custom-fields"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:standard-objects"
+        },
+        {
+          "@id": "kt:external-id-fields"
+        },
+        {
+          "@id": "kt:formula-fields"
+        },
+        {
+          "@id": "kt:data-loader"
+        },
+        {
+          "@id": "kt:lead-conversion"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:metadata-api"
+        }
+      ],
+      "kto:queriedWith": [
+        {
+          "@id": "kt:soql"
+        }
+      ]
+    },
+    {
       "@id": "kt:big-objects",
       "@type": "kto:Feature",
       "skos:prefLabel": "Big Objects",
@@ -15367,6 +15474,9 @@
         },
         {
           "@id": "kt:picklist-value-sets"
+        },
+        {
+          "@id": "kt:auto-number-fields"
         }
       ],
       "kto:dependsOn": [

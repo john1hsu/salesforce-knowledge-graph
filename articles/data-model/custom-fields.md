@@ -10,7 +10,7 @@ summary: >-
 release: "Winter '27"
 status: current
 broader: [kt:metadata-driven-architecture, kt:standard-objects]
-related: [kt:external-id-fields, kt:roll-up-summary-field, kt:object-relationships, kt:page-layouts, kt:field-history-tracking, kt:dynamic-forms, kt:picklist-value-sets]
+related: [kt:external-id-fields, kt:roll-up-summary-field, kt:object-relationships, kt:page-layouts, kt:field-history-tracking, kt:dynamic-forms, kt:picklist-value-sets, kt:auto-number-fields]
 relations:
   - {predicate: dependsOn, object: kt:field-level-security}
   - {predicate: configuredVia, object: kt:metadata-api}
