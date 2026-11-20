@@ -36386,6 +36386,74 @@
       ]
     },
     {
+      "@id": "kt:pod-and-instance-architecture",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Salesforce Instances and Pods",
+      "skos:definition": "A Salesforce instance (historically called a pod, and a cell on Hyperforce) is the unit of shared infrastructure that hosts a set of customer orgs. Its name, such as NA01 or GBR10, tells you where the org runs and which status and maintenance notices apply to it.",
+      "kto:domain": "platform-architecture",
+      "dcterms:created": "2026-11-20",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "View Instance Information for Your Salesforce Organization",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/HTViewSolution?id=000002889",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "The Salesforce Platform - Transformed for Tomorrow",
+          "dcterms:publisher": "Salesforce Architects",
+          "schema:url": "https://architect.salesforce.com/fundamentals/platform-transformation",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Get System Performance and Maintenance Information with My Domain (Identity Implementation Guide)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.identityImplGuide.meta/%20identityImplGuide/domain_name_get_system_info.htm",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/platform-architecture/pod-and-instance-architecture.md",
+      "skos:altLabel": [
+        "Salesforce instance",
+        "Salesforce pod",
+        "org instance",
+        "instance name",
+        "Hyperforce cell"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-platform"
+        },
+        {
+          "@id": "kt:multitenancy"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:trust-and-status-site"
+        },
+        {
+          "@id": "kt:my-domain"
+        },
+        {
+          "@id": "kt:sandbox-types"
+        },
+        {
+          "@id": "kt:instance-refresh-and-org-migration"
+        },
+        {
+          "@id": "kt:data-residency"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:hyperforce"
+        }
+      ]
+    },
+    {
       "@id": "kt:query-optimizer-selectivity",
       "@type": "kto:Concept",
       "skos:prefLabel": "Query Optimizer Selectivity",

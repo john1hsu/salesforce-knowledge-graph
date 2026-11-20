@@ -9179,6 +9179,30 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-events> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/pub-sub-api> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-events> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-events> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/pod-and-instance-architecture> <http://purl.org/dc/terms/created> "2026-11-20" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/pod-and-instance-architecture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/pod-and-instance-architecture> <http://www.w3.org/2000/01/rdf-schema#label> "Salesforce Instances and Pods" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/pod-and-instance-architecture> <http://www.w3.org/2004/02/skos/core#altLabel> "Hyperforce cell" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/pod-and-instance-architecture> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce instance" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/pod-and-instance-architecture> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce pod" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/pod-and-instance-architecture> <http://www.w3.org/2004/02/skos/core#altLabel> "instance name" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/pod-and-instance-architecture> <http://www.w3.org/2004/02/skos/core#altLabel> "org instance" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/pod-and-instance-architecture> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/multitenancy> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/pod-and-instance-architecture> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-platform> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/pod-and-instance-architecture> <http://www.w3.org/2004/02/skos/core#definition> "A Salesforce instance (historically called a pod, and a cell on Hyperforce) is the unit of shared infrastructure that hosts a set of customer orgs. Its name, such as NA01 or GBR10, tells you where the org runs and which status and maintenance notices apply to it." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/pod-and-instance-architecture> <http://www.w3.org/2004/02/skos/core#prefLabel> "Salesforce Instances and Pods" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/pod-and-instance-architecture> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-residency> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/pod-and-instance-architecture> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/instance-refresh-and-org-migration> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/pod-and-instance-architecture> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/my-domain> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/pod-and-instance-architecture> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-types> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/pod-and-instance-architecture> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/trust-and-status-site> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/pod-and-instance-architecture> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/pod-and-instance-architecture/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/pod-and-instance-architecture> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/pod-and-instance-architecture/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/pod-and-instance-architecture> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/pod-and-instance-architecture/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/pod-and-instance-architecture> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "platform-architecture" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/pod-and-instance-architecture> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#partOf> <https://github.com/john1hsu/salesforce-knowledge-graph/id/hyperforce> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/pod-and-instance-architecture> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/pod-and-instance-architecture> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/polymorphic-relationships> <http://purl.org/dc/terms/created> "2026-11-07" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/polymorphic-relationships> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/polymorphic-relationships> <http://www.w3.org/2000/01/rdf-schema#label> "Polymorphic Relationships" .
@@ -21549,6 +21573,21 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/platform-events/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/platform-events/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/platform-events/s6> <https://schema.org/url> "https://developer.salesforce.com/blogs/2022/10/design-considerations-for-change-data-capture-and-platform-events" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/pod-and-instance-architecture/s1> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/pod-and-instance-architecture/s1> <http://purl.org/dc/terms/title> "View Instance Information for Your Salesforce Organization" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/pod-and-instance-architecture/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/pod-and-instance-architecture/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/pod-and-instance-architecture/s1> <https://schema.org/url> "https://help.salesforce.com/HTViewSolution?id=000002889" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/pod-and-instance-architecture/s2> <http://purl.org/dc/terms/publisher> "Salesforce Architects" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/pod-and-instance-architecture/s2> <http://purl.org/dc/terms/title> "The Salesforce Platform - Transformed for Tomorrow" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/pod-and-instance-architecture/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/pod-and-instance-architecture/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/pod-and-instance-architecture/s2> <https://schema.org/url> "https://architect.salesforce.com/fundamentals/platform-transformation" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/pod-and-instance-architecture/s3> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/pod-and-instance-architecture/s3> <http://purl.org/dc/terms/title> "Get System Performance and Maintenance Information with My Domain (Identity Implementation Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/pod-and-instance-architecture/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/pod-and-instance-architecture/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/pod-and-instance-architecture/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.identityImplGuide.meta/%20identityImplGuide/domain_name_get_system_info.htm" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/polymorphic-relationships/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/polymorphic-relationships/s1> <http://purl.org/dc/terms/title> "Understanding Relationship Fields and Polymorphic Fields (SOQL and SOSL Reference)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/polymorphic-relationships/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

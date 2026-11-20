@@ -36,8 +36,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:service-appointments` | `kt:field-service` |
 | `kt:work-orders` | `kt:field-service` |
 | `kt:salesforce-sites` | `kt:custom-domains` |
-| `kt:tableau-pulse` | `kt:tableau` |
 | `kt:entitlement-process-metadata` | `kt:entitlement-management` |
+| `kt:tableau-pulse` | `kt:tableau` |
 | `kt:einstein-discovery` | `kt:crm-analytics` |
 | `kt:saql` | `kt:crm-analytics` |
 | `kt:custom-property-editors` | `kt:custom-flow-screen-components` |
@@ -104,6 +104,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:username-password-flow` | `kt:client-credentials-flow` |
 | `kt:agentforce-vibes` | `kt:agentforce-vibes-ide` |
 | `kt:json-web-signature` | `kt:json-web-token` |
+| `kt:hyperforce-assistant` | `kt:instance-refresh-and-org-migration` |
 | `kt:account-teams` | `kt:opportunity-teams` |
 | `kt:ldap` | `kt:delegated-authentication` |
 | `kt:developer-console` | `kt:apex-logging-and-debug-logs` |
@@ -124,16 +125,15 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:trialforce` | `kt:environment-hub` |
 | `kt:agentforce-nonprofit-consultant-certification` | `kt:agentforce-nonprofit` |
 | `kt:nonprofit-success-pack` | `kt:agentforce-nonprofit` |
-| `kt:hyperforce-assistant` | `kt:instance-refresh-and-org-migration` |
 | `kt:heroku-fir` | `kt:heroku-architect-certification` |
 | `kt:shared-activities` | `kt:activity-data-model` |
 | `kt:twelve-factor-app` | `kt:heroku-architect-certification` |
 | `kt:experience-cloud-consultant-certification` | `kt:licensing-strategy` |
 | `kt:b2c-commerce-architect-certification` | `kt:b2c-solution-architect-certification` |
 | `kt:business-architecture` | `kt:capability-maps` |
-| `kt:salesforce-maps` | `kt:geolocation-fields` |
 | `kt:technology-roadmaps` | `kt:capability-maps` |
 | `kt:value-streams` | `kt:capability-maps` |
+| `kt:salesforce-maps` | `kt:geolocation-fields` |
 | `kt:organization-wide-email-addresses` | `kt:email-alerts` |
 | `kt:digital-accessibility` | `kt:section-508-accessibility` |
 | `kt:tx-ramp` | `kt:govramp` |
