@@ -5,9 +5,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | Node | Referenced by |
 |---|---|
 | `kt:business-analyst` | `kt:fit-gap-analysis`, `kt:omnistudio-consultant-certification`, `kt:requirements-gathering`, `kt:user-acceptance-testing` |
+| `kt:contact-builder` | `kt:automation-studio`, `kt:journey-builder`, `kt:marketing-cloud-engagement` |
 | `kt:customer-360` | `kt:commerce-cloud`, `kt:salesforce-marketing-solutions`, `kt:slack-platform` |
-| `kt:automation-studio` | `kt:journey-builder`, `kt:marketing-cloud-engagement` |
-| `kt:contact-builder` | `kt:journey-builder`, `kt:marketing-cloud-engagement` |
 | `kt:marketing-cloud-connect` | `kt:journey-builder`, `kt:marketing-cloud-engagement` |
 | `kt:decision-tables` | `kt:loyalty-management`, `kt:salesforce-pricing` |
 | `kt:requirements-engineering` | `kt:non-functional-requirements`, `kt:requirements-gathering` |
@@ -86,33 +85,35 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:opportunity-products` | `kt:price-books` |
 | `kt:fhir` | `kt:health-cloud` |
 | `kt:utilization-management` | `kt:health-cloud` |
+| `kt:engagement-studio` | `kt:marketing-cloud-account-engagement` |
 | `kt:model-context-protocol` | `kt:model-context-protocol-in-agentforce` |
 | `kt:salesforce-hosted-mcp-servers` | `kt:model-context-protocol-in-agentforce` |
 | `kt:business-process-mapping` | `kt:requirements-gathering` |
 | `kt:salesforce-as-identity-provider` | `kt:certificate-and-key-management` |
-| `kt:engagement-studio` | `kt:marketing-cloud-account-engagement` |
+| `kt:data-processing-engine` | `kt:loyalty-management` |
 | `kt:semantic-layer` | `kt:tableau-semantics` |
 | `kt:data-cloud-query-api` | `kt:data-graphs` |
 | `kt:partner-community-licenses` | `kt:customer-community-licenses` |
 | `kt:share-groups` | `kt:customer-community-licenses` |
 | `kt:sharing-sets` | `kt:customer-community-licenses` |
 | `kt:management` | `kt:organizational-governance` |
-| `kt:data-processing-engine` | `kt:loyalty-management` |
+| `kt:data-extensions` | `kt:automation-studio` |
+| `kt:marketing-cloud-sql` | `kt:automation-studio` |
 | `kt:holidays` | `kt:business-hours` |
 | `kt:in-app-guidance` | `kt:change-management-and-adoption` |
 | `kt:invocable-methods` | `kt:apex-defined-types` |
 | `kt:business-analyst-certification` | `kt:user-acceptance-testing` |
 | `kt:data-cloud-code-extension` | `kt:vector-search-in-data-cloud` |
-| `kt:username-password-flow` | `kt:client-credentials-flow` |
-| `kt:iso-iec-27017` | `kt:iso-iec-27002` |
-| `kt:agentforce-vibes` | `kt:agentforce-vibes-ide` |
 | `kt:b2b-commerce` | `kt:commerce-cloud` |
 | `kt:b2c-commerce` | `kt:commerce-cloud` |
 | `kt:salesforce-order-management` | `kt:commerce-cloud` |
+| `kt:username-password-flow` | `kt:client-credentials-flow` |
+| `kt:iso-iec-27017` | `kt:iso-iec-27002` |
+| `kt:agentforce-vibes` | `kt:agentforce-vibes-ide` |
 | `kt:json-web-signature` | `kt:json-web-token` |
 | `kt:developer-console` | `kt:apex-logging-and-debug-logs` |
-| `kt:document-ai` | `kt:unstructured-data-in-data-cloud` |
 | `kt:ldap` | `kt:delegated-authentication` |
+| `kt:document-ai` | `kt:unstructured-data-in-data-cloud` |
 | `kt:models-api` | `kt:ai-models` |
 | `kt:ui-api` | `kt:field-dependencies` |
 | `kt:user-provisioning` | `kt:scim` |
@@ -129,16 +130,15 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:shared-activities` | `kt:activity-data-model` |
 | `kt:heroku-fir` | `kt:heroku-architect-certification` |
 | `kt:twelve-factor-app` | `kt:heroku-architect-certification` |
-| `kt:salesforce-maps` | `kt:geolocation-fields` |
 | `kt:b2c-commerce-architect-certification` | `kt:b2c-solution-architect-certification` |
-| `kt:business-architecture` | `kt:capability-maps` |
 | `kt:change-order-process` | `kt:statement-of-work` |
 | `kt:performance-work-statement` | `kt:statement-of-work` |
+| `kt:salesforce-maps` | `kt:geolocation-fields` |
+| `kt:business-architecture` | `kt:capability-maps` |
 | `kt:technology-roadmaps` | `kt:capability-maps` |
 | `kt:value-streams` | `kt:capability-maps` |
 | `kt:organization-wide-email-addresses` | `kt:email-alerts` |
 | `kt:digital-accessibility` | `kt:section-508-accessibility` |
-| `kt:greenhouse-gas-protocol` | `kt:net-zero-cloud` |
 | `kt:notes-and-attachments` | `kt:content-document-model` |
 | `kt:partner-business-org` | `kt:license-management-app` |
 | `kt:partner-console` | `kt:license-management-app` |
@@ -150,6 +150,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:web-to-lead` | `kt:auto-response-rules` |
 | `kt:agent-to-agent-protocol` | `kt:agentforce-architecture-patterns` |
 | `kt:experience-cloud-consultant-certification` | `kt:licensing-strategy` |
+| `kt:greenhouse-gas-protocol` | `kt:net-zero-cloud` |
 | `kt:multi-agent-orchestration` | `kt:agentforce-architecture-patterns` |
 | `kt:tableau-blueprint` | `kt:tableau-architect-certification` |
 | `kt:tableau-server-administrator-certification` | `kt:tableau-architect-certification` |

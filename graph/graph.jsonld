@@ -7274,6 +7274,90 @@
       ]
     },
     {
+      "@id": "kt:automation-studio",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Automation Studio",
+      "skos:definition": "The Marketing Cloud Engagement application for building multi-step batch automations (imports, SQL query activities, file transfers, scripts, sends, list refreshes and Journey Builder events) that run on a schedule, immediately, from an API trigger or when a file lands in a folder.",
+      "kto:domain": "clouds-and-products",
+      "dcterms:created": "2026-11-20",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Automate Marketing Cloud Engagement Tasks with Automation Studio (Automation Studio Activities)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/automation-studio-activities/automate-marketing-cloud-tasks",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Run SQL Queries in Automation Studio (Automation Studio Activities)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/automation-studio-activities/run-sql-queries-in-automation-studio",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Automation Studio and SQL in Marketing Cloud",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2023/02/automation-studio-and-sql-in-marketing-cloud",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Query Data with SQL (Marketing Cloud Engagement Data Management)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/marketing-cloud-data-management/query-data-with-sql",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Automation Studio for Marketing Cloud Engagement (module overview)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/automation-studio-activities",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/clouds-and-products/automation-studio.md",
+      "skos:altLabel": [
+        "Marketing Cloud Automation Studio",
+        "SFMC Automation Studio",
+        "Marketing Cloud Engagement Automation Studio"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:marketing-cloud-engagement"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:salesforce-marketing-solutions"
+        },
+        {
+          "@id": "kt:schedule-triggered-flow"
+        },
+        {
+          "@id": "kt:data-extensions"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:marketing-cloud-engagement"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:journey-builder"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:contact-builder"
+        }
+      ],
+      "kto:queriedWith": [
+        {
+          "@id": "kt:marketing-cloud-sql"
+        }
+      ]
+    },
+    {
       "@id": "kt:backup-and-recover",
       "@type": "kto:Product",
       "skos:prefLabel": "Salesforce Backup & Recover",
