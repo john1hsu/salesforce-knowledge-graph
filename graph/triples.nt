@@ -5497,6 +5497,33 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/geolocation-fields> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/soql> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/geolocation-fields> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/geolocation-fields> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/get-records-element> <http://purl.org/dc/terms/created> "2026-11-20" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/get-records-element> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/get-records-element> <http://www.w3.org/2000/01/rdf-schema#label> "Get Records Element" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/get-records-element> <http://www.w3.org/2004/02/skos/core#altLabel> "Flow Get Records element" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/get-records-element> <http://www.w3.org/2004/02/skos/core#altLabel> "Get Records in Flow Builder" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/get-records-element> <http://www.w3.org/2004/02/skos/core#altLabel> "Get Records" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/get-records-element> <http://www.w3.org/2004/02/skos/core#altLabel> "Record Lookup element" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/get-records-element> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-builder> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/get-records-element> <http://www.w3.org/2004/02/skos/core#definition> "The Flow Builder data element that queries Salesforce records matching filter conditions and stores the first match or all matches, with all or selected fields, for later elements to use; each one costs a SOQL query against the transaction's limits." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/get-records-element> <http://www.w3.org/2004/02/skos/core#prefLabel> "Get Records Element" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/get-records-element> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/autolaunched-flow> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/get-records-element> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-bulkification> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/get-records-element> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-fault-handling> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/get-records-element> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-loop-element> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/get-records-element> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/record-triggered-flow> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/get-records-element> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/get-records-element/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/get-records-element> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/get-records-element/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/get-records-element> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/get-records-element/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/get-records-element> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/get-records-element/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/get-records-element> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/get-records-element/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/get-records-element> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#alternativeTo> <https://github.com/john1hsu/salesforce-knowledge-graph/id/collection-filter-and-sort> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/get-records-element> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "automation" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/get-records-element> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#governedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-limits> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/get-records-element> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#governedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/governor-limits> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/get-records-element> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/soql> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/get-records-element> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/get-records-element> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/governance-risk-and-compliance> <http://purl.org/dc/terms/created> "2026-11-14" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/governance-risk-and-compliance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#ExternalConcept> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/governance-risk-and-compliance> <http://www.w3.org/2000/01/rdf-schema#label> "Governance, Risk and Compliance" .
@@ -17582,6 +17609,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/geolocation-fields/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/geolocation-fields/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/geolocation-fields/s6> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/configuring-your-salesforce-maps-environment/configure-for-location-accuracy" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/get-records-element/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/get-records-element/s1> <http://purl.org/dc/terms/title> "Combine Variables and Data Elements (Data and Actions in Flows)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/get-records-element/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/get-records-element/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/get-records-element/s1> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/data-and-actions-in-flows/combine-variables-data-elements" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/get-records-element/s2> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/get-records-element/s2> <http://purl.org/dc/terms/title> "Update and Retrieve Multiple Records (Multirecord Elements and Transforms in Flows)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/get-records-element/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/get-records-element/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/get-records-element/s2> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/multirecord-elements-and-transforms-in-flows/update-and-retrieve-multiple-records" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/get-records-element/s3> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/get-records-element/s3> <http://purl.org/dc/terms/title> "Avoid Flow Limits (Flow Implementation 1)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/get-records-element/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/get-records-element/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/get-records-element/s3> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/flow-implementation-1/avoid-flow-limits" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/get-records-element/s4> <http://purl.org/dc/terms/publisher> "Salesforce Admins Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/get-records-element/s4> <http://purl.org/dc/terms/title> "The Ultimate Guide to Flow Best Practices and Standards" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/get-records-element/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/get-records-element/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/get-records-element/s4> <https://schema.org/url> "https://admin.salesforce.com/blog/2021/the-ultimate-guide-to-flow-best-practices-and-standards" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/get-records-element/s5> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/get-records-element/s5> <http://purl.org/dc/terms/title> "Create Flow Element to Get Contact ID from Email Address (Loan Prequalification Agent)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/get-records-element/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/get-records-element/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/get-records-element/s5> <https://schema.org/url> "https://developer.salesforce.com/docs/ai/loan-agent/guide/create-flow-element-to-get-contact-id.html" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/governance-risk-and-compliance/s1> <http://purl.org/dc/terms/publisher> "OCEG" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/governance-risk-and-compliance/s1> <http://purl.org/dc/terms/title> "What Is GRC (Governance, Risk, and Compliance)?" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/governance-risk-and-compliance/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

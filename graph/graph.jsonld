@@ -5758,6 +5758,95 @@
       ]
     },
     {
+      "@id": "kt:get-records-element",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Get Records Element",
+      "skos:definition": "The Flow Builder data element that queries Salesforce records matching filter conditions and stores the first match or all matches, with all or selected fields, for later elements to use; each one costs a SOQL query against the transaction's limits.",
+      "kto:domain": "automation",
+      "dcterms:created": "2026-11-20",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Combine Variables and Data Elements (Data and Actions in Flows)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/data-and-actions-in-flows/combine-variables-data-elements",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Update and Retrieve Multiple Records (Multirecord Elements and Transforms in Flows)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/multirecord-elements-and-transforms-in-flows/update-and-retrieve-multiple-records",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Avoid Flow Limits (Flow Implementation 1)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/flow-implementation-1/avoid-flow-limits",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "The Ultimate Guide to Flow Best Practices and Standards",
+          "dcterms:publisher": "Salesforce Admins Blog",
+          "schema:url": "https://admin.salesforce.com/blog/2021/the-ultimate-guide-to-flow-best-practices-and-standards",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Create Flow Element to Get Contact ID from Email Address (Loan Prequalification Agent)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/ai/loan-agent/guide/create-flow-element-to-get-contact-id.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/automation/get-records-element.md",
+      "skos:altLabel": [
+        "Get Records",
+        "Flow Get Records element",
+        "Get Records in Flow Builder",
+        "Record Lookup element"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:flow-builder"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:flow-loop-element"
+        },
+        {
+          "@id": "kt:record-triggered-flow"
+        },
+        {
+          "@id": "kt:autolaunched-flow"
+        },
+        {
+          "@id": "kt:flow-bulkification"
+        },
+        {
+          "@id": "kt:flow-fault-handling"
+        }
+      ],
+      "kto:queriedWith": [
+        {
+          "@id": "kt:soql"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:flow-limits"
+        },
+        {
+          "@id": "kt:governor-limits"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:collection-filter-and-sort"
+        }
+      ]
+    },
+    {
       "@id": "kt:invocable-actions-api",
       "@type": "kto:API",
       "skos:prefLabel": "Invocable Actions API",

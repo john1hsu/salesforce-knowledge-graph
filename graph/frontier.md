@@ -9,7 +9,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:test-loaddata` | `kt:seealldata`, `kt:test-data-factory` |
 | `kt:data-extensions` | `kt:automation-studio`, `kt:contact-builder` |
 | `kt:decision-tables` | `kt:loyalty-management`, `kt:salesforce-pricing` |
-| `kt:get-records-element` | `kt:collection-filter-and-sort`, `kt:data-table-screen-component` |
 | `kt:requirements-engineering` | `kt:non-functional-requirements`, `kt:requirements-gathering` |
 | `kt:user-stories` | `kt:fit-gap-analysis`, `kt:requirements-gathering` |
 | `kt:email-templates` | `kt:auto-response-rules`, `kt:email-alerts` |
@@ -44,8 +43,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:custom-property-editors` | `kt:custom-flow-screen-components` |
 | `kt:api-experience-hub` | `kt:external-identity-license` |
 | `kt:apex-mocks` | `kt:apex-enterprise-patterns` |
-| `kt:salesforce-ecosystem` | `kt:salesforce-inc` |
 | `kt:rest-api-limits-resource` | `kt:orglimits-class` |
+| `kt:salesforce-ecosystem` | `kt:salesforce-inc` |
 | `kt:apex-rest-services` | `kt:remote-call-in` |
 | `kt:lightning-out` | `kt:lightning-locker` |
 | `kt:heroku-postgres` | `kt:heroku-connect` |
@@ -77,9 +76,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:anypoint-runtime-manager` | `kt:mule-runtime-engine` |
 | `kt:actionable-relationship-center` | `kt:financial-services-cloud` |
 | `kt:compliant-data-sharing` | `kt:financial-services-cloud` |
-| `kt:iso-iec-25010` | `kt:non-functional-requirements` |
-| `kt:custom-permissions` | `kt:validation-rules` |
 | `kt:invocable-methods` | `kt:apex-defined-types` |
+| `kt:custom-permissions` | `kt:validation-rules` |
+| `kt:iso-iec-25010` | `kt:non-functional-requirements` |
 | `kt:platform-cache-partitions` | `kt:platform-cache` |
 | `kt:computer-science` | `kt:distributed-computing` |
 | `kt:data-processing-engine` | `kt:loyalty-management` |
@@ -118,8 +117,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:change-order-process` | `kt:statement-of-work` |
 | `kt:performance-work-statement` | `kt:statement-of-work` |
 | `kt:iso-iec-27018` | `kt:iso-iec-27017` |
-| `kt:currency-type-object` | `kt:multiple-currencies` |
 | `kt:einstein-prediction-builder` | `kt:einstein-next-best-action` |
+| `kt:currency-type-object` | `kt:multiple-currencies` |
 | `kt:agentforce-nonprofit-consultant-certification` | `kt:agentforce-nonprofit` |
 | `kt:nonprofit-success-pack` | `kt:agentforce-nonprofit` |
 | `kt:hyperforce-assistant` | `kt:instance-refresh-and-org-migration` |
@@ -142,11 +141,11 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:salesforce-seasonal-releases` | `kt:release-updates` |
 | `kt:tx-ramp` | `kt:govramp` |
 | `kt:wcag` | `kt:section-508-accessibility` |
-| `kt:web-to-case` | `kt:auto-response-rules` |
-| `kt:web-to-lead` | `kt:auto-response-rules` |
 | `kt:agent-to-agent-protocol` | `kt:agentforce-architecture-patterns` |
 | `kt:greenhouse-gas-protocol` | `kt:net-zero-cloud` |
 | `kt:multi-agent-orchestration` | `kt:agentforce-architecture-patterns` |
 | `kt:rollback-plan` | `kt:hypercare` |
 | `kt:tableau-blueprint` | `kt:tableau-architect-certification` |
 | `kt:tableau-server-administrator-certification` | `kt:tableau-architect-certification` |
+| `kt:web-to-case` | `kt:auto-response-rules` |
+| `kt:web-to-lead` | `kt:auto-response-rules` |
