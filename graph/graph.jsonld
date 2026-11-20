@@ -38759,6 +38759,91 @@
       ]
     },
     {
+      "@id": "kt:iso-iec-27017",
+      "@type": "kto:ExternalConcept",
+      "skos:prefLabel": "ISO/IEC 27017",
+      "skos:definition": "The ISO/IEC standard that extends the ISO/IEC 27002 control catalog for cloud services, adding cloud-specific guidance and controls for both cloud service providers and customers; the second edition (2026) replaced the 2015 edition, and Salesforce holds an ISO/IEC 27017 certificate for its corporate services.",
+      "kto:domain": "public-sector-and-compliance",
+      "dcterms:created": "2026-11-20",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "ISO/IEC 27017:2026 Information security, cybersecurity and privacy protection — Information security controls based on ISO/IEC 27002 for cloud services",
+          "dcterms:publisher": "ISO",
+          "schema:url": "https://www.iso.org/standard/27017",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "ISO/IEC 27017:2026",
+          "dcterms:publisher": "IEC Webstore",
+          "schema:url": "https://webstore.iec.ch/en/publication/115400",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "ISO/IEC 27017:2026 preview (foreword, introduction and contents)",
+          "dcterms:publisher": "ANSI Webstore",
+          "schema:url": "https://webstore.ansi.org/preview-pages/ISO/preview_ISO+IEC+27017-2026.pdf",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "ISO 27017 — Salesforce Compliance",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://compliance.salesforce.com/en/iso-27017",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "General (not service specific) — Salesforce Compliance",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://compliance.salesforce.com/en/services/general",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "ISO 27017: Security Controls for Cloud Services",
+          "dcterms:publisher": "NQA",
+          "schema:url": "https://www.nqa.com/en-us/informationsecurity/iso-27017",
+          "kto:sourceType": "partner"
+        }
+      ],
+      "kto:file": "articles/public-sector-and-compliance/iso-iec-27017.md",
+      "skos:altLabel": [
+        "ISO 27017",
+        "ISO/IEC 27017:2026",
+        "ISO/IEC 27017:2015",
+        "ITU-T X.1631",
+        "Cloud security controls code of practice"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:security-compliance-frameworks"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:shared-responsibility-model"
+        },
+        {
+          "@id": "kt:hyperforce"
+        },
+        {
+          "@id": "kt:iso-iec-27018"
+        },
+        {
+          "@id": "kt:multitenancy"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:iso-iec-27002"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:iso-iec-27001"
+        }
+      ]
+    },
+    {
       "@id": "kt:it-governance",
       "@type": "kto:ExternalConcept",
       "skos:prefLabel": "IT Governance",

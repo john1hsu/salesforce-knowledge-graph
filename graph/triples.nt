@@ -6373,6 +6373,32 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/iso-iec-27002> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "public-sector-and-compliance" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/iso-iec-27002> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/iso-iec-27002> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/iso-iec-27017> <http://purl.org/dc/terms/created> "2026-11-20" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/iso-iec-27017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#ExternalConcept> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/iso-iec-27017> <http://www.w3.org/2000/01/rdf-schema#label> "ISO/IEC 27017" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/iso-iec-27017> <http://www.w3.org/2004/02/skos/core#altLabel> "Cloud security controls code of practice" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/iso-iec-27017> <http://www.w3.org/2004/02/skos/core#altLabel> "ISO 27017" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/iso-iec-27017> <http://www.w3.org/2004/02/skos/core#altLabel> "ISO/IEC 27017:2015" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/iso-iec-27017> <http://www.w3.org/2004/02/skos/core#altLabel> "ISO/IEC 27017:2026" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/iso-iec-27017> <http://www.w3.org/2004/02/skos/core#altLabel> "ITU-T X.1631" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/iso-iec-27017> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/security-compliance-frameworks> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/iso-iec-27017> <http://www.w3.org/2004/02/skos/core#definition> "The ISO/IEC standard that extends the ISO/IEC 27002 control catalog for cloud services, adding cloud-specific guidance and controls for both cloud service providers and customers; the second edition (2026) replaced the 2015 edition, and Salesforce holds an ISO/IEC 27017 certificate for its corporate services." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/iso-iec-27017> <http://www.w3.org/2004/02/skos/core#prefLabel> "ISO/IEC 27017" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/iso-iec-27017> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/hyperforce> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/iso-iec-27017> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/iso-iec-27018> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/iso-iec-27017> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/multitenancy> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/iso-iec-27017> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/shared-responsibility-model> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/iso-iec-27017> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/iso-iec-27017/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/iso-iec-27017> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/iso-iec-27017/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/iso-iec-27017> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/iso-iec-27017/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/iso-iec-27017> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/iso-iec-27017/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/iso-iec-27017> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/iso-iec-27017/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/iso-iec-27017> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/iso-iec-27017/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/iso-iec-27017> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#consumedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/iso-iec-27001> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/iso-iec-27017> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/iso-iec-27002> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/iso-iec-27017> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "public-sector-and-compliance" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/iso-iec-27017> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/iso-iec-27017> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/it-governance> <http://purl.org/dc/terms/created> "2026-11-18" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/it-governance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#ExternalConcept> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/it-governance> <http://www.w3.org/2000/01/rdf-schema#label> "IT Governance" .
@@ -18401,6 +18427,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/iso-iec-27002/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/iso-iec-27002/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "standards-body" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/iso-iec-27002/s6> <https://schema.org/url> "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/iso-iec-27017/s1> <http://purl.org/dc/terms/publisher> "ISO" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/iso-iec-27017/s1> <http://purl.org/dc/terms/title> "ISO/IEC 27017:2026 Information security, cybersecurity and privacy protection — Information security controls based on ISO/IEC 27002 for cloud services" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/iso-iec-27017/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/iso-iec-27017/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "standards-body" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/iso-iec-27017/s1> <https://schema.org/url> "https://www.iso.org/standard/27017" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/iso-iec-27017/s2> <http://purl.org/dc/terms/publisher> "IEC Webstore" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/iso-iec-27017/s2> <http://purl.org/dc/terms/title> "ISO/IEC 27017:2026" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/iso-iec-27017/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/iso-iec-27017/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "standards-body" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/iso-iec-27017/s2> <https://schema.org/url> "https://webstore.iec.ch/en/publication/115400" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/iso-iec-27017/s3> <http://purl.org/dc/terms/publisher> "ANSI Webstore" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/iso-iec-27017/s3> <http://purl.org/dc/terms/title> "ISO/IEC 27017:2026 preview (foreword, introduction and contents)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/iso-iec-27017/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/iso-iec-27017/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "standards-body" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/iso-iec-27017/s3> <https://schema.org/url> "https://webstore.ansi.org/preview-pages/ISO/preview_ISO+IEC+27017-2026.pdf" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/iso-iec-27017/s4> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/iso-iec-27017/s4> <http://purl.org/dc/terms/title> "ISO 27017 — Salesforce Compliance" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/iso-iec-27017/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/iso-iec-27017/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/iso-iec-27017/s4> <https://schema.org/url> "https://compliance.salesforce.com/en/iso-27017" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/iso-iec-27017/s5> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/iso-iec-27017/s5> <http://purl.org/dc/terms/title> "General (not service specific) — Salesforce Compliance" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/iso-iec-27017/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/iso-iec-27017/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/iso-iec-27017/s5> <https://schema.org/url> "https://compliance.salesforce.com/en/services/general" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/iso-iec-27017/s6> <http://purl.org/dc/terms/publisher> "NQA" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/iso-iec-27017/s6> <http://purl.org/dc/terms/title> "ISO 27017: Security Controls for Cloud Services" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/iso-iec-27017/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/iso-iec-27017/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "partner" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/iso-iec-27017/s6> <https://schema.org/url> "https://www.nqa.com/en-us/informationsecurity/iso-27017" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/it-governance/s1> <http://purl.org/dc/terms/publisher> "ISO" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/it-governance/s1> <http://purl.org/dc/terms/title> "ISO/IEC 38500:2024 Information technology — Governance of IT for the organization" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/it-governance/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
