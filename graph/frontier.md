@@ -6,9 +6,10 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 |---|---|
 | `kt:business-analyst` | `kt:fit-gap-analysis`, `kt:omnistudio-consultant-certification`, `kt:requirements-gathering`, `kt:user-acceptance-testing` |
 | `kt:customer-360` | `kt:commerce-cloud`, `kt:salesforce-marketing-solutions`, `kt:slack-platform` |
-| `kt:test-loaddata` | `kt:seealldata`, `kt:test-data-factory` |
 | `kt:data-extensions` | `kt:automation-studio`, `kt:contact-builder` |
 | `kt:decision-tables` | `kt:loyalty-management`, `kt:salesforce-pricing` |
+| `kt:test-setup-methods` | `kt:seealldata`, `kt:test-loaddata` |
+| `kt:static-resources` | `kt:cross-site-scripting`, `kt:test-loaddata` |
 | `kt:requirements-engineering` | `kt:non-functional-requirements`, `kt:requirements-gathering` |
 | `kt:user-stories` | `kt:fit-gap-analysis`, `kt:requirements-gathering` |
 | `kt:email-templates` | `kt:auto-response-rules`, `kt:email-alerts` |
@@ -41,8 +42,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:einstein-discovery` | `kt:crm-analytics` |
 | `kt:saql` | `kt:crm-analytics` |
 | `kt:custom-property-editors` | `kt:custom-flow-screen-components` |
-| `kt:api-experience-hub` | `kt:external-identity-license` |
 | `kt:apex-mocks` | `kt:apex-enterprise-patterns` |
+| `kt:api-experience-hub` | `kt:external-identity-license` |
 | `kt:rest-api-limits-resource` | `kt:orglimits-class` |
 | `kt:salesforce-ecosystem` | `kt:salesforce-inc` |
 | `kt:apex-rest-services` | `kt:remote-call-in` |
@@ -56,8 +57,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:generative-ai` | `kt:retrieval-augmented-generation-in-salesforce` |
 | `kt:revenue-intelligence` | `kt:collaborative-forecasts` |
 | `kt:object-manager` | `kt:schema-builder` |
-| `kt:application-network` | `kt:api-led-connectivity` |
 | `kt:batch-apex-error-event` | `kt:transaction-finalizers` |
+| `kt:application-network` | `kt:api-led-connectivity` |
 | `kt:point-to-point-integration` | `kt:api-led-connectivity` |
 | `kt:opportunity-teams` | `kt:opportunity-splits` |
 | `kt:dynamic-actions` | `kt:dynamic-forms` |
@@ -71,9 +72,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:slack-api-rate-limits` | `kt:slack-platform` |
 | `kt:slack-workflow-builder` | `kt:slack-platform` |
 | `kt:backup-and-recover-next` | `kt:backup-and-recover` |
-| `kt:static-resources` | `kt:cross-site-scripting` |
-| `kt:reports-and-dashboards` | `kt:salesforce-analytics` |
 | `kt:anypoint-runtime-manager` | `kt:mule-runtime-engine` |
+| `kt:reports-and-dashboards` | `kt:salesforce-analytics` |
 | `kt:actionable-relationship-center` | `kt:financial-services-cloud` |
 | `kt:compliant-data-sharing` | `kt:financial-services-cloud` |
 | `kt:invocable-methods` | `kt:apex-defined-types` |
@@ -85,7 +85,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:opportunity-products` | `kt:price-books` |
 | `kt:fhir` | `kt:health-cloud` |
 | `kt:utilization-management` | `kt:health-cloud` |
-| `kt:test-setup-methods` | `kt:seealldata` |
 | `kt:model-context-protocol` | `kt:model-context-protocol-in-agentforce` |
 | `kt:salesforce-hosted-mcp-servers` | `kt:model-context-protocol-in-agentforce` |
 | `kt:business-process-mapping` | `kt:requirements-gathering` |
@@ -105,8 +104,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:username-password-flow` | `kt:client-credentials-flow` |
 | `kt:agentforce-vibes` | `kt:agentforce-vibes-ide` |
 | `kt:json-web-signature` | `kt:json-web-token` |
-| `kt:developer-console` | `kt:apex-logging-and-debug-logs` |
 | `kt:ldap` | `kt:delegated-authentication` |
+| `kt:developer-console` | `kt:apex-logging-and-debug-logs` |
 | `kt:document-ai` | `kt:unstructured-data-in-data-cloud` |
 | `kt:models-api` | `kt:ai-models` |
 | `kt:ui-api` | `kt:field-dependencies` |
@@ -130,10 +129,10 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:subscriber-support-console` | `kt:license-management-app` |
 | `kt:experience-cloud-consultant-certification` | `kt:licensing-strategy` |
 | `kt:b2c-commerce-architect-certification` | `kt:b2c-solution-architect-certification` |
-| `kt:salesforce-maps` | `kt:geolocation-fields` |
 | `kt:business-architecture` | `kt:capability-maps` |
 | `kt:technology-roadmaps` | `kt:capability-maps` |
 | `kt:value-streams` | `kt:capability-maps` |
+| `kt:salesforce-maps` | `kt:geolocation-fields` |
 | `kt:organization-wide-email-addresses` | `kt:email-alerts` |
 | `kt:consent-data-model` | `kt:consent-management-in-data-cloud` |
 | `kt:digital-accessibility` | `kt:section-508-accessibility` |

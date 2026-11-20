@@ -21928,6 +21928,75 @@
       ]
     },
     {
+      "@id": "kt:test-loaddata",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Test.loadData",
+      "skos:definition": "The Apex Test.loadData method, which inserts test records for one sObject type from a CSV file stored as a static resource and returns the inserted records, so test data can be maintained as a file instead of in code.",
+      "kto:domain": "development",
+      "dcterms:created": "2026-11-20",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Apex Developer Guide (Winter '27): Loading Test Data",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_testing_load_data.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Prepare for Unit Testing: Get Data for Your Tests",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/apex-testing-prepare-for-unit-testing/get-data-for-your-tests",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Month of Testing: Advanced Topics in Salesforce Unit Testing (Part 3 of 3)",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2018/05/month-of-testing-advanced-topics-in-salesforce-unit-testing-part-3-of-3",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/development/test-loaddata.md",
+      "skos:altLabel": [
+        "Test loadData",
+        "loadData method",
+        "CSV test data",
+        "static resource test data",
+        "Loading Test Data"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:apex-testing"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:test-data-factory"
+        },
+        {
+          "@id": "kt:test-setup-methods"
+        },
+        {
+          "@id": "kt:testing-strategy"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:seealldata"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:static-resources"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:apex"
+        }
+      ]
+    },
+    {
       "@id": "kt:transaction-finalizers",
       "@type": "kto:Feature",
       "skos:prefLabel": "Transaction Finalizers",
