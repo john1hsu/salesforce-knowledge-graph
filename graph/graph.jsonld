@@ -12045,6 +12045,93 @@
       ]
     },
     {
+      "@id": "kt:consent-management-in-data-cloud",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Consent Management in Data 360",
+      "skos:definition": "The way Data 360 (formerly Data Cloud) stores and enforces customers' privacy and communication preferences as consent data model objects tied to contact points, subscriptions and channels, so that Marketing Cloud Next and other consumers check one central record of opt-ins and opt-outs instead of per-system checkboxes.",
+      "kto:domain": "data-cloud-and-ai",
+      "dcterms:created": "2026-11-20",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Explore Consent Tools and Concepts (Consent Management Fundamentals for Marketing Cloud Next)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/consent-management-fundamentals-for-marketing-cloud-next/explore-consent-tools-and-concepts",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Get to Know Consent Best Practices and Considerations",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/consent-management-fundamentals-for-marketing-cloud-next/get-to-know-consent-best-practices-and-considerations",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Party Consent DMO (Data 360 DMO and Mapping Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/data/data-cloud-dmo-mapping/guide/c360dm-party-consent-dmo.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Privacy Overview Data Model (Data 360 Data Model Gallery)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/data-models/guide/privacy-overview.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Design the Platform Consent Data Model for General Consent",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/consent-management-with-salesforce/design-the-consent-data-model-for-general-consent",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/data-cloud-and-ai/consent-management-in-data-cloud.md",
+      "skos:altLabel": [
+        "consent management in Data Cloud",
+        "Data 360 consent management",
+        "Data Cloud consent",
+        "Marketing Cloud Next consent management",
+        "consent DMOs"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:data-cloud"
+        },
+        {
+          "@id": "kt:consent-data-model"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:gdpr-international-transfers"
+        },
+        {
+          "@id": "kt:data-cloud-segmentation"
+        },
+        {
+          "@id": "kt:data-cloud-activation"
+        },
+        {
+          "@id": "kt:identity-resolution"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:data-model-objects"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:marketing-cloud-next"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:data-cloud-triggered-flows"
+        }
+      ]
+    },
+    {
       "@id": "kt:data-actions",
       "@type": "kto:Feature",
       "skos:prefLabel": "Data Actions",

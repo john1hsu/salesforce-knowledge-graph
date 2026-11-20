@@ -84,16 +84,16 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:computer-science` | `kt:distributed-computing` |
 | `kt:platform-cache-partitions` | `kt:platform-cache` |
 | `kt:opportunity-products` | `kt:price-books` |
+| `kt:engagement-studio` | `kt:marketing-cloud-account-engagement` |
 | `kt:fhir` | `kt:health-cloud` |
 | `kt:utilization-management` | `kt:health-cloud` |
-| `kt:engagement-studio` | `kt:marketing-cloud-account-engagement` |
 | `kt:model-context-protocol` | `kt:model-context-protocol-in-agentforce` |
 | `kt:salesforce-hosted-mcp-servers` | `kt:model-context-protocol-in-agentforce` |
 | `kt:salesforce-as-identity-provider` | `kt:certificate-and-key-management` |
 | `kt:business-process-mapping` | `kt:requirements-gathering` |
 | `kt:data-processing-engine` | `kt:loyalty-management` |
-| `kt:semantic-layer` | `kt:tableau-semantics` |
 | `kt:data-cloud-query-api` | `kt:data-graphs` |
+| `kt:semantic-layer` | `kt:tableau-semantics` |
 | `kt:partner-community-licenses` | `kt:customer-community-licenses` |
 | `kt:share-groups` | `kt:customer-community-licenses` |
 | `kt:sharing-sets` | `kt:customer-community-licenses` |
@@ -112,8 +112,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:agentforce-vibes` | `kt:agentforce-vibes-ide` |
 | `kt:json-web-signature` | `kt:json-web-token` |
 | `kt:developer-console` | `kt:apex-logging-and-debug-logs` |
-| `kt:document-ai` | `kt:unstructured-data-in-data-cloud` |
 | `kt:ldap` | `kt:delegated-authentication` |
+| `kt:document-ai` | `kt:unstructured-data-in-data-cloud` |
 | `kt:models-api` | `kt:ai-models` |
 | `kt:ui-api` | `kt:field-dependencies` |
 | `kt:user-provisioning` | `kt:scim` |
@@ -146,6 +146,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:tx-ramp` | `kt:govramp` |
 | `kt:wcag` | `kt:section-508-accessibility` |
 | `kt:agent-to-agent-protocol` | `kt:agentforce-architecture-patterns` |
+| `kt:consent-data-model` | `kt:consent-management-in-data-cloud` |
 | `kt:experience-cloud-consultant-certification` | `kt:licensing-strategy` |
 | `kt:greenhouse-gas-protocol` | `kt:net-zero-cloud` |
 | `kt:multi-agent-orchestration` | `kt:agentforce-architecture-patterns` |
