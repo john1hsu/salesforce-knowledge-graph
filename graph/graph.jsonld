@@ -4254,6 +4254,81 @@
       ]
     },
     {
+      "@id": "kt:data-table-screen-component",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Data Table Screen Component",
+      "skos:definition": "A standard screen flow input component that shows a collection of records (or Apex-defined objects) as a table, lets the running user select one or many rows, and, since Spring '26, sort columns and edit values inline, returning the selected and edited rows to the flow.",
+      "kto:domain": "automation",
+      "dcterms:created": "2026-11-20",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Data Table Screen Input Component",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=platform.flow_ref_elements_screencmp_data_table.htm&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Enhance User Choices with Screen Options (Screen Flows)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/screen-flows/add-more-options-to-your-screens",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Salesforce Flow Data Table Now Supports Inline Editing and Sorting",
+          "dcterms:publisher": "Salesforce Time (Yumi Ibrahimzade)",
+          "schema:url": "https://salesforcetime.com/2026/02/11/salesforce-flow-data-table-now-supports-inline-editing-and-sorting/",
+          "kto:sourceType": "community"
+        },
+        {
+          "dcterms:title": "Salesforce Spring '26 Release: Editable Data Table for Flow Is Here",
+          "dcterms:publisher": "Salesforce Ben (Tim Combridge)",
+          "schema:url": "https://www.salesforceben.com/salesforce-spring-26-release-editable-data-table-for-flow-is-here/",
+          "kto:sourceType": "community"
+        }
+      ],
+      "kto:file": "articles/automation/data-table-screen-component.md",
+      "skos:altLabel": [
+        "Flow Data Table",
+        "Data Table flow screen component",
+        "Data Table Screen Input Component",
+        "editable data table in flow"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:screen-flow"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:transform-element"
+        },
+        {
+          "@id": "kt:collection-filter-and-sort"
+        },
+        {
+          "@id": "kt:flow-loop-element"
+        },
+        {
+          "@id": "kt:get-records-element"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:custom-flow-screen-components"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:apex-defined-types"
+        },
+        {
+          "@id": "kt:field-level-security"
+        }
+      ]
+    },
+    {
       "@id": "kt:einstein-next-best-action",
       "@type": "kto:Feature",
       "skos:prefLabel": "Einstein Next Best Action",
@@ -6725,6 +6800,9 @@
         },
         {
           "@id": "kt:custom-flow-screen-components"
+        },
+        {
+          "@id": "kt:data-table-screen-component"
         }
       ],
       "kto:integratesWith": [

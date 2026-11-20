@@ -9,6 +9,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:customer-360` | `kt:commerce-cloud`, `kt:salesforce-marketing-solutions`, `kt:slack-platform` |
 | `kt:marketing-cloud-connect` | `kt:journey-builder`, `kt:marketing-cloud-engagement` |
 | `kt:decision-tables` | `kt:loyalty-management`, `kt:salesforce-pricing` |
+| `kt:get-records-element` | `kt:collection-filter-and-sort`, `kt:data-table-screen-component` |
 | `kt:requirements-engineering` | `kt:non-functional-requirements`, `kt:requirements-gathering` |
 | `kt:security-health-check` | `kt:security-center`, `kt:session-settings` |
 | `kt:salesforce-licensing` | `kt:licensing-strategy`, `kt:user-licenses` |
@@ -78,6 +79,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:anypoint-runtime-manager` | `kt:mule-runtime-engine` |
 | `kt:actionable-relationship-center` | `kt:financial-services-cloud` |
 | `kt:compliant-data-sharing` | `kt:financial-services-cloud` |
+| `kt:invocable-methods` | `kt:apex-defined-types` |
 | `kt:iso-iec-25010` | `kt:non-functional-requirements` |
 | `kt:custom-permissions` | `kt:validation-rules` |
 | `kt:computer-science` | `kt:distributed-computing` |
@@ -101,7 +103,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:marketing-cloud-sql` | `kt:automation-studio` |
 | `kt:holidays` | `kt:business-hours` |
 | `kt:in-app-guidance` | `kt:change-management-and-adoption` |
-| `kt:invocable-methods` | `kt:apex-defined-types` |
 | `kt:business-analyst-certification` | `kt:user-acceptance-testing` |
 | `kt:data-cloud-code-extension` | `kt:vector-search-in-data-cloud` |
 | `kt:b2b-commerce` | `kt:commerce-cloud` |
@@ -121,20 +122,19 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:sarbanes-oxley-act` | `kt:soc-1` |
 | `kt:soc-3` | `kt:trust-services-criteria` |
 | `kt:currency-type-object` | `kt:multiple-currencies` |
+| `kt:einstein-prediction-builder` | `kt:einstein-next-best-action` |
 | `kt:agentforce-nonprofit-consultant-certification` | `kt:agentforce-nonprofit` |
 | `kt:nonprofit-success-pack` | `kt:agentforce-nonprofit` |
 | `kt:hyperforce-assistant` | `kt:instance-refresh-and-org-migration` |
-| `kt:einstein-prediction-builder` | `kt:einstein-next-best-action` |
-| `kt:get-records-element` | `kt:collection-filter-and-sort` |
 | `kt:post-install-scripts` | `kt:push-upgrades` |
 | `kt:shared-activities` | `kt:activity-data-model` |
 | `kt:heroku-fir` | `kt:heroku-architect-certification` |
 | `kt:twelve-factor-app` | `kt:heroku-architect-certification` |
+| `kt:salesforce-maps` | `kt:geolocation-fields` |
 | `kt:b2c-commerce-architect-certification` | `kt:b2c-solution-architect-certification` |
+| `kt:business-architecture` | `kt:capability-maps` |
 | `kt:change-order-process` | `kt:statement-of-work` |
 | `kt:performance-work-statement` | `kt:statement-of-work` |
-| `kt:salesforce-maps` | `kt:geolocation-fields` |
-| `kt:business-architecture` | `kt:capability-maps` |
 | `kt:technology-roadmaps` | `kt:capability-maps` |
 | `kt:value-streams` | `kt:capability-maps` |
 | `kt:organization-wide-email-addresses` | `kt:email-alerts` |
@@ -146,11 +146,11 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:subscriber-support-console` | `kt:license-management-app` |
 | `kt:tx-ramp` | `kt:govramp` |
 | `kt:wcag` | `kt:section-508-accessibility` |
-| `kt:web-to-case` | `kt:auto-response-rules` |
-| `kt:web-to-lead` | `kt:auto-response-rules` |
 | `kt:agent-to-agent-protocol` | `kt:agentforce-architecture-patterns` |
 | `kt:experience-cloud-consultant-certification` | `kt:licensing-strategy` |
 | `kt:greenhouse-gas-protocol` | `kt:net-zero-cloud` |
 | `kt:multi-agent-orchestration` | `kt:agentforce-architecture-patterns` |
 | `kt:tableau-blueprint` | `kt:tableau-architect-certification` |
 | `kt:tableau-server-administrator-certification` | `kt:tableau-architect-certification` |
+| `kt:web-to-case` | `kt:auto-response-rules` |
+| `kt:web-to-lead` | `kt:auto-response-rules` |

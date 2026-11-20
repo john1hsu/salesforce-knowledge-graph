@@ -3601,6 +3601,30 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-streams> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/ingestion-api> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-streams> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-streams> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-table-screen-component> <http://purl.org/dc/terms/created> "2026-11-20" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-table-screen-component> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-table-screen-component> <http://www.w3.org/2000/01/rdf-schema#label> "Data Table Screen Component" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-table-screen-component> <http://www.w3.org/2004/02/skos/core#altLabel> "Data Table Screen Input Component" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-table-screen-component> <http://www.w3.org/2004/02/skos/core#altLabel> "Data Table flow screen component" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-table-screen-component> <http://www.w3.org/2004/02/skos/core#altLabel> "Flow Data Table" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-table-screen-component> <http://www.w3.org/2004/02/skos/core#altLabel> "editable data table in flow" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-table-screen-component> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/screen-flow> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-table-screen-component> <http://www.w3.org/2004/02/skos/core#definition> "A standard screen flow input component that shows a collection of records (or Apex-defined objects) as a table, lets the running user select one or many rows, and, since Spring '26, sort columns and edit values inline, returning the selected and edited rows to the flow." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-table-screen-component> <http://www.w3.org/2004/02/skos/core#prefLabel> "Data Table Screen Component" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-table-screen-component> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/collection-filter-and-sort> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-table-screen-component> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-loop-element> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-table-screen-component> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/get-records-element> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-table-screen-component> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/transform-element> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-table-screen-component> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-table-screen-component/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-table-screen-component> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-table-screen-component/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-table-screen-component> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-table-screen-component/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-table-screen-component> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-table-screen-component/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-table-screen-component> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#alternativeTo> <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-flow-screen-components> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-table-screen-component> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-defined-types> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-table-screen-component> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/field-level-security> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-table-screen-component> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "automation" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-table-screen-component> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-table-screen-component> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-transforms> <http://purl.org/dc/terms/created> "2026-11-15" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-transforms> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-transforms> <http://www.w3.org/2000/01/rdf-schema#label> "Data Transforms" .
@@ -10929,6 +10953,7 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/screen-flow> <http://www.w3.org/2004/02/skos/core#prefLabel> "Screen Flow" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/screen-flow> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/autolaunched-flow> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/screen-flow> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-flow-screen-components> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/screen-flow> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-table-screen-component> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/screen-flow> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/experience-cloud> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/screen-flow> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-orchestrator> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/screen-flow> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/record-triggered-flow> .
@@ -15318,6 +15343,26 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-streams/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-streams/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-streams/s5> <https://schema.org/url> "https://developer.salesforce.com/docs/data/data-cloud-int/references/data-cloud-ingestionapi-ref/c360-a-api-insert-records.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-table-screen-component/s1> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-table-screen-component/s1> <http://purl.org/dc/terms/title> "Data Table Screen Input Component" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-table-screen-component/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-table-screen-component/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-table-screen-component/s1> <https://schema.org/url> "https://help.salesforce.com/s/articleView?language=en_US&id=platform.flow_ref_elements_screencmp_data_table.htm&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-table-screen-component/s2> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-table-screen-component/s2> <http://purl.org/dc/terms/title> "Enhance User Choices with Screen Options (Screen Flows)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-table-screen-component/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-table-screen-component/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-table-screen-component/s2> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/screen-flows/add-more-options-to-your-screens" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-table-screen-component/s3> <http://purl.org/dc/terms/publisher> "Salesforce Time (Yumi Ibrahimzade)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-table-screen-component/s3> <http://purl.org/dc/terms/title> "Salesforce Flow Data Table Now Supports Inline Editing and Sorting" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-table-screen-component/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-table-screen-component/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "community" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-table-screen-component/s3> <https://schema.org/url> "https://salesforcetime.com/2026/02/11/salesforce-flow-data-table-now-supports-inline-editing-and-sorting/" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-table-screen-component/s4> <http://purl.org/dc/terms/publisher> "Salesforce Ben (Tim Combridge)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-table-screen-component/s4> <http://purl.org/dc/terms/title> "Salesforce Spring '26 Release: Editable Data Table for Flow Is Here" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-table-screen-component/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-table-screen-component/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "community" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-table-screen-component/s4> <https://schema.org/url> "https://www.salesforceben.com/salesforce-spring-26-release-editable-data-table-for-flow-is-here/" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-transforms/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-transforms/s1> <http://purl.org/dc/terms/title> "Get Started with Batch Data Transforms in Data 360" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-transforms/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
