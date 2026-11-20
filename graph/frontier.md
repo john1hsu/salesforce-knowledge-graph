@@ -7,6 +7,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:contact-builder` | `kt:automation-studio`, `kt:journey-builder`, `kt:marketing-cloud-connect`, `kt:marketing-cloud-engagement` |
 | `kt:business-analyst` | `kt:fit-gap-analysis`, `kt:omnistudio-consultant-certification`, `kt:requirements-gathering`, `kt:user-acceptance-testing` |
 | `kt:customer-360` | `kt:commerce-cloud`, `kt:salesforce-marketing-solutions`, `kt:slack-platform` |
+| `kt:test-loaddata` | `kt:seealldata`, `kt:test-data-factory` |
 | `kt:decision-tables` | `kt:loyalty-management`, `kt:salesforce-pricing` |
 | `kt:get-records-element` | `kt:collection-filter-and-sort`, `kt:data-table-screen-component` |
 | `kt:requirements-engineering` | `kt:non-functional-requirements`, `kt:requirements-gathering` |
@@ -20,8 +21,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:salesforce-archive` | `kt:archiving-strategy` |
 | `kt:data-categories` | `kt:knowledge-base` |
 | `kt:trailhead` | `kt:salesforce-certification-program` |
-| `kt:seealldata` | `kt:test-data-factory` |
-| `kt:test-loaddata` | `kt:test-data-factory` |
 | `kt:custom-objects` | `kt:standard-objects` |
 | `kt:static-soql` | `kt:dynamic-soql` |
 | `kt:compact-layouts` | `kt:page-layouts` |
@@ -44,8 +43,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:einstein-discovery` | `kt:crm-analytics` |
 | `kt:saql` | `kt:crm-analytics` |
 | `kt:custom-property-editors` | `kt:custom-flow-screen-components` |
-| `kt:api-experience-hub` | `kt:external-identity-license` |
 | `kt:apex-mocks` | `kt:apex-enterprise-patterns` |
+| `kt:api-experience-hub` | `kt:external-identity-license` |
 | `kt:salesforce-ecosystem` | `kt:salesforce-inc` |
 | `kt:rest-api-limits-resource` | `kt:orglimits-class` |
 | `kt:apex-rest-services` | `kt:remote-call-in` |
@@ -74,21 +73,22 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:backup-and-recover-next` | `kt:backup-and-recover` |
 | `kt:static-resources` | `kt:cross-site-scripting` |
 | `kt:reports-and-dashboards` | `kt:salesforce-analytics` |
-| `kt:engagement-studio` | `kt:marketing-cloud-account-engagement` |
 | `kt:anypoint-runtime-manager` | `kt:mule-runtime-engine` |
+| `kt:engagement-studio` | `kt:marketing-cloud-account-engagement` |
 | `kt:actionable-relationship-center` | `kt:financial-services-cloud` |
 | `kt:compliant-data-sharing` | `kt:financial-services-cloud` |
 | `kt:custom-permissions` | `kt:validation-rules` |
 | `kt:invocable-methods` | `kt:apex-defined-types` |
 | `kt:iso-iec-25010` | `kt:non-functional-requirements` |
-| `kt:computer-science` | `kt:distributed-computing` |
 | `kt:platform-cache-partitions` | `kt:platform-cache` |
+| `kt:computer-science` | `kt:distributed-computing` |
 | `kt:opportunity-products` | `kt:price-books` |
 | `kt:data-processing-engine` | `kt:loyalty-management` |
 | `kt:fhir` | `kt:health-cloud` |
 | `kt:utilization-management` | `kt:health-cloud` |
 | `kt:model-context-protocol` | `kt:model-context-protocol-in-agentforce` |
 | `kt:salesforce-hosted-mcp-servers` | `kt:model-context-protocol-in-agentforce` |
+| `kt:test-setup-methods` | `kt:seealldata` |
 | `kt:salesforce-as-identity-provider` | `kt:certificate-and-key-management` |
 | `kt:business-process-mapping` | `kt:requirements-gathering` |
 | `kt:data-cloud-query-api` | `kt:data-graphs` |
@@ -129,9 +129,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:shared-activities` | `kt:activity-data-model` |
 | `kt:twelve-factor-app` | `kt:heroku-architect-certification` |
 | `kt:b2c-commerce-architect-certification` | `kt:b2c-solution-architect-certification` |
-| `kt:business-architecture` | `kt:capability-maps` |
 | `kt:change-order-process` | `kt:statement-of-work` |
 | `kt:performance-work-statement` | `kt:statement-of-work` |
+| `kt:business-architecture` | `kt:capability-maps` |
 | `kt:salesforce-maps` | `kt:geolocation-fields` |
 | `kt:technology-roadmaps` | `kt:capability-maps` |
 | `kt:value-streams` | `kt:capability-maps` |

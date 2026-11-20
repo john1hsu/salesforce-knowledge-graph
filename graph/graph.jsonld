@@ -21258,6 +21258,86 @@
       ]
     },
     {
+      "@id": "kt:seealldata",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "SeeAllData Annotation",
+      "skos:definition": "The SeeAllData parameter of the Apex @IsTest annotation, which opts a test class or test method out of the default data isolation so it can query pre-existing records in the org; Salesforce recommends isolated (SeeAllData=false) data silo tests instead.",
+      "kto:domain": "development",
+      "dcterms:created": "2026-11-20",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Apex Developer Guide (Winter '27): Isolation of Test Data from Organization Data in Unit Tests",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.264.0.apexcode.meta/pages/apex_testing_data_access.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Apex Developer Guide (Winter '27): Using the isTest(SeeAllData=True) Annotation",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/pages/apex_testing_seealldata_using.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Apex Developer Guide (Winter '27): Using Test Setup Methods",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.264.0.apexcode.meta/pages/apex_testing_testsetup_using.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Prepare for Unit Testing: Get Data for Your Tests",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/apex-testing-prepare-for-unit-testing/get-data-for-your-tests",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Apex Developer Guide (Winter '27): TestSetup Annotation",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.264.0.apexcode.meta/pages/apex_classes_annotation_testsetup.htm",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/development/seealldata.md",
+      "skos:altLabel": [
+        "SeeAllData",
+        "@IsTest(SeeAllData=true)",
+        "isTest SeeAllData",
+        "SeeAllData=true"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:apex-testing"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:test-data-factory"
+        },
+        {
+          "@id": "kt:testing-strategy"
+        },
+        {
+          "@id": "kt:custom-settings"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:test-loaddata"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:test-setup-methods"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:apex"
+        }
+      ]
+    },
+    {
       "@id": "kt:soql-injection",
       "@type": "kto:Concept",
       "skos:prefLabel": "SOQL Injection",
