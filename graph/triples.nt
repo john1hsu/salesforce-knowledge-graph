@@ -2259,6 +2259,35 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/commerce-cloud> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/commerce-cloud> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/commerce-cloud> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/compliant-data-sharing> <http://purl.org/dc/terms/created> "2026-11-21" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/compliant-data-sharing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#SecurityControl> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/compliant-data-sharing> <http://www.w3.org/2000/01/rdf-schema#label> "Compliant Data Sharing" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/compliant-data-sharing> <http://www.w3.org/2004/02/skos/core#altLabel> "CDS" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/compliant-data-sharing> <http://www.w3.org/2004/02/skos/core#altLabel> "ethical wall sharing" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/compliant-data-sharing> <http://www.w3.org/2004/02/skos/core#altLabel> "participant roles" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/compliant-data-sharing> <http://www.w3.org/2004/02/skos/core#altLabel> "participant-based sharing" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/compliant-data-sharing> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-sharing-model> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/compliant-data-sharing> <http://www.w3.org/2004/02/skos/core#definition> "An Industries sharing mechanism, best known from Financial Services Cloud, that grants record access by assigning users or participant groups to a record through participant roles, each carrying a Read-Only or Read/Write access level, so admins can enforce ethical walls without sharing code." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/compliant-data-sharing> <http://www.w3.org/2004/02/skos/core#prefLabel> "Compliant Data Sharing" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/compliant-data-sharing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/field-level-security> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/compliant-data-sharing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/organization-wide-defaults> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/compliant-data-sharing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/public-groups> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/compliant-data-sharing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/public-sector-solutions> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/compliant-data-sharing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/role-hierarchy> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/compliant-data-sharing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/compliant-data-sharing/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/compliant-data-sharing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/compliant-data-sharing/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/compliant-data-sharing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/compliant-data-sharing/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/compliant-data-sharing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/compliant-data-sharing/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/compliant-data-sharing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/compliant-data-sharing/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/compliant-data-sharing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/compliant-data-sharing/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/compliant-data-sharing> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#alternativeTo> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-managed-sharing> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/compliant-data-sharing> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#alternativeTo> <https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-rules> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/compliant-data-sharing> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/permission-sets> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/compliant-data-sharing> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/organization-wide-defaults> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/compliant-data-sharing> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "security-and-sharing" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/compliant-data-sharing> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#partOf> <https://github.com/john1hsu/salesforce-knowledge-graph/id/financial-services-cloud> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/compliant-data-sharing> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/compliant-data-sharing> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/composite-api> <http://purl.org/dc/terms/created> "2026-11-03" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/composite-api> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#API> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/composite-api> <http://www.w3.org/2000/01/rdf-schema#label> "Composite API" .
@@ -14841,6 +14870,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/commerce-cloud/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/commerce-cloud/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/commerce-cloud/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/commerce/salesforce-commerce/guide" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/compliant-data-sharing/s1> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/compliant-data-sharing/s1> <http://purl.org/dc/terms/title> "Compliant Data Sharing (Salesforce Help, Winter '27)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/compliant-data-sharing/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/compliant-data-sharing/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/compliant-data-sharing/s1> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=ind.fsc_admin_cds.htm&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/compliant-data-sharing/s2> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/compliant-data-sharing/s2> <http://purl.org/dc/terms/title> "Control Who Sees What with Compliant Data Sharing (Salesforce Help, Winter '27)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/compliant-data-sharing/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/compliant-data-sharing/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/compliant-data-sharing/s2> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=ind.fsc_cds_admin_overview.htm&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/compliant-data-sharing/s3> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/compliant-data-sharing/s3> <http://purl.org/dc/terms/title> "Grant User Access to Objects and Participant Objects and Fields in Compliant Data Sharing (Salesforce Help, Winter '27)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/compliant-data-sharing/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/compliant-data-sharing/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/compliant-data-sharing/s3> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=ind.fsc_admin_cds_grant_access_to_objects.htm&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/compliant-data-sharing/s4> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/compliant-data-sharing/s4> <http://purl.org/dc/terms/title> "Compliant Data Sharing in Financial Services Explained (Trailhead)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/compliant-data-sharing/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/compliant-data-sharing/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/compliant-data-sharing/s4> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/compliant-data-sharing-in-financial-services-cloud/get-started-with-compliant-data-sharing" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/compliant-data-sharing/s5> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/compliant-data-sharing/s5> <http://purl.org/dc/terms/title> "Learn How to Set Up Compliant Data Sharing for Your Organization (Trailhead)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/compliant-data-sharing/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/compliant-data-sharing/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/compliant-data-sharing/s5> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/compliant-data-sharing-in-financial-services-cloud/set-up-compliant-data-sharing" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/compliant-data-sharing/s6> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/compliant-data-sharing/s6> <http://purl.org/dc/terms/title> "Create and Manage Participant Roles and Groups Effectively (Trailhead)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/compliant-data-sharing/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/compliant-data-sharing/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/compliant-data-sharing/s6> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/compliant-data-sharing-in-financial-services-cloud/set-up-participants" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/composite-api/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/composite-api/s1> <http://purl.org/dc/terms/title> "Send Multiple Requests Using Composite (REST API Developer Guide)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/composite-api/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

@@ -51,8 +51,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:mulesoft-platform-integration-architect-certification` | `kt:mulesoft-platform-architect-certification` |
 | `kt:revenue-intelligence` | `kt:collaborative-forecasts` |
 | `kt:path` | `kt:business-processes` |
-| `kt:generative-ai` | `kt:retrieval-augmented-generation-in-salesforce` |
 | `kt:batch-apex-error-event` | `kt:transaction-finalizers` |
+| `kt:generative-ai` | `kt:retrieval-augmented-generation-in-salesforce` |
 | `kt:application-network` | `kt:api-led-connectivity` |
 | `kt:point-to-point-integration` | `kt:api-led-connectivity` |
 | `kt:security-keys` | `kt:salesforce-authenticator` |
@@ -67,11 +67,10 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:product-catalog-management` | `kt:product-configurator` |
 | `kt:marketing-cloud-sql` | `kt:automation-studio` |
 | `kt:engagement-studio` | `kt:marketing-cloud-account-engagement` |
+| `kt:actionable-relationship-center` | `kt:financial-services-cloud` |
 | `kt:backup-and-recover-next` | `kt:backup-and-recover` |
 | `kt:anypoint-runtime-manager` | `kt:mule-runtime-engine` |
 | `kt:reports-and-dashboards` | `kt:salesforce-analytics` |
-| `kt:actionable-relationship-center` | `kt:financial-services-cloud` |
-| `kt:compliant-data-sharing` | `kt:financial-services-cloud` |
 | `kt:custom-permissions` | `kt:validation-rules` |
 | `kt:iso-iec-25010` | `kt:non-functional-requirements` |
 | `kt:invocable-methods` | `kt:apex-defined-types` |

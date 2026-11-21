@@ -42411,6 +42411,106 @@
       ]
     },
     {
+      "@id": "kt:compliant-data-sharing",
+      "@type": "kto:SecurityControl",
+      "skos:prefLabel": "Compliant Data Sharing",
+      "skos:definition": "An Industries sharing mechanism, best known from Financial Services Cloud, that grants record access by assigning users or participant groups to a record through participant roles, each carrying a Read-Only or Read/Write access level, so admins can enforce ethical walls without sharing code.",
+      "kto:domain": "security-and-sharing",
+      "dcterms:created": "2026-11-21",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Compliant Data Sharing (Salesforce Help, Winter '27)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=ind.fsc_admin_cds.htm&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Control Who Sees What with Compliant Data Sharing (Salesforce Help, Winter '27)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=ind.fsc_cds_admin_overview.htm&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Grant User Access to Objects and Participant Objects and Fields in Compliant Data Sharing (Salesforce Help, Winter '27)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=ind.fsc_admin_cds_grant_access_to_objects.htm&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Compliant Data Sharing in Financial Services Explained (Trailhead)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/compliant-data-sharing-in-financial-services-cloud/get-started-with-compliant-data-sharing",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Learn How to Set Up Compliant Data Sharing for Your Organization (Trailhead)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/compliant-data-sharing-in-financial-services-cloud/set-up-compliant-data-sharing",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Create and Manage Participant Roles and Groups Effectively (Trailhead)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/compliant-data-sharing-in-financial-services-cloud/set-up-participants",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/security-and-sharing/compliant-data-sharing.md",
+      "skos:altLabel": [
+        "CDS",
+        "participant roles",
+        "participant-based sharing",
+        "ethical wall sharing"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-sharing-model"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:organization-wide-defaults"
+        },
+        {
+          "@id": "kt:role-hierarchy"
+        },
+        {
+          "@id": "kt:public-groups"
+        },
+        {
+          "@id": "kt:field-level-security"
+        },
+        {
+          "@id": "kt:public-sector-solutions"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:financial-services-cloud"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:organization-wide-defaults"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:apex-managed-sharing"
+        },
+        {
+          "@id": "kt:sharing-rules"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:permission-sets"
+        }
+      ]
+    },
+    {
       "@id": "kt:content-security-policy",
       "@type": "kto:SecurityControl",
       "skos:prefLabel": "Content Security Policy",
