@@ -44,8 +44,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:api-experience-hub` | `kt:external-identity-license` |
 | `kt:salesforce-ecosystem` | `kt:salesforce-inc` |
 | `kt:apex-rest-services` | `kt:remote-call-in` |
-| `kt:lightning-out` | `kt:lightning-locker` |
 | `kt:heroku-postgres` | `kt:heroku-connect` |
+| `kt:lightning-out` | `kt:lightning-locker` |
 | `kt:dynamic-revenue-orchestrator` | `kt:revenue-cloud` |
 | `kt:revenue-management-consultant-certification` | `kt:revenue-cloud` |
 | `kt:agentexchange-go-to-market-app` | `kt:agentexchange` |
@@ -74,8 +74,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:reports-and-dashboards` | `kt:salesforce-analytics` |
 | `kt:actionable-relationship-center` | `kt:financial-services-cloud` |
 | `kt:compliant-data-sharing` | `kt:financial-services-cloud` |
-| `kt:iso-iec-25010` | `kt:non-functional-requirements` |
 | `kt:custom-permissions` | `kt:validation-rules` |
+| `kt:iso-iec-25010` | `kt:non-functional-requirements` |
 | `kt:invocable-methods` | `kt:apex-defined-types` |
 | `kt:platform-cache-partitions` | `kt:platform-cache` |
 | `kt:computer-science` | `kt:distributed-computing` |
@@ -122,17 +122,16 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:trialforce` | `kt:environment-hub` |
 | `kt:agentforce-nonprofit-consultant-certification` | `kt:agentforce-nonprofit` |
 | `kt:nonprofit-success-pack` | `kt:agentforce-nonprofit` |
-| `kt:shared-activities` | `kt:activity-data-model` |
 | `kt:heroku-fir` | `kt:heroku-architect-certification` |
+| `kt:shared-activities` | `kt:activity-data-model` |
 | `kt:twelve-factor-app` | `kt:heroku-architect-certification` |
 | `kt:experience-cloud-consultant-certification` | `kt:licensing-strategy` |
 | `kt:b2c-commerce-architect-certification` | `kt:b2c-solution-architect-certification` |
-| `kt:salesforce-maps` | `kt:geolocation-fields` |
 | `kt:business-architecture` | `kt:capability-maps` |
 | `kt:technology-roadmaps` | `kt:capability-maps` |
 | `kt:value-streams` | `kt:capability-maps` |
+| `kt:salesforce-maps` | `kt:geolocation-fields` |
 | `kt:organization-wide-email-addresses` | `kt:email-alerts` |
-| `kt:notes-and-attachments` | `kt:content-document-model` |
 | `kt:salesforce-seasonal-releases` | `kt:release-updates` |
 | `kt:agent-to-agent-protocol` | `kt:agentforce-architecture-patterns` |
 | `kt:consent-data-model` | `kt:consent-management-in-data-cloud` |
@@ -140,6 +139,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:digital-accessibility` | `kt:section-508-accessibility` |
 | `kt:greenhouse-gas-protocol` | `kt:net-zero-cloud` |
 | `kt:multi-agent-orchestration` | `kt:agentforce-architecture-patterns` |
+| `kt:notes-and-attachments` | `kt:content-document-model` |
 | `kt:rollback-plan` | `kt:hypercare` |
 | `kt:tableau-blueprint` | `kt:tableau-architect-certification` |
 | `kt:tableau-server-administrator-certification` | `kt:tableau-architect-certification` |

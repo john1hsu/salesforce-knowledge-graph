@@ -9965,6 +9965,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/record-locking> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/soql> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/record-locking> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/record-locking> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/record-name-field> <http://purl.org/dc/terms/created> "2026-11-21" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/record-name-field> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/record-name-field> <http://www.w3.org/2000/01/rdf-schema#label> "Record Name Field" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/record-name-field> <http://www.w3.org/2004/02/skos/core#altLabel> "Name field" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/record-name-field> <http://www.w3.org/2004/02/skos/core#altLabel> "Record Name" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/record-name-field> <http://www.w3.org/2004/02/skos/core#altLabel> "isNameField" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/record-name-field> <http://www.w3.org/2004/02/skos/core#altLabel> "nameField" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/record-name-field> <http://www.w3.org/2004/02/skos/core#altLabel> "object name field" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/record-name-field> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-objects> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/record-name-field> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/standard-objects> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/record-name-field> <http://www.w3.org/2004/02/skos/core#definition> "The one field on each Salesforce object that identifies a record to people: it is the clickable label shown in page layouts, related lists, lookups and search results. On a custom object it is defined at creation as either Text or Auto Number; a few standard objects such as Contact build it from FirstName and LastName." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/record-name-field> <http://www.w3.org/2004/02/skos/core#prefLabel> "Record Name Field" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/record-name-field> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/auto-number-fields> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/record-name-field> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-fields> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/record-name-field> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/external-objects> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/record-name-field> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/formula-fields> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/record-name-field> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/heroku-connect> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/record-name-field> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/person-accounts> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/record-name-field> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/record-name-field/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/record-name-field> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/record-name-field/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/record-name-field> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/record-name-field/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/record-name-field> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/record-name-field/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/record-name-field> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/record-name-field/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/record-name-field> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/record-name-field/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/record-name-field> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/record-name-field> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "data-model" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/record-name-field> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/soql> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/record-name-field> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/sosl> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/record-name-field> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/record-name-field> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/record-triggered-flow> <http://purl.org/dc/terms/created> "2026-10-31" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/record-triggered-flow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/record-triggered-flow> <http://www.w3.org/2000/01/rdf-schema#label> "Record-Triggered Flow" .
@@ -22523,6 +22553,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/record-locking/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/record-locking/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/record-locking/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.api_asynch.meta/api_asynch/asynch_api_planning_guidelines.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/record-name-field/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/record-name-field/s1> <http://purl.org/dc/terms/title> "CustomObject (Metadata API Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/record-name-field/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/record-name-field/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/record-name-field/s1> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/customobject.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/record-name-field/s2> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/record-name-field/s2> <http://purl.org/dc/terms/title> "Custom Objects (Object Reference for the Salesforce Platform)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/record-name-field/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/record-name-field/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/record-name-field/s2> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/api/sforce_api_objects_custom_objects.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/record-name-field/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/record-name-field/s3> <http://purl.org/dc/terms/title> "DescribeFieldResult Class (Apex Reference Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/record-name-field/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/record-name-field/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/record-name-field/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_fields_describe.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/record-name-field/s4> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/record-name-field/s4> <http://purl.org/dc/terms/title> "Create a Custom Object (Create a Custom Object Quick Look)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/record-name-field/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/record-name-field/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/record-name-field/s4> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/create-a-custom-object-quick-look/create-a-custom-object" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/record-name-field/s5> <http://purl.org/dc/terms/publisher> "Salesforce Admins" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/record-name-field/s5> <http://purl.org/dc/terms/title> "How I Solved This: Intuitive Record Links" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/record-name-field/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/record-name-field/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/record-name-field/s5> <https://schema.org/url> "https://admin.salesforce.com/blog/2020/how-i-solved-this-intuitive-record-links" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/record-name-field/s6> <http://purl.org/dc/terms/publisher> "Heroku Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/record-name-field/s6> <http://purl.org/dc/terms/title> "Why is my custom object's name field being saved with an ID value in Salesforce?" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/record-name-field/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/record-name-field/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/record-name-field/s6> <https://schema.org/url> "https://help.heroku.com/WWC4JRQ6/why-is-my-custom-object-s-name-field-being-saved-with-an-id-value-in-salesforce" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/record-triggered-flow/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/record-triggered-flow/s1> <http://purl.org/dc/terms/title> "Record-Triggered Flows: Get Started with Triggered Flows" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/record-triggered-flow/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

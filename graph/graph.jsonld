@@ -18679,6 +18679,103 @@
       ]
     },
     {
+      "@id": "kt:record-name-field",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Record Name Field",
+      "skos:definition": "The one field on each Salesforce object that identifies a record to people: it is the clickable label shown in page layouts, related lists, lookups and search results. On a custom object it is defined at creation as either Text or Auto Number; a few standard objects such as Contact build it from FirstName and LastName.",
+      "kto:domain": "data-model",
+      "dcterms:created": "2026-11-21",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "CustomObject (Metadata API Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/customobject.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Custom Objects (Object Reference for the Salesforce Platform)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/api/sforce_api_objects_custom_objects.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "DescribeFieldResult Class (Apex Reference Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_fields_describe.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Create a Custom Object (Create a Custom Object Quick Look)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/create-a-custom-object-quick-look/create-a-custom-object",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "How I Solved This: Intuitive Record Links",
+          "dcterms:publisher": "Salesforce Admins",
+          "schema:url": "https://admin.salesforce.com/blog/2020/how-i-solved-this-intuitive-record-links",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Why is my custom object's name field being saved with an ID value in Salesforce?",
+          "dcterms:publisher": "Heroku Help",
+          "schema:url": "https://help.heroku.com/WWC4JRQ6/why-is-my-custom-object-s-name-field-being-saved-with-an-id-value-in-salesforce",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/data-model/record-name-field.md",
+      "skos:altLabel": [
+        "Record Name",
+        "Name field",
+        "nameField",
+        "object name field",
+        "isNameField"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:custom-objects"
+        },
+        {
+          "@id": "kt:standard-objects"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:auto-number-fields"
+        },
+        {
+          "@id": "kt:custom-fields"
+        },
+        {
+          "@id": "kt:person-accounts"
+        },
+        {
+          "@id": "kt:formula-fields"
+        },
+        {
+          "@id": "kt:external-objects"
+        },
+        {
+          "@id": "kt:heroku-connect"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:metadata-api"
+        }
+      ],
+      "kto:queriedWith": [
+        {
+          "@id": "kt:soql"
+        },
+        {
+          "@id": "kt:sosl"
+        }
+      ]
+    },
+    {
       "@id": "kt:record-types",
       "@type": "kto:Feature",
       "skos:prefLabel": "Record Types",
