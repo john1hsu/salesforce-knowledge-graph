@@ -11254,6 +11254,97 @@
       ]
     },
     {
+      "@id": "kt:salesforce-scheduler",
+      "@type": "kto:Product",
+      "skos:prefLabel": "Salesforce Scheduler",
+      "skos:definition": "Salesforce's extra-cost appointment-booking product that matches customers with the right service resource, location, topic and time slot, built on service territories, work type groups, work types and service appointments.",
+      "kto:domain": "clouds-and-products",
+      "dcterms:created": "2026-11-21",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Introduction to Salesforce Scheduler",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/service/salesforce-scheduler-dev-guide/guide/salesforce-scheduler-intro.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Salesforce Scheduler Standard Objects",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/service/salesforce-scheduler-dev-guide/guide/salesforce-scheduler-objects-overview.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Get Started with Salesforce Scheduler",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/projects/set-up-salesforce-scheduler/salesforce-scheduler-get-started",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Explore Appointment Topics and Templates",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/lightning-scheduler-data-model/explore-appointment-topics-and-templates",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "LxScheduler Namespace",
+          "dcterms:publisher": "Salesforce Developers (Apex Reference Guide)",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_namespace_lxscheduler.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "WorkTypeGroup",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/service/salesforce-scheduler-dev-guide/guide/sforce-api-objects-worktypegroup.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/clouds-and-products/salesforce-scheduler.md",
+      "skos:altLabel": [
+        "Lightning Scheduler",
+        "Scheduler",
+        "LxScheduler"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-platform"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:field-service"
+        },
+        {
+          "@id": "kt:financial-services-cloud"
+        },
+        {
+          "@id": "kt:apex"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:field-service"
+        },
+        {
+          "@id": "kt:platform-events"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:service-appointments"
+        },
+        {
+          "@id": "kt:operating-hours"
+        }
+      ],
+      "kto:queriedWith": [
+        {
+          "@id": "kt:connect-api"
+        }
+      ]
+    },
+    {
       "@id": "kt:service-cloud",
       "@type": "kto:Product",
       "skos:prefLabel": "Service Cloud",
