@@ -31582,6 +31582,90 @@
       ]
     },
     {
+      "@id": "kt:api-experience-hub",
+      "@type": "kto:Product",
+      "skos:prefLabel": "API Experience Hub",
+      "skos:definition": "MuleSoft's developer-portal product, built on Salesforce Experience Cloud, that publishes APIs, agents, LLMs and MCP servers curated in Anypoint Exchange to internal, partner or external developers for self-service discovery, access requests and interactive documentation; the successor to API Community Manager.",
+      "kto:domain": "integration",
+      "dcterms:created": "2026-11-21",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "API Experience Hub Overview",
+          "dcterms:publisher": "MuleSoft Documentation (Salesforce)",
+          "schema:url": "https://docs.mulesoft.com/api-experience-hub/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Getting Started with API Experience Hub",
+          "dcterms:publisher": "MuleSoft Documentation (Salesforce)",
+          "schema:url": "https://docs.mulesoft.com/api-experience-hub/prerequisites",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Anypoint API Experience Hub Release Notes",
+          "dcterms:publisher": "MuleSoft Documentation (Salesforce)",
+          "schema:url": "https://docs.mulesoft.com/release-notes/api-experience-hub/api-experience-hub-release-notes",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Increase API Engagement with Anypoint API Experience Hub",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2023/06/increase-api-engagement-with-anypoint-api-experience-hub",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Salesforce's New API Experience Hub Makes It Easy for Companies to Boost API Adoption",
+          "dcterms:publisher": "Salesforce Newsroom",
+          "schema:url": "https://www.salesforce.com/news/stories/anypoint-api-experience-hub",
+          "kto:sourceType": "news"
+        }
+      ],
+      "kto:file": "articles/integration/api-experience-hub.md",
+      "skos:altLabel": [
+        "Anypoint API Experience Hub",
+        "AEH",
+        "MuleSoft API Experience Hub",
+        "API developer portal"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:mulesoft-anypoint-platform"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:api-led-connectivity"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:experience-cloud"
+        }
+      ],
+      "kto:requiresLicense": [
+        {
+          "@id": "kt:external-identity-license"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:experience-builder"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:single-sign-on-saml"
+        }
+      ],
+      "kto:replaces": [
+        {
+          "@id": "kt:api-community-manager"
+        }
+      ]
+    },
+    {
       "@id": "kt:api-led-connectivity",
       "@type": "kto:Pattern",
       "skos:prefLabel": "API-led Connectivity",
