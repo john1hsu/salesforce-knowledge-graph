@@ -7,7 +7,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:business-analyst` | `kt:fit-gap-analysis`, `kt:omnistudio-consultant-certification`, `kt:requirements-gathering`, `kt:user-acceptance-testing` |
 | `kt:service-appointments` | `kt:field-service`, `kt:salesforce-scheduler` |
 | `kt:data-extensions` | `kt:automation-studio`, `kt:contact-builder` |
-| `kt:static-resources` | `kt:cross-site-scripting`, `kt:test-loaddata` |
 | `kt:requirements-engineering` | `kt:non-functional-requirements`, `kt:requirements-gathering` |
 | `kt:user-stories` | `kt:fit-gap-analysis`, `kt:requirements-gathering` |
 | `kt:email-templates` | `kt:auto-response-rules`, `kt:email-alerts` |
@@ -26,11 +25,11 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:data-management` | `kt:data-governance` |
 | `kt:data-stewardship` | `kt:data-governance` |
 | `kt:data-import-wizard` | `kt:data-loader` |
+| `kt:salesforce-lightning-design-system` | `kt:visualforce` |
 | `kt:dispatcher-console` | `kt:field-service` |
 | `kt:field-service-mobile-app` | `kt:field-service` |
 | `kt:field-service-scheduling-policies` | `kt:field-service` |
 | `kt:work-orders` | `kt:field-service` |
-| `kt:salesforce-lightning-design-system` | `kt:visualforce` |
 | `kt:salesforce-sites` | `kt:custom-domains` |
 | `kt:entitlement-process-metadata` | `kt:entitlement-management` |
 | `kt:einstein-discovery` | `kt:crm-analytics` |
@@ -40,18 +39,18 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:apex-mocks` | `kt:apex-enterprise-patterns` |
 | `kt:api-experience-hub` | `kt:external-identity-license` |
 | `kt:salesforce-ecosystem` | `kt:salesforce-inc` |
+| `kt:lightning-out` | `kt:lightning-locker` |
 | `kt:apex-rest-services` | `kt:remote-call-in` |
 | `kt:heroku-postgres` | `kt:heroku-connect` |
 | `kt:agentexchange-go-to-market-app` | `kt:agentexchange` |
-| `kt:lightning-out` | `kt:lightning-locker` |
 | `kt:dynamic-revenue-orchestrator` | `kt:revenue-cloud` |
 | `kt:revenue-management-consultant-certification` | `kt:revenue-cloud` |
 | `kt:object-manager` | `kt:schema-builder` |
 | `kt:mulesoft-platform-integration-architect-certification` | `kt:mulesoft-platform-architect-certification` |
 | `kt:revenue-intelligence` | `kt:collaborative-forecasts` |
 | `kt:path` | `kt:business-processes` |
-| `kt:batch-apex-error-event` | `kt:transaction-finalizers` |
 | `kt:generative-ai` | `kt:retrieval-augmented-generation-in-salesforce` |
+| `kt:batch-apex-error-event` | `kt:transaction-finalizers` |
 | `kt:application-network` | `kt:api-led-connectivity` |
 | `kt:point-to-point-integration` | `kt:api-led-connectivity` |
 | `kt:security-keys` | `kt:salesforce-authenticator` |
@@ -112,8 +111,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:developer-console` | `kt:apex-logging-and-debug-logs` |
 | `kt:document-ai` | `kt:unstructured-data-in-data-cloud` |
 | `kt:models-api` | `kt:ai-models` |
-| `kt:ui-api` | `kt:field-dependencies` |
 | `kt:channel-order-app` | `kt:partner-business-org` |
+| `kt:ui-api` | `kt:field-dependencies` |
 | `kt:user-provisioning` | `kt:scim` |
 | `kt:business-architecture` | `kt:capability-maps` |
 | `kt:technology-roadmaps` | `kt:capability-maps` |

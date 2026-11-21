@@ -22774,6 +22774,107 @@
       ]
     },
     {
+      "@id": "kt:static-resources",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Static Resources",
+      "skos:definition": "Files uploaded to a Salesforce org (archives, images, style sheets, JavaScript and other files) that Visualforce pages, Lightning components and Apex reference by name, and the standard way to bring third-party libraries into Lightning.",
+      "kto:domain": "development",
+      "dcterms:created": "2026-11-21",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Visualforce Developer Guide: Creating a Static Resource",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/salesforce-pages-developers-guide/guide/pages-resources-create.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Visualforce Developer Guide: Using Static Resources",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.264.0.pages.meta/pages/pages_resources.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Lightning Web Components Developer Guide: Static Resources",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/lwc/guide/create-resources.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Lightning Component Reference: Platform Resource Loader",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/lightning-component-reference/guide/lightning-platform-resource-loader.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Metadata API Developer Guide: StaticResource",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_staticresource.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Lightning Web Components Developer Guide: Use Third-Party JavaScript Libraries",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/lwc/guide/js-third-party-library",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/development/static-resources.md",
+      "skos:altLabel": [
+        "static resource",
+        "StaticResource",
+        "$Resource",
+        "@salesforce/resourceUrl",
+        "resourceUrl"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-platform"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:lightning-web-components"
+        },
+        {
+          "@id": "kt:visualforce"
+        },
+        {
+          "@id": "kt:aura-components"
+        },
+        {
+          "@id": "kt:test-loaddata"
+        },
+        {
+          "@id": "kt:cross-site-scripting"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:lightning-web-components"
+        },
+        {
+          "@id": "kt:visualforce"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:content-security-policy"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:metadata-api"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:lightning-web-security"
+        }
+      ]
+    },
+    {
       "@id": "kt:test-data-factory",
       "@type": "kto:Pattern",
       "skos:prefLabel": "Test Data Factory",
