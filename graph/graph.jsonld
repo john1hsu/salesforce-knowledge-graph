@@ -2104,6 +2104,99 @@
       ]
     },
     {
+      "@id": "kt:reference-architectures",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Reference Architectures",
+      "skos:definition": "Reusable, high-level architecture blueprints that capture recommended patterns and best practices for a class of solution; Salesforce publishes them as Reference Diagrams in the Reference Architecture Gallery on architect.salesforce.com, grouped into five diagram types with editable Lucidchart templates.",
+      "kto:domain": "architecture-practice",
+      "dcterms:created": "2026-11-21",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Salesforce Diagrams (Reference Diagrams and Reference Architecture Gallery)",
+          "dcterms:publisher": "Salesforce Architects",
+          "schema:url": "https://architect.salesforce.com/diagrams",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Drive Architectural Alignment with Salesforce Reference Diagrams",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/blog/architectural-alignment-reference-diagrams/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "System Landscape | Reference Diagrams",
+          "dcterms:publisher": "Salesforce Architects",
+          "schema:url": "https://architect.salesforce.com/docs/architect/reference-diagrams/guide/section-system-landscape",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Agentforce System Landscape | Reference Diagrams",
+          "dcterms:publisher": "Salesforce Architects",
+          "schema:url": "https://architect.salesforce.com/docs/architect/reference-diagrams/guide/einstein-system-landscape",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Understanding Salesforce Architecture Diagrams",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/archdia/archdia-1",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "NIST Cloud Computing Reference Architecture (SP 500-292)",
+          "dcterms:publisher": "NIST",
+          "schema:url": "https://www.nist.gov/publications/nist-cloud-computing-reference-architecture?i=c3",
+          "kto:sourceType": "standards-body"
+        }
+      ],
+      "kto:file": "articles/architecture-practice/reference-architectures.md",
+      "skos:altLabel": [
+        "Reference Architecture Gallery",
+        "Salesforce Reference Diagrams",
+        "reference architecture diagram",
+        "Salesforce reference architecture"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-diagrams"
+        },
+        {
+          "@id": "kt:salesforce-architecture-center"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:capability-maps"
+        },
+        {
+          "@id": "kt:solution-design-document"
+        },
+        {
+          "@id": "kt:integration-patterns"
+        },
+        {
+          "@id": "kt:org-strategy"
+        },
+        {
+          "@id": "kt:data-cloud"
+        },
+        {
+          "@id": "kt:agentforce"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:salesforce-architecture-center"
+        }
+      ],
+      "kto:usedBy": [
+        {
+          "@id": "kt:salesforce-architect"
+        }
+      ]
+    },
+    {
       "@id": "kt:requirements-gathering",
       "@type": "kto:Concept",
       "skos:prefLabel": "Requirements Gathering",
@@ -2677,6 +2770,9 @@
         },
         {
           "@id": "kt:cta-review-board"
+        },
+        {
+          "@id": "kt:reference-architectures"
         }
       ],
       "kto:partOf": [
