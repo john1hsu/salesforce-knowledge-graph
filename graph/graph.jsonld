@@ -4595,6 +4595,104 @@
       ]
     },
     {
+      "@id": "kt:decision-tables",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Decision Tables",
+      "skos:definition": "Business Rules Engine lookup tables that read their rows from Salesforce object or custom metadata type records (or a CSV upload), match multiple input conditions with operators, and return one or many output rows to Flow, expression sets or Connect REST callers.",
+      "kto:domain": "automation",
+      "dcterms:created": "2026-11-21",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Get Started with Decision Tables (Explore Lookup Tables in Business Rules Engine)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/deep-dive-into-lookup-tables-in-business-rules-engine/get-started-with-decision-tables",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Explore Decision Tables (Explore Lookup Tables in Business Rules Engine)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/deep-dive-into-lookup-tables-in-business-rules-engine/explore-decision-tables",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Decision Table (Public Sector Developer Guide)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.264.0.psc_api.meta/psc_api/decision_table.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "DecisionTable (Tooling API object, Public Sector Developer Guide)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.psc_api.meta/psc_api/tooling_api_objects_decisiontable.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Decision Table Refresh Action (Public Sector Developer Guide)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.psc_api.meta/psc_api/dt_actions_refresh_decision_table.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Decision Table Invocation (POST) (Public Sector Developer Guide)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.psc_api.meta/psc_api/connect_resources_decisionTableId.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Build Decisions with Lookup Tables (Business Rules Engine module)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/business-rules-engine/build-decisions-with-lookup-tables",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/automation/decision-tables.md",
+      "skos:altLabel": [
+        "decision table",
+        "DecisionTable",
+        "BRE decision tables",
+        "Decision Table Builder"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:business-rules-engine"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:custom-metadata-types"
+        },
+        {
+          "@id": "kt:custom-objects"
+        },
+        {
+          "@id": "kt:salesforce-pricing"
+        },
+        {
+          "@id": "kt:decision-matrices"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:flow-builder"
+        },
+        {
+          "@id": "kt:loyalty-management"
+        }
+      ],
+      "kto:queriedWith": [
+        {
+          "@id": "kt:connect-api"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:tooling-api"
+        }
+      ]
+    },
+    {
       "@id": "kt:einstein-next-best-action",
       "@type": "kto:Feature",
       "skos:prefLabel": "Einstein Next Best Action",

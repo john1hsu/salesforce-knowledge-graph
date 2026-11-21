@@ -3940,6 +3940,34 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-virtualization> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#partOf> <https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-patterns> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-virtualization> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-virtualization> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/decision-tables> <http://purl.org/dc/terms/created> "2026-11-21" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/decision-tables> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/decision-tables> <http://www.w3.org/2000/01/rdf-schema#label> "Decision Tables" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/decision-tables> <http://www.w3.org/2004/02/skos/core#altLabel> "BRE decision tables" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/decision-tables> <http://www.w3.org/2004/02/skos/core#altLabel> "Decision Table Builder" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/decision-tables> <http://www.w3.org/2004/02/skos/core#altLabel> "DecisionTable" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/decision-tables> <http://www.w3.org/2004/02/skos/core#altLabel> "decision table" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/decision-tables> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/business-rules-engine> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/decision-tables> <http://www.w3.org/2004/02/skos/core#definition> "Business Rules Engine lookup tables that read their rows from Salesforce object or custom metadata type records (or a CSV upload), match multiple input conditions with operators, and return one or many output rows to Flow, expression sets or Connect REST callers." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/decision-tables> <http://www.w3.org/2004/02/skos/core#prefLabel> "Decision Tables" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/decision-tables> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-metadata-types> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/decision-tables> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-objects> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/decision-tables> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/decision-matrices> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/decision-tables> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-pricing> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/decision-tables> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/decision-tables/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/decision-tables> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/decision-tables/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/decision-tables> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/decision-tables/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/decision-tables> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/decision-tables/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/decision-tables> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/decision-tables/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/decision-tables> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/decision-tables/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/decision-tables> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/decision-tables/s7> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/decision-tables> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/tooling-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/decision-tables> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#consumedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-builder> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/decision-tables> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#consumedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/loyalty-management> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/decision-tables> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "automation" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/decision-tables> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/connect-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/decision-tables> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/decision-tables> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/delegated-authentication> <http://purl.org/dc/terms/created> "2026-11-13" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/delegated-authentication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/delegated-authentication> <http://www.w3.org/2000/01/rdf-schema#label> "Delegated Authentication" .
@@ -16579,6 +16607,41 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-virtualization/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-virtualization/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-virtualization/s5> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/salesforce_heroku_integration/integrating_with_salesforce_connect" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/decision-tables/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/decision-tables/s1> <http://purl.org/dc/terms/title> "Get Started with Decision Tables (Explore Lookup Tables in Business Rules Engine)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/decision-tables/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/decision-tables/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/decision-tables/s1> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/deep-dive-into-lookup-tables-in-business-rules-engine/get-started-with-decision-tables" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/decision-tables/s2> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/decision-tables/s2> <http://purl.org/dc/terms/title> "Explore Decision Tables (Explore Lookup Tables in Business Rules Engine)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/decision-tables/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/decision-tables/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/decision-tables/s2> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/deep-dive-into-lookup-tables-in-business-rules-engine/explore-decision-tables" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/decision-tables/s3> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/decision-tables/s3> <http://purl.org/dc/terms/title> "Decision Table (Public Sector Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/decision-tables/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/decision-tables/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/decision-tables/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.264.0.psc_api.meta/psc_api/decision_table.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/decision-tables/s4> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/decision-tables/s4> <http://purl.org/dc/terms/title> "DecisionTable (Tooling API object, Public Sector Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/decision-tables/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/decision-tables/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/decision-tables/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.psc_api.meta/psc_api/tooling_api_objects_decisiontable.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/decision-tables/s5> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/decision-tables/s5> <http://purl.org/dc/terms/title> "Decision Table Refresh Action (Public Sector Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/decision-tables/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/decision-tables/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/decision-tables/s5> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.psc_api.meta/psc_api/dt_actions_refresh_decision_table.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/decision-tables/s6> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/decision-tables/s6> <http://purl.org/dc/terms/title> "Decision Table Invocation (POST) (Public Sector Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/decision-tables/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/decision-tables/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/decision-tables/s6> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.psc_api.meta/psc_api/connect_resources_decisionTableId.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/decision-tables/s7> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/decision-tables/s7> <http://purl.org/dc/terms/title> "Build Decisions with Lookup Tables (Business Rules Engine module)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/decision-tables/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/decision-tables/s7> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/decision-tables/s7> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/business-rules-engine/build-decisions-with-lookup-tables" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/delegated-authentication/s1> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/delegated-authentication/s1> <http://purl.org/dc/terms/title> "Delegated Authentication" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/delegated-authentication/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
