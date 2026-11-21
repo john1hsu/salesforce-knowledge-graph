@@ -5126,6 +5126,85 @@
       ]
     },
     {
+      "@id": "kt:flow-formula-resources",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Flow Formula Resources",
+      "skos:definition": "A read-only Flow Builder resource that calculates a value from a formula expression each time the flow references it, used in assignments, decisions and entry conditions.",
+      "kto:domain": "automation",
+      "dcterms:created": "2026-11-21",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Calculate Values in Variables and Formulas",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/flow-build-logic/calculate-values-variables-formulas",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Understanding and Creating Flow Variables",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/flow-basics/learn-about-flow-variables",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Automate This! — Use Formulas in Record-Triggered Flows with Aleksandra Radovanovic",
+          "dcterms:publisher": "Salesforce Admins",
+          "schema:url": "https://admin.salesforce.com/blog/2022/automate-this-use-formulas-in-record-triggered-flows-with-aleksandra-radovanovic",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Three Powerful Formula Functions You Can Use in Flow",
+          "dcterms:publisher": "Salesforce Admins",
+          "schema:url": "https://admin.salesforce.com/blog/2022/three-powerful-formula-functions-you-can-use-in-flow",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Formulas Quick Reference",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.salesforce_formulas_cheatsheet.meta/salesforce_formulas_cheatsheet/",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/automation/flow-formula-resources.md",
+      "skos:altLabel": [
+        "flow formula resource",
+        "formula resource",
+        "flow formulas"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:flow-builder"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:record-triggered-flow"
+        },
+        {
+          "@id": "kt:workflow-rules"
+        },
+        {
+          "@id": "kt:custom-labels"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:formula-fields"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:flow-limits"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:record-triggered-flow"
+        }
+      ]
+    },
+    {
       "@id": "kt:flow-http-callout",
       "@type": "kto:Feature",
       "skos:prefLabel": "HTTP Callout in Flow",

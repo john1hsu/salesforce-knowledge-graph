@@ -5294,6 +5294,29 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-fault-handling> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/code-analyzer> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-fault-handling> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-fault-handling> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-formula-resources> <http://purl.org/dc/terms/created> "2026-11-21" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-formula-resources> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-formula-resources> <http://www.w3.org/2000/01/rdf-schema#label> "Flow Formula Resources" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-formula-resources> <http://www.w3.org/2004/02/skos/core#altLabel> "flow formula resource" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-formula-resources> <http://www.w3.org/2004/02/skos/core#altLabel> "flow formulas" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-formula-resources> <http://www.w3.org/2004/02/skos/core#altLabel> "formula resource" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-formula-resources> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-builder> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-formula-resources> <http://www.w3.org/2004/02/skos/core#definition> "A read-only Flow Builder resource that calculates a value from a formula expression each time the flow references it, used in assignments, decisions and entry conditions." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-formula-resources> <http://www.w3.org/2004/02/skos/core#prefLabel> "Flow Formula Resources" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-formula-resources> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-labels> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-formula-resources> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/record-triggered-flow> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-formula-resources> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/workflow-rules> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-formula-resources> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-formula-resources/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-formula-resources> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-formula-resources/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-formula-resources> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-formula-resources/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-formula-resources> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-formula-resources/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-formula-resources> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-formula-resources/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-formula-resources> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#consumedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/record-triggered-flow> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-formula-resources> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#contrastsWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/formula-fields> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-formula-resources> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "automation" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-formula-resources> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#governedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-limits> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-formula-resources> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-formula-resources> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-http-callout> <http://purl.org/dc/terms/created> "2026-11-11" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-http-callout> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-http-callout> <http://www.w3.org/2000/01/rdf-schema#label> "HTTP Callout in Flow" .
@@ -17683,6 +17706,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-fault-handling/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-fault-handling/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-fault-handling/s5> <https://schema.org/url> "https://admin.salesforce.com/blog/2021/the-ultimate-guide-to-flow-best-practices-and-standards" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-formula-resources/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-formula-resources/s1> <http://purl.org/dc/terms/title> "Calculate Values in Variables and Formulas" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-formula-resources/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-formula-resources/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-formula-resources/s1> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/flow-build-logic/calculate-values-variables-formulas" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-formula-resources/s2> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-formula-resources/s2> <http://purl.org/dc/terms/title> "Understanding and Creating Flow Variables" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-formula-resources/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-formula-resources/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-formula-resources/s2> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/flow-basics/learn-about-flow-variables" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-formula-resources/s3> <http://purl.org/dc/terms/publisher> "Salesforce Admins" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-formula-resources/s3> <http://purl.org/dc/terms/title> "Automate This! — Use Formulas in Record-Triggered Flows with Aleksandra Radovanovic" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-formula-resources/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-formula-resources/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-formula-resources/s3> <https://schema.org/url> "https://admin.salesforce.com/blog/2022/automate-this-use-formulas-in-record-triggered-flows-with-aleksandra-radovanovic" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-formula-resources/s4> <http://purl.org/dc/terms/publisher> "Salesforce Admins" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-formula-resources/s4> <http://purl.org/dc/terms/title> "Three Powerful Formula Functions You Can Use in Flow" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-formula-resources/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-formula-resources/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-formula-resources/s4> <https://schema.org/url> "https://admin.salesforce.com/blog/2022/three-powerful-formula-functions-you-can-use-in-flow" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-formula-resources/s5> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-formula-resources/s5> <http://purl.org/dc/terms/title> "Formulas Quick Reference" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-formula-resources/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-formula-resources/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-formula-resources/s5> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.salesforce_formulas_cheatsheet.meta/salesforce_formulas_cheatsheet/" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-http-callout/s1> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-http-callout/s1> <http://purl.org/dc/terms/title> "Connecting to an API Without a Connector Using HTTP Callout" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-http-callout/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
