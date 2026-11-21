@@ -8265,6 +8265,92 @@
       ]
     },
     {
+      "@id": "kt:customer-360",
+      "@type": "kto:Product",
+      "skos:prefLabel": "Customer 360",
+      "skos:definition": "Salesforce's name for its full set of customer-facing applications (Sales, Service, Marketing, Commerce, Revenue, Field Service, Industries and related apps) sharing one platform and data model; in the Agentforce 360 architecture it is the business-logic layer that sits on Data 360 and that agents act through.",
+      "kto:domain": "clouds-and-products",
+      "dcterms:created": "2026-11-21",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Explore Customer 360 Business Logic (The Salesforce Agentic Enterprise Architecture)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/the-salesforce-agentic-enterprise-architecture/explore-the-customer-360-business-logic",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Experience the Power of Unified Data (Unify Sales and Service Data with Data 360 Solutions)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/data-360-with-sales-and-service/experience-the-power-of-unified-data",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Welcome to the Agentic Enterprise: With Agentforce 360, Salesforce Elevates Human Potential in the Age of AI",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/news/press-releases/2025/10/13/agentic-enterprise-announcement/",
+          "kto:sourceType": "news"
+        },
+        {
+          "dcterms:title": "Q&A: Inside Salesforce Customer 360",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/news/stories/qa-inside-salesforce-customer-360/",
+          "kto:sourceType": "news"
+        },
+        {
+          "dcterms:title": "Discover Salesforce (Salesforce Customer 360 module)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/salesforce-customer-360/discovers-salesforce-customer-360",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/clouds-and-products/customer-360.md",
+      "skos:altLabel": [
+        "Salesforce Customer 360",
+        "Customer 360 Apps",
+        "Customer 360 Truth",
+        "Customer 360 business logic"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-platform"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:slack-platform"
+        },
+        {
+          "@id": "kt:salesforce-industries"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:sales-cloud"
+        },
+        {
+          "@id": "kt:service-cloud"
+        },
+        {
+          "@id": "kt:salesforce-marketing-solutions"
+        },
+        {
+          "@id": "kt:commerce-cloud"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:data-cloud"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:agentforce"
+        }
+      ]
+    },
+    {
       "@id": "kt:entitlement-management",
       "@type": "kto:Feature",
       "skos:prefLabel": "Entitlement Management",

@@ -3004,6 +3004,32 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-settings> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/soql> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-settings> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-settings> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/customer-360> <http://purl.org/dc/terms/created> "2026-11-21" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/customer-360> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Product> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/customer-360> <http://www.w3.org/2000/01/rdf-schema#label> "Customer 360" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/customer-360> <http://www.w3.org/2004/02/skos/core#altLabel> "Customer 360 Apps" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/customer-360> <http://www.w3.org/2004/02/skos/core#altLabel> "Customer 360 Truth" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/customer-360> <http://www.w3.org/2004/02/skos/core#altLabel> "Customer 360 business logic" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/customer-360> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce Customer 360" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/customer-360> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-platform> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/customer-360> <http://www.w3.org/2004/02/skos/core#definition> "Salesforce's name for its full set of customer-facing applications (Sales, Service, Marketing, Commerce, Revenue, Field Service, Industries and related apps) sharing one platform and data model; in the Agentforce 360 architecture it is the business-logic layer that sits on Data 360 and that agents act through." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/customer-360> <http://www.w3.org/2004/02/skos/core#prefLabel> "Customer 360" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/customer-360> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-industries> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/customer-360> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/slack-platform> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/customer-360> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/customer-360/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/customer-360> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/customer-360/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/customer-360> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/customer-360/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/customer-360> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/customer-360/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/customer-360> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/customer-360/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/customer-360> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/customer-360> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "clouds-and-products" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/customer-360> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/commerce-cloud> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/customer-360> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/sales-cloud> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/customer-360> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-marketing-solutions> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/customer-360> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/service-cloud> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/customer-360> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/customer-360> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/customer-360> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/customer-community-licenses> <http://purl.org/dc/terms/created> "2026-11-17" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/customer-community-licenses> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Product> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/customer-community-licenses> <http://www.w3.org/2000/01/rdf-schema#label> "Customer Community Licenses" .
@@ -15332,6 +15358,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-settings/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-settings/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-settings/s4> <https://schema.org/url> "https://developer.salesforce.com/blogs/2015/05/how-to-use-custom-metadata-types" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/customer-360/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/customer-360/s1> <http://purl.org/dc/terms/title> "Explore Customer 360 Business Logic (The Salesforce Agentic Enterprise Architecture)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/customer-360/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/customer-360/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/customer-360/s1> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/the-salesforce-agentic-enterprise-architecture/explore-the-customer-360-business-logic" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/customer-360/s2> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/customer-360/s2> <http://purl.org/dc/terms/title> "Experience the Power of Unified Data (Unify Sales and Service Data with Data 360 Solutions)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/customer-360/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/customer-360/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/customer-360/s2> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/data-360-with-sales-and-service/experience-the-power-of-unified-data" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/customer-360/s3> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/customer-360/s3> <http://purl.org/dc/terms/title> "Welcome to the Agentic Enterprise: With Agentforce 360, Salesforce Elevates Human Potential in the Age of AI" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/customer-360/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/customer-360/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "news" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/customer-360/s3> <https://schema.org/url> "https://www.salesforce.com/news/press-releases/2025/10/13/agentic-enterprise-announcement/" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/customer-360/s4> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/customer-360/s4> <http://purl.org/dc/terms/title> "Q&A: Inside Salesforce Customer 360" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/customer-360/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/customer-360/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "news" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/customer-360/s4> <https://schema.org/url> "https://www.salesforce.com/news/stories/qa-inside-salesforce-customer-360/" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/customer-360/s5> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/customer-360/s5> <http://purl.org/dc/terms/title> "Discover Salesforce (Salesforce Customer 360 module)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/customer-360/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/customer-360/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/customer-360/s5> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/salesforce-customer-360/discovers-salesforce-customer-360" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/customer-community-licenses/s1> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/customer-community-licenses/s1> <http://purl.org/dc/terms/title> "Experience Cloud User Licenses" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/customer-community-licenses/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
