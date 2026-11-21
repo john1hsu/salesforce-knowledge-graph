@@ -7,7 +7,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:business-analyst` | `kt:fit-gap-analysis`, `kt:omnistudio-consultant-certification`, `kt:requirements-gathering`, `kt:user-acceptance-testing` |
 | `kt:decision-tables` | `kt:loyalty-management`, `kt:salesforce-pricing` |
 | `kt:data-extensions` | `kt:automation-studio`, `kt:contact-builder` |
-| `kt:test-setup-methods` | `kt:seealldata`, `kt:test-loaddata` |
 | `kt:static-resources` | `kt:cross-site-scripting`, `kt:test-loaddata` |
 | `kt:requirements-engineering` | `kt:non-functional-requirements`, `kt:requirements-gathering` |
 | `kt:user-stories` | `kt:fit-gap-analysis`, `kt:requirements-gathering` |
@@ -128,10 +127,10 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:twelve-factor-app` | `kt:heroku-architect-certification` |
 | `kt:experience-cloud-consultant-certification` | `kt:licensing-strategy` |
 | `kt:b2c-commerce-architect-certification` | `kt:b2c-solution-architect-certification` |
-| `kt:salesforce-maps` | `kt:geolocation-fields` |
 | `kt:business-architecture` | `kt:capability-maps` |
 | `kt:technology-roadmaps` | `kt:capability-maps` |
 | `kt:value-streams` | `kt:capability-maps` |
+| `kt:salesforce-maps` | `kt:geolocation-fields` |
 | `kt:organization-wide-email-addresses` | `kt:email-alerts` |
 | `kt:consent-data-model` | `kt:consent-management-in-data-cloud` |
 | `kt:digital-accessibility` | `kt:section-508-accessibility` |

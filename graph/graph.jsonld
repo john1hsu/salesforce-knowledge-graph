@@ -22439,6 +22439,80 @@
       ]
     },
     {
+      "@id": "kt:test-setup-methods",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Test Setup Methods",
+      "skos:definition": "Apex methods annotated with @TestSetup that run once at the start of a test class to create records shared by every test method in it, with each method's changes rolled back so the next one starts from the same data.",
+      "kto:domain": "development",
+      "dcterms:created": "2026-11-21",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Apex Developer Guide (Winter '27): Using Test Setup Methods",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.264.0.apexcode.meta/pages/apex_testing_testsetup_using.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Apex Developer Guide (Winter '27): TestSetup Annotation",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.264.0.apexcode.meta/pages/apex_classes_annotation_testsetup.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Apex Testing: Prepare for Unit Testing — Get Data for Your Tests",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/apex-testing-prepare-for-unit-testing/get-data-for-your-tests",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Advanced Apex Testing — Generate Data for Tests",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/unit-testing-on-the-lightning-platform/generate-data-for-tests",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/development/test-setup-methods.md",
+      "skos:altLabel": [
+        "@TestSetup",
+        "TestSetup annotation",
+        "test setup method",
+        "testSetup"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:apex-testing"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:test-data-factory"
+        },
+        {
+          "@id": "kt:test-loaddata"
+        },
+        {
+          "@id": "kt:testing-strategy"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:seealldata"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:apex"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:transaction-control"
+        }
+      ]
+    },
+    {
       "@id": "kt:transaction-finalizers",
       "@type": "kto:Feature",
       "skos:prefLabel": "Transaction Finalizers",
