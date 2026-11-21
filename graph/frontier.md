@@ -81,6 +81,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:platform-cache-partitions` | `kt:platform-cache` |
 | `kt:computer-science` | `kt:distributed-computing` |
 | `kt:data-processing-engine` | `kt:loyalty-management` |
+| `kt:data-cloud-query-api` | `kt:data-graphs` |
 | `kt:management` | `kt:organizational-governance` |
 | `kt:opportunity-products` | `kt:price-books` |
 | `kt:fhir` | `kt:health-cloud` |
@@ -89,7 +90,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:salesforce-hosted-mcp-servers` | `kt:model-context-protocol-in-agentforce` |
 | `kt:business-process-mapping` | `kt:requirements-gathering` |
 | `kt:in-app-guidance` | `kt:change-management-and-adoption` |
-| `kt:data-cloud-query-api` | `kt:data-graphs` |
 | `kt:b2b-commerce` | `kt:commerce-cloud` |
 | `kt:b2c-commerce` | `kt:commerce-cloud` |
 | `kt:salesforce-order-management` | `kt:commerce-cloud` |
@@ -99,8 +99,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:sharing-sets` | `kt:customer-community-licenses` |
 | `kt:business-analyst-certification` | `kt:user-acceptance-testing` |
 | `kt:holidays` | `kt:business-hours` |
-| `kt:data-cloud-code-extension` | `kt:vector-search-in-data-cloud` |
 | `kt:username-password-flow` | `kt:client-credentials-flow` |
+| `kt:data-cloud-code-extension` | `kt:vector-search-in-data-cloud` |
 | `kt:agentforce-vibes` | `kt:agentforce-vibes-ide` |
 | `kt:json-web-signature` | `kt:json-web-token` |
 | `kt:change-order-process` | `kt:statement-of-work` |
@@ -132,13 +132,13 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:value-streams` | `kt:capability-maps` |
 | `kt:salesforce-maps` | `kt:geolocation-fields` |
 | `kt:organization-wide-email-addresses` | `kt:email-alerts` |
-| `kt:consent-data-model` | `kt:consent-management-in-data-cloud` |
 | `kt:digital-accessibility` | `kt:section-508-accessibility` |
 | `kt:notes-and-attachments` | `kt:content-document-model` |
 | `kt:salesforce-seasonal-releases` | `kt:release-updates` |
 | `kt:tx-ramp` | `kt:govramp` |
 | `kt:wcag` | `kt:section-508-accessibility` |
 | `kt:agent-to-agent-protocol` | `kt:agentforce-architecture-patterns` |
+| `kt:consent-data-model` | `kt:consent-management-in-data-cloud` |
 | `kt:custom-labels` | `kt:flow-formula-resources` |
 | `kt:greenhouse-gas-protocol` | `kt:net-zero-cloud` |
 | `kt:multi-agent-orchestration` | `kt:agentforce-architecture-patterns` |

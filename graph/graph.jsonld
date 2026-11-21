@@ -12737,6 +12737,105 @@
       ]
     },
     {
+      "@id": "kt:data-360-query-api",
+      "@type": "kto:API",
+      "skos:prefLabel": "Data 360 Query API",
+      "skos:definition": "The SQL interface for reading Data 360 (formerly Data Cloud) data lake and data model objects from outside the platform or from Apex, exposed through Connect REST query-sql resources, the direct /api/v3/query endpoints and the sfsqlquery Apex namespace, with the V1 and V2 query endpoints kept as legacy.",
+      "kto:domain": "data-cloud-and-ai",
+      "dcterms:created": "2026-11-21",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Query Data using Query API (Data 360 REST API Reference)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/data/data-cloud-query-guide/references/data-cloud-query-api-reference/c360a-api-queryservices-overview.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Data 360 SQL Query APIs",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/data/data-cloud-query-guide/guide/dc-sql-query-apis.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Submit SQL Query (POST /api/v3/query)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/data/data-cloud-query-guide/references/data-cloud-query-api-reference/query-api-v3-post.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Legacy Query Services API (Query V1 and V2 API)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/data/data-cloud-query-guide/references/data-cloud-query-api-reference/c360a-api-queryservices-legacy.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Query Data 360 Data with Apex",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/data/data-cloud-query-guide/guide/dc-apex-query.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Query Data in Data 360 (Get Started)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/data/data-cloud-query-guide/guide/query-guide-get-started.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/data-cloud-and-ai/data-360-query-api.md",
+      "skos:altLabel": [
+        "Data Cloud Query API",
+        "Query API V3",
+        "Data 360 Query Services",
+        "query-sql endpoint",
+        "CDP Query API",
+        "sfsqlquery"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:data-cloud"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:data-model-objects"
+        },
+        {
+          "@id": "kt:data-lake-objects"
+        },
+        {
+          "@id": "kt:calculated-insights"
+        },
+        {
+          "@id": "kt:data-graphs"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:data-cloud-limits"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:external-client-apps"
+        },
+        {
+          "@id": "kt:client-credentials-flow"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:queueable-apex"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:ingestion-api"
+        }
+      ]
+    },
+    {
       "@id": "kt:data-actions",
       "@type": "kto:Feature",
       "skos:prefLabel": "Data Actions",

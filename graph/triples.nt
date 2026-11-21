@@ -3060,6 +3060,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/customer-community-licenses> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "security-and-sharing" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/customer-community-licenses> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/customer-community-licenses> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-360-query-api> <http://purl.org/dc/terms/created> "2026-11-21" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-360-query-api> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#API> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-360-query-api> <http://www.w3.org/2000/01/rdf-schema#label> "Data 360 Query API" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-360-query-api> <http://www.w3.org/2004/02/skos/core#altLabel> "CDP Query API" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-360-query-api> <http://www.w3.org/2004/02/skos/core#altLabel> "Data 360 Query Services" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-360-query-api> <http://www.w3.org/2004/02/skos/core#altLabel> "Data Cloud Query API" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-360-query-api> <http://www.w3.org/2004/02/skos/core#altLabel> "Query API V3" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-360-query-api> <http://www.w3.org/2004/02/skos/core#altLabel> "query-sql endpoint" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-360-query-api> <http://www.w3.org/2004/02/skos/core#altLabel> "sfsqlquery" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-360-query-api> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-360-query-api> <http://www.w3.org/2004/02/skos/core#definition> "The SQL interface for reading Data 360 (formerly Data Cloud) data lake and data model objects from outside the platform or from Apex, exposed through Connect REST query-sql resources, the direct /api/v3/query endpoints and the sfsqlquery Apex namespace, with the V1 and V2 query endpoints kept as legacy." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-360-query-api> <http://www.w3.org/2004/02/skos/core#prefLabel> "Data 360 Query API" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-360-query-api> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/calculated-insights> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-360-query-api> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-graphs> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-360-query-api> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-lake-objects> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-360-query-api> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-model-objects> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-360-query-api> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-query-api/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-360-query-api> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-query-api/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-360-query-api> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-query-api/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-360-query-api> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-query-api/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-360-query-api> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-query-api/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-360-query-api> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-query-api/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-360-query-api> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#consumedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/queueable-apex> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-360-query-api> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#contrastsWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/ingestion-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-360-query-api> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/client-credentials-flow> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-360-query-api> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/external-client-apps> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-360-query-api> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "data-cloud-and-ai" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-360-query-api> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#governedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud-limits> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-360-query-api> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-360-query-api> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-actions> <http://purl.org/dc/terms/created> "2026-11-16" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-actions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-actions> <http://www.w3.org/2000/01/rdf-schema#label> "Data Actions" .
@@ -15431,6 +15461,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/customer-community-licenses/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/customer-community-licenses/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/customer-community-licenses/s5> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=experience.exp_cloud_plan_licenses.htm&language=en_US&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-query-api/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-query-api/s1> <http://purl.org/dc/terms/title> "Query Data using Query API (Data 360 REST API Reference)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-query-api/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-query-api/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-query-api/s1> <https://schema.org/url> "https://developer.salesforce.com/docs/data/data-cloud-query-guide/references/data-cloud-query-api-reference/c360a-api-queryservices-overview.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-query-api/s2> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-query-api/s2> <http://purl.org/dc/terms/title> "Data 360 SQL Query APIs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-query-api/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-query-api/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-query-api/s2> <https://schema.org/url> "https://developer.salesforce.com/docs/data/data-cloud-query-guide/guide/dc-sql-query-apis.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-query-api/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-query-api/s3> <http://purl.org/dc/terms/title> "Submit SQL Query (POST /api/v3/query)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-query-api/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-query-api/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-query-api/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/data/data-cloud-query-guide/references/data-cloud-query-api-reference/query-api-v3-post.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-query-api/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-query-api/s4> <http://purl.org/dc/terms/title> "Legacy Query Services API (Query V1 and V2 API)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-query-api/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-query-api/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-query-api/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/data/data-cloud-query-guide/references/data-cloud-query-api-reference/c360a-api-queryservices-legacy.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-query-api/s5> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-query-api/s5> <http://purl.org/dc/terms/title> "Query Data 360 Data with Apex" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-query-api/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-query-api/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-query-api/s5> <https://schema.org/url> "https://developer.salesforce.com/docs/data/data-cloud-query-guide/guide/dc-apex-query.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-query-api/s6> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-query-api/s6> <http://purl.org/dc/terms/title> "Query Data in Data 360 (Get Started)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-query-api/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-query-api/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-query-api/s6> <https://schema.org/url> "https://developer.salesforce.com/docs/data/data-cloud-query-guide/guide/query-guide-get-started.html" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-actions/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-actions/s1> <http://purl.org/dc/terms/title> "Use Insights in Data Cloud" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-actions/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
