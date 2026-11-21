@@ -2873,6 +2873,84 @@
       ]
     },
     {
+      "@id": "kt:salesforce-solution-kits",
+      "@type": "kto:Tool",
+      "skos:prefLabel": "Salesforce Solution Kits",
+      "skos:definition": "Salesforce-vetted reference packages for architects and solution engineers that start from a common cross-cloud use case (such as abandoned cart or unified customer identity) and bundle the required products, a workflow, the connecting technology, configuration steps, design considerations and a solution architecture diagram.",
+      "kto:domain": "architecture-practice",
+      "dcterms:created": "2026-11-21",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Salesforce Solution Kits: Quick Look — Deliver Connected Customer Experiences with Solution Kits",
+          "dcterms:publisher": "Salesforce Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/salesforce-solution-kits-quick-look/c360-sk1",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Our Guides for Connecting Commerce, Marketing, and Service",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/blog/?p=3076",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Implement B2C Cross-Cloud Solutions (trail)",
+          "dcterms:publisher": "Salesforce Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/en/content/learn/trails/implement-b2c-crosscloud-solutions",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Cross-Cloud Customer Identity and Data Management for Salesforce B2C Commerce — Enable Unified Customer Identity",
+          "dcterms:publisher": "Salesforce Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/customer-identity-and-data-management-for-b2c-commerce/enable-unified-customer-identity",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/architecture-practice/salesforce-solution-kits.md",
+      "skos:altLabel": [
+        "Solution Kits",
+        "CRM Solution Kits",
+        "Salesforce solution kit",
+        "cross-cloud solution kits"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:reference-architectures"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:customer-360"
+        },
+        {
+          "@id": "kt:salesforce-diagrams"
+        },
+        {
+          "@id": "kt:architect-decision-guides"
+        },
+        {
+          "@id": "kt:commerce-cloud"
+        },
+        {
+          "@id": "kt:marketing-cloud-engagement"
+        },
+        {
+          "@id": "kt:experience-cloud-identity"
+        }
+      ],
+      "kto:usedBy": [
+        {
+          "@id": "kt:salesforce-architect"
+        }
+      ],
+      "kto:enables": [
+        {
+          "@id": "kt:cross-cloud-integration"
+        }
+      ]
+    },
+    {
       "@id": "kt:scale-test",
       "@type": "kto:Product",
       "skos:prefLabel": "Scale Test",
