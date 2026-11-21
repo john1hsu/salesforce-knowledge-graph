@@ -38763,6 +38763,92 @@
       ]
     },
     {
+      "@id": "kt:sandbox-preview",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Sandbox Preview",
+      "skos:definition": "The window in each seasonal release, roughly four to six weeks before the production upgrade, when sandboxes on preview instances (and preview scratch orgs) get the upcoming release early so teams can test it against their own configuration.",
+      "kto:domain": "platform-architecture",
+      "dcterms:created": "2026-11-21",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Access Sandbox Preview for New Features (Salesforce Releases)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/sf_releases/sf-releases-sandbox-preview",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Select the Salesforce Release for a Scratch Org (Salesforce DX Developer Guide)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/platform/sfdx-dev/guide/sfdx-dev-scratch-orgs-version-selection.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Be Release Ready: The Admin Habit That Saves You Every Time",
+          "dcterms:publisher": "Salesforce Admins Blog",
+          "schema:url": "https://admin.salesforce.com/blog/2026/be-release-ready-the-admin-habit-that-saves-you-every-time",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Admin Release Countdown: Get Ready for Spring '26",
+          "dcterms:publisher": "Salesforce Admins Blog",
+          "schema:url": "https://admin.salesforce.com/blog/2025/admin-spring-26-release-dates-countdown",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/platform-architecture/sandbox-preview.md",
+      "skos:altLabel": [
+        "Salesforce Preview",
+        "preview sandbox",
+        "preview window",
+        "sandbox preview window",
+        "preview instance"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-seasonal-releases"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:sandbox-types"
+        },
+        {
+          "@id": "kt:scratch-orgs"
+        },
+        {
+          "@id": "kt:release-management"
+        },
+        {
+          "@id": "kt:release-updates"
+        },
+        {
+          "@id": "kt:environment-strategy"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:salesforce-seasonal-releases"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:pod-and-instance-architecture"
+        }
+      ],
+      "kto:enables": [
+        {
+          "@id": "kt:testing-strategy"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:dev-hub"
+        }
+      ]
+    },
+    {
       "@id": "kt:sandbox-types",
       "@type": "kto:Feature",
       "skos:prefLabel": "Sandbox Types",

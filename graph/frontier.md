@@ -83,8 +83,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:in-app-guidance` | `kt:change-management-and-adoption` |
 | `kt:b2b-commerce` | `kt:commerce-cloud` |
 | `kt:b2c-commerce` | `kt:commerce-cloud` |
-| `kt:salesforce-order-management` | `kt:commerce-cloud` |
 | `kt:partner-community-licenses` | `kt:customer-community-licenses` |
+| `kt:salesforce-order-management` | `kt:commerce-cloud` |
 | `kt:share-groups` | `kt:customer-community-licenses` |
 | `kt:sharing-sets` | `kt:customer-community-licenses` |
 | `kt:semantic-layer` | `kt:tableau-semantics` |
@@ -99,11 +99,11 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:setup-audit-trail` | `kt:sarbanes-oxley-act` |
 | `kt:soc-3` | `kt:trust-services-criteria` |
 | `kt:change-order-process` | `kt:statement-of-work` |
-| `kt:partner-console` | `kt:license-management-app` |
 | `kt:performance-work-statement` | `kt:statement-of-work` |
+| `kt:partner-console` | `kt:license-management-app` |
 | `kt:subscriber-support-console` | `kt:license-management-app` |
-| `kt:trialforce` | `kt:environment-hub` |
 | `kt:hyperforce-assistant` | `kt:instance-refresh-and-org-migration` |
+| `kt:trialforce` | `kt:environment-hub` |
 | `kt:api-community-manager` | `kt:api-experience-hub` |
 | `kt:account-teams` | `kt:opportunity-teams` |
 | `kt:ldap` | `kt:delegated-authentication` |
@@ -111,9 +111,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:developer-console` | `kt:apex-logging-and-debug-logs` |
 | `kt:document-ai` | `kt:unstructured-data-in-data-cloud` |
 | `kt:models-api` | `kt:ai-models` |
+| `kt:channel-order-app` | `kt:partner-business-org` |
 | `kt:ui-api` | `kt:field-dependencies` |
 | `kt:user-provisioning` | `kt:scim` |
-| `kt:channel-order-app` | `kt:partner-business-org` |
 | `kt:business-architecture` | `kt:capability-maps` |
 | `kt:technology-roadmaps` | `kt:capability-maps` |
 | `kt:value-streams` | `kt:capability-maps` |
@@ -122,7 +122,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:currency-type-object` | `kt:multiple-currencies` |
 | `kt:agentforce-nonprofit-consultant-certification` | `kt:agentforce-nonprofit` |
 | `kt:nonprofit-success-pack` | `kt:agentforce-nonprofit` |
-| `kt:sandbox-preview` | `kt:salesforce-seasonal-releases` |
 | `kt:b2c-commerce-architect-certification` | `kt:b2c-solution-architect-certification` |
 | `kt:heroku-fir` | `kt:heroku-architect-certification` |
 | `kt:twelve-factor-app` | `kt:heroku-architect-certification` |
