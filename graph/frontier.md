@@ -69,7 +69,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:anypoint-runtime-manager` | `kt:mule-runtime-engine` |
 | `kt:reports-and-dashboards` | `kt:salesforce-analytics` |
 | `kt:iso-iec-25010` | `kt:non-functional-requirements` |
-| `kt:custom-permissions` | `kt:validation-rules` |
 | `kt:invocable-methods` | `kt:apex-defined-types` |
 | `kt:platform-cache-partitions` | `kt:platform-cache` |
 | `kt:computer-science` | `kt:distributed-computing` |
@@ -100,8 +99,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:setup-audit-trail` | `kt:sarbanes-oxley-act` |
 | `kt:soc-3` | `kt:trust-services-criteria` |
 | `kt:change-order-process` | `kt:statement-of-work` |
-| `kt:performance-work-statement` | `kt:statement-of-work` |
 | `kt:partner-console` | `kt:license-management-app` |
+| `kt:performance-work-statement` | `kt:statement-of-work` |
 | `kt:subscriber-support-console` | `kt:license-management-app` |
 | `kt:trialforce` | `kt:environment-hub` |
 | `kt:hyperforce-assistant` | `kt:instance-refresh-and-org-migration` |
@@ -112,9 +111,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:developer-console` | `kt:apex-logging-and-debug-logs` |
 | `kt:document-ai` | `kt:unstructured-data-in-data-cloud` |
 | `kt:models-api` | `kt:ai-models` |
-| `kt:channel-order-app` | `kt:partner-business-org` |
 | `kt:ui-api` | `kt:field-dependencies` |
 | `kt:user-provisioning` | `kt:scim` |
+| `kt:channel-order-app` | `kt:partner-business-org` |
 | `kt:business-architecture` | `kt:capability-maps` |
 | `kt:technology-roadmaps` | `kt:capability-maps` |
 | `kt:value-streams` | `kt:capability-maps` |

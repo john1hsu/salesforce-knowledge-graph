@@ -3056,6 +3056,35 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-objects> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "data-model" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-objects> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-objects> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-permissions> <http://purl.org/dc/terms/created> "2026-11-21" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-permissions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#SecurityControl> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-permissions> <http://www.w3.org/2000/01/rdf-schema#label> "Custom Permissions" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-permissions> <http://www.w3.org/2004/02/skos/core#altLabel> "$Permission global variable" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-permissions> <http://www.w3.org/2004/02/skos/core#altLabel> "$Permission" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-permissions> <http://www.w3.org/2004/02/skos/core#altLabel> "CustomPermission metadata type" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-permissions> <http://www.w3.org/2004/02/skos/core#altLabel> "CustomPermission" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-permissions> <http://www.w3.org/2004/02/skos/core#altLabel> "FeatureManagement.checkPermission" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-permissions> <http://www.w3.org/2004/02/skos/core#altLabel> "custom permission" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-permissions> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-sharing-model> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-permissions> <http://www.w3.org/2004/02/skos/core#definition> "Admin-defined named permissions that carry no built-in behavior of their own: they are granted through permission sets or profiles and checked by validation rules, flows, component visibility, Apex and Lightning web components to switch features or bypasses on and off per user." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-permissions> <http://www.w3.org/2004/02/skos/core#prefLabel> "Custom Permissions" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-permissions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/connected-apps> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-permissions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/profiles> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-permissions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/second-generation-managed-packages> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-permissions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-permissions/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-permissions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-permissions/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-permissions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-permissions/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-permissions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-permissions/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-permissions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-permissions/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-permissions> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-permissions> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#consumedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-builder> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-permissions> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#consumedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-web-components> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-permissions> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#consumedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/validation-rules> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-permissions> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "security-and-sharing" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-permissions> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#implements> <https://github.com/john1hsu/salesforce-knowledge-graph/id/principle-of-least-privilege> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-permissions> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#partOf> <https://github.com/john1hsu/salesforce-knowledge-graph/id/permission-sets> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-permissions> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-permissions> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-settings> <http://purl.org/dc/terms/created> "2026-11-08" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-settings> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#MetadataType> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-settings> <http://www.w3.org/2000/01/rdf-schema#label> "Custom Settings" .
@@ -15875,6 +15904,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-objects/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-objects/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-objects/s4> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/create-a-custom-object-quick-look/create-a-custom-object" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-permissions/s1> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-permissions/s1> <http://purl.org/dc/terms/title> "CustomPermission (Metadata API Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-permissions/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-permissions/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-permissions/s1> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_custompermission.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-permissions/s2> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-permissions/s2> <http://purl.org/dc/terms/title> "FeatureManagement Class (Apex Reference Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-permissions/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-permissions/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-permissions/s2> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apex/apex_class_System_FeatureManagement.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-permissions/s3> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-permissions/s3> <http://purl.org/dc/terms/title> "Permissions (Lightning Web Components Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-permissions/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-permissions/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-permissions/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/lwc/guide/create-get-permissions.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-permissions/s4> <http://purl.org/dc/terms/publisher> "Salesforce Admins Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-permissions/s4> <http://purl.org/dc/terms/title> "Why You Should Add Custom Permissions to Your #AwesomeAdmin Tool Belt" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-permissions/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-permissions/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-permissions/s4> <https://schema.org/url> "https://admin.salesforce.com/blog/2021/why-you-should-add-custom-permissions-to-your-awesomeadmin-tool-belt" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-permissions/s5> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-permissions/s5> <http://purl.org/dc/terms/title> "CustomPermission (Object Reference for the Salesforce Platform)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-permissions/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-permissions/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-permissions/s5> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/object_reference/sforce_api_objects_custompermission.htm" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-settings/s1> <http://purl.org/dc/terms/publisher> "Salesforce" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-settings/s1> <http://purl.org/dc/terms/title> "Apex Developer Guide: Custom Settings" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/custom-settings/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

@@ -43522,6 +43522,99 @@
       ]
     },
     {
+      "@id": "kt:custom-permissions",
+      "@type": "kto:SecurityControl",
+      "skos:prefLabel": "Custom Permissions",
+      "skos:definition": "Admin-defined named permissions that carry no built-in behavior of their own: they are granted through permission sets or profiles and checked by validation rules, flows, component visibility, Apex and Lightning web components to switch features or bypasses on and off per user.",
+      "kto:domain": "security-and-sharing",
+      "dcterms:created": "2026-11-21",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "CustomPermission (Metadata API Developer Guide)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_custompermission.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "FeatureManagement Class (Apex Reference Guide)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apex/apex_class_System_FeatureManagement.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Permissions (Lightning Web Components Developer Guide)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/platform/lwc/guide/create-get-permissions.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Why You Should Add Custom Permissions to Your #AwesomeAdmin Tool Belt",
+          "dcterms:publisher": "Salesforce Admins Blog",
+          "schema:url": "https://admin.salesforce.com/blog/2021/why-you-should-add-custom-permissions-to-your-awesomeadmin-tool-belt",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "CustomPermission (Object Reference for the Salesforce Platform)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/object_reference/sforce_api_objects_custompermission.htm",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/security-and-sharing/custom-permissions.md",
+      "skos:altLabel": [
+        "custom permission",
+        "CustomPermission",
+        "CustomPermission metadata type",
+        "$Permission",
+        "$Permission global variable",
+        "FeatureManagement.checkPermission"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-sharing-model"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:profiles"
+        },
+        {
+          "@id": "kt:connected-apps"
+        },
+        {
+          "@id": "kt:second-generation-managed-packages"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:permission-sets"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:validation-rules"
+        },
+        {
+          "@id": "kt:flow-builder"
+        },
+        {
+          "@id": "kt:lightning-web-components"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:metadata-api"
+        }
+      ],
+      "kto:implements": [
+        {
+          "@id": "kt:principle-of-least-privilege"
+        }
+      ]
+    },
+    {
       "@id": "kt:customer-community-licenses",
       "@type": "kto:Product",
       "skos:prefLabel": "Customer Community Licenses",
