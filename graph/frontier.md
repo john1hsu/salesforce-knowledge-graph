@@ -99,8 +99,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:holidays` | `kt:business-hours` |
 | `kt:username-password-flow` | `kt:client-credentials-flow` |
 | `kt:data-cloud-code-extension` | `kt:vector-search-in-data-cloud` |
-| `kt:agentforce-vibes` | `kt:agentforce-vibes-ide` |
 | `kt:json-web-signature` | `kt:json-web-token` |
+| `kt:agentforce-vibes` | `kt:agentforce-vibes-ide` |
 | `kt:setup-audit-trail` | `kt:sarbanes-oxley-act` |
 | `kt:soc-3` | `kt:trust-services-criteria` |
 | `kt:partner-console` | `kt:license-management-app` |
@@ -128,9 +128,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:experience-cloud-consultant-certification` | `kt:licensing-strategy` |
 | `kt:b2c-commerce-architect-certification` | `kt:b2c-solution-architect-certification` |
 | `kt:business-architecture` | `kt:capability-maps` |
+| `kt:salesforce-maps` | `kt:geolocation-fields` |
 | `kt:technology-roadmaps` | `kt:capability-maps` |
 | `kt:value-streams` | `kt:capability-maps` |
-| `kt:salesforce-maps` | `kt:geolocation-fields` |
 | `kt:organization-wide-email-addresses` | `kt:email-alerts` |
 | `kt:agent-to-agent-protocol` | `kt:agentforce-architecture-patterns` |
 | `kt:consent-data-model` | `kt:consent-management-in-data-cloud` |

@@ -11,7 +11,7 @@ summary: >-
 release: "Winter '27"
 status: current
 broader: [kt:salesforce-identity, kt:single-sign-on-saml]
-related: [kt:single-logout, kt:my-domain, kt:experience-cloud-identity]
+related: [kt:single-logout, kt:my-domain, kt:experience-cloud-identity, kt:identity-provider-event-log]
 relations:
   - {predicate: implements, object: kt:saml-2-0}
   - {predicate: implements, object: kt:openid-connect}

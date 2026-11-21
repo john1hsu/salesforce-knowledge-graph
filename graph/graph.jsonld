@@ -28180,6 +28180,94 @@
       ]
     },
     {
+      "@id": "kt:identity-provider-event-log",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Identity Provider Event Log",
+      "skos:definition": "The Setup page and IdpEventLog object that record successes and failures of single sign-on requests handled when Salesforce acts as an identity provider (SAML and OpenID Connect) and of related OAuth authorization and token-exchange requests, used to troubleshoot SSO into connected apps.",
+      "kto:domain": "identity",
+      "dcterms:created": "2026-11-21",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Use the Identity Provider Event Log",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=identity_provider_error_log.htm&type=0",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "IdpEventLog | Object Reference for the Salesforce Platform",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/api/sforce_api_objects_idpeventlog.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "IdpEventLog | Salesforce Field Reference Guide",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.sfFieldRef.meta/sfFieldRef/salesforce_field_reference_IdpEventLog.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Monitor Access to Your Salesforce Orgs and Experience Cloud Sites",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=sf.identity_monitor_access.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/identity/identity-provider-event-log.md",
+      "skos:altLabel": [
+        "IdP Event Log",
+        "IdpEventLog",
+        "IdpEventLog object",
+        "Identity Provider error log"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-as-identity-provider"
+        },
+        {
+          "@id": "kt:salesforce-identity"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:login-history"
+        },
+        {
+          "@id": "kt:event-monitoring"
+        },
+        {
+          "@id": "kt:connected-apps"
+        },
+        {
+          "@id": "kt:openid-connect"
+        },
+        {
+          "@id": "kt:session-security-levels"
+        }
+      ],
+      "kto:queriedWith": [
+        {
+          "@id": "kt:soql"
+        }
+      ],
+      "kto:instanceOf": [
+        {
+          "@id": "kt:standard-objects"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:my-domain"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:login-history"
+        }
+      ]
+    },
+    {
       "@id": "kt:identity-verification",
       "@type": "kto:SecurityControl",
       "skos:prefLabel": "Identity Verification",
@@ -29753,6 +29841,9 @@
         },
         {
           "@id": "kt:experience-cloud-identity"
+        },
+        {
+          "@id": "kt:identity-provider-event-log"
         }
       ],
       "kto:implements": [

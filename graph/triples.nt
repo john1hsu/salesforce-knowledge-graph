@@ -6251,6 +6251,33 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-connect> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#replacedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-scim> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-connect> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "deprecated" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-connect> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-provider-event-log> <http://purl.org/dc/terms/created> "2026-11-21" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-provider-event-log> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-provider-event-log> <http://www.w3.org/2000/01/rdf-schema#label> "Identity Provider Event Log" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-provider-event-log> <http://www.w3.org/2004/02/skos/core#altLabel> "IdP Event Log" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-provider-event-log> <http://www.w3.org/2004/02/skos/core#altLabel> "Identity Provider error log" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-provider-event-log> <http://www.w3.org/2004/02/skos/core#altLabel> "IdpEventLog object" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-provider-event-log> <http://www.w3.org/2004/02/skos/core#altLabel> "IdpEventLog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-provider-event-log> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-as-identity-provider> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-provider-event-log> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-identity> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-provider-event-log> <http://www.w3.org/2004/02/skos/core#definition> "The Setup page and IdpEventLog object that record successes and failures of single sign-on requests handled when Salesforce acts as an identity provider (SAML and OpenID Connect) and of related OAuth authorization and token-exchange requests, used to troubleshoot SSO into connected apps." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-provider-event-log> <http://www.w3.org/2004/02/skos/core#prefLabel> "Identity Provider Event Log" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-provider-event-log> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/connected-apps> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-provider-event-log> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/event-monitoring> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-provider-event-log> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/login-history> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-provider-event-log> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/openid-connect> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-provider-event-log> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/session-security-levels> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-provider-event-log> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-provider-event-log/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-provider-event-log> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-provider-event-log/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-provider-event-log> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-provider-event-log/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-provider-event-log> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-provider-event-log/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-provider-event-log> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#contrastsWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/login-history> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-provider-event-log> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/my-domain> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-provider-event-log> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "identity" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-provider-event-log> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#instanceOf> <https://github.com/john1hsu/salesforce-knowledge-graph/id/standard-objects> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-provider-event-log> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/soql> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-provider-event-log> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-provider-event-log> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-resolution> <http://purl.org/dc/terms/created> "2026-11-03" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-resolution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-resolution> <http://www.w3.org/2000/01/rdf-schema#label> "Identity Resolution" .
@@ -10619,6 +10646,7 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-as-identity-provider> <http://www.w3.org/2004/02/skos/core#definition> "The Salesforce capability that lets an org (or its Experience Cloud sites) act as the SAML 2.0 identity provider for external service providers, so users who authenticate to Salesforce get single sign-on into other apps that are registered as SAML- or OpenID Connect-enabled connected apps." .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-as-identity-provider> <http://www.w3.org/2004/02/skos/core#prefLabel> "Salesforce as Identity Provider" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-as-identity-provider> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/experience-cloud-identity> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-as-identity-provider> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-provider-event-log> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-as-identity-provider> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/my-domain> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-as-identity-provider> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/single-logout> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-as-identity-provider> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-as-identity-provider/s1> .
@@ -18808,6 +18836,26 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-connect/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-connect/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-connect/s5> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=000381744&language=en_US&type=1" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-provider-event-log/s1> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-provider-event-log/s1> <http://purl.org/dc/terms/title> "Use the Identity Provider Event Log" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-provider-event-log/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-provider-event-log/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-provider-event-log/s1> <https://schema.org/url> "https://help.salesforce.com/s/articleView?language=en_US&id=identity_provider_error_log.htm&type=0" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-provider-event-log/s2> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-provider-event-log/s2> <http://purl.org/dc/terms/title> "IdpEventLog | Object Reference for the Salesforce Platform" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-provider-event-log/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-provider-event-log/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-provider-event-log/s2> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/api/sforce_api_objects_idpeventlog.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-provider-event-log/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-provider-event-log/s3> <http://purl.org/dc/terms/title> "IdpEventLog | Salesforce Field Reference Guide" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-provider-event-log/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-provider-event-log/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-provider-event-log/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.sfFieldRef.meta/sfFieldRef/salesforce_field_reference_IdpEventLog.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-provider-event-log/s4> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-provider-event-log/s4> <http://purl.org/dc/terms/title> "Monitor Access to Your Salesforce Orgs and Experience Cloud Sites" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-provider-event-log/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-provider-event-log/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-provider-event-log/s4> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=sf.identity_monitor_access.htm&language=en_US&type=5" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-resolution/s1> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-resolution/s1> <http://purl.org/dc/terms/title> "Identity Resolution Terminology" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/identity-resolution/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
