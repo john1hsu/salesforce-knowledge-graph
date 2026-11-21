@@ -13484,6 +13484,99 @@
       ]
     },
     {
+      "@id": "kt:data-cloud-one",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Data Cloud One",
+      "skos:definition": "Salesforce's multi-org connectivity architecture for Data 360 (formerly Data Cloud): one home org hosts the Data 360 instance, and other Salesforce orgs connect to it as companion orgs that use its unified data and many Data 360 features through the Data Cloud One app, without running their own instance.",
+      "kto:domain": "data-cloud-and-ai",
+      "dcterms:created": "2026-11-21",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Data 360 Provisioning",
+          "dcterms:publisher": "Salesforce Architects",
+          "schema:url": "https://architect.salesforce.com/decision-guides/data-360-provisioning",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Connect Multiple Orgs with Data Cloud One (Data Cloud One: Quick Look)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/data-cloud-one-quick-look/connect-multiple-orgs-with-data-cloud-one",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Get Started with Data Cloud One (Data Cloud One: Quick Look)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/data-cloud-one-quick-look/get-started-with-data-cloud-one",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Data Cloud One Is Now Generally Available",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2024/10/data-cloud-one-is-now-generally-available",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Redefining Multi-Org Strategy for Salesforce Admins With Data Cloud One",
+          "dcterms:publisher": "Salesforce Admins Blog",
+          "schema:url": "https://admin.salesforce.com/blog/2024/redefining-multi-org-strategy-with-data-cloud-one",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/data-cloud-and-ai/data-cloud-one.md",
+      "skos:altLabel": [
+        "Data 360 companion orgs",
+        "companion connection",
+        "companion connections",
+        "Data Cloud One companion org",
+        "Data 360 home org"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:data-cloud"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:org-strategy"
+        },
+        {
+          "@id": "kt:digital-wallet"
+        },
+        {
+          "@id": "kt:data-spaces"
+        },
+        {
+          "@id": "kt:zero-copy-data-sharing"
+        },
+        {
+          "@id": "kt:calculated-insights"
+        },
+        {
+          "@id": "kt:data-cloud-triggered-flows"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:data-spaces"
+        },
+        {
+          "@id": "kt:data-residency"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:zero-copy-data-sharing"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:agentforce"
+        }
+      ]
+    },
+    {
       "@id": "kt:data-cloud-segmentation",
       "@type": "kto:Feature",
       "skos:prefLabel": "Data 360 Segmentation",
