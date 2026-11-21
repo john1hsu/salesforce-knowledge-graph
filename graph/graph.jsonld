@@ -26998,6 +26998,106 @@
       ]
     },
     {
+      "@id": "kt:scratch-org-snapshots",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Scratch Org Snapshots",
+      "skos:definition": "A Dev Hub feature that captures a point-in-time copy of a configured scratch org (packages, features, licences, metadata and data) so that new scratch orgs, and package version builds, can start from it instead of being rebuilt from scratch each time.",
+      "kto:domain": "devops-and-alm",
+      "dcterms:created": "2026-11-21",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Scratch Org Snapshots",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/sfdx-dev/guide/sfdx-dev-snapshots-intro.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Create a Scratch Org Snapshot",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/sfdx-dev/guide/sfdx-dev-snapshots-create.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Create a Scratch Org Based on a Snapshot",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/sfdx-dev/guide/sfdx-dev-snapshots-create-scratch-org.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "org create snapshot (Salesforce CLI Command Reference)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/salesforce-cli-reference/guide/cli_reference_org_create_snapshot.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Enable Scratch Org Snapshots in the Dev Hub Org",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.264.0.sfdx_dev.meta/sfdx_dev/sfdx_dev_snapshots_enable_snapshots_devhub.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "When to Use Scratch Org Snapshots in Package Development",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.264.0.pkg2_dev.meta/pkg2_dev/dev2gp_so_when_use_snapshot.htm",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/devops-and-alm/scratch-org-snapshots.md",
+      "skos:altLabel": [
+        "scratch org snapshot",
+        "org snapshots",
+        "sf org create snapshot",
+        "OrgSnapshot"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:scratch-orgs"
+        },
+        {
+          "@id": "kt:salesforce-dx"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:org-shape"
+        },
+        {
+          "@id": "kt:continuous-integration-for-salesforce"
+        },
+        {
+          "@id": "kt:salesforce-cli"
+        },
+        {
+          "@id": "kt:sandbox-types"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:dev-hub"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:scratch-org-allocations"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:second-generation-managed-packages"
+        },
+        {
+          "@id": "kt:unlocked-packages"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:org-shape"
+        }
+      ]
+    },
+    {
       "@id": "kt:scratch-orgs",
       "@type": "kto:Feature",
       "skos:prefLabel": "Scratch Orgs",
@@ -27065,6 +27165,9 @@
         },
         {
           "@id": "kt:org-shape"
+        },
+        {
+          "@id": "kt:scratch-org-snapshots"
         }
       ],
       "kto:dependsOn": [

@@ -107,14 +107,14 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:trialforce` | `kt:environment-hub` |
 | `kt:hyperforce-assistant` | `kt:instance-refresh-and-org-migration` |
 | `kt:account-teams` | `kt:opportunity-teams` |
-| `kt:ldap` | `kt:delegated-authentication` |
 | `kt:shared-activities` | `kt:activity-data-model` |
+| `kt:ldap` | `kt:delegated-authentication` |
 | `kt:developer-console` | `kt:apex-logging-and-debug-logs` |
 | `kt:document-ai` | `kt:unstructured-data-in-data-cloud` |
 | `kt:models-api` | `kt:ai-models` |
-| `kt:channel-order-app` | `kt:partner-business-org` |
-| `kt:user-provisioning` | `kt:scim` |
 | `kt:ui-api` | `kt:field-dependencies` |
+| `kt:user-provisioning` | `kt:scim` |
+| `kt:channel-order-app` | `kt:partner-business-org` |
 | `kt:business-architecture` | `kt:capability-maps` |
 | `kt:technology-roadmaps` | `kt:capability-maps` |
 | `kt:value-streams` | `kt:capability-maps` |
