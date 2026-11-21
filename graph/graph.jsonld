@@ -34079,6 +34079,86 @@
       ]
     },
     {
+      "@id": "kt:rest-api-limits-resource",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "REST API Limits Resource",
+      "skos:definition": "The Salesforce REST API resource at /services/data/vXX.X/limits/ that returns, for each org-wide allocation (daily API requests, Bulk API batches, async Apex executions, platform-event deliveries, storage and more), its maximum and remaining value, so integrations and monitoring tools can check headroom before they act.",
+      "kto:domain": "integration",
+      "dcterms:created": "2026-11-21",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "REST API Developer Guide: Limits",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/resources_limits.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "REST API Developer Guide: Record Count",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/api-rest/guide/resources-record-count.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "REST API Developer Guide: Limit Info Header",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/api-rest/guide/headers-api-usage.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Salesforce CLI Command Reference: org list limits",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/salesforce-cli-reference/guide/cli_reference_org_list_limits.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "API Limits and Monitoring Your API Usage",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2024/11/api-limits-and-monitoring-your-api-usage",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/integration/rest-api-limits-resource.md",
+      "skos:altLabel": [
+        "Limits resource",
+        "/limits resource",
+        "List Org Limits",
+        "REST limits endpoint"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:rest-api"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:api-request-limits"
+        },
+        {
+          "@id": "kt:platform-event-allocations"
+        },
+        {
+          "@id": "kt:event-monitoring"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:orglimits-class"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:salesforce-cli"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:limits-class"
+        }
+      ]
+    },
+    {
       "@id": "kt:rest-api",
       "@type": "kto:API",
       "skos:prefLabel": "REST API",

@@ -39,7 +39,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:saql` | `kt:crm-analytics` |
 | `kt:custom-property-editors` | `kt:custom-flow-screen-components` |
 | `kt:apex-mocks` | `kt:apex-enterprise-patterns` |
-| `kt:rest-api-limits-resource` | `kt:orglimits-class` |
 | `kt:api-experience-hub` | `kt:external-identity-license` |
 | `kt:salesforce-ecosystem` | `kt:salesforce-inc` |
 | `kt:apex-rest-services` | `kt:remote-call-in` |
@@ -128,9 +127,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:experience-cloud-consultant-certification` | `kt:licensing-strategy` |
 | `kt:b2c-commerce-architect-certification` | `kt:b2c-solution-architect-certification` |
 | `kt:business-architecture` | `kt:capability-maps` |
-| `kt:salesforce-maps` | `kt:geolocation-fields` |
 | `kt:technology-roadmaps` | `kt:capability-maps` |
 | `kt:value-streams` | `kt:capability-maps` |
+| `kt:salesforce-maps` | `kt:geolocation-fields` |
 | `kt:organization-wide-email-addresses` | `kt:email-alerts` |
 | `kt:agent-to-agent-protocol` | `kt:agentforce-architecture-patterns` |
 | `kt:consent-data-model` | `kt:consent-management-in-data-cloud` |
