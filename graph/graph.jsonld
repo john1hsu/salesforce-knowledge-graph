@@ -37843,6 +37843,88 @@
       ]
     },
     {
+      "@id": "kt:salesforce-seasonal-releases",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Salesforce Seasonal Releases",
+      "skos:definition": "Salesforce's cadence of three major platform upgrades a year, named Spring, Summer and Winter, which are applied automatically to every org on a published schedule, preceded by release notes, pre-release orgs and a sandbox preview window.",
+      "kto:domain": "platform-architecture",
+      "dcterms:created": "2026-11-21",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Get to Know the Salesforce Release Process (Salesforce Releases)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/sf_releases/sf_releases_start",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Salesforce Releases",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/releases/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "What Admins Need to Know About Salesforce Releases",
+          "dcterms:publisher": "Salesforce Admins Blog",
+          "schema:url": "https://admin.salesforce.com/blog/2021/salesforce-release-overview",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Admin Release Countdown: Get Ready for Winter '27",
+          "dcterms:publisher": "Salesforce Admins Blog",
+          "schema:url": "https://admin.salesforce.com/blog/2026/admin-winter-27-release-countdown",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Optimize Your Salesforce Release Process (Advanced Salesforce Release Readiness Strategies)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/advanced-salesforce-release-readiness-strategies/master-the-release-readiness-process",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/platform-architecture/salesforce-seasonal-releases.md",
+      "skos:altLabel": [
+        "Salesforce major releases",
+        "Spring Summer Winter releases",
+        "Salesforce release cycle",
+        "release weekend",
+        "three releases a year"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-platform"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:release-management"
+        },
+        {
+          "@id": "kt:release-updates"
+        },
+        {
+          "@id": "kt:trust-and-status-site"
+        },
+        {
+          "@id": "kt:sandbox-types"
+        },
+        {
+          "@id": "kt:testing-strategy"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:multitenancy"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:sandbox-preview"
+        }
+      ]
+    },
+    {
       "@id": "kt:sandbox-types",
       "@type": "kto:Feature",
       "skos:prefLabel": "Sandbox Types",

@@ -11269,6 +11269,32 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-scim> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#implements> <https://github.com/john1hsu/salesforce-knowledge-graph/id/scim> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-scim> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-scim> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-seasonal-releases> <http://purl.org/dc/terms/created> "2026-11-21" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-seasonal-releases> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-seasonal-releases> <http://www.w3.org/2000/01/rdf-schema#label> "Salesforce Seasonal Releases" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-seasonal-releases> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce major releases" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-seasonal-releases> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce release cycle" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-seasonal-releases> <http://www.w3.org/2004/02/skos/core#altLabel> "Spring Summer Winter releases" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-seasonal-releases> <http://www.w3.org/2004/02/skos/core#altLabel> "release weekend" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-seasonal-releases> <http://www.w3.org/2004/02/skos/core#altLabel> "three releases a year" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-seasonal-releases> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-platform> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-seasonal-releases> <http://www.w3.org/2004/02/skos/core#definition> "Salesforce's cadence of three major platform upgrades a year, named Spring, Summer and Winter, which are applied automatically to every org on a published schedule, preceded by release notes, pre-release orgs and a sandbox preview window." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-seasonal-releases> <http://www.w3.org/2004/02/skos/core#prefLabel> "Salesforce Seasonal Releases" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-seasonal-releases> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/release-management> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-seasonal-releases> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/release-updates> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-seasonal-releases> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-types> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-seasonal-releases> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/testing-strategy> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-seasonal-releases> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/trust-and-status-site> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-seasonal-releases> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-seasonal-releases/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-seasonal-releases> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-seasonal-releases/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-seasonal-releases> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-seasonal-releases/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-seasonal-releases> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-seasonal-releases/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-seasonal-releases> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-seasonal-releases/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-seasonal-releases> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/multitenancy> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-seasonal-releases> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "platform-architecture" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-seasonal-releases> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-preview> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-seasonal-releases> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-seasonal-releases> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-sharing-model> <http://purl.org/dc/terms/created> "2026-10-31" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-sharing-model> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-sharing-model> <http://www.w3.org/2000/01/rdf-schema#label> "Salesforce Sharing Model" .
@@ -23930,6 +23956,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-scim/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-scim/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "partner" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-scim/s5> <https://schema.org/url> "https://learn.microsoft.com/en-us/entra/identity/saas-apps/salesforce-provisioning-tutorial" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-seasonal-releases/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-seasonal-releases/s1> <http://purl.org/dc/terms/title> "Get to Know the Salesforce Release Process (Salesforce Releases)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-seasonal-releases/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-seasonal-releases/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-seasonal-releases/s1> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/sf_releases/sf_releases_start" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-seasonal-releases/s2> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-seasonal-releases/s2> <http://purl.org/dc/terms/title> "Salesforce Releases" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-seasonal-releases/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-seasonal-releases/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-seasonal-releases/s2> <https://schema.org/url> "https://www.salesforce.com/releases/" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-seasonal-releases/s3> <http://purl.org/dc/terms/publisher> "Salesforce Admins Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-seasonal-releases/s3> <http://purl.org/dc/terms/title> "What Admins Need to Know About Salesforce Releases" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-seasonal-releases/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-seasonal-releases/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-seasonal-releases/s3> <https://schema.org/url> "https://admin.salesforce.com/blog/2021/salesforce-release-overview" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-seasonal-releases/s4> <http://purl.org/dc/terms/publisher> "Salesforce Admins Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-seasonal-releases/s4> <http://purl.org/dc/terms/title> "Admin Release Countdown: Get Ready for Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-seasonal-releases/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-seasonal-releases/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-seasonal-releases/s4> <https://schema.org/url> "https://admin.salesforce.com/blog/2026/admin-winter-27-release-countdown" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-seasonal-releases/s5> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-seasonal-releases/s5> <http://purl.org/dc/terms/title> "Optimize Your Salesforce Release Process (Advanced Salesforce Release Readiness Strategies)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-seasonal-releases/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-seasonal-releases/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-seasonal-releases/s5> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/advanced-salesforce-release-readiness-strategies/master-the-release-readiness-process" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-sharing-model/s1> <http://purl.org/dc/terms/publisher> "Salesforce" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-sharing-model/s1> <http://purl.org/dc/terms/title> "Understanding Sharing (Apex Developer Guide)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-sharing-model/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

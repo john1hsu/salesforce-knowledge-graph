@@ -98,8 +98,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:holidays` | `kt:business-hours` |
 | `kt:username-password-flow` | `kt:client-credentials-flow` |
 | `kt:data-cloud-code-extension` | `kt:vector-search-in-data-cloud` |
-| `kt:json-web-signature` | `kt:json-web-token` |
 | `kt:agentforce-vibes` | `kt:agentforce-vibes-ide` |
+| `kt:json-web-signature` | `kt:json-web-token` |
 | `kt:setup-audit-trail` | `kt:sarbanes-oxley-act` |
 | `kt:soc-3` | `kt:trust-services-criteria` |
 | `kt:partner-console` | `kt:license-management-app` |
@@ -121,6 +121,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:currency-type-object` | `kt:multiple-currencies` |
 | `kt:agentforce-nonprofit-consultant-certification` | `kt:agentforce-nonprofit` |
 | `kt:nonprofit-success-pack` | `kt:agentforce-nonprofit` |
+| `kt:sandbox-preview` | `kt:salesforce-seasonal-releases` |
 | `kt:heroku-fir` | `kt:heroku-architect-certification` |
 | `kt:shared-activities` | `kt:activity-data-model` |
 | `kt:twelve-factor-app` | `kt:heroku-architect-certification` |
@@ -139,7 +140,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:multi-agent-orchestration` | `kt:agentforce-architecture-patterns` |
 | `kt:notes-and-attachments` | `kt:content-document-model` |
 | `kt:rollback-plan` | `kt:hypercare` |
-| `kt:salesforce-seasonal-releases` | `kt:release-updates` |
 | `kt:tableau-blueprint` | `kt:tableau-architect-certification` |
 | `kt:tableau-server-administrator-certification` | `kt:tableau-architect-certification` |
 | `kt:tx-ramp` | `kt:govramp` |
