@@ -11,7 +11,7 @@ summary: >-
 release: "Winter '27"
 status: current
 broader: [kt:multi-factor-authentication]
-related: [kt:identity-verification, kt:salesforce-identity, kt:login-ip-ranges-and-trusted-ip-ranges, kt:session-security-levels]
+related: [kt:identity-verification, kt:salesforce-identity, kt:login-ip-ranges-and-trusted-ip-ranges, kt:session-security-levels, kt:lightning-login]
 relations:
   - {predicate: mitigates, object: kt:account-takeover}
   - {predicate: implements, object: kt:time-based-one-time-password}

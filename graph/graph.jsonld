@@ -29297,6 +29297,97 @@
       ]
     },
     {
+      "@id": "kt:lightning-login",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Lightning Login",
+      "skos:definition": "Salesforce's password-free login method for internal users: an enrolled user enters only a username and approves the login in the Salesforce Authenticator app, which also counts toward Salesforce's MFA requirement.",
+      "kto:domain": "identity",
+      "dcterms:created": "2026-11-21",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Enable Lightning Login",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=sf.security_ll_enable.htm&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Enable Lightning Login Securely with the Authenticator App (MFA and SSO Settings Superbadge)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/es-MX/content/learn/superbadges/superbadge-mfa-sso-settings/superbadge-mfa-sso-settings_lightning-login",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Demo Lightning Login for Your Company",
+          "dcterms:publisher": "Salesforce Admins",
+          "schema:url": "https://admin.salesforce.com/blog/2017/demo-lightning-login-company",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Identity | Salesforce Developer Center",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/developer-centers/identity",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/identity/lightning-login.md",
+      "skos:altLabel": [
+        "Lightning Login for Password-Free Logins",
+        "password-free login",
+        "Salesforce passwordless login",
+        "Lightning Login User permission"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:multi-factor-authentication"
+        },
+        {
+          "@id": "kt:salesforce-identity"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:salesforce-authenticator"
+        },
+        {
+          "@id": "kt:session-security-levels"
+        },
+        {
+          "@id": "kt:identity-verification"
+        },
+        {
+          "@id": "kt:login-history"
+        },
+        {
+          "@id": "kt:password-policies"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:salesforce-authenticator"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:permission-sets"
+        },
+        {
+          "@id": "kt:profiles"
+        }
+      ],
+      "kto:mitigates": [
+        {
+          "@id": "kt:account-takeover"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:single-sign-on-saml"
+        }
+      ]
+    },
+    {
       "@id": "kt:login-flows",
       "@type": "kto:Feature",
       "skos:prefLabel": "Login Flows",
@@ -30600,6 +30691,9 @@
         },
         {
           "@id": "kt:session-security-levels"
+        },
+        {
+          "@id": "kt:lightning-login"
         }
       ],
       "kto:mitigates": [

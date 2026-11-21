@@ -7271,6 +7271,34 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-locker> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "development" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-locker> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-locker> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-login> <http://purl.org/dc/terms/created> "2026-11-21" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-login> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-login> <http://www.w3.org/2000/01/rdf-schema#label> "Lightning Login" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-login> <http://www.w3.org/2004/02/skos/core#altLabel> "Lightning Login User permission" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-login> <http://www.w3.org/2004/02/skos/core#altLabel> "Lightning Login for Password-Free Logins" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-login> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce passwordless login" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-login> <http://www.w3.org/2004/02/skos/core#altLabel> "password-free login" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-login> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/multi-factor-authentication> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-login> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-identity> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-login> <http://www.w3.org/2004/02/skos/core#definition> "Salesforce's password-free login method for internal users: an enrolled user enters only a username and approves the login in the Salesforce Authenticator app, which also counts toward Salesforce's MFA requirement." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-login> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lightning Login" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-login> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-verification> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-login> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/login-history> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-login> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/password-policies> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-login> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-authenticator> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-login> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/session-security-levels> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-login> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lightning-login/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-login> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lightning-login/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-login> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lightning-login/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-login> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lightning-login/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-login> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#alternativeTo> <https://github.com/john1hsu/salesforce-knowledge-graph/id/single-sign-on-saml> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-login> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/permission-sets> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-login> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/profiles> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-login> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-authenticator> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-login> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "identity" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-login> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#mitigates> <https://github.com/john1hsu/salesforce-knowledge-graph/id/account-takeover> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-login> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-login> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-message-service> <http://purl.org/dc/terms/created> "2026-11-11" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-message-service> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-message-service> <http://www.w3.org/2000/01/rdf-schema#label> "Lightning Message Service" .
@@ -10860,6 +10888,7 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-authenticator> <http://www.w3.org/2004/02/skos/core#definition> "Salesforce's free iOS and Android authenticator app, used as a second factor for multi-factor authentication: it approves logins by push notification, can auto-approve repeat requests that match a learned pattern (including location), and generates 6-digit TOTP codes for offline use and for non-Salesforce accounts." .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-authenticator> <http://www.w3.org/2004/02/skos/core#prefLabel> "Salesforce Authenticator" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-authenticator> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-verification> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-authenticator> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-login> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-authenticator> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/login-ip-ranges-and-trusted-ip-ranges> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-authenticator> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-identity> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-authenticator> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/session-security-levels> .
@@ -20116,6 +20145,26 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lightning-locker/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lightning-locker/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lightning-locker/s6> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/exp-cloud-lwr/guide/template-differences-locker.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lightning-login/s1> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lightning-login/s1> <http://purl.org/dc/terms/title> "Enable Lightning Login" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lightning-login/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lightning-login/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lightning-login/s1> <https://schema.org/url> "https://help.salesforce.com/s/articleView?language=en_US&id=sf.security_ll_enable.htm&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lightning-login/s2> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lightning-login/s2> <http://purl.org/dc/terms/title> "Enable Lightning Login Securely with the Authenticator App (MFA and SSO Settings Superbadge)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lightning-login/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lightning-login/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lightning-login/s2> <https://schema.org/url> "https://trailhead.salesforce.com/es-MX/content/learn/superbadges/superbadge-mfa-sso-settings/superbadge-mfa-sso-settings_lightning-login" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lightning-login/s3> <http://purl.org/dc/terms/publisher> "Salesforce Admins" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lightning-login/s3> <http://purl.org/dc/terms/title> "Demo Lightning Login for Your Company" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lightning-login/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lightning-login/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lightning-login/s3> <https://schema.org/url> "https://admin.salesforce.com/blog/2017/demo-lightning-login-company" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lightning-login/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lightning-login/s4> <http://purl.org/dc/terms/title> "Identity | Salesforce Developer Center" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lightning-login/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lightning-login/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lightning-login/s4> <https://schema.org/url> "https://developer.salesforce.com/developer-centers/identity" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lightning-message-service/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lightning-message-service/s1> <http://purl.org/dc/terms/title> "LWC Developer Guide: Communicate Across the DOM with Lightning Message Service" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/lightning-message-service/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

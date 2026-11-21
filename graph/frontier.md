@@ -31,9 +31,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:work-orders` | `kt:field-service` |
 | `kt:salesforce-sites` | `kt:custom-domains` |
 | `kt:entitlement-process-metadata` | `kt:entitlement-management` |
-| `kt:tableau-pulse` | `kt:tableau` |
 | `kt:einstein-discovery` | `kt:crm-analytics` |
 | `kt:saql` | `kt:crm-analytics` |
+| `kt:tableau-pulse` | `kt:tableau` |
 | `kt:custom-property-editors` | `kt:custom-flow-screen-components` |
 | `kt:apex-mocks` | `kt:apex-enterprise-patterns` |
 | `kt:salesforce-ecosystem` | `kt:salesforce-inc` |
@@ -44,8 +44,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:dynamic-revenue-orchestrator` | `kt:revenue-cloud` |
 | `kt:revenue-management-consultant-certification` | `kt:revenue-cloud` |
 | `kt:application-network` | `kt:api-led-connectivity` |
-| `kt:point-to-point-integration` | `kt:api-led-connectivity` |
 | `kt:object-manager` | `kt:schema-builder` |
+| `kt:point-to-point-integration` | `kt:api-led-connectivity` |
 | `kt:mulesoft-platform-integration-architect-certification` | `kt:mulesoft-platform-architect-certification` |
 | `kt:path` | `kt:business-processes` |
 | `kt:revenue-intelligence` | `kt:collaborative-forecasts` |
@@ -82,12 +82,12 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:salesforce-hosted-mcp-servers` | `kt:model-context-protocol-in-agentforce` |
 | `kt:business-process-mapping` | `kt:requirements-gathering` |
 | `kt:in-app-guidance` | `kt:change-management-and-adoption` |
-| `kt:partner-community-licenses` | `kt:customer-community-licenses` |
-| `kt:share-groups` | `kt:customer-community-licenses` |
-| `kt:sharing-sets` | `kt:customer-community-licenses` |
 | `kt:b2b-commerce` | `kt:commerce-cloud` |
 | `kt:b2c-commerce` | `kt:commerce-cloud` |
 | `kt:salesforce-order-management` | `kt:commerce-cloud` |
+| `kt:partner-community-licenses` | `kt:customer-community-licenses` |
+| `kt:share-groups` | `kt:customer-community-licenses` |
+| `kt:sharing-sets` | `kt:customer-community-licenses` |
 | `kt:semantic-layer` | `kt:tableau-semantics` |
 | `kt:business-analyst-certification` | `kt:user-acceptance-testing` |
 | `kt:holidays` | `kt:business-hours` |
@@ -112,9 +112,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:developer-console` | `kt:apex-logging-and-debug-logs` |
 | `kt:document-ai` | `kt:unstructured-data-in-data-cloud` |
 | `kt:models-api` | `kt:ai-models` |
-| `kt:user-provisioning` | `kt:scim` |
 | `kt:channel-order-app` | `kt:partner-business-org` |
 | `kt:ui-api` | `kt:field-dependencies` |
+| `kt:user-provisioning` | `kt:scim` |
 | `kt:business-architecture` | `kt:capability-maps` |
 | `kt:technology-roadmaps` | `kt:capability-maps` |
 | `kt:value-streams` | `kt:capability-maps` |
