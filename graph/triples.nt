@@ -12688,6 +12688,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/soc-2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "public-sector-and-compliance" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/soc-2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/soc-2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/soc-3> <http://purl.org/dc/terms/created> "2026-11-21" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/soc-3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#ExternalConcept> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/soc-3> <http://www.w3.org/2000/01/rdf-schema#label> "SOC 3" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/soc-3> <http://www.w3.org/2004/02/skos/core#altLabel> "SOC 3 report" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/soc-3> <http://www.w3.org/2004/02/skos/core#altLabel> "SOC for Service Organizations: Trust Services Criteria for General Use Report" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/soc-3> <http://www.w3.org/2004/02/skos/core#altLabel> "System and Organization Controls 3" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/soc-3> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/security-compliance-frameworks> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/soc-3> <http://www.w3.org/2004/02/skos/core#definition> "The AICPA general-use attestation report on a service organization's controls against the Trust Services Criteria; it rests on the same kind of examination as SOC 2 but omits the detailed control descriptions and tests, so it can be freely distributed. Salesforce lists SOC 3 reports per service and infrastructure, covering security, availability and confidentiality." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/soc-3> <http://www.w3.org/2004/02/skos/core#prefLabel> "SOC 3" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/soc-3> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/soc-3> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/soc-3> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/governance-risk-and-compliance> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/soc-3> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/hyperforce> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/soc-3> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soc-3/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/soc-3> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soc-3/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/soc-3> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soc-3/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/soc-3> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soc-3/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/soc-3> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soc-3/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/soc-3> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soc-3/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/soc-3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#contrastsWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/soc-1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/soc-3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#contrastsWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/soc-2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/soc-3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/trust-services-criteria> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/soc-3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "public-sector-and-compliance" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/soc-3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/soc-3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/software-as-a-service> <http://purl.org/dc/terms/created> "2026-11-12" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/software-as-a-service> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#ExternalConcept> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/software-as-a-service> <http://www.w3.org/2000/01/rdf-schema#label> "Software as a Service" .
@@ -25636,6 +25661,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soc-2/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soc-2/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soc-2/s6> <https://schema.org/url> "https://compliance.salesforce.com/en/soc-3" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soc-3/s1> <http://purl.org/dc/terms/publisher> "AICPA & CIMA" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soc-3/s1> <http://purl.org/dc/terms/title> "SOC 3® - SOC for Service Organizations: Trust Services Criteria for General Use Report" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soc-3/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soc-3/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "standards-body" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soc-3/s1> <https://schema.org/url> "https://www.aicpa-cima.com/topic/audit-assurance/audit-and-assurance-greater-than-soc-3" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soc-3/s2> <http://purl.org/dc/terms/publisher> "AICPA & CIMA" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soc-3/s2> <http://purl.org/dc/terms/title> "Illustrative SOC 3® Report" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soc-3/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soc-3/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "standards-body" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soc-3/s2> <https://schema.org/url> "https://www.aicpa-cima.com/resources/download/illustrative-soc-3-r-report" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soc-3/s3> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soc-3/s3> <http://purl.org/dc/terms/title> "SOC 3 - Salesforce Compliance Site" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soc-3/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soc-3/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soc-3/s3> <https://schema.org/url> "https://compliance.salesforce.com/en/categories/soc-3" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soc-3/s4> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soc-3/s4> <http://purl.org/dc/terms/title> "SOC 3 Report - Salesforce Services on Hyperforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soc-3/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soc-3/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soc-3/s4> <https://schema.org/url> "https://compliance.salesforce.com/en/documents/a006e00000xpn2GAAQ" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soc-3/s5> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soc-3/s5> <http://purl.org/dc/terms/title> "SOC 3 Report - AI Platform and Agentforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soc-3/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soc-3/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soc-3/s5> <https://schema.org/url> "https://compliance.salesforce.com/en/documents/a006e0000115nMYAAY" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soc-3/s6> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soc-3/s6> <http://purl.org/dc/terms/title> "SOC Compliance FAQs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soc-3/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soc-3/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "partner" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/soc-3/s6> <https://schema.org/url> "https://aws.amazon.com/compliance/soc-faqs/" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/software-as-a-service/s1> <http://purl.org/dc/terms/publisher> "National Institute of Standards and Technology" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/software-as-a-service/s1> <http://purl.org/dc/terms/title> "The NIST Definition of Cloud Computing (NIST SP 800-145)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/software-as-a-service/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

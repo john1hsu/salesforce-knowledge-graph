@@ -42880,6 +42880,92 @@
       ]
     },
     {
+      "@id": "kt:soc-3",
+      "@type": "kto:ExternalConcept",
+      "skos:prefLabel": "SOC 3",
+      "skos:definition": "The AICPA general-use attestation report on a service organization's controls against the Trust Services Criteria; it rests on the same kind of examination as SOC 2 but omits the detailed control descriptions and tests, so it can be freely distributed. Salesforce lists SOC 3 reports per service and infrastructure, covering security, availability and confidentiality.",
+      "kto:domain": "public-sector-and-compliance",
+      "dcterms:created": "2026-11-21",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "SOC 3® - SOC for Service Organizations: Trust Services Criteria for General Use Report",
+          "dcterms:publisher": "AICPA & CIMA",
+          "schema:url": "https://www.aicpa-cima.com/topic/audit-assurance/audit-and-assurance-greater-than-soc-3",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "Illustrative SOC 3® Report",
+          "dcterms:publisher": "AICPA & CIMA",
+          "schema:url": "https://www.aicpa-cima.com/resources/download/illustrative-soc-3-r-report",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "SOC 3 - Salesforce Compliance Site",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://compliance.salesforce.com/en/categories/soc-3",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "SOC 3 Report - Salesforce Services on Hyperforce",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://compliance.salesforce.com/en/documents/a006e00000xpn2GAAQ",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "SOC 3 Report - AI Platform and Agentforce",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://compliance.salesforce.com/en/documents/a006e0000115nMYAAY",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "SOC Compliance FAQs",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://aws.amazon.com/compliance/soc-faqs/",
+          "kto:sourceType": "partner"
+        }
+      ],
+      "kto:file": "articles/public-sector-and-compliance/soc-3.md",
+      "skos:altLabel": [
+        "SOC 3 report",
+        "System and Organization Controls 3",
+        "SOC for Service Organizations: Trust Services Criteria for General Use Report"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:security-compliance-frameworks"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:hyperforce"
+        },
+        {
+          "@id": "kt:agentforce"
+        },
+        {
+          "@id": "kt:data-cloud"
+        },
+        {
+          "@id": "kt:governance-risk-and-compliance"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:trust-services-criteria"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:soc-2"
+        },
+        {
+          "@id": "kt:soc-1"
+        }
+      ]
+    },
+    {
       "@id": "kt:trust-services-criteria",
       "@type": "kto:ExternalConcept",
       "skos:prefLabel": "Trust Services Criteria",
