@@ -25384,6 +25384,90 @@
       ]
     },
     {
+      "@id": "kt:partner-business-org",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Partner Business Org",
+      "skos:definition": "The internal-use production org that Salesforce provisions for each partner when it joins the Partner Community, with two Sales & Service Cloud Enterprise Edition licenses and preinstalled ISV tools such as the Environment Hub, License Management App, Channel Order App and Checkout Management App; Salesforce recommends it as the partner's Dev Hub.",
+      "kto:domain": "devops-and-alm",
+      "dcterms:created": "2026-11-21",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Salesforce Partner Business Org (ISVforce Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/isvforce/guide/appexchange-partner-pbo-reference.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Get Ready to Distribute on AppExchange (ISVforce Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.packagingGuide.meta/packageGuide/appexchange_partner_start.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Verify Access to Your Salesforce Partner Business Org (ISVforce Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/isvforce/guide/appexchange-partner-access-pbo.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Request a Salesforce Partner Business Org (ISVforce Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/isvforce/guide/appexchange-partner-request-pbo.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Join the Salesforce Partner Community (ISVforce Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/isvforce/guide/appexchange-partner-join.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Manage Orgs with Environment Hub (ISVforce Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/isvforce/guide/environment-hub-intro.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/devops-and-alm/partner-business-org.md",
+      "skos:altLabel": [
+        "PBO",
+        "Salesforce Partner Business Org",
+        "Partner Business Organization"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:agentexchange"
+        },
+        {
+          "@id": "kt:environment-strategy"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:dev-hub"
+        },
+        {
+          "@id": "kt:scratch-orgs"
+        },
+        {
+          "@id": "kt:second-generation-managed-packages"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:environment-hub"
+        },
+        {
+          "@id": "kt:license-management-app"
+        },
+        {
+          "@id": "kt:channel-order-app"
+        }
+      ]
+    },
+    {
       "@id": "kt:post-install-scripts",
       "@type": "kto:Feature",
       "skos:prefLabel": "Post Install Scripts",
