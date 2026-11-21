@@ -41017,6 +41017,87 @@
       ]
     },
     {
+      "@id": "kt:sarbanes-oxley-act",
+      "@type": "kto:ExternalConcept",
+      "skos:prefLabel": "Sarbanes-Oxley Act",
+      "skos:definition": "The US federal law enacted on 30 July 2002 to improve the accuracy and reliability of public-company disclosures; it created the PCAOB, requires officer certification of periodic reports and, under Section 404, a management assessment of internal control over financial reporting (ICFR) with auditor attestation for larger issuers, which pulls the configuration and access controls of a Salesforce org holding financial data into audit scope.",
+      "kto:domain": "public-sector-and-compliance",
+      "dcterms:created": "2026-11-21",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Public Law 107-204 — Sarbanes-Oxley Act of 2002",
+          "dcterms:publisher": "U.S. Government Publishing Office (govinfo)",
+          "schema:url": "https://www.govinfo.gov/content/pkg/PLAW-107publ204/html/PLAW-107publ204.htm",
+          "kto:sourceType": "government"
+        },
+        {
+          "dcterms:title": "Sarbanes-Oxley Act: Compliance Costs Are Higher for Larger Companies but More Burdensome for Smaller Ones (GAO-25-107500)",
+          "dcterms:publisher": "U.S. Government Accountability Office",
+          "schema:url": "https://files.gao.gov/reports/GAO-25-107500/index.html",
+          "kto:sourceType": "government"
+        },
+        {
+          "dcterms:title": "Internal Control Over Financial Reporting in Exchange Act Periodic Reports of Non-Accelerated Filers and Newly Public Companies (Release 33-8731)",
+          "dcterms:publisher": "U.S. Securities and Exchange Commission",
+          "schema:url": "https://www.sec.gov/rule-release/33-8731",
+          "kto:sourceType": "government"
+        },
+        {
+          "dcterms:title": "SetupAuditTrail | Object Reference for the Salesforce Platform",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/object_reference/sforce_api_objects_setupaudittrail.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Exercise 1: Using the Audit Trail (Salesforce Admin Security Workshop)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/workshops/admin-security-workshop/monitoring-and-response/1-audit-trail",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/public-sector-and-compliance/sarbanes-oxley-act.md",
+      "skos:altLabel": [
+        "SOX",
+        "Sarbanes-Oxley",
+        "Sarbanes-Oxley Act of 2002",
+        "SOX compliance",
+        "Public Law 107-204",
+        "SOX 404"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:governance-risk-and-compliance"
+        },
+        {
+          "@id": "kt:corporate-governance"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:soc-1"
+        },
+        {
+          "@id": "kt:coso-internal-control-framework"
+        },
+        {
+          "@id": "kt:setup-audit-trail"
+        },
+        {
+          "@id": "kt:field-audit-trail"
+        },
+        {
+          "@id": "kt:login-history"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:hipaa"
+        }
+      ]
+    },
+    {
       "@id": "kt:section-508-accessibility",
       "@type": "kto:ExternalConcept",
       "skos:prefLabel": "Section 508 Accessibility",

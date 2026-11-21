@@ -10,7 +10,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:static-resources` | `kt:cross-site-scripting`, `kt:test-loaddata` |
 | `kt:requirements-engineering` | `kt:non-functional-requirements`, `kt:requirements-gathering` |
 | `kt:user-stories` | `kt:fit-gap-analysis`, `kt:requirements-gathering` |
-| `kt:sarbanes-oxley-act` | `kt:coso-internal-control-framework`, `kt:soc-1` |
 | `kt:partner-business-org` | `kt:environment-hub`, `kt:license-management-app` |
 | `kt:email-templates` | `kt:auto-response-rules`, `kt:email-alerts` |
 | `kt:salesforce-ecosystem-roles` | `kt:salesforce-architect` |
@@ -22,11 +21,11 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:trailhead` | `kt:salesforce-certification-program` |
 | `kt:static-soql` | `kt:dynamic-soql` |
 | `kt:compact-layouts` | `kt:page-layouts` |
+| `kt:data-management` | `kt:data-governance` |
+| `kt:data-stewardship` | `kt:data-governance` |
 | `kt:omni-channel-limits` | `kt:omni-channel` |
 | `kt:presence-configuration` | `kt:omni-channel` |
 | `kt:skills-based-routing` | `kt:omni-channel` |
-| `kt:data-management` | `kt:data-governance` |
-| `kt:data-stewardship` | `kt:data-governance` |
 | `kt:data-import-wizard` | `kt:data-loader` |
 | `kt:salesforce-lightning-design-system` | `kt:visualforce` |
 | `kt:dispatcher-console` | `kt:field-service` |
@@ -81,11 +80,11 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:platform-cache-partitions` | `kt:platform-cache` |
 | `kt:computer-science` | `kt:distributed-computing` |
 | `kt:data-processing-engine` | `kt:loyalty-management` |
-| `kt:data-cloud-query-api` | `kt:data-graphs` |
 | `kt:management` | `kt:organizational-governance` |
-| `kt:opportunity-products` | `kt:price-books` |
+| `kt:data-cloud-query-api` | `kt:data-graphs` |
 | `kt:fhir` | `kt:health-cloud` |
 | `kt:utilization-management` | `kt:health-cloud` |
+| `kt:opportunity-products` | `kt:price-books` |
 | `kt:model-context-protocol` | `kt:model-context-protocol-in-agentforce` |
 | `kt:salesforce-hosted-mcp-servers` | `kt:model-context-protocol-in-agentforce` |
 | `kt:business-process-mapping` | `kt:requirements-gathering` |
@@ -103,9 +102,10 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:data-cloud-code-extension` | `kt:vector-search-in-data-cloud` |
 | `kt:agentforce-vibes` | `kt:agentforce-vibes-ide` |
 | `kt:json-web-signature` | `kt:json-web-token` |
+| `kt:setup-audit-trail` | `kt:sarbanes-oxley-act` |
+| `kt:soc-3` | `kt:trust-services-criteria` |
 | `kt:change-order-process` | `kt:statement-of-work` |
 | `kt:performance-work-statement` | `kt:statement-of-work` |
-| `kt:soc-3` | `kt:trust-services-criteria` |
 | `kt:hyperforce-assistant` | `kt:instance-refresh-and-org-migration` |
 | `kt:account-teams` | `kt:opportunity-teams` |
 | `kt:ldap` | `kt:delegated-authentication` |
@@ -127,23 +127,23 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:twelve-factor-app` | `kt:heroku-architect-certification` |
 | `kt:experience-cloud-consultant-certification` | `kt:licensing-strategy` |
 | `kt:b2c-commerce-architect-certification` | `kt:b2c-solution-architect-certification` |
+| `kt:salesforce-maps` | `kt:geolocation-fields` |
 | `kt:business-architecture` | `kt:capability-maps` |
 | `kt:technology-roadmaps` | `kt:capability-maps` |
 | `kt:value-streams` | `kt:capability-maps` |
-| `kt:salesforce-maps` | `kt:geolocation-fields` |
 | `kt:organization-wide-email-addresses` | `kt:email-alerts` |
-| `kt:digital-accessibility` | `kt:section-508-accessibility` |
 | `kt:notes-and-attachments` | `kt:content-document-model` |
 | `kt:salesforce-seasonal-releases` | `kt:release-updates` |
-| `kt:tx-ramp` | `kt:govramp` |
-| `kt:wcag` | `kt:section-508-accessibility` |
 | `kt:agent-to-agent-protocol` | `kt:agentforce-architecture-patterns` |
 | `kt:consent-data-model` | `kt:consent-management-in-data-cloud` |
 | `kt:custom-labels` | `kt:flow-formula-resources` |
+| `kt:digital-accessibility` | `kt:section-508-accessibility` |
 | `kt:greenhouse-gas-protocol` | `kt:net-zero-cloud` |
 | `kt:multi-agent-orchestration` | `kt:agentforce-architecture-patterns` |
 | `kt:rollback-plan` | `kt:hypercare` |
 | `kt:tableau-blueprint` | `kt:tableau-architect-certification` |
 | `kt:tableau-server-administrator-certification` | `kt:tableau-architect-certification` |
+| `kt:tx-ramp` | `kt:govramp` |
+| `kt:wcag` | `kt:section-508-accessibility` |
 | `kt:web-to-case` | `kt:auto-response-rules` |
 | `kt:web-to-lead` | `kt:auto-response-rules` |
