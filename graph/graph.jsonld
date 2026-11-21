@@ -16195,6 +16195,84 @@
       ]
     },
     {
+      "@id": "kt:compact-layouts",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Compact Layouts",
+      "skos:definition": "Per-object configuration that picks and orders the key fields shown in a record's highlights panel, expanded lookup cards, expanded activity details and the Salesforce mobile app header, assigned as a primary layout per object with optional record type overrides.",
+      "kto:domain": "data-model",
+      "dcterms:created": "2026-11-21",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Lightning Experience Customization: Customize Record Highlights with Compact Layouts",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/lex_customization/lex_customization_compact_layouts",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Metadata API Developer Guide: CompactLayout",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.264.0.api_meta.meta/api_meta/meta_compactlayout.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Salesforce Mobile App Customization: Customize Compact Layouts",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/salesforce1_mobile_app/salesforce1_mobile_app_compact_layouts",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Lightning Experience Customization for Salesforce Classic Users: Customize the User Interface",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/lex_migration_customization/lex_migration_customization_layouts_ui",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/data-model/compact-layouts.md",
+      "skos:altLabel": [
+        "compact layout",
+        "CompactLayout metadata type",
+        "primary compact layout",
+        "compact layout assignment"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:metadata-driven-architecture"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:page-layouts"
+        },
+        {
+          "@id": "kt:record-types"
+        },
+        {
+          "@id": "kt:lightning-app-builder"
+        },
+        {
+          "@id": "kt:activity-data-model"
+        },
+        {
+          "@id": "kt:salesforce-mobile-app"
+        },
+        {
+          "@id": "kt:custom-objects"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:metadata-api"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:dynamic-forms"
+        }
+      ]
+    },
+    {
       "@id": "kt:contacts-to-multiple-accounts",
       "@type": "kto:Feature",
       "skos:prefLabel": "Contacts to Multiple Accounts",
