@@ -11,7 +11,7 @@ summary: >-
 release: "Winter '27"
 status: concept
 broader: [kt:business-architecture]
-related: [kt:salesforce-diagrams, kt:salesforce-center-of-excellence, kt:architecture-decision-records, kt:value-streams, kt:salesforce-industries]
+related: [kt:salesforce-diagrams, kt:salesforce-center-of-excellence, kt:architecture-decision-records, kt:value-streams, kt:salesforce-industries, kt:togaf]
 relations:
   - {predicate: usedBy, object: kt:salesforce-architect}
   - {predicate: enables, object: kt:technology-roadmaps}

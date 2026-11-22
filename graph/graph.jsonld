@@ -662,6 +662,9 @@
         },
         {
           "@id": "kt:salesforce-industries"
+        },
+        {
+          "@id": "kt:togaf"
         }
       ],
       "kto:usedBy": [
@@ -3696,6 +3699,92 @@
       "kto:configuredVia": [
         {
           "@id": "kt:devops-center"
+        }
+      ]
+    },
+    {
+      "@id": "kt:togaf",
+      "@type": "kto:ExternalConcept",
+      "skos:prefLabel": "TOGAF",
+      "skos:definition": "The Open Group's open, consensus-based enterprise architecture standard, built around the iterative Architecture Development Method (ADM); Salesforce architects meet it when a Salesforce program has to fit an enterprise's existing architecture practice, governance and vocabulary.",
+      "kto:domain": "architecture-practice",
+      "dcterms:created": "2026-11-22",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "The TOGAF Pocket Guide: Introduction",
+          "dcterms:publisher": "The Open Group",
+          "schema:url": "https://pubs.opengroup.org/pocket-guides/togaf-pocket-guide/main/introduction.html",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "The TOGAF Pocket Guide: TOGAF Fundamental Content",
+          "dcterms:publisher": "The Open Group",
+          "schema:url": "https://pubs.opengroup.org/pocket-guides/togaf-pocket-guide/main/chap05.html",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "The TOGAF Pocket Guide: The TOGAF Architecture Development Method",
+          "dcterms:publisher": "The Open Group",
+          "schema:url": "https://pubs.opengroup.org/pocket-guides/togaf-pocket-guide/main/chap06.html",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "The TOGAF Pocket Guide: Domain-Specific Guidance",
+          "dcterms:publisher": "The Open Group",
+          "schema:url": "https://pubs.opengroup.org/pocket-guides/togaf-pocket-guide/main/chap04.html",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "An Introduction to the TOGAF Standard, 10th Edition (White Paper W212)",
+          "dcterms:publisher": "The Open Group",
+          "schema:url": "https://pubs.opengroup.org/architecture/w212",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "The Open Group Announces Launch of the TOGAF Standard, 10th Edition",
+          "dcterms:publisher": "The Open Group",
+          "schema:url": "https://www.opengroup.org/open-group-announces-launch-togaf-standard-10th-edition",
+          "kto:sourceType": "news"
+        }
+      ],
+      "kto:file": "articles/architecture-practice/togaf.md",
+      "skos:altLabel": [
+        "The Open Group Architecture Framework",
+        "TOGAF Standard",
+        "TOGAF ADM",
+        "TOGAF 10th Edition"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:enterprise-architecture"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:capability-maps"
+        },
+        {
+          "@id": "kt:design-authority"
+        },
+        {
+          "@id": "kt:architecture-decision-records"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:business-architecture"
+        }
+      ],
+      "kto:usedBy": [
+        {
+          "@id": "kt:salesforce-architect"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:well-architected-framework"
         }
       ]
     },
