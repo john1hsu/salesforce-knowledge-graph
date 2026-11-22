@@ -33359,6 +33359,77 @@
       ]
     },
     {
+      "@id": "kt:application-network",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Application Network",
+      "skos:definition": "MuleSoft's term for the web of applications, data and devices that an organization connects through reusable, governed APIs built on API-led connectivity principles, so each new API becomes an asset that later projects can discover and reuse instead of building new point-to-point links.",
+      "kto:domain": "integration",
+      "dcterms:created": "2026-11-22",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Discover Application Networks (Application Networks and API-Led Connectivity in MuleSoft)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/application-networks-and-api-led-connectivity-in-mulesoft/discover-application-networks",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Explore the Application Network (MuleSoft Basics)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/mulesoft-basics/app-network",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "API Visualizer Overview",
+          "dcterms:publisher": "MuleSoft (Salesforce)",
+          "schema:url": "https://docs.mulesoft.com/visualizer/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Use-Case Specific Visualizations",
+          "dcterms:publisher": "MuleSoft (Salesforce)",
+          "schema:url": "https://docs.mulesoft.com/visualizer/visualizer-app-network",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/integration/application-network.md",
+      "skos:altLabel": [
+        "app network",
+        "MuleSoft application network",
+        "API-led application network"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:integration-patterns"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:mulesoft-anypoint-platform"
+        },
+        {
+          "@id": "kt:mulesoft-platform-architect-certification"
+        },
+        {
+          "@id": "kt:api-visualizer"
+        },
+        {
+          "@id": "kt:mulesoft-composer"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:api-led-connectivity"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:point-to-point-integration"
+        }
+      ]
+    },
+    {
       "@id": "kt:batch-data-synchronization",
       "@type": "kto:Pattern",
       "skos:prefLabel": "Batch Data Synchronization",

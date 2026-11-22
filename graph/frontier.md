@@ -9,7 +9,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:field-service-mobile-app` | `kt:field-service`, `kt:service-appointments` |
 | `kt:work-orders` | `kt:field-service`, `kt:service-appointments` |
 | `kt:data-extensions` | `kt:automation-studio`, `kt:contact-builder` |
+| `kt:point-to-point-integration` | `kt:api-led-connectivity`, `kt:application-network` |
 | `kt:requirements-engineering` | `kt:non-functional-requirements`, `kt:requirements-gathering` |
+| `kt:mulesoft-composer` | `kt:application-network`, `kt:slack-platform` |
 | `kt:user-stories` | `kt:fit-gap-analysis`, `kt:requirements-gathering` |
 | `kt:salesforce-ecosystem-roles` | `kt:salesforce-architect` |
 | `kt:lightning-service-console` | `kt:service-cloud` |
@@ -32,14 +34,12 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:agentexchange-go-to-market-app` | `kt:agentexchange` |
 | `kt:lightning-out` | `kt:lightning-locker` |
 | `kt:salesforce-ecosystem` | `kt:salesforce-inc` |
+| `kt:mulesoft-platform-integration-architect-certification` | `kt:mulesoft-platform-architect-certification` |
 | `kt:heroku-postgres` | `kt:heroku-connect` |
 | `kt:object-manager` | `kt:schema-builder` |
-| `kt:application-network` | `kt:api-led-connectivity` |
-| `kt:point-to-point-integration` | `kt:api-led-connectivity` |
 | `kt:dynamic-revenue-orchestrator` | `kt:revenue-cloud` |
 | `kt:revenue-management-consultant-certification` | `kt:revenue-cloud` |
 | `kt:path` | `kt:business-processes` |
-| `kt:mulesoft-platform-integration-architect-certification` | `kt:mulesoft-platform-architect-certification` |
 | `kt:time-based-one-time-password` | `kt:salesforce-authenticator` |
 | `kt:revenue-intelligence` | `kt:collaborative-forecasts` |
 | `kt:batch-apex-error-event` | `kt:transaction-finalizers` |
@@ -47,7 +47,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:dynamic-actions` | `kt:dynamic-forms` |
 | `kt:dynamic-highlights-panel` | `kt:dynamic-forms` |
 | `kt:block-kit` | `kt:slack-platform` |
-| `kt:mulesoft-composer` | `kt:slack-platform` |
 | `kt:slack-api-rate-limits` | `kt:slack-platform` |
 | `kt:slack-workflow-builder` | `kt:slack-platform` |
 | `kt:actionable-relationship-center` | `kt:financial-services-cloud` |
@@ -98,6 +97,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:subscriber-support-console` | `kt:license-management-app` |
 | `kt:interface-specification-document` | `kt:system-landscape-diagrams` |
 | `kt:hyperforce-assistant` | `kt:instance-refresh-and-org-migration` |
+| `kt:api-visualizer` | `kt:application-network` |
 | `kt:operating-hours` | `kt:salesforce-scheduler` |
 | `kt:trialforce` | `kt:environment-hub` |
 | `kt:api-community-manager` | `kt:api-experience-hub` |
@@ -105,11 +105,11 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:ldap` | `kt:delegated-authentication` |
 | `kt:shared-activities` | `kt:activity-data-model` |
 | `kt:developer-console` | `kt:apex-logging-and-debug-logs` |
+| `kt:user-provisioning` | `kt:scim` |
 | `kt:document-ai` | `kt:unstructured-data-in-data-cloud` |
 | `kt:models-api` | `kt:ai-models` |
-| `kt:user-provisioning` | `kt:scim` |
-| `kt:channel-order-app` | `kt:partner-business-org` |
 | `kt:ui-api` | `kt:field-dependencies` |
+| `kt:channel-order-app` | `kt:partner-business-org` |
 | `kt:organization-wide-email-addresses` | `kt:email-alerts` |
 | `kt:passkeys` | `kt:security-keys` |
 | `kt:webauthn` | `kt:security-keys` |
@@ -121,8 +121,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:currency-type-object` | `kt:multiple-currencies` |
 | `kt:agentforce-nonprofit-consultant-certification` | `kt:agentforce-nonprofit` |
 | `kt:nonprofit-success-pack` | `kt:agentforce-nonprofit` |
-| `kt:digital-accessibility` | `kt:section-508-accessibility` |
 | `kt:partner-relationship-management` | `kt:partner-community-licenses` |
+| `kt:digital-accessibility` | `kt:section-508-accessibility` |
 | `kt:wcag` | `kt:section-508-accessibility` |
 | `kt:federal-acquisition-regulation` | `kt:performance-work-statement` |
 | `kt:quality-assurance-surveillance-plan` | `kt:performance-work-statement` |
