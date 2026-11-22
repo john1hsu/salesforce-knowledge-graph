@@ -31695,6 +31695,100 @@
       ]
     },
     {
+      "@id": "kt:security-keys",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Security Keys",
+      "skos:definition": "Physical USB-A, USB-C, Lightning or NFC authenticators that support WebAuthn (FIDO2) or FIDO U2F and serve as a phishing-resistant verification method for Salesforce multi-factor authentication and identity verification; Salesforce also calls them physical passkeys.",
+      "kto:domain": "identity",
+      "dcterms:created": "2026-11-22",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Security Keys (Passkeys) for MFA",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=xcloud.mfa_supported_verification_methods_securitykey.htm&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Register a Security Key as an Identity Verification Method for Salesforce Orgs",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=xcloud.security_u2f_register_security_key.htm&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Prepare for Phishing-Resistant MFA Enforcement for Privileged Users including Admins",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=005321563&language=en_US&type=1",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Enable Passkeys for Identity Verification in Salesforce Orgs",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=xcloud.security_enable_builtin_authenticator.htm&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Web Authentication: An API for accessing Public Key Credentials Level 3 is now a W3C Recommendation",
+          "dcterms:publisher": "W3C",
+          "schema:url": "https://www.w3.org/news/2026/web-authentication-an-api-for-accessing-public-key-credentials-level-3-is-now-a-w3c-recommendation/",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "Web Authentication: An API for accessing Public Key Credentials - Level 3",
+          "dcterms:publisher": "W3C",
+          "schema:url": "https://www.w3.org/TR/webauthn-3/",
+          "kto:sourceType": "standards-body"
+        }
+      ],
+      "kto:file": "articles/identity/security-keys.md",
+      "skos:altLabel": [
+        "Security Keys (Passkeys)",
+        "physical passkeys",
+        "U2F security key",
+        "WebAuthn security key",
+        "FIDO security key",
+        "hardware security key"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:multi-factor-authentication"
+        },
+        {
+          "@id": "kt:identity-verification"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:salesforce-identity"
+        },
+        {
+          "@id": "kt:certificate-and-key-management"
+        },
+        {
+          "@id": "kt:passkeys"
+        },
+        {
+          "@id": "kt:single-sign-on-saml"
+        }
+      ],
+      "kto:implements": [
+        {
+          "@id": "kt:webauthn"
+        }
+      ],
+      "kto:mitigates": [
+        {
+          "@id": "kt:account-takeover"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:salesforce-authenticator"
+        }
+      ]
+    },
+    {
       "@id": "kt:session-security-levels",
       "@type": "kto:SecurityControl",
       "skos:prefLabel": "Session Security Levels",

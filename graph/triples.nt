@@ -12388,6 +12388,35 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/security-health-check> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/tooling-api> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/security-health-check> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/security-health-check> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/security-keys> <http://purl.org/dc/terms/created> "2026-11-22" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/security-keys> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/security-keys> <http://www.w3.org/2000/01/rdf-schema#label> "Security Keys" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/security-keys> <http://www.w3.org/2004/02/skos/core#altLabel> "FIDO security key" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/security-keys> <http://www.w3.org/2004/02/skos/core#altLabel> "Security Keys (Passkeys)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/security-keys> <http://www.w3.org/2004/02/skos/core#altLabel> "U2F security key" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/security-keys> <http://www.w3.org/2004/02/skos/core#altLabel> "WebAuthn security key" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/security-keys> <http://www.w3.org/2004/02/skos/core#altLabel> "hardware security key" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/security-keys> <http://www.w3.org/2004/02/skos/core#altLabel> "physical passkeys" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/security-keys> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-verification> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/security-keys> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/multi-factor-authentication> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/security-keys> <http://www.w3.org/2004/02/skos/core#definition> "Physical USB-A, USB-C, Lightning or NFC authenticators that support WebAuthn (FIDO2) or FIDO U2F and serve as a phishing-resistant verification method for Salesforce multi-factor authentication and identity verification; Salesforce also calls them physical passkeys." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/security-keys> <http://www.w3.org/2004/02/skos/core#prefLabel> "Security Keys" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/security-keys> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/certificate-and-key-management> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/security-keys> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/passkeys> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/security-keys> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-identity> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/security-keys> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/single-sign-on-saml> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/security-keys> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-keys/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/security-keys> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-keys/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/security-keys> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-keys/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/security-keys> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-keys/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/security-keys> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-keys/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/security-keys> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-keys/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/security-keys> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#alternativeTo> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-authenticator> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/security-keys> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "identity" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/security-keys> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#implements> <https://github.com/john1hsu/salesforce-knowledge-graph/id/webauthn> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/security-keys> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#mitigates> <https://github.com/john1hsu/salesforce-knowledge-graph/id/account-takeover> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/security-keys> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/security-keys> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/security-stripinaccessible> <http://purl.org/dc/terms/created> "2026-11-18" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/security-stripinaccessible> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#SecurityControl> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/security-stripinaccessible> <http://www.w3.org/2000/01/rdf-schema#label> "Security.stripInaccessible" .
@@ -25533,6 +25562,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-health-check/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-health-check/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-health-check/s5> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.264.0.api_tooling.meta/api_tooling/tooling_api_objects_securityhealthcheck.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-keys/s1> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-keys/s1> <http://purl.org/dc/terms/title> "Security Keys (Passkeys) for MFA" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-keys/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-keys/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-keys/s1> <https://schema.org/url> "https://help.salesforce.com/s/articleView?language=en_US&id=xcloud.mfa_supported_verification_methods_securitykey.htm&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-keys/s2> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-keys/s2> <http://purl.org/dc/terms/title> "Register a Security Key as an Identity Verification Method for Salesforce Orgs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-keys/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-keys/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-keys/s2> <https://schema.org/url> "https://help.salesforce.com/s/articleView?language=en_US&id=xcloud.security_u2f_register_security_key.htm&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-keys/s3> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-keys/s3> <http://purl.org/dc/terms/title> "Prepare for Phishing-Resistant MFA Enforcement for Privileged Users including Admins" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-keys/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-keys/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-keys/s3> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=005321563&language=en_US&type=1" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-keys/s4> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-keys/s4> <http://purl.org/dc/terms/title> "Enable Passkeys for Identity Verification in Salesforce Orgs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-keys/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-keys/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-keys/s4> <https://schema.org/url> "https://help.salesforce.com/s/articleView?language=en_US&id=xcloud.security_enable_builtin_authenticator.htm&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-keys/s5> <http://purl.org/dc/terms/publisher> "W3C" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-keys/s5> <http://purl.org/dc/terms/title> "Web Authentication: An API for accessing Public Key Credentials Level 3 is now a W3C Recommendation" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-keys/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-keys/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "standards-body" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-keys/s5> <https://schema.org/url> "https://www.w3.org/news/2026/web-authentication-an-api-for-accessing-public-key-credentials-level-3-is-now-a-w3c-recommendation/" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-keys/s6> <http://purl.org/dc/terms/publisher> "W3C" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-keys/s6> <http://purl.org/dc/terms/title> "Web Authentication: An API for accessing Public Key Credentials - Level 3" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-keys/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-keys/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "standards-body" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-keys/s6> <https://schema.org/url> "https://www.w3.org/TR/webauthn-3/" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-stripinaccessible/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-stripinaccessible/s1> <http://purl.org/dc/terms/title> "Enforce Security with the stripInaccessible Method (Apex Developer Guide)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/security-stripinaccessible/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

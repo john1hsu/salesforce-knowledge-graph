@@ -10918,6 +10918,32 @@
     ]
   },
   {
+    "id": "kt:security-keys",
+    "title": "Security Keys",
+    "aliases": [
+      "Security Keys (Passkeys)",
+      "physical passkeys",
+      "U2F security key",
+      "WebAuthn security key",
+      "FIDO security key",
+      "hardware security key"
+    ],
+    "type": "Feature",
+    "domain": "identity",
+    "file": "articles/identity/security-keys.md",
+    "created": "2026-11-22",
+    "release": "Winter '27",
+    "status": "current",
+    "source_urls": [
+      "https://help.salesforce.com/s/articleView?language=en_US&id=xcloud.mfa_supported_verification_methods_securitykey.htm&type=5",
+      "https://help.salesforce.com/s/articleView?language=en_US&id=xcloud.security_u2f_register_security_key.htm&type=5",
+      "https://help.salesforce.com/s/articleView?id=005321563&language=en_US&type=1",
+      "https://help.salesforce.com/s/articleView?language=en_US&id=xcloud.security_enable_builtin_authenticator.htm&type=5",
+      "https://www.w3.org/news/2026/web-authentication-an-api-for-accessing-public-key-credentials-level-3-is-now-a-w3c-recommendation/",
+      "https://www.w3.org/TR/webauthn-3/"
+    ]
+  },
+  {
     "id": "kt:security-stripinaccessible",
     "title": "Security.stripInaccessible",
     "aliases": [
