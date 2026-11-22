@@ -36589,6 +36589,95 @@
       ]
     },
     {
+      "@id": "kt:api-version-lifecycle",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "API Version Lifecycle",
+      "skos:definition": "How Salesforce numbers, supports, deprecates and retires versions of its Platform APIs and versioned code: every release adds a new API version, each version is supported for at least three years, and retired versions are rejected with version errors.",
+      "kto:domain": "platform-architecture",
+      "dcterms:created": "2026-11-22",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "API End-of-Life Policy (REST API Developer Guide)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/api_rest_eol.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "API End-of-Life Policy (Metadata API Developer Guide)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_api_eol.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "New Tools to Help Prepare for API Version Retirement",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2024/10/new-tools-to-help-prepare-for-api-version-retirement",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Apex Versioned Behavior Changes (Apex Developer Guide)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/versioned_behavior_changes.htm",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/platform-architecture/api-version-lifecycle.md",
+      "skos:altLabel": [
+        "API end-of-life policy",
+        "API version retirement",
+        "legacy API version retirement",
+        "Salesforce API versioning",
+        "API EOL policy"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-apis"
+        },
+        {
+          "@id": "kt:salesforce-seasonal-releases"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:rest-api"
+        },
+        {
+          "@id": "kt:soap-api"
+        },
+        {
+          "@id": "kt:metadata-api"
+        },
+        {
+          "@id": "kt:release-updates"
+        },
+        {
+          "@id": "kt:apex-user-mode"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:salesforce-seasonal-releases"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:apex"
+        }
+      ],
+      "kto:mitigates": [
+        {
+          "@id": "kt:technical-debt-in-salesforce"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:event-monitoring"
+        }
+      ]
+    },
+    {
       "@id": "kt:bulkification",
       "@type": "kto:Pattern",
       "skos:prefLabel": "Bulkification",

@@ -1043,6 +1043,34 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/api-request-limits> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/rest-api> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/api-request-limits> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/api-request-limits> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/api-version-lifecycle> <http://purl.org/dc/terms/created> "2026-11-22" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/api-version-lifecycle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/api-version-lifecycle> <http://www.w3.org/2000/01/rdf-schema#label> "API Version Lifecycle" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/api-version-lifecycle> <http://www.w3.org/2004/02/skos/core#altLabel> "API EOL policy" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/api-version-lifecycle> <http://www.w3.org/2004/02/skos/core#altLabel> "API end-of-life policy" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/api-version-lifecycle> <http://www.w3.org/2004/02/skos/core#altLabel> "API version retirement" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/api-version-lifecycle> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce API versioning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/api-version-lifecycle> <http://www.w3.org/2004/02/skos/core#altLabel> "legacy API version retirement" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/api-version-lifecycle> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-apis> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/api-version-lifecycle> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-seasonal-releases> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/api-version-lifecycle> <http://www.w3.org/2004/02/skos/core#definition> "How Salesforce numbers, supports, deprecates and retires versions of its Platform APIs and versioned code: every release adds a new API version, each version is supported for at least three years, and retired versions are rejected with version errors." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/api-version-lifecycle> <http://www.w3.org/2004/02/skos/core#prefLabel> "API Version Lifecycle" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/api-version-lifecycle> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-user-mode> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/api-version-lifecycle> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/api-version-lifecycle> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/release-updates> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/api-version-lifecycle> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/rest-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/api-version-lifecycle> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/soap-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/api-version-lifecycle> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/api-version-lifecycle/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/api-version-lifecycle> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/api-version-lifecycle/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/api-version-lifecycle> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/api-version-lifecycle/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/api-version-lifecycle> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/api-version-lifecycle/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/api-version-lifecycle> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/event-monitoring> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/api-version-lifecycle> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#consumedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/api-version-lifecycle> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-seasonal-releases> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/api-version-lifecycle> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "platform-architecture" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/api-version-lifecycle> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#mitigates> <https://github.com/john1hsu/salesforce-knowledge-graph/id/technical-debt-in-salesforce> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/api-version-lifecycle> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/api-version-lifecycle> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/appexchange-security-review> <http://purl.org/dc/terms/created> "2026-11-08" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/appexchange-security-review> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/appexchange-security-review> <http://www.w3.org/2000/01/rdf-schema#label> "AgentExchange Security Review" .
@@ -14203,6 +14231,26 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/api-request-limits/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/api-request-limits/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/api-request-limits/s3> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/app-development-without-limits/app-development-without-limits-rate" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/api-version-lifecycle/s1> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/api-version-lifecycle/s1> <http://purl.org/dc/terms/title> "API End-of-Life Policy (REST API Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/api-version-lifecycle/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/api-version-lifecycle/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/api-version-lifecycle/s1> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/api_rest_eol.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/api-version-lifecycle/s2> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/api-version-lifecycle/s2> <http://purl.org/dc/terms/title> "API End-of-Life Policy (Metadata API Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/api-version-lifecycle/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/api-version-lifecycle/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/api-version-lifecycle/s2> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_api_eol.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/api-version-lifecycle/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/api-version-lifecycle/s3> <http://purl.org/dc/terms/title> "New Tools to Help Prepare for API Version Retirement" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/api-version-lifecycle/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/api-version-lifecycle/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/api-version-lifecycle/s3> <https://schema.org/url> "https://developer.salesforce.com/blogs/2024/10/new-tools-to-help-prepare-for-api-version-retirement" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/api-version-lifecycle/s4> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/api-version-lifecycle/s4> <http://purl.org/dc/terms/title> "Apex Versioned Behavior Changes (Apex Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/api-version-lifecycle/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/api-version-lifecycle/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/api-version-lifecycle/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/versioned_behavior_changes.htm" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/appexchange-security-review/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers (ISVforce Guide)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/appexchange-security-review/s1> <http://purl.org/dc/terms/title> "How the AgentExchange Security Review Works" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/appexchange-security-review/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
