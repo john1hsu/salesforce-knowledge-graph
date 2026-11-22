@@ -23432,6 +23432,88 @@
       ]
     },
     {
+      "@id": "kt:salesforce-lightning-design-system",
+      "@type": "kto:Tool",
+      "skos:prefLabel": "Salesforce Lightning Design System",
+      "skos:definition": "Salesforce's CSS framework and design system that gives Lightning Experience its look and feel; SLDS 2, introduced in Spring '25, separates structure from visual design through global styling hooks and ships the Salesforce Cosmos theme.",
+      "kto:domain": "development",
+      "dcterms:created": "2026-11-22",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "LWC Developer Guide: Style Components with Lightning Design System",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/lwc/guide/create-components-css-slds.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "LWC Developer Guide: Compare Salesforce Lightning Design System Versions",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/lwc/guide/create-components-css-slds1-slds2.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "LWC Developer Guide: Style Components Using Lightning Design System Styling Hooks",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/lwc/guide/create-components-css-custom-properties",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Trailhead: Explore Salesforce Lightning Design System 2",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/salesforce-lightning-design-system-2-for-developers/explore-salesforce-lightning-design-system-2",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/development/salesforce-lightning-design-system.md",
+      "skos:altLabel": [
+        "SLDS",
+        "SLDS 1",
+        "SLDS 2",
+        "Lightning Design System",
+        "Salesforce Cosmos theme"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-platform"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:lightning-web-components"
+        },
+        {
+          "@id": "kt:aura-components"
+        },
+        {
+          "@id": "kt:section-508-accessibility"
+        },
+        {
+          "@id": "kt:static-resources"
+        },
+        {
+          "@id": "kt:slds-linter"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:lightning-web-components"
+        },
+        {
+          "@id": "kt:aura-components"
+        },
+        {
+          "@id": "kt:visualforce"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:lightning-locker"
+        }
+      ]
+    },
+    {
       "@id": "kt:scheduled-apex",
       "@type": "kto:Feature",
       "skos:prefLabel": "Scheduled Apex",
