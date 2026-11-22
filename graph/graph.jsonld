@@ -8967,6 +8967,113 @@
       ]
     },
     {
+      "@id": "kt:dispatcher-console",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Dispatcher Console",
+      "skos:definition": "The Field Service managed package's dispatching workspace: an appointment list, a resource Gantt and a map in one tab, where dispatchers schedule, dispatch and optimize service appointments; Trailhead now labels it the Classic Dispatch Console alongside the newer Scheduling Console.",
+      "kto:domain": "clouds-and-products",
+      "dcterms:created": "2026-11-22",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Explore the Dispatcher Console (Trailhead unit)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/field-service-dispatcher-console-for-dispatchers/explore-the-dispatcher-console",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Set Up the Dispatcher Console (Trailhead unit)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/dispatcher-console-for-admins/set-up-the-dispatcher-console",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Customize Dispatcher Console Settings (Trailhead unit)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/en/content/learn/modules/dispatcher-console-for-admins/customize-dispatcher-console-settings",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Customize Your View (Trailhead unit)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/field-service-dispatcher-console-for-dispatchers/customize-your-view",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Code Examples: Dispatcher Console Custom Actions | Field Service Developer Guide",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/service/field-service-dev/guide/fsl-dev-code-samples-dispatcher.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Get to Know the Scheduling Console (Trailhead unit)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/scheduling-console-basics/get-to-know-the-scheduling-console",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Add a Custom Action (Trailhead unit)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/dispatcher-console-for-admins/add-a-custom-action",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/clouds-and-products/dispatcher-console.md",
+      "skos:altLabel": [
+        "Field Service Dispatcher Console",
+        "Classic Dispatch Console",
+        "dispatch console",
+        "Field Service Gantt",
+        "dispatcher Gantt"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:field-service"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:service-appointments"
+        },
+        {
+          "@id": "kt:field-service-scheduling-policies"
+        },
+        {
+          "@id": "kt:scheduling-console"
+        },
+        {
+          "@id": "kt:field-sets"
+        },
+        {
+          "@id": "kt:custom-permissions"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:field-service"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:service-appointments"
+        },
+        {
+          "@id": "kt:field-service-scheduling-policies"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:field-sets"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:scheduling-console"
+        }
+      ]
+    },
+    {
       "@id": "kt:entitlement-management",
       "@type": "kto:Feature",
       "skos:prefLabel": "Entitlement Management",

@@ -5,9 +5,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | Node | Referenced by |
 |---|---|
 | `kt:business-analyst` | `kt:fit-gap-analysis`, `kt:omnistudio-consultant-certification`, `kt:requirements-gathering`, `kt:user-acceptance-testing` |
-| `kt:dispatcher-console` | `kt:field-service`, `kt:service-appointments` |
+| `kt:field-service-scheduling-policies` | `kt:dispatcher-console`, `kt:field-service`, `kt:service-appointments` |
 | `kt:field-service-mobile-app` | `kt:field-service`, `kt:service-appointments` |
-| `kt:field-service-scheduling-policies` | `kt:field-service`, `kt:service-appointments` |
 | `kt:work-orders` | `kt:field-service`, `kt:service-appointments` |
 | `kt:data-extensions` | `kt:automation-studio`, `kt:contact-builder` |
 | `kt:requirements-engineering` | `kt:non-functional-requirements`, `kt:requirements-gathering` |
@@ -24,8 +23,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:skills-based-routing` | `kt:omni-channel` |
 | `kt:data-import-wizard` | `kt:data-loader` |
 | `kt:salesforce-lightning-design-system` | `kt:visualforce` |
-| `kt:salesforce-sites` | `kt:custom-domains` |
 | `kt:entitlement-process-metadata` | `kt:entitlement-management` |
+| `kt:salesforce-sites` | `kt:custom-domains` |
 | `kt:einstein-discovery` | `kt:crm-analytics` |
 | `kt:saql` | `kt:crm-analytics` |
 | `kt:tableau-pulse` | `kt:tableau` |
@@ -59,8 +58,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:engagement-studio` | `kt:marketing-cloud-account-engagement` |
 | `kt:backup-and-recover-next` | `kt:backup-and-recover` |
 | `kt:iso-iec-25010` | `kt:non-functional-requirements` |
-| `kt:anypoint-runtime-manager` | `kt:mule-runtime-engine` |
 | `kt:data-processing-engine` | `kt:loyalty-management` |
+| `kt:anypoint-runtime-manager` | `kt:mule-runtime-engine` |
 | `kt:reports-and-dashboards` | `kt:salesforce-analytics` |
 | `kt:invocable-methods` | `kt:apex-defined-types` |
 | `kt:business-process-mapping` | `kt:requirements-gathering` |
@@ -73,14 +72,15 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:b2b-commerce` | `kt:commerce-cloud` |
 | `kt:b2c-commerce` | `kt:commerce-cloud` |
 | `kt:salesforce-order-management` | `kt:commerce-cloud` |
+| `kt:business-analyst-certification` | `kt:user-acceptance-testing` |
 | `kt:fhir` | `kt:health-cloud` |
 | `kt:utilization-management` | `kt:health-cloud` |
-| `kt:business-analyst-certification` | `kt:user-acceptance-testing` |
 | `kt:in-app-guidance` | `kt:change-management-and-adoption` |
 | `kt:opportunity-products` | `kt:price-books` |
 | `kt:model-context-protocol` | `kt:model-context-protocol-in-agentforce` |
 | `kt:salesforce-hosted-mcp-servers` | `kt:model-context-protocol-in-agentforce` |
 | `kt:semantic-layer` | `kt:tableau-semantics` |
+| `kt:scheduling-console` | `kt:dispatcher-console` |
 | `kt:holidays` | `kt:business-hours` |
 | `kt:salesforce-mobile-app` | `kt:compact-layouts` |
 | `kt:information-management` | `kt:data-management` |
@@ -98,9 +98,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:subscriber-support-console` | `kt:license-management-app` |
 | `kt:interface-specification-document` | `kt:system-landscape-diagrams` |
 | `kt:hyperforce-assistant` | `kt:instance-refresh-and-org-migration` |
+| `kt:operating-hours` | `kt:salesforce-scheduler` |
 | `kt:trialforce` | `kt:environment-hub` |
 | `kt:api-community-manager` | `kt:api-experience-hub` |
-| `kt:operating-hours` | `kt:salesforce-scheduler` |
 | `kt:account-teams` | `kt:opportunity-teams` |
 | `kt:ldap` | `kt:delegated-authentication` |
 | `kt:shared-activities` | `kt:activity-data-model` |
@@ -135,12 +135,12 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:consent-data-model` | `kt:consent-management-in-data-cloud` |
 | `kt:data-clean-room` | `kt:data-360-clean-rooms` |
 | `kt:digital-accessibility` | `kt:section-508-accessibility` |
-| `kt:greenhouse-gas-protocol` | `kt:net-zero-cloud` |
 | `kt:tx-ramp` | `kt:govramp` |
 | `kt:wcag` | `kt:section-508-accessibility` |
 | `kt:agent-to-agent-protocol` | `kt:agentforce-architecture-patterns` |
 | `kt:cross-cloud-integration` | `kt:salesforce-solution-kits` |
 | `kt:custom-labels` | `kt:flow-formula-resources` |
+| `kt:greenhouse-gas-protocol` | `kt:net-zero-cloud` |
 | `kt:multi-agent-orchestration` | `kt:agentforce-architecture-patterns` |
 | `kt:notes-and-attachments` | `kt:content-document-model` |
 | `kt:rollback-plan` | `kt:hypercare` |

@@ -4477,6 +4477,37 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/digital-wallet> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/tableau-next> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/digital-wallet> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/digital-wallet> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dispatcher-console> <http://purl.org/dc/terms/created> "2026-11-22" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dispatcher-console> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dispatcher-console> <http://www.w3.org/2000/01/rdf-schema#label> "Dispatcher Console" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dispatcher-console> <http://www.w3.org/2004/02/skos/core#altLabel> "Classic Dispatch Console" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dispatcher-console> <http://www.w3.org/2004/02/skos/core#altLabel> "Field Service Dispatcher Console" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dispatcher-console> <http://www.w3.org/2004/02/skos/core#altLabel> "Field Service Gantt" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dispatcher-console> <http://www.w3.org/2004/02/skos/core#altLabel> "dispatch console" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dispatcher-console> <http://www.w3.org/2004/02/skos/core#altLabel> "dispatcher Gantt" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dispatcher-console> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/field-service> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dispatcher-console> <http://www.w3.org/2004/02/skos/core#definition> "The Field Service managed package's dispatching workspace: an appointment list, a resource Gantt and a map in one tab, where dispatchers schedule, dispatch and optimize service appointments; Trailhead now labels it the Classic Dispatch Console alongside the newer Scheduling Console." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dispatcher-console> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dispatcher Console" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dispatcher-console> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-permissions> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dispatcher-console> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/field-service-scheduling-policies> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dispatcher-console> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/field-sets> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dispatcher-console> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/scheduling-console> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dispatcher-console> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/service-appointments> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dispatcher-console> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dispatcher-console/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dispatcher-console> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dispatcher-console/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dispatcher-console> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dispatcher-console/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dispatcher-console> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dispatcher-console/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dispatcher-console> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dispatcher-console/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dispatcher-console> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dispatcher-console/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dispatcher-console> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dispatcher-console/s7> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dispatcher-console> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#alternativeTo> <https://github.com/john1hsu/salesforce-knowledge-graph/id/scheduling-console> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dispatcher-console> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/field-sets> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dispatcher-console> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/field-service-scheduling-policies> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dispatcher-console> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/service-appointments> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dispatcher-console> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "clouds-and-products" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dispatcher-console> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#partOf> <https://github.com/john1hsu/salesforce-knowledge-graph/id/field-service> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dispatcher-console> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dispatcher-console> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/distributed-computing> <http://purl.org/dc/terms/created> "2026-11-15" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/distributed-computing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#ExternalConcept> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/distributed-computing> <http://www.w3.org/2000/01/rdf-schema#label> "Distributed Computing" .
@@ -17705,6 +17736,41 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/digital-wallet/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/digital-wallet/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/digital-wallet/s6> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/api/sforce_api_objects_tenantconsumptionalert.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dispatcher-console/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dispatcher-console/s1> <http://purl.org/dc/terms/title> "Explore the Dispatcher Console (Trailhead unit)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dispatcher-console/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dispatcher-console/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dispatcher-console/s1> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/field-service-dispatcher-console-for-dispatchers/explore-the-dispatcher-console" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dispatcher-console/s2> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dispatcher-console/s2> <http://purl.org/dc/terms/title> "Set Up the Dispatcher Console (Trailhead unit)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dispatcher-console/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dispatcher-console/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dispatcher-console/s2> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/dispatcher-console-for-admins/set-up-the-dispatcher-console" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dispatcher-console/s3> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dispatcher-console/s3> <http://purl.org/dc/terms/title> "Customize Dispatcher Console Settings (Trailhead unit)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dispatcher-console/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dispatcher-console/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dispatcher-console/s3> <https://schema.org/url> "https://trailhead.salesforce.com/en/content/learn/modules/dispatcher-console-for-admins/customize-dispatcher-console-settings" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dispatcher-console/s4> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dispatcher-console/s4> <http://purl.org/dc/terms/title> "Customize Your View (Trailhead unit)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dispatcher-console/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dispatcher-console/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dispatcher-console/s4> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/field-service-dispatcher-console-for-dispatchers/customize-your-view" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dispatcher-console/s5> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dispatcher-console/s5> <http://purl.org/dc/terms/title> "Code Examples: Dispatcher Console Custom Actions | Field Service Developer Guide" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dispatcher-console/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dispatcher-console/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dispatcher-console/s5> <https://schema.org/url> "https://developer.salesforce.com/docs/service/field-service-dev/guide/fsl-dev-code-samples-dispatcher.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dispatcher-console/s6> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dispatcher-console/s6> <http://purl.org/dc/terms/title> "Get to Know the Scheduling Console (Trailhead unit)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dispatcher-console/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dispatcher-console/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dispatcher-console/s6> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/scheduling-console-basics/get-to-know-the-scheduling-console" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dispatcher-console/s7> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dispatcher-console/s7> <http://purl.org/dc/terms/title> "Add a Custom Action (Trailhead unit)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dispatcher-console/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dispatcher-console/s7> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dispatcher-console/s7> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/dispatcher-console-for-admins/add-a-custom-action" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/distributed-computing/s1> <http://purl.org/dc/terms/publisher> "Communications of the ACM (Leslie Lamport)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/distributed-computing/s1> <http://purl.org/dc/terms/title> "Time, Clocks, and the Ordering of Events in a Distributed System" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/distributed-computing/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
