@@ -20,7 +20,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:salesforce-archive` | `kt:archiving-strategy` |
 | `kt:data-categories` | `kt:knowledge-base` |
 | `kt:trailhead` | `kt:salesforce-certification-program` |
-| `kt:static-soql` | `kt:dynamic-soql` |
 | `kt:omni-channel-limits` | `kt:omni-channel` |
 | `kt:presence-configuration` | `kt:omni-channel` |
 | `kt:skills-based-routing` | `kt:omni-channel` |
@@ -38,8 +37,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:salesforce-ecosystem` | `kt:salesforce-inc` |
 | `kt:lightning-out` | `kt:lightning-locker` |
 | `kt:apex-rest-services` | `kt:remote-call-in` |
-| `kt:heroku-postgres` | `kt:heroku-connect` |
 | `kt:agentexchange-go-to-market-app` | `kt:agentexchange` |
+| `kt:heroku-postgres` | `kt:heroku-connect` |
 | `kt:dynamic-revenue-orchestrator` | `kt:revenue-cloud` |
 | `kt:revenue-management-consultant-certification` | `kt:revenue-cloud` |
 | `kt:object-manager` | `kt:schema-builder` |
@@ -113,9 +112,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:business-architecture` | `kt:capability-maps` |
 | `kt:technology-roadmaps` | `kt:capability-maps` |
 | `kt:value-streams` | `kt:capability-maps` |
+| `kt:channel-order-app` | `kt:partner-business-org` |
 | `kt:ui-api` | `kt:field-dependencies` |
 | `kt:user-provisioning` | `kt:scim` |
-| `kt:channel-order-app` | `kt:partner-business-org` |
 | `kt:iso-iec-27018` | `kt:iso-iec-27017` |
 | `kt:einstein-prediction-builder` | `kt:einstein-next-best-action` |
 | `kt:currency-type-object` | `kt:multiple-currencies` |
