@@ -3254,6 +3254,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-360-clean-rooms> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/aws-clean-rooms> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-360-clean-rooms> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-360-clean-rooms> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-360-enrichments> <http://purl.org/dc/terms/created> "2026-11-22" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-360-enrichments> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-360-enrichments> <http://www.w3.org/2000/01/rdf-schema#label> "Data 360 Enrichments" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-360-enrichments> <http://www.w3.org/2004/02/skos/core#altLabel> "Data 360 copy fields" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-360-enrichments> <http://www.w3.org/2004/02/skos/core#altLabel> "Data 360 related lists" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-360-enrichments> <http://www.w3.org/2004/02/skos/core#altLabel> "Data Cloud copy fields" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-360-enrichments> <http://www.w3.org/2004/02/skos/core#altLabel> "Data Cloud enrichments" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-360-enrichments> <http://www.w3.org/2004/02/skos/core#altLabel> "copy field enrichment" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-360-enrichments> <http://www.w3.org/2004/02/skos/core#altLabel> "direct-DMO related list enrichment" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-360-enrichments> <http://www.w3.org/2004/02/skos/core#altLabel> "related list enrichment" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-360-enrichments> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-360-enrichments> <http://www.w3.org/2004/02/skos/core#definition> "Data 360 (formerly Data Cloud) features that surface Data 360 data on Salesforce CRM records, either as related lists queried live from data model objects or as copy fields that sync Data 360 values into standard and custom CRM fields through batch jobs." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-360-enrichments> <http://www.w3.org/2004/02/skos/core#prefLabel> "Data 360 Enrichments" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-360-enrichments> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/calculated-insights> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-360-enrichments> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-resolution> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-360-enrichments> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-app-builder> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-360-enrichments> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/person-accounts> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-360-enrichments> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-enrichments/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-360-enrichments> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-enrichments/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-360-enrichments> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-enrichments/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-360-enrichments> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-enrichments/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-360-enrichments> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-enrichments/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-360-enrichments> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#contrastsWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud-activation> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-360-enrichments> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-actions> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-360-enrichments> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-model-objects> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-360-enrichments> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-spaces> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-360-enrichments> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "data-cloud-and-ai" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-360-enrichments> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#governedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud-limits> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-360-enrichments> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-360-enrichments> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-360-query-api> <http://purl.org/dc/terms/created> "2026-11-21" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-360-query-api> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#API> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-360-query-api> <http://www.w3.org/2000/01/rdf-schema#label> "Data 360 Query API" .
@@ -16516,6 +16546,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-clean-rooms/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-clean-rooms/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-clean-rooms/s6> <https://schema.org/url> "https://www.salesforce.com/blog/introducing-data360-clean-rooms/" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-enrichments/s1> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-enrichments/s1> <http://purl.org/dc/terms/title> "Enrichment Considerations" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-enrichments/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-enrichments/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-enrichments/s1> <https://schema.org/url> "https://help.salesforce.com/s/articleView?language=en_US&id=data.c360_a_enrichment_considerations.htm&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-enrichments/s2> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-enrichments/s2> <http://purl.org/dc/terms/title> "Enrich Your Org with 360 Data and Insights" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-enrichments/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-enrichments/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-enrichments/s2> <https://schema.org/url> "https://help.salesforce.com/s/articleView?language=en_US&id=data.c360_a_enrich_your_org_with_data_and_insights.htm&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-enrichments/s3> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-enrichments/s3> <http://purl.org/dc/terms/title> "Create a Direct-DMO Related List Enrichment" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-enrichments/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-enrichments/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-enrichments/s3> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=data.c360_a_create_a_related_list_direct_dmo_enrichment.htm&language=en_US&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-enrichments/s4> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-enrichments/s4> <http://purl.org/dc/terms/title> "Create and Verify Your Copy Field Enrichment (Data 360 Enrichments module)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-enrichments/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-enrichments/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-enrichments/s4> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/data-cloud-enrichments/create-and-verify-your-copy-field-enrichment" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-enrichments/s5> <http://purl.org/dc/terms/publisher> "Salesforce Developers Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-enrichments/s5> <http://purl.org/dc/terms/title> "A Visual Guide to Salesforce Data Cloud Capabilities" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-enrichments/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-enrichments/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-enrichments/s5> <https://schema.org/url> "https://developer.salesforce.com/blogs/2024/10/a-visual-guide-to-salesforce-data-cloud-capabilities" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-query-api/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-query-api/s1> <http://purl.org/dc/terms/title> "Query Data using Query API (Data 360 REST API Reference)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-query-api/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

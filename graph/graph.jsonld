@@ -13658,6 +13658,98 @@
       ]
     },
     {
+      "@id": "kt:data-360-enrichments",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Data 360 Enrichments",
+      "skos:definition": "Data 360 (formerly Data Cloud) features that surface Data 360 data on Salesforce CRM records, either as related lists queried live from data model objects or as copy fields that sync Data 360 values into standard and custom CRM fields through batch jobs.",
+      "kto:domain": "data-cloud-and-ai",
+      "dcterms:created": "2026-11-22",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Enrichment Considerations",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=data.c360_a_enrichment_considerations.htm&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Enrich Your Org with 360 Data and Insights",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=data.c360_a_enrich_your_org_with_data_and_insights.htm&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Create a Direct-DMO Related List Enrichment",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=data.c360_a_create_a_related_list_direct_dmo_enrichment.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Create and Verify Your Copy Field Enrichment (Data 360 Enrichments module)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/data-cloud-enrichments/create-and-verify-your-copy-field-enrichment",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "A Visual Guide to Salesforce Data Cloud Capabilities",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2024/10/a-visual-guide-to-salesforce-data-cloud-capabilities",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/data-cloud-and-ai/data-360-enrichments.md",
+      "skos:altLabel": [
+        "Data Cloud enrichments",
+        "Data 360 related lists",
+        "Data 360 copy fields",
+        "copy field enrichment",
+        "related list enrichment",
+        "direct-DMO related list enrichment",
+        "Data Cloud copy fields"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:data-cloud"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:calculated-insights"
+        },
+        {
+          "@id": "kt:identity-resolution"
+        },
+        {
+          "@id": "kt:lightning-app-builder"
+        },
+        {
+          "@id": "kt:person-accounts"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:data-model-objects"
+        },
+        {
+          "@id": "kt:data-spaces"
+        },
+        {
+          "@id": "kt:data-actions"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:data-cloud-activation"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:data-cloud-limits"
+        }
+      ]
+    },
+    {
       "@id": "kt:data-360-query-api",
       "@type": "kto:API",
       "skos:prefLabel": "Data 360 Query API",
