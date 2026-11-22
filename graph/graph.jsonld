@@ -17315,6 +17315,82 @@
       ]
     },
     {
+      "@id": "kt:data-management",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Data Management",
+      "skos:definition": "The umbrella discipline of planning, executing and supervising the policies, programs and practices that deliver, control, protect and enhance the value of data across its lifecycle; in Salesforce terms it spans governance, quality, architecture, application development, integration, security and day-to-day data operations.",
+      "kto:domain": "data-model",
+      "dcterms:created": "2026-11-22",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Describe Data Management (Data Management Fundamentals)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/data-management-fundamentals/describe-data-management",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Review Data Management Concepts (Data Management Fundamentals)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/data-management-fundamentals/review-data-management-concepts",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "AI Guide for Government, Chapter 5: Data governance and management",
+          "dcterms:publisher": "U.S. General Services Administration, IT Modernization Centers of Excellence",
+          "schema:url": "https://coe.gsa.gov/coe/ai-guide-for-government/data-governance-management/",
+          "kto:sourceType": "government"
+        }
+      ],
+      "kto:file": "articles/data-model/data-management.md",
+      "skos:altLabel": [
+        "Salesforce data management",
+        "enterprise data management",
+        "data lifecycle management",
+        "DAMA data management"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:information-management"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:identity-resolution"
+        },
+        {
+          "@id": "kt:archiving-strategy"
+        },
+        {
+          "@id": "kt:data-migration-strategy"
+        },
+        {
+          "@id": "kt:data-classification"
+        },
+        {
+          "@id": "kt:salesforce-center-of-excellence"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:data-governance"
+        },
+        {
+          "@id": "kt:data-quality"
+        },
+        {
+          "@id": "kt:data-architecture"
+        },
+        {
+          "@id": "kt:data-integration"
+        },
+        {
+          "@id": "kt:data-stewardship"
+        }
+      ]
+    },
+    {
       "@id": "kt:data-quality",
       "@type": "kto:Concept",
       "skos:prefLabel": "Data Quality",
