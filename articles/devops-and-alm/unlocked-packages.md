@@ -10,7 +10,7 @@ summary: >-
 release: "Winter '27"
 status: current
 broader: [kt:application-lifecycle-management, kt:salesforce-dx]
-related: [kt:scratch-orgs, kt:apex-testing]
+related: [kt:unmanaged-packages, kt:scratch-orgs, kt:apex-testing]
 relations:
   - {predicate: dependsOn, object: kt:dev-hub}
   - {predicate: configuredVia, object: kt:salesforce-cli}

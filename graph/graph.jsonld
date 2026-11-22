@@ -28698,6 +28698,9 @@
       ],
       "skos:related": [
         {
+          "@id": "kt:unmanaged-packages"
+        },
+        {
           "@id": "kt:scratch-orgs"
         },
         {
@@ -28722,6 +28725,92 @@
       "kto:contrastsWith": [
         {
           "@id": "kt:change-sets"
+        }
+      ]
+    },
+    {
+      "@id": "kt:unmanaged-packages",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Unmanaged Packages",
+      "skos:definition": "A first-generation Salesforce package built in Setup's Package Manager and uploaded to produce an install link. Installed components become fully editable in the subscriber org, but the publisher loses control of them and the package cannot be upgraded, so it suits open-source drops, samples and one-time templates rather than ongoing delivery.",
+      "kto:domain": "devops-and-alm",
+      "dcterms:created": "2026-11-22",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Developing and Distributing Unmanaged Packages",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/pkg1-dev/guide/packaging-developing-unmanaged.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Create and Upload an Unmanaged Package",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/pkg1-dev/guide/packaging-uploading-unmanaged.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Components Available in Unmanaged Packages",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/pkg1-dev/guide/packaging-unmanaged-components.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "What's an Unlocked Package?",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/sfdx-dev/guide/sfdx-dev-unlocked-pkg-whats-a-package.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Install and Customize a Salesforce Labs Solution",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/salesforce-labs-basics/install-and-customize-a-salesforce-labs-solution",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Prepare Your Org and Install Developer Tools (package.xml module)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/package-xml/package-xml-get-gear",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/devops-and-alm/unmanaged-packages.md",
+      "skos:altLabel": [
+        "unmanaged package",
+        "unmanaged 1GP package",
+        "Package Manager unmanaged package"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:application-lifecycle-management"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:first-generation-managed-packages"
+        },
+        {
+          "@id": "kt:agentexchange"
+        },
+        {
+          "@id": "kt:package-xml-manifest"
+        },
+        {
+          "@id": "kt:tooling-api"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:unlocked-packages"
+        },
+        {
+          "@id": "kt:change-sets"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:push-upgrades"
         }
       ]
     },

@@ -29,9 +29,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:tableau-pulse` | `kt:tableau` |
 | `kt:custom-property-editors` | `kt:custom-flow-screen-components` |
 | `kt:apex-mocks` | `kt:apex-enterprise-patterns` |
+| `kt:agentexchange-go-to-market-app` | `kt:agentexchange` |
 | `kt:lightning-out` | `kt:lightning-locker` |
 | `kt:salesforce-ecosystem` | `kt:salesforce-inc` |
-| `kt:agentexchange-go-to-market-app` | `kt:agentexchange` |
 | `kt:heroku-postgres` | `kt:heroku-connect` |
 | `kt:object-manager` | `kt:schema-builder` |
 | `kt:application-network` | `kt:api-led-connectivity` |
@@ -74,10 +74,10 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:fhir` | `kt:health-cloud` |
 | `kt:utilization-management` | `kt:health-cloud` |
 | `kt:business-analyst-certification` | `kt:user-acceptance-testing` |
-| `kt:in-app-guidance` | `kt:change-management-and-adoption` |
-| `kt:opportunity-products` | `kt:price-books` |
 | `kt:model-context-protocol` | `kt:model-context-protocol-in-agentforce` |
 | `kt:salesforce-hosted-mcp-servers` | `kt:model-context-protocol-in-agentforce` |
+| `kt:in-app-guidance` | `kt:change-management-and-adoption` |
+| `kt:opportunity-products` | `kt:price-books` |
 | `kt:semantic-layer` | `kt:tableau-semantics` |
 | `kt:scheduling-console` | `kt:dispatcher-console` |
 | `kt:holidays` | `kt:business-hours` |
@@ -90,8 +90,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:business-architecture` | `kt:capability-maps` |
 | `kt:technology-roadmaps` | `kt:capability-maps` |
 | `kt:value-streams` | `kt:capability-maps` |
-| `kt:agentforce-vibes` | `kt:agentforce-vibes-ide` |
 | `kt:json-web-signature` | `kt:json-web-token` |
+| `kt:agentforce-vibes` | `kt:agentforce-vibes-ide` |
 | `kt:setup-audit-trail` | `kt:sarbanes-oxley-act` |
 | `kt:slds-linter` | `kt:salesforce-lightning-design-system` |
 | `kt:partner-console` | `kt:license-management-app` |
@@ -106,10 +106,10 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:shared-activities` | `kt:activity-data-model` |
 | `kt:developer-console` | `kt:apex-logging-and-debug-logs` |
 | `kt:document-ai` | `kt:unstructured-data-in-data-cloud` |
-| `kt:user-provisioning` | `kt:scim` |
 | `kt:models-api` | `kt:ai-models` |
-| `kt:ui-api` | `kt:field-dependencies` |
+| `kt:user-provisioning` | `kt:scim` |
 | `kt:channel-order-app` | `kt:partner-business-org` |
+| `kt:ui-api` | `kt:field-dependencies` |
 | `kt:organization-wide-email-addresses` | `kt:email-alerts` |
 | `kt:passkeys` | `kt:security-keys` |
 | `kt:webauthn` | `kt:security-keys` |
@@ -121,8 +121,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:currency-type-object` | `kt:multiple-currencies` |
 | `kt:agentforce-nonprofit-consultant-certification` | `kt:agentforce-nonprofit` |
 | `kt:nonprofit-success-pack` | `kt:agentforce-nonprofit` |
-| `kt:partner-relationship-management` | `kt:partner-community-licenses` |
 | `kt:digital-accessibility` | `kt:section-508-accessibility` |
+| `kt:partner-relationship-management` | `kt:partner-community-licenses` |
 | `kt:wcag` | `kt:section-508-accessibility` |
 | `kt:federal-acquisition-regulation` | `kt:performance-work-statement` |
 | `kt:quality-assurance-surveillance-plan` | `kt:performance-work-statement` |
