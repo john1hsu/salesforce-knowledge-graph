@@ -43390,6 +43390,88 @@
       ]
     },
     {
+      "@id": "kt:iso-iec-27018",
+      "@type": "kto:ExternalConcept",
+      "skos:prefLabel": "ISO/IEC 27018",
+      "skos:definition": "The ISO/IEC standard giving control objectives, controls and guidelines, built on ISO/IEC 27002, for protecting personally identifiable information (PII) in public clouds acting as PII processors; the third edition (2025) is current, and Salesforce lists ISO/IEC 27018:2019 certificates covering most of its cloud services.",
+      "kto:domain": "public-sector-and-compliance",
+      "dcterms:created": "2026-11-22",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "ISO/IEC 27018:2025 Information security, cybersecurity and privacy protection — Guidelines for protection of PII in public clouds acting as PII processors",
+          "dcterms:publisher": "ISO",
+          "schema:url": "https://www.iso.org/standard/27018",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "ISO/IEC 27018:2025",
+          "dcterms:publisher": "IEC Webstore",
+          "schema:url": "https://webstore.iec.ch/en/publication/109374",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "ISO 27018 — Salesforce Compliance",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://compliance.salesforce.com/en/iso-27018",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "ISO 27018 category — Salesforce Compliance",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://compliance.salesforce.com/en/categories/iso-27018",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Salesforce Services Security, Privacy, and Architecture",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/en-us/wp-content/uploads/sites/4/documents/legal/misc/salesforce-security-privacy-and-architecture.pdf?bc=OTH",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/public-sector-and-compliance/iso-iec-27018.md",
+      "skos:altLabel": [
+        "ISO 27018",
+        "ISO/IEC 27018:2025",
+        "ISO/IEC 27018:2019",
+        "Code of practice for PII protection in public clouds",
+        "PII in public clouds standard"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:security-compliance-frameworks"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:iso-iec-27017"
+        },
+        {
+          "@id": "kt:gdpr-international-transfers"
+        },
+        {
+          "@id": "kt:shared-responsibility-model"
+        },
+        {
+          "@id": "kt:hyperforce"
+        },
+        {
+          "@id": "kt:iso-iec-29100"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:iso-iec-27002"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:iso-iec-27001"
+        }
+      ]
+    },
+    {
       "@id": "kt:it-governance",
       "@type": "kto:ExternalConcept",
       "skos:prefLabel": "IT Governance",
