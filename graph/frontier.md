@@ -35,8 +35,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:agentexchange-go-to-market-app` | `kt:agentexchange` |
 | `kt:lightning-out` | `kt:lightning-locker` |
 | `kt:salesforce-ecosystem` | `kt:salesforce-inc` |
-| `kt:mulesoft-platform-integration-architect-certification` | `kt:mulesoft-platform-architect-certification` |
 | `kt:heroku-postgres` | `kt:heroku-connect` |
+| `kt:mulesoft-platform-integration-architect-certification` | `kt:mulesoft-platform-architect-certification` |
 | `kt:object-manager` | `kt:schema-builder` |
 | `kt:dynamic-revenue-orchestrator` | `kt:revenue-cloud` |
 | `kt:revenue-management-consultant-certification` | `kt:revenue-cloud` |
@@ -53,9 +53,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:actionable-relationship-center` | `kt:financial-services-cloud` |
 | `kt:constraint-modeling-language` | `kt:product-configurator` |
 | `kt:product-catalog-management` | `kt:product-configurator` |
+| `kt:backup-and-recover-next` | `kt:backup-and-recover` |
 | `kt:marketing-cloud-sql` | `kt:automation-studio` |
 | `kt:engagement-studio` | `kt:marketing-cloud-account-engagement` |
-| `kt:backup-and-recover-next` | `kt:backup-and-recover` |
 | `kt:iso-iec-25010` | `kt:non-functional-requirements` |
 | `kt:anypoint-runtime-manager` | `kt:mule-runtime-engine` |
 | `kt:data-processing-engine` | `kt:loyalty-management` |
@@ -84,6 +84,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:username-password-flow` | `kt:client-credentials-flow` |
 | `kt:change-order-process` | `kt:statement-of-work` |
 | `kt:decision-matrices` | `kt:decision-tables` |
+| `kt:hyperforce-assistant` | `kt:instance-refresh-and-org-migration` |
 | `kt:data-cloud-code-extension` | `kt:vector-search-in-data-cloud` |
 | `kt:business-architecture` | `kt:capability-maps` |
 | `kt:technology-roadmaps` | `kt:capability-maps` |
@@ -91,13 +92,12 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:agentforce-vibes` | `kt:agentforce-vibes-ide` |
 | `kt:json-web-signature` | `kt:json-web-token` |
 | `kt:setup-audit-trail` | `kt:sarbanes-oxley-act` |
-| `kt:partner-console` | `kt:license-management-app` |
 | `kt:slds-linter` | `kt:salesforce-lightning-design-system` |
+| `kt:partner-console` | `kt:license-management-app` |
 | `kt:subscriber-support-console` | `kt:license-management-app` |
 | `kt:interface-specification-document` | `kt:system-landscape-diagrams` |
 | `kt:passkeys` | `kt:security-keys` |
 | `kt:webauthn` | `kt:security-keys` |
-| `kt:hyperforce-assistant` | `kt:instance-refresh-and-org-migration` |
 | `kt:api-visualizer` | `kt:application-network` |
 | `kt:operating-hours` | `kt:salesforce-scheduler` |
 | `kt:trialforce` | `kt:environment-hub` |
@@ -109,8 +109,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:document-ai` | `kt:unstructured-data-in-data-cloud` |
 | `kt:models-api` | `kt:ai-models` |
 | `kt:user-provisioning` | `kt:scim` |
-| `kt:channel-order-app` | `kt:partner-business-org` |
 | `kt:ui-api` | `kt:field-dependencies` |
+| `kt:channel-order-app` | `kt:partner-business-org` |
 | `kt:organization-wide-email-addresses` | `kt:email-alerts` |
 | `kt:enhanced-letterheads` | `kt:email-templates` |
 | `kt:experience-cloud-consultant-certification` | `kt:licensing-strategy` |
@@ -144,6 +144,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:greenhouse-gas-protocol` | `kt:net-zero-cloud` |
 | `kt:multi-agent-orchestration` | `kt:agentforce-architecture-patterns` |
 | `kt:notes-and-attachments` | `kt:content-document-model` |
+| `kt:planned-maintenance-windows` | `kt:disaster-recovery-and-site-switching` |
+| `kt:read-only-mode` | `kt:disaster-recovery-and-site-switching` |
 | `kt:rollback-plan` | `kt:hypercare` |
 | `kt:tableau-blueprint` | `kt:tableau-architect-certification` |
 | `kt:tableau-server-administrator-certification` | `kt:tableau-architect-certification` |

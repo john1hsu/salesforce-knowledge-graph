@@ -38124,6 +38124,101 @@
       ]
     },
     {
+      "@id": "kt:disaster-recovery-and-site-switching",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Disaster Recovery and Site Switching",
+      "skos:definition": "How Salesforce keeps orgs recoverable from a data center or region failure: each instance is kept in two geographically separate locations, and Salesforce routinely \"site switches\" live instances between them, putting orgs in read-only mode for part of a maintenance window. On Hyperforce, multi-availability-zone design and an optional out-of-region add-on extend the same goal.",
+      "kto:domain": "platform-architecture",
+      "dcterms:created": "2026-11-22",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "6 Ways We Deliver on Our Promise of Availability and Performance",
+          "dcterms:publisher": "Salesforce Engineering",
+          "schema:url": "https://engineering.salesforce.com/6-ways-we-deliver-on-our-promise-of-availability-and-performance-123dc0e45b2d",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Site Switching and Apex Callouts",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2017/10/site-switching-apex-callouts",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "DR Summary and Testing - Salesforce Services on First Party",
+          "dcterms:publisher": "Salesforce Compliance Site",
+          "schema:url": "https://compliance.salesforce.com/en/documents/a005A00000k4ayhQAA",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Architectural Principles for High Availability on Hyperforce",
+          "dcterms:publisher": "Salesforce Engineering",
+          "schema:url": "https://engineering.salesforce.com/?p=5400",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "What do I need to do about my upcoming Salesforce site switch?",
+          "dcterms:publisher": "Heroku Help (Salesforce)",
+          "schema:url": "https://help.heroku.com/GXAW850T/what-do-i-need-to-do-about-my-upcoming-salesforce-site-switch",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Salesforce Out of Region Disaster Recovery data sheet",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/en-us/wp-content/uploads/sites/4/documents/platform/Salesforce-out-of-region-disaster-recovery-data-sheet.pdf",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/platform-architecture/disaster-recovery-and-site-switching.md",
+      "skos:altLabel": [
+        "site switching",
+        "site switch",
+        "continuous site switching",
+        "Salesforce disaster recovery",
+        "Salesforce DR",
+        "data center failover"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-platform"
+        },
+        {
+          "@id": "kt:pod-and-instance-architecture"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:instance-refresh-and-org-migration"
+        },
+        {
+          "@id": "kt:trust-and-status-site"
+        },
+        {
+          "@id": "kt:hyperforce"
+        },
+        {
+          "@id": "kt:apex-callouts"
+        },
+        {
+          "@id": "kt:heroku-connect"
+        },
+        {
+          "@id": "kt:planned-maintenance-windows"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:backup-and-recover"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:read-only-mode"
+        }
+      ]
+    },
+    {
       "@id": "kt:distributed-computing",
       "@type": "kto:ExternalConcept",
       "skos:prefLabel": "Distributed Computing",
