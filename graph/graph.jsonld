@@ -27440,6 +27440,92 @@
       ]
     },
     {
+      "@id": "kt:sandboxpostcopy-interface",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "SandboxPostCopy Interface",
+      "skos:definition": "The Apex interface whose runApexClass(SandboxContext) method Salesforce runs automatically at the end of each sandbox create, clone or refresh, so a team can script post-copy setup such as creating users or sanitizing records.",
+      "kto:domain": "devops-and-alm",
+      "dcterms:created": "2026-11-22",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "SandboxPostCopy Interface (Apex Reference Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_interface_System_SandboxPostCopy.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Create a Sandbox Definition File (Salesforce DX Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/sfdx-dev/guide/sfdx-dev-sandbox-definition.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Create, Clone, or Refresh a Sandbox (Salesforce DX Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/sfdx-dev/guide/sfdx-dev-create-clone-sandboxes.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "SandboxInfo (Tooling API Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.264.0.api_tooling.meta/api_tooling/tooling_api_objects_sandboxinfo.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "org create sandbox (Salesforce CLI Command Reference)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/salesforce-cli-reference/guide/cli_reference_org_create_sandbox.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/devops-and-alm/sandboxpostcopy-interface.md",
+      "skos:altLabel": [
+        "SandboxPostCopy",
+        "System.SandboxPostCopy",
+        "sandbox post-copy script",
+        "post-copy Apex class",
+        "runApexClass",
+        "SandboxContext"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:sandbox-types"
+        },
+        {
+          "@id": "kt:apex"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:sandbox-templates"
+        },
+        {
+          "@id": "kt:data-mask-and-seed"
+        },
+        {
+          "@id": "kt:apex-testing"
+        },
+        {
+          "@id": "kt:test-data-factory"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:salesforce-cli"
+        },
+        {
+          "@id": "kt:tooling-api"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:data-mask-and-seed"
+        }
+      ]
+    },
+    {
       "@id": "kt:scratch-org-allocations",
       "@type": "kto:Limit",
       "skos:prefLabel": "Scratch Org Allocations",
@@ -39425,6 +39511,9 @@
         }
       ],
       "skos:related": [
+        {
+          "@id": "kt:sandboxpostcopy-interface"
+        },
         {
           "@id": "kt:application-lifecycle-management"
         },

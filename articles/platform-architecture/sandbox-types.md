@@ -11,7 +11,7 @@ summary: >-
 release: "Winter '27"
 status: current
 broader: [kt:salesforce-platform]
-related: [kt:application-lifecycle-management, kt:change-sets, kt:devops-center]
+related: [kt:sandboxpostcopy-interface, kt:application-lifecycle-management, kt:change-sets, kt:devops-center]
 relations:
   - {predicate: partOf, object: kt:environment-strategy}
   - {predicate: alternativeTo, object: kt:scratch-orgs}
