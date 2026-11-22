@@ -11,7 +11,7 @@ summary: >-
 release: "Winter '27"
 status: current
 broader: [kt:salesforce-architecture-center]
-related: [kt:data-architecture, kt:solution-design-tradeoffs, kt:architecture-decision-records, kt:integration-patterns, kt:cta-review-board, kt:reference-architectures]
+related: [kt:data-architecture, kt:solution-design-tradeoffs, kt:architecture-decision-records, kt:integration-patterns, kt:cta-review-board, kt:reference-architectures, kt:system-landscape-diagrams]
 relations:
   - {predicate: partOf, object: kt:salesforce-architecture-center}
   - {predicate: usedBy, object: kt:salesforce-architect}

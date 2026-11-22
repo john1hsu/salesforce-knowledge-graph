@@ -2773,6 +2773,9 @@
         },
         {
           "@id": "kt:reference-architectures"
+        },
+        {
+          "@id": "kt:system-landscape-diagrams"
         }
       ],
       "kto:partOf": [
@@ -3349,6 +3352,90 @@
       "kto:contrastsWith": [
         {
           "@id": "kt:application-architect-certification"
+        }
+      ]
+    },
+    {
+      "@id": "kt:system-landscape-diagrams",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "System Landscape Diagrams",
+      "skos:definition": "The broadest architecture picture in a Salesforce programme: a map of the Salesforce products, external systems and integration points in an organization's technology ecosystem, used to see topology and dependencies before zooming into solution, process and data diagrams; Salesforce Architects publishes landscape templates in its Reference Diagrams gallery.",
+      "kto:domain": "architecture-practice",
+      "dcterms:created": "2026-11-22",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "System Landscape (Reference Diagrams)",
+          "dcterms:publisher": "Salesforce Architects",
+          "schema:url": "https://architect.salesforce.com/docs/architect/reference-diagrams/guide/section-system-landscape",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Agentforce System Landscape (Reference Diagrams)",
+          "dcterms:publisher": "Salesforce Architects",
+          "schema:url": "https://architect.salesforce.com/docs/architect/reference-diagrams/guide/einstein-system-landscape",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Salesforce Diagrams: Documentation & Implementation",
+          "dcterms:publisher": "Salesforce Architects",
+          "schema:url": "https://architect.salesforce.com/diagrams/framework/docs-implementation",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Project Documentation for Salesforce B2C Commerce Technical Architects: Document the Architectural Landscape",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/b2c-project-docs-for-technical-architects/b2c-doc-architectural-landscape",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "System landscape diagram",
+          "dcterms:publisher": "C4 model (Simon Brown)",
+          "schema:url": "https://c4model.com/diagrams/system-landscape",
+          "kto:sourceType": "community"
+        }
+      ],
+      "kto:file": "articles/architecture-practice/system-landscape-diagrams.md",
+      "skos:altLabel": [
+        "system landscape diagram",
+        "system landscape",
+        "architectural landscape diagram",
+        "systems landscape"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-diagrams"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:capability-maps"
+        },
+        {
+          "@id": "kt:integration-patterns"
+        },
+        {
+          "@id": "kt:solution-design-document"
+        },
+        {
+          "@id": "kt:reference-architectures"
+        },
+        {
+          "@id": "kt:org-strategy"
+        },
+        {
+          "@id": "kt:interface-specification-document"
+        }
+      ],
+      "kto:usedBy": [
+        {
+          "@id": "kt:salesforce-architect"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:salesforce-diagrams"
         }
       ]
     },
