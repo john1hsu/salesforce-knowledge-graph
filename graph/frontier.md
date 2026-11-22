@@ -5,7 +5,10 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | Node | Referenced by |
 |---|---|
 | `kt:business-analyst` | `kt:fit-gap-analysis`, `kt:omnistudio-consultant-certification`, `kt:requirements-gathering`, `kt:user-acceptance-testing` |
-| `kt:service-appointments` | `kt:field-service`, `kt:salesforce-scheduler` |
+| `kt:dispatcher-console` | `kt:field-service`, `kt:service-appointments` |
+| `kt:field-service-mobile-app` | `kt:field-service`, `kt:service-appointments` |
+| `kt:field-service-scheduling-policies` | `kt:field-service`, `kt:service-appointments` |
+| `kt:work-orders` | `kt:field-service`, `kt:service-appointments` |
 | `kt:data-extensions` | `kt:automation-studio`, `kt:contact-builder` |
 | `kt:requirements-engineering` | `kt:non-functional-requirements`, `kt:requirements-gathering` |
 | `kt:user-stories` | `kt:fit-gap-analysis`, `kt:requirements-gathering` |
@@ -18,17 +21,13 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:data-categories` | `kt:knowledge-base` |
 | `kt:trailhead` | `kt:salesforce-certification-program` |
 | `kt:static-soql` | `kt:dynamic-soql` |
-| `kt:data-management` | `kt:data-governance` |
-| `kt:data-stewardship` | `kt:data-governance` |
 | `kt:omni-channel-limits` | `kt:omni-channel` |
 | `kt:presence-configuration` | `kt:omni-channel` |
 | `kt:skills-based-routing` | `kt:omni-channel` |
+| `kt:data-management` | `kt:data-governance` |
+| `kt:data-stewardship` | `kt:data-governance` |
 | `kt:data-import-wizard` | `kt:data-loader` |
 | `kt:salesforce-lightning-design-system` | `kt:visualforce` |
-| `kt:dispatcher-console` | `kt:field-service` |
-| `kt:field-service-mobile-app` | `kt:field-service` |
-| `kt:field-service-scheduling-policies` | `kt:field-service` |
-| `kt:work-orders` | `kt:field-service` |
 | `kt:salesforce-sites` | `kt:custom-domains` |
 | `kt:entitlement-process-metadata` | `kt:entitlement-management` |
 | `kt:einstein-discovery` | `kt:crm-analytics` |
@@ -39,12 +38,12 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:salesforce-ecosystem` | `kt:salesforce-inc` |
 | `kt:lightning-out` | `kt:lightning-locker` |
 | `kt:apex-rest-services` | `kt:remote-call-in` |
-| `kt:agentexchange-go-to-market-app` | `kt:agentexchange` |
 | `kt:heroku-postgres` | `kt:heroku-connect` |
+| `kt:agentexchange-go-to-market-app` | `kt:agentexchange` |
 | `kt:dynamic-revenue-orchestrator` | `kt:revenue-cloud` |
 | `kt:revenue-management-consultant-certification` | `kt:revenue-cloud` |
-| `kt:application-network` | `kt:api-led-connectivity` |
 | `kt:object-manager` | `kt:schema-builder` |
+| `kt:application-network` | `kt:api-led-connectivity` |
 | `kt:point-to-point-integration` | `kt:api-led-connectivity` |
 | `kt:mulesoft-platform-integration-architect-certification` | `kt:mulesoft-platform-architect-certification` |
 | `kt:path` | `kt:business-processes` |
@@ -61,8 +60,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:slack-workflow-builder` | `kt:slack-platform` |
 | `kt:constraint-modeling-language` | `kt:product-configurator` |
 | `kt:product-catalog-management` | `kt:product-configurator` |
-| `kt:marketing-cloud-sql` | `kt:automation-studio` |
 | `kt:actionable-relationship-center` | `kt:financial-services-cloud` |
+| `kt:marketing-cloud-sql` | `kt:automation-studio` |
 | `kt:engagement-studio` | `kt:marketing-cloud-account-engagement` |
 | `kt:backup-and-recover-next` | `kt:backup-and-recover` |
 | `kt:data-processing-engine` | `kt:loyalty-management` |
@@ -73,9 +72,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:platform-cache-partitions` | `kt:platform-cache` |
 | `kt:computer-science` | `kt:distributed-computing` |
 | `kt:management` | `kt:organizational-governance` |
+| `kt:data-cloud-query-api` | `kt:data-graphs` |
 | `kt:b2b-commerce` | `kt:commerce-cloud` |
 | `kt:b2c-commerce` | `kt:commerce-cloud` |
-| `kt:data-cloud-query-api` | `kt:data-graphs` |
 | `kt:salesforce-order-management` | `kt:commerce-cloud` |
 | `kt:fhir` | `kt:health-cloud` |
 | `kt:utilization-management` | `kt:health-cloud` |
@@ -110,15 +109,16 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:developer-console` | `kt:apex-logging-and-debug-logs` |
 | `kt:document-ai` | `kt:unstructured-data-in-data-cloud` |
 | `kt:models-api` | `kt:ai-models` |
+| `kt:user-provisioning` | `kt:scim` |
 | `kt:business-architecture` | `kt:capability-maps` |
 | `kt:technology-roadmaps` | `kt:capability-maps` |
 | `kt:value-streams` | `kt:capability-maps` |
-| `kt:ui-api` | `kt:field-dependencies` |
-| `kt:user-provisioning` | `kt:scim` |
 | `kt:channel-order-app` | `kt:partner-business-org` |
+| `kt:ui-api` | `kt:field-dependencies` |
 | `kt:iso-iec-27018` | `kt:iso-iec-27017` |
 | `kt:einstein-prediction-builder` | `kt:einstein-next-best-action` |
 | `kt:currency-type-object` | `kt:multiple-currencies` |
+| `kt:operating-hours` | `kt:salesforce-scheduler` |
 | `kt:agentforce-nonprofit-consultant-certification` | `kt:agentforce-nonprofit` |
 | `kt:nonprofit-success-pack` | `kt:agentforce-nonprofit` |
 | `kt:b2c-commerce-architect-certification` | `kt:b2c-solution-architect-certification` |
@@ -130,15 +130,14 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:consent-data-model` | `kt:consent-management-in-data-cloud` |
 | `kt:custom-labels` | `kt:flow-formula-resources` |
 | `kt:digital-accessibility` | `kt:section-508-accessibility` |
-| `kt:greenhouse-gas-protocol` | `kt:net-zero-cloud` |
 | `kt:notes-and-attachments` | `kt:content-document-model` |
-| `kt:operating-hours` | `kt:salesforce-scheduler` |
 | `kt:tx-ramp` | `kt:govramp` |
 | `kt:wcag` | `kt:section-508-accessibility` |
 | `kt:web-to-case` | `kt:auto-response-rules` |
 | `kt:web-to-lead` | `kt:auto-response-rules` |
 | `kt:agent-to-agent-protocol` | `kt:agentforce-architecture-patterns` |
 | `kt:cross-cloud-integration` | `kt:salesforce-solution-kits` |
+| `kt:greenhouse-gas-protocol` | `kt:net-zero-cloud` |
 | `kt:multi-agent-orchestration` | `kt:agentforce-architecture-patterns` |
 | `kt:rollback-plan` | `kt:hypercare` |
 | `kt:tableau-blueprint` | `kt:tableau-architect-certification` |

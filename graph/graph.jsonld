@@ -11423,6 +11423,97 @@
       ]
     },
     {
+      "@id": "kt:service-appointments",
+      "@type": "kto:StandardObject",
+      "skos:prefLabel": "Service Appointments",
+      "skos:definition": "The ServiceAppointment standard object records when, where and by whom a piece of customer work is done; it is the schedulable unit that Field Service dispatches to mobile workers and that Salesforce Scheduler books for customer meetings.",
+      "kto:domain": "clouds-and-products",
+      "dcterms:created": "2026-11-22",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "ServiceAppointment | Object Reference for the Salesforce Platform",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/api/sforce_api_objects_serviceappointment.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "ServiceAppointment Custom Fields | Field Service Developer Guide",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.field_service_dev.meta/field_service_dev/fsl_custom_fields_object_serviceappointment.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "ServiceAppointment | Salesforce Scheduler Developer Guide",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/service/salesforce-scheduler-dev-guide/guide/sforce-api-objects-serviceappointment.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Get Started with Field Service and Operations (Trailhead unit)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/field_service_basics/field_service_basics_intro",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Track Field Service (Trailhead unit)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/field_service_center/field_service_center_track",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/clouds-and-products/service-appointments.md",
+      "skos:altLabel": [
+        "service appointment",
+        "ServiceAppointment",
+        "ServiceAppointment object",
+        "SA record"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:field-service"
+        },
+        {
+          "@id": "kt:standard-objects"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:work-orders"
+        },
+        {
+          "@id": "kt:dispatcher-console"
+        },
+        {
+          "@id": "kt:field-service-mobile-app"
+        },
+        {
+          "@id": "kt:service-cloud"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:field-service"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:salesforce-scheduler"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:work-orders"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:field-service-scheduling-policies"
+        }
+      ]
+    },
+    {
       "@id": "kt:service-cloud",
       "@type": "kto:Product",
       "skos:prefLabel": "Service Cloud",
