@@ -5850,6 +5850,88 @@
       ]
     },
     {
+      "@id": "kt:flow-templates",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Flow Templates",
+      "skos:definition": "Flows marked with the Template property so that admins in the org, or subscribers of a managed package, can open them in Flow Builder, copy them and customize the copy, instead of building the automation from scratch.",
+      "kto:domain": "automation",
+      "dcterms:created": "2026-11-22",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Flow | Tooling API Objects",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/api-tooling/references/tooling-objects/tooling-flow.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Work with Flow Approval Process Templates",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=platform.automate_automated_approvals_build_template.htm&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Customize Standard Flow Templates",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/apex/HTViewHelpDoc?id=sf.ls_customize_flows.htm&language=en_US",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Flow Templates",
+          "dcterms:publisher": "UnofficialSF",
+          "schema:url": "https://unofficialsf.com/pauple_helpie/creating-flow-templates/",
+          "kto:sourceType": "community"
+        },
+        {
+          "dcterms:title": "Pre-Built Business Processes: How ISVs Use Flow Templates",
+          "dcterms:publisher": "Inside the Salesforce Ecosystem (Medium)",
+          "schema:url": "https://medium.com/inside-the-salesforce-ecosystem/pre-built-business-processes-how-isvs-use-flow-templates-ddc9910ff93a",
+          "kto:sourceType": "community"
+        }
+      ],
+      "kto:file": "articles/automation/flow-templates.md",
+      "skos:altLabel": [
+        "flow template",
+        "IsTemplate",
+        "template flows",
+        "packaged flow templates",
+        "Use a Template"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:flow-builder"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:flow-versioning"
+        },
+        {
+          "@id": "kt:approval-processes"
+        },
+        {
+          "@id": "kt:salesforce-scheduler"
+        },
+        {
+          "@id": "kt:screen-flow"
+        },
+        {
+          "@id": "kt:custom-metadata-types"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:second-generation-managed-packages"
+        }
+      ],
+      "kto:queriedWith": [
+        {
+          "@id": "kt:tooling-api"
+        }
+      ]
+    },
+    {
       "@id": "kt:flow-tests",
       "@type": "kto:Feature",
       "skos:prefLabel": "Flow Tests",
