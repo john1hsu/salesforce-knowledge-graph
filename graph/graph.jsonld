@@ -43174,6 +43174,84 @@
       ]
     },
     {
+      "@id": "kt:performance-work-statement",
+      "@type": "kto:ExternalConcept",
+      "skos:prefLabel": "Performance Work Statement",
+      "skos:definition": "The U.S. federal contract document, defined in FAR Subpart 37.6, that describes a services requirement by the results the government needs and the measurable standards it will judge them by, rather than by method or labor hours. Federal buyers of Salesforce implementation and managed services typically issue or accept one in place of a commercial statement of work.",
+      "kto:domain": "public-sector-and-compliance",
+      "dcterms:created": "2026-11-22",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "FAR 37.602 Performance work statement",
+          "dcterms:publisher": "U.S. General Services Administration (Acquisition.gov)",
+          "schema:url": "https://www.acquisition.gov/far/37.602",
+          "kto:sourceType": "government"
+        },
+        {
+          "dcterms:title": "FAR 37.601 General (Performance-Based Acquisition)",
+          "dcterms:publisher": "U.S. General Services Administration (Acquisition.gov)",
+          "schema:url": "https://www.acquisition.gov/far/37.601",
+          "kto:sourceType": "government"
+        },
+        {
+          "dcterms:title": "Acquisition of Services — Step 4: Requirements Definition",
+          "dcterms:publisher": "Defense Acquisition University, Adaptive Acquisition Framework (OUSD(A&S) guidance)",
+          "schema:url": "https://aaf.dau.edu/aaf/services/step4",
+          "kto:sourceType": "government"
+        },
+        {
+          "dcterms:title": "AAS Quality Assurance Surveillance Plan (QASP) Template",
+          "dcterms:publisher": "U.S. General Services Administration, Assisted Acquisition Services",
+          "schema:url": "https://aas.gsa.gov/assets/pdf_docs/QASP_Template_FINAL_19Sep22.pdf",
+          "kto:sourceType": "government"
+        }
+      ],
+      "kto:file": "articles/public-sector-and-compliance/performance-work-statement.md",
+      "skos:altLabel": [
+        "PWS",
+        "performance-based work statement"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:federal-acquisition-regulation"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:public-sector-solutions"
+        },
+        {
+          "@id": "kt:authority-to-operate"
+        },
+        {
+          "@id": "kt:non-functional-requirements"
+        },
+        {
+          "@id": "kt:user-acceptance-testing"
+        },
+        {
+          "@id": "kt:requirements-gathering"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:statement-of-work"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:quality-assurance-surveillance-plan"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:statement-of-objectives"
+        }
+      ]
+    },
+    {
       "@id": "kt:public-sector-solutions",
       "@type": "kto:Product",
       "skos:prefLabel": "Public Sector Solutions",
