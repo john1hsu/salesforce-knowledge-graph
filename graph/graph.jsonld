@@ -5031,6 +5031,102 @@
       ]
     },
     {
+      "@id": "kt:email-templates",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Email Templates",
+      "skos:definition": "Reusable, merge-field-driven email bodies and subjects stored as records in Salesforce, in Lightning (builder- or HTML-based, optionally with an enhanced letterhead) or Classic (text, HTML, custom or Visualforce) form, that users, email alerts, flows and other automation send against a record.",
+      "kto:domain": "automation",
+      "dcterms:created": "2026-11-22",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Create a Visualforce Email Template (Visualforce Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/salesforce-pages-developers-guide/guide/pages-email-templates-creating.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "EnhancedLetterhead (Object Reference for Salesforce and Lightning Platform)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.228.0.api.meta/api/sforce_api_objects_enhancedletterhead.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Create Professional Email Letterheads and Templates Easily",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/projects/customize-an-org-to-support-a-new-business-unit/configure-an-email-letterhead-and-template",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Create Your Email Template (Build an Email Flow for Program Management Module)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/projects/build-an-email-flow-for-program-management-module/create-your-email-template",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Communicate Using the Action Element (Data and Actions in Flows)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/it/content/learn/modules/data-and-actions-in-flows/communicate-with-users-flow",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Learn MOAR in Winter '21 With Lightning Email Templates",
+          "dcterms:publisher": "Salesforce Admins",
+          "schema:url": "https://admin.salesforce.com/blog/2020/learn-moar-in-winter-21-with-lightning-email-templates",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/automation/email-templates.md",
+      "skos:altLabel": [
+        "email template",
+        "Lightning email templates",
+        "Classic email templates",
+        "Visualforce email templates",
+        "EmailTemplate"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:process-automation"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:email-alerts"
+        },
+        {
+          "@id": "kt:auto-response-rules"
+        },
+        {
+          "@id": "kt:record-triggered-flow"
+        },
+        {
+          "@id": "kt:flow-versioning"
+        },
+        {
+          "@id": "kt:approval-processes"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:email-alerts"
+        },
+        {
+          "@id": "kt:auto-response-rules"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:enhanced-letterheads"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:visualforce"
+        }
+      ]
+    },
+    {
       "@id": "kt:escalation-rules",
       "@type": "kto:Feature",
       "skos:prefLabel": "Escalation Rules",

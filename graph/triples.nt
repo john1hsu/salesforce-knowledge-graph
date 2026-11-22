@@ -4712,6 +4712,35 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/email-alerts> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/invocable-actions-api> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/email-alerts> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/email-alerts> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/email-templates> <http://purl.org/dc/terms/created> "2026-11-22" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/email-templates> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/email-templates> <http://www.w3.org/2000/01/rdf-schema#label> "Email Templates" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/email-templates> <http://www.w3.org/2004/02/skos/core#altLabel> "Classic email templates" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/email-templates> <http://www.w3.org/2004/02/skos/core#altLabel> "EmailTemplate" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/email-templates> <http://www.w3.org/2004/02/skos/core#altLabel> "Lightning email templates" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/email-templates> <http://www.w3.org/2004/02/skos/core#altLabel> "Visualforce email templates" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/email-templates> <http://www.w3.org/2004/02/skos/core#altLabel> "email template" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/email-templates> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/process-automation> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/email-templates> <http://www.w3.org/2004/02/skos/core#definition> "Reusable, merge-field-driven email bodies and subjects stored as records in Salesforce, in Lightning (builder- or HTML-based, optionally with an enhanced letterhead) or Classic (text, HTML, custom or Visualforce) form, that users, email alerts, flows and other automation send against a record." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/email-templates> <http://www.w3.org/2004/02/skos/core#prefLabel> "Email Templates" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/email-templates> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/approval-processes> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/email-templates> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/auto-response-rules> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/email-templates> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/email-alerts> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/email-templates> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-versioning> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/email-templates> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/record-triggered-flow> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/email-templates> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-templates/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/email-templates> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-templates/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/email-templates> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-templates/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/email-templates> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-templates/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/email-templates> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-templates/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/email-templates> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-templates/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/email-templates> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#consumedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/auto-response-rules> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/email-templates> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#consumedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/email-alerts> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/email-templates> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/enhanced-letterheads> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/email-templates> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "automation" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/email-templates> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/visualforce> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/email-templates> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/email-templates> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/enterprise-territory-management> <http://purl.org/dc/terms/created> "2026-11-03" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/enterprise-territory-management> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/enterprise-territory-management> <http://www.w3.org/2000/01/rdf-schema#label> "Sales Territories" .
@@ -17901,6 +17930,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-alerts/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-alerts/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-alerts/s5> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/isvforce/guide/cma-customize-email-org-wide-address.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-templates/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-templates/s1> <http://purl.org/dc/terms/title> "Create a Visualforce Email Template (Visualforce Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-templates/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-templates/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-templates/s1> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/salesforce-pages-developers-guide/guide/pages-email-templates-creating.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-templates/s2> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-templates/s2> <http://purl.org/dc/terms/title> "EnhancedLetterhead (Object Reference for Salesforce and Lightning Platform)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-templates/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-templates/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-templates/s2> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.228.0.api.meta/api/sforce_api_objects_enhancedletterhead.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-templates/s3> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-templates/s3> <http://purl.org/dc/terms/title> "Create Professional Email Letterheads and Templates Easily" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-templates/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-templates/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-templates/s3> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/projects/customize-an-org-to-support-a-new-business-unit/configure-an-email-letterhead-and-template" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-templates/s4> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-templates/s4> <http://purl.org/dc/terms/title> "Create Your Email Template (Build an Email Flow for Program Management Module)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-templates/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-templates/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-templates/s4> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/projects/build-an-email-flow-for-program-management-module/create-your-email-template" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-templates/s5> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-templates/s5> <http://purl.org/dc/terms/title> "Communicate Using the Action Element (Data and Actions in Flows)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-templates/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-templates/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-templates/s5> <https://schema.org/url> "https://trailhead.salesforce.com/it/content/learn/modules/data-and-actions-in-flows/communicate-with-users-flow" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-templates/s6> <http://purl.org/dc/terms/publisher> "Salesforce Admins" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-templates/s6> <http://purl.org/dc/terms/title> "Learn MOAR in Winter '21 With Lightning Email Templates" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-templates/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-templates/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-templates/s6> <https://schema.org/url> "https://admin.salesforce.com/blog/2020/learn-moar-in-winter-21-with-lightning-email-templates" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/enterprise-territory-management/s1> <http://purl.org/dc/terms/publisher> "Salesforce" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/enterprise-territory-management/s1> <http://purl.org/dc/terms/title> "Sales Territories (Salesforce Help)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/enterprise-territory-management/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
