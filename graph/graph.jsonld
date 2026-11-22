@@ -45511,6 +45511,113 @@
       ]
     },
     {
+      "@id": "kt:partner-community-licenses",
+      "@type": "kto:Product",
+      "skos:prefLabel": "Partner Community Licenses",
+      "skos:definition": "The Experience Cloud user license for business-to-business partner users such as resellers and distributors: role-based external users who work shared CRM records like leads and opportunities through account roles under the partner account, sharing rules and the internal role hierarchy, typically in a partner relationship management (PRM) portal.",
+      "kto:domain": "security-and-sharing",
+      "dcterms:created": "2026-11-22",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Set Up Account Roles and the Role Hierarchy (Share CRM Data with Your Partners)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/projects/communities_share_crm_data/account_roles_hierarchy",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Create a Partner Portal, Enable Partner Account and Users, and Add Members",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/projects/communities_share_crm_data/create_portal_and_users",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Use Sharing Rules for External Users",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/projects/communities_share_crm_data/sharing_rules",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Delegate Site Administration to an External User",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/HTViewHelpDoc?id=networks_DPUA.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "OEM User License Guide (ISVforce Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.packagingGuide.meta/packageGuide/oem_user_license_comparison.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Enhance Partner Engagement with Effective Solutions (Experience Cloud Basics)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/community_cloud_basics/communities_partner_community",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Salesforce Communities Licenses",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2014/02/salesforce-communities-licenses",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/security-and-sharing/partner-community-licenses.md",
+      "skos:altLabel": [
+        "Partner Community license",
+        "Partner Community Login license",
+        "Experience Cloud partner license",
+        "PRM partner user license"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:user-licenses"
+        },
+        {
+          "@id": "kt:experience-cloud"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:role-hierarchy"
+        },
+        {
+          "@id": "kt:sharing-rules"
+        },
+        {
+          "@id": "kt:public-groups"
+        },
+        {
+          "@id": "kt:assignment-rules"
+        },
+        {
+          "@id": "kt:licensing-strategy"
+        },
+        {
+          "@id": "kt:person-accounts"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:customer-community-licenses"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:experience-cloud"
+        },
+        {
+          "@id": "kt:partner-relationship-management"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:role-hierarchy"
+        }
+      ]
+    },
+    {
       "@id": "kt:permission-set-groups",
       "@type": "kto:SecurityControl",
       "skos:prefLabel": "Permission Set Groups",

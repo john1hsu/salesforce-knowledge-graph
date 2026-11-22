@@ -9160,6 +9160,37 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/partner-business-org> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/license-management-app> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/partner-business-org> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/partner-business-org> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/partner-community-licenses> <http://purl.org/dc/terms/created> "2026-11-22" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/partner-community-licenses> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Product> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/partner-community-licenses> <http://www.w3.org/2000/01/rdf-schema#label> "Partner Community Licenses" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/partner-community-licenses> <http://www.w3.org/2004/02/skos/core#altLabel> "Experience Cloud partner license" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/partner-community-licenses> <http://www.w3.org/2004/02/skos/core#altLabel> "PRM partner user license" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/partner-community-licenses> <http://www.w3.org/2004/02/skos/core#altLabel> "Partner Community Login license" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/partner-community-licenses> <http://www.w3.org/2004/02/skos/core#altLabel> "Partner Community license" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/partner-community-licenses> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/experience-cloud> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/partner-community-licenses> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/user-licenses> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/partner-community-licenses> <http://www.w3.org/2004/02/skos/core#definition> "The Experience Cloud user license for business-to-business partner users such as resellers and distributors: role-based external users who work shared CRM records like leads and opportunities through account roles under the partner account, sharing rules and the internal role hierarchy, typically in a partner relationship management (PRM) portal." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/partner-community-licenses> <http://www.w3.org/2004/02/skos/core#prefLabel> "Partner Community Licenses" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/partner-community-licenses> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/assignment-rules> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/partner-community-licenses> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/licensing-strategy> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/partner-community-licenses> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/person-accounts> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/partner-community-licenses> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/public-groups> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/partner-community-licenses> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/role-hierarchy> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/partner-community-licenses> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-rules> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/partner-community-licenses> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/partner-community-licenses/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/partner-community-licenses> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/partner-community-licenses/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/partner-community-licenses> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/partner-community-licenses/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/partner-community-licenses> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/partner-community-licenses/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/partner-community-licenses> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/partner-community-licenses/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/partner-community-licenses> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/partner-community-licenses/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/partner-community-licenses> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/partner-community-licenses/s7> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/partner-community-licenses> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#consumedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/experience-cloud> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/partner-community-licenses> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#consumedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/partner-relationship-management> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/partner-community-licenses> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#contrastsWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/customer-community-licenses> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/partner-community-licenses> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/role-hierarchy> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/partner-community-licenses> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "security-and-sharing" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/partner-community-licenses> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/partner-community-licenses> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/password-policies> <http://purl.org/dc/terms/created> "2026-11-09" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/password-policies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#SecurityControl> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/password-policies> <http://www.w3.org/2000/01/rdf-schema#label> "Password Policies" .
@@ -22352,6 +22383,41 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/partner-business-org/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/partner-business-org/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/partner-business-org/s6> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/isvforce/guide/environment-hub-intro.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/partner-community-licenses/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/partner-community-licenses/s1> <http://purl.org/dc/terms/title> "Set Up Account Roles and the Role Hierarchy (Share CRM Data with Your Partners)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/partner-community-licenses/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/partner-community-licenses/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/partner-community-licenses/s1> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/projects/communities_share_crm_data/account_roles_hierarchy" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/partner-community-licenses/s2> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/partner-community-licenses/s2> <http://purl.org/dc/terms/title> "Create a Partner Portal, Enable Partner Account and Users, and Add Members" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/partner-community-licenses/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/partner-community-licenses/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/partner-community-licenses/s2> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/projects/communities_share_crm_data/create_portal_and_users" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/partner-community-licenses/s3> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/partner-community-licenses/s3> <http://purl.org/dc/terms/title> "Use Sharing Rules for External Users" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/partner-community-licenses/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/partner-community-licenses/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/partner-community-licenses/s3> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/projects/communities_share_crm_data/sharing_rules" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/partner-community-licenses/s4> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/partner-community-licenses/s4> <http://purl.org/dc/terms/title> "Delegate Site Administration to an External User" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/partner-community-licenses/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/partner-community-licenses/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/partner-community-licenses/s4> <https://schema.org/url> "https://help.salesforce.com/HTViewHelpDoc?id=networks_DPUA.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/partner-community-licenses/s5> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/partner-community-licenses/s5> <http://purl.org/dc/terms/title> "OEM User License Guide (ISVforce Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/partner-community-licenses/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/partner-community-licenses/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/partner-community-licenses/s5> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.packagingGuide.meta/packageGuide/oem_user_license_comparison.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/partner-community-licenses/s6> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/partner-community-licenses/s6> <http://purl.org/dc/terms/title> "Enhance Partner Engagement with Effective Solutions (Experience Cloud Basics)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/partner-community-licenses/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/partner-community-licenses/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/partner-community-licenses/s6> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/community_cloud_basics/communities_partner_community" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/partner-community-licenses/s7> <http://purl.org/dc/terms/publisher> "Salesforce Developers Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/partner-community-licenses/s7> <http://purl.org/dc/terms/title> "Salesforce Communities Licenses" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/partner-community-licenses/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/partner-community-licenses/s7> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/partner-community-licenses/s7> <https://schema.org/url> "https://developer.salesforce.com/blogs/2014/02/salesforce-communities-licenses" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/password-policies/s1> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/password-policies/s1> <http://purl.org/dc/terms/title> "Manage User Passwords" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/password-policies/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
