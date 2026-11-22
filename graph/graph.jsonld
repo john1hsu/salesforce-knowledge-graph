@@ -48264,6 +48264,91 @@
       ]
     },
     {
+      "@id": "kt:share-groups",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Share Groups",
+      "skos:definition": "An Experience Cloud sharing mechanism, activated per sharing set, that shares records owned by roleless high-volume site users (such as Customer Community license holders) with chosen internal users and with external users from the same parent account, since those owners can't use roles, groups or manual sharing.",
+      "kto:domain": "security-and-sharing",
+      "dcterms:created": "2026-11-22",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Use Share Groups to Share Records Owned by High-Volume Experience Cloud Site Users",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=sf.networks_sharing_light_users.htm&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "About High-Volume Community or Site Users",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=platform.networks_about_hvpu.htm&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Create a Sharing Set for Experience Cloud Site Users",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=sf.networks_setting_light_users.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Use Site-Specific Sharing (Share CRM Data with Your Partners and Customers project)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/projects/communities_share_crm_data/external_user_sharing",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/security-and-sharing/share-groups.md",
+      "skos:altLabel": [
+        "share group",
+        "Experience Cloud share groups",
+        "share group settings",
+        "high-volume user share groups"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-sharing-model"
+        },
+        {
+          "@id": "kt:experience-cloud"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:customer-community-licenses"
+        },
+        {
+          "@id": "kt:implicit-sharing"
+        },
+        {
+          "@id": "kt:role-hierarchy"
+        },
+        {
+          "@id": "kt:high-volume-experience-cloud-users"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:sharing-sets"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:public-groups"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:experience-cloud"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:guest-user-sharing-rules"
+        }
+      ]
+    },
+    {
       "@id": "kt:sharing-and-visibility-architect-certification",
       "@type": "kto:Certification",
       "skos:prefLabel": "Sharing and Visibility Architect Certification",

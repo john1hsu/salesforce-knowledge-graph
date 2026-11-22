@@ -12858,6 +12858,32 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/session-settings> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#mitigates> <https://github.com/john1hsu/salesforce-knowledge-graph/id/account-takeover> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/session-settings> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/session-settings> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/share-groups> <http://purl.org/dc/terms/created> "2026-11-22" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/share-groups> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/share-groups> <http://www.w3.org/2000/01/rdf-schema#label> "Share Groups" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/share-groups> <http://www.w3.org/2004/02/skos/core#altLabel> "Experience Cloud share groups" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/share-groups> <http://www.w3.org/2004/02/skos/core#altLabel> "high-volume user share groups" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/share-groups> <http://www.w3.org/2004/02/skos/core#altLabel> "share group settings" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/share-groups> <http://www.w3.org/2004/02/skos/core#altLabel> "share group" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/share-groups> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/experience-cloud> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/share-groups> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-sharing-model> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/share-groups> <http://www.w3.org/2004/02/skos/core#definition> "An Experience Cloud sharing mechanism, activated per sharing set, that shares records owned by roleless high-volume site users (such as Customer Community license holders) with chosen internal users and with external users from the same parent account, since those owners can't use roles, groups or manual sharing." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/share-groups> <http://www.w3.org/2004/02/skos/core#prefLabel> "Share Groups" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/share-groups> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/customer-community-licenses> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/share-groups> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/high-volume-experience-cloud-users> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/share-groups> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/implicit-sharing> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/share-groups> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/role-hierarchy> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/share-groups> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/share-groups/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/share-groups> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/share-groups/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/share-groups> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/share-groups/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/share-groups> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/share-groups/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/share-groups> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#alternativeTo> <https://github.com/john1hsu/salesforce-knowledge-graph/id/guest-user-sharing-rules> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/share-groups> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#consumedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/experience-cloud> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/share-groups> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#contrastsWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/public-groups> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/share-groups> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-sets> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/share-groups> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "security-and-sharing" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/share-groups> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/share-groups> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/shared-responsibility-model> <http://purl.org/dc/terms/created> "2026-11-10" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/shared-responsibility-model> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/shared-responsibility-model> <http://www.w3.org/2000/01/rdf-schema#label> "Shared Responsibility Model" .
@@ -26293,6 +26319,26 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/session-settings/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/session-settings/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/session-settings/s4> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/secure-salesforce-configuration/run-health-check" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/share-groups/s1> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/share-groups/s1> <http://purl.org/dc/terms/title> "Use Share Groups to Share Records Owned by High-Volume Experience Cloud Site Users" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/share-groups/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/share-groups/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/share-groups/s1> <https://schema.org/url> "https://help.salesforce.com/s/articleView?language=en_US&id=sf.networks_sharing_light_users.htm&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/share-groups/s2> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/share-groups/s2> <http://purl.org/dc/terms/title> "About High-Volume Community or Site Users" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/share-groups/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/share-groups/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/share-groups/s2> <https://schema.org/url> "https://help.salesforce.com/s/articleView?language=en_US&id=platform.networks_about_hvpu.htm&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/share-groups/s3> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/share-groups/s3> <http://purl.org/dc/terms/title> "Create a Sharing Set for Experience Cloud Site Users" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/share-groups/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/share-groups/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/share-groups/s3> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=sf.networks_setting_light_users.htm&language=en_US&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/share-groups/s4> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/share-groups/s4> <http://purl.org/dc/terms/title> "Use Site-Specific Sharing (Share CRM Data with Your Partners and Customers project)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/share-groups/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/share-groups/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/share-groups/s4> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/projects/communities_share_crm_data/external_user_sharing" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/shared-responsibility-model/s1> <http://purl.org/dc/terms/publisher> "Salesforce" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/shared-responsibility-model/s1> <http://purl.org/dc/terms/title> "Security as a Shared Responsibility Between Provider and Customer" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/shared-responsibility-model/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

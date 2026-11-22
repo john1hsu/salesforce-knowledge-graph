@@ -13,6 +13,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:requirements-engineering` | `kt:non-functional-requirements`, `kt:requirements-gathering` |
 | `kt:mulesoft-composer` | `kt:application-network`, `kt:slack-platform` |
 | `kt:user-stories` | `kt:fit-gap-analysis`, `kt:requirements-gathering` |
+| `kt:sharing-sets` | `kt:customer-community-licenses`, `kt:share-groups` |
 | `kt:salesforce-ecosystem-roles` | `kt:salesforce-architect` |
 | `kt:lightning-service-console` | `kt:service-cloud` |
 | `kt:service-setup-assistant` | `kt:service-cloud` |
@@ -65,8 +66,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:computer-science` | `kt:distributed-computing` |
 | `kt:management` | `kt:organizational-governance` |
 | `kt:data-cloud-query-api` | `kt:data-graphs` |
-| `kt:share-groups` | `kt:customer-community-licenses` |
-| `kt:sharing-sets` | `kt:customer-community-licenses` |
 | `kt:b2b-commerce` | `kt:commerce-cloud` |
 | `kt:b2c-commerce` | `kt:commerce-cloud` |
 | `kt:salesforce-order-management` | `kt:commerce-cloud` |
@@ -92,13 +91,13 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:agentforce-vibes` | `kt:agentforce-vibes-ide` |
 | `kt:json-web-signature` | `kt:json-web-token` |
 | `kt:setup-audit-trail` | `kt:sarbanes-oxley-act` |
-| `kt:slds-linter` | `kt:salesforce-lightning-design-system` |
 | `kt:partner-console` | `kt:license-management-app` |
+| `kt:slds-linter` | `kt:salesforce-lightning-design-system` |
 | `kt:subscriber-support-console` | `kt:license-management-app` |
 | `kt:interface-specification-document` | `kt:system-landscape-diagrams` |
-| `kt:hyperforce-assistant` | `kt:instance-refresh-and-org-migration` |
 | `kt:passkeys` | `kt:security-keys` |
 | `kt:webauthn` | `kt:security-keys` |
+| `kt:hyperforce-assistant` | `kt:instance-refresh-and-org-migration` |
 | `kt:api-visualizer` | `kt:application-network` |
 | `kt:operating-hours` | `kt:salesforce-scheduler` |
 | `kt:trialforce` | `kt:environment-hub` |
@@ -119,10 +118,12 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:iso-iec-27018` | `kt:iso-iec-27017` |
 | `kt:einstein-prediction-builder` | `kt:einstein-next-best-action` |
 | `kt:currency-type-object` | `kt:multiple-currencies` |
+| `kt:guest-user-sharing-rules` | `kt:share-groups` |
+| `kt:high-volume-experience-cloud-users` | `kt:share-groups` |
+| `kt:partner-relationship-management` | `kt:partner-community-licenses` |
 | `kt:agentforce-nonprofit-consultant-certification` | `kt:agentforce-nonprofit` |
 | `kt:nonprofit-success-pack` | `kt:agentforce-nonprofit` |
 | `kt:digital-accessibility` | `kt:section-508-accessibility` |
-| `kt:partner-relationship-management` | `kt:partner-community-licenses` |
 | `kt:wcag` | `kt:section-508-accessibility` |
 | `kt:federal-acquisition-regulation` | `kt:performance-work-statement` |
 | `kt:quality-assurance-surveillance-plan` | `kt:performance-work-statement` |
