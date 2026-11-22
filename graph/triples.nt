@@ -3167,6 +3167,34 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/customer-community-licenses> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "security-and-sharing" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/customer-community-licenses> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/customer-community-licenses> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-360-clean-rooms> <http://purl.org/dc/terms/created> "2026-11-22" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-360-clean-rooms> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-360-clean-rooms> <http://www.w3.org/2000/01/rdf-schema#label> "Data 360 Clean Rooms" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-360-clean-rooms> <http://www.w3.org/2004/02/skos/core#altLabel> "Data 360 clean room collaboration" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-360-clean-rooms> <http://www.w3.org/2004/02/skos/core#altLabel> "Data Cloud Clean Rooms" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-360-clean-rooms> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce Clean Rooms" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-360-clean-rooms> <http://www.w3.org/2004/02/skos/core#altLabel> "data clean rooms in Data 360" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-360-clean-rooms> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-360-clean-rooms> <http://www.w3.org/2004/02/skos/core#definition> "A privacy-safe collaboration feature of Data 360 in which a provider and a consumer org match their audiences through a template that fixes the match keys, permitted queries and result recipients, so only aggregated, thresholded insights come back and neither side's raw records leave its control." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-360-clean-rooms> <http://www.w3.org/2004/02/skos/core#prefLabel> "Data 360 Clean Rooms" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-360-clean-rooms> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud-activation> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-360-clean-rooms> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud-segmentation> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-360-clean-rooms> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/identity-resolution> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-360-clean-rooms> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/zero-copy-data-federation> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-360-clean-rooms> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/zero-copy-data-sharing> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-360-clean-rooms> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-clean-rooms/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-360-clean-rooms> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-clean-rooms/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-360-clean-rooms> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-clean-rooms/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-360-clean-rooms> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-clean-rooms/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-360-clean-rooms> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-clean-rooms/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-360-clean-rooms> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-clean-rooms/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-360-clean-rooms> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-model-objects> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-360-clean-rooms> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-streams> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-360-clean-rooms> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "data-cloud-and-ai" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-360-clean-rooms> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#implements> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-clean-room> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-360-clean-rooms> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/aws-clean-rooms> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-360-clean-rooms> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-360-clean-rooms> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-360-query-api> <http://purl.org/dc/terms/created> "2026-11-21" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-360-query-api> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#API> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-360-query-api> <http://www.w3.org/2000/01/rdf-schema#label> "Data 360 Query API" .
@@ -16129,6 +16157,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/customer-community-licenses/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/customer-community-licenses/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/customer-community-licenses/s5> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=experience.exp_cloud_plan_licenses.htm&language=en_US&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-clean-rooms/s1> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-clean-rooms/s1> <http://purl.org/dc/terms/title> "Learn about Data 360 Clean Rooms" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-clean-rooms/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-clean-rooms/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-clean-rooms/s1> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=005225176&language=en_US&type=1" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-clean-rooms/s2> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-clean-rooms/s2> <http://purl.org/dc/terms/title> "Understanding Clean Rooms: Security, Roles, and Use Cases (Get Started with Data 360 Clean Rooms)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-clean-rooms/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-clean-rooms/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-clean-rooms/s2> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/data-360-clean-rooms-quick-look/get-started-with-data-360-clean-rooms" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-clean-rooms/s3> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-clean-rooms/s3> <http://purl.org/dc/terms/title> "Data 360 Clean Room Collaboration Process Overview" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-clean-rooms/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-clean-rooms/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-clean-rooms/s3> <https://schema.org/url> "https://help.salesforce.com/s/articleView?language=en_US&id=data.c360_a_crc_how_clean_room_works.htm&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-clean-rooms/s4> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-clean-rooms/s4> <http://purl.org/dc/terms/title> "Prepare Your Data for a Clean Room" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-clean-rooms/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-clean-rooms/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-clean-rooms/s4> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=data.c360_a_crc_prepare_data.htm&language=en_US&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-clean-rooms/s5> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-clean-rooms/s5> <http://purl.org/dc/terms/title> "Collaborate in a Clean Room" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-clean-rooms/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-clean-rooms/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-clean-rooms/s5> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=data.c360_a_crc_collaborate_in_clean_room.htm&language=en_US&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-clean-rooms/s6> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-clean-rooms/s6> <http://purl.org/dc/terms/title> "The New Era of Data Collaboration: Introducing Salesforce Data 360 Clean Rooms" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-clean-rooms/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-clean-rooms/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-clean-rooms/s6> <https://schema.org/url> "https://www.salesforce.com/blog/introducing-data360-clean-rooms/" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-query-api/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-query-api/s1> <http://purl.org/dc/terms/title> "Query Data using Query API (Data 360 REST API Reference)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-360-query-api/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
