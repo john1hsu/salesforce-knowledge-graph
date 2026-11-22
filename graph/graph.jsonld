@@ -32276,6 +32276,105 @@
       ]
     },
     {
+      "@id": "kt:apex-rest-services",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Apex REST Services",
+      "skos:definition": "The Apex capability for exposing a global class as a custom REST endpoint under /services/apexrest/, using the @RestResource class annotation and @HttpGet, @HttpPost, @HttpPut, @HttpPatch and @HttpDelete method annotations.",
+      "kto:domain": "integration",
+      "dcterms:created": "2026-11-22",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Introduction to Apex REST (Apex Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/api/apex_rest_intro.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "RestResource Annotation (Apex Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/api/apex_classes_annotation_rest_resource.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Apex REST Methods (Apex Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_rest_methods.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Exposing Data with Apex REST Web Service Methods (Apex Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/api/apex_rest_exposing_data.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Apex Web Services (Apex Integration Services)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/en/content/learn/modules/apex_integration_services/apex_integration_webservices",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/integration/apex-rest-services.md",
+      "skos:altLabel": [
+        "Apex REST",
+        "Apex REST web services",
+        "custom Apex REST API",
+        "RestResource",
+        "services/apexrest"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:apex"
+        },
+        {
+          "@id": "kt:salesforce-apis"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:remote-call-in"
+        },
+        {
+          "@id": "kt:rest-api"
+        },
+        {
+          "@id": "kt:apex-callouts"
+        },
+        {
+          "@id": "kt:apex-testing"
+        },
+        {
+          "@id": "kt:apex-security-with-sharing"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:rest-api"
+        },
+        {
+          "@id": "kt:apex-soap-web-services"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:api-request-limits"
+        },
+        {
+          "@id": "kt:governor-limits"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:apex-user-mode"
+        },
+        {
+          "@id": "kt:oauth-2-flows-in-salesforce"
+        }
+      ]
+    },
+    {
       "@id": "kt:api-experience-hub",
       "@type": "kto:Product",
       "skos:prefLabel": "API Experience Hub",

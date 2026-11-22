@@ -35,14 +35,13 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:apex-mocks` | `kt:apex-enterprise-patterns` |
 | `kt:salesforce-ecosystem` | `kt:salesforce-inc` |
 | `kt:lightning-out` | `kt:lightning-locker` |
-| `kt:apex-rest-services` | `kt:remote-call-in` |
 | `kt:agentexchange-go-to-market-app` | `kt:agentexchange` |
 | `kt:heroku-postgres` | `kt:heroku-connect` |
 | `kt:object-manager` | `kt:schema-builder` |
-| `kt:dynamic-revenue-orchestrator` | `kt:revenue-cloud` |
-| `kt:revenue-management-consultant-certification` | `kt:revenue-cloud` |
 | `kt:application-network` | `kt:api-led-connectivity` |
+| `kt:dynamic-revenue-orchestrator` | `kt:revenue-cloud` |
 | `kt:point-to-point-integration` | `kt:api-led-connectivity` |
+| `kt:revenue-management-consultant-certification` | `kt:revenue-cloud` |
 | `kt:mulesoft-platform-integration-architect-certification` | `kt:mulesoft-platform-architect-certification` |
 | `kt:path` | `kt:business-processes` |
 | `kt:revenue-intelligence` | `kt:collaborative-forecasts` |
@@ -91,8 +90,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:username-password-flow` | `kt:client-credentials-flow` |
 | `kt:decision-matrices` | `kt:decision-tables` |
 | `kt:data-cloud-code-extension` | `kt:vector-search-in-data-cloud` |
-| `kt:json-web-signature` | `kt:json-web-token` |
 | `kt:agentforce-vibes` | `kt:agentforce-vibes-ide` |
+| `kt:json-web-signature` | `kt:json-web-token` |
 | `kt:setup-audit-trail` | `kt:sarbanes-oxley-act` |
 | `kt:change-order-process` | `kt:statement-of-work` |
 | `kt:performance-work-statement` | `kt:statement-of-work` |
@@ -113,8 +112,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:technology-roadmaps` | `kt:capability-maps` |
 | `kt:value-streams` | `kt:capability-maps` |
 | `kt:user-provisioning` | `kt:scim` |
-| `kt:ui-api` | `kt:field-dependencies` |
 | `kt:channel-order-app` | `kt:partner-business-org` |
+| `kt:ui-api` | `kt:field-dependencies` |
+| `kt:apex-soap-web-services` | `kt:apex-rest-services` |
 | `kt:iso-iec-27018` | `kt:iso-iec-27017` |
 | `kt:einstein-prediction-builder` | `kt:einstein-next-best-action` |
 | `kt:currency-type-object` | `kt:multiple-currencies` |
