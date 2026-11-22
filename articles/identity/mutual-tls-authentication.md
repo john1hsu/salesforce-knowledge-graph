@@ -11,7 +11,7 @@ summary: >-
 release: "Winter '27"
 status: current
 broader: [kt:salesforce-identity]
-related: [kt:zero-trust-architecture, kt:login-ip-ranges-and-trusted-ip-ranges, kt:mulesoft-anypoint-platform, kt:oauth-2-0]
+related: [kt:zero-trust-architecture, kt:login-ip-ranges-and-trusted-ip-ranges, kt:mulesoft-anypoint-platform, kt:oauth-2-0, kt:certificate-based-authentication]
 relations:
   - {predicate: dependsOn, object: kt:certificate-and-key-management}
   - {predicate: consumedBy, object: kt:named-credentials}
