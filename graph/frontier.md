@@ -5,7 +5,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | Node | Referenced by |
 |---|---|
 | `kt:business-analyst` | `kt:fit-gap-analysis`, `kt:omnistudio-consultant-certification`, `kt:requirements-gathering`, `kt:user-acceptance-testing` |
-| `kt:data-stewardship` | `kt:data-governance`, `kt:data-management` |
 | `kt:dispatcher-console` | `kt:field-service`, `kt:service-appointments` |
 | `kt:field-service-mobile-app` | `kt:field-service`, `kt:service-appointments` |
 | `kt:field-service-scheduling-policies` | `kt:field-service`, `kt:service-appointments` |
@@ -61,8 +60,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:engagement-studio` | `kt:marketing-cloud-account-engagement` |
 | `kt:backup-and-recover-next` | `kt:backup-and-recover` |
 | `kt:iso-iec-25010` | `kt:non-functional-requirements` |
-| `kt:data-processing-engine` | `kt:loyalty-management` |
 | `kt:anypoint-runtime-manager` | `kt:mule-runtime-engine` |
+| `kt:data-processing-engine` | `kt:loyalty-management` |
 | `kt:reports-and-dashboards` | `kt:salesforce-analytics` |
 | `kt:invocable-methods` | `kt:apex-defined-types` |
 | `kt:business-process-mapping` | `kt:requirements-gathering` |
@@ -85,6 +84,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:semantic-layer` | `kt:tableau-semantics` |
 | `kt:holidays` | `kt:business-hours` |
 | `kt:salesforce-mobile-app` | `kt:compact-layouts` |
+| `kt:information-management` | `kt:data-management` |
 | `kt:username-password-flow` | `kt:client-credentials-flow` |
 | `kt:change-order-process` | `kt:statement-of-work` |
 | `kt:decision-matrices` | `kt:decision-tables` |
@@ -97,7 +97,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:setup-audit-trail` | `kt:sarbanes-oxley-act` |
 | `kt:partner-console` | `kt:license-management-app` |
 | `kt:subscriber-support-console` | `kt:license-management-app` |
-| `kt:information-management` | `kt:data-management` |
 | `kt:interface-specification-document` | `kt:system-landscape-diagrams` |
 | `kt:hyperforce-assistant` | `kt:instance-refresh-and-org-migration` |
 | `kt:trialforce` | `kt:environment-hub` |
@@ -136,7 +135,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:data-clean-room` | `kt:data-360-clean-rooms` |
 | `kt:digital-accessibility` | `kt:section-508-accessibility` |
 | `kt:greenhouse-gas-protocol` | `kt:net-zero-cloud` |
-| `kt:notes-and-attachments` | `kt:content-document-model` |
 | `kt:tx-ramp` | `kt:govramp` |
 | `kt:wcag` | `kt:section-508-accessibility` |
 | `kt:web-to-case` | `kt:auto-response-rules` |
@@ -144,6 +142,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:agent-to-agent-protocol` | `kt:agentforce-architecture-patterns` |
 | `kt:cross-cloud-integration` | `kt:salesforce-solution-kits` |
 | `kt:multi-agent-orchestration` | `kt:agentforce-architecture-patterns` |
+| `kt:notes-and-attachments` | `kt:content-document-model` |
 | `kt:rollback-plan` | `kt:hypercare` |
 | `kt:tableau-blueprint` | `kt:tableau-architect-certification` |
 | `kt:tableau-server-administrator-certification` | `kt:tableau-architect-certification` |

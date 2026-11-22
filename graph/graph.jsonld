@@ -17645,6 +17645,92 @@
       ]
     },
     {
+      "@id": "kt:data-stewardship",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Data Stewardship",
+      "skos:definition": "The operational side of data governance: named people (data stewards) who monitor, investigate and remediate the quality, consistency and security of Salesforce data day to day, turning governance policies into routine checks, clean-up work and accountability.",
+      "kto:domain": "data-model",
+      "dcterms:created": "2026-11-22",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Monitor Data Quality Through Governance and Stewardship (Data Monitoring Fundamentals)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/data-monitoring-fundamentals/monitor-data-quality-through-governance-and-stewardship",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Ensure Data Quality (Data Management Fundamentals)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/data-management-fundamentals/ensure-data-quality",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "What is data stewardship?",
+          "dcterms:publisher": "IBM",
+          "schema:url": "https://www.ibm.com/think/topics/data-stewardship",
+          "kto:sourceType": "partner"
+        },
+        {
+          "dcterms:title": "Data Cloud Governance: Protecting Your Data in the Agentic Landscape",
+          "dcterms:publisher": "Salesforce Admins",
+          "schema:url": "https://admin.salesforce.com/blog/2025/data-cloud-governance-protecting-your-data-agentforce",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "In the Age of Customer 360, Data Stewardship Gives You an Edge",
+          "dcterms:publisher": "Salesforce Blog",
+          "schema:url": "https://www.salesforce.com/blog/customer-360-data-stewardship-gives-you-edge/?bc=OTH",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/data-model/data-stewardship.md",
+      "skos:altLabel": [
+        "data steward",
+        "data stewards",
+        "Salesforce data stewardship",
+        "data stewardship program"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:data-management"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:data-quality"
+        },
+        {
+          "@id": "kt:duplicate-management"
+        },
+        {
+          "@id": "kt:field-history-tracking"
+        },
+        {
+          "@id": "kt:data-classification"
+        },
+        {
+          "@id": "kt:identity-resolution"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:data-governance"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:data-classification"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:data-cloud"
+        }
+      ]
+    },
+    {
       "@id": "kt:divisions",
       "@type": "kto:Feature",
       "skos:prefLabel": "Divisions",
