@@ -44468,6 +44468,87 @@
       ]
     },
     {
+      "@id": "kt:management",
+      "@type": "kto:ExternalConcept",
+      "skos:prefLabel": "Management",
+      "skos:definition": "The process of guiding how an organization develops, maintains and allocates its resources to reach its goals, usually described as planning, organizing, leading and controlling; compliance frameworks such as ISO management system standards, ISO/IEC 38500 and COBIT build on it and separate it from governance, which directs and oversees management.",
+      "kto:domain": "public-sector-and-compliance",
+      "dcterms:created": "2026-11-23",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Introduction to Business 2e — 6.1 The Role of Management",
+          "dcterms:publisher": "OpenStax (Gitman, McDaniel, Shah et al.)",
+          "schema:url": "https://openstax.org/books/introduction-business-2e/pages/6-1-the-role-of-management",
+          "kto:sourceType": "textbook"
+        },
+        {
+          "dcterms:title": "Principles of Management — Ch. 1 Introduction",
+          "dcterms:publisher": "OpenStax (Bright, Cortes et al.)",
+          "schema:url": "https://openstax.org/books/principles-management/pages/1-introduction",
+          "kto:sourceType": "textbook"
+        },
+        {
+          "dcterms:title": "What is a management system?",
+          "dcterms:publisher": "ISO",
+          "schema:url": "https://iso.org/management-system-standards.html",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "Exploring MSS",
+          "dcterms:publisher": "ISO/IEC Joint Technical Coordination Group on MSS",
+          "schema:url": "https://committee.iso.org/sites/jtcg/home/exploring-mss.html",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "To govern, or not to govern information technology",
+          "dcterms:publisher": "Communications of the ACM",
+          "schema:url": "https://cacm.acm.org/research/to-govern-it-or-not-to-govern-it",
+          "kto:sourceType": "academic"
+        },
+        {
+          "dcterms:title": "COBIT IT Enterprise Governance Framework",
+          "dcterms:publisher": "ISACA",
+          "schema:url": "https://isaca.org/cobit",
+          "kto:sourceType": "standards-body"
+        }
+      ],
+      "kto:file": "articles/public-sector-and-compliance/management.md",
+      "skos:altLabel": [
+        "organizational management",
+        "functions of management",
+        "planning organizing leading controlling"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:business-administration"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:organizational-governance"
+        },
+        {
+          "@id": "kt:governance-risk-and-compliance"
+        },
+        {
+          "@id": "kt:iso-iec-27001"
+        },
+        {
+          "@id": "kt:cobit"
+        },
+        {
+          "@id": "kt:salesforce-center-of-excellence"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:it-governance"
+        }
+      ]
+    },
+    {
       "@id": "kt:nist-cybersecurity-framework",
       "@type": "kto:ExternalConcept",
       "skos:prefLabel": "NIST Cybersecurity Framework",

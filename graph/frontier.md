@@ -64,7 +64,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:business-process-mapping` | `kt:requirements-gathering` |
 | `kt:computer-science` | `kt:distributed-computing` |
 | `kt:platform-cache-partitions` | `kt:platform-cache` |
-| `kt:management` | `kt:organizational-governance` |
 | `kt:data-cloud-query-api` | `kt:data-graphs` |
 | `kt:model-context-protocol` | `kt:model-context-protocol-in-agentforce` |
 | `kt:salesforce-hosted-mcp-servers` | `kt:model-context-protocol-in-agentforce` |
@@ -104,21 +103,22 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:trialforce` | `kt:environment-hub` |
 | `kt:guest-user-sharing-rules` | `kt:share-groups` |
 | `kt:high-volume-experience-cloud-users` | `kt:share-groups` |
+| `kt:business-administration` | `kt:management` |
 | `kt:api-community-manager` | `kt:api-experience-hub` |
 | `kt:ldap` | `kt:delegated-authentication` |
 | `kt:briefcase-builder` | `kt:salesforce-mobile-app` |
-| `kt:developer-console` | `kt:apex-logging-and-debug-logs` |
 | `kt:mobile-sdk` | `kt:salesforce-mobile-app` |
-| `kt:user-provisioning` | `kt:scim` |
+| `kt:developer-console` | `kt:apex-logging-and-debug-logs` |
 | `kt:document-ai` | `kt:unstructured-data-in-data-cloud` |
 | `kt:models-api` | `kt:ai-models` |
-| `kt:ui-api` | `kt:field-dependencies` |
+| `kt:user-provisioning` | `kt:scim` |
 | `kt:channel-order-app` | `kt:partner-business-org` |
+| `kt:ui-api` | `kt:field-dependencies` |
 | `kt:hmac-based-one-time-password` | `kt:time-based-one-time-password` |
 | `kt:organization-wide-email-addresses` | `kt:email-alerts` |
-| `kt:apex-soap-web-services` | `kt:apex-rest-services` |
 | `kt:enhanced-letterheads` | `kt:email-templates` |
 | `kt:experience-cloud-consultant-certification` | `kt:licensing-strategy` |
+| `kt:apex-soap-web-services` | `kt:apex-rest-services` |
 | `kt:einstein-prediction-builder` | `kt:einstein-next-best-action` |
 | `kt:iso-iec-29100` | `kt:iso-iec-27018` |
 | `kt:partner-relationship-management` | `kt:partner-community-licenses` |
@@ -137,7 +137,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:heroku-fir` | `kt:heroku-architect-certification` |
 | `kt:twelve-factor-app` | `kt:heroku-architect-certification` |
 | `kt:salesforce-maps` | `kt:geolocation-fields` |
-| `kt:tx-ramp` | `kt:govramp` |
 | `kt:agent-to-agent-protocol` | `kt:agentforce-architecture-patterns` |
 | `kt:aws-clean-rooms` | `kt:data-360-clean-rooms` |
 | `kt:consent-data-model` | `kt:consent-management-in-data-cloud` |
@@ -155,3 +154,4 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:rollback-plan` | `kt:hypercare` |
 | `kt:tableau-blueprint` | `kt:tableau-architect-certification` |
 | `kt:tableau-server-administrator-certification` | `kt:tableau-architect-certification` |
+| `kt:tx-ramp` | `kt:govramp` |
