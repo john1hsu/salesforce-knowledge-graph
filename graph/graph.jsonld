@@ -4049,6 +4049,91 @@
       ]
     },
     {
+      "@id": "kt:action-plans",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Action Plans",
+      "skos:definition": "A Salesforce Industries feature that turns a repeatable business process into a published template of tasks and document checklist items, then stamps out action plans whose items are assigned and dated automatically from the plan's start date on a target record.",
+      "kto:domain": "automation",
+      "dcterms:created": "2026-11-23",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Action Plans for Industries: Get Started with Action Plans",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/action-plans-for-industries/get-started-with-action-plans",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Action Plans for Industries: Create Action Plan Templates and Configure Tasks",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/action-plans-for-industries/create-action-plan-templates-and-tasks",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Action Plans in Financial Services Cloud: Learn About Action Plans",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/action-plans-in-financial-services-cloud/learn-about-action-plans",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Action Plans for Financial Advisors in Financial Services Cloud: Configure Action Plans",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/action-plans-for-financial-advisors-in-financial-services-cloud/configure-action-plans",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/automation/action-plans.md",
+      "skos:altLabel": [
+        "action plan",
+        "action plan templates",
+        "action plan template",
+        "Industries action plans"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:process-automation"
+        },
+        {
+          "@id": "kt:salesforce-industries"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:activity-data-model"
+        },
+        {
+          "@id": "kt:queues"
+        },
+        {
+          "@id": "kt:opportunity-teams"
+        },
+        {
+          "@id": "kt:experience-cloud"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:business-hours"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:flow-orchestrator"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:financial-services-cloud"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:document-checklist-items"
+        }
+      ]
+    },
+    {
       "@id": "kt:approval-processes",
       "@type": "kto:Feature",
       "skos:prefLabel": "Approval Processes",

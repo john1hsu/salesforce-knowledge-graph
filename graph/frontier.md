@@ -26,8 +26,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:presence-configuration` | `kt:omni-channel` |
 | `kt:skills-based-routing` | `kt:omni-channel` |
 | `kt:data-import-wizard` | `kt:data-loader` |
-| `kt:salesforce-sites` | `kt:custom-domains` |
 | `kt:entitlement-process-metadata` | `kt:entitlement-management` |
+| `kt:salesforce-sites` | `kt:custom-domains` |
 | `kt:einstein-discovery` | `kt:crm-analytics` |
 | `kt:saql` | `kt:crm-analytics` |
 | `kt:tableau-pulse` | `kt:tableau` |
@@ -48,10 +48,10 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:generative-ai` | `kt:retrieval-augmented-generation-in-salesforce` |
 | `kt:dynamic-actions` | `kt:dynamic-forms` |
 | `kt:dynamic-highlights-panel` | `kt:dynamic-forms` |
+| `kt:actionable-relationship-center` | `kt:financial-services-cloud` |
 | `kt:block-kit` | `kt:slack-platform` |
 | `kt:slack-api-rate-limits` | `kt:slack-platform` |
 | `kt:slack-workflow-builder` | `kt:slack-platform` |
-| `kt:actionable-relationship-center` | `kt:financial-services-cloud` |
 | `kt:constraint-modeling-language` | `kt:product-configurator` |
 | `kt:product-catalog-management` | `kt:product-configurator` |
 | `kt:backup-and-recover-next` | `kt:backup-and-recover` |
@@ -63,8 +63,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:reports-and-dashboards` | `kt:salesforce-analytics` |
 | `kt:invocable-methods` | `kt:apex-defined-types` |
 | `kt:business-process-mapping` | `kt:requirements-gathering` |
-| `kt:computer-science` | `kt:distributed-computing` |
 | `kt:platform-cache-partitions` | `kt:platform-cache` |
+| `kt:computer-science` | `kt:distributed-computing` |
 | `kt:management` | `kt:organizational-governance` |
 | `kt:data-cloud-query-api` | `kt:data-graphs` |
 | `kt:b2b-commerce` | `kt:commerce-cloud` |
@@ -72,16 +72,16 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:salesforce-order-management` | `kt:commerce-cloud` |
 | `kt:fhir` | `kt:health-cloud` |
 | `kt:utilization-management` | `kt:health-cloud` |
+| `kt:business-analyst-certification` | `kt:user-acceptance-testing` |
 | `kt:model-context-protocol` | `kt:model-context-protocol-in-agentforce` |
 | `kt:salesforce-hosted-mcp-servers` | `kt:model-context-protocol-in-agentforce` |
-| `kt:business-analyst-certification` | `kt:user-acceptance-testing` |
 | `kt:in-app-guidance` | `kt:change-management-and-adoption` |
 | `kt:opportunity-products` | `kt:price-books` |
+| `kt:holidays` | `kt:business-hours` |
 | `kt:semantic-layer` | `kt:tableau-semantics` |
 | `kt:technology-roadmaps` | `kt:capability-maps` |
 | `kt:value-streams` | `kt:capability-maps` |
 | `kt:scheduling-console` | `kt:dispatcher-console` |
-| `kt:holidays` | `kt:business-hours` |
 | `kt:salesforce-mobile-app` | `kt:compact-layouts` |
 | `kt:information-management` | `kt:data-management` |
 | `kt:username-password-flow` | `kt:client-credentials-flow` |
@@ -92,6 +92,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:agentforce-vibes` | `kt:agentforce-vibes-ide` |
 | `kt:json-web-signature` | `kt:json-web-token` |
 | `kt:setup-audit-trail` | `kt:sarbanes-oxley-act` |
+| `kt:account-teams` | `kt:opportunity-teams` |
+| `kt:shared-activities` | `kt:activity-data-model` |
 | `kt:slds-linter` | `kt:salesforce-lightning-design-system` |
 | `kt:partner-console` | `kt:license-management-app` |
 | `kt:subscriber-support-console` | `kt:license-management-app` |
@@ -102,9 +104,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:operating-hours` | `kt:salesforce-scheduler` |
 | `kt:trialforce` | `kt:environment-hub` |
 | `kt:api-community-manager` | `kt:api-experience-hub` |
-| `kt:account-teams` | `kt:opportunity-teams` |
 | `kt:ldap` | `kt:delegated-authentication` |
-| `kt:shared-activities` | `kt:activity-data-model` |
 | `kt:developer-console` | `kt:apex-logging-and-debug-logs` |
 | `kt:document-ai` | `kt:unstructured-data-in-data-cloud` |
 | `kt:models-api` | `kt:ai-models` |
@@ -137,7 +137,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:salesforce-maps` | `kt:geolocation-fields` |
 | `kt:aws-clean-rooms` | `kt:data-360-clean-rooms` |
 | `kt:consent-data-model` | `kt:consent-management-in-data-cloud` |
-| `kt:custom-labels` | `kt:flow-formula-resources` |
 | `kt:data-clean-room` | `kt:data-360-clean-rooms` |
 | `kt:greenhouse-gas-protocol` | `kt:net-zero-cloud` |
 | `kt:notes-and-attachments` | `kt:content-document-model` |
@@ -146,6 +145,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:tx-ramp` | `kt:govramp` |
 | `kt:agent-to-agent-protocol` | `kt:agentforce-architecture-patterns` |
 | `kt:cross-cloud-integration` | `kt:salesforce-solution-kits` |
+| `kt:custom-labels` | `kt:flow-formula-resources` |
+| `kt:document-checklist-items` | `kt:action-plans` |
 | `kt:multi-agent-orchestration` | `kt:agentforce-architecture-patterns` |
 | `kt:rollback-plan` | `kt:hypercare` |
 | `kt:tableau-blueprint` | `kt:tableau-architect-certification` |
