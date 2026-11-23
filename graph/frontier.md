@@ -22,7 +22,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:omni-channel-limits` | `kt:omni-channel` |
 | `kt:presence-configuration` | `kt:omni-channel` |
 | `kt:skills-based-routing` | `kt:omni-channel` |
-| `kt:data-import-wizard` | `kt:data-loader` |
 | `kt:salesforce-sites` | `kt:custom-domains` |
 | `kt:custom-property-editors` | `kt:custom-flow-screen-components` |
 | `kt:agentexchange-go-to-market-app` | `kt:agentexchange` |
@@ -36,8 +35,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:mulesoft-platform-integration-architect-certification` | `kt:mulesoft-platform-architect-certification` |
 | `kt:heroku-postgres` | `kt:heroku-connect` |
 | `kt:amazon-connect` | `kt:salesforce-voice` |
-| `kt:telephony-integration-api` | `kt:salesforce-voice` |
 | `kt:object-manager` | `kt:schema-builder` |
+| `kt:telephony-integration-api` | `kt:salesforce-voice` |
 | `kt:dynamic-actions` | `kt:dynamic-forms` |
 | `kt:dynamic-highlights-panel` | `kt:dynamic-forms` |
 | `kt:dynamic-revenue-orchestrator` | `kt:revenue-cloud` |
@@ -45,9 +44,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:path` | `kt:business-processes` |
 | `kt:generative-ai` | `kt:retrieval-augmented-generation-in-salesforce` |
 | `kt:block-kit` | `kt:slack-platform` |
+| `kt:revenue-intelligence` | `kt:collaborative-forecasts` |
 | `kt:slack-api-rate-limits` | `kt:slack-platform` |
 | `kt:slack-workflow-builder` | `kt:slack-platform` |
-| `kt:revenue-intelligence` | `kt:collaborative-forecasts` |
 | `kt:batch-apex-error-event` | `kt:transaction-finalizers` |
 | `kt:actionable-relationship-center` | `kt:financial-services-cloud` |
 | `kt:constraint-modeling-language` | `kt:product-configurator` |
@@ -106,9 +105,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:api-community-manager` | `kt:api-experience-hub` |
 | `kt:ldap` | `kt:delegated-authentication` |
 | `kt:briefcase-builder` | `kt:salesforce-mobile-app` |
+| `kt:developer-console` | `kt:apex-logging-and-debug-logs` |
 | `kt:mobile-sdk` | `kt:salesforce-mobile-app` |
 | `kt:document-ai` | `kt:unstructured-data-in-data-cloud` |
-| `kt:developer-console` | `kt:apex-logging-and-debug-logs` |
 | `kt:ui-api` | `kt:field-dependencies` |
 | `kt:user-provisioning` | `kt:scim` |
 | `kt:models-api` | `kt:ai-models` |
@@ -119,8 +118,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:enhanced-letterheads` | `kt:email-templates` |
 | `kt:experience-cloud-consultant-certification` | `kt:licensing-strategy` |
 | `kt:einstein-prediction-builder` | `kt:einstein-next-best-action` |
-| `kt:partner-relationship-management` | `kt:partner-community-licenses` |
 | `kt:iso-iec-29100` | `kt:iso-iec-27018` |
+| `kt:partner-relationship-management` | `kt:partner-community-licenses` |
 | `kt:agentforce-nonprofit-consultant-certification` | `kt:agentforce-nonprofit` |
 | `kt:nonprofit-success-pack` | `kt:agentforce-nonprofit` |
 | `kt:currency-type-object` | `kt:multiple-currencies` |
@@ -137,9 +136,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:heroku-fir` | `kt:heroku-architect-certification` |
 | `kt:twelve-factor-app` | `kt:heroku-architect-certification` |
 | `kt:salesforce-maps` | `kt:geolocation-fields` |
-| `kt:field-type-conversion` | `kt:rich-text-area-fields` |
 | `kt:lwc-jest-testing` | `kt:javascript-developer-certification` |
-| `kt:notes-and-attachments` | `kt:content-document-model` |
 | `kt:planned-maintenance-windows` | `kt:disaster-recovery-and-site-switching` |
 | `kt:read-only-mode` | `kt:disaster-recovery-and-site-switching` |
 | `kt:tx-ramp` | `kt:govramp` |
@@ -150,8 +147,10 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:data-clean-room` | `kt:data-360-clean-rooms` |
 | `kt:document-checklist-items` | `kt:action-plans` |
 | `kt:einstein-activity-capture` | `kt:agentforce-sdr` |
+| `kt:field-type-conversion` | `kt:rich-text-area-fields` |
 | `kt:greenhouse-gas-protocol` | `kt:net-zero-cloud` |
 | `kt:multi-agent-orchestration` | `kt:agentforce-architecture-patterns` |
+| `kt:notes-and-attachments` | `kt:content-document-model` |
 | `kt:rollback-plan` | `kt:hypercare` |
 | `kt:tableau-blueprint` | `kt:tableau-architect-certification` |
 | `kt:tableau-server-administrator-certification` | `kt:tableau-architect-certification` |

@@ -3878,6 +3878,32 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-graphs> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud-query-api> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-graphs> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-graphs> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-import-wizard> <http://purl.org/dc/terms/created> "2026-11-23" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-import-wizard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Tool> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-import-wizard> <http://www.w3.org/2000/01/rdf-schema#label> "Data Import Wizard" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-import-wizard> <http://www.w3.org/2004/02/skos/core#altLabel> "Import Wizard" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-import-wizard> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce Data Import Wizard" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-import-wizard> <http://www.w3.org/2004/02/skos/core#altLabel> "unified import wizard" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-import-wizard> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-integration> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-import-wizard> <http://www.w3.org/2004/02/skos/core#definition> "Salesforce's browser-based, Setup-launched tool for importing up to 50,000 records at a time from a CSV file into accounts, contacts, leads, solutions, person accounts, campaign members and custom objects, with guided field mapping, add/update/upsert-style options and asynchronous Bulk API processing." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-import-wizard> <http://www.w3.org/2004/02/skos/core#prefLabel> "Data Import Wizard" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-import-wizard> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-objects> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-import-wizard> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-migration-strategy> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-import-wizard> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/duplicate-management> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-import-wizard> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/person-accounts> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-import-wizard> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/standard-objects> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-import-wizard> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-import-wizard/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-import-wizard> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-import-wizard/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-import-wizard> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-import-wizard/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-import-wizard> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-import-wizard/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-import-wizard> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-import-wizard/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-import-wizard> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#alternativeTo> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-loader> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-import-wizard> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#coveredBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-administrator-certification> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-import-wizard> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/bulk-api-1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-import-wizard> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/validation-rules> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-import-wizard> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "data-model" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-import-wizard> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-import-wizard> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-integration> <http://purl.org/dc/terms/created> "2026-11-04" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-integration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-integration> <http://www.w3.org/2000/01/rdf-schema#label> "Data Integration" .
@@ -17742,6 +17768,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-graphs/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-graphs/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-graphs/s5> <https://schema.org/url> "https://developer.salesforce.com/docs/data/agentic-memory-context/guide/agentic-memory-create-rtdg-for-getcontext.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-import-wizard/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-import-wizard/s1> <http://purl.org/dc/terms/title> "Import Data (Data Management module)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-import-wizard/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-import-wizard/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-import-wizard/s1> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/lex_implementation_data_management/lex_implementation_data_import" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-import-wizard/s2> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-import-wizard/s2> <http://purl.org/dc/terms/title> "Use the Data Import Wizard (Import and Export with Data Management Tools project)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-import-wizard/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-import-wizard/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-import-wizard/s2> <https://schema.org/url> "https://trailhead.salesforce.com/projects/import-and-export-with-data-management-tools/steps/use-the-data-import-wizard" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-import-wizard/s3> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-import-wizard/s3> <http://purl.org/dc/terms/title> "Data Import Wizard — Comparison with Existing Wizards (tip sheet)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-import-wizard/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-import-wizard/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-import-wizard/s3> <https://schema.org/url> "https://resources.docs.salesforce.com/226/13/en-us/sfdc/pdf/salesforce_data_import_wizard_tipsheet.pdf" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-import-wizard/s4> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-import-wizard/s4> <http://purl.org/dc/terms/title> "Salesforce Certified Platform Administrator Exam Guide" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-import-wizard/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-import-wizard/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-import-wizard/s4> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=005298966&language=en_US&type=1" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-import-wizard/s5> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-import-wizard/s5> <http://purl.org/dc/terms/title> "Practice Data and Analytics Management for Admins" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-import-wizard/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-import-wizard/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-import-wizard/s5> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/administrator-certification-prep-security-and-data-management/review-data-management" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-integration/s1> <http://purl.org/dc/terms/publisher> "Salesforce Architects" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-integration/s1> <http://purl.org/dc/terms/title> "Data Integration with Salesforce (Architect Decision Guide)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-integration/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
