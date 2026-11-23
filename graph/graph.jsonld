@@ -34353,6 +34353,94 @@
       ]
     },
     {
+      "@id": "kt:username-password-flow",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "OAuth 2.0 Username-Password Flow",
+      "skos:definition": "Salesforce's implementation of the OAuth 2.0 resource owner password credentials grant: a client posts a user's username and password (plus security token) with its consumer key and secret to the token endpoint and gets an access token with no browser login and no refresh token; it is a legacy flow, blocked by default in orgs created in Summer '23 or later.",
+      "kto:domain": "identity",
+      "dcterms:created": "2026-11-23",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "RFC 6749: The OAuth 2.0 Authorization Framework",
+          "dcterms:publisher": "IETF",
+          "schema:url": "https://datatracker.ietf.org/doc/html/rfc6749.html",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "RFC 9700: Best Current Practice for OAuth 2.0 Security",
+          "dcterms:publisher": "RFC Editor (IETF)",
+          "schema:url": "https://www.rfc-editor.org/rfc/rfc9700.html",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "Understanding the Username-Password OAuth Authentication Flow (REST API Developer Guide, API 47.0)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.222.0.api_rest.meta/api/intro_understanding_username_password_oauth_flow.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Set Up Authorization with OAuth 2.0 (Streaming API Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/api-streaming/guide/code-sample-auth-oauth.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "OauthOidcSettings (Metadata API Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_oauthoidcsettings.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Maintain Your Identity and Access Architect Certification for Winter '24",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/salesforce-architect-certification-maintenance-winter-24/maintain-your-identity-and-access-architect-certification-for-winter-24",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/identity/username-password-flow.md",
+      "skos:altLabel": [
+        "username-password flow",
+        "username-password OAuth flow",
+        "resource owner password credentials grant",
+        "ROPC grant",
+        "grant_type=password",
+        "password grant"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:oauth-2-flows-in-salesforce"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:login-history"
+        },
+        {
+          "@id": "kt:multi-factor-authentication"
+        }
+      ],
+      "kto:implements": [
+        {
+          "@id": "kt:oauth-2-0"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:connected-apps"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:client-credentials-flow"
+        },
+        {
+          "@id": "kt:jwt-bearer-flow"
+        }
+      ]
+    },
+    {
       "@id": "kt:web-server-flow",
       "@type": "kto:Feature",
       "skos:prefLabel": "OAuth 2.0 Web Server Flow",

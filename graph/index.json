@@ -13253,6 +13253,32 @@
     ]
   },
   {
+    "id": "kt:username-password-flow",
+    "title": "OAuth 2.0 Username-Password Flow",
+    "aliases": [
+      "username-password flow",
+      "username-password OAuth flow",
+      "resource owner password credentials grant",
+      "ROPC grant",
+      "grant_type=password",
+      "password grant"
+    ],
+    "type": "Feature",
+    "domain": "identity",
+    "file": "articles/identity/username-password-flow.md",
+    "created": "2026-11-23",
+    "release": "Winter '27",
+    "status": "current",
+    "source_urls": [
+      "https://datatracker.ietf.org/doc/html/rfc6749.html",
+      "https://www.rfc-editor.org/rfc/rfc9700.html",
+      "https://developer.salesforce.com/docs/atlas.en-us.222.0.api_rest.meta/api/intro_understanding_username_password_oauth_flow.htm",
+      "https://developer.salesforce.com/docs/platform/api-streaming/guide/code-sample-auth-oauth.html",
+      "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_oauthoidcsettings.htm",
+      "https://trailhead.salesforce.com/content/learn/modules/salesforce-architect-certification-maintenance-winter-24/maintain-your-identity-and-access-architect-certification-for-winter-24"
+    ]
+  },
+  {
     "id": "kt:validation-rules",
     "title": "Validation Rules",
     "aliases": [
