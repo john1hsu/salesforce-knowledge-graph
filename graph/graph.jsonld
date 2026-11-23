@@ -12914,6 +12914,110 @@
       ]
     },
     {
+      "@id": "kt:agentforce-employee-agents",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Agentforce Employee Agents",
+      "skos:definition": "Internal Agentforce agents built from the Agentforce Employee Agent template that help Salesforce users in the flow of work (in Lightning Experience, the mobile app and Slack), running as the logged-in user so every action respects that user's licenses, permissions and sharing; usage is billed in Flex Credits.",
+      "kto:domain": "data-cloud-and-ai",
+      "dcterms:created": "2026-11-23",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Get Started with Agentforce for Employees (Agentforce for Employees: Quick Look)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/agentforce-for-employees-quick-look/get-started-with-agentforce-for-employees",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Employee Agents and Foundations: The Admin Advantage for User Support",
+          "dcterms:publisher": "Salesforce Admins",
+          "schema:url": "https://admin.salesforce.com/blog/2025/employee-agents-foundations-the-admin-advantage-for-user-support",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Create an Employee Agent (Quick Start: Create Employee Agents in Agentforce)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/projects/quick-start-create-employee-agents-in-agentforce/create-two-employee-agents",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Exercise 1: Get Started with the Employee Agent (Agentforce Workshop)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/workshops/agentforce-new-workshop/employee-agents/1-get-started",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Agentforce Implementation Guide: Employee-Facing Agents",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://resources.docs.salesforce.com/rel1/doc/en-us/static/pdf/agentforce_implementation_employee.pdf",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Configure a Slack Agent in Salesforce (Agentforce Configuration for Slack Deployment)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/agentforce-configuration-for-slack-deployment/configure-a-slack-agent-in-salesforce",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/data-cloud-and-ai/agentforce-employee-agents.md",
+      "skos:altLabel": [
+        "Agentforce Employee Agent",
+        "employee agent",
+        "employee-facing agents",
+        "Agentforce for Employees",
+        "internal agents"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:agentforce"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:agentforce-subagents"
+        },
+        {
+          "@id": "kt:agent-actions"
+        },
+        {
+          "@id": "kt:slack-platform"
+        },
+        {
+          "@id": "kt:knowledge-base"
+        },
+        {
+          "@id": "kt:salesforce-mobile-app"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:agentforce"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:agentforce-studio"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:salesforce-sharing-model"
+        },
+        {
+          "@id": "kt:einstein-trust-layer"
+        },
+        {
+          "@id": "kt:data-cloud"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:slack-platform"
+        }
+      ]
+    },
+    {
       "@id": "kt:agentforce-observability",
       "@type": "kto:Feature",
       "skos:prefLabel": "Agentforce Observability",

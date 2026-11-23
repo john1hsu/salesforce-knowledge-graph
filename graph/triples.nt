@@ -275,6 +275,37 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-dx> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#implements> <https://github.com/john1hsu/salesforce-knowledge-graph/id/agent-script> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-dx> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-dx> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-employee-agents> <http://purl.org/dc/terms/created> "2026-11-23" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-employee-agents> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-employee-agents> <http://www.w3.org/2000/01/rdf-schema#label> "Agentforce Employee Agents" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-employee-agents> <http://www.w3.org/2004/02/skos/core#altLabel> "Agentforce Employee Agent" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-employee-agents> <http://www.w3.org/2004/02/skos/core#altLabel> "Agentforce for Employees" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-employee-agents> <http://www.w3.org/2004/02/skos/core#altLabel> "employee agent" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-employee-agents> <http://www.w3.org/2004/02/skos/core#altLabel> "employee-facing agents" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-employee-agents> <http://www.w3.org/2004/02/skos/core#altLabel> "internal agents" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-employee-agents> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-employee-agents> <http://www.w3.org/2004/02/skos/core#definition> "Internal Agentforce agents built from the Agentforce Employee Agent template that help Salesforce users in the flow of work (in Lightning Experience, the mobile app and Slack), running as the logged-in user so every action respects that user's licenses, permissions and sharing; usage is billed in Flex Credits." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-employee-agents> <http://www.w3.org/2004/02/skos/core#prefLabel> "Agentforce Employee Agents" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-employee-agents> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/agent-actions> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-employee-agents> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-subagents> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-employee-agents> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/knowledge-base> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-employee-agents> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-mobile-app> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-employee-agents> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/slack-platform> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-employee-agents> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-employee-agents/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-employee-agents> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-employee-agents/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-employee-agents> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-employee-agents/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-employee-agents> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-employee-agents/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-employee-agents> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-employee-agents/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-employee-agents> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-employee-agents/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-employee-agents> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-studio> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-employee-agents> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-employee-agents> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/einstein-trust-layer> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-employee-agents> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-sharing-model> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-employee-agents> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "data-cloud-and-ai" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-employee-agents> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/slack-platform> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-employee-agents> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#partOf> <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-employee-agents> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-employee-agents> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-nonprofit> <http://purl.org/dc/terms/created> "2026-11-12" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-nonprofit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Product> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-nonprofit> <http://www.w3.org/2000/01/rdf-schema#label> "Agentforce Nonprofit" .
@@ -13837,6 +13868,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-dx/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-dx/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-dx/s6> <https://schema.org/url> "https://developer.salesforce.com/blogs/2025/05/introducing-agentforce-dx-pro-code-tools" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-employee-agents/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-employee-agents/s1> <http://purl.org/dc/terms/title> "Get Started with Agentforce for Employees (Agentforce for Employees: Quick Look)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-employee-agents/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-employee-agents/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-employee-agents/s1> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/agentforce-for-employees-quick-look/get-started-with-agentforce-for-employees" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-employee-agents/s2> <http://purl.org/dc/terms/publisher> "Salesforce Admins" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-employee-agents/s2> <http://purl.org/dc/terms/title> "Employee Agents and Foundations: The Admin Advantage for User Support" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-employee-agents/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-employee-agents/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-employee-agents/s2> <https://schema.org/url> "https://admin.salesforce.com/blog/2025/employee-agents-foundations-the-admin-advantage-for-user-support" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-employee-agents/s3> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-employee-agents/s3> <http://purl.org/dc/terms/title> "Create an Employee Agent (Quick Start: Create Employee Agents in Agentforce)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-employee-agents/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-employee-agents/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-employee-agents/s3> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/projects/quick-start-create-employee-agents-in-agentforce/create-two-employee-agents" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-employee-agents/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-employee-agents/s4> <http://purl.org/dc/terms/title> "Exercise 1: Get Started with the Employee Agent (Agentforce Workshop)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-employee-agents/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-employee-agents/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-employee-agents/s4> <https://schema.org/url> "https://developer.salesforce.com/workshops/agentforce-new-workshop/employee-agents/1-get-started" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-employee-agents/s5> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-employee-agents/s5> <http://purl.org/dc/terms/title> "Agentforce Implementation Guide: Employee-Facing Agents" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-employee-agents/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-employee-agents/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-employee-agents/s5> <https://schema.org/url> "https://resources.docs.salesforce.com/rel1/doc/en-us/static/pdf/agentforce_implementation_employee.pdf" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-employee-agents/s6> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-employee-agents/s6> <http://purl.org/dc/terms/title> "Configure a Slack Agent in Salesforce (Agentforce Configuration for Slack Deployment)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-employee-agents/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-employee-agents/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-employee-agents/s6> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/agentforce-configuration-for-slack-deployment/configure-a-slack-agent-in-salesforce" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-nonprofit/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-nonprofit/s1> <http://purl.org/dc/terms/title> "Learn About Salesforce for Nonprofits (Nonprofit Cloud Basics)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-nonprofit/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
