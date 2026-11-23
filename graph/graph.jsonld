@@ -5655,6 +5655,90 @@
       ]
     },
     {
+      "@id": "kt:flow-choice-resources",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Flow Choice Resources",
+      "skos:definition": "The Flow Builder resources (Choice, Record Choice Set, Picklist Choice Set and Collection Choice Set) that supply the selectable options shown by picklist, radio button, checkbox group and multi-select screen components.",
+      "kto:domain": "automation",
+      "dcterms:created": "2026-11-23",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Give Users a Choice (Screen Flows module)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/screen-flows/give-users-a-choice",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Picklist Choice Set Resource",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=sf.flow_ref_resources_picklistchoice.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Picklist Screen Input Component",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=flow_ref_elements_screencmp_picklist.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Create a Flow with a Multi-Select Picklist",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/loop-manually-through-multiple-choices-in-flows/create-a-flow-with-a-multi-select-picklist",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Screen Flow Choice Field Values Do Not Update Picklist or Text Fields",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=000385593&language=en_US&type=1",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/automation/flow-choice-resources.md",
+      "skos:altLabel": [
+        "flow choice resource",
+        "choice set",
+        "record choice set",
+        "picklist choice set",
+        "collection choice set"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:flow-builder"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:custom-flow-screen-components"
+        },
+        {
+          "@id": "kt:data-table-screen-component"
+        },
+        {
+          "@id": "kt:flow-formula-resources"
+        },
+        {
+          "@id": "kt:picklist-value-sets"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:screen-flow"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:get-records-element"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:flow-loop-element"
+        }
+      ]
+    },
+    {
       "@id": "kt:flow-debugging",
       "@type": "kto:Feature",
       "skos:prefLabel": "Flow Debugging",
