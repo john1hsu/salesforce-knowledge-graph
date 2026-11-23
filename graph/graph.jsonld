@@ -50425,6 +50425,95 @@
       ]
     },
     {
+      "@id": "kt:setup-audit-trail",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Setup Audit Trail",
+      "skos:definition": "Built-in, always-on Salesforce log of configuration changes made in Setup (who changed what, where and when), viewable in Setup, downloadable as a CSV, and queryable through the SetupAuditTrail object for at least 180 days.",
+      "kto:domain": "security-and-sharing",
+      "dcterms:created": "2026-11-23",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "SetupAuditTrail — Object Reference for the Salesforce Platform",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/object_reference/sforce_api_objects_setupaudittrail.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Exercise 1: Using the Audit Trail — Salesforce Admin Security Workshop",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/workshops/admin-security-workshop/monitoring-and-response/1-audit-trail",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Monitor Your Salesforce Org — Setup with Agentforce for Admins",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/pt-BR/content/learn/modules/setup-with-agentforce-for-admins/monitor-your-salesforce-org",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Salesforce Audit Trail & Field History: limits & how to extend",
+          "dcterms:publisher": "Gearset",
+          "schema:url": "https://gearset.com/blog/salesforce-audit-trail/",
+          "kto:sourceType": "partner"
+        },
+        {
+          "dcterms:title": "Auditing Salesforce: The Setup Audit Trail and Field History Tracking",
+          "dcterms:publisher": "Netwrix",
+          "schema:url": "https://netwrix.com/en/resources/blog/auditing-salesforce-the-setup-audit-trail-and-field-history-tracking/",
+          "kto:sourceType": "partner"
+        }
+      ],
+      "kto:file": "articles/security-and-sharing/setup-audit-trail.md",
+      "skos:altLabel": [
+        "View Setup Audit Trail",
+        "SetupAuditTrail",
+        "setup change history",
+        "audit trail"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:security-governance"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:event-monitoring"
+        },
+        {
+          "@id": "kt:field-audit-trail"
+        },
+        {
+          "@id": "kt:login-history"
+        },
+        {
+          "@id": "kt:security-health-check"
+        },
+        {
+          "@id": "kt:sarbanes-oxley-act"
+        },
+        {
+          "@id": "kt:continuous-monitoring"
+        }
+      ],
+      "kto:queriedWith": [
+        {
+          "@id": "kt:soql"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:field-history-tracking"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:agentforce-setup-agent"
+        }
+      ]
+    },
+    {
       "@id": "kt:share-groups",
       "@type": "kto:Feature",
       "skos:prefLabel": "Share Groups",
