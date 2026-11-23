@@ -27617,6 +27617,95 @@
       ]
     },
     {
+      "@id": "kt:permission-set-led-deployment",
+      "@type": "kto:Pattern",
+      "skos:prefLabel": "Permission Set-Led Deployment",
+      "skos:definition": "The practice of delivering user access through small, task-scoped permission sets and permission set groups kept in source control and deployed with the metadata they grant, leaving profiles as a thin minimum-access baseline.",
+      "kto:domain": "devops-and-alm",
+      "dcterms:created": "2026-11-23",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Migrating to Permission Sets for DX",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2018/12/migrating-to-permission-sets-for-dx",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Admin Best Practices for User Management",
+          "dcterms:publisher": "Salesforce Admins",
+          "schema:url": "https://admin.salesforce.com/blog/2022/admin-best-practices-for-user-management",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Profile (Metadata API Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_profile.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "PermissionSet (Metadata API Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_permissionset.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Introducing The Next Generation of User Management: Permission Set Groups",
+          "dcterms:publisher": "Salesforce Admins",
+          "schema:url": "https://admin.salesforce.com/blog/2019/introducing-the-next-generation-of-user-management-permission-set-groups",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/devops-and-alm/permission-set-led-deployment.md",
+      "skos:altLabel": [
+        "permission set-led security model",
+        "permission set led security model",
+        "permission set-led access model",
+        "migrating profiles to permission sets"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:application-lifecycle-management"
+        },
+        {
+          "@id": "kt:permission-sets"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:permission-set-groups"
+        },
+        {
+          "@id": "kt:principle-of-least-privilege"
+        },
+        {
+          "@id": "kt:user-access-policies"
+        },
+        {
+          "@id": "kt:custom-permissions"
+        },
+        {
+          "@id": "kt:unlocked-packages"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:profiles"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:metadata-api"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:package-xml-manifest"
+        }
+      ]
+    },
+    {
       "@id": "kt:post-install-scripts",
       "@type": "kto:Feature",
       "skos:prefLabel": "Post Install Scripts",

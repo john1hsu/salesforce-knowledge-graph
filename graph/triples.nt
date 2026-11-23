@@ -9613,6 +9613,33 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/permission-set-groups> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/tooling-api> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/permission-set-groups> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/permission-set-groups> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/permission-set-led-deployment> <http://purl.org/dc/terms/created> "2026-11-23" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/permission-set-led-deployment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Pattern> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/permission-set-led-deployment> <http://www.w3.org/2000/01/rdf-schema#label> "Permission Set-Led Deployment" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/permission-set-led-deployment> <http://www.w3.org/2004/02/skos/core#altLabel> "migrating profiles to permission sets" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/permission-set-led-deployment> <http://www.w3.org/2004/02/skos/core#altLabel> "permission set led security model" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/permission-set-led-deployment> <http://www.w3.org/2004/02/skos/core#altLabel> "permission set-led access model" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/permission-set-led-deployment> <http://www.w3.org/2004/02/skos/core#altLabel> "permission set-led security model" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/permission-set-led-deployment> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/application-lifecycle-management> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/permission-set-led-deployment> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/permission-sets> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/permission-set-led-deployment> <http://www.w3.org/2004/02/skos/core#definition> "The practice of delivering user access through small, task-scoped permission sets and permission set groups kept in source control and deployed with the metadata they grant, leaving profiles as a thin minimum-access baseline." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/permission-set-led-deployment> <http://www.w3.org/2004/02/skos/core#prefLabel> "Permission Set-Led Deployment" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/permission-set-led-deployment> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-permissions> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/permission-set-led-deployment> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/permission-set-groups> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/permission-set-led-deployment> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/principle-of-least-privilege> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/permission-set-led-deployment> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/unlocked-packages> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/permission-set-led-deployment> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/user-access-policies> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/permission-set-led-deployment> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/permission-set-led-deployment/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/permission-set-led-deployment> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/permission-set-led-deployment/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/permission-set-led-deployment> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/permission-set-led-deployment/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/permission-set-led-deployment> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/permission-set-led-deployment/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/permission-set-led-deployment> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/permission-set-led-deployment/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/permission-set-led-deployment> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#alternativeTo> <https://github.com/john1hsu/salesforce-knowledge-graph/id/profiles> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/permission-set-led-deployment> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/permission-set-led-deployment> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/package-xml-manifest> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/permission-set-led-deployment> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "devops-and-alm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/permission-set-led-deployment> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/permission-set-led-deployment> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/permission-set-licenses> <http://purl.org/dc/terms/created> "2026-11-12" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/permission-set-licenses> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/permission-set-licenses> <http://www.w3.org/2000/01/rdf-schema#label> "Permission Set Licenses" .
@@ -23369,6 +23396,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/permission-set-groups/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/permission-set-groups/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/permission-set-groups/s6> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.264.0.apexcode.meta/pages/apex_permission_set_group_testing.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/permission-set-led-deployment/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/permission-set-led-deployment/s1> <http://purl.org/dc/terms/title> "Migrating to Permission Sets for DX" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/permission-set-led-deployment/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/permission-set-led-deployment/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/permission-set-led-deployment/s1> <https://schema.org/url> "https://developer.salesforce.com/blogs/2018/12/migrating-to-permission-sets-for-dx" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/permission-set-led-deployment/s2> <http://purl.org/dc/terms/publisher> "Salesforce Admins" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/permission-set-led-deployment/s2> <http://purl.org/dc/terms/title> "Admin Best Practices for User Management" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/permission-set-led-deployment/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/permission-set-led-deployment/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/permission-set-led-deployment/s2> <https://schema.org/url> "https://admin.salesforce.com/blog/2022/admin-best-practices-for-user-management" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/permission-set-led-deployment/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/permission-set-led-deployment/s3> <http://purl.org/dc/terms/title> "Profile (Metadata API Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/permission-set-led-deployment/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/permission-set-led-deployment/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/permission-set-led-deployment/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_profile.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/permission-set-led-deployment/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/permission-set-led-deployment/s4> <http://purl.org/dc/terms/title> "PermissionSet (Metadata API Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/permission-set-led-deployment/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/permission-set-led-deployment/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/permission-set-led-deployment/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_permissionset.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/permission-set-led-deployment/s5> <http://purl.org/dc/terms/publisher> "Salesforce Admins" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/permission-set-led-deployment/s5> <http://purl.org/dc/terms/title> "Introducing The Next Generation of User Management: Permission Set Groups" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/permission-set-led-deployment/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/permission-set-led-deployment/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/permission-set-led-deployment/s5> <https://schema.org/url> "https://admin.salesforce.com/blog/2019/introducing-the-next-generation-of-user-management-permission-set-groups" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/permission-set-licenses/s1> <http://purl.org/dc/terms/publisher> "Salesforce Trailhead" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/permission-set-licenses/s1> <http://purl.org/dc/terms/title> "Give Users the Functionality They Need (Salesforce Licensing module)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/permission-set-licenses/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
