@@ -8527,6 +8527,33 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/mulesoft-anypoint-platform> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-platform> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/mulesoft-anypoint-platform> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/mulesoft-anypoint-platform> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/mulesoft-composer> <http://purl.org/dc/terms/created> "2026-11-23" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/mulesoft-composer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Product> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/mulesoft-composer> <http://www.w3.org/2000/01/rdf-schema#label> "MuleSoft Composer" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/mulesoft-composer> <http://www.w3.org/2004/02/skos/core#altLabel> "Composer flows" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/mulesoft-composer> <http://www.w3.org/2004/02/skos/core#altLabel> "MuleSoft Composer for Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/mulesoft-composer> <http://www.w3.org/2004/02/skos/core#altLabel> "invocable Composer flows" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/mulesoft-composer> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-integration> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/mulesoft-composer> <http://www.w3.org/2004/02/skos/core#definition> "MuleSoft's no-code integration tool, used standalone or as an app inside a Salesforce org, in which admins and business users build event- or schedule-triggered flows that move and sync data between Salesforce and other systems through prebuilt connectors." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/mulesoft-composer> <http://www.w3.org/2004/02/skos/core#prefLabel> "MuleSoft Composer" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/mulesoft-composer> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/application-network> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/mulesoft-composer> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/external-services> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/mulesoft-composer> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/mulesoft-anypoint-platform> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/mulesoft-composer> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/mulesoft-for-flow-integration> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/mulesoft-composer> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/point-to-point-integration> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/mulesoft-composer> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/mulesoft-composer/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/mulesoft-composer> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/mulesoft-composer/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/mulesoft-composer> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/mulesoft-composer/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/mulesoft-composer> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/mulesoft-composer/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/mulesoft-composer> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/mulesoft-composer/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/mulesoft-composer> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/mulesoft-composer/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/mulesoft-composer> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#consumedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-builder> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/mulesoft-composer> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/named-credentials> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/mulesoft-composer> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "integration" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/mulesoft-composer> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-platform> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/mulesoft-composer> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/slack-platform> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/mulesoft-composer> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/mulesoft-composer> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/mulesoft-platform-architect-certification> <http://purl.org/dc/terms/created> "2026-11-11" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/mulesoft-platform-architect-certification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Certification> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/mulesoft-platform-architect-certification> <http://www.w3.org/2000/01/rdf-schema#label> "MuleSoft Platform Architect Certification" .
@@ -22381,6 +22408,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/mulesoft-anypoint-platform/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/mulesoft-anypoint-platform/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/mulesoft-anypoint-platform/s5> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/application-networks-and-api-led-connectivity-in-mulesoft" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/mulesoft-composer/s1> <http://purl.org/dc/terms/publisher> "MuleSoft (Salesforce)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/mulesoft-composer/s1> <http://purl.org/dc/terms/title> "Building Process Automation with MuleSoft Composer" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/mulesoft-composer/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/mulesoft-composer/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/mulesoft-composer/s1> <https://schema.org/url> "https://docs.mulesoft.com/composer/ms_composer_overview" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/mulesoft-composer/s2> <http://purl.org/dc/terms/publisher> "MuleSoft (Salesforce)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/mulesoft-composer/s2> <http://purl.org/dc/terms/title> "Composer Connector Reference" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/mulesoft-composer/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/mulesoft-composer/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/mulesoft-composer/s2> <https://schema.org/url> "https://docs.mulesoft.com/composer/ms_composer_reference" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/mulesoft-composer/s3> <http://purl.org/dc/terms/publisher> "MuleSoft (Salesforce)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/mulesoft-composer/s3> <http://purl.org/dc/terms/title> "MuleSoft Composer Release Notes" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/mulesoft-composer/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/mulesoft-composer/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/mulesoft-composer/s3> <https://schema.org/url> "https://docs.mulesoft.com/composer/ms_composer_ms_release_notes" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/mulesoft-composer/s4> <http://purl.org/dc/terms/publisher> "MuleSoft (Salesforce)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/mulesoft-composer/s4> <http://purl.org/dc/terms/title> "MuleSoft Composer Glossary" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/mulesoft-composer/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/mulesoft-composer/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/mulesoft-composer/s4> <https://schema.org/url> "https://docs.mulesoft.com/composer/ms_composer_glossary" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/mulesoft-composer/s5> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/mulesoft-composer/s5> <http://purl.org/dc/terms/title> "Explore MuleSoft Composer (MuleSoft Composer Basics)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/mulesoft-composer/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/mulesoft-composer/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/mulesoft-composer/s5> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/mulesoft-composer-basics/explore-mulesoft-composer" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/mulesoft-composer/s6> <http://purl.org/dc/terms/publisher> "Salesforce Admins Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/mulesoft-composer/s6> <http://purl.org/dc/terms/title> "Introducing Invocable Composer Flows: Automate End-to-End Across All of Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/mulesoft-composer/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/mulesoft-composer/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/mulesoft-composer/s6> <https://schema.org/url> "https://admin.salesforce.com/blog/2023/introducing-invocable-composer-flows-automate-end-to-end-across-all-of-salesforce" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/mulesoft-platform-architect-certification/s1> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/mulesoft-platform-architect-certification/s1> <http://purl.org/dc/terms/title> "Salesforce Certified MuleSoft Platform Architect Exam Guide" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/mulesoft-platform-architect-certification/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

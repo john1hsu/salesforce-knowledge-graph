@@ -36637,6 +36637,100 @@
       ]
     },
     {
+      "@id": "kt:mulesoft-composer",
+      "@type": "kto:Product",
+      "skos:prefLabel": "MuleSoft Composer",
+      "skos:definition": "MuleSoft's no-code integration tool, used standalone or as an app inside a Salesforce org, in which admins and business users build event- or schedule-triggered flows that move and sync data between Salesforce and other systems through prebuilt connectors.",
+      "kto:domain": "integration",
+      "dcterms:created": "2026-11-23",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Building Process Automation with MuleSoft Composer",
+          "dcterms:publisher": "MuleSoft (Salesforce)",
+          "schema:url": "https://docs.mulesoft.com/composer/ms_composer_overview",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Composer Connector Reference",
+          "dcterms:publisher": "MuleSoft (Salesforce)",
+          "schema:url": "https://docs.mulesoft.com/composer/ms_composer_reference",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "MuleSoft Composer Release Notes",
+          "dcterms:publisher": "MuleSoft (Salesforce)",
+          "schema:url": "https://docs.mulesoft.com/composer/ms_composer_ms_release_notes",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "MuleSoft Composer Glossary",
+          "dcterms:publisher": "MuleSoft (Salesforce)",
+          "schema:url": "https://docs.mulesoft.com/composer/ms_composer_glossary",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Explore MuleSoft Composer (MuleSoft Composer Basics)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/mulesoft-composer-basics/explore-mulesoft-composer",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Introducing Invocable Composer Flows: Automate End-to-End Across All of Salesforce",
+          "dcterms:publisher": "Salesforce Admins Blog",
+          "schema:url": "https://admin.salesforce.com/blog/2023/introducing-invocable-composer-flows-automate-end-to-end-across-all-of-salesforce",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/integration/mulesoft-composer.md",
+      "skos:altLabel": [
+        "MuleSoft Composer for Salesforce",
+        "Composer flows",
+        "invocable Composer flows"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:data-integration"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:mulesoft-anypoint-platform"
+        },
+        {
+          "@id": "kt:application-network"
+        },
+        {
+          "@id": "kt:point-to-point-integration"
+        },
+        {
+          "@id": "kt:external-services"
+        },
+        {
+          "@id": "kt:mulesoft-for-flow-integration"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:salesforce-platform"
+        },
+        {
+          "@id": "kt:slack-platform"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:flow-builder"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:named-credentials"
+        }
+      ]
+    },
+    {
       "@id": "kt:named-credentials",
       "@type": "kto:Feature",
       "skos:prefLabel": "Named Credentials",
