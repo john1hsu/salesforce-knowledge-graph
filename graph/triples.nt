@@ -12096,6 +12096,33 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-solution-kits> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-solution-kits> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#usedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-architect> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-solution-kits> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-voice> <http://purl.org/dc/terms/created> "2026-11-23" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-voice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Product> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-voice> <http://www.w3.org/2000/01/rdf-schema#label> "Salesforce Voice" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-voice> <http://www.w3.org/2004/02/skos/core#altLabel> "Partner Contact Center" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-voice> <http://www.w3.org/2004/02/skos/core#altLabel> "SCV" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-voice> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce Voice with Amazon Connect" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-voice> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce Voice with Telephony Providers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-voice> <http://www.w3.org/2004/02/skos/core#altLabel> "Service Cloud Voice" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-voice> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/service-cloud> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-voice> <http://www.w3.org/2004/02/skos/core#definition> "Salesforce's add-on that brings phone calls into the Salesforce console: calls are created as VoiceCall records, routed by Omni-Channel and optionally transcribed in real time, with telephony from Amazon Connect or a partner provider." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-voice> <http://www.w3.org/2004/02/skos/core#prefLabel> "Salesforce Voice" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-voice> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentexchange> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-voice> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/government-cloud> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-voice> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-service-console> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-voice> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-voice/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-voice> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-voice/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-voice> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-voice/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-voice> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-voice/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-voice> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-voice/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-voice> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-voice/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-voice> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/telephony-integration-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-voice> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/omni-channel> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-voice> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "clouds-and-products" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-voice> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/amazon-connect> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-voice> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#partOf> <https://github.com/john1hsu/salesforce-knowledge-graph/id/service-cloud> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-voice> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-voice> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/saml-2-0> <http://purl.org/dc/terms/created> "2026-11-11" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/saml-2-0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#ExternalConcept> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/saml-2-0> <http://www.w3.org/2000/01/rdf-schema#label> "SAML 2.0" .
@@ -12873,6 +12900,7 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/service-cloud> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-builder> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/service-cloud> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/knowledge-base> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/service-cloud> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/queues> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/service-cloud> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-voice> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/service-cloud> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/service-cloud/s1> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/service-cloud> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/service-cloud/s2> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/service-cloud> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/service-cloud/s3> .
@@ -25667,6 +25695,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-solution-kits/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-solution-kits/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-solution-kits/s4> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/customer-identity-and-data-management-for-b2c-commerce/enable-unified-customer-identity" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-voice/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-voice/s1> <http://purl.org/dc/terms/title> "Salesforce Voice with Telephony Providers Implementation Guide" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-voice/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-voice/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-voice/s1> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.voice_developer_guide.meta/voice_intro.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-voice/s2> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-voice/s2> <http://purl.org/dc/terms/title> "Prepare Your Team for Effective Voice Implementation (Trailhead unit)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-voice/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-voice/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-voice/s2> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/service-cloud-voice/service-voice-prepare" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-voice/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-voice/s3> <http://purl.org/dc/terms/title> "Salesforce Voice with Partner Telephony Developer Guide: Transfer Calls" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-voice/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-voice/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-voice/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.voice_pt_developer_guide.meta/voice_pt_developer_guide/voice_pt_transfer_calls.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-voice/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-voice/s4> <http://purl.org/dc/terms/title> "Salesforce Voice Best Practices for Error Handling" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-voice/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-voice/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-voice/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.voice_developer_guide.meta/voice_developer_guide/voice_limits_scaling_error_handling.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-voice/s5> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-voice/s5> <http://purl.org/dc/terms/title> "Salesforce Voice Limits per Salesforce Org" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-voice/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-voice/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-voice/s5> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.voice_developer_guide.meta/voice_developer_guide/voice_limits_scaling_org_limits.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-voice/s6> <http://purl.org/dc/terms/publisher> "AWS Partner Network (APN) Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-voice/s6> <http://purl.org/dc/terms/title> "Integrating Amazon Connect Natively into Salesforce Using Service Cloud Voice" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-voice/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-voice/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "partner" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/salesforce-voice/s6> <https://schema.org/url> "https://aws.amazon.com/blogs/apn/integrating-amazon-connect-natively-into-salesforce-using-service-cloud-voice" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/saml-2-0/s1> <http://purl.org/dc/terms/publisher> "OASIS Security Services TC" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/saml-2-0/s1> <http://purl.org/dc/terms/title> "Security Assertion Markup Language (SAML) V2.0 Technical Overview (Committee Draft 02)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/saml-2-0/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

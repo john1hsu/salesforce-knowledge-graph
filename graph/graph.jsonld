@@ -11969,6 +11969,98 @@
       ]
     },
     {
+      "@id": "kt:salesforce-voice",
+      "@type": "kto:Product",
+      "skos:prefLabel": "Salesforce Voice",
+      "skos:definition": "Salesforce's add-on that brings phone calls into the Salesforce console: calls are created as VoiceCall records, routed by Omni-Channel and optionally transcribed in real time, with telephony from Amazon Connect or a partner provider.",
+      "kto:domain": "clouds-and-products",
+      "dcterms:created": "2026-11-23",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Salesforce Voice with Telephony Providers Implementation Guide",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.voice_developer_guide.meta/voice_intro.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Prepare Your Team for Effective Voice Implementation (Trailhead unit)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/service-cloud-voice/service-voice-prepare",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Salesforce Voice with Partner Telephony Developer Guide: Transfer Calls",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.voice_pt_developer_guide.meta/voice_pt_developer_guide/voice_pt_transfer_calls.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Salesforce Voice Best Practices for Error Handling",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.voice_developer_guide.meta/voice_developer_guide/voice_limits_scaling_error_handling.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Salesforce Voice Limits per Salesforce Org",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.voice_developer_guide.meta/voice_developer_guide/voice_limits_scaling_org_limits.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Integrating Amazon Connect Natively into Salesforce Using Service Cloud Voice",
+          "dcterms:publisher": "AWS Partner Network (APN) Blog",
+          "schema:url": "https://aws.amazon.com/blogs/apn/integrating-amazon-connect-natively-into-salesforce-using-service-cloud-voice",
+          "kto:sourceType": "partner"
+        }
+      ],
+      "kto:file": "articles/clouds-and-products/salesforce-voice.md",
+      "skos:altLabel": [
+        "Service Cloud Voice",
+        "SCV",
+        "Salesforce Voice with Telephony Providers",
+        "Partner Contact Center",
+        "Salesforce Voice with Amazon Connect"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:service-cloud"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:agentexchange"
+        },
+        {
+          "@id": "kt:government-cloud"
+        },
+        {
+          "@id": "kt:lightning-service-console"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:service-cloud"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:omni-channel"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:amazon-connect"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:telephony-integration-api"
+        }
+      ]
+    },
+    {
       "@id": "kt:service-appointments",
       "@type": "kto:StandardObject",
       "skos:prefLabel": "Service Appointments",
@@ -12132,6 +12224,9 @@
         },
         {
           "@id": "kt:field-service"
+        },
+        {
+          "@id": "kt:salesforce-voice"
         }
       ],
       "kto:hasPart": [
