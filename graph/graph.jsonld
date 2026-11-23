@@ -9614,6 +9614,93 @@
       ]
     },
     {
+      "@id": "kt:field-service-scheduling-policies",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Field Service Scheduling Policies",
+      "skos:definition": "The configurable rule sets that tell the Field Service scheduling engine how to place service appointments: pass/fail work rules filter out ineligible mobile workers, and weighted service objectives rank the remaining candidates and time slots.",
+      "kto:domain": "clouds-and-products",
+      "dcterms:created": "2026-11-23",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Examine Scheduling Policies (Trailhead unit)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/field-service-lightning-scheduling-basics/examine-scheduling-policies",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Customize a Scheduling Policy (Trailhead unit)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/field-service-lightning-scheduling-basics/customize-a-scheduling-policy",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "ScheduleService Class | Field Service Developer Guide",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/service/field-service-dev/guide/apex-class-fsl-scheduleservice.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Discover the Workforce Scheduling Architecture (Trailhead unit)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/fr/content/learn/modules/workforce-scheduling-for-field-service-and-operations/discover-the-workforce-scheduling-architecture",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/clouds-and-products/field-service-scheduling-policies.md",
+      "skos:altLabel": [
+        "scheduling policy",
+        "scheduling policies",
+        "Field Service scheduling policy",
+        "work rules and service objectives",
+        "FSL scheduling policy"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:field-service"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:dispatcher-console"
+        },
+        {
+          "@id": "kt:service-appointments"
+        },
+        {
+          "@id": "kt:scheduling-console"
+        },
+        {
+          "@id": "kt:enhanced-scheduling-and-optimization"
+        },
+        {
+          "@id": "kt:public-sector-solutions"
+        },
+        {
+          "@id": "kt:batch-apex"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:field-service"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:dispatcher-console"
+        },
+        {
+          "@id": "kt:public-sector-solutions"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:enhanced-scheduling-and-optimization"
+        }
+      ]
+    },
+    {
       "@id": "kt:field-service",
       "@type": "kto:Product",
       "skos:prefLabel": "Field Service",
