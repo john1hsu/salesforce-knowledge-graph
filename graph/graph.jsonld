@@ -13362,6 +13362,113 @@
       ]
     },
     {
+      "@id": "kt:agentforce-sdr",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Agentforce SDR",
+      "skos:definition": "A prebuilt, autonomous Agentforce for Sales agent that nurtures inbound leads by email: it sends personalized outreach and nudges, answers prospect questions from grounded company data, books meetings for the lead owner and hands interested leads back to human sellers.",
+      "kto:domain": "data-cloud-and-ai",
+      "dcterms:created": "2026-11-23",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Get to Know Agentforce SDR (Agentforce SDR Setup and Customization)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/agentforce-sdr-setup-and-customization/get-to-know-agentforce-sdr",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Customize Agentforce SDR (Agentforce SDR Setup and Customization)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/agentforce-sdr-setup-and-customization/customize-agentforce-sdr",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Set Up Agentforce SDR (Build an Agent to Nurture Leads)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/projects/build-an-agent-to-nurture-leads/set-up-agentforce-sdr",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Configure and Activate Your Agentforce SDR Agent (Build an Agent to Nurture Leads)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/projects/build-an-agent-to-nurture-leads/configure-and-activate-your-agentforce-sdr-agent",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Discover Agentforce for Sales (Agentforce for Sales: Quick Look)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/agentforce-sales-agents-quick-look/discover-agentforce-sales-agents",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Agentforce for Sales Development Implementation Guide",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/en-us/wp-content/uploads/sites/4/documents/guides/Agentforce-for-Sales-Development-Implementation-Guide.pdf",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/data-cloud-and-ai/agentforce-sdr.md",
+      "skos:altLabel": [
+        "Agentforce Sales Development Representative",
+        "Agentforce Sales Development",
+        "Agentforce Sales Development Rep",
+        "Agentforce Lead Nurturing",
+        "SDR Agent",
+        "SDR Agent | Inbound Nurturing",
+        "Sales Agent for Lead Nurturing"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:agentforce"
+        },
+        {
+          "@id": "kt:sales-cloud"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:prompt-builder"
+        },
+        {
+          "@id": "kt:agentforce-data-library"
+        },
+        {
+          "@id": "kt:agentforce-testing-center"
+        },
+        {
+          "@id": "kt:agent-actions"
+        },
+        {
+          "@id": "kt:lead-conversion"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:agentforce"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:salesforce-go"
+        },
+        {
+          "@id": "kt:agentforce-studio"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:data-cloud"
+        },
+        {
+          "@id": "kt:einstein-activity-capture"
+        },
+        {
+          "@id": "kt:retrieval-augmented-generation-in-salesforce"
+        }
+      ]
+    },
+    {
       "@id": "kt:agentforce-specialist-certification",
       "@type": "kto:Certification",
       "skos:prefLabel": "Agentforce Specialist Certification",

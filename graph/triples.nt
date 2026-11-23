@@ -356,6 +356,40 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-observability> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#partOf> <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-studio> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-observability> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-observability> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-sdr> <http://purl.org/dc/terms/created> "2026-11-23" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-sdr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-sdr> <http://www.w3.org/2000/01/rdf-schema#label> "Agentforce SDR" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-sdr> <http://www.w3.org/2004/02/skos/core#altLabel> "Agentforce Lead Nurturing" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-sdr> <http://www.w3.org/2004/02/skos/core#altLabel> "Agentforce Sales Development Rep" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-sdr> <http://www.w3.org/2004/02/skos/core#altLabel> "Agentforce Sales Development Representative" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-sdr> <http://www.w3.org/2004/02/skos/core#altLabel> "Agentforce Sales Development" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-sdr> <http://www.w3.org/2004/02/skos/core#altLabel> "SDR Agent | Inbound Nurturing" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-sdr> <http://www.w3.org/2004/02/skos/core#altLabel> "SDR Agent" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-sdr> <http://www.w3.org/2004/02/skos/core#altLabel> "Sales Agent for Lead Nurturing" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-sdr> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-sdr> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/sales-cloud> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-sdr> <http://www.w3.org/2004/02/skos/core#definition> "A prebuilt, autonomous Agentforce for Sales agent that nurtures inbound leads by email: it sends personalized outreach and nudges, answers prospect questions from grounded company data, books meetings for the lead owner and hands interested leads back to human sellers." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-sdr> <http://www.w3.org/2004/02/skos/core#prefLabel> "Agentforce SDR" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-sdr> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/agent-actions> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-sdr> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-data-library> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-sdr> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-testing-center> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-sdr> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/lead-conversion> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-sdr> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/prompt-builder> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-sdr> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-sdr/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-sdr> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-sdr/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-sdr> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-sdr/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-sdr> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-sdr/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-sdr> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-sdr/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-sdr> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-sdr/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-sdr> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-studio> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-sdr> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-go> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-sdr> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-sdr> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/einstein-activity-capture> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-sdr> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/retrieval-augmented-generation-in-salesforce> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-sdr> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "data-cloud-and-ai" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-sdr> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#partOf> <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-sdr> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-sdr> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-specialist-certification> <http://purl.org/dc/terms/created> "2026-11-13" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-specialist-certification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Certification> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-specialist-certification> <http://www.w3.org/2000/01/rdf-schema#label> "Agentforce Specialist Certification" .
@@ -14218,6 +14252,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-observability/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-observability/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-observability/s5> <https://schema.org/url> "https://www.salesforce.com/agentforce/observability/" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-sdr/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-sdr/s1> <http://purl.org/dc/terms/title> "Get to Know Agentforce SDR (Agentforce SDR Setup and Customization)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-sdr/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-sdr/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-sdr/s1> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/agentforce-sdr-setup-and-customization/get-to-know-agentforce-sdr" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-sdr/s2> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-sdr/s2> <http://purl.org/dc/terms/title> "Customize Agentforce SDR (Agentforce SDR Setup and Customization)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-sdr/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-sdr/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-sdr/s2> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/agentforce-sdr-setup-and-customization/customize-agentforce-sdr" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-sdr/s3> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-sdr/s3> <http://purl.org/dc/terms/title> "Set Up Agentforce SDR (Build an Agent to Nurture Leads)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-sdr/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-sdr/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-sdr/s3> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/projects/build-an-agent-to-nurture-leads/set-up-agentforce-sdr" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-sdr/s4> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-sdr/s4> <http://purl.org/dc/terms/title> "Configure and Activate Your Agentforce SDR Agent (Build an Agent to Nurture Leads)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-sdr/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-sdr/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-sdr/s4> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/projects/build-an-agent-to-nurture-leads/configure-and-activate-your-agentforce-sdr-agent" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-sdr/s5> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-sdr/s5> <http://purl.org/dc/terms/title> "Discover Agentforce for Sales (Agentforce for Sales: Quick Look)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-sdr/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-sdr/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-sdr/s5> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/agentforce-sales-agents-quick-look/discover-agentforce-sales-agents" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-sdr/s6> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-sdr/s6> <http://purl.org/dc/terms/title> "Agentforce for Sales Development Implementation Guide" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-sdr/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-sdr/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-sdr/s6> <https://schema.org/url> "https://www.salesforce.com/en-us/wp-content/uploads/sites/4/documents/guides/Agentforce-for-Sales-Development-Implementation-Guide.pdf" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-specialist-certification/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-specialist-certification/s1> <http://purl.org/dc/terms/title> "Salesforce Certified Agentforce Specialist (credential page)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-specialist-certification/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
