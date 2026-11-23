@@ -1648,6 +1648,90 @@
       ]
     },
     {
+      "@id": "kt:interface-specification-document",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Interface Specification Document",
+      "skos:definition": "A per-interface design document in which a Salesforce architect specifies one integration between Salesforce and another system: source and target, sync or async type, trigger, volume and frequency, data formats and field mapping, transport, security, failover, monitoring and reconciliation. It is linked from the technical specification.",
+      "kto:domain": "architecture-practice",
+      "dcterms:created": "2026-11-23",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Get Started with the Technical Project Documentation (Project Documentation for Salesforce B2C Commerce Technical Architects)",
+          "dcterms:publisher": "Salesforce Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/b2c-project-docs-for-technical-architects/b2c-technical-project-docs",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Document the Architectural Landscape (Project Documentation for Salesforce B2C Commerce Technical Architects)",
+          "dcterms:publisher": "Salesforce Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/b2c-project-docs-for-technical-architects/b2c-doc-architectural-landscape",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Integration Patterns Overview",
+          "dcterms:publisher": "Salesforce Architects",
+          "schema:url": "https://architect.salesforce.com/fundamentals/integration-patterns",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Integration Patterns and Practices (Version 64.0, Summer '25)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://resources.docs.salesforce.com/256/latest/en-us/sfdc/pdf/integration_patterns_and_practices.pdf",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/architecture-practice/interface-specification-document.md",
+      "skos:altLabel": [
+        "ISD",
+        "interface specification",
+        "integration specification",
+        "interface control document",
+        "integration interface spec"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:solution-design-document"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:system-landscape-diagrams"
+        },
+        {
+          "@id": "kt:integration-security"
+        },
+        {
+          "@id": "kt:named-credentials"
+        },
+        {
+          "@id": "kt:mulesoft-anypoint-platform"
+        },
+        {
+          "@id": "kt:commerce-cloud"
+        },
+        {
+          "@id": "kt:integration-patterns-request-reply-fire-and-forget"
+        }
+      ],
+      "kto:usedBy": [
+        {
+          "@id": "kt:salesforce-architect"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:integration-patterns"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:solution-design-document"
+        }
+      ]
+    },
+    {
       "@id": "kt:licensing-strategy",
       "@type": "kto:Concept",
       "skos:prefLabel": "Licensing Strategy",
