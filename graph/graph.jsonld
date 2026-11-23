@@ -44946,6 +44946,97 @@
       ]
     },
     {
+      "@id": "kt:irs-publication-1075",
+      "@type": "kto:ExternalConcept",
+      "skos:prefLabel": "IRS Publication 1075",
+      "skos:definition": "The IRS's Tax Information Security Guidelines for federal, state and local agencies, which set the safeguards for Federal Tax Information (FTI) under IRC 6103(p)(4); Salesforce Government Cloud Plus carries an IRS 1075 attestation so agencies can store and process FTI in Salesforce.",
+      "kto:domain": "public-sector-and-compliance",
+      "dcterms:created": "2026-11-23",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Publication 1075: Tax Information Security Guidelines For Federal, State and Local Agencies (November 2021)",
+          "dcterms:publisher": "Internal Revenue Service",
+          "schema:url": "https://www.irs.gov/pub/irs-pdf/p1075.pdf",
+          "kto:sourceType": "government"
+        },
+        {
+          "dcterms:title": "Cloud computing environment",
+          "dcterms:publisher": "Internal Revenue Service",
+          "schema:url": "https://www.irs.gov/node/8309",
+          "kto:sourceType": "government"
+        },
+        {
+          "dcterms:title": "Encryption requirements of Publication 1075",
+          "dcterms:publisher": "Internal Revenue Service",
+          "schema:url": "https://www.irs.gov/zh-hant/privacy-disclosure/encryption-requirements-of-publication-1075",
+          "kto:sourceType": "government"
+        },
+        {
+          "dcterms:title": "45-day notifications",
+          "dcterms:publisher": "Internal Revenue Service",
+          "schema:url": "https://www.irs.gov/node/5379",
+          "kto:sourceType": "government"
+        },
+        {
+          "dcterms:title": "IRS 1075 — Salesforce Compliance",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://compliance.salesforce.com/en/irs-1075",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Salesforce Announces Customer Ability to Store and Process Federal Taxpayer Information in Government Cloud Plus",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/news/stories/salesforce-announces-customer-ability-to-store-and-process-federal-taxpayer-information-in-government-cloud-plus/",
+          "kto:sourceType": "news"
+        }
+      ],
+      "kto:file": "articles/public-sector-and-compliance/irs-publication-1075.md",
+      "skos:altLabel": [
+        "IRS 1075",
+        "Pub 1075",
+        "Publication 1075",
+        "Tax Information Security Guidelines",
+        "FTI safeguards"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:security-compliance-frameworks"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:government-cloud-plus"
+        },
+        {
+          "@id": "kt:fedramp-high"
+        },
+        {
+          "@id": "kt:shield-platform-encryption"
+        },
+        {
+          "@id": "kt:public-sector-solutions"
+        },
+        {
+          "@id": "kt:data-residency"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:nist-sp-800-53"
+        },
+        {
+          "@id": "kt:fedramp"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:cjis-security-policy"
+        }
+      ]
+    },
+    {
       "@id": "kt:iso-iec-27001",
       "@type": "kto:ExternalConcept",
       "skos:prefLabel": "ISO/IEC 27001",

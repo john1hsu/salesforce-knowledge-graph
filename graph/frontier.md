@@ -99,16 +99,16 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:operating-hours` | `kt:salesforce-scheduler` |
 | `kt:guest-user-sharing-rules` | `kt:share-groups` |
 | `kt:high-volume-experience-cloud-users` | `kt:share-groups` |
-| `kt:business-administration` | `kt:management` |
 | `kt:api-community-manager` | `kt:api-experience-hub` |
+| `kt:business-administration` | `kt:management` |
 | `kt:ldap` | `kt:delegated-authentication` |
 | `kt:briefcase-builder` | `kt:salesforce-mobile-app` |
+| `kt:developer-console` | `kt:apex-logging-and-debug-logs` |
 | `kt:document-ai` | `kt:unstructured-data-in-data-cloud` |
 | `kt:mobile-sdk` | `kt:salesforce-mobile-app` |
-| `kt:developer-console` | `kt:apex-logging-and-debug-logs` |
 | `kt:ui-api` | `kt:field-dependencies` |
-| `kt:user-provisioning` | `kt:scim` |
 | `kt:models-api` | `kt:ai-models` |
+| `kt:user-provisioning` | `kt:scim` |
 | `kt:hmac-based-one-time-password` | `kt:time-based-one-time-password` |
 | `kt:organization-wide-email-addresses` | `kt:email-alerts` |
 | `kt:apex-soap-web-services` | `kt:apex-rest-services` |
@@ -120,8 +120,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:agentforce-nonprofit-consultant-certification` | `kt:agentforce-nonprofit` |
 | `kt:nonprofit-success-pack` | `kt:agentforce-nonprofit` |
 | `kt:currency-type-object` | `kt:multiple-currencies` |
-| `kt:enterprise-architecture` | `kt:togaf` |
 | `kt:digital-accessibility` | `kt:section-508-accessibility` |
+| `kt:enterprise-architecture` | `kt:togaf` |
 | `kt:wcag` | `kt:section-508-accessibility` |
 | `kt:federal-acquisition-regulation` | `kt:performance-work-statement` |
 | `kt:quality-assurance-surveillance-plan` | `kt:performance-work-statement` |
@@ -134,7 +134,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:twelve-factor-app` | `kt:heroku-architect-certification` |
 | `kt:salesforce-maps` | `kt:geolocation-fields` |
 | `kt:signup-request-api` | `kt:trialforce` |
-| `kt:tx-ramp` | `kt:govramp` |
 | `kt:agent-to-agent-protocol` | `kt:agentforce-architecture-patterns` |
 | `kt:aws-clean-rooms` | `kt:data-360-clean-rooms` |
 | `kt:consent-data-model` | `kt:consent-management-in-data-cloud` |
@@ -151,3 +150,4 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:rollback-plan` | `kt:hypercare` |
 | `kt:tableau-blueprint` | `kt:tableau-architect-certification` |
 | `kt:tableau-server-administrator-certification` | `kt:tableau-architect-certification` |
+| `kt:tx-ramp` | `kt:govramp` |
