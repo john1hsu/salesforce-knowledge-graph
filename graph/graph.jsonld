@@ -29792,6 +29792,95 @@
       ]
     },
     {
+      "@id": "kt:trialforce",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Trialforce",
+      "skos:definition": "The ISV partner feature that provisions free trial orgs of a partner's solution from a template: a snapshot of a configured Trialforce source org, optionally branded through a Trialforce management org, delivered via AgentExchange, the SignupRequest API or Environment Hub demo orgs.",
+      "kto:domain": "devops-and-alm",
+      "dcterms:created": "2026-11-23",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Trialforce Key Concepts and Relationships (ISVforce Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/isvforce/guide/trialforce-conceptual-overview.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Create a Trialforce Template (ISVforce Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/isvforce/guide/trialforce-creating-template.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Considerations for Trialforce Templates (ISVforce Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/isvforce/guide/trialforce-template-considerations.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Get Your Orgs Ready (Trailhead: ISV App Trials)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/isv_app_trials/isv_app_trials_ready",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Deliver Your Trial (Trailhead: ISV App Trials)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/modules/isv_app_trials/units/isv_app_trials_deliver",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/devops-and-alm/trialforce.md",
+      "skos:altLabel": [
+        "Salesforce Trialforce",
+        "Trialforce template",
+        "Trialforce source org",
+        "Trialforce Source Organization",
+        "TSO",
+        "Trialforce Management Org",
+        "TMO"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:agentexchange"
+        },
+        {
+          "@id": "kt:application-lifecycle-management"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:second-generation-managed-packages"
+        },
+        {
+          "@id": "kt:first-generation-managed-packages"
+        },
+        {
+          "@id": "kt:sandbox-templates"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:partner-business-org"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:environment-hub"
+        },
+        {
+          "@id": "kt:license-management-app"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:signup-request-api"
+        }
+      ]
+    },
+    {
       "@id": "kt:unlocked-packages",
       "@type": "kto:Feature",
       "skos:prefLabel": "Unlocked Packages",
