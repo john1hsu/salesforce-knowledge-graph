@@ -40934,6 +40934,110 @@
       ]
     },
     {
+      "@id": "kt:salesforce-mobile-app",
+      "@type": "kto:Product",
+      "skos:prefLabel": "Salesforce Mobile App",
+      "skos:definition": "Salesforce's own iOS and Android app (formerly Salesforce1) that renders an org's metadata-driven apps, records, actions and Lightning pages on phones, customized by admins through mobile navigation, compact layouts and quick actions.",
+      "kto:domain": "platform-architecture",
+      "dcterms:created": "2026-11-23",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Salesforce Mobile App Customization: Salesforce Mobile App Benefits & Features",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/salesforce1_mobile_app/salesforce1_mobile_app_intro",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Salesforce Mobile App Customization: Customize Navigation Menu for Salesforce App",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/modules/salesforce1_mobile_app/units/salesforce1_mobile_app_navigation",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Salesforce Mobile App Customization: Customize Compact Layouts",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/salesforce1_mobile_app/salesforce1_mobile_app_compact_layouts",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Salesforce Mobile App Customization: Create Global Quick Actions",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/en/content/learn/modules/salesforce1_mobile_app/salesforce1_mobile_app_actions_global",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Mobile and Offline Developer Guide: Build a Briefcase",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.264.0.mobile_offline.meta/mobile_offline/dx_onboard_wizard_briefcase.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Salesforce Mobile SDK Basics: Learn OAuth 2.0 for Secure Mobile App Authentication",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/mobile_sdk_introduction/mobilesdk_intro_security",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/platform-architecture/salesforce-mobile-app.md",
+      "skos:altLabel": [
+        "Salesforce1",
+        "Salesforce1 mobile app",
+        "Salesforce app for iOS and Android",
+        "Salesforce mobile web",
+        "Mobile Only app"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-platform"
+        },
+        {
+          "@id": "kt:metadata-driven-architecture"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:lightning-app-builder"
+        },
+        {
+          "@id": "kt:compact-layouts"
+        },
+        {
+          "@id": "kt:quick-actions"
+        },
+        {
+          "@id": "kt:dynamic-forms"
+        },
+        {
+          "@id": "kt:mobile-sdk"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:lightning-app-builder"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:compact-layouts"
+        },
+        {
+          "@id": "kt:quick-actions"
+        }
+      ],
+      "kto:enables": [
+        {
+          "@id": "kt:briefcase-builder"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:mobile-sdk"
+        }
+      ]
+    },
+    {
       "@id": "kt:salesforce-platform",
       "@type": "kto:Product",
       "skos:prefLabel": "Salesforce Platform",

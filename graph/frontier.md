@@ -14,7 +14,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:requirements-engineering` | `kt:non-functional-requirements`, `kt:requirements-gathering` |
 | `kt:user-stories` | `kt:fit-gap-analysis`, `kt:requirements-gathering` |
 | `kt:business-architecture` | `kt:capability-maps`, `kt:togaf` |
-| `kt:salesforce-mobile-app` | `kt:agentforce-employee-agents`, `kt:compact-layouts` |
 | `kt:salesforce-ecosystem-roles` | `kt:salesforce-architect` |
 | `kt:service-setup-assistant` | `kt:service-cloud` |
 | `kt:salesforce-architecture-program` | `kt:salesforce-architecture-center` |
@@ -35,19 +34,19 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:apex-mocks` | `kt:apex-enterprise-patterns` |
 | `kt:lightning-out` | `kt:lightning-locker` |
 | `kt:salesforce-ecosystem` | `kt:salesforce-inc` |
-| `kt:heroku-postgres` | `kt:heroku-connect` |
 | `kt:mulesoft-platform-integration-architect-certification` | `kt:mulesoft-platform-architect-certification` |
+| `kt:heroku-postgres` | `kt:heroku-connect` |
 | `kt:amazon-connect` | `kt:salesforce-voice` |
 | `kt:object-manager` | `kt:schema-builder` |
 | `kt:telephony-integration-api` | `kt:salesforce-voice` |
-| `kt:dynamic-revenue-orchestrator` | `kt:revenue-cloud` |
-| `kt:revenue-management-consultant-certification` | `kt:revenue-cloud` |
-| `kt:time-based-one-time-password` | `kt:salesforce-authenticator` |
-| `kt:path` | `kt:business-processes` |
-| `kt:revenue-intelligence` | `kt:collaborative-forecasts` |
-| `kt:batch-apex-error-event` | `kt:transaction-finalizers` |
 | `kt:dynamic-actions` | `kt:dynamic-forms` |
 | `kt:dynamic-highlights-panel` | `kt:dynamic-forms` |
+| `kt:dynamic-revenue-orchestrator` | `kt:revenue-cloud` |
+| `kt:revenue-management-consultant-certification` | `kt:revenue-cloud` |
+| `kt:path` | `kt:business-processes` |
+| `kt:time-based-one-time-password` | `kt:salesforce-authenticator` |
+| `kt:revenue-intelligence` | `kt:collaborative-forecasts` |
+| `kt:batch-apex-error-event` | `kt:transaction-finalizers` |
 | `kt:generative-ai` | `kt:retrieval-augmented-generation-in-salesforce` |
 | `kt:block-kit` | `kt:slack-platform` |
 | `kt:slack-api-rate-limits` | `kt:slack-platform` |
@@ -93,9 +92,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:data-cloud-code-extension` | `kt:vector-search-in-data-cloud` |
 | `kt:agentforce-vibes` | `kt:agentforce-vibes-ide` |
 | `kt:json-web-signature` | `kt:json-web-token` |
+| `kt:shared-activities` | `kt:activity-data-model` |
 | `kt:setup-audit-trail` | `kt:sarbanes-oxley-act` |
 | `kt:account-teams` | `kt:opportunity-teams` |
-| `kt:shared-activities` | `kt:activity-data-model` |
 | `kt:slds-linter` | `kt:salesforce-lightning-design-system` |
 | `kt:partner-console` | `kt:license-management-app` |
 | `kt:subscriber-support-console` | `kt:license-management-app` |
@@ -109,24 +108,26 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:api-community-manager` | `kt:api-experience-hub` |
 | `kt:ldap` | `kt:delegated-authentication` |
 | `kt:developer-console` | `kt:apex-logging-and-debug-logs` |
+| `kt:briefcase-builder` | `kt:salesforce-mobile-app` |
+| `kt:mobile-sdk` | `kt:salesforce-mobile-app` |
 | `kt:user-provisioning` | `kt:scim` |
 | `kt:document-ai` | `kt:unstructured-data-in-data-cloud` |
 | `kt:models-api` | `kt:ai-models` |
-| `kt:channel-order-app` | `kt:partner-business-org` |
 | `kt:ui-api` | `kt:field-dependencies` |
+| `kt:channel-order-app` | `kt:partner-business-org` |
 | `kt:organization-wide-email-addresses` | `kt:email-alerts` |
 | `kt:enhanced-letterheads` | `kt:email-templates` |
 | `kt:experience-cloud-consultant-certification` | `kt:licensing-strategy` |
 | `kt:apex-soap-web-services` | `kt:apex-rest-services` |
 | `kt:einstein-prediction-builder` | `kt:einstein-next-best-action` |
-| `kt:iso-iec-29100` | `kt:iso-iec-27018` |
 | `kt:partner-relationship-management` | `kt:partner-community-licenses` |
+| `kt:iso-iec-29100` | `kt:iso-iec-27018` |
 | `kt:agentforce-nonprofit-consultant-certification` | `kt:agentforce-nonprofit` |
 | `kt:nonprofit-success-pack` | `kt:agentforce-nonprofit` |
 | `kt:currency-type-object` | `kt:multiple-currencies` |
-| `kt:enterprise-architecture` | `kt:togaf` |
 | `kt:digital-accessibility` | `kt:section-508-accessibility` |
 | `kt:wcag` | `kt:section-508-accessibility` |
+| `kt:enterprise-architecture` | `kt:togaf` |
 | `kt:federal-acquisition-regulation` | `kt:performance-work-statement` |
 | `kt:quality-assurance-surveillance-plan` | `kt:performance-work-statement` |
 | `kt:statement-of-objectives` | `kt:performance-work-statement` |
@@ -136,8 +137,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:heroku-fir` | `kt:heroku-architect-certification` |
 | `kt:twelve-factor-app` | `kt:heroku-architect-certification` |
 | `kt:salesforce-maps` | `kt:geolocation-fields` |
-| `kt:planned-maintenance-windows` | `kt:disaster-recovery-and-site-switching` |
-| `kt:read-only-mode` | `kt:disaster-recovery-and-site-switching` |
 | `kt:tx-ramp` | `kt:govramp` |
 | `kt:agent-to-agent-protocol` | `kt:agentforce-architecture-patterns` |
 | `kt:aws-clean-rooms` | `kt:data-360-clean-rooms` |
@@ -150,6 +149,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:greenhouse-gas-protocol` | `kt:net-zero-cloud` |
 | `kt:multi-agent-orchestration` | `kt:agentforce-architecture-patterns` |
 | `kt:notes-and-attachments` | `kt:content-document-model` |
+| `kt:planned-maintenance-windows` | `kt:disaster-recovery-and-site-switching` |
+| `kt:read-only-mode` | `kt:disaster-recovery-and-site-switching` |
 | `kt:rollback-plan` | `kt:hypercare` |
 | `kt:tableau-blueprint` | `kt:tableau-architect-certification` |
 | `kt:tableau-server-administrator-certification` | `kt:tableau-architect-certification` |
