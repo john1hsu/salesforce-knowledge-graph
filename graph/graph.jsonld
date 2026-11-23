@@ -23953,6 +23953,95 @@
       ]
     },
     {
+      "@id": "kt:lwc-jest-testing",
+      "@type": "kto:Tool",
+      "skos:prefLabel": "LWC Jest Testing",
+      "skos:definition": "Unit testing of Lightning Web Components with the Jest framework through Salesforce's @salesforce/sfdx-lwc-jest package, which runs component tests locally in jsdom, without a browser or org, and supplies stubs and mock wire adapters for Salesforce modules.",
+      "kto:domain": "development",
+      "dcterms:created": "2026-11-23",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Lightning Web Components Developer Guide: Write Jest Tests",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/lwc/guide/unit-testing-using-jest-create-tests.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Lightning Web Components Developer Guide: Write Jest Tests for Wire Service",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/lwc/guide/unit-testing-using-wire-utility.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Lightning Web Components Developer Guide: Test Lightning Web Components",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/lwc/guide/testing.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Unit Test Lightning Web Components: Set Up Jest Testing Framework",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/en/content/learn/modules/test-lightning-web-components/set-up-jest-testing-framework",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Unit Test Lightning Web Components: Write a Jest Test for Wire Service",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/test-lightning-web-components/write-a-jest-test-for-wire-service",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "@salesforce/sfdx-lwc-jest package README",
+          "dcterms:publisher": "npm",
+          "schema:url": "https://www.npmjs.com/package/@salesforce/sfdx-lwc-jest",
+          "kto:sourceType": "community"
+        }
+      ],
+      "kto:file": "articles/development/lwc-jest-testing.md",
+      "skos:altLabel": [
+        "sfdx-lwc-jest",
+        "Jest tests for Lightning web components",
+        "LWC unit tests",
+        "@salesforce/sfdx-lwc-jest"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:lightning-web-components"
+        },
+        {
+          "@id": "kt:testing-strategy"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:wire-service"
+        },
+        {
+          "@id": "kt:lightning-data-service"
+        },
+        {
+          "@id": "kt:javascript-developer-certification"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:salesforce-cli"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:apex-testing"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:salesforce-extensions-for-vs-code"
+        }
+      ]
+    },
+    {
       "@id": "kt:mixed-dml-error",
       "@type": "kto:Concept",
       "skos:prefLabel": "Mixed DML Error",

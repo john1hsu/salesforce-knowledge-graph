@@ -68,9 +68,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:platform-cache-partitions` | `kt:platform-cache` |
 | `kt:data-cloud-query-api` | `kt:data-graphs` |
 | `kt:fhir` | `kt:health-cloud` |
+| `kt:utilization-management` | `kt:health-cloud` |
 | `kt:model-context-protocol` | `kt:model-context-protocol-in-agentforce` |
 | `kt:salesforce-hosted-mcp-servers` | `kt:model-context-protocol-in-agentforce` |
-| `kt:utilization-management` | `kt:health-cloud` |
 | `kt:business-analyst-certification` | `kt:user-acceptance-testing` |
 | `kt:in-app-guidance` | `kt:change-management-and-adoption` |
 | `kt:opportunity-products` | `kt:price-books` |
@@ -88,8 +88,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:webauthn` | `kt:security-keys` |
 | `kt:data-cloud-code-extension` | `kt:vector-search-in-data-cloud` |
 | `kt:hyperforce-assistant` | `kt:instance-refresh-and-org-migration` |
-| `kt:mulesoft-for-flow-integration` | `kt:mulesoft-composer` |
 | `kt:agentforce-vibes` | `kt:agentforce-vibes-ide` |
+| `kt:mulesoft-for-flow-integration` | `kt:mulesoft-composer` |
 | `kt:json-web-signature` | `kt:json-web-token` |
 | `kt:shared-activities` | `kt:activity-data-model` |
 | `kt:setup-audit-trail` | `kt:sarbanes-oxley-act` |
@@ -105,8 +105,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:api-community-manager` | `kt:api-experience-hub` |
 | `kt:ldap` | `kt:delegated-authentication` |
 | `kt:briefcase-builder` | `kt:salesforce-mobile-app` |
-| `kt:developer-console` | `kt:apex-logging-and-debug-logs` |
 | `kt:mobile-sdk` | `kt:salesforce-mobile-app` |
+| `kt:developer-console` | `kt:apex-logging-and-debug-logs` |
 | `kt:document-ai` | `kt:unstructured-data-in-data-cloud` |
 | `kt:ui-api` | `kt:field-dependencies` |
 | `kt:user-provisioning` | `kt:scim` |
@@ -136,7 +136,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:heroku-fir` | `kt:heroku-architect-certification` |
 | `kt:twelve-factor-app` | `kt:heroku-architect-certification` |
 | `kt:salesforce-maps` | `kt:geolocation-fields` |
-| `kt:lwc-jest-testing` | `kt:javascript-developer-certification` |
 | `kt:planned-maintenance-windows` | `kt:disaster-recovery-and-site-switching` |
 | `kt:read-only-mode` | `kt:disaster-recovery-and-site-switching` |
 | `kt:tx-ramp` | `kt:govramp` |
