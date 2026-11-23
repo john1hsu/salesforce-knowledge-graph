@@ -20592,6 +20592,78 @@
       ]
     },
     {
+      "@id": "kt:rich-text-area-fields",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Rich Text Area Fields",
+      "skos:definition": "A custom field type, labeled Text Area (Rich) in Setup, that stores formatted text, hyperlinks and inline images as HTML of up to 131,072 characters including markup, edited in Lightning with a toolbar-based rich text editor.",
+      "kto:domain": "data-model",
+      "dcterms:created": "2026-11-23",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Custom Field Types",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=platform.custom_field_types.htm&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Salesforce Error 'Body Data Value too large' After Limit is Raised on the Length of Rich and Long Text Areas",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=000383031&language=en_US&type=1",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "WHERE — SOQL and SOSL Reference",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.soql_sosl.meta/soql_sosl/sforce_api_calls_soql_select_conditionexpression.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Input Rich Text — Lightning Component Reference",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/lightning-component-reference/guide/lightning-input-rich-text.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Formatted Rich Text — Lightning Component Reference",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/lightning-component-reference/guide/lightning-formatted-rich-text.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/data-model/rich-text-area-fields.md",
+      "skos:altLabel": [
+        "rich text area field",
+        "Text Area (Rich)",
+        "RTA field",
+        "rich text field"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:custom-fields"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:external-objects"
+        },
+        {
+          "@id": "kt:field-type-conversion"
+        }
+      ],
+      "kto:queriedWith": [
+        {
+          "@id": "kt:soql"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:lightning-web-components"
+        }
+      ]
+    },
+    {
       "@id": "kt:roll-up-summary-field",
       "@type": "kto:Feature",
       "skos:prefLabel": "Roll-Up Summary Field",
