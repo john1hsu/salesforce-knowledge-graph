@@ -22788,6 +22788,89 @@
       ]
     },
     {
+      "@id": "kt:javascript-developer-certification",
+      "@type": "kto:Certification",
+      "skos:prefLabel": "JavaScript Developer Certification",
+      "skos:definition": "Salesforce's credential for general-purpose JavaScript skills, earned through a proctored 60-question exam on language fundamentals, browser and event handling, asynchronous programming, server-side JavaScript, debugging and testing; it has no prerequisite and is kept current with an annual Summer-cycle maintenance badge.",
+      "kto:domain": "development",
+      "dcterms:created": "2026-11-23",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Javascript Certification - Salesforce Certified JavaScript Developer",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/credentials/javascriptdeveloper",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Salesforce Certified JavaScript Developer Exam Guide",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=005298945&language=en_US&type=1",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Salesforce Certification Maintenance Schedule",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=005298922&language=en_US&type=1",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Get Started with Salesforce JavaScript Developer I Certification Prep",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/javascript-dev-i-cert-prep-variables-collections-functions-classes/get-started-with-salesforce-javascript-developer-i-certification-prep",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "JavaScript Developer Certification Maintenance (Summer '25)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/javascript-developer-certification-maintenance-summer-25",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "JavaScript Developer I Certification: Unlock new career opportunities",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/blog/salesforce-javascript-developer-certification/",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/development/javascript-developer-certification.md",
+      "skos:altLabel": [
+        "Salesforce Certified JavaScript Developer",
+        "JavaScript Developer I",
+        "Salesforce Certified JavaScript Developer I",
+        "JS Dev I",
+        "JS-Dev-101"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-certification-program"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:lightning-web-components"
+        },
+        {
+          "@id": "kt:platform-developer-certification"
+        },
+        {
+          "@id": "kt:platform-developer-ii-certification"
+        },
+        {
+          "@id": "kt:lightning-web-security"
+        },
+        {
+          "@id": "kt:lwc-jest-testing"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:platform-developer-certification"
+        }
+      ]
+    },
+    {
       "@id": "kt:lightning-data-service",
       "@type": "kto:Feature",
       "skos:prefLabel": "Lightning Data Service",
