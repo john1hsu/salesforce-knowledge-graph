@@ -10005,6 +10005,33 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/pod-and-instance-architecture> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#partOf> <https://github.com/john1hsu/salesforce-knowledge-graph/id/hyperforce> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/pod-and-instance-architecture> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/pod-and-instance-architecture> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/point-to-point-integration> <http://purl.org/dc/terms/created> "2026-11-23" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/point-to-point-integration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Pattern> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/point-to-point-integration> <http://www.w3.org/2000/01/rdf-schema#label> "Point-to-Point Integration" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/point-to-point-integration> <http://www.w3.org/2004/02/skos/core#altLabel> "P2P integration" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/point-to-point-integration> <http://www.w3.org/2004/02/skos/core#altLabel> "direct integration" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/point-to-point-integration> <http://www.w3.org/2004/02/skos/core#altLabel> "point to point integration" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/point-to-point-integration> <http://www.w3.org/2004/02/skos/core#altLabel> "spaghetti integration" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/point-to-point-integration> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-patterns> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/point-to-point-integration> <http://www.w3.org/2004/02/skos/core#definition> "An integration topology in which each system is wired directly to every system it exchanges data with through custom, purpose-built connections. Quick to build for two or three systems, it becomes tightly coupled, brittle and costly to maintain as the number of endpoints grows, which is why Salesforce guidance steers larger estates toward middleware, API-led connectivity or an event bus." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/point-to-point-integration> <http://www.w3.org/2004/02/skos/core#prefLabel> "Point-to-Point Integration" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/point-to-point-integration> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-callouts> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/point-to-point-integration> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/application-network> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/point-to-point-integration> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/mulesoft-anypoint-platform> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/point-to-point-integration> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-events> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/point-to-point-integration> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/point-to-point-integration/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/point-to-point-integration> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/point-to-point-integration/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/point-to-point-integration> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/point-to-point-integration/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/point-to-point-integration> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/point-to-point-integration/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/point-to-point-integration> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/point-to-point-integration/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/point-to-point-integration> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/point-to-point-integration/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/point-to-point-integration> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#alternativeTo> <https://github.com/john1hsu/salesforce-knowledge-graph/id/enterprise-service-bus> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/point-to-point-integration> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#causes> <https://github.com/john1hsu/salesforce-knowledge-graph/id/technical-debt-in-salesforce> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/point-to-point-integration> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#contrastsWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/api-led-connectivity> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/point-to-point-integration> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#contrastsWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/event-driven-architecture> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/point-to-point-integration> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "integration" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/point-to-point-integration> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/point-to-point-integration> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/polymorphic-relationships> <http://purl.org/dc/terms/created> "2026-11-07" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/polymorphic-relationships> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/polymorphic-relationships> <http://www.w3.org/2000/01/rdf-schema#label> "Polymorphic Relationships" .
@@ -23615,6 +23642,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/pod-and-instance-architecture/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/pod-and-instance-architecture/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/pod-and-instance-architecture/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.identityImplGuide.meta/%20identityImplGuide/domain_name_get_system_info.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/point-to-point-integration/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/point-to-point-integration/s1> <http://purl.org/dc/terms/title> "Explore the Application Network (MuleSoft Basics)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/point-to-point-integration/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/point-to-point-integration/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/point-to-point-integration/s1> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/mulesoft-basics/app-network" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/point-to-point-integration/s2> <http://purl.org/dc/terms/publisher> "Salesforce Architects" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/point-to-point-integration/s2> <http://purl.org/dc/terms/title> "Using the Right Tools and Patterns for Event-Driven Architectures (Platform Decision Guides)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/point-to-point-integration/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/point-to-point-integration/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/point-to-point-integration/s2> <https://schema.org/url> "https://architect.salesforce.com/decision-guides/event-driven" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/point-to-point-integration/s3> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/point-to-point-integration/s3> <http://purl.org/dc/terms/title> "Event-Driven Software Architecture (Platform Events Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/point-to-point-integration/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/point-to-point-integration/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/point-to-point-integration/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.platform_events.meta/platform_events/platform_events_intro_architecture.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/point-to-point-integration/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers Blog (Greg Cook)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/point-to-point-integration/s4> <http://purl.org/dc/terms/title> "Integration Architecture for the Salesforce Platform" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/point-to-point-integration/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/point-to-point-integration/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/point-to-point-integration/s4> <https://schema.org/url> "https://developer.salesforce.com/blogs/developer-relations/2014/11/salesforce-integration-architecture" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/point-to-point-integration/s5> <http://purl.org/dc/terms/publisher> "MuleSoft (Salesforce)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/point-to-point-integration/s5> <http://purl.org/dc/terms/title> "Eliminating point to point integration pain with Mule ESB" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/point-to-point-integration/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/point-to-point-integration/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/point-to-point-integration/s5> <https://schema.org/url> "https://www.mulesoft.com/integration/point-to-point-integration" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/point-to-point-integration/s6> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/point-to-point-integration/s6> <http://purl.org/dc/terms/title> "Enterprise Service Bus (ESB): Connecting Enterprise Systems at Scale" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/point-to-point-integration/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/point-to-point-integration/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/point-to-point-integration/s6> <https://schema.org/url> "https://www.salesforce.com/ap/blog/what-is-esb/" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/polymorphic-relationships/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/polymorphic-relationships/s1> <http://purl.org/dc/terms/title> "Understanding Relationship Fields and Polymorphic Fields (SOQL and SOSL Reference)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/polymorphic-relationships/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

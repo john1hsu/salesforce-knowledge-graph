@@ -36365,6 +36365,98 @@
       ]
     },
     {
+      "@id": "kt:point-to-point-integration",
+      "@type": "kto:Pattern",
+      "skos:prefLabel": "Point-to-Point Integration",
+      "skos:definition": "An integration topology in which each system is wired directly to every system it exchanges data with through custom, purpose-built connections. Quick to build for two or three systems, it becomes tightly coupled, brittle and costly to maintain as the number of endpoints grows, which is why Salesforce guidance steers larger estates toward middleware, API-led connectivity or an event bus.",
+      "kto:domain": "integration",
+      "dcterms:created": "2026-11-23",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Explore the Application Network (MuleSoft Basics)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/mulesoft-basics/app-network",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Using the Right Tools and Patterns for Event-Driven Architectures (Platform Decision Guides)",
+          "dcterms:publisher": "Salesforce Architects",
+          "schema:url": "https://architect.salesforce.com/decision-guides/event-driven",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Event-Driven Software Architecture (Platform Events Developer Guide)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.platform_events.meta/platform_events/platform_events_intro_architecture.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Integration Architecture for the Salesforce Platform",
+          "dcterms:publisher": "Salesforce Developers Blog (Greg Cook)",
+          "schema:url": "https://developer.salesforce.com/blogs/developer-relations/2014/11/salesforce-integration-architecture",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Eliminating point to point integration pain with Mule ESB",
+          "dcterms:publisher": "MuleSoft (Salesforce)",
+          "schema:url": "https://www.mulesoft.com/integration/point-to-point-integration",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Enterprise Service Bus (ESB): Connecting Enterprise Systems at Scale",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/ap/blog/what-is-esb/",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/integration/point-to-point-integration.md",
+      "skos:altLabel": [
+        "point to point integration",
+        "P2P integration",
+        "direct integration",
+        "spaghetti integration"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:integration-patterns"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:application-network"
+        },
+        {
+          "@id": "kt:mulesoft-anypoint-platform"
+        },
+        {
+          "@id": "kt:apex-callouts"
+        },
+        {
+          "@id": "kt:platform-events"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:api-led-connectivity"
+        },
+        {
+          "@id": "kt:event-driven-architecture"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:enterprise-service-bus"
+        }
+      ],
+      "kto:causes": [
+        {
+          "@id": "kt:technical-debt-in-salesforce"
+        }
+      ]
+    },
+    {
       "@id": "kt:process-integration",
       "@type": "kto:Concept",
       "skos:prefLabel": "Process Integration",

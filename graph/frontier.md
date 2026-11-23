@@ -10,7 +10,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:field-service-mobile-app` | `kt:field-service`, `kt:service-appointments` |
 | `kt:work-orders` | `kt:field-service`, `kt:service-appointments` |
 | `kt:data-extensions` | `kt:automation-studio`, `kt:contact-builder` |
-| `kt:point-to-point-integration` | `kt:api-led-connectivity`, `kt:application-network` |
 | `kt:requirements-engineering` | `kt:non-functional-requirements`, `kt:requirements-gathering` |
 | `kt:mulesoft-composer` | `kt:application-network`, `kt:slack-platform` |
 | `kt:user-stories` | `kt:fit-gap-analysis`, `kt:requirements-gathering` |
@@ -36,8 +35,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:apex-mocks` | `kt:apex-enterprise-patterns` |
 | `kt:lightning-out` | `kt:lightning-locker` |
 | `kt:salesforce-ecosystem` | `kt:salesforce-inc` |
-| `kt:heroku-postgres` | `kt:heroku-connect` |
 | `kt:mulesoft-platform-integration-architect-certification` | `kt:mulesoft-platform-architect-certification` |
+| `kt:heroku-postgres` | `kt:heroku-connect` |
 | `kt:object-manager` | `kt:schema-builder` |
 | `kt:amazon-connect` | `kt:salesforce-voice` |
 | `kt:telephony-integration-api` | `kt:salesforce-voice` |
@@ -84,9 +83,11 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:technology-roadmaps` | `kt:capability-maps` |
 | `kt:value-streams` | `kt:capability-maps` |
 | `kt:scheduling-console` | `kt:dispatcher-console` |
+| `kt:enterprise-service-bus` | `kt:point-to-point-integration` |
 | `kt:salesforce-mobile-app` | `kt:compact-layouts` |
 | `kt:information-management` | `kt:data-management` |
 | `kt:username-password-flow` | `kt:client-credentials-flow` |
+| `kt:api-visualizer` | `kt:application-network` |
 | `kt:change-order-process` | `kt:statement-of-work` |
 | `kt:decision-matrices` | `kt:decision-tables` |
 | `kt:hyperforce-assistant` | `kt:instance-refresh-and-org-migration` |
@@ -102,7 +103,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:interface-specification-document` | `kt:system-landscape-diagrams` |
 | `kt:passkeys` | `kt:security-keys` |
 | `kt:webauthn` | `kt:security-keys` |
-| `kt:api-visualizer` | `kt:application-network` |
 | `kt:operating-hours` | `kt:salesforce-scheduler` |
 | `kt:trialforce` | `kt:environment-hub` |
 | `kt:api-community-manager` | `kt:api-experience-hub` |
@@ -111,12 +111,12 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:document-ai` | `kt:unstructured-data-in-data-cloud` |
 | `kt:models-api` | `kt:ai-models` |
 | `kt:user-provisioning` | `kt:scim` |
-| `kt:channel-order-app` | `kt:partner-business-org` |
 | `kt:ui-api` | `kt:field-dependencies` |
+| `kt:channel-order-app` | `kt:partner-business-org` |
 | `kt:organization-wide-email-addresses` | `kt:email-alerts` |
 | `kt:enhanced-letterheads` | `kt:email-templates` |
-| `kt:experience-cloud-consultant-certification` | `kt:licensing-strategy` |
 | `kt:apex-soap-web-services` | `kt:apex-rest-services` |
+| `kt:experience-cloud-consultant-certification` | `kt:licensing-strategy` |
 | `kt:einstein-prediction-builder` | `kt:einstein-next-best-action` |
 | `kt:iso-iec-29100` | `kt:iso-iec-27018` |
 | `kt:currency-type-object` | `kt:multiple-currencies` |
