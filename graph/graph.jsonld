@@ -934,6 +934,87 @@
       ]
     },
     {
+      "@id": "kt:cutover-plan",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Cutover Plan",
+      "skos:definition": "The sequenced, owner-assigned runbook for switching a business from its old system to a new Salesforce solution: freeze, final data loads, deployment, verification, a go/no-go decision and a tested rollback path.",
+      "kto:domain": "architecture-practice",
+      "dcterms:created": "2026-11-23",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Transition to new solutions successfully with the cutover process",
+          "dcterms:publisher": "Microsoft Learn (Dynamics 365 implementation guide)",
+          "schema:url": "https://learn.microsoft.com/dynamics365/guidance/implementation-guide/prepare-go-live-cutover-strategy",
+          "kto:sourceType": "partner"
+        },
+        {
+          "dcterms:title": "Manage the Launch and Post-Launch Activities",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/cc-project-mgmt/cc-launch-and-post-launch",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Deferred Sharing Calculations (Designing Record Access for Enterprise Scale)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/draes/guide/draes-tools-deferred-sharing-maintenance.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Cutover stage (Best practices for cutting over network traffic to AWS)",
+          "dcterms:publisher": "AWS Prescriptive Guidance",
+          "schema:url": "https://docs.aws.amazon.com/prescriptive-guidance/latest/best-practices-migration-cutover/cutover-stage.html",
+          "kto:sourceType": "partner"
+        }
+      ],
+      "kto:file": "articles/architecture-practice/cutover-plan.md",
+      "skos:altLabel": [
+        "cutover",
+        "go-live cutover",
+        "cutover strategy",
+        "cutover runbook",
+        "mock cutover",
+        "cutover weekend"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:release-management"
+        },
+        {
+          "@id": "kt:application-lifecycle-management"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:data-migration-strategy"
+        },
+        {
+          "@id": "kt:hypercare"
+        },
+        {
+          "@id": "kt:user-acceptance-testing"
+        },
+        {
+          "@id": "kt:environment-strategy"
+        },
+        {
+          "@id": "kt:sharing-recalculation"
+        },
+        {
+          "@id": "kt:change-management-and-adoption"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:rollback-plan"
+        },
+        {
+          "@id": "kt:go-live-readiness-assessment"
+        }
+      ]
+    },
+    {
       "@id": "kt:data-architecture",
       "@type": "kto:Concept",
       "skos:prefLabel": "Data Architecture",
