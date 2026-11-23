@@ -12490,6 +12490,30 @@
     ]
   },
   {
+    "id": "kt:time-based-one-time-password",
+    "title": "Time-Based One-Time Password",
+    "aliases": [
+      "TOTP",
+      "RFC 6238",
+      "TOTP authenticator app",
+      "third-party authenticator app",
+      "One-Time Password Authenticator"
+    ],
+    "type": "ExternalConcept",
+    "domain": "identity",
+    "file": "articles/identity/time-based-one-time-password.md",
+    "created": "2026-11-23",
+    "release": "Winter '27",
+    "status": "concept",
+    "source_urls": [
+      "https://rfc-editor.org/rfc/rfc6238",
+      "https://pages.nist.gov/800-63-4/sp800-63b/authenticators",
+      "https://security.salesforce.com/mfa",
+      "https://trailhead.salesforce.com/en/modules/identity_login/units/identity_login_2fa",
+      "https://developer.salesforce.com/docs/atlas.en-us.228.0.securityImplGuide.meta/securityImplGuide/add_time-based_token.htm"
+    ]
+  },
+  {
     "id": "kt:togaf",
     "title": "TOGAF",
     "aliases": [

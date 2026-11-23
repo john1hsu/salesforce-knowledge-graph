@@ -33360,6 +33360,98 @@
       ]
     },
     {
+      "@id": "kt:time-based-one-time-password",
+      "@type": "kto:ExternalConcept",
+      "skos:prefLabel": "Time-Based One-Time Password",
+      "skos:definition": "The IETF algorithm (RFC 6238) that derives a short, expiring code from a shared secret and the current time; in Salesforce it powers third-party authenticator apps such as Google Authenticator, Microsoft Authenticator and Authy, plus the offline codes in Salesforce Authenticator, as an MFA verification method that is strong but not phishing-resistant.",
+      "kto:domain": "identity",
+      "dcterms:created": "2026-11-23",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "RFC 6238: TOTP: Time-Based One-Time Password Algorithm",
+          "dcterms:publisher": "IETF / RFC Editor",
+          "schema:url": "https://rfc-editor.org/rfc/rfc6238",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "NIST SP 800-63B-4: Authenticators",
+          "dcterms:publisher": "NIST",
+          "schema:url": "https://pages.nist.gov/800-63-4/sp800-63b/authenticators",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "Multi-Factor Authentication for Salesforce",
+          "dcterms:publisher": "Salesforce Security",
+          "schema:url": "https://security.salesforce.com/mfa",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Enhance Security with MFA Verification (User Authentication module)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/en/modules/identity_login/units/identity_login_2fa",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Verify Your Identity with a TOTP Authenticator App (Salesforce Security Guide, Winter '21)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.228.0.securityImplGuide.meta/securityImplGuide/add_time-based_token.htm",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/identity/time-based-one-time-password.md",
+      "skos:altLabel": [
+        "TOTP",
+        "RFC 6238",
+        "TOTP authenticator app",
+        "third-party authenticator app",
+        "One-Time Password Authenticator"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:multi-factor-authentication"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:salesforce-authenticator"
+        },
+        {
+          "@id": "kt:identity-verification"
+        },
+        {
+          "@id": "kt:session-security-levels"
+        },
+        {
+          "@id": "kt:salesforce-identity"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:hmac-based-one-time-password"
+        },
+        {
+          "@id": "kt:nist-digital-identity-guidelines"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:salesforce-authenticator"
+        }
+      ],
+      "kto:mitigates": [
+        {
+          "@id": "kt:account-takeover"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:security-keys"
+        }
+      ]
+    },
+    {
       "@id": "kt:token-exchange-flow",
       "@type": "kto:Feature",
       "skos:prefLabel": "OAuth 2.0 Token Exchange Flow",
