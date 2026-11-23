@@ -49273,6 +49273,95 @@
       ]
     },
     {
+      "@id": "kt:sharing-sets",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Sharing Sets",
+      "skos:definition": "A profile-based Experience Cloud sharing mechanism that gives role-less high-volume site users (such as Customer Community license holders) access to records whose account or contact lookup matches the account or contact on the user's own record, defined through access mappings per object.",
+      "kto:domain": "security-and-sharing",
+      "dcterms:created": "2026-11-23",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Create a Sharing Set for Experience Cloud Site Users",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=000193861&language=en_US&type=1",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Differences Between User Sharing with Manual Sharing and Sharing Sets",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=security_sharing_users_manual_and_sets.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Use Site-Specific Sharing (Share CRM Data with Your Partners and Customers project)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/projects/communities_share_crm_data/external_user_sharing",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Platform Sharing Architecture",
+          "dcterms:publisher": "Salesforce Architects",
+          "schema:url": "https://architect.salesforce.com/fundamentals/platform-sharing-architecture",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Use Share Groups to Share Records Owned by High-Volume Experience Cloud Site Users",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=sf.networks_sharing_light_users.htm&type=5",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/security-and-sharing/sharing-sets.md",
+      "skos:altLabel": [
+        "sharing set",
+        "Experience Cloud sharing sets",
+        "high-volume user sharing sets",
+        "access mappings"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-sharing-model"
+        },
+        {
+          "@id": "kt:experience-cloud"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:customer-community-licenses"
+        },
+        {
+          "@id": "kt:implicit-sharing"
+        },
+        {
+          "@id": "kt:contacts-to-multiple-accounts"
+        },
+        {
+          "@id": "kt:organization-wide-defaults"
+        }
+      ],
+      "kto:enables": [
+        {
+          "@id": "kt:share-groups"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:sharing-rules"
+        },
+        {
+          "@id": "kt:role-hierarchy"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:profiles"
+        }
+      ]
+    },
+    {
       "@id": "kt:shield-platform-encryption",
       "@type": "kto:SecurityControl",
       "skos:prefLabel": "Shield Platform Encryption",

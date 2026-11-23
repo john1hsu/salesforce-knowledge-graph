@@ -13161,6 +13161,33 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-rules> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "security-and-sharing" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-rules> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-rules> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-sets> <http://purl.org/dc/terms/created> "2026-11-23" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-sets> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-sets> <http://www.w3.org/2000/01/rdf-schema#label> "Sharing Sets" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-sets> <http://www.w3.org/2004/02/skos/core#altLabel> "Experience Cloud sharing sets" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-sets> <http://www.w3.org/2004/02/skos/core#altLabel> "access mappings" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-sets> <http://www.w3.org/2004/02/skos/core#altLabel> "high-volume user sharing sets" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-sets> <http://www.w3.org/2004/02/skos/core#altLabel> "sharing set" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-sets> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/experience-cloud> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-sets> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-sharing-model> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-sets> <http://www.w3.org/2004/02/skos/core#definition> "A profile-based Experience Cloud sharing mechanism that gives role-less high-volume site users (such as Customer Community license holders) access to records whose account or contact lookup matches the account or contact on the user's own record, defined through access mappings per object." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-sets> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sharing Sets" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-sets> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/contacts-to-multiple-accounts> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-sets> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/customer-community-licenses> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-sets> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/implicit-sharing> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-sets> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/organization-wide-defaults> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-sets> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-sets/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-sets> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-sets/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-sets> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-sets/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-sets> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-sets/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-sets> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-sets/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-sets> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#contrastsWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/role-hierarchy> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-sets> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#contrastsWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-rules> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-sets> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/profiles> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-sets> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "security-and-sharing" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-sets> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#enables> <https://github.com/john1hsu/salesforce-knowledge-graph/id/share-groups> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-sets> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-sets> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/shield-platform-encryption> <http://purl.org/dc/terms/created> "2026-11-06" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/shield-platform-encryption> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#SecurityControl> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/shield-platform-encryption> <http://www.w3.org/2000/01/rdf-schema#label> "Shield Platform Encryption" .
@@ -26788,6 +26815,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-rules/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-rules/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-rules/s6> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.264.0.api_meta.meta/api_meta/meta_sharingrules.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-sets/s1> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-sets/s1> <http://purl.org/dc/terms/title> "Create a Sharing Set for Experience Cloud Site Users" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-sets/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-sets/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-sets/s1> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=000193861&language=en_US&type=1" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-sets/s2> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-sets/s2> <http://purl.org/dc/terms/title> "Differences Between User Sharing with Manual Sharing and Sharing Sets" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-sets/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-sets/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-sets/s2> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=security_sharing_users_manual_and_sets.htm&language=en_US&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-sets/s3> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-sets/s3> <http://purl.org/dc/terms/title> "Use Site-Specific Sharing (Share CRM Data with Your Partners and Customers project)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-sets/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-sets/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-sets/s3> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/projects/communities_share_crm_data/external_user_sharing" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-sets/s4> <http://purl.org/dc/terms/publisher> "Salesforce Architects" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-sets/s4> <http://purl.org/dc/terms/title> "Platform Sharing Architecture" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-sets/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-sets/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-sets/s4> <https://schema.org/url> "https://architect.salesforce.com/fundamentals/platform-sharing-architecture" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-sets/s5> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-sets/s5> <http://purl.org/dc/terms/title> "Use Share Groups to Share Records Owned by High-Volume Experience Cloud Site Users" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-sets/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-sets/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sharing-sets/s5> <https://schema.org/url> "https://help.salesforce.com/s/articleView?language=en_US&id=sf.networks_sharing_light_users.htm&type=5" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/shield-platform-encryption/s1> <http://purl.org/dc/terms/publisher> "Salesforce Trailhead" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/shield-platform-encryption/s1> <http://purl.org/dc/terms/title> "Get to Know Shield Platform Encryption (Trailhead, Shield Platform Encryption: Quick Look)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/shield-platform-encryption/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

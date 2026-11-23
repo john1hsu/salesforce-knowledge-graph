@@ -13,7 +13,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:mulesoft-composer` | `kt:application-network`, `kt:slack-platform` |
 | `kt:requirements-engineering` | `kt:non-functional-requirements`, `kt:requirements-gathering` |
 | `kt:user-stories` | `kt:fit-gap-analysis`, `kt:requirements-gathering` |
-| `kt:sharing-sets` | `kt:customer-community-licenses`, `kt:share-groups` |
 | `kt:business-architecture` | `kt:capability-maps`, `kt:togaf` |
 | `kt:salesforce-mobile-app` | `kt:agentforce-employee-agents`, `kt:compact-layouts` |
 | `kt:salesforce-ecosystem-roles` | `kt:salesforce-architect` |
@@ -28,9 +27,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:data-import-wizard` | `kt:data-loader` |
 | `kt:salesforce-sites` | `kt:custom-domains` |
 | `kt:agentexchange-go-to-market-app` | `kt:agentexchange` |
+| `kt:entitlement-process-metadata` | `kt:entitlement-management` |
 | `kt:einstein-discovery` | `kt:crm-analytics` |
 | `kt:saql` | `kt:crm-analytics` |
-| `kt:entitlement-process-metadata` | `kt:entitlement-management` |
 | `kt:tableau-pulse` | `kt:tableau` |
 | `kt:custom-property-editors` | `kt:custom-flow-screen-components` |
 | `kt:apex-mocks` | `kt:apex-enterprise-patterns` |
@@ -38,9 +37,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:salesforce-ecosystem` | `kt:salesforce-inc` |
 | `kt:mulesoft-platform-integration-architect-certification` | `kt:mulesoft-platform-architect-certification` |
 | `kt:heroku-postgres` | `kt:heroku-connect` |
-| `kt:object-manager` | `kt:schema-builder` |
 | `kt:amazon-connect` | `kt:salesforce-voice` |
 | `kt:telephony-integration-api` | `kt:salesforce-voice` |
+| `kt:object-manager` | `kt:schema-builder` |
 | `kt:dynamic-revenue-orchestrator` | `kt:revenue-cloud` |
 | `kt:revenue-management-consultant-certification` | `kt:revenue-cloud` |
 | `kt:time-based-one-time-password` | `kt:salesforce-authenticator` |
@@ -71,11 +70,11 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:data-cloud-query-api` | `kt:data-graphs` |
 | `kt:model-context-protocol` | `kt:model-context-protocol-in-agentforce` |
 | `kt:salesforce-hosted-mcp-servers` | `kt:model-context-protocol-in-agentforce` |
+| `kt:fhir` | `kt:health-cloud` |
+| `kt:utilization-management` | `kt:health-cloud` |
 | `kt:b2b-commerce` | `kt:commerce-cloud` |
 | `kt:b2c-commerce` | `kt:commerce-cloud` |
-| `kt:fhir` | `kt:health-cloud` |
 | `kt:salesforce-order-management` | `kt:commerce-cloud` |
-| `kt:utilization-management` | `kt:health-cloud` |
 | `kt:business-analyst-certification` | `kt:user-acceptance-testing` |
 | `kt:in-app-guidance` | `kt:change-management-and-adoption` |
 | `kt:opportunity-products` | `kt:price-books` |
@@ -105,24 +104,24 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:webauthn` | `kt:security-keys` |
 | `kt:operating-hours` | `kt:salesforce-scheduler` |
 | `kt:trialforce` | `kt:environment-hub` |
+| `kt:guest-user-sharing-rules` | `kt:share-groups` |
+| `kt:high-volume-experience-cloud-users` | `kt:share-groups` |
 | `kt:api-community-manager` | `kt:api-experience-hub` |
 | `kt:ldap` | `kt:delegated-authentication` |
 | `kt:developer-console` | `kt:apex-logging-and-debug-logs` |
 | `kt:user-provisioning` | `kt:scim` |
 | `kt:document-ai` | `kt:unstructured-data-in-data-cloud` |
 | `kt:models-api` | `kt:ai-models` |
-| `kt:channel-order-app` | `kt:partner-business-org` |
 | `kt:ui-api` | `kt:field-dependencies` |
+| `kt:channel-order-app` | `kt:partner-business-org` |
 | `kt:organization-wide-email-addresses` | `kt:email-alerts` |
 | `kt:enhanced-letterheads` | `kt:email-templates` |
 | `kt:experience-cloud-consultant-certification` | `kt:licensing-strategy` |
 | `kt:apex-soap-web-services` | `kt:apex-rest-services` |
 | `kt:einstein-prediction-builder` | `kt:einstein-next-best-action` |
+| `kt:partner-relationship-management` | `kt:partner-community-licenses` |
 | `kt:iso-iec-29100` | `kt:iso-iec-27018` |
 | `kt:currency-type-object` | `kt:multiple-currencies` |
-| `kt:guest-user-sharing-rules` | `kt:share-groups` |
-| `kt:high-volume-experience-cloud-users` | `kt:share-groups` |
-| `kt:partner-relationship-management` | `kt:partner-community-licenses` |
 | `kt:agentforce-nonprofit-consultant-certification` | `kt:agentforce-nonprofit` |
 | `kt:nonprofit-success-pack` | `kt:agentforce-nonprofit` |
 | `kt:enterprise-architecture` | `kt:togaf` |
