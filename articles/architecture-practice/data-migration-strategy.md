@@ -10,7 +10,7 @@ summary: >-
 release: "Winter '27"
 status: concept
 broader: [kt:data-architecture]
-related: [kt:large-data-volumes, kt:environment-strategy, kt:data-skew, kt:archiving-strategy]
+related: [kt:data-reconciliation, kt:large-data-volumes, kt:environment-strategy, kt:data-skew, kt:archiving-strategy]
 relations:
   - {predicate: queriedWith, object: kt:bulk-api-2}
   - {predicate: dependsOn, object: kt:external-id-fields}

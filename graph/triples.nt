@@ -4295,6 +4295,7 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-migration-strategy> <http://www.w3.org/2004/02/skos/core#definition> "The architectural plan for moving legacy data into a Salesforce org: what gets loaded, in which order, with which API and keys, and how the org is temporarily configured so the load is fast, lock-free and recoverable." .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-migration-strategy> <http://www.w3.org/2004/02/skos/core#prefLabel> "Data Migration Strategy" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-migration-strategy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/archiving-strategy> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-migration-strategy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-reconciliation> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-migration-strategy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-skew> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-migration-strategy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/environment-strategy> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-migration-strategy> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/large-data-volumes> .
@@ -4365,6 +4366,34 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-quality> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#enables> <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-quality> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-quality> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-reconciliation> <http://purl.org/dc/terms/created> "2026-11-24" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-reconciliation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-reconciliation> <http://www.w3.org/2000/01/rdf-schema#label> "Data Reconciliation" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-reconciliation> <http://www.w3.org/2004/02/skos/core#altLabel> "data migration validation" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-reconciliation> <http://www.w3.org/2004/02/skos/core#altLabel> "migration data validation" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-reconciliation> <http://www.w3.org/2004/02/skos/core#altLabel> "migration reconciliation" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-reconciliation> <http://www.w3.org/2004/02/skos/core#altLabel> "post-load reconciliation" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-reconciliation> <http://www.w3.org/2004/02/skos/core#altLabel> "source-to-target reconciliation" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-reconciliation> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-migration-strategy> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-reconciliation> <http://www.w3.org/2004/02/skos/core#definition> "The practice of proving that a Salesforce data load or migration is complete and correct by systematically comparing what left the source with what arrived in the org: record counts, failed rows, sampled field values and relationships, followed by repair and re-load until the differences are explained and signed off." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-reconciliation> <http://www.w3.org/2004/02/skos/core#prefLabel> "Data Reconciliation" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-reconciliation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/cutover-plan> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-reconciliation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-loader> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-reconciliation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-quality> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-reconciliation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/go-live-readiness-assessment> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-reconciliation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/hypercare> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-reconciliation> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/user-acceptance-testing> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-reconciliation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-reconciliation/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-reconciliation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-reconciliation/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-reconciliation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-reconciliation/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-reconciliation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-reconciliation/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-reconciliation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-reconciliation/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-reconciliation> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-reconciliation/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-reconciliation> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/external-id-fields> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-reconciliation> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/upsert> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-reconciliation> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "architecture-practice" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-reconciliation> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-reconciliation> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-residency> <http://purl.org/dc/terms/created> "2026-11-02" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-residency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-residency> <http://www.w3.org/2000/01/rdf-schema#label> "Data Residency" .
@@ -18952,6 +18981,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-quality/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-quality/s7> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-quality/s7> <https://schema.org/url> "https://admin.salesforce.com/blog/2019/why-effective-data-stewardship-gives-you-a-competitive-edge" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-reconciliation/s1> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-reconciliation/s1> <http://purl.org/dc/terms/title> "Salesforce Data Migration Best Practices: How to Plan, Execute, and Validate a Data Import or Update" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-reconciliation/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-reconciliation/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-reconciliation/s1> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=000385417&language=en_US&type=1" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-reconciliation/s2> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-reconciliation/s2> <http://purl.org/dc/terms/title> "Best Practices with Any Data Loader (SOAP API Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-reconciliation/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-reconciliation/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-reconciliation/s2> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.api.meta/api/best_practices_with_any_data_loader.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-reconciliation/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-reconciliation/s3> <http://purl.org/dc/terms/title> "Review Data Loader Output Files (Data Loader Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-reconciliation/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-reconciliation/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-reconciliation/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/data-loader-impl/guide/reviewing-output-files.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-reconciliation/s4> <http://purl.org/dc/terms/publisher> "Salesforce Engineering Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-reconciliation/s4> <http://purl.org/dc/terms/title> "Our Top 4 Tips for Massive Data Migrations" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-reconciliation/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-reconciliation/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-reconciliation/s4> <https://schema.org/url> "https://engineering.salesforce.com/our-top-4-tips-for-massive-data-migrations-565daaa83cfc/" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-reconciliation/s5> <http://purl.org/dc/terms/publisher> "Microsoft Learn" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-reconciliation/s5> <http://purl.org/dc/terms/title> "Validate data integrity after migration" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-reconciliation/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-reconciliation/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "partner" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-reconciliation/s5> <https://schema.org/url> "https://learn.microsoft.com/en-us/training/modules/azure-storage-migration/12-validate-data-integrity-after-migration" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-reconciliation/s6> <http://purl.org/dc/terms/publisher> "AWS Documentation" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-reconciliation/s6> <http://purl.org/dc/terms/title> "AWS DMS data validation" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-reconciliation/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-reconciliation/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "partner" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-reconciliation/s6> <https://schema.org/url> "https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Validating.html" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-residency/s1> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-residency/s1> <http://purl.org/dc/terms/title> "Hyperforce Data Residency" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-residency/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

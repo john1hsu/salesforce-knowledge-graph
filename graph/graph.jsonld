@@ -1164,6 +1164,9 @@
       ],
       "skos:related": [
         {
+          "@id": "kt:data-reconciliation"
+        },
+        {
           "@id": "kt:large-data-volumes"
         },
         {
@@ -1192,6 +1195,95 @@
       "kto:mitigates": [
         {
           "@id": "kt:record-locking"
+        }
+      ]
+    },
+    {
+      "@id": "kt:data-reconciliation",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Data Reconciliation",
+      "skos:definition": "The practice of proving that a Salesforce data load or migration is complete and correct by systematically comparing what left the source with what arrived in the org: record counts, failed rows, sampled field values and relationships, followed by repair and re-load until the differences are explained and signed off.",
+      "kto:domain": "architecture-practice",
+      "dcterms:created": "2026-11-24",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Salesforce Data Migration Best Practices: How to Plan, Execute, and Validate a Data Import or Update",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=000385417&language=en_US&type=1",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Best Practices with Any Data Loader (SOAP API Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api.meta/api/best_practices_with_any_data_loader.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Review Data Loader Output Files (Data Loader Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/data-loader-impl/guide/reviewing-output-files.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Our Top 4 Tips for Massive Data Migrations",
+          "dcterms:publisher": "Salesforce Engineering Blog",
+          "schema:url": "https://engineering.salesforce.com/our-top-4-tips-for-massive-data-migrations-565daaa83cfc/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Validate data integrity after migration",
+          "dcterms:publisher": "Microsoft Learn",
+          "schema:url": "https://learn.microsoft.com/en-us/training/modules/azure-storage-migration/12-validate-data-integrity-after-migration",
+          "kto:sourceType": "partner"
+        },
+        {
+          "dcterms:title": "AWS DMS data validation",
+          "dcterms:publisher": "AWS Documentation",
+          "schema:url": "https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Validating.html",
+          "kto:sourceType": "partner"
+        }
+      ],
+      "kto:file": "articles/architecture-practice/data-reconciliation.md",
+      "skos:altLabel": [
+        "migration reconciliation",
+        "post-load reconciliation",
+        "data migration validation",
+        "source-to-target reconciliation",
+        "migration data validation"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:data-migration-strategy"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:cutover-plan"
+        },
+        {
+          "@id": "kt:data-loader"
+        },
+        {
+          "@id": "kt:data-quality"
+        },
+        {
+          "@id": "kt:user-acceptance-testing"
+        },
+        {
+          "@id": "kt:hypercare"
+        },
+        {
+          "@id": "kt:go-live-readiness-assessment"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:external-id-fields"
+        },
+        {
+          "@id": "kt:upsert"
         }
       ]
     },

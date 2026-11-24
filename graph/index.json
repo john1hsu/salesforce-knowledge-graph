@@ -3809,6 +3809,31 @@
     ]
   },
   {
+    "id": "kt:data-reconciliation",
+    "title": "Data Reconciliation",
+    "aliases": [
+      "migration reconciliation",
+      "post-load reconciliation",
+      "data migration validation",
+      "source-to-target reconciliation",
+      "migration data validation"
+    ],
+    "type": "Concept",
+    "domain": "architecture-practice",
+    "file": "articles/architecture-practice/data-reconciliation.md",
+    "created": "2026-11-24",
+    "release": "Winter '27",
+    "status": "concept",
+    "source_urls": [
+      "https://help.salesforce.com/s/articleView?id=000385417&language=en_US&type=1",
+      "https://developer.salesforce.com/docs/atlas.en-us.api.meta/api/best_practices_with_any_data_loader.htm",
+      "https://developer.salesforce.com/docs/platform/data-loader-impl/guide/reviewing-output-files.html",
+      "https://engineering.salesforce.com/our-top-4-tips-for-massive-data-migrations-565daaa83cfc/",
+      "https://learn.microsoft.com/en-us/training/modules/azure-storage-migration/12-validate-data-integrity-after-migration",
+      "https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Validating.html"
+    ]
+  },
+  {
     "id": "kt:data-residency",
     "title": "Data Residency",
     "aliases": [
