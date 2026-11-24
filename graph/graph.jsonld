@@ -16487,6 +16487,93 @@
       ]
     },
     {
+      "@id": "kt:einstein-generative-ai-setup",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Einstein Generative AI Setup",
+      "skos:definition": "The org-level switch and setup sequence that turns on Einstein generative AI in Salesforce: provision Data 360, enable \"Turn on Einstein\" on the Einstein Setup page, configure the Einstein Trust Layer, then add agents; it is the prerequisite for Prompt Builder, the Models API, Agentforce agents and AI-assisted setup tools.",
+      "kto:domain": "data-cloud-and-ai",
+      "dcterms:created": "2026-11-24",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Set Up Einstein Generative AI and Agentforce",
+          "dcterms:publisher": "Salesforce Developers (Agentforce Developer Guide)",
+          "schema:url": "https://developer.salesforce.com/docs/ai/agentforce/guide/org-setup.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Create an Agentforce-Ready Scratch Org With Salesforce CLI",
+          "dcterms:publisher": "Salesforce Developers (Agentforce Developer Guide)",
+          "schema:url": "https://developer.salesforce.com/docs/ai/agentforce/guide/scratch-org.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Setting Up Your Org for Models API Access (Get Started with the Models API)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/get-started-with-einstein-models-api/prepare-your-org-to-access-the-models-api",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Configure LLM Data Masking Policies in Einstein AI",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/llm-data-masking-in-the-einstein-trust-layer/configure-llm-data-masking-policies",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Configure Your Service Assistant for Success (Agentforce Service Assistant)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/agentforce-service-assistant/set-up-service-assistant",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/data-cloud-and-ai/einstein-generative-ai-setup.md",
+      "skos:altLabel": [
+        "Einstein Setup",
+        "Turn on Einstein",
+        "Turn On Einstein Generative AI",
+        "Set Up Einstein Generative AI and Agentforce",
+        "enableEinsteinGptPlatform"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:agentforce"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:prompt-builder"
+        },
+        {
+          "@id": "kt:agentforce-setup-agent"
+        },
+        {
+          "@id": "kt:agentforce-for-flow"
+        },
+        {
+          "@id": "kt:scratch-orgs"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:data-cloud"
+        }
+      ],
+      "kto:enables": [
+        {
+          "@id": "kt:einstein-trust-layer"
+        },
+        {
+          "@id": "kt:models-api"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:metadata-api"
+        }
+      ]
+    },
+    {
       "@id": "kt:einstein-trust-layer",
       "@type": "kto:SecurityControl",
       "skos:prefLabel": "Einstein Trust Layer",
