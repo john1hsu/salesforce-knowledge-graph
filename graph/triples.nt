@@ -4629,6 +4629,37 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/decision-tables> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/connect-api> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/decision-tables> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/decision-tables> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/delegated-administration> <http://purl.org/dc/terms/created> "2026-11-24" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/delegated-administration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/delegated-administration> <http://www.w3.org/2000/01/rdf-schema#label> "Delegated Administration" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/delegated-administration> <http://www.w3.org/2004/02/skos/core#altLabel> "DelegateGroup" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/delegated-administration> <http://www.w3.org/2004/02/skos/core#altLabel> "delegated admin groups" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/delegated-administration> <http://www.w3.org/2004/02/skos/core#altLabel> "delegated admin" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/delegated-administration> <http://www.w3.org/2004/02/skos/core#altLabel> "delegated administration groups" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/delegated-administration> <http://www.w3.org/2004/02/skos/core#altLabel> "delegated administrators" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/delegated-administration> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-identity> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/delegated-administration> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/user-management> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/delegated-administration> <http://www.w3.org/2004/02/skos/core#definition> "The Salesforce Setup feature that gives a group of non-administrator users limited admin rights: creating and editing users in chosen roles and their subordinates, resetting their passwords, assigning a fixed list of profiles, permission sets and public groups, and managing selected custom objects." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/delegated-administration> <http://www.w3.org/2004/02/skos/core#prefLabel> "Delegated Administration" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/delegated-administration> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/grant-login-access> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/delegated-administration> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/partner-community-licenses> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/delegated-administration> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/principle-of-least-privilege> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/delegated-administration> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/public-groups> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/delegated-administration> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/role-hierarchy> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/delegated-administration> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/delegated-administration/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/delegated-administration> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/delegated-administration/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/delegated-administration> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/delegated-administration/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/delegated-administration> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/delegated-administration/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/delegated-administration> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/delegated-administration/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/delegated-administration> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/delegated-administration> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#contrastsWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/delegated-authentication> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/delegated-administration> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/permission-set-groups> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/delegated-administration> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/permission-sets> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/delegated-administration> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/profiles> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/delegated-administration> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/role-hierarchy> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/delegated-administration> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "identity" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/delegated-administration> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/delegated-administration> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/delegated-authentication> <http://purl.org/dc/terms/created> "2026-11-13" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/delegated-authentication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/delegated-authentication> <http://www.w3.org/2000/01/rdf-schema#label> "Delegated Authentication" .
@@ -19160,6 +19191,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/decision-tables/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/decision-tables/s7> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/decision-tables/s7> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/business-rules-engine/build-decisions-with-lookup-tables" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/delegated-administration/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/delegated-administration/s1> <http://purl.org/dc/terms/title> "DelegateGroup | Metadata Types | Metadata API Developer Guide" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/delegated-administration/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/delegated-administration/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/delegated-administration/s1> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_delegategroup.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/delegated-administration/s2> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/delegated-administration/s2> <http://purl.org/dc/terms/title> "Delegated Administration Groups | Lightning Platform Fundamentals (Summer '18)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/delegated-administration/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/delegated-administration/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/delegated-administration/s2> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.214.0.fundamentals.meta/fundamentals/adg_securing_data_delegated_admin_groups.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/delegated-administration/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/delegated-administration/s3> <http://purl.org/dc/terms/title> "Try It Out: Define the Recruiting Manager Administration Group | Force.com Platform Fundamentals (Spring '16)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/delegated-administration/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/delegated-administration/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/delegated-administration/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.200.0.fundamentals.meta/fundamentals/adg_securing_data_delegating_group_try_it_out.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/delegated-administration/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/delegated-administration/s4> <http://purl.org/dc/terms/title> "Delegating Data Administration | Lightning Platform Fundamentals (Spring '18)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/delegated-administration/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/delegated-administration/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/delegated-administration/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.212.0.fundamentals.meta/fundamentals/adg_securing_data_delegating_admin.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/delegated-administration/s5> <http://purl.org/dc/terms/publisher> "Salesforce Ben" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/delegated-administration/s5> <http://purl.org/dc/terms/title> "How to Set Up a Delegate Administrator in Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/delegated-administration/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/delegated-administration/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "partner" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/delegated-administration/s5> <https://schema.org/url> "https://www.salesforceben.com/how-to-set-up-a-delegate-administrator-in-salesforce/" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/delegated-authentication/s1> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/delegated-authentication/s1> <http://purl.org/dc/terms/title> "Delegated Authentication" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/delegated-authentication/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

@@ -31921,6 +31921,105 @@
       ]
     },
     {
+      "@id": "kt:delegated-administration",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Delegated Administration",
+      "skos:definition": "The Salesforce Setup feature that gives a group of non-administrator users limited admin rights: creating and editing users in chosen roles and their subordinates, resetting their passwords, assigning a fixed list of profiles, permission sets and public groups, and managing selected custom objects.",
+      "kto:domain": "identity",
+      "dcterms:created": "2026-11-24",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "DelegateGroup | Metadata Types | Metadata API Developer Guide",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_delegategroup.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Delegated Administration Groups | Lightning Platform Fundamentals (Summer '18)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.214.0.fundamentals.meta/fundamentals/adg_securing_data_delegated_admin_groups.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Try It Out: Define the Recruiting Manager Administration Group | Force.com Platform Fundamentals (Spring '16)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.200.0.fundamentals.meta/fundamentals/adg_securing_data_delegating_group_try_it_out.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Delegating Data Administration | Lightning Platform Fundamentals (Spring '18)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.212.0.fundamentals.meta/fundamentals/adg_securing_data_delegating_admin.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "How to Set Up a Delegate Administrator in Salesforce",
+          "dcterms:publisher": "Salesforce Ben",
+          "schema:url": "https://www.salesforceben.com/how-to-set-up-a-delegate-administrator-in-salesforce/",
+          "kto:sourceType": "partner"
+        }
+      ],
+      "kto:file": "articles/identity/delegated-administration.md",
+      "skos:altLabel": [
+        "delegated administrators",
+        "delegated admin",
+        "delegated administration groups",
+        "DelegateGroup",
+        "delegated admin groups"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:user-management"
+        },
+        {
+          "@id": "kt:salesforce-identity"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:principle-of-least-privilege"
+        },
+        {
+          "@id": "kt:role-hierarchy"
+        },
+        {
+          "@id": "kt:grant-login-access"
+        },
+        {
+          "@id": "kt:partner-community-licenses"
+        },
+        {
+          "@id": "kt:public-groups"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:metadata-api"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:role-hierarchy"
+        },
+        {
+          "@id": "kt:profiles"
+        },
+        {
+          "@id": "kt:permission-sets"
+        },
+        {
+          "@id": "kt:permission-set-groups"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:delegated-authentication"
+        }
+      ]
+    },
+    {
       "@id": "kt:delegated-authentication",
       "@type": "kto:Feature",
       "skos:prefLabel": "Delegated Authentication",
