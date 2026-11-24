@@ -422,6 +422,30 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-sdr> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#partOf> <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-sdr> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-sdr> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-setup-agent> <http://purl.org/dc/terms/created> "2026-11-24" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-setup-agent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-setup-agent> <http://www.w3.org/2000/01/rdf-schema#label> "Setup with Agentforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-setup-agent> <http://www.w3.org/2004/02/skos/core#altLabel> "Agentforce Setup agent" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-setup-agent> <http://www.w3.org/2004/02/skos/core#altLabel> "Agentforce for Setup" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-setup-agent> <http://www.w3.org/2004/02/skos/core#altLabel> "Ask Setup Agent" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-setup-agent> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce Setup powered by Agentforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-setup-agent> <http://www.w3.org/2004/02/skos/core#altLabel> "Setup agent" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-setup-agent> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-setup-agent> <http://www.w3.org/2004/02/skos/core#definition> "A conversational AI agent inside Salesforce Setup that lets admins ask questions and request configuration work in natural language (users and access, permission sets, objects and fields, flows, formulas, org health), proposing each change for the admin to approve and logging it in the Setup Audit Trail; generally available since May 2026." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-setup-agent> <http://www.w3.org/2004/02/skos/core#prefLabel> "Setup with Agentforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-setup-agent> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-for-flow> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-setup-agent> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/permission-set-groups> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-setup-agent> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/setup-audit-trail> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-setup-agent> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-setup-agent/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-setup-agent> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-setup-agent/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-setup-agent> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-setup-agent/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-setup-agent> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-setup-agent/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-setup-agent> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-setup-agent> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/einstein-generative-ai-setup> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-setup-agent> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/einstein-trust-layer> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-setup-agent> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "data-cloud-and-ai" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-setup-agent> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-setup-agent> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-specialist-certification> <http://purl.org/dc/terms/created> "2026-11-13" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-specialist-certification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Certification> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-specialist-certification> <http://www.w3.org/2000/01/rdf-schema#label> "Agentforce Specialist Certification" .
@@ -14540,6 +14564,26 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-sdr/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-sdr/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-sdr/s6> <https://schema.org/url> "https://www.salesforce.com/en-us/wp-content/uploads/sites/4/documents/guides/Agentforce-for-Sales-Development-Implementation-Guide.pdf" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-setup-agent/s1> <http://purl.org/dc/terms/publisher> "Salesforce Admins Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-setup-agent/s1> <http://purl.org/dc/terms/title> "Setup with Agentforce Is Now Generally Available: Built With Admin Feedback at the Center" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-setup-agent/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-setup-agent/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-setup-agent/s1> <https://schema.org/url> "https://admin.salesforce.com/blog/2026/setup-with-agentforce-is-generally-available" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-setup-agent/s2> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-setup-agent/s2> <http://purl.org/dc/terms/title> "Get Started with Setup with Agentforce (Setup with Agentforce for Admins)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-setup-agent/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-setup-agent/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-setup-agent/s2> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/setup-with-agentforce-for-admins/get-started-with-setup-with-agentforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-setup-agent/s3> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-setup-agent/s3> <http://purl.org/dc/terms/title> "Get to Know Setup with Agentforce (Setup with Agentforce: Quick Look)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-setup-agent/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-setup-agent/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-setup-agent/s3> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/agentforce-for-setup-quick-look/get-to-know-setup-with-agentforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-setup-agent/s4> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-setup-agent/s4> <http://purl.org/dc/terms/title> "Salesforce Setup powered by Agentforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-setup-agent/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-setup-agent/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-setup-agent/s4> <https://schema.org/url> "https://www.salesforce.com/platform/setup/" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-specialist-certification/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-specialist-certification/s1> <http://purl.org/dc/terms/title> "Salesforce Certified Agentforce Specialist (credential page)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-specialist-certification/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
