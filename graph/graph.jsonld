@@ -10055,6 +10055,108 @@
       ]
     },
     {
+      "@id": "kt:field-service-mobile-app",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Field Service Mobile App",
+      "skos:definition": "The iOS and Android app that Field Service mobile workers use to see their schedule, open work orders and service appointments, navigate to jobs, update inventory and complete work, with offline priming and Offline Briefcase so they keep working without a connection.",
+      "kto:domain": "clouds-and-products",
+      "dcterms:created": "2026-11-24",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Work From Anywhere (Field Service Mobile, Trailhead unit)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/field-service-mobile/work-from-anywhere",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Set Up a Mobile Worker (Field Service Mobile, Trailhead unit)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/field-service-mobile/set-up-a-mobile-worker",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Access Your Office on Your Phone (Field Service Mobile, Trailhead unit)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/field-service-mobile/access-your-office-on-your-phone",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Allow Access to Information Offline (Offline Briefcase for Field Service, Trailhead unit)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/offline-briefcase/allow-access-to-information-online",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Configure Offline Mode in the Field Service Mobile App (Field Service Developer Guide)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.field_service_dev.meta/field_service_dev/sfs_gs_lwc_fs_offline.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Considerations for LWC Offline in the Field Service Mobile App (Field Service Developer Guide)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.field_service_dev.meta/field_service_dev/sfs_gs_lwc_considerations.htm",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/clouds-and-products/field-service-mobile-app.md",
+      "skos:altLabel": [
+        "Salesforce Field Service mobile app",
+        "Field Service Lightning mobile app",
+        "FSL mobile app",
+        "Field Service Mobile"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:field-service"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:salesforce-mobile-app"
+        },
+        {
+          "@id": "kt:service-appointments"
+        },
+        {
+          "@id": "kt:work-orders"
+        },
+        {
+          "@id": "kt:dispatcher-console"
+        },
+        {
+          "@id": "kt:briefcase-builder"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:field-service"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:my-domain"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:connected-apps"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:lightning-web-components"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:salesforce-mobile-app"
+        }
+      ]
+    },
+    {
       "@id": "kt:field-service-scheduling-policies",
       "@type": "kto:Feature",
       "skos:prefLabel": "Field Service Scheduling Policies",
