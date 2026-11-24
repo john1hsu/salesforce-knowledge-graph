@@ -22645,6 +22645,87 @@
       ]
     },
     {
+      "@id": "kt:apex-collections",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Apex Collections",
+      "skos:definition": "The three built-in collection types of the Apex language (List, Set and Map), which hold primitives, sObjects, user-defined types or other collections and are the basic tool for bulk-safe processing of records.",
+      "kto:domain": "development",
+      "dcterms:created": "2026-11-24",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Apex Developer Guide: Collections (Winter '27, API version 68.0)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.264.0.apexcode.meta/pages/langCon_apex_collections.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Apex Developer Guide: Lists",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.264.0.apexcode.meta/pages/langCon_apex_collections_lists.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Apex Developer Guide: Sets",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.264.0.apexcode.meta/pages/langCon_apex_collections_sets.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Apex Developer Guide: Maps",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.264.0.apexcode.meta/apexcode/langCon_apex_collections_maps.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Trailhead: Apex Basics for Admins, Use Collections",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/apex-basics-for-admins/use-collections",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Mastering Apex Collections (Philippe Ozil, 2021)",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2021/10/mastering-apex-collections",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/development/apex-collections.md",
+      "skos:altLabel": [
+        "Apex List Set and Map",
+        "Apex collection types",
+        "Apex lists sets and maps"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:apex"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:bulkification"
+        },
+        {
+          "@id": "kt:soql"
+        },
+        {
+          "@id": "kt:apex-json-serialization"
+        },
+        {
+          "@id": "kt:apex-triggers"
+        },
+        {
+          "@id": "kt:apex-defined-types"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:governor-limits"
+        }
+      ]
+    },
+    {
       "@id": "kt:apex-continuations",
       "@type": "kto:Feature",
       "skos:prefLabel": "Apex Continuations",

@@ -727,6 +727,30 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-callouts> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-continuations> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-callouts> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-callouts> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-collections> <http://purl.org/dc/terms/created> "2026-11-24" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-collections> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-collections> <http://www.w3.org/2000/01/rdf-schema#label> "Apex Collections" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-collections> <http://www.w3.org/2004/02/skos/core#altLabel> "Apex List Set and Map" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-collections> <http://www.w3.org/2004/02/skos/core#altLabel> "Apex collection types" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-collections> <http://www.w3.org/2004/02/skos/core#altLabel> "Apex lists sets and maps" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-collections> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-collections> <http://www.w3.org/2004/02/skos/core#definition> "The three built-in collection types of the Apex language (List, Set and Map), which hold primitives, sObjects, user-defined types or other collections and are the basic tool for bulk-safe processing of records." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-collections> <http://www.w3.org/2004/02/skos/core#prefLabel> "Apex Collections" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-collections> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-defined-types> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-collections> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-json-serialization> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-collections> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-triggers> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-collections> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/bulkification> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-collections> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/soql> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-collections> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-collections/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-collections> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-collections/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-collections> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-collections/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-collections> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-collections/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-collections> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-collections/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-collections> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-collections/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-collections> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "development" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-collections> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#governedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/governor-limits> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-collections> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-collections> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-continuations> <http://purl.org/dc/terms/created> "2026-11-09" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-continuations> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-continuations> <http://www.w3.org/2000/01/rdf-schema#label> "Apex Continuations" .
@@ -15202,6 +15226,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-callouts/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-callouts/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-callouts/s4> <https://schema.org/url> "https://trailhead.salesforce.com/en/content/learn/modules/apex_integration_services/apex_integration_rest_callouts" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-collections/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-collections/s1> <http://purl.org/dc/terms/title> "Apex Developer Guide: Collections (Winter '27, API version 68.0)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-collections/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-collections/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-collections/s1> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.264.0.apexcode.meta/pages/langCon_apex_collections.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-collections/s2> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-collections/s2> <http://purl.org/dc/terms/title> "Apex Developer Guide: Lists" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-collections/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-collections/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-collections/s2> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.264.0.apexcode.meta/pages/langCon_apex_collections_lists.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-collections/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-collections/s3> <http://purl.org/dc/terms/title> "Apex Developer Guide: Sets" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-collections/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-collections/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-collections/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.264.0.apexcode.meta/pages/langCon_apex_collections_sets.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-collections/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-collections/s4> <http://purl.org/dc/terms/title> "Apex Developer Guide: Maps" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-collections/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-collections/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-collections/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.264.0.apexcode.meta/apexcode/langCon_apex_collections_maps.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-collections/s5> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-collections/s5> <http://purl.org/dc/terms/title> "Trailhead: Apex Basics for Admins, Use Collections" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-collections/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-collections/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-collections/s5> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/apex-basics-for-admins/use-collections" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-collections/s6> <http://purl.org/dc/terms/publisher> "Salesforce Developers Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-collections/s6> <http://purl.org/dc/terms/title> "Mastering Apex Collections (Philippe Ozil, 2021)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-collections/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-collections/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-collections/s6> <https://schema.org/url> "https://developer.salesforce.com/blogs/2021/10/mastering-apex-collections" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-continuations/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-continuations/s1> <http://purl.org/dc/terms/title> "Apex Developer Guide: Make Long-Running Callouts with Continuations" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-continuations/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
