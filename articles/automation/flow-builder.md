@@ -10,7 +10,7 @@ summary: >-
 release: "Winter '27"
 status: current
 broader: [kt:process-automation]
-related: [kt:record-triggered-flow, kt:screen-flow, kt:flow-orchestrator]
+related: [kt:record-triggered-flow, kt:screen-flow, kt:flow-orchestrator, kt:agentforce-for-flow]
 relations:
   - {predicate: alternativeTo, object: kt:apex-triggers}
   - {predicate: replaces, object: kt:workflow-rules}

@@ -4299,6 +4299,112 @@
       ]
     },
     {
+      "@id": "kt:agentforce-for-flow",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Agentforce for Flow",
+      "skos:definition": "The generative AI built into Flow Builder (formerly Einstein for Flow) that drafts a starter flow from a natural-language description, summarizes existing flows and, through the Flow Builder Agentforce panel, applies prompted changes to a flow that the builder then reviews, accepts or rejects.",
+      "kto:domain": "automation",
+      "dcterms:created": "2026-11-24",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Drafting Flows with Agentforce (Beta)",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=sf.flow_build_let_einstein_help_you_build_flows.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Jen's Top Spring '26 Features for Admins",
+          "dcterms:publisher": "Salesforce Admins Blog",
+          "schema:url": "https://admin.salesforce.com/blog/2026/jens-top-spring-26-features-for-admins",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Einstein for Flow: Using Generative AI to Assist Your Flows",
+          "dcterms:publisher": "Salesforce Admins Blog",
+          "schema:url": "https://admin.salesforce.com/blog/2023/einstein-for-flow-for-salesforce-admins",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "AI Flow Features Every Admin Should Use | Kate Clicks Through It",
+          "dcterms:publisher": "Salesforce Admins Blog",
+          "schema:url": "https://admin.salesforce.com/blog/2025/ai-flow-features-every-admin-should-use-kate-clicks-through-it",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "How Agentforce Achieved Accurate Flow Generation Across 461 Billion Monthly Executions Using a Constrained DSL",
+          "dcterms:publisher": "Salesforce Engineering Blog",
+          "schema:url": "https://engineering.salesforce.com/?p=8081",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "From Flow Generalists to Champions: Building Agentic AI for Salesforce Automation",
+          "dcterms:publisher": "Salesforce AI Research",
+          "schema:url": "https://www.salesforce.com/blog/agentic-ai-for-flow/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Jen's Top Winter '27 Release Features For Admins",
+          "dcterms:publisher": "Salesforce Admins Blog",
+          "schema:url": "https://admin.salesforce.com/blog/2026/jens-top-winter-27-release-features-for-admins",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/automation/agentforce-for-flow.md",
+      "skos:altLabel": [
+        "Einstein for Flow",
+        "Drafting Flows with Agentforce",
+        "Let Einstein Help You Build",
+        "Draft with AI",
+        "A4F",
+        "AI flow generation"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:flow-builder"
+        },
+        {
+          "@id": "kt:agentforce"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:screen-flow"
+        },
+        {
+          "@id": "kt:record-triggered-flow"
+        },
+        {
+          "@id": "kt:schedule-triggered-flow"
+        },
+        {
+          "@id": "kt:flow-tests"
+        },
+        {
+          "@id": "kt:agentforce-setup-agent"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:data-cloud"
+        },
+        {
+          "@id": "kt:einstein-generative-ai-setup"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:process-automation-settings"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:flow-templates"
+        }
+      ]
+    },
+    {
       "@id": "kt:approval-processes",
       "@type": "kto:Feature",
       "skos:prefLabel": "Approval Processes",
@@ -5621,6 +5727,9 @@
         },
         {
           "@id": "kt:flow-orchestrator"
+        },
+        {
+          "@id": "kt:agentforce-for-flow"
         }
       ],
       "kto:alternativeTo": [

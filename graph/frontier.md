@@ -5,6 +5,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | Node | Referenced by |
 |---|---|
 | `kt:business-analyst` | `kt:fit-gap-analysis`, `kt:omnistudio-consultant-certification`, `kt:requirements-gathering`, `kt:user-acceptance-testing` |
+| `kt:agentforce-setup-agent` | `kt:agentforce-for-flow`, `kt:setup-audit-trail` |
 | `kt:field-service-mobile-app` | `kt:field-service`, `kt:service-appointments` |
 | `kt:work-orders` | `kt:field-service`, `kt:service-appointments` |
 | `kt:data-extensions` | `kt:automation-studio`, `kt:contact-builder` |
@@ -18,6 +19,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:salesforce-architecture-program` | `kt:salesforce-architecture-center` |
 | `kt:salesforce-archive` | `kt:archiving-strategy` |
 | `kt:data-categories` | `kt:knowledge-base` |
+| `kt:einstein-generative-ai-setup` | `kt:agentforce-for-flow` |
 | `kt:trailhead` | `kt:salesforce-certification-program` |
 | `kt:omni-channel-limits` | `kt:omni-channel` |
 | `kt:presence-configuration` | `kt:omni-channel` |
@@ -75,8 +77,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:data-cloud-query-api` | `kt:data-graphs` |
 | `kt:opportunity-products` | `kt:price-books` |
 | `kt:enterprise-service-bus` | `kt:point-to-point-integration` |
-| `kt:api-visualizer` | `kt:application-network` |
 | `kt:holidays` | `kt:business-hours` |
+| `kt:api-visualizer` | `kt:application-network` |
 | `kt:semantic-layer` | `kt:tableau-semantics` |
 | `kt:technology-roadmaps` | `kt:capability-maps` |
 | `kt:value-streams` | `kt:capability-maps` |
@@ -91,21 +93,21 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:data-cloud-code-extension` | `kt:vector-search-in-data-cloud` |
 | `kt:agentforce-vibes` | `kt:agentforce-vibes-ide` |
 | `kt:mulesoft-for-flow-integration` | `kt:mulesoft-composer` |
+| `kt:operating-hours` | `kt:salesforce-scheduler` |
 | `kt:json-web-signature` | `kt:json-web-token` |
 | `kt:shared-activities` | `kt:activity-data-model` |
 | `kt:channel-order-app` | `kt:partner-business-org` |
 | `kt:account-teams` | `kt:opportunity-teams` |
 | `kt:slds-linter` | `kt:salesforce-lightning-design-system` |
-| `kt:operating-hours` | `kt:salesforce-scheduler` |
 | `kt:guest-user-sharing-rules` | `kt:share-groups` |
 | `kt:high-volume-experience-cloud-users` | `kt:share-groups` |
 | `kt:api-community-manager` | `kt:api-experience-hub` |
 | `kt:business-administration` | `kt:management` |
 | `kt:ldap` | `kt:delegated-authentication` |
 | `kt:briefcase-builder` | `kt:salesforce-mobile-app` |
-| `kt:developer-console` | `kt:apex-logging-and-debug-logs` |
 | `kt:document-ai` | `kt:unstructured-data-in-data-cloud` |
 | `kt:mobile-sdk` | `kt:salesforce-mobile-app` |
+| `kt:developer-console` | `kt:apex-logging-and-debug-logs` |
 | `kt:ui-api` | `kt:field-dependencies` |
 | `kt:user-provisioning` | `kt:scim` |
 | `kt:models-api` | `kt:ai-models` |
@@ -119,7 +121,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:partner-relationship-management` | `kt:partner-community-licenses` |
 | `kt:agentforce-nonprofit-consultant-certification` | `kt:agentforce-nonprofit` |
 | `kt:nonprofit-success-pack` | `kt:agentforce-nonprofit` |
-| `kt:agentforce-setup-agent` | `kt:setup-audit-trail` |
 | `kt:currency-type-object` | `kt:multiple-currencies` |
 | `kt:digital-accessibility` | `kt:section-508-accessibility` |
 | `kt:wcag` | `kt:section-508-accessibility` |
@@ -138,7 +139,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:aws-clean-rooms` | `kt:data-360-clean-rooms` |
 | `kt:consent-data-model` | `kt:consent-management-in-data-cloud` |
 | `kt:data-clean-room` | `kt:data-360-clean-rooms` |
-| `kt:document-checklist-items` | `kt:action-plans` |
 | `kt:einstein-activity-capture` | `kt:agentforce-sdr` |
 | `kt:field-type-conversion` | `kt:rich-text-area-fields` |
 | `kt:notes-and-attachments` | `kt:content-document-model` |
@@ -147,6 +147,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:tx-ramp` | `kt:govramp` |
 | `kt:agent-to-agent-protocol` | `kt:agentforce-architecture-patterns` |
 | `kt:cross-cloud-integration` | `kt:salesforce-solution-kits` |
+| `kt:document-checklist-items` | `kt:action-plans` |
 | `kt:go-live-readiness-assessment` | `kt:cutover-plan` |
 | `kt:greenhouse-gas-protocol` | `kt:net-zero-cloud` |
 | `kt:multi-agent-orchestration` | `kt:agentforce-architecture-patterns` |

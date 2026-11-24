@@ -306,6 +306,38 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-employee-agents> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#partOf> <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-employee-agents> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-employee-agents> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-for-flow> <http://purl.org/dc/terms/created> "2026-11-24" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-for-flow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-for-flow> <http://www.w3.org/2000/01/rdf-schema#label> "Agentforce for Flow" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-for-flow> <http://www.w3.org/2004/02/skos/core#altLabel> "A4F" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-for-flow> <http://www.w3.org/2004/02/skos/core#altLabel> "AI flow generation" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-for-flow> <http://www.w3.org/2004/02/skos/core#altLabel> "Draft with AI" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-for-flow> <http://www.w3.org/2004/02/skos/core#altLabel> "Drafting Flows with Agentforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-for-flow> <http://www.w3.org/2004/02/skos/core#altLabel> "Einstein for Flow" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-for-flow> <http://www.w3.org/2004/02/skos/core#altLabel> "Let Einstein Help You Build" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-for-flow> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-for-flow> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-builder> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-for-flow> <http://www.w3.org/2004/02/skos/core#definition> "The generative AI built into Flow Builder (formerly Einstein for Flow) that drafts a starter flow from a natural-language description, summarizes existing flows and, through the Flow Builder Agentforce panel, applies prompted changes to a flow that the builder then reviews, accepts or rejects." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-for-flow> <http://www.w3.org/2004/02/skos/core#prefLabel> "Agentforce for Flow" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-for-flow> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-setup-agent> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-for-flow> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-tests> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-for-flow> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/record-triggered-flow> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-for-flow> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/schedule-triggered-flow> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-for-flow> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/screen-flow> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-for-flow> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-for-flow/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-for-flow> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-for-flow/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-for-flow> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-for-flow/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-for-flow> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-for-flow/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-for-flow> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-for-flow/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-for-flow> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-for-flow/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-for-flow> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-for-flow/s7> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-for-flow> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#alternativeTo> <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-templates> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-for-flow> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/process-automation-settings> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-for-flow> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-for-flow> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/einstein-generative-ai-setup> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-for-flow> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "automation" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-for-flow> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-for-flow> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-nonprofit> <http://purl.org/dc/terms/created> "2026-11-12" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-nonprofit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Product> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-nonprofit> <http://www.w3.org/2000/01/rdf-schema#label> "Agentforce Nonprofit" .
@@ -5877,6 +5909,7 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-builder> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/process-automation> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-builder> <http://www.w3.org/2004/02/skos/core#definition> "Salesforce's declarative, canvas-based tool for building flows (screen, autolaunched and triggered), and the platform's recommended replacement for Workflow Rules and Process Builder." .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-builder> <http://www.w3.org/2004/02/skos/core#prefLabel> "Flow Builder" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-builder> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-for-flow> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-builder> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-orchestrator> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-builder> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/record-triggered-flow> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-builder> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/screen-flow> .
@@ -14387,6 +14420,41 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-employee-agents/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-employee-agents/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-employee-agents/s6> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/agentforce-configuration-for-slack-deployment/configure-a-slack-agent-in-salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-for-flow/s1> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-for-flow/s1> <http://purl.org/dc/terms/title> "Drafting Flows with Agentforce (Beta)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-for-flow/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-for-flow/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-for-flow/s1> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=sf.flow_build_let_einstein_help_you_build_flows.htm&language=en_US&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-for-flow/s2> <http://purl.org/dc/terms/publisher> "Salesforce Admins Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-for-flow/s2> <http://purl.org/dc/terms/title> "Jen's Top Spring '26 Features for Admins" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-for-flow/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-for-flow/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-for-flow/s2> <https://schema.org/url> "https://admin.salesforce.com/blog/2026/jens-top-spring-26-features-for-admins" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-for-flow/s3> <http://purl.org/dc/terms/publisher> "Salesforce Admins Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-for-flow/s3> <http://purl.org/dc/terms/title> "Einstein for Flow: Using Generative AI to Assist Your Flows" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-for-flow/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-for-flow/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-for-flow/s3> <https://schema.org/url> "https://admin.salesforce.com/blog/2023/einstein-for-flow-for-salesforce-admins" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-for-flow/s4> <http://purl.org/dc/terms/publisher> "Salesforce Admins Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-for-flow/s4> <http://purl.org/dc/terms/title> "AI Flow Features Every Admin Should Use | Kate Clicks Through It" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-for-flow/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-for-flow/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-for-flow/s4> <https://schema.org/url> "https://admin.salesforce.com/blog/2025/ai-flow-features-every-admin-should-use-kate-clicks-through-it" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-for-flow/s5> <http://purl.org/dc/terms/publisher> "Salesforce Engineering Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-for-flow/s5> <http://purl.org/dc/terms/title> "How Agentforce Achieved Accurate Flow Generation Across 461 Billion Monthly Executions Using a Constrained DSL" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-for-flow/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-for-flow/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-for-flow/s5> <https://schema.org/url> "https://engineering.salesforce.com/?p=8081" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-for-flow/s6> <http://purl.org/dc/terms/publisher> "Salesforce AI Research" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-for-flow/s6> <http://purl.org/dc/terms/title> "From Flow Generalists to Champions: Building Agentic AI for Salesforce Automation" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-for-flow/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-for-flow/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-for-flow/s6> <https://schema.org/url> "https://www.salesforce.com/blog/agentic-ai-for-flow/" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-for-flow/s7> <http://purl.org/dc/terms/publisher> "Salesforce Admins Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-for-flow/s7> <http://purl.org/dc/terms/title> "Jen's Top Winter '27 Release Features For Admins" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-for-flow/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-for-flow/s7> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-for-flow/s7> <https://schema.org/url> "https://admin.salesforce.com/blog/2026/jens-top-winter-27-release-features-for-admins" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-nonprofit/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-nonprofit/s1> <http://purl.org/dc/terms/title> "Learn About Salesforce for Nonprofits (Nonprofit Cloud Basics)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agentforce-nonprofit/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
