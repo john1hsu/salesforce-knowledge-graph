@@ -41194,6 +41194,83 @@
       ]
     },
     {
+      "@id": "kt:dynamic-highlights-panel",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Dynamic Highlights Panel",
+      "skos:definition": "A Lightning App Builder field-container component, introduced in Winter '25, that lets admins choose and arrange up to 12 key fields at the top of a record page, with per-field visibility rules and dynamic actions, instead of driving the highlights area from the object's compact layout.",
+      "kto:domain": "platform-architecture",
+      "dcterms:created": "2026-11-24",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Maintain Your Platform App Builder Certification for Winter '25",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/platform-app-builder-certification-maintenance-winter-25/maintain-your-platform-app-builder-certification-for-winter-25",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Jen's Top Winter '25 Release Features | Be Release Ready",
+          "dcterms:publisher": "Salesforce Admins",
+          "schema:url": "https://admin.salesforce.com/blog/2024/jens-top-winter-25-release-features-be-release-ready",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Jen's Top Winter '27 Release Features For Admins",
+          "dcterms:publisher": "Salesforce Admins",
+          "schema:url": "https://admin.salesforce.com/blog/2026/jens-top-winter-27-release-features-for-admins",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "The Ultimate Guide to the Salesforce Dynamic Highlights Panel",
+          "dcterms:publisher": "Salesforce Ben",
+          "schema:url": "https://www.salesforceben.com/the-ultimate-guide-to-the-salesforce-dynamic-highlights-panel/",
+          "kto:sourceType": "community"
+        },
+        {
+          "dcterms:title": "Dynamic Highlights Panel: Conditional Field Visibility for Enhanced Focus",
+          "dcterms:publisher": "Automation Champion",
+          "schema:url": "https://automationchampion.com/2024/08/13/dynamic-highlights-panel-conditional-field-visibility-for-enhanced-focus/",
+          "kto:sourceType": "community"
+        }
+      ],
+      "kto:file": "articles/platform-architecture/dynamic-highlights-panel.md",
+      "skos:altLabel": [
+        "Dynamic Highlights Panel component",
+        "record highlights in Lightning App Builder",
+        "configurable highlights panel"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:lightning-app-builder"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:dynamic-forms"
+        },
+        {
+          "@id": "kt:dynamic-actions"
+        },
+        {
+          "@id": "kt:salesforce-mobile-app"
+        },
+        {
+          "@id": "kt:field-level-security"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:compact-layouts"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:lightning-web-components"
+        }
+      ]
+    },
+    {
       "@id": "kt:governor-limits",
       "@type": "kto:Limit",
       "skos:prefLabel": "Governor Limits",
