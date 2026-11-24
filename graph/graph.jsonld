@@ -28936,6 +28936,92 @@
       ]
     },
     {
+      "@id": "kt:package-installation-keys",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Package Installation Keys",
+      "skos:definition": "A secret that a package developer attaches to a second-generation managed or unlocked package version so that only installers who know the key can see the package's contents and install it.",
+      "kto:domain": "devops-and-alm",
+      "dcterms:created": "2026-11-24",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Package Installation Key for Second-Generation Managed Packages",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/pkg2-dev/guide/sfdx-dev-dev2gp-config-installkey.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Package Installation Key (Salesforce DX Developer Guide, unlocked packages)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_unlocked_pkg_config_installkey.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "package version create (Salesforce CLI Command Reference)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/salesforce-cli-reference/guide/cli_reference_package_version_create.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "package version update (Salesforce CLI Command Reference)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/salesforce-cli-reference/guide/cli_reference_package_version_update.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "package install (Salesforce CLI Command Reference)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/salesforce-cli-reference/guide/cli_reference_package_install.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Installing Packages (Application Installation Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.appExchangeInstallGuide.meta/appExchangeInstallGuide/appexchange_install_installation.htm",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/devops-and-alm/package-installation-keys.md",
+      "skos:altLabel": [
+        "package installation key",
+        "installation key",
+        "package password",
+        "password-protected package",
+        "installation-key-bypass"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:second-generation-managed-packages"
+        },
+        {
+          "@id": "kt:unlocked-packages"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:package-versioning-and-ancestry"
+        },
+        {
+          "@id": "kt:dev-hub"
+        },
+        {
+          "@id": "kt:first-generation-managed-packages"
+        },
+        {
+          "@id": "kt:agentexchange"
+        },
+        {
+          "@id": "kt:package-dependencies"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:salesforce-cli"
+        }
+      ]
+    },
+    {
       "@id": "kt:package-versioning-and-ancestry",
       "@type": "kto:Concept",
       "skos:prefLabel": "Package Versioning and Ancestry",
