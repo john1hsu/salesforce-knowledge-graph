@@ -40686,6 +40686,67 @@
       ]
     },
     {
+      "@id": "kt:dynamic-actions",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Dynamic Actions",
+      "skos:definition": "A Lightning App Builder capability that moves a record page's action buttons out of the page layout and into the Lightning page itself, so admins choose the actions in the Highlights Panel and show or hide each one with visibility rules based on record fields, device or user.",
+      "kto:domain": "platform-architecture",
+      "dcterms:created": "2026-11-24",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Create Dynamic Actions in Lightning App Builder",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=platform.lightning_app_builder_create_dynamic_action.htm&amp=&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Learn MOAR: Try Dynamic Actions in App Builder with the Summer '20 Release",
+          "dcterms:publisher": "Salesforce Admins",
+          "schema:url": "https://admin.salesforce.com/blog/2020/try-dynamic-actions-in-app-builder-with-the-summer-20-release",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "New Low-Code Innovations For Building the Apps You Need, Fast",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/news/stories/new-low-code-innovations-for-building-the-apps-you-need-fast/",
+          "kto:sourceType": "news"
+        }
+      ],
+      "kto:file": "articles/platform-architecture/dynamic-actions.md",
+      "skos:altLabel": [
+        "Dynamic Actions in Lightning App Builder",
+        "dynamic record page actions",
+        "Highlights Panel dynamic actions",
+        "page-level dynamic actions"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:lightning-app-builder"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:quick-actions"
+        },
+        {
+          "@id": "kt:dynamic-forms"
+        },
+        {
+          "@id": "kt:dynamic-highlights-panel"
+        },
+        {
+          "@id": "kt:salesforce-mobile-app"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:page-layouts"
+        }
+      ]
+    },
+    {
       "@id": "kt:governor-limits",
       "@type": "kto:Limit",
       "skos:prefLabel": "Governor Limits",

@@ -4953,6 +4953,27 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/duplicate-management> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/duplicate-management> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/duplicate-management> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dynamic-actions> <http://purl.org/dc/terms/created> "2026-11-24" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dynamic-actions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dynamic-actions> <http://www.w3.org/2000/01/rdf-schema#label> "Dynamic Actions" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dynamic-actions> <http://www.w3.org/2004/02/skos/core#altLabel> "Dynamic Actions in Lightning App Builder" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dynamic-actions> <http://www.w3.org/2004/02/skos/core#altLabel> "Highlights Panel dynamic actions" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dynamic-actions> <http://www.w3.org/2004/02/skos/core#altLabel> "dynamic record page actions" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dynamic-actions> <http://www.w3.org/2004/02/skos/core#altLabel> "page-level dynamic actions" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dynamic-actions> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-app-builder> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dynamic-actions> <http://www.w3.org/2004/02/skos/core#definition> "A Lightning App Builder capability that moves a record page's action buttons out of the page layout and into the Lightning page itself, so admins choose the actions in the Highlights Panel and show or hide each one with visibility rules based on record fields, device or user." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dynamic-actions> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dynamic Actions" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dynamic-actions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/dynamic-forms> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dynamic-actions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/dynamic-highlights-panel> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dynamic-actions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/quick-actions> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dynamic-actions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-mobile-app> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dynamic-actions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dynamic-actions/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dynamic-actions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dynamic-actions/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dynamic-actions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dynamic-actions/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dynamic-actions> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#alternativeTo> <https://github.com/john1hsu/salesforce-knowledge-graph/id/page-layouts> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dynamic-actions> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "platform-architecture" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dynamic-actions> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/dynamic-actions> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/dynamic-forms> <http://purl.org/dc/terms/created> "2026-11-09" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/dynamic-forms> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/dynamic-forms> <http://www.w3.org/2000/01/rdf-schema#label> "Dynamic Forms" .
@@ -19136,6 +19157,21 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/duplicate-management/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/duplicate-management/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/duplicate-management/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/api/sforce_api_objects_duplicaterecordset.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dynamic-actions/s1> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dynamic-actions/s1> <http://purl.org/dc/terms/title> "Create Dynamic Actions in Lightning App Builder" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dynamic-actions/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dynamic-actions/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dynamic-actions/s1> <https://schema.org/url> "https://help.salesforce.com/s/articleView?language=en_US&id=platform.lightning_app_builder_create_dynamic_action.htm&amp=&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dynamic-actions/s2> <http://purl.org/dc/terms/publisher> "Salesforce Admins" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dynamic-actions/s2> <http://purl.org/dc/terms/title> "Learn MOAR: Try Dynamic Actions in App Builder with the Summer '20 Release" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dynamic-actions/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dynamic-actions/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dynamic-actions/s2> <https://schema.org/url> "https://admin.salesforce.com/blog/2020/try-dynamic-actions-in-app-builder-with-the-summer-20-release" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dynamic-actions/s3> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dynamic-actions/s3> <http://purl.org/dc/terms/title> "New Low-Code Innovations For Building the Apps You Need, Fast" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dynamic-actions/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dynamic-actions/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "news" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dynamic-actions/s3> <https://schema.org/url> "https://www.salesforce.com/news/stories/new-low-code-innovations-for-building-the-apps-you-need-fast/" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dynamic-forms/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dynamic-forms/s1> <http://purl.org/dc/terms/title> "Lightning App Builder: Get Started with Dynamic Forms" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/dynamic-forms/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
