@@ -20506,6 +20506,88 @@
       ]
     },
     {
+      "@id": "kt:multi-select-picklists",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Multi-Select Picklists",
+      "skos:definition": "A custom field type that lets a user choose one or more values from a defined list, stored on the record as a single semicolon-separated string. Convenient for tagging, but harder to report on, automate and integrate than single-select picklists or related records.",
+      "kto:domain": "data-model",
+      "dcterms:created": "2026-11-24",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Picklist Limitations",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=platform.picklist_limitations.htm&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "SOQL and SOSL Reference: Query Multi-Select Picklists",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.soql_sosl.meta/api/sforce_api_calls_soql_querying_multiselect_picklists.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Picklist Administration: Get Started with Picklists",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/picklist_admin/picklist_admin_start",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Alternatives to a Multi-Select Picklist",
+          "dcterms:publisher": "Salesforce Admins Blog",
+          "schema:url": "https://admin.salesforce.com/blog/2023/alternatives-to-a-multi-select-picklist",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "SOQL and SOSL Reference: Comparison Operators",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/salesforce-soql-sosl/guide/sforce-api-calls-soql-select-comparisonoperators.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/data-model/multi-select-picklists.md",
+      "skos:altLabel": [
+        "multi-select picklist",
+        "multiselect picklist",
+        "multi-picklist",
+        "MultiselectPicklist",
+        "MSP"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:custom-fields"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:picklist-value-sets"
+        },
+        {
+          "@id": "kt:field-dependencies"
+        },
+        {
+          "@id": "kt:junction-object"
+        },
+        {
+          "@id": "kt:formula-fields"
+        },
+        {
+          "@id": "kt:data-quality"
+        }
+      ],
+      "kto:queriedWith": [
+        {
+          "@id": "kt:soql"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:junction-object"
+        }
+      ]
+    },
+    {
       "@id": "kt:multiple-currencies",
       "@type": "kto:Feature",
       "skos:prefLabel": "Multiple Currencies",

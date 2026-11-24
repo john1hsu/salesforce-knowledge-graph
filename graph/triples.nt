@@ -8835,6 +8835,32 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/multi-factor-authentication> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#mitigates> <https://github.com/john1hsu/salesforce-knowledge-graph/id/account-takeover> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/multi-factor-authentication> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/multi-factor-authentication> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multi-select-picklists> <http://purl.org/dc/terms/created> "2026-11-24" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multi-select-picklists> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multi-select-picklists> <http://www.w3.org/2000/01/rdf-schema#label> "Multi-Select Picklists" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multi-select-picklists> <http://www.w3.org/2004/02/skos/core#altLabel> "MSP" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multi-select-picklists> <http://www.w3.org/2004/02/skos/core#altLabel> "MultiselectPicklist" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multi-select-picklists> <http://www.w3.org/2004/02/skos/core#altLabel> "multi-picklist" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multi-select-picklists> <http://www.w3.org/2004/02/skos/core#altLabel> "multi-select picklist" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multi-select-picklists> <http://www.w3.org/2004/02/skos/core#altLabel> "multiselect picklist" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multi-select-picklists> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-fields> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multi-select-picklists> <http://www.w3.org/2004/02/skos/core#definition> "A custom field type that lets a user choose one or more values from a defined list, stored on the record as a single semicolon-separated string. Convenient for tagging, but harder to report on, automate and integrate than single-select picklists or related records." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multi-select-picklists> <http://www.w3.org/2004/02/skos/core#prefLabel> "Multi-Select Picklists" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multi-select-picklists> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-quality> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multi-select-picklists> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/field-dependencies> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multi-select-picklists> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/formula-fields> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multi-select-picklists> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/junction-object> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multi-select-picklists> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/picklist-value-sets> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multi-select-picklists> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multi-select-picklists/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multi-select-picklists> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multi-select-picklists/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multi-select-picklists> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multi-select-picklists/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multi-select-picklists> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multi-select-picklists/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multi-select-picklists> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multi-select-picklists/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multi-select-picklists> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#alternativeTo> <https://github.com/john1hsu/salesforce-knowledge-graph/id/junction-object> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multi-select-picklists> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "data-model" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multi-select-picklists> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/soql> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multi-select-picklists> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/multi-select-picklists> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/multiple-currencies> <http://purl.org/dc/terms/created> "2026-11-17" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/multiple-currencies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/multiple-currencies> <http://www.w3.org/2000/01/rdf-schema#label> "Multiple Currencies" .
@@ -22989,6 +23015,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multi-factor-authentication/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multi-factor-authentication/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "standards-body" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multi-factor-authentication/s5> <https://schema.org/url> "https://pages.nist.gov/800-63-4/sp800-63b/aal" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multi-select-picklists/s1> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multi-select-picklists/s1> <http://purl.org/dc/terms/title> "Picklist Limitations" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multi-select-picklists/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multi-select-picklists/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multi-select-picklists/s1> <https://schema.org/url> "https://help.salesforce.com/s/articleView?language=en_US&id=platform.picklist_limitations.htm&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multi-select-picklists/s2> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multi-select-picklists/s2> <http://purl.org/dc/terms/title> "SOQL and SOSL Reference: Query Multi-Select Picklists" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multi-select-picklists/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multi-select-picklists/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multi-select-picklists/s2> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.soql_sosl.meta/api/sforce_api_calls_soql_querying_multiselect_picklists.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multi-select-picklists/s3> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multi-select-picklists/s3> <http://purl.org/dc/terms/title> "Picklist Administration: Get Started with Picklists" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multi-select-picklists/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multi-select-picklists/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multi-select-picklists/s3> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/picklist_admin/picklist_admin_start" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multi-select-picklists/s4> <http://purl.org/dc/terms/publisher> "Salesforce Admins Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multi-select-picklists/s4> <http://purl.org/dc/terms/title> "Alternatives to a Multi-Select Picklist" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multi-select-picklists/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multi-select-picklists/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multi-select-picklists/s4> <https://schema.org/url> "https://admin.salesforce.com/blog/2023/alternatives-to-a-multi-select-picklist" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multi-select-picklists/s5> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multi-select-picklists/s5> <http://purl.org/dc/terms/title> "SOQL and SOSL Reference: Comparison Operators" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multi-select-picklists/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multi-select-picklists/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multi-select-picklists/s5> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/salesforce-soql-sosl/guide/sforce-api-calls-soql-select-comparisonoperators.html" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multiple-currencies/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multiple-currencies/s1> <http://purl.org/dc/terms/title> "Company-Wide Org Settings: Configure Multiple Currencies" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/multiple-currencies/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
