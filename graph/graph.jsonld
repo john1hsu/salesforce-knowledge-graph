@@ -39318,6 +39318,102 @@
       ]
     },
     {
+      "@id": "kt:telephony-integration-api",
+      "@type": "kto:API",
+      "skos:prefLabel": "Telephony Integration API",
+      "skos:definition": "The JWT-authorized REST API that a telephony system (Amazon Connect Lambda functions or a partner's platform) calls to create and update VoiceCall records, stream real-time transcripts and drive Omni-Channel routing for Salesforce Voice.",
+      "kto:domain": "integration",
+      "dcterms:created": "2026-11-24",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Using the Telephony Integration API (Salesforce Voice with Telephony Providers Implementation Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.voice_developer_guide.meta/voice_developer_guide/voice_rest_overview.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Telephony Integration REST API Authorization",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/service/voice-dev-guide/guide/voice-rest-authorization.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Create a Voice Call Record",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/service/voice-dev-guide/guide/voice-rest-voicecalls-create.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Update a Voice Call Record",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/service/voice-dev-guide/guide/voice-rest-voicecalls-update.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Create a Transcript",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/service/voice-dev-guide/guide/voice-rest-voicecalls-transcript.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Integrate Incoming Voice Call Creation (Salesforce Voice with Partner Telephony Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/service/voice-pt-dev-guide/guide/voice-pt-integrate-incoming-call-creation.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/integration/telephony-integration-api.md",
+      "skos:altLabel": [
+        "Telephony Integration REST API",
+        "Salesforce Voice Telephony Integration API",
+        "Service Cloud Voice REST API",
+        "telephony/v1 API"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-apis"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:rest-api"
+        },
+        {
+          "@id": "kt:lightning-service-console"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:salesforce-voice"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:json-web-token"
+        },
+        {
+          "@id": "kt:certificate-and-key-management"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:amazon-connect"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:omni-channel"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:jwt-bearer-flow"
+        }
+      ]
+    },
+    {
       "@id": "kt:user-interface-api",
       "@type": "kto:API",
       "skos:prefLabel": "User Interface API",
