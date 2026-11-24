@@ -13,7 +13,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:requirements-engineering` | `kt:non-functional-requirements`, `kt:requirements-gathering` |
 | `kt:user-stories` | `kt:fit-gap-analysis`, `kt:requirements-gathering` |
 | `kt:business-architecture` | `kt:capability-maps`, `kt:togaf` |
-| `kt:rollback-plan` | `kt:cutover-plan`, `kt:hypercare` |
 | `kt:salesforce-ecosystem-roles` | `kt:salesforce-architect` |
 | `kt:service-setup-assistant` | `kt:service-cloud` |
 | `kt:salesforce-architecture-program` | `kt:salesforce-architecture-center` |
@@ -24,8 +23,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:presence-configuration` | `kt:omni-channel` |
 | `kt:skills-based-routing` | `kt:omni-channel` |
 | `kt:agentexchange-go-to-market-app` | `kt:agentexchange` |
-| `kt:custom-property-editors` | `kt:custom-flow-screen-components` |
 | `kt:entitlement-process-metadata` | `kt:entitlement-management` |
+| `kt:custom-property-editors` | `kt:custom-flow-screen-components` |
 | `kt:tableau-pulse` | `kt:tableau` |
 | `kt:einstein-discovery` | `kt:crm-analytics` |
 | `kt:saql` | `kt:crm-analytics` |
@@ -50,9 +49,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:revenue-intelligence` | `kt:collaborative-forecasts` |
 | `kt:batch-apex-error-event` | `kt:transaction-finalizers` |
 | `kt:actionable-relationship-center` | `kt:financial-services-cloud` |
+| `kt:backup-and-recover-next` | `kt:backup-and-recover` |
 | `kt:constraint-modeling-language` | `kt:product-configurator` |
 | `kt:product-catalog-management` | `kt:product-configurator` |
-| `kt:backup-and-recover-next` | `kt:backup-and-recover` |
 | `kt:marketing-cloud-sql` | `kt:automation-studio` |
 | `kt:engagement-studio` | `kt:marketing-cloud-account-engagement` |
 | `kt:iso-iec-25010` | `kt:non-functional-requirements` |
@@ -61,19 +60,19 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:data-processing-engine` | `kt:loyalty-management` |
 | `kt:reports-and-dashboards` | `kt:salesforce-analytics` |
 | `kt:invocable-methods` | `kt:apex-defined-types` |
+| `kt:in-app-guidance` | `kt:change-management-and-adoption` |
 | `kt:business-process-mapping` | `kt:requirements-gathering` |
 | `kt:b2b-commerce` | `kt:commerce-cloud` |
 | `kt:b2c-commerce` | `kt:commerce-cloud` |
-| `kt:salesforce-order-management` | `kt:commerce-cloud` |
-| `kt:in-app-guidance` | `kt:change-management-and-adoption` |
 | `kt:business-analyst-certification` | `kt:user-acceptance-testing` |
+| `kt:salesforce-order-management` | `kt:commerce-cloud` |
 | `kt:computer-science` | `kt:distributed-computing` |
 | `kt:platform-cache-partitions` | `kt:platform-cache` |
 | `kt:model-context-protocol` | `kt:model-context-protocol-in-agentforce` |
 | `kt:salesforce-hosted-mcp-servers` | `kt:model-context-protocol-in-agentforce` |
-| `kt:data-cloud-query-api` | `kt:data-graphs` |
 | `kt:fhir` | `kt:health-cloud` |
 | `kt:utilization-management` | `kt:health-cloud` |
+| `kt:data-cloud-query-api` | `kt:data-graphs` |
 | `kt:opportunity-products` | `kt:price-books` |
 | `kt:enterprise-service-bus` | `kt:point-to-point-integration` |
 | `kt:holidays` | `kt:business-hours` |
@@ -99,19 +98,20 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:channel-order-app` | `kt:partner-business-org` |
 | `kt:account-teams` | `kt:opportunity-teams` |
 | `kt:slds-linter` | `kt:salesforce-lightning-design-system` |
-| `kt:api-community-manager` | `kt:api-experience-hub` |
-| `kt:business-administration` | `kt:management` |
 | `kt:guest-user-sharing-rules` | `kt:share-groups` |
 | `kt:high-volume-experience-cloud-users` | `kt:share-groups` |
+| `kt:api-community-manager` | `kt:api-experience-hub` |
+| `kt:business-administration` | `kt:management` |
 | `kt:ldap` | `kt:delegated-authentication` |
 | `kt:briefcase-builder` | `kt:salesforce-mobile-app` |
+| `kt:developer-console` | `kt:apex-logging-and-debug-logs` |
 | `kt:mobile-sdk` | `kt:salesforce-mobile-app` |
 | `kt:document-ai` | `kt:unstructured-data-in-data-cloud` |
-| `kt:developer-console` | `kt:apex-logging-and-debug-logs` |
 | `kt:user-provisioning` | `kt:scim` |
 | `kt:models-api` | `kt:ai-models` |
 | `kt:hmac-based-one-time-password` | `kt:time-based-one-time-password` |
 | `kt:organization-wide-email-addresses` | `kt:email-alerts` |
+| `kt:destructive-changes` | `kt:rollback-plan` |
 | `kt:apex-soap-web-services` | `kt:apex-rest-services` |
 | `kt:enhanced-letterheads` | `kt:email-templates` |
 | `kt:experience-cloud-consultant-certification` | `kt:licensing-strategy` |
@@ -128,13 +128,14 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:quality-assurance-surveillance-plan` | `kt:performance-work-statement` |
 | `kt:statement-of-objectives` | `kt:performance-work-statement` |
 | `kt:b2c-commerce-architect-certification` | `kt:b2c-solution-architect-certification` |
+| `kt:go-live-readiness-assessment` | `kt:cutover-plan` |
 | `kt:web-to-case` | `kt:auto-response-rules` |
 | `kt:web-to-lead` | `kt:auto-response-rules` |
 | `kt:custom-labels` | `kt:flow-formula-resources` |
 | `kt:heroku-fir` | `kt:heroku-architect-certification` |
 | `kt:twelve-factor-app` | `kt:heroku-architect-certification` |
-| `kt:signup-request-api` | `kt:trialforce` |
 | `kt:salesforce-maps` | `kt:geolocation-fields` |
+| `kt:signup-request-api` | `kt:trialforce` |
 | `kt:planned-maintenance-windows` | `kt:disaster-recovery-and-site-switching` |
 | `kt:read-only-mode` | `kt:disaster-recovery-and-site-switching` |
 | `kt:tx-ramp` | `kt:govramp` |
@@ -146,7 +147,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:document-checklist-items` | `kt:action-plans` |
 | `kt:einstein-activity-capture` | `kt:agentforce-sdr` |
 | `kt:field-type-conversion` | `kt:rich-text-area-fields` |
-| `kt:go-live-readiness-assessment` | `kt:cutover-plan` |
 | `kt:greenhouse-gas-protocol` | `kt:net-zero-cloud` |
 | `kt:multi-agent-orchestration` | `kt:agentforce-architecture-patterns` |
 | `kt:notes-and-attachments` | `kt:content-document-model` |

@@ -29035,6 +29035,86 @@
       ]
     },
     {
+      "@id": "kt:rollback-plan",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Rollback Plan",
+      "skos:definition": "The pre-written, rehearsed procedure for returning a Salesforce org to its last known good state when a release fails, including who may order it, the triggers that invoke it, and how metadata and data are reverted.",
+      "kto:domain": "devops-and-alm",
+      "dcterms:created": "2026-11-24",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Manage the Launch and Post-Launch Activities",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/cc-project-mgmt/cc-launch-and-post-launch",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Master Metadata API Deployments with Best Practices",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2025/10/master-metadata-api-deployments-with-best-practices",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "project deploy start (Salesforce CLI Command Reference)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/salesforce-cli-reference/guide/cli_reference_project_deploy_start.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Deleting Components from an Organization (Metadata API Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_deploy_deleting_files.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "OPS06-BP01 Plan for unsuccessful changes (Operational Excellence Pillar)",
+          "dcterms:publisher": "AWS Well-Architected Framework",
+          "schema:url": "https://docs.aws.amazon.com/wellarchitected/latest/operational-excellence-pillar/ops_mit_deploy_risks_plan_for_unsucessful_changes.html",
+          "kto:sourceType": "partner"
+        }
+      ],
+      "kto:file": "articles/devops-and-alm/rollback-plan.md",
+      "skos:altLabel": [
+        "deployment rollback plan",
+        "rollback strategy",
+        "back-out plan",
+        "release rollback",
+        "roll back a deployment"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:release-management"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:cutover-plan"
+        },
+        {
+          "@id": "kt:hypercare"
+        },
+        {
+          "@id": "kt:deployment-validation-and-quick-deploy"
+        },
+        {
+          "@id": "kt:branching-strategy"
+        },
+        {
+          "@id": "kt:salesforce-cli"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:backup-and-recover"
+        },
+        {
+          "@id": "kt:destructive-changes"
+        }
+      ]
+    },
+    {
       "@id": "kt:salesforce-cli",
       "@type": "kto:Tool",
       "skos:prefLabel": "Salesforce CLI",

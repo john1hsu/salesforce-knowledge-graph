@@ -11678,6 +11678,32 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/roll-up-summary-field> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "data-model" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/roll-up-summary-field> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/roll-up-summary-field> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/rollback-plan> <http://purl.org/dc/terms/created> "2026-11-24" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/rollback-plan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/rollback-plan> <http://www.w3.org/2000/01/rdf-schema#label> "Rollback Plan" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/rollback-plan> <http://www.w3.org/2004/02/skos/core#altLabel> "back-out plan" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/rollback-plan> <http://www.w3.org/2004/02/skos/core#altLabel> "deployment rollback plan" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/rollback-plan> <http://www.w3.org/2004/02/skos/core#altLabel> "release rollback" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/rollback-plan> <http://www.w3.org/2004/02/skos/core#altLabel> "roll back a deployment" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/rollback-plan> <http://www.w3.org/2004/02/skos/core#altLabel> "rollback strategy" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/rollback-plan> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/release-management> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/rollback-plan> <http://www.w3.org/2004/02/skos/core#definition> "The pre-written, rehearsed procedure for returning a Salesforce org to its last known good state when a release fails, including who may order it, the triggers that invoke it, and how metadata and data are reverted." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/rollback-plan> <http://www.w3.org/2004/02/skos/core#prefLabel> "Rollback Plan" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/rollback-plan> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/branching-strategy> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/rollback-plan> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/cutover-plan> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/rollback-plan> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/deployment-validation-and-quick-deploy> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/rollback-plan> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/hypercare> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/rollback-plan> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-cli> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/rollback-plan> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/rollback-plan/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/rollback-plan> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/rollback-plan/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/rollback-plan> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/rollback-plan/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/rollback-plan> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/rollback-plan/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/rollback-plan> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/rollback-plan/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/rollback-plan> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/backup-and-recover> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/rollback-plan> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/destructive-changes> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/rollback-plan> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "devops-and-alm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/rollback-plan> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/rollback-plan> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/sales-cloud-consultant-certification> <http://purl.org/dc/terms/created> "2026-11-06" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/sales-cloud-consultant-certification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Certification> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/sales-cloud-consultant-certification> <http://www.w3.org/2000/01/rdf-schema#label> "Agentforce Sales Consultant Certification" .
@@ -25885,6 +25911,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/roll-up-summary-field/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/roll-up-summary-field/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "partner" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/roll-up-summary-field/s6> <https://schema.org/url> "https://gearset.com/blog/salesforce-roll-up-summary-field-deployment/" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/rollback-plan/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/rollback-plan/s1> <http://purl.org/dc/terms/title> "Manage the Launch and Post-Launch Activities" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/rollback-plan/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/rollback-plan/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/rollback-plan/s1> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/cc-project-mgmt/cc-launch-and-post-launch" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/rollback-plan/s2> <http://purl.org/dc/terms/publisher> "Salesforce Developers Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/rollback-plan/s2> <http://purl.org/dc/terms/title> "Master Metadata API Deployments with Best Practices" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/rollback-plan/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/rollback-plan/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/rollback-plan/s2> <https://schema.org/url> "https://developer.salesforce.com/blogs/2025/10/master-metadata-api-deployments-with-best-practices" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/rollback-plan/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/rollback-plan/s3> <http://purl.org/dc/terms/title> "project deploy start (Salesforce CLI Command Reference)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/rollback-plan/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/rollback-plan/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/rollback-plan/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/salesforce-cli-reference/guide/cli_reference_project_deploy_start.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/rollback-plan/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/rollback-plan/s4> <http://purl.org/dc/terms/title> "Deleting Components from an Organization (Metadata API Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/rollback-plan/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/rollback-plan/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/rollback-plan/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_deploy_deleting_files.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/rollback-plan/s5> <http://purl.org/dc/terms/publisher> "AWS Well-Architected Framework" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/rollback-plan/s5> <http://purl.org/dc/terms/title> "OPS06-BP01 Plan for unsuccessful changes (Operational Excellence Pillar)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/rollback-plan/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/rollback-plan/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "partner" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/rollback-plan/s5> <https://schema.org/url> "https://docs.aws.amazon.com/wellarchitected/latest/operational-excellence-pillar/ops_mit_deploy_risks_plan_for_unsucessful_changes.html" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sales-cloud-consultant-certification/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sales-cloud-consultant-certification/s1> <http://purl.org/dc/terms/title> "Certification - Salesforce Certified Agentforce Sales Consultant" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sales-cloud-consultant-certification/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
