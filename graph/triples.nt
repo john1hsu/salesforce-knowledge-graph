@@ -8037,6 +8037,29 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/jwt-bearer-flow> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#implements> <https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-2-0> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/jwt-bearer-flow> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/jwt-bearer-flow> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/key-security-indicators> <http://purl.org/dc/terms/created> "2026-11-24" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/key-security-indicators> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#ExternalConcept> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/key-security-indicators> <http://www.w3.org/2000/01/rdf-schema#label> "Key Security Indicators" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/key-security-indicators> <http://www.w3.org/2004/02/skos/core#altLabel> "20x Key Security Indicators" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/key-security-indicators> <http://www.w3.org/2004/02/skos/core#altLabel> "FedRAMP KSIs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/key-security-indicators> <http://www.w3.org/2004/02/skos/core#altLabel> "FedRAMP Key Security Indicators" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/key-security-indicators> <http://www.w3.org/2004/02/skos/core#altLabel> "KSIs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/key-security-indicators> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/fedramp-20x> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/key-security-indicators> <http://www.w3.org/2004/02/skos/core#definition> "The outcome-based security capabilities that FedRAMP 20x asks cloud providers to demonstrate and validate persistently, largely through automation, instead of writing narrative descriptions of each NIST SP 800-53 control; grouped into ten themes such as IAM, change management and supply chain risk." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/key-security-indicators> <http://www.w3.org/2004/02/skos/core#prefLabel> "Key Security Indicators" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/key-security-indicators> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/fedramp> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/key-security-indicators> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/multi-factor-authentication> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/key-security-indicators> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-53> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/key-security-indicators> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/key-security-indicators/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/key-security-indicators> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/key-security-indicators/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/key-security-indicators> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/key-security-indicators/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/key-security-indicators> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/key-security-indicators/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/key-security-indicators> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/key-security-indicators/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/key-security-indicators> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/continuous-monitoring> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/key-security-indicators> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "public-sector-and-compliance" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/key-security-indicators> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#partOf> <https://github.com/john1hsu/salesforce-knowledge-graph/id/fedramp-20x> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/key-security-indicators> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/key-security-indicators> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/knowledge-base> <http://purl.org/dc/terms/created> "2026-11-02" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/knowledge-base> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/knowledge-base> <http://www.w3.org/2000/01/rdf-schema#label> "Salesforce Knowledge" .
@@ -22577,6 +22600,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/jwt-bearer-flow/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/jwt-bearer-flow/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/jwt-bearer-flow/s5> <https://schema.org/url> "https://help.salesforce.com/s/articleView?language=en_US&id=xcloud.nc_create_edit_oath_jwt_bearer_ext_cred.htm&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/key-security-indicators/s1> <http://purl.org/dc/terms/publisher> "FedRAMP (GSA)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/key-security-indicators/s1> <http://purl.org/dc/terms/title> "Key Security Indicators - FedRAMP Consolidated Rules for 2026 (providers)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/key-security-indicators/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/key-security-indicators/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/key-security-indicators/s1> <https://schema.org/url> "https://www.fedramp.gov/2026/providers/20x/key-security-indicators/" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/key-security-indicators/s2> <http://purl.org/dc/terms/publisher> "FedRAMP (GSA)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/key-security-indicators/s2> <http://purl.org/dc/terms/title> "Key Security Indicators - FedRAMP Consolidated Rules for 2026 (20x Class C reference)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/key-security-indicators/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/key-security-indicators/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/key-security-indicators/s2> <https://schema.org/url> "https://www.fedramp.gov/2026/reference/20x/c/key-security-indicators/" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/key-security-indicators/s3> <http://purl.org/dc/terms/publisher> "FedRAMP (GSA)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/key-security-indicators/s3> <http://purl.org/dc/terms/title> "FedRAMP Key Security Indicators (20x Phase One, release 25.05C)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/key-security-indicators/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/key-security-indicators/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/key-security-indicators/s3> <https://schema.org/url> "https://www.fedramp.gov/docs/20x/phase1/key-security-indicators/" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/key-security-indicators/s4> <http://purl.org/dc/terms/publisher> "FedRAMP (GSA)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/key-security-indicators/s4> <http://purl.org/dc/terms/title> "RFC-0014 Phase Two Key Security Indicators" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/key-security-indicators/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/key-security-indicators/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/key-security-indicators/s4> <https://schema.org/url> "https://www.fedramp.gov/rfcs/0014/" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/key-security-indicators/s5> <http://purl.org/dc/terms/publisher> "Amazon Web Services (AWS Public Sector Blog)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/key-security-indicators/s5> <http://purl.org/dc/terms/title> "Deep dive into FedRAMP 20x Key Security Indicators: Decoding the 63 KSIs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/key-security-indicators/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/key-security-indicators/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "partner" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/key-security-indicators/s5> <https://schema.org/url> "https://aws.amazon.com/blogs/publicsector/deep-dive-into-fedramp-20x-key-security-indicators-decoding-the-63-ksis/" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/knowledge-base/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/knowledge-base/s1> <http://purl.org/dc/terms/title> "Get Started with Knowledge (Knowledge Basics, Trailhead unit)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/knowledge-base/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

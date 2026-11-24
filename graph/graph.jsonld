@@ -47165,6 +47165,81 @@
       ]
     },
     {
+      "@id": "kt:key-security-indicators",
+      "@type": "kto:ExternalConcept",
+      "skos:prefLabel": "Key Security Indicators",
+      "skos:definition": "The outcome-based security capabilities that FedRAMP 20x asks cloud providers to demonstrate and validate persistently, largely through automation, instead of writing narrative descriptions of each NIST SP 800-53 control; grouped into ten themes such as IAM, change management and supply chain risk.",
+      "kto:domain": "public-sector-and-compliance",
+      "dcterms:created": "2026-11-24",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Key Security Indicators - FedRAMP Consolidated Rules for 2026 (providers)",
+          "dcterms:publisher": "FedRAMP (GSA)",
+          "schema:url": "https://www.fedramp.gov/2026/providers/20x/key-security-indicators/",
+          "kto:sourceType": "government"
+        },
+        {
+          "dcterms:title": "Key Security Indicators - FedRAMP Consolidated Rules for 2026 (20x Class C reference)",
+          "dcterms:publisher": "FedRAMP (GSA)",
+          "schema:url": "https://www.fedramp.gov/2026/reference/20x/c/key-security-indicators/",
+          "kto:sourceType": "government"
+        },
+        {
+          "dcterms:title": "FedRAMP Key Security Indicators (20x Phase One, release 25.05C)",
+          "dcterms:publisher": "FedRAMP (GSA)",
+          "schema:url": "https://www.fedramp.gov/docs/20x/phase1/key-security-indicators/",
+          "kto:sourceType": "government"
+        },
+        {
+          "dcterms:title": "RFC-0014 Phase Two Key Security Indicators",
+          "dcterms:publisher": "FedRAMP (GSA)",
+          "schema:url": "https://www.fedramp.gov/rfcs/0014/",
+          "kto:sourceType": "government"
+        },
+        {
+          "dcterms:title": "Deep dive into FedRAMP 20x Key Security Indicators: Decoding the 63 KSIs",
+          "dcterms:publisher": "Amazon Web Services (AWS Public Sector Blog)",
+          "schema:url": "https://aws.amazon.com/blogs/publicsector/deep-dive-into-fedramp-20x-key-security-indicators-decoding-the-63-ksis/",
+          "kto:sourceType": "partner"
+        }
+      ],
+      "kto:file": "articles/public-sector-and-compliance/key-security-indicators.md",
+      "skos:altLabel": [
+        "KSIs",
+        "FedRAMP KSIs",
+        "FedRAMP Key Security Indicators",
+        "20x Key Security Indicators"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:fedramp-20x"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:fedramp"
+        },
+        {
+          "@id": "kt:nist-sp-800-53"
+        },
+        {
+          "@id": "kt:multi-factor-authentication"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:fedramp-20x"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:continuous-monitoring"
+        }
+      ]
+    },
+    {
       "@id": "kt:management",
       "@type": "kto:ExternalConcept",
       "skos:prefLabel": "Management",
