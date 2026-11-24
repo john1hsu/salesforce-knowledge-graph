@@ -35756,6 +35756,89 @@
       ]
     },
     {
+      "@id": "kt:amazon-connect",
+      "@type": "kto:Product",
+      "skos:prefLabel": "Amazon Connect",
+      "skos:definition": "AWS's pay-as-you-go cloud contact center service (now documented as Amazon Connect Customer), which supplies the telephony, flows, routing and call analytics behind Salesforce Voice's Amazon Connect variants.",
+      "kto:domain": "integration",
+      "dcterms:created": "2026-11-24",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What is Connect Customer? (Amazon Connect Administrator Guide)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/connect/latest/adminguide/what-is-amazon-connect.html",
+          "kto:sourceType": "partner"
+        },
+        {
+          "dcterms:title": "Connect Customer feature overview (Amazon Connect Administrator Guide)",
+          "dcterms:publisher": "Amazon Web Services",
+          "schema:url": "https://docs.aws.amazon.com/connect/latest/adminguide/connect-feature-overview.html",
+          "kto:sourceType": "partner"
+        },
+        {
+          "dcterms:title": "Sample Flows for Amazon Connect (Salesforce Voice with Telephony Providers Implementation Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.voice_developer_guide.meta/voice_developer_guide/voice_contact_flows_sample_flows.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Set Up Call Transcription (Salesforce Voice with Telephony Providers Implementation Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.voice_developer_guide.meta/voice_developer_guide/voice_example_set_up_transcription.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Contact Record Sync with Amazon Connect (Salesforce Voice with Telephony Providers Implementation Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/service/voice-dev-guide/guide/voice-ctr-sync.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Prepare for a Partner Contact Center (Trailhead: Partner Contact Center Setup: Quick Look)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/service-cloud-voice-setup-quick-look/prepare-for-a-voice-implementation",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/integration/amazon-connect.md",
+      "skos:altLabel": [
+        "Amazon Connect Customer",
+        "Connect Customer",
+        "AWS contact center"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:software-as-a-service"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:omni-channel"
+        },
+        {
+          "@id": "kt:lightning-service-console"
+        },
+        {
+          "@id": "kt:aws-lambda"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:salesforce-voice"
+        },
+        {
+          "@id": "kt:telephony-integration-api"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:single-sign-on-saml"
+        }
+      ]
+    },
+    {
       "@id": "kt:apex-rest-services",
       "@type": "kto:Feature",
       "skos:prefLabel": "Apex REST Services",

@@ -6,7 +6,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 |---|---|
 | `kt:business-analyst` | `kt:fit-gap-analysis`, `kt:omnistudio-consultant-certification`, `kt:requirements-gathering`, `kt:user-acceptance-testing` |
 | `kt:work-orders` | `kt:field-service`, `kt:field-service-mobile-app`, `kt:service-appointments` |
-| `kt:amazon-connect` | `kt:salesforce-voice`, `kt:telephony-integration-api` |
 | `kt:scheduling-console` | `kt:dispatcher-console`, `kt:field-service-scheduling-policies` |
 | `kt:data-extensions` | `kt:automation-studio`, `kt:contact-builder` |
 | `kt:requirements-engineering` | `kt:non-functional-requirements`, `kt:requirements-gathering` |
@@ -24,11 +23,11 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:presence-configuration` | `kt:omni-channel` |
 | `kt:skills-based-routing` | `kt:omni-channel` |
 | `kt:agentexchange-go-to-market-app` | `kt:agentexchange` |
+| `kt:workspace-api` | `kt:lightning-service-console` |
 | `kt:entitlement-process-metadata` | `kt:entitlement-management` |
 | `kt:tableau-pulse` | `kt:tableau` |
 | `kt:einstein-discovery` | `kt:crm-analytics` |
 | `kt:saql` | `kt:crm-analytics` |
-| `kt:workspace-api` | `kt:lightning-service-console` |
 | `kt:apex-mocks` | `kt:apex-enterprise-patterns` |
 | `kt:lightning-out` | `kt:lightning-locker` |
 | `kt:salesforce-ecosystem` | `kt:salesforce-inc` |
@@ -40,9 +39,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:revenue-management-consultant-certification` | `kt:revenue-cloud` |
 | `kt:generative-ai` | `kt:retrieval-augmented-generation-in-salesforce` |
 | `kt:block-kit` | `kt:slack-platform` |
-| `kt:revenue-intelligence` | `kt:collaborative-forecasts` |
 | `kt:slack-api-rate-limits` | `kt:slack-platform` |
 | `kt:slack-workflow-builder` | `kt:slack-platform` |
+| `kt:revenue-intelligence` | `kt:collaborative-forecasts` |
 | `kt:batch-apex-error-event` | `kt:transaction-finalizers` |
 | `kt:invocable-methods` | `kt:apex-defined-types` |
 | `kt:actionable-relationship-center` | `kt:financial-services-cloud` |
@@ -77,6 +76,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:change-order-process` | `kt:statement-of-work` |
 | `kt:api-visualizer` | `kt:application-network` |
 | `kt:semantic-layer` | `kt:tableau-semantics` |
+| `kt:aws-lambda` | `kt:amazon-connect` |
 | `kt:technology-roadmaps` | `kt:capability-maps` |
 | `kt:value-streams` | `kt:capability-maps` |
 | `kt:partner-console` | `kt:license-management-app` |
@@ -87,21 +87,21 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:passkeys` | `kt:security-keys` |
 | `kt:webauthn` | `kt:security-keys` |
 | `kt:shared-activities` | `kt:activity-data-model` |
-| `kt:hyperforce-assistant` | `kt:instance-refresh-and-org-migration` |
 | `kt:operating-hours` | `kt:salesforce-scheduler` |
+| `kt:hyperforce-assistant` | `kt:instance-refresh-and-org-migration` |
 | `kt:data-cloud-code-extension` | `kt:vector-search-in-data-cloud` |
 | `kt:ui-api` | `kt:field-dependencies` |
 | `kt:agentforce-vibes` | `kt:agentforce-vibes-ide` |
 | `kt:mulesoft-for-flow-integration` | `kt:mulesoft-composer` |
-| `kt:channel-order-app` | `kt:partner-business-org` |
 | `kt:slds-linter` | `kt:salesforce-lightning-design-system` |
+| `kt:channel-order-app` | `kt:partner-business-org` |
 | `kt:apex-soap-web-services` | `kt:apex-rest-services` |
-| `kt:api-community-manager` | `kt:api-experience-hub` |
 | `kt:guest-user-sharing-rules` | `kt:share-groups` |
 | `kt:high-volume-experience-cloud-users` | `kt:share-groups` |
+| `kt:api-community-manager` | `kt:api-experience-hub` |
 | `kt:business-administration` | `kt:management` |
-| `kt:ldap` | `kt:delegated-authentication` |
 | `kt:tx-ramp` | `kt:govramp` |
+| `kt:ldap` | `kt:delegated-authentication` |
 | `kt:developer-console` | `kt:apex-logging-and-debug-logs` |
 | `kt:user-provisioning` | `kt:scim` |
 | `kt:document-ai` | `kt:unstructured-data-in-data-cloud` |
@@ -111,8 +111,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:enhanced-letterheads` | `kt:email-templates` |
 | `kt:experience-cloud-consultant-certification` | `kt:licensing-strategy` |
 | `kt:einstein-prediction-builder` | `kt:einstein-next-best-action` |
-| `kt:partner-relationship-management` | `kt:partner-community-licenses` |
 | `kt:iso-iec-29100` | `kt:iso-iec-27018` |
+| `kt:partner-relationship-management` | `kt:partner-community-licenses` |
 | `kt:agentforce-nonprofit-consultant-certification` | `kt:agentforce-nonprofit` |
 | `kt:nonprofit-success-pack` | `kt:agentforce-nonprofit` |
 | `kt:currency-type-object` | `kt:multiple-currencies` |

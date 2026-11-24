@@ -672,6 +672,30 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/ai-models> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/models-api> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/ai-models> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/ai-models> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/amazon-connect> <http://purl.org/dc/terms/created> "2026-11-24" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/amazon-connect> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Product> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/amazon-connect> <http://www.w3.org/2000/01/rdf-schema#label> "Amazon Connect" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/amazon-connect> <http://www.w3.org/2004/02/skos/core#altLabel> "AWS contact center" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/amazon-connect> <http://www.w3.org/2004/02/skos/core#altLabel> "Amazon Connect Customer" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/amazon-connect> <http://www.w3.org/2004/02/skos/core#altLabel> "Connect Customer" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/amazon-connect> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/software-as-a-service> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/amazon-connect> <http://www.w3.org/2004/02/skos/core#definition> "AWS's pay-as-you-go cloud contact center service (now documented as Amazon Connect Customer), which supplies the telephony, flows, routing and call analytics behind Salesforce Voice's Amazon Connect variants." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/amazon-connect> <http://www.w3.org/2004/02/skos/core#prefLabel> "Amazon Connect" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/amazon-connect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/aws-lambda> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/amazon-connect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-service-console> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/amazon-connect> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/omni-channel> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/amazon-connect> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/amazon-connect/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/amazon-connect> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/amazon-connect/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/amazon-connect> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/amazon-connect/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/amazon-connect> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/amazon-connect/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/amazon-connect> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/amazon-connect/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/amazon-connect> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/amazon-connect/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/amazon-connect> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/single-sign-on-saml> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/amazon-connect> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "integration" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/amazon-connect> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-voice> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/amazon-connect> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/telephony-integration-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/amazon-connect> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/amazon-connect> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/ant-migration-tool> <http://purl.org/dc/terms/created> "2026-11-19" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/ant-migration-tool> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Tool> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/ant-migration-tool> <http://www.w3.org/2000/01/rdf-schema#label> "Ant Migration Tool" .
@@ -15176,6 +15200,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/ai-models/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/ai-models/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/ai-models/s6> <https://schema.org/url> "https://developer.salesforce.com/blogs/2024/03/use-model-builder-to-integrate-databricks-models-with-salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/amazon-connect/s1> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/amazon-connect/s1> <http://purl.org/dc/terms/title> "What is Connect Customer? (Amazon Connect Administrator Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/amazon-connect/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/amazon-connect/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "partner" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/amazon-connect/s1> <https://schema.org/url> "https://docs.aws.amazon.com/connect/latest/adminguide/what-is-amazon-connect.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/amazon-connect/s2> <http://purl.org/dc/terms/publisher> "Amazon Web Services" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/amazon-connect/s2> <http://purl.org/dc/terms/title> "Connect Customer feature overview (Amazon Connect Administrator Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/amazon-connect/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/amazon-connect/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "partner" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/amazon-connect/s2> <https://schema.org/url> "https://docs.aws.amazon.com/connect/latest/adminguide/connect-feature-overview.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/amazon-connect/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/amazon-connect/s3> <http://purl.org/dc/terms/title> "Sample Flows for Amazon Connect (Salesforce Voice with Telephony Providers Implementation Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/amazon-connect/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/amazon-connect/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/amazon-connect/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.voice_developer_guide.meta/voice_developer_guide/voice_contact_flows_sample_flows.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/amazon-connect/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/amazon-connect/s4> <http://purl.org/dc/terms/title> "Set Up Call Transcription (Salesforce Voice with Telephony Providers Implementation Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/amazon-connect/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/amazon-connect/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/amazon-connect/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.voice_developer_guide.meta/voice_developer_guide/voice_example_set_up_transcription.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/amazon-connect/s5> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/amazon-connect/s5> <http://purl.org/dc/terms/title> "Contact Record Sync with Amazon Connect (Salesforce Voice with Telephony Providers Implementation Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/amazon-connect/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/amazon-connect/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/amazon-connect/s5> <https://schema.org/url> "https://developer.salesforce.com/docs/service/voice-dev-guide/guide/voice-ctr-sync.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/amazon-connect/s6> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/amazon-connect/s6> <http://purl.org/dc/terms/title> "Prepare for a Partner Contact Center (Trailhead: Partner Contact Center Setup: Quick Look)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/amazon-connect/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/amazon-connect/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/amazon-connect/s6> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/service-cloud-voice-setup-quick-look/prepare-for-a-voice-implementation" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/ant-migration-tool/s1> <http://purl.org/dc/terms/publisher> "Salesforce" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/ant-migration-tool/s1> <http://purl.org/dc/terms/title> "Ant Migration Tool (Salesforce Migration Guide)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/ant-migration-tool/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
