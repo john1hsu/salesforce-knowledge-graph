@@ -10494,6 +10494,98 @@
       ]
     },
     {
+      "@id": "kt:lightning-service-console",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Lightning Service Console",
+      "skos:definition": "The standard Lightning console app in Service Cloud (Agentforce Service) that gives service reps one screen for cases, customers and knowledge, using workspace tabs, subtabs, split view and a utility bar.",
+      "kto:domain": "clouds-and-products",
+      "dcterms:created": "2026-11-24",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Explore the Service Console (Trailhead unit)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/service-cloud-agent-experience/explore-the-service-console",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Set Up the Lightning Service Console (Trailhead project unit)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/en/content/learn/projects/set-up-the-service-console/set-up-the-lightning-service-console",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Get to Know Lightning Console (Salesforce Console Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api_console.meta/api_console/sforce_api_console_js_lex_intro.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Methods for Workspace Tabs and Subtabs in Lightning Experience",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api_console.meta/api_console/sforce_api_console_methods_lightning_workspaceAPI.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Explore the New Service Tools (Trailhead unit)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/lex_migration_whatsnew/lex_migration_whatsnew_service",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Learn How to Use the Preconfigured Console (Trailhead unit)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/service-cloud-essentials-features/learn-how-to-use-the-preconfigured-console",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/clouds-and-products/lightning-service-console.md",
+      "skos:altLabel": [
+        "Service Console",
+        "Salesforce Service Console app",
+        "Lightning console app for service",
+        "agent workspace"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:service-cloud"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:salesforce-voice"
+        },
+        {
+          "@id": "kt:dispatcher-console"
+        },
+        {
+          "@id": "kt:workspace-api"
+        },
+        {
+          "@id": "kt:lightning-web-components"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:service-cloud"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:omni-channel"
+        },
+        {
+          "@id": "kt:knowledge-base"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:lightning-app-builder"
+        }
+      ]
+    },
+    {
       "@id": "kt:loyalty-management",
       "@type": "kto:Product",
       "skos:prefLabel": "Loyalty Management",
