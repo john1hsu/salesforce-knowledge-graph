@@ -20330,6 +20330,97 @@
       ]
     },
     {
+      "@id": "kt:field-type-conversion",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Field Type Conversion",
+      "skos:definition": "The Setup action that changes the data type of an existing custom field (for example Text to Picklist), which Salesforce applies to every stored value in the background and which can truncate, remap or erase data depending on the source and target types.",
+      "kto:domain": "data-model",
+      "dcterms:created": "2026-11-24",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Considerations for Converting the Field Type of a Custom Field",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=sf.notes_on_changing_custom_field_types.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Convert a Text Field to a Picklist Field",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=platform.fields_converting_field_to_picklist.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Salesforce Error: 'Can't change the data type because it's referenced in the following Flows'",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=000387461&language=en_US&type=1",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Conversions That Generate a Change Event (Change Data Capture Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/change-data-capture/guide/cdc-field-conversion-single-event.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Conversions That Don't Generate Events (Change Data Capture Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.change_data_capture.meta/change_data_capture/cdc_field_conversion_no_events.htm",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/data-model/field-type-conversion.md",
+      "skos:altLabel": [
+        "change field type",
+        "Change Field Type",
+        "converting custom field data type",
+        "custom field type change"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:custom-fields"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:picklist-value-sets"
+        },
+        {
+          "@id": "kt:auto-number-fields"
+        },
+        {
+          "@id": "kt:rich-text-area-fields"
+        },
+        {
+          "@id": "kt:multi-select-picklists"
+        },
+        {
+          "@id": "kt:external-id-fields"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:lookup-vs-master-detail"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:change-data-capture"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:metadata-api"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:formula-fields"
+        }
+      ]
+    },
+    {
       "@id": "kt:formula-fields",
       "@type": "kto:Feature",
       "skos:prefLabel": "Formula Fields",

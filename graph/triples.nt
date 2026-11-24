@@ -5945,6 +5945,33 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/field-sets> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/tooling-api> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/field-sets> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/field-sets> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-type-conversion> <http://purl.org/dc/terms/created> "2026-11-24" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-type-conversion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-type-conversion> <http://www.w3.org/2000/01/rdf-schema#label> "Field Type Conversion" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-type-conversion> <http://www.w3.org/2004/02/skos/core#altLabel> "Change Field Type" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-type-conversion> <http://www.w3.org/2004/02/skos/core#altLabel> "change field type" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-type-conversion> <http://www.w3.org/2004/02/skos/core#altLabel> "converting custom field data type" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-type-conversion> <http://www.w3.org/2004/02/skos/core#altLabel> "custom field type change" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-type-conversion> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-fields> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-type-conversion> <http://www.w3.org/2004/02/skos/core#definition> "The Setup action that changes the data type of an existing custom field (for example Text to Picklist), which Salesforce applies to every stored value in the background and which can truncate, remap or erase data depending on the source and target types." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-type-conversion> <http://www.w3.org/2004/02/skos/core#prefLabel> "Field Type Conversion" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-type-conversion> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/auto-number-fields> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-type-conversion> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/external-id-fields> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-type-conversion> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/multi-select-picklists> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-type-conversion> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/picklist-value-sets> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-type-conversion> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/rich-text-area-fields> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-type-conversion> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-type-conversion/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-type-conversion> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-type-conversion/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-type-conversion> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-type-conversion/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-type-conversion> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-type-conversion/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-type-conversion> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-type-conversion/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-type-conversion> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-type-conversion> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#consumedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/change-data-capture> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-type-conversion> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#contrastsWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/formula-fields> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-type-conversion> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/lookup-vs-master-detail> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-type-conversion> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "data-model" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-type-conversion> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/field-type-conversion> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/financial-services-cloud> <http://purl.org/dc/terms/created> "2026-11-12" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/financial-services-cloud> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Product> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/financial-services-cloud> <http://www.w3.org/2000/01/rdf-schema#label> "Financial Services Cloud" .
@@ -20307,6 +20334,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-sets/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-sets/s7> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-sets/s7> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.api_tooling.meta/api_tooling/tooling_api_objects_fieldset.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-type-conversion/s1> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-type-conversion/s1> <http://purl.org/dc/terms/title> "Considerations for Converting the Field Type of a Custom Field" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-type-conversion/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-type-conversion/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-type-conversion/s1> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=sf.notes_on_changing_custom_field_types.htm&language=en_US&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-type-conversion/s2> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-type-conversion/s2> <http://purl.org/dc/terms/title> "Convert a Text Field to a Picklist Field" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-type-conversion/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-type-conversion/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-type-conversion/s2> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=platform.fields_converting_field_to_picklist.htm&language=en_US&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-type-conversion/s3> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-type-conversion/s3> <http://purl.org/dc/terms/title> "Salesforce Error: 'Can't change the data type because it's referenced in the following Flows'" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-type-conversion/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-type-conversion/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-type-conversion/s3> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=000387461&language=en_US&type=1" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-type-conversion/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-type-conversion/s4> <http://purl.org/dc/terms/title> "Conversions That Generate a Change Event (Change Data Capture Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-type-conversion/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-type-conversion/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-type-conversion/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/change-data-capture/guide/cdc-field-conversion-single-event.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-type-conversion/s5> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-type-conversion/s5> <http://purl.org/dc/terms/title> "Conversions That Don't Generate Events (Change Data Capture Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-type-conversion/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-type-conversion/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-type-conversion/s5> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.change_data_capture.meta/change_data_capture/cdc_field_conversion_no_events.htm" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/financial-services-cloud/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/financial-services-cloud/s1> <http://purl.org/dc/terms/title> "Meet Financial Services Cloud (Financial Services Cloud Basics)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/financial-services-cloud/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
