@@ -31759,6 +31759,102 @@
       ]
     },
     {
+      "@id": "kt:grant-login-access",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Grant Login Access",
+      "skos:definition": "The Salesforce mechanism that lets an administrator, Salesforce support or a managed-package publisher sign in as a specific user to troubleshoot, either because that user granted login access or because the org lets administrators log in as any user.",
+      "kto:domain": "identity",
+      "dcterms:created": "2026-11-24",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Login Access",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=sf.identity_login_access.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Control Login Access Policies",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=sf.controlling_login_access.htm&amp=&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Enable the 'Administrators Can Log in as Any User' Feature",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=000386710&language=en_US&type=1",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "How to Log In as Another User in Salesforce (Admin Login Access)",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=004333094&language=en_US&type=1",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Request Login Access from Subscribers",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/pkg1-dev/guide/lma-requesting-login-access.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Collaborate Effectively with Your Salesforce Admin",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/lex_salesforce_basics/lex_salesforce_basics_your_admin",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/identity/grant-login-access.md",
+      "skos:altLabel": [
+        "Log In As",
+        "Login As another user",
+        "Grant Account Login Access",
+        "Login Access Policies",
+        "Administrators Can Log in as Any User"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:user-management"
+        },
+        {
+          "@id": "kt:salesforce-identity"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:setup-audit-trail"
+        },
+        {
+          "@id": "kt:multi-factor-authentication"
+        },
+        {
+          "@id": "kt:login-flows"
+        },
+        {
+          "@id": "kt:profiles"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:session-security-levels"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:license-management-app"
+        },
+        {
+          "@id": "kt:first-generation-managed-packages"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:salesforce-as-identity-provider"
+        }
+      ]
+    },
+    {
       "@id": "kt:headless-identity",
       "@type": "kto:Feature",
       "skos:prefLabel": "Headless Identity",

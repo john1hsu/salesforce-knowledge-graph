@@ -6631,6 +6631,35 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/govramp> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/continuous-monitoring> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/govramp> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/govramp> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/grant-login-access> <http://purl.org/dc/terms/created> "2026-11-24" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/grant-login-access> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/grant-login-access> <http://www.w3.org/2000/01/rdf-schema#label> "Grant Login Access" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/grant-login-access> <http://www.w3.org/2004/02/skos/core#altLabel> "Administrators Can Log in as Any User" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/grant-login-access> <http://www.w3.org/2004/02/skos/core#altLabel> "Grant Account Login Access" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/grant-login-access> <http://www.w3.org/2004/02/skos/core#altLabel> "Log In As" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/grant-login-access> <http://www.w3.org/2004/02/skos/core#altLabel> "Login Access Policies" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/grant-login-access> <http://www.w3.org/2004/02/skos/core#altLabel> "Login As another user" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/grant-login-access> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-identity> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/grant-login-access> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/user-management> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/grant-login-access> <http://www.w3.org/2004/02/skos/core#definition> "The Salesforce mechanism that lets an administrator, Salesforce support or a managed-package publisher sign in as a specific user to troubleshoot, either because that user granted login access or because the org lets administrators log in as any user." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/grant-login-access> <http://www.w3.org/2004/02/skos/core#prefLabel> "Grant Login Access" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/grant-login-access> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/login-flows> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/grant-login-access> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/multi-factor-authentication> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/grant-login-access> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/profiles> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/grant-login-access> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/setup-audit-trail> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/grant-login-access> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/grant-login-access/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/grant-login-access> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/grant-login-access/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/grant-login-access> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/grant-login-access/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/grant-login-access> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/grant-login-access/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/grant-login-access> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/grant-login-access/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/grant-login-access> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/grant-login-access/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/grant-login-access> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#consumedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/first-generation-managed-packages> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/grant-login-access> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#consumedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/license-management-app> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/grant-login-access> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#contrastsWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-as-identity-provider> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/grant-login-access> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/session-security-levels> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/grant-login-access> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "identity" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/grant-login-access> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/grant-login-access> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/graphql-api> <http://purl.org/dc/terms/created> "2026-11-08" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/graphql-api> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#API> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/graphql-api> <http://www.w3.org/2000/01/rdf-schema#label> "GraphQL API" .
@@ -20832,6 +20861,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/govramp/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/govramp/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/govramp/s6> <https://schema.org/url> "https://compliance.salesforce.com/en/services/salesforce-government-cloud-plus-hyperforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/grant-login-access/s1> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/grant-login-access/s1> <http://purl.org/dc/terms/title> "Login Access" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/grant-login-access/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/grant-login-access/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/grant-login-access/s1> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=sf.identity_login_access.htm&language=en_US&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/grant-login-access/s2> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/grant-login-access/s2> <http://purl.org/dc/terms/title> "Control Login Access Policies" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/grant-login-access/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/grant-login-access/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/grant-login-access/s2> <https://schema.org/url> "https://help.salesforce.com/s/articleView?language=en_US&id=sf.controlling_login_access.htm&amp=&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/grant-login-access/s3> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/grant-login-access/s3> <http://purl.org/dc/terms/title> "Enable the 'Administrators Can Log in as Any User' Feature" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/grant-login-access/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/grant-login-access/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/grant-login-access/s3> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=000386710&language=en_US&type=1" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/grant-login-access/s4> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/grant-login-access/s4> <http://purl.org/dc/terms/title> "How to Log In as Another User in Salesforce (Admin Login Access)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/grant-login-access/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/grant-login-access/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/grant-login-access/s4> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=004333094&language=en_US&type=1" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/grant-login-access/s5> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/grant-login-access/s5> <http://purl.org/dc/terms/title> "Request Login Access from Subscribers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/grant-login-access/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/grant-login-access/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/grant-login-access/s5> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/pkg1-dev/guide/lma-requesting-login-access.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/grant-login-access/s6> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/grant-login-access/s6> <http://purl.org/dc/terms/title> "Collaborate Effectively with Your Salesforce Admin" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/grant-login-access/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/grant-login-access/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/grant-login-access/s6> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/lex_salesforce_basics/lex_salesforce_basics_your_admin" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/graphql-api/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/graphql-api/s1> <http://purl.org/dc/terms/title> "What is GraphQL API? (GraphQL API Developer Guide)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/graphql-api/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
