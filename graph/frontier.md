@@ -48,6 +48,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:batch-apex-error-event` | `kt:transaction-finalizers` |
 | `kt:actionable-relationship-center` | `kt:financial-services-cloud` |
 | `kt:backup-and-recover-next` | `kt:backup-and-recover` |
+| `kt:key-security-indicators` | `kt:fedramp-20x` |
 | `kt:constraint-modeling-language` | `kt:product-configurator` |
 | `kt:product-catalog-management` | `kt:product-configurator` |
 | `kt:marketing-cloud-sql` | `kt:automation-studio` |
@@ -91,9 +92,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:hyperforce-assistant` | `kt:instance-refresh-and-org-migration` |
 | `kt:data-cloud-code-extension` | `kt:vector-search-in-data-cloud` |
 | `kt:agentforce-vibes` | `kt:agentforce-vibes-ide` |
+| `kt:operating-hours` | `kt:salesforce-scheduler` |
 | `kt:shared-activities` | `kt:activity-data-model` |
 | `kt:mulesoft-for-flow-integration` | `kt:mulesoft-composer` |
-| `kt:operating-hours` | `kt:salesforce-scheduler` |
 | `kt:ui-api` | `kt:field-dependencies` |
 | `kt:channel-order-app` | `kt:partner-business-org` |
 | `kt:slds-linter` | `kt:salesforce-lightning-design-system` |
@@ -103,6 +104,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:high-volume-experience-cloud-users` | `kt:share-groups` |
 | `kt:api-community-manager` | `kt:api-experience-hub` |
 | `kt:business-administration` | `kt:management` |
+| `kt:tx-ramp` | `kt:govramp` |
 | `kt:ldap` | `kt:delegated-authentication` |
 | `kt:developer-console` | `kt:apex-logging-and-debug-logs` |
 | `kt:document-ai` | `kt:unstructured-data-in-data-cloud` |
@@ -119,8 +121,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:agentforce-nonprofit-consultant-certification` | `kt:agentforce-nonprofit` |
 | `kt:nonprofit-success-pack` | `kt:agentforce-nonprofit` |
 | `kt:currency-type-object` | `kt:multiple-currencies` |
-| `kt:enterprise-architecture` | `kt:togaf` |
 | `kt:digital-accessibility` | `kt:section-508-accessibility` |
+| `kt:enterprise-architecture` | `kt:togaf` |
 | `kt:wcag` | `kt:section-508-accessibility` |
 | `kt:federal-acquisition-regulation` | `kt:performance-work-statement` |
 | `kt:quality-assurance-surveillance-plan` | `kt:performance-work-statement` |
@@ -134,7 +136,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:twelve-factor-app` | `kt:heroku-architect-certification` |
 | `kt:salesforce-maps` | `kt:geolocation-fields` |
 | `kt:signup-request-api` | `kt:trialforce` |
-| `kt:tx-ramp` | `kt:govramp` |
 | `kt:agent-to-agent-protocol` | `kt:agentforce-architecture-patterns` |
 | `kt:aws-clean-rooms` | `kt:data-360-clean-rooms` |
 | `kt:consent-data-model` | `kt:consent-management-in-data-cloud` |

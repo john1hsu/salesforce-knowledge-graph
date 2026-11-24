@@ -11,7 +11,7 @@ summary: >-
 release: "Winter '27"
 status: concept
 broader: [kt:security-compliance-frameworks]
-related: [kt:government-cloud-plus, kt:public-sector-solutions, kt:il4-and-il5, kt:data-residency]
+related: [kt:government-cloud-plus, kt:public-sector-solutions, kt:il4-and-il5, kt:data-residency, kt:fedramp-20x]
 relations:
   - {predicate: hasPart, object: kt:fedramp-high}
   - {predicate: dependsOn, object: kt:fips-199}

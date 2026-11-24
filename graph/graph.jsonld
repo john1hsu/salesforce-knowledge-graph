@@ -44664,6 +44664,85 @@
       ]
     },
     {
+      "@id": "kt:fedramp-20x",
+      "@type": "kto:ExternalConcept",
+      "skos:prefLabel": "FedRAMP 20x",
+      "skos:definition": "GSA's cloud-native, automation-first path to FedRAMP Certification, announced in March 2025, that replaces document-heavy control narratives with machine-readable Key Security Indicators validated continuously; it runs alongside the legacy Rev5 path and opened Classes A-C under the Consolidated Rules for 2026.",
+      "kto:domain": "public-sector-and-compliance",
+      "dcterms:created": "2026-11-24",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "GSA announces FedRAMP 20x",
+          "dcterms:publisher": "US General Services Administration",
+          "schema:url": "https://www.gsa.gov/about-us/newsroom/news-releases/gsa-announces-fedramp-20x-03242025",
+          "kto:sourceType": "government"
+        },
+        {
+          "dcterms:title": "FedRAMP 20x",
+          "dcterms:publisher": "FedRAMP (GSA)",
+          "schema:url": "https://www.fedramp.gov/20x",
+          "kto:sourceType": "government"
+        },
+        {
+          "dcterms:title": "Key Security Indicators - FedRAMP Consolidated Rules for 2026",
+          "dcterms:publisher": "FedRAMP (GSA)",
+          "schema:url": "https://fedramp.gov/2026/providers/20x/key-security-indicators/",
+          "kto:sourceType": "government"
+        },
+        {
+          "dcterms:title": "FedRAMP Certification - FedRAMP Consolidated Rules for 2026",
+          "dcterms:publisher": "FedRAMP (GSA)",
+          "schema:url": "https://www.fedramp.gov/2026/reference/fedramp-certification/",
+          "kto:sourceType": "government"
+        },
+        {
+          "dcterms:title": "FedRAMP Moderate (Compliance category page)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://compliance.salesforce.com/en/fedramp-moderate",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/public-sector-and-compliance/fedramp-20x.md",
+      "skos:altLabel": [
+        "FedRAMP 20x Program",
+        "20x certification path",
+        "FedRAMP 20x Certification"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:fedramp"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:govramp"
+        },
+        {
+          "@id": "kt:soc-2"
+        },
+        {
+          "@id": "kt:authority-to-operate"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:continuous-monitoring"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:key-security-indicators"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:fedramp-high"
+        }
+      ]
+    },
+    {
       "@id": "kt:fedramp-high",
       "@type": "kto:ExternalConcept",
       "skos:prefLabel": "FedRAMP High",
@@ -44817,6 +44896,9 @@
         },
         {
           "@id": "kt:data-residency"
+        },
+        {
+          "@id": "kt:fedramp-20x"
         }
       ],
       "kto:hasPart": [
