@@ -22554,6 +22554,81 @@
       ]
     },
     {
+      "@id": "kt:apex-json-serialization",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Apex JSON Serialization",
+      "skos:definition": "Apex's built-in JSON support: the System.JSON class for round-trip serialization and deserialization of Apex objects and sObjects, plus JSONGenerator for writing and JSONParser/JSONToken for token-by-token reading of JSON content such as callout responses.",
+      "kto:domain": "development",
+      "dcterms:created": "2026-11-24",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "JSON Class (Apex Reference Guide)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_class_System_Json.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "JSON Support (Apex Developer Guide)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apex/apex_methods_system_json_overview.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "JSONParser Class (Apex Reference Guide)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_class_System_JsonParser.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "RFC 8259: The JavaScript Object Notation (JSON) Data Interchange Format",
+          "dcterms:publisher": "IETF",
+          "schema:url": "https://www.rfc-editor.org/rfc/rfc8259",
+          "kto:sourceType": "standards-body"
+        }
+      ],
+      "kto:file": "articles/development/apex-json-serialization.md",
+      "skos:altLabel": [
+        "System.JSON class",
+        "JSON.serialize",
+        "JSON.deserialize",
+        "JSON.deserializeUntyped",
+        "JSONGenerator",
+        "JSONParser",
+        "Apex JSON support"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:apex"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:apex-rest-services"
+        },
+        {
+          "@id": "kt:apex-defined-types"
+        },
+        {
+          "@id": "kt:custom-exceptions"
+        },
+        {
+          "@id": "kt:visualforce"
+        }
+      ],
+      "kto:implements": [
+        {
+          "@id": "kt:json"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:apex-callouts"
+        }
+      ]
+    },
+    {
       "@id": "kt:apex-logging-and-debug-logs",
       "@type": "kto:Feature",
       "skos:prefLabel": "Apex Logging and Debug Logs",
