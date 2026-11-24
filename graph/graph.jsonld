@@ -48002,6 +48002,100 @@
       ]
     },
     {
+      "@id": "kt:account-teams",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Account Teams",
+      "skos:definition": "Sales Cloud feature that lists the users who jointly cover an account, each with a team role and separate access levels for the account and its contacts, opportunities and cases, granted through \"Team\" rows in the account share table.",
+      "kto:domain": "security-and-sharing",
+      "dcterms:created": "2026-11-24",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "AccountShare (Object Reference for the Salesforce Platform)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/object_reference/sforce_api_objects_accountshare.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "UserAccountTeamMember (Object Reference for the Salesforce Platform)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/object_reference/sforce_api_objects_useraccountteammember.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Set Up Account Teams (Protect Your Data in Salesforce)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/projects/protect-your-data-in-salesforce/set-up-account-teams",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Sell as a Team (Sales Team Collaboration)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/sales-team-collaboration/sell-as-a-team",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/security-and-sharing/account-teams.md",
+      "skos:altLabel": [
+        "Account Team",
+        "AccountTeamMember",
+        "Account Team Members",
+        "Default Account Team",
+        "UserAccountTeamMember"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-sharing-model"
+        },
+        {
+          "@id": "kt:sales-cloud"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:opportunity-teams"
+        },
+        {
+          "@id": "kt:organization-wide-defaults"
+        },
+        {
+          "@id": "kt:implicit-sharing"
+        },
+        {
+          "@id": "kt:enterprise-territory-management"
+        },
+        {
+          "@id": "kt:sharing-rules"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:sales-cloud"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:organization-wide-defaults"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:opportunity-teams"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:enterprise-territory-management"
+        }
+      ],
+      "kto:queriedWith": [
+        {
+          "@id": "kt:soql"
+        }
+      ]
+    },
+    {
       "@id": "kt:apex-managed-sharing",
       "@type": "kto:SecurityControl",
       "skos:prefLabel": "Apex Managed Sharing",
