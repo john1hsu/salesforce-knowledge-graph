@@ -2530,6 +2530,80 @@
       ]
     },
     {
+      "@id": "kt:rough-order-of-magnitude-estimate",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Rough Order of Magnitude Estimate",
+      "skos:definition": "A quick, early, range-based estimate of the services, people and cost a Salesforce implementation is likely to need, produced after discovery and before a proposal or statement of work. It sets expectations and supports go/no-go and option comparisons, but it is never a budget-quality or contractual figure.",
+      "kto:domain": "architecture-practice",
+      "dcterms:created": "2026-11-24",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Understand Statements of Work (Statement of Work Best Practices)",
+          "dcterms:publisher": "Salesforce Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/sow-best-practices/understand-a-sow",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Cost Estimating and Assessment Guide: Types of Cost Estimates (GAO-20-195G)",
+          "dcterms:publisher": "U.S. Government Accountability Office",
+          "schema:url": "https://gaoinnovations.gov/cost-guide/types-of-cost-estimates.html",
+          "kto:sourceType": "government"
+        },
+        {
+          "dcterms:title": "Define a Feasible Scope for Your Pro Bono Project (Pro Bono Project Management)",
+          "dcterms:publisher": "Salesforce Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/pro-bono-project-management/define-a-feasible-scope-for-your-pro-bono-project",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/architecture-practice/rough-order-of-magnitude-estimate.md",
+      "skos:altLabel": [
+        "ROM",
+        "ROM estimate",
+        "rough order of magnitude",
+        "ballpark estimate"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:project-estimation"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:statement-of-work"
+        },
+        {
+          "@id": "kt:requirements-gathering"
+        },
+        {
+          "@id": "kt:total-cost-of-ownership"
+        },
+        {
+          "@id": "kt:proof-of-concept"
+        },
+        {
+          "@id": "kt:risk-and-assumption-logs"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:requirements-gathering"
+        }
+      ],
+      "kto:enables": [
+        {
+          "@id": "kt:build-vs-buy-decisions"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:life-cycle-cost-estimate"
+        }
+      ]
+    },
+    {
       "@id": "kt:salesforce-architect",
       "@type": "kto:Role",
       "skos:prefLabel": "Salesforce Architect",
@@ -3426,6 +3500,9 @@
         },
         {
           "@id": "kt:data-migration-strategy"
+        },
+        {
+          "@id": "kt:rough-order-of-magnitude-estimate"
         }
       ],
       "kto:dependsOn": [

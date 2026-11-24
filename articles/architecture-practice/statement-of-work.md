@@ -11,7 +11,7 @@ summary: >-
 release: "Winter '27"
 status: concept
 broader: [kt:salesforce-governance]
-related: [kt:requirements-gathering, kt:solution-design-document, kt:fit-gap-analysis, kt:risk-and-assumption-logs, kt:user-acceptance-testing, kt:data-migration-strategy]
+related: [kt:requirements-gathering, kt:solution-design-document, kt:fit-gap-analysis, kt:risk-and-assumption-logs, kt:user-acceptance-testing, kt:data-migration-strategy, kt:rough-order-of-magnitude-estimate]
 relations:
   - {predicate: dependsOn, object: kt:requirements-gathering}
   - {predicate: hasPart, object: kt:change-order-process}
