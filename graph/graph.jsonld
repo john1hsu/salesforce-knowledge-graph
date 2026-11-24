@@ -50359,6 +50359,100 @@
       ]
     },
     {
+      "@id": "kt:high-volume-experience-cloud-users",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "High-Volume Experience Cloud Users",
+      "skos:definition": "The class of roleless, limited-access Experience Cloud users (Customer Community, High Volume Customer Portal, Authenticated Website and External Apps licenses) built for sites with thousands to millions of members, which bypass the role-based sharing model and instead reach records through account and contact lookups, sharing sets and share groups.",
+      "kto:domain": "security-and-sharing",
+      "dcterms:created": "2026-11-24",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "About High-Volume Community or Site Users",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=platform.networks_about_hvpu.htm&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Platform Sharing Architecture",
+          "dcterms:publisher": "Salesforce Architects",
+          "schema:url": "https://architect.salesforce.com/fundamentals/platform-sharing-architecture",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Sharing Records with High-Volume Portals and Sites (Share CRM Data with Your Partners and Customers project)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/projects/communities_share_crm_data/external_user_sharing",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Salesforce Communities Licenses",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2014/02/salesforce-communities-licenses",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/security-and-sharing/high-volume-experience-cloud-users.md",
+      "skos:altLabel": [
+        "high-volume users",
+        "high-volume site users",
+        "high-volume community users",
+        "high-volume portal users",
+        "HVPU",
+        "high-volume community or site users"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-sharing-model"
+        },
+        {
+          "@id": "kt:experience-cloud"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:customer-community-licenses"
+        },
+        {
+          "@id": "kt:sharing-sets"
+        },
+        {
+          "@id": "kt:share-groups"
+        },
+        {
+          "@id": "kt:implicit-sharing"
+        },
+        {
+          "@id": "kt:organization-wide-defaults"
+        },
+        {
+          "@id": "kt:partner-community-licenses"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:sharing-sets"
+        },
+        {
+          "@id": "kt:share-groups"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:role-hierarchy"
+        },
+        {
+          "@id": "kt:sharing-rules"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:experience-cloud"
+        }
+      ]
+    },
+    {
       "@id": "kt:implicit-sharing",
       "@type": "kto:Concept",
       "skos:prefLabel": "Implicit Sharing",
