@@ -5207,6 +5207,93 @@
       ]
     },
     {
+      "@id": "kt:custom-property-editors",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Custom Property Editors",
+      "skos:definition": "Lightning web components that replace Flow Builder's standard input form when an admin configures a custom flow screen component or an Apex invocable action; they are registered with a configurationEditor attribute or modifier and talk to Flow Builder through inputVariables, builderContext, genericTypeMappings, validate() and configuration_editor_* events.",
+      "kto:domain": "automation",
+      "dcterms:created": "2026-11-24",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Custom Property Editor JavaScript Interface",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/lwc/guide/use-flow-custom-property-editor-interface.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Customize Action and Screen Component UI in Flow Builder",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/lwc/guide/use-flow-custom-property-editor.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Example: Custom Property Editor for an Invocable Action",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/lwc/guide/use-flow-custom-property-editor-action-example.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Example: Custom Property Editor for a Screen Component",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/lwc/guide/use-flow-custom-property-editor-lwc-example.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Example: Generic SObject Input for Invocable Actions",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/lwc/guide/use-flow-custom-property-editor-sobject-action-example.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "InvocableMethod Annotation (Apex Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/api/apex_classes_annotation_InvocableMethod.htm",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/automation/custom-property-editors.md",
+      "skos:altLabel": [
+        "custom property editor",
+        "CPE",
+        "Flow Builder custom property editor",
+        "configurationEditor"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:flow-builder"
+        },
+        {
+          "@id": "kt:lightning-web-components"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:screen-flow"
+        },
+        {
+          "@id": "kt:apex-defined-types"
+        },
+        {
+          "@id": "kt:invocable-actions-api"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:flow-builder"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:custom-flow-screen-components"
+        },
+        {
+          "@id": "kt:invocable-apex-actions"
+        }
+      ]
+    },
+    {
       "@id": "kt:data-table-screen-component",
       "@type": "kto:Feature",
       "skos:prefLabel": "Data Table Screen Component",
@@ -7328,6 +7415,9 @@
         },
         {
           "@id": "kt:second-generation-managed-packages"
+        },
+        {
+          "@id": "kt:custom-property-editors"
         }
       ],
       "kto:consumedBy": [

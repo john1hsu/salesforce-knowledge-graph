@@ -11,7 +11,7 @@ summary: >-
 release: "Winter '27"
 status: current
 broader: [kt:process-automation, kt:apex]
-related: [kt:bulkification, kt:second-generation-managed-packages]
+related: [kt:bulkification, kt:second-generation-managed-packages, kt:custom-property-editors]
 relations:
   - {predicate: consumedBy, object: kt:flow-builder}
   - {predicate: consumedBy, object: kt:agent-actions}
