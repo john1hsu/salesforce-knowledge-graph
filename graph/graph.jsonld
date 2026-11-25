@@ -30389,6 +30389,94 @@
       ]
     },
     {
+      "@id": "kt:partner-console",
+      "@type": "kto:Tool",
+      "skos:prefLabel": "Partner Console",
+      "skos:definition": "The business management site inside the Salesforce Partner Community where ISV partners and consultants connect their orgs and packages, register packages with the License Management App, start security reviews, build and publish AgentExchange listings, and track listing analytics.",
+      "kto:domain": "devops-and-alm",
+      "dcterms:created": "2026-11-25",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Access the AppExchange Partner Console (ISVforce Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.packagingGuide.meta/packageGuide/appexchange_launch_partner_console.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Explore the AgentExchange Partner Console Features",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/appexchange-partners-publishing/appexchange-partner-console",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Connect and Select Your Listing Type for AgentExchange",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/appexchange-partners-publishing/appexchange-technologies",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Get to Know AgentExchange NextGen Publishing",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/appexchange_publishing_quick_look/get-to-know-appexchange-nextgen-publishing",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "The AppExchange Partner Console Guide",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/en-us/wp-content/uploads/sites/4/documents/partners/readiness/the_appexchange_partner_console_guide.pdf",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/devops-and-alm/partner-console.md",
+      "skos:altLabel": [
+        "AgentExchange Partner Console",
+        "AppExchange Partner Console",
+        "Salesforce Partner Console"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:agentexchange"
+        },
+        {
+          "@id": "kt:application-lifecycle-management"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:agentexchange-go-to-market-app"
+        },
+        {
+          "@id": "kt:second-generation-managed-packages"
+        },
+        {
+          "@id": "kt:first-generation-managed-packages"
+        },
+        {
+          "@id": "kt:trialforce"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:license-management-app"
+        },
+        {
+          "@id": "kt:dev-hub"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:appexchange-security-review"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:partner-business-org"
+        }
+      ]
+    },
+    {
       "@id": "kt:permission-set-led-deployment",
       "@type": "kto:Pattern",
       "skos:prefLabel": "Permission Set-Led Deployment",

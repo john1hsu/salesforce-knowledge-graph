@@ -10,9 +10,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:requirements-engineering` | `kt:non-functional-requirements`, `kt:requirements-gathering` |
 | `kt:user-stories` | `kt:fit-gap-analysis`, `kt:requirements-gathering` |
 | `kt:go-live-readiness-assessment` | `kt:cutover-plan`, `kt:data-reconciliation` |
-| `kt:partner-console` | `kt:agentexchange-go-to-market-app`, `kt:license-management-app` |
-| `kt:business-architecture` | `kt:capability-maps`, `kt:togaf` |
 | `kt:channel-order-app` | `kt:agentexchange-go-to-market-app`, `kt:partner-business-org` |
+| `kt:business-architecture` | `kt:capability-maps`, `kt:togaf` |
 | `kt:enterprise-architecture` | `kt:architecture-roadmaps`, `kt:togaf` |
 | `kt:service-setup-assistant` | `kt:service-cloud` |
 | `kt:salesforce-ecosystem-roles` | `kt:salesforce-architect` |
@@ -56,17 +55,17 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:in-app-guidance` | `kt:change-management-and-adoption` |
 | `kt:data-processing-engine` | `kt:loyalty-management` |
 | `kt:reports-and-dashboards` | `kt:salesforce-analytics` |
+| `kt:subscriber-support-console` | `kt:license-management-app` |
 | `kt:b2b-commerce` | `kt:commerce-cloud` |
 | `kt:b2c-commerce` | `kt:commerce-cloud` |
 | `kt:salesforce-order-management` | `kt:commerce-cloud` |
-| `kt:computer-science` | `kt:distributed-computing` |
-| `kt:platform-cache-partitions` | `kt:platform-cache` |
 | `kt:model-context-protocol` | `kt:model-context-protocol-in-agentforce` |
 | `kt:salesforce-hosted-mcp-servers` | `kt:model-context-protocol-in-agentforce` |
+| `kt:computer-science` | `kt:distributed-computing` |
+| `kt:platform-cache-partitions` | `kt:platform-cache` |
 | `kt:change-order-process` | `kt:statement-of-work` |
 | `kt:fhir` | `kt:health-cloud` |
 | `kt:utilization-management` | `kt:health-cloud` |
-| `kt:subscriber-support-console` | `kt:license-management-app` |
 | `kt:data-cloud-query-api` | `kt:data-graphs` |
 | `kt:opportunity-products` | `kt:price-books` |
 | `kt:value-streams` | `kt:capability-maps` |
@@ -84,8 +83,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:shared-activities` | `kt:activity-data-model` |
 | `kt:hyperforce-assistant` | `kt:instance-refresh-and-org-migration` |
 | `kt:data-cloud-code-extension` | `kt:vector-search-in-data-cloud` |
-| `kt:agentforce-vibes` | `kt:agentforce-vibes-ide` |
 | `kt:ui-api` | `kt:field-dependencies` |
+| `kt:agentforce-vibes` | `kt:agentforce-vibes-ide` |
 | `kt:mulesoft-for-flow-integration` | `kt:mulesoft-composer` |
 | `kt:guest-user-sharing-rules` | `kt:share-groups` |
 | `kt:slds-linter` | `kt:salesforce-lightning-design-system` |
@@ -97,32 +96,32 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:business-administration` | `kt:management` |
 | `kt:developer-console` | `kt:apex-logging-and-debug-logs` |
 | `kt:currency-type-object` | `kt:multiple-currencies` |
-| `kt:destructive-changes` | `kt:rollback-plan` |
 | `kt:user-provisioning` | `kt:scim` |
+| `kt:destructive-changes` | `kt:rollback-plan` |
 | `kt:document-ai` | `kt:unstructured-data-in-data-cloud` |
 | `kt:hmac-based-one-time-password` | `kt:time-based-one-time-password` |
 | `kt:experience-cloud-consultant-certification` | `kt:licensing-strategy` |
 | `kt:organization-wide-email-addresses` | `kt:email-alerts` |
+| `kt:signup-request-api` | `kt:trialforce` |
 | `kt:enhanced-letterheads` | `kt:email-templates` |
 | `kt:custom-labels` | `kt:flow-formula-resources` |
 | `kt:einstein-prediction-builder` | `kt:einstein-next-best-action` |
+| `kt:iso-iec-29100` | `kt:iso-iec-27018` |
 | `kt:agentforce-nonprofit-consultant-certification` | `kt:agentforce-nonprofit` |
 | `kt:nonprofit-success-pack` | `kt:agentforce-nonprofit` |
-| `kt:iso-iec-29100` | `kt:iso-iec-27018` |
+| `kt:digital-accessibility` | `kt:section-508-accessibility` |
 | `kt:federal-acquisition-regulation` | `kt:performance-work-statement` |
 | `kt:quality-assurance-surveillance-plan` | `kt:performance-work-statement` |
 | `kt:statement-of-objectives` | `kt:performance-work-statement` |
+| `kt:wcag` | `kt:section-508-accessibility` |
 | `kt:life-cycle-cost-estimate` | `kt:rough-order-of-magnitude-estimate` |
 | `kt:project-estimation` | `kt:rough-order-of-magnitude-estimate` |
-| `kt:digital-accessibility` | `kt:section-508-accessibility` |
-| `kt:wcag` | `kt:section-508-accessibility` |
 | `kt:b2c-commerce-architect-certification` | `kt:b2c-solution-architect-certification` |
 | `kt:web-to-case` | `kt:auto-response-rules` |
 | `kt:web-to-lead` | `kt:auto-response-rules` |
 | `kt:json` | `kt:apex-json-serialization` |
 | `kt:heroku-fir` | `kt:heroku-architect-certification` |
 | `kt:twelve-factor-app` | `kt:heroku-architect-certification` |
-| `kt:signup-request-api` | `kt:trialforce` |
 | `kt:salesforce-maps` | `kt:geolocation-fields` |
 | `kt:app-manager` | `kt:app-launcher` |
 | `kt:lightning-apps` | `kt:app-launcher` |
