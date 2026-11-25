@@ -19929,6 +19929,106 @@
       ]
     },
     {
+      "@id": "kt:deleted-fields-and-field-undelete",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Deleted Fields and Field Undelete",
+      "skos:definition": "The soft-delete lifecycle for custom fields: a deleted field and its data are held for up to 15 days, during which an admin can restore it from the object's Deleted Fields list or purge it early, before Salesforce hard-deletes it.",
+      "kto:domain": "data-model",
+      "dcterms:created": "2026-11-25",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Delete a Custom Field",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=platform.deleting_fields.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Manage Deleted Custom Fields",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=platform.fields_managing_deleted_fields.htm&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Purge Deleted Custom Fields",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=platform.fields_purge_deleted_fields.htm&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Deleting Components from an Organization — Metadata API Developer Guide",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_deploy_deleting_files.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Remove Components from First-Generation Managed Packages",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/pkg1-dev/guide/packaging-managed-component-deletion.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Time to Clean up Those Unneeded Salesforce Customizations",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2017/01/time-clean-unneeded-salesforce-customizations",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/data-model/deleted-fields-and-field-undelete.md",
+      "skos:altLabel": [
+        "deleted custom fields",
+        "undelete a custom field",
+        "restore deleted field",
+        "Deleted Fields list",
+        "purge deleted custom fields",
+        "field hard delete"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:custom-fields"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:field-history-tracking"
+        },
+        {
+          "@id": "kt:formula-fields"
+        },
+        {
+          "@id": "kt:auto-number-fields"
+        },
+        {
+          "@id": "kt:roll-up-summary-field"
+        },
+        {
+          "@id": "kt:lead-conversion"
+        },
+        {
+          "@id": "kt:backup-and-recover"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:metadata-api"
+        },
+        {
+          "@id": "kt:package-xml-manifest"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:custom-field-allocations"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:first-generation-managed-packages"
+        }
+      ]
+    },
+    {
       "@id": "kt:divisions",
       "@type": "kto:Feature",
       "skos:prefLabel": "Divisions",
