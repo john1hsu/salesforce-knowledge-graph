@@ -17874,6 +17874,86 @@
       ]
     },
     {
+      "@id": "kt:models-api",
+      "@type": "kto:API",
+      "skos:prefLabel": "Models API",
+      "skos:definition": "Salesforce's REST endpoints and Apex classes (aiplatform.ModelsAPI) for calling configured large language models directly to generate text, chat responses and embeddings and to submit feedback, with every request routed through the Einstein Trust Layer.",
+      "kto:domain": "data-cloud-and-ai",
+      "dcterms:created": "2026-11-25",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Learn the Basics of the Models API (Get Started with the Models API)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/get-started-with-einstein-models-api/learn-the-basics-of-models-api",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Access Models API with REST (Agentforce Developer Guide)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/ai/agentforce/guide/access-models-api-with-rest.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Access Models API with Apex (Agentforce Developer Guide)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/ai/agentforce/guide/access-models-api-with-apex.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Rate Limits for Models API (Agentforce Developer Guide)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/ai/agentforce/guide/models-api-rate-limits.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Model API Names (Agentforce Developer Guide)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/ai/agentforce/guide/models-api-names.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/data-cloud-and-ai/models-api.md",
+      "skos:altLabel": [
+        "Einstein Models API",
+        "Agentforce Models API",
+        "aiplatform.ModelsAPI",
+        "Einstein Platform Models API"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-apis"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:ai-models"
+        },
+        {
+          "@id": "kt:generative-ai-audit-and-feedback-data"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:einstein-trust-layer"
+        },
+        {
+          "@id": "kt:einstein-generative-ai-setup"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:external-client-apps"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:prompt-builder"
+        }
+      ]
+    },
+    {
       "@id": "kt:prompt-builder",
       "@type": "kto:Tool",
       "skos:prefLabel": "Prompt Builder",
