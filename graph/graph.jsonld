@@ -39399,6 +39399,82 @@
       ]
     },
     {
+      "@id": "kt:mulesoft-platform-integration-architect-certification",
+      "@type": "kto:Certification",
+      "skos:prefLabel": "MuleSoft Platform Integration Architect Certification",
+      "skos:definition": "Salesforce's architect-tier MuleSoft credential for people who lead Anypoint Platform implementations, testing Mule application design, runtime-plane architecture, persistence, reliability, security and DevOps for integration solutions rather than enterprise-wide platform strategy.",
+      "kto:domain": "integration",
+      "dcterms:created": "2026-11-25",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Salesforce Certified MuleSoft Platform Integration Architect Exam Guide",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=005298957&language=en_US&type=1",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Certification - Salesforce Certified MuleSoft Platform Integration Architect",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/credentials/mulesoftintegrationarchitecti",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Maintain Your MuleSoft Platform Integration Arch. Certification for Spring '26",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/mulesoft-platform-integration-architect-certification-maintenance-spring-26/maintain-your-mulesoft-integration-architect-certification-for-spring-26",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Salesforce Certified MuleSoft Platform Architect Exam Guide",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=005298956&language=en_US&type=1",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/integration/mulesoft-platform-integration-architect-certification.md",
+      "skos:altLabel": [
+        "Salesforce Certified MuleSoft Platform Integration Architect",
+        "MuleSoft Integration Architect I"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-certification-program"
+        },
+        {
+          "@id": "kt:salesforce-architect"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:api-led-connectivity"
+        },
+        {
+          "@id": "kt:event-driven-architecture"
+        },
+        {
+          "@id": "kt:mule-runtime-engine"
+        },
+        {
+          "@id": "kt:non-functional-requirements"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:mulesoft-anypoint-platform"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:mulesoft-platform-architect-certification"
+        },
+        {
+          "@id": "kt:integration-architect-certification"
+        }
+      ]
+    },
+    {
       "@id": "kt:named-credentials",
       "@type": "kto:Feature",
       "skos:prefLabel": "Named Credentials",
