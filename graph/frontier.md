@@ -9,6 +9,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:data-extensions` | `kt:automation-studio`, `kt:contact-builder` |
 | `kt:requirements-engineering` | `kt:non-functional-requirements`, `kt:requirements-gathering` |
 | `kt:user-stories` | `kt:fit-gap-analysis`, `kt:requirements-gathering` |
+| `kt:mobile-sdk` | `kt:mobile-app-security-policies`, `kt:salesforce-mobile-app` |
 | `kt:go-live-readiness-assessment` | `kt:cutover-plan`, `kt:data-reconciliation` |
 | `kt:channel-order-app` | `kt:agentexchange-go-to-market-app`, `kt:partner-business-org` |
 | `kt:business-architecture` | `kt:capability-maps`, `kt:togaf` |
@@ -46,7 +47,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:constraint-modeling-language` | `kt:product-configurator` |
 | `kt:product-catalog-management` | `kt:product-configurator` |
 | `kt:anypoint-runtime-manager` | `kt:mule-runtime-engine` |
-| `kt:mobile-sdk` | `kt:salesforce-mobile-app` |
 | `kt:marketing-cloud-sql` | `kt:automation-studio` |
 | `kt:business-analyst-certification` | `kt:user-acceptance-testing` |
 | `kt:engagement-studio` | `kt:marketing-cloud-account-engagement` |
@@ -95,8 +95,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:business-administration` | `kt:management` |
 | `kt:currency-type-object` | `kt:multiple-currencies` |
 | `kt:developer-console` | `kt:apex-logging-and-debug-logs` |
-| `kt:user-provisioning` | `kt:scim` |
 | `kt:destructive-changes` | `kt:rollback-plan` |
+| `kt:user-provisioning` | `kt:scim` |
 | `kt:document-ai` | `kt:unstructured-data-in-data-cloud` |
 | `kt:hmac-based-one-time-password` | `kt:time-based-one-time-password` |
 | `kt:experience-cloud-consultant-certification` | `kt:licensing-strategy` |
@@ -105,9 +105,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:enhanced-letterheads` | `kt:email-templates` |
 | `kt:custom-labels` | `kt:flow-formula-resources` |
 | `kt:einstein-prediction-builder` | `kt:einstein-next-best-action` |
-| `kt:iso-iec-29100` | `kt:iso-iec-27018` |
 | `kt:agentforce-nonprofit-consultant-certification` | `kt:agentforce-nonprofit` |
 | `kt:nonprofit-success-pack` | `kt:agentforce-nonprofit` |
+| `kt:iso-iec-29100` | `kt:iso-iec-27018` |
 | `kt:digital-accessibility` | `kt:section-508-accessibility` |
 | `kt:federal-acquisition-regulation` | `kt:performance-work-statement` |
 | `kt:quality-assurance-surveillance-plan` | `kt:performance-work-statement` |
@@ -122,11 +122,10 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:heroku-fir` | `kt:heroku-architect-certification` |
 | `kt:twelve-factor-app` | `kt:heroku-architect-certification` |
 | `kt:salesforce-maps` | `kt:geolocation-fields` |
-| `kt:app-manager` | `kt:app-launcher` |
-| `kt:lightning-apps` | `kt:app-launcher` |
 | `kt:planned-maintenance-windows` | `kt:disaster-recovery-and-site-switching` |
 | `kt:read-only-mode` | `kt:disaster-recovery-and-site-switching` |
 | `kt:agent-to-agent-protocol` | `kt:agentforce-architecture-patterns` |
+| `kt:app-manager` | `kt:app-launcher` |
 | `kt:aws-clean-rooms` | `kt:data-360-clean-rooms` |
 | `kt:consent-data-model` | `kt:consent-management-in-data-cloud` |
 | `kt:cross-cloud-integration` | `kt:salesforce-solution-kits` |
@@ -136,6 +135,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:einstein-activity-capture` | `kt:agentforce-sdr` |
 | `kt:flow-assignment-element` | `kt:flow-decision-element` |
 | `kt:greenhouse-gas-protocol` | `kt:net-zero-cloud` |
+| `kt:lightning-apps` | `kt:app-launcher` |
 | `kt:multi-agent-orchestration` | `kt:agentforce-architecture-patterns` |
 | `kt:notes-and-attachments` | `kt:content-document-model` |
 | `kt:tableau-blueprint` | `kt:tableau-architect-certification` |

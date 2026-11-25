@@ -35038,6 +35038,107 @@
       ]
     },
     {
+      "@id": "kt:mobile-app-security-policies",
+      "@type": "kto:SecurityControl",
+      "skos:prefLabel": "Mobile App Security Policies",
+      "skos:definition": "Device- and app-level policies that protect Salesforce data on phones: Enhanced Mobile App Security policies (MobileSecurityPolicy) that check conditions such as jailbreak, OS version or device passcode and respond by severity, plus the screen-lock, passcode and biometric settings that connected or external client apps apply to Mobile SDK apps.",
+      "kto:domain": "identity",
+      "dcterms:created": "2026-11-25",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "MobileSecurityPolicy (Metadata API Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_mobilesecuritypolicy.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "MobileEnforcedPolicyEvent (Platform Events Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.platform_events.meta/platform_events/sforce_api_objects_mobileenforcedpolicyevent.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Using Passcodes (Mobile SDK Development Guide, Native Android)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/mobile-sdk/guide/android-passcodes.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "About Login and Passcodes (Mobile SDK Development Guide, Native iOS)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/mobile-sdk/guide/ios-native-login-passcodes.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Biometric Authentication (Mobile SDK Development Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/mobile-sdk/guide/biometric-auth.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Explore Security and Authentication (Mobile SDK Basics)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/mobile_sdk_introduction/mobilesdk_intro_security",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/identity/mobile-app-security-policies.md",
+      "skos:altLabel": [
+        "Enhanced Mobile App Security",
+        "Enhanced Mobile Security",
+        "MobileSecurityPolicy",
+        "mobile security policies",
+        "Mobile Security policies"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-identity"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:salesforce-mobile-app"
+        },
+        {
+          "@id": "kt:mobile-sdk"
+        },
+        {
+          "@id": "kt:connected-apps"
+        },
+        {
+          "@id": "kt:external-client-apps"
+        },
+        {
+          "@id": "kt:session-settings"
+        },
+        {
+          "@id": "kt:transaction-security-policies"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:metadata-api"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:event-monitoring"
+        }
+      ],
+      "kto:mitigates": [
+        {
+          "@id": "kt:data-breach-risk"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:transaction-security-policies"
+        }
+      ]
+    },
+    {
       "@id": "kt:multi-factor-authentication",
       "@type": "kto:SecurityControl",
       "skos:prefLabel": "Multi-Factor Authentication",
