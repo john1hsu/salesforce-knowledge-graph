@@ -11,7 +11,7 @@ summary: >-
 release: "Winter '27"
 status: current
 broader: [kt:heroku]
-related: [kt:heroku-connect]
+related: [kt:heroku-connect, kt:salesforce-functions]
 relations:
   - {predicate: dependsOn, object: kt:external-services}
   - {predicate: dependsOn, object: kt:external-client-apps}

@@ -39250,6 +39250,9 @@
       "skos:related": [
         {
           "@id": "kt:heroku-connect"
+        },
+        {
+          "@id": "kt:salesforce-functions"
         }
       ],
       "kto:dependsOn": [
@@ -45259,6 +45262,102 @@
         },
         {
           "@id": "kt:government-cloud"
+        }
+      ]
+    },
+    {
+      "@id": "kt:salesforce-functions",
+      "@type": "kto:Product",
+      "skos:prefLabel": "Salesforce Functions",
+      "skos:definition": "Salesforce's retired functions-as-a-service offering (sold as Salesforce Elastic Services) that ran Java and JavaScript/TypeScript code in Salesforce-managed, Heroku-powered compute environments, preauthenticated to an org and invoked from Apex; no longer sold or renewed, with Heroku AppLink as the recommended successor.",
+      "kto:domain": "platform-architecture",
+      "dcterms:created": "2026-11-25",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "retired",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Salesforce Functions Retirement",
+          "dcterms:publisher": "Heroku Dev Center (Salesforce)",
+          "schema:url": "https://devcenter.heroku.com/articles/salesforce-functions-retirement",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Overview and Architecture (Salesforce Functions Developer Guide)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/platform/functions/guide/overview.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Invoke Functions with Apex (Salesforce Functions Developer Guide)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/platform/functions/guide/invoke-apex.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Manage Compute Environments (Salesforce Functions Developer Guide)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/platform/functions/guide/manage-envs.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Function Class (Apex Reference Guide)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_class_functions_Function.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Deliver Scalable Experiences Without Limits Using Functions",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2021/06/functions-announcement",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/platform-architecture/salesforce-functions.md",
+      "skos:altLabel": [
+        "Salesforce Elastic Services",
+        "Elastic Services",
+        "Salesforce Functions retirement",
+        "functions namespace"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-platform"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:asynchronous-apex"
+        },
+        {
+          "@id": "kt:salesforce-dx"
+        },
+        {
+          "@id": "kt:apex-callouts"
+        }
+      ],
+      "kto:replacedBy": [
+        {
+          "@id": "kt:heroku-applink"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:heroku"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:salesforce-cli"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:apex"
+        }
+      ],
+      "kto:mitigates": [
+        {
+          "@id": "kt:governor-limits"
         }
       ]
     },
