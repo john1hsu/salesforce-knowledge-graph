@@ -11,7 +11,7 @@ summary: >-
 release: "Winter '27"
 status: current
 broader: [kt:agentforce]
-related: [kt:agentforce-subagents, kt:agent-actions, kt:slack-platform, kt:knowledge-base, kt:salesforce-mobile-app]
+related: [kt:agentforce-subagents, kt:agent-actions, kt:slack-platform, kt:knowledge-base, kt:salesforce-mobile-app, kt:agentforce-in-slack]
 relations:
   - {predicate: partOf, object: kt:agentforce}
   - {predicate: configuredVia, object: kt:agentforce-studio}

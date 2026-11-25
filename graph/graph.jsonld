@@ -14073,6 +14073,9 @@
         },
         {
           "@id": "kt:salesforce-mobile-app"
+        },
+        {
+          "@id": "kt:agentforce-in-slack"
         }
       ],
       "kto:partOf": [
@@ -14099,6 +14102,95 @@
       "kto:integratesWith": [
         {
           "@id": "kt:slack-platform"
+        }
+      ]
+    },
+    {
+      "@id": "kt:agentforce-in-slack",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Agentforce in Slack",
+      "skos:definition": "The deployment channel that takes an Agentforce agent built in Salesforce and installs it in a Slack workspace or Enterprise organization, where members reach it from the Agents area, direct messages or channel @mentions, after the Salesforce org is connected to Slack and Slack members are mapped to Salesforce users.",
+      "kto:domain": "data-cloud-and-ai",
+      "dcterms:created": "2026-11-25",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Set up and manage Agentforce in Slack",
+          "dcterms:publisher": "Slack (Salesforce)",
+          "schema:url": "https://slack.com/help/articles/36218109305875-Set-up-and-manage-Agentforce-in-Slack",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Configure a Slack Agent in Salesforce (Enhance Your Agent with Slack Integration and Actions)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/agentforce-configuration-for-slack-deployment/configure-a-slack-agent-in-salesforce",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Deploy an Agent in Slack (Deploy and Manage AI Agents in Your Organization's Slack)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/agentforce-configuration-for-slack-deployment/deploy-an-agent-in-slack",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Integrate AI Agents with Slack for Productivity",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/slack-ai/integrate-ai-agents-with-slack",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/data-cloud-and-ai/agentforce-in-slack.md",
+      "skos:altLabel": [
+        "Agentforce for Slack",
+        "Slack agents",
+        "Agentforce Slack deployment",
+        "Agentforce Hub in Slack",
+        "Slack connection for agents"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:agentforce"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:agentforce-employee-agents"
+        },
+        {
+          "@id": "kt:agentforce-subagents"
+        },
+        {
+          "@id": "kt:agent-actions"
+        },
+        {
+          "@id": "kt:permission-sets"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:agentforce"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:slack-platform"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:agentforce-studio"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:salesforce-sharing-model"
+        },
+        {
+          "@id": "kt:einstein-trust-layer"
+        },
+        {
+          "@id": "kt:connected-apps"
         }
       ]
     },
