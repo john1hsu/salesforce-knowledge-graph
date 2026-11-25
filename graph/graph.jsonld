@@ -50788,6 +50788,105 @@
       ]
     },
     {
+      "@id": "kt:tx-ramp",
+      "@type": "kto:ExternalConcept",
+      "skos:prefLabel": "TX-RAMP",
+      "skos:definition": "Texas's state program, created by Senate Bill 475 and run by the Department of Information Resources, that certifies cloud services used by Texas state agencies and public universities at Level 1 (low impact) or Level 2 (confidential data, moderate or high impact), with provisional status, reciprocity for FedRAMP and GovRAMP, and ongoing continuous monitoring.",
+      "kto:domain": "public-sector-and-compliance",
+      "dcterms:created": "2026-11-25",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "TX-RAMP Frequently Asked Questions (FAQs)",
+          "dcterms:publisher": "Texas Department of Information Resources",
+          "schema:url": "https://dir.texas.gov/information-security/texas-risk-and-authorization-management-program-tx-ramp/tx-ramp-frequently",
+          "kto:sourceType": "government"
+        },
+        {
+          "dcterms:title": "TX-RAMP Eligibility and Requirements",
+          "dcterms:publisher": "Texas Department of Information Resources",
+          "schema:url": "https://dir.texas.gov/information-security/texas-risk-and-authorization-management-program-tx-ramp/tx-ramp-eligibility",
+          "kto:sourceType": "government"
+        },
+        {
+          "dcterms:title": "Texas Risk and Authorization Management Program (TX-RAMP)",
+          "dcterms:publisher": "Texas Department of Information Resources",
+          "schema:url": "https://dir.texas.gov/information-security/texas-risk-and-authorization-management-program-tx-ramp",
+          "kto:sourceType": "government"
+        },
+        {
+          "dcterms:title": "State of Texas",
+          "dcterms:publisher": "GovRAMP",
+          "schema:url": "https://govramp.org/programs/state-of-texas",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "Texas Risk and Authorization Management Program (TX-RAMP)",
+          "dcterms:publisher": "UT Southwestern Medical Center",
+          "schema:url": "https://www.utsouthwestern.edu/employees/information-security/tx-ramp/index.html",
+          "kto:sourceType": "academic"
+        },
+        {
+          "dcterms:title": "TX-RAMP - Salesforce Services and Additional Services",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://compliance.salesforce.com/en/documents/a006e0000161mq5AAA",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "TX-RAMP - Salesforce Government Cloud Plus",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://compliance.salesforce.com/en/documents/a006e000013GLnlAAG",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "TX-RAMP - Data Cloud",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://compliance.salesforce.com/en/documents/a006e0000161qY6AAI",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/public-sector-and-compliance/tx-ramp.md",
+      "skos:altLabel": [
+        "Texas Risk and Authorization Management Program",
+        "TX-RAMP certification"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:security-compliance-frameworks"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:govramp"
+        },
+        {
+          "@id": "kt:government-cloud-plus"
+        },
+        {
+          "@id": "kt:data-cloud"
+        },
+        {
+          "@id": "kt:public-sector-solutions"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:fedramp"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:continuous-monitoring"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:data-classification"
+        }
+      ]
+    },
+    {
       "@id": "kt:zero-trust-architecture",
       "@type": "kto:ExternalConcept",
       "skos:prefLabel": "Zero Trust Architecture",
