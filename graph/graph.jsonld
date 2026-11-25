@@ -51509,6 +51509,99 @@
       ]
     },
     {
+      "@id": "kt:data-categories",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Data Categories",
+      "skos:definition": "Hierarchical classification labels, organized into category groups, that tag Knowledge articles and questions and control which users can see them through All, None or Custom visibility granted by role, permission set, permission set group or profile.",
+      "kto:domain": "security-and-sharing",
+      "dcterms:created": "2026-11-25",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Create and Customize Data Categories (Set Up Salesforce Knowledge project)",
+          "dcterms:publisher": "Salesforce Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/projects/set-up-salesforce-knowledge/create-and-customize-data-categories",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "DataCategoryGroup (Metadata API Developer Guide)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_datacategorygroup.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Data Category Groups (REST API Developer Guide)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/platform/api-rest/guide/resources-knowledge-support-dcgroups.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Salesforce Knowledge Guide (Classic)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://login.salesforce.com/help/doc/en/salesforce_knowledge_implementation_guide.pdf",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "WITH DATA CATEGORY (SOQL and SOSL Reference)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/platform/salesforce-soql-sosl/guide/sforce-api-calls-soql-select-with-datacategory.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "dataCategorySelection (SOQL and SOSL Reference)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/platform/salesforce-soql-sosl/guide/sforce-api-calls-soql-select-with-datacategory-catselection.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/security-and-sharing/data-categories.md",
+      "skos:altLabel": [
+        "data category",
+        "data category groups",
+        "category groups",
+        "data category visibility",
+        "default data category visibility"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:knowledge-base"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:role-hierarchy"
+        },
+        {
+          "@id": "kt:permission-sets"
+        },
+        {
+          "@id": "kt:profiles"
+        },
+        {
+          "@id": "kt:experience-cloud"
+        },
+        {
+          "@id": "kt:high-volume-experience-cloud-users"
+        }
+      ],
+      "kto:queriedWith": [
+        {
+          "@id": "kt:soql"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:salesforce-sharing-model"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:role-hierarchy"
+        }
+      ]
+    },
+    {
       "@id": "kt:data-detect",
       "@type": "kto:Feature",
       "skos:prefLabel": "Data Detect",

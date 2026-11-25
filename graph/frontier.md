@@ -16,7 +16,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:service-setup-assistant` | `kt:service-cloud` |
 | `kt:salesforce-ecosystem-roles` | `kt:salesforce-architect` |
 | `kt:salesforce-architecture-program` | `kt:salesforce-architecture-center` |
-| `kt:data-categories` | `kt:knowledge-base` |
 | `kt:salesforce-archive` | `kt:archiving-strategy` |
 | `kt:trailhead` | `kt:salesforce-certification-program` |
 | `kt:omni-channel-limits` | `kt:omni-channel` |
@@ -81,15 +80,15 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:shared-activities` | `kt:activity-data-model` |
 | `kt:passkeys` | `kt:security-keys` |
 | `kt:webauthn` | `kt:security-keys` |
+| `kt:guest-user-sharing-rules` | `kt:share-groups` |
 | `kt:hyperforce-assistant` | `kt:instance-refresh-and-org-migration` |
 | `kt:data-cloud-code-extension` | `kt:vector-search-in-data-cloud` |
 | `kt:agentforce-vibes` | `kt:agentforce-vibes-ide` |
 | `kt:ui-api` | `kt:field-dependencies` |
 | `kt:mulesoft-for-flow-integration` | `kt:mulesoft-composer` |
-| `kt:guest-user-sharing-rules` | `kt:share-groups` |
 | `kt:slds-linter` | `kt:salesforce-lightning-design-system` |
-| `kt:apex-soap-web-services` | `kt:apex-rest-services` |
 | `kt:partner-relationship-management` | `kt:partner-community-licenses` |
+| `kt:apex-soap-web-services` | `kt:apex-rest-services` |
 | `kt:ldap` | `kt:delegated-authentication` |
 | `kt:tx-ramp` | `kt:govramp` |
 | `kt:api-community-manager` | `kt:api-experience-hub` |
@@ -106,9 +105,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:enhanced-letterheads` | `kt:email-templates` |
 | `kt:custom-labels` | `kt:flow-formula-resources` |
 | `kt:einstein-prediction-builder` | `kt:einstein-next-best-action` |
+| `kt:iso-iec-29100` | `kt:iso-iec-27018` |
 | `kt:agentforce-nonprofit-consultant-certification` | `kt:agentforce-nonprofit` |
 | `kt:nonprofit-success-pack` | `kt:agentforce-nonprofit` |
-| `kt:iso-iec-29100` | `kt:iso-iec-27018` |
 | `kt:digital-accessibility` | `kt:section-508-accessibility` |
 | `kt:federal-acquisition-regulation` | `kt:performance-work-statement` |
 | `kt:quality-assurance-surveillance-plan` | `kt:performance-work-statement` |

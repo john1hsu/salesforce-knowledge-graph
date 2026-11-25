@@ -3919,6 +3919,34 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-breach-risk> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "security-and-sharing" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-breach-risk> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-breach-risk> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-categories> <http://purl.org/dc/terms/created> "2026-11-25" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-categories> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-categories> <http://www.w3.org/2000/01/rdf-schema#label> "Data Categories" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-categories> <http://www.w3.org/2004/02/skos/core#altLabel> "category groups" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-categories> <http://www.w3.org/2004/02/skos/core#altLabel> "data category groups" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-categories> <http://www.w3.org/2004/02/skos/core#altLabel> "data category visibility" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-categories> <http://www.w3.org/2004/02/skos/core#altLabel> "data category" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-categories> <http://www.w3.org/2004/02/skos/core#altLabel> "default data category visibility" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-categories> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/knowledge-base> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-categories> <http://www.w3.org/2004/02/skos/core#definition> "Hierarchical classification labels, organized into category groups, that tag Knowledge articles and questions and control which users can see them through All, None or Custom visibility granted by role, permission set, permission set group or profile." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-categories> <http://www.w3.org/2004/02/skos/core#prefLabel> "Data Categories" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-categories> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/experience-cloud> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-categories> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/high-volume-experience-cloud-users> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-categories> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/permission-sets> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-categories> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/profiles> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-categories> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/role-hierarchy> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-categories> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-categories/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-categories> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-categories/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-categories> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-categories/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-categories> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-categories/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-categories> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-categories/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-categories> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-categories/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-categories> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#contrastsWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-sharing-model> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-categories> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/role-hierarchy> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-categories> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "security-and-sharing" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-categories> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/soql> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-categories> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-categories> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-classification> <http://purl.org/dc/terms/created> "2026-11-15" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-classification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-classification> <http://www.w3.org/2000/01/rdf-schema#label> "Data Classification" .
@@ -18983,6 +19011,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-breach-risk/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-breach-risk/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-breach-risk/s5> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/security_basics/security_basics_healthcheck" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-categories/s1> <http://purl.org/dc/terms/publisher> "Salesforce Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-categories/s1> <http://purl.org/dc/terms/title> "Create and Customize Data Categories (Set Up Salesforce Knowledge project)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-categories/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-categories/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-categories/s1> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/projects/set-up-salesforce-knowledge/create-and-customize-data-categories" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-categories/s2> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-categories/s2> <http://purl.org/dc/terms/title> "DataCategoryGroup (Metadata API Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-categories/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-categories/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-categories/s2> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_datacategorygroup.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-categories/s3> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-categories/s3> <http://purl.org/dc/terms/title> "Data Category Groups (REST API Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-categories/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-categories/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-categories/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/api-rest/guide/resources-knowledge-support-dcgroups.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-categories/s4> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-categories/s4> <http://purl.org/dc/terms/title> "Salesforce Knowledge Guide (Classic)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-categories/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-categories/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-categories/s4> <https://schema.org/url> "https://login.salesforce.com/help/doc/en/salesforce_knowledge_implementation_guide.pdf" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-categories/s5> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-categories/s5> <http://purl.org/dc/terms/title> "WITH DATA CATEGORY (SOQL and SOSL Reference)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-categories/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-categories/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-categories/s5> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/salesforce-soql-sosl/guide/sforce-api-calls-soql-select-with-datacategory.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-categories/s6> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-categories/s6> <http://purl.org/dc/terms/title> "dataCategorySelection (SOQL and SOSL Reference)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-categories/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-categories/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-categories/s6> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/salesforce-soql-sosl/guide/sforce-api-calls-soql-select-with-datacategory-catselection.html" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-classification/s1> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-classification/s1> <http://purl.org/dc/terms/title> "Data Classification Metadata Fields" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-classification/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
