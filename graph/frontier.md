@@ -10,7 +10,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:requirements-engineering` | `kt:non-functional-requirements`, `kt:requirements-gathering` |
 | `kt:user-stories` | `kt:fit-gap-analysis`, `kt:requirements-gathering` |
 | `kt:go-live-readiness-assessment` | `kt:cutover-plan`, `kt:data-reconciliation` |
+| `kt:partner-console` | `kt:agentexchange-go-to-market-app`, `kt:license-management-app` |
 | `kt:models-api` | `kt:ai-models`, `kt:einstein-generative-ai-setup` |
+| `kt:channel-order-app` | `kt:agentexchange-go-to-market-app`, `kt:partner-business-org` |
 | `kt:business-architecture` | `kt:capability-maps`, `kt:togaf` |
 | `kt:service-setup-assistant` | `kt:service-cloud` |
 | `kt:salesforce-ecosystem-roles` | `kt:salesforce-architect` |
@@ -22,7 +24,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:presence-configuration` | `kt:omni-channel` |
 | `kt:skills-based-routing` | `kt:omni-channel` |
 | `kt:entitlement-process-metadata` | `kt:entitlement-management` |
-| `kt:agentexchange-go-to-market-app` | `kt:agentexchange` |
 | `kt:workspace-api` | `kt:lightning-service-console` |
 | `kt:tableau-pulse` | `kt:tableau` |
 | `kt:einstein-discovery` | `kt:crm-analytics` |
@@ -62,10 +63,11 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:b2c-commerce` | `kt:commerce-cloud` |
 | `kt:salesforce-order-management` | `kt:commerce-cloud` |
 | `kt:computer-science` | `kt:distributed-computing` |
-| `kt:platform-cache-partitions` | `kt:platform-cache` |
 | `kt:model-context-protocol` | `kt:model-context-protocol-in-agentforce` |
 | `kt:salesforce-hosted-mcp-servers` | `kt:model-context-protocol-in-agentforce` |
+| `kt:platform-cache-partitions` | `kt:platform-cache` |
 | `kt:fhir` | `kt:health-cloud` |
+| `kt:subscriber-support-console` | `kt:license-management-app` |
 | `kt:utilization-management` | `kt:health-cloud` |
 | `kt:data-cloud-query-api` | `kt:data-graphs` |
 | `kt:opportunity-products` | `kt:price-books` |
@@ -73,12 +75,10 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:enterprise-service-bus` | `kt:point-to-point-integration` |
 | `kt:change-order-process` | `kt:statement-of-work` |
 | `kt:api-visualizer` | `kt:application-network` |
-| `kt:aws-lambda` | `kt:amazon-connect` |
 | `kt:semantic-layer` | `kt:tableau-semantics` |
+| `kt:aws-lambda` | `kt:amazon-connect` |
 | `kt:technology-roadmaps` | `kt:capability-maps` |
 | `kt:value-streams` | `kt:capability-maps` |
-| `kt:partner-console` | `kt:license-management-app` |
-| `kt:subscriber-support-console` | `kt:license-management-app` |
 | `kt:json-web-signature` | `kt:json-web-token` |
 | `kt:information-management` | `kt:data-management` |
 | `kt:operating-hours` | `kt:salesforce-scheduler` |
@@ -93,9 +93,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:guest-user-sharing-rules` | `kt:share-groups` |
 | `kt:mulesoft-for-flow-integration` | `kt:mulesoft-composer` |
 | `kt:slds-linter` | `kt:salesforce-lightning-design-system` |
-| `kt:channel-order-app` | `kt:partner-business-org` |
-| `kt:partner-relationship-management` | `kt:partner-community-licenses` |
 | `kt:apex-soap-web-services` | `kt:apex-rest-services` |
+| `kt:partner-relationship-management` | `kt:partner-community-licenses` |
 | `kt:ldap` | `kt:delegated-authentication` |
 | `kt:tx-ramp` | `kt:govramp` |
 | `kt:api-community-manager` | `kt:api-experience-hub` |
@@ -113,9 +112,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:agentforce-nonprofit-consultant-certification` | `kt:agentforce-nonprofit` |
 | `kt:nonprofit-success-pack` | `kt:agentforce-nonprofit` |
 | `kt:currency-type-object` | `kt:multiple-currencies` |
+| `kt:enterprise-architecture` | `kt:togaf` |
 | `kt:digital-accessibility` | `kt:section-508-accessibility` |
 | `kt:wcag` | `kt:section-508-accessibility` |
-| `kt:enterprise-architecture` | `kt:togaf` |
 | `kt:federal-acquisition-regulation` | `kt:performance-work-statement` |
 | `kt:quality-assurance-surveillance-plan` | `kt:performance-work-statement` |
 | `kt:statement-of-objectives` | `kt:performance-work-statement` |

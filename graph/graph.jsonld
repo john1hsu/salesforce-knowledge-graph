@@ -27140,6 +27140,93 @@
       ]
     },
     {
+      "@id": "kt:agentexchange-go-to-market-app",
+      "@type": "kto:Tool",
+      "skos:prefLabel": "AgentExchange Go-To-Market App",
+      "skos:definition": "The partner-side app in the Partner Business Org that ISV partners use to define products, send private offers to customers, and let Salesforce handle ordering, license provisioning, Stripe invoicing and daily payouts for seat-based managed packages sold through AgentExchange.",
+      "kto:domain": "devops-and-alm",
+      "dcterms:created": "2026-11-25",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Get Started with the AgentExchange Go-To-Market App (ISVforce Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/isvforce/guide/partner-marketplace-get-started.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Prerequisites and Considerations (ISVforce Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/isvforce/guide/partner-marketplace-considerations-prerequisites.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Building Blocks of the Go-To-Market App (ISVforce Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/isvforce/guide/partner-marketplace-building-blocks.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Understand Licensing in the Go-To-Market App (ISVforce Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/isvforce/guide/partner-marketplace-licensing.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Migrate Existing Orders to the Go-To-Market App (ISVforce Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/isvforce/guide/partner-marketplace-coa-transition.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Your Customers and the Go-To-Market App (ISVforce Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/isvforce/guide/partner-marketplace-customers.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/devops-and-alm/agentexchange-go-to-market-app.md",
+      "skos:altLabel": [
+        "Go-To-Market App",
+        "GTM app",
+        "AgentExchange GTM app",
+        "AgentExchange Go-To-Market"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:agentexchange"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:license-management-app"
+        },
+        {
+          "@id": "kt:second-generation-managed-packages"
+        },
+        {
+          "@id": "kt:salesforce-pricing"
+        },
+        {
+          "@id": "kt:partner-console"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:partner-business-org"
+        },
+        {
+          "@id": "kt:permission-set-licenses"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:channel-order-app"
+        }
+      ]
+    },
+    {
       "@id": "kt:agentforce-dx",
       "@type": "kto:Tool",
       "skos:prefLabel": "Agentforce DX",
