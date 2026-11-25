@@ -6382,6 +6382,104 @@
       ]
     },
     {
+      "@id": "kt:flow-decision-element",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Decision Element",
+      "skos:definition": "The Flow Builder logic element that branches a flow into outcomes: it evaluates each outcome's condition requirements in a set order, follows the first outcome whose conditions are met, and falls back to a default outcome when none match.",
+      "kto:domain": "automation",
+      "dcterms:created": "2026-11-25",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Define Multiple Paths in a Flow (Improve Your Salesforce Flow with Branching Logic)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/flow-build-logic/define-multiple-paths-in-a-flow",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Build Logic to Determine the Right Discount to Apply",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/projects/flow_calculate/flow_calculate_determine",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Create Branching with Decision Elements (Optimize Campaign Flows with Decision Elements)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/campaign-optimization-with-flows-in-marketing-cloud-next/create-branching-with-decision-elements",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "The Ultimate Guide to Flow Best Practices and Standards",
+          "dcterms:publisher": "Salesforce Admins Blog",
+          "schema:url": "https://admin.salesforce.com/blog/2021/the-ultimate-guide-to-flow-best-practices-and-standards",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Flow (Metadata API Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/api-metadata/references/meta-types/metadata-flow.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Build a Record-Triggered Flow",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/record-triggered-flows/build-a-record-triggered-flow",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/automation/flow-decision-element.md",
+      "skos:altLabel": [
+        "Flow Decision element",
+        "Decision element in Flow",
+        "Flow Builder Decision",
+        "flow decision outcomes",
+        "flow branching logic"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:flow-builder"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:record-triggered-flow"
+        },
+        {
+          "@id": "kt:get-records-element"
+        },
+        {
+          "@id": "kt:flow-loop-element"
+        },
+        {
+          "@id": "kt:screen-flow"
+        },
+        {
+          "@id": "kt:flow-assignment-element"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:flow-formula-resources"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:metadata-api"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:business-rules-engine"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:flow-limits"
+        }
+      ]
+    },
+    {
       "@id": "kt:flow-fault-handling",
       "@type": "kto:Pattern",
       "skos:prefLabel": "Flow Fault Handling",
