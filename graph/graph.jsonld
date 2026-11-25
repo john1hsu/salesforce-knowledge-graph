@@ -48157,6 +48157,100 @@
       ]
     },
     {
+      "@id": "kt:itar-and-export-controls",
+      "@type": "kto:ExternalConcept",
+      "skos:prefLabel": "ITAR and Export Controls",
+      "skos:definition": "The US export control regimes (the State Department's ITAR for defense articles and technical data, and Commerce's EAR for dual-use items) as they bear on storing controlled data in a SaaS platform such as Salesforce: what counts as an export, the end-to-end encryption carve-outs, and why defense contractors look to Government Cloud Plus.",
+      "kto:domain": "public-sector-and-compliance",
+      "dcterms:created": "2026-11-25",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "22 CFR § 120.54 - Activities that are not exports, reexports, retransfers, or temporary imports",
+          "dcterms:publisher": "U.S. Department of State (eCFR text via Cornell Legal Information Institute)",
+          "schema:url": "https://www.law.cornell.edu/cfr/text/22/120.54",
+          "kto:sourceType": "government"
+        },
+        {
+          "dcterms:title": "22 CFR Part 120 Subpart C - Definitions",
+          "dcterms:publisher": "U.S. Department of State (eCFR text via Cornell Legal Information Institute)",
+          "schema:url": "https://www.law.cornell.edu/cfr/text/22/part-120/subpart-C",
+          "kto:sourceType": "government"
+        },
+        {
+          "dcterms:title": "15 CFR § 734.18 - Activities that are not exports, reexports, or transfers",
+          "dcterms:publisher": "U.S. Department of Commerce, BIS (eCFR text via Cornell Legal Information Institute)",
+          "schema:url": "https://www.law.cornell.edu/cfr/text/15/734.18",
+          "kto:sourceType": "government"
+        },
+        {
+          "dcterms:title": "2025 Defense Export Handbook",
+          "dcterms:publisher": "U.S. Department of Commerce, International Trade Administration",
+          "schema:url": "https://www.trade.gov/sites/default/files/2025-01/2025%20Defense%20Export%20Handbook.pdf",
+          "kto:sourceType": "government"
+        },
+        {
+          "dcterms:title": "Advisory opinion on grid and cloud computing services (January 13, 2009)",
+          "dcterms:publisher": "U.S. Department of Commerce, Bureau of Industry and Security",
+          "schema:url": "https://www.bis.gov/media/1343",
+          "kto:sourceType": "government"
+        },
+        {
+          "dcterms:title": "Salesforce Government Cloud Plus (datasheet)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/en-us/wp-content/uploads/sites/4/Salesforce-Government-Cloud-Plus-Datasheet.pdf",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Government Cloud Plus - Defense — Salesforce Compliance",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://compliance.salesforce.com/jp/services/salesforce-government-cloud-plus-defense",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/public-sector-and-compliance/itar-and-export-controls.md",
+      "skos:altLabel": [
+        "ITAR",
+        "International Traffic in Arms Regulations",
+        "export-controlled data",
+        "ITAR technical data",
+        "EAR and ITAR in the cloud"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:security-compliance-frameworks"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:government-cloud-plus"
+        },
+        {
+          "@id": "kt:il4-and-il5"
+        },
+        {
+          "@id": "kt:data-residency"
+        },
+        {
+          "@id": "kt:shield-platform-encryption"
+        },
+        {
+          "@id": "kt:data-classification"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:irs-publication-1075"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:shared-responsibility-model"
+        }
+      ]
+    },
+    {
       "@id": "kt:key-security-indicators",
       "@type": "kto:ExternalConcept",
       "skos:prefLabel": "Key Security Indicators",

@@ -8138,6 +8138,34 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/it-governance> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/security-governance> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/it-governance> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/it-governance> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/itar-and-export-controls> <http://purl.org/dc/terms/created> "2026-11-25" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/itar-and-export-controls> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#ExternalConcept> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/itar-and-export-controls> <http://www.w3.org/2000/01/rdf-schema#label> "ITAR and Export Controls" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/itar-and-export-controls> <http://www.w3.org/2004/02/skos/core#altLabel> "EAR and ITAR in the cloud" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/itar-and-export-controls> <http://www.w3.org/2004/02/skos/core#altLabel> "ITAR technical data" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/itar-and-export-controls> <http://www.w3.org/2004/02/skos/core#altLabel> "ITAR" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/itar-and-export-controls> <http://www.w3.org/2004/02/skos/core#altLabel> "International Traffic in Arms Regulations" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/itar-and-export-controls> <http://www.w3.org/2004/02/skos/core#altLabel> "export-controlled data" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/itar-and-export-controls> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/security-compliance-frameworks> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/itar-and-export-controls> <http://www.w3.org/2004/02/skos/core#definition> "The US export control regimes (the State Department's ITAR for defense articles and technical data, and Commerce's EAR for dual-use items) as they bear on storing controlled data in a SaaS platform such as Salesforce: what counts as an export, the end-to-end encryption carve-outs, and why defense contractors look to Government Cloud Plus." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/itar-and-export-controls> <http://www.w3.org/2004/02/skos/core#prefLabel> "ITAR and Export Controls" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/itar-and-export-controls> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-classification> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/itar-and-export-controls> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-residency> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/itar-and-export-controls> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/government-cloud-plus> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/itar-and-export-controls> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/il4-and-il5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/itar-and-export-controls> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/shield-platform-encryption> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/itar-and-export-controls> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/itar-and-export-controls/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/itar-and-export-controls> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/itar-and-export-controls/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/itar-and-export-controls> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/itar-and-export-controls/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/itar-and-export-controls> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/itar-and-export-controls/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/itar-and-export-controls> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/itar-and-export-controls/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/itar-and-export-controls> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/itar-and-export-controls/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/itar-and-export-controls> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/itar-and-export-controls/s7> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/itar-and-export-controls> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#contrastsWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/irs-publication-1075> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/itar-and-export-controls> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/shared-responsibility-model> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/itar-and-export-controls> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "public-sector-and-compliance" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/itar-and-export-controls> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/itar-and-export-controls> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/javascript-developer-certification> <http://purl.org/dc/terms/created> "2026-11-23" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/javascript-developer-certification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Certification> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/javascript-developer-certification> <http://www.w3.org/2000/01/rdf-schema#label> "JavaScript Developer Certification" .
@@ -22946,6 +22974,41 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/it-governance/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/it-governance/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/it-governance/s6> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/salesforce-governance-with-a-center-of-excellence/define-your-salesforce-coe" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/itar-and-export-controls/s1> <http://purl.org/dc/terms/publisher> "U.S. Department of State (eCFR text via Cornell Legal Information Institute)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/itar-and-export-controls/s1> <http://purl.org/dc/terms/title> "22 CFR § 120.54 - Activities that are not exports, reexports, retransfers, or temporary imports" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/itar-and-export-controls/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/itar-and-export-controls/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/itar-and-export-controls/s1> <https://schema.org/url> "https://www.law.cornell.edu/cfr/text/22/120.54" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/itar-and-export-controls/s2> <http://purl.org/dc/terms/publisher> "U.S. Department of State (eCFR text via Cornell Legal Information Institute)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/itar-and-export-controls/s2> <http://purl.org/dc/terms/title> "22 CFR Part 120 Subpart C - Definitions" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/itar-and-export-controls/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/itar-and-export-controls/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/itar-and-export-controls/s2> <https://schema.org/url> "https://www.law.cornell.edu/cfr/text/22/part-120/subpart-C" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/itar-and-export-controls/s3> <http://purl.org/dc/terms/publisher> "U.S. Department of Commerce, BIS (eCFR text via Cornell Legal Information Institute)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/itar-and-export-controls/s3> <http://purl.org/dc/terms/title> "15 CFR § 734.18 - Activities that are not exports, reexports, or transfers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/itar-and-export-controls/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/itar-and-export-controls/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/itar-and-export-controls/s3> <https://schema.org/url> "https://www.law.cornell.edu/cfr/text/15/734.18" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/itar-and-export-controls/s4> <http://purl.org/dc/terms/publisher> "U.S. Department of Commerce, International Trade Administration" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/itar-and-export-controls/s4> <http://purl.org/dc/terms/title> "2025 Defense Export Handbook" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/itar-and-export-controls/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/itar-and-export-controls/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/itar-and-export-controls/s4> <https://schema.org/url> "https://www.trade.gov/sites/default/files/2025-01/2025%20Defense%20Export%20Handbook.pdf" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/itar-and-export-controls/s5> <http://purl.org/dc/terms/publisher> "U.S. Department of Commerce, Bureau of Industry and Security" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/itar-and-export-controls/s5> <http://purl.org/dc/terms/title> "Advisory opinion on grid and cloud computing services (January 13, 2009)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/itar-and-export-controls/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/itar-and-export-controls/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/itar-and-export-controls/s5> <https://schema.org/url> "https://www.bis.gov/media/1343" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/itar-and-export-controls/s6> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/itar-and-export-controls/s6> <http://purl.org/dc/terms/title> "Salesforce Government Cloud Plus (datasheet)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/itar-and-export-controls/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/itar-and-export-controls/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/itar-and-export-controls/s6> <https://schema.org/url> "https://www.salesforce.com/en-us/wp-content/uploads/sites/4/Salesforce-Government-Cloud-Plus-Datasheet.pdf" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/itar-and-export-controls/s7> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/itar-and-export-controls/s7> <http://purl.org/dc/terms/title> "Government Cloud Plus - Defense — Salesforce Compliance" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/itar-and-export-controls/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/itar-and-export-controls/s7> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/itar-and-export-controls/s7> <https://schema.org/url> "https://compliance.salesforce.com/jp/services/salesforce-government-cloud-plus-defense" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/javascript-developer-certification/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/javascript-developer-certification/s1> <http://purl.org/dc/terms/title> "Javascript Certification - Salesforce Certified JavaScript Developer" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/javascript-developer-certification/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
