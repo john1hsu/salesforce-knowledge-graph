@@ -9054,6 +9054,33 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/management> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "public-sector-and-compliance" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/management> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/management> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/manual-sharing> <http://purl.org/dc/terms/created> "2026-11-25" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/manual-sharing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#SecurityControl> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/manual-sharing> <http://www.w3.org/2000/01/rdf-schema#label> "Manual Sharing" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/manual-sharing> <http://www.w3.org/2004/02/skos/core#altLabel> "Sharing button" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/manual-sharing> <http://www.w3.org/2004/02/skos/core#altLabel> "manual record sharing" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/manual-sharing> <http://www.w3.org/2004/02/skos/core#altLabel> "manual shares" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/manual-sharing> <http://www.w3.org/2004/02/skos/core#altLabel> "user managed sharing" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/manual-sharing> <http://www.w3.org/2004/02/skos/core#altLabel> "user-managed sharing" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/manual-sharing> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-sharing-model> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/manual-sharing> <http://www.w3.org/2004/02/skos/core#definition> "The user-managed layer of Salesforce record access, in which a record owner or a suitably privileged user grants specific users, roles or groups Read Only or Read/Write access to one individual record, stored as a share row with the Manual row cause." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/manual-sharing> <http://www.w3.org/2004/02/skos/core#prefLabel> "Manual Sharing" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/manual-sharing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/account-teams> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/manual-sharing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/implicit-sharing> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/manual-sharing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/organization-wide-defaults> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/manual-sharing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/public-groups> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/manual-sharing> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/role-hierarchy> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/manual-sharing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/manual-sharing/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/manual-sharing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/manual-sharing/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/manual-sharing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/manual-sharing/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/manual-sharing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/manual-sharing/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/manual-sharing> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/manual-sharing/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/manual-sharing> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#alternativeTo> <https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-rules> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/manual-sharing> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#contrastsWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-managed-sharing> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/manual-sharing> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/organization-wide-defaults> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/manual-sharing> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "security-and-sharing" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/manual-sharing> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/manual-sharing> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/marketing-cloud-account-engagement> <http://purl.org/dc/terms/created> "2026-11-17" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/marketing-cloud-account-engagement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Product> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/marketing-cloud-account-engagement> <http://www.w3.org/2000/01/rdf-schema#label> "Marketing Cloud Account Engagement" .
@@ -23929,6 +23956,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/management/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/management/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "standards-body" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/management/s6> <https://schema.org/url> "https://isaca.org/cobit" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/manual-sharing/s1> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/manual-sharing/s1> <http://purl.org/dc/terms/title> "Understanding Sharing (Apex Developer Guide, Winter '27)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/manual-sharing/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/manual-sharing/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/manual-sharing/s1> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.264.0.apexcode.meta/apexref/apex_bulk_sharing_understanding.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/manual-sharing/s2> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/manual-sharing/s2> <http://purl.org/dc/terms/title> "Sharing a Record Using Apex (Apex Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/manual-sharing/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/manual-sharing/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/manual-sharing/s2> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_bulk_sharing_creating_with_apex.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/manual-sharing/s3> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/manual-sharing/s3> <http://purl.org/dc/terms/title> "Platform Sharing Architecture (Salesforce Architects Fundamentals)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/manual-sharing/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/manual-sharing/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/manual-sharing/s3> <https://schema.org/url> "https://architect.salesforce.com/fundamentals/platform-sharing-architecture" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/manual-sharing/s4> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/manual-sharing/s4> <http://purl.org/dc/terms/title> "Sample Scenarios (Record-Level Access: Under the Hood)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/manual-sharing/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/manual-sharing/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/manual-sharing/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/salesforce-record-access-under-the-hood/guide/uth-examples.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/manual-sharing/s5> <http://purl.org/dc/terms/publisher> "Salesforce Admins" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/manual-sharing/s5> <http://purl.org/dc/terms/title> "Learn MOAR in Summer '21 with Record Sharing Updates" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/manual-sharing/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/manual-sharing/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/manual-sharing/s5> <https://schema.org/url> "https://admin.salesforce.com/blog/2021/learn-moar-in-summer-21-with-record-sharing" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/marketing-cloud-account-engagement/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/marketing-cloud-account-engagement/s1> <http://purl.org/dc/terms/title> "Discover Salesforce Marketing Solutions (Salesforce Marketing Cloud Quick Look)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/marketing-cloud-account-engagement/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

@@ -65,8 +65,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:platform-cache-partitions` | `kt:platform-cache` |
 | `kt:salesforce-hosted-mcp-servers` | `kt:model-context-protocol-in-agentforce` |
 | `kt:fhir` | `kt:health-cloud` |
-| `kt:subscriber-support-console` | `kt:license-management-app` |
 | `kt:utilization-management` | `kt:health-cloud` |
+| `kt:subscriber-support-console` | `kt:license-management-app` |
 | `kt:data-cloud-query-api` | `kt:data-graphs` |
 | `kt:opportunity-products` | `kt:price-books` |
 | `kt:enterprise-service-bus` | `kt:point-to-point-integration` |
@@ -86,13 +86,13 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:shared-activities` | `kt:activity-data-model` |
 | `kt:hyperforce-assistant` | `kt:instance-refresh-and-org-migration` |
 | `kt:data-cloud-code-extension` | `kt:vector-search-in-data-cloud` |
-| `kt:agentforce-vibes` | `kt:agentforce-vibes-ide` |
 | `kt:ui-api` | `kt:field-dependencies` |
-| `kt:mulesoft-for-flow-integration` | `kt:mulesoft-composer` |
+| `kt:agentforce-vibes` | `kt:agentforce-vibes-ide` |
 | `kt:guest-user-sharing-rules` | `kt:share-groups` |
+| `kt:mulesoft-for-flow-integration` | `kt:mulesoft-composer` |
 | `kt:slds-linter` | `kt:salesforce-lightning-design-system` |
-| `kt:partner-relationship-management` | `kt:partner-community-licenses` |
 | `kt:apex-soap-web-services` | `kt:apex-rest-services` |
+| `kt:partner-relationship-management` | `kt:partner-community-licenses` |
 | `kt:ldap` | `kt:delegated-authentication` |
 | `kt:tx-ramp` | `kt:govramp` |
 | `kt:api-community-manager` | `kt:api-experience-hub` |
@@ -107,8 +107,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:enhanced-letterheads` | `kt:email-templates` |
 | `kt:einstein-prediction-builder` | `kt:einstein-next-best-action` |
 | `kt:agentforce-nonprofit-consultant-certification` | `kt:agentforce-nonprofit` |
-| `kt:nonprofit-success-pack` | `kt:agentforce-nonprofit` |
 | `kt:iso-iec-29100` | `kt:iso-iec-27018` |
+| `kt:nonprofit-success-pack` | `kt:agentforce-nonprofit` |
 | `kt:currency-type-object` | `kt:multiple-currencies` |
 | `kt:digital-accessibility` | `kt:section-508-accessibility` |
 | `kt:enterprise-architecture` | `kt:togaf` |
@@ -125,8 +125,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:custom-labels` | `kt:flow-formula-resources` |
 | `kt:heroku-fir` | `kt:heroku-architect-certification` |
 | `kt:twelve-factor-app` | `kt:heroku-architect-certification` |
-| `kt:salesforce-maps` | `kt:geolocation-fields` |
 | `kt:signup-request-api` | `kt:trialforce` |
+| `kt:salesforce-maps` | `kt:geolocation-fields` |
 | `kt:agent-to-agent-protocol` | `kt:agentforce-architecture-patterns` |
 | `kt:app-manager` | `kt:app-launcher` |
 | `kt:aws-clean-rooms` | `kt:data-360-clean-rooms` |

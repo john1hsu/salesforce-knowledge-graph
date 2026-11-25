@@ -51522,6 +51522,93 @@
       ]
     },
     {
+      "@id": "kt:manual-sharing",
+      "@type": "kto:SecurityControl",
+      "skos:prefLabel": "Manual Sharing",
+      "skos:definition": "The user-managed layer of Salesforce record access, in which a record owner or a suitably privileged user grants specific users, roles or groups Read Only or Read/Write access to one individual record, stored as a share row with the Manual row cause.",
+      "kto:domain": "security-and-sharing",
+      "dcterms:created": "2026-11-25",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Understanding Sharing (Apex Developer Guide, Winter '27)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.264.0.apexcode.meta/apexref/apex_bulk_sharing_understanding.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Sharing a Record Using Apex (Apex Developer Guide)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_bulk_sharing_creating_with_apex.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Platform Sharing Architecture (Salesforce Architects Fundamentals)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://architect.salesforce.com/fundamentals/platform-sharing-architecture",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Sample Scenarios (Record-Level Access: Under the Hood)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/platform/salesforce-record-access-under-the-hood/guide/uth-examples.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Learn MOAR in Summer '21 with Record Sharing Updates",
+          "dcterms:publisher": "Salesforce Admins",
+          "schema:url": "https://admin.salesforce.com/blog/2021/learn-moar-in-summer-21-with-record-sharing",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/security-and-sharing/manual-sharing.md",
+      "skos:altLabel": [
+        "user managed sharing",
+        "user-managed sharing",
+        "manual shares",
+        "manual record sharing",
+        "Sharing button"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-sharing-model"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:organization-wide-defaults"
+        },
+        {
+          "@id": "kt:role-hierarchy"
+        },
+        {
+          "@id": "kt:public-groups"
+        },
+        {
+          "@id": "kt:account-teams"
+        },
+        {
+          "@id": "kt:implicit-sharing"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:sharing-rules"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:apex-managed-sharing"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:organization-wide-defaults"
+        }
+      ]
+    },
+    {
       "@id": "kt:opportunity-teams",
       "@type": "kto:Feature",
       "skos:prefLabel": "Opportunity Teams",
