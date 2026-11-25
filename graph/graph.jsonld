@@ -13149,6 +13149,102 @@
       ]
     },
     {
+      "@id": "kt:scheduling-console",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Scheduling Console",
+      "skos:definition": "The Lightning Web Components dispatch workspace of the Field Service managed package, with a resource Gantt, a service appointment list and a map; it runs alongside the Classic Dispatch Console and is turned on through Salesforce Go, configured in Scheduling Console Settings, and documented as requiring Enhanced Scheduling and Optimization.",
+      "kto:domain": "clouds-and-products",
+      "dcterms:created": "2026-11-25",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Get to Know the Scheduling Console (Trailhead unit)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/scheduling-console-basics/get-to-know-the-scheduling-console",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Features of the Scheduling Console",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=service.fs_scheduling_console_features.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Customize the Scheduling Console",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=service.fs_scheduling_console_customize_settings.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Dispatch Smarter with the Scheduling Console (Trailhead unit)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/scheduling-console-quick-look/didispatch-smarter-with-the-scheduling-console",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Visualize On-Ground Scheduling with the Map (Trailhead unit)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/scheduling-console-basics/visualize-on-ground-scheduling-with-the-map",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/clouds-and-products/scheduling-console.md",
+      "skos:altLabel": [
+        "Field Service Scheduling Console",
+        "new Scheduling Console",
+        "Agentforce Field Service Scheduling Console"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:field-service"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:dispatcher-console"
+        },
+        {
+          "@id": "kt:service-appointments"
+        },
+        {
+          "@id": "kt:field-service-scheduling-policies"
+        },
+        {
+          "@id": "kt:enhanced-scheduling-and-optimization"
+        },
+        {
+          "@id": "kt:custom-permissions"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:field-service"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:dispatcher-console"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:enhanced-scheduling-and-optimization"
+        },
+        {
+          "@id": "kt:service-appointments"
+        },
+        {
+          "@id": "kt:field-service-scheduling-policies"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:salesforce-go"
+        }
+      ]
+    },
+    {
       "@id": "kt:service-appointments",
       "@type": "kto:StandardObject",
       "skos:prefLabel": "Service Appointments",

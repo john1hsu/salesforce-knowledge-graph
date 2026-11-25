@@ -13765,6 +13765,34 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/scheduled-paths> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#replaces> <https://github.com/john1hsu/salesforce-knowledge-graph/id/workflow-rules> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/scheduled-paths> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/scheduled-paths> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scheduling-console> <http://purl.org/dc/terms/created> "2026-11-25" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scheduling-console> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scheduling-console> <http://www.w3.org/2000/01/rdf-schema#label> "Scheduling Console" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scheduling-console> <http://www.w3.org/2004/02/skos/core#altLabel> "Agentforce Field Service Scheduling Console" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scheduling-console> <http://www.w3.org/2004/02/skos/core#altLabel> "Field Service Scheduling Console" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scheduling-console> <http://www.w3.org/2004/02/skos/core#altLabel> "new Scheduling Console" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scheduling-console> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/field-service> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scheduling-console> <http://www.w3.org/2004/02/skos/core#definition> "The Lightning Web Components dispatch workspace of the Field Service managed package, with a resource Gantt, a service appointment list and a map; it runs alongside the Classic Dispatch Console and is turned on through Salesforce Go, configured in Scheduling Console Settings, and documented as requiring Enhanced Scheduling and Optimization." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scheduling-console> <http://www.w3.org/2004/02/skos/core#prefLabel> "Scheduling Console" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scheduling-console> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-permissions> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scheduling-console> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/dispatcher-console> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scheduling-console> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/enhanced-scheduling-and-optimization> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scheduling-console> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/field-service-scheduling-policies> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scheduling-console> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/service-appointments> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scheduling-console> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scheduling-console/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scheduling-console> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scheduling-console/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scheduling-console> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scheduling-console/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scheduling-console> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scheduling-console/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scheduling-console> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scheduling-console/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scheduling-console> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#alternativeTo> <https://github.com/john1hsu/salesforce-knowledge-graph/id/dispatcher-console> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scheduling-console> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-go> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scheduling-console> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/enhanced-scheduling-and-optimization> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scheduling-console> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/field-service-scheduling-policies> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scheduling-console> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/service-appointments> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scheduling-console> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "clouds-and-products" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scheduling-console> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#partOf> <https://github.com/john1hsu/salesforce-knowledge-graph/id/field-service> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scheduling-console> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/scheduling-console> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/schema-builder> <http://purl.org/dc/terms/created> "2026-11-11" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/schema-builder> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Tool> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/schema-builder> <http://www.w3.org/2000/01/rdf-schema#label> "Schema Builder" .
@@ -28693,6 +28721,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scheduled-paths/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scheduled-paths/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scheduled-paths/s5> <https://schema.org/url> "https://architect.salesforce.com/docs/architect/fundamentals/guide/async-fundamentals.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scheduling-console/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scheduling-console/s1> <http://purl.org/dc/terms/title> "Get to Know the Scheduling Console (Trailhead unit)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scheduling-console/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scheduling-console/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scheduling-console/s1> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/scheduling-console-basics/get-to-know-the-scheduling-console" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scheduling-console/s2> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scheduling-console/s2> <http://purl.org/dc/terms/title> "Features of the Scheduling Console" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scheduling-console/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scheduling-console/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scheduling-console/s2> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=service.fs_scheduling_console_features.htm&language=en_US&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scheduling-console/s3> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scheduling-console/s3> <http://purl.org/dc/terms/title> "Customize the Scheduling Console" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scheduling-console/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scheduling-console/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scheduling-console/s3> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=service.fs_scheduling_console_customize_settings.htm&language=en_US&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scheduling-console/s4> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scheduling-console/s4> <http://purl.org/dc/terms/title> "Dispatch Smarter with the Scheduling Console (Trailhead unit)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scheduling-console/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scheduling-console/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scheduling-console/s4> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/scheduling-console-quick-look/didispatch-smarter-with-the-scheduling-console" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scheduling-console/s5> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scheduling-console/s5> <http://purl.org/dc/terms/title> "Visualize On-Ground Scheduling with the Map (Trailhead unit)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scheduling-console/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scheduling-console/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/scheduling-console/s5> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/scheduling-console-basics/visualize-on-ground-scheduling-with-the-map" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/schema-builder/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/schema-builder/s1> <http://purl.org/dc/terms/title> "Data Modeling: Work with Schema Builder" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/schema-builder/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
