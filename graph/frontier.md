@@ -87,8 +87,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:shared-activities` | `kt:activity-data-model` |
 | `kt:hyperforce-assistant` | `kt:instance-refresh-and-org-migration` |
 | `kt:data-cloud-code-extension` | `kt:vector-search-in-data-cloud` |
-| `kt:ui-api` | `kt:field-dependencies` |
 | `kt:agentforce-vibes` | `kt:agentforce-vibes-ide` |
+| `kt:ui-api` | `kt:field-dependencies` |
 | `kt:guest-user-sharing-rules` | `kt:share-groups` |
 | `kt:mulesoft-for-flow-integration` | `kt:mulesoft-composer` |
 | `kt:slds-linter` | `kt:salesforce-lightning-design-system` |
@@ -107,9 +107,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:organization-wide-email-addresses` | `kt:email-alerts` |
 | `kt:enhanced-letterheads` | `kt:email-templates` |
 | `kt:einstein-prediction-builder` | `kt:einstein-next-best-action` |
-| `kt:iso-iec-29100` | `kt:iso-iec-27018` |
 | `kt:agentforce-nonprofit-consultant-certification` | `kt:agentforce-nonprofit` |
 | `kt:nonprofit-success-pack` | `kt:agentforce-nonprofit` |
+| `kt:iso-iec-29100` | `kt:iso-iec-27018` |
 | `kt:currency-type-object` | `kt:multiple-currencies` |
 | `kt:digital-accessibility` | `kt:section-508-accessibility` |
 | `kt:wcag` | `kt:section-508-accessibility` |
@@ -129,6 +129,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:salesforce-maps` | `kt:geolocation-fields` |
 | `kt:signup-request-api` | `kt:trialforce` |
 | `kt:agent-to-agent-protocol` | `kt:agentforce-architecture-patterns` |
+| `kt:app-manager` | `kt:app-launcher` |
 | `kt:aws-clean-rooms` | `kt:data-360-clean-rooms` |
 | `kt:consent-data-model` | `kt:consent-management-in-data-cloud` |
 | `kt:cross-cloud-integration` | `kt:salesforce-solution-kits` |
@@ -137,6 +138,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:document-checklist-items` | `kt:action-plans` |
 | `kt:einstein-activity-capture` | `kt:agentforce-sdr` |
 | `kt:greenhouse-gas-protocol` | `kt:net-zero-cloud` |
+| `kt:lightning-apps` | `kt:app-launcher` |
 | `kt:multi-agent-orchestration` | `kt:agentforce-architecture-patterns` |
 | `kt:notes-and-attachments` | `kt:content-document-model` |
 | `kt:planned-maintenance-windows` | `kt:disaster-recovery-and-site-switching` |

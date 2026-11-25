@@ -1376,6 +1376,30 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/api-version-lifecycle> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#mitigates> <https://github.com/john1hsu/salesforce-knowledge-graph/id/technical-debt-in-salesforce> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/api-version-lifecycle> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/api-version-lifecycle> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/app-launcher> <http://purl.org/dc/terms/created> "2026-11-25" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/app-launcher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/app-launcher> <http://www.w3.org/2000/01/rdf-schema#label> "App Launcher" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/app-launcher> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce App Launcher" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/app-launcher> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-identity> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/app-launcher> <http://www.w3.org/2004/02/skos/core#definition> "The Salesforce menu that shows a user tiles for the standard, custom, connected (third-party) and on-premises apps they are authorised to use, plus every item they can reach; admins control which apps appear and in what order." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/app-launcher> <http://www.w3.org/2004/02/skos/core#prefLabel> "App Launcher" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/app-launcher> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/connected-apps> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/app-launcher> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-service-console> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/app-launcher> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-as-identity-provider> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/app-launcher> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/single-sign-on-saml> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/app-launcher> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/app-launcher/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/app-launcher> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/app-launcher/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/app-launcher> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/app-launcher/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/app-launcher> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/app-launcher/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/app-launcher> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/app-launcher/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/app-launcher> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/app-launcher/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/app-launcher> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/app-manager> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/app-launcher> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#consumedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-apps> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/app-launcher> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/permission-sets> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/app-launcher> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/profiles> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/app-launcher> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "identity" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/app-launcher> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/app-launcher> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/appexchange-security-review> <http://purl.org/dc/terms/created> "2026-11-08" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/appexchange-security-review> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/appexchange-security-review> <http://www.w3.org/2000/01/rdf-schema#label> "AgentExchange Security Review" .
@@ -16169,6 +16193,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/api-version-lifecycle/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/api-version-lifecycle/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/api-version-lifecycle/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/versioned_behavior_changes.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/app-launcher/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/app-launcher/s1> <http://purl.org/dc/terms/title> "Configure and Use the App Launcher (Identity Implementation Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/app-launcher/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/app-launcher/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/app-launcher/s1> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.identityImplGuide.meta/%20identityImplGuide/identity_app_launcher_intro.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/app-launcher/s2> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/app-launcher/s2> <http://purl.org/dc/terms/title> "Reorder App Launcher Apps in Lightning Experience" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/app-launcher/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/app-launcher/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/app-launcher/s2> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.identityImplGuide.meta/%20identityImplGuide/reordering_applauncher_lex.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/app-launcher/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/app-launcher/s3> <http://purl.org/dc/terms/title> "Set the Default Sort Order for Apps" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/app-launcher/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/app-launcher/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/app-launcher/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.identityImplGuide.meta/%20identityImplGuide/reordering_custom_apps_parent.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/app-launcher/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/app-launcher/s4> <http://purl.org/dc/terms/title> "Enable the App Launcher with a Permission Set in Salesforce Classic" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/app-launcher/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/app-launcher/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/app-launcher/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.identityImplGuide.meta/%20identityImplGuide/identity_app_launcher_permset.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/app-launcher/s5> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/app-launcher/s5> <http://purl.org/dc/terms/title> "Create and Customize Lightning Apps" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/app-launcher/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/app-launcher/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/app-launcher/s5> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/lex_customization/lex_customization_apps" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/app-launcher/s6> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/app-launcher/s6> <http://purl.org/dc/terms/title> "Navigate Around (Lightning Experience for Salesforce Classic Users)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/app-launcher/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/app-launcher/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/app-launcher/s6> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/lightning-experience-for-salesforce-classic-users/navigate-around" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/appexchange-security-review/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers (ISVforce Guide)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/appexchange-security-review/s1> <http://purl.org/dc/terms/title> "How the AgentExchange Security Review Works" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/appexchange-security-review/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

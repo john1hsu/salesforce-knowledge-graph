@@ -32081,6 +32081,95 @@
       ]
     },
     {
+      "@id": "kt:app-launcher",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "App Launcher",
+      "skos:definition": "The Salesforce menu that shows a user tiles for the standard, custom, connected (third-party) and on-premises apps they are authorised to use, plus every item they can reach; admins control which apps appear and in what order.",
+      "kto:domain": "identity",
+      "dcterms:created": "2026-11-25",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Configure and Use the App Launcher (Identity Implementation Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.identityImplGuide.meta/%20identityImplGuide/identity_app_launcher_intro.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Reorder App Launcher Apps in Lightning Experience",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.identityImplGuide.meta/%20identityImplGuide/reordering_applauncher_lex.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Set the Default Sort Order for Apps",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.identityImplGuide.meta/%20identityImplGuide/reordering_custom_apps_parent.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Enable the App Launcher with a Permission Set in Salesforce Classic",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.identityImplGuide.meta/%20identityImplGuide/identity_app_launcher_permset.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Create and Customize Lightning Apps",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/lex_customization/lex_customization_apps",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Navigate Around (Lightning Experience for Salesforce Classic Users)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/lightning-experience-for-salesforce-classic-users/navigate-around",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/identity/app-launcher.md",
+      "skos:altLabel": [
+        "Salesforce App Launcher"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-identity"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:connected-apps"
+        },
+        {
+          "@id": "kt:salesforce-as-identity-provider"
+        },
+        {
+          "@id": "kt:lightning-service-console"
+        },
+        {
+          "@id": "kt:single-sign-on-saml"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:app-manager"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:profiles"
+        },
+        {
+          "@id": "kt:permission-sets"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:lightning-apps"
+        }
+      ]
+    },
+    {
       "@id": "kt:certificate-and-key-management",
       "@type": "kto:Feature",
       "skos:prefLabel": "Certificate and Key Management",
