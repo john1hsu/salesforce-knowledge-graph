@@ -9,8 +9,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:data-extensions` | `kt:automation-studio`, `kt:contact-builder` |
 | `kt:requirements-engineering` | `kt:non-functional-requirements`, `kt:requirements-gathering` |
 | `kt:user-stories` | `kt:fit-gap-analysis`, `kt:requirements-gathering` |
-| `kt:mobile-sdk` | `kt:mobile-app-security-policies`, `kt:salesforce-mobile-app` |
 | `kt:go-live-readiness-assessment` | `kt:cutover-plan`, `kt:data-reconciliation` |
+| `kt:mobile-sdk` | `kt:mobile-app-security-policies`, `kt:salesforce-mobile-app` |
 | `kt:channel-order-app` | `kt:agentexchange-go-to-market-app`, `kt:partner-business-org` |
 | `kt:business-architecture` | `kt:capability-maps`, `kt:togaf` |
 | `kt:enterprise-architecture` | `kt:architecture-roadmaps`, `kt:togaf` |
@@ -46,7 +46,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:iso-iec-25010` | `kt:non-functional-requirements` |
 | `kt:constraint-modeling-language` | `kt:product-configurator` |
 | `kt:product-catalog-management` | `kt:product-configurator` |
-| `kt:anypoint-runtime-manager` | `kt:mule-runtime-engine` |
 | `kt:marketing-cloud-sql` | `kt:automation-studio` |
 | `kt:business-analyst-certification` | `kt:user-acceptance-testing` |
 | `kt:engagement-studio` | `kt:marketing-cloud-account-engagement` |
@@ -67,9 +66,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:utilization-management` | `kt:health-cloud` |
 | `kt:data-cloud-query-api` | `kt:data-graphs` |
 | `kt:opportunity-products` | `kt:price-books` |
+| `kt:enterprise-service-bus` | `kt:point-to-point-integration` |
 | `kt:value-streams` | `kt:capability-maps` |
 | `kt:holidays` | `kt:business-hours` |
-| `kt:enterprise-service-bus` | `kt:point-to-point-integration` |
 | `kt:api-visualizer` | `kt:application-network` |
 | `kt:aws-lambda` | `kt:amazon-connect` |
 | `kt:semantic-layer` | `kt:tableau-semantics` |
@@ -84,8 +83,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:hyperforce-assistant` | `kt:instance-refresh-and-org-migration` |
 | `kt:data-cloud-code-extension` | `kt:vector-search-in-data-cloud` |
 | `kt:agentforce-vibes` | `kt:agentforce-vibes-ide` |
-| `kt:ui-api` | `kt:field-dependencies` |
 | `kt:mulesoft-for-flow-integration` | `kt:mulesoft-composer` |
+| `kt:ui-api` | `kt:field-dependencies` |
 | `kt:slds-linter` | `kt:salesforce-lightning-design-system` |
 | `kt:partner-relationship-management` | `kt:partner-community-licenses` |
 | `kt:apex-soap-web-services` | `kt:apex-rest-services` |
@@ -95,8 +94,12 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:business-administration` | `kt:management` |
 | `kt:currency-type-object` | `kt:multiple-currencies` |
 | `kt:developer-console` | `kt:apex-logging-and-debug-logs` |
-| `kt:destructive-changes` | `kt:rollback-plan` |
 | `kt:user-provisioning` | `kt:scim` |
+| `kt:anypoint-monitoring` | `kt:anypoint-runtime-manager` |
+| `kt:cloudhub-2` | `kt:anypoint-runtime-manager` |
+| `kt:destructive-changes` | `kt:rollback-plan` |
+| `kt:runtime-fabric` | `kt:anypoint-runtime-manager` |
+| `kt:runtime-manager-agent` | `kt:anypoint-runtime-manager` |
 | `kt:document-ai` | `kt:unstructured-data-in-data-cloud` |
 | `kt:hmac-based-one-time-password` | `kt:time-based-one-time-password` |
 | `kt:experience-cloud-consultant-certification` | `kt:licensing-strategy` |
@@ -105,9 +108,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:enhanced-letterheads` | `kt:email-templates` |
 | `kt:custom-labels` | `kt:flow-formula-resources` |
 | `kt:einstein-prediction-builder` | `kt:einstein-next-best-action` |
+| `kt:iso-iec-29100` | `kt:iso-iec-27018` |
 | `kt:agentforce-nonprofit-consultant-certification` | `kt:agentforce-nonprofit` |
 | `kt:nonprofit-success-pack` | `kt:agentforce-nonprofit` |
-| `kt:iso-iec-29100` | `kt:iso-iec-27018` |
 | `kt:digital-accessibility` | `kt:section-508-accessibility` |
 | `kt:federal-acquisition-regulation` | `kt:performance-work-statement` |
 | `kt:quality-assurance-surveillance-plan` | `kt:performance-work-statement` |

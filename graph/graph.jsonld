@@ -37505,6 +37505,85 @@
       ]
     },
     {
+      "@id": "kt:anypoint-runtime-manager",
+      "@type": "kto:Tool",
+      "skos:prefLabel": "Anypoint Runtime Manager",
+      "skos:definition": "The Anypoint Platform console for deploying, operating and monitoring Mule applications and servers across sandbox, staging and production environments, whether they run on CloudHub, CloudHub 2.0, Runtime Fabric or customer-hosted (hybrid) Mule runtimes.",
+      "kto:domain": "integration",
+      "dcterms:created": "2026-11-25",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Anypoint Runtime Manager",
+          "dcterms:publisher": "MuleSoft (Salesforce)",
+          "schema:url": "https://docs.mulesoft.com/runtime-manager/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Servers",
+          "dcterms:publisher": "MuleSoft (Salesforce)",
+          "schema:url": "https://docs.mulesoft.com/runtime-manager/servers-about",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Creating and Deploying Mule Apps",
+          "dcterms:publisher": "MuleSoft (Salesforce)",
+          "schema:url": "https://docs.mulesoft.com/control-planes/creating-and-deploying-mule-apps",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Explore Deployment Models for Mule Applications (Anypoint Platform Deployment and Management of APIs)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/anypoint-platform-deployment-and-management-of-apis/learn-deployment-models-for-mule-applications",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/integration/anypoint-runtime-manager.md",
+      "skos:altLabel": [
+        "Runtime Manager",
+        "MuleSoft Runtime Manager",
+        "ARM"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:mulesoft-anypoint-platform"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:mule-runtime-engine"
+        },
+        {
+          "@id": "kt:api-led-connectivity"
+        },
+        {
+          "@id": "kt:cloudhub-2"
+        },
+        {
+          "@id": "kt:runtime-fabric"
+        },
+        {
+          "@id": "kt:anypoint-monitoring"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:mulesoft-anypoint-platform"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:mule-runtime-engine"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:runtime-manager-agent"
+        }
+      ]
+    },
+    {
       "@id": "kt:apex-rest-services",
       "@type": "kto:Feature",
       "skos:prefLabel": "Apex REST Services",
