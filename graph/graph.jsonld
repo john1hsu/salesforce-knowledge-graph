@@ -27240,6 +27240,84 @@
       ]
     },
     {
+      "@id": "kt:workspace-api",
+      "@type": "kto:API",
+      "skos:prefLabel": "Workspace API",
+      "skos:definition": "The Lightning Console JavaScript API library that lets Aura and Lightning web components open, focus, label, refresh and close workspace tabs and subtabs in Lightning console apps; LWC uses the lightning/platformWorkspaceApi module, Aura the legacy lightning:workspaceAPI component.",
+      "kto:domain": "development",
+      "dcterms:created": "2026-11-25",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Salesforce Console Developer Guide: Lightning Console API",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api_console.meta/api_console/sforce_api_console_lex_getting_started.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Lightning Component Reference: Platform Workspace API",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/platform/lightning-component-reference/guide/lightning-platform-workspace-api.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Salesforce Console Developer Guide: openTab() for Lightning Experience",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/service/api-console/guide/sforce-api-console-lightning-opentab.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Lightning Component Reference: Workspace API (Legacy Components)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/platform/lightning-component-reference/guide/aura-workspace-api.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Navigate Console Apps from Lightning Web Components with the Workspace API",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2024/06/navigate-console-apps-from-lightning-web-components-with-the-workspace-api",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/development/workspace-api.md",
+      "skos:altLabel": [
+        "Lightning Console Workspace API",
+        "lightning/platformWorkspaceApi",
+        "lightning:workspaceAPI",
+        "Platform Workspace API"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-apis"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:lightning-message-service"
+        },
+        {
+          "@id": "kt:lwc-jest-testing"
+        },
+        {
+          "@id": "kt:content-security-policy"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:lightning-service-console"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:lightning-web-components"
+        },
+        {
+          "@id": "kt:aura-components"
+        }
+      ]
+    },
+    {
       "@id": "kt:agentexchange-go-to-market-app",
       "@type": "kto:Tool",
       "skos:prefLabel": "AgentExchange Go-To-Market App",
