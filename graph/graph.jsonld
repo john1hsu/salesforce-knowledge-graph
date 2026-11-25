@@ -6821,6 +6821,97 @@
       ]
     },
     {
+      "@id": "kt:flow-run-context",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Flow Run Context",
+      "skos:definition": "The security mode a flow runs in (user context, system context with sharing, or system context without sharing) together with the user it runs as, which together decide what objects, fields and records each flow type can read and change.",
+      "kto:domain": "automation",
+      "dcterms:created": "2026-11-25",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Grant Flow Permissions and Context (Trailhead, Flow Implementation 2)",
+          "dcterms:publisher": "Salesforce Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/flow-implementation-2/grant-flow-permissions-and-context",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Your Guide to Determining the Flow Running User and Its Execution Context",
+          "dcterms:publisher": "Salesforce Admins Blog",
+          "schema:url": "https://admin.salesforce.com/blog/2022/your-guide-to-determining-the-flow-running-user-and-its-execution-context",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Security Considerations for Flow Design (Secure Coding Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/secure-coding/guide/secure-coding-considerations-flow-design.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Flow Security (Experience Cloud Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/communities-dev/guide/communities-dev-security-guest-users-flows.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/automation/flow-run-context.md",
+      "skos:altLabel": [
+        "flow execution context",
+        "flow running user",
+        "flow run mode",
+        "system context without sharing",
+        "system context with sharing",
+        "flow user context"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:flow-builder"
+        },
+        {
+          "@id": "kt:salesforce-sharing-model"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:screen-flow"
+        },
+        {
+          "@id": "kt:record-triggered-flow"
+        },
+        {
+          "@id": "kt:schedule-triggered-flow"
+        },
+        {
+          "@id": "kt:autolaunched-flow"
+        },
+        {
+          "@id": "kt:platform-event-triggered-flow"
+        },
+        {
+          "@id": "kt:apex-user-mode"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:field-level-security"
+        },
+        {
+          "@id": "kt:principle-of-least-privilege"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:process-automation-settings"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:experience-cloud"
+        }
+      ]
+    },
+    {
       "@id": "kt:flow-templates",
       "@type": "kto:Feature",
       "skos:prefLabel": "Flow Templates",

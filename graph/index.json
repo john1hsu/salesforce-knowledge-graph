@@ -5706,6 +5706,30 @@
     ]
   },
   {
+    "id": "kt:flow-run-context",
+    "title": "Flow Run Context",
+    "aliases": [
+      "flow execution context",
+      "flow running user",
+      "flow run mode",
+      "system context without sharing",
+      "system context with sharing",
+      "flow user context"
+    ],
+    "type": "Concept",
+    "domain": "automation",
+    "file": "articles/automation/flow-run-context.md",
+    "created": "2026-11-25",
+    "release": "Winter '27",
+    "status": "current",
+    "source_urls": [
+      "https://trailhead.salesforce.com/content/learn/modules/flow-implementation-2/grant-flow-permissions-and-context",
+      "https://admin.salesforce.com/blog/2022/your-guide-to-determining-the-flow-running-user-and-its-execution-context",
+      "https://developer.salesforce.com/docs/platform/secure-coding/guide/secure-coding-considerations-flow-design.html",
+      "https://developer.salesforce.com/docs/platform/communities-dev/guide/communities-dev-security-guest-users-flows.html"
+    ]
+  },
+  {
     "id": "kt:flow-templates",
     "title": "Flow Templates",
     "aliases": [
