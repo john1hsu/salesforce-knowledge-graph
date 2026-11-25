@@ -14,7 +14,7 @@ broader: [kt:business-architecture]
 related: [kt:salesforce-diagrams, kt:salesforce-center-of-excellence, kt:architecture-decision-records, kt:value-streams, kt:salesforce-industries, kt:togaf]
 relations:
   - {predicate: usedBy, object: kt:salesforce-architect}
-  - {predicate: enables, object: kt:technology-roadmaps}
+  - {predicate: enables, object: kt:architecture-roadmaps}
 sources:
   - id: s1
     title: "TOGAF Series Guide: Business Capabilities, Version 2"
@@ -86,7 +86,7 @@ Capability-based planning then maps capabilities to value-stream stages to see w
 
 ## Connections
 
-Capability maps are a core artifact of `kt:business-architecture`, and TOGAF links them to `kt:value-streams`, whose stages show which capabilities create stakeholder value.[^s1][^s2] They are drawn with the templates and iconography of `kt:salesforce-diagrams`, and the same gallery section includes a diagram for the `kt:salesforce-center-of-excellence`, the body that usually owns the map and its priorities.[^s3][^s5] The map is **used by** the `kt:salesforce-architect` and **enables** `kt:technology-roadmaps` through gap analysis.[^s6] Decisions taken while closing a gap can be preserved as `kt:architecture-decision-records`.[^s2] Industry-specific maps such as the Loyalty Management and Data 360 examples connect capability thinking to `kt:salesforce-industries` products.[^s3]
+Capability maps are a core artifact of `kt:business-architecture`, and TOGAF links them to `kt:value-streams`, whose stages show which capabilities create stakeholder value.[^s1][^s2] They are drawn with the templates and iconography of `kt:salesforce-diagrams`, and the same gallery section includes a diagram for the `kt:salesforce-center-of-excellence`, the body that usually owns the map and its priorities.[^s3][^s5] The map is **used by** the `kt:salesforce-architect` and **enables** `kt:architecture-roadmaps` through gap analysis.[^s6] Decisions taken while closing a gap can be preserved as `kt:architecture-decision-records`.[^s2] Industry-specific maps such as the Loyalty Management and Data 360 examples connect capability thinking to `kt:salesforce-industries` products.[^s3]
 
 ## Sources
 

@@ -343,6 +343,105 @@
       ]
     },
     {
+      "@id": "kt:architecture-roadmaps",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Architecture Roadmaps",
+      "skos:definition": "A phased, prioritized view of how a Salesforce program moves from its current state to a target state over roughly the next 12–24 months, drawn as business (capability, feature) or technology (system, component) roadmaps for different audiences and grounded in capability gap analysis; TOGAF calls the equivalent artifact the Architecture Roadmap.",
+      "kto:domain": "architecture-practice",
+      "dcterms:created": "2026-11-25",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Architect's Guide to Effective Roadmaps",
+          "dcterms:publisher": "Salesforce Architects (Marc Braga)",
+          "schema:url": "https://medium.com/salesforce-architects/architects-guide-to-effective-roadmaps-fa8cbbb573e9",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Roadmap (Reference Diagrams)",
+          "dcterms:publisher": "Salesforce Architects",
+          "schema:url": "https://architect.salesforce.com/docs/architect/reference-diagrams/guide/section-roadmap",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Capability Roadmap (Diagram Template Gallery)",
+          "dcterms:publisher": "Salesforce Architects",
+          "schema:url": "https://architect.salesforce.com/diagrams/template-gallery/capability-roadmap",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "The TOGAF Standard, Phase E: Opportunities & Solutions",
+          "dcterms:publisher": "The Open Group",
+          "schema:url": "https://pubs.opengroup.org/togaf-standard/adm/chap09.html",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "The TOGAF Standard, Phase F: Migration Planning",
+          "dcterms:publisher": "The Open Group",
+          "schema:url": "https://pubs.opengroup.org/togaf-standard/adm/chap10.html",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "Implement Your Salesforce CoE's Core Capabilities (Salesforce Governance with a Center of Excellence)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/salesforce-governance-with-a-center-of-excellence/implement-your-salesforce-coes-core-capabilities",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/architecture-practice/architecture-roadmaps.md",
+      "skos:altLabel": [
+        "architecture roadmap",
+        "technology roadmap",
+        "business capability roadmap",
+        "capability roadmap",
+        "system roadmap",
+        "component roadmap",
+        "feature roadmap",
+        "Salesforce roadmap"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:enterprise-architecture"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:capability-maps"
+        },
+        {
+          "@id": "kt:togaf"
+        },
+        {
+          "@id": "kt:salesforce-center-of-excellence"
+        },
+        {
+          "@id": "kt:salesforce-diagrams"
+        },
+        {
+          "@id": "kt:fit-gap-analysis"
+        },
+        {
+          "@id": "kt:release-management"
+        }
+      ],
+      "kto:usedBy": [
+        {
+          "@id": "kt:salesforce-architect"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:capability-maps"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:statement-of-work"
+        }
+      ]
+    },
+    {
       "@id": "kt:archiving-strategy",
       "@type": "kto:Concept",
       "skos:prefLabel": "Archiving Strategy",
@@ -674,7 +773,7 @@
       ],
       "kto:enables": [
         {
-          "@id": "kt:technology-roadmaps"
+          "@id": "kt:architecture-roadmaps"
         }
       ]
     },
