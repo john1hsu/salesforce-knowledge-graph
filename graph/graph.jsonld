@@ -40964,6 +40964,98 @@
       ]
     },
     {
+      "@id": "kt:briefcase-builder",
+      "@type": "kto:Tool",
+      "skos:prefLabel": "Briefcase Builder",
+      "skos:definition": "Setup tool for defining briefcases: rule-based sets of records that are primed onto mobile devices so assigned users and groups can work with them offline in the Field Service mobile app and the Salesforce offline mobile experience.",
+      "kto:domain": "platform-architecture",
+      "dcterms:created": "2026-11-25",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Mobile and Offline Developer Guide: Build a Briefcase",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.264.0.mobile_offline.meta/mobile_offline/dx_onboard_wizard_briefcase.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Configure Offline Briefcase for Field Service Mobile: Build a Briefcase",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/offline-briefcase/build-a-briefcase",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Configure Offline Briefcase for Field Service Mobile: Allow Access to Information Offline",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/offline-briefcase/allow-access-to-information-online",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Configure Offline Briefcase for Field Service Mobile: Optimize a Briefcase with Advanced Rules",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/offline-briefcase/optimize-a-briefcase-with-advanced-rules",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Metadata API Developer Guide: BriefcaseDefinition",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_briefcasedefinition.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Mobile and Offline Developer Guide: Considerations for Field Service Mobile App",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.mobile_offline.meta/mobile_offline/considerations_app_sfs.htm",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/platform-architecture/briefcase-builder.md",
+      "skos:altLabel": [
+        "Briefcase",
+        "offline briefcase",
+        "BriefcaseDefinition",
+        "briefcase rules"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-mobile-app"
+        },
+        {
+          "@id": "kt:field-service-mobile-app"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:work-orders"
+        },
+        {
+          "@id": "kt:formula-fields"
+        },
+        {
+          "@id": "kt:custom-metadata-types"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:field-service-mobile-app"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:field-service"
+        },
+        {
+          "@id": "kt:public-groups"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:metadata-api"
+        }
+      ]
+    },
+    {
       "@id": "kt:bulkification",
       "@type": "kto:Pattern",
       "skos:prefLabel": "Bulkification",
