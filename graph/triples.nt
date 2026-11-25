@@ -7102,6 +7102,37 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/get-records-element> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/soql> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/get-records-element> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/get-records-element> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/go-live-readiness-assessment> <http://purl.org/dc/terms/created> "2026-11-25" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/go-live-readiness-assessment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/go-live-readiness-assessment> <http://www.w3.org/2000/01/rdf-schema#label> "Go-Live Readiness Assessment" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/go-live-readiness-assessment> <http://www.w3.org/2004/02/skos/core#altLabel> "go-live checklist" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/go-live-readiness-assessment> <http://www.w3.org/2004/02/skos/core#altLabel> "go-live readiness review" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/go-live-readiness-assessment> <http://www.w3.org/2004/02/skos/core#altLabel> "go/no-go readiness review" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/go-live-readiness-assessment> <http://www.w3.org/2004/02/skos/core#altLabel> "launch gate" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/go-live-readiness-assessment> <http://www.w3.org/2004/02/skos/core#altLabel> "launch readiness review" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/go-live-readiness-assessment> <http://www.w3.org/2004/02/skos/core#altLabel> "site readiness assessment" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/go-live-readiness-assessment> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/application-lifecycle-management> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/go-live-readiness-assessment> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/release-management> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/go-live-readiness-assessment> <http://www.w3.org/2004/02/skos/core#definition> "The structured review held in the weeks before a Salesforce launch that checks whether the solution, data, people and support model are ready, logs risks and blockers with owners, and feeds the go/no-go decision." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/go-live-readiness-assessment> <http://www.w3.org/2004/02/skos/core#prefLabel> "Go-Live Readiness Assessment" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/go-live-readiness-assessment> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/change-management-and-adoption> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/go-live-readiness-assessment> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/cutover-plan> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/go-live-readiness-assessment> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-migration-strategy> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/go-live-readiness-assessment> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/hypercare> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/go-live-readiness-assessment> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/non-functional-requirements> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/go-live-readiness-assessment> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/user-acceptance-testing> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/go-live-readiness-assessment> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/go-live-readiness-assessment/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/go-live-readiness-assessment> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/go-live-readiness-assessment/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/go-live-readiness-assessment> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/go-live-readiness-assessment/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/go-live-readiness-assessment> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/go-live-readiness-assessment/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/go-live-readiness-assessment> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/go-live-readiness-assessment/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/go-live-readiness-assessment> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/rollback-plan> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/go-live-readiness-assessment> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/scale-test> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/go-live-readiness-assessment> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/security-health-check> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/go-live-readiness-assessment> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/testing-strategy> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/go-live-readiness-assessment> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "architecture-practice" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/go-live-readiness-assessment> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/go-live-readiness-assessment> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/governance-risk-and-compliance> <http://purl.org/dc/terms/created> "2026-11-14" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/governance-risk-and-compliance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#ExternalConcept> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/governance-risk-and-compliance> <http://www.w3.org/2000/01/rdf-schema#label> "Governance, Risk and Compliance" .
@@ -22268,6 +22299,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/get-records-element/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/get-records-element/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/get-records-element/s5> <https://schema.org/url> "https://developer.salesforce.com/docs/ai/loan-agent/guide/create-flow-element-to-get-contact-id.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/go-live-readiness-assessment/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/go-live-readiness-assessment/s1> <http://purl.org/dc/terms/title> "Prepare to Launch (B2C Commerce Site Readiness Assessment)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/go-live-readiness-assessment/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/go-live-readiness-assessment/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/go-live-readiness-assessment/s1> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/salesforce-b2c-commerce-site-readiness-assessment/prepare-to-launch" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/go-live-readiness-assessment/s2> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/go-live-readiness-assessment/s2> <http://purl.org/dc/terms/title> "Manage the Launch and Post-Launch Activities" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/go-live-readiness-assessment/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/go-live-readiness-assessment/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/go-live-readiness-assessment/s2> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/cc-project-mgmt/cc-launch-and-post-launch" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/go-live-readiness-assessment/s3> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/go-live-readiness-assessment/s3> <http://purl.org/dc/terms/title> "Use Health Check to Scan Your Security Configurations" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/go-live-readiness-assessment/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/go-live-readiness-assessment/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/go-live-readiness-assessment/s3> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/security_basics/security_basics_healthcheck" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/go-live-readiness-assessment/s4> <http://purl.org/dc/terms/publisher> "Microsoft Learn (Dynamics 365 implementation guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/go-live-readiness-assessment/s4> <http://purl.org/dc/terms/title> "Use the go-live checklist to make sure your solution is ready for go-live" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/go-live-readiness-assessment/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/go-live-readiness-assessment/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "partner" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/go-live-readiness-assessment/s4> <https://schema.org/url> "https://learn.microsoft.com/dynamics365/guidance/implementation-guide/prepare-go-live-checklist" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/go-live-readiness-assessment/s5> <http://purl.org/dc/terms/publisher> "Microsoft Learn (Dynamics 365 implementation guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/go-live-readiness-assessment/s5> <http://purl.org/dc/terms/title> "Prepare to go live" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/go-live-readiness-assessment/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/go-live-readiness-assessment/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "partner" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/go-live-readiness-assessment/s5> <https://schema.org/url> "https://learn.microsoft.com/dynamics365/guidance/implementation-guide/prepare-to-go-live" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/governance-risk-and-compliance/s1> <http://purl.org/dc/terms/publisher> "OCEG" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/governance-risk-and-compliance/s1> <http://purl.org/dc/terms/title> "What Is GRC (Governance, Risk, and Compliance)?" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/governance-risk-and-compliance/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

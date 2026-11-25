@@ -1738,6 +1738,99 @@
       ]
     },
     {
+      "@id": "kt:go-live-readiness-assessment",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Go-Live Readiness Assessment",
+      "skos:definition": "The structured review held in the weeks before a Salesforce launch that checks whether the solution, data, people and support model are ready, logs risks and blockers with owners, and feeds the go/no-go decision.",
+      "kto:domain": "architecture-practice",
+      "dcterms:created": "2026-11-25",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Prepare to Launch (B2C Commerce Site Readiness Assessment)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/salesforce-b2c-commerce-site-readiness-assessment/prepare-to-launch",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Manage the Launch and Post-Launch Activities",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/cc-project-mgmt/cc-launch-and-post-launch",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Use Health Check to Scan Your Security Configurations",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/security_basics/security_basics_healthcheck",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Use the go-live checklist to make sure your solution is ready for go-live",
+          "dcterms:publisher": "Microsoft Learn (Dynamics 365 implementation guide)",
+          "schema:url": "https://learn.microsoft.com/dynamics365/guidance/implementation-guide/prepare-go-live-checklist",
+          "kto:sourceType": "partner"
+        },
+        {
+          "dcterms:title": "Prepare to go live",
+          "dcterms:publisher": "Microsoft Learn (Dynamics 365 implementation guide)",
+          "schema:url": "https://learn.microsoft.com/dynamics365/guidance/implementation-guide/prepare-to-go-live",
+          "kto:sourceType": "partner"
+        }
+      ],
+      "kto:file": "articles/architecture-practice/go-live-readiness-assessment.md",
+      "skos:altLabel": [
+        "go-live readiness review",
+        "launch readiness review",
+        "go-live checklist",
+        "launch gate",
+        "site readiness assessment",
+        "go/no-go readiness review"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:release-management"
+        },
+        {
+          "@id": "kt:application-lifecycle-management"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:cutover-plan"
+        },
+        {
+          "@id": "kt:user-acceptance-testing"
+        },
+        {
+          "@id": "kt:hypercare"
+        },
+        {
+          "@id": "kt:data-migration-strategy"
+        },
+        {
+          "@id": "kt:change-management-and-adoption"
+        },
+        {
+          "@id": "kt:non-functional-requirements"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:testing-strategy"
+        },
+        {
+          "@id": "kt:security-health-check"
+        },
+        {
+          "@id": "kt:scale-test"
+        },
+        {
+          "@id": "kt:rollback-plan"
+        }
+      ]
+    },
+    {
       "@id": "kt:heroku-architect-certification",
       "@type": "kto:Certification",
       "skos:prefLabel": "Heroku Architect Certification",
