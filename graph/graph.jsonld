@@ -21969,6 +21969,106 @@
       ]
     },
     {
+      "@id": "kt:number-currency-and-percent-fields",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Number, Currency, and Percent Fields",
+      "skos:definition": "The three numeric custom field data types on the Salesforce platform: Number for plain values, Currency for money amounts and Percent for ratios, each configured with a length (digits left of the decimal point) and decimal places, and all exposed to the API as type double.",
+      "kto:domain": "data-model",
+      "dcterms:created": "2026-11-25",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Custom Field Types",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=platform.custom_field_types.htm&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Custom Field Attributes",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=platform.custom_field_attributes.htm&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Primitive Data Types — Object Reference for the Salesforce Platform",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api.meta/api/primitive_data_types.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Field Types — Object Reference for the Salesforce Platform",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/object-reference/guide/field-types.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Custom Fields — Object Reference for the Salesforce Platform",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/api/custom_fields.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "CustomField — Metadata API Developer Guide",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/api-metadata/references/meta-types/metadata-customfield.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Decimal Class — Apex Reference Guide",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_decimal.htm",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/data-model/number-currency-and-percent-fields.md",
+      "skos:altLabel": [
+        "number field",
+        "currency field",
+        "percent field",
+        "numeric field types",
+        "numeric custom fields",
+        "decimal places setting"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:custom-fields"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:multiple-currencies"
+        },
+        {
+          "@id": "kt:formula-fields"
+        },
+        {
+          "@id": "kt:roll-up-summary-field"
+        },
+        {
+          "@id": "kt:external-id-fields"
+        },
+        {
+          "@id": "kt:field-type-conversion"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:metadata-api"
+        }
+      ],
+      "kto:queriedWith": [
+        {
+          "@id": "kt:soql"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:apex"
+        }
+      ]
+    },
+    {
       "@id": "kt:object-relationships",
       "@type": "kto:Concept",
       "skos:prefLabel": "Object Relationships",
