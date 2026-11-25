@@ -26,8 +26,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:tableau-pulse` | `kt:tableau` |
 | `kt:einstein-discovery` | `kt:crm-analytics` |
 | `kt:saql` | `kt:crm-analytics` |
-| `kt:apex-mocks` | `kt:apex-enterprise-patterns` |
 | `kt:lightning-out` | `kt:lightning-locker` |
+| `kt:apex-mocks` | `kt:apex-enterprise-patterns` |
 | `kt:salesforce-ecosystem` | `kt:salesforce-inc` |
 | `kt:heroku-postgres` | `kt:heroku-connect` |
 | `kt:path` | `kt:business-processes` |
@@ -47,9 +47,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:constraint-modeling-language` | `kt:product-configurator` |
 | `kt:product-catalog-management` | `kt:product-configurator` |
 | `kt:anypoint-runtime-manager` | `kt:mule-runtime-engine` |
+| `kt:mobile-sdk` | `kt:salesforce-mobile-app` |
 | `kt:marketing-cloud-sql` | `kt:automation-studio` |
 | `kt:business-analyst-certification` | `kt:user-acceptance-testing` |
-| `kt:mobile-sdk` | `kt:salesforce-mobile-app` |
 | `kt:engagement-studio` | `kt:marketing-cloud-account-engagement` |
 | `kt:business-process-mapping` | `kt:requirements-gathering` |
 | `kt:in-app-guidance` | `kt:change-management-and-adoption` |
@@ -69,8 +69,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:data-cloud-query-api` | `kt:data-graphs` |
 | `kt:opportunity-products` | `kt:price-books` |
 | `kt:value-streams` | `kt:capability-maps` |
-| `kt:enterprise-service-bus` | `kt:point-to-point-integration` |
 | `kt:holidays` | `kt:business-hours` |
+| `kt:enterprise-service-bus` | `kt:point-to-point-integration` |
 | `kt:api-visualizer` | `kt:application-network` |
 | `kt:aws-lambda` | `kt:amazon-connect` |
 | `kt:semantic-layer` | `kt:tableau-semantics` |
@@ -78,13 +78,13 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:operating-hours` | `kt:salesforce-scheduler` |
 | `kt:information-management` | `kt:data-management` |
 | `kt:decision-matrices` | `kt:decision-tables` |
+| `kt:shared-activities` | `kt:activity-data-model` |
 | `kt:passkeys` | `kt:security-keys` |
 | `kt:webauthn` | `kt:security-keys` |
-| `kt:shared-activities` | `kt:activity-data-model` |
 | `kt:hyperforce-assistant` | `kt:instance-refresh-and-org-migration` |
 | `kt:data-cloud-code-extension` | `kt:vector-search-in-data-cloud` |
-| `kt:ui-api` | `kt:field-dependencies` |
 | `kt:agentforce-vibes` | `kt:agentforce-vibes-ide` |
+| `kt:ui-api` | `kt:field-dependencies` |
 | `kt:mulesoft-for-flow-integration` | `kt:mulesoft-composer` |
 | `kt:guest-user-sharing-rules` | `kt:share-groups` |
 | `kt:slds-linter` | `kt:salesforce-lightning-design-system` |
@@ -94,8 +94,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:tx-ramp` | `kt:govramp` |
 | `kt:api-community-manager` | `kt:api-experience-hub` |
 | `kt:business-administration` | `kt:management` |
-| `kt:developer-console` | `kt:apex-logging-and-debug-logs` |
 | `kt:currency-type-object` | `kt:multiple-currencies` |
+| `kt:developer-console` | `kt:apex-logging-and-debug-logs` |
 | `kt:user-provisioning` | `kt:scim` |
 | `kt:destructive-changes` | `kt:rollback-plan` |
 | `kt:document-ai` | `kt:unstructured-data-in-data-cloud` |
@@ -106,9 +106,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:enhanced-letterheads` | `kt:email-templates` |
 | `kt:custom-labels` | `kt:flow-formula-resources` |
 | `kt:einstein-prediction-builder` | `kt:einstein-next-best-action` |
-| `kt:iso-iec-29100` | `kt:iso-iec-27018` |
 | `kt:agentforce-nonprofit-consultant-certification` | `kt:agentforce-nonprofit` |
 | `kt:nonprofit-success-pack` | `kt:agentforce-nonprofit` |
+| `kt:iso-iec-29100` | `kt:iso-iec-27018` |
 | `kt:digital-accessibility` | `kt:section-508-accessibility` |
 | `kt:federal-acquisition-regulation` | `kt:performance-work-statement` |
 | `kt:quality-assurance-surveillance-plan` | `kt:performance-work-statement` |

@@ -25585,6 +25585,100 @@
       ]
     },
     {
+      "@id": "kt:lightning-navigation-service",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Lightning Navigation Service",
+      "skos:definition": "The lightning/navigation module that lets Lightning web components navigate to, and generate URLs for, Salesforce pages described by PageReference objects instead of hard-coded URLs, and read the current page reference through the CurrentPageReference wire adapter.",
+      "kto:domain": "development",
+      "dcterms:created": "2026-11-25",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "LWC Developer Guide: Basic Navigation",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/lwc/guide/use-navigate-basic.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Lightning Component Reference: Navigation (lightning/navigation)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/lightning-component-reference/guide/lightning-navigation.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "LWC Developer Guide: PageReference Types",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/lwc/guide/reference-page-reference-type",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "LWC Developer Guide: Navigate to Different Page Types",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/lwc/guide/use-navigate-page-types.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "LWC Developer Guide: Navigate From a Modal",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/lwc/guide/use-navigate-modal.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Use the Navigation Service and Reuse Visualforce",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/ja/content/learn/modules/lwc-for-visualforce-developers/use-the-navigation-service-and-reuse-visualforce",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "LWR Sites for Experience Cloud: Lightning Navigation",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/exp-cloud-lwr/guide/get-started-comp-navigation.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/development/lightning-navigation-service.md",
+      "skos:altLabel": [
+        "lightning/navigation",
+        "NavigationMixin",
+        "LWC navigation service",
+        "PageReference navigation"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:lightning-web-components"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:lightning-message-service"
+        },
+        {
+          "@id": "kt:workspace-api"
+        },
+        {
+          "@id": "kt:wire-service"
+        },
+        {
+          "@id": "kt:visualforce"
+        },
+        {
+          "@id": "kt:salesforce-mobile-app"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:experience-builder"
+        },
+        {
+          "@id": "kt:screen-flow"
+        },
+        {
+          "@id": "kt:quick-actions"
+        }
+      ]
+    },
+    {
       "@id": "kt:lightning-web-components",
       "@type": "kto:Feature",
       "skos:prefLabel": "Lightning Web Components",
