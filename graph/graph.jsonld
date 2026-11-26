@@ -26460,6 +26460,116 @@
       ]
     },
     {
+      "@id": "kt:mobile-sdk",
+      "@type": "kto:Tool",
+      "skos:prefLabel": "Mobile SDK",
+      "skos:definition": "Salesforce's open-source toolkit for building standalone custom iOS and Android apps (native, hybrid or React Native) that log in to Salesforce with OAuth, call its APIs, and keep data offline in the encrypted SmartStore database synchronised through Mobile Sync.",
+      "kto:domain": "development",
+      "dcterms:created": "2026-11-26",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "About Native, HTML, and Hybrid Development",
+          "dcterms:publisher": "Salesforce Developers (Mobile SDK Development Guide)",
+          "schema:url": "https://developer.salesforce.com/docs/platform/mobile-sdk/guide/intro-choose-scenario.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "About Salesforce Mobile Apps",
+          "dcterms:publisher": "Salesforce Developers (Mobile SDK Development Guide)",
+          "schema:url": "https://developer.salesforce.com/docs/platform/mobile-sdk/guide/preface-arch.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "What's New in Mobile SDK 13.2",
+          "dcterms:publisher": "Salesforce Developers (Mobile SDK Development Guide)",
+          "schema:url": "https://developer.salesforce.com/docs/platform/mobile-sdk/guide/gs-whatsnew.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Supported Versions of Tools and Components for Mobile SDK 13.1",
+          "dcterms:publisher": "Salesforce Developers (Mobile SDK Development Guide)",
+          "schema:url": "https://developer.salesforce.com/docs/platform/mobile-sdk/guide/reference-current-versions.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "What Was New in Recent Releases",
+          "dcterms:publisher": "Salesforce Developers (Mobile SDK Development Guide)",
+          "schema:url": "https://developer.salesforce.com/docs/platform/mobile-sdk/guide/gs-whatswasnew.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "React Native Development",
+          "dcterms:publisher": "Salesforce Developers (Mobile SDK Development Guide)",
+          "schema:url": "https://developer.salesforce.com/docs/platform/mobile-sdk/guide/react-native-intro.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Hybrid Development: Get Started with Hybrid Development",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/mobile_sdk_hybrid/mobilesdk_hybrid_getting_started",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/development/mobile-sdk.md",
+      "skos:altLabel": [
+        "Salesforce Mobile SDK",
+        "forceios",
+        "forcedroid",
+        "forcehybrid",
+        "forcereact"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-platform"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:salesforce-mobile-app"
+        },
+        {
+          "@id": "kt:mobile-app-security-policies"
+        },
+        {
+          "@id": "kt:experience-cloud"
+        },
+        {
+          "@id": "kt:lightning-web-components"
+        },
+        {
+          "@id": "kt:smartstore"
+        },
+        {
+          "@id": "kt:mobile-sync"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:external-client-apps"
+        },
+        {
+          "@id": "kt:oauth-2-flows-in-salesforce"
+        }
+      ],
+      "kto:queriedWith": [
+        {
+          "@id": "kt:rest-api"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:salesforce-mobile-app"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:headless-identity"
+        }
+      ]
+    },
+    {
       "@id": "kt:omnistudio-developer-certification",
       "@type": "kto:Certification",
       "skos:prefLabel": "Omnistudio Developer Certification",
