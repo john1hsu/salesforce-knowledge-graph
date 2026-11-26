@@ -22863,6 +22863,92 @@
       ]
     },
     {
+      "@id": "kt:object-manager",
+      "@type": "kto:Tool",
+      "skos:prefLabel": "Object Manager",
+      "skos:definition": "The Lightning Experience Setup tool that lists every standard and custom object in an org and gives admins one place to manage each object's settings, such as fields and relationships, page layouts, compact layouts, record types, buttons and links.",
+      "kto:domain": "data-model",
+      "dcterms:created": "2026-11-26",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Learn to Use Setup and the Object Manager",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/setup-quick-look/learn-to-use-setup-and-the-object-manager",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Object Manager (Salesforce Style Guide for Documentation and User Interface Text)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.salesforce_pubs_style_guide.meta/salesforce_pubs_style_guide/style_object_manager.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Understand Sales Cloud Data Models",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/sales-cloud-configuration-basics/understand-data-models",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Optimize Customer Data with Standard and Custom Objects",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/en/modules/data_modeling/units/objects_intro",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Take a Tour of Setup Home in Lightning Experience",
+          "dcterms:publisher": "Salesforce Admins",
+          "schema:url": "https://admin.salesforce.com/blog/2020/setup-home-lightning-experience",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Learn Lightning: Create & Edit Objects",
+          "dcterms:publisher": "Salesforce Admins",
+          "schema:url": "https://admin.salesforce.com/blog/2016/learn-lightning-create-edit-objects",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/data-model/object-manager.md",
+      "skos:altLabel": [
+        "Salesforce Object Manager",
+        "Setup Object Manager"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-platform"
+        },
+        {
+          "@id": "kt:metadata-driven-architecture"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:custom-objects"
+        },
+        {
+          "@id": "kt:standard-objects"
+        },
+        {
+          "@id": "kt:custom-fields"
+        },
+        {
+          "@id": "kt:page-layouts"
+        },
+        {
+          "@id": "kt:compact-layouts"
+        },
+        {
+          "@id": "kt:record-types"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:schema-builder"
+        }
+      ]
+    },
+    {
       "@id": "kt:object-relationships",
       "@type": "kto:Concept",
       "skos:prefLabel": "Object Relationships",
