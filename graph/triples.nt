@@ -6514,6 +6514,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/fit-gap-analysis> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#usedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/business-analyst> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/fit-gap-analysis> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#usedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-architect> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/fit-gap-analysis> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-assignment-element> <http://purl.org/dc/terms/created> "2026-11-26" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-assignment-element> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-assignment-element> <http://www.w3.org/2000/01/rdf-schema#label> "Assignment Element" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-assignment-element> <http://www.w3.org/2004/02/skos/core#altLabel> "Assignment element in Flow" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-assignment-element> <http://www.w3.org/2004/02/skos/core#altLabel> "Flow Assignment element" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-assignment-element> <http://www.w3.org/2004/02/skos/core#altLabel> "Flow Builder Assignment" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-assignment-element> <http://www.w3.org/2004/02/skos/core#altLabel> "assignment operators in Flow" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-assignment-element> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-builder> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-assignment-element> <http://www.w3.org/2004/02/skos/core#definition> "A Flow Builder element that sets or changes the values of flow variables in memory, one ordered row at a time, using operators such as Equals, Add and Subtract for single values and Add, Remove and related operators for collections; it never writes to the database by itself." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-assignment-element> <http://www.w3.org/2004/02/skos/core#prefLabel> "Assignment Element" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-assignment-element> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-bulkification> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-assignment-element> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-decision-element> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-assignment-element> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-formula-resources> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-assignment-element> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-loop-element> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-assignment-element> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/get-records-element> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-assignment-element> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-assignment-element/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-assignment-element> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-assignment-element/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-assignment-element> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-assignment-element/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-assignment-element> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-assignment-element/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-assignment-element> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-assignment-element/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-assignment-element> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-assignment-element/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-assignment-element> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#alternativeTo> <https://github.com/john1hsu/salesforce-knowledge-graph/id/collection-filter-and-sort> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-assignment-element> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "automation" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-assignment-element> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-assignment-element> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-builder> <http://purl.org/dc/terms/created> "2026-10-30" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-builder> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Tool> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-builder> <http://www.w3.org/2000/01/rdf-schema#label> "Flow Builder" .
@@ -21752,6 +21777,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fit-gap-analysis/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fit-gap-analysis/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "partner" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fit-gap-analysis/s6> <https://schema.org/url> "https://learn.microsoft.com/en-us/dynamics365/guidance/implementation-guide/process-focused-solution-fit-to-standard-fit-gap-analysis" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-assignment-element/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-assignment-element/s1> <http://purl.org/dc/terms/title> "Set and Change Variable Values (Improve Process Automation with Flow Builder)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-assignment-element/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-assignment-element/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-assignment-element/s1> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/flow-build-logic/set-change-variable-values" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-assignment-element/s2> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-assignment-element/s2> <http://purl.org/dc/terms/title> "Calculate Values in Variables and Formulas" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-assignment-element/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-assignment-element/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-assignment-element/s2> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/flow-build-logic/calculate-values-variables-formulas" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-assignment-element/s3> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-assignment-element/s3> <http://purl.org/dc/terms/title> "Assign First Selection to a Text Collection" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-assignment-element/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-assignment-element/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-assignment-element/s3> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/loop-manually-through-multiple-choices-in-flows/assign-first-selection-to-a-text-collection" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-assignment-element/s4> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-assignment-element/s4> <http://purl.org/dc/terms/title> "Assign Selections to a Text Variable" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-assignment-element/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-assignment-element/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-assignment-element/s4> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/loop-manually-through-multiple-choices-in-flows/assign-selections-to-a-text-variable" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-assignment-element/s5> <http://purl.org/dc/terms/publisher> "Salesforce Admins Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-assignment-element/s5> <http://purl.org/dc/terms/title> "Automate This! — How to Use Loops in Flow" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-assignment-element/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-assignment-element/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-assignment-element/s5> <https://schema.org/url> "https://admin.salesforce.com/blog/2022/automate-this-how-to-use-loops-in-flow" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-assignment-element/s6> <http://purl.org/dc/terms/publisher> "Salesforce Time" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-assignment-element/s6> <http://purl.org/dc/terms/title> "Collection Assignment Operators in Flow" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-assignment-element/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-assignment-element/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "community" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-assignment-element/s6> <https://schema.org/url> "https://salesforcetime.com/2022/10/07/collection-assignment-operators-in-flow/" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-builder/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-builder/s1> <http://purl.org/dc/terms/title> "Flow Basics: Meet Flow Builder" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-builder/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

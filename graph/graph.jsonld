@@ -6116,6 +6116,88 @@
       ]
     },
     {
+      "@id": "kt:flow-assignment-element",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Assignment Element",
+      "skos:definition": "A Flow Builder element that sets or changes the values of flow variables in memory, one ordered row at a time, using operators such as Equals, Add and Subtract for single values and Add, Remove and related operators for collections; it never writes to the database by itself.",
+      "kto:domain": "automation",
+      "dcterms:created": "2026-11-26",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Set and Change Variable Values (Improve Process Automation with Flow Builder)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/flow-build-logic/set-change-variable-values",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Calculate Values in Variables and Formulas",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/flow-build-logic/calculate-values-variables-formulas",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Assign First Selection to a Text Collection",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/loop-manually-through-multiple-choices-in-flows/assign-first-selection-to-a-text-collection",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Assign Selections to a Text Variable",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/loop-manually-through-multiple-choices-in-flows/assign-selections-to-a-text-variable",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Automate This! — How to Use Loops in Flow",
+          "dcterms:publisher": "Salesforce Admins Blog",
+          "schema:url": "https://admin.salesforce.com/blog/2022/automate-this-how-to-use-loops-in-flow",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Collection Assignment Operators in Flow",
+          "dcterms:publisher": "Salesforce Time",
+          "schema:url": "https://salesforcetime.com/2022/10/07/collection-assignment-operators-in-flow/",
+          "kto:sourceType": "community"
+        }
+      ],
+      "kto:file": "articles/automation/flow-assignment-element.md",
+      "skos:altLabel": [
+        "Flow Assignment element",
+        "Assignment element in Flow",
+        "Flow Builder Assignment",
+        "assignment operators in Flow"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:flow-builder"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:flow-loop-element"
+        },
+        {
+          "@id": "kt:flow-decision-element"
+        },
+        {
+          "@id": "kt:get-records-element"
+        },
+        {
+          "@id": "kt:flow-formula-resources"
+        },
+        {
+          "@id": "kt:flow-bulkification"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:collection-filter-and-sort"
+        }
+      ]
+    },
+    {
       "@id": "kt:flow-builder",
       "@type": "kto:Tool",
       "skos:prefLabel": "Flow Builder",
