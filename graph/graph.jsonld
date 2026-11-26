@@ -42302,6 +42302,70 @@
       ]
     },
     {
+      "@id": "kt:slack-api-rate-limits",
+      "@type": "kto:Limit",
+      "skos:prefLabel": "Slack API Rate Limits",
+      "skos:definition": "The per-minute, per-method, per-workspace, per-app caps that Slack places on Web API calls (Tiers 1-4 plus special limits such as one posted message per second per channel), together with the hourly Events API delivery limit and the workflow trigger limits that constrain integrations between Salesforce and Slack.",
+      "kto:domain": "integration",
+      "dcterms:created": "2026-11-26",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Rate limits",
+          "dcterms:publisher": "Slack (Salesforce)",
+          "schema:url": "https://docs.slack.dev/apis/web-api/rate-limits",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Rate limit changes for non-Marketplace apps",
+          "dcterms:publisher": "Slack (Salesforce)",
+          "schema:url": "https://docs.slack.dev/changelog/2025/05/29/rate-limit-changes-for-non-marketplace-apps",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Explore the Bolt Development Framework",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/slack-app-development-with-bolt/explore-the-bolt-development-framework",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Considerations and Limitations (Apex SDK for Slack, Beta)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/salesforce-slack-sdk/guide/known_issues.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/integration/slack-api-rate-limits.md",
+      "skos:altLabel": [
+        "Slack rate limits",
+        "Slack Web API rate limit tiers",
+        "Slack Events API delivery limit",
+        "app_rate_limited"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:slack-platform"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:block-kit"
+        },
+        {
+          "@id": "kt:slack-workflow-builder"
+        },
+        {
+          "@id": "kt:event-driven-architecture"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:api-request-limits"
+        }
+      ]
+    },
+    {
       "@id": "kt:soap-api",
       "@type": "kto:API",
       "skos:prefLabel": "SOAP API",

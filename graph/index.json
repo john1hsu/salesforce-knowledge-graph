@@ -13275,6 +13275,28 @@
     ]
   },
   {
+    "id": "kt:slack-api-rate-limits",
+    "title": "Slack API Rate Limits",
+    "aliases": [
+      "Slack rate limits",
+      "Slack Web API rate limit tiers",
+      "Slack Events API delivery limit",
+      "app_rate_limited"
+    ],
+    "type": "Limit",
+    "domain": "integration",
+    "file": "articles/integration/slack-api-rate-limits.md",
+    "created": "2026-11-26",
+    "release": "Winter '27",
+    "status": "current",
+    "source_urls": [
+      "https://docs.slack.dev/apis/web-api/rate-limits",
+      "https://docs.slack.dev/changelog/2025/05/29/rate-limit-changes-for-non-marketplace-apps",
+      "https://trailhead.salesforce.com/content/learn/modules/slack-app-development-with-bolt/explore-the-bolt-development-framework",
+      "https://developer.salesforce.com/docs/platform/salesforce-slack-sdk/guide/known_issues.html"
+    ]
+  },
+  {
     "id": "kt:slack-platform",
     "title": "Slack Platform",
     "aliases": [
