@@ -11,7 +11,7 @@ summary: >-
 release: "Winter '27"
 status: current
 broader: [kt:agentforce]
-related: [kt:agent-actions, kt:atlas-reasoning-engine, kt:agent-development-lifecycle, kt:agentforce-dx]
+related: [kt:agent-actions, kt:atlas-reasoning-engine, kt:agent-development-lifecycle, kt:agentforce-dx, kt:agent-variables]
 relations:
   - {predicate: partOf, object: kt:agentforce}
   - {predicate: configuredVia, object: kt:agentforce-studio}
