@@ -44281,6 +44281,78 @@
       ]
     },
     {
+      "@id": "kt:computer-science",
+      "@type": "kto:ExternalConcept",
+      "skos:prefLabel": "Computer Science",
+      "skos:definition": "The study of computers and computing, from the theory of what can be computed and the design of algorithms to hardware, software, networks and their uses; it is the parent discipline of distributed computing, cloud computing and the programming-language, database and security ideas the Salesforce Platform is built from.",
+      "kto:domain": "platform-architecture",
+      "dcterms:created": "2026-11-26",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Computer science",
+          "dcterms:publisher": "Encyclopaedia Britannica (Geneva G. Belford, Allen Tucker)",
+          "schema:url": "https://www.britannica.com/science/computer-science",
+          "kto:sourceType": "textbook"
+        },
+        {
+          "dcterms:title": "Computing as a Discipline (Final Report of the ACM Task Force on the Core of Computer Science)",
+          "dcterms:publisher": "Communications of the ACM 32(1), Peter J. Denning et al.",
+          "schema:url": "https://www.cs.auckland.ac.nz/courses/compsci747s2c/lectures/denning-1989.pdf",
+          "kto:sourceType": "peer-reviewed"
+        },
+        {
+          "dcterms:title": "On Computable Numbers, with an Application to the Entscheidungsproblem",
+          "dcterms:publisher": "A. M. Turing (1936), hosted by the University of Virginia",
+          "schema:url": "https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf",
+          "kto:sourceType": "peer-reviewed"
+        },
+        {
+          "dcterms:title": "ACM, IEEE-CS, and AAAI Release CS2023 Curricular Guidelines",
+          "dcterms:publisher": "Association for Computing Machinery",
+          "schema:url": "https://www.acm.org/articles/bulletins/2024/june/cs2023-curricular-guidelines",
+          "kto:sourceType": "academic"
+        }
+      ],
+      "kto:file": "articles/platform-architecture/computer-science.md",
+      "skos:altLabel": [
+        "computing science",
+        "computing as a discipline",
+        "CS discipline"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:science"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:cloud-computing"
+        },
+        {
+          "@id": "kt:apex"
+        },
+        {
+          "@id": "kt:soql"
+        },
+        {
+          "@id": "kt:data-management"
+        },
+        {
+          "@id": "kt:generative-ai"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:distributed-computing"
+        },
+        {
+          "@id": "kt:software-engineering"
+        }
+      ]
+    },
+    {
       "@id": "kt:content-delivery-network",
       "@type": "kto:Concept",
       "skos:prefLabel": "Content Delivery Network",
