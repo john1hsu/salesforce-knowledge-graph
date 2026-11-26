@@ -51800,6 +51800,99 @@
       ]
     },
     {
+      "@id": "kt:pci-dss",
+      "@type": "kto:ExternalConcept",
+      "skos:prefLabel": "PCI DSS",
+      "skos:definition": "The card-industry security baseline, maintained by the PCI Security Standards Council, for every entity that stores, processes or transmits cardholder data; Salesforce publishes QSA-issued Attestations of Compliance per service, but what an org does with card data stays the customer's responsibility.",
+      "kto:domain": "public-sector-and-compliance",
+      "dcterms:created": "2026-11-26",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "PCI DSS (Salesforce Compliance Site)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://compliance.salesforce.com/jp/pci-dss",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "PCI Attestation of Compliance (AoC) - Salesforce Services on Hyperforce",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://compliance.salesforce.com/documents/a005A00000vvhbPQAQ",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Storing Sensitive Data (Secure Coding Guide)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/platform/secure-coding/guide/secure-coding-storing-sensitive-data.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "PCI Data Security Standard (PCI DSS)",
+          "dcterms:publisher": "PCI Security Standards Council",
+          "schema:url": "https://www.pcisecuritystandards.org/standards/pci-dss/",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "Just Published: PCI DSS v4.0.1",
+          "dcterms:publisher": "PCI Security Standards Council",
+          "schema:url": "https://blog.pcisecuritystandards.org/just-published-pci-dss-v4-0-1",
+          "kto:sourceType": "standards-body"
+        }
+      ],
+      "kto:file": "articles/public-sector-and-compliance/pci-dss.md",
+      "skos:altLabel": [
+        "Payment Card Industry Data Security Standard",
+        "PCI compliance",
+        "PCI DSS v4.0.1",
+        "PCI Attestation of Compliance",
+        "Salesforce PCI AoC"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:security-compliance-frameworks"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:hyperforce"
+        },
+        {
+          "@id": "kt:commerce-cloud"
+        },
+        {
+          "@id": "kt:data-cloud"
+        },
+        {
+          "@id": "kt:heroku"
+        },
+        {
+          "@id": "kt:classic-encryption"
+        },
+        {
+          "@id": "kt:named-credentials"
+        }
+      ],
+      "kto:mitigates": [
+        {
+          "@id": "kt:data-breach-risk"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:shared-responsibility-model"
+        },
+        {
+          "@id": "kt:data-classification"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:hipaa"
+        }
+      ]
+    },
+    {
       "@id": "kt:performance-work-statement",
       "@type": "kto:ExternalConcept",
       "skos:prefLabel": "Performance Work Statement",
