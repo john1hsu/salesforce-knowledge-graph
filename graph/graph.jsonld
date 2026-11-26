@@ -53449,6 +53449,104 @@
       ]
     },
     {
+      "@id": "kt:guest-user-record-access",
+      "@type": "kto:SecurityControl",
+      "skos:prefLabel": "Guest User Record Access",
+      "skos:definition": "The enforced set of controls that limit what unauthenticated visitors to Experience Cloud and Salesforce Sites can see and do: Private org-wide defaults for guests, Read Only access granted only through guest user sharing rules, no record ownership, and object permissions capped at Read and Create.",
+      "kto:domain": "security-and-sharing",
+      "dcterms:created": "2026-11-26",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Securely Share Your Experience Cloud Sites with Guest Users",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://resources.docs.salesforce.com/latest/latest/en-us/sfdc/pdf/communities_secure_guest_users.pdf",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Give Guest Users Access to Read Records (Experience Cloud Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/communities-dev/guide/communities-dev-give-guest-users-read-access-to-records.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Give Guest Users Access to Create Records (Experience Cloud Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/communities-dev/guide/communities-dev-give-guest-users-access-to-create-records.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Give Guest Users Access to Update Records (Experience Cloud Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/communities-dev/guide/communities-dev-give-guest-users-access-to-update-records.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Unauthenticated Guest User Guidelines (Experience Cloud Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/communities-dev/guide/communities-dev-security-guest-user-guidelines.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/security-and-sharing/guest-user-record-access.md",
+      "skos:altLabel": [
+        "secure guest user record access",
+        "Guest User Security Policy",
+        "guest user access controls",
+        "unauthenticated guest user access"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-sharing-model"
+        },
+        {
+          "@id": "kt:experience-cloud"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:salesforce-sites"
+        },
+        {
+          "@id": "kt:share-groups"
+        },
+        {
+          "@id": "kt:profiles"
+        },
+        {
+          "@id": "kt:field-level-security"
+        },
+        {
+          "@id": "kt:view-all-and-modify-all-permissions"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:sharing-rules"
+        },
+        {
+          "@id": "kt:organization-wide-defaults"
+        },
+        {
+          "@id": "kt:apex-security-with-sharing"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:manual-sharing"
+        },
+        {
+          "@id": "kt:apex-managed-sharing"
+        }
+      ],
+      "kto:mitigates": [
+        {
+          "@id": "kt:data-breach-risk"
+        }
+      ]
+    },
+    {
       "@id": "kt:high-volume-experience-cloud-users",
       "@type": "kto:Concept",
       "skos:prefLabel": "High-Volume Experience Cloud Users",
