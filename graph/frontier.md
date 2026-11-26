@@ -11,6 +11,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:channel-order-app` | `kt:agentexchange-go-to-market-app`, `kt:partner-business-org` |
 | `kt:business-architecture` | `kt:capability-maps`, `kt:togaf` |
 | `kt:enterprise-architecture` | `kt:architecture-roadmaps`, `kt:togaf` |
+| `kt:agent-to-agent-protocol` | `kt:agent-api`, `kt:agentforce-architecture-patterns` |
 | `kt:service-setup-assistant` | `kt:service-cloud` |
 | `kt:salesforce-ecosystem-roles` | `kt:salesforce-architect` |
 | `kt:salesforce-architecture-program` | `kt:salesforce-architecture-center` |
@@ -62,8 +63,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:fhir` | `kt:health-cloud` |
 | `kt:utilization-management` | `kt:health-cloud` |
 | `kt:data-cloud-query-api` | `kt:data-graphs` |
-| `kt:opportunity-products` | `kt:price-books` |
 | `kt:enterprise-service-bus` | `kt:point-to-point-integration` |
+| `kt:opportunity-products` | `kt:price-books` |
 | `kt:value-streams` | `kt:capability-maps` |
 | `kt:holidays` | `kt:business-hours` |
 | `kt:api-visualizer` | `kt:application-network` |
@@ -77,11 +78,11 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:passkeys` | `kt:security-keys` |
 | `kt:webauthn` | `kt:security-keys` |
 | `kt:guest-user-sharing-rules` | `kt:share-groups` |
-| `kt:agentforce-vibes` | `kt:agentforce-vibes-ide` |
-| `kt:data-cloud-code-extension` | `kt:vector-search-in-data-cloud` |
 | `kt:hyperforce-assistant` | `kt:instance-refresh-and-org-migration` |
-| `kt:ui-api` | `kt:field-dependencies` |
+| `kt:data-cloud-code-extension` | `kt:vector-search-in-data-cloud` |
+| `kt:agentforce-vibes` | `kt:agentforce-vibes-ide` |
 | `kt:mulesoft-for-flow-integration` | `kt:mulesoft-composer` |
+| `kt:ui-api` | `kt:field-dependencies` |
 | `kt:slds-linter` | `kt:salesforce-lightning-design-system` |
 | `kt:partner-relationship-management` | `kt:partner-community-licenses` |
 | `kt:destructive-changes` | `kt:rollback-plan` |
@@ -106,9 +107,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:signup-request-api` | `kt:trialforce` |
 | `kt:enhanced-letterheads` | `kt:email-templates` |
 | `kt:einstein-prediction-builder` | `kt:einstein-next-best-action` |
+| `kt:iso-iec-29100` | `kt:iso-iec-27018` |
 | `kt:agentforce-nonprofit-consultant-certification` | `kt:agentforce-nonprofit` |
 | `kt:nonprofit-success-pack` | `kt:agentforce-nonprofit` |
-| `kt:iso-iec-29100` | `kt:iso-iec-27018` |
 | `kt:digital-accessibility` | `kt:section-508-accessibility` |
 | `kt:federal-acquisition-regulation` | `kt:performance-work-statement` |
 | `kt:quality-assurance-surveillance-plan` | `kt:performance-work-statement` |
@@ -124,18 +125,17 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:twelve-factor-app` | `kt:heroku-architect-certification` |
 | `kt:salesforce-maps` | `kt:geolocation-fields` |
 | `kt:app-manager` | `kt:app-launcher` |
-| `kt:aws-clean-rooms` | `kt:data-360-clean-rooms` |
-| `kt:consent-data-model` | `kt:consent-management-in-data-cloud` |
 | `kt:custom-field-allocations` | `kt:deleted-fields-and-field-undelete` |
-| `kt:data-clean-room` | `kt:data-360-clean-rooms` |
-| `kt:einstein-activity-capture` | `kt:agentforce-sdr` |
 | `kt:lightning-apps` | `kt:app-launcher` |
 | `kt:notes-and-attachments` | `kt:content-document-model` |
 | `kt:planned-maintenance-windows` | `kt:disaster-recovery-and-site-switching` |
 | `kt:read-only-mode` | `kt:disaster-recovery-and-site-switching` |
-| `kt:agent-to-agent-protocol` | `kt:agentforce-architecture-patterns` |
+| `kt:aws-clean-rooms` | `kt:data-360-clean-rooms` |
+| `kt:consent-data-model` | `kt:consent-management-in-data-cloud` |
 | `kt:cross-cloud-integration` | `kt:salesforce-solution-kits` |
+| `kt:data-clean-room` | `kt:data-360-clean-rooms` |
 | `kt:document-checklist-items` | `kt:action-plans` |
+| `kt:einstein-activity-capture` | `kt:agentforce-sdr` |
 | `kt:greenhouse-gas-protocol` | `kt:net-zero-cloud` |
 | `kt:multi-agent-orchestration` | `kt:agentforce-architecture-patterns` |
 | `kt:tableau-blueprint` | `kt:tableau-architect-certification` |
