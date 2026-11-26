@@ -29079,6 +29079,112 @@
       ]
     },
     {
+      "@id": "kt:channel-order-app",
+      "@type": "kto:Tool",
+      "skos:prefLabel": "Channel Order App",
+      "skos:definition": "The managed app, preinstalled in every Partner Business Org, that ISV and OEM partners use to submit service orders to Salesforce Partner Operations after each customer transaction, driving revenue sharing, billing and (for OEM) license provisioning; net-new eligible deals now go through the AgentExchange Go-To-Market App instead.",
+      "kto:domain": "devops-and-alm",
+      "dcterms:created": "2026-11-26",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Channel Order App (ISVforce Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/isvforce/guide/coa-welcome.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Report Orders to Salesforce with the Channel Order App (ISVforce Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/isvforce/guide/coa-intro.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Channel Order App Objects (ISVforce Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/isvforce/guide/coa-objects.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Service Order (ISVforce Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/isvforce/guide/coa-objects-service-order.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Channel Order App Upgrade Considerations (ISVforce Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/isvforce/guide/coa-upgrade-considerations.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Partner Order Submit API (ISVforce Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/isvforce/guide/coa-serviceorderprocessor.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Intro to Channel Order App for AppExchange Partners (Trailhead)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/channel-order-app-basics/appexchange_channel_orders_get_started",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Migrate Existing Orders to the Go-To-Market App (ISVforce Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/isvforce/guide/partner-marketplace-coa-transition.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/devops-and-alm/channel-order-app.md",
+      "skos:altLabel": [
+        "COA",
+        "Salesforce Channel Order App",
+        "Partner Order app",
+        "CHANNEL_ORDERS"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:agentexchange"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:license-management-app"
+        },
+        {
+          "@id": "kt:environment-hub"
+        },
+        {
+          "@id": "kt:appexchange-security-review"
+        },
+        {
+          "@id": "kt:permission-sets"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:partner-business-org"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:agentexchange-go-to-market-app"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:license-management-app"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:batch-apex"
+        }
+      ]
+    },
+    {
       "@id": "kt:code-analyzer",
       "@type": "kto:Tool",
       "skos:prefLabel": "Salesforce Code Analyzer",

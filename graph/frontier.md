@@ -8,7 +8,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:requirements-engineering` | `kt:non-functional-requirements`, `kt:requirements-gathering` |
 | `kt:data-extensions` | `kt:automation-studio`, `kt:contact-builder` |
 | `kt:user-stories` | `kt:fit-gap-analysis`, `kt:requirements-gathering` |
-| `kt:channel-order-app` | `kt:agentexchange-go-to-market-app`, `kt:partner-business-org` |
 | `kt:business-architecture` | `kt:capability-maps`, `kt:togaf` |
 | `kt:enterprise-architecture` | `kt:architecture-roadmaps`, `kt:togaf` |
 | `kt:agent-to-agent-protocol` | `kt:agent-api`, `kt:agentforce-architecture-patterns` |
@@ -45,26 +44,26 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:constraint-modeling-language` | `kt:product-configurator` |
 | `kt:product-catalog-management` | `kt:product-configurator` |
 | `kt:business-analyst-certification` | `kt:user-acceptance-testing` |
+| `kt:subscriber-support-console` | `kt:license-management-app` |
 | `kt:in-app-guidance` | `kt:change-management-and-adoption` |
 | `kt:marketing-cloud-sql` | `kt:automation-studio` |
 | `kt:business-process-mapping` | `kt:requirements-gathering` |
 | `kt:engagement-studio` | `kt:marketing-cloud-account-engagement` |
 | `kt:data-processing-engine` | `kt:loyalty-management` |
 | `kt:reports-and-dashboards` | `kt:salesforce-analytics` |
-| `kt:subscriber-support-console` | `kt:license-management-app` |
+| `kt:model-context-protocol` | `kt:model-context-protocol-in-agentforce` |
+| `kt:salesforce-hosted-mcp-servers` | `kt:model-context-protocol-in-agentforce` |
 | `kt:b2b-commerce` | `kt:commerce-cloud` |
 | `kt:b2c-commerce` | `kt:commerce-cloud` |
 | `kt:salesforce-order-management` | `kt:commerce-cloud` |
-| `kt:model-context-protocol` | `kt:model-context-protocol-in-agentforce` |
-| `kt:salesforce-hosted-mcp-servers` | `kt:model-context-protocol-in-agentforce` |
 | `kt:computer-science` | `kt:distributed-computing` |
 | `kt:platform-cache-partitions` | `kt:platform-cache` |
 | `kt:change-order-process` | `kt:statement-of-work` |
 | `kt:fhir` | `kt:health-cloud` |
 | `kt:utilization-management` | `kt:health-cloud` |
 | `kt:data-cloud-query-api` | `kt:data-graphs` |
-| `kt:enterprise-service-bus` | `kt:point-to-point-integration` |
 | `kt:opportunity-products` | `kt:price-books` |
+| `kt:enterprise-service-bus` | `kt:point-to-point-integration` |
 | `kt:value-streams` | `kt:capability-maps` |
 | `kt:holidays` | `kt:business-hours` |
 | `kt:api-visualizer` | `kt:application-network` |
@@ -79,8 +78,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:webauthn` | `kt:security-keys` |
 | `kt:guest-user-sharing-rules` | `kt:share-groups` |
 | `kt:hyperforce-assistant` | `kt:instance-refresh-and-org-migration` |
-| `kt:data-cloud-code-extension` | `kt:vector-search-in-data-cloud` |
 | `kt:agentforce-vibes` | `kt:agentforce-vibes-ide` |
+| `kt:data-cloud-code-extension` | `kt:vector-search-in-data-cloud` |
 | `kt:mulesoft-for-flow-integration` | `kt:mulesoft-composer` |
 | `kt:ui-api` | `kt:field-dependencies` |
 | `kt:slds-linter` | `kt:salesforce-lightning-design-system` |
@@ -102,21 +101,21 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:runtime-manager-agent` | `kt:anypoint-runtime-manager` |
 | `kt:document-ai` | `kt:unstructured-data-in-data-cloud` |
 | `kt:hmac-based-one-time-password` | `kt:time-based-one-time-password` |
+| `kt:signup-request-api` | `kt:trialforce` |
 | `kt:experience-cloud-consultant-certification` | `kt:licensing-strategy` |
 | `kt:organization-wide-email-addresses` | `kt:email-alerts` |
-| `kt:signup-request-api` | `kt:trialforce` |
 | `kt:enhanced-letterheads` | `kt:email-templates` |
 | `kt:einstein-prediction-builder` | `kt:einstein-next-best-action` |
-| `kt:iso-iec-29100` | `kt:iso-iec-27018` |
 | `kt:agentforce-nonprofit-consultant-certification` | `kt:agentforce-nonprofit` |
 | `kt:nonprofit-success-pack` | `kt:agentforce-nonprofit` |
-| `kt:digital-accessibility` | `kt:section-508-accessibility` |
+| `kt:iso-iec-29100` | `kt:iso-iec-27018` |
 | `kt:federal-acquisition-regulation` | `kt:performance-work-statement` |
 | `kt:quality-assurance-surveillance-plan` | `kt:performance-work-statement` |
 | `kt:statement-of-objectives` | `kt:performance-work-statement` |
-| `kt:wcag` | `kt:section-508-accessibility` |
 | `kt:life-cycle-cost-estimate` | `kt:rough-order-of-magnitude-estimate` |
 | `kt:project-estimation` | `kt:rough-order-of-magnitude-estimate` |
+| `kt:digital-accessibility` | `kt:section-508-accessibility` |
+| `kt:wcag` | `kt:section-508-accessibility` |
 | `kt:b2c-commerce-architect-certification` | `kt:b2c-solution-architect-certification` |
 | `kt:web-to-case` | `kt:auto-response-rules` |
 | `kt:web-to-lead` | `kt:auto-response-rules` |
