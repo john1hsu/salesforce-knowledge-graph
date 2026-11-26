@@ -6546,6 +6546,85 @@
       ]
     },
     {
+      "@id": "kt:flow-data-elements",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Create, Update and Delete Records Elements",
+      "skos:definition": "The three Flow Builder data elements that write to Salesforce: Create Records inserts one or many records, Update Records changes the triggering, related or matching records, and Delete Records removes records to the Recycle Bin; each element that runs costs one DML statement against the transaction's limits.",
+      "kto:domain": "automation",
+      "dcterms:created": "2026-11-26",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Work with Salesforce Records in Flows (Data and Actions in Flows)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/data-and-actions-in-flows/work-sf-records-flows",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Update and Retrieve Multiple Records (Multirecord Elements and Transforms in Flows)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/multirecord-elements-and-transforms-in-flows/update-and-retrieve-multiple-records",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Avoid Flow Limits (Flow Implementation 1)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/flow-implementation-1/avoid-flow-limits",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Automate This! — Update Related Records with Flow",
+          "dcterms:publisher": "Salesforce Admins Blog",
+          "schema:url": "https://admin.salesforce.com/blog/2022/automate-this-update-related-records-with-flow",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/automation/flow-data-elements.md",
+      "skos:altLabel": [
+        "Create Records element",
+        "Update Records element",
+        "Delete Records element",
+        "Flow DML elements",
+        "Flow write elements"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:flow-builder"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:get-records-element"
+        },
+        {
+          "@id": "kt:flow-loop-element"
+        },
+        {
+          "@id": "kt:flow-assignment-element"
+        },
+        {
+          "@id": "kt:record-triggered-flow"
+        },
+        {
+          "@id": "kt:flow-transaction-boundaries"
+        }
+      ],
+      "kto:governedBy": [
+        {
+          "@id": "kt:flow-limits"
+        },
+        {
+          "@id": "kt:governor-limits"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:flow-bulkification"
+        }
+      ]
+    },
+    {
       "@id": "kt:flow-debugging",
       "@type": "kto:Feature",
       "skos:prefLabel": "Flow Debugging",
@@ -7856,6 +7935,9 @@
         }
       ],
       "skos:related": [
+        {
+          "@id": "kt:flow-data-elements"
+        },
         {
           "@id": "kt:flow-loop-element"
         },

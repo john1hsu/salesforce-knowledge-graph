@@ -11,7 +11,7 @@ summary: >-
 release: "Winter '27"
 status: current
 broader: [kt:flow-builder]
-related: [kt:flow-loop-element, kt:record-triggered-flow, kt:autolaunched-flow, kt:flow-bulkification, kt:flow-fault-handling]
+related: [kt:flow-data-elements, kt:flow-loop-element, kt:record-triggered-flow, kt:autolaunched-flow, kt:flow-bulkification, kt:flow-fault-handling]
 relations:
   - {predicate: queriedWith, object: kt:soql}
   - {predicate: governedBy, object: kt:flow-limits}

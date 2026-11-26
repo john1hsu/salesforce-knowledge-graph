@@ -6777,6 +6777,32 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-choice-resources> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "automation" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-choice-resources> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-choice-resources> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-data-elements> <http://purl.org/dc/terms/created> "2026-11-26" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-data-elements> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-data-elements> <http://www.w3.org/2000/01/rdf-schema#label> "Create, Update and Delete Records Elements" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-data-elements> <http://www.w3.org/2004/02/skos/core#altLabel> "Create Records element" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-data-elements> <http://www.w3.org/2004/02/skos/core#altLabel> "Delete Records element" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-data-elements> <http://www.w3.org/2004/02/skos/core#altLabel> "Flow DML elements" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-data-elements> <http://www.w3.org/2004/02/skos/core#altLabel> "Flow write elements" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-data-elements> <http://www.w3.org/2004/02/skos/core#altLabel> "Update Records element" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-data-elements> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-builder> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-data-elements> <http://www.w3.org/2004/02/skos/core#definition> "The three Flow Builder data elements that write to Salesforce: Create Records inserts one or many records, Update Records changes the triggering, related or matching records, and Delete Records removes records to the Recycle Bin; each element that runs costs one DML statement against the transaction's limits." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-data-elements> <http://www.w3.org/2004/02/skos/core#prefLabel> "Create, Update and Delete Records Elements" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-data-elements> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-assignment-element> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-data-elements> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-loop-element> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-data-elements> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-transaction-boundaries> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-data-elements> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/get-records-element> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-data-elements> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/record-triggered-flow> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-data-elements> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-data-elements/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-data-elements> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-data-elements/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-data-elements> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-data-elements/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-data-elements> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-data-elements/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-data-elements> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-bulkification> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-data-elements> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "automation" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-data-elements> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#governedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-limits> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-data-elements> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#governedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/governor-limits> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-data-elements> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-data-elements> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-debugging> <http://purl.org/dc/terms/created> "2026-11-16" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-debugging> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-debugging> <http://www.w3.org/2000/01/rdf-schema#label> "Flow Debugging" .
@@ -7300,6 +7326,7 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/get-records-element> <http://www.w3.org/2004/02/skos/core#prefLabel> "Get Records Element" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/get-records-element> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/autolaunched-flow> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/get-records-element> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-bulkification> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/get-records-element> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-data-elements> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/get-records-element> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-fault-handling> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/get-records-element> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-loop-element> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/get-records-element> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/record-triggered-flow> .
@@ -22343,6 +22370,26 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-choice-resources/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-choice-resources/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-choice-resources/s5> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=000385593&language=en_US&type=1" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-data-elements/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-data-elements/s1> <http://purl.org/dc/terms/title> "Work with Salesforce Records in Flows (Data and Actions in Flows)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-data-elements/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-data-elements/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-data-elements/s1> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/data-and-actions-in-flows/work-sf-records-flows" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-data-elements/s2> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-data-elements/s2> <http://purl.org/dc/terms/title> "Update and Retrieve Multiple Records (Multirecord Elements and Transforms in Flows)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-data-elements/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-data-elements/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-data-elements/s2> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/multirecord-elements-and-transforms-in-flows/update-and-retrieve-multiple-records" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-data-elements/s3> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-data-elements/s3> <http://purl.org/dc/terms/title> "Avoid Flow Limits (Flow Implementation 1)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-data-elements/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-data-elements/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-data-elements/s3> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/flow-implementation-1/avoid-flow-limits" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-data-elements/s4> <http://purl.org/dc/terms/publisher> "Salesforce Admins Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-data-elements/s4> <http://purl.org/dc/terms/title> "Automate This! — Update Related Records with Flow" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-data-elements/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-data-elements/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-data-elements/s4> <https://schema.org/url> "https://admin.salesforce.com/blog/2022/automate-this-update-related-records-with-flow" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-debugging/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-debugging/s1> <http://purl.org/dc/terms/title> "Make Sure Your Flow Works (Flow Testing and Distribution module)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-debugging/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
