@@ -4299,6 +4299,32 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-detect> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#requiresLicense> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-shield> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-detect> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-detect> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-dictionary> <http://purl.org/dc/terms/created> "2026-11-26" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-dictionary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-dictionary> <http://www.w3.org/2000/01/rdf-schema#label> "Data Dictionary" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-dictionary> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce data dictionary" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-dictionary> <http://www.w3.org/2004/02/skos/core#altLabel> "field dictionary" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-dictionary> <http://www.w3.org/2004/02/skos/core#altLabel> "metadata dictionary" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-dictionary> <http://www.w3.org/2004/02/skos/core#altLabel> "org data dictionary" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-dictionary> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-architecture> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-dictionary> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-governance> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-dictionary> <http://www.w3.org/2004/02/skos/core#definition> "A maintained catalog of an org's objects and fields that records, for each data element, its meaning, type, source, usage, owner, sensitivity and access rules, so admins, developers, analysts and AI agents share one definition of the data model." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-dictionary> <http://www.w3.org/2004/02/skos/core#prefLabel> "Data Dictionary" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-dictionary> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-fields> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-dictionary> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-classification> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-dictionary> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/schema-builder> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-dictionary> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/solution-design-document> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-dictionary> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-dictionary/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-dictionary> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-dictionary/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-dictionary> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-dictionary/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-dictionary> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-dictionary/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-dictionary> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-dictionary/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-dictionary> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-dictionary/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-dictionary> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-dictionary> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "architecture-practice" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-dictionary> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/tooling-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-dictionary> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/data-dictionary> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-governance> <http://purl.org/dc/terms/created> "2026-11-12" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-governance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-governance> <http://www.w3.org/2000/01/rdf-schema#label> "Data Governance" .
@@ -19812,6 +19838,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-detect/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-detect/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-detect/s6> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/api/sforce_api_objects_datadetectpolicy.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-dictionary/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-dictionary/s1> <http://purl.org/dc/terms/title> "Data Management Best Practices in Salesforce (Essential Habits for Salesforce Admins)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-dictionary/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-dictionary/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-dictionary/s1> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/essential-habits-for-salesforce-admins/delve-into-data-management" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-dictionary/s2> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-dictionary/s2> <http://purl.org/dc/terms/title> "Understand Metadata for Reliable AI Performance (Data Reliability Risk Factors for AI)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-dictionary/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-dictionary/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-dictionary/s2> <https://schema.org/url> "https://trailhead.salesforce.com/fr/content/learn/modules/data-reliability-risk-factors-for-ai/know-your-metadata" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-dictionary/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-dictionary/s3> <http://purl.org/dc/terms/title> "CustomField (Metadata API Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-dictionary/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-dictionary/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-dictionary/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/customfield.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-dictionary/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-dictionary/s4> <http://purl.org/dc/terms/title> "FieldDefinition (Tooling API Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-dictionary/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-dictionary/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-dictionary/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.api_tooling.meta/api_tooling/tooling_api_objects_fielddefinition.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-dictionary/s5> <http://purl.org/dc/terms/publisher> "Salesforce Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-dictionary/s5> <http://purl.org/dc/terms/title> "How to Document Inside Your Salesforce Instance" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-dictionary/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-dictionary/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-dictionary/s5> <https://schema.org/url> "https://www.salesforce.com/blog/how-to-document-inside-your-salesforce-instance/" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-dictionary/s6> <http://purl.org/dc/terms/publisher> "U.S. Geological Survey" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-dictionary/s6> <http://purl.org/dc/terms/title> "Data Dictionaries" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-dictionary/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-dictionary/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-dictionary/s6> <https://schema.org/url> "https://usgs.gov/data-management/data-dictionaries" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-governance/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-governance/s1> <http://purl.org/dc/terms/title> "Describe Data Management (Data Management Fundamentals)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/data-governance/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

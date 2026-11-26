@@ -1215,6 +1215,93 @@
       ]
     },
     {
+      "@id": "kt:data-dictionary",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Data Dictionary",
+      "skos:definition": "A maintained catalog of an org's objects and fields that records, for each data element, its meaning, type, source, usage, owner, sensitivity and access rules, so admins, developers, analysts and AI agents share one definition of the data model.",
+      "kto:domain": "architecture-practice",
+      "dcterms:created": "2026-11-26",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Data Management Best Practices in Salesforce (Essential Habits for Salesforce Admins)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/essential-habits-for-salesforce-admins/delve-into-data-management",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Understand Metadata for Reliable AI Performance (Data Reliability Risk Factors for AI)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/fr/content/learn/modules/data-reliability-risk-factors-for-ai/know-your-metadata",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "CustomField (Metadata API Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/customfield.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "FieldDefinition (Tooling API Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api_tooling.meta/api_tooling/tooling_api_objects_fielddefinition.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "How to Document Inside Your Salesforce Instance",
+          "dcterms:publisher": "Salesforce Blog",
+          "schema:url": "https://www.salesforce.com/blog/how-to-document-inside-your-salesforce-instance/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Data Dictionaries",
+          "dcterms:publisher": "U.S. Geological Survey",
+          "schema:url": "https://usgs.gov/data-management/data-dictionaries",
+          "kto:sourceType": "government"
+        }
+      ],
+      "kto:file": "articles/architecture-practice/data-dictionary.md",
+      "skos:altLabel": [
+        "Salesforce data dictionary",
+        "field dictionary",
+        "org data dictionary",
+        "metadata dictionary"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:data-architecture"
+        },
+        {
+          "@id": "kt:data-governance"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:data-classification"
+        },
+        {
+          "@id": "kt:schema-builder"
+        },
+        {
+          "@id": "kt:custom-fields"
+        },
+        {
+          "@id": "kt:solution-design-document"
+        }
+      ],
+      "kto:queriedWith": [
+        {
+          "@id": "kt:tooling-api"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:metadata-api"
+        }
+      ]
+    },
+    {
       "@id": "kt:data-migration-strategy",
       "@type": "kto:Concept",
       "skos:prefLabel": "Data Migration Strategy",
