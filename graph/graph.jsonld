@@ -33360,6 +33360,93 @@
       ]
     },
     {
+      "@id": "kt:subscriber-support-console",
+      "@type": "kto:Tool",
+      "skos:prefLabel": "Subscriber Support Console",
+      "skos:definition": "The part of the License Management App that lets eligible ISV partners look up the orgs that installed their managed packages, log in to a subscriber org once a customer grants login access, and switch on namespace debug logs to troubleshoot their package in that org.",
+      "kto:domain": "devops-and-alm",
+      "dcterms:created": "2026-11-26",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Troubleshoot Subscriber Issues",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/pkg1-dev/guide/lma-subscriber-support-overview.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Log In to Subscriber Orgs",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/pkg2-dev/guide/lma-logging-in-to-sub-org.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Request Login Access from Subscribers",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/pkg1-dev/guide/lma-requesting-login-access.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Debug Subscriber Orgs",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.pkg1_dev.meta/pkg1_dev/apex_debugging_sub_org.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Customer Support Solutions (App Licensing and Customer Support for AgentExchange)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/appexchange_licensing/appexchange_licensing_support",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Assign Permissions to the Subscriber Support Console",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/pkg2-dev/guide/lma-subscriber-org-permissions.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/devops-and-alm/subscriber-support-console.md",
+      "skos:altLabel": [
+        "Subscriber Support",
+        "LMA Subscribers tab",
+        "Log in to Subscriber Org"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:license-management-app"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:second-generation-managed-packages"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:grant-login-access"
+        },
+        {
+          "@id": "kt:multi-factor-authentication"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:permission-sets"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:apex-logging-and-debug-logs"
+        }
+      ],
+      "kto:enables": [
+        {
+          "@id": "kt:isv-customer-debugger"
+        }
+      ]
+    },
+    {
       "@id": "kt:tooling-api",
       "@type": "kto:API",
       "skos:prefLabel": "Tooling API",
