@@ -10246,6 +10246,101 @@
       ]
     },
     {
+      "@id": "kt:enhanced-scheduling-and-optimization",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Enhanced Scheduling and Optimization",
+      "skos:definition": "The current Field Service scheduling and optimization engine, which replaces the legacy optimization and the manual and semiautomatic scheduling services, runs on Hyperforce, is on by default for orgs created from Summer '23, and can be adopted org-wide or territory by territory.",
+      "kto:domain": "clouds-and-products",
+      "dcterms:created": "2026-11-26",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Enable Enhanced Scheduling and Optimization",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=sf.pfs_enhanced_setup_enable.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Set Up Enhanced Optimization for Field Service Territories",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=sf.pfs_enhanced_optimization_per_territory.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Get Ready for Field Service Scheduling and Optimization",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=service.pfs_customization.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Configure Enhanced Optimization per Territory",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=sf.pfs_enhanced_optimization_per_territory_configure.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Optimize Today's Field Service Schedule",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=service.pfs_in_day_optimization.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Understanding Optimization in Field Service Scheduling (Trailhead unit)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/field-service-lightning-optimization/explore-optimization",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/clouds-and-products/enhanced-scheduling-and-optimization.md",
+      "skos:altLabel": [
+        "Enhanced S&O",
+        "ESO",
+        "Field Service Enhanced Scheduling and Optimization",
+        "Enhanced Optimization per Territory"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:field-service"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:scheduling-console"
+        },
+        {
+          "@id": "kt:field-service-scheduling-policies"
+        },
+        {
+          "@id": "kt:dispatcher-console"
+        },
+        {
+          "@id": "kt:service-appointments"
+        },
+        {
+          "@id": "kt:permission-sets"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:field-service"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:hyperforce"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:scheduling-console"
+        },
+        {
+          "@id": "kt:dispatcher-console"
+        }
+      ]
+    },
+    {
       "@id": "kt:entitlement-management",
       "@type": "kto:Feature",
       "skos:prefLabel": "Entitlement Management",
