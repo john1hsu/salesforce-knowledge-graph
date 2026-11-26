@@ -19911,6 +19911,9 @@
         },
         {
           "@id": "kt:auto-number-fields"
+        },
+        {
+          "@id": "kt:date-and-date-time-fields"
         }
       ],
       "kto:dependsOn": [
@@ -20656,6 +20659,87 @@
       "kto:integratesWith": [
         {
           "@id": "kt:data-cloud"
+        }
+      ]
+    },
+    {
+      "@id": "kt:date-and-date-time-fields",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Date and Date/Time Fields",
+      "skos:definition": "The Salesforce field data types for temporal values: Date (year, month, day), Date/Time (a point in time stored in GMT and shown in each user's time zone) and Time (a wall-clock time with millisecond precision and no date), with matching behavior in formulas, SOQL and Apex.",
+      "kto:domain": "data-model",
+      "dcterms:created": "2026-11-26",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Using Date and Date/Time in Formulas (tip sheet)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://resources.docs.salesforce.com/latest/latest/en-us/sfdc/pdf/formula_date_time_tipsheet.pdf",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Date Formats and Date Literals in WHERE — SOQL and SOSL Reference",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.soql_sosl.meta/soql_sosl/sforce_api_calls_soql_select_dateformats.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Datetime Class — Apex Reference Guide",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_methods_system_datetime.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Take Advantage of the New Custom Time Field in Spring '18",
+          "dcterms:publisher": "Salesforce Admins Blog",
+          "schema:url": "https://admin.salesforce.com/blog/2018/take-advantage-new-custom-time-field-spring-18",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/data-model/date-and-date-time-fields.md",
+      "skos:altLabel": [
+        "date field",
+        "date/time field",
+        "datetime field",
+        "Date/Time field type",
+        "time field",
+        "custom time field",
+        "temporal field types"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:custom-fields"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:formula-fields"
+        },
+        {
+          "@id": "kt:number-currency-and-percent-fields"
+        },
+        {
+          "@id": "kt:field-type-conversion"
+        },
+        {
+          "@id": "kt:scheduled-paths"
+        },
+        {
+          "@id": "kt:fiscal-years"
+        }
+      ],
+      "kto:queriedWith": [
+        {
+          "@id": "kt:soql"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:apex"
+        },
+        {
+          "@id": "kt:formula-fields"
         }
       ]
     },
