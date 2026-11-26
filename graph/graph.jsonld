@@ -36270,6 +36270,107 @@
       ]
     },
     {
+      "@id": "kt:oauth-scopes",
+      "@type": "kto:SecurityControl",
+      "skos:prefLabel": "OAuth Scopes in Salesforce",
+      "skos:definition": "The named permissions (such as api, refresh_token, web, full, openid and cdp_api) that an external client app or connected app is allowed to request, which bound what an issued OAuth access token can be used for on top of, not instead of, the user's own Salesforce permissions.",
+      "kto:domain": "identity",
+      "dcterms:created": "2026-11-26",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Scope Parameter Values (Mobile SDK Development Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/mobile-sdk/guide/oauth-scope-parameter-values.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "ExtlClntAppOauthSettings (Metadata API Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_extlclntappoauthsettings.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "RFC 6749: The OAuth 2.0 Authorization Framework",
+          "dcterms:publisher": "IETF",
+          "schema:url": "https://datatracker.ietf.org/doc/rfc6749",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "Create an External Client App (Hosted MCP Servers)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/hosted-mcp-servers/guide/create-external-client-app.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Architecting Inbound Governance with External Client Apps",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/blog/architecting-inbound-governance-external-client-apps/",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/identity/oauth-scopes.md",
+      "skos:altLabel": [
+        "OAuth scopes",
+        "Salesforce OAuth scopes",
+        "scope parameter",
+        "commaSeparatedOauthScopes",
+        "selected OAuth scopes"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:oauth-2-0"
+        },
+        {
+          "@id": "kt:api-access-control"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:refresh-token-policies"
+        },
+        {
+          "@id": "kt:openid-connect"
+        },
+        {
+          "@id": "kt:headless-identity"
+        },
+        {
+          "@id": "kt:mobile-sdk"
+        },
+        {
+          "@id": "kt:data-cloud"
+        }
+      ],
+      "kto:implements": [
+        {
+          "@id": "kt:oauth-2-0"
+        },
+        {
+          "@id": "kt:principle-of-least-privilege"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:external-client-apps"
+        },
+        {
+          "@id": "kt:connected-apps"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:oauth-2-flows-in-salesforce"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:permission-sets"
+        }
+      ]
+    },
+    {
       "@id": "kt:openid-connect-authentication-providers",
       "@type": "kto:Feature",
       "skos:prefLabel": "OpenID Connect Authentication Providers",

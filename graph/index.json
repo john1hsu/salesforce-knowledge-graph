@@ -9115,6 +9115,30 @@
     ]
   },
   {
+    "id": "kt:oauth-scopes",
+    "title": "OAuth Scopes in Salesforce",
+    "aliases": [
+      "OAuth scopes",
+      "Salesforce OAuth scopes",
+      "scope parameter",
+      "commaSeparatedOauthScopes",
+      "selected OAuth scopes"
+    ],
+    "type": "SecurityControl",
+    "domain": "identity",
+    "file": "articles/identity/oauth-scopes.md",
+    "created": "2026-11-26",
+    "release": "Winter '27",
+    "status": "current",
+    "source_urls": [
+      "https://developer.salesforce.com/docs/platform/mobile-sdk/guide/oauth-scope-parameter-values.html",
+      "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_extlclntappoauthsettings.htm",
+      "https://datatracker.ietf.org/doc/rfc6749",
+      "https://developer.salesforce.com/docs/platform/hosted-mcp-servers/guide/create-external-client-app.html",
+      "https://www.salesforce.com/blog/architecting-inbound-governance-external-client-apps/"
+    ]
+  },
+  {
     "id": "kt:object-relationships",
     "title": "Object Relationships",
     "aliases": [

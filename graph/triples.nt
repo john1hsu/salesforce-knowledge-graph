@@ -10380,6 +10380,37 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-2-flows-in-salesforce> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#implements> <https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-2-0> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-2-flows-in-salesforce> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-2-flows-in-salesforce> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-scopes> <http://purl.org/dc/terms/created> "2026-11-26" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-scopes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#SecurityControl> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-scopes> <http://www.w3.org/2000/01/rdf-schema#label> "OAuth Scopes in Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-scopes> <http://www.w3.org/2004/02/skos/core#altLabel> "OAuth scopes" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-scopes> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce OAuth scopes" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-scopes> <http://www.w3.org/2004/02/skos/core#altLabel> "commaSeparatedOauthScopes" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-scopes> <http://www.w3.org/2004/02/skos/core#altLabel> "scope parameter" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-scopes> <http://www.w3.org/2004/02/skos/core#altLabel> "selected OAuth scopes" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-scopes> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/api-access-control> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-scopes> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-2-0> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-scopes> <http://www.w3.org/2004/02/skos/core#definition> "The named permissions (such as api, refresh_token, web, full, openid and cdp_api) that an external client app or connected app is allowed to request, which bound what an issued OAuth access token can be used for on top of, not instead of, the user's own Salesforce permissions." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-scopes> <http://www.w3.org/2004/02/skos/core#prefLabel> "OAuth Scopes in Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-scopes> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-cloud> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-scopes> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/headless-identity> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-scopes> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/mobile-sdk> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-scopes> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/openid-connect> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-scopes> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/refresh-token-policies> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-scopes> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/oauth-scopes/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-scopes> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/oauth-scopes/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-scopes> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/oauth-scopes/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-scopes> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/oauth-scopes/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-scopes> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/oauth-scopes/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-scopes> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/connected-apps> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-scopes> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/external-client-apps> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-scopes> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#consumedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-2-flows-in-salesforce> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-scopes> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/permission-sets> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-scopes> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "identity" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-scopes> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#implements> <https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-2-0> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-scopes> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#implements> <https://github.com/john1hsu/salesforce-knowledge-graph/id/principle-of-least-privilege> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-scopes> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-scopes> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/object-relationships> <http://purl.org/dc/terms/created> "2026-11-02" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/object-relationships> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/object-relationships> <http://www.w3.org/2000/01/rdf-schema#label> "Object Relationships" .
@@ -25854,6 +25885,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/oauth-2-flows-in-salesforce/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/oauth-2-flows-in-salesforce/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/oauth-2-flows-in-salesforce/s6> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/winter-27-release-highlights/" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/oauth-scopes/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/oauth-scopes/s1> <http://purl.org/dc/terms/title> "Scope Parameter Values (Mobile SDK Development Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/oauth-scopes/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/oauth-scopes/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/oauth-scopes/s1> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/mobile-sdk/guide/oauth-scope-parameter-values.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/oauth-scopes/s2> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/oauth-scopes/s2> <http://purl.org/dc/terms/title> "ExtlClntAppOauthSettings (Metadata API Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/oauth-scopes/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/oauth-scopes/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/oauth-scopes/s2> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_extlclntappoauthsettings.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/oauth-scopes/s3> <http://purl.org/dc/terms/publisher> "IETF" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/oauth-scopes/s3> <http://purl.org/dc/terms/title> "RFC 6749: The OAuth 2.0 Authorization Framework" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/oauth-scopes/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/oauth-scopes/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "standards-body" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/oauth-scopes/s3> <https://schema.org/url> "https://datatracker.ietf.org/doc/rfc6749" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/oauth-scopes/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/oauth-scopes/s4> <http://purl.org/dc/terms/title> "Create an External Client App (Hosted MCP Servers)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/oauth-scopes/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/oauth-scopes/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/oauth-scopes/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/hosted-mcp-servers/guide/create-external-client-app.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/oauth-scopes/s5> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/oauth-scopes/s5> <http://purl.org/dc/terms/title> "Architecting Inbound Governance with External Client Apps" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/oauth-scopes/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/oauth-scopes/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/oauth-scopes/s5> <https://schema.org/url> "https://www.salesforce.com/blog/architecting-inbound-governance-external-client-apps/" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/object-relationships/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/object-relationships/s1> <http://purl.org/dc/terms/title> "Object Reference: Relationships Among Standard Objects and Fields" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/object-relationships/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
