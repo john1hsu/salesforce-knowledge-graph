@@ -10,7 +10,7 @@ summary: >-
 release: "Winter '27"
 status: current
 broader: [kt:salesforce-platform]
-related: [kt:multitenancy, kt:government-cloud-plus, kt:sandbox-types, kt:platform-events]
+related: [kt:multitenancy, kt:government-cloud-plus, kt:sandbox-types, kt:platform-events, kt:hyperforce-assistant]
 relations:
   - {predicate: enables, object: kt:data-residency}
   - {predicate: dependsOn, object: kt:my-domain}

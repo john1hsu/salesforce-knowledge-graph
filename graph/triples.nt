@@ -7760,6 +7760,27 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/hypercare> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#partOf> <https://github.com/john1hsu/salesforce-knowledge-graph/id/application-lifecycle-management> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/hypercare> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/hypercare> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hyperforce-assistant> <http://purl.org/dc/terms/created> "2026-11-26" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hyperforce-assistant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Tool> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hyperforce-assistant> <http://www.w3.org/2000/01/rdf-schema#label> "Hyperforce Assistant" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hyperforce-assistant> <http://www.w3.org/2004/02/skos/core#altLabel> "Hyperforce upgrade assistant" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hyperforce-assistant> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce Hyperforce Assistant" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hyperforce-assistant> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/hyperforce> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hyperforce-assistant> <http://www.w3.org/2004/02/skos/core#definition> "An in-app Setup tool that guides admins through preparing a Salesforce org for its upgrade from Salesforce's first-party data centers to Hyperforce, combining a learning area, a readiness checklist with automated checks, and upgrade details for the org." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hyperforce-assistant> <http://www.w3.org/2004/02/skos/core#prefLabel> "Hyperforce Assistant" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hyperforce-assistant> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/instance-refresh-and-org-migration> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hyperforce-assistant> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/login-ip-ranges-and-trusted-ip-ranges> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hyperforce-assistant> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-types> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hyperforce-assistant> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/trust-and-status-site> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hyperforce-assistant> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hyperforce-assistant/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hyperforce-assistant> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hyperforce-assistant/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hyperforce-assistant> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hyperforce-assistant/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hyperforce-assistant> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hyperforce-assistant/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hyperforce-assistant> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/my-domain> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hyperforce-assistant> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "platform-architecture" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hyperforce-assistant> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#partOf> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-platform> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hyperforce-assistant> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hyperforce-assistant> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/hyperforce-operating-zones> <http://purl.org/dc/terms/created> "2026-11-12" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/hyperforce-operating-zones> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Product> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/hyperforce-operating-zones> <http://www.w3.org/2000/01/rdf-schema#label> "Hyperforce Operating Zones" .
@@ -7796,6 +7817,7 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/hyperforce> <http://www.w3.org/2004/02/skos/core#definition> "Salesforce's current-generation, public-cloud infrastructure, defined and managed as code, that replaces Salesforce's first-party data centers and hosts orgs in isolated cells across regional Hyperforce instances." .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/hyperforce> <http://www.w3.org/2004/02/skos/core#prefLabel> "Hyperforce" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/hyperforce> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/government-cloud-plus> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/hyperforce> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/hyperforce-assistant> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/hyperforce> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/multitenancy> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/hyperforce> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/platform-events> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/hyperforce> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-types> .
@@ -23210,6 +23232,26 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hypercare/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hypercare/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "partner" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hypercare/s4> <https://schema.org/url> "https://developers.sitecore.com/learn/accelerate/content-hub/final-steps/hypercare-strategy" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hyperforce-assistant/s1> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hyperforce-assistant/s1> <http://purl.org/dc/terms/title> "How to Prepare for a First-Party to Hyperforce Salesforce Core Org Migration (Knowledge Article 000386897)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hyperforce-assistant/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hyperforce-assistant/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hyperforce-assistant/s1> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=000386897&language=en_US&type=1" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hyperforce-assistant/s2> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hyperforce-assistant/s2> <http://purl.org/dc/terms/title> "Salesforce Hyperforce — General Information, FAQ, Migration Guide, and Security Overview (Knowledge Article 000388902)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hyperforce-assistant/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hyperforce-assistant/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hyperforce-assistant/s2> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=000388902&language=en_US&type=1" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hyperforce-assistant/s3> <http://purl.org/dc/terms/publisher> "Salesforce Admins Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hyperforce-assistant/s3> <http://purl.org/dc/terms/title> "Upgrade to Hyperforce with Confidence Using Hyperforce Assistant" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hyperforce-assistant/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hyperforce-assistant/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hyperforce-assistant/s3> <https://schema.org/url> "https://admin.salesforce.com/blog/2023/upgrade-to-hyperforce-with-confidence-using-hyperforce-assistant" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hyperforce-assistant/s4> <http://purl.org/dc/terms/publisher> "Salesforce Admins Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hyperforce-assistant/s4> <http://purl.org/dc/terms/title> "New Hyperforce Assistant | Learn MOAR Spring '23" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hyperforce-assistant/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hyperforce-assistant/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hyperforce-assistant/s4> <https://schema.org/url> "https://admin.salesforce.com/blog/2023/new-hyperforce-assistant-learn-moar-spring-23" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hyperforce-operating-zones/s1> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hyperforce-operating-zones/s1> <http://purl.org/dc/terms/title> "Hyperforce OZ - General Information and FAQ" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/hyperforce-operating-zones/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
