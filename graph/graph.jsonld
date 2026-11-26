@@ -4585,6 +4585,91 @@
       ]
     },
     {
+      "@id": "kt:user-personas",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "User Personas",
+      "skos:definition": "Research-based archetypes that cluster a solution's users by shared goals, behaviours and pain points; in Salesforce projects they are mapped to real user groups and used to frame user stories, prioritise scope and target training and testing.",
+      "kto:domain": "architecture-practice",
+      "dcterms:created": "2026-11-26",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Get Started with Personas (UX Personas for Salesforce)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/en/modules/ux-personas-for-salesforce/units/get_started_with_personas",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Work with Personas (UX Personas for Salesforce)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/ux-personas-for-salesforce/work_with_personas",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Personas: learn how to discover your audience, understand them, and pivot to address their needs",
+          "dcterms:publisher": "Digital.gov (GSA)",
+          "schema:url": "https://digital.gov/2023/05/19/personas-learn-how-to-discover-your-audience-understand-them-and-pivot-to-address-their-needs",
+          "kto:sourceType": "government"
+        },
+        {
+          "dcterms:title": "Personas Make Users Memorable",
+          "dcterms:publisher": "Nielsen Norman Group",
+          "schema:url": "https://www.nngroup.com/articles/persona/",
+          "kto:sourceType": "partner"
+        },
+        {
+          "dcterms:title": "Get Started with Salesforce Business Analyst Certification Prep",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/salesforce-business-analyst-certification-prep/get-started-with-salesforce-business-analyst-certification-prep",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/architecture-practice/user-personas.md",
+      "skos:altLabel": [
+        "personas",
+        "UX personas",
+        "Salesforce personas",
+        "persona mapping",
+        "proto-persona"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:requirements-gathering"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:user-stories"
+        },
+        {
+          "@id": "kt:stakeholder-mapping"
+        },
+        {
+          "@id": "kt:change-management-and-adoption"
+        },
+        {
+          "@id": "kt:user-acceptance-testing"
+        },
+        {
+          "@id": "kt:licensing-strategy"
+        }
+      ],
+      "kto:usedBy": [
+        {
+          "@id": "kt:business-analyst"
+        },
+        {
+          "@id": "kt:salesforce-architect"
+        }
+      ],
+      "kto:enables": [
+        {
+          "@id": "kt:user-stories"
+        }
+      ]
+    },
+    {
       "@id": "kt:well-architected-framework",
       "@type": "kto:Concept",
       "skos:prefLabel": "Salesforce Well-Architected Framework",
