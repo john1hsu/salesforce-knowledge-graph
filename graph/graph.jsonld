@@ -35109,6 +35109,115 @@
       ]
     },
     {
+      "@id": "kt:frontdoor-jsp-session-bridging",
+      "@type": "kto:API",
+      "skos:prefLabel": "Frontdoor.jsp Session Bridging",
+      "skos:definition": "The mechanism that turns an OAuth access token into a browser UI session without a second login: an app calls the Single Access UI Bridge API (services/oauth2/singleaccess) and receives a one-time, short-lived /secur/frontdoor.jsp URL that signs the user into Lightning, a My Domain page or an Experience Cloud site.",
+      "kto:domain": "identity",
+      "dcterms:created": "2026-11-26",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Generate a Frontdoor URL to Bridge into UI Sessions",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=sf.frontdoor_singleaccess.htm&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Generate the Access Token and Frontdoor URL for Tableau Next Embedding",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/analytics/sdk/guide/sdk-access-token.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Generate the Access Token for Agentforce Conversation Client Web SDK",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/accsdk/guide/acc-sdk-setup-token.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "RFC 6750: The OAuth 2.0 Authorization Framework: Bearer Token Usage",
+          "dcterms:publisher": "IETF",
+          "schema:url": "https://rfc-editor.org/rfc/rfc6750.html",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "org open | Salesforce CLI Command Reference",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/salesforce-cli-reference/guide/cli_reference_org_open.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "@salesforce/plugin-org 5.6.1 messages (SecurityWarning, BehaviorChangeWarning)",
+          "dcterms:publisher": "Salesforce CLI (npm package via unpkg)",
+          "schema:url": "https://unpkg.com/@salesforce/plugin-org@5.6.1/messages/messages.md",
+          "kto:sourceType": "community"
+        }
+      ],
+      "kto:file": "articles/identity/frontdoor-jsp-session-bridging.md",
+      "skos:altLabel": [
+        "frontdoor.jsp",
+        "frontdoor URL",
+        "Single Access UI Bridge API",
+        "singleaccess endpoint",
+        "/services/oauth2/singleaccess",
+        "UI bridge frontdoor URL"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:oauth-2-flows-in-salesforce"
+        },
+        {
+          "@id": "kt:salesforce-identity"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:web-server-flow"
+        },
+        {
+          "@id": "kt:headless-identity"
+        },
+        {
+          "@id": "kt:experience-cloud-identity"
+        },
+        {
+          "@id": "kt:salesforce-cli"
+        },
+        {
+          "@id": "kt:tableau-next"
+        },
+        {
+          "@id": "kt:login-flows"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:oauth-scopes"
+        },
+        {
+          "@id": "kt:my-domain"
+        },
+        {
+          "@id": "kt:bearer-token-security"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:external-client-apps"
+        },
+        {
+          "@id": "kt:connected-apps"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:salesforce-cli"
+        }
+      ]
+    },
+    {
       "@id": "kt:grant-login-access",
       "@type": "kto:Feature",
       "skos:prefLabel": "Grant Login Access",
