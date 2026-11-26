@@ -10308,6 +10308,88 @@
       ]
     },
     {
+      "@id": "kt:data-extensions",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Data Extensions",
+      "skos:definition": "The tables that store contact and reference data in Marketing Cloud Engagement. Each data extension is sendable (mapped to a subscriber through a send relationship) or non-sendable, and is built as a standard, filtered or random table that queries, imports, journeys and sends read from.",
+      "kto:domain": "clouds-and-products",
+      "dcterms:created": "2026-11-26",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Learn About Data Extensions (Marketing Cloud Engagement Contact Management)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/marketing-cloud-contact-management/learn-about-data-extensions",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Clean Your Data (Marketing Cloud Engagement Account Optimization)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/marketing-cloud-account-optimization/clean-your-data",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Manage Data in Data Extensions (Marketing Cloud Engagement APIs)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/marketing/marketing-cloud/guide/managing_data_in_data_extensions.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Create a Data Extension (Marketing Cloud Engagement APIs)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/marketing/marketing-cloud/guide/creating_a_data_extension_using_web_service_api.htm",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/clouds-and-products/data-extensions.md",
+      "skos:altLabel": [
+        "Marketing Cloud data extension",
+        "SFMC data extension",
+        "sendable data extension"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:marketing-cloud-engagement"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:contact-builder"
+        },
+        {
+          "@id": "kt:automation-studio"
+        },
+        {
+          "@id": "kt:journey-builder"
+        },
+        {
+          "@id": "kt:marketing-cloud-sql"
+        },
+        {
+          "@id": "kt:custom-objects"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:contact-builder"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:journey-builder"
+        },
+        {
+          "@id": "kt:automation-studio"
+        }
+      ],
+      "kto:queriedWith": [
+        {
+          "@id": "kt:marketing-cloud-sql"
+        }
+      ]
+    },
+    {
       "@id": "kt:dispatcher-console",
       "@type": "kto:Feature",
       "skos:prefLabel": "Dispatcher Console",
