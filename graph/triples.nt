@@ -2731,6 +2731,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/cloud-computing> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/software-as-a-service> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/cloud-computing> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/cloud-computing> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/cmmc> <http://purl.org/dc/terms/created> "2026-11-26" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/cmmc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#ExternalConcept> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/cmmc> <http://www.w3.org/2000/01/rdf-schema#label> "Cybersecurity Maturity Model Certification (CMMC)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/cmmc> <http://www.w3.org/2004/02/skos/core#altLabel> "32 CFR part 170" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/cmmc> <http://www.w3.org/2004/02/skos/core#altLabel> "CMMC 2.0" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/cmmc> <http://www.w3.org/2004/02/skos/core#altLabel> "CMMC Program" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/cmmc> <http://www.w3.org/2004/02/skos/core#altLabel> "CMMC" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/cmmc> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/security-compliance-frameworks> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/cmmc> <http://www.w3.org/2004/02/skos/core#definition> "The US Department of Defense program, codified in 32 CFR part 170, that requires defense contractors and subcontractors to implement and be assessed against prescribed safeguards for Federal Contract Information and Controlled Unclassified Information, at three levels built on FAR 52.204-21, NIST SP 800-171 and NIST SP 800-172." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/cmmc> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cybersecurity Maturity Model Certification (CMMC)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/cmmc> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/government-cloud-plus> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/cmmc> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/il4-and-il5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/cmmc> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/itar-and-export-controls> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/cmmc> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/shared-responsibility-model> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/cmmc> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/cmmc/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/cmmc> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/cmmc/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/cmmc> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/cmmc/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/cmmc> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/cmmc/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/cmmc> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/cmmc/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/cmmc> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#contrastsWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/fedramp> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/cmmc> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/controlled-unclassified-information> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/cmmc> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-171> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/cmmc> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "public-sector-and-compliance" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/cmmc> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/cmmc> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/cobit> <http://purl.org/dc/terms/created> "2026-11-19" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/cobit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#ExternalConcept> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/cobit> <http://www.w3.org/2000/01/rdf-schema#label> "COBIT" .
@@ -18222,6 +18247,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/cloud-computing/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/cloud-computing/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/cloud-computing/s5> <https://schema.org/url> "https://www.salesforce.com/in/news/stories/the-history-of-salesforce/" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/cmmc/s1> <http://purl.org/dc/terms/publisher> "Electronic Code of Federal Regulations (eCFR)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/cmmc/s1> <http://purl.org/dc/terms/title> "32 CFR Part 170 — Cybersecurity Maturity Model Certification (CMMC) Program" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/cmmc/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/cmmc/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/cmmc/s1> <https://schema.org/url> "https://www.ecfr.gov/current/title-32/subtitle-A/chapter-I/subchapter-G/part-170" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/cmmc/s2> <http://purl.org/dc/terms/publisher> "Federal Register (DoD CIO)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/cmmc/s2> <http://purl.org/dc/terms/title> "Cybersecurity Maturity Model Certification (CMMC) Program (final rule, 89 FR 83092)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/cmmc/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/cmmc/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/cmmc/s2> <https://schema.org/url> "https://www.federalregister.gov/documents/2024/10/15/2024-22905/cybersecurity-maturity-model-certification-cmmc-program" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/cmmc/s3> <http://purl.org/dc/terms/publisher> "EDUCAUSE Review" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/cmmc/s3> <http://purl.org/dc/terms/title> "DFARS Changes to Integrate CMMC Requirements Effective November 10" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/cmmc/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/cmmc/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "news" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/cmmc/s3> <https://schema.org/url> "https://er.educause.edu/articles/2025/11/dfars-changes-to-integrate-cmmc-requirements-effective-november-10" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/cmmc/s4> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/cmmc/s4> <http://purl.org/dc/terms/title> "Salesforce Government Cloud" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/cmmc/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/cmmc/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/cmmc/s4> <https://schema.org/url> "https://www.salesforce.com/government/cloud/" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/cmmc/s5> <http://purl.org/dc/terms/publisher> "Salesforce Compliance Site" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/cmmc/s5> <http://purl.org/dc/terms/title> "Government Cloud Plus - Defense" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/cmmc/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/cmmc/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/cmmc/s5> <https://schema.org/url> "https://compliance.salesforce.com/en/services/salesforce-government-cloud-plus-defense" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/cobit/s1> <http://purl.org/dc/terms/publisher> "ISACA" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/cobit/s1> <http://purl.org/dc/terms/title> "COBIT 7 IT Enterprise Governance Framework" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/cobit/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

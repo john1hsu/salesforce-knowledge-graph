@@ -47565,6 +47565,87 @@
       ]
     },
     {
+      "@id": "kt:cmmc",
+      "@type": "kto:ExternalConcept",
+      "skos:prefLabel": "Cybersecurity Maturity Model Certification (CMMC)",
+      "skos:definition": "The US Department of Defense program, codified in 32 CFR part 170, that requires defense contractors and subcontractors to implement and be assessed against prescribed safeguards for Federal Contract Information and Controlled Unclassified Information, at three levels built on FAR 52.204-21, NIST SP 800-171 and NIST SP 800-172.",
+      "kto:domain": "public-sector-and-compliance",
+      "dcterms:created": "2026-11-26",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "32 CFR Part 170 — Cybersecurity Maturity Model Certification (CMMC) Program",
+          "dcterms:publisher": "Electronic Code of Federal Regulations (eCFR)",
+          "schema:url": "https://www.ecfr.gov/current/title-32/subtitle-A/chapter-I/subchapter-G/part-170",
+          "kto:sourceType": "government"
+        },
+        {
+          "dcterms:title": "Cybersecurity Maturity Model Certification (CMMC) Program (final rule, 89 FR 83092)",
+          "dcterms:publisher": "Federal Register (DoD CIO)",
+          "schema:url": "https://www.federalregister.gov/documents/2024/10/15/2024-22905/cybersecurity-maturity-model-certification-cmmc-program",
+          "kto:sourceType": "government"
+        },
+        {
+          "dcterms:title": "DFARS Changes to Integrate CMMC Requirements Effective November 10",
+          "dcterms:publisher": "EDUCAUSE Review",
+          "schema:url": "https://er.educause.edu/articles/2025/11/dfars-changes-to-integrate-cmmc-requirements-effective-november-10",
+          "kto:sourceType": "news"
+        },
+        {
+          "dcterms:title": "Salesforce Government Cloud",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/government/cloud/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Government Cloud Plus - Defense",
+          "dcterms:publisher": "Salesforce Compliance Site",
+          "schema:url": "https://compliance.salesforce.com/en/services/salesforce-government-cloud-plus-defense",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/public-sector-and-compliance/cmmc.md",
+      "skos:altLabel": [
+        "CMMC",
+        "CMMC 2.0",
+        "CMMC Program",
+        "32 CFR part 170"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:security-compliance-frameworks"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:government-cloud-plus"
+        },
+        {
+          "@id": "kt:il4-and-il5"
+        },
+        {
+          "@id": "kt:itar-and-export-controls"
+        },
+        {
+          "@id": "kt:shared-responsibility-model"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:nist-sp-800-171"
+        },
+        {
+          "@id": "kt:controlled-unclassified-information"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:fedramp"
+        }
+      ]
+    },
+    {
       "@id": "kt:cobit",
       "@type": "kto:ExternalConcept",
       "skos:prefLabel": "COBIT",
