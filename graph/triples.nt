@@ -216,6 +216,33 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/agent-script> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#partOf> <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/agent-script> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/agent-script> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agent-to-agent-protocol> <http://purl.org/dc/terms/created> "2026-11-26" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agent-to-agent-protocol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#ExternalConcept> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agent-to-agent-protocol> <http://www.w3.org/2000/01/rdf-schema#label> "Agent2Agent (A2A) Protocol" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agent-to-agent-protocol> <http://www.w3.org/2004/02/skos/core#altLabel> "A2A protocol" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agent-to-agent-protocol> <http://www.w3.org/2004/02/skos/core#altLabel> "A2A" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agent-to-agent-protocol> <http://www.w3.org/2004/02/skos/core#altLabel> "Agent-to-Agent Protocol" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agent-to-agent-protocol> <http://www.w3.org/2004/02/skos/core#altLabel> "Agent2Agent" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agent-to-agent-protocol> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-patterns> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agent-to-agent-protocol> <http://www.w3.org/2004/02/skos/core#definition> "An open, vendor-neutral protocol, now a Linux Foundation project, that lets AI agents built on different platforms discover each other through Agent Cards and exchange tasks, messages and artifacts over HTTP using JSON-RPC 2.0 and Server-Sent Events; Salesforce agents reach it today through a MuleSoft Agent Fabric A2A bridge." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agent-to-agent-protocol> <http://www.w3.org/2004/02/skos/core#prefLabel> "Agent2Agent (A2A) Protocol" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agent-to-agent-protocol> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce-architecture-patterns> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agent-to-agent-protocol> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agent-to-agent-protocol> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/model-context-protocol-in-agentforce> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agent-to-agent-protocol> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agent-to-agent-protocol/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agent-to-agent-protocol> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agent-to-agent-protocol/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agent-to-agent-protocol> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agent-to-agent-protocol/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agent-to-agent-protocol> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agent-to-agent-protocol/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agent-to-agent-protocol> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agent-to-agent-protocol/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agent-to-agent-protocol> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agent-to-agent-protocol/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agent-to-agent-protocol> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#consumedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/mulesoft-anypoint-platform> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agent-to-agent-protocol> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#contrastsWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/model-context-protocol> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agent-to-agent-protocol> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/oauth-2-0> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agent-to-agent-protocol> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "integration" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agent-to-agent-protocol> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#enables> <https://github.com/john1hsu/salesforce-knowledge-graph/id/multi-agent-orchestration> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agent-to-agent-protocol> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/agent-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agent-to-agent-protocol> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/agent-to-agent-protocol> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/agent-variables> <http://purl.org/dc/terms/created> "2026-11-26" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/agent-variables> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/agent-variables> <http://www.w3.org/2000/01/rdf-schema#label> "Agent Variables" .
@@ -15909,6 +15936,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agent-script/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agent-script/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agent-script/s6> <https://schema.org/url> "https://developer.salesforce.com/blogs/2025/10/introducing-hybrid-reasoning-with-agent-script" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agent-to-agent-protocol/s1> <http://purl.org/dc/terms/publisher> "A2A Project" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agent-to-agent-protocol/s1> <http://purl.org/dc/terms/title> "Agent2Agent (A2A) Protocol Specification" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agent-to-agent-protocol/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agent-to-agent-protocol/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "standards-body" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agent-to-agent-protocol/s1> <https://schema.org/url> "https://google-a2a.github.io/A2A/specification" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agent-to-agent-protocol/s2> <http://purl.org/dc/terms/publisher> "The Linux Foundation" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agent-to-agent-protocol/s2> <http://purl.org/dc/terms/title> "A2A Protocol Surpasses 150 Organizations, Lands in Major Cloud Platforms, and Sees Enterprise Production Use in First Year" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agent-to-agent-protocol/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agent-to-agent-protocol/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "news" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agent-to-agent-protocol/s2> <https://schema.org/url> "https://www.linuxfoundation.org/press/a2a-protocol-surpasses-150-organizations-lands-in-major-cloud-platforms-and-sees-enterprise-production-use-in-first-year" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agent-to-agent-protocol/s3> <http://purl.org/dc/terms/publisher> "Google Developers Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agent-to-agent-protocol/s3> <http://purl.org/dc/terms/title> "Google Cloud donates A2A to Linux Foundation" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agent-to-agent-protocol/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agent-to-agent-protocol/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "partner" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agent-to-agent-protocol/s3> <https://schema.org/url> "https://developers.googleblog.com/en/google-cloud-donates-a2a-to-linux-foundation/" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agent-to-agent-protocol/s4> <http://purl.org/dc/terms/publisher> "MuleSoft (Salesforce)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agent-to-agent-protocol/s4> <http://purl.org/dc/terms/title> "Make an Agent A2A-Compliant (Agent Fabric)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agent-to-agent-protocol/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agent-to-agent-protocol/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agent-to-agent-protocol/s4> <https://schema.org/url> "https://docs.mulesoft.com/general/exp-services-create-a2a-bridge" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agent-to-agent-protocol/s5> <http://purl.org/dc/terms/publisher> "Salesforce Architects" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agent-to-agent-protocol/s5> <http://purl.org/dc/terms/title> "Agentic Patterns and Implementation with Agentforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agent-to-agent-protocol/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agent-to-agent-protocol/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agent-to-agent-protocol/s5> <https://schema.org/url> "https://architect.salesforce.com/fundamentals/agentic-patterns" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agent-to-agent-protocol/s6> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agent-to-agent-protocol/s6> <http://purl.org/dc/terms/title> "Agent2Agent Protocol: The Standard for AI Agent Interoperability" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agent-to-agent-protocol/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agent-to-agent-protocol/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agent-to-agent-protocol/s6> <https://schema.org/url> "https://www.salesforce.com/agentforce/ai-agents/agent2agent-protocol/" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agent-variables/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agent-variables/s1> <http://purl.org/dc/terms/title> "Agent Script Reference: Variables (Custom and Linked)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/agent-variables/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

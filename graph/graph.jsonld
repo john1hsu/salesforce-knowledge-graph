@@ -38780,6 +38780,102 @@
       ]
     },
     {
+      "@id": "kt:agent-to-agent-protocol",
+      "@type": "kto:ExternalConcept",
+      "skos:prefLabel": "Agent2Agent (A2A) Protocol",
+      "skos:definition": "An open, vendor-neutral protocol, now a Linux Foundation project, that lets AI agents built on different platforms discover each other through Agent Cards and exchange tasks, messages and artifacts over HTTP using JSON-RPC 2.0 and Server-Sent Events; Salesforce agents reach it today through a MuleSoft Agent Fabric A2A bridge.",
+      "kto:domain": "integration",
+      "dcterms:created": "2026-11-26",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Agent2Agent (A2A) Protocol Specification",
+          "dcterms:publisher": "A2A Project",
+          "schema:url": "https://google-a2a.github.io/A2A/specification",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "A2A Protocol Surpasses 150 Organizations, Lands in Major Cloud Platforms, and Sees Enterprise Production Use in First Year",
+          "dcterms:publisher": "The Linux Foundation",
+          "schema:url": "https://www.linuxfoundation.org/press/a2a-protocol-surpasses-150-organizations-lands-in-major-cloud-platforms-and-sees-enterprise-production-use-in-first-year",
+          "kto:sourceType": "news"
+        },
+        {
+          "dcterms:title": "Google Cloud donates A2A to Linux Foundation",
+          "dcterms:publisher": "Google Developers Blog",
+          "schema:url": "https://developers.googleblog.com/en/google-cloud-donates-a2a-to-linux-foundation/",
+          "kto:sourceType": "partner"
+        },
+        {
+          "dcterms:title": "Make an Agent A2A-Compliant (Agent Fabric)",
+          "dcterms:publisher": "MuleSoft (Salesforce)",
+          "schema:url": "https://docs.mulesoft.com/general/exp-services-create-a2a-bridge",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Agentic Patterns and Implementation with Agentforce",
+          "dcterms:publisher": "Salesforce Architects",
+          "schema:url": "https://architect.salesforce.com/fundamentals/agentic-patterns",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Agent2Agent Protocol: The Standard for AI Agent Interoperability",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/agentforce/ai-agents/agent2agent-protocol/",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/integration/agent-to-agent-protocol.md",
+      "skos:altLabel": [
+        "A2A",
+        "A2A protocol",
+        "Agent-to-Agent Protocol",
+        "Agent2Agent"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:integration-patterns"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:agentforce-architecture-patterns"
+        },
+        {
+          "@id": "kt:model-context-protocol-in-agentforce"
+        },
+        {
+          "@id": "kt:agentforce"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:model-context-protocol"
+        }
+      ],
+      "kto:enables": [
+        {
+          "@id": "kt:multi-agent-orchestration"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:agent-api"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:mulesoft-anypoint-platform"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:oauth-2-0"
+        }
+      ]
+    },
+    {
       "@id": "kt:amazon-connect",
       "@type": "kto:Product",
       "skos:prefLabel": "Amazon Connect",
