@@ -25360,6 +25360,79 @@
       ]
     },
     {
+      "@id": "kt:apex-interfaces",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Apex Interfaces",
+      "skos:definition": "Apex type declarations that list method signatures without bodies; a class that uses the implements keyword must supply every method, which lets code depend on a contract (a data type) rather than on a concrete class.",
+      "kto:domain": "development",
+      "dcterms:created": "2026-11-27",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Apex Developer Guide: Interfaces (Winter '27, API version 68.0)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.264.0.apexcode.meta/pages/apex_classes_interfaces.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Apex Developer Guide: Extending a Class (Winter '27, API version 68.0)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.264.0.apexcode.meta/pages/apex_classes_extending.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Apex Developer Guide: Custom Iterators (Winter '27, API version 68.0)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.264.0.apexcode.meta/pages/apex_classes_iterable.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Apex Reference Guide: Callable Interface",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.264.0.apexref.meta/apexref/apex_interface_System_Callable.htm",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/development/apex-interfaces.md",
+      "skos:altLabel": [
+        "Apex interface",
+        "interface keyword in Apex",
+        "implements keyword",
+        "Apex interface implementation"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:apex"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:apex-enterprise-patterns"
+        },
+        {
+          "@id": "kt:apex-collections"
+        },
+        {
+          "@id": "kt:sandboxpostcopy-interface"
+        },
+        {
+          "@id": "kt:apex-testing"
+        },
+        {
+          "@id": "kt:second-generation-managed-packages"
+        }
+      ],
+      "kto:enables": [
+        {
+          "@id": "kt:batch-apex"
+        },
+        {
+          "@id": "kt:apex-mocks"
+        }
+      ]
+    },
+    {
       "@id": "kt:apex-json-serialization",
       "@type": "kto:Feature",
       "skos:prefLabel": "Apex JSON Serialization",
