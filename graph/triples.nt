@@ -2375,6 +2375,29 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/bulkification> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#mitigates> <https://github.com/john1hsu/salesforce-knowledge-graph/id/limit-exception> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/bulkification> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/bulkification> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/business-analyst> <http://purl.org/dc/terms/created> "2026-11-27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/business-analyst> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Role> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/business-analyst> <http://www.w3.org/2000/01/rdf-schema#label> "Salesforce Business Analyst" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/business-analyst> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce BA" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/business-analyst> <http://www.w3.org/2004/02/skos/core#altLabel> "business analyst role in the Salesforce ecosystem" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/business-analyst> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-ecosystem-roles> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/business-analyst> <http://www.w3.org/2004/02/skos/core#definition> "The project-based Salesforce ecosystem role that elicits, documents and analyzes business requirements, maps current and future processes, writes user stories and drives user acceptance, acting as the interpreter between business stakeholders and the admins, developers and architects who build the solution." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/business-analyst> <http://www.w3.org/2004/02/skos/core#prefLabel> "Salesforce Business Analyst" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/business-analyst> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/fit-gap-analysis> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/business-analyst> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/requirements-gathering> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/business-analyst> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-architect> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/business-analyst> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/user-acceptance-testing> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/business-analyst> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/user-stories> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/business-analyst> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-analyst/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/business-analyst> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-analyst/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/business-analyst> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-analyst/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/business-analyst> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-analyst/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/business-analyst> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-analyst/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/business-analyst> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-analyst/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/business-analyst> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#coveredBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/business-analyst-certification> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/business-analyst> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "architecture-practice" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/business-analyst> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/business-analyst> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/business-hours> <http://purl.org/dc/terms/created> "2026-11-07" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/business-hours> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/business-hours> <http://www.w3.org/2000/01/rdf-schema#label> "Business Hours" .
@@ -18443,6 +18466,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulkification/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulkification/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/bulkification/s6> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=005298965&language=en_US&type=1" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-analyst/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-analyst/s1> <http://purl.org/dc/terms/title> "Salesforce Business Analyst Quick Look: Learn About the Salesforce Business Analyst Role" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-analyst/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-analyst/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-analyst/s1> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/salesforce-business-analyst-quick-look/learn-about-the-salesforce-business-analyst-role" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-analyst/s2> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-analyst/s2> <http://purl.org/dc/terms/title> "Business Analyst Skills and Strategies: Discover the Top Business Analyst Skills" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-analyst/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-analyst/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-analyst/s2> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/business-analyst_skills-strategies/discover-top-business-analyst-skills" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-analyst/s3> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-analyst/s3> <http://purl.org/dc/terms/title> "Salesforce Admins and Salesforce BAs Quick Look: Compare the Admin and BA Roles" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-analyst/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-analyst/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-analyst/s3> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/salesforce-admins-and-salesforce-bas-quick-look/compare-the-admin-and-ba-roles" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-analyst/s4> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-analyst/s4> <http://purl.org/dc/terms/title> "Business Process Mapping: Understand the Value of Business Analysis" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-analyst/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-analyst/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-analyst/s4> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/business-process-mapping/understand-the-value-of-business-analysis" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-analyst/s5> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-analyst/s5> <http://purl.org/dc/terms/title> "Salesforce Business Analyst Certification Prep: Get Started" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-analyst/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-analyst/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-analyst/s5> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/salesforce-business-analyst-certification-prep/get-started-with-salesforce-business-analyst-certification-prep" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-analyst/s6> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-analyst/s6> <http://purl.org/dc/terms/title> "Certification - Salesforce Certified Business Analyst" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-analyst/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-analyst/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-analyst/s6> <https://schema.org/url> "https://trailhead.salesforce.com/en/credentials/businessanalyst" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-hours/s1> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-hours/s1> <http://purl.org/dc/terms/title> "Set Business Hours" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/business-hours/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
