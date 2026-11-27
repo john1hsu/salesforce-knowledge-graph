@@ -10,7 +10,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:business-analyst-certification` | `kt:business-analyst`, `kt:user-acceptance-testing` |
 | `kt:business-architecture` | `kt:capability-maps`, `kt:togaf` |
 | `kt:enterprise-architecture` | `kt:architecture-roadmaps`, `kt:togaf` |
-| `kt:read-only-mode` | `kt:disaster-recovery-and-site-switching`, `kt:planned-maintenance-windows` |
 | `kt:service-setup-assistant` | `kt:service-cloud` |
 | `kt:salesforce-architecture-program` | `kt:salesforce-architecture-center` |
 | `kt:salesforce-archive` | `kt:archiving-strategy` |
@@ -23,8 +22,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:einstein-discovery` | `kt:crm-analytics` |
 | `kt:saql` | `kt:crm-analytics` |
 | `kt:lightning-out` | `kt:lightning-locker` |
-| `kt:salesforce-ecosystem` | `kt:salesforce-inc` |
 | `kt:heroku-postgres` | `kt:heroku-connect` |
+| `kt:salesforce-ecosystem` | `kt:salesforce-inc` |
 | `kt:path` | `kt:business-processes` |
 | `kt:revenue-intelligence` | `kt:collaborative-forecasts` |
 | `kt:dynamic-revenue-orchestrator` | `kt:revenue-cloud` |
@@ -61,8 +60,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:semantic-layer` | `kt:tableau-semantics` |
 | `kt:aws-lambda` | `kt:amazon-connect` |
 | `kt:salesforce-dx-mcp-server` | `kt:model-context-protocol` |
-| `kt:operating-hours` | `kt:salesforce-scheduler` |
 | `kt:agentforce-vibes` | `kt:agentforce-vibes-ide` |
+| `kt:operating-hours` | `kt:salesforce-scheduler` |
 | `kt:ui-api` | `kt:field-dependencies` |
 | `kt:apex-mockery` | `kt:apex-mocks` |
 | `kt:apex-stub-api` | `kt:apex-mocks` |
@@ -77,8 +76,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:mobile-sync` | `kt:mobile-sdk` |
 | `kt:smartstore` | `kt:mobile-sdk` |
 | `kt:developer-console` | `kt:apex-logging-and-debug-logs` |
-| `kt:slds-linter` | `kt:salesforce-lightning-design-system` |
 | `kt:custom-labels` | `kt:flow-formula-resources` |
+| `kt:slds-linter` | `kt:salesforce-lightning-design-system` |
 | `kt:science` | `kt:computer-science` |
 | `kt:software-engineering` | `kt:computer-science` |
 | `kt:partner-relationship-management` | `kt:partner-community-licenses` |
@@ -92,9 +91,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:business-administration` | `kt:management` |
 | `kt:currency-type-object` | `kt:multiple-currencies` |
 | `kt:user-provisioning` | `kt:scim` |
+| `kt:mulesoft-agent-fabric` | `kt:multi-agent-orchestration` |
 | `kt:anypoint-monitoring` | `kt:anypoint-runtime-manager` |
 | `kt:cloudhub-2` | `kt:anypoint-runtime-manager` |
-| `kt:mulesoft-agent-fabric` | `kt:multi-agent-orchestration` |
 | `kt:runtime-fabric` | `kt:anypoint-runtime-manager` |
 | `kt:runtime-manager-agent` | `kt:anypoint-runtime-manager` |
 | `kt:hmac-based-one-time-password` | `kt:time-based-one-time-password` |
@@ -105,6 +104,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:clickjacking` | `kt:clickjack-protection` |
 | `kt:csrf-protection` | `kt:clickjack-protection` |
 | `kt:enhanced-letterheads` | `kt:email-templates` |
+| `kt:patch-releases` | `kt:planned-maintenance-windows` |
 | `kt:agentforce-nonprofit-consultant-certification` | `kt:agentforce-nonprofit` |
 | `kt:nonprofit-success-pack` | `kt:agentforce-nonprofit` |
 | `kt:iso-iec-29100` | `kt:iso-iec-27018` |
@@ -122,7 +122,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:consent-data-model` | `kt:consent-management-in-data-cloud` |
 | `kt:heroku-fir` | `kt:heroku-architect-certification` |
 | `kt:twelve-factor-app` | `kt:heroku-architect-certification` |
-| `kt:patch-releases` | `kt:planned-maintenance-windows` |
 | `kt:salesforce-maps` | `kt:geolocation-fields` |
 | `kt:view-all-data-and-modify-all-data` | `kt:view-all-and-modify-all-permissions` |
 | `kt:app-manager` | `kt:app-launcher` |

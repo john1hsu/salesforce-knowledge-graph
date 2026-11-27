@@ -48296,6 +48296,104 @@
       ]
     },
     {
+      "@id": "kt:read-only-mode",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Read-Only Mode",
+      "skos:definition": "The degraded-availability state Salesforce puts a production org into during certain maintenance events, in which users and read API calls can still view and report on data but every database write fails until the maintenance ends.",
+      "kto:domain": "platform-architecture",
+      "dcterms:created": "2026-11-27",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Salesforce Read-Only Mode Overview",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?amp=&id=Read-Only-Mode-Overview&language=en_US&type=1",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "How is my org impacted during Salesforce maintenance?",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=000335669&language=en_US&type=1",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Instance Refreshes and Consolidations",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?amp=&id=Instance-Refresh-Maintenance-FAQ&language=en_US&type=1",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Site Switching and Apex Callouts",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2017/10/site-switching-apex-callouts",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "What do I need to do about my upcoming Salesforce site switch?",
+          "dcterms:publisher": "Heroku Help",
+          "schema:url": "https://help.heroku.com/GXAW850T/what-do-i-need-to-do-about-my-upcoming-salesforce-site-switch",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Salesforce Upgrades and Maintenance",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=xcloud.getstart_upgrades.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/platform-architecture/read-only-mode.md",
+      "skos:altLabel": [
+        "Salesforce read-only mode",
+        "read-only access during maintenance",
+        "maintenance read-only mode",
+        "ApplicationReadWriteMode"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-platform"
+        },
+        {
+          "@id": "kt:planned-maintenance-windows"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:instance-refresh-and-org-migration"
+        },
+        {
+          "@id": "kt:disaster-recovery-and-site-switching"
+        },
+        {
+          "@id": "kt:trust-and-status-site"
+        },
+        {
+          "@id": "kt:apex-callouts"
+        },
+        {
+          "@id": "kt:hyperforce"
+        },
+        {
+          "@id": "kt:scheduled-apex"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:heroku-connect"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:pod-and-instance-architecture"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:screen-flow"
+        }
+      ]
+    },
+    {
       "@id": "kt:record-locking",
       "@type": "kto:Concept",
       "skos:prefLabel": "Record Locking",

@@ -13029,6 +13029,35 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/raci-matrix> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/raci-matrix> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#usedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-architect> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/raci-matrix> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/read-only-mode> <http://purl.org/dc/terms/created> "2026-11-27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/read-only-mode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/read-only-mode> <http://www.w3.org/2000/01/rdf-schema#label> "Read-Only Mode" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/read-only-mode> <http://www.w3.org/2004/02/skos/core#altLabel> "ApplicationReadWriteMode" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/read-only-mode> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce read-only mode" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/read-only-mode> <http://www.w3.org/2004/02/skos/core#altLabel> "maintenance read-only mode" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/read-only-mode> <http://www.w3.org/2004/02/skos/core#altLabel> "read-only access during maintenance" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/read-only-mode> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/planned-maintenance-windows> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/read-only-mode> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-platform> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/read-only-mode> <http://www.w3.org/2004/02/skos/core#definition> "The degraded-availability state Salesforce puts a production org into during certain maintenance events, in which users and read API calls can still view and report on data but every database write fails until the maintenance ends." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/read-only-mode> <http://www.w3.org/2004/02/skos/core#prefLabel> "Read-Only Mode" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/read-only-mode> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-callouts> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/read-only-mode> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/disaster-recovery-and-site-switching> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/read-only-mode> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/hyperforce> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/read-only-mode> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/instance-refresh-and-org-migration> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/read-only-mode> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/scheduled-apex> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/read-only-mode> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/trust-and-status-site> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/read-only-mode> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/read-only-mode/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/read-only-mode> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/read-only-mode/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/read-only-mode> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/read-only-mode/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/read-only-mode> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/read-only-mode/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/read-only-mode> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/read-only-mode/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/read-only-mode> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/read-only-mode/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/read-only-mode> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#consumedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/heroku-connect> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/read-only-mode> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#contrastsWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/screen-flow> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/read-only-mode> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/pod-and-instance-architecture> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/read-only-mode> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "platform-architecture" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/read-only-mode> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/read-only-mode> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/record-locking> <http://purl.org/dc/terms/created> "2026-11-01" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/record-locking> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/record-locking> <http://www.w3.org/2000/01/rdf-schema#label> "Record Locking" .
@@ -29352,6 +29381,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/raci-matrix/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/raci-matrix/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/raci-matrix/s6> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/salesforce-governance-with-a-center-of-excellence/implement-your-salesforce-coes-core-capabilities" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/read-only-mode/s1> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/read-only-mode/s1> <http://purl.org/dc/terms/title> "Salesforce Read-Only Mode Overview" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/read-only-mode/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/read-only-mode/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/read-only-mode/s1> <https://schema.org/url> "https://help.salesforce.com/s/articleView?amp=&id=Read-Only-Mode-Overview&language=en_US&type=1" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/read-only-mode/s2> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/read-only-mode/s2> <http://purl.org/dc/terms/title> "How is my org impacted during Salesforce maintenance?" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/read-only-mode/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/read-only-mode/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/read-only-mode/s2> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=000335669&language=en_US&type=1" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/read-only-mode/s3> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/read-only-mode/s3> <http://purl.org/dc/terms/title> "Instance Refreshes and Consolidations" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/read-only-mode/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/read-only-mode/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/read-only-mode/s3> <https://schema.org/url> "https://help.salesforce.com/s/articleView?amp=&id=Instance-Refresh-Maintenance-FAQ&language=en_US&type=1" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/read-only-mode/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/read-only-mode/s4> <http://purl.org/dc/terms/title> "Site Switching and Apex Callouts" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/read-only-mode/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/read-only-mode/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/read-only-mode/s4> <https://schema.org/url> "https://developer.salesforce.com/blogs/2017/10/site-switching-apex-callouts" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/read-only-mode/s5> <http://purl.org/dc/terms/publisher> "Heroku Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/read-only-mode/s5> <http://purl.org/dc/terms/title> "What do I need to do about my upcoming Salesforce site switch?" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/read-only-mode/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/read-only-mode/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/read-only-mode/s5> <https://schema.org/url> "https://help.heroku.com/GXAW850T/what-do-i-need-to-do-about-my-upcoming-salesforce-site-switch" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/read-only-mode/s6> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/read-only-mode/s6> <http://purl.org/dc/terms/title> "Salesforce Upgrades and Maintenance" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/read-only-mode/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/read-only-mode/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/read-only-mode/s6> <https://schema.org/url> "https://help.salesforce.com/s/articleView?id=xcloud.getstart_upgrades.htm&language=en_US&type=5" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/record-locking/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/record-locking/s1> <http://purl.org/dc/terms/title> "Locking Statements (Apex Developer Guide)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/record-locking/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
