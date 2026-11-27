@@ -20168,6 +20168,110 @@
       ]
     },
     {
+      "@id": "kt:checkbox-fields",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Checkbox Fields",
+      "skos:definition": "The custom field type that stores a single true (checked) or false (unchecked) attribute on a record, exposed to the APIs as a boolean and also available as a formula return type.",
+      "kto:domain": "data-model",
+      "dcterms:created": "2026-11-27",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Custom Field Types",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=sf.custom_field_types.htm&amp=&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Custom Field Attributes",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=platform.custom_field_attributes.htm&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Default Field Values",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=platform.fields_about_default_field_values.htm&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Get Started with Formulas",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/quick-data-insights-with-formulas/get-started-with-formulas",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Primitive Data Types — Object Reference for the Salesforce Platform",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api.meta/api/primitive_data_types.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Input Field — Lightning Component Reference",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/lightning-component-reference/guide/lightning-input-field.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "How to Create a Salesforce Report on Records Submitted for Approval Using a Custom Checkbox Field",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=000387774&language=en_US&type=1",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "CustomField — Metadata API Developer Guide",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/customfield.htm",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/data-model/checkbox-fields.md",
+      "skos:altLabel": [
+        "checkbox field",
+        "boolean field",
+        "Checkbox data type",
+        "checkbox formula"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:custom-fields"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:formula-fields"
+        },
+        {
+          "@id": "kt:approval-processes"
+        },
+        {
+          "@id": "kt:external-id-fields"
+        },
+        {
+          "@id": "kt:validation-rules"
+        },
+        {
+          "@id": "kt:data-import-wizard"
+        }
+      ],
+      "kto:queriedWith": [
+        {
+          "@id": "kt:soql"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:lightning-web-components"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:metadata-api"
+        }
+      ]
+    },
+    {
       "@id": "kt:compact-layouts",
       "@type": "kto:Feature",
       "skos:prefLabel": "Compact Layouts",
@@ -20613,6 +20717,9 @@
         },
         {
           "@id": "kt:date-and-date-time-fields"
+        },
+        {
+          "@id": "kt:checkbox-fields"
         }
       ],
       "kto:dependsOn": [
