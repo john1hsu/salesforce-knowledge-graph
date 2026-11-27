@@ -47108,6 +47108,94 @@
       ]
     },
     {
+      "@id": "kt:planned-maintenance-windows",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Planned Maintenance Windows",
+      "skos:definition": "The recurring time slots in which Salesforce performs scheduled system maintenance, major release upgrades and patch releases on each instance, published per region with advance Trust notifications and sometimes involving read-only access or brief unavailability.",
+      "kto:domain": "platform-architecture",
+      "dcterms:created": "2026-11-27",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Preferred Salesforce Maintenance Schedule",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/HTViewSolution?id=000176208",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Salesforce Release Process and Transitioning Tips",
+          "dcterms:publisher": "Salesforce Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/modules/sf_releases/units/sf_releases_start",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Site Switching and Apex Callouts",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2017/10/site-switching-apex-callouts",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "What do I need to do about my upcoming Salesforce site switch?",
+          "dcterms:publisher": "Heroku Help",
+          "schema:url": "https://help.heroku.com/GXAW850T/what-do-i-need-to-do-about-my-upcoming-salesforce-site-switch",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Admin Release Countdown: Get Ready for Winter '27",
+          "dcterms:publisher": "Salesforce Admins Blog",
+          "schema:url": "https://admin.salesforce.com/blog/2026/admin-winter-27-release-countdown",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/platform-architecture/planned-maintenance-windows.md",
+      "skos:altLabel": [
+        "preferred maintenance windows",
+        "Preferred Salesforce Maintenance Schedule",
+        "Salesforce system maintenance windows",
+        "scheduled maintenance",
+        "release maintenance windows"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-platform"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:trust-and-status-site"
+        },
+        {
+          "@id": "kt:salesforce-seasonal-releases"
+        },
+        {
+          "@id": "kt:sandbox-preview"
+        },
+        {
+          "@id": "kt:instance-refresh-and-org-migration"
+        },
+        {
+          "@id": "kt:disaster-recovery-and-site-switching"
+        },
+        {
+          "@id": "kt:patch-releases"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:pod-and-instance-architecture"
+        },
+        {
+          "@id": "kt:read-only-mode"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:hyperforce"
+        }
+      ]
+    },
+    {
       "@id": "kt:platform-administrator-certification",
       "@type": "kto:Certification",
       "skos:prefLabel": "Platform Administrator Certification",

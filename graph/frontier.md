@@ -12,6 +12,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:business-architecture` | `kt:capability-maps`, `kt:togaf` |
 | `kt:multi-agent-orchestration` | `kt:agent-to-agent-protocol`, `kt:agentforce-architecture-patterns` |
 | `kt:enterprise-architecture` | `kt:architecture-roadmaps`, `kt:togaf` |
+| `kt:read-only-mode` | `kt:disaster-recovery-and-site-switching`, `kt:planned-maintenance-windows` |
 | `kt:service-setup-assistant` | `kt:service-cloud` |
 | `kt:salesforce-ecosystem-roles` | `kt:salesforce-architect` |
 | `kt:salesforce-architecture-program` | `kt:salesforce-architecture-center` |
@@ -66,8 +67,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:apex-mockery` | `kt:apex-mocks` |
 | `kt:apex-stub-api` | `kt:apex-mocks` |
 | `kt:guest-user-sharing-rules` | `kt:share-groups` |
-| `kt:artificial-intelligence` | `kt:generative-ai` |
 | `kt:decision-matrices` | `kt:decision-tables` |
+| `kt:artificial-intelligence` | `kt:generative-ai` |
 | `kt:large-language-models` | `kt:generative-ai` |
 | `kt:shared-activities` | `kt:activity-data-model` |
 | `kt:passkeys` | `kt:security-keys` |
@@ -82,8 +83,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:software-engineering` | `kt:computer-science` |
 | `kt:partner-relationship-management` | `kt:partner-community-licenses` |
 | `kt:destructive-changes` | `kt:rollback-plan` |
-| `kt:apex-soap-web-services` | `kt:apex-rest-services` |
 | `kt:ldap` | `kt:delegated-authentication` |
+| `kt:apex-soap-web-services` | `kt:apex-rest-services` |
 | `kt:custom-labels` | `kt:flow-formula-resources` |
 | `kt:salesforce-dx-mcp-server` | `kt:model-context-protocol` |
 | `kt:isv-customer-debugger` | `kt:subscriber-support-console` |
@@ -106,25 +107,24 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:agentforce-nonprofit-consultant-certification` | `kt:agentforce-nonprofit` |
 | `kt:nonprofit-success-pack` | `kt:agentforce-nonprofit` |
 | `kt:iso-iec-29100` | `kt:iso-iec-27018` |
-| `kt:digital-accessibility` | `kt:section-508-accessibility` |
 | `kt:federal-acquisition-regulation` | `kt:performance-work-statement` |
 | `kt:quality-assurance-surveillance-plan` | `kt:performance-work-statement` |
 | `kt:statement-of-objectives` | `kt:performance-work-statement` |
-| `kt:wcag` | `kt:section-508-accessibility` |
 | `kt:life-cycle-cost-estimate` | `kt:rough-order-of-magnitude-estimate` |
 | `kt:project-estimation` | `kt:rough-order-of-magnitude-estimate` |
+| `kt:digital-accessibility` | `kt:section-508-accessibility` |
+| `kt:wcag` | `kt:section-508-accessibility` |
 | `kt:b2c-commerce-architect-certification` | `kt:b2c-solution-architect-certification` |
 | `kt:json` | `kt:apex-json-serialization` |
 | `kt:web-to-case` | `kt:auto-response-rules` |
 | `kt:web-to-lead` | `kt:auto-response-rules` |
 | `kt:heroku-fir` | `kt:heroku-architect-certification` |
 | `kt:twelve-factor-app` | `kt:heroku-architect-certification` |
+| `kt:patch-releases` | `kt:planned-maintenance-windows` |
 | `kt:salesforce-maps` | `kt:geolocation-fields` |
 | `kt:view-all-data-and-modify-all-data` | `kt:view-all-and-modify-all-permissions` |
 | `kt:controlled-unclassified-information` | `kt:cmmc` |
 | `kt:nist-sp-800-171` | `kt:cmmc` |
-| `kt:planned-maintenance-windows` | `kt:disaster-recovery-and-site-switching` |
-| `kt:read-only-mode` | `kt:disaster-recovery-and-site-switching` |
 | `kt:app-manager` | `kt:app-launcher` |
 | `kt:aws-clean-rooms` | `kt:data-360-clean-rooms` |
 | `kt:bearer-token-security` | `kt:frontdoor-jsp-session-bridging` |
