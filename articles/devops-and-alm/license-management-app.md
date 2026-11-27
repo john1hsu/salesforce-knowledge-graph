@@ -11,7 +11,7 @@ summary: >-
 release: "Winter '27"
 status: current
 broader: [kt:agentexchange, kt:application-lifecycle-management]
-related: [kt:first-generation-managed-packages, kt:second-generation-managed-packages, kt:push-upgrades]
+related: [kt:first-generation-managed-packages, kt:second-generation-managed-packages, kt:push-upgrades, kt:feature-management-app]
 relations:
   - {predicate: dependsOn, object: kt:partner-business-org}
   - {predicate: integratesWith, object: kt:partner-console}

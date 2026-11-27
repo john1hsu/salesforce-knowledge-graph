@@ -31139,6 +31139,113 @@
       ]
     },
     {
+      "@id": "kt:feature-management-app",
+      "@type": "kto:Tool",
+      "skos:prefLabel": "Feature Management App",
+      "skos:definition": "A Salesforce-provided managed package that extends the License Management App so ISV partners can control features in subscriber orgs and collect activation metrics through Boolean, Integer and Date feature parameters packaged with their 1GP or 2GP managed packages.",
+      "kto:domain": "devops-and-alm",
+      "dcterms:created": "2026-11-27",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Manage Features in Second-Generation Managed Packages",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_dev2gp_fma_manage_features.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Install and Set Up the Feature Management App in Your License Management Org",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/pkg1-dev/guide/fma-install.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Feature Parameter Metadata Types and Custom Objects",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/pkg2-dev/guide/sfdx-dev-dev2gp-fma-types-objects.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Considerations for Feature Management",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/pkg2-dev/guide/fma-considerations.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Track Preferences and Activation Metrics with Subscriber-to-LMO Feature Parameters",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/pkg2-dev/guide/pd-fma-subscriber-to-lmo.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Hide Custom Objects and Custom Permissions in Your Subscribers' Orgs",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/pkg2-dev/guide/pd-fma-hide-custom-objects-permissions.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Manage Features for AppExchange Partners",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/appexchange_licensing/appexchange_licensing_features",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Best Practices for Feature Management",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/pkg1-dev/guide/fma-best-practices.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/devops-and-alm/feature-management-app.md",
+      "skos:altLabel": [
+        "FMA",
+        "Salesforce Feature Management App",
+        "feature parameters",
+        "Feature Parameters for managed packages"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:license-management-app"
+        },
+        {
+          "@id": "kt:application-lifecycle-management"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:second-generation-managed-packages"
+        },
+        {
+          "@id": "kt:first-generation-managed-packages"
+        },
+        {
+          "@id": "kt:push-upgrades"
+        },
+        {
+          "@id": "kt:subscriber-support-console"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:license-management-app"
+        },
+        {
+          "@id": "kt:partner-business-org"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:custom-permissions"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:apex"
+        }
+      ]
+    },
+    {
       "@id": "kt:first-generation-managed-packages",
       "@type": "kto:Feature",
       "skos:prefLabel": "First-Generation Managed Packages",
@@ -31292,6 +31399,9 @@
         },
         {
           "@id": "kt:push-upgrades"
+        },
+        {
+          "@id": "kt:feature-management-app"
         }
       ],
       "kto:dependsOn": [
