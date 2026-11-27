@@ -9203,6 +9203,96 @@
       ]
     },
     {
+      "@id": "kt:slack-workflow-builder",
+      "@type": "kto:Tool",
+      "skos:prefLabel": "Slack Workflow Builder",
+      "skos:definition": "Slack's no-code automation tool: a workflow starts from a trigger (a link, schedule, webhook, emoji reaction, posted message, list update or channel join) and runs Slack, connector and custom steps, including Salesforce connector steps that create or update records and run active autolaunched flows.",
+      "kto:domain": "automation",
+      "dcterms:created": "2026-11-27",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Guide to Slack Workflow Builder",
+          "dcterms:publisher": "Slack (Salesforce)",
+          "schema:url": "https://slack.com/help/articles/360035692513-Guide-to-Slack-Workflow-Builder",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Build a workflow: Create a workflow in Slack",
+          "dcterms:publisher": "Slack (Salesforce)",
+          "schema:url": "https://slack.com/help/articles/17542172840595-Guide-to-Workflow-Builder",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Workflow steps",
+          "dcterms:publisher": "Slack (Salesforce)",
+          "schema:url": "https://docs.slack.dev/workflows/workflow-steps",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Enhance Your Slack Workflows with Steps (Business Process Automation with Slack's Workflow Builder)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/business-process-automation-with-slacks-workflow-builder/add-steps-to-a-workflow",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Build No-Code Slack and Salesforce Automations With Flow",
+          "dcterms:publisher": "Salesforce Admins",
+          "schema:url": "https://admin.salesforce.com/blog/2025/build-no-code-slack-and-salesforce-automations-with-flow",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/automation/slack-workflow-builder.md",
+      "skos:altLabel": [
+        "Workflow Builder",
+        "Slack workflows",
+        "Slack Workflow Builder steps"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:slack-platform"
+        },
+        {
+          "@id": "kt:process-automation"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:block-kit"
+        },
+        {
+          "@id": "kt:record-triggered-flow"
+        },
+        {
+          "@id": "kt:agentforce-in-slack"
+        },
+        {
+          "@id": "kt:slack-api-rate-limits"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:slack-platform"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:autolaunched-flow"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:flow-builder"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:mulesoft-composer"
+        }
+      ]
+    },
+    {
       "@id": "kt:subflows",
       "@type": "kto:Feature",
       "skos:prefLabel": "Subflows",
