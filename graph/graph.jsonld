@@ -19246,6 +19246,104 @@
       ]
     },
     {
+      "@id": "kt:multi-agent-orchestration",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Multi-Agent Orchestration",
+      "skos:definition": "Agentforce's way of having one orchestrator (Super) agent take every request and delegate it to specialist agents declared as Connected Subagents in the same org; generally available in Winter '27, and extended across vendors and orgs by MuleSoft Agent Fabric's A2A-based Agent Broker.",
+      "kto:domain": "data-cloud-and-ai",
+      "dcterms:created": "2026-11-27",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "The Salesforce Developer's Guide to the Winter '27 Release",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2026/10/developers-guide-to-the-winter-27-release",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "What Is Multi-Agent Orchestration, and When To Build a Super Agent or a Single Agent",
+          "dcterms:publisher": "Salesforce Admins Blog",
+          "schema:url": "https://admin.salesforce.com/blog/2026/what-is-soma-and-when-to-build-a-super-agent-or-a-single-agent",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "How to Set Up a Super Agent with Connected Subagents",
+          "dcterms:publisher": "Salesforce Admins Blog",
+          "schema:url": "https://admin.salesforce.com/blog/2026/how-to-set-up-a-super-agent-with-connected-subagents",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "MuleSoft Agent Fabric - Deep Dive",
+          "dcterms:publisher": "Salesforce Architects",
+          "schema:url": "https://architect.salesforce.com/fundamentals/mulesoft-agent-fabric-deep-dive",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Agent Fabric Overview",
+          "dcterms:publisher": "MuleSoft Documentation",
+          "schema:url": "https://docs.mulesoft.com/agent-fabric/",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Orchestrating Multi-Agent Processes with Agent Networks",
+          "dcterms:publisher": "MuleSoft Documentation",
+          "schema:url": "https://docs.mulesoft.com/agent-network/latest/af-use-case-orchestration",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/data-cloud-and-ai/multi-agent-orchestration.md",
+      "skos:altLabel": [
+        "Agentforce multi-agent orchestration",
+        "Super Agent",
+        "super agents",
+        "Connected Subagents",
+        "connected subagent",
+        "Connected Agents",
+        "orchestrator agent"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:agentforce"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:agentforce-subagents"
+        },
+        {
+          "@id": "kt:agentforce-architecture-patterns"
+        },
+        {
+          "@id": "kt:agentforce-employee-agents"
+        },
+        {
+          "@id": "kt:atlas-reasoning-engine"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:agent-script"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:agent-to-agent-protocol"
+        },
+        {
+          "@id": "kt:model-context-protocol"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:mulesoft-anypoint-platform"
+        },
+        {
+          "@id": "kt:mulesoft-agent-fabric"
+        }
+      ]
+    },
+    {
       "@id": "kt:prompt-builder",
       "@type": "kto:Tool",
       "skos:prefLabel": "Prompt Builder",
