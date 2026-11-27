@@ -32,8 +32,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:invocable-methods` | `kt:apex-defined-types` |
 | `kt:business-process-mapping` | `kt:requirements-gathering` |
 | `kt:backup-and-recover-next` | `kt:backup-and-recover` |
-| `kt:iso-iec-25010` | `kt:non-functional-requirements` |
 | `kt:actionable-relationship-center` | `kt:financial-services-cloud` |
+| `kt:iso-iec-25010` | `kt:non-functional-requirements` |
 | `kt:in-app-guidance` | `kt:change-management-and-adoption` |
 | `kt:constraint-modeling-language` | `kt:product-configurator` |
 | `kt:product-catalog-management` | `kt:product-configurator` |
@@ -50,8 +50,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:data-cloud-query-api` | `kt:data-graphs` |
 | `kt:enterprise-service-bus` | `kt:point-to-point-integration` |
 | `kt:holidays` | `kt:business-hours` |
-| `kt:value-streams` | `kt:capability-maps` |
 | `kt:opportunity-products` | `kt:price-books` |
+| `kt:value-streams` | `kt:capability-maps` |
 | `kt:api-visualizer` | `kt:application-network` |
 | `kt:information-management` | `kt:data-management` |
 | `kt:mulesoft-for-flow-integration` | `kt:mulesoft-composer` |
@@ -60,8 +60,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:semantic-layer` | `kt:tableau-semantics` |
 | `kt:aws-lambda` | `kt:amazon-connect` |
 | `kt:salesforce-dx-mcp-server` | `kt:model-context-protocol` |
-| `kt:agentforce-vibes` | `kt:agentforce-vibes-ide` |
 | `kt:operating-hours` | `kt:salesforce-scheduler` |
+| `kt:agentforce-vibes` | `kt:agentforce-vibes-ide` |
 | `kt:ui-api` | `kt:field-dependencies` |
 | `kt:apex-mockery` | `kt:apex-mocks` |
 | `kt:apex-stub-api` | `kt:apex-mocks` |
@@ -76,8 +76,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:mobile-sync` | `kt:mobile-sdk` |
 | `kt:smartstore` | `kt:mobile-sdk` |
 | `kt:developer-console` | `kt:apex-logging-and-debug-logs` |
-| `kt:custom-labels` | `kt:flow-formula-resources` |
 | `kt:slds-linter` | `kt:salesforce-lightning-design-system` |
+| `kt:custom-labels` | `kt:flow-formula-resources` |
 | `kt:science` | `kt:computer-science` |
 | `kt:software-engineering` | `kt:computer-science` |
 | `kt:partner-relationship-management` | `kt:partner-community-licenses` |
@@ -105,14 +105,14 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:csrf-protection` | `kt:clickjack-protection` |
 | `kt:enhanced-letterheads` | `kt:email-templates` |
 | `kt:patch-releases` | `kt:planned-maintenance-windows` |
+| `kt:iso-iec-29100` | `kt:iso-iec-27018` |
 | `kt:agentforce-nonprofit-consultant-certification` | `kt:agentforce-nonprofit` |
 | `kt:nonprofit-success-pack` | `kt:agentforce-nonprofit` |
-| `kt:iso-iec-29100` | `kt:iso-iec-27018` |
 | `kt:digital-accessibility` | `kt:section-508-accessibility` |
+| `kt:wcag` | `kt:section-508-accessibility` |
 | `kt:federal-acquisition-regulation` | `kt:performance-work-statement` |
 | `kt:quality-assurance-surveillance-plan` | `kt:performance-work-statement` |
 | `kt:statement-of-objectives` | `kt:performance-work-statement` |
-| `kt:wcag` | `kt:section-508-accessibility` |
 | `kt:life-cycle-cost-estimate` | `kt:rough-order-of-magnitude-estimate` |
 | `kt:project-estimation` | `kt:rough-order-of-magnitude-estimate` |
 | `kt:b2c-commerce-architect-certification` | `kt:b2c-solution-architect-certification` |

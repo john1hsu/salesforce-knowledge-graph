@@ -11571,6 +11571,33 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/package-installation-keys> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "devops-and-alm" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/package-installation-keys> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/package-installation-keys> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/package-uninstall> <http://purl.org/dc/terms/created> "2026-11-27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/package-uninstall> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/package-uninstall> <http://www.w3.org/2000/01/rdf-schema#label> "Package Uninstall" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/package-uninstall> <http://www.w3.org/2004/02/skos/core#altLabel> "force:package:uninstall" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/package-uninstall> <http://www.w3.org/2004/02/skos/core#altLabel> "package uninstallation" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/package-uninstall> <http://www.w3.org/2004/02/skos/core#altLabel> "sf package uninstall" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/package-uninstall> <http://www.w3.org/2004/02/skos/core#altLabel> "uninstall a package" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/package-uninstall> <http://www.w3.org/2004/02/skos/core#altLabel> "uninstall export file" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/package-uninstall> <http://www.w3.org/2004/02/skos/core#altLabel> "uninstalling a package" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/package-uninstall> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/first-generation-managed-packages> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/package-uninstall> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/second-generation-managed-packages> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/package-uninstall> <http://www.w3.org/2004/02/skos/core#definition> "Removing an installed package from a subscriber org, from Setup's Installed Packages page or (for second-generation packages) with sf package uninstall; it deletes every package component and its data, can save a short-lived export file first, and is blocked while outside components still reference the package." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/package-uninstall> <http://www.w3.org/2004/02/skos/core#prefLabel> "Package Uninstall" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/package-uninstall> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-objects> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/package-uninstall> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/post-install-scripts> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/package-uninstall> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/record-types> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/package-uninstall> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/sharing-rules> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/package-uninstall> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/unlocked-packages> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/package-uninstall> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/package-uninstall/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/package-uninstall> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/package-uninstall/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/package-uninstall> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/package-uninstall/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/package-uninstall> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/package-uninstall/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/package-uninstall> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-cli> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/package-uninstall> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/roll-up-summary-field> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/package-uninstall> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "devops-and-alm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/package-uninstall> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/package-uninstall> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/package-versioning-and-ancestry> <http://purl.org/dc/terms/created> "2026-11-12" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/package-versioning-and-ancestry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/package-versioning-and-ancestry> <http://www.w3.org/2000/01/rdf-schema#label> "Package Versioning and Ancestry" .
@@ -27911,6 +27938,26 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/package-installation-keys/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/package-installation-keys/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/package-installation-keys/s6> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.appExchangeInstallGuide.meta/appExchangeInstallGuide/appexchange_install_installation.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/package-uninstall/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers (Second-Generation Managed Packaging Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/package-uninstall/s1> <http://purl.org/dc/terms/title> "Uninstall a Second-Generation Managed Package" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/package-uninstall/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/package-uninstall/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/package-uninstall/s1> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/pkg2-dev/guide/sfdx-dev-dev2gp-installed-pkgs-uninstall.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/package-uninstall/s2> <http://purl.org/dc/terms/publisher> "Salesforce Developers (First-Generation Managed Packaging Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/package-uninstall/s2> <http://purl.org/dc/terms/title> "Uninstall a First-Generation Managed Package" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/package-uninstall/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/package-uninstall/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/package-uninstall/s2> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/pkg1-dev/guide/packaging-uninstall.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/package-uninstall/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/package-uninstall/s3> <http://purl.org/dc/terms/title> "package uninstall (Salesforce CLI Command Reference)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/package-uninstall/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/package-uninstall/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/package-uninstall/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/salesforce-cli-reference/guide/cli_reference_package_uninstall.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/package-uninstall/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/package-uninstall/s4> <http://purl.org/dc/terms/title> "After Installing a Package (Application Installation Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/package-uninstall/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/package-uninstall/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/package-uninstall/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/appexchange-install-guide/guide/appexchange-install-postinstall.html" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/package-versioning-and-ancestry/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/package-versioning-and-ancestry/s1> <http://purl.org/dc/terms/title> "Guidance for Package Version Numbering (Second-Generation Managed Packaging Developer Guide)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/package-versioning-and-ancestry/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
