@@ -8,7 +8,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:salesforce-ecosystem-roles` | `kt:business-analyst`, `kt:salesforce-architect` |
 | `kt:requirements-engineering` | `kt:non-functional-requirements`, `kt:requirements-gathering` |
 | `kt:business-analyst-certification` | `kt:business-analyst`, `kt:user-acceptance-testing` |
-| `kt:marketing-cloud-sql` | `kt:automation-studio`, `kt:data-extensions` |
 | `kt:salesforce-hosted-mcp-servers` | `kt:model-context-protocol`, `kt:model-context-protocol-in-agentforce` |
 | `kt:business-architecture` | `kt:capability-maps`, `kt:togaf` |
 | `kt:multi-agent-orchestration` | `kt:agent-to-agent-protocol`, `kt:agentforce-architecture-patterns` |
@@ -30,8 +29,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:heroku-postgres` | `kt:heroku-connect` |
 | `kt:path` | `kt:business-processes` |
 | `kt:dynamic-revenue-orchestrator` | `kt:revenue-cloud` |
-| `kt:revenue-management-consultant-certification` | `kt:revenue-cloud` |
 | `kt:revenue-intelligence` | `kt:collaborative-forecasts` |
+| `kt:revenue-management-consultant-certification` | `kt:revenue-cloud` |
 | `kt:batch-apex-error-event` | `kt:transaction-finalizers` |
 | `kt:business-process-mapping` | `kt:requirements-gathering` |
 | `kt:invocable-methods` | `kt:apex-defined-types` |
@@ -54,11 +53,13 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:data-cloud-query-api` | `kt:data-graphs` |
 | `kt:enterprise-service-bus` | `kt:point-to-point-integration` |
 | `kt:holidays` | `kt:business-hours` |
-| `kt:opportunity-products` | `kt:price-books` |
 | `kt:value-streams` | `kt:capability-maps` |
+| `kt:opportunity-products` | `kt:price-books` |
 | `kt:api-visualizer` | `kt:application-network` |
 | `kt:information-management` | `kt:data-management` |
 | `kt:mulesoft-for-flow-integration` | `kt:mulesoft-composer` |
+| `kt:marketing-cloud-data-views` | `kt:marketing-cloud-sql` |
+| `kt:query-studio` | `kt:marketing-cloud-sql` |
 | `kt:semantic-layer` | `kt:tableau-semantics` |
 | `kt:aws-lambda` | `kt:amazon-connect` |
 | `kt:operating-hours` | `kt:salesforce-scheduler` |
@@ -85,8 +86,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:apex-soap-web-services` | `kt:apex-rest-services` |
 | `kt:ldap` | `kt:delegated-authentication` |
 | `kt:custom-labels` | `kt:flow-formula-resources` |
-| `kt:isv-customer-debugger` | `kt:subscriber-support-console` |
 | `kt:salesforce-dx-mcp-server` | `kt:model-context-protocol` |
+| `kt:isv-customer-debugger` | `kt:subscriber-support-console` |
 | `kt:experience-cloud-consultant-certification` | `kt:licensing-strategy` |
 | `kt:api-community-manager` | `kt:api-experience-hub` |
 | `kt:fiscal-years` | `kt:date-and-date-time-fields` |
@@ -131,12 +132,12 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:data-clean-room` | `kt:data-360-clean-rooms` |
 | `kt:document-checklist-items` | `kt:action-plans` |
 | `kt:einstein-activity-capture` | `kt:agentforce-sdr` |
-| `kt:greenhouse-gas-protocol` | `kt:net-zero-cloud` |
 | `kt:lightning-apps` | `kt:app-launcher` |
 | `kt:nist-sp-800-171` | `kt:cmmc` |
 | `kt:notes-and-attachments` | `kt:content-document-model` |
 | `kt:privacy-center` | `kt:ccpa-and-cpra` |
 | `kt:cross-cloud-integration` | `kt:salesforce-solution-kits` |
+| `kt:greenhouse-gas-protocol` | `kt:net-zero-cloud` |
 | `kt:stakeholder-mapping` | `kt:user-personas` |
 | `kt:tableau-blueprint` | `kt:tableau-architect-certification` |
 | `kt:tableau-server-administrator-certification` | `kt:tableau-architect-certification` |

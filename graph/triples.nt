@@ -10010,6 +10010,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/marketing-cloud-next> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/marketing-cloud-next> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/marketing-cloud-next> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/marketing-cloud-sql> <http://purl.org/dc/terms/created> "2026-11-27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/marketing-cloud-sql> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Language> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/marketing-cloud-sql> <http://www.w3.org/2000/01/rdf-schema#label> "Marketing Cloud SQL" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/marketing-cloud-sql> <http://www.w3.org/2004/02/skos/core#altLabel> "Marketing Cloud Engagement SQL" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/marketing-cloud-sql> <http://www.w3.org/2004/02/skos/core#altLabel> "Marketing Cloud query activity SQL" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/marketing-cloud-sql> <http://www.w3.org/2004/02/skos/core#altLabel> "SFMC SQL" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/marketing-cloud-sql> <http://www.w3.org/2004/02/skos/core#altLabel> "SQL Query activity language" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/marketing-cloud-sql> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/marketing-cloud-engagement> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/marketing-cloud-sql> <http://www.w3.org/2004/02/skos/core#definition> "The SQL used in Marketing Cloud Engagement to read data extensions and system data views and write the result set into a target data extension, usually through a SQL Query activity in Automation Studio, with an Append, Update or Overwrite data action and a 30-minute timeout per query." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/marketing-cloud-sql> <http://www.w3.org/2004/02/skos/core#prefLabel> "Marketing Cloud SQL" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/marketing-cloud-sql> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/contact-builder> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/marketing-cloud-sql> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-extensions> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/marketing-cloud-sql> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/journey-builder> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/marketing-cloud-sql> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/marketing-cloud-data-views> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/marketing-cloud-sql> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/query-studio> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/marketing-cloud-sql> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/marketing-cloud-sql/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/marketing-cloud-sql> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/marketing-cloud-sql/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/marketing-cloud-sql> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/marketing-cloud-sql/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/marketing-cloud-sql> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#consumedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/automation-studio> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/marketing-cloud-sql> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#contrastsWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/soql> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/marketing-cloud-sql> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-extensions> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/marketing-cloud-sql> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/marketing-cloud-data-views> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/marketing-cloud-sql> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "clouds-and-products" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/marketing-cloud-sql> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/marketing-cloud-sql> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-api> <http://purl.org/dc/terms/created> "2026-10-31" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-api> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#API> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-api> <http://www.w3.org/2000/01/rdf-schema#label> "Metadata API" .
@@ -26154,6 +26179,21 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/marketing-cloud-next/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/marketing-cloud-next/s7> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "news" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/marketing-cloud-next/s7> <https://schema.org/url> "https://www.salesforce.com/news/?p=81453" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/marketing-cloud-sql/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/marketing-cloud-sql/s1> <http://purl.org/dc/terms/title> "Query Data with SQL (Marketing Cloud Engagement Data Management)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/marketing-cloud-sql/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/marketing-cloud-sql/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/marketing-cloud-sql/s1> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/marketing-cloud-data-management/query-data-with-sql" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/marketing-cloud-sql/s2> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/marketing-cloud-sql/s2> <http://purl.org/dc/terms/title> "Run SQL Queries in Automation Studio (Automation Studio Activities)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/marketing-cloud-sql/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/marketing-cloud-sql/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/marketing-cloud-sql/s2> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/automation-studio-activities/run-sql-queries-in-automation-studio" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/marketing-cloud-sql/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/marketing-cloud-sql/s3> <http://purl.org/dc/terms/title> "Automation Studio and SQL in Marketing Cloud" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/marketing-cloud-sql/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/marketing-cloud-sql/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/marketing-cloud-sql/s3> <https://schema.org/url> "https://developer.salesforce.com/blogs/2023/02/automation-studio-and-sql-in-marketing-cloud" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/metadata-api/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/metadata-api/s1> <http://purl.org/dc/terms/title> "Deploying and Retrieving Metadata (Metadata API Developer Guide)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/metadata-api/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

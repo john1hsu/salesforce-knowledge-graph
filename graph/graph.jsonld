@@ -12527,6 +12527,83 @@
       ]
     },
     {
+      "@id": "kt:marketing-cloud-sql",
+      "@type": "kto:Language",
+      "skos:prefLabel": "Marketing Cloud SQL",
+      "skos:definition": "The SQL used in Marketing Cloud Engagement to read data extensions and system data views and write the result set into a target data extension, usually through a SQL Query activity in Automation Studio, with an Append, Update or Overwrite data action and a 30-minute timeout per query.",
+      "kto:domain": "clouds-and-products",
+      "dcterms:created": "2026-11-27",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Query Data with SQL (Marketing Cloud Engagement Data Management)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/marketing-cloud-data-management/query-data-with-sql",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Run SQL Queries in Automation Studio (Automation Studio Activities)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/automation-studio-activities/run-sql-queries-in-automation-studio",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Automation Studio and SQL in Marketing Cloud",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2023/02/automation-studio-and-sql-in-marketing-cloud",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/clouds-and-products/marketing-cloud-sql.md",
+      "skos:altLabel": [
+        "SFMC SQL",
+        "Marketing Cloud Engagement SQL",
+        "SQL Query activity language",
+        "Marketing Cloud query activity SQL"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:marketing-cloud-engagement"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:data-extensions"
+        },
+        {
+          "@id": "kt:journey-builder"
+        },
+        {
+          "@id": "kt:contact-builder"
+        },
+        {
+          "@id": "kt:marketing-cloud-data-views"
+        },
+        {
+          "@id": "kt:query-studio"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:automation-studio"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:data-extensions"
+        },
+        {
+          "@id": "kt:marketing-cloud-data-views"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:soql"
+        }
+      ]
+    },
+    {
       "@id": "kt:net-zero-cloud",
       "@type": "kto:Product",
       "skos:prefLabel": "Agentforce Net Zero",
