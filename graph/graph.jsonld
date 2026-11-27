@@ -18573,6 +18573,90 @@
       ]
     },
     {
+      "@id": "kt:generative-ai",
+      "@type": "kto:ExternalConcept",
+      "skos:prefLabel": "Generative AI",
+      "skos:definition": "The class of AI models that learn the patterns of their training data and produce new text, images, audio or code from a prompt; built mostly on transformer-based foundation models such as large language models, it is the general technique underneath Agentforce, Prompt Builder and retrieval augmented generation in Salesforce.",
+      "kto:domain": "data-cloud-and-ai",
+      "dcterms:created": "2026-11-27",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile (NIST AI 600-1)",
+          "dcterms:publisher": "National Institute of Standards and Technology",
+          "schema:url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "Attention Is All You Need",
+          "dcterms:publisher": "arXiv:1706.03762, Ashish Vaswani et al.",
+          "schema:url": "https://arxiv.org/abs/1706.03762",
+          "kto:sourceType": "peer-reviewed"
+        },
+        {
+          "dcterms:title": "Explore the Capabilities of Generative AI (Generative AI Basics)",
+          "dcterms:publisher": "Salesforce Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/generative-ai-basics/explore-the-capabilities-of-generative-ai",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Understand the Technology Ecosystem of Generative AI (Generative AI Basics)",
+          "dcterms:publisher": "Salesforce Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/generative-ai-basics/understand-the-technology-ecosystem-of-generative-ai",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Learn the Basics of Large Language Models (Large Language Models)",
+          "dcterms:publisher": "Salesforce Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/large-language-models/learn-the-basics-of-large-language-models",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/data-cloud-and-ai/generative-ai.md",
+      "skos:altLabel": [
+        "GenAI",
+        "GAI",
+        "generative artificial intelligence",
+        "generative foundation models"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:artificial-intelligence"
+        },
+        {
+          "@id": "kt:computer-science"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:retrieval-augmented-generation-in-salesforce"
+        },
+        {
+          "@id": "kt:einstein-trust-layer"
+        },
+        {
+          "@id": "kt:prompt-injection"
+        },
+        {
+          "@id": "kt:ai-models"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:large-language-models"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:agentforce"
+        },
+        {
+          "@id": "kt:prompt-builder"
+        }
+      ]
+    },
+    {
       "@id": "kt:identity-resolution",
       "@type": "kto:Feature",
       "skos:prefLabel": "Identity Resolution",

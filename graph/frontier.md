@@ -8,7 +8,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:user-stories` | `kt:fit-gap-analysis`, `kt:requirements-gathering`, `kt:user-personas` |
 | `kt:requirements-engineering` | `kt:non-functional-requirements`, `kt:requirements-gathering` |
 | `kt:marketing-cloud-sql` | `kt:automation-studio`, `kt:data-extensions` |
-| `kt:generative-ai` | `kt:computer-science`, `kt:retrieval-augmented-generation-in-salesforce` |
 | `kt:model-context-protocol` | `kt:agent-to-agent-protocol`, `kt:model-context-protocol-in-agentforce` |
 | `kt:business-architecture` | `kt:capability-maps`, `kt:togaf` |
 | `kt:enterprise-architecture` | `kt:architecture-roadmaps`, `kt:togaf` |
@@ -60,8 +59,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:opportunity-products` | `kt:price-books` |
 | `kt:value-streams` | `kt:capability-maps` |
 | `kt:api-visualizer` | `kt:application-network` |
-| `kt:mulesoft-for-flow-integration` | `kt:mulesoft-composer` |
 | `kt:information-management` | `kt:data-management` |
+| `kt:mulesoft-for-flow-integration` | `kt:mulesoft-composer` |
 | `kt:semantic-layer` | `kt:tableau-semantics` |
 | `kt:aws-lambda` | `kt:amazon-connect` |
 | `kt:json-web-signature` | `kt:json-web-token` |
@@ -71,18 +70,22 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:shared-activities` | `kt:activity-data-model` |
 | `kt:passkeys` | `kt:security-keys` |
 | `kt:webauthn` | `kt:security-keys` |
+| `kt:data-cloud-code-extension` | `kt:vector-search-in-data-cloud` |
 | `kt:mobile-sync` | `kt:mobile-sdk` |
 | `kt:smartstore` | `kt:mobile-sdk` |
 | `kt:agentforce-vibes` | `kt:agentforce-vibes-ide` |
-| `kt:data-cloud-code-extension` | `kt:vector-search-in-data-cloud` |
 | `kt:developer-console` | `kt:apex-logging-and-debug-logs` |
 | `kt:ui-api` | `kt:field-dependencies` |
 | `kt:slds-linter` | `kt:salesforce-lightning-design-system` |
 | `kt:partner-relationship-management` | `kt:partner-community-licenses` |
+| `kt:science` | `kt:computer-science` |
+| `kt:software-engineering` | `kt:computer-science` |
 | `kt:destructive-changes` | `kt:rollback-plan` |
+| `kt:artificial-intelligence` | `kt:generative-ai` |
+| `kt:large-language-models` | `kt:generative-ai` |
+| `kt:apex-soap-web-services` | `kt:apex-rest-services` |
 | `kt:ldap` | `kt:delegated-authentication` |
 | `kt:custom-labels` | `kt:flow-formula-resources` |
-| `kt:apex-soap-web-services` | `kt:apex-rest-services` |
 | `kt:experience-cloud-consultant-certification` | `kt:licensing-strategy` |
 | `kt:api-community-manager` | `kt:api-experience-hub` |
 | `kt:fiscal-years` | `kt:date-and-date-time-fields` |
@@ -93,18 +96,16 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:cloudhub-2` | `kt:anypoint-runtime-manager` |
 | `kt:runtime-fabric` | `kt:anypoint-runtime-manager` |
 | `kt:runtime-manager-agent` | `kt:anypoint-runtime-manager` |
-| `kt:document-ai` | `kt:unstructured-data-in-data-cloud` |
 | `kt:hmac-based-one-time-password` | `kt:time-based-one-time-password` |
+| `kt:document-ai` | `kt:unstructured-data-in-data-cloud` |
 | `kt:isv-customer-debugger` | `kt:subscriber-support-console` |
-| `kt:science` | `kt:computer-science` |
-| `kt:software-engineering` | `kt:computer-science` |
 | `kt:signup-request-api` | `kt:trialforce` |
 | `kt:organization-wide-email-addresses` | `kt:email-alerts` |
 | `kt:enhanced-letterheads` | `kt:email-templates` |
 | `kt:einstein-prediction-builder` | `kt:einstein-next-best-action` |
+| `kt:iso-iec-29100` | `kt:iso-iec-27018` |
 | `kt:agentforce-nonprofit-consultant-certification` | `kt:agentforce-nonprofit` |
 | `kt:nonprofit-success-pack` | `kt:agentforce-nonprofit` |
-| `kt:iso-iec-29100` | `kt:iso-iec-27018` |
 | `kt:digital-accessibility` | `kt:section-508-accessibility` |
 | `kt:federal-acquisition-regulation` | `kt:performance-work-statement` |
 | `kt:quality-assurance-surveillance-plan` | `kt:performance-work-statement` |
@@ -121,20 +122,20 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:salesforce-maps` | `kt:geolocation-fields` |
 | `kt:view-all-data-and-modify-all-data` | `kt:view-all-and-modify-all-permissions` |
 | `kt:app-manager` | `kt:app-launcher` |
-| `kt:aws-clean-rooms` | `kt:data-360-clean-rooms` |
 | `kt:bearer-token-security` | `kt:frontdoor-jsp-session-bridging` |
-| `kt:consent-data-model` | `kt:consent-management-in-data-cloud` |
 | `kt:controlled-unclassified-information` | `kt:cmmc` |
 | `kt:custom-field-allocations` | `kt:deleted-fields-and-field-undelete` |
-| `kt:data-clean-room` | `kt:data-360-clean-rooms` |
-| `kt:einstein-activity-capture` | `kt:agentforce-sdr` |
 | `kt:lightning-apps` | `kt:app-launcher` |
 | `kt:nist-sp-800-171` | `kt:cmmc` |
 | `kt:notes-and-attachments` | `kt:content-document-model` |
 | `kt:planned-maintenance-windows` | `kt:disaster-recovery-and-site-switching` |
 | `kt:read-only-mode` | `kt:disaster-recovery-and-site-switching` |
+| `kt:aws-clean-rooms` | `kt:data-360-clean-rooms` |
+| `kt:consent-data-model` | `kt:consent-management-in-data-cloud` |
 | `kt:cross-cloud-integration` | `kt:salesforce-solution-kits` |
+| `kt:data-clean-room` | `kt:data-360-clean-rooms` |
 | `kt:document-checklist-items` | `kt:action-plans` |
+| `kt:einstein-activity-capture` | `kt:agentforce-sdr` |
 | `kt:greenhouse-gas-protocol` | `kt:net-zero-cloud` |
 | `kt:stakeholder-mapping` | `kt:user-personas` |
 | `kt:tableau-blueprint` | `kt:tableau-architect-certification` |

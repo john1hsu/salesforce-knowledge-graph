@@ -7424,6 +7424,32 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/generative-ai-audit-and-feedback-data> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/soql> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/generative-ai-audit-and-feedback-data> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/generative-ai-audit-and-feedback-data> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/generative-ai> <http://purl.org/dc/terms/created> "2026-11-27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/generative-ai> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#ExternalConcept> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/generative-ai> <http://www.w3.org/2000/01/rdf-schema#label> "Generative AI" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/generative-ai> <http://www.w3.org/2004/02/skos/core#altLabel> "GAI" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/generative-ai> <http://www.w3.org/2004/02/skos/core#altLabel> "GenAI" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/generative-ai> <http://www.w3.org/2004/02/skos/core#altLabel> "generative artificial intelligence" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/generative-ai> <http://www.w3.org/2004/02/skos/core#altLabel> "generative foundation models" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/generative-ai> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/artificial-intelligence> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/generative-ai> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/computer-science> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/generative-ai> <http://www.w3.org/2004/02/skos/core#definition> "The class of AI models that learn the patterns of their training data and produce new text, images, audio or code from a prompt; built mostly on transformer-based foundation models such as large language models, it is the general technique underneath Agentforce, Prompt Builder and retrieval augmented generation in Salesforce." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/generative-ai> <http://www.w3.org/2004/02/skos/core#prefLabel> "Generative AI" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/generative-ai> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/ai-models> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/generative-ai> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/einstein-trust-layer> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/generative-ai> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/prompt-injection> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/generative-ai> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/retrieval-augmented-generation-in-salesforce> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/generative-ai> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/generative-ai/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/generative-ai> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/generative-ai/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/generative-ai> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/generative-ai/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/generative-ai> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/generative-ai/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/generative-ai> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/generative-ai/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/generative-ai> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#consumedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/agentforce> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/generative-ai> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#consumedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/prompt-builder> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/generative-ai> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "data-cloud-and-ai" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/generative-ai> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/large-language-models> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/generative-ai> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/generative-ai> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/geolocation-fields> <http://purl.org/dc/terms/created> "2026-11-18" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/geolocation-fields> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/geolocation-fields> <http://www.w3.org/2000/01/rdf-schema#label> "Geolocation Fields" .
@@ -23230,6 +23256,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/generative-ai-audit-and-feedback-data/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/generative-ai-audit-and-feedback-data/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/generative-ai-audit-and-feedback-data/s5> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/data-cloud-powered-agentforce/enable-trusted-agents-with-data-cloud" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/generative-ai/s1> <http://purl.org/dc/terms/publisher> "National Institute of Standards and Technology" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/generative-ai/s1> <http://purl.org/dc/terms/title> "Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile (NIST AI 600-1)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/generative-ai/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/generative-ai/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "standards-body" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/generative-ai/s1> <https://schema.org/url> "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/generative-ai/s2> <http://purl.org/dc/terms/publisher> "arXiv:1706.03762, Ashish Vaswani et al." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/generative-ai/s2> <http://purl.org/dc/terms/title> "Attention Is All You Need" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/generative-ai/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/generative-ai/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "peer-reviewed" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/generative-ai/s2> <https://schema.org/url> "https://arxiv.org/abs/1706.03762" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/generative-ai/s3> <http://purl.org/dc/terms/publisher> "Salesforce Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/generative-ai/s3> <http://purl.org/dc/terms/title> "Explore the Capabilities of Generative AI (Generative AI Basics)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/generative-ai/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/generative-ai/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/generative-ai/s3> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/generative-ai-basics/explore-the-capabilities-of-generative-ai" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/generative-ai/s4> <http://purl.org/dc/terms/publisher> "Salesforce Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/generative-ai/s4> <http://purl.org/dc/terms/title> "Understand the Technology Ecosystem of Generative AI (Generative AI Basics)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/generative-ai/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/generative-ai/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/generative-ai/s4> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/generative-ai-basics/understand-the-technology-ecosystem-of-generative-ai" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/generative-ai/s5> <http://purl.org/dc/terms/publisher> "Salesforce Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/generative-ai/s5> <http://purl.org/dc/terms/title> "Learn the Basics of Large Language Models (Large Language Models)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/generative-ai/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/generative-ai/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/generative-ai/s5> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/large-language-models/learn-the-basics-of-large-language-models" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/geolocation-fields/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/geolocation-fields/s1> <http://purl.org/dc/terms/title> "Geolocation Compound Field — Object Reference for the Salesforce Platform" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/geolocation-fields/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
