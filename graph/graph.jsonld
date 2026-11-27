@@ -53319,6 +53319,99 @@
       ]
     },
     {
+      "@id": "kt:nist-sp-800-171",
+      "@type": "kto:ExternalConcept",
+      "skos:prefLabel": "NIST SP 800-171",
+      "skos:definition": "NIST Special Publication 800-171, the set of security requirements, tailored from the SP 800-53 moderate baseline, that nonfederal organizations such as defense and federal contractors apply to protect the confidentiality of Controlled Unclassified Information in their systems; the basis of DFARS 252.204-7012 and CMMC Level 2, and one of the requirements Salesforce Government Cloud Plus - Defense is positioned to help customers meet.",
+      "kto:domain": "public-sector-and-compliance",
+      "dcterms:created": "2026-11-27",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "SP 800-171 Rev. 3, Protecting Controlled Unclassified Information in Nonfederal Systems and Organizations",
+          "dcterms:publisher": "NIST Computer Security Resource Center",
+          "schema:url": "https://csrc.nist.gov/pubs/sp/800/171/r3/final",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "NIST Issues Updated Security Requirements and Assessment Procedures for Protecting CUI",
+          "dcterms:publisher": "NIST Computer Security Resource Center",
+          "schema:url": "https://csrc.nist.gov/news/2024/updated-security-requirements-for-protecting-cui",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "NIST SP 800-171 Rev. 3 (HTML edition)",
+          "dcterms:publisher": "NIST",
+          "schema:url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/800-171r3/NIST.SP.800-171r3.html",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "DFARS 252.204-7012 Safeguarding Covered Defense Information and Cyber Incident Reporting",
+          "dcterms:publisher": "Acquisition.gov (GSA)",
+          "schema:url": "https://www.acquisition.gov/dfars/252.204-7012-safeguarding-covered-defense-information-and-cyber-incident-reporting%2E",
+          "kto:sourceType": "government"
+        },
+        {
+          "dcterms:title": "Salesforce Government Cloud Plus - Defense datasheet",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/en-us/wp-content/uploads/sites/4/2025/03/Datasheet-Government-Cloud-Plus-Defense-Overview-1.pdf",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Salesforce Government Cloud",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/government/cloud/",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/public-sector-and-compliance/nist-sp-800-171.md",
+      "skos:altLabel": [
+        "NIST 800-171",
+        "SP 800-171 Rev. 3",
+        "Protecting Controlled Unclassified Information in Nonfederal Systems and Organizations",
+        "NIST CUI security requirements"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:security-compliance-frameworks"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:cmmc"
+        },
+        {
+          "@id": "kt:government-cloud-plus"
+        },
+        {
+          "@id": "kt:il4-and-il5"
+        },
+        {
+          "@id": "kt:fedramp"
+        },
+        {
+          "@id": "kt:shared-responsibility-model"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:nist-sp-800-53"
+        },
+        {
+          "@id": "kt:nist-sp-800-53b"
+        },
+        {
+          "@id": "kt:controlled-unclassified-information"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:dfars-252-204-7012"
+        }
+      ]
+    },
+    {
       "@id": "kt:nist-sp-800-53",
       "@type": "kto:ExternalConcept",
       "skos:prefLabel": "NIST SP 800-53",

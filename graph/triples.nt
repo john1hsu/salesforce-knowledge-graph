@@ -10804,6 +10804,34 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-risk-management-framework> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/continuous-monitoring> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-risk-management-framework> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-risk-management-framework> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-171> <http://purl.org/dc/terms/created> "2026-11-27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-171> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#ExternalConcept> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-171> <http://www.w3.org/2000/01/rdf-schema#label> "NIST SP 800-171" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-171> <http://www.w3.org/2004/02/skos/core#altLabel> "NIST 800-171" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-171> <http://www.w3.org/2004/02/skos/core#altLabel> "NIST CUI security requirements" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-171> <http://www.w3.org/2004/02/skos/core#altLabel> "Protecting Controlled Unclassified Information in Nonfederal Systems and Organizations" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-171> <http://www.w3.org/2004/02/skos/core#altLabel> "SP 800-171 Rev. 3" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-171> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/security-compliance-frameworks> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-171> <http://www.w3.org/2004/02/skos/core#definition> "NIST Special Publication 800-171, the set of security requirements, tailored from the SP 800-53 moderate baseline, that nonfederal organizations such as defense and federal contractors apply to protect the confidentiality of Controlled Unclassified Information in their systems; the basis of DFARS 252.204-7012 and CMMC Level 2, and one of the requirements Salesforce Government Cloud Plus - Defense is positioned to help customers meet." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-171> <http://www.w3.org/2004/02/skos/core#prefLabel> "NIST SP 800-171" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-171> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/cmmc> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-171> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/fedramp> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-171> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/government-cloud-plus> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-171> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/il4-and-il5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-171> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/shared-responsibility-model> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-171> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-171/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-171> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-171/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-171> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-171/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-171> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-171/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-171> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-171/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-171> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-171/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-171> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#consumedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/dfars-252-204-7012> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-171> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/controlled-unclassified-information> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-171> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-53> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-171> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-53b> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-171> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "public-sector-and-compliance" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-171> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-171> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-53> <http://purl.org/dc/terms/created> "2026-11-04" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-53> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#ExternalConcept> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/nist-sp-800-53> <http://www.w3.org/2000/01/rdf-schema#label> "NIST SP 800-53" .
@@ -27180,6 +27208,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-risk-management-framework/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-risk-management-framework/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-risk-management-framework/s6> <https://schema.org/url> "https://compliance.salesforce.com/en/documents/a005A00000t4NpRQAU" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-171/s1> <http://purl.org/dc/terms/publisher> "NIST Computer Security Resource Center" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-171/s1> <http://purl.org/dc/terms/title> "SP 800-171 Rev. 3, Protecting Controlled Unclassified Information in Nonfederal Systems and Organizations" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-171/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-171/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "standards-body" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-171/s1> <https://schema.org/url> "https://csrc.nist.gov/pubs/sp/800/171/r3/final" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-171/s2> <http://purl.org/dc/terms/publisher> "NIST Computer Security Resource Center" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-171/s2> <http://purl.org/dc/terms/title> "NIST Issues Updated Security Requirements and Assessment Procedures for Protecting CUI" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-171/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-171/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "standards-body" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-171/s2> <https://schema.org/url> "https://csrc.nist.gov/news/2024/updated-security-requirements-for-protecting-cui" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-171/s3> <http://purl.org/dc/terms/publisher> "NIST" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-171/s3> <http://purl.org/dc/terms/title> "NIST SP 800-171 Rev. 3 (HTML edition)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-171/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-171/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "standards-body" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-171/s3> <https://schema.org/url> "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/800-171r3/NIST.SP.800-171r3.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-171/s4> <http://purl.org/dc/terms/publisher> "Acquisition.gov (GSA)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-171/s4> <http://purl.org/dc/terms/title> "DFARS 252.204-7012 Safeguarding Covered Defense Information and Cyber Incident Reporting" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-171/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-171/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-171/s4> <https://schema.org/url> "https://www.acquisition.gov/dfars/252.204-7012-safeguarding-covered-defense-information-and-cyber-incident-reporting%2E" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-171/s5> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-171/s5> <http://purl.org/dc/terms/title> "Salesforce Government Cloud Plus - Defense datasheet" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-171/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-171/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-171/s5> <https://schema.org/url> "https://www.salesforce.com/en-us/wp-content/uploads/sites/4/2025/03/Datasheet-Government-Cloud-Plus-Defense-Overview-1.pdf" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-171/s6> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-171/s6> <http://purl.org/dc/terms/title> "Salesforce Government Cloud" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-171/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-171/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-171/s6> <https://schema.org/url> "https://www.salesforce.com/government/cloud/" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-53/s1> <http://purl.org/dc/terms/publisher> "NIST Computer Security Resource Center" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-53/s1> <http://purl.org/dc/terms/title> "SP 800-53 Rev. 5, Security and Privacy Controls for Information Systems and Organizations (upd1)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/nist-sp-800-53/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
