@@ -41987,6 +41987,106 @@
       ]
     },
     {
+      "@id": "kt:model-context-protocol",
+      "@type": "kto:ExternalConcept",
+      "skos:prefLabel": "Model Context Protocol (MCP)",
+      "skos:definition": "An open, JSON-RPC 2.0 based protocol, governed under the Linux Foundation's Agentic AI Foundation, through which AI applications (clients) call tools, read resources and use prompts exposed by servers; Salesforce both consumes it (Agentforce as an MCP client) and provides it (Salesforce Hosted MCP Servers, DX MCP Server).",
+      "kto:domain": "integration",
+      "dcterms:created": "2026-11-27",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Model Context Protocol Specification: Overview (Base Protocol)",
+          "dcterms:publisher": "Model Context Protocol",
+          "schema:url": "https://modelcontextprotocol.io/specification/latest/basic/index",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "Model Context Protocol Specification: Key Changes (Changelog)",
+          "dcterms:publisher": "Model Context Protocol",
+          "schema:url": "https://modelcontextprotocol.io/specification/latest/changelog",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "MCP joins the Agentic AI Foundation",
+          "dcterms:publisher": "Model Context Protocol Blog",
+          "schema:url": "https://blog.modelcontextprotocol.io/posts/2025-12-09-mcp-joins-agentic-ai-foundation/?from=bd_signal",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "Salesforce Hosted MCP Servers: Get Started",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/hosted-mcp-servers/guide/hosted-mcp-servers-overview.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "MCP Solutions for Developers",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/ai/agentforce/guide/mcp.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "The Salesforce Developer's Guide to the Winter '27 Release",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2026/10/developers-guide-to-the-winter-27-release",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/integration/model-context-protocol.md",
+      "skos:altLabel": [
+        "MCP",
+        "Model Context Protocol",
+        "MCP specification",
+        "MCP standard"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:integration-patterns"
+        },
+        {
+          "@id": "kt:generative-ai"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:model-context-protocol-in-agentforce"
+        },
+        {
+          "@id": "kt:salesforce-hosted-mcp-servers"
+        },
+        {
+          "@id": "kt:agentforce-vibes-ide"
+        },
+        {
+          "@id": "kt:salesforce-dx-mcp-server"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:agent-to-agent-protocol"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:oauth-2-0"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:mulesoft-anypoint-platform"
+        },
+        {
+          "@id": "kt:heroku"
+        }
+      ],
+      "kto:enables": [
+        {
+          "@id": "kt:agent-actions"
+        }
+      ]
+    },
+    {
       "@id": "kt:mule-runtime-engine",
       "@type": "kto:Product",
       "skos:prefLabel": "Mule Runtime Engine",
