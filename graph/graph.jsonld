@@ -2539,6 +2539,92 @@
       ]
     },
     {
+      "@id": "kt:org-health-assessment",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Org Health Assessment",
+      "skos:definition": "A structured review of an existing Salesforce org's configuration, code, security settings, limits and adoption that combines scanner output (Optimizer, Health Check, Health Insights) with expert judgment to produce a prioritized list of risks and remediation work.",
+      "kto:domain": "architecture-practice",
+      "dcterms:created": "2026-11-27",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Salesforce Org Health Accelerator (datasheet)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/assets/pdf/success-services/salesforce-org-health.pdf",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Salesforce Health Insights: Know What to Fix First",
+          "dcterms:publisher": "Salesforce Blog",
+          "schema:url": "https://salesforce.com/blog/salesforce-health-insights",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Run a Scan and Review the Findings (Salesforce Optimizer)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/salesforce-optimizer/run-a-report-and-review-the-findings",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Improve Your Org's Security with Salesforce Health Check",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/security_basics/security_basics_healthcheck",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Well-Architected Framework",
+          "dcterms:publisher": "Salesforce Architects",
+          "schema:url": "https://architect.salesforce.com/docs/architect/well-architected/guide/framework.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Signature Success Plan",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://salesforce.com/eu/services/success-plans/accelerators/org-health-assessment",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/architecture-practice/org-health-assessment.md",
+      "skos:altLabel": [
+        "Salesforce org health assessment",
+        "org health check",
+        "org health review",
+        "technical health review",
+        "Org Health Accelerator"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:well-architected-framework"
+        },
+        {
+          "@id": "kt:salesforce-governance"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:technical-debt-in-salesforce"
+        },
+        {
+          "@id": "kt:org-check"
+        },
+        {
+          "@id": "kt:salesforce-center-of-excellence"
+        },
+        {
+          "@id": "kt:salesforce-health-insights"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:salesforce-optimizer"
+        },
+        {
+          "@id": "kt:security-health-check"
+        }
+      ]
+    },
+    {
       "@id": "kt:proof-of-concept",
       "@type": "kto:Concept",
       "skos:prefLabel": "Proof of Concept",

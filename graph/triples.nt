@@ -11420,6 +11420,33 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/org-check> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/tooling-api> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/org-check> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/org-check> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/org-health-assessment> <http://purl.org/dc/terms/created> "2026-11-27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/org-health-assessment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/org-health-assessment> <http://www.w3.org/2000/01/rdf-schema#label> "Org Health Assessment" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/org-health-assessment> <http://www.w3.org/2004/02/skos/core#altLabel> "Org Health Accelerator" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/org-health-assessment> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce org health assessment" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/org-health-assessment> <http://www.w3.org/2004/02/skos/core#altLabel> "org health check" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/org-health-assessment> <http://www.w3.org/2004/02/skos/core#altLabel> "org health review" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/org-health-assessment> <http://www.w3.org/2004/02/skos/core#altLabel> "technical health review" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/org-health-assessment> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-governance> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/org-health-assessment> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/well-architected-framework> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/org-health-assessment> <http://www.w3.org/2004/02/skos/core#definition> "A structured review of an existing Salesforce org's configuration, code, security settings, limits and adoption that combines scanner output (Optimizer, Health Check, Health Insights) with expert judgment to produce a prioritized list of risks and remediation work." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/org-health-assessment> <http://www.w3.org/2004/02/skos/core#prefLabel> "Org Health Assessment" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/org-health-assessment> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/org-check> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/org-health-assessment> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-center-of-excellence> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/org-health-assessment> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-health-insights> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/org-health-assessment> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/technical-debt-in-salesforce> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/org-health-assessment> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/org-health-assessment/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/org-health-assessment> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/org-health-assessment/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/org-health-assessment> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/org-health-assessment/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/org-health-assessment> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/org-health-assessment/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/org-health-assessment> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/org-health-assessment/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/org-health-assessment> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/org-health-assessment/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/org-health-assessment> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-optimizer> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/org-health-assessment> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/security-health-check> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/org-health-assessment> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "architecture-practice" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/org-health-assessment> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/org-health-assessment> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/org-shape> <http://purl.org/dc/terms/created> "2026-11-17" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/org-shape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/org-shape> <http://www.w3.org/2000/01/rdf-schema#label> "Org Shape for Scratch Orgs" .
@@ -27863,6 +27890,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/org-check/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/org-check/s7> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "community" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/org-check/s7> <https://schema.org/url> "https://trailhead.salesforce.com/trailblazer-community/groups/0F94V0000002E6cSAE?tab=discussion" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/org-health-assessment/s1> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/org-health-assessment/s1> <http://purl.org/dc/terms/title> "Salesforce Org Health Accelerator (datasheet)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/org-health-assessment/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/org-health-assessment/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/org-health-assessment/s1> <https://schema.org/url> "https://www.salesforce.com/assets/pdf/success-services/salesforce-org-health.pdf" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/org-health-assessment/s2> <http://purl.org/dc/terms/publisher> "Salesforce Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/org-health-assessment/s2> <http://purl.org/dc/terms/title> "Salesforce Health Insights: Know What to Fix First" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/org-health-assessment/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/org-health-assessment/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/org-health-assessment/s2> <https://schema.org/url> "https://salesforce.com/blog/salesforce-health-insights" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/org-health-assessment/s3> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/org-health-assessment/s3> <http://purl.org/dc/terms/title> "Run a Scan and Review the Findings (Salesforce Optimizer)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/org-health-assessment/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/org-health-assessment/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/org-health-assessment/s3> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/salesforce-optimizer/run-a-report-and-review-the-findings" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/org-health-assessment/s4> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/org-health-assessment/s4> <http://purl.org/dc/terms/title> "Improve Your Org's Security with Salesforce Health Check" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/org-health-assessment/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/org-health-assessment/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/org-health-assessment/s4> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/security_basics/security_basics_healthcheck" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/org-health-assessment/s5> <http://purl.org/dc/terms/publisher> "Salesforce Architects" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/org-health-assessment/s5> <http://purl.org/dc/terms/title> "Well-Architected Framework" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/org-health-assessment/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/org-health-assessment/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/org-health-assessment/s5> <https://schema.org/url> "https://architect.salesforce.com/docs/architect/well-architected/guide/framework.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/org-health-assessment/s6> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/org-health-assessment/s6> <http://purl.org/dc/terms/title> "Signature Success Plan" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/org-health-assessment/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/org-health-assessment/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/org-health-assessment/s6> <https://schema.org/url> "https://salesforce.com/eu/services/success-plans/accelerators/org-health-assessment" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/org-shape/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/org-shape/s1> <http://purl.org/dc/terms/title> "Create a Scratch Org Based on an Org Shape (Salesforce DX Developer Guide)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/org-shape/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
