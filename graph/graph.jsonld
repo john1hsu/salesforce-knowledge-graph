@@ -36275,6 +36275,91 @@
       ]
     },
     {
+      "@id": "kt:json-web-signature",
+      "@type": "kto:ExternalConcept",
+      "skos:prefLabel": "JSON Web Signature",
+      "skos:definition": "The IETF standard (RFC 7515) for protecting arbitrary content with a digital signature or MAC using JSON-based structures; it is the signing layer beneath signed JWTs, and in Salesforce Apex the Auth.JWS class produces a JWS compact serialization signed with a certificate from Certificate and Key Management.",
+      "kto:domain": "identity",
+      "dcterms:created": "2026-11-27",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "RFC 7515: JSON Web Signature (JWS)",
+          "dcterms:publisher": "IETF / RFC Editor",
+          "schema:url": "https://rfc-editor.org/rfc/rfc7515.html",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "RFC 7518: JSON Web Algorithms (JWA)",
+          "dcterms:publisher": "IETF / RFC Editor",
+          "schema:url": "https://www.rfc-editor.org/rfc/rfc7518",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "RFC 8725: JSON Web Token Best Current Practices",
+          "dcterms:publisher": "IETF / RFC Editor",
+          "schema:url": "https://rfc-editor.org/rfc/rfc8725.html",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "Apex Reference Guide: JWS Class",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_class_Auth_JWS.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Apex Reference Guide: Auth Namespace",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.264.0.apexref.meta/apexref/apex_namespace_Auth.htm",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/identity/json-web-signature.md",
+      "skos:altLabel": [
+        "JWS",
+        "RFC 7515",
+        "JWS Compact Serialization"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:integration-security"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:json-web-token"
+        },
+        {
+          "@id": "kt:jwt-bearer-flow"
+        },
+        {
+          "@id": "kt:openid-connect"
+        },
+        {
+          "@id": "kt:token-exchange-flow"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:certificate-and-key-management"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:jwt-bearer-flow"
+        },
+        {
+          "@id": "kt:json-web-token"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:saml-2-0"
+        }
+      ]
+    },
+    {
       "@id": "kt:json-web-token",
       "@type": "kto:ExternalConcept",
       "skos:prefLabel": "JSON Web Token",

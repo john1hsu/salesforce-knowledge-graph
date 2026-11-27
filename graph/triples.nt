@@ -8870,6 +8870,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/journey-builder> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#partOf> <https://github.com/john1hsu/salesforce-knowledge-graph/id/marketing-cloud-engagement> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/journey-builder> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/journey-builder> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/json-web-signature> <http://purl.org/dc/terms/created> "2026-11-27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/json-web-signature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#ExternalConcept> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/json-web-signature> <http://www.w3.org/2000/01/rdf-schema#label> "JSON Web Signature" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/json-web-signature> <http://www.w3.org/2004/02/skos/core#altLabel> "JWS Compact Serialization" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/json-web-signature> <http://www.w3.org/2004/02/skos/core#altLabel> "JWS" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/json-web-signature> <http://www.w3.org/2004/02/skos/core#altLabel> "RFC 7515" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/json-web-signature> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-security> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/json-web-signature> <http://www.w3.org/2004/02/skos/core#definition> "The IETF standard (RFC 7515) for protecting arbitrary content with a digital signature or MAC using JSON-based structures; it is the signing layer beneath signed JWTs, and in Salesforce Apex the Auth.JWS class produces a JWS compact serialization signed with a certificate from Certificate and Key Management." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/json-web-signature> <http://www.w3.org/2004/02/skos/core#prefLabel> "JSON Web Signature" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/json-web-signature> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/json-web-token> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/json-web-signature> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/jwt-bearer-flow> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/json-web-signature> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/openid-connect> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/json-web-signature> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/token-exchange-flow> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/json-web-signature> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/json-web-signature/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/json-web-signature> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/json-web-signature/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/json-web-signature> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/json-web-signature/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/json-web-signature> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/json-web-signature/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/json-web-signature> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/json-web-signature/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/json-web-signature> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#consumedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/json-web-token> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/json-web-signature> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#consumedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/jwt-bearer-flow> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/json-web-signature> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#contrastsWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/saml-2-0> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/json-web-signature> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/certificate-and-key-management> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/json-web-signature> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "identity" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/json-web-signature> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/json-web-signature> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/json-web-token> <http://purl.org/dc/terms/created> "2026-11-18" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/json-web-token> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#ExternalConcept> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/json-web-token> <http://www.w3.org/2000/01/rdf-schema#label> "JSON Web Token" .
@@ -24789,6 +24814,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/journey-builder/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/journey-builder/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/journey-builder/s5> <https://schema.org/url> "https://resources.docs.salesforce.com/latest/latest/en-us/sfdc/pdf/mc_jb_implementation_guide.pdf" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/json-web-signature/s1> <http://purl.org/dc/terms/publisher> "IETF / RFC Editor" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/json-web-signature/s1> <http://purl.org/dc/terms/title> "RFC 7515: JSON Web Signature (JWS)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/json-web-signature/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/json-web-signature/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "standards-body" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/json-web-signature/s1> <https://schema.org/url> "https://rfc-editor.org/rfc/rfc7515.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/json-web-signature/s2> <http://purl.org/dc/terms/publisher> "IETF / RFC Editor" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/json-web-signature/s2> <http://purl.org/dc/terms/title> "RFC 7518: JSON Web Algorithms (JWA)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/json-web-signature/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/json-web-signature/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "standards-body" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/json-web-signature/s2> <https://schema.org/url> "https://www.rfc-editor.org/rfc/rfc7518" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/json-web-signature/s3> <http://purl.org/dc/terms/publisher> "IETF / RFC Editor" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/json-web-signature/s3> <http://purl.org/dc/terms/title> "RFC 8725: JSON Web Token Best Current Practices" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/json-web-signature/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/json-web-signature/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "standards-body" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/json-web-signature/s3> <https://schema.org/url> "https://rfc-editor.org/rfc/rfc8725.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/json-web-signature/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/json-web-signature/s4> <http://purl.org/dc/terms/title> "Apex Reference Guide: JWS Class" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/json-web-signature/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/json-web-signature/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/json-web-signature/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_class_Auth_JWS.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/json-web-signature/s5> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/json-web-signature/s5> <http://purl.org/dc/terms/title> "Apex Reference Guide: Auth Namespace" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/json-web-signature/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/json-web-signature/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/json-web-signature/s5> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.264.0.apexref.meta/apexref/apex_namespace_Auth.htm" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/json-web-token/s1> <http://purl.org/dc/terms/publisher> "IETF / RFC Editor" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/json-web-token/s1> <http://purl.org/dc/terms/title> "RFC 7519: JSON Web Token (JWT)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/json-web-token/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

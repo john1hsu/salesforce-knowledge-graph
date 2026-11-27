@@ -7767,6 +7767,28 @@
     ]
   },
   {
+    "id": "kt:json-web-signature",
+    "title": "JSON Web Signature",
+    "aliases": [
+      "JWS",
+      "RFC 7515",
+      "JWS Compact Serialization"
+    ],
+    "type": "ExternalConcept",
+    "domain": "identity",
+    "file": "articles/identity/json-web-signature.md",
+    "created": "2026-11-27",
+    "release": "Winter '27",
+    "status": "concept",
+    "source_urls": [
+      "https://rfc-editor.org/rfc/rfc7515.html",
+      "https://www.rfc-editor.org/rfc/rfc7518",
+      "https://rfc-editor.org/rfc/rfc8725.html",
+      "https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_class_Auth_JWS.htm",
+      "https://developer.salesforce.com/docs/atlas.en-us.264.0.apexref.meta/apexref/apex_namespace_Auth.htm"
+    ]
+  },
+  {
     "id": "kt:json-web-token",
     "title": "JSON Web Token",
     "aliases": [
