@@ -11,7 +11,7 @@ summary: >-
 release: "Winter '27"
 status: current
 broader: [kt:salesforce-identity]
-related: [kt:profiles, kt:login-ip-ranges-and-trusted-ip-ranges, kt:security-health-check, kt:experience-cloud]
+related: [kt:profiles, kt:login-ip-ranges-and-trusted-ip-ranges, kt:security-health-check, kt:experience-cloud, kt:clickjack-protection]
 relations:
   - {predicate: hasPart, object: kt:session-security-levels}
   - {predicate: configuredVia, object: kt:metadata-api}

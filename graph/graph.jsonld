@@ -54533,6 +54533,86 @@
       ]
     },
     {
+      "@id": "kt:clickjack-protection",
+      "@type": "kto:SecurityControl",
+      "skos:prefLabel": "Clickjack Protection",
+      "skos:definition": "Salesforce's framing controls that stop its pages from being loaded in iframes on untrusted sites, set in Session Settings (plus per-site settings for Experience Cloud and Site.com) and relaxed per domain through Trusted Domains for Inline Frames, enforced in the browser with Content-Security-Policy frame-ancestors headers.",
+      "kto:domain": "security-and-sharing",
+      "dcterms:created": "2026-11-27",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Visualforce Developer Guide: Put Visualforce Pages on External Domains",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/salesforce-pages-developers-guide/guide/pages-quick-start-external-iframe.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Secure Coding Guide: Platform Security FAQs",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/secure-coding/guide/secure-coding-platform-securityfaqs.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Object Reference for the Salesforce Platform: IframeWhiteListUrl",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/api/sforce_api_objects_iframewhitelisturl.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Clickjacking Defense Cheat Sheet",
+          "dcterms:publisher": "OWASP Cheat Sheet Series",
+          "schema:url": "https://cheatsheetseries.owasp.org/cheatsheets/Clickjacking_Defense_Cheat_Sheet.html",
+          "kto:sourceType": "standards-body"
+        }
+      ],
+      "kto:file": "articles/security-and-sharing/clickjack-protection.md",
+      "skos:altLabel": [
+        "clickjacking protection",
+        "Visualforce clickjack protection",
+        "Trusted Domains for Inline Frames",
+        "IframeWhiteListUrl"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:session-settings"
+        },
+        {
+          "@id": "kt:secure-coding"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:visualforce"
+        },
+        {
+          "@id": "kt:experience-cloud"
+        },
+        {
+          "@id": "kt:csrf-protection"
+        },
+        {
+          "@id": "kt:my-domain"
+        }
+      ],
+      "kto:mitigates": [
+        {
+          "@id": "kt:clickjacking"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:content-security-policy"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:metadata-api"
+        }
+      ]
+    },
+    {
       "@id": "kt:compliant-data-sharing",
       "@type": "kto:SecurityControl",
       "skos:prefLabel": "Compliant Data Sharing",
@@ -57943,6 +58023,9 @@
         },
         {
           "@id": "kt:experience-cloud"
+        },
+        {
+          "@id": "kt:clickjack-protection"
         }
       ],
       "kto:hasPart": [

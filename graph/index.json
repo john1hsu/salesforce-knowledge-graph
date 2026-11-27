@@ -2541,6 +2541,28 @@
     ]
   },
   {
+    "id": "kt:clickjack-protection",
+    "title": "Clickjack Protection",
+    "aliases": [
+      "clickjacking protection",
+      "Visualforce clickjack protection",
+      "Trusted Domains for Inline Frames",
+      "IframeWhiteListUrl"
+    ],
+    "type": "SecurityControl",
+    "domain": "security-and-sharing",
+    "file": "articles/security-and-sharing/clickjack-protection.md",
+    "created": "2026-11-27",
+    "release": "Winter '27",
+    "status": "current",
+    "source_urls": [
+      "https://developer.salesforce.com/docs/platform/salesforce-pages-developers-guide/guide/pages-quick-start-external-iframe.html",
+      "https://developer.salesforce.com/docs/platform/secure-coding/guide/secure-coding-platform-securityfaqs.html",
+      "https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/api/sforce_api_objects_iframewhitelisturl.htm",
+      "https://cheatsheetseries.owasp.org/cheatsheets/Clickjacking_Defense_Cheat_Sheet.html"
+    ]
+  },
+  {
     "id": "kt:client-credentials-flow",
     "title": "OAuth 2.0 Client Credentials Flow",
     "aliases": [

@@ -2888,6 +2888,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/classic-encryption> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/soql> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/classic-encryption> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/classic-encryption> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/clickjack-protection> <http://purl.org/dc/terms/created> "2026-11-27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/clickjack-protection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#SecurityControl> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/clickjack-protection> <http://www.w3.org/2000/01/rdf-schema#label> "Clickjack Protection" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/clickjack-protection> <http://www.w3.org/2004/02/skos/core#altLabel> "IframeWhiteListUrl" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/clickjack-protection> <http://www.w3.org/2004/02/skos/core#altLabel> "Trusted Domains for Inline Frames" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/clickjack-protection> <http://www.w3.org/2004/02/skos/core#altLabel> "Visualforce clickjack protection" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/clickjack-protection> <http://www.w3.org/2004/02/skos/core#altLabel> "clickjacking protection" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/clickjack-protection> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/secure-coding> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/clickjack-protection> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/session-settings> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/clickjack-protection> <http://www.w3.org/2004/02/skos/core#definition> "Salesforce's framing controls that stop its pages from being loaded in iframes on untrusted sites, set in Session Settings (plus per-site settings for Experience Cloud and Site.com) and relaxed per domain through Trusted Domains for Inline Frames, enforced in the browser with Content-Security-Policy frame-ancestors headers." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/clickjack-protection> <http://www.w3.org/2004/02/skos/core#prefLabel> "Clickjack Protection" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/clickjack-protection> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/csrf-protection> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/clickjack-protection> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/experience-cloud> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/clickjack-protection> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/my-domain> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/clickjack-protection> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/visualforce> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/clickjack-protection> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/clickjack-protection/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/clickjack-protection> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/clickjack-protection/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/clickjack-protection> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/clickjack-protection/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/clickjack-protection> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/clickjack-protection/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/clickjack-protection> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/metadata-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/clickjack-protection> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "security-and-sharing" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/clickjack-protection> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/content-security-policy> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/clickjack-protection> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#mitigates> <https://github.com/john1hsu/salesforce-knowledge-graph/id/clickjacking> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/clickjack-protection> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/clickjack-protection> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/client-credentials-flow> <http://purl.org/dc/terms/created> "2026-11-15" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/client-credentials-flow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/client-credentials-flow> <http://www.w3.org/2000/01/rdf-schema#label> "OAuth 2.0 Client Credentials Flow" .
@@ -15482,6 +15507,7 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/session-settings> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-identity> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/session-settings> <http://www.w3.org/2004/02/skos/core#definition> "The org-wide Setup page (stored as the sessionSettings part of SecuritySettings metadata) that controls how Salesforce UI sessions time out, are bound to IP and domain, protect cookies and caching, enforce browser security policies such as Stricter CSP and Lightning Web Security, and map login methods to session security levels." .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/session-settings> <http://www.w3.org/2004/02/skos/core#prefLabel> "Session Settings" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/session-settings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/clickjack-protection> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/session-settings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/experience-cloud> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/session-settings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/login-ip-ranges-and-trusted-ip-ranges> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/session-settings> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/profiles> .
@@ -19059,6 +19085,26 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/classic-encryption/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/classic-encryption/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/classic-encryption/s5> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.264.0.apexref.meta/apexref/apex_enum_Schema_DisplayType.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/clickjack-protection/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/clickjack-protection/s1> <http://purl.org/dc/terms/title> "Visualforce Developer Guide: Put Visualforce Pages on External Domains" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/clickjack-protection/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/clickjack-protection/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/clickjack-protection/s1> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/salesforce-pages-developers-guide/guide/pages-quick-start-external-iframe.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/clickjack-protection/s2> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/clickjack-protection/s2> <http://purl.org/dc/terms/title> "Secure Coding Guide: Platform Security FAQs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/clickjack-protection/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/clickjack-protection/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/clickjack-protection/s2> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/secure-coding/guide/secure-coding-platform-securityfaqs.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/clickjack-protection/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/clickjack-protection/s3> <http://purl.org/dc/terms/title> "Object Reference for the Salesforce Platform: IframeWhiteListUrl" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/clickjack-protection/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/clickjack-protection/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/clickjack-protection/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/api/sforce_api_objects_iframewhitelisturl.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/clickjack-protection/s4> <http://purl.org/dc/terms/publisher> "OWASP Cheat Sheet Series" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/clickjack-protection/s4> <http://purl.org/dc/terms/title> "Clickjacking Defense Cheat Sheet" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/clickjack-protection/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/clickjack-protection/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "standards-body" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/clickjack-protection/s4> <https://schema.org/url> "https://cheatsheetseries.owasp.org/cheatsheets/Clickjacking_Defense_Cheat_Sheet.html" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/client-credentials-flow/s1> <http://purl.org/dc/terms/publisher> "IETF" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/client-credentials-flow/s1> <http://purl.org/dc/terms/title> "RFC 6749: The OAuth 2.0 Authorization Framework" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/client-credentials-flow/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
