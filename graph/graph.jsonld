@@ -25602,6 +25602,87 @@
       ]
     },
     {
+      "@id": "kt:apex-mocks",
+      "@type": "kto:Tool",
+      "skos:prefLabel": "ApexMocks",
+      "skos:definition": "An open-source, Mockito-inspired mocking framework for Apex, maintained under the apex-enterprise-patterns GitHub organization, that generates mock objects at run time through the Salesforce Stub API so unit tests can stub return values and verify calls on a class's injected dependencies.",
+      "kto:domain": "development",
+      "dcterms:created": "2026-11-27",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Apex Developer Guide: Build a Mocking Framework with the Stub API (Winter '27, API version 68.0)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.264.0.apexcode.meta/pages/apex_testing_stub_api.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Apex Reference Guide: StubProvider Interface",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.264.0.apexref.meta/apexref/apex_interface_System_StubProvider.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Advanced Apex Testing: Use Mock and Stub Objects",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/en/content/learn/modules/unit-testing-on-the-lightning-platform/mock-stub-objects",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "apex-enterprise-patterns/fflib-apex-mocks (README)",
+          "dcterms:publisher": "GitHub (apex-enterprise-patterns)",
+          "schema:url": "https://github.com/apex-enterprise-patterns/fflib-apex-mocks",
+          "kto:sourceType": "community"
+        },
+        {
+          "dcterms:title": "Introducing apex-mockery, a Unit Test Mocking Library",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2023/06/introducing-apex-mockery-a-unit-test-mocking-library",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/development/apex-mocks.md",
+      "skos:altLabel": [
+        "fflib-apex-mocks",
+        "fflib ApexMocks",
+        "Apex Mocks",
+        "fflib_ApexMocks",
+        "ApexMocks framework"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:apex-testing"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:testing-strategy"
+        },
+        {
+          "@id": "kt:test-data-factory"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:apex-stub-api"
+        },
+        {
+          "@id": "kt:apex-interfaces"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:apex-enterprise-patterns"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:apex-mockery"
+        }
+      ]
+    },
+    {
       "@id": "kt:apex-security-with-sharing",
       "@type": "kto:SecurityControl",
       "skos:prefLabel": "Apex Sharing Keywords",

@@ -7,7 +7,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:business-analyst` | `kt:fit-gap-analysis`, `kt:omnistudio-consultant-certification`, `kt:requirements-gathering`, `kt:user-acceptance-testing`, `kt:user-personas` |
 | `kt:user-stories` | `kt:fit-gap-analysis`, `kt:requirements-gathering`, `kt:user-personas` |
 | `kt:requirements-engineering` | `kt:non-functional-requirements`, `kt:requirements-gathering` |
-| `kt:apex-mocks` | `kt:apex-enterprise-patterns`, `kt:apex-interfaces` |
 | `kt:marketing-cloud-sql` | `kt:automation-studio`, `kt:data-extensions` |
 | `kt:salesforce-hosted-mcp-servers` | `kt:model-context-protocol`, `kt:model-context-protocol-in-agentforce` |
 | `kt:business-architecture` | `kt:capability-maps`, `kt:togaf` |
@@ -64,9 +63,11 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:aws-lambda` | `kt:amazon-connect` |
 | `kt:operating-hours` | `kt:salesforce-scheduler` |
 | `kt:agentforce-vibes` | `kt:agentforce-vibes-ide` |
+| `kt:apex-mockery` | `kt:apex-mocks` |
+| `kt:apex-stub-api` | `kt:apex-mocks` |
 | `kt:guest-user-sharing-rules` | `kt:share-groups` |
-| `kt:decision-matrices` | `kt:decision-tables` |
 | `kt:artificial-intelligence` | `kt:generative-ai` |
+| `kt:decision-matrices` | `kt:decision-tables` |
 | `kt:large-language-models` | `kt:generative-ai` |
 | `kt:shared-activities` | `kt:activity-data-model` |
 | `kt:passkeys` | `kt:security-keys` |
@@ -81,8 +82,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:software-engineering` | `kt:computer-science` |
 | `kt:partner-relationship-management` | `kt:partner-community-licenses` |
 | `kt:destructive-changes` | `kt:rollback-plan` |
-| `kt:ldap` | `kt:delegated-authentication` |
 | `kt:apex-soap-web-services` | `kt:apex-rest-services` |
+| `kt:ldap` | `kt:delegated-authentication` |
 | `kt:custom-labels` | `kt:flow-formula-resources` |
 | `kt:salesforce-dx-mcp-server` | `kt:model-context-protocol` |
 | `kt:isv-customer-debugger` | `kt:subscriber-support-console` |
@@ -102,9 +103,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:organization-wide-email-addresses` | `kt:email-alerts` |
 | `kt:enhanced-letterheads` | `kt:email-templates` |
 | `kt:einstein-prediction-builder` | `kt:einstein-next-best-action` |
-| `kt:iso-iec-29100` | `kt:iso-iec-27018` |
 | `kt:agentforce-nonprofit-consultant-certification` | `kt:agentforce-nonprofit` |
 | `kt:nonprofit-success-pack` | `kt:agentforce-nonprofit` |
+| `kt:iso-iec-29100` | `kt:iso-iec-27018` |
 | `kt:digital-accessibility` | `kt:section-508-accessibility` |
 | `kt:federal-acquisition-regulation` | `kt:performance-work-statement` |
 | `kt:quality-assurance-surveillance-plan` | `kt:performance-work-statement` |
