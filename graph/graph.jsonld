@@ -44267,6 +44267,106 @@
       ]
     },
     {
+      "@id": "kt:salesforce-hosted-mcp-servers",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Salesforce Hosted MCP Servers",
+      "skos:definition": "Fully managed Model Context Protocol (MCP) server endpoints run by Salesforce that expose org data, Apex, flows, APIs, prompt templates and product capabilities as tools to external MCP clients, with every call running as the OAuth-authenticated user.",
+      "kto:domain": "integration",
+      "dcterms:created": "2026-11-27",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Salesforce Hosted MCP Servers: Get Started",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/hosted-mcp-servers/guide/hosted-mcp-servers-overview.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Salesforce Hosted MCP Servers Are Now Generally Available",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2026/04/salesforce-hosted-mcp-servers-are-now-generally-available",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Salesforce Hosted MCP Servers Are in Beta Today",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2025/10/salesforce-hosted-mcp-servers-are-in-beta-today",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Build Custom MCP Servers",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/hosted-mcp-servers/guide/custom-servers.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Products Supporting MCP",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/hosted-mcp-servers/guide/products-supporting-mcp.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "The Salesforce Developer's Guide to the Winter '27 Release",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2026/10/developers-guide-to-the-winter-27-release",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/integration/salesforce-hosted-mcp-servers.md",
+      "skos:altLabel": [
+        "Hosted MCP Servers",
+        "Salesforce MCP Servers",
+        "Salesforce-hosted MCP servers"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:integration-patterns"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:model-context-protocol-in-agentforce"
+        },
+        {
+          "@id": "kt:tableau-next"
+        },
+        {
+          "@id": "kt:data-cloud"
+        },
+        {
+          "@id": "kt:prompt-builder"
+        },
+        {
+          "@id": "kt:agent-script"
+        }
+      ],
+      "kto:implements": [
+        {
+          "@id": "kt:model-context-protocol"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:external-client-apps"
+        },
+        {
+          "@id": "kt:oauth-scopes"
+        },
+        {
+          "@id": "kt:field-level-security"
+        },
+        {
+          "@id": "kt:salesforce-sharing-model"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:autolaunched-flow"
+        }
+      ]
+    },
+    {
       "@id": "kt:slack-api-rate-limits",
       "@type": "kto:Limit",
       "skos:prefLabel": "Slack API Rate Limits",
