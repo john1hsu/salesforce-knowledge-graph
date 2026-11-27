@@ -11,7 +11,7 @@ summary: >-
 release: "Winter '27"
 status: current
 broader: [kt:flow-builder, kt:process-automation]
-related: [kt:record-triggered-flow, kt:autolaunched-flow, kt:flow-orchestrator, kt:experience-cloud, kt:custom-flow-screen-components, kt:data-table-screen-component]
+related: [kt:record-triggered-flow, kt:autolaunched-flow, kt:flow-orchestrator, kt:experience-cloud, kt:custom-flow-screen-components, kt:data-table-screen-component, kt:repeater-screen-component]
 relations:
   - {predicate: integratesWith, object: kt:lightning-web-components}
   - {predicate: dependsOn, object: kt:salesforce-sharing-model}

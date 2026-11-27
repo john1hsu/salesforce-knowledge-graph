@@ -9028,6 +9028,81 @@
       ]
     },
     {
+      "@id": "kt:repeater-screen-component",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Repeater Screen Component",
+      "skos:definition": "A screen flow component that repeats a set of child screen components so the running user can enter, edit or remove several records on one screen; its Added, Prepopulated, Deleted and All Items outputs are then processed with a Loop and saved in bulk.",
+      "kto:domain": "automation",
+      "dcterms:created": "2026-11-27",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Create and Update Records Efficiently with Repeater",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/loops-in-flow-builder/create-and-update-records-with-a-repeater",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Enhance Flow Builder Skills by Looping through Repeaters",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/loops-in-flow-builder/loop-through-a-repeater",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Flow Enhancements | Summer '24 Be Release Ready",
+          "dcterms:publisher": "Salesforce Admins Blog (Adam White)",
+          "schema:url": "https://admin.salesforce.com/blog/2024/flow-enhancements-summer-24-be-release-ready",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Deep Dive: The Salesforce Flow Repeater Component",
+          "dcterms:publisher": "Salesforce Ben (Tim Combridge)",
+          "schema:url": "https://www.salesforceben.com/deep-dive-the-salesforce-flow-repeater-component/",
+          "kto:sourceType": "community"
+        }
+      ],
+      "kto:file": "articles/automation/repeater-screen-component.md",
+      "skos:altLabel": [
+        "Flow Repeater",
+        "Repeater component",
+        "Screen Flow Repeater",
+        "repeater in flow"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:screen-flow"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:data-table-screen-component"
+        },
+        {
+          "@id": "kt:get-records-element"
+        },
+        {
+          "@id": "kt:flow-assignment-element"
+        },
+        {
+          "@id": "kt:collection-filter-and-sort"
+        },
+        {
+          "@id": "kt:flow-data-elements"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:flow-loop-element"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:custom-flow-screen-components"
+        }
+      ]
+    },
+    {
       "@id": "kt:schedule-triggered-flow",
       "@type": "kto:Feature",
       "skos:prefLabel": "Schedule-Triggered Flow",
@@ -9266,6 +9341,9 @@
         },
         {
           "@id": "kt:data-table-screen-component"
+        },
+        {
+          "@id": "kt:repeater-screen-component"
         }
       ],
       "kto:integratesWith": [
