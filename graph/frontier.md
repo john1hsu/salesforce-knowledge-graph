@@ -63,6 +63,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:salesforce-dx-mcp-server` | `kt:model-context-protocol` |
 | `kt:operating-hours` | `kt:salesforce-scheduler` |
 | `kt:agentforce-vibes` | `kt:agentforce-vibes-ide` |
+| `kt:ui-api` | `kt:field-dependencies` |
 | `kt:apex-mockery` | `kt:apex-mocks` |
 | `kt:apex-stub-api` | `kt:apex-mocks` |
 | `kt:guest-user-sharing-rules` | `kt:share-groups` |
@@ -76,7 +77,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:mobile-sync` | `kt:mobile-sdk` |
 | `kt:smartstore` | `kt:mobile-sdk` |
 | `kt:developer-console` | `kt:apex-logging-and-debug-logs` |
-| `kt:ui-api` | `kt:field-dependencies` |
 | `kt:slds-linter` | `kt:salesforce-lightning-design-system` |
 | `kt:custom-labels` | `kt:flow-formula-resources` |
 | `kt:science` | `kt:computer-science` |
@@ -92,9 +92,9 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:business-administration` | `kt:management` |
 | `kt:currency-type-object` | `kt:multiple-currencies` |
 | `kt:user-provisioning` | `kt:scim` |
-| `kt:mulesoft-agent-fabric` | `kt:multi-agent-orchestration` |
 | `kt:anypoint-monitoring` | `kt:anypoint-runtime-manager` |
 | `kt:cloudhub-2` | `kt:anypoint-runtime-manager` |
+| `kt:mulesoft-agent-fabric` | `kt:multi-agent-orchestration` |
 | `kt:runtime-fabric` | `kt:anypoint-runtime-manager` |
 | `kt:runtime-manager-agent` | `kt:anypoint-runtime-manager` |
 | `kt:hmac-based-one-time-password` | `kt:time-based-one-time-password` |
@@ -128,17 +128,17 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:app-manager` | `kt:app-launcher` |
 | `kt:bearer-token-security` | `kt:frontdoor-jsp-session-bridging` |
 | `kt:controlled-unclassified-information` | `kt:cmmc` |
-| `kt:custom-field-allocations` | `kt:deleted-fields-and-field-undelete` |
 | `kt:lightning-apps` | `kt:app-launcher` |
 | `kt:nist-sp-800-171` | `kt:cmmc` |
-| `kt:notes-and-attachments` | `kt:content-document-model` |
 | `kt:privacy-center` | `kt:ccpa-and-cpra` |
 | `kt:aws-clean-rooms` | `kt:data-360-clean-rooms` |
 | `kt:cross-cloud-integration` | `kt:salesforce-solution-kits` |
+| `kt:custom-field-allocations` | `kt:deleted-fields-and-field-undelete` |
 | `kt:data-clean-room` | `kt:data-360-clean-rooms` |
 | `kt:document-checklist-items` | `kt:action-plans` |
 | `kt:einstein-activity-capture` | `kt:agentforce-sdr` |
 | `kt:greenhouse-gas-protocol` | `kt:net-zero-cloud` |
+| `kt:notes-and-attachments` | `kt:content-document-model` |
 | `kt:stakeholder-mapping` | `kt:user-personas` |
 | `kt:tableau-blueprint` | `kt:tableau-architect-certification` |
 | `kt:tableau-server-administrator-certification` | `kt:tableau-architect-certification` |

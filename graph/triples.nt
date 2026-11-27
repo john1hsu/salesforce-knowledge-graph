@@ -11961,6 +11961,33 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/person-accounts> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/change-data-capture> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/person-accounts> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/person-accounts> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/picklist-fields> <http://purl.org/dc/terms/created> "2026-11-27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/picklist-fields> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/picklist-fields> <http://www.w3.org/2000/01/rdf-schema#label> "Picklist Fields" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/picklist-fields> <http://www.w3.org/2004/02/skos/core#altLabel> "custom picklist" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/picklist-fields> <http://www.w3.org/2004/02/skos/core#altLabel> "inactive picklist values" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/picklist-fields> <http://www.w3.org/2004/02/skos/core#altLabel> "picklist field" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/picklist-fields> <http://www.w3.org/2004/02/skos/core#altLabel> "picklist value API name" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/picklist-fields> <http://www.w3.org/2004/02/skos/core#altLabel> "restricted picklist" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/picklist-fields> <http://www.w3.org/2004/02/skos/core#altLabel> "single-select picklist" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/picklist-fields> <http://www.w3.org/2004/02/skos/core#altLabel> "unrestricted picklist" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/picklist-fields> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-fields> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/picklist-fields> <http://www.w3.org/2004/02/skos/core#definition> "The single-select field type that limits a value to a defined list of choices. A picklist pairs a field (type, dependency, restriction) with a value set (choices, order, default), and its values can be restricted, deactivated, replaced or deleted without rebuilding the field." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/picklist-fields> <http://www.w3.org/2004/02/skos/core#prefLabel> "Picklist Fields" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/picklist-fields> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-quality> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/picklist-fields> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/field-dependencies> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/picklist-fields> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/multi-select-picklists> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/picklist-fields> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/picklist-value-sets> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/picklist-fields> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/standard-objects> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/picklist-fields> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/picklist-fields/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/picklist-fields> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/picklist-fields/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/picklist-fields> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/picklist-fields/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/picklist-fields> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#configuredVia> <https://github.com/john1hsu/salesforce-knowledge-graph/id/object-manager> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/picklist-fields> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#consumedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/formula-fields> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/picklist-fields> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/record-types> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/picklist-fields> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "data-model" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/picklist-fields> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/picklist-fields> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/picklist-value-sets> <http://purl.org/dc/terms/created> "2026-11-16" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/picklist-value-sets> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/picklist-value-sets> <http://www.w3.org/2000/01/rdf-schema#label> "Picklist Value Sets" .
@@ -28235,6 +28262,21 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/person-accounts/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/person-accounts/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/person-accounts/s4> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/client-management-in-financial-services-cloud/create-person-accounts-for-individual-clients" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/picklist-fields/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/picklist-fields/s1> <http://purl.org/dc/terms/title> "Picklist Administration: Get Started with Picklists" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/picklist-fields/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/picklist-fields/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/picklist-fields/s1> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/picklist_admin/picklist_admin_start" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/picklist-fields/s2> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/picklist-fields/s2> <http://purl.org/dc/terms/title> "Picklist Administration: Manage Your Picklist Values" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/picklist-fields/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/picklist-fields/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/picklist-fields/s2> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/picklist_admin/picklist_admin_manage" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/picklist-fields/s3> <http://purl.org/dc/terms/publisher> "Salesforce Admins Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/picklist-fields/s3> <http://purl.org/dc/terms/title> "Learn MOAR in Summer '22 with Picklist Field Value Enhancements" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/picklist-fields/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/picklist-fields/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/picklist-fields/s3> <https://schema.org/url> "https://admin.salesforce.com/blog/2022/learn-moar-in-summer-22-with-picklist-field-value-enhancements" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/picklist-value-sets/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/picklist-value-sets/s1> <http://purl.org/dc/terms/title> "Picklist Administration: Share Values with Global Value Sets" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/picklist-value-sets/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

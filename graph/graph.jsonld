@@ -23987,6 +23987,83 @@
       ]
     },
     {
+      "@id": "kt:picklist-fields",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Picklist Fields",
+      "skos:definition": "The single-select field type that limits a value to a defined list of choices. A picklist pairs a field (type, dependency, restriction) with a value set (choices, order, default), and its values can be restricted, deactivated, replaced or deleted without rebuilding the field.",
+      "kto:domain": "data-model",
+      "dcterms:created": "2026-11-27",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Picklist Administration: Get Started with Picklists",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/picklist_admin/picklist_admin_start",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Picklist Administration: Manage Your Picklist Values",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/picklist_admin/picklist_admin_manage",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Learn MOAR in Summer '22 with Picklist Field Value Enhancements",
+          "dcterms:publisher": "Salesforce Admins Blog",
+          "schema:url": "https://admin.salesforce.com/blog/2022/learn-moar-in-summer-22-with-picklist-field-value-enhancements",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/data-model/picklist-fields.md",
+      "skos:altLabel": [
+        "picklist field",
+        "single-select picklist",
+        "custom picklist",
+        "restricted picklist",
+        "unrestricted picklist",
+        "inactive picklist values",
+        "picklist value API name"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:custom-fields"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:picklist-value-sets"
+        },
+        {
+          "@id": "kt:multi-select-picklists"
+        },
+        {
+          "@id": "kt:field-dependencies"
+        },
+        {
+          "@id": "kt:data-quality"
+        },
+        {
+          "@id": "kt:standard-objects"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:record-types"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:object-manager"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:formula-fields"
+        }
+      ]
+    },
+    {
       "@id": "kt:picklist-value-sets",
       "@type": "kto:Feature",
       "skos:prefLabel": "Picklist Value Sets",
