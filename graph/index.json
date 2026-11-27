@@ -3199,6 +3199,28 @@
     ]
   },
   {
+    "id": "kt:csrf-protection",
+    "title": "CSRF Protection",
+    "aliases": [
+      "cross-site request forgery protection",
+      "anti-CSRF token",
+      "XSRF protection",
+      "Salesforce CSRF defenses"
+    ],
+    "type": "SecurityControl",
+    "domain": "security-and-sharing",
+    "file": "articles/security-and-sharing/csrf-protection.md",
+    "created": "2026-11-27",
+    "release": "Winter '27",
+    "status": "current",
+    "source_urls": [
+      "https://developer.salesforce.com/docs/platform/secure-coding/guide/secure-coding-cross-site-req-forgery.html",
+      "https://developer.salesforce.com/docs/platform/secure-coding/guide/security-protect-application-from-csrf-vulnerabilities.html",
+      "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/pages_security_tips_csrf.htm",
+      "https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html"
+    ]
+  },
+  {
     "id": "kt:cta-review-board",
     "title": "CTA Review Board",
     "aliases": [

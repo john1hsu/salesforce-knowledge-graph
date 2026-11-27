@@ -3636,6 +3636,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/cross-site-scripting> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "security-and-sharing" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/cross-site-scripting> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/cross-site-scripting> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/csrf-protection> <http://purl.org/dc/terms/created> "2026-11-27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/csrf-protection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#SecurityControl> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/csrf-protection> <http://www.w3.org/2000/01/rdf-schema#label> "CSRF Protection" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/csrf-protection> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce CSRF defenses" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/csrf-protection> <http://www.w3.org/2004/02/skos/core#altLabel> "XSRF protection" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/csrf-protection> <http://www.w3.org/2004/02/skos/core#altLabel> "anti-CSRF token" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/csrf-protection> <http://www.w3.org/2004/02/skos/core#altLabel> "cross-site request forgery protection" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/csrf-protection> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/secure-coding> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/csrf-protection> <http://www.w3.org/2004/02/skos/core#definition> "The platform and coding defenses that stop a forged request from riding a logged-in user's Salesforce session: an anti-CSRF token checked on standard controller form posts, plus the developer rule that state changes must happen only in response to explicit user actions, never on page load or component initialization." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/csrf-protection> <http://www.w3.org/2004/02/skos/core#prefLabel> "CSRF Protection" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/csrf-protection> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/aura-components> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/csrf-protection> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/clickjack-protection> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/csrf-protection> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/cross-site-scripting> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/csrf-protection> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-web-components> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/csrf-protection> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/session-settings> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/csrf-protection> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/visualforce> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/csrf-protection> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/csrf-protection/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/csrf-protection> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/csrf-protection/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/csrf-protection> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/csrf-protection/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/csrf-protection> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/csrf-protection/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/csrf-protection> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#contrastsWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/cross-site-scripting> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/csrf-protection> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "security-and-sharing" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/csrf-protection> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#mitigates> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-breach-risk> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/csrf-protection> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/csrf-protection> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/cta-review-board> <http://purl.org/dc/terms/created> "2026-11-04" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/cta-review-board> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Certification> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/cta-review-board> <http://www.w3.org/2000/01/rdf-schema#label> "CTA Review Board" .
@@ -20053,6 +20078,26 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/cross-site-scripting/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/cross-site-scripting/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "community" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/cross-site-scripting/s5> <https://schema.org/url> "https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/csrf-protection/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/csrf-protection/s1> <http://purl.org/dc/terms/title> "Secure Coding Guide: Secure Coding Cross Site Request Forgery" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/csrf-protection/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/csrf-protection/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/csrf-protection/s1> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/secure-coding/guide/secure-coding-cross-site-req-forgery.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/csrf-protection/s2> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/csrf-protection/s2> <http://purl.org/dc/terms/title> "Secure Coding Guide: Protect Your Application from CSRF Vulnerabilities" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/csrf-protection/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/csrf-protection/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/csrf-protection/s2> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/secure-coding/guide/security-protect-application-from-csrf-vulnerabilities.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/csrf-protection/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/csrf-protection/s3> <http://purl.org/dc/terms/title> "Apex Developer Guide: Cross-Site Request Forgery (CSRF)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/csrf-protection/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/csrf-protection/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/csrf-protection/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/pages_security_tips_csrf.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/csrf-protection/s4> <http://purl.org/dc/terms/publisher> "OWASP Cheat Sheet Series" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/csrf-protection/s4> <http://purl.org/dc/terms/title> "Cross-Site Request Forgery Prevention Cheat Sheet" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/csrf-protection/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/csrf-protection/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "community" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/csrf-protection/s4> <https://schema.org/url> "https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/cta-review-board/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/cta-review-board/s1> <http://purl.org/dc/terms/title> "Certified Technical Architect Credential" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/cta-review-board/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

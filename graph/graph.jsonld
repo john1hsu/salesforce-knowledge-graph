@@ -55602,6 +55602,84 @@
       ]
     },
     {
+      "@id": "kt:csrf-protection",
+      "@type": "kto:SecurityControl",
+      "skos:prefLabel": "CSRF Protection",
+      "skos:definition": "The platform and coding defenses that stop a forged request from riding a logged-in user's Salesforce session: an anti-CSRF token checked on standard controller form posts, plus the developer rule that state changes must happen only in response to explicit user actions, never on page load or component initialization.",
+      "kto:domain": "security-and-sharing",
+      "dcterms:created": "2026-11-27",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Secure Coding Guide: Secure Coding Cross Site Request Forgery",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/secure-coding/guide/secure-coding-cross-site-req-forgery.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Secure Coding Guide: Protect Your Application from CSRF Vulnerabilities",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/secure-coding/guide/security-protect-application-from-csrf-vulnerabilities.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Apex Developer Guide: Cross-Site Request Forgery (CSRF)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/pages_security_tips_csrf.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Cross-Site Request Forgery Prevention Cheat Sheet",
+          "dcterms:publisher": "OWASP Cheat Sheet Series",
+          "schema:url": "https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html",
+          "kto:sourceType": "community"
+        }
+      ],
+      "kto:file": "articles/security-and-sharing/csrf-protection.md",
+      "skos:altLabel": [
+        "cross-site request forgery protection",
+        "anti-CSRF token",
+        "XSRF protection",
+        "Salesforce CSRF defenses"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:secure-coding"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:clickjack-protection"
+        },
+        {
+          "@id": "kt:cross-site-scripting"
+        },
+        {
+          "@id": "kt:visualforce"
+        },
+        {
+          "@id": "kt:aura-components"
+        },
+        {
+          "@id": "kt:lightning-web-components"
+        },
+        {
+          "@id": "kt:session-settings"
+        }
+      ],
+      "kto:mitigates": [
+        {
+          "@id": "kt:data-breach-risk"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:cross-site-scripting"
+        }
+      ]
+    },
+    {
       "@id": "kt:custom-permissions",
       "@type": "kto:SecurityControl",
       "skos:prefLabel": "Custom Permissions",
