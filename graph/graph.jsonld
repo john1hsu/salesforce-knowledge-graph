@@ -14130,6 +14130,91 @@
       ]
     },
     {
+      "@id": "kt:service-cloud-consultant-certification",
+      "@type": "kto:Certification",
+      "skos:prefLabel": "Agentforce Service Consultant Certification",
+      "skos:definition": "Salesforce's consultant-level credential for designing and implementing Service Cloud solutions, now published on Trailhead as the Salesforce Certified Agentforce Service Consultant (formerly Service Cloud Consultant); it requires the Platform Administrator credential and is booked through the Service-Con-201 exam.",
+      "kto:domain": "clouds-and-products",
+      "dcterms:created": "2026-11-27",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Certification - Salesforce Certified Agentforce Service Consultant",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/credentials/agfserviceconsultant",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Certification - Salesforce Certified Agentforce Service Consultant (legacy servicecloudconsultant URL)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/credentials/servicecloudconsultant",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "The Salesforce Certification Lifecycle: How we build, maintain, and evolve our certification portfolio",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/blog/salesforce-certification-lifecycle/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Maintain Your Salesforce Certifications",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/trails/maintain-your-salesforce-certifications",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Service Cloud Consultant Certification Study Guide & Tips",
+          "dcterms:publisher": "Salesforce Ben",
+          "schema:url": "https://www.salesforceben.com/service-cloud-certification-guide-tips/",
+          "kto:sourceType": "news"
+        },
+        {
+          "dcterms:title": "Salesforce to Change the Name of 35 Certifications: What You Need to Know",
+          "dcterms:publisher": "Salesforce Ben",
+          "schema:url": "https://www.salesforceben.com/salesforce-to-change-the-name-of-35-certifications-what-you-need-to-know/",
+          "kto:sourceType": "news"
+        }
+      ],
+      "kto:file": "articles/clouds-and-products/service-cloud-consultant-certification.md",
+      "skos:altLabel": [
+        "Salesforce Certified Agentforce Service Consultant",
+        "Service Cloud Consultant Certification",
+        "Salesforce Certified Service Cloud Consultant",
+        "Service-Con-201"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-certification-program"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:service-cloud"
+        },
+        {
+          "@id": "kt:entitlement-management"
+        },
+        {
+          "@id": "kt:omni-channel"
+        },
+        {
+          "@id": "kt:knowledge-base"
+        },
+        {
+          "@id": "kt:data-migration-strategy"
+        },
+        {
+          "@id": "kt:sales-cloud-consultant-certification"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:platform-administrator-certification"
+        }
+      ]
+    },
+    {
       "@id": "kt:service-cloud",
       "@type": "kto:Product",
       "skos:prefLabel": "Service Cloud",
@@ -14205,6 +14290,9 @@
         },
         {
           "@id": "kt:salesforce-voice"
+        },
+        {
+          "@id": "kt:service-cloud-consultant-certification"
         }
       ],
       "kto:hasPart": [
