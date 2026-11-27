@@ -49434,6 +49434,95 @@
       ]
     },
     {
+      "@id": "kt:ccpa-and-cpra",
+      "@type": "kto:ExternalConcept",
+      "skos:prefLabel": "CCPA and CPRA",
+      "skos:definition": "California's consumer privacy law (the CCPA), as amended by the California Privacy Rights Act (CPRA, Proposition 24), which gives California residents rights to know, delete, correct and opt out of the sale or sharing of their personal information; Salesforce acts as a service provider, while customers use tools such as Privacy Center and the consent data model to meet their own obligations.",
+      "kto:domain": "public-sector-and-compliance",
+      "dcterms:created": "2026-11-27",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Frequently Asked Questions (FAQs)",
+          "dcterms:publisher": "California Privacy Protection Agency",
+          "schema:url": "https://cppa.ca.gov/faq.html",
+          "kto:sourceType": "government"
+        },
+        {
+          "dcterms:title": "California Consumer Privacy Act Regulations (March 2023)",
+          "dcterms:publisher": "California Privacy Protection Agency",
+          "schema:url": "https://cppa.ca.gov/regulations/consumer_privacy_act.html",
+          "kto:sourceType": "government"
+        },
+        {
+          "dcterms:title": "Implement CCPA Compliance in Your Organization (California Consumer Privacy Act Basics)",
+          "dcterms:publisher": "Salesforce Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/california-consumer-privacy-act-basics/implement-ccpa-compliance-in-your-organization",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "CCPA & CPRA Frequently Asked Questions",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/en-us/wp-content/uploads/sites/4/documents/white-papers/CCPA-FAQ.pdf",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Handle Privacy Requests in Privacy Center",
+          "dcterms:publisher": "Salesforce Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/privacy-center/handle-privacy-requests-in-privacy-center",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Privacy Overview Data Model",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/data-models/guide/privacy-overview.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/public-sector-and-compliance/ccpa-and-cpra.md",
+      "skos:altLabel": [
+        "California Consumer Privacy Act",
+        "California Privacy Rights Act",
+        "CCPA",
+        "CPRA",
+        "Proposition 24",
+        "CCPA compliance on Salesforce"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:security-compliance-frameworks"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:gdpr-international-transfers"
+        },
+        {
+          "@id": "kt:privacy-center"
+        },
+        {
+          "@id": "kt:consent-management-in-data-cloud"
+        },
+        {
+          "@id": "kt:data-classification"
+        },
+        {
+          "@id": "kt:salesforce-shield"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:hipaa"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:shared-responsibility-model"
+        }
+      ]
+    },
+    {
       "@id": "kt:cjis-security-policy",
       "@type": "kto:ExternalConcept",
       "skos:prefLabel": "CJIS Security Policy",
