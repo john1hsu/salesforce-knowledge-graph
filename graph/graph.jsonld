@@ -56320,6 +56320,87 @@
       ]
     },
     {
+      "@id": "kt:clickjacking",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Clickjacking",
+      "skos:definition": "A web attack in which a decoy page hides or overlays a trusted page, usually inside an invisible iframe, so the victim's clicks land on the trusted page's controls. On Salesforce it matters both for framed pages and for Lightning components whose CSS can float over other content.",
+      "kto:domain": "security-and-sharing",
+      "dcterms:created": "2026-11-28",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Understand Clickjacking (Secure Coding Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/secure-coding/guide/security-clickjacking.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "RFC 7034: HTTP Header Field X-Frame-Options",
+          "dcterms:publisher": "IETF",
+          "schema:url": "https://www.rfc-editor.org/rfc/rfc7034.html",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "Clickjacking Defense Cheat Sheet",
+          "dcterms:publisher": "OWASP Cheat Sheet Series",
+          "schema:url": "https://cheatsheetseries.owasp.org/cheatsheets/Clickjacking_Defense_Cheat_Sheet.html",
+          "kto:sourceType": "community"
+        },
+        {
+          "dcterms:title": "Clickjacking (Web Security attacks)",
+          "dcterms:publisher": "MDN Web Docs",
+          "schema:url": "https://developer.mozilla.org/en-US/docs/Glossary/Clickjacking",
+          "kto:sourceType": "community"
+        },
+        {
+          "dcterms:title": "Mitigate clickjacking with XFO or CSP (Lighthouse)",
+          "dcterms:publisher": "Chrome for Developers",
+          "schema:url": "https://developer.chrome.com/docs/lighthouse/best-practices/clickjacking-mitigation",
+          "kto:sourceType": "community"
+        }
+      ],
+      "kto:file": "articles/security-and-sharing/clickjacking.md",
+      "skos:altLabel": [
+        "clickjacking attack",
+        "UI redress attack",
+        "iframe overlay attack",
+        "CSS overlay clickjacking"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:secure-coding"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:clickjack-protection"
+        },
+        {
+          "@id": "kt:content-security-policy"
+        },
+        {
+          "@id": "kt:lightning-web-components"
+        },
+        {
+          "@id": "kt:visualforce"
+        },
+        {
+          "@id": "kt:csrf-protection"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:cross-site-scripting"
+        }
+      ],
+      "kto:causes": [
+        {
+          "@id": "kt:data-breach-risk"
+        }
+      ]
+    },
+    {
       "@id": "kt:compliant-data-sharing",
       "@type": "kto:SecurityControl",
       "skos:prefLabel": "Compliant Data Sharing",

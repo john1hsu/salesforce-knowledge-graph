@@ -2611,6 +2611,29 @@
     ]
   },
   {
+    "id": "kt:clickjacking",
+    "title": "Clickjacking",
+    "aliases": [
+      "clickjacking attack",
+      "UI redress attack",
+      "iframe overlay attack",
+      "CSS overlay clickjacking"
+    ],
+    "type": "Concept",
+    "domain": "security-and-sharing",
+    "file": "articles/security-and-sharing/clickjacking.md",
+    "created": "2026-11-28",
+    "release": "Winter '27",
+    "status": "concept",
+    "source_urls": [
+      "https://developer.salesforce.com/docs/platform/secure-coding/guide/security-clickjacking.html",
+      "https://www.rfc-editor.org/rfc/rfc7034.html",
+      "https://cheatsheetseries.owasp.org/cheatsheets/Clickjacking_Defense_Cheat_Sheet.html",
+      "https://developer.mozilla.org/en-US/docs/Glossary/Clickjacking",
+      "https://developer.chrome.com/docs/lighthouse/best-practices/clickjacking-mitigation"
+    ]
+  },
+  {
     "id": "kt:client-credentials-flow",
     "title": "OAuth 2.0 Client Credentials Flow",
     "aliases": [
