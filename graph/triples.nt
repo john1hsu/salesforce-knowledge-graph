@@ -6191,6 +6191,34 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/enhanced-scheduling-and-optimization> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#partOf> <https://github.com/john1hsu/salesforce-knowledge-graph/id/field-service> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/enhanced-scheduling-and-optimization> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/enhanced-scheduling-and-optimization> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/enterprise-service-bus> <http://purl.org/dc/terms/created> "2026-11-28" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/enterprise-service-bus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Pattern> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/enterprise-service-bus> <http://www.w3.org/2000/01/rdf-schema#label> "Enterprise Service Bus" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/enterprise-service-bus> <http://www.w3.org/2004/02/skos/core#altLabel> "ESB" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/enterprise-service-bus> <http://www.w3.org/2004/02/skos/core#altLabel> "centralized integration middleware" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/enterprise-service-bus> <http://www.w3.org/2004/02/skos/core#altLabel> "enterprise service bus architecture" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/enterprise-service-bus> <http://www.w3.org/2004/02/skos/core#altLabel> "integration bus" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/enterprise-service-bus> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-patterns> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/enterprise-service-bus> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/service-oriented-architecture> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/enterprise-service-bus> <http://www.w3.org/2004/02/skos/core#definition> "An integration architecture in which applications connect to a shared, centralized bus (an integration runtime plus messaging) that transforms, routes and mediates messages between them, instead of wiring each system to every other. A core building block of service-oriented architecture, it decouples endpoints but concentrates integration logic, governance and failure risk in one layer." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/enterprise-service-bus> <http://www.w3.org/2004/02/skos/core#prefLabel> "Enterprise Service Bus" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/enterprise-service-bus> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/data-integration> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/enterprise-service-bus> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/mule-runtime-engine> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/enterprise-service-bus> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/mulesoft-anypoint-platform> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/enterprise-service-bus> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/outbound-messaging> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/enterprise-service-bus> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/process-integration> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/enterprise-service-bus> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/enterprise-service-bus/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/enterprise-service-bus> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/enterprise-service-bus/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/enterprise-service-bus> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/enterprise-service-bus/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/enterprise-service-bus> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/enterprise-service-bus/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/enterprise-service-bus> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/enterprise-service-bus/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/enterprise-service-bus> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/enterprise-service-bus/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/enterprise-service-bus> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#alternativeTo> <https://github.com/john1hsu/salesforce-knowledge-graph/id/point-to-point-integration> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/enterprise-service-bus> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#contrastsWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/api-led-connectivity> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/enterprise-service-bus> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#contrastsWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/microservices-architecture> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/enterprise-service-bus> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "integration" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/enterprise-service-bus> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/enterprise-service-bus> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/enterprise-territory-management> <http://purl.org/dc/terms/created> "2026-11-03" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/enterprise-territory-management> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/enterprise-territory-management> <http://www.w3.org/2000/01/rdf-schema#label> "Sales Territories" .
@@ -22786,6 +22814,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/enhanced-scheduling-and-optimization/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/enhanced-scheduling-and-optimization/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/enhanced-scheduling-and-optimization/s6> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/field-service-lightning-optimization/explore-optimization" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/enterprise-service-bus/s1> <http://purl.org/dc/terms/publisher> "MuleSoft (Salesforce)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/enterprise-service-bus/s1> <http://purl.org/dc/terms/title> "What is an ESB?" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/enterprise-service-bus/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/enterprise-service-bus/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/enterprise-service-bus/s1> <https://schema.org/url> "https://www.mulesoft.com/resources/esb/what-esb" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/enterprise-service-bus/s2> <http://purl.org/dc/terms/publisher> "Salesforce" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/enterprise-service-bus/s2> <http://purl.org/dc/terms/title> "Enterprise Service Bus (ESB): Connecting Enterprise Systems at Scale" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/enterprise-service-bus/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/enterprise-service-bus/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/enterprise-service-bus/s2> <https://schema.org/url> "https://www.salesforce.com/ap/blog/what-is-esb/" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/enterprise-service-bus/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/enterprise-service-bus/s3> <http://purl.org/dc/terms/title> "Middleware Terms and Definitions (Integration Patterns and Practices)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/enterprise-service-bus/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/enterprise-service-bus/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/enterprise-service-bus/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.integration_patterns_and_practices.meta/integ/integ_pat_middleware_definitions.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/enterprise-service-bus/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers Blog (Greg Cook)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/enterprise-service-bus/s4> <http://purl.org/dc/terms/title> "Integration Architecture for the Salesforce Platform" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/enterprise-service-bus/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/enterprise-service-bus/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/enterprise-service-bus/s4> <https://schema.org/url> "https://developer.salesforce.com/blogs/developer-relations/2014/11/salesforce-integration-architecture" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/enterprise-service-bus/s5> <http://purl.org/dc/terms/publisher> "IBM" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/enterprise-service-bus/s5> <http://purl.org/dc/terms/title> "What Is an Enterprise Service Bus (ESB)?" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/enterprise-service-bus/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/enterprise-service-bus/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "partner" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/enterprise-service-bus/s5> <https://schema.org/url> "https://www.ibm.com/think/topics/esb" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/enterprise-service-bus/s6> <http://purl.org/dc/terms/publisher> "IBM" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/enterprise-service-bus/s6> <http://purl.org/dc/terms/title> "ESB vs. Microservices: What's the Difference?" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/enterprise-service-bus/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/enterprise-service-bus/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "partner" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/enterprise-service-bus/s6> <https://schema.org/url> "https://www.ibm.com/think/topics/esb-vs-microservices" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/enterprise-territory-management/s1> <http://purl.org/dc/terms/publisher> "Salesforce" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/enterprise-territory-management/s1> <http://purl.org/dc/terms/title> "Sales Territories (Salesforce Help)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/enterprise-territory-management/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .

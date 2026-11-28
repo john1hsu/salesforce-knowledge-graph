@@ -42607,6 +42607,99 @@
       ]
     },
     {
+      "@id": "kt:enterprise-service-bus",
+      "@type": "kto:Pattern",
+      "skos:prefLabel": "Enterprise Service Bus",
+      "skos:definition": "An integration architecture in which applications connect to a shared, centralized bus (an integration runtime plus messaging) that transforms, routes and mediates messages between them, instead of wiring each system to every other. A core building block of service-oriented architecture, it decouples endpoints but concentrates integration logic, governance and failure risk in one layer.",
+      "kto:domain": "integration",
+      "dcterms:created": "2026-11-28",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "What is an ESB?",
+          "dcterms:publisher": "MuleSoft (Salesforce)",
+          "schema:url": "https://www.mulesoft.com/resources/esb/what-esb",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Enterprise Service Bus (ESB): Connecting Enterprise Systems at Scale",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/ap/blog/what-is-esb/",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Middleware Terms and Definitions (Integration Patterns and Practices)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.integration_patterns_and_practices.meta/integ/integ_pat_middleware_definitions.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Integration Architecture for the Salesforce Platform",
+          "dcterms:publisher": "Salesforce Developers Blog (Greg Cook)",
+          "schema:url": "https://developer.salesforce.com/blogs/developer-relations/2014/11/salesforce-integration-architecture",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "What Is an Enterprise Service Bus (ESB)?",
+          "dcterms:publisher": "IBM",
+          "schema:url": "https://www.ibm.com/think/topics/esb",
+          "kto:sourceType": "partner"
+        },
+        {
+          "dcterms:title": "ESB vs. Microservices: What's the Difference?",
+          "dcterms:publisher": "IBM",
+          "schema:url": "https://www.ibm.com/think/topics/esb-vs-microservices",
+          "kto:sourceType": "partner"
+        }
+      ],
+      "kto:file": "articles/integration/enterprise-service-bus.md",
+      "skos:altLabel": [
+        "ESB",
+        "enterprise service bus architecture",
+        "integration bus",
+        "centralized integration middleware"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:integration-patterns"
+        },
+        {
+          "@id": "kt:service-oriented-architecture"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:mulesoft-anypoint-platform"
+        },
+        {
+          "@id": "kt:mule-runtime-engine"
+        },
+        {
+          "@id": "kt:process-integration"
+        },
+        {
+          "@id": "kt:data-integration"
+        },
+        {
+          "@id": "kt:outbound-messaging"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:point-to-point-integration"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:api-led-connectivity"
+        },
+        {
+          "@id": "kt:microservices-architecture"
+        }
+      ]
+    },
+    {
       "@id": "kt:event-driven-architecture",
       "@type": "kto:Pattern",
       "skos:prefLabel": "Event-Driven Architecture",
