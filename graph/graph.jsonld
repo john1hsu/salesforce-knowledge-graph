@@ -19254,6 +19254,91 @@
       ]
     },
     {
+      "@id": "kt:einstein-discovery",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Einstein Discovery",
+      "skos:definition": "The no-code predictive analytics feature of CRM Analytics: it trains supervised machine-learning models on a CRM Analytics dataset to explain and predict a business outcome (regression, binary or multiclass), then deploys predictions and recommended improvements to record pages, Flow, formulas, recipes, Tableau and the REST API.",
+      "kto:domain": "data-cloud-and-ai",
+      "dcterms:created": "2026-11-28",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Get to Know Einstein Discovery (Einstein Discovery Basics)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/einstein-discovery-basics/get-to-know-einstein-discovery",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Create a Model (Einstein Discovery Basics)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/einstein-discovery-basics/create-a-model-edb",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Meet Einstein Discovery (Einstein Discovery Quick Look)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/einstein-discovery-quick-look/meet-einstein-discovery",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Build Your CRM Analytics Dataset (Einstein Discovery Basics)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/einstein-discovery-basics/build-your-crm-analytics-dataset",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Add an Einstein Discovery Story to a CRM Analytics Template (Analytics Templates Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/analytics/bi-dev-guide-wave-templates/guide/bi-templatesdev-add-discovery-story.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Einstein Discovery REST API Overview (Einstein Discovery REST API Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/einstein-discovery/guide/bi-rest-sdd-overview",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/data-cloud-and-ai/einstein-discovery.md",
+      "skos:altLabel": [
+        "Einstein Discovery in CRM Analytics",
+        "Einstein Discovery in Tableau CRM",
+        "Einstein Discovery stories"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:crm-analytics"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:experience-cloud"
+        },
+        {
+          "@id": "kt:formula-fields"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:flow-builder"
+        },
+        {
+          "@id": "kt:tableau"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:ai-models"
+        }
+      ],
+      "kto:queriedWith": [
+        {
+          "@id": "kt:einstein-discovery-rest-api"
+        }
+      ]
+    },
+    {
       "@id": "kt:einstein-generative-ai-setup",
       "@type": "kto:Feature",
       "skos:prefLabel": "Einstein Generative AI Setup",

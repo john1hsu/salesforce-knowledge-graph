@@ -6052,6 +6052,30 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/einstein-bots> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#requiresLicense> <https://github.com/john1hsu/salesforce-knowledge-graph/id/service-cloud> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/einstein-bots> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/einstein-bots> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/einstein-discovery> <http://purl.org/dc/terms/created> "2026-11-28" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/einstein-discovery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/einstein-discovery> <http://www.w3.org/2000/01/rdf-schema#label> "Einstein Discovery" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/einstein-discovery> <http://www.w3.org/2004/02/skos/core#altLabel> "Einstein Discovery in CRM Analytics" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/einstein-discovery> <http://www.w3.org/2004/02/skos/core#altLabel> "Einstein Discovery in Tableau CRM" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/einstein-discovery> <http://www.w3.org/2004/02/skos/core#altLabel> "Einstein Discovery stories" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/einstein-discovery> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/crm-analytics> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/einstein-discovery> <http://www.w3.org/2004/02/skos/core#definition> "The no-code predictive analytics feature of CRM Analytics: it trains supervised machine-learning models on a CRM Analytics dataset to explain and predict a business outcome (regression, binary or multiclass), then deploys predictions and recommended improvements to record pages, Flow, formulas, recipes, Tableau and the REST API." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/einstein-discovery> <http://www.w3.org/2004/02/skos/core#prefLabel> "Einstein Discovery" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/einstein-discovery> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/experience-cloud> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/einstein-discovery> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/formula-fields> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/einstein-discovery> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/einstein-discovery/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/einstein-discovery> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/einstein-discovery/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/einstein-discovery> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/einstein-discovery/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/einstein-discovery> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/einstein-discovery/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/einstein-discovery> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/einstein-discovery/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/einstein-discovery> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/einstein-discovery/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/einstein-discovery> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#alternativeTo> <https://github.com/john1hsu/salesforce-knowledge-graph/id/ai-models> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/einstein-discovery> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "data-cloud-and-ai" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/einstein-discovery> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-builder> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/einstein-discovery> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/tableau> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/einstein-discovery> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/einstein-discovery-rest-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/einstein-discovery> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/einstein-discovery> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/einstein-generative-ai-setup> <http://purl.org/dc/terms/created> "2026-11-24" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/einstein-generative-ai-setup> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/einstein-generative-ai-setup> <http://www.w3.org/2000/01/rdf-schema#label> "Einstein Generative AI Setup" .
@@ -22776,6 +22800,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/einstein-bots/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/einstein-bots/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/einstein-bots/s6> <https://schema.org/url> "https://www.salesforce.com/eu/events/webinars/agentforce-bots-to-agents" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/einstein-discovery/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/einstein-discovery/s1> <http://purl.org/dc/terms/title> "Get to Know Einstein Discovery (Einstein Discovery Basics)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/einstein-discovery/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/einstein-discovery/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/einstein-discovery/s1> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/einstein-discovery-basics/get-to-know-einstein-discovery" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/einstein-discovery/s2> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/einstein-discovery/s2> <http://purl.org/dc/terms/title> "Create a Model (Einstein Discovery Basics)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/einstein-discovery/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/einstein-discovery/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/einstein-discovery/s2> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/einstein-discovery-basics/create-a-model-edb" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/einstein-discovery/s3> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/einstein-discovery/s3> <http://purl.org/dc/terms/title> "Meet Einstein Discovery (Einstein Discovery Quick Look)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/einstein-discovery/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/einstein-discovery/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/einstein-discovery/s3> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/einstein-discovery-quick-look/meet-einstein-discovery" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/einstein-discovery/s4> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/einstein-discovery/s4> <http://purl.org/dc/terms/title> "Build Your CRM Analytics Dataset (Einstein Discovery Basics)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/einstein-discovery/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/einstein-discovery/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/einstein-discovery/s4> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/einstein-discovery-basics/build-your-crm-analytics-dataset" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/einstein-discovery/s5> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/einstein-discovery/s5> <http://purl.org/dc/terms/title> "Add an Einstein Discovery Story to a CRM Analytics Template (Analytics Templates Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/einstein-discovery/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/einstein-discovery/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/einstein-discovery/s5> <https://schema.org/url> "https://developer.salesforce.com/docs/analytics/bi-dev-guide-wave-templates/guide/bi-templatesdev-add-discovery-story.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/einstein-discovery/s6> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/einstein-discovery/s6> <http://purl.org/dc/terms/title> "Einstein Discovery REST API Overview (Einstein Discovery REST API Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/einstein-discovery/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/einstein-discovery/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/einstein-discovery/s6> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/einstein-discovery/guide/bi-rest-sdd-overview" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/einstein-generative-ai-setup/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers (Agentforce Developer Guide)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/einstein-generative-ai-setup/s1> <http://purl.org/dc/terms/title> "Set Up Einstein Generative AI and Agentforce" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/einstein-generative-ai-setup/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
