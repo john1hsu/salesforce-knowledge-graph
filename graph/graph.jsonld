@@ -4913,6 +4913,99 @@
       ]
     },
     {
+      "@id": "kt:action-button-screen-component",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Action Button Screen Component",
+      "skos:definition": "A standard screen flow component that, when the running user clicks it, runs an active autolaunched flow in the background and exposes that flow's outputs (plus an IsSuccess flag) to other components on the same screen, so a screen can query, calculate or call out without moving to a new screen.",
+      "kto:domain": "automation",
+      "dcterms:created": "2026-11-28",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Standard Flow Screen Components",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=platform.flow_ref_elements_screencmp.htm&language=en_US&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Data Safety When Running Screen and Autolaunched Flows in System Context",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=sf.flow_distribute_context_data_safety_system_context.htm&amp=&language=en_US&amp=&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Summer '24 Feature Deep Dive: Create Richer Screen Flows with Action Buttons (Beta)",
+          "dcterms:publisher": "Salesforce Admins Blog (Adam White)",
+          "schema:url": "https://admin.salesforce.com/blog/2024/screen-flows-and-action-buttons-summer-24-be-release-ready",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Unlock New Automation Possibilities With Spring '25 Flow Features",
+          "dcterms:publisher": "Salesforce Admins Blog (David Fromstein)",
+          "schema:url": "https://admin.salesforce.com/blog/2025/unlock-new-automation-possibilities-with-spring-25-flow-features-be-release-ready",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "10 New Flow Features in Salesforce Winter '25",
+          "dcterms:publisher": "Salesforce Ben (Tim Combridge)",
+          "schema:url": "https://www.salesforceben.com/10-new-flow-features-in-salesforce-winter-25/",
+          "kto:sourceType": "community"
+        },
+        {
+          "dcterms:title": "Salesforce Summer '25 Release: Enhance Your Screen Flows With Screen Actions",
+          "dcterms:publisher": "Salesforce Ben (Andreea Doroftei)",
+          "schema:url": "https://www.salesforceben.com/salesforce-summer-25-release-enhance-your-screen-flows-with-screen-actions/",
+          "kto:sourceType": "community"
+        }
+      ],
+      "kto:file": "articles/automation/action-button-screen-component.md",
+      "skos:altLabel": [
+        "Flow Action Button",
+        "Action Button component",
+        "screen flow action button",
+        "Flow Action Buttons"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:screen-flow"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:repeater-screen-component"
+        },
+        {
+          "@id": "kt:data-table-screen-component"
+        },
+        {
+          "@id": "kt:flow-choice-resources"
+        },
+        {
+          "@id": "kt:custom-flow-screen-components"
+        },
+        {
+          "@id": "kt:flow-http-callout"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:autolaunched-flow"
+        },
+        {
+          "@id": "kt:flow-run-context"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:subflows"
+        },
+        {
+          "@id": "kt:screen-actions"
+        }
+      ]
+    },
+    {
       "@id": "kt:action-plans",
       "@type": "kto:Feature",
       "skos:prefLabel": "Action Plans",
@@ -9430,6 +9523,9 @@
         },
         {
           "@id": "kt:repeater-screen-component"
+        },
+        {
+          "@id": "kt:action-button-screen-component"
         }
       ],
       "kto:integratesWith": [
