@@ -28147,6 +28147,89 @@
       ]
     },
     {
+      "@id": "kt:lightning-out",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Lightning Out",
+      "skos:definition": "Salesforce's mechanism for running Lightning components inside external, non-Salesforce web apps. Lightning Out 2.0 (GA since Winter '26) embeds custom LWCs in isolated iframes on Lightning Web Runtime; the older Lightning Out (Beta) injects Aura-based apps directly into the host page.",
+      "kto:domain": "development",
+      "dcterms:created": "2026-11-28",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Lightning Web Components Developer Guide: Understand Lightning Out 2.0 Architecture",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/lwc/guide/lightning-out-architecture.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Lightning Web Components Developer Guide: How Lightning Out 2.0 Compares to Lightning Out (Beta)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/lwc/guide/lightning-out-compare.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Lightning Web Components Developer Guide: Lightning Out 2.0 Limitations",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/lwc/guide/lightning-out-limitations.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Lightning Out 2.0 Is Now Generally Available in Winter '26",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2025/10/lightning-out-2-0-is-now-generally-available-in-winter-26",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Lightning Web Components Developer Guide: Use Components Outside Salesforce with Lightning Out (Beta)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/lwc/guide/lightning-out.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Lightning Web Components Developer Guide: Lightning Out (Beta) Requirements",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/lwc/guide/lightning-out-requirements.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/development/lightning-out.md",
+      "skos:altLabel": [
+        "Lightning Out 2.0",
+        "Lightning Out (Beta)",
+        "Lightning Out beta",
+        "lightning-out-application",
+        "Lightning Out 2.0 app"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:lightning-web-components"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:aura-components"
+        },
+        {
+          "@id": "kt:lightning-locker"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:lightning-web-security"
+        },
+        {
+          "@id": "kt:frontdoor-jsp-session-bridging"
+        },
+        {
+          "@id": "kt:content-security-policy"
+        },
+        {
+          "@id": "kt:lightning-web-runtime"
+        }
+      ]
+    },
+    {
       "@id": "kt:lightning-web-components",
       "@type": "kto:Feature",
       "skos:prefLabel": "Lightning Web Components",
