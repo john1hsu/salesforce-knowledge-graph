@@ -21447,6 +21447,9 @@
         },
         {
           "@id": "kt:checkbox-fields"
+        },
+        {
+          "@id": "kt:email-phone-and-url-fields"
         }
       ],
       "kto:dependsOn": [
@@ -22639,6 +22642,105 @@
       "kto:coveredBy": [
         {
           "@id": "kt:platform-app-builder-certification"
+        }
+      ]
+    },
+    {
+      "@id": "kt:email-phone-and-url-fields",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Email, Phone, and URL Fields",
+      "skos:definition": "Three text-based custom field data types on the Salesforce platform for contact points: Email (up to 80 characters, pattern-validated), Phone (up to 40 characters, formatted on display) and URL (up to 255 characters, rendered as a link), each exposed to the API as its own string-like type that client applications must format correctly.",
+      "kto:domain": "data-model",
+      "dcterms:created": "2026-11-28",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Custom Field Types",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?language=en_US&id=platform.custom_field_types.htm&type=5",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Field Types — Object Reference for the Salesforce Platform",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.api.meta/api/field_types.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Custom Fields — Object Reference for the Salesforce Platform",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/api/custom_fields.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Input Field — Lightning Component Reference",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/lightning-component-reference/guide/lightning-input-field.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Formatted Email — Lightning Component Reference",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/lightning-component-reference/guide/lightning-formatted-email.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Formatted Phone — Lightning Component Reference",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/lightning-component-reference/guide/lightning-formatted-phone.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Formatted URL — Lightning Component Reference",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/lightning-component-reference/guide/lightning-formatted-url",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/data-model/email-phone-and-url-fields.md",
+      "skos:altLabel": [
+        "email field",
+        "phone field",
+        "url field",
+        "contact-point field types",
+        "email custom field",
+        "phone custom field",
+        "url custom field"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:custom-fields"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:external-id-fields"
+        },
+        {
+          "@id": "kt:validation-rules"
+        },
+        {
+          "@id": "kt:duplicate-management"
+        },
+        {
+          "@id": "kt:field-type-conversion"
+        },
+        {
+          "@id": "kt:shield-platform-encryption"
+        }
+      ],
+      "kto:queriedWith": [
+        {
+          "@id": "kt:soql"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:lightning-web-components"
+        },
+        {
+          "@id": "kt:soap-api"
         }
       ]
     },

@@ -3868,6 +3868,7 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-fields> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/checkbox-fields> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-fields> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/date-and-date-time-fields> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-fields> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/dynamic-forms> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-fields> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/email-phone-and-url-fields> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-fields> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/external-id-fields> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-fields> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/field-history-tracking> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-fields> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/object-relationships> .
@@ -6102,6 +6103,37 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/email-alerts> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#integratesWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/invocable-actions-api> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/email-alerts> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/email-alerts> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/email-phone-and-url-fields> <http://purl.org/dc/terms/created> "2026-11-28" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/email-phone-and-url-fields> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/email-phone-and-url-fields> <http://www.w3.org/2000/01/rdf-schema#label> "Email, Phone, and URL Fields" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/email-phone-and-url-fields> <http://www.w3.org/2004/02/skos/core#altLabel> "contact-point field types" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/email-phone-and-url-fields> <http://www.w3.org/2004/02/skos/core#altLabel> "email custom field" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/email-phone-and-url-fields> <http://www.w3.org/2004/02/skos/core#altLabel> "email field" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/email-phone-and-url-fields> <http://www.w3.org/2004/02/skos/core#altLabel> "phone custom field" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/email-phone-and-url-fields> <http://www.w3.org/2004/02/skos/core#altLabel> "phone field" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/email-phone-and-url-fields> <http://www.w3.org/2004/02/skos/core#altLabel> "url custom field" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/email-phone-and-url-fields> <http://www.w3.org/2004/02/skos/core#altLabel> "url field" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/email-phone-and-url-fields> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/custom-fields> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/email-phone-and-url-fields> <http://www.w3.org/2004/02/skos/core#definition> "Three text-based custom field data types on the Salesforce platform for contact points: Email (up to 80 characters, pattern-validated), Phone (up to 40 characters, formatted on display) and URL (up to 255 characters, rendered as a link), each exposed to the API as its own string-like type that client applications must format correctly." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/email-phone-and-url-fields> <http://www.w3.org/2004/02/skos/core#prefLabel> "Email, Phone, and URL Fields" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/email-phone-and-url-fields> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/duplicate-management> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/email-phone-and-url-fields> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/external-id-fields> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/email-phone-and-url-fields> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/field-type-conversion> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/email-phone-and-url-fields> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/shield-platform-encryption> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/email-phone-and-url-fields> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/validation-rules> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/email-phone-and-url-fields> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-phone-and-url-fields/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/email-phone-and-url-fields> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-phone-and-url-fields/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/email-phone-and-url-fields> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-phone-and-url-fields/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/email-phone-and-url-fields> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-phone-and-url-fields/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/email-phone-and-url-fields> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-phone-and-url-fields/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/email-phone-and-url-fields> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-phone-and-url-fields/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/email-phone-and-url-fields> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-phone-and-url-fields/s7> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/email-phone-and-url-fields> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#consumedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-web-components> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/email-phone-and-url-fields> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#consumedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/soap-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/email-phone-and-url-fields> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "data-model" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/email-phone-and-url-fields> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#queriedWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/soql> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/email-phone-and-url-fields> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/email-phone-and-url-fields> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/email-templates> <http://purl.org/dc/terms/created> "2026-11-22" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/email-templates> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/email-templates> <http://www.w3.org/2000/01/rdf-schema#label> "Email Templates" .
@@ -22609,6 +22641,41 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-alerts/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-alerts/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-alerts/s5> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/isvforce/guide/cma-customize-email-org-wide-address.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-phone-and-url-fields/s1> <http://purl.org/dc/terms/publisher> "Salesforce Help" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-phone-and-url-fields/s1> <http://purl.org/dc/terms/title> "Custom Field Types" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-phone-and-url-fields/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-phone-and-url-fields/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-phone-and-url-fields/s1> <https://schema.org/url> "https://help.salesforce.com/s/articleView?language=en_US&id=platform.custom_field_types.htm&type=5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-phone-and-url-fields/s2> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-phone-and-url-fields/s2> <http://purl.org/dc/terms/title> "Field Types — Object Reference for the Salesforce Platform" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-phone-and-url-fields/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-phone-and-url-fields/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-phone-and-url-fields/s2> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.api.meta/api/field_types.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-phone-and-url-fields/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-phone-and-url-fields/s3> <http://purl.org/dc/terms/title> "Custom Fields — Object Reference for the Salesforce Platform" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-phone-and-url-fields/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-phone-and-url-fields/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-phone-and-url-fields/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/api/custom_fields.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-phone-and-url-fields/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-phone-and-url-fields/s4> <http://purl.org/dc/terms/title> "Input Field — Lightning Component Reference" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-phone-and-url-fields/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-phone-and-url-fields/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-phone-and-url-fields/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/lightning-component-reference/guide/lightning-input-field.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-phone-and-url-fields/s5> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-phone-and-url-fields/s5> <http://purl.org/dc/terms/title> "Formatted Email — Lightning Component Reference" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-phone-and-url-fields/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-phone-and-url-fields/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-phone-and-url-fields/s5> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/lightning-component-reference/guide/lightning-formatted-email.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-phone-and-url-fields/s6> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-phone-and-url-fields/s6> <http://purl.org/dc/terms/title> "Formatted Phone — Lightning Component Reference" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-phone-and-url-fields/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-phone-and-url-fields/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-phone-and-url-fields/s6> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/lightning-component-reference/guide/lightning-formatted-phone.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-phone-and-url-fields/s7> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-phone-and-url-fields/s7> <http://purl.org/dc/terms/title> "Formatted URL — Lightning Component Reference" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-phone-and-url-fields/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-phone-and-url-fields/s7> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-phone-and-url-fields/s7> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/lightning-component-reference/guide/lightning-formatted-url" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-templates/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-templates/s1> <http://purl.org/dc/terms/title> "Create a Visualforce Email Template (Visualforce Developer Guide)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/email-templates/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
