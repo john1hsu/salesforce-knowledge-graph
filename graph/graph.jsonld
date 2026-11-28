@@ -51035,6 +51035,93 @@
       ]
     },
     {
+      "@id": "kt:controlled-unclassified-information",
+      "@type": "kto:ExternalConcept",
+      "skos:prefLabel": "Controlled Unclassified Information",
+      "skos:definition": "The U.S. executive-branch program, set up by Executive Order 13556 and implemented in 32 CFR Part 2002, that standardizes how unclassified information needing safeguarding or dissemination controls is designated, marked, protected and decontrolled; on nonfederal systems such as a contractor's Salesforce org, CUI Basic is protected to NIST SP 800-171.",
+      "kto:domain": "public-sector-and-compliance",
+      "dcterms:created": "2026-11-28",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "About Controlled Unclassified Information (CUI)",
+          "dcterms:publisher": "U.S. National Archives and Records Administration",
+          "schema:url": "https://www.archives.gov/cui/about/",
+          "kto:sourceType": "government"
+        },
+        {
+          "dcterms:title": "CUI History",
+          "dcterms:publisher": "U.S. National Archives and Records Administration",
+          "schema:url": "https://www.archives.gov/cui/cui-history",
+          "kto:sourceType": "government"
+        },
+        {
+          "dcterms:title": "32 CFR Part 2002 -- Controlled Unclassified Information (CUI)",
+          "dcterms:publisher": "eCFR (Office of the Federal Register)",
+          "schema:url": "https://www.ecfr.gov/current/title-32/subtitle-B/chapter-XX/part-2002",
+          "kto:sourceType": "government"
+        },
+        {
+          "dcterms:title": "CUI Glossary",
+          "dcterms:publisher": "U.S. National Archives and Records Administration",
+          "schema:url": "https://www.archives.gov/cui/registry/cui-glossary.html",
+          "kto:sourceType": "government"
+        },
+        {
+          "dcterms:title": "Protecting Controlled Unclassified Information: FAQs",
+          "dcterms:publisher": "NIST Computer Security Resource Center",
+          "schema:url": "https://csrc.nist.gov/Projects/protecting-controlled-unclassified-information/faqs",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "Salesforce Government Cloud",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/government/cloud/",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/public-sector-and-compliance/controlled-unclassified-information.md",
+      "skos:altLabel": [
+        "CUI",
+        "CUI program",
+        "CUI Basic",
+        "CUI Specified",
+        "32 CFR Part 2002",
+        "Executive Order 13556"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:security-compliance-frameworks"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:nist-sp-800-171"
+        },
+        {
+          "@id": "kt:cmmc"
+        },
+        {
+          "@id": "kt:government-cloud-plus"
+        },
+        {
+          "@id": "kt:il4-and-il5"
+        },
+        {
+          "@id": "kt:data-classification"
+        },
+        {
+          "@id": "kt:itar-and-export-controls"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:fips-199"
+        }
+      ]
+    },
+    {
       "@id": "kt:corporate-governance",
       "@type": "kto:ExternalConcept",
       "skos:prefLabel": "Corporate Governance",
