@@ -10153,6 +10153,111 @@
       ]
     },
     {
+      "@id": "kt:b2c-commerce",
+      "@type": "kto:Product",
+      "skos:prefLabel": "B2C Commerce",
+      "skos:definition": "Salesforce's multi-tenant SaaS platform for consumer-facing digital storefronts, provisioned per customer as a realm of production, staging, development and sandbox instances and managed in Business Manager, with storefronts built on SFRA cartridges or the headless Composable Storefront (PWA Kit and Managed Runtime).",
+      "kto:domain": "clouds-and-products",
+      "dcterms:created": "2026-11-28",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "B2C Commerce Architecture",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/commerce/commerce-api/guide/get-started",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Configuring B2C Commerce Sites (Architecture of B2C Commerce, Trailhead unit)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/architecture-of-commerce-cloud-digital/cc-digital-configuration",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Configure On-Demand Sandbox Roles and Settings Effectively (Trailhead unit)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/b2c-on-demand-sandbox/b2c-configure-on-demand-sandbox",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "SFRA Features and Components",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/commerce/sfra/guide/b2c-sfra-features-and-comps.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Composable Storefront Overview",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/commerce/b2c-commerce/guide/getting-started.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "PWA Kit Overview",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/commerce/b2c-commerce/guide/pwa-kit-overview.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/clouds-and-products/b2c-commerce.md",
+      "skos:altLabel": [
+        "Salesforce B2C Commerce",
+        "B2C Commerce Cloud",
+        "Commerce Cloud Digital",
+        "B2C Commerce realm"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:commerce-cloud"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:b2c-solution-architect-certification"
+        },
+        {
+          "@id": "kt:b2c-commerce-architect-certification"
+        },
+        {
+          "@id": "kt:passkeys"
+        },
+        {
+          "@id": "kt:continuous-integration-for-salesforce"
+        },
+        {
+          "@id": "kt:sandbox-types"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:commerce-cloud"
+        }
+      ],
+      "kto:hasPart": [
+        {
+          "@id": "kt:storefront-reference-architecture"
+        },
+        {
+          "@id": "kt:composable-storefront"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:business-manager"
+        }
+      ],
+      "kto:queriedWith": [
+        {
+          "@id": "kt:salesforce-commerce-api"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:b2b-commerce"
+        }
+      ]
+    },
+    {
       "@id": "kt:backup-and-recover",
       "@type": "kto:Product",
       "skos:prefLabel": "Salesforce Backup & Recover",
