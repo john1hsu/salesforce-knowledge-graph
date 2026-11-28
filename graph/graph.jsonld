@@ -25752,6 +25752,98 @@
       ]
     },
     {
+      "@id": "kt:standard-fields",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Standard Fields",
+      "skos:definition": "The fields Salesforce defines on objects itself rather than an admin adding them: the read-only system and audit fields present on most objects (Id, IsDeleted, CreatedById, CreatedDate, LastModifiedById, LastModifiedDate, SystemModstamp) plus the prebuilt business fields of standard objects, such as an account's Rating.",
+      "kto:domain": "data-model",
+      "dcterms:created": "2026-11-28",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "System Fields (Object Reference for the Salesforce Platform)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/object_reference/system_fields.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Indexes (Best Practices for Deployments with Large Data Volumes)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/salesforce-large-data-volumes-bp/guide/ldv-deployments-infrastructure-indexes.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Id Class (Apex Reference Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apex/apex_methods_system_id.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Work with Standard and Custom Fields (Customize a Salesforce Object)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/projects/customize-a-salesforce-object/standard-custom-fields",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/data-model/standard-fields.md",
+      "skos:altLabel": [
+        "standard field",
+        "system fields",
+        "audit fields",
+        "SystemModstamp",
+        "Set Audit Fields upon Record Creation"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:standard-objects"
+        },
+        {
+          "@id": "kt:object-relationships"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:custom-fields"
+        },
+        {
+          "@id": "kt:record-name-field"
+        },
+        {
+          "@id": "kt:data-migration-strategy"
+        },
+        {
+          "@id": "kt:data-loader"
+        },
+        {
+          "@id": "kt:field-history-tracking"
+        },
+        {
+          "@id": "kt:change-data-capture"
+        }
+      ],
+      "kto:queriedWith": [
+        {
+          "@id": "kt:soql"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:field-level-security"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:custom-fields"
+        }
+      ],
+      "kto:enables": [
+        {
+          "@id": "kt:query-optimizer-selectivity"
+        }
+      ]
+    },
+    {
       "@id": "kt:standard-objects",
       "@type": "kto:Concept",
       "skos:prefLabel": "Standard Objects",
