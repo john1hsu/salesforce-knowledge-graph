@@ -36974,6 +36974,95 @@
       ]
     },
     {
+      "@id": "kt:custom-authentication-providers",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Custom Authentication Providers",
+      "skos:definition": "An Auth. Provider of type Custom whose OAuth handshake is written in Apex by extending the abstract class Auth.AuthProviderPluginClass, with its settings held in a custom metadata type, used to sign users in to Salesforce or obtain third-party tokens when no built-in provider type fits the external service.",
+      "kto:domain": "identity",
+      "dcterms:created": "2026-11-28",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Create a Custom Authentication Provider Plug-in (Apex Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/authproviderplugin.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AuthProviderPlugin Interface (Apex Reference Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apex/apex_interface_Auth_AuthProviderPlugin.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "AuthProvider (Metadata API Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/api-metadata/references/meta-types/metadata-authprovider.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Create an OAuth Named Credential (Named Credentials Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/named-credentials/guide/nc-create-oauth-cred.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "RFC 6749: The OAuth 2.0 Authorization Framework",
+          "dcterms:publisher": "IETF / RFC Editor",
+          "schema:url": "https://www.rfc-editor.org/info/rfc6749",
+          "kto:sourceType": "standards-body"
+        }
+      ],
+      "kto:file": "articles/identity/custom-authentication-providers.md",
+      "skos:altLabel": [
+        "custom authentication provider plug-in",
+        "custom auth provider",
+        "Auth.AuthProviderPluginClass",
+        "AuthProviderPluginClass",
+        "custom external authentication provider"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-identity"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:named-credentials"
+        },
+        {
+          "@id": "kt:single-logout"
+        },
+        {
+          "@id": "kt:apex-testing"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:custom-metadata-types"
+        },
+        {
+          "@id": "kt:apex-callouts"
+        }
+      ],
+      "kto:implements": [
+        {
+          "@id": "kt:oauth-2-0"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:metadata-api"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:openid-connect-authentication-providers"
+        }
+      ]
+    },
+    {
       "@id": "kt:custom-domains",
       "@type": "kto:Feature",
       "skos:prefLabel": "Custom Domains",
@@ -39734,6 +39823,9 @@
         },
         {
           "@id": "kt:apex"
+        },
+        {
+          "@id": "kt:custom-authentication-providers"
         }
       ],
       "kto:implements": [

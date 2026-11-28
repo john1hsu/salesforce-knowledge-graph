@@ -11,7 +11,7 @@ summary: >-
 release: "Winter '27"
 status: current
 broader: [kt:salesforce-identity]
-related: [kt:experience-cloud-identity, kt:my-domain, kt:oauth-2-flows-in-salesforce, kt:multi-factor-authentication, kt:apex]
+related: [kt:experience-cloud-identity, kt:my-domain, kt:oauth-2-flows-in-salesforce, kt:multi-factor-authentication, kt:apex, kt:custom-authentication-providers]
 relations:
   - {predicate: implements, object: kt:openid-connect}
   - {predicate: dependsOn, object: kt:oauth-2-0}
