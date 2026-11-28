@@ -48630,6 +48630,70 @@
       ]
     },
     {
+      "@id": "kt:patch-releases",
+      "@type": "kto:Concept",
+      "skos:prefLabel": "Patch Releases",
+      "skos:definition": "The small, frequent releases Salesforce uses between its three seasonal upgrades to ship bug fixes and minor changes to every instance, normally without downtime and announced through Trust and My Trust Center.",
+      "kto:domain": "platform-architecture",
+      "dcterms:created": "2026-11-28",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Preferred Salesforce Maintenance Schedule",
+          "dcterms:publisher": "Salesforce Help",
+          "schema:url": "https://help.salesforce.com/s/articleView?id=000386064&language=en_US&type=1",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Introducing My Trust Center: A Personalized Approach to Trust and Status",
+          "dcterms:publisher": "Salesforce Admins Blog",
+          "schema:url": "https://admin.salesforce.com/blog/2026/introducing-my-trust-center",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Understand the Financial Services Cloud Release Process",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/financial-services-cloud-release-readiness/understand-the-financial-services-cloud-release-process",
+          "kto:sourceType": "official-learning"
+        }
+      ],
+      "kto:file": "articles/platform-architecture/patch-releases.md",
+      "skos:altLabel": [
+        "Salesforce patch release",
+        "Salesforce patches",
+        "daily releases",
+        "emergency releases"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-platform"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:salesforce-seasonal-releases"
+        },
+        {
+          "@id": "kt:planned-maintenance-windows"
+        },
+        {
+          "@id": "kt:trust-and-status-site"
+        },
+        {
+          "@id": "kt:marketing-cloud-engagement"
+        },
+        {
+          "@id": "kt:financial-services-cloud"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:multitenancy"
+        }
+      ]
+    },
+    {
       "@id": "kt:planned-maintenance-windows",
       "@type": "kto:Concept",
       "skos:prefLabel": "Planned Maintenance Windows",
