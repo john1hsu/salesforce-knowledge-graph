@@ -11,7 +11,7 @@ summary: >-
 release: "Winter '27"
 status: concept
 broader: [kt:requirements-engineering]
-related: [kt:non-functional-requirements, kt:salesforce-diagrams, kt:change-management-and-adoption, kt:testing-strategy]
+related: [kt:non-functional-requirements, kt:salesforce-diagrams, kt:change-management-and-adoption, kt:testing-strategy, kt:stakeholder-mapping]
 relations:
   - {predicate: usedBy, object: kt:salesforce-architect}
   - {predicate: usedBy, object: kt:business-analyst}

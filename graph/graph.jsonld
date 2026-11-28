@@ -2972,6 +2972,9 @@
         },
         {
           "@id": "kt:testing-strategy"
+        },
+        {
+          "@id": "kt:stakeholder-mapping"
         }
       ],
       "kto:usedBy": [
@@ -3976,6 +3979,103 @@
       "kto:coveredBy": [
         {
           "@id": "kt:certified-technical-architect"
+        }
+      ]
+    },
+    {
+      "@id": "kt:stakeholder-mapping",
+      "@type": "kto:ExternalConcept",
+      "skos:prefLabel": "Stakeholder Mapping",
+      "skos:definition": "The practice of systematically identifying everyone who affects or is affected by a project and analysing their power, interest and relationships, so that each group gets a deliberate level of engagement; on Salesforce programmes it drives discovery planning, sign-off and change management.",
+      "kto:domain": "architecture-practice",
+      "dcterms:created": "2026-11-28",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Techniques for Effective Information Discovery (Essential Business Analyst Skills)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/business-analyst_skills-strategies/explore-techniques--information-discovery",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Review Collaboration with Stakeholders (Cert Prep: Salesforce Business Analyst)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/salesforce-business-analyst-certification-prep/reivew-collaboration-with-stakeholders",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "4.3.2 Stakeholder mapping (Urban WASH: Working with People, Study Session 4)",
+          "dcterms:publisher": "The Open University (OpenLearn Create)",
+          "schema:url": "https://www.open.edu/openlearncreate/mod/oucontent/view.php?id=80594&section=5.2",
+          "kto:sourceType": "academic"
+        },
+        {
+          "dcterms:title": "Stakeholder Analysis (A Practical Guide To Delivering Results)",
+          "dcterms:publisher": "University of Leeds",
+          "schema:url": "https://deliveringresults.leeds.ac.uk/delivering-results-themes/people/stakeholders-2/stakeholder-management/",
+          "kto:sourceType": "academic"
+        },
+        {
+          "dcterms:title": "Influence Mapping",
+          "dcterms:publisher": "Your Washington (Washington State government)",
+          "schema:url": "https://your.wa.gov/cx-resources/influence-mapping/",
+          "kto:sourceType": "government"
+        },
+        {
+          "dcterms:title": "Stakeholder Analysis using the Power Interest Grid",
+          "dcterms:publisher": "ProjectManagement.com wiki",
+          "schema:url": "https://www.projectmanagement.com/wikis/368897/stakeholder-analysis--using-the-power-interest-grid",
+          "kto:sourceType": "community"
+        }
+      ],
+      "kto:file": "articles/architecture-practice/stakeholder-mapping.md",
+      "skos:altLabel": [
+        "stakeholder analysis",
+        "power-interest grid",
+        "power/interest matrix",
+        "stakeholder wheel",
+        "stakeholder radar",
+        "influence mapping"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:requirements-gathering"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:user-personas"
+        },
+        {
+          "@id": "kt:raci-matrix"
+        },
+        {
+          "@id": "kt:change-management-and-adoption"
+        },
+        {
+          "@id": "kt:salesforce-governance"
+        },
+        {
+          "@id": "kt:design-authority"
+        }
+      ],
+      "kto:usedBy": [
+        {
+          "@id": "kt:business-analyst"
+        },
+        {
+          "@id": "kt:salesforce-architect"
+        }
+      ],
+      "kto:enables": [
+        {
+          "@id": "kt:change-management-and-adoption"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:user-personas"
         }
       ]
     },
