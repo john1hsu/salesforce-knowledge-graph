@@ -8,7 +8,7 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:salesforce-ecosystem-roles` | `kt:business-analyst`, `kt:salesforce-architect` |
 | `kt:requirements-engineering` | `kt:non-functional-requirements`, `kt:requirements-gathering` |
 | `kt:business-analyst-certification` | `kt:business-analyst`, `kt:user-acceptance-testing` |
-| `kt:b2b-commerce` | `kt:b2c-commerce`, `kt:commerce-cloud` |
+| `kt:salesforce-order-management` | `kt:b2b-commerce`, `kt:commerce-cloud` |
 | `kt:business-architecture` | `kt:capability-maps`, `kt:togaf` |
 | `kt:b2c-commerce-architect-certification` | `kt:b2c-commerce`, `kt:b2c-solution-architect-certification` |
 | `kt:enterprise-architecture` | `kt:architecture-roadmaps`, `kt:togaf` |
@@ -27,8 +27,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:salesforce-ecosystem` | `kt:salesforce-inc` |
 | `kt:path` | `kt:business-processes` |
 | `kt:screen-actions` | `kt:action-button-screen-component` |
-| `kt:business-process-mapping` | `kt:requirements-gathering` |
 | `kt:revenue-intelligence` | `kt:collaborative-forecasts` |
+| `kt:business-process-mapping` | `kt:requirements-gathering` |
 | `kt:dynamic-revenue-orchestrator` | `kt:revenue-cloud` |
 | `kt:revenue-management-consultant-certification` | `kt:revenue-cloud` |
 | `kt:batch-apex-error-event` | `kt:transaction-finalizers` |
@@ -40,18 +40,17 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:constraint-modeling-language` | `kt:product-configurator` |
 | `kt:product-catalog-management` | `kt:product-configurator` |
 | `kt:engagement-studio` | `kt:marketing-cloud-account-engagement` |
-| `kt:salesforce-order-management` | `kt:commerce-cloud` |
 | `kt:data-processing-engine` | `kt:loyalty-management` |
 | `kt:reports-and-dashboards` | `kt:salesforce-analytics` |
+| `kt:opportunity-products` | `kt:price-books` |
 | `kt:platform-cache-partitions` | `kt:platform-cache` |
 | `kt:change-order-process` | `kt:statement-of-work` |
 | `kt:fhir` | `kt:health-cloud` |
 | `kt:utilization-management` | `kt:health-cloud` |
 | `kt:data-cloud-query-api` | `kt:data-graphs` |
-| `kt:api-visualizer` | `kt:application-network` |
 | `kt:holidays` | `kt:business-hours` |
+| `kt:api-visualizer` | `kt:application-network` |
 | `kt:value-streams` | `kt:capability-maps` |
-| `kt:opportunity-products` | `kt:price-books` |
 | `kt:information-management` | `kt:data-management` |
 | `kt:mulesoft-for-flow-integration` | `kt:mulesoft-composer` |
 | `kt:marketing-cloud-data-views` | `kt:marketing-cloud-sql` |
@@ -64,8 +63,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:ui-api` | `kt:field-dependencies` |
 | `kt:apex-mockery` | `kt:apex-mocks` |
 | `kt:apex-stub-api` | `kt:apex-mocks` |
-| `kt:guest-user-sharing-rules` | `kt:share-groups` |
 | `kt:artificial-intelligence` | `kt:generative-ai` |
+| `kt:guest-user-sharing-rules` | `kt:share-groups` |
 | `kt:large-language-models` | `kt:generative-ai` |
 | `kt:decision-matrices` | `kt:decision-tables` |
 | `kt:shared-activities` | `kt:activity-data-model` |
@@ -78,45 +77,45 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:lightning-web-runtime` | `kt:lightning-out` |
 | `kt:science` | `kt:computer-science` |
 | `kt:software-engineering` | `kt:computer-science` |
-| `kt:hmac-based-one-time-password` | `kt:time-based-one-time-password` |
-| `kt:partner-relationship-management` | `kt:partner-community-licenses` |
-| `kt:apex-soap-web-services` | `kt:apex-rest-services` |
-| `kt:destructive-changes` | `kt:rollback-plan` |
-| `kt:ldap` | `kt:delegated-authentication` |
-| `kt:isv-customer-debugger` | `kt:subscriber-support-console` |
-| `kt:experience-cloud-consultant-certification` | `kt:licensing-strategy` |
-| `kt:api-community-manager` | `kt:api-experience-hub` |
-| `kt:client-to-authenticator-protocol` | `kt:webauthn` |
-| `kt:fiscal-years` | `kt:date-and-date-time-fields` |
-| `kt:business-administration` | `kt:management` |
 | `kt:business-manager` | `kt:b2c-commerce` |
 | `kt:composable-storefront` | `kt:b2c-commerce` |
 | `kt:salesforce-commerce-api` | `kt:b2c-commerce` |
 | `kt:storefront-reference-architecture` | `kt:b2c-commerce` |
+| `kt:hmac-based-one-time-password` | `kt:time-based-one-time-password` |
+| `kt:partner-relationship-management` | `kt:partner-community-licenses` |
+| `kt:destructive-changes` | `kt:rollback-plan` |
+| `kt:ldap` | `kt:delegated-authentication` |
+| `kt:apex-soap-web-services` | `kt:apex-rest-services` |
+| `kt:experience-cloud-consultant-certification` | `kt:licensing-strategy` |
+| `kt:isv-customer-debugger` | `kt:subscriber-support-console` |
+| `kt:api-community-manager` | `kt:api-experience-hub` |
+| `kt:client-to-authenticator-protocol` | `kt:webauthn` |
+| `kt:fiscal-years` | `kt:date-and-date-time-fields` |
+| `kt:currency-type-object` | `kt:multiple-currencies` |
+| `kt:business-administration` | `kt:management` |
 | `kt:anypoint-monitoring` | `kt:anypoint-runtime-manager` |
 | `kt:cloudhub-2` | `kt:anypoint-runtime-manager` |
-| `kt:currency-type-object` | `kt:multiple-currencies` |
 | `kt:runtime-fabric` | `kt:anypoint-runtime-manager` |
 | `kt:runtime-manager-agent` | `kt:anypoint-runtime-manager` |
 | `kt:dfars-252-204-7012` | `kt:nist-sp-800-171` |
 | `kt:user-provisioning` | `kt:scim` |
 | `kt:mulesoft-agent-fabric` | `kt:multi-agent-orchestration` |
-| `kt:document-ai` | `kt:unstructured-data-in-data-cloud` |
 | `kt:einstein-prediction-builder` | `kt:einstein-next-best-action` |
+| `kt:document-ai` | `kt:unstructured-data-in-data-cloud` |
 | `kt:signup-request-api` | `kt:trialforce` |
 | `kt:organization-wide-email-addresses` | `kt:email-alerts` |
 | `kt:enhanced-letterheads` | `kt:email-templates` |
 | `kt:microservices-architecture` | `kt:enterprise-service-bus` |
 | `kt:service-oriented-architecture` | `kt:enterprise-service-bus` |
-| `kt:agentforce-nonprofit-consultant-certification` | `kt:agentforce-nonprofit` |
 | `kt:bearer-token-security` | `kt:frontdoor-jsp-session-bridging` |
+| `kt:agentforce-nonprofit-consultant-certification` | `kt:agentforce-nonprofit` |
 | `kt:nonprofit-success-pack` | `kt:agentforce-nonprofit` |
 | `kt:iso-iec-29100` | `kt:iso-iec-27018` |
 | `kt:digital-accessibility` | `kt:section-508-accessibility` |
+| `kt:wcag` | `kt:section-508-accessibility` |
 | `kt:federal-acquisition-regulation` | `kt:performance-work-statement` |
 | `kt:quality-assurance-surveillance-plan` | `kt:performance-work-statement` |
 | `kt:statement-of-objectives` | `kt:performance-work-statement` |
-| `kt:wcag` | `kt:section-508-accessibility` |
 | `kt:life-cycle-cost-estimate` | `kt:rough-order-of-magnitude-estimate` |
 | `kt:project-estimation` | `kt:rough-order-of-magnitude-estimate` |
 | `kt:json` | `kt:apex-json-serialization` |
@@ -133,13 +132,13 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:data-clean-room` | `kt:data-360-clean-rooms` |
 | `kt:document-checklist-items` | `kt:action-plans` |
 | `kt:einstein-activity-capture` | `kt:agentforce-sdr` |
-| `kt:greenhouse-gas-protocol` | `kt:net-zero-cloud` |
 | `kt:lightning-apps` | `kt:app-launcher` |
 | `kt:messaging-for-in-app-and-web` | `kt:einstein-bots` |
 | `kt:notes-and-attachments` | `kt:content-document-model` |
 | `kt:privacy-center` | `kt:ccpa-and-cpra` |
 | `kt:sfdx-project-structure` | `kt:forceignore-file` |
 | `kt:cross-cloud-integration` | `kt:salesforce-solution-kits` |
+| `kt:greenhouse-gas-protocol` | `kt:net-zero-cloud` |
 | `kt:salesforce-health-insights` | `kt:org-health-assessment` |
 | `kt:tableau-blueprint` | `kt:tableau-architect-certification` |
 | `kt:tableau-server-administrator-certification` | `kt:tableau-architect-certification` |

@@ -10349,6 +10349,106 @@
       ]
     },
     {
+      "@id": "kt:b2b-commerce",
+      "@type": "kto:Product",
+      "skos:prefLabel": "B2B Commerce",
+      "skos:definition": "Salesforce's business-to-business ecommerce product, built natively on the Salesforce Platform so that stores use CRM accounts, contacts, products and price books directly, with buyer groups and entitlement policies controlling which business buyers see which products and prices.",
+      "kto:domain": "clouds-and-products",
+      "dcterms:created": "2026-11-28",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Get Started with B2B Commerce (B2B Commerce Basics, Trailhead unit)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/b2b-commerce-basics/get-started-with-b2b-commerce",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Understand How CRM Powers B2B Commerce (B2B Commerce Basics, Trailhead unit)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/b2b-commerce-basics/understand-how-crm-powers-b2b-commerce",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Organize How Customers Access Your Commerce Store (Trailhead unit)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/b2b-commerce-lightning-experience-data-model/organize-how-buyers-access-your-store",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Get Started with B2B Commerce (B2B Commerce Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/commerce/salesforce-commerce/guide/b2b-b2c-comm-dev-guide.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "B2B Commerce Data Model (B2B Commerce Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/commerce/salesforce-commerce/guide/b2b-b2c-dev-data-model.html",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/clouds-and-products/b2b-commerce.md",
+      "skos:altLabel": [
+        "Salesforce B2B Commerce",
+        "B2B Commerce on Lightning",
+        "B2B Commerce on Lightning Experience"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:commerce-cloud"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:sales-cloud"
+        },
+        {
+          "@id": "kt:service-cloud"
+        },
+        {
+          "@id": "kt:experience-cloud"
+        },
+        {
+          "@id": "kt:salesforce-dx"
+        },
+        {
+          "@id": "kt:salesforce-platform"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:commerce-cloud"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:b2c-commerce"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:price-books"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:experience-builder"
+        }
+      ],
+      "kto:queriedWith": [
+        {
+          "@id": "kt:connect-api"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:salesforce-order-management"
+        }
+      ]
+    },
+    {
       "@id": "kt:b2c-commerce",
       "@type": "kto:Product",
       "skos:prefLabel": "B2C Commerce",
