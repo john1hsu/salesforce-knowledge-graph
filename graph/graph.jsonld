@@ -29804,6 +29804,92 @@
       ]
     },
     {
+      "@id": "kt:saql",
+      "@type": "kto:Language",
+      "skos:prefLabel": "SAQL",
+      "skos:definition": "Salesforce Analytics Query Language, the stream-based query language that CRM Analytics generates behind every lens, dashboard and explorer action and that developers write directly in dashboards, compare tables and the Analytics REST Query API to read CRM Analytics datasets.",
+      "kto:domain": "development",
+      "dcterms:created": "2026-11-28",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Analytics SAQL Developer Guide: Overview",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.264.0.bi_dev_guide_saql.meta/bi_dev_guide_saql/bi_saql_intro.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Analytics SAQL Developer Guide: SAQL Statements",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.264.0.bi_dev_guide_saql.meta/bi_dev_guide_saql/bi_saql_statements_concept.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Analytics SAQL Developer Guide: Write Your First Query",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/analytics/bi-dev-guide-saql/guide/bi-saql-first-query.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Analytics SAQL Developer Guide: Query Performance",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.264.0.bi_dev_guide_saql.meta/bi_dev_guide_saql/bi_saql_performance.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "SQL for Analytics Developer Guide: SQL vs SAQL",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/analytics/bi-dev-guide-sql/guide/bi-sql-vs-saql.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "CRM Analytics REST API Developer Guide: Query CRM Analytics Data with the Query API",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.bi_dev_guide_rest.meta/bi_dev_guide_rest/bi_rest_api_query_data.htm",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/development/saql.md",
+      "skos:altLabel": [
+        "Salesforce Analytics Query Language",
+        "SAQL query",
+        "SAQL queries",
+        "CRM Analytics query language"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:crm-analytics"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:soql"
+        },
+        {
+          "@id": "kt:salesforce-analytics"
+        },
+        {
+          "@id": "kt:rest-api"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:sql-for-crm-analytics"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:soql"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:lightning-web-components"
+        }
+      ]
+    },
+    {
       "@id": "kt:scheduled-apex",
       "@type": "kto:Feature",
       "skos:prefLabel": "Scheduled Apex",

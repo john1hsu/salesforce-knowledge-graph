@@ -15392,6 +15392,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/sandboxpostcopy-interface> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "devops-and-alm" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/sandboxpostcopy-interface> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/sandboxpostcopy-interface> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/saql> <http://purl.org/dc/terms/created> "2026-11-28" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/saql> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Language> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/saql> <http://www.w3.org/2000/01/rdf-schema#label> "SAQL" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/saql> <http://www.w3.org/2004/02/skos/core#altLabel> "CRM Analytics query language" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/saql> <http://www.w3.org/2004/02/skos/core#altLabel> "SAQL queries" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/saql> <http://www.w3.org/2004/02/skos/core#altLabel> "SAQL query" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/saql> <http://www.w3.org/2004/02/skos/core#altLabel> "Salesforce Analytics Query Language" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/saql> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/crm-analytics> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/saql> <http://www.w3.org/2004/02/skos/core#definition> "Salesforce Analytics Query Language, the stream-based query language that CRM Analytics generates behind every lens, dashboard and explorer action and that developers write directly in dashboards, compare tables and the Analytics REST Query API to read CRM Analytics datasets." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/saql> <http://www.w3.org/2004/02/skos/core#prefLabel> "SAQL" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/saql> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/rest-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/saql> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-analytics> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/saql> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/soql> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/saql> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/saql/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/saql> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/saql/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/saql> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/saql/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/saql> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/saql/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/saql> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/saql/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/saql> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/saql/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/saql> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#alternativeTo> <https://github.com/john1hsu/salesforce-knowledge-graph/id/sql-for-crm-analytics> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/saql> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#consumedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/lightning-web-components> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/saql> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#contrastsWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/soql> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/saql> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "development" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/saql> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/saql> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/sarbanes-oxley-act> <http://purl.org/dc/terms/created> "2026-11-21" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/sarbanes-oxley-act> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#ExternalConcept> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/sarbanes-oxley-act> <http://www.w3.org/2000/01/rdf-schema#label> "Sarbanes-Oxley Act" .
@@ -32210,6 +32235,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sandboxpostcopy-interface/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sandboxpostcopy-interface/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sandboxpostcopy-interface/s5> <https://schema.org/url> "https://developer.salesforce.com/docs/platform/salesforce-cli-reference/guide/cli_reference_org_create_sandbox.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/saql/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/saql/s1> <http://purl.org/dc/terms/title> "Analytics SAQL Developer Guide: Overview" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/saql/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/saql/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/saql/s1> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.264.0.bi_dev_guide_saql.meta/bi_dev_guide_saql/bi_saql_intro.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/saql/s2> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/saql/s2> <http://purl.org/dc/terms/title> "Analytics SAQL Developer Guide: SAQL Statements" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/saql/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/saql/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/saql/s2> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.264.0.bi_dev_guide_saql.meta/bi_dev_guide_saql/bi_saql_statements_concept.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/saql/s3> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/saql/s3> <http://purl.org/dc/terms/title> "Analytics SAQL Developer Guide: Write Your First Query" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/saql/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/saql/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/saql/s3> <https://schema.org/url> "https://developer.salesforce.com/docs/analytics/bi-dev-guide-saql/guide/bi-saql-first-query.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/saql/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/saql/s4> <http://purl.org/dc/terms/title> "Analytics SAQL Developer Guide: Query Performance" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/saql/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/saql/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/saql/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.264.0.bi_dev_guide_saql.meta/bi_dev_guide_saql/bi_saql_performance.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/saql/s5> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/saql/s5> <http://purl.org/dc/terms/title> "SQL for Analytics Developer Guide: SQL vs SAQL" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/saql/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/saql/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/saql/s5> <https://schema.org/url> "https://developer.salesforce.com/docs/analytics/bi-dev-guide-sql/guide/bi-sql-vs-saql.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/saql/s6> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/saql/s6> <http://purl.org/dc/terms/title> "CRM Analytics REST API Developer Guide: Query CRM Analytics Data with the Query API" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/saql/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/saql/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/saql/s6> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.bi_dev_guide_rest.meta/bi_dev_guide_rest/bi_rest_api_query_data.htm" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sarbanes-oxley-act/s1> <http://purl.org/dc/terms/publisher> "U.S. Government Publishing Office (govinfo)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sarbanes-oxley-act/s1> <http://purl.org/dc/terms/title> "Public Law 107-204 — Sarbanes-Oxley Act of 2002" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/sarbanes-oxley-act/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
