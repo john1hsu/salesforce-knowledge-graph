@@ -5987,6 +5987,31 @@
     ]
   },
   {
+    "id": "kt:fhir",
+    "title": "FHIR (Fast Healthcare Interoperability Resources)",
+    "aliases": [
+      "FHIR",
+      "HL7 FHIR",
+      "Fast Healthcare Interoperability Resources",
+      "FHIR R4",
+      "FHIR R5"
+    ],
+    "type": "ExternalConcept",
+    "domain": "integration",
+    "file": "articles/integration/fhir.md",
+    "created": "2026-11-28",
+    "release": "Winter '27",
+    "status": "concept",
+    "source_urls": [
+      "https://www.hl7.org/fhir/r4/overview-arch.html",
+      "https://www.hl7.org/fhir/R4/http.html",
+      "https://hl7.org/fhir/overview-arch.html",
+      "https://developer.salesforce.com/docs/atlas.en-us.health_cloud_object_reference.meta/health_cloud_object_reference/map_fhir_overview.htm",
+      "https://developer.salesforce.com/docs/industries/health-cloud-dev-guide/guide/map-fhir-considerations.html",
+      "https://healthit.gov/blog/health-information-exchange-2/on-the-road-to-cures-update-certified-api-technology/"
+    ]
+  },
+  {
     "id": "kt:field-audit-trail",
     "title": "Field Audit Trail",
     "aliases": [

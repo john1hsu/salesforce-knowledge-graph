@@ -43529,6 +43529,86 @@
       ]
     },
     {
+      "@id": "kt:fhir",
+      "@type": "kto:ExternalConcept",
+      "skos:prefLabel": "FHIR (Fast Healthcare Interoperability Resources)",
+      "skos:definition": "HL7's standard for exchanging healthcare data as modular \"resources\" (Patient, Encounter, Observation and others) over a RESTful HTTP API in JSON, XML or RDF; Salesforce Health Cloud's Clinical data model is aligned with FHIR R4, with documented deviations that integration middleware must bridge.",
+      "kto:domain": "integration",
+      "dcterms:created": "2026-11-28",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "concept",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "FHIR Overview - Architects (FHIR R4, v4.0.1)",
+          "dcterms:publisher": "HL7 International",
+          "schema:url": "https://www.hl7.org/fhir/r4/overview-arch.html",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "RESTful API (FHIR R4, v4.0.1)",
+          "dcterms:publisher": "HL7 International",
+          "schema:url": "https://www.hl7.org/fhir/R4/http.html",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "FHIR Overview - Architects (FHIR R5, v5.0.0)",
+          "dcterms:publisher": "HL7 International",
+          "schema:url": "https://hl7.org/fhir/overview-arch.html",
+          "kto:sourceType": "standards-body"
+        },
+        {
+          "dcterms:title": "Mapping FHIR v4.0 to Salesforce Standard Objects (Health Cloud Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/atlas.en-us.health_cloud_object_reference.meta/health_cloud_object_reference/map_fhir_overview.htm",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Considerations for Integration (Health Cloud Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/industries/health-cloud-dev-guide/guide/map-fhir-considerations.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "On the Road to Cures Update: Certified API Technology",
+          "dcterms:publisher": "Office of the National Coordinator for Health IT (ONC)",
+          "schema:url": "https://healthit.gov/blog/health-information-exchange-2/on-the-road-to-cures-update-certified-api-technology/",
+          "kto:sourceType": "government"
+        }
+      ],
+      "kto:file": "articles/integration/fhir.md",
+      "skos:altLabel": [
+        "FHIR",
+        "HL7 FHIR",
+        "Fast Healthcare Interoperability Resources",
+        "FHIR R4",
+        "FHIR R5"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:integration-patterns"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:rest-api"
+        },
+        {
+          "@id": "kt:hipaa"
+        },
+        {
+          "@id": "kt:person-accounts"
+        },
+        {
+          "@id": "kt:hl7-v2"
+        }
+      ],
+      "kto:consumedBy": [
+        {
+          "@id": "kt:health-cloud"
+        }
+      ]
+    },
+    {
       "@id": "kt:graphql-api",
       "@type": "kto:API",
       "skos:prefLabel": "GraphQL API",

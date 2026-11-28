@@ -6843,6 +6843,31 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/fedramp> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#hasPart> <https://github.com/john1hsu/salesforce-knowledge-graph/id/fedramp-high> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/fedramp> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/fedramp> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fhir> <http://purl.org/dc/terms/created> "2026-11-28" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fhir> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#ExternalConcept> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fhir> <http://www.w3.org/2000/01/rdf-schema#label> "FHIR (Fast Healthcare Interoperability Resources)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fhir> <http://www.w3.org/2004/02/skos/core#altLabel> "FHIR R4" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fhir> <http://www.w3.org/2004/02/skos/core#altLabel> "FHIR R5" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fhir> <http://www.w3.org/2004/02/skos/core#altLabel> "FHIR" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fhir> <http://www.w3.org/2004/02/skos/core#altLabel> "Fast Healthcare Interoperability Resources" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fhir> <http://www.w3.org/2004/02/skos/core#altLabel> "HL7 FHIR" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fhir> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/integration-patterns> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fhir> <http://www.w3.org/2004/02/skos/core#definition> "HL7's standard for exchanging healthcare data as modular \"resources\" (Patient, Encounter, Observation and others) over a RESTful HTTP API in JSON, XML or RDF; Salesforce Health Cloud's Clinical data model is aligned with FHIR R4, with documented deviations that integration middleware must bridge." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fhir> <http://www.w3.org/2004/02/skos/core#prefLabel> "FHIR (Fast Healthcare Interoperability Resources)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fhir> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/hipaa> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fhir> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/hl7-v2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fhir> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/person-accounts> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fhir> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/rest-api> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fhir> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fhir/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fhir> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fhir/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fhir> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fhir/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fhir> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fhir/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fhir> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fhir/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fhir> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fhir/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fhir> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#consumedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/health-cloud> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fhir> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "integration" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fhir> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/fhir> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/field-audit-trail> <http://purl.org/dc/terms/created> "2026-11-06" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/field-audit-trail> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/field-audit-trail> <http://www.w3.org/2000/01/rdf-schema#label> "Field Audit Trail" .
@@ -23669,6 +23694,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fedramp/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fedramp/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fedramp/s6> <https://schema.org/url> "https://www.salesforce.com/fedramp/" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fhir/s1> <http://purl.org/dc/terms/publisher> "HL7 International" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fhir/s1> <http://purl.org/dc/terms/title> "FHIR Overview - Architects (FHIR R4, v4.0.1)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fhir/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fhir/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "standards-body" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fhir/s1> <https://schema.org/url> "https://www.hl7.org/fhir/r4/overview-arch.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fhir/s2> <http://purl.org/dc/terms/publisher> "HL7 International" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fhir/s2> <http://purl.org/dc/terms/title> "RESTful API (FHIR R4, v4.0.1)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fhir/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fhir/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "standards-body" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fhir/s2> <https://schema.org/url> "https://www.hl7.org/fhir/R4/http.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fhir/s3> <http://purl.org/dc/terms/publisher> "HL7 International" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fhir/s3> <http://purl.org/dc/terms/title> "FHIR Overview - Architects (FHIR R5, v5.0.0)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fhir/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fhir/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "standards-body" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fhir/s3> <https://schema.org/url> "https://hl7.org/fhir/overview-arch.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fhir/s4> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fhir/s4> <http://purl.org/dc/terms/title> "Mapping FHIR v4.0 to Salesforce Standard Objects (Health Cloud Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fhir/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fhir/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fhir/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.health_cloud_object_reference.meta/health_cloud_object_reference/map_fhir_overview.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fhir/s5> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fhir/s5> <http://purl.org/dc/terms/title> "Considerations for Integration (Health Cloud Developer Guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fhir/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fhir/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fhir/s5> <https://schema.org/url> "https://developer.salesforce.com/docs/industries/health-cloud-dev-guide/guide/map-fhir-considerations.html" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fhir/s6> <http://purl.org/dc/terms/publisher> "Office of the National Coordinator for Health IT (ONC)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fhir/s6> <http://purl.org/dc/terms/title> "On the Road to Cures Update: Certified API Technology" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fhir/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fhir/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "government" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/fhir/s6> <https://schema.org/url> "https://healthit.gov/blog/health-information-exchange-2/on-the-road-to-cures-update-certified-api-technology/" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-audit-trail/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-audit-trail/s1> <http://purl.org/dc/terms/title> "Field Audit Trail — Field History Retention Implementation Guide" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/field-audit-trail/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
