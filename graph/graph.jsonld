@@ -32405,6 +32405,83 @@
       ]
     },
     {
+      "@id": "kt:forceignore-file",
+      "@type": "kto:Feature",
+      "skos:prefLabel": ".forceignore File",
+      "skos:definition": "A gitignore-style text file in a Salesforce DX project that lists source files and directories Salesforce CLI project commands must skip when deploying, retrieving, converting or deleting source.",
+      "kto:domain": "devops-and-alm",
+      "dcterms:created": "2026-11-28",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "How to Exclude Source When Syncing (Salesforce DX Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/sfdx-dev/guide/sfdx-dev-exclude-source.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "project list ignored (Salesforce CLI Command Reference)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/salesforce-cli-reference/guide/cli_reference_project_list_ignored.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Salesforce DX Project Configuration (Salesforce DX Developer Guide)",
+          "dcterms:publisher": "Salesforce Developers",
+          "schema:url": "https://developer.salesforce.com/docs/platform/sfdx-dev/guide/sfdx-dev-ws-config.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "gitignore Documentation (Git Reference Manual)",
+          "dcterms:publisher": "Git project",
+          "schema:url": "https://git-scm.com/docs/gitignore",
+          "kto:sourceType": "textbook"
+        }
+      ],
+      "kto:file": "articles/devops-and-alm/forceignore-file.md",
+      "skos:altLabel": [
+        "forceignore",
+        ".forceignore",
+        "force ignore file",
+        "Salesforce DX ignore file"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:salesforce-dx"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:source-tracking"
+        },
+        {
+          "@id": "kt:sfdx-project-structure"
+        },
+        {
+          "@id": "kt:package-xml-manifest"
+        },
+        {
+          "@id": "kt:lwc-jest-testing"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:salesforce-cli"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:salesforce-dx"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:source-tracking"
+        }
+      ]
+    },
+    {
       "@id": "kt:license-management-app",
       "@type": "kto:Tool",
       "skos:prefLabel": "License Management App",
