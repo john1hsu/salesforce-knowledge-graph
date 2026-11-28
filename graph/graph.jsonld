@@ -18838,6 +18838,113 @@
       ]
     },
     {
+      "@id": "kt:einstein-bots",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Einstein Bots",
+      "skos:definition": "Service Cloud's rule-based conversational bots, built in Bot Builder from dialogs, intents, entities and variables, that greet customers on messaging channels, run scripted transactions and hand off to human agents or Agentforce agents through Omni-Channel.",
+      "kto:domain": "data-cloud-and-ai",
+      "dcterms:created": "2026-11-28",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Einstein Chatbot Benefits & Planning (Einstein Bots Basics)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/service_bots_basics/learn-about-einstein-bots",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Learn Chatbot Prerequisites & Enable Bots (Einstein Bots Basics)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/service_bots_basics/enable-einstein-bots",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Plan Chatbot Content (Einstein Bots Basics)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/service_bots_basics/plan-your-bot-content",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Build and Implement Your Bot (Einstein Bots Project Planning)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/einstein-bots-project-planning/build-and-implement-your-bot",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "The Seamless Handoff: Integrating Einstein Enhanced Bots with Agentforce Agents",
+          "dcterms:publisher": "Salesforce Developers Blog",
+          "schema:url": "https://developer.salesforce.com/blogs/2025/12/the-seamless-handoff-integrating-einstein-enhanced-bots-with-agentforce-agents",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Bots to Agents: Your Step by Step Guide (webinar)",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/eu/events/webinars/agentforce-bots-to-agents",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/data-cloud-and-ai/einstein-bots.md",
+      "skos:altLabel": [
+        "Einstein Bot",
+        "Einstein Enhanced Bots",
+        "enhanced bots",
+        "standard bots",
+        "Service Cloud chatbots",
+        "Bot Builder"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:service-cloud"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:agentforce"
+        },
+        {
+          "@id": "kt:omni-channel"
+        },
+        {
+          "@id": "kt:knowledge-base"
+        },
+        {
+          "@id": "kt:flow-builder"
+        },
+        {
+          "@id": "kt:messaging-for-in-app-and-web"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:service-cloud"
+        }
+      ],
+      "kto:requiresLicense": [
+        {
+          "@id": "kt:service-cloud"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:agentforce"
+        }
+      ],
+      "kto:integratesWith": [
+        {
+          "@id": "kt:omni-channel"
+        },
+        {
+          "@id": "kt:flow-builder"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:messaging-for-in-app-and-web"
+        }
+      ]
+    },
+    {
       "@id": "kt:einstein-generative-ai-setup",
       "@type": "kto:Feature",
       "skos:prefLabel": "Einstein Generative AI Setup",
