@@ -48676,6 +48676,79 @@
       ]
     },
     {
+      "@id": "kt:in-app-guidance",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "In-App Guidance",
+      "skos:definition": "A declarative Lightning Experience feature that lets admins show floating, targeted or docked prompts, and multi-step walkthroughs built from them, on specific app and record pages to train, onboard and inform users at the point of work, with audience, scheduling and engagement tracking.",
+      "kto:domain": "platform-architecture",
+      "dcterms:created": "2026-11-28",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Promote Feature Adoption and Discovery (Improve User Engagement with In-App Prompts)",
+          "dcterms:publisher": "Salesforce Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/user-engagement/promote-feature-adoption-and-discovery",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Create Prompts in Agentforce 360 Platform (Optimizing Lightning Prompts Creation)",
+          "dcterms:publisher": "Salesforce Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/user-engagement/create-in-app-prompts",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Prompt | Metadata Types | Metadata API Developer Guide",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://developer.salesforce.com/docs/platform/api-metadata/references/meta-types/metadata-prompt.html",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Drive User Engagement at the Point of Impact With In-App Guidance",
+          "dcterms:publisher": "Salesforce",
+          "schema:url": "https://www.salesforce.com/blog/in-app-guidance/",
+          "kto:sourceType": "official-blog"
+        }
+      ],
+      "kto:file": "articles/platform-architecture/in-app-guidance.md",
+      "skos:altLabel": [
+        "in-app prompts",
+        "Lightning prompts",
+        "In-App Guidance Builder",
+        "in-app walkthroughs",
+        "Salesforce prompts and walkthroughs"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:lightning-experience"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:change-management-and-adoption"
+        },
+        {
+          "@id": "kt:lightning-app-builder"
+        },
+        {
+          "@id": "kt:experience-cloud"
+        },
+        {
+          "@id": "kt:permission-sets"
+        }
+      ],
+      "kto:configuredVia": [
+        {
+          "@id": "kt:metadata-api"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:profiles"
+        }
+      ]
+    },
+    {
       "@id": "kt:infrastructure-as-a-service",
       "@type": "kto:ExternalConcept",
       "skos:prefLabel": "Infrastructure as a Service",
