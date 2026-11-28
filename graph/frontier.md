@@ -32,8 +32,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:batch-apex-error-event` | `kt:transaction-finalizers` |
 | `kt:invocable-methods` | `kt:apex-defined-types` |
 | `kt:actionable-relationship-center` | `kt:financial-services-cloud` |
-| `kt:backup-and-recover-next` | `kt:backup-and-recover` |
 | `kt:in-app-guidance` | `kt:change-management-and-adoption` |
+| `kt:backup-and-recover-next` | `kt:backup-and-recover` |
 | `kt:iso-iec-25010` | `kt:non-functional-requirements` |
 | `kt:constraint-modeling-language` | `kt:product-configurator` |
 | `kt:product-catalog-management` | `kt:product-configurator` |
@@ -41,8 +41,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:engagement-studio` | `kt:marketing-cloud-account-engagement` |
 | `kt:data-processing-engine` | `kt:loyalty-management` |
 | `kt:custom-labels` | `kt:flow-formula-resources` |
-| `kt:opportunity-products` | `kt:price-books` |
 | `kt:platform-cache-partitions` | `kt:platform-cache` |
+| `kt:opportunity-products` | `kt:price-books` |
 | `kt:change-order-process` | `kt:statement-of-work` |
 | `kt:fhir` | `kt:health-cloud` |
 | `kt:utilization-management` | `kt:health-cloud` |
@@ -51,8 +51,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:api-visualizer` | `kt:application-network` |
 | `kt:value-streams` | `kt:capability-maps` |
 | `kt:information-management` | `kt:data-management` |
-| `kt:mulesoft-for-flow-integration` | `kt:mulesoft-composer` |
 | `kt:semantic-layer` | `kt:tableau-semantics` |
+| `kt:mulesoft-for-flow-integration` | `kt:mulesoft-composer` |
 | `kt:marketing-cloud-data-views` | `kt:marketing-cloud-sql` |
 | `kt:query-studio` | `kt:marketing-cloud-sql` |
 | `kt:aws-lambda` | `kt:amazon-connect` |
@@ -81,11 +81,11 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:storefront-reference-architecture` | `kt:b2c-commerce` |
 | `kt:hmac-based-one-time-password` | `kt:time-based-one-time-password` |
 | `kt:partner-relationship-management` | `kt:partner-community-licenses` |
-| `kt:apex-soap-web-services` | `kt:apex-rest-services` |
-| `kt:destructive-changes` | `kt:rollback-plan` |
 | `kt:ldap` | `kt:delegated-authentication` |
-| `kt:isv-customer-debugger` | `kt:subscriber-support-console` |
+| `kt:destructive-changes` | `kt:rollback-plan` |
+| `kt:apex-soap-web-services` | `kt:apex-rest-services` |
 | `kt:experience-cloud-consultant-certification` | `kt:licensing-strategy` |
+| `kt:isv-customer-debugger` | `kt:subscriber-support-console` |
 | `kt:einstein-discovery-rest-api` | `kt:einstein-discovery` |
 | `kt:sql-for-crm-analytics` | `kt:saql` |
 | `kt:api-community-manager` | `kt:api-experience-hub` |
@@ -112,10 +112,10 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:nonprofit-success-pack` | `kt:agentforce-nonprofit` |
 | `kt:iso-iec-29100` | `kt:iso-iec-27018` |
 | `kt:digital-accessibility` | `kt:section-508-accessibility` |
-| `kt:wcag` | `kt:section-508-accessibility` |
 | `kt:federal-acquisition-regulation` | `kt:performance-work-statement` |
 | `kt:quality-assurance-surveillance-plan` | `kt:performance-work-statement` |
 | `kt:statement-of-objectives` | `kt:performance-work-statement` |
+| `kt:wcag` | `kt:section-508-accessibility` |
 | `kt:life-cycle-cost-estimate` | `kt:rough-order-of-magnitude-estimate` |
 | `kt:project-estimation` | `kt:rough-order-of-magnitude-estimate` |
 | `kt:json` | `kt:apex-json-serialization` |
@@ -129,7 +129,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:app-manager` | `kt:app-launcher` |
 | `kt:lightning-apps` | `kt:app-launcher` |
 | `kt:privacy-center` | `kt:ccpa-and-cpra` |
-| `kt:sfdx-project-structure` | `kt:forceignore-file` |
 | `kt:aws-clean-rooms` | `kt:data-360-clean-rooms` |
 | `kt:cross-cloud-integration` | `kt:salesforce-solution-kits` |
 | `kt:custom-field-allocations` | `kt:deleted-fields-and-field-undelete` |
@@ -140,5 +139,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:messaging-for-in-app-and-web` | `kt:einstein-bots` |
 | `kt:notes-and-attachments` | `kt:content-document-model` |
 | `kt:salesforce-health-insights` | `kt:org-health-assessment` |
+| `kt:sfdx-project-structure` | `kt:forceignore-file` |
 | `kt:tableau-blueprint` | `kt:tableau-architect-certification` |
 | `kt:tableau-server-administrator-certification` | `kt:tableau-architect-certification` |

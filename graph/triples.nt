@@ -1100,6 +1100,30 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-flex-queue> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#governedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/governor-limits> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-flex-queue> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-flex-queue> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-hammer-test> <http://purl.org/dc/terms/created> "2026-11-28" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-hammer-test> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-hammer-test> <http://www.w3.org/2000/01/rdf-schema#label> "Apex Hammer Test" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-hammer-test> <http://www.w3.org/2004/02/skos/core#altLabel> "Apex Hammer" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-hammer-test> <http://www.w3.org/2004/02/skos/core#altLabel> "Hammer testing" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-hammer-test> <http://www.w3.org/2004/02/skos/core#altLabel> "Hammertime" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-hammer-test> <http://www.w3.org/2004/02/skos/core#altLabel> "The Hammer" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-hammer-test> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/salesforce-seasonal-releases> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-hammer-test> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/testing-strategy> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-hammer-test> <http://www.w3.org/2004/02/skos/core#definition> "Salesforce's internal pre-release regression process that runs customers' Apex tests twice, on the current production version and on the upcoming release candidate, and compares the results to catch platform changes that would break customer code before the seasonal upgrade." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-hammer-test> <http://www.w3.org/2004/02/skos/core#prefLabel> "Apex Hammer Test" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-hammer-test> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-testing> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-hammer-test> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/release-management> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-hammer-test> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/release-updates> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-hammer-test> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/sandbox-preview> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-hammer-test> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/seealldata> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-hammer-test> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-hammer-test/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-hammer-test> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-hammer-test/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-hammer-test> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-hammer-test/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-hammer-test> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#contrastsWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/user-acceptance-testing> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-hammer-test> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-testing> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-hammer-test> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "devops-and-alm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-hammer-test> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "concept" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-hammer-test> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-interfaces> <http://purl.org/dc/terms/created> "2026-11-27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-interfaces> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Concept> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/apex-interfaces> <http://www.w3.org/2000/01/rdf-schema#label> "Apex Interfaces" .
@@ -17945,6 +17969,21 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-flex-queue/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-flex-queue/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-flex-queue/s4> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexcode/apex_methods_system_test.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-hammer-test/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers Blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-hammer-test/s1> <http://purl.org/dc/terms/title> "Here Comes the Hammer" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-hammer-test/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-hammer-test/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-hammer-test/s1> <https://schema.org/url> "https://developer.salesforce.com/blogs/2013/05/here-comes-the-hammer" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-hammer-test/s2> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-hammer-test/s2> <http://purl.org/dc/terms/title> "Apex Developer Guide: Isolation of Test Data from Organization Data in Unit Tests" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-hammer-test/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-hammer-test/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-hammer-test/s2> <https://schema.org/url> "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/pages/apex_testing_data_access.htm" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-hammer-test/s3> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-hammer-test/s3> <http://purl.org/dc/terms/title> "Plan Testing for Salesforce New Features (Advanced Salesforce Release Readiness Strategies)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-hammer-test/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-hammer-test/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-hammer-test/s3> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/advanced-salesforce-release-readiness-strategies/test-new-features-before-a-release" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-interfaces/s1> <http://purl.org/dc/terms/publisher> "Salesforce Developers" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-interfaces/s1> <http://purl.org/dc/terms/title> "Apex Developer Guide: Interfaces (Winter '27, API version 68.0)" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/apex-interfaces/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
