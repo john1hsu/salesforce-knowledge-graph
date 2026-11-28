@@ -10,7 +10,6 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:business-analyst-certification` | `kt:business-analyst`, `kt:user-acceptance-testing` |
 | `kt:b2b-commerce` | `kt:b2c-commerce`, `kt:commerce-cloud` |
 | `kt:business-architecture` | `kt:capability-maps`, `kt:togaf` |
-| `kt:webauthn` | `kt:passkeys`, `kt:security-keys` |
 | `kt:b2c-commerce-architect-certification` | `kt:b2c-commerce`, `kt:b2c-solution-architect-certification` |
 | `kt:enterprise-architecture` | `kt:architecture-roadmaps`, `kt:togaf` |
 | `kt:controlled-unclassified-information` | `kt:cmmc`, `kt:nist-sp-800-171` |
@@ -53,8 +52,8 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:data-cloud-query-api` | `kt:data-graphs` |
 | `kt:enterprise-service-bus` | `kt:point-to-point-integration` |
 | `kt:holidays` | `kt:business-hours` |
-| `kt:opportunity-products` | `kt:price-books` |
 | `kt:value-streams` | `kt:capability-maps` |
+| `kt:opportunity-products` | `kt:price-books` |
 | `kt:api-visualizer` | `kt:application-network` |
 | `kt:information-management` | `kt:data-management` |
 | `kt:mulesoft-for-flow-integration` | `kt:mulesoft-composer` |
@@ -68,19 +67,20 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:ui-api` | `kt:field-dependencies` |
 | `kt:apex-mockery` | `kt:apex-mocks` |
 | `kt:apex-stub-api` | `kt:apex-mocks` |
-| `kt:artificial-intelligence` | `kt:generative-ai` |
 | `kt:guest-user-sharing-rules` | `kt:share-groups` |
+| `kt:artificial-intelligence` | `kt:generative-ai` |
 | `kt:large-language-models` | `kt:generative-ai` |
 | `kt:decision-matrices` | `kt:decision-tables` |
 | `kt:shared-activities` | `kt:activity-data-model` |
 | `kt:data-cloud-code-extension` | `kt:vector-search-in-data-cloud` |
 | `kt:mobile-sync` | `kt:mobile-sdk` |
 | `kt:smartstore` | `kt:mobile-sdk` |
-| `kt:developer-console` | `kt:apex-logging-and-debug-logs` |
 | `kt:custom-labels` | `kt:flow-formula-resources` |
+| `kt:developer-console` | `kt:apex-logging-and-debug-logs` |
 | `kt:slds-linter` | `kt:salesforce-lightning-design-system` |
 | `kt:science` | `kt:computer-science` |
 | `kt:software-engineering` | `kt:computer-science` |
+| `kt:hmac-based-one-time-password` | `kt:time-based-one-time-password` |
 | `kt:partner-relationship-management` | `kt:partner-community-licenses` |
 | `kt:destructive-changes` | `kt:rollback-plan` |
 | `kt:ldap` | `kt:delegated-authentication` |
@@ -90,21 +90,21 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:experience-cloud-consultant-certification` | `kt:licensing-strategy` |
 | `kt:api-community-manager` | `kt:api-experience-hub` |
 | `kt:fiscal-years` | `kt:date-and-date-time-fields` |
-| `kt:business-administration` | `kt:management` |
-| `kt:currency-type-object` | `kt:multiple-currencies` |
+| `kt:client-to-authenticator-protocol` | `kt:webauthn` |
 | `kt:business-manager` | `kt:b2c-commerce` |
 | `kt:composable-storefront` | `kt:b2c-commerce` |
 | `kt:salesforce-commerce-api` | `kt:b2c-commerce` |
 | `kt:storefront-reference-architecture` | `kt:b2c-commerce` |
-| `kt:hmac-based-one-time-password` | `kt:time-based-one-time-password` |
+| `kt:business-administration` | `kt:management` |
+| `kt:currency-type-object` | `kt:multiple-currencies` |
 | `kt:user-provisioning` | `kt:scim` |
+| `kt:mulesoft-agent-fabric` | `kt:multi-agent-orchestration` |
 | `kt:anypoint-monitoring` | `kt:anypoint-runtime-manager` |
 | `kt:cloudhub-2` | `kt:anypoint-runtime-manager` |
-| `kt:mulesoft-agent-fabric` | `kt:multi-agent-orchestration` |
 | `kt:runtime-fabric` | `kt:anypoint-runtime-manager` |
 | `kt:runtime-manager-agent` | `kt:anypoint-runtime-manager` |
-| `kt:document-ai` | `kt:unstructured-data-in-data-cloud` |
 | `kt:einstein-prediction-builder` | `kt:einstein-next-best-action` |
+| `kt:document-ai` | `kt:unstructured-data-in-data-cloud` |
 | `kt:signup-request-api` | `kt:trialforce` |
 | `kt:organization-wide-email-addresses` | `kt:email-alerts` |
 | `kt:enhanced-letterheads` | `kt:email-templates` |
@@ -113,10 +113,10 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:nonprofit-success-pack` | `kt:agentforce-nonprofit` |
 | `kt:iso-iec-29100` | `kt:iso-iec-27018` |
 | `kt:digital-accessibility` | `kt:section-508-accessibility` |
-| `kt:wcag` | `kt:section-508-accessibility` |
 | `kt:federal-acquisition-regulation` | `kt:performance-work-statement` |
 | `kt:quality-assurance-surveillance-plan` | `kt:performance-work-statement` |
 | `kt:statement-of-objectives` | `kt:performance-work-statement` |
+| `kt:wcag` | `kt:section-508-accessibility` |
 | `kt:life-cycle-cost-estimate` | `kt:rough-order-of-magnitude-estimate` |
 | `kt:project-estimation` | `kt:rough-order-of-magnitude-estimate` |
 | `kt:json` | `kt:apex-json-serialization` |
@@ -128,18 +128,18 @@ Nodes referenced by existing articles but not yet written. Ranked by how many ar
 | `kt:twelve-factor-app` | `kt:heroku-architect-certification` |
 | `kt:salesforce-maps` | `kt:geolocation-fields` |
 | `kt:view-all-data-and-modify-all-data` | `kt:view-all-and-modify-all-permissions` |
-| `kt:app-manager` | `kt:app-launcher` |
 | `kt:aws-clean-rooms` | `kt:data-360-clean-rooms` |
-| `kt:bearer-token-security` | `kt:frontdoor-jsp-session-bridging` |
 | `kt:custom-field-allocations` | `kt:deleted-fields-and-field-undelete` |
 | `kt:data-clean-room` | `kt:data-360-clean-rooms` |
 | `kt:einstein-activity-capture` | `kt:agentforce-sdr` |
-| `kt:lightning-apps` | `kt:app-launcher` |
 | `kt:notes-and-attachments` | `kt:content-document-model` |
 | `kt:privacy-center` | `kt:ccpa-and-cpra` |
+| `kt:app-manager` | `kt:app-launcher` |
+| `kt:bearer-token-security` | `kt:frontdoor-jsp-session-bridging` |
 | `kt:cross-cloud-integration` | `kt:salesforce-solution-kits` |
 | `kt:document-checklist-items` | `kt:action-plans` |
 | `kt:greenhouse-gas-protocol` | `kt:net-zero-cloud` |
+| `kt:lightning-apps` | `kt:app-launcher` |
 | `kt:salesforce-health-insights` | `kt:org-health-assessment` |
 | `kt:stakeholder-mapping` | `kt:user-personas` |
 | `kt:tableau-blueprint` | `kt:tableau-architect-certification` |
