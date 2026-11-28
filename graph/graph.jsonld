@@ -7265,6 +7265,112 @@
       ]
     },
     {
+      "@id": "kt:flow-entry-conditions",
+      "@type": "kto:Feature",
+      "skos:prefLabel": "Flow Entry Conditions",
+      "skos:definition": "The filter on a record-triggered flow's Start element (field conditions, condition logic or a formula, plus the \"when to run for updated records\" choice) that decides whether a record save launches the flow at all.",
+      "kto:domain": "automation",
+      "dcterms:created": "2026-11-28",
+      "kto:verifiedRelease": "Winter '27",
+      "kto:status": "current",
+      "prov:wasDerivedFrom": [
+        {
+          "dcterms:title": "Build a Record-Triggered Flow (Record-Triggered Flows module)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/record-triggered-flows/build-a-record-triggered-flow",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Get Started with Triggered Flows (Record-Triggered Flows module)",
+          "dcterms:publisher": "Trailhead",
+          "schema:url": "https://trailhead.salesforce.com/content/learn/modules/record-triggered-flows/get-started-with-triggered-flows",
+          "kto:sourceType": "official-learning"
+        },
+        {
+          "dcterms:title": "Record-Triggered Automation (Platform Decision Guides)",
+          "dcterms:publisher": "Salesforce Architects",
+          "schema:url": "https://architect.salesforce.com/docs/architect/decision-guides/guide/record-triggered",
+          "kto:sourceType": "official-docs"
+        },
+        {
+          "dcterms:title": "Automate This! — Use Formulas in Record-Triggered Flows with Aleksandra Radovanovic",
+          "dcterms:publisher": "Salesforce Admins",
+          "schema:url": "https://admin.salesforce.com/blog/2022/automate-this-use-formulas-in-record-triggered-flows-with-aleksandra-radovanovic",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Automate This! — Designing Record-Triggered Flows",
+          "dcterms:publisher": "Salesforce Admins",
+          "schema:url": "https://admin.salesforce.com/blog/2022/automate-this-designing-record-triggered-flows",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "What Is a Record-Triggered Flow?",
+          "dcterms:publisher": "Salesforce Admins",
+          "schema:url": "https://admin.salesforce.com/blog/2023/what-is-a-record-triggered-flow",
+          "kto:sourceType": "official-blog"
+        },
+        {
+          "dcterms:title": "Record-Triggered Automation Guide (trigger automation decision guide)",
+          "dcterms:publisher": "Salesforce Architects",
+          "schema:url": "https://architect.salesforce.com/decision-guides/trigger-automation",
+          "kto:sourceType": "official-docs"
+        }
+      ],
+      "kto:file": "articles/automation/flow-entry-conditions.md",
+      "skos:altLabel": [
+        "record-triggered flow entry conditions",
+        "start element conditions",
+        "flow entry criteria",
+        "condition requirements to execute outcome"
+      ],
+      "skos:broader": [
+        {
+          "@id": "kt:record-triggered-flow"
+        },
+        {
+          "@id": "kt:flow-builder"
+        }
+      ],
+      "skos:related": [
+        {
+          "@id": "kt:flow-formula-resources"
+        },
+        {
+          "@id": "kt:scheduled-paths"
+        },
+        {
+          "@id": "kt:flow-bulkification"
+        },
+        {
+          "@id": "kt:flow-decision-element"
+        },
+        {
+          "@id": "kt:flow-debugging"
+        }
+      ],
+      "kto:partOf": [
+        {
+          "@id": "kt:record-triggered-flow"
+        }
+      ],
+      "kto:alternativeTo": [
+        {
+          "@id": "kt:flow-decision-element"
+        }
+      ],
+      "kto:dependsOn": [
+        {
+          "@id": "kt:order-of-execution"
+        }
+      ],
+      "kto:contrastsWith": [
+        {
+          "@id": "kt:process-builder"
+        }
+      ]
+    },
+    {
       "@id": "kt:flow-fault-handling",
       "@type": "kto:Pattern",
       "skos:prefLabel": "Flow Fault Handling",
@@ -9285,6 +9391,9 @@
         },
         {
           "@id": "kt:scheduled-paths"
+        },
+        {
+          "@id": "kt:flow-entry-conditions"
         }
       ],
       "kto:alternativeTo": [

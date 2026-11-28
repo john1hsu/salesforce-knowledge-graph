@@ -7406,6 +7406,36 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-decision-element> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#governedBy> <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-limits> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-decision-element> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-decision-element> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-entry-conditions> <http://purl.org/dc/terms/created> "2026-11-28" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-entry-conditions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Feature> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-entry-conditions> <http://www.w3.org/2000/01/rdf-schema#label> "Flow Entry Conditions" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-entry-conditions> <http://www.w3.org/2004/02/skos/core#altLabel> "condition requirements to execute outcome" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-entry-conditions> <http://www.w3.org/2004/02/skos/core#altLabel> "flow entry criteria" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-entry-conditions> <http://www.w3.org/2004/02/skos/core#altLabel> "record-triggered flow entry conditions" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-entry-conditions> <http://www.w3.org/2004/02/skos/core#altLabel> "start element conditions" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-entry-conditions> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-builder> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-entry-conditions> <http://www.w3.org/2004/02/skos/core#broader> <https://github.com/john1hsu/salesforce-knowledge-graph/id/record-triggered-flow> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-entry-conditions> <http://www.w3.org/2004/02/skos/core#definition> "The filter on a record-triggered flow's Start element (field conditions, condition logic or a formula, plus the \"when to run for updated records\" choice) that decides whether a record save launches the flow at all." .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-entry-conditions> <http://www.w3.org/2004/02/skos/core#prefLabel> "Flow Entry Conditions" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-entry-conditions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-bulkification> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-entry-conditions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-debugging> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-entry-conditions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-decision-element> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-entry-conditions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-formula-resources> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-entry-conditions> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/scheduled-paths> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-entry-conditions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-entry-conditions/s1> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-entry-conditions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-entry-conditions/s2> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-entry-conditions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-entry-conditions/s3> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-entry-conditions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-entry-conditions/s4> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-entry-conditions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-entry-conditions/s5> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-entry-conditions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-entry-conditions/s6> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-entry-conditions> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-entry-conditions/s7> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-entry-conditions> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#alternativeTo> <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-decision-element> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-entry-conditions> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#contrastsWith> <https://github.com/john1hsu/salesforce-knowledge-graph/id/process-builder> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-entry-conditions> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#dependsOn> <https://github.com/john1hsu/salesforce-knowledge-graph/id/order-of-execution> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-entry-conditions> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#domain> "automation" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-entry-conditions> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#partOf> <https://github.com/john1hsu/salesforce-knowledge-graph/id/record-triggered-flow> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-entry-conditions> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#status> "current" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-entry-conditions> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#verifiedRelease> "Winter '27" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-fault-handling> <http://purl.org/dc/terms/created> "2026-11-04" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-fault-handling> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Pattern> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-fault-handling> <http://www.w3.org/2000/01/rdf-schema#label> "Flow Fault Handling" .
@@ -13563,6 +13593,7 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/record-triggered-flow> <http://www.w3.org/2004/02/skos/core#definition> "An autolaunched flow that runs in the background when a record is created, updated or deleted, with before-save (fast field update), after-save, asynchronous and scheduled paths; Salesforce's primary low-code alternative to Apex triggers." .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/record-triggered-flow> <http://www.w3.org/2004/02/skos/core#prefLabel> "Record-Triggered Flow" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/record-triggered-flow> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/autolaunched-flow> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/record-triggered-flow> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-entry-conditions> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/record-triggered-flow> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/flow-trigger-explorer> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/record-triggered-flow> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/order-of-execution> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/record-triggered-flow> <http://www.w3.org/2004/02/skos/core#related> <https://github.com/john1hsu/salesforce-knowledge-graph/id/scheduled-paths> .
@@ -24150,6 +24181,41 @@
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-decision-element/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-decision-element/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-decision-element/s6> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/record-triggered-flows/build-a-record-triggered-flow" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-entry-conditions/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-entry-conditions/s1> <http://purl.org/dc/terms/title> "Build a Record-Triggered Flow (Record-Triggered Flows module)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-entry-conditions/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-entry-conditions/s1> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-entry-conditions/s1> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/record-triggered-flows/build-a-record-triggered-flow" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-entry-conditions/s2> <http://purl.org/dc/terms/publisher> "Trailhead" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-entry-conditions/s2> <http://purl.org/dc/terms/title> "Get Started with Triggered Flows (Record-Triggered Flows module)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-entry-conditions/s2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-entry-conditions/s2> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-learning" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-entry-conditions/s2> <https://schema.org/url> "https://trailhead.salesforce.com/content/learn/modules/record-triggered-flows/get-started-with-triggered-flows" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-entry-conditions/s3> <http://purl.org/dc/terms/publisher> "Salesforce Architects" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-entry-conditions/s3> <http://purl.org/dc/terms/title> "Record-Triggered Automation (Platform Decision Guides)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-entry-conditions/s3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-entry-conditions/s3> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-entry-conditions/s3> <https://schema.org/url> "https://architect.salesforce.com/docs/architect/decision-guides/guide/record-triggered" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-entry-conditions/s4> <http://purl.org/dc/terms/publisher> "Salesforce Admins" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-entry-conditions/s4> <http://purl.org/dc/terms/title> "Automate This! — Use Formulas in Record-Triggered Flows with Aleksandra Radovanovic" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-entry-conditions/s4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-entry-conditions/s4> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-entry-conditions/s4> <https://schema.org/url> "https://admin.salesforce.com/blog/2022/automate-this-use-formulas-in-record-triggered-flows-with-aleksandra-radovanovic" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-entry-conditions/s5> <http://purl.org/dc/terms/publisher> "Salesforce Admins" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-entry-conditions/s5> <http://purl.org/dc/terms/title> "Automate This! — Designing Record-Triggered Flows" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-entry-conditions/s5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-entry-conditions/s5> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-entry-conditions/s5> <https://schema.org/url> "https://admin.salesforce.com/blog/2022/automate-this-designing-record-triggered-flows" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-entry-conditions/s6> <http://purl.org/dc/terms/publisher> "Salesforce Admins" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-entry-conditions/s6> <http://purl.org/dc/terms/title> "What Is a Record-Triggered Flow?" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-entry-conditions/s6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-entry-conditions/s6> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-blog" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-entry-conditions/s6> <https://schema.org/url> "https://admin.salesforce.com/blog/2023/what-is-a-record-triggered-flow" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-entry-conditions/s7> <http://purl.org/dc/terms/publisher> "Salesforce Architects" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-entry-conditions/s7> <http://purl.org/dc/terms/title> "Record-Triggered Automation Guide (trigger automation decision guide)" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-entry-conditions/s7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-entry-conditions/s7> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#sourceType> "official-docs" .
+<https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-entry-conditions/s7> <https://schema.org/url> "https://architect.salesforce.com/decision-guides/trigger-automation" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-fault-handling/s1> <http://purl.org/dc/terms/publisher> "Trailhead" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-fault-handling/s1> <http://purl.org/dc/terms/title> "Flow Implementation 2: Roll Back Changes After an Error" .
 <https://github.com/john1hsu/salesforce-knowledge-graph/id/source/flow-fault-handling/s1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://github.com/john1hsu/salesforce-knowledge-graph/ontology#Source> .
